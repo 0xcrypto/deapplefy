@@ -1,0 +1,455 @@
+{
+  "framework": "EmailCore.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/EmailCore.framework/Versions/A/PlugIns/EmailCore.wkbundle/Contents/MacOS/EmailCore",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 0,
+          "binsz": 70608,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": false,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "",
+          "laddr": 0,
+          "lang": "objc",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": false,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/PrivateFrameworks/DataDetectors.framework/Versions/A/DataDetectors",
+          "/System/Library/PrivateFrameworks/DataDetectorsCore.framework/Versions/A/DataDetectorsCore",
+          "/System/Library/PrivateFrameworks/EmailFoundation.framework/Versions/A/EmailFoundation",
+          "/System/Library/Frameworks/WebKit.framework/Versions/A/WebKit",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "ECBundlePageController",
+        "addr": 35304,
+        "lang": "objc",
+        "index": 0,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithPlugIn:contextController:",
+            "flag": "method.ECBundlePageController.initWithPlugIn:contextController:",
+            "lang": "objc",
+            "addr": 3208
+          },
+          {
+            "name": "invalidate",
+            "flag": "method.ECBundlePageController.invalidate",
+            "lang": "objc",
+            "addr": 3460
+          },
+          {
+            "name": "webContentObserverProxy",
+            "flag": "method.ECBundlePageController.webContentObserverProxy",
+            "lang": "objc",
+            "addr": 3472
+          },
+          {
+            "name": "webProcessPlugInBrowserContextController:didFinishDocumentLoadForFrame:",
+            "flag": "method.ECBundlePageController.webProcessPlugInBrowserContextController:didFinishDocumentLoadForFrame:",
+            "lang": "objc",
+            "addr": 3720
+          },
+          {
+            "name": "webProcessPlugInBrowserContextController:frame:willSendRequestForResource:request:redirectResponse:",
+            "flag": "method.ECBundlePageController.webProcessPlugInBrowserContextController:frame:willSendRequestForResource:request:redirectResponse:",
+            "lang": "objc",
+            "addr": 4020
+          },
+          {
+            "name": "plugIn",
+            "flag": "method.ECBundlePageController.plugIn",
+            "lang": "objc",
+            "addr": 4228
+          },
+          {
+            "name": "controller",
+            "flag": "method.ECBundlePageController.controller",
+            "lang": "objc",
+            "addr": 4272
+          },
+          {
+            "name": "setWebContentObserverProxy:",
+            "flag": "method.ECBundlePageController.setWebContentObserverProxy:",
+            "lang": "objc",
+            "addr": 4280
+          },
+          {
+            "name": "remoteContentURLs",
+            "flag": "method.ECBundlePageController.remoteContentURLs",
+            "lang": "objc",
+            "addr": 4292
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.ECBundlePageController..cxx_destruct",
+            "lang": "objc",
+            "addr": 4300
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_remoteContentURLs",
+            "kind": "var",
+            "type": "@\"NSMutableArray\"",
+            "addr": 35232
+          },
+          {
+            "name": "_plugIn",
+            "kind": "var",
+            "type": "@\"<WKWebProcessPlugIn>\"",
+            "addr": 35236
+          },
+          {
+            "name": "_controller",
+            "kind": "var",
+            "type": "@\"WKWebProcessPlugInBrowserContextController\"",
+            "addr": 35240
+          },
+          {
+            "name": "_webContentObserverProxy",
+            "kind": "var",
+            "type": "@\"<ECWebContentObserver>\"",
+            "addr": 35244
+          },
+          {
+            "name": "remoteContentURLs",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "plugIn",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "webContentObserverProxy",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "controller",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "ECBundlePageController_macOS",
+        "addr": 35384,
+        "lang": "objc",
+        "index": 1,
+        "super": [
+          "ECBundlePageController",
+          "ECBundlePageController"
+        ],
+        "rawsuper": [
+          "ECBundlePageController",
+          "ECBundlePageController"
+        ],
+        "methods": [
+          {
+            "name": "initWithPlugIn:contextController:",
+            "flag": "method.ECBundlePageController_macOS.initWithPlugIn:contextController:",
+            "lang": "objc",
+            "addr": 4388
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.ECBundlePageController_macOS.dealloc",
+            "lang": "objc",
+            "addr": 4684
+          },
+          {
+            "name": "webProcessPlugInBrowserContextController:didFinishLoadForFrame:",
+            "flag": "method.ECBundlePageController_macOS.webProcessPlugInBrowserContextController:didFinishLoadForFrame:",
+            "lang": "objc",
+            "addr": 4848
+          },
+          {
+            "name": "invalidate",
+            "flag": "method.ECBundlePageController_macOS.invalidate",
+            "lang": "objc",
+            "addr": 4936
+          },
+          {
+            "name": "discardDataDetectionState",
+            "flag": "method.ECBundlePageController_macOS.discardDataDetectionState",
+            "lang": "objc",
+            "addr": 5012
+          },
+          {
+            "name": "dataDetectorsExternalUIStarted",
+            "flag": "method.ECBundlePageController_macOS.dataDetectorsExternalUIStarted",
+            "lang": "objc",
+            "addr": 5188
+          },
+          {
+            "name": "dataDetectorsExternalUIChanged",
+            "flag": "method.ECBundlePageController_macOS.dataDetectorsExternalUIChanged",
+            "lang": "objc",
+            "addr": 5276
+          },
+          {
+            "name": "dataDetectorsExternalUIStopped",
+            "flag": "method.ECBundlePageController_macOS.dataDetectorsExternalUIStopped",
+            "lang": "objc",
+            "addr": 5280
+          },
+          {
+            "name": "beginDataDetection",
+            "flag": "method.ECBundlePageController_macOS.beginDataDetection",
+            "lang": "objc",
+            "addr": 5368
+          },
+          {
+            "name": "detectorManager:didScanTextWithIdentifier:results:",
+            "flag": "method.ECBundlePageController_macOS.detectorManager:didScanTextWithIdentifier:results:",
+            "lang": "objc",
+            "addr": 5636
+          },
+          {
+            "name": "dataDetectorManager",
+            "flag": "method.ECBundlePageController_macOS.dataDetectorManager",
+            "lang": "objc",
+            "addr": 5824
+          },
+          {
+            "name": "setDataDetectorManager:",
+            "flag": "method.ECBundlePageController_macOS.setDataDetectorManager:",
+            "lang": "objc",
+            "addr": 5840
+          },
+          {
+            "name": "currentDataDetectionIdentifier",
+            "flag": "method.ECBundlePageController_macOS.currentDataDetectionIdentifier",
+            "lang": "objc",
+            "addr": 5860
+          },
+          {
+            "name": "setCurrentDataDetectionIdentifier:",
+            "flag": "method.ECBundlePageController_macOS.setCurrentDataDetectionIdentifier:",
+            "lang": "objc",
+            "addr": 5876
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.ECBundlePageController_macOS..cxx_destruct",
+            "lang": "objc",
+            "addr": 5888
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_dataDetectorManager",
+            "kind": "var",
+            "type": "@\"DDDetectorManager2\"",
+            "addr": 35248
+          },
+          {
+            "name": "_currentDataDetectionIdentifier",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 35252
+          },
+          {
+            "name": "dataDetectorManager",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "currentDataDetectionIdentifier",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "EmailCoreWebProcessPlugin",
+        "addr": 35464,
+        "lang": "objc",
+        "index": 2,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.EmailCoreWebProcessPlugin.init",
+            "lang": "objc",
+            "addr": 5972
+          },
+          {
+            "name": "webProcessPlugIn:initializeWithObject:",
+            "flag": "method.EmailCoreWebProcessPlugin.webProcessPlugIn:initializeWithObject:",
+            "lang": "objc",
+            "addr": 6112
+          },
+          {
+            "name": "webProcessPlugIn:didCreateBrowserContextController:",
+            "flag": "method.EmailCoreWebProcessPlugin.webProcessPlugIn:didCreateBrowserContextController:",
+            "lang": "objc",
+            "addr": 6124
+          },
+          {
+            "name": "webProcessPlugIn:willDestroyBrowserContextController:",
+            "flag": "method.EmailCoreWebProcessPlugin.webProcessPlugIn:willDestroyBrowserContextController:",
+            "lang": "objc",
+            "addr": 6288
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.EmailCoreWebProcessPlugin..cxx_destruct",
+            "lang": "objc",
+            "addr": 6444
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_controller",
+            "kind": "var",
+            "type": "@\"WKWebProcessPlugInController\"",
+            "addr": 35256
+          },
+          {
+            "name": "_pageControllersByContext",
+            "kind": "var",
+            "type": "@\"NSMapTable\"",
+            "addr": 35260
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      }
+    ],
+    "protocols": []
+  },
+  "usage": {
+    "layer": "usage",
+    "status": "not_implemented"
+  },
+  "runtime": {
+    "layer": "runtime",
+    "status": "not_implemented"
+  }
+}

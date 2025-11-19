@@ -1,0 +1,24 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Deapplefy'
+theme = 'hextra'
+
+[params]
+  description = "Documentation for Apple Private Frameworks"
+  
+[menu]
+  [[menu.main]]
+    name = "Documentation"
+    pageRef = "/docs"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    pageRef = "/about"
+    weight = 2
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false

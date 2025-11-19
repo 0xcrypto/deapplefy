@@ -1,0 +1,155 @@
+{
+  "framework": "CoreTime.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/CoreTime.framework/TimeSources/ServerState.bundle/Contents/MacOS/ServerState",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 0,
+          "binsz": 70800,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "",
+          "laddr": 0,
+          "lang": "objc",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": false,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "SNTPPlugin",
+        "addr": 33792,
+        "lang": "objc",
+        "index": 0,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithClock:daemonCore:",
+            "flag": "func.00000b78",
+            "lang": "objc",
+            "addr": 2936
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.SNTPPlugin.dealloc",
+            "lang": "objc",
+            "addr": 3012
+          },
+          {
+            "name": "didSetTime:withUncertainty:fromSource:lastInput:",
+            "flag": "method.SNTPPlugin.didSetTime:withUncertainty:fromSource:lastInput:",
+            "lang": "objc",
+            "addr": 3088
+          },
+          {
+            "name": "initWithClock:daemonCore:",
+            "flag": "method.SNTPPlugin.initWithClock:daemonCore:",
+            "lang": "objc",
+            "addr": 5608
+          },
+          {
+            "name": "initWithClock:daemonCore:",
+            "flag": "method.SNTPPlugin.initWithClock:daemonCore:",
+            "lang": "objc",
+            "addr": 5608
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "daemonCore",
+            "kind": "var",
+            "type": "@\"<TMDaemonCore>\"",
+            "addr": 33736
+          },
+          {
+            "name": "header",
+            "kind": "var",
+            "type": "^{?=b3b3b2CCc{?=SS}{?=SS}I{?=II}}",
+            "addr": 33740
+          },
+          {
+            "name": "logs",
+            "kind": "var",
+            "type": "@\"NSObject<OS_os_log>\"",
+            "addr": 33744
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      }
+    ],
+    "protocols": []
+  },
+  "usage": {
+    "layer": "usage",
+    "status": "not_implemented"
+  },
+  "runtime": {
+    "layer": "runtime",
+    "status": "not_implemented"
+  }
+}

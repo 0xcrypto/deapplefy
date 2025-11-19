@@ -1,0 +1,6952 @@
+{
+  "framework": "DifferentialPrivacy.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/DifferentialPrivacy.framework/XPCServices/DPSubmissionService.xpc/Contents/MacOS/DPSubmissionService",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 653872,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "swift",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/PrivateFrameworks/DifferentialPrivacy.framework/Versions/A/DifferentialPrivacy",
+          "/System/Library/PrivateFrameworks/NetworkServiceProxy.framework/Versions/A/NetworkServiceProxy",
+          "/System/Library/PrivateFrameworks/CrashReporterSupport.framework/Versions/A/CrashReporterSupport",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/CloudKit.framework/Versions/A/CloudKit",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "/System/Library/Frameworks/CryptoKit.framework/Versions/A/CryptoKit",
+          "/System/Library/Frameworks/Security.framework/Versions/A/Security",
+          "/System/Library/PrivateFrameworks/CloudKitCode.framework/Versions/A/CloudKitCode",
+          "/System/Library/PrivateFrameworks/DeviceIdentity.framework/Versions/A/DeviceIdentity",
+          "/System/Library/PrivateFrameworks/InternalSwiftProtobuf.framework/Versions/A/InternalSwiftProtobuf",
+          "/usr/lib/swift/libswiftAccelerate.dylib",
+          "/usr/lib/swift/libswiftCore.dylib",
+          "/usr/lib/swift/libswiftCoreFoundation.dylib",
+          "/usr/lib/swift/libswiftCoreLocation.dylib",
+          "/usr/lib/swift/libswiftDispatch.dylib",
+          "/usr/lib/swift/libswiftIOKit.dylib",
+          "/usr/lib/swift/libswiftMetal.dylib",
+          "/usr/lib/swift/libswiftOSLog.dylib",
+          "/usr/lib/swift/libswiftObjectiveC.dylib",
+          "/usr/lib/swift/libswiftQuartzCore.dylib",
+          "/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib",
+          "/usr/lib/swift/libswiftXPC.dylib",
+          "/usr/lib/swift/libswift_Builtin_float.dylib",
+          "/usr/lib/swift/libswiftos.dylib",
+          "/usr/lib/swift/libswiftsimd.dylib"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "NSDictionary(_DPPrivateAccessTokenConfig)",
+        "addr": 4295465680,
+        "lang": "objc",
+        "index": 0,
+        "super": [
+          "NSDictionary"
+        ],
+        "rawsuper": [
+          "NSDictionary"
+        ],
+        "methods": [
+          {
+            "name": "integerForKey:minValue:maxValue:defaultValue:",
+            "flag": "method.NSDictionary__DPPrivateAccessTokenConfig_.integerForKey:minValue:maxValue:defaultValue:",
+            "lang": "objc",
+            "addr": 4295045500
+          }
+        ]
+      },
+      {
+        "classname": "_DPDediscoPCCNetworkingService",
+        "addr": 419184,
+        "lang": "swift",
+        "index": 1,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ],
+        "fields": [
+          {
+            "name": "database",
+            "kind": "property",
+            "addr": 4295389984
+          },
+          {
+            "name": "serviceName",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295389993
+          },
+          {
+            "name": "timeout",
+            "kind": "property",
+            "addr": 4295390005
+          }
+        ]
+      },
+      {
+        "classname": "DPPPM_0_2_1_PayloadEncoderShim",
+        "addr": 419272,
+        "lang": "swift",
+        "index": 2,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ]
+      },
+      {
+        "classname": "DediscoAlgorithmParametersOtherParams",
+        "addr": 419316,
+        "lang": "swift",
+        "index": 3,
+        "fields": [
+          {
+            "name": "cohortSize",
+            "kind": "property",
+            "addr": 4295390013
+          },
+          {
+            "name": "sigma",
+            "kind": "property",
+            "type": "Swift.Double",
+            "addr": 4295390024
+          },
+          {
+            "name": "piRapporPrime",
+            "kind": "property",
+            "addr": 4295390030
+          },
+          {
+            "name": "piRapporAlpha0",
+            "kind": "property",
+            "type": "Swift.Double",
+            "addr": 4295390044
+          },
+          {
+            "name": "piRapporAlpha1",
+            "kind": "property",
+            "type": "Swift.Double",
+            "addr": 4295390059
+          },
+          {
+            "name": "unknownFields",
+            "kind": "property",
+            "addr": 4295390074
+          }
+        ]
+      },
+      {
+        "classname": "UInt24",
+        "addr": 419484,
+        "lang": "swift",
+        "index": 4,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.UInt24.0",
+            "lang": "swift",
+            "addr": 4295429757
+          }
+        ],
+        "fields": [
+          {
+            "name": "val",
+            "kind": "property",
+            "addr": 4295390104
+          }
+        ]
+      },
+      {
+        "classname": "QueryConfig",
+        "addr": 419512,
+        "lang": "swift",
+        "index": 5,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.QueryConfig.0",
+            "lang": "swift",
+            "addr": 4295388362
+          }
+        ],
+        "fields": [
+          {
+            "name": "timePrecision",
+            "kind": "property",
+            "addr": 4295390128
+          },
+          {
+            "name": "maxBatchQueryCount",
+            "kind": "property",
+            "addr": 4295390144
+          },
+          {
+            "name": "minBatchSize",
+            "kind": "property",
+            "addr": 4295390163
+          },
+          {
+            "name": "queryType",
+            "kind": "property",
+            "addr": 4295390176
+          },
+          {
+            "name": "queryTypeSelector",
+            "kind": "property",
+            "addr": 4295390192
+          }
+        ]
+      },
+      {
+        "classname": "QueryTypeSelector",
+        "addr": 419540,
+        "lang": "swift",
+        "index": 6,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.QueryTypeSelector.0",
+            "lang": "swift",
+            "addr": 4295387622
+          }
+        ],
+        "fields": [
+          {
+            "name": "time_intervalProp",
+            "kind": "property",
+            "addr": 4295390224
+          },
+          {
+            "name": "fixed_sizeProp",
+            "kind": "property",
+            "addr": 4295390242
+          }
+        ]
+      },
+      {
+        "classname": "CodingParameter",
+        "addr": 419568,
+        "lang": "swift",
+        "index": 7,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.QueryConfig.0",
+            "lang": "swift",
+            "addr": 4295388362
+          }
+        ],
+        "fields": [
+          {
+            "name": "queryType",
+            "kind": "property",
+            "addr": 4295390176
+          }
+        ]
+      },
+      {
+        "classname": "CodingParameter_1",
+        "addr": 419596,
+        "lang": "swift",
+        "index": 8,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.UInt24.0",
+            "lang": "swift",
+            "addr": 4295429757
+          }
+        ],
+        "fields": [
+          {
+            "name": "timePrecisionParameter",
+            "kind": "property",
+            "type": "ytSg",
+            "addr": 4295390272
+          },
+          {
+            "name": "queryTypeParameter",
+            "kind": "property",
+            "type": "ytSg",
+            "addr": 4295390304
+          }
+        ]
+      },
+      {
+        "classname": "TaskConfig",
+        "addr": 419624,
+        "lang": "swift",
+        "index": 9,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.TaskConfig.0",
+            "lang": "swift",
+            "addr": 4295388730
+          }
+        ],
+        "fields": [
+          {
+            "name": "taskInfo",
+            "kind": "property",
+            "addr": 4295390323
+          },
+          {
+            "name": "leaderAggregatorEndpoint",
+            "kind": "property",
+            "addr": 4295390336
+          },
+          {
+            "name": "helperAggregatorEndpoint",
+            "kind": "property",
+            "addr": 4295390368
+          },
+          {
+            "name": "queryConfig",
+            "kind": "property",
+            "addr": 4295390393
+          },
+          {
+            "name": "taskExpiration",
+            "kind": "property",
+            "addr": 4295390405
+          },
+          {
+            "name": "vdafConfig",
+            "kind": "property",
+            "addr": 4295390420
+          }
+        ]
+      },
+      {
+        "classname": "CodingParameter_2",
+        "addr": 419652,
+        "lang": "swift",
+        "index": 10,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.UInt24.0",
+            "lang": "swift",
+            "addr": 4295429757
+          }
+        ],
+        "fields": [
+          {
+            "name": "leaderAggregatorEndpointParameter",
+            "kind": "property",
+            "type": "ytSg",
+            "addr": 4295390432
+          },
+          {
+            "name": "helperAggregatorEndpointParameter",
+            "kind": "property",
+            "type": "ytSg",
+            "addr": 4295390480
+          },
+          {
+            "name": "taskExpirationParameter",
+            "kind": "property",
+            "type": "ytSg",
+            "addr": 4295390528
+          }
+        ]
+      },
+      {
+        "classname": "RealNumberType",
+        "addr": 419680,
+        "lang": "swift",
+        "index": 11,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.RealNumberType.0",
+            "lang": "swift",
+            "addr": 4295387762
+          },
+          {
+            "name": "1",
+            "flag": "method.RealNumberType.1",
+            "lang": "swift",
+            "addr": 4295407995
+          }
+        ],
+        "fields": [
+          {
+            "name": "enumValue",
+            "kind": "property",
+            "addr": 4295390595
+          },
+          {
+            "name": "rawValue",
+            "kind": "property",
+            "addr": 4295390605
+          }
+        ]
+      },
+      {
+        "classname": "EnumValue",
+        "addr": 419708,
+        "lang": "swift",
+        "index": 12,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.UInt24.0",
+            "lang": "swift",
+            "addr": 4295429757
+          }
+        ],
+        "fields": [
+          {
+            "name": "reserved",
+            "kind": "property",
+            "addr": 4295390614
+          },
+          {
+            "name": "float16",
+            "kind": "property",
+            "addr": 4295390623
+          },
+          {
+            "name": "float32",
+            "kind": "property",
+            "addr": 4295390631
+          },
+          {
+            "name": "float64",
+            "kind": "property",
+            "addr": 4295390639
+          }
+        ]
+      },
+      {
+        "classname": "RealNumber",
+        "addr": 419736,
+        "lang": "swift",
+        "index": 13,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.RealNumber.0",
+            "lang": "swift",
+            "addr": 4295387818
+          }
+        ],
+        "fields": [
+          {
+            "name": "realNumberType",
+            "kind": "property",
+            "addr": 4295390647
+          },
+          {
+            "name": "realNumberTypeSelector",
+            "kind": "property",
+            "addr": 4295390672
+          }
+        ]
+      },
+      {
+        "classname": "RealNumberTypeSelector",
+        "addr": 419764,
+        "lang": "swift",
+        "index": 14,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.RealNumberTypeSelector.0",
+            "lang": "swift",
+            "addr": 4295388102
+          }
+        ],
+        "fields": [
+          {
+            "name": "float16Prop",
+            "kind": "property",
+            "addr": 4295390695
+          },
+          {
+            "name": "float32Prop",
+            "kind": "property",
+            "addr": 4295390707
+          },
+          {
+            "name": "float64Prop",
+            "kind": "property",
+            "addr": 4295390719
+          }
+        ]
+      },
+      {
+        "classname": "CodingParameter_3",
+        "addr": 419792,
+        "lang": "swift",
+        "index": 15,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.RealNumber.0",
+            "lang": "swift",
+            "addr": 4295387818
+          }
+        ],
+        "fields": [
+          {
+            "name": "realNumberType",
+            "kind": "property",
+            "addr": 4295390647
+          }
+        ]
+      },
+      {
+        "classname": "CodingParameter_4",
+        "addr": 419820,
+        "lang": "swift",
+        "index": 16,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.UInt24.0",
+            "lang": "swift",
+            "addr": 4295429757
+          }
+        ],
+        "fields": [
+          {
+            "name": "realNumberTypeParameter",
+            "kind": "property",
+            "type": "ytSg",
+            "addr": 4295390736
+          }
+        ]
+      },
+      {
+        "classname": "DPMechanism",
+        "addr": 419848,
+        "lang": "swift",
+        "index": 17,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.DPMechanism.0",
+            "lang": "swift",
+            "addr": 4295387930
+          },
+          {
+            "name": "1",
+            "flag": "method.DPMechanism.1",
+            "lang": "swift",
+            "addr": 4295408163
+          }
+        ],
+        "fields": [
+          {
+            "name": "enumValue",
+            "kind": "property",
+            "addr": 4295390595
+          },
+          {
+            "name": "rawValue",
+            "kind": "property",
+            "addr": 4295390605
+          }
+        ]
+      },
+      {
+        "classname": "EnumValue_1",
+        "addr": 419876,
+        "lang": "swift",
+        "index": 18,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.UInt24.0",
+            "lang": "swift",
+            "addr": 4295429757
+          }
+        ],
+        "fields": [
+          {
+            "name": "reserved",
+            "kind": "property",
+            "addr": 4295390614
+          },
+          {
+            "name": "none",
+            "kind": "property",
+            "addr": 4295390760
+          },
+          {
+            "name": "eps",
+            "kind": "property",
+            "addr": 4295390765
+          },
+          {
+            "name": "eps_delta",
+            "kind": "property",
+            "addr": 4295390769
+          },
+          {
+            "name": "renyi",
+            "kind": "property",
+            "addr": 4295390779
+          },
+          {
+            "name": "aggregator_discrete_gaussian",
+            "kind": "property",
+            "addr": 4295390800
+          },
+          {
+            "name": "aggregator_discrete_gaussian_client_symmetric_rappor",
+            "kind": "property",
+            "addr": 4295390832
+          },
+          {
+            "name": "distributed_gaussian_with_subsampled_moments_accountant",
+            "kind": "property",
+            "addr": 4295390896
+          },
+          {
+            "name": "distributed_discrete_gaussian_with_random_allocation_accountant",
+            "kind": "property",
+            "addr": 4295390960
+          }
+        ]
+      },
+      {
+        "classname": "EpsDeltaDPConfig",
+        "addr": 419904,
+        "lang": "swift",
+        "index": 19,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.EpsDeltaDPConfig.0",
+            "lang": "swift",
+            "addr": 4295387986
+          }
+        ],
+        "fields": [
+          {
+            "name": "epsilon",
+            "kind": "property",
+            "addr": 4295391024
+          },
+          {
+            "name": "delta",
+            "kind": "property",
+            "addr": 4295391032
+          }
+        ]
+      },
+      {
+        "classname": "CodingParameter_5",
+        "addr": 419932,
+        "lang": "swift",
+        "index": 20,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.UInt24.0",
+            "lang": "swift",
+            "addr": 4295429757
+          }
+        ],
+        "fields": [
+          {
+            "name": "epsilonParameter",
+            "kind": "property",
+            "addr": 4295391040
+          },
+          {
+            "name": "deltaParameter",
+            "kind": "property",
+            "addr": 4295391057
+          }
+        ]
+      },
+      {
+        "classname": "RenyiDPConfig",
+        "addr": 419960,
+        "lang": "swift",
+        "index": 21,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.RenyiDPConfig.0",
+            "lang": "swift",
+            "addr": 4295388042
+          }
+        ],
+        "fields": [
+          {
+            "name": "renyiOrder",
+            "kind": "property",
+            "addr": 4295391072
+          },
+          {
+            "name": "sigma",
+            "kind": "property",
+            "addr": 4295391083
+          }
+        ]
+      },
+      {
+        "classname": "CodingParameter_6",
+        "addr": 419988,
+        "lang": "swift",
+        "index": 22,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.UInt24.0",
+            "lang": "swift",
+            "addr": 4295429757
+          }
+        ],
+        "fields": [
+          {
+            "name": "sigmaParameter",
+            "kind": "property",
+            "addr": 4295391089
+          }
+        ]
+      },
+      {
+        "classname": "AggregatorDiscreteGaussianDpConfig",
+        "addr": 420016,
+        "lang": "swift",
+        "index": 23,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.AggregatorDiscreteGaussianDpConfig.0",
+            "lang": "swift",
+            "addr": 4295388610
+          }
+        ],
+        "fields": [
+          {
+            "name": "targetCentralEpsilon",
+            "kind": "property",
+            "addr": 4295391104
+          },
+          {
+            "name": "targetCentralDelta",
+            "kind": "property",
+            "addr": 4295391136
+          },
+          {
+            "name": "sigma",
+            "kind": "property",
+            "addr": 4295391083
+          },
+          {
+            "name": "squaredL2Sensitivity",
+            "kind": "property",
+            "addr": 4295391168
+          }
+        ]
+      },
+      {
+        "classname": "CodingParameter_7",
+        "addr": 420044,
+        "lang": "swift",
+        "index": 24,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.UInt24.0",
+            "lang": "swift",
+            "addr": 4295429757
+          }
+        ],
+        "fields": [
+          {
+            "name": "targetCentralEpsilonParameter",
+            "kind": "property",
+            "addr": 4295391200
+          },
+          {
+            "name": "targetCentralDeltaParameter",
+            "kind": "property",
+            "addr": 4295391232
+          },
+          {
+            "name": "sigmaParameter",
+            "kind": "property",
+            "addr": 4295391089
+          },
+          {
+            "name": "squaredL2SensitivityParameter",
+            "kind": "property",
+            "addr": 4295391264
+          }
+        ]
+      },
+      {
+        "classname": "AggregatorDiscreteGaussianClientSymmetricRapporDpConfig",
+        "addr": 420072,
+        "lang": "swift",
+        "index": 25,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.AggregatorDiscreteGaussianClientSymmetricRapporDpConfig.0",
+            "lang": "swift",
+            "addr": 4295388154
+          }
+        ],
+        "fields": [
+          {
+            "name": "aggDGaussDPConfig",
+            "kind": "property",
+            "addr": 4295391296
+          },
+          {
+            "name": "localEpsilon",
+            "kind": "property",
+            "addr": 4295391314
+          }
+        ]
+      },
+      {
+        "classname": "CodingParameter_8",
+        "addr": 420100,
+        "lang": "swift",
+        "index": 26,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.UInt24.0",
+            "lang": "swift",
+            "addr": 4295429757
+          }
+        ],
+        "fields": [
+          {
+            "name": "aggDGaussDPConfigParameter",
+            "kind": "property",
+            "addr": 4295391328
+          },
+          {
+            "name": "localEpsilonParameter",
+            "kind": "property",
+            "addr": 4295391360
+          }
+        ]
+      },
+      {
+        "classname": "DistributedGaussianWithSubsampledMomentsAccountantConfig",
+        "addr": 420128,
+        "lang": "swift",
+        "index": 27,
+        "super": [
+          "Q"
+        ],
+        "rawsuper": [
+          "Q"
+        ],
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.DistributedGaussianWithSubsampledMomentsAccountantConfig.0",
+            "lang": "swift",
+            "addr": 4295389746
+          }
+        ],
+        "fields": [
+          {
+            "name": "maxCohortSize",
+            "kind": "property",
+            "addr": 4295391382
+          },
+          {
+            "name": "numIterations",
+            "kind": "property",
+            "addr": 4295391396
+          },
+          {
+            "name": "populationSize",
+            "kind": "property",
+            "addr": 4295391410
+          },
+          {
+            "name": "renyiOrder",
+            "kind": "property",
+            "addr": 4295391072
+          },
+          {
+            "name": "sigma",
+            "kind": "property",
+            "addr": 4295391083
+          },
+          {
+            "name": "sigmaAfterNormalization",
+            "kind": "property",
+            "addr": 4295391440
+          },
+          {
+            "name": "targetCentralEpsilon",
+            "kind": "property",
+            "addr": 4295391104
+          },
+          {
+            "name": "targetCentralDelta",
+            "kind": "property",
+            "addr": 4295391136
+          }
+        ]
+      },
+      {
+        "classname": "CodingParameter_9",
+        "addr": 420156,
+        "lang": "swift",
+        "index": 28,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.UInt24.0",
+            "lang": "swift",
+            "addr": 4295429757
+          }
+        ],
+        "fields": [
+          {
+            "name": "sigmaParameter",
+            "kind": "property",
+            "addr": 4295391089
+          },
+          {
+            "name": "sigmaAfterNormalizationParameter",
+            "kind": "property",
+            "addr": 4295391472
+          },
+          {
+            "name": "targetCentralEpsilonParameter",
+            "kind": "property",
+            "addr": 4295391200
+          },
+          {
+            "name": "targetCentralDeltaParameter",
+            "kind": "property",
+            "addr": 4295391232
+          }
+        ]
+      },
+      {
+        "classname": "DistributedDiscreteGaussianWithRandomAllocationAccountantForPreambleDpConfig",
+        "addr": 420184,
+        "lang": "swift",
+        "index": 29,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.DistributedDiscreteGaussianWithRandomAllocationAccountantForPreambleDpConfig.0",
+            "lang": "swift",
+            "addr": 4295389034
+          }
+        ],
+        "fields": [
+          {
+            "name": "targetCentralEpsilon",
+            "kind": "property",
+            "addr": 4295391104
+          },
+          {
+            "name": "targetCentralDelta",
+            "kind": "property",
+            "addr": 4295391136
+          },
+          {
+            "name": "sigma",
+            "kind": "property",
+            "addr": 4295391083
+          },
+          {
+            "name": "sigmaLocal",
+            "kind": "property",
+            "addr": 4295391505
+          },
+          {
+            "name": "scalingFactor",
+            "kind": "property",
+            "addr": 4295391516
+          }
+        ]
+      },
+      {
+        "classname": "CodingParameter_10",
+        "addr": 420212,
+        "lang": "swift",
+        "index": 30,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.UInt24.0",
+            "lang": "swift",
+            "addr": 4295429757
+          }
+        ],
+        "fields": [
+          {
+            "name": "targetCentralEpsilonParameter",
+            "kind": "property",
+            "addr": 4295391200
+          },
+          {
+            "name": "targetCentralDeltaParameter",
+            "kind": "property",
+            "addr": 4295391232
+          },
+          {
+            "name": "sigmaParameter",
+            "kind": "property",
+            "addr": 4295391089
+          },
+          {
+            "name": "sigmaLocalParameter",
+            "kind": "property",
+            "addr": 4295391536
+          },
+          {
+            "name": "scalingFactorParameter",
+            "kind": "property",
+            "addr": 4295391568
+          }
+        ]
+      },
+      {
+        "classname": "DPConfig",
+        "addr": 420240,
+        "lang": "swift",
+        "index": 31,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.DPConfig.0",
+            "lang": "swift",
+            "addr": 4295388322
+          }
+        ],
+        "fields": [
+          {
+            "name": "dpMechanism",
+            "kind": "property",
+            "addr": 4295391591
+          },
+          {
+            "name": "dpMechanismSelector",
+            "kind": "property",
+            "addr": 4295391616
+          }
+        ]
+      },
+      {
+        "classname": "DPMechanismSelector",
+        "addr": 420268,
+        "lang": "swift",
+        "index": 32,
+        "super": [
+          "Q"
+        ],
+        "rawsuper": [
+          "Q"
+        ],
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.DPMechanismSelector.0",
+            "lang": "swift",
+            "addr": 4295389886
+          }
+        ],
+        "fields": [
+          {
+            "name": "noneProp",
+            "kind": "property",
+            "addr": 4295391636
+          },
+          {
+            "name": "epsProp",
+            "kind": "property",
+            "addr": 4295391645
+          },
+          {
+            "name": "eps_deltaProp",
+            "kind": "property",
+            "addr": 4295391653
+          },
+          {
+            "name": "renyiProp",
+            "kind": "property",
+            "addr": 4295391667
+          },
+          {
+            "name": "aggregator_discrete_gaussianProp",
+            "kind": "property",
+            "addr": 4295391680
+          },
+          {
+            "name": "aggregator_discrete_gaussian_client_symmetric_rapporProp",
+            "kind": "property",
+            "addr": 4295391728
+          },
+          {
+            "name": "distributed_gaussian_with_subsampled_moments_accountantProp",
+            "kind": "property",
+            "addr": 4295391792
+          },
+          {
+            "name": "distributed_discrete_gaussian_with_random_allocation_accountantProp",
+            "kind": "property",
+            "addr": 4295391856
+          }
+        ]
+      },
+      {
+        "classname": "CodingParameter_11",
+        "addr": 420296,
+        "lang": "swift",
+        "index": 33,
+        "super": [
+          "Q"
+        ],
+        "rawsuper": [
+          "Q"
+        ],
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.DPConfig.0",
+            "lang": "swift",
+            "addr": 4295388322
+          }
+        ],
+        "fields": [
+          {
+            "name": "dpMechanism",
+            "kind": "property",
+            "addr": 4295391591
+          },
+          {
+            "name": "epsParameter",
+            "kind": "property",
+            "addr": 4295391924
+          },
+          {
+            "name": "eps_deltaParameter",
+            "kind": "property",
+            "addr": 4295391952
+          },
+          {
+            "name": "renyiParameter",
+            "kind": "property",
+            "addr": 4295391971
+          },
+          {
+            "name": "aggregator_discrete_gaussianParameter",
+            "kind": "property",
+            "addr": 4295392000
+          },
+          {
+            "name": "aggregator_discrete_gaussian_client_symmetric_rapporParameter",
+            "kind": "property",
+            "addr": 4295392048
+          },
+          {
+            "name": "distributed_gaussian_with_subsampled_moments_accountantParameter",
+            "kind": "property",
+            "addr": 4295392112
+          },
+          {
+            "name": "distributed_discrete_gaussian_with_random_allocation_accountantParameter",
+            "kind": "property",
+            "addr": 4295392192
+          }
+        ]
+      },
+      {
+        "classname": "CodingParameter_12",
+        "addr": 420324,
+        "lang": "swift",
+        "index": 34,
+        "super": [
+          "Q"
+        ],
+        "rawsuper": [
+          "Q"
+        ],
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.UInt24.0",
+            "lang": "swift",
+            "addr": 4295429757
+          }
+        ],
+        "fields": [
+          {
+            "name": "dpMechanismParameter",
+            "kind": "property",
+            "type": "ytSg",
+            "addr": 4295392272
+          },
+          {
+            "name": "dpMechanismSelector_epsParameter",
+            "kind": "property",
+            "addr": 4295392304
+          },
+          {
+            "name": "dpMechanismSelector_eps_deltaParameter",
+            "kind": "property",
+            "addr": 4295392352
+          },
+          {
+            "name": "dpMechanismSelector_renyiParameter",
+            "kind": "property",
+            "addr": 4295392400
+          },
+          {
+            "name": "dpMechanismSelector_aggregator_discrete_gaussianParameter",
+            "kind": "property",
+            "addr": 4295392448
+          },
+          {
+            "name": "dpMechanismSelector_aggregator_discrete_gaussian_client_symmetric_rapporParameter",
+            "kind": "property",
+            "addr": 4295392512
+          },
+          {
+            "name": "dpMechanismSelector_distributed_gaussian_with_subsampled_moments_accountantParameter",
+            "kind": "property",
+            "addr": 4295392608
+          },
+          {
+            "name": "dpMechanismSelector_distributed_discrete_gaussian_with_random_allocation_accountantParameter",
+            "kind": "property",
+            "addr": 4295392704
+          }
+        ]
+      },
+      {
+        "classname": "VDAFType",
+        "addr": 420352,
+        "lang": "swift",
+        "index": 35,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.VDAFType.0",
+            "lang": "swift",
+            "addr": 4295388434
+          },
+          {
+            "name": "1",
+            "flag": "method.VDAFType.1",
+            "lang": "swift",
+            "addr": 4295408667
+          }
+        ],
+        "fields": [
+          {
+            "name": "enumValue",
+            "kind": "property",
+            "addr": 4295390595
+          },
+          {
+            "name": "rawValue",
+            "kind": "property",
+            "addr": 4295390605
+          }
+        ]
+      },
+      {
+        "classname": "EnumValue_2",
+        "addr": 420380,
+        "lang": "swift",
+        "index": 36,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.UInt24.0",
+            "lang": "swift",
+            "addr": 4295429757
+          }
+        ],
+        "fields": [
+          {
+            "name": "prio3_count",
+            "kind": "property",
+            "addr": 4295392797
+          },
+          {
+            "name": "prio3_sum",
+            "kind": "property",
+            "addr": 4295392809
+          },
+          {
+            "name": "prio3_sum_vec",
+            "kind": "property",
+            "addr": 4295392819
+          },
+          {
+            "name": "prio3_histogram",
+            "kind": "property",
+            "addr": 4295392833
+          },
+          {
+            "name": "poplar1",
+            "kind": "property",
+            "addr": 4295392849
+          },
+          {
+            "name": "prio2",
+            "kind": "property",
+            "addr": 4295392857
+          },
+          {
+            "name": "prio_plusplus",
+            "kind": "property",
+            "addr": 4295392863
+          },
+          {
+            "name": "prio_pirappor",
+            "kind": "property",
+            "addr": 4295392877
+          },
+          {
+            "name": "prio3_sum_vec_field64_multiproof_cmac_aes128",
+            "kind": "property",
+            "addr": 4295392896
+          },
+          {
+            "name": "prio3_sum_vec_field64_multiproof_hmac_sha256_aes128",
+            "kind": "property",
+            "addr": 4295392944
+          },
+          {
+            "name": "pine_field64_hmac_sha256_aes128",
+            "kind": "property",
+            "addr": 4295393008
+          },
+          {
+            "name": "pine_field32_hmac_sha256_aes128",
+            "kind": "property",
+            "addr": 4295393040
+          },
+          {
+            "name": "pine_field40_hmac_sha256_aes128",
+            "kind": "property",
+            "addr": 4295393072
+          },
+          {
+            "name": "preamble_field32_hmac_sha256_aes128",
+            "kind": "property",
+            "addr": 4295393104
+          }
+        ]
+      },
+      {
+        "classname": "PrioPiRapporConfig",
+        "addr": 420408,
+        "lang": "swift",
+        "index": 37,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.PrioPiRapporConfig.0",
+            "lang": "swift",
+            "addr": 4295389002
+          }
+        ],
+        "fields": [
+          {
+            "name": "dimension",
+            "kind": "property",
+            "addr": 4295393140
+          },
+          {
+            "name": "prime",
+            "kind": "property",
+            "addr": 4295393150
+          },
+          {
+            "name": "alpha0",
+            "kind": "property",
+            "addr": 4295393156
+          },
+          {
+            "name": "alpha1",
+            "kind": "property",
+            "addr": 4295393163
+          }
+        ]
+      },
+      {
+        "classname": "CodingParameter_13",
+        "addr": 420436,
+        "lang": "swift",
+        "index": 38,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.UInt24.0",
+            "lang": "swift",
+            "addr": 4295429757
+          }
+        ],
+        "fields": [
+          {
+            "name": "alpha0Parameter",
+            "kind": "property",
+            "addr": 4295393170
+          },
+          {
+            "name": "alpha1Parameter",
+            "kind": "property",
+            "addr": 4295393186
+          }
+        ]
+      },
+      {
+        "classname": "Prio3HistogramConfig",
+        "addr": 420464,
+        "lang": "swift",
+        "index": 39,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.UInt24.0",
+            "lang": "swift",
+            "addr": 4295429757
+          }
+        ],
+        "fields": [
+          {
+            "name": "length",
+            "kind": "property",
+            "addr": 4295393202
+          },
+          {
+            "name": "chunkLength",
+            "kind": "property",
+            "addr": 4295393209
+          }
+        ]
+      },
+      {
+        "classname": "Prio3SumVecConfig",
+        "addr": 420492,
+        "lang": "swift",
+        "index": 40,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.UInt24.0",
+            "lang": "swift",
+            "addr": 4295429757
+          }
+        ],
+        "fields": [
+          {
+            "name": "length",
+            "kind": "property",
+            "addr": 4295393202
+          },
+          {
+            "name": "bits",
+            "kind": "property",
+            "addr": 4295393221
+          },
+          {
+            "name": "chunkLength",
+            "kind": "property",
+            "addr": 4295393209
+          }
+        ]
+      },
+      {
+        "classname": "Prio3SumVecMultiproofConfig",
+        "addr": 420520,
+        "lang": "swift",
+        "index": 41,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.UInt24.0",
+            "lang": "swift",
+            "addr": 4295429757
+          }
+        ],
+        "fields": [
+          {
+            "name": "length",
+            "kind": "property",
+            "addr": 4295393202
+          },
+          {
+            "name": "bits",
+            "kind": "property",
+            "addr": 4295393221
+          },
+          {
+            "name": "chunkLength",
+            "kind": "property",
+            "addr": 4295393209
+          },
+          {
+            "name": "numProofs",
+            "kind": "property",
+            "addr": 4295393226
+          }
+        ]
+      },
+      {
+        "classname": "PINEConfig",
+        "addr": 420548,
+        "lang": "swift",
+        "index": 42,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.UInt24.0",
+            "lang": "swift",
+            "addr": 4295429757
+          }
+        ],
+        "fields": [
+          {
+            "name": "l2NormBound",
+            "kind": "property",
+            "addr": 4295393236
+          },
+          {
+            "name": "numFractionalBits",
+            "kind": "property",
+            "addr": 4295393248
+          },
+          {
+            "name": "length",
+            "kind": "property",
+            "addr": 4295393202
+          },
+          {
+            "name": "chunkLength",
+            "kind": "property",
+            "addr": 4295393209
+          },
+          {
+            "name": "chunkLengthNormEquality",
+            "kind": "property",
+            "addr": 4295393280
+          },
+          {
+            "name": "numProofs",
+            "kind": "property",
+            "addr": 4295393226
+          },
+          {
+            "name": "numProofsNormEquality",
+            "kind": "property",
+            "addr": 4295393312
+          },
+          {
+            "name": "numWrChecks",
+            "kind": "property",
+            "addr": 4295393334
+          },
+          {
+            "name": "numWrSuccesses",
+            "kind": "property",
+            "addr": 4295393346
+          }
+        ]
+      },
+      {
+        "classname": "PreambleConfig",
+        "addr": 420576,
+        "lang": "swift",
+        "index": 43,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.UInt24.0",
+            "lang": "swift",
+            "addr": 4295429757
+          }
+        ],
+        "fields": [
+          {
+            "name": "length",
+            "kind": "property",
+            "addr": 4295393202
+          },
+          {
+            "name": "blockSize",
+            "kind": "property",
+            "addr": 4295393361
+          },
+          {
+            "name": "numKeptBlocks",
+            "kind": "property",
+            "addr": 4295393371
+          }
+        ]
+      },
+      {
+        "classname": "VDAFConfig",
+        "addr": 420604,
+        "lang": "swift",
+        "index": 44,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.VDAFConfig.0",
+            "lang": "swift",
+            "addr": 4295388942
+          }
+        ],
+        "fields": [
+          {
+            "name": "dpConfig",
+            "kind": "property",
+            "addr": 4295393385
+          },
+          {
+            "name": "vdafType",
+            "kind": "property",
+            "addr": 4295393394
+          },
+          {
+            "name": "vdafTypeSelector",
+            "kind": "property",
+            "addr": 4295393408
+          }
+        ]
+      },
+      {
+        "classname": "VDAFTypeSelector",
+        "addr": 420632,
+        "lang": "swift",
+        "index": 45,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.VDAFTypeSelector.0",
+            "lang": "swift",
+            "addr": 4295391786
+          }
+        ],
+        "fields": [
+          {
+            "name": "prio3_countProp",
+            "kind": "property",
+            "addr": 4295393425
+          },
+          {
+            "name": "prio3_sumProp",
+            "kind": "property",
+            "addr": 4295393441
+          },
+          {
+            "name": "prio3_sum_vecProp",
+            "kind": "property",
+            "addr": 4295393456
+          },
+          {
+            "name": "prio3_histogramProp",
+            "kind": "property",
+            "addr": 4295393488
+          },
+          {
+            "name": "poplar1Prop",
+            "kind": "property",
+            "addr": 4295393508
+          },
+          {
+            "name": "prio2Prop",
+            "kind": "property",
+            "addr": 4295393520
+          },
+          {
+            "name": "prio_plusplusProp",
+            "kind": "property",
+            "addr": 4295393536
+          },
+          {
+            "name": "prio_pirapporProp",
+            "kind": "property",
+            "addr": 4295393568
+          },
+          {
+            "name": "prio3_sum_vec_field64_multiproof_cmac_aes128Prop",
+            "kind": "property",
+            "addr": 4295393600
+          },
+          {
+            "name": "prio3_sum_vec_field64_multiproof_hmac_sha256_aes128Prop",
+            "kind": "property",
+            "addr": 4295393664
+          },
+          {
+            "name": "pine_field64_hmac_sha256_aes128Prop",
+            "kind": "property",
+            "addr": 4295393728
+          },
+          {
+            "name": "pine_field32_hmac_sha256_aes128Prop",
+            "kind": "property",
+            "addr": 4295393776
+          },
+          {
+            "name": "pine_field40_hmac_sha256_aes128Prop",
+            "kind": "property",
+            "addr": 4295393824
+          },
+          {
+            "name": "preamble_field32_hmac_sha256_aes128Prop",
+            "kind": "property",
+            "addr": 4295393872
+          }
+        ]
+      },
+      {
+        "classname": "CodingParameter_14",
+        "addr": 420660,
+        "lang": "swift",
+        "index": 46,
+        "super": [
+          "\u0010"
+        ],
+        "rawsuper": [
+          "\u0010"
+        ],
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.VDAFConfig.0",
+            "lang": "swift",
+            "addr": 4295388942
+          }
+        ],
+        "fields": [
+          {
+            "name": "vdafType",
+            "kind": "property",
+            "addr": 4295393394
+          },
+          {
+            "name": "prio3_sum_vecParameter",
+            "kind": "property",
+            "type": "ytSg",
+            "addr": 4295393920
+          },
+          {
+            "name": "prio3_histogramParameter",
+            "kind": "property",
+            "type": "ytSg",
+            "addr": 4295393952
+          },
+          {
+            "name": "prio_pirapporParameter",
+            "kind": "property",
+            "addr": 4295393984
+          },
+          {
+            "name": "prio3_sum_vec_field64_multiproof_cmac_aes128Parameter",
+            "kind": "property",
+            "type": "ytSg",
+            "addr": 4295394016
+          },
+          {
+            "name": "prio3_sum_vec_field64_multiproof_hmac_sha256_aes128Parameter",
+            "kind": "property",
+            "type": "ytSg",
+            "addr": 4295394080
+          },
+          {
+            "name": "pine_field64_hmac_sha256_aes128Parameter",
+            "kind": "property",
+            "type": "ytSg",
+            "addr": 4295394144
+          },
+          {
+            "name": "pine_field32_hmac_sha256_aes128Parameter",
+            "kind": "property",
+            "type": "ytSg",
+            "addr": 4295394192
+          },
+          {
+            "name": "pine_field40_hmac_sha256_aes128Parameter",
+            "kind": "property",
+            "type": "ytSg",
+            "addr": 4295394240
+          },
+          {
+            "name": "preamble_field32_hmac_sha256_aes128Parameter",
+            "kind": "property",
+            "type": "ytSg",
+            "addr": 4295394288
+          }
+        ]
+      },
+      {
+        "classname": "CodingParameter_15",
+        "addr": 420688,
+        "lang": "swift",
+        "index": 47,
+        "fields": [
+          {
+            "name": "vdafTypeParameter",
+            "kind": "property",
+            "type": "ytSg",
+            "addr": 4295394336
+          },
+          {
+            "name": "vdafTypeSelector_prio3_sum_vecParameter",
+            "kind": "property",
+            "type": "ytSg",
+            "addr": 4295394368
+          },
+          {
+            "name": "vdafTypeSelector_prio3_histogramParameter",
+            "kind": "property",
+            "type": "ytSg",
+            "addr": 4295394416
+          },
+          {
+            "name": "vdafTypeSelector_prio_pirapporParameter",
+            "kind": "property",
+            "addr": 4295394464
+          },
+          {
+            "name": "vdafTypeSelector_prio3_sum_vec_field64_multiproof_cmac_aes128Parameter",
+            "kind": "property",
+            "type": "ytSg",
+            "addr": 4295394512
+          },
+          {
+            "name": "vdafTypeSelector_prio3_sum_vec_field64_multiproof_hmac_sha256_aes128Parameter",
+            "kind": "property",
+            "type": "ytSg",
+            "addr": 4295394592
+          },
+          {
+            "name": "vdafTypeSelector_pine_field64_hmac_sha256_aes128Parameter",
+            "kind": "property",
+            "type": "ytSg",
+            "addr": 4295394672
+          },
+          {
+            "name": "vdafTypeSelector_pine_field32_hmac_sha256_aes128Parameter",
+            "kind": "property",
+            "type": "ytSg",
+            "addr": 4295394736
+          },
+          {
+            "name": "vdafTypeSelector_pine_field40_hmac_sha256_aes128Parameter",
+            "kind": "property",
+            "type": "ytSg",
+            "addr": 4295394800
+          },
+          {
+            "name": "vdafTypeSelector_preamble_field32_hmac_sha256_aes128Parameter",
+            "kind": "property",
+            "type": "ytSg",
+            "addr": 4295394864
+          }
+        ]
+      },
+      {
+        "classname": "_DPDediscoAlgorithmParameters",
+        "addr": 420716,
+        "lang": "swift",
+        "index": 48,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ],
+        "fields": [
+          {
+            "name": "dimension",
+            "kind": "property",
+            "addr": 4295394926
+          },
+          {
+            "name": "epsilon",
+            "kind": "property",
+            "type": "Swift.Double",
+            "addr": 4295394936
+          },
+          {
+            "name": "otherParams",
+            "kind": "property",
+            "addr": 4295394944
+          }
+        ]
+      },
+      {
+        "classname": "_DPDediscoPayload",
+        "addr": 420940,
+        "lang": "swift",
+        "index": 49,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ],
+        "fields": [
+          {
+            "name": "collectionId",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295394960
+          },
+          {
+            "name": "algorithm",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295394973
+          },
+          {
+            "name": "algorithmParameters",
+            "kind": "property",
+            "addr": 4295394992
+          },
+          {
+            "name": "fsEncryptedShare",
+            "kind": "property",
+            "addr": 4295395024
+          },
+          {
+            "name": "dsEncryptedShare",
+            "kind": "property",
+            "addr": 4295395056
+          },
+          {
+            "name": "fsPublicKey",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295395073
+          },
+          {
+            "name": "dsPublicKey",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295395085
+          },
+          {
+            "name": "versionHash",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295395097
+          },
+          {
+            "name": "report",
+            "kind": "property",
+            "addr": 4295395109
+          }
+        ]
+      },
+      {
+        "classname": "TLSCodecError",
+        "addr": 421148,
+        "lang": "swift",
+        "index": 50,
+        "fields": [
+          {
+            "name": "bufferTooShort",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295395136
+          },
+          {
+            "name": "invalidCodingParameter",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295395152
+          },
+          {
+            "name": "invalidEnum",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295395175
+          },
+          {
+            "name": "invalidNumber",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295395187
+          },
+          {
+            "name": "invalidVariant",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295395201
+          },
+          {
+            "name": "invalidVectorLength",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295395216
+          }
+        ]
+      },
+      {
+        "classname": "TLSEmpty",
+        "addr": 421176,
+        "lang": "swift",
+        "index": 51
+      },
+      {
+        "classname": "_DPDediscoAlgorithmParametersOtherParams",
+        "addr": 421256,
+        "lang": "swift",
+        "index": 52,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ],
+        "fields": [
+          {
+            "name": "cohortSize",
+            "kind": "property",
+            "addr": 4295395236
+          },
+          {
+            "name": "sigma",
+            "kind": "property",
+            "type": "Swift.Double",
+            "addr": 4295395247
+          },
+          {
+            "name": "piRapporPrime",
+            "kind": "property",
+            "addr": 4295395253
+          },
+          {
+            "name": "piRapporAlpha0",
+            "kind": "property",
+            "type": "Swift.Double",
+            "addr": 4295395267
+          },
+          {
+            "name": "piRapporAlpha1",
+            "kind": "property",
+            "type": "Swift.Double",
+            "addr": 4295395282
+          }
+        ]
+      },
+      {
+        "classname": "ReportAuth",
+        "addr": 421332,
+        "lang": "swift",
+        "index": 53,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.ReportAuth.0",
+            "lang": "swift",
+            "addr": 4295389414
+          }
+        ],
+        "fields": [
+          {
+            "name": "token",
+            "kind": "property",
+            "addr": 4295395344
+          },
+          {
+            "name": "challenge",
+            "kind": "property",
+            "addr": 4295395350
+          }
+        ]
+      },
+      {
+        "classname": "CodingParameter_16",
+        "addr": 421360,
+        "lang": "swift",
+        "index": 54,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.UInt24.0",
+            "lang": "swift",
+            "addr": 4295429757
+          }
+        ],
+        "fields": [
+          {
+            "name": "tokenParameter",
+            "kind": "property",
+            "addr": 4295395360
+          },
+          {
+            "name": "challengeParameter",
+            "kind": "property",
+            "type": "ytSg",
+            "addr": 4295395376
+          }
+        ]
+      },
+      {
+        "classname": "Token",
+        "addr": 421388,
+        "lang": "swift",
+        "index": 55,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.Token.0",
+            "lang": "swift",
+            "addr": 4295390238
+          }
+        ],
+        "fields": [
+          {
+            "name": "tokenType",
+            "kind": "property",
+            "addr": 4295395395
+          },
+          {
+            "name": "nonce",
+            "kind": "property",
+            "addr": 4295395405
+          },
+          {
+            "name": "challengeDigest",
+            "kind": "property",
+            "addr": 4295395411
+          },
+          {
+            "name": "tokenKeyID",
+            "kind": "property",
+            "addr": 4295395427
+          },
+          {
+            "name": "authenticator",
+            "kind": "property",
+            "addr": 4295395438
+          }
+        ]
+      },
+      {
+        "classname": "CodingParameter_17",
+        "addr": 421416,
+        "lang": "swift",
+        "index": 56,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.UInt24.0",
+            "lang": "swift",
+            "addr": 4295429757
+          }
+        ],
+        "fields": [
+          {
+            "name": "Nid",
+            "kind": "property",
+            "addr": 4295395452
+          },
+          {
+            "name": "Nk",
+            "kind": "property",
+            "addr": 4295395456
+          }
+        ]
+      },
+      {
+        "classname": "Challenge",
+        "addr": 421444,
+        "lang": "swift",
+        "index": 57,
+        "fields": [
+          {
+            "name": "tokenType",
+            "kind": "property",
+            "addr": 4295395395
+          },
+          {
+            "name": "issuerName",
+            "kind": "property",
+            "addr": 4295395459
+          },
+          {
+            "name": "redemptionContext",
+            "kind": "property",
+            "addr": 4295395472
+          },
+          {
+            "name": "originInfo",
+            "kind": "property",
+            "addr": 4295395490
+          }
+        ]
+      },
+      {
+        "classname": "PPM_0_2_1",
+        "addr": 421472,
+        "lang": "swift",
+        "index": 58,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.PPM_0_2_1.0",
+            "lang": "swift",
+            "addr": 4295389042
+          }
+        ]
+      },
+      {
+        "classname": "Url",
+        "addr": 421500,
+        "lang": "swift",
+        "index": 59,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.PPM_0_2_1.0",
+            "lang": "swift",
+            "addr": 4295389042
+          }
+        ],
+        "fields": [
+          {
+            "name": "data",
+            "kind": "property",
+            "addr": 4295395536
+          }
+        ]
+      },
+      {
+        "classname": "Interval",
+        "addr": 421528,
+        "lang": "swift",
+        "index": 60,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.Interval.0",
+            "lang": "swift",
+            "addr": 4295389610
+          }
+        ],
+        "fields": [
+          {
+            "name": "start",
+            "kind": "property",
+            "addr": 4295395541
+          },
+          {
+            "name": "time",
+            "kind": "property",
+            "addr": 4295395547
+          }
+        ]
+      },
+      {
+        "classname": "CodingParameter_18",
+        "addr": 421556,
+        "lang": "swift",
+        "index": 61,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.PPM_0_2_1.0",
+            "lang": "swift",
+            "addr": 4295389042
+          }
+        ],
+        "fields": [
+          {
+            "name": "startParameter",
+            "kind": "property",
+            "type": "ytSg",
+            "addr": 4295395552
+          },
+          {
+            "name": "timeParameter",
+            "kind": "property",
+            "type": "ytSg",
+            "addr": 4295395567
+          }
+        ]
+      },
+      {
+        "classname": "ReportID",
+        "addr": 421584,
+        "lang": "swift",
+        "index": 62,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.PPM_0_2_1.0",
+            "lang": "swift",
+            "addr": 4295389042
+          }
+        ],
+        "fields": [
+          {
+            "name": "data",
+            "kind": "property",
+            "addr": 4295395536
+          }
+        ]
+      },
+      {
+        "classname": "Role",
+        "addr": 421612,
+        "lang": "swift",
+        "index": 63,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.Role.0",
+            "lang": "swift",
+            "addr": 4295389694
+          },
+          {
+            "name": "1",
+            "flag": "method.Role.1",
+            "lang": "swift",
+            "addr": 4295409927
+          }
+        ],
+        "fields": [
+          {
+            "name": "enumValue",
+            "kind": "property",
+            "addr": 4295395581
+          },
+          {
+            "name": "rawValue",
+            "kind": "property",
+            "addr": 4295395591
+          }
+        ]
+      },
+      {
+        "classname": "EnumValue_3",
+        "addr": 421640,
+        "lang": "swift",
+        "index": 64,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.PPM_0_2_1.0",
+            "lang": "swift",
+            "addr": 4295389042
+          }
+        ],
+        "fields": [
+          {
+            "name": "collector",
+            "kind": "property",
+            "addr": 4295395600
+          },
+          {
+            "name": "client",
+            "kind": "property",
+            "addr": 4295395610
+          },
+          {
+            "name": "leader",
+            "kind": "property",
+            "addr": 4295395617
+          },
+          {
+            "name": "helper",
+            "kind": "property",
+            "addr": 4295395624
+          }
+        ]
+      },
+      {
+        "classname": "QueryType",
+        "addr": 421668,
+        "lang": "swift",
+        "index": 65,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.QueryType.0",
+            "lang": "swift",
+            "addr": 4295389750
+          },
+          {
+            "name": "1",
+            "flag": "method.QueryType.1",
+            "lang": "swift",
+            "addr": 4295409983
+          }
+        ],
+        "fields": [
+          {
+            "name": "enumValue",
+            "kind": "property",
+            "addr": 4295395581
+          },
+          {
+            "name": "rawValue",
+            "kind": "property",
+            "addr": 4295395591
+          }
+        ]
+      },
+      {
+        "classname": "EnumValue_4",
+        "addr": 421696,
+        "lang": "swift",
+        "index": 66,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.PPM_0_2_1.0",
+            "lang": "swift",
+            "addr": 4295389042
+          }
+        ],
+        "fields": [
+          {
+            "name": "reserved",
+            "kind": "property",
+            "addr": 4295395631
+          },
+          {
+            "name": "time_interval",
+            "kind": "property",
+            "addr": 4295395640
+          },
+          {
+            "name": "fixed_size",
+            "kind": "property",
+            "addr": 4295395654
+          }
+        ]
+      },
+      {
+        "classname": "TaskID",
+        "addr": 421724,
+        "lang": "swift",
+        "index": 67,
+        "fields": [
+          {
+            "name": "data",
+            "kind": "property",
+            "addr": 4295395536
+          }
+        ]
+      },
+      {
+        "classname": "_DPDediscoHPKEEncryption",
+        "addr": 421752,
+        "lang": "swift",
+        "index": 68,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ]
+      },
+      {
+        "classname": "HPKEPublicKey",
+        "addr": 421796,
+        "lang": "swift",
+        "index": 69,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.UInt24.0",
+            "lang": "swift",
+            "addr": 4295429757
+          }
+        ],
+        "fields": [
+          {
+            "name": "data",
+            "kind": "property",
+            "addr": 4295395715
+          }
+        ]
+      },
+      {
+        "classname": "HPKEConfig",
+        "addr": 421824,
+        "lang": "swift",
+        "index": 70,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.HPKEConfig.0",
+            "lang": "swift",
+            "addr": 4295390674
+          }
+        ],
+        "fields": [
+          {
+            "name": "id",
+            "kind": "property",
+            "addr": 4295395720
+          },
+          {
+            "name": "kemID",
+            "kind": "property",
+            "addr": 4295395723
+          },
+          {
+            "name": "kdfID",
+            "kind": "property",
+            "addr": 4295395729
+          },
+          {
+            "name": "aeadID",
+            "kind": "property",
+            "addr": 4295395735
+          },
+          {
+            "name": "publicKey",
+            "kind": "property",
+            "addr": 4295395742
+          }
+        ]
+      },
+      {
+        "classname": "CodingParameter_19",
+        "addr": 421852,
+        "lang": "swift",
+        "index": 71,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.UInt24.0",
+            "lang": "swift",
+            "addr": 4295429757
+          }
+        ],
+        "fields": [
+          {
+            "name": "idParameter",
+            "kind": "property",
+            "type": "ytSg",
+            "addr": 4295395752
+          },
+          {
+            "name": "kemIDParameter",
+            "kind": "property",
+            "type": "ytSg",
+            "addr": 4295395764
+          },
+          {
+            "name": "kdfIDParameter",
+            "kind": "property",
+            "type": "ytSg",
+            "addr": 4295395779
+          },
+          {
+            "name": "aeadIDParameter",
+            "kind": "property",
+            "type": "ytSg",
+            "addr": 4295395794
+          },
+          {
+            "name": "publicKeyParameter",
+            "kind": "property",
+            "type": "ytSg",
+            "addr": 4295395824
+          }
+        ]
+      },
+      {
+        "classname": "HPKEConfigList",
+        "addr": 421880,
+        "lang": "swift",
+        "index": 72,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.UInt24.0",
+            "lang": "swift",
+            "addr": 4295429757
+          }
+        ],
+        "fields": [
+          {
+            "name": "vector",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295395843
+          }
+        ]
+      },
+      {
+        "classname": "HPKECiphertext",
+        "addr": 421908,
+        "lang": "swift",
+        "index": 73,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.HPKECiphertext.0",
+            "lang": "swift",
+            "addr": 4295390246
+          }
+        ],
+        "fields": [
+          {
+            "name": "configID",
+            "kind": "property",
+            "addr": 4295395850
+          },
+          {
+            "name": "enc",
+            "kind": "property",
+            "addr": 4295395859
+          },
+          {
+            "name": "payload",
+            "kind": "property",
+            "addr": 4295395863
+          }
+        ]
+      },
+      {
+        "classname": "CodingParameter_20",
+        "addr": 421936,
+        "lang": "swift",
+        "index": 74,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.UInt24.0",
+            "lang": "swift",
+            "addr": 4295429757
+          }
+        ],
+        "fields": [
+          {
+            "name": "configIDParameter",
+            "kind": "property",
+            "type": "ytSg",
+            "addr": 4295395872
+          }
+        ]
+      },
+      {
+        "classname": "ExtensionType",
+        "addr": 421964,
+        "lang": "swift",
+        "index": 75,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.ExtensionType.0",
+            "lang": "swift",
+            "addr": 4295390046
+          },
+          {
+            "name": "1",
+            "flag": "method.ExtensionType.1",
+            "lang": "swift",
+            "addr": 4295410279
+          }
+        ],
+        "fields": [
+          {
+            "name": "enumValue",
+            "kind": "property",
+            "addr": 4295395890
+          },
+          {
+            "name": "rawValue",
+            "kind": "property",
+            "addr": 4295395900
+          }
+        ]
+      },
+      {
+        "classname": "EnumValue_5",
+        "addr": 421992,
+        "lang": "swift",
+        "index": 76,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.UInt24.0",
+            "lang": "swift",
+            "addr": 4295429757
+          }
+        ],
+        "fields": [
+          {
+            "name": "taskprov",
+            "kind": "property",
+            "addr": 4295395909
+          }
+        ]
+      },
+      {
+        "classname": "Extension",
+        "addr": 422020,
+        "lang": "swift",
+        "index": 77,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.Extension.0",
+            "lang": "swift",
+            "addr": 4295390102
+          }
+        ],
+        "fields": [
+          {
+            "name": "extensionType",
+            "kind": "property",
+            "addr": 4295395918
+          },
+          {
+            "name": "extensionData",
+            "kind": "property",
+            "addr": 4295395932
+          }
+        ]
+      },
+      {
+        "classname": "CodingParameter_21",
+        "addr": 422048,
+        "lang": "swift",
+        "index": 78,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.UInt24.0",
+            "lang": "swift",
+            "addr": 4295429757
+          }
+        ],
+        "fields": [
+          {
+            "name": "extensionTypeParameter",
+            "kind": "property",
+            "type": "ytSg",
+            "addr": 4295395952
+          }
+        ]
+      },
+      {
+        "classname": "ReportMetadata",
+        "addr": 422076,
+        "lang": "swift",
+        "index": 79,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.ReportMetadata.0",
+            "lang": "swift",
+            "addr": 4295390158
+          }
+        ],
+        "fields": [
+          {
+            "name": "reportID",
+            "kind": "property",
+            "addr": 4295395975
+          },
+          {
+            "name": "time",
+            "kind": "property",
+            "addr": 4295395984
+          }
+        ]
+      },
+      {
+        "classname": "CodingParameter_22",
+        "addr": 422104,
+        "lang": "swift",
+        "index": 80,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.UInt24.0",
+            "lang": "swift",
+            "addr": 4295429757
+          }
+        ],
+        "fields": [
+          {
+            "name": "reportIDParameter",
+            "kind": "property",
+            "type": "ytSg",
+            "addr": 4295396000
+          },
+          {
+            "name": "timeParameter",
+            "kind": "property",
+            "type": "ytSg",
+            "addr": 4295396018
+          }
+        ]
+      },
+      {
+        "classname": "Report",
+        "addr": 422132,
+        "lang": "swift",
+        "index": 81,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.Report.0",
+            "lang": "swift",
+            "addr": 4295390726
+          }
+        ],
+        "fields": [
+          {
+            "name": "reportMetadata",
+            "kind": "property",
+            "addr": 4295396032
+          },
+          {
+            "name": "publicShare",
+            "kind": "property",
+            "addr": 4295396047
+          },
+          {
+            "name": "leaderEncryptedInputShare",
+            "kind": "property",
+            "addr": 4295396064
+          },
+          {
+            "name": "helperEncryptedInputShare",
+            "kind": "property",
+            "addr": 4295396096
+          }
+        ]
+      },
+      {
+        "classname": "CodingParameter_23",
+        "addr": 422160,
+        "lang": "swift",
+        "index": 82,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.UInt24.0",
+            "lang": "swift",
+            "addr": 4295429757
+          }
+        ],
+        "fields": [
+          {
+            "name": "reportMetadataParameter",
+            "kind": "property",
+            "addr": 4295396128
+          },
+          {
+            "name": "leaderEncryptedInputShareParameter",
+            "kind": "property",
+            "addr": 4295396160
+          },
+          {
+            "name": "helperEncryptedInputShareParameter",
+            "kind": "property",
+            "addr": 4295396208
+          }
+        ]
+      },
+      {
+        "classname": "PlaintextInputShare",
+        "addr": 422188,
+        "lang": "swift",
+        "index": 83,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.PlaintextInputShare.0",
+            "lang": "swift",
+            "addr": 4295390270
+          }
+        ],
+        "fields": [
+          {
+            "name": "extensions",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295396243
+          },
+          {
+            "name": "payload",
+            "kind": "property",
+            "addr": 4295395863
+          }
+        ]
+      },
+      {
+        "classname": "CodingParameter_24",
+        "addr": 422216,
+        "lang": "swift",
+        "index": 84,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.UInt24.0",
+            "lang": "swift",
+            "addr": 4295429757
+          }
+        ],
+        "fields": [
+          {
+            "name": "extensionsElementCodingParameter",
+            "kind": "property",
+            "addr": 4295396256
+          }
+        ]
+      },
+      {
+        "classname": "InputShareAAD",
+        "addr": 422244,
+        "lang": "swift",
+        "index": 85,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.InputShareAAD.0",
+            "lang": "swift",
+            "addr": 4295390582
+          }
+        ],
+        "fields": [
+          {
+            "name": "taskID",
+            "kind": "property",
+            "addr": 4295396289
+          },
+          {
+            "name": "reportMetadata",
+            "kind": "property",
+            "addr": 4295396032
+          },
+          {
+            "name": "publicShare",
+            "kind": "property",
+            "addr": 4295396047
+          }
+        ]
+      },
+      {
+        "classname": "CodingParameter_25",
+        "addr": 422272,
+        "lang": "swift",
+        "index": 86,
+        "fields": [
+          {
+            "name": "taskIDParameter",
+            "kind": "property",
+            "type": "ytSg",
+            "addr": 4295396296
+          },
+          {
+            "name": "reportMetadataParameter",
+            "kind": "property",
+            "addr": 4295396128
+          }
+        ]
+      },
+      {
+        "classname": "_DPBAACertificateChain",
+        "addr": 422300,
+        "lang": "swift",
+        "index": 87,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ],
+        "fields": [
+          {
+            "name": "intermediateCertificate",
+            "kind": "property",
+            "addr": 4295396320
+          },
+          {
+            "name": "leafCertificate",
+            "kind": "property",
+            "addr": 4295396344
+          }
+        ]
+      },
+      {
+        "classname": "LoadTestExperimentalSetup",
+        "addr": 422368,
+        "lang": "swift",
+        "index": 88,
+        "fields": [
+          {
+            "name": "parallelism",
+            "kind": "property",
+            "addr": 4295396368
+          },
+          {
+            "name": "payloadSize",
+            "kind": "property",
+            "addr": 4295396380
+          },
+          {
+            "name": "donations",
+            "kind": "property",
+            "addr": 4295396392
+          },
+          {
+            "name": "unknownFields",
+            "kind": "property",
+            "addr": 4295396402
+          }
+        ]
+      },
+      {
+        "classname": "ProtectedDonation",
+        "addr": 422408,
+        "lang": "swift",
+        "index": 89,
+        "fields": [
+          {
+            "name": "unknownFields",
+            "kind": "property",
+            "addr": 4295396402
+          },
+          {
+            "name": "_baaSignedDonationEnvelope",
+            "kind": "property",
+            "addr": 4295396416
+          }
+        ]
+      },
+      {
+        "classname": "BaaSignedDonation",
+        "addr": 422448,
+        "lang": "swift",
+        "index": 90,
+        "fields": [
+          {
+            "name": "serialisedDediscoDonation",
+            "kind": "property",
+            "addr": 4295396448
+          },
+          {
+            "name": "serialisedDediscoDonationSignature",
+            "kind": "property",
+            "addr": 4295396480
+          },
+          {
+            "name": "unknownFields",
+            "kind": "property",
+            "addr": 4295396402
+          },
+          {
+            "name": "_baaCertificateChain",
+            "kind": "property",
+            "addr": 4295396528
+          }
+        ]
+      },
+      {
+        "classname": "BaaCertificateChain",
+        "addr": 422488,
+        "lang": "swift",
+        "index": 91,
+        "fields": [
+          {
+            "name": "intermediateCertificate",
+            "kind": "property",
+            "addr": 4295396560
+          },
+          {
+            "name": "leafCertificate",
+            "kind": "property",
+            "addr": 4295396584
+          },
+          {
+            "name": "unknownFields",
+            "kind": "property",
+            "addr": 4295396402
+          }
+        ]
+      },
+      {
+        "classname": "DediscoDonation",
+        "addr": 422528,
+        "lang": "swift",
+        "index": 92,
+        "fields": [
+          {
+            "name": "collectionID",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295396600
+          },
+          {
+            "name": "algorithm",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295396613
+          },
+          {
+            "name": "fsEncryptedShare",
+            "kind": "property",
+            "addr": 4295396624
+          },
+          {
+            "name": "dsEncryptedShare",
+            "kind": "property",
+            "addr": 4295396656
+          },
+          {
+            "name": "fsPublicKey",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295396673
+          },
+          {
+            "name": "dsPublicKey",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295396685
+          },
+          {
+            "name": "versionHash",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295396697
+          },
+          {
+            "name": "report",
+            "kind": "property",
+            "addr": 4295396709
+          },
+          {
+            "name": "unknownFields",
+            "kind": "property",
+            "addr": 4295396402
+          },
+          {
+            "name": "_algorithmParameters",
+            "kind": "property",
+            "addr": 4295396720
+          }
+        ]
+      },
+      {
+        "classname": "AlgorithmParameters",
+        "addr": 422568,
+        "lang": "swift",
+        "index": 93,
+        "fields": [
+          {
+            "name": "dimension",
+            "kind": "property",
+            "addr": 4295396741
+          },
+          {
+            "name": "epsilon",
+            "kind": "property",
+            "type": "Swift.Double",
+            "addr": 4295396751
+          },
+          {
+            "name": "otherParams",
+            "kind": "property",
+            "addr": 4295396759
+          },
+          {
+            "name": "unknownFields",
+            "kind": "property",
+            "addr": 4295396402
+          }
+        ]
+      },
+      {
+        "classname": "CollectionID",
+        "addr": 422608,
+        "lang": "swift",
+        "index": 94,
+        "fields": [
+          {
+            "name": "collectionID",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295396600
+          },
+          {
+            "name": "unknownFields",
+            "kind": "property",
+            "addr": 4295396402
+          }
+        ]
+      },
+      {
+        "classname": "Empty",
+        "addr": 422648,
+        "lang": "swift",
+        "index": 95,
+        "fields": [
+          {
+            "name": "unknownFields",
+            "kind": "property",
+            "addr": 4295396402
+          }
+        ]
+      },
+      {
+        "classname": "_DPTaskProv",
+        "addr": 4295472240,
+        "lang": "objc",
+        "index": 96,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "taskIDWithError:",
+            "flag": "method._DPTaskProv.taskIDWithError:",
+            "lang": "objc",
+            "addr": 4294974508
+          },
+          {
+            "name": "initWithDonation:leaderURL:helperURL:error:",
+            "flag": "method._DPTaskProv.initWithDonation:leaderURL:helperURL:error:",
+            "lang": "objc",
+            "addr": 4294974792
+          },
+          {
+            "name": "derivedMaxBatchSizeFromDonationMetadata:minBatchSize:error:",
+            "flag": "method._DPTaskProv.derivedMaxBatchSizeFromDonationMetadata:minBatchSize:error:",
+            "lang": "objc",
+            "addr": 4294975468
+          },
+          {
+            "name": "isTaskConfigValidWithError:",
+            "flag": "method._DPTaskProv.isTaskConfigValidWithError:",
+            "lang": "objc",
+            "addr": 4294976432
+          },
+          {
+            "name": "taskInfoWithError:",
+            "flag": "method._DPTaskProv.taskInfoWithError:",
+            "lang": "objc",
+            "addr": 4294978168
+          },
+          {
+            "name": "derivedMinBatchSize",
+            "flag": "method._DPTaskProv.derivedMinBatchSize",
+            "lang": "objc",
+            "addr": 4294978364
+          },
+          {
+            "name": "derivedTaskExpiration",
+            "flag": "method._DPTaskProv.derivedTaskExpiration",
+            "lang": "objc",
+            "addr": 4294978540
+          },
+          {
+            "name": "encodedTaskConfigWithError:",
+            "flag": "func.100002c98",
+            "lang": "objc",
+            "addr": 4294978712
+          },
+          {
+            "name": "init",
+            "flag": "method._DPTaskProv.init",
+            "lang": "objc",
+            "addr": 4294978744
+          },
+          {
+            "name": "collectionID",
+            "flag": "method._DPTaskProv.collectionID",
+            "lang": "objc",
+            "addr": 4294978828
+          },
+          {
+            "name": "vdafType",
+            "flag": "method._DPTaskProv.vdafType",
+            "lang": "objc",
+            "addr": 4294978836
+          },
+          {
+            "name": "taskInfo",
+            "flag": "method._DPTaskProv.taskInfo",
+            "lang": "objc",
+            "addr": 4294978844
+          },
+          {
+            "name": "leaderURL",
+            "flag": "method._DPTaskProv.leaderURL",
+            "lang": "objc",
+            "addr": 4294978852
+          },
+          {
+            "name": "helperURL",
+            "flag": "method._DPTaskProv.helperURL",
+            "lang": "objc",
+            "addr": 4294978860
+          },
+          {
+            "name": "minBatchSize",
+            "flag": "method._DPTaskProv.minBatchSize",
+            "lang": "objc",
+            "addr": 4294978868
+          },
+          {
+            "name": "maxBatchSize",
+            "flag": "method._DPTaskProv.maxBatchSize",
+            "lang": "objc",
+            "addr": 4294978876
+          },
+          {
+            "name": "taskExpiration",
+            "flag": "method._DPTaskProv.taskExpiration",
+            "lang": "objc",
+            "addr": 4294978884
+          },
+          {
+            "name": "donation",
+            "flag": "method._DPTaskProv.donation",
+            "lang": "objc",
+            "addr": 4294978892
+          },
+          {
+            "name": "taskID",
+            "flag": "method._DPTaskProv.taskID",
+            "lang": "objc",
+            "addr": 4294978900
+          },
+          {
+            "name": "setTaskID:",
+            "flag": "method._DPTaskProv.setTaskID:",
+            "lang": "objc",
+            "addr": 4294978908
+          },
+          {
+            "name": "encodedTaskConfig",
+            "flag": "method._DPTaskProv.encodedTaskConfig",
+            "lang": "objc",
+            "addr": 4294978920
+          },
+          {
+            "name": "setEncodedTaskConfig:",
+            "flag": "method._DPTaskProv.setEncodedTaskConfig:",
+            "lang": "objc",
+            "addr": 4294978928
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method._DPTaskProv..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294978940
+          },
+          {
+            "name": "encodedTaskConfigWithError:",
+            "flag": "method._DPTaskProv.encodedTaskConfigWithError:",
+            "lang": "objc",
+            "addr": 4295326592
+          },
+          {
+            "name": "taskProvFromDonation:leaderURL:helperURL:error:",
+            "flag": "method.class._DPTaskProv.taskProvFromDonation:leaderURL:helperURL:error:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294974168
+          },
+          {
+            "name": "vdafTypeFromDonation:error:",
+            "flag": "method.class._DPTaskProv.vdafTypeFromDonation:error:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294975852
+          },
+          {
+            "name": "new",
+            "flag": "method.class._DPTaskProv.new",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294978796
+          },
+          {
+            "name": "encodedTaskConfigWithError:",
+            "flag": "method._DPTaskProv.encodedTaskConfigWithError:",
+            "lang": "objc",
+            "addr": 4295326592
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_vdafType",
+            "kind": "var",
+            "type": "I",
+            "addr": 4295471944
+          },
+          {
+            "name": "_minBatchSize",
+            "kind": "var",
+            "type": "I",
+            "addr": 4295471948
+          },
+          {
+            "name": "_maxBatchSize",
+            "kind": "var",
+            "type": "I",
+            "addr": 4295471952
+          },
+          {
+            "name": "_collectionID",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295471956
+          },
+          {
+            "name": "_taskInfo",
+            "kind": "var",
+            "type": "@\"NSData\"",
+            "addr": 4295471960
+          },
+          {
+            "name": "_leaderURL",
+            "kind": "var",
+            "type": "@\"NSData\"",
+            "addr": 4295471964
+          },
+          {
+            "name": "_helperURL",
+            "kind": "var",
+            "type": "@\"NSData\"",
+            "addr": 4295471968
+          },
+          {
+            "name": "_taskExpiration",
+            "kind": "var",
+            "type": "Q",
+            "addr": 4295471972
+          },
+          {
+            "name": "_donation",
+            "kind": "var",
+            "type": "@\"_DPDediscoDonation\"",
+            "addr": 4295471976
+          },
+          {
+            "name": "_taskID",
+            "kind": "var",
+            "type": "@\"NSData\"",
+            "addr": 4295471980
+          },
+          {
+            "name": "_encodedTaskConfig",
+            "kind": "var",
+            "type": "@\"NSData\"",
+            "addr": 4295471984
+          },
+          {
+            "name": "donation",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "taskID",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "encodedTaskConfig",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "collectionID",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "vdafType",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "taskInfo",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "leaderURL",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "helperURL",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "minBatchSize",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "maxBatchSize",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "taskExpiration",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "_DPDAPPayloadEncoder",
+        "addr": 4295472320,
+        "lang": "objc",
+        "index": 97,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "taskIDWithError:",
+            "flag": "method._DPDAPPayloadEncoder.taskIDWithError:",
+            "lang": "objc",
+            "addr": 4294979380
+          },
+          {
+            "name": "encodedTaskProvExtensionDataWithError:",
+            "flag": "method._DPDAPPayloadEncoder.encodedTaskProvExtensionDataWithError:",
+            "lang": "objc",
+            "addr": 4294979476
+          },
+          {
+            "name": "dediscoPayloadWithError:",
+            "flag": "method._DPDAPPayloadEncoder.dediscoPayloadWithError:",
+            "lang": "objc",
+            "addr": 4294979572
+          },
+          {
+            "name": "encodedReportAuthExtensionDataWithError:",
+            "flag": "method._DPDAPPayloadEncoder.encodedReportAuthExtensionDataWithError:",
+            "lang": "objc",
+            "addr": 4294979876
+          },
+          {
+            "name": "initWithDonation:keys:error:",
+            "flag": "method._DPDAPPayloadEncoder.initWithDonation:keys:error:",
+            "lang": "objc",
+            "addr": 4294979964
+          },
+          {
+            "name": "initWithDonation:keys:taskProv:error:",
+            "flag": "method._DPDAPPayloadEncoder.initWithDonation:keys:taskProv:error:",
+            "lang": "objc",
+            "addr": 4294980236
+          },
+          {
+            "name": "encodeReportID",
+            "flag": "method._DPDAPPayloadEncoder.encodeReportID",
+            "lang": "objc",
+            "addr": 4294980660
+          },
+          {
+            "name": "encodePublicShare",
+            "flag": "method._DPDAPPayloadEncoder.encodePublicShare",
+            "lang": "objc",
+            "addr": 4294980992
+          },
+          {
+            "name": "encodedInfoForServerRole:",
+            "flag": "method._DPDAPPayloadEncoder.encodedInfoForServerRole:",
+            "lang": "objc",
+            "addr": 4294981316
+          },
+          {
+            "name": "encryptLeaderSharesWithError:",
+            "flag": "method._DPDAPPayloadEncoder.encryptLeaderSharesWithError:",
+            "lang": "objc",
+            "addr": 4294981520
+          },
+          {
+            "name": "encryptHelperSharesWithError:",
+            "flag": "method._DPDAPPayloadEncoder.encryptHelperSharesWithError:",
+            "lang": "objc",
+            "addr": 4294981708
+          },
+          {
+            "name": "inputShareInfoString",
+            "flag": "method._DPDAPPayloadEncoder.inputShareInfoString",
+            "lang": "objc",
+            "addr": 4294981896
+          },
+          {
+            "name": "encryptedShareForServerRole:publicKey:error:",
+            "flag": "method._DPDAPPayloadEncoder.encryptedShareForServerRole:publicKey:error:",
+            "lang": "objc",
+            "addr": 4294982016
+          },
+          {
+            "name": "isDonationValidWithError:",
+            "flag": "method._DPDAPPayloadEncoder.isDonationValidWithError:",
+            "lang": "objc",
+            "addr": 4294982516
+          },
+          {
+            "name": "encodedReportWithError:",
+            "flag": "func.100003de8",
+            "lang": "objc",
+            "addr": 4294983144
+          },
+          {
+            "name": "dapVersion",
+            "flag": "method._DPDAPPayloadEncoder.dapVersion",
+            "lang": "objc",
+            "addr": 4294983176
+          },
+          {
+            "name": "encodedAdditionalDataWithError:",
+            "flag": "method._DPDAPPayloadEncoder.encodedAdditionalDataWithError:",
+            "lang": "objc",
+            "addr": 4294983208
+          },
+          {
+            "name": "encodedPlaintextInputShareForServerRole:error:",
+            "flag": "method._DPDAPPayloadEncoder.encodedPlaintextInputShareForServerRole:error:",
+            "lang": "objc",
+            "addr": 4294983240
+          },
+          {
+            "name": "init",
+            "flag": "method._DPDAPPayloadEncoder.init",
+            "lang": "objc",
+            "addr": 4294983272
+          },
+          {
+            "name": "donation",
+            "flag": "method._DPDAPPayloadEncoder.donation",
+            "lang": "objc",
+            "addr": 4294983356
+          },
+          {
+            "name": "keys",
+            "flag": "method._DPDAPPayloadEncoder.keys",
+            "lang": "objc",
+            "addr": 4294983364
+          },
+          {
+            "name": "taskProv",
+            "flag": "method._DPDAPPayloadEncoder.taskProv",
+            "lang": "objc",
+            "addr": 4294983372
+          },
+          {
+            "name": "time",
+            "flag": "method._DPDAPPayloadEncoder.time",
+            "lang": "objc",
+            "addr": 4294983380
+          },
+          {
+            "name": "reportID",
+            "flag": "method._DPDAPPayloadEncoder.reportID",
+            "lang": "objc",
+            "addr": 4294983388
+          },
+          {
+            "name": "setReportID:",
+            "flag": "method._DPDAPPayloadEncoder.setReportID:",
+            "lang": "objc",
+            "addr": 4294983396
+          },
+          {
+            "name": "publicShare",
+            "flag": "method._DPDAPPayloadEncoder.publicShare",
+            "lang": "objc",
+            "addr": 4294983408
+          },
+          {
+            "name": "setPublicShare:",
+            "flag": "method._DPDAPPayloadEncoder.setPublicShare:",
+            "lang": "objc",
+            "addr": 4294983416
+          },
+          {
+            "name": "encryptedLeaderShares",
+            "flag": "method._DPDAPPayloadEncoder.encryptedLeaderShares",
+            "lang": "objc",
+            "addr": 4294983428
+          },
+          {
+            "name": "setEncryptedLeaderShares:",
+            "flag": "method._DPDAPPayloadEncoder.setEncryptedLeaderShares:",
+            "lang": "objc",
+            "addr": 4294983436
+          },
+          {
+            "name": "encryptedHelperShares",
+            "flag": "method._DPDAPPayloadEncoder.encryptedHelperShares",
+            "lang": "objc",
+            "addr": 4294983448
+          },
+          {
+            "name": "setEncryptedHelperShares:",
+            "flag": "method._DPDAPPayloadEncoder.setEncryptedHelperShares:",
+            "lang": "objc",
+            "addr": 4294983456
+          },
+          {
+            "name": "report",
+            "flag": "method._DPDAPPayloadEncoder.report",
+            "lang": "objc",
+            "addr": 4294983468
+          },
+          {
+            "name": "setReport:",
+            "flag": "method._DPDAPPayloadEncoder.setReport:",
+            "lang": "objc",
+            "addr": 4294983476
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method._DPDAPPayloadEncoder..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294983488
+          },
+          {
+            "name": "encodedReportWithError:",
+            "flag": "method._DPDAPPayloadEncoder.encodedReportWithError:",
+            "lang": "objc",
+            "addr": 4295326536
+          },
+          {
+            "name": "encoderForDonation:keys:error:",
+            "flag": "method.class._DPDAPPayloadEncoder.encoderForDonation:keys:error:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294979068
+          },
+          {
+            "name": "secondsSinceEpochWithPrecision",
+            "flag": "method.class._DPDAPPayloadEncoder.secondsSinceEpochWithPrecision",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294980572
+          },
+          {
+            "name": "new",
+            "flag": "method.class._DPDAPPayloadEncoder.new",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294983324
+          },
+          {
+            "name": "encodedReportWithError:",
+            "flag": "method._DPDAPPayloadEncoder.encodedReportWithError:",
+            "lang": "objc",
+            "addr": 4295326536
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_donation",
+            "kind": "var",
+            "type": "@\"_DPDediscoDonation\"",
+            "addr": 4295471988
+          },
+          {
+            "name": "_keys",
+            "kind": "var",
+            "type": "@\"_DPDediscoKeyConfigurationV2\"",
+            "addr": 4295471992
+          },
+          {
+            "name": "_taskProv",
+            "kind": "var",
+            "type": "@\"_DPTaskProv\"",
+            "addr": 4295471996
+          },
+          {
+            "name": "_time",
+            "kind": "var",
+            "type": "Q",
+            "addr": 4295472000
+          },
+          {
+            "name": "_reportID",
+            "kind": "var",
+            "type": "@\"NSData\"",
+            "addr": 4295472004
+          },
+          {
+            "name": "_publicShare",
+            "kind": "var",
+            "type": "@\"NSData\"",
+            "addr": 4295472008
+          },
+          {
+            "name": "_encryptedLeaderShares",
+            "kind": "var",
+            "type": "@\"NSArray\"",
+            "addr": 4295472012
+          },
+          {
+            "name": "_encryptedHelperShares",
+            "kind": "var",
+            "type": "@\"NSArray\"",
+            "addr": 4295472016
+          },
+          {
+            "name": "_report",
+            "kind": "var",
+            "type": "@\"NSData\"",
+            "addr": 4295472020
+          },
+          {
+            "name": "donation",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "keys",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "taskProv",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "time",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "reportID",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "publicShare",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "encryptedLeaderShares",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "encryptedHelperShares",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "report",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "_DPSubmissionServiceUserDefaults",
+        "addr": 4295472360,
+        "lang": "objc",
+        "index": 98,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "extraLoggingEnabled",
+            "flag": "method.class._DPSubmissionServiceUserDefaults.extraLoggingEnabled",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294983628
+          },
+          {
+            "name": "baaCertificateBackoffDate",
+            "flag": "method.class._DPSubmissionServiceUserDefaults.baaCertificateBackoffDate",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294983708
+          },
+          {
+            "name": "setBAACertificateBackoffDate:",
+            "flag": "method.class._DPSubmissionServiceUserDefaults.setBAACertificateBackoffDate:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294983916
+          },
+          {
+            "name": "qaServerURL",
+            "flag": "method.class._DPSubmissionServiceUserDefaults.qaServerURL",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294984028
+          },
+          {
+            "name": "qaKeyConfigURL",
+            "flag": "method.class._DPSubmissionServiceUserDefaults.qaKeyConfigURL",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294984132
+          },
+          {
+            "name": "strictOHTTPDisabled",
+            "flag": "method.class._DPSubmissionServiceUserDefaults.strictOHTTPDisabled",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294984236
+          }
+        ]
+      },
+      {
+        "classname": "_DPTaskProv06",
+        "addr": 4295472480,
+        "lang": "objc",
+        "index": 99,
+        "super": [
+          "_DPTaskProv",
+          "_DPTaskProv"
+        ],
+        "rawsuper": [
+          "_DPTaskProv",
+          "_DPTaskProv"
+        ],
+        "methods": [
+          {
+            "name": "initWithDonation:leaderURL:helperURL:error:",
+            "flag": "method._DPTaskProv06.initWithDonation:leaderURL:helperURL:error:",
+            "lang": "objc",
+            "addr": 4294984316
+          },
+          {
+            "name": "encodedTaskConfigWithError:",
+            "flag": "method._DPTaskProv06.encodedTaskConfigWithError:",
+            "lang": "objc",
+            "addr": 4294984372
+          },
+          {
+            "name": "derivedMaxBatchSizeFromDonationMetadata:minBatchSize:error:",
+            "flag": "method._DPTaskProv06.derivedMaxBatchSizeFromDonationMetadata:minBatchSize:error:",
+            "lang": "objc",
+            "addr": 4294984800
+          },
+          {
+            "name": "encodedDPConfigWithError:",
+            "flag": "method._DPTaskProv06.encodedDPConfigWithError:",
+            "lang": "objc",
+            "addr": 4294985040
+          },
+          {
+            "name": "validatePINEParametersWithError:",
+            "flag": "method._DPTaskProv06.validatePINEParametersWithError:",
+            "lang": "objc",
+            "addr": 4294988088
+          },
+          {
+            "name": "encodedVDAFConfigWithEncodedDPConfig:error:",
+            "flag": "method._DPTaskProv06.encodedVDAFConfigWithEncodedDPConfig:error:",
+            "lang": "objc",
+            "addr": 4294989228
+          },
+          {
+            "name": "encodedTaskConfigWithError:",
+            "flag": "method._DPTaskProv.encodedTaskConfigWithError:",
+            "lang": "objc",
+            "addr": 4295326592
+          },
+          {
+            "name": "encodedTaskConfigWithError:",
+            "flag": "method._DPTaskProv.encodedTaskConfigWithError:",
+            "lang": "objc",
+            "addr": 4295326592
+          }
+        ]
+      },
+      {
+        "classname": "_DPSubmissionServiceHTTPClient",
+        "addr": 4295472560,
+        "lang": "objc",
+        "index": 100,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithDomain:retries:",
+            "flag": "method._DPSubmissionServiceHTTPClient.initWithDomain:retries:",
+            "lang": "objc",
+            "addr": 4294991688
+          },
+          {
+            "name": "initWithDomain:retries:method:tlsTrustPinningPolicyName:defaultHeaders:uploadWithOHTTP:",
+            "flag": "method._DPSubmissionServiceHTTPClient.initWithDomain:retries:method:tlsTrustPinningPolicyName:defaultHeaders:uploadWithOHTTP:",
+            "lang": "objc",
+            "addr": 4294991736
+          },
+          {
+            "name": "uploadData:onCompletion:",
+            "flag": "method._DPSubmissionServiceHTTPClient.uploadData:onCompletion:",
+            "lang": "objc",
+            "addr": 4294992016
+          },
+          {
+            "name": "uploadData:withHeaders:onCompletion:",
+            "flag": "method._DPSubmissionServiceHTTPClient.uploadData:withHeaders:onCompletion:",
+            "lang": "objc",
+            "addr": 4294992320
+          },
+          {
+            "name": "downloadConfigFromURL:completion:",
+            "flag": "method._DPSubmissionServiceHTTPClient.downloadConfigFromURL:completion:",
+            "lang": "objc",
+            "addr": 4294992628
+          },
+          {
+            "name": "_uploadData:withHeaders:withRetries:onCompletion:",
+            "flag": "method._DPSubmissionServiceHTTPClient._uploadData:withHeaders:withRetries:onCompletion:",
+            "lang": "objc",
+            "addr": 4294992752
+          },
+          {
+            "name": "_downloadConfigFromURL:retries:onCompletion:",
+            "flag": "method._DPSubmissionServiceHTTPClient._downloadConfigFromURL:retries:onCompletion:",
+            "lang": "objc",
+            "addr": 4294994036
+          },
+          {
+            "name": "_session",
+            "flag": "method._DPSubmissionServiceHTTPClient._session",
+            "lang": "objc",
+            "addr": 4294995148
+          },
+          {
+            "name": "_dataUploadRequest:",
+            "flag": "method._DPSubmissionServiceHTTPClient._dataUploadRequest:",
+            "lang": "objc",
+            "addr": 4294995320
+          },
+          {
+            "name": "domain",
+            "flag": "method._DPSubmissionServiceHTTPClient.domain",
+            "lang": "objc",
+            "addr": 4294995848
+          },
+          {
+            "name": "setDomain:",
+            "flag": "method._DPSubmissionServiceHTTPClient.setDomain:",
+            "lang": "objc",
+            "addr": 4294995856
+          },
+          {
+            "name": "retries",
+            "flag": "method._DPSubmissionServiceHTTPClient.retries",
+            "lang": "objc",
+            "addr": 4294995864
+          },
+          {
+            "name": "setRetries:",
+            "flag": "method._DPSubmissionServiceHTTPClient.setRetries:",
+            "lang": "objc",
+            "addr": 4294995872
+          },
+          {
+            "name": "defaultMethod",
+            "flag": "method._DPSubmissionServiceHTTPClient.defaultMethod",
+            "lang": "objc",
+            "addr": 4294995880
+          },
+          {
+            "name": "setDefaultMethod:",
+            "flag": "method._DPSubmissionServiceHTTPClient.setDefaultMethod:",
+            "lang": "objc",
+            "addr": 4294995888
+          },
+          {
+            "name": "defaultTLSTrustPinningPolicyName",
+            "flag": "method._DPSubmissionServiceHTTPClient.defaultTLSTrustPinningPolicyName",
+            "lang": "objc",
+            "addr": 4294995900
+          },
+          {
+            "name": "setDefaultTLSTrustPinningPolicyName:",
+            "flag": "method._DPSubmissionServiceHTTPClient.setDefaultTLSTrustPinningPolicyName:",
+            "lang": "objc",
+            "addr": 4294995908
+          },
+          {
+            "name": "uploadWithOHTTP",
+            "flag": "method._DPSubmissionServiceHTTPClient.uploadWithOHTTP",
+            "lang": "objc",
+            "addr": 4294995920
+          },
+          {
+            "name": "setUploadWithOHTTP:",
+            "flag": "method._DPSubmissionServiceHTTPClient.setUploadWithOHTTP:",
+            "lang": "objc",
+            "addr": 4294995928
+          },
+          {
+            "name": "defaultHeaders",
+            "flag": "method._DPSubmissionServiceHTTPClient.defaultHeaders",
+            "lang": "objc",
+            "addr": 4294995936
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method._DPSubmissionServiceHTTPClient..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294995944
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_uploadWithOHTTP",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295472024
+          },
+          {
+            "name": "_domain",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295472028
+          },
+          {
+            "name": "_retries",
+            "kind": "var",
+            "type": "Q",
+            "addr": 4295472032
+          },
+          {
+            "name": "_defaultMethod",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295472036
+          },
+          {
+            "name": "_defaultTLSTrustPinningPolicyName",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295472040
+          },
+          {
+            "name": "_defaultHeaders",
+            "kind": "var",
+            "type": "@\"NSDictionary\"",
+            "addr": 4295472044
+          },
+          {
+            "name": "domain",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "retries",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "defaultMethod",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "defaultTLSTrustPinningPolicyName",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "uploadWithOHTTP",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "defaultHeaders",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "_DPTokenFetcherService",
+        "addr": 4295472640,
+        "lang": "objc",
+        "index": 101,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method._DPTokenFetcherService.init",
+            "lang": "objc",
+            "addr": 4294996036
+          },
+          {
+            "name": "initWithTokenConfig:",
+            "flag": "method._DPTokenFetcherService.initWithTokenConfig:",
+            "lang": "objc",
+            "addr": 4294996160
+          },
+          {
+            "name": "fetchMultipleChallengeTokenPair",
+            "flag": "method._DPTokenFetcherService.fetchMultipleChallengeTokenPair",
+            "lang": "objc",
+            "addr": 4294996384
+          },
+          {
+            "name": "extractTokenFieldsFromConfig:",
+            "flag": "method._DPTokenFetcherService.extractTokenFieldsFromConfig:",
+            "lang": "objc",
+            "addr": 4294998776
+          },
+          {
+            "name": "saveTokens:toFileInPath:",
+            "flag": "method._DPTokenFetcherService.saveTokens:toFileInPath:",
+            "lang": "objc",
+            "addr": 4294999772
+          },
+          {
+            "name": "fetchTokens",
+            "flag": "method._DPTokenFetcherService.fetchTokens",
+            "lang": "objc",
+            "addr": 4295000612
+          },
+          {
+            "name": "donateTokenCountToBitacoraForDirPath:",
+            "flag": "method._DPTokenFetcherService.donateTokenCountToBitacoraForDirPath:",
+            "lang": "objc",
+            "addr": 4295001324
+          },
+          {
+            "name": "queue",
+            "flag": "method._DPTokenFetcherService.queue",
+            "lang": "objc",
+            "addr": 4295002044
+          },
+          {
+            "name": "tokensDirectoryPath",
+            "flag": "method._DPTokenFetcherService.tokensDirectoryPath",
+            "lang": "objc",
+            "addr": 4295002052
+          },
+          {
+            "name": "setTokensDirectoryPath:",
+            "flag": "method._DPTokenFetcherService.setTokensDirectoryPath:",
+            "lang": "objc",
+            "addr": 4295002060
+          },
+          {
+            "name": "tokenFields",
+            "flag": "method._DPTokenFetcherService.tokenFields",
+            "lang": "objc",
+            "addr": 4295002068
+          },
+          {
+            "name": "setTokenFields:",
+            "flag": "method._DPTokenFetcherService.setTokenFields:",
+            "lang": "objc",
+            "addr": 4295002076
+          },
+          {
+            "name": "config",
+            "flag": "method._DPTokenFetcherService.config",
+            "lang": "objc",
+            "addr": 4295002088
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method._DPTokenFetcherService..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295002096
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_queue",
+            "kind": "var",
+            "type": "@\"NSObject<OS_dispatch_queue>\"",
+            "addr": 4295472048
+          },
+          {
+            "name": "_tokensDirectoryPath",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295472052
+          },
+          {
+            "name": "_tokenFields",
+            "kind": "var",
+            "type": "@\"NSDictionary\"",
+            "addr": 4295472056
+          },
+          {
+            "name": "_config",
+            "kind": "var",
+            "type": "@\"_DPPrivateAccessTokenConfig\"",
+            "addr": 4295472060
+          },
+          {
+            "name": "config",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "queue",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "tokensDirectoryPath",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "tokenFields",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "_DPReportAuth",
+        "addr": 4295472720,
+        "lang": "objc",
+        "index": 102,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithToken:withChallenge:",
+            "flag": "method._DPReportAuth.initWithToken:withChallenge:",
+            "lang": "objc",
+            "addr": 4295002244
+          },
+          {
+            "name": "encodeWithError:",
+            "flag": "method._DPReportAuth.encodeWithError:",
+            "lang": "objc",
+            "addr": 4295002520
+          },
+          {
+            "name": "token",
+            "flag": "method._DPReportAuth.token",
+            "lang": "objc",
+            "addr": 4295002900
+          },
+          {
+            "name": "setToken:",
+            "flag": "method._DPReportAuth.setToken:",
+            "lang": "objc",
+            "addr": 4295002908
+          },
+          {
+            "name": "challenge",
+            "flag": "method._DPReportAuth.challenge",
+            "lang": "objc",
+            "addr": 4295002920
+          },
+          {
+            "name": "setChallenge:",
+            "flag": "method._DPReportAuth.setChallenge:",
+            "lang": "objc",
+            "addr": 4295002928
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method._DPReportAuth..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295002940
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_token",
+            "kind": "var",
+            "type": "@\"NSData\"",
+            "addr": 4295472064
+          },
+          {
+            "name": "_challenge",
+            "kind": "var",
+            "type": "@\"NSData\"",
+            "addr": 4295472068
+          },
+          {
+            "name": "token",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "challenge",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "_DPDediscoUtils",
+        "addr": 4295472760,
+        "lang": "objc",
+        "index": 103,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "dediscoVersionForDonation:",
+            "flag": "method.class._DPDediscoUtils.dediscoVersionForDonation:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295003008
+          },
+          {
+            "name": "toBase64URLEncoded:",
+            "flag": "method.class._DPDediscoUtils.toBase64URLEncoded:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295003076
+          },
+          {
+            "name": "isDataCollectionEnabled",
+            "flag": "method.class._DPDediscoUtils.isDataCollectionEnabled",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295003276
+          },
+          {
+            "name": "shouldAllowOHTTPExemptionForCollectionID:",
+            "flag": "method.class._DPDediscoUtils.shouldAllowOHTTPExemptionForCollectionID:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295003364
+          }
+        ]
+      },
+      {
+        "classname": "_DPDAP02PayloadEncoder",
+        "addr": 4295472880,
+        "lang": "objc",
+        "index": 104,
+        "super": [
+          "_DPDAPPayloadEncoder",
+          "_DPDAPPayloadEncoder"
+        ],
+        "rawsuper": [
+          "_DPDAPPayloadEncoder",
+          "_DPDAPPayloadEncoder"
+        ],
+        "methods": [
+          {
+            "name": "initWithDonation:keys:error:",
+            "flag": "method._DPDAP02PayloadEncoder.initWithDonation:keys:error:",
+            "lang": "objc",
+            "addr": 4295003644
+          },
+          {
+            "name": "encodedReportWithError:",
+            "flag": "method._DPDAP02PayloadEncoder.encodedReportWithError:",
+            "lang": "objc",
+            "addr": 4295003780
+          },
+          {
+            "name": "dapVersion",
+            "flag": "method._DPDAP02PayloadEncoder.dapVersion",
+            "lang": "objc",
+            "addr": 4295004636
+          },
+          {
+            "name": "encodedAdditionalDataWithError:",
+            "flag": "method._DPDAP02PayloadEncoder.encodedAdditionalDataWithError:",
+            "lang": "objc",
+            "addr": 4295004648
+          },
+          {
+            "name": "encodedPlaintextInputShareForServerRole:error:",
+            "flag": "method._DPDAP02PayloadEncoder.encodedPlaintextInputShareForServerRole:error:",
+            "lang": "objc",
+            "addr": 4295005076
+          },
+          {
+            "name": "encodeExtensionsWithError:",
+            "flag": "method._DPDAP02PayloadEncoder.encodeExtensionsWithError:",
+            "lang": "objc",
+            "addr": 4295005192
+          },
+          {
+            "name": "encodeReportMetadataWithError:",
+            "flag": "method._DPDAP02PayloadEncoder.encodeReportMetadataWithError:",
+            "lang": "objc",
+            "addr": 4295005516
+          },
+          {
+            "name": "encodeHPKECipherTextWithError:",
+            "flag": "method._DPDAP02PayloadEncoder.encodeHPKECipherTextWithError:",
+            "lang": "objc",
+            "addr": 4295006036
+          },
+          {
+            "name": "extensions",
+            "flag": "method._DPDAP02PayloadEncoder.extensions",
+            "lang": "objc",
+            "addr": 4295007548
+          },
+          {
+            "name": "setExtensions:",
+            "flag": "method._DPDAP02PayloadEncoder.setExtensions:",
+            "lang": "objc",
+            "addr": 4295007564
+          },
+          {
+            "name": "reportMetadata",
+            "flag": "method._DPDAP02PayloadEncoder.reportMetadata",
+            "lang": "objc",
+            "addr": 4295007584
+          },
+          {
+            "name": "setReportMetadata:",
+            "flag": "method._DPDAP02PayloadEncoder.setReportMetadata:",
+            "lang": "objc",
+            "addr": 4295007600
+          },
+          {
+            "name": "hpkeCipherText",
+            "flag": "method._DPDAP02PayloadEncoder.hpkeCipherText",
+            "lang": "objc",
+            "addr": 4295007620
+          },
+          {
+            "name": "setHpkeCipherText:",
+            "flag": "method._DPDAP02PayloadEncoder.setHpkeCipherText:",
+            "lang": "objc",
+            "addr": 4295007636
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method._DPDAP02PayloadEncoder..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295007656
+          },
+          {
+            "name": "encodedReportWithError:",
+            "flag": "method._DPDAPPayloadEncoder.encodedReportWithError:",
+            "lang": "objc",
+            "addr": 4295326536
+          },
+          {
+            "name": "encodedReportWithError:",
+            "flag": "method._DPDAPPayloadEncoder.encodedReportWithError:",
+            "lang": "objc",
+            "addr": 4295326536
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_extensions",
+            "kind": "var",
+            "type": "@\"NSData\"",
+            "addr": 4295472072
+          },
+          {
+            "name": "_reportMetadata",
+            "kind": "var",
+            "type": "@\"NSData\"",
+            "addr": 4295472080
+          },
+          {
+            "name": "_hpkeCipherText",
+            "kind": "var",
+            "type": "@\"NSData\"",
+            "addr": 4295472076
+          },
+          {
+            "name": "extensions",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "reportMetadata",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hpkeCipherText",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "_DPDediscoBackgroundDownloaderService",
+        "addr": 4295472960,
+        "lang": "objc",
+        "index": 105,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithURL:",
+            "flag": "method._DPDediscoBackgroundDownloaderService.initWithURL:",
+            "lang": "objc",
+            "addr": 4295007760
+          },
+          {
+            "name": "downloadConfigSynchronously",
+            "flag": "method._DPDediscoBackgroundDownloaderService.downloadConfigSynchronously",
+            "lang": "objc",
+            "addr": 4295008124
+          },
+          {
+            "name": "startDownload",
+            "flag": "method._DPDediscoBackgroundDownloaderService.startDownload",
+            "lang": "objc",
+            "addr": 4295008356
+          },
+          {
+            "name": "URLSession:downloadTask:didFinishDownloadingToURL:",
+            "flag": "func.10000a19c",
+            "lang": "objc",
+            "addr": 4295008668
+          },
+          {
+            "name": "backgroundSession",
+            "flag": "method._DPDediscoBackgroundDownloaderService.backgroundSession",
+            "lang": "objc",
+            "addr": 4295009396
+          },
+          {
+            "name": "url",
+            "flag": "method._DPDediscoBackgroundDownloaderService.url",
+            "lang": "objc",
+            "addr": 4295009404
+          },
+          {
+            "name": "data",
+            "flag": "method._DPDediscoBackgroundDownloaderService.data",
+            "lang": "objc",
+            "addr": 4295009412
+          },
+          {
+            "name": "setData:",
+            "flag": "method._DPDediscoBackgroundDownloaderService.setData:",
+            "lang": "objc",
+            "addr": 4295009420
+          },
+          {
+            "name": "maxRetries",
+            "flag": "method._DPDediscoBackgroundDownloaderService.maxRetries",
+            "lang": "objc",
+            "addr": 4295009432
+          },
+          {
+            "name": "setMaxRetries:",
+            "flag": "method._DPDediscoBackgroundDownloaderService.setMaxRetries:",
+            "lang": "objc",
+            "addr": 4295009440
+          },
+          {
+            "name": "wait",
+            "flag": "method._DPDediscoBackgroundDownloaderService.wait",
+            "lang": "objc",
+            "addr": 4295009448
+          },
+          {
+            "name": "setWait:",
+            "flag": "method._DPDediscoBackgroundDownloaderService.setWait:",
+            "lang": "objc",
+            "addr": 4295009456
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method._DPDediscoBackgroundDownloaderService..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295009468
+          },
+          {
+            "name": "URLSession:downloadTask:didFinishDownloadingToURL:",
+            "flag": "method._DPDediscoBackgroundDownloaderService.URLSession:downloadTask:didFinishDownloadingToURL:",
+            "lang": "objc",
+            "addr": 4295326184
+          },
+          {
+            "name": "URLSession:downloadTask:didFinishDownloadingToURL:",
+            "flag": "method._DPDediscoBackgroundDownloaderService.URLSession:downloadTask:didFinishDownloadingToURL:",
+            "lang": "objc",
+            "addr": 4295326184
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_backgroundSession",
+            "kind": "var",
+            "type": "@\"NSURLSession\"",
+            "addr": 4295472084
+          },
+          {
+            "name": "_url",
+            "kind": "var",
+            "type": "@\"NSURL\"",
+            "addr": 4295472088
+          },
+          {
+            "name": "_data",
+            "kind": "var",
+            "type": "@\"NSData\"",
+            "addr": 4295472092
+          },
+          {
+            "name": "_maxRetries",
+            "kind": "var",
+            "type": "Q",
+            "addr": 4295472096
+          },
+          {
+            "name": "_wait",
+            "kind": "var",
+            "type": "@\"NSObject<OS_dispatch_semaphore>\"",
+            "addr": 4295472100
+          },
+          {
+            "name": "backgroundSession",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "url",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "data",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "maxRetries",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "wait",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "_DPDediscoNetworkingService",
+        "addr": 4295473040,
+        "lang": "objc",
+        "index": 106,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method._DPDediscoNetworkingService.init",
+            "lang": "objc",
+            "addr": 4295009568
+          },
+          {
+            "name": "initWithDomain:configurationURL:",
+            "flag": "method._DPDediscoNetworkingService.initWithDomain:configurationURL:",
+            "lang": "objc",
+            "addr": 4295009596
+          },
+          {
+            "name": "downloadConfigSynchronouslyWithError:",
+            "flag": "method._DPDediscoNetworkingService.downloadConfigSynchronouslyWithError:",
+            "lang": "objc",
+            "addr": 4295009780
+          },
+          {
+            "name": "networkingClient",
+            "flag": "method._DPDediscoNetworkingService.networkingClient",
+            "lang": "objc",
+            "addr": 4295011388
+          },
+          {
+            "name": "setNetworkingClient:",
+            "flag": "method._DPDediscoNetworkingService.setNetworkingClient:",
+            "lang": "objc",
+            "addr": 4295011396
+          },
+          {
+            "name": "configurationURL",
+            "flag": "method._DPDediscoNetworkingService.configurationURL",
+            "lang": "objc",
+            "addr": 4295011408
+          },
+          {
+            "name": "setConfigurationURL:",
+            "flag": "method._DPDediscoNetworkingService.setConfigurationURL:",
+            "lang": "objc",
+            "addr": 4295011416
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method._DPDediscoNetworkingService..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295011428
+          },
+          {
+            "name": "new",
+            "flag": "method.class._DPDediscoNetworkingService.new",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295009560
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_networkingClient",
+            "kind": "var",
+            "type": "@\"_DPSubmissionServiceHTTPClient\"",
+            "addr": 4295472104
+          },
+          {
+            "name": "_configurationURL",
+            "kind": "var",
+            "type": "@\"NSURL\"",
+            "addr": 4295472108
+          },
+          {
+            "name": "networkingClient",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "configurationURL",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "_DPDediscoSubmissionManagerV2",
+        "addr": 4295473080,
+        "lang": "objc",
+        "index": 107,
+        "super": [
+          "_DPDediscoSubmissionManager",
+          "_DPDediscoSubmissionManager"
+        ],
+        "rawsuper": [
+          "_DPDediscoSubmissionManager",
+          "_DPDediscoSubmissionManager"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method._DPDediscoSubmissionManagerV2.init",
+            "lang": "objc",
+            "addr": 4295011524
+          },
+          {
+            "name": "payloadEncoderForDonation:keys:error:",
+            "flag": "method._DPDediscoSubmissionManagerV2.payloadEncoderForDonation:keys:error:",
+            "lang": "objc",
+            "addr": 4295011664
+          },
+          {
+            "name": "payloadForDonation:keys:error:",
+            "flag": "method._DPDediscoSubmissionManagerV2.payloadForDonation:keys:error:",
+            "lang": "objc",
+            "addr": 4295012016
+          },
+          {
+            "name": "keysFromConfigurationFile:overrideVerifyDate:dediscoServerNames:error:",
+            "flag": "method._DPDediscoSubmissionManagerV2.keysFromConfigurationFile:overrideVerifyDate:dediscoServerNames:error:",
+            "lang": "objc",
+            "addr": 4295012304
+          },
+          {
+            "name": "uploadDAPPayload:withEncoder:withKeys:useOHTTP:telemetryAllowed:",
+            "flag": "method._DPDediscoSubmissionManagerV2.uploadDAPPayload:withEncoder:withKeys:useOHTTP:telemetryAllowed:",
+            "lang": "objc",
+            "addr": 4295012332
+          }
+        ]
+      },
+      {
+        "classname": "_DPDediscoKeyConfiguration",
+        "addr": 4295473200,
+        "lang": "objc",
+        "index": 108,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method._DPDediscoKeyConfiguration.init",
+            "lang": "objc",
+            "addr": 4295013476
+          },
+          {
+            "name": "initWithDestinationKey:facilitatorPublicKey:keysMetadataArray:",
+            "flag": "method._DPDediscoKeyConfiguration.initWithDestinationKey:facilitatorPublicKey:keysMetadataArray:",
+            "lang": "objc",
+            "addr": 4295013504
+          },
+          {
+            "name": "initWithDestinationKey:facilitatorPublicKey:",
+            "flag": "method._DPDediscoKeyConfiguration.initWithDestinationKey:facilitatorPublicKey:",
+            "lang": "objc",
+            "addr": 4295013716
+          },
+          {
+            "name": "destinationPublicKey",
+            "flag": "method._DPDediscoKeyConfiguration.destinationPublicKey",
+            "lang": "objc",
+            "addr": 4295016988
+          },
+          {
+            "name": "facilitatorPublicKey",
+            "flag": "method._DPDediscoKeyConfiguration.facilitatorPublicKey",
+            "lang": "objc",
+            "addr": 4295016996
+          },
+          {
+            "name": "keysMetadataArray",
+            "flag": "method._DPDediscoKeyConfiguration.keysMetadataArray",
+            "lang": "objc",
+            "addr": 4295017004
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method._DPDediscoKeyConfiguration..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295017012
+          },
+          {
+            "name": "new",
+            "flag": "method.class._DPDediscoKeyConfiguration.new",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295013468
+          },
+          {
+            "name": "keysFromConfiguration:error:",
+            "flag": "method.class._DPDediscoKeyConfiguration.keysFromConfiguration:error:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295013724
+          },
+          {
+            "name": "keysFromConfiguration:error:overrideVerifyDate:",
+            "flag": "method.class._DPDediscoKeyConfiguration.keysFromConfiguration:error:overrideVerifyDate:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295013732
+          },
+          {
+            "name": "verifySignature:data:certificate:overrideVerifyDate:isAppleServer:",
+            "flag": "method.class._DPDediscoKeyConfiguration.verifySignature:data:certificate:overrideVerifyDate:isAppleServer:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295014956
+          },
+          {
+            "name": "extractCertificatesFromChain:",
+            "flag": "method.class._DPDediscoKeyConfiguration.extractCertificatesFromChain:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295015596
+          },
+          {
+            "name": "constructTrust:policy:overrideVerifyDate:",
+            "flag": "method.class._DPDediscoKeyConfiguration.constructTrust:policy:overrideVerifyDate:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295016316
+          },
+          {
+            "name": "extractPublicKeyFromString:",
+            "flag": "method.class._DPDediscoKeyConfiguration.extractPublicKeyFromString:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295016524
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_destinationPublicKey",
+            "kind": "var",
+            "type": "@",
+            "addr": 4295472112
+          },
+          {
+            "name": "_facilitatorPublicKey",
+            "kind": "var",
+            "type": "@",
+            "addr": 4295472116
+          },
+          {
+            "name": "_keysMetadataArray",
+            "kind": "var",
+            "type": "@\"NSArray\"",
+            "addr": 4295472120
+          },
+          {
+            "name": "destinationPublicKey",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "facilitatorPublicKey",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "keysMetadataArray",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "_DPBAACertificateManager",
+        "addr": 4295473240,
+        "lang": "objc",
+        "index": 109,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "sleepForSeconds:",
+            "flag": "method.class._DPBAACertificateManager.sleepForSeconds:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295017112
+          },
+          {
+            "name": "signWithDeviceIdentity:",
+            "flag": "method.class._DPBAACertificateManager.signWithDeviceIdentity:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295017120
+          },
+          {
+            "name": "signWithDeviceIdentity:canRecover:",
+            "flag": "method.class._DPBAACertificateManager.signWithDeviceIdentity:canRecover:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295017940
+          }
+        ]
+      },
+      {
+        "classname": "TokenChallengePair",
+        "addr": 4295473360,
+        "lang": "objc",
+        "index": 110,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithChallenge:token:",
+            "flag": "method.TokenChallengePair.initWithChallenge:token:",
+            "lang": "objc",
+            "addr": 4295020020
+          },
+          {
+            "name": "challenge",
+            "flag": "method.TokenChallengePair.challenge",
+            "lang": "objc",
+            "addr": 4295020188
+          },
+          {
+            "name": "token",
+            "flag": "method.TokenChallengePair.token",
+            "lang": "objc",
+            "addr": 4295020196
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.TokenChallengePair..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295020204
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_challenge",
+            "kind": "var",
+            "type": "@\"NSData\"",
+            "addr": 4295472124
+          },
+          {
+            "name": "_token",
+            "kind": "var",
+            "type": "@\"NSData\"",
+            "addr": 4295472128
+          },
+          {
+            "name": "challenge",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "token",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "_DPPrivateAccessTokenManager",
+        "addr": 4295473440,
+        "lang": "objc",
+        "index": 111,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method._DPPrivateAccessTokenManager.init",
+            "lang": "objc",
+            "addr": 4295020272
+          },
+          {
+            "name": "initWithTokenPath:",
+            "flag": "method._DPPrivateAccessTokenManager.initWithTokenPath:",
+            "lang": "objc",
+            "addr": 4295020356
+          },
+          {
+            "name": "randomToken",
+            "flag": "method._DPPrivateAccessTokenManager.randomToken",
+            "lang": "objc",
+            "addr": 4295020480
+          },
+          {
+            "name": "randomFile",
+            "flag": "method._DPPrivateAccessTokenManager.randomFile",
+            "lang": "objc",
+            "addr": 4295021284
+          },
+          {
+            "name": "updateTokenFileWithTokenArray:inPath:",
+            "flag": "method._DPPrivateAccessTokenManager.updateTokenFileWithTokenArray:inPath:",
+            "lang": "objc",
+            "addr": 4295022244
+          },
+          {
+            "name": "reportAuthForAggregator:withError:",
+            "flag": "method._DPPrivateAccessTokenManager.reportAuthForAggregator:withError:",
+            "lang": "objc",
+            "addr": 4295022724
+          },
+          {
+            "name": "allowOnDemandFetchingForDate:maxDailyOnDemand:onDemandCoolDownSeconds:withError:",
+            "flag": "method._DPPrivateAccessTokenManager.allowOnDemandFetchingForDate:maxDailyOnDemand:onDemandCoolDownSeconds:withError:",
+            "lang": "objc",
+            "addr": 4295023180
+          },
+          {
+            "name": "onDemandReportAuthForAggregator:",
+            "flag": "method._DPPrivateAccessTokenManager.onDemandReportAuthForAggregator:",
+            "lang": "objc",
+            "addr": 4295025444
+          },
+          {
+            "name": "tokensDirectoryPath",
+            "flag": "method._DPPrivateAccessTokenManager.tokensDirectoryPath",
+            "lang": "objc",
+            "addr": 4295026064
+          },
+          {
+            "name": "setTokensDirectoryPath:",
+            "flag": "method._DPPrivateAccessTokenManager.setTokensDirectoryPath:",
+            "lang": "objc",
+            "addr": 4295026072
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method._DPPrivateAccessTokenManager..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295026080
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_tokensDirectoryPath",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295472132
+          },
+          {
+            "name": "tokensDirectoryPath",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "_DPTokenFetcherHelper",
+        "addr": 4295473480,
+        "lang": "objc",
+        "index": 112,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "filesInDirectory:withPrefix:",
+            "flag": "method.class._DPTokenFetcherHelper.filesInDirectory:withPrefix:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295026132
+          }
+        ]
+      },
+      {
+        "classname": "ServiceDelegate",
+        "addr": 4295473560,
+        "lang": "objc",
+        "index": 113,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "listener:shouldAcceptNewConnection:",
+            "flag": "method.ServiceDelegate.listener:shouldAcceptNewConnection:",
+            "lang": "objc",
+            "addr": 4295026544
+          }
+        ],
+        "fields": [
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "_DPDediscoSubmissionManager",
+        "addr": 4295473680,
+        "lang": "objc",
+        "index": 114,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method._DPDediscoSubmissionManager.init",
+            "lang": "objc",
+            "addr": 4295027664
+          },
+          {
+            "name": "initWithNetworkingService:",
+            "flag": "method._DPDediscoSubmissionManager.initWithNetworkingService:",
+            "lang": "objc",
+            "addr": 4295027804
+          },
+          {
+            "name": "handleDediscoDonation:error:",
+            "flag": "method._DPDediscoSubmissionManager.handleDediscoDonation:error:",
+            "lang": "objc",
+            "addr": 4295027928
+          },
+          {
+            "name": "handleDediscoDonation:overrideVerifyDate:error:",
+            "flag": "method._DPDediscoSubmissionManager.handleDediscoDonation:overrideVerifyDate:error:",
+            "lang": "objc",
+            "addr": 4295027940
+          },
+          {
+            "name": "serializePayload:error:",
+            "flag": "method._DPDediscoSubmissionManager.serializePayload:error:",
+            "lang": "objc",
+            "addr": 4295032068
+          },
+          {
+            "name": "payloadForDonation:keys:error:",
+            "flag": "method._DPDediscoSubmissionManager.payloadForDonation:keys:error:",
+            "lang": "objc",
+            "addr": 4295032080
+          },
+          {
+            "name": "algorithmParamsForDonation:dediscoOtherParams:",
+            "flag": "method._DPDediscoSubmissionManager.algorithmParamsForDonation:dediscoOtherParams:",
+            "lang": "objc",
+            "addr": 4295033440
+          },
+          {
+            "name": "serializeOtherParamsWithMetadata:error:",
+            "flag": "method._DPDediscoSubmissionManager.serializeOtherParamsWithMetadata:error:",
+            "lang": "objc",
+            "addr": 4295033672
+          },
+          {
+            "name": "baaCertificateChainFromBAASignature:",
+            "flag": "method._DPDediscoSubmissionManager.baaCertificateChainFromBAASignature:",
+            "lang": "objc",
+            "addr": 4295034604
+          },
+          {
+            "name": "signPayloadData:",
+            "flag": "method._DPDediscoSubmissionManager.signPayloadData:",
+            "lang": "objc",
+            "addr": 4295034776
+          },
+          {
+            "name": "uploadSerializedPayload:baaCertificateChain:baaSignature:options:",
+            "flag": "method._DPDediscoSubmissionManager.uploadSerializedPayload:baaCertificateChain:baaSignature:options:",
+            "lang": "objc",
+            "addr": 4295034788
+          },
+          {
+            "name": "encryptWithKey:data:",
+            "flag": "method._DPDediscoSubmissionManager.encryptWithKey:data:",
+            "lang": "objc",
+            "addr": 4295034984
+          },
+          {
+            "name": "base64PublicKeyRepresentationFromSecKeyRef:",
+            "flag": "method._DPDediscoSubmissionManager.base64PublicKeyRepresentationFromSecKeyRef:",
+            "lang": "objc",
+            "addr": 4295035164
+          },
+          {
+            "name": "keysFromConfigurationFile:overrideVerifyDate:dediscoServerNames:error:",
+            "flag": "method._DPDediscoSubmissionManager.keysFromConfigurationFile:overrideVerifyDate:dediscoServerNames:error:",
+            "lang": "objc",
+            "addr": 4295035356
+          },
+          {
+            "name": "uploadDAPPayload:withEncoder:withKeys:useOHTTP:telemetryAllowed:",
+            "flag": "method._DPDediscoSubmissionManager.uploadDAPPayload:withEncoder:withKeys:useOHTTP:telemetryAllowed:",
+            "lang": "objc",
+            "addr": 4295035376
+          },
+          {
+            "name": "networkingService",
+            "flag": "method._DPDediscoSubmissionManager.networkingService",
+            "lang": "objc",
+            "addr": 4295035716
+          },
+          {
+            "name": "setNetworkingService:",
+            "flag": "method._DPDediscoSubmissionManager.setNetworkingService:",
+            "lang": "objc",
+            "addr": 4295035724
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method._DPDediscoSubmissionManager..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295035736
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_networkingService",
+            "kind": "var",
+            "type": "@\"_DPDediscoNetworkingService\"",
+            "addr": 4295472136
+          },
+          {
+            "name": "networkingService",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "_DPDediscoKeyConfigurationV2",
+        "addr": 4295473760,
+        "lang": "objc",
+        "index": 115,
+        "super": [
+          "_DPDediscoKeyConfiguration",
+          "_DPDediscoKeyConfiguration"
+        ],
+        "rawsuper": [
+          "_DPDediscoKeyConfiguration",
+          "_DPDediscoKeyConfiguration"
+        ],
+        "methods": [
+          {
+            "name": "initWithDestinationKey:facilitatorPublicKey:keysMetadataArray:",
+            "flag": "method._DPDediscoKeyConfigurationV2.initWithDestinationKey:facilitatorPublicKey:keysMetadataArray:",
+            "lang": "objc",
+            "addr": 4295038388
+          },
+          {
+            "name": "leaderURL",
+            "flag": "method._DPDediscoKeyConfigurationV2.leaderURL",
+            "lang": "objc",
+            "addr": 4295040300
+          },
+          {
+            "name": "helperURL",
+            "flag": "method._DPDediscoKeyConfigurationV2.helperURL",
+            "lang": "objc",
+            "addr": 4295040432
+          },
+          {
+            "name": "leaderHPKEConfigID",
+            "flag": "method._DPDediscoKeyConfigurationV2.leaderHPKEConfigID",
+            "lang": "objc",
+            "addr": 4295040564
+          },
+          {
+            "name": "helperHPKEConfigID",
+            "flag": "method._DPDediscoKeyConfigurationV2.helperHPKEConfigID",
+            "lang": "objc",
+            "addr": 4295040696
+          },
+          {
+            "name": "keysFromConfiguration:dediscoServerNames:error:overrideVerifyDate:",
+            "flag": "method.class._DPDediscoKeyConfigurationV2.keysFromConfiguration:dediscoServerNames:error:overrideVerifyDate:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295035748
+          },
+          {
+            "name": "decodeDAPEncodedConfig:withError:",
+            "flag": "method.class._DPDediscoKeyConfigurationV2.decodeDAPEncodedConfig:withError:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295038444
+          },
+          {
+            "name": "extractPublicKeyFromString:",
+            "flag": "method.class._DPDediscoKeyConfigurationV2.extractPublicKeyFromString:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295039496
+          },
+          {
+            "name": "verifySignature:data:certificate:overrideVerifyDate:isAppleServer:",
+            "flag": "method.class._DPDediscoKeyConfigurationV2.verifySignature:data:certificate:overrideVerifyDate:isAppleServer:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295039676
+          }
+        ]
+      },
+      {
+        "classname": "_DPSubmissionService",
+        "addr": 4295473840,
+        "lang": "objc",
+        "index": 116,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method._DPSubmissionService.init",
+            "lang": "objc",
+            "addr": 4295040960
+          },
+          {
+            "name": "submitDonation:toDediscoWithReply:",
+            "flag": "func.100012044",
+            "lang": "objc",
+            "addr": 4295041092
+          },
+          {
+            "name": "fetchTokenWithReply:",
+            "flag": "func.1000121fc",
+            "lang": "objc",
+            "addr": 4295041532
+          },
+          {
+            "name": "dediscoManagerV1",
+            "flag": "method._DPSubmissionService.dediscoManagerV1",
+            "lang": "objc",
+            "addr": 4295041804
+          },
+          {
+            "name": "setDediscoManagerV1:",
+            "flag": "method._DPSubmissionService.setDediscoManagerV1:",
+            "lang": "objc",
+            "addr": 4295041812
+          },
+          {
+            "name": "dediscoManagerV2",
+            "flag": "method._DPSubmissionService.dediscoManagerV2",
+            "lang": "objc",
+            "addr": 4295041824
+          },
+          {
+            "name": "setDediscoManagerV2:",
+            "flag": "method._DPSubmissionService.setDediscoManagerV2:",
+            "lang": "objc",
+            "addr": 4295041832
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method._DPSubmissionService..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295041844
+          },
+          {
+            "name": "submitDonation:toDediscoWithReply:",
+            "flag": "method._DPSubmissionService.submitDonation:toDediscoWithReply:",
+            "lang": "objc",
+            "addr": 4295326560
+          },
+          {
+            "name": "fetchTokenWithReply:",
+            "flag": "method._DPSubmissionService.fetchTokenWithReply:",
+            "lang": "objc",
+            "addr": 4295326572
+          },
+          {
+            "name": "sharedInstance",
+            "flag": "method.class._DPSubmissionService.sharedInstance",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295040828
+          },
+          {
+            "name": "submitDonation:toDediscoWithReply:",
+            "flag": "method._DPSubmissionService.submitDonation:toDediscoWithReply:",
+            "lang": "objc",
+            "addr": 4295326560
+          },
+          {
+            "name": "fetchTokenWithReply:",
+            "flag": "method._DPSubmissionService.fetchTokenWithReply:",
+            "lang": "objc",
+            "addr": 4295326572
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_dediscoManagerV1",
+            "kind": "var",
+            "type": "@\"_DPDediscoSubmissionManager\"",
+            "addr": 4295472140
+          },
+          {
+            "name": "_dediscoManagerV2",
+            "kind": "var",
+            "type": "@\"_DPDediscoSubmissionManager\"",
+            "addr": 4295472144
+          },
+          {
+            "name": "dediscoManagerV1",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "dediscoManagerV2",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "_DPDediscoPayloadUploader",
+        "addr": 4295473920,
+        "lang": "objc",
+        "index": 117,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithBaseURL:useOHTTP:",
+            "flag": "method._DPDediscoPayloadUploader.initWithBaseURL:useOHTTP:",
+            "lang": "objc",
+            "addr": 4295041912
+          },
+          {
+            "name": "createUploadClientWithURL:withHeaders:uploadWithOHTTP:",
+            "flag": "method._DPDediscoPayloadUploader.createUploadClientWithURL:withHeaders:uploadWithOHTTP:",
+            "lang": "objc",
+            "addr": 4295042208
+          },
+          {
+            "name": "uploadWithHTTPBody:withHTTPHeaders:withFullURL:",
+            "flag": "method._DPDediscoPayloadUploader.uploadWithHTTPBody:withHTTPHeaders:withFullURL:",
+            "lang": "objc",
+            "addr": 4295042364
+          },
+          {
+            "name": "uploadPayload:withEncoder:",
+            "flag": "method._DPDediscoPayloadUploader.uploadPayload:withEncoder:",
+            "lang": "objc",
+            "addr": 4295043956
+          },
+          {
+            "name": "buildHTTPHeadersWithPayload:withEncoder:withError:",
+            "flag": "method._DPDediscoPayloadUploader.buildHTTPHeadersWithPayload:withEncoder:withError:",
+            "lang": "objc",
+            "addr": 4295044724
+          },
+          {
+            "name": "baseURL",
+            "flag": "method._DPDediscoPayloadUploader.baseURL",
+            "lang": "objc",
+            "addr": 4295045452
+          },
+          {
+            "name": "setBaseURL:",
+            "flag": "method._DPDediscoPayloadUploader.setBaseURL:",
+            "lang": "objc",
+            "addr": 4295045460
+          },
+          {
+            "name": "useOHTTP",
+            "flag": "method._DPDediscoPayloadUploader.useOHTTP",
+            "lang": "objc",
+            "addr": 4295045472
+          },
+          {
+            "name": "setUseOHTTP:",
+            "flag": "method._DPDediscoPayloadUploader.setUseOHTTP:",
+            "lang": "objc",
+            "addr": 4295045480
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method._DPDediscoPayloadUploader..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295045488
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_useOHTTP",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295472148
+          },
+          {
+            "name": "_baseURL",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295472152
+          },
+          {
+            "name": "baseURL",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "useOHTTP",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "_DPPrivateAccessTokenConfig",
+        "addr": 4295474000,
+        "lang": "objc",
+        "index": 118,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithData:",
+            "flag": "method._DPPrivateAccessTokenConfig.initWithData:",
+            "lang": "objc",
+            "addr": 4295046048
+          },
+          {
+            "name": "getPreferredIssuerFromPlist:",
+            "flag": "method._DPPrivateAccessTokenConfig.getPreferredIssuerFromPlist:",
+            "lang": "objc",
+            "addr": 4295046608
+          },
+          {
+            "name": "persistTokenRefreshHours",
+            "flag": "method._DPPrivateAccessTokenConfig.persistTokenRefreshHours",
+            "lang": "objc",
+            "addr": 4295047252
+          },
+          {
+            "name": "description",
+            "flag": "method._DPPrivateAccessTokenConfig.description",
+            "lang": "objc",
+            "addr": 4295047512
+          },
+          {
+            "name": "issuerURL",
+            "flag": "method._DPPrivateAccessTokenConfig.issuerURL",
+            "lang": "objc",
+            "addr": 4295047788
+          },
+          {
+            "name": "tokenRefreshHours",
+            "flag": "method._DPPrivateAccessTokenConfig.tokenRefreshHours",
+            "lang": "objc",
+            "addr": 4295047796
+          },
+          {
+            "name": "tokensPerRefresh",
+            "flag": "method._DPPrivateAccessTokenConfig.tokensPerRefresh",
+            "lang": "objc",
+            "addr": 4295047804
+          },
+          {
+            "name": "maxDailyOnDemand",
+            "flag": "method._DPPrivateAccessTokenConfig.maxDailyOnDemand",
+            "lang": "objc",
+            "addr": 4295047812
+          },
+          {
+            "name": "onDemandCoolDownSeconds",
+            "flag": "method._DPPrivateAccessTokenConfig.onDemandCoolDownSeconds",
+            "lang": "objc",
+            "addr": 4295047820
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method._DPPrivateAccessTokenConfig..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295047828
+          },
+          {
+            "name": "createAndPersist",
+            "flag": "method.class._DPPrivateAccessTokenConfig.createAndPersist",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295045600
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_issuerURL",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295472156
+          },
+          {
+            "name": "_tokenRefreshHours",
+            "kind": "var",
+            "type": "q",
+            "addr": 4295472160
+          },
+          {
+            "name": "_tokensPerRefresh",
+            "kind": "var",
+            "type": "q",
+            "addr": 4295472164
+          },
+          {
+            "name": "_maxDailyOnDemand",
+            "kind": "var",
+            "type": "q",
+            "addr": 4295472168
+          },
+          {
+            "name": "_onDemandCoolDownSeconds",
+            "kind": "var",
+            "type": "q",
+            "addr": 4295472172
+          },
+          {
+            "name": "issuerURL",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "tokenRefreshHours",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "tokensPerRefresh",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "maxDailyOnDemand",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "onDemandCoolDownSeconds",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "_DPBAASignature",
+        "addr": 4295474080,
+        "lang": "objc",
+        "index": 119,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithDeviceSignature:leafCertificate:intermediateCertificate:",
+            "flag": "method._DPBAASignature.initWithDeviceSignature:leafCertificate:intermediateCertificate:",
+            "lang": "objc",
+            "addr": 4295047840
+          },
+          {
+            "name": "signature",
+            "flag": "method._DPBAASignature.signature",
+            "lang": "objc",
+            "addr": 4295048288
+          },
+          {
+            "name": "leafCertificate",
+            "flag": "method._DPBAASignature.leafCertificate",
+            "lang": "objc",
+            "addr": 4295048296
+          },
+          {
+            "name": "intermediateCertificate",
+            "flag": "method._DPBAASignature.intermediateCertificate",
+            "lang": "objc",
+            "addr": 4295048304
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method._DPBAASignature..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295048312
+          },
+          {
+            "name": "signatureWithDeviceSignature:leafCertificate:intermediateCertificate:",
+            "flag": "method.class._DPBAASignature.signatureWithDeviceSignature:leafCertificate:intermediateCertificate:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295048128
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_signature",
+            "kind": "var",
+            "type": "@\"NSData\"",
+            "addr": 4295472176
+          },
+          {
+            "name": "_leafCertificate",
+            "kind": "var",
+            "type": "@\"NSData\"",
+            "addr": 4295472180
+          },
+          {
+            "name": "_intermediateCertificate",
+            "kind": "var",
+            "type": "@\"NSData\"",
+            "addr": 4295472184
+          },
+          {
+            "name": "signature",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "leafCertificate",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "intermediateCertificate",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "_DPDAP09PayloadEncoder",
+        "addr": 4295474160,
+        "lang": "objc",
+        "index": 120,
+        "super": [
+          "_DPDAPPayloadEncoder",
+          "_DPDAPPayloadEncoder"
+        ],
+        "rawsuper": [
+          "_DPDAPPayloadEncoder",
+          "_DPDAPPayloadEncoder"
+        ],
+        "methods": [
+          {
+            "name": "initWithDonation:keys:error:",
+            "flag": "method._DPDAP09PayloadEncoder.initWithDonation:keys:error:",
+            "lang": "objc",
+            "addr": 4295048392
+          },
+          {
+            "name": "encodedReportWithError:",
+            "flag": "method._DPDAP09PayloadEncoder.encodedReportWithError:",
+            "lang": "objc",
+            "addr": 4295048448
+          },
+          {
+            "name": "encodedAdditionalDataWithError:",
+            "flag": "method._DPDAP09PayloadEncoder.encodedAdditionalDataWithError:",
+            "lang": "objc",
+            "addr": 4295049172
+          },
+          {
+            "name": "encodedPlaintextInputShareForServerRole:error:",
+            "flag": "method._DPDAP09PayloadEncoder.encodedPlaintextInputShareForServerRole:error:",
+            "lang": "objc",
+            "addr": 4295049412
+          },
+          {
+            "name": "encodedReportAuthExtensionDataWithError:",
+            "flag": "method._DPDAP09PayloadEncoder.encodedReportAuthExtensionDataWithError:",
+            "lang": "objc",
+            "addr": 4295049632
+          },
+          {
+            "name": "dapVersion",
+            "flag": "method._DPDAP09PayloadEncoder.dapVersion",
+            "lang": "objc",
+            "addr": 4295050288
+          },
+          {
+            "name": "encodedReportWithError:",
+            "flag": "method._DPDAPPayloadEncoder.encodedReportWithError:",
+            "lang": "objc",
+            "addr": 4295326536
+          },
+          {
+            "name": "encodedReportWithError:",
+            "flag": "method._DPDAPPayloadEncoder.encodedReportWithError:",
+            "lang": "objc",
+            "addr": 4295326536
+          }
+        ]
+      },
+      {
+        "classname": "_DPPrivateAccessTokenChallenge",
+        "addr": 4295474240,
+        "lang": "objc",
+        "index": 121,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithIssuer:redemptionContext:",
+            "flag": "method._DPPrivateAccessTokenChallenge.initWithIssuer:redemptionContext:",
+            "lang": "objc",
+            "addr": 4295050300
+          },
+          {
+            "name": "synthesizeWithTokenType:",
+            "flag": "method._DPPrivateAccessTokenChallenge.synthesizeWithTokenType:",
+            "lang": "objc",
+            "addr": 4295050468
+          },
+          {
+            "name": "issuer",
+            "flag": "method._DPPrivateAccessTokenChallenge.issuer",
+            "lang": "objc",
+            "addr": 4295051136
+          },
+          {
+            "name": "redemptionContext",
+            "flag": "method._DPPrivateAccessTokenChallenge.redemptionContext",
+            "lang": "objc",
+            "addr": 4295051144
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method._DPPrivateAccessTokenChallenge..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295051152
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_issuer",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295472188
+          },
+          {
+            "name": "_redemptionContext",
+            "kind": "var",
+            "type": "@\"NSData\"",
+            "addr": 4295472192
+          },
+          {
+            "name": "issuer",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "redemptionContext",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "_DPTaskProv00",
+        "addr": 4295474320,
+        "lang": "objc",
+        "index": 122,
+        "super": [
+          "_DPTaskProv",
+          "_DPTaskProv"
+        ],
+        "rawsuper": [
+          "_DPTaskProv",
+          "_DPTaskProv"
+        ],
+        "methods": [
+          {
+            "name": "initWithDonation:leaderURL:helperURL:error:",
+            "flag": "method._DPTaskProv00.initWithDonation:leaderURL:helperURL:error:",
+            "lang": "objc",
+            "addr": 4295051220
+          },
+          {
+            "name": "encodedTaskConfigWithError:",
+            "flag": "method._DPTaskProv00.encodedTaskConfigWithError:",
+            "lang": "objc",
+            "addr": 4295051404
+          },
+          {
+            "name": "encodedVDAFConfig",
+            "flag": "method._DPTaskProv00.encodedVDAFConfig",
+            "lang": "objc",
+            "addr": 4295052500
+          },
+          {
+            "name": "encodedQueryConfig",
+            "flag": "method._DPTaskProv00.encodedQueryConfig",
+            "lang": "objc",
+            "addr": 4295052900
+          },
+          {
+            "name": "encodedTaskConfigWithError:",
+            "flag": "method._DPTaskProv.encodedTaskConfigWithError:",
+            "lang": "objc",
+            "addr": 4295326592
+          },
+          {
+            "name": "encodedTaskConfigWithError:",
+            "flag": "method._DPTaskProv.encodedTaskConfigWithError:",
+            "lang": "objc",
+            "addr": 4295326592
+          }
+        ]
+      },
+      {
+        "classname": "_DPDediscoPCCNetworkingService",
+        "rawclassname": "_DPDediscoPCCNetworkingService_1",
+        "addr": 4295476832,
+        "lang": "objc",
+        "index": 123,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method._DPDediscoPCCNetworkingService.init",
+            "lang": "objc",
+            "addr": 4295054096
+          },
+          {
+            "name": "submitSyncronouslyWithSerializedPayload:baaCertificateChain:baaSignature:options:",
+            "flag": "method._DPDediscoPCCNetworkingService.submitSyncronouslyWithSerializedPayload:baaCertificateChain:baaSignature:options:",
+            "lang": "objc",
+            "addr": 4295054244
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method._DPDediscoPCCNetworkingService..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295055628
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "database",
+            "kind": "var",
+            "addr": 4295476808
+          },
+          {
+            "name": "serviceName",
+            "kind": "var",
+            "addr": 4295476824
+          },
+          {
+            "name": "timeout",
+            "kind": "var",
+            "addr": 4295508800
+          }
+        ]
+      },
+      {
+        "classname": "_DPPPM_0_2_1_PayloadEncoderShim",
+        "addr": 4295476968,
+        "lang": "objc",
+        "index": 124,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method._DPPPM_0_2_1_PayloadEncoderShim.init",
+            "lang": "objc",
+            "addr": 4295059880
+          },
+          {
+            "name": "encodedPreambleField32HmacSha256Aes128VDAFConfigWithLength:blockSize:numKeptBlocks:encodedDPConfig:error:",
+            "flag": "method.class._DPPPM_0_2_1_PayloadEncoderShim.encodedPreambleField32HmacSha256Aes128VDAFConfigWithLength:blockSize:numKeptBlocks:encodedDPConfig:error:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295063128
+          },
+          {
+            "name": "encodedReportWithReportID:time:publicShare:leaderHPKEConfigID:leaderEnc:leaderPayload:helperHPKEConfigID:helperEnc:helperPayload:error:",
+            "flag": "method.class._DPPPM_0_2_1_PayloadEncoderShim.encodedReportWithReportID:time:publicShare:leaderHPKEConfigID:leaderEnc:leaderPayload:helperHPKEConfigID:helperEnc:helperPayload:error:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295062176
+          },
+          {
+            "name": "encodedInputShareAADWithTaskID:reportID:time:publicShare:error:",
+            "flag": "method.class._DPPPM_0_2_1_PayloadEncoderShim.encodedInputShareAADWithTaskID:reportID:time:publicShare:error:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295062592
+          },
+          {
+            "name": "encodedPlaintextInputShareWithTaskProvExtensionData:payload:error:",
+            "flag": "method.class._DPPPM_0_2_1_PayloadEncoderShim.encodedPlaintextInputShareWithTaskProvExtensionData:payload:error:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295062900
+          },
+          {
+            "name": "encodedTaskConfigWithTaskInfo:leaderAggregatorEndpoint:helperAggregatorEndpoint:timePrecision:maxBatchQueryCount:minBatchSize:maxBatchSize:taskExpiration:encodedVDAFConfig:error:",
+            "flag": "method.class._DPPPM_0_2_1_PayloadEncoderShim.encodedTaskConfigWithTaskInfo:leaderAggregatorEndpoint:helperAggregatorEndpoint:timePrecision:maxBatchQueryCount:minBatchSize:maxBatchSize:taskExpiration:encodedVDAFConfig:error:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295060036
+          },
+          {
+            "name": "encodedPrio2VDAFConfigWithLength:encodedDPConfig:error:",
+            "flag": "method.class._DPPPM_0_2_1_PayloadEncoderShim.encodedPrio2VDAFConfigWithLength:encodedDPConfig:error:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295060380
+          },
+          {
+            "name": "encodedPrio3SumVectorVDAFConfigWithLength:bits:chunkLength:numProofs:encodedDPConfig:error:",
+            "flag": "method.class._DPPPM_0_2_1_PayloadEncoderShim.encodedPrio3SumVectorVDAFConfigWithLength:bits:chunkLength:numProofs:encodedDPConfig:error:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295060596
+          },
+          {
+            "name": "encodedPINE64VDAFConfigWithL2NormBound:numFractionalBits:length:chunkLength:chunkLengthNormEquality:numProofs:wraparoundCheckCount:encodedDPConfig:error:",
+            "flag": "method.class._DPPPM_0_2_1_PayloadEncoderShim.encodedPINE64VDAFConfigWithL2NormBound:numFractionalBits:length:chunkLength:chunkLengthNormEquality:numProofs:wraparoundCheckCount:encodedDPConfig:error:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295060860
+          },
+          {
+            "name": "encodedPINE32VDAFConfigWithL2NormBound:numFractionalBits:length:chunkLength:chunkLengthNormEquality:numProofs:wraparoundCheckCount:encodedDPConfig:error:",
+            "flag": "method.class._DPPPM_0_2_1_PayloadEncoderShim.encodedPINE32VDAFConfigWithL2NormBound:numFractionalBits:length:chunkLength:chunkLengthNormEquality:numProofs:wraparoundCheckCount:encodedDPConfig:error:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295060952
+          },
+          {
+            "name": "encodedPINE40VDAFConfigWithL2NormBound:numFractionalBits:length:chunkLength:chunkLengthNormEquality:numProofs:wraparoundCheckCount:encodedDPConfig:error:",
+            "flag": "method.class._DPPPM_0_2_1_PayloadEncoderShim.encodedPINE40VDAFConfigWithL2NormBound:numFractionalBits:length:chunkLength:chunkLengthNormEquality:numProofs:wraparoundCheckCount:encodedDPConfig:error:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295061044
+          },
+          {
+            "name": "encodedEpsDPConfigWithEpsilon:error:",
+            "flag": "method.class._DPPPM_0_2_1_PayloadEncoderShim.encodedEpsDPConfigWithEpsilon:error:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295061396
+          },
+          {
+            "name": "encodedNoneDPConfigAndReturnError:",
+            "flag": "method.class._DPPPM_0_2_1_PayloadEncoderShim.encodedNoneDPConfigAndReturnError:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295061564
+          },
+          {
+            "name": "encodedAggregatorDiscreteGaussianClientSymmetricRAPPORDPConfigWithTargetCentralEpsilon:targetCentralDelta:sigma:squaredL2Sensitivity:localEpsilon:error:",
+            "flag": "method.class._DPPPM_0_2_1_PayloadEncoderShim.encodedAggregatorDiscreteGaussianClientSymmetricRAPPORDPConfigWithTargetCentralEpsilon:targetCentralDelta:sigma:squaredL2Sensitivity:localEpsilon:error:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295061732
+          },
+          {
+            "name": "encodedGaussianWithSubsampledMomentsAccountantConfigWithMaxCohortSize:numIterations:populationSize:renyiOrder:sigma:sigmaAfterNormalization:targetCentralEpsilon:targetCentralDelta:error:",
+            "flag": "method.class._DPPPM_0_2_1_PayloadEncoderShim.encodedGaussianWithSubsampledMomentsAccountantConfigWithMaxCohortSize:numIterations:populationSize:renyiOrder:sigma:sigmaAfterNormalization:targetCentralEpsilon:targetCentralDelta:error:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295061756
+          },
+          {
+            "name": "encodedDistributedDiscreteGaussianWithRandomAllocationAccountantConfigWithTargetCentralEpsilon:targetCentralDelta:sigma:sigmaLocal:scalingFactor:error:",
+            "flag": "method.class._DPPPM_0_2_1_PayloadEncoderShim.encodedDistributedDiscreteGaussianWithRandomAllocationAccountantConfigWithTargetCentralEpsilon:targetCentralDelta:sigma:sigmaLocal:scalingFactor:error:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295061940
+          }
+        ]
+      },
+      {
+        "classname": "_DPDediscoAlgorithmParameters",
+        "rawclassname": "_DPDediscoAlgorithmParameters_1",
+        "addr": 4295480664,
+        "lang": "objc",
+        "index": 125,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithDimension:epsilon:otherParams:",
+            "flag": "method._DPDediscoAlgorithmParameters.initWithDimension:epsilon:otherParams:",
+            "lang": "objc",
+            "addr": 4295174016
+          },
+          {
+            "name": "initWithDimension:epsilon:",
+            "flag": "method._DPDediscoAlgorithmParameters.initWithDimension:epsilon:",
+            "lang": "objc",
+            "addr": 4295174412
+          },
+          {
+            "name": "init",
+            "flag": "method._DPDediscoAlgorithmParameters.init",
+            "lang": "objc",
+            "addr": 4295174720
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method._DPDediscoAlgorithmParameters..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295174820
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "dimension",
+            "kind": "var",
+            "addr": 4295480640
+          },
+          {
+            "name": "epsilon",
+            "kind": "var",
+            "addr": 4295480648
+          },
+          {
+            "name": "otherParams",
+            "kind": "var",
+            "addr": 4295480656
+          }
+        ]
+      },
+      {
+        "classname": "_DPDediscoPayload",
+        "rawclassname": "_DPDediscoPayload_1",
+        "addr": 4295480808,
+        "lang": "objc",
+        "index": 126,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithCollectionId:algorithm:algorithmParameters:fsEncryptedShare:dsEncryptedShare:fsPublicKey:dsPublicKey:versionHash:report:",
+            "flag": "method._DPDediscoPayload.initWithCollectionId:algorithm:algorithmParameters:fsEncryptedShare:dsEncryptedShare:fsPublicKey:dsPublicKey:versionHash:report:",
+            "lang": "objc",
+            "addr": 4295181088
+          },
+          {
+            "name": "serializeAndReturnError:",
+            "flag": "method._DPDediscoPayload.serializeAndReturnError:",
+            "lang": "objc",
+            "addr": 4295182824
+          },
+          {
+            "name": "getCollectionId",
+            "flag": "method._DPDediscoPayload.getCollectionId",
+            "lang": "objc",
+            "addr": 4295183248
+          },
+          {
+            "name": "getReport",
+            "flag": "method._DPDediscoPayload.getReport",
+            "lang": "objc",
+            "addr": 4295183344
+          },
+          {
+            "name": "init",
+            "flag": "method._DPDediscoPayload.init",
+            "lang": "objc",
+            "addr": 4295183528
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method._DPDediscoPayload..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295183628
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "collectionId",
+            "kind": "var",
+            "addr": 4295480728
+          },
+          {
+            "name": "algorithm",
+            "kind": "var",
+            "addr": 4295480736
+          },
+          {
+            "name": "algorithmParameters",
+            "kind": "var",
+            "addr": 4295480744
+          },
+          {
+            "name": "fsEncryptedShare",
+            "kind": "var",
+            "addr": 4295480752
+          },
+          {
+            "name": "dsEncryptedShare",
+            "kind": "var",
+            "addr": 4295480760
+          },
+          {
+            "name": "fsPublicKey",
+            "kind": "var",
+            "addr": 4295480768
+          },
+          {
+            "name": "dsPublicKey",
+            "kind": "var",
+            "addr": 4295480776
+          },
+          {
+            "name": "versionHash",
+            "kind": "var",
+            "addr": 4295480784
+          },
+          {
+            "name": "report",
+            "kind": "var",
+            "addr": 4295480792
+          }
+        ]
+      },
+      {
+        "classname": "_DPDediscoAlgorithmParametersOtherParams",
+        "rawclassname": "_DPDediscoAlgorithmParametersOtherParams_1",
+        "addr": 4295481000,
+        "lang": "objc",
+        "index": 127,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithCohortSize:sigma:",
+            "flag": "method._DPDediscoAlgorithmParametersOtherParams.initWithCohortSize:sigma:",
+            "lang": "objc",
+            "addr": 4295207216
+          },
+          {
+            "name": "initWithPiRapporPrime:piRapporAlpha0:piRapporAlpha1:",
+            "flag": "method._DPDediscoAlgorithmParametersOtherParams.initWithPiRapporPrime:piRapporAlpha0:piRapporAlpha1:",
+            "lang": "objc",
+            "addr": 4295207376
+          },
+          {
+            "name": "initWithCohortSize:sigma:piRapporPrime:piRapporAlpha0:piRapporAlpha1:",
+            "flag": "method._DPDediscoAlgorithmParametersOtherParams.initWithCohortSize:sigma:piRapporPrime:piRapporAlpha0:piRapporAlpha1:",
+            "lang": "objc",
+            "addr": 4295207724
+          },
+          {
+            "name": "serializeAndReturnError:",
+            "flag": "method._DPDediscoAlgorithmParametersOtherParams.serializeAndReturnError:",
+            "lang": "objc",
+            "addr": 4295208296
+          },
+          {
+            "name": "init",
+            "flag": "method._DPDediscoAlgorithmParametersOtherParams.init",
+            "lang": "objc",
+            "addr": 4295208720
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "cohortSize",
+            "kind": "var",
+            "addr": 4295480960
+          },
+          {
+            "name": "sigma",
+            "kind": "var",
+            "addr": 4295480968
+          },
+          {
+            "name": "piRapporPrime",
+            "kind": "var",
+            "addr": 4295480976
+          },
+          {
+            "name": "piRapporAlpha0",
+            "kind": "var",
+            "addr": 4295480984
+          },
+          {
+            "name": "piRapporAlpha1",
+            "kind": "var",
+            "addr": 4295480992
+          }
+        ]
+      },
+      {
+        "classname": "_DPDediscoHPKEEncryption",
+        "rawclassname": "_DPDediscoHPKEEncryption_1",
+        "addr": 4295482392,
+        "lang": "objc",
+        "index": 128,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method._DPDediscoHPKEEncryption.init",
+            "lang": "objc",
+            "addr": 4295235164
+          },
+          {
+            "name": "encryptWithPublicKey:info:inputShare:additionalData:error:",
+            "flag": "method.class._DPDediscoHPKEEncryption.encryptWithPublicKey:info:inputShare:additionalData:error:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295233880
+          },
+          {
+            "name": "generatePublicKey",
+            "flag": "method.class._DPDediscoHPKEEncryption.generatePublicKey",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295234696
+          }
+        ]
+      },
+      {
+        "classname": "_DPBAACertificateChain",
+        "rawclassname": "_DPBAACertificateChain_1",
+        "addr": 4295483672,
+        "lang": "objc",
+        "index": 129,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithIntermediateCertificate:leafCertificate:",
+            "flag": "method._DPBAACertificateChain.initWithIntermediateCertificate:leafCertificate:",
+            "lang": "objc",
+            "addr": 4295257820
+          },
+          {
+            "name": "init",
+            "flag": "method._DPBAACertificateChain.init",
+            "lang": "objc",
+            "addr": 4295258224
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method._DPBAACertificateChain..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295258324
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "intermediateCertificate",
+            "kind": "var",
+            "addr": 4295483656
+          },
+          {
+            "name": "leafCertificate",
+            "kind": "var",
+            "addr": 4295483664
+          }
+        ]
+      }
+    ],
+    "protocols": []
+  },
+  "usage": {
+    "layer": "usage",
+    "status": "not_implemented"
+  },
+  "runtime": {
+    "layer": "runtime",
+    "status": "not_implemented"
+  }
+}

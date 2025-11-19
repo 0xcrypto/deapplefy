@@ -1,0 +1,270 @@
+{
+  "framework": "SiriGeo.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/SiriGeo.framework/PlugIns/SiriGeoIntentExtension.appex/Contents/MacOS/SiriGeoIntentExtension",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 132624,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": false,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "swift",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": false,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "/System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/AssistantServices",
+          "/System/Library/Frameworks/CoreLocation.framework/Versions/A/CoreLocation",
+          "/System/Library/Frameworks/Intents.framework/Versions/A/Intents",
+          "/System/Library/PrivateFrameworks/SiriGeo.framework/Versions/A/SiriGeo",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/PrivateFrameworks/InternalSwiftProtobuf.framework/Versions/A/InternalSwiftProtobuf",
+          "/System/Library/PrivateFrameworks/SiriNLUTypes.framework/Versions/A/SiriNLUTypes",
+          "/System/Library/PrivateFrameworks/SiriOntology.framework/Versions/A/SiriOntology",
+          "/usr/lib/swift/libswiftAVFoundation.dylib",
+          "/usr/lib/swift/libswiftAccelerate.dylib",
+          "/usr/lib/swift/libswiftCompression.dylib",
+          "/usr/lib/swift/libswiftCore.dylib",
+          "/usr/lib/swift/libswiftCoreAudio.dylib",
+          "/usr/lib/swift/libswiftCoreFoundation.dylib",
+          "/usr/lib/swift/libswiftCoreImage.dylib",
+          "/usr/lib/swift/libswiftCoreLocation.dylib",
+          "/usr/lib/swift/libswiftCoreMIDI.dylib",
+          "/usr/lib/swift/libswiftCoreMedia.dylib",
+          "/usr/lib/swift/libswiftCoreMediaIO.dylib",
+          "/usr/lib/swift/libswiftDispatch.dylib",
+          "/usr/lib/swift/libswiftIOKit.dylib",
+          "/usr/lib/swift/libswiftIntents.dylib",
+          "/usr/lib/swift/libswiftMLCompute.dylib",
+          "/usr/lib/swift/libswiftMapKit.dylib",
+          "/usr/lib/swift/libswiftMetal.dylib",
+          "/usr/lib/swift/libswiftNaturalLanguage.dylib",
+          "/usr/lib/swift/libswiftOSLog.dylib",
+          "/usr/lib/swift/libswiftObjectiveC.dylib",
+          "/usr/lib/swift/libswiftQuartzCore.dylib",
+          "/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib",
+          "/usr/lib/swift/libswiftXPC.dylib",
+          "/usr/lib/swift/libswift_Builtin_float.dylib",
+          "/usr/lib/swift/libswiftos.dylib",
+          "/usr/lib/swift/libswiftsimd.dylib"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "IntentHandler",
+        "addr": 23040,
+        "lang": "swift",
+        "index": 0,
+        "super": [
+          "__C.INExtension"
+        ],
+        "rawsuper": [
+          "So11INExtensionC"
+        ],
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.IntentHandler.0",
+            "lang": "swift",
+            "addr": 4294989831
+          }
+        ],
+        "fields": [
+          {
+            "name": "logObject",
+            "kind": "property",
+            "type": "__C.OS_os_log",
+            "addr": 4294990608
+          }
+        ]
+      },
+      {
+        "classname": "UsoRequest",
+        "addr": 23084,
+        "lang": "swift",
+        "index": 1
+      },
+      {
+        "classname": "UsoIdentifierAppBundle",
+        "addr": 23112,
+        "lang": "swift",
+        "index": 2,
+        "fields": [
+          {
+            "name": "contacts",
+            "kind": "property",
+            "addr": 4294990633
+          },
+          {
+            "name": "siriNL",
+            "kind": "property",
+            "addr": 4294990642
+          }
+        ]
+      },
+      {
+        "classname": "UsoIdentifierNamespace",
+        "addr": 23140,
+        "lang": "swift",
+        "index": 3,
+        "fields": [
+          {
+            "name": "itemId",
+            "kind": "property",
+            "addr": 4294990649
+          },
+          {
+            "name": "personRelationship",
+            "kind": "property",
+            "addr": 4294990656
+          },
+          {
+            "name": "semanticValue",
+            "kind": "property",
+            "addr": 4294990675
+          }
+        ]
+      },
+      {
+        "classname": "SiriGeoIntentExtension.IntentHandler",
+        "addr": 4295016880,
+        "lang": "objc",
+        "index": 4,
+        "super": [
+          "INExtension"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_INExtension"
+        ],
+        "methods": [
+          {
+            "name": "handlerForIntent:",
+            "flag": "method.SiriGeoIntentExtension.IntentHandler.handlerForIntent:",
+            "lang": "objc",
+            "addr": 4294974348
+          },
+          {
+            "name": "init",
+            "flag": "method.SiriGeoIntentExtension.IntentHandler.init",
+            "lang": "objc",
+            "addr": 4294974704
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.SiriGeoIntentExtension.IntentHandler..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294974904
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "logObject",
+            "kind": "var",
+            "addr": 4295016872
+          }
+        ]
+      },
+      {
+        "classname": "Handler",
+        "addr": 0,
+        "index": 5,
+        "methods": [
+          {
+            "name": "symbolic SiriGeoIntentExtension.Handler.allocator.bool: allocatorHandler.bool -> allocator",
+            "flag": "method.Handler.symbolic_SiriGeoIntentExtension.Handler.allocator.bool:_allocatorHandler.bool____allocator",
+            "rawname": "_symbolic _____ 22SiriGeoIntentExtension0C7HandlerC",
+            "addr": 4294990482
+          }
+        ]
+      },
+      {
+        "classname": "UsoIdentifierAppBundle_1",
+        "addr": 0,
+        "index": 6,
+        "methods": [
+          {
+            "name": "symbolic SiriGeoIntentExtension.UsoIdentifierAppBundle.bool",
+            "flag": "method.UsoIdentifierAppBundle_1.symbolic_SiriGeoIntentExtension.UsoIdentifierAppBundle.bool",
+            "rawname": "_symbolic _____ 22SiriGeoIntentExtension22UsoIdentifierAppBundleO",
+            "addr": 4294990564
+          }
+        ]
+      },
+      {
+        "classname": "UsoIdentifierNamespace_1",
+        "addr": 0,
+        "index": 7,
+        "methods": [
+          {
+            "name": "symbolic SiriGeoIntentExtension.UsoIdentifierNamespace.bool",
+            "flag": "method.UsoIdentifierNamespace_1.symbolic_SiriGeoIntentExtension.UsoIdentifierNamespace.bool",
+            "rawname": "_symbolic _____ 22SiriGeoIntentExtension22UsoIdentifierNamespaceO",
+            "addr": 4294990584
+          }
+        ]
+      },
+      {
+        "classname": "UsoRequest_1",
+        "addr": 0,
+        "index": 8,
+        "methods": [
+          {
+            "name": "symbolic SiriGeoIntentExtension.UsoRequest.bool",
+            "flag": "method.UsoRequest_1.symbolic_SiriGeoIntentExtension.UsoRequest.bool",
+            "rawname": "_symbolic _____ 22SiriGeoIntentExtension10UsoRequestO",
+            "addr": 4294990590
+          }
+        ]
+      }
+    ],
+    "protocols": []
+  },
+  "usage": {
+    "layer": "usage",
+    "status": "not_implemented"
+  },
+  "runtime": {
+    "layer": "runtime",
+    "status": "not_implemented"
+  }
+}

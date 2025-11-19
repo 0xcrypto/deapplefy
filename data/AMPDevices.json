@@ -1,0 +1,5686 @@
+{
+  "framework": "AMPDevices.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/AMPDevices.framework/Versions/A/Support/AMPDevicesAgent",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 9059264,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "objc with blocks",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/usr/lib/libcrypto.46.dylib",
+          "/System/Library/PrivateFrameworks/AVFoundationCF.framework/Versions/A/AVFoundationCF",
+          "/System/Library/PrivateFrameworks/AMPLibrary.framework/Versions/A/AMPLibrary",
+          "/System/Library/Frameworks/Photos.framework/Versions/A/Photos",
+          "/System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate",
+          "/System/Library/Frameworks/Accounts.framework/Versions/A/Accounts",
+          "/System/Library/PrivateFrameworks/AirTrafficHost.framework/Versions/A/AirTrafficHost",
+          "/System/Library/PrivateFrameworks/AppleMediaServices.framework/Versions/A/AppleMediaServices",
+          "/System/Library/PrivateFrameworks/AppleSRP.framework/Versions/A/AppleSRP",
+          "/System/Library/PrivateFrameworks/AMPDevices.framework/Versions/A/AMPDevices",
+          "/System/Library/PrivateFrameworks/AOSAccounts.framework/Versions/A/AOSAccounts",
+          "/System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox",
+          "/System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/AuthKit",
+          "/System/Library/PrivateFrameworks/BookKit.framework/Versions/A/BookKit",
+          "/System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation",
+          "/System/Library/Frameworks/CloudKit.framework/Versions/A/CloudKit",
+          "/System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio",
+          "/System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia",
+          "/System/Library/PrivateFrameworks/CoreUtils.framework/Versions/A/CoreUtils",
+          "/System/Library/PrivateFrameworks/CrashReporterSupport.framework/Versions/A/CrashReporterSupport",
+          "/System/Library/PrivateFrameworks/iPodUpdater.framework/Versions/A/iPodUpdater",
+          "/System/Library/Frameworks/MediaLibrary.framework/Versions/A/MediaLibrary",
+          "/System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice",
+          "/System/Library/PrivateFrameworks/PhotoLibraryServices.framework/Versions/A/PhotoLibraryServices",
+          "/System/Library/PrivateFrameworks/PhotosFormats.framework/Versions/A/PhotosFormats",
+          "/System/Library/PrivateFrameworks/SoftwareUpdate.framework/Versions/A/SoftwareUpdate",
+          "/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration",
+          "/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers",
+          "/System/Library/Frameworks/UserNotifications.framework/Versions/A/UserNotifications",
+          "/usr/lib/libicucore.A.dylib",
+          "/usr/lib/libexpat.1.dylib",
+          "/usr/lib/libsqlite3.dylib",
+          "/System/Library/PrivateFrameworks/iTunesCloud.framework/Versions/A/iTunesCloud",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libc++.1.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices",
+          "/System/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork",
+          "/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics",
+          "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",
+          "/System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo",
+          "/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration",
+          "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+          "/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO",
+          "/System/Library/Frameworks/Security.framework/Versions/A/Security",
+          "/usr/lib/libz.1.dylib"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "AMPDeviceInfo(IPodDeviceInfo)",
+        "addr": 4303717528,
+        "lang": "objc",
+        "index": 0,
+        "super": [
+          "AMPDeviceInfo"
+        ],
+        "rawsuper": [
+          "AMPDeviceInfo"
+        ],
+        "methods": [
+          {
+            "name": "initWithIPodDeviceInfo:",
+            "flag": "method.AMPDeviceInfo_IPodDeviceInfo_.initWithIPodDeviceInfo:",
+            "lang": "objc",
+            "addr": 4297920216
+          }
+        ]
+      },
+      {
+        "classname": "NSColor(ITAdditions)",
+        "addr": 4303717592,
+        "lang": "objc",
+        "index": 1,
+        "super": [
+          "NSColor"
+        ],
+        "rawsuper": [
+          "NSColor"
+        ],
+        "methods": [
+          {
+            "name": "appKeyColor",
+            "flag": "method.class.NSColor_ITAdditions_.appKeyColor",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4298254244
+          },
+          {
+            "name": "colorFromUserInterfaceColor:",
+            "flag": "method.class.NSColor_ITAdditions_.colorFromUserInterfaceColor:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4298254256
+          },
+          {
+            "name": "userInterfaceColorFromColor:",
+            "flag": "method.class.NSColor_ITAdditions_.userInterfaceColorFromColor:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4298254368
+          }
+        ]
+      },
+      {
+        "classname": "AMPDeviceSyncPrefs(IPodPrefs)",
+        "addr": 4303718480,
+        "lang": "objc",
+        "index": 2,
+        "super": [
+          "AMPDeviceSyncPrefs"
+        ],
+        "rawsuper": [
+          "AMPDeviceSyncPrefs"
+        ],
+        "methods": [
+          {
+            "name": "initWithIPodPrefs:",
+            "flag": "method.AMPDeviceSyncPrefs_IPodPrefs_.initWithIPodPrefs:",
+            "lang": "objc",
+            "addr": 4299189888
+          },
+          {
+            "name": "createIPodPrefsForObjectID:",
+            "flag": "method.AMPDeviceSyncPrefs_IPodPrefs_.createIPodPrefsForObjectID:",
+            "lang": "objc",
+            "addr": 4299193624
+          }
+        ]
+      },
+      {
+        "classname": "NSAppearance(ITAdditions)",
+        "addr": 4303718544,
+        "lang": "objc",
+        "index": 3,
+        "super": [
+          "NSAppearance"
+        ],
+        "rawsuper": [
+          "NSAppearance"
+        ],
+        "methods": [
+          {
+            "name": "removeVibrancyAppearance",
+            "flag": "method.class.NSAppearance_ITAdditions_.removeVibrancyAppearance",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4299402796
+          }
+        ]
+      },
+      {
+        "classname": "AMPPhotoSyncPrefs(IPodPhotoPrefs)",
+        "addr": 4303722696,
+        "lang": "objc",
+        "index": 4,
+        "super": [
+          "AMPPhotoSyncPrefs"
+        ],
+        "rawsuper": [
+          "AMPPhotoSyncPrefs"
+        ],
+        "methods": [
+          {
+            "name": "initWithIPodPhotoPrefs:dulcimerPrefs:",
+            "flag": "method.AMPPhotoSyncPrefs_IPodPhotoPrefs_.initWithIPodPhotoPrefs:dulcimerPrefs:",
+            "lang": "objc",
+            "addr": 4300666264
+          },
+          {
+            "name": "getIPodPhotoPrefs:andDulcimerPrefs:",
+            "flag": "method.AMPPhotoSyncPrefs_IPodPhotoPrefs_.getIPodPhotoPrefs:andDulcimerPrefs:",
+            "lang": "objc",
+            "addr": 4300667436
+          }
+        ]
+      },
+      {
+        "classname": "NSError(DulcimerHandler)",
+        "addr": 4303722760,
+        "lang": "objc",
+        "index": 5,
+        "super": [
+          "NSError"
+        ],
+        "rawsuper": [
+          "NSError"
+        ],
+        "methods": [
+          {
+            "name": "errorWithOSStatus:",
+            "flag": "method.class.NSError_DulcimerHandler_.errorWithOSStatus:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4301490020
+          },
+          {
+            "name": "errorWithOSStatus:fromErrorReport:",
+            "flag": "method.class.NSError_DulcimerHandler_.errorWithOSStatus:fromErrorReport:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4301490036
+          },
+          {
+            "name": "errorWithOSStatus:localizedDescription:",
+            "flag": "method.class.NSError_DulcimerHandler_.errorWithOSStatus:localizedDescription:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4301490584
+          },
+          {
+            "name": "errorWithOSStatus:forObjectID:",
+            "flag": "method.class.NSError_DulcimerHandler_.errorWithOSStatus:forObjectID:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4301490904
+          },
+          {
+            "name": "errorWithAMDError:",
+            "flag": "method.class.NSError_DulcimerHandler_.errorWithAMDError:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4301491400
+          },
+          {
+            "name": "errorWithAMDError:forObjectID:",
+            "flag": "method.class.NSError_DulcimerHandler_.errorWithAMDError:forObjectID:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4301491412
+          },
+          {
+            "name": "errorWithBackupError:forObjectID:",
+            "flag": "method.class.NSError_DulcimerHandler_.errorWithBackupError:forObjectID:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4301491424
+          },
+          {
+            "name": "errorWithRestoreError:forObjectID:",
+            "flag": "method.class.NSError_DulcimerHandler_.errorWithRestoreError:forObjectID:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4301492032
+          },
+          {
+            "name": "errorWithBackupPasswordError:forObjectID:",
+            "flag": "method.class.NSError_DulcimerHandler_.errorWithBackupPasswordError:forObjectID:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4301492640
+          },
+          {
+            "name": "errorWithActivationError:forObjectID:",
+            "flag": "method.class.NSError_DulcimerHandler_.errorWithActivationError:forObjectID:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4301493248
+          },
+          {
+            "name": "errorWithCopyFileOSStatus:forFileSpec:",
+            "flag": "method.class.NSError_DulcimerHandler_.errorWithCopyFileOSStatus:forFileSpec:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4301493752
+          }
+        ]
+      },
+      {
+        "classname": "NSURL(AFC)",
+        "addr": 4303722824,
+        "lang": "objc",
+        "index": 6,
+        "super": [
+          "NSURL"
+        ],
+        "rawsuper": [
+          "NSURL"
+        ],
+        "methods": [
+          {
+            "name": "isAFCURL",
+            "flag": "method.NSURL_AFC_.isAFCURL",
+            "lang": "objc",
+            "addr": 4301494468
+          },
+          {
+            "name": "deviceIdentifier",
+            "flag": "method.NSURL_AFC_.deviceIdentifier",
+            "lang": "objc",
+            "addr": 4301494580
+          },
+          {
+            "name": "appIdentifier",
+            "flag": "method.NSURL_AFC_.appIdentifier",
+            "lang": "objc",
+            "addr": 4301494584
+          }
+        ]
+      },
+      {
+        "classname": "AMPDevice(DulcimerHandler)",
+        "addr": 4303722888,
+        "lang": "objc",
+        "index": 7,
+        "super": [
+          "AMPDevice"
+        ],
+        "rawsuper": [
+          "AMPDevice"
+        ],
+        "methods": [
+          {
+            "name": "iPodDeviceClass",
+            "flag": "method.AMPDevice_DulcimerHandler_.iPodDeviceClass",
+            "lang": "objc",
+            "addr": 4301494720
+          }
+        ]
+      },
+      {
+        "classname": "UserNotificationsDelegate",
+        "addr": 4303734808,
+        "lang": "objc",
+        "index": 8,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "userNotificationCenter:willPresentNotification:withCompletionHandler:",
+            "flag": "method.UserNotificationsDelegate.userNotificationCenter:willPresentNotification:withCompletionHandler:",
+            "lang": "objc",
+            "addr": 4297135404
+          },
+          {
+            "name": "userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:",
+            "flag": "method.UserNotificationsDelegate.userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:",
+            "lang": "objc",
+            "addr": 4297136504
+          }
+        ],
+        "fields": [
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "AMPDiscoveryDevicesAgentEventsClient",
+        "addr": 4303734928,
+        "lang": "objc",
+        "index": 9,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.AMPDiscoveryDevicesAgentEventsClient.init",
+            "lang": "objc",
+            "addr": 4297457804
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.AMPDiscoveryDevicesAgentEventsClient.dealloc",
+            "lang": "objc",
+            "addr": 4297457876
+          },
+          {
+            "name": "connectionInterrupted",
+            "flag": "method.AMPDiscoveryDevicesAgentEventsClient.connectionInterrupted",
+            "lang": "objc",
+            "addr": 4297458020
+          },
+          {
+            "name": "connectionInvalidated",
+            "flag": "method.AMPDiscoveryDevicesAgentEventsClient.connectionInvalidated",
+            "lang": "objc",
+            "addr": 4297458576
+          },
+          {
+            "name": "connect",
+            "flag": "method.AMPDiscoveryDevicesAgentEventsClient.connect",
+            "lang": "objc",
+            "addr": 4297458748
+          },
+          {
+            "name": "currentConnection",
+            "flag": "method.AMPDiscoveryDevicesAgentEventsClient.currentConnection",
+            "lang": "objc",
+            "addr": 4297459788
+          },
+          {
+            "name": "discoveryServiceWillTerminate",
+            "flag": "func.1002608f8",
+            "lang": "objc",
+            "addr": 4297459960
+          },
+          {
+            "name": "devicesAgentDidChangeState:withReply:",
+            "flag": "method.AMPDiscoveryDevicesAgentEventsClient.devicesAgentDidChangeState:withReply:",
+            "lang": "objc",
+            "addr": 4297460228
+          },
+          {
+            "name": "devicesAgentDidStartSoftwareUpdateRestoreForDeviceWithIdentifier:withReply:",
+            "flag": "method.AMPDiscoveryDevicesAgentEventsClient.devicesAgentDidStartSoftwareUpdateRestoreForDeviceWithIdentifier:withReply:",
+            "lang": "objc",
+            "addr": 4297461380
+          },
+          {
+            "name": "devicesAgentDidMiddleSoftwareUpdateRestoreForDeviceWithIdentifier:withReply:",
+            "flag": "method.AMPDiscoveryDevicesAgentEventsClient.devicesAgentDidMiddleSoftwareUpdateRestoreForDeviceWithIdentifier:withReply:",
+            "lang": "objc",
+            "addr": 4297462408
+          },
+          {
+            "name": "devicesAgentDidEndSoftwareUpdateRestoreForDeviceWithIdentifier:withReply:",
+            "flag": "method.AMPDiscoveryDevicesAgentEventsClient.devicesAgentDidEndSoftwareUpdateRestoreForDeviceWithIdentifier:withReply:",
+            "lang": "objc",
+            "addr": 4297463436
+          },
+          {
+            "name": "connection",
+            "flag": "method.AMPDiscoveryDevicesAgentEventsClient.connection",
+            "lang": "objc",
+            "addr": 4297464464
+          },
+          {
+            "name": "setConnection:",
+            "flag": "method.AMPDiscoveryDevicesAgentEventsClient.setConnection:",
+            "lang": "objc",
+            "addr": 4297464472
+          },
+          {
+            "name": "lastState",
+            "flag": "method.AMPDiscoveryDevicesAgentEventsClient.lastState",
+            "lang": "objc",
+            "addr": 4297464484
+          },
+          {
+            "name": "setLastState:",
+            "flag": "method.AMPDiscoveryDevicesAgentEventsClient.setLastState:",
+            "lang": "objc",
+            "addr": 4297464492
+          },
+          {
+            "name": "shouldReconnect",
+            "flag": "method.AMPDiscoveryDevicesAgentEventsClient.shouldReconnect",
+            "lang": "objc",
+            "addr": 4297464500
+          },
+          {
+            "name": "setShouldReconnect:",
+            "flag": "method.AMPDiscoveryDevicesAgentEventsClient.setShouldReconnect:",
+            "lang": "objc",
+            "addr": 4297464508
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.AMPDiscoveryDevicesAgentEventsClient..cxx_destruct",
+            "lang": "objc",
+            "addr": 4297464516
+          },
+          {
+            "name": "discoveryServiceWillTerminate",
+            "flag": "method.AMPDiscoveryDevicesAgentEventsClient.discoveryServiceWillTerminate",
+            "lang": "objc",
+            "addr": 4301913432
+          },
+          {
+            "name": "discoveryServiceWillTerminate",
+            "flag": "method.AMPDiscoveryDevicesAgentEventsClient.discoveryServiceWillTerminate",
+            "lang": "objc",
+            "addr": 4301913432
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_shouldReconnect",
+            "kind": "var",
+            "type": "B",
+            "addr": 4303734552
+          },
+          {
+            "name": "_connection",
+            "kind": "var",
+            "type": "@\"NSXPCConnection\"",
+            "addr": 4303734556
+          },
+          {
+            "name": "_lastState",
+            "kind": "var",
+            "type": "Q",
+            "addr": 4303734560
+          },
+          {
+            "name": "connection",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "lastState",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "shouldReconnect",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "ArtworkEventsProxy",
+        "addr": 4303734968,
+        "lang": "objc",
+        "index": 10,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "notifyArtworkStatusChangedWithInfoArray:",
+            "flag": "func.100272388",
+            "lang": "objc",
+            "addr": 4297532296
+          },
+          {
+            "name": "owner",
+            "flag": "method.ArtworkEventsProxy.owner",
+            "lang": "objc",
+            "addr": 4297534500
+          },
+          {
+            "name": "setOwner:",
+            "flag": "method.ArtworkEventsProxy.setOwner:",
+            "lang": "objc",
+            "addr": 4297534528
+          },
+          {
+            "name": "queue",
+            "flag": "method.ArtworkEventsProxy.queue",
+            "lang": "objc",
+            "addr": 4297534572
+          },
+          {
+            "name": "setQueue:",
+            "flag": "method.ArtworkEventsProxy.setQueue:",
+            "lang": "objc",
+            "addr": 4297534580
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.ArtworkEventsProxy..cxx_destruct",
+            "lang": "objc",
+            "addr": 4297534592
+          },
+          {
+            "name": ".cxx_construct",
+            "flag": "method.ArtworkEventsProxy..cxx_construct",
+            "lang": "objc",
+            "addr": 4297534660
+          },
+          {
+            "name": "notifyArtworkStatusChangedWithInfoArray:",
+            "flag": "method.ArtworkEventsProxy.notifyArtworkStatusChangedWithInfoArray:",
+            "lang": "objc",
+            "addr": 4301913408
+          },
+          {
+            "name": "notifyArtworkStatusChangedWithInfoArray:",
+            "flag": "method.ArtworkEventsProxy.notifyArtworkStatusChangedWithInfoArray:",
+            "lang": "objc",
+            "addr": 4301913408
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_queue",
+            "kind": "var",
+            "type": "@\"NSObject<OS_dispatch_queue>\"",
+            "addr": 4303734564
+          },
+          {
+            "name": "_owner",
+            "kind": "var",
+            "type": "{weak_ptr<ArtworkClient>=\"__ptr_\"^{ArtworkClient}\"__cntrl_\"^{__shared_weak_count}}",
+            "addr": 4303734568
+          },
+          {
+            "name": "owner",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "queue",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "ITFileDataHoldingURL",
+        "addr": 4303735088,
+        "lang": "objc",
+        "index": 11,
+        "super": [
+          "NSURL"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSURL"
+        ],
+        "methods": [
+          {
+            "name": "dealloc",
+            "flag": "method.ITFileDataHoldingURL.dealloc",
+            "lang": "objc",
+            "addr": 4298458632
+          },
+          {
+            "name": "heldData",
+            "flag": "method.ITFileDataHoldingURL.heldData",
+            "lang": "objc",
+            "addr": 4298458764
+          },
+          {
+            "name": "fileDataHoldingURLFromURL:data:",
+            "flag": "method.class.ITFileDataHoldingURL.fileDataHoldingURLFromURL:data:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4298458208
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "mHeldData",
+            "kind": "var",
+            "type": "^{__CFData=}",
+            "addr": 4303734572
+          }
+        ]
+      },
+      {
+        "classname": "AMPDevicesFrameworkConnection",
+        "addr": 4303735168,
+        "lang": "objc",
+        "index": 12,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithType:",
+            "flag": "method.AMPDevicesFrameworkConnection.initWithType:",
+            "lang": "objc",
+            "addr": 4298851576
+          },
+          {
+            "name": "processRequestBlockOnMainThread:withTimeoutBlock:",
+            "flag": "method.AMPDevicesFrameworkConnection.processRequestBlockOnMainThread:withTimeoutBlock:",
+            "lang": "objc",
+            "addr": 4298851664
+          },
+          {
+            "name": "onConnectionInvalidated",
+            "flag": "method.AMPDevicesFrameworkConnection.onConnectionInvalidated",
+            "lang": "objc",
+            "addr": 4298852588
+          },
+          {
+            "name": "onConnectionInterrupted",
+            "flag": "method.AMPDevicesFrameworkConnection.onConnectionInterrupted",
+            "lang": "objc",
+            "addr": 4298852592
+          },
+          {
+            "name": "registerClientName:withReply:",
+            "flag": "func.1003b48f4",
+            "lang": "objc",
+            "addr": 4298852596
+          },
+          {
+            "name": "openDevice:forClientID:withReply:",
+            "flag": "method.AMPDevicesFrameworkConnection.openDevice:forClientID:withReply:",
+            "lang": "objc",
+            "addr": 4298852636
+          },
+          {
+            "name": "closeDomainsForClientID:withReply:",
+            "flag": "func.1003b4cec",
+            "lang": "objc",
+            "addr": 4298853612
+          },
+          {
+            "name": "mediaItemsForDomains:withMediaKinds:withDeviceCapabilities:withReply:",
+            "flag": "func.1003b4d00",
+            "lang": "objc",
+            "addr": 4298853632
+          },
+          {
+            "name": "playlistsForDomains:withMediaKinds:withDeviceCapabilities:withItems:withReply:",
+            "flag": "func.1003b4f28",
+            "lang": "objc",
+            "addr": 4298854184
+          },
+          {
+            "name": "distinguishedPlaylistForDomains:withDistinguishedKind:withItems:withReply:",
+            "flag": "func.1003b5164",
+            "lang": "objc",
+            "addr": 4298854756
+          },
+          {
+            "name": "tracksForPlaylist:withReply:",
+            "flag": "func.1003b538c",
+            "lang": "objc",
+            "addr": 4298855308
+          },
+          {
+            "name": "artistsForDomains:withMediaKinds:withDeviceCapabilities:withReply:",
+            "flag": "func.1003b559c",
+            "lang": "objc",
+            "addr": 4298855836
+          },
+          {
+            "name": "albumsForDomains:withMediaKinds:withDeviceCapabilities:withReply:",
+            "flag": "func.1003b57c0",
+            "lang": "objc",
+            "addr": 4298856384
+          },
+          {
+            "name": "genresForDomains:withMediaKinds:withDeviceCapabilities:withReply:",
+            "flag": "func.1003b59e4",
+            "lang": "objc",
+            "addr": 4298856932
+          },
+          {
+            "name": "readWriteURLForMediaItem:withReply:",
+            "flag": "func.1003b5c08",
+            "lang": "objc",
+            "addr": 4298857480
+          },
+          {
+            "name": "artworkForMediaFile:withReply:",
+            "flag": "func.1003b5eec",
+            "lang": "objc",
+            "addr": 4298858220
+          },
+          {
+            "name": "artworkForMediaFile2:withReply:",
+            "flag": "func.1003b5fa0",
+            "lang": "objc",
+            "addr": 4298858400
+          },
+          {
+            "name": "removeDownloadForTracks:withReply:",
+            "flag": "func.1003b6058",
+            "lang": "objc",
+            "addr": 4298858584
+          },
+          {
+            "name": "migratedPodcastFeedsWithReply:",
+            "flag": "func.1003b6108",
+            "lang": "objc",
+            "addr": 4298858760
+          },
+          {
+            "name": "migratedPodcastStationsWithReply:",
+            "flag": "func.1003b61bc",
+            "lang": "objc",
+            "addr": 4298858940
+          },
+          {
+            "name": "migratedPodcastSettingsWithReply:",
+            "flag": "func.1003b6270",
+            "lang": "objc",
+            "addr": 4298859120
+          },
+          {
+            "name": "migratedMediaFolderBookmarkWithReply:",
+            "flag": "func.1003b6324",
+            "lang": "objc",
+            "addr": 4298859300
+          },
+          {
+            "name": "mediaItemsWithPersistentIDs:forDomains:withMediaKinds:withDeviceCapabilities:withReply:",
+            "flag": "func.1003b63d8",
+            "lang": "objc",
+            "addr": 4298859480
+          },
+          {
+            "name": "clientID",
+            "flag": "method.AMPDevicesFrameworkConnection.clientID",
+            "lang": "objc",
+            "addr": 4298859660
+          },
+          {
+            "name": "clientType",
+            "flag": "method.AMPDevicesFrameworkConnection.clientType",
+            "lang": "objc",
+            "addr": 4298859668
+          },
+          {
+            "name": "clientName",
+            "flag": "method.AMPDevicesFrameworkConnection.clientName",
+            "lang": "objc",
+            "addr": 4298859676
+          },
+          {
+            "name": "mediaDomains",
+            "flag": "method.AMPDevicesFrameworkConnection.mediaDomains",
+            "lang": "objc",
+            "addr": 4298859684
+          },
+          {
+            "name": "deviceIdentifier",
+            "flag": "method.AMPDevicesFrameworkConnection.deviceIdentifier",
+            "lang": "objc",
+            "addr": 4298859692
+          },
+          {
+            "name": "setDeviceIdentifier:",
+            "flag": "method.AMPDevicesFrameworkConnection.setDeviceIdentifier:",
+            "lang": "objc",
+            "addr": 4298859700
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.AMPDevicesFrameworkConnection..cxx_destruct",
+            "lang": "objc",
+            "addr": 4298859712
+          },
+          {
+            "name": "registerClientName:withReply:",
+            "flag": "method.AMPDevicesFrameworkConnection.registerClientName:withReply:",
+            "lang": "objc",
+            "addr": 4301914352
+          },
+          {
+            "name": "closeDomainsForClientID:withReply:",
+            "flag": "method.AMPDevicesFrameworkConnection.closeDomainsForClientID:withReply:",
+            "lang": "objc",
+            "addr": 4301914364
+          },
+          {
+            "name": "mediaItemsForDomains:withMediaKinds:withDeviceCapabilities:withReply:",
+            "flag": "method.AMPDevicesFrameworkConnection.mediaItemsForDomains:withMediaKinds:withDeviceCapabilities:withReply:",
+            "lang": "objc",
+            "addr": 4301914376
+          },
+          {
+            "name": "mediaItemsWithPersistentIDs:forDomains:withMediaKinds:withDeviceCapabilities:withReply:",
+            "flag": "method.AMPDevicesFrameworkConnection.mediaItemsWithPersistentIDs:forDomains:withMediaKinds:withDeviceCapabilities:withReply:",
+            "lang": "objc",
+            "addr": 4301914388
+          },
+          {
+            "name": "playlistsForDomains:withMediaKinds:withDeviceCapabilities:withItems:withReply:",
+            "flag": "method.AMPDevicesFrameworkConnection.playlistsForDomains:withMediaKinds:withDeviceCapabilities:withItems:withReply:",
+            "lang": "objc",
+            "addr": 4301914400
+          },
+          {
+            "name": "distinguishedPlaylistForDomains:withDistinguishedKind:withItems:withReply:",
+            "flag": "method.AMPDevicesFrameworkConnection.distinguishedPlaylistForDomains:withDistinguishedKind:withItems:withReply:",
+            "lang": "objc",
+            "addr": 4301914412
+          },
+          {
+            "name": "tracksForPlaylist:withReply:",
+            "flag": "method.AMPDevicesFrameworkConnection.tracksForPlaylist:withReply:",
+            "lang": "objc",
+            "addr": 4301914424
+          },
+          {
+            "name": "artistsForDomains:withMediaKinds:withDeviceCapabilities:withReply:",
+            "flag": "method.AMPDevicesFrameworkConnection.artistsForDomains:withMediaKinds:withDeviceCapabilities:withReply:",
+            "lang": "objc",
+            "addr": 4301914436
+          },
+          {
+            "name": "albumsForDomains:withMediaKinds:withDeviceCapabilities:withReply:",
+            "flag": "method.AMPDevicesFrameworkConnection.albumsForDomains:withMediaKinds:withDeviceCapabilities:withReply:",
+            "lang": "objc",
+            "addr": 4301914448
+          },
+          {
+            "name": "genresForDomains:withMediaKinds:withDeviceCapabilities:withReply:",
+            "flag": "method.AMPDevicesFrameworkConnection.genresForDomains:withMediaKinds:withDeviceCapabilities:withReply:",
+            "lang": "objc",
+            "addr": 4301914460
+          },
+          {
+            "name": "readWriteURLForMediaItem:withReply:",
+            "flag": "method.AMPDevicesFrameworkConnection.readWriteURLForMediaItem:withReply:",
+            "lang": "objc",
+            "addr": 4301914472
+          },
+          {
+            "name": "artworkForMediaFile:withReply:",
+            "flag": "method.AMPDevicesFrameworkConnection.artworkForMediaFile:withReply:",
+            "lang": "objc",
+            "addr": 4301914484
+          },
+          {
+            "name": "artworkForMediaFile2:withReply:",
+            "flag": "method.AMPDevicesFrameworkConnection.artworkForMediaFile2:withReply:",
+            "lang": "objc",
+            "addr": 4301914496
+          },
+          {
+            "name": "removeDownloadForTracks:withReply:",
+            "flag": "method.AMPDevicesFrameworkConnection.removeDownloadForTracks:withReply:",
+            "lang": "objc",
+            "addr": 4301914508
+          },
+          {
+            "name": "migratedPodcastFeedsWithReply:",
+            "flag": "method.AMPDevicesFrameworkConnection.migratedPodcastFeedsWithReply:",
+            "lang": "objc",
+            "addr": 4301914520
+          },
+          {
+            "name": "migratedPodcastStationsWithReply:",
+            "flag": "method.AMPDevicesFrameworkConnection.migratedPodcastStationsWithReply:",
+            "lang": "objc",
+            "addr": 4301914532
+          },
+          {
+            "name": "migratedPodcastSettingsWithReply:",
+            "flag": "method.AMPDevicesFrameworkConnection.migratedPodcastSettingsWithReply:",
+            "lang": "objc",
+            "addr": 4301914544
+          },
+          {
+            "name": "migratedMediaFolderBookmarkWithReply:",
+            "flag": "method.AMPDevicesFrameworkConnection.migratedMediaFolderBookmarkWithReply:",
+            "lang": "objc",
+            "addr": 4301914556
+          },
+          {
+            "name": "registerClientName:withReply:",
+            "flag": "method.AMPDevicesFrameworkConnection.registerClientName:withReply:",
+            "lang": "objc",
+            "addr": 4301914352
+          },
+          {
+            "name": "closeDomainsForClientID:withReply:",
+            "flag": "method.AMPDevicesFrameworkConnection.closeDomainsForClientID:withReply:",
+            "lang": "objc",
+            "addr": 4301914364
+          },
+          {
+            "name": "mediaItemsForDomains:withMediaKinds:withDeviceCapabilities:withReply:",
+            "flag": "method.AMPDevicesFrameworkConnection.mediaItemsForDomains:withMediaKinds:withDeviceCapabilities:withReply:",
+            "lang": "objc",
+            "addr": 4301914376
+          },
+          {
+            "name": "mediaItemsWithPersistentIDs:forDomains:withMediaKinds:withDeviceCapabilities:withReply:",
+            "flag": "method.AMPDevicesFrameworkConnection.mediaItemsWithPersistentIDs:forDomains:withMediaKinds:withDeviceCapabilities:withReply:",
+            "lang": "objc",
+            "addr": 4301914388
+          },
+          {
+            "name": "playlistsForDomains:withMediaKinds:withDeviceCapabilities:withItems:withReply:",
+            "flag": "method.AMPDevicesFrameworkConnection.playlistsForDomains:withMediaKinds:withDeviceCapabilities:withItems:withReply:",
+            "lang": "objc",
+            "addr": 4301914400
+          },
+          {
+            "name": "distinguishedPlaylistForDomains:withDistinguishedKind:withItems:withReply:",
+            "flag": "method.AMPDevicesFrameworkConnection.distinguishedPlaylistForDomains:withDistinguishedKind:withItems:withReply:",
+            "lang": "objc",
+            "addr": 4301914412
+          },
+          {
+            "name": "tracksForPlaylist:withReply:",
+            "flag": "method.AMPDevicesFrameworkConnection.tracksForPlaylist:withReply:",
+            "lang": "objc",
+            "addr": 4301914424
+          },
+          {
+            "name": "artistsForDomains:withMediaKinds:withDeviceCapabilities:withReply:",
+            "flag": "method.AMPDevicesFrameworkConnection.artistsForDomains:withMediaKinds:withDeviceCapabilities:withReply:",
+            "lang": "objc",
+            "addr": 4301914436
+          },
+          {
+            "name": "albumsForDomains:withMediaKinds:withDeviceCapabilities:withReply:",
+            "flag": "method.AMPDevicesFrameworkConnection.albumsForDomains:withMediaKinds:withDeviceCapabilities:withReply:",
+            "lang": "objc",
+            "addr": 4301914448
+          },
+          {
+            "name": "genresForDomains:withMediaKinds:withDeviceCapabilities:withReply:",
+            "flag": "method.AMPDevicesFrameworkConnection.genresForDomains:withMediaKinds:withDeviceCapabilities:withReply:",
+            "lang": "objc",
+            "addr": 4301914460
+          },
+          {
+            "name": "readWriteURLForMediaItem:withReply:",
+            "flag": "method.AMPDevicesFrameworkConnection.readWriteURLForMediaItem:withReply:",
+            "lang": "objc",
+            "addr": 4301914472
+          },
+          {
+            "name": "artworkForMediaFile:withReply:",
+            "flag": "method.AMPDevicesFrameworkConnection.artworkForMediaFile:withReply:",
+            "lang": "objc",
+            "addr": 4301914484
+          },
+          {
+            "name": "artworkForMediaFile2:withReply:",
+            "flag": "method.AMPDevicesFrameworkConnection.artworkForMediaFile2:withReply:",
+            "lang": "objc",
+            "addr": 4301914496
+          },
+          {
+            "name": "removeDownloadForTracks:withReply:",
+            "flag": "method.AMPDevicesFrameworkConnection.removeDownloadForTracks:withReply:",
+            "lang": "objc",
+            "addr": 4301914508
+          },
+          {
+            "name": "migratedPodcastFeedsWithReply:",
+            "flag": "method.AMPDevicesFrameworkConnection.migratedPodcastFeedsWithReply:",
+            "lang": "objc",
+            "addr": 4301914520
+          },
+          {
+            "name": "migratedPodcastStationsWithReply:",
+            "flag": "method.AMPDevicesFrameworkConnection.migratedPodcastStationsWithReply:",
+            "lang": "objc",
+            "addr": 4301914532
+          },
+          {
+            "name": "migratedPodcastSettingsWithReply:",
+            "flag": "method.AMPDevicesFrameworkConnection.migratedPodcastSettingsWithReply:",
+            "lang": "objc",
+            "addr": 4301914544
+          },
+          {
+            "name": "migratedMediaFolderBookmarkWithReply:",
+            "flag": "method.AMPDevicesFrameworkConnection.migratedMediaFolderBookmarkWithReply:",
+            "lang": "objc",
+            "addr": 4301914556
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_clientID",
+            "kind": "var",
+            "type": "I",
+            "addr": 4303734576
+          },
+          {
+            "name": "_clientType",
+            "kind": "var",
+            "type": "Q",
+            "addr": 4303734580
+          },
+          {
+            "name": "_clientName",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4303734584
+          },
+          {
+            "name": "_mediaDomains",
+            "kind": "var",
+            "type": "Q",
+            "addr": 4303734588
+          },
+          {
+            "name": "_deviceIdentifier",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4303734592
+          },
+          {
+            "name": "deviceIdentifier",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "clientID",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "clientType",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "clientName",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "mediaDomains",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "AMPLClientEventsDelegate",
+        "addr": 4303735248,
+        "lang": "objc",
+        "index": 13,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithDelegate:",
+            "flag": "method.AMPLClientEventsDelegate.initWithDelegate:",
+            "lang": "objc",
+            "addr": 4299403176
+          },
+          {
+            "name": "releaseDelegate",
+            "flag": "method.AMPLClientEventsDelegate.releaseDelegate",
+            "lang": "objc",
+            "addr": 4299403292
+          },
+          {
+            "name": "getDelegate",
+            "flag": "method.AMPLClientEventsDelegate.getDelegate",
+            "lang": "objc",
+            "addr": 4299403364
+          },
+          {
+            "name": "onLibraryBusyStateChange:",
+            "flag": "method.AMPLClientEventsDelegate.onLibraryBusyStateChange:",
+            "lang": "objc",
+            "addr": 4299403448
+          },
+          {
+            "name": "onLibraryRevisionChange:",
+            "flag": "method.AMPLClientEventsDelegate.onLibraryRevisionChange:",
+            "lang": "objc",
+            "addr": 4299403592
+          },
+          {
+            "name": "onLibraryCommandComplete:forClientID:forCommandID:",
+            "flag": "method.AMPLClientEventsDelegate.onLibraryCommandComplete:forClientID:forCommandID:",
+            "lang": "objc",
+            "addr": 4299403736
+          },
+          {
+            "name": "onCloudClientStateChanged:newState:",
+            "flag": "method.AMPLClientEventsDelegate.onCloudClientStateChanged:newState:",
+            "lang": "objc",
+            "addr": 4299404584
+          },
+          {
+            "name": "onCloudClientRemoteLoadStateChanged:newState:",
+            "flag": "method.AMPLClientEventsDelegate.onCloudClientRemoteLoadStateChanged:newState:",
+            "lang": "objc",
+            "addr": 4299404736
+          },
+          {
+            "name": "onCloudClientFlagsChanged:forFlag:withValue:",
+            "flag": "method.AMPLClientEventsDelegate.onCloudClientFlagsChanged:forFlag:withValue:",
+            "lang": "objc",
+            "addr": 4299404888
+          },
+          {
+            "name": "onReflectCloudDAAPServerMessage:withKind:withFlag:withStatus:",
+            "flag": "method.AMPLClientEventsDelegate.onReflectCloudDAAPServerMessage:withKind:withFlag:withStatus:",
+            "lang": "objc",
+            "addr": 4299405056
+          },
+          {
+            "name": "onShowHideCloudUI:",
+            "flag": "method.AMPLClientEventsDelegate.onShowHideCloudUI:",
+            "lang": "objc",
+            "addr": 4299405708
+          },
+          {
+            "name": "onShowCloudServerErrorForClientID:error:",
+            "flag": "method.AMPLClientEventsDelegate.onShowCloudServerErrorForClientID:error:",
+            "lang": "objc",
+            "addr": 4299405976
+          },
+          {
+            "name": "onAuthenticateCloudServer:",
+            "flag": "method.AMPLClientEventsDelegate.onAuthenticateCloudServer:",
+            "lang": "objc",
+            "addr": 4299406244
+          },
+          {
+            "name": "onCloudTrackRedownload:forPersistentIDs:",
+            "flag": "method.AMPLClientEventsDelegate.onCloudTrackRedownload:forPersistentIDs:",
+            "lang": "objc",
+            "addr": 4299406512
+          },
+          {
+            "name": "onCloudEditCommandStateChanged:newState:optionalFinalStatus:optionalFetched:optionalAddedPersistentIDs:",
+            "flag": "method.AMPLClientEventsDelegate.onCloudEditCommandStateChanged:newState:optionalFinalStatus:optionalFetched:optionalAddedPersistentIDs:",
+            "lang": "objc",
+            "addr": 4299407400
+          },
+          {
+            "name": "onCloudAddTooManyCloudTracksError:",
+            "flag": "method.AMPLClientEventsDelegate.onCloudAddTooManyCloudTracksError:",
+            "lang": "objc",
+            "addr": 4299408280
+          },
+          {
+            "name": "synchronousStartUploadLibraryClientCommand:withReply:",
+            "flag": "method.AMPLClientEventsDelegate.synchronousStartUploadLibraryClientCommand:withReply:",
+            "lang": "objc",
+            "addr": 4299408548
+          },
+          {
+            "name": "synchronousCancelUploadLibraryClientCommand:withReply:",
+            "flag": "method.AMPLClientEventsDelegate.synchronousCancelUploadLibraryClientCommand:withReply:",
+            "lang": "objc",
+            "addr": 4299409072
+          },
+          {
+            "name": "synchronousNotifyClientDisableIsComplete",
+            "flag": "method.AMPLClientEventsDelegate.synchronousNotifyClientDisableIsComplete",
+            "lang": "objc",
+            "addr": 4299409448
+          },
+          {
+            "name": "synchronousIsProcessingNewTrackForUpload:withReply:",
+            "flag": "method.AMPLClientEventsDelegate.synchronousIsProcessingNewTrackForUpload:withReply:",
+            "lang": "objc",
+            "addr": 4299409704
+          },
+          {
+            "name": "triggerCheckForNewCloudTracks:withFinishImport:withReply:",
+            "flag": "method.AMPLClientEventsDelegate.triggerCheckForNewCloudTracks:withFinishImport:withReply:",
+            "lang": "objc",
+            "addr": 4299410004
+          },
+          {
+            "name": "delegate",
+            "flag": "method.AMPLClientEventsDelegate.delegate",
+            "lang": "objc",
+            "addr": 4299410388
+          },
+          {
+            "name": "setDelegate:",
+            "flag": "method.AMPLClientEventsDelegate.setDelegate:",
+            "lang": "objc",
+            "addr": 4299410416
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.AMPLClientEventsDelegate..cxx_destruct",
+            "lang": "objc",
+            "addr": 4299410460
+          },
+          {
+            "name": ".cxx_construct",
+            "flag": "method.AMPLClientEventsDelegate..cxx_construct",
+            "lang": "objc",
+            "addr": 4299410476
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_delegate",
+            "kind": "var",
+            "type": "{shared_ptr<AMPLibraryEventsDelegate>=\"__ptr_\"^{AMPLibraryEventsDelegate}\"__cntrl_\"^{__shared_weak_count}}",
+            "addr": 4303734596
+          },
+          {
+            "name": "delegate",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "MediaLibraryObserver",
+        "addr": 4303735328,
+        "lang": "objc",
+        "index": 14,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.MediaLibraryObserver.init",
+            "lang": "objc",
+            "addr": 4299427300
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.MediaLibraryObserver.dealloc",
+            "lang": "objc",
+            "addr": 4299427908
+          },
+          {
+            "name": "getMediaLibrary",
+            "flag": "method.MediaLibraryObserver.getMediaLibrary",
+            "lang": "objc",
+            "addr": 4299428208
+          },
+          {
+            "name": "copyMediaSourcesDictionary:forceUpdate:progressInfo:",
+            "flag": "method.MediaLibraryObserver.copyMediaSourcesDictionary:forceUpdate:progressInfo:",
+            "lang": "objc",
+            "addr": 4299428736
+          },
+          {
+            "name": "copyRootMediaGroup:fromMediaSource:resultRootMediaGroup:forceUpdate:progressInfo:",
+            "flag": "method.MediaLibraryObserver.copyRootMediaGroup:fromMediaSource:resultRootMediaGroup:forceUpdate:progressInfo:",
+            "lang": "objc",
+            "addr": 4299429560
+          },
+          {
+            "name": "observeValueForKeyPath:ofObject:change:context:",
+            "flag": "method.MediaLibraryObserver.observeValueForKeyPath:ofObject:change:context:",
+            "lang": "objc",
+            "addr": 4299430500
+          },
+          {
+            "name": "waitForProperty:onObject:withTimeout:withMainThreadCallback:progressInfo:resultObject:",
+            "flag": "method.MediaLibraryObserver.waitForProperty:onObject:withTimeout:withMainThreadCallback:progressInfo:resultObject:",
+            "lang": "objc",
+            "addr": 4299432076
+          },
+          {
+            "name": "getLibraryModificationDateUTC:",
+            "flag": "method.MediaLibraryObserver.getLibraryModificationDateUTC:",
+            "lang": "objc",
+            "addr": 4299434660
+          },
+          {
+            "name": "copyLibraryUUID:",
+            "flag": "method.MediaLibraryObserver.copyLibraryUUID:",
+            "lang": "objc",
+            "addr": 4299434672
+          },
+          {
+            "name": "exceptionDuringOperation:error:leftOperand:rightOperand:",
+            "flag": "func.100442abc",
+            "lang": "objc",
+            "addr": 4299434684
+          },
+          {
+            "name": "roundingMode",
+            "flag": "func.100442ac4",
+            "lang": "objc",
+            "addr": 4299434692
+          },
+          {
+            "name": "scale",
+            "flag": "func.100442acc",
+            "lang": "objc",
+            "addr": 4299434700
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.MediaLibraryObserver..cxx_destruct",
+            "lang": "objc",
+            "addr": 4299434708
+          },
+          {
+            "name": ".cxx_construct",
+            "flag": "method.MediaLibraryObserver..cxx_construct",
+            "lang": "objc",
+            "addr": 4299434716
+          },
+          {
+            "name": "roundingMode",
+            "flag": "method.MediaLibraryObserver.roundingMode",
+            "lang": "objc",
+            "addr": 4301914576
+          },
+          {
+            "name": "scale",
+            "flag": "method.MediaLibraryObserver.scale",
+            "lang": "objc",
+            "addr": 4301914588
+          },
+          {
+            "name": "exceptionDuringOperation:error:leftOperand:rightOperand:",
+            "flag": "method.MediaLibraryObserver.exceptionDuringOperation:error:leftOperand:rightOperand:",
+            "lang": "objc",
+            "addr": 4301914600
+          },
+          {
+            "name": "initialize",
+            "flag": "method.class.MediaLibraryObserver.initialize",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4299427000
+          },
+          {
+            "name": "getInstance",
+            "flag": "method.class.MediaLibraryObserver.getInstance",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4299428196
+          },
+          {
+            "name": "roundingMode",
+            "flag": "method.MediaLibraryObserver.roundingMode",
+            "lang": "objc",
+            "addr": 4301914576
+          },
+          {
+            "name": "scale",
+            "flag": "method.MediaLibraryObserver.scale",
+            "lang": "objc",
+            "addr": 4301914588
+          },
+          {
+            "name": "exceptionDuringOperation:error:leftOperand:rightOperand:",
+            "flag": "method.MediaLibraryObserver.exceptionDuringOperation:error:leftOperand:rightOperand:",
+            "lang": "objc",
+            "addr": 4301914600
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "mMLMediaLibrary",
+            "kind": "var",
+            "type": "@\"MLMediaLibrary\"",
+            "addr": 4303734600
+          },
+          {
+            "name": "mMediaSourcesDictionary",
+            "kind": "var",
+            "type": "@\"NSDictionary\"",
+            "addr": 4303734604
+          },
+          {
+            "name": "mPhotosAppRootMediaGroup",
+            "kind": "var",
+            "type": "@\"MLMediaGroup\"",
+            "addr": 4303734608
+          },
+          {
+            "name": "mPhotosAppLibraryModificationDateUTC",
+            "kind": "var",
+            "type": "I",
+            "addr": 4303734612
+          },
+          {
+            "name": "mPhotosAppLibraryUUID",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4303734616
+          },
+          {
+            "name": "mKVOCondition",
+            "kind": "var",
+            "type": "@\"NSCondition\"",
+            "addr": 4303734620
+          },
+          {
+            "name": "mRequestMap",
+            "kind": "var",
+            "type": "{multimap<MediaLibraryRequestKey, MediaLibraryRequest *, std::less<MediaLibraryRequestKey>, std::allocator<std::pair<const MediaLibraryRequestKey, MediaLibraryRequest *>>>=\"__tree_\"{__tree<std::__value_type<MediaLibraryRequestKey, MediaLibraryRequest *>, std::__map_value_compare<MediaLibraryRequestKey, std::__value_type<MediaLibraryRequestKey, MediaLibraryRequest *>, std::less<MediaLibraryRequestKey>>, std::allocator<std::__value_type<MediaLibraryRequestKey, MediaLibraryRequest *>>>=\"__begin_node_\"^v\"__end_",
+            "addr": 4303734624
+          }
+        ]
+      },
+      {
+        "classname": "AMPPHMediaObject",
+        "addr": 4303735368,
+        "lang": "objc",
+        "index": 15,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "description",
+            "flag": "method.AMPPHMediaObject.description",
+            "lang": "objc",
+            "addr": 4299770260
+          },
+          {
+            "name": "identifier",
+            "flag": "method.AMPPHMediaObject.identifier",
+            "lang": "objc",
+            "addr": 4299770324
+          },
+          {
+            "name": "setIdentifier:",
+            "flag": "method.AMPPHMediaObject.setIdentifier:",
+            "lang": "objc",
+            "addr": 4299770332
+          },
+          {
+            "name": "currentVersionURL",
+            "flag": "method.AMPPHMediaObject.currentVersionURL",
+            "lang": "objc",
+            "addr": 4299770344
+          },
+          {
+            "name": "setCurrentVersionURL:",
+            "flag": "method.AMPPHMediaObject.setCurrentVersionURL:",
+            "lang": "objc",
+            "addr": 4299770352
+          },
+          {
+            "name": "originalURL",
+            "flag": "method.AMPPHMediaObject.originalURL",
+            "lang": "objc",
+            "addr": 4299770364
+          },
+          {
+            "name": "setOriginalURL:",
+            "flag": "method.AMPPHMediaObject.setOriginalURL:",
+            "lang": "objc",
+            "addr": 4299770372
+          },
+          {
+            "name": "thumbURL",
+            "flag": "method.AMPPHMediaObject.thumbURL",
+            "lang": "objc",
+            "addr": 4299770384
+          },
+          {
+            "name": "setThumbURL:",
+            "flag": "method.AMPPHMediaObject.setThumbURL:",
+            "lang": "objc",
+            "addr": 4299770392
+          },
+          {
+            "name": "videoComplementURL",
+            "flag": "method.AMPPHMediaObject.videoComplementURL",
+            "lang": "objc",
+            "addr": 4299770404
+          },
+          {
+            "name": "setVideoComplementURL:",
+            "flag": "method.AMPPHMediaObject.setVideoComplementURL:",
+            "lang": "objc",
+            "addr": 4299770412
+          },
+          {
+            "name": "creationDate",
+            "flag": "method.AMPPHMediaObject.creationDate",
+            "lang": "objc",
+            "addr": 4299770424
+          },
+          {
+            "name": "setCreationDate:",
+            "flag": "method.AMPPHMediaObject.setCreationDate:",
+            "lang": "objc",
+            "addr": 4299770432
+          },
+          {
+            "name": "modificationDate",
+            "flag": "method.AMPPHMediaObject.modificationDate",
+            "lang": "objc",
+            "addr": 4299770444
+          },
+          {
+            "name": "setModificationDate:",
+            "flag": "method.AMPPHMediaObject.setModificationDate:",
+            "lang": "objc",
+            "addr": 4299770452
+          },
+          {
+            "name": "isFavorite",
+            "flag": "method.AMPPHMediaObject.isFavorite",
+            "lang": "objc",
+            "addr": 4299770464
+          },
+          {
+            "name": "setIsFavorite:",
+            "flag": "method.AMPPHMediaObject.setIsFavorite:",
+            "lang": "objc",
+            "addr": 4299770472
+          },
+          {
+            "name": "isVideo",
+            "flag": "method.AMPPHMediaObject.isVideo",
+            "lang": "objc",
+            "addr": 4299770480
+          },
+          {
+            "name": "setIsVideo:",
+            "flag": "method.AMPPHMediaObject.setIsVideo:",
+            "lang": "objc",
+            "addr": 4299770488
+          },
+          {
+            "name": "isHighEfficiency",
+            "flag": "method.AMPPHMediaObject.isHighEfficiency",
+            "lang": "objc",
+            "addr": 4299770496
+          },
+          {
+            "name": "setIsHighEfficiency:",
+            "flag": "method.AMPPHMediaObject.setIsHighEfficiency:",
+            "lang": "objc",
+            "addr": 4299770504
+          },
+          {
+            "name": "latitude",
+            "flag": "method.AMPPHMediaObject.latitude",
+            "lang": "objc",
+            "addr": 4299770512
+          },
+          {
+            "name": "setLatitude:",
+            "flag": "method.AMPPHMediaObject.setLatitude:",
+            "lang": "objc",
+            "addr": 4299770520
+          },
+          {
+            "name": "longitude",
+            "flag": "method.AMPPHMediaObject.longitude",
+            "lang": "objc",
+            "addr": 4299770528
+          },
+          {
+            "name": "setLongitude:",
+            "flag": "method.AMPPHMediaObject.setLongitude:",
+            "lang": "objc",
+            "addr": 4299770536
+          },
+          {
+            "name": "userDescription",
+            "flag": "method.AMPPHMediaObject.userDescription",
+            "lang": "objc",
+            "addr": 4299770544
+          },
+          {
+            "name": "setUserDescription:",
+            "flag": "method.AMPPHMediaObject.setUserDescription:",
+            "lang": "objc",
+            "addr": 4299770552
+          },
+          {
+            "name": "fileSize",
+            "flag": "method.AMPPHMediaObject.fileSize",
+            "lang": "objc",
+            "addr": 4299770564
+          },
+          {
+            "name": "setFileSize:",
+            "flag": "method.AMPPHMediaObject.setFileSize:",
+            "lang": "objc",
+            "addr": 4299770572
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.AMPPHMediaObject..cxx_destruct",
+            "lang": "objc",
+            "addr": 4299770580
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_isFavorite",
+            "kind": "var",
+            "type": "B",
+            "addr": 4303734628
+          },
+          {
+            "name": "_isVideo",
+            "kind": "var",
+            "type": "B",
+            "addr": 4303734632
+          },
+          {
+            "name": "_isHighEfficiency",
+            "kind": "var",
+            "type": "B",
+            "addr": 4303734636
+          },
+          {
+            "name": "_identifier",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4303734640
+          },
+          {
+            "name": "_currentVersionURL",
+            "kind": "var",
+            "type": "@\"NSURL\"",
+            "addr": 4303734644
+          },
+          {
+            "name": "_originalURL",
+            "kind": "var",
+            "type": "@\"NSURL\"",
+            "addr": 4303734648
+          },
+          {
+            "name": "_thumbURL",
+            "kind": "var",
+            "type": "@\"NSURL\"",
+            "addr": 4303734652
+          },
+          {
+            "name": "_videoComplementURL",
+            "kind": "var",
+            "type": "@\"NSURL\"",
+            "addr": 4303734656
+          },
+          {
+            "name": "_creationDate",
+            "kind": "var",
+            "type": "@\"NSDate\"",
+            "addr": 4303734660
+          },
+          {
+            "name": "_modificationDate",
+            "kind": "var",
+            "type": "@\"NSDate\"",
+            "addr": 4303734664
+          },
+          {
+            "name": "_latitude",
+            "kind": "var",
+            "type": "d",
+            "addr": 4303734668
+          },
+          {
+            "name": "_longitude",
+            "kind": "var",
+            "type": "d",
+            "addr": 4303734672
+          },
+          {
+            "name": "_userDescription",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4303734676
+          },
+          {
+            "name": "_fileSize",
+            "kind": "var",
+            "type": "Q",
+            "addr": 4303734680
+          },
+          {
+            "name": "identifier",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "currentVersionURL",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "originalURL",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "thumbURL",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "videoComplementURL",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "creationDate",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "modificationDate",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "isFavorite",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "isVideo",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "isHighEfficiency",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "latitude",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "longitude",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "userDescription",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "fileSize",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "AMPPHMediaGroup",
+        "addr": 4303735488,
+        "lang": "objc",
+        "index": 16,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithName:uuid:mediaLibraryTypeIdentifier:",
+            "flag": "method.AMPPHMediaGroup.initWithName:uuid:mediaLibraryTypeIdentifier:",
+            "lang": "objc",
+            "addr": 4299770720
+          },
+          {
+            "name": "identifier",
+            "flag": "method.AMPPHMediaGroup.identifier",
+            "lang": "objc",
+            "addr": 4299771012
+          },
+          {
+            "name": "setIdentifier:",
+            "flag": "method.AMPPHMediaGroup.setIdentifier:",
+            "lang": "objc",
+            "addr": 4299771020
+          },
+          {
+            "name": "name",
+            "flag": "method.AMPPHMediaGroup.name",
+            "lang": "objc",
+            "addr": 4299771032
+          },
+          {
+            "name": "setName:",
+            "flag": "method.AMPPHMediaGroup.setName:",
+            "lang": "objc",
+            "addr": 4299771040
+          },
+          {
+            "name": "mediaLibraryTypeIdentifier",
+            "flag": "method.AMPPHMediaGroup.mediaLibraryTypeIdentifier",
+            "lang": "objc",
+            "addr": 4299771052
+          },
+          {
+            "name": "setMediaLibraryTypeIdentifier:",
+            "flag": "method.AMPPHMediaGroup.setMediaLibraryTypeIdentifier:",
+            "lang": "objc",
+            "addr": 4299771060
+          },
+          {
+            "name": "mediaObjects",
+            "flag": "method.AMPPHMediaGroup.mediaObjects",
+            "lang": "objc",
+            "addr": 4299771072
+          },
+          {
+            "name": "setMediaObjects:",
+            "flag": "method.AMPPHMediaGroup.setMediaObjects:",
+            "lang": "objc",
+            "addr": 4299771080
+          },
+          {
+            "name": "childGroups",
+            "flag": "method.AMPPHMediaGroup.childGroups",
+            "lang": "objc",
+            "addr": 4299771092
+          },
+          {
+            "name": "setChildGroups:",
+            "flag": "method.AMPPHMediaGroup.setChildGroups:",
+            "lang": "objc",
+            "addr": 4299771100
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.AMPPHMediaGroup..cxx_destruct",
+            "lang": "objc",
+            "addr": 4299771112
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_identifier",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4303734684
+          },
+          {
+            "name": "_name",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4303734688
+          },
+          {
+            "name": "_mediaLibraryTypeIdentifier",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4303734692
+          },
+          {
+            "name": "_mediaObjects",
+            "kind": "var",
+            "type": "@\"NSArray\"",
+            "addr": 4303734696
+          },
+          {
+            "name": "_childGroups",
+            "kind": "var",
+            "type": "@\"NSMutableArray\"",
+            "addr": 4303734700
+          },
+          {
+            "name": "identifier",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "name",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "mediaLibraryTypeIdentifier",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "mediaObjects",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "childGroups",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "AMPPhotoKitImporter",
+        "addr": 4303735528,
+        "lang": "objc",
+        "index": 17,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "photoLibraryDidChange:",
+            "flag": "func.100494d50",
+            "lang": "objc",
+            "addr": 4299771216
+          },
+          {
+            "name": "getFetchOptionsForFetchLimit:",
+            "flag": "method.AMPPhotoKitImporter.getFetchOptionsForFetchLimit:",
+            "lang": "objc",
+            "addr": 4299771244
+          },
+          {
+            "name": "loadMasterImageDictionary",
+            "flag": "method.AMPPhotoKitImporter.loadMasterImageDictionary",
+            "lang": "objc",
+            "addr": 4299771568
+          },
+          {
+            "name": "downloadPhotoAsset:",
+            "flag": "method.AMPPhotoKitImporter.downloadPhotoAsset:",
+            "lang": "objc",
+            "addr": 4299779812
+          },
+          {
+            "name": "resetCurrentVideoAssetExport",
+            "flag": "method.AMPPhotoKitImporter.resetCurrentVideoAssetExport",
+            "lang": "objc",
+            "addr": 4299780992
+          },
+          {
+            "name": "beginDownloadVideoAsset:withQuality:",
+            "flag": "method.AMPPhotoKitImporter.beginDownloadVideoAsset:withQuality:",
+            "lang": "objc",
+            "addr": 4299781056
+          },
+          {
+            "name": "getPersonDictionary",
+            "flag": "method.AMPPhotoKitImporter.getPersonDictionary",
+            "lang": "objc",
+            "addr": 4299785192
+          },
+          {
+            "name": "loadMediaObjectsFromAssetFetchResult:forGroup:",
+            "flag": "method.AMPPhotoKitImporter.loadMediaObjectsFromAssetFetchResult:forGroup:",
+            "lang": "objc",
+            "addr": 4299785752
+          },
+          {
+            "name": "createPeopleGroupAndAddTo:withFetchLimit:",
+            "flag": "method.AMPPhotoKitImporter.createPeopleGroupAndAddTo:withFetchLimit:",
+            "lang": "objc",
+            "addr": 4299786284
+          },
+          {
+            "name": "createRootMediaGroup",
+            "flag": "method.AMPPhotoKitImporter.createRootMediaGroup",
+            "lang": "objc",
+            "addr": 4299787588
+          },
+          {
+            "name": "createAMPPHMediaGroupFromPHAssetCollection:andAddTo:orAddTo:withFetchLimit:",
+            "flag": "method.AMPPhotoKitImporter.createAMPPHMediaGroupFromPHAssetCollection:andAddTo:orAddTo:withFetchLimit:",
+            "lang": "objc",
+            "addr": 4299787892
+          },
+          {
+            "name": "recursePHCollectionFetchResult:withParent:and:withFetchLimit:",
+            "flag": "method.AMPPhotoKitImporter.recursePHCollectionFetchResult:withParent:and:withFetchLimit:",
+            "lang": "objc",
+            "addr": 4299789028
+          },
+          {
+            "name": "recursePHCollectionList:withParent:and:withFetchLimit:",
+            "flag": "method.AMPPhotoKitImporter.recursePHCollectionList:withParent:and:withFetchLimit:",
+            "lang": "objc",
+            "addr": 4299789880
+          },
+          {
+            "name": "loadGroupsWithFetchLimit:",
+            "flag": "method.AMPPhotoKitImporter.loadGroupsWithFetchLimit:",
+            "lang": "objc",
+            "addr": 4299790184
+          },
+          {
+            "name": "photoLibrary",
+            "flag": "method.AMPPhotoKitImporter.photoLibrary",
+            "lang": "objc",
+            "addr": 4299791300
+          },
+          {
+            "name": "setPhotoLibrary:",
+            "flag": "method.AMPPhotoKitImporter.setPhotoLibrary:",
+            "lang": "objc",
+            "addr": 4299791308
+          },
+          {
+            "name": "assetUUIDToAssetDictionary",
+            "flag": "method.AMPPhotoKitImporter.assetUUIDToAssetDictionary",
+            "lang": "objc",
+            "addr": 4299791320
+          },
+          {
+            "name": "setAssetUUIDToAssetDictionary:",
+            "flag": "method.AMPPhotoKitImporter.setAssetUUIDToAssetDictionary:",
+            "lang": "objc",
+            "addr": 4299791328
+          },
+          {
+            "name": "masterImageDictionary",
+            "flag": "method.AMPPhotoKitImporter.masterImageDictionary",
+            "lang": "objc",
+            "addr": 4299791340
+          },
+          {
+            "name": "setMasterImageDictionary:",
+            "flag": "method.AMPPhotoKitImporter.setMasterImageDictionary:",
+            "lang": "objc",
+            "addr": 4299791348
+          },
+          {
+            "name": "rootMediaGroup",
+            "flag": "method.AMPPhotoKitImporter.rootMediaGroup",
+            "lang": "objc",
+            "addr": 4299791360
+          },
+          {
+            "name": "setRootMediaGroup:",
+            "flag": "method.AMPPhotoKitImporter.setRootMediaGroup:",
+            "lang": "objc",
+            "addr": 4299791368
+          },
+          {
+            "name": "currentAVAssetExportSession",
+            "flag": "method.AMPPhotoKitImporter.currentAVAssetExportSession",
+            "lang": "objc",
+            "addr": 4299791380
+          },
+          {
+            "name": "setCurrentAVAssetExportSession:",
+            "flag": "method.AMPPhotoKitImporter.setCurrentAVAssetExportSession:",
+            "lang": "objc",
+            "addr": 4299791388
+          },
+          {
+            "name": "currentPHImageRequestID",
+            "flag": "method.AMPPhotoKitImporter.currentPHImageRequestID",
+            "lang": "objc",
+            "addr": 4299791400
+          },
+          {
+            "name": "setCurrentPHImageRequestID:",
+            "flag": "method.AMPPhotoKitImporter.setCurrentPHImageRequestID:",
+            "lang": "objc",
+            "addr": 4299791408
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.AMPPhotoKitImporter..cxx_destruct",
+            "lang": "objc",
+            "addr": 4299791416
+          },
+          {
+            "name": "photoLibraryDidChange:",
+            "flag": "method.AMPPhotoKitImporter.photoLibraryDidChange:",
+            "lang": "objc",
+            "addr": 4301915736
+          },
+          {
+            "name": "photoLibraryDidChange:",
+            "flag": "method.AMPPhotoKitImporter.photoLibraryDidChange:",
+            "lang": "objc",
+            "addr": 4301915736
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_currentPHImageRequestID",
+            "kind": "var",
+            "type": "i",
+            "addr": 4303734704
+          },
+          {
+            "name": "_photoLibrary",
+            "kind": "var",
+            "type": "@\"PHPhotoLibrary\"",
+            "addr": 4303734708
+          },
+          {
+            "name": "_assetUUIDToAssetDictionary",
+            "kind": "var",
+            "type": "@\"NSMutableDictionary\"",
+            "addr": 4303734712
+          },
+          {
+            "name": "_masterImageDictionary",
+            "kind": "var",
+            "type": "@\"NSDictionary\"",
+            "addr": 4303734716
+          },
+          {
+            "name": "_rootMediaGroup",
+            "kind": "var",
+            "type": "@\"AMPPHMediaGroup\"",
+            "addr": 4303734720
+          },
+          {
+            "name": "_currentAVAssetExportSession",
+            "kind": "var",
+            "type": "@\"AVAssetExportSession\"",
+            "addr": 4303734724
+          },
+          {
+            "name": "photoLibrary",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "assetUUIDToAssetDictionary",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "masterImageDictionary",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "rootMediaGroup",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "currentAVAssetExportSession",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "currentPHImageRequestID",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "DevicesClientDelegate",
+        "addr": 4303735608,
+        "lang": "objc",
+        "index": 18,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "listener:shouldAcceptNewConnection:",
+            "flag": "method.DevicesClientDelegate.listener:shouldAcceptNewConnection:",
+            "lang": "objc",
+            "addr": 4300332628
+          }
+        ],
+        "fields": [
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "DevicesFrameworkDelegate",
+        "addr": 4303735688,
+        "lang": "objc",
+        "index": 19,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "listener:shouldAcceptNewConnection:",
+            "flag": "method.DevicesFrameworkDelegate.listener:shouldAcceptNewConnection:",
+            "lang": "objc",
+            "addr": 4300334288
+          }
+        ],
+        "fields": [
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "AMPDevicesAgentXPCServiceListener",
+        "addr": 4303735768,
+        "lang": "objc",
+        "index": 20,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "run",
+            "flag": "method.class.AMPDevicesAgentXPCServiceListener.run",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4300335272
+          },
+          {
+            "name": "stop",
+            "flag": "method.class.AMPDevicesAgentXPCServiceListener.stop",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4300335520
+          }
+        ]
+      },
+      {
+        "classname": "AMPDeviceProgress",
+        "addr": 4303735888,
+        "lang": "objc",
+        "index": 21,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.AMPDeviceProgress.init",
+            "lang": "objc",
+            "addr": 4301494776
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.AMPDeviceProgress.dealloc",
+            "lang": "objc",
+            "addr": 4301495260
+          },
+          {
+            "name": "cancel",
+            "flag": "method.AMPDeviceProgress.cancel",
+            "lang": "objc",
+            "addr": 4301495332
+          },
+          {
+            "name": "stop",
+            "flag": "method.AMPDeviceProgress.stop",
+            "lang": "objc",
+            "addr": 4301495344
+          },
+          {
+            "name": "addClientProgress:withReply:",
+            "flag": "method.AMPDeviceProgress.addClientProgress:withReply:",
+            "lang": "objc",
+            "addr": 4301495356
+          },
+          {
+            "name": "localizedAdditionalDescriptionWithSyncOperation",
+            "flag": "method.AMPDeviceProgress.localizedAdditionalDescriptionWithSyncOperation",
+            "lang": "objc",
+            "addr": 4301495616
+          },
+          {
+            "name": "shouldExportClientProgress:",
+            "flag": "method.AMPDeviceProgress.shouldExportClientProgress:",
+            "lang": "objc",
+            "addr": 4301495740
+          },
+          {
+            "name": "exportClientProgress:",
+            "flag": "method.AMPDeviceProgress.exportClientProgress:",
+            "lang": "objc",
+            "addr": 4301496440
+          },
+          {
+            "name": "exportAllClientProgress",
+            "flag": "method.AMPDeviceProgress.exportAllClientProgress",
+            "lang": "objc",
+            "addr": 4301496772
+          },
+          {
+            "name": "updateClientProgressWithTotalUnitCount:completedUnitCount:localizedDescription:",
+            "flag": "method.AMPDeviceProgress.updateClientProgressWithTotalUnitCount:completedUnitCount:localizedDescription:",
+            "lang": "objc",
+            "addr": 4301497084
+          },
+          {
+            "name": "updateClientProgressWithTotalUnitCount:completedUnitCount:localizedDescription:localizedAdditionalDescription:syncOperation:",
+            "flag": "method.AMPDeviceProgress.updateClientProgressWithTotalUnitCount:completedUnitCount:localizedDescription:localizedAdditionalDescription:syncOperation:",
+            "lang": "objc",
+            "addr": 4301497276
+          },
+          {
+            "name": "notifyClientReplyWithError:",
+            "flag": "method.AMPDeviceProgress.notifyClientReplyWithError:",
+            "lang": "objc",
+            "addr": 4301497536
+          },
+          {
+            "name": "totalUnitCount",
+            "flag": "method.AMPDeviceProgress.totalUnitCount",
+            "lang": "objc",
+            "addr": 4301497940
+          },
+          {
+            "name": "setTotalUnitCount:",
+            "flag": "method.AMPDeviceProgress.setTotalUnitCount:",
+            "lang": "objc",
+            "addr": 4301497948
+          },
+          {
+            "name": "completedUnitCount",
+            "flag": "method.AMPDeviceProgress.completedUnitCount",
+            "lang": "objc",
+            "addr": 4301497956
+          },
+          {
+            "name": "setCompletedUnitCount:",
+            "flag": "method.AMPDeviceProgress.setCompletedUnitCount:",
+            "lang": "objc",
+            "addr": 4301497964
+          },
+          {
+            "name": "syncOperation",
+            "flag": "method.AMPDeviceProgress.syncOperation",
+            "lang": "objc",
+            "addr": 4301497972
+          },
+          {
+            "name": "setSyncOperation:",
+            "flag": "method.AMPDeviceProgress.setSyncOperation:",
+            "lang": "objc",
+            "addr": 4301497980
+          },
+          {
+            "name": "localizedDescription",
+            "flag": "method.AMPDeviceProgress.localizedDescription",
+            "lang": "objc",
+            "addr": 4301497988
+          },
+          {
+            "name": "setLocalizedDescription:",
+            "flag": "method.AMPDeviceProgress.setLocalizedDescription:",
+            "lang": "objc",
+            "addr": 4301497996
+          },
+          {
+            "name": "localizedAdditionalDescription",
+            "flag": "method.AMPDeviceProgress.localizedAdditionalDescription",
+            "lang": "objc",
+            "addr": 4301498008
+          },
+          {
+            "name": "setLocalizedAdditionalDescription:",
+            "flag": "method.AMPDeviceProgress.setLocalizedAdditionalDescription:",
+            "lang": "objc",
+            "addr": 4301498016
+          },
+          {
+            "name": "isCancelled",
+            "flag": "method.AMPDeviceProgress.isCancelled",
+            "lang": "objc",
+            "addr": 4301498028
+          },
+          {
+            "name": "setCancelled:",
+            "flag": "method.AMPDeviceProgress.setCancelled:",
+            "lang": "objc",
+            "addr": 4301498036
+          },
+          {
+            "name": "isStopped",
+            "flag": "method.AMPDeviceProgress.isStopped",
+            "lang": "objc",
+            "addr": 4301498044
+          },
+          {
+            "name": "setStopped:",
+            "flag": "method.AMPDeviceProgress.setStopped:",
+            "lang": "objc",
+            "addr": 4301498052
+          },
+          {
+            "name": "progressInfo",
+            "flag": "method.AMPDeviceProgress.progressInfo",
+            "lang": "objc",
+            "addr": 4301498060
+          },
+          {
+            "name": "clientProgressSet",
+            "flag": "method.AMPDeviceProgress.clientProgressSet",
+            "lang": "objc",
+            "addr": 4301498088
+          },
+          {
+            "name": "setClientProgressSet:",
+            "flag": "method.AMPDeviceProgress.setClientProgressSet:",
+            "lang": "objc",
+            "addr": 4301498096
+          },
+          {
+            "name": "clientReplySet",
+            "flag": "method.AMPDeviceProgress.clientReplySet",
+            "lang": "objc",
+            "addr": 4301498108
+          },
+          {
+            "name": "setClientReplySet:",
+            "flag": "method.AMPDeviceProgress.setClientReplySet:",
+            "lang": "objc",
+            "addr": 4301498116
+          },
+          {
+            "name": "operationCount",
+            "flag": "method.AMPDeviceProgress.operationCount",
+            "lang": "objc",
+            "addr": 4301498128
+          },
+          {
+            "name": "setOperationCount:",
+            "flag": "method.AMPDeviceProgress.setOperationCount:",
+            "lang": "objc",
+            "addr": 4301498136
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.AMPDeviceProgress..cxx_destruct",
+            "lang": "objc",
+            "addr": 4301498144
+          },
+          {
+            "name": ".cxx_construct",
+            "flag": "method.AMPDeviceProgress..cxx_construct",
+            "lang": "objc",
+            "addr": 4301498248
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_cancelled",
+            "kind": "var",
+            "type": "B",
+            "addr": 4303734728
+          },
+          {
+            "name": "_stopped",
+            "kind": "var",
+            "type": "B",
+            "addr": 4303734732
+          },
+          {
+            "name": "_syncOperation",
+            "kind": "var",
+            "type": "I",
+            "addr": 4303734736
+          },
+          {
+            "name": "_totalUnitCount",
+            "kind": "var",
+            "type": "q",
+            "addr": 4303734740
+          },
+          {
+            "name": "_completedUnitCount",
+            "kind": "var",
+            "type": "q",
+            "addr": 4303734744
+          },
+          {
+            "name": "_localizedDescription",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4303734748
+          },
+          {
+            "name": "_localizedAdditionalDescription",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4303734752
+          },
+          {
+            "name": "_clientProgressSet",
+            "kind": "var",
+            "type": "@\"NSMutableSet\"",
+            "addr": 4303734756
+          },
+          {
+            "name": "_clientReplySet",
+            "kind": "var",
+            "type": "@\"NSMutableSet\"",
+            "addr": 4303734760
+          },
+          {
+            "name": "_operationCount",
+            "kind": "var",
+            "type": "Q",
+            "addr": 4303734764
+          },
+          {
+            "name": "_progressInfo",
+            "kind": "var",
+            "type": "{shared_ptr<ProgressInfo>=\"__ptr_\"^{ProgressInfo}\"__cntrl_\"^{__shared_weak_count}}",
+            "addr": 4303734768
+          },
+          {
+            "name": "totalUnitCount",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "completedUnitCount",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "syncOperation",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "localizedDescription",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "localizedAdditionalDescription",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "cancelled",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "stopped",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "progressInfo",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "clientProgressSet",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "clientReplySet",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "operationCount",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "AMPDeviceProgressMap",
+        "addr": 4303735968,
+        "lang": "objc",
+        "index": 22,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.AMPDeviceProgressMap.init",
+            "lang": "objc",
+            "addr": 4301498256
+          },
+          {
+            "name": "progressForObjectID:",
+            "flag": "method.AMPDeviceProgressMap.progressForObjectID:",
+            "lang": "objc",
+            "addr": 4301498388
+          },
+          {
+            "name": "progressInfoForObjectID:",
+            "flag": "method.AMPDeviceProgressMap.progressInfoForObjectID:",
+            "lang": "objc",
+            "addr": 4301498588
+          },
+          {
+            "name": "addClientProgress:withReply:forObjectID:",
+            "flag": "method.AMPDeviceProgressMap.addClientProgress:withReply:forObjectID:",
+            "lang": "objc",
+            "addr": 4301498700
+          },
+          {
+            "name": "addChildOperationForObjectID:",
+            "flag": "method.AMPDeviceProgressMap.addChildOperationForObjectID:",
+            "lang": "objc",
+            "addr": 4301498892
+          },
+          {
+            "name": "updateProgressForObjectID:totalUnitCount:completedUnitCount:localizedDescription:localizedAdditionalDescription:syncOperation:",
+            "flag": "method.AMPDeviceProgressMap.updateProgressForObjectID:totalUnitCount:completedUnitCount:localizedDescription:localizedAdditionalDescription:syncOperation:",
+            "lang": "objc",
+            "addr": 4301499248
+          },
+          {
+            "name": "cancelProgressForObjectID:",
+            "flag": "method.AMPDeviceProgressMap.cancelProgressForObjectID:",
+            "lang": "objc",
+            "addr": 4301499536
+          },
+          {
+            "name": "isProgressCancelledForObjectID:",
+            "flag": "method.AMPDeviceProgressMap.isProgressCancelledForObjectID:",
+            "lang": "objc",
+            "addr": 4301499696
+          },
+          {
+            "name": "stopProgressForObjectID:",
+            "flag": "method.AMPDeviceProgressMap.stopProgressForObjectID:",
+            "lang": "objc",
+            "addr": 4301499852
+          },
+          {
+            "name": "isProgressStoppedForObjectID:",
+            "flag": "method.AMPDeviceProgressMap.isProgressStoppedForObjectID:",
+            "lang": "objc",
+            "addr": 4301500012
+          },
+          {
+            "name": "completeOperationAndNotifyClientReplyForObjectIDOnOperationsComplete:withError:",
+            "flag": "method.AMPDeviceProgressMap.completeOperationAndNotifyClientReplyForObjectIDOnOperationsComplete:withError:",
+            "lang": "objc",
+            "addr": 4301500168
+          },
+          {
+            "name": "progressMap",
+            "flag": "method.AMPDeviceProgressMap.progressMap",
+            "lang": "objc",
+            "addr": 4301500620
+          },
+          {
+            "name": "setProgressMap:",
+            "flag": "method.AMPDeviceProgressMap.setProgressMap:",
+            "lang": "objc",
+            "addr": 4301500628
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.AMPDeviceProgressMap..cxx_destruct",
+            "lang": "objc",
+            "addr": 4301500640
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_progressMap",
+            "kind": "var",
+            "type": "@\"NSMutableDictionary\"",
+            "addr": 4303734772
+          },
+          {
+            "name": "progressMap",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "AMPDevicesClientConnection",
+        "addr": 4303736088,
+        "lang": "objc",
+        "index": 23,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.AMPDevicesClientConnection.init",
+            "lang": "objc",
+            "addr": 4301500652
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.AMPDevicesClientConnection.dealloc",
+            "lang": "objc",
+            "addr": 4301500776
+          },
+          {
+            "name": "objectIDForDevice:onlyBootedOSMode:onlySetupComplete:",
+            "flag": "method.AMPDevicesClientConnection.objectIDForDevice:onlyBootedOSMode:onlySetupComplete:",
+            "lang": "objc",
+            "addr": 4301509772
+          },
+          {
+            "name": "objectIDForBootedOSDevice:",
+            "flag": "method.AMPDevicesClientConnection.objectIDForBootedOSDevice:",
+            "lang": "objc",
+            "addr": 4301510260
+          },
+          {
+            "name": "objectIDForRestorableDevice:",
+            "flag": "method.AMPDevicesClientConnection.objectIDForRestorableDevice:",
+            "lang": "objc",
+            "addr": 4301510272
+          },
+          {
+            "name": "performBlock:",
+            "flag": "method.AMPDevicesClientConnection.performBlock:",
+            "lang": "objc",
+            "addr": 4301510284
+          },
+          {
+            "name": "performBlockOnMainThreadAsync:",
+            "flag": "method.AMPDevicesClientConnection.performBlockOnMainThreadAsync:",
+            "lang": "objc",
+            "addr": 4301510300
+          },
+          {
+            "name": "enqueueRequestBlock:forDevice:withTimeout:withTimeoutBlock:",
+            "flag": "method.AMPDevicesClientConnection.enqueueRequestBlock:forDevice:withTimeout:withTimeoutBlock:",
+            "lang": "objc",
+            "addr": 4301510420
+          },
+          {
+            "name": "processRequestBlockOnMainThread:forDevice:onlyBootedOSMode:waitForDevice:withTimeoutBlock:",
+            "flag": "method.AMPDevicesClientConnection.processRequestBlockOnMainThread:forDevice:onlyBootedOSMode:waitForDevice:withTimeoutBlock:",
+            "lang": "objc",
+            "addr": 4301512132
+          },
+          {
+            "name": "processRequestBlocksForObjectID:",
+            "flag": "method.AMPDevicesClientConnection.processRequestBlocksForObjectID:",
+            "lang": "objc",
+            "addr": 4301513344
+          },
+          {
+            "name": "shouldPairWithDevice:withReply:",
+            "flag": "func.10063e4b0",
+            "lang": "objc",
+            "addr": 4301513904
+          },
+          {
+            "name": "fetchSetupInfoForDevice:withReply:",
+            "flag": "func.10063e800",
+            "lang": "objc",
+            "addr": 4301514752
+          },
+          {
+            "name": "completeSetupForDevice:didAcceptLicenseAgreement:didAcceptWarrantyInfo:withReply:",
+            "flag": "func.10063ee0c",
+            "lang": "objc",
+            "addr": 4301516300
+          },
+          {
+            "name": "fetchSettingsForDevice:withReply:",
+            "flag": "func.10063f2c0",
+            "lang": "objc",
+            "addr": 4301517504
+          },
+          {
+            "name": "setSyncPrefs:forDevice:withReply:",
+            "flag": "func.10063fa20",
+            "lang": "objc",
+            "addr": 4301519392
+          },
+          {
+            "name": "fetchAccessibilityPrefsForDevice:withReply:",
+            "flag": "func.10063ff30",
+            "lang": "objc",
+            "addr": 4301520688
+          },
+          {
+            "name": "setAccessibilityPrefs:forDevice:withReply:",
+            "flag": "func.1006406c0",
+            "lang": "objc",
+            "addr": 4301522624
+          },
+          {
+            "name": "fetchTotalsForDevice:withReply:",
+            "flag": "func.1006416dc",
+            "lang": "objc",
+            "addr": 4301526748
+          },
+          {
+            "name": "fetchStateFlagsForDevice:withReply:",
+            "flag": "func.100641bc8",
+            "lang": "objc",
+            "addr": 4301528008
+          },
+          {
+            "name": "isSyncAllowedForDevice:withReply:",
+            "flag": "func.100642018",
+            "lang": "objc",
+            "addr": 4301529112
+          },
+          {
+            "name": "isSyncInProgressForDevice:withReply:",
+            "flag": "func.100642388",
+            "lang": "objc",
+            "addr": 4301529992
+          },
+          {
+            "name": "startSyncForDevice:withOptions:withReply:",
+            "flag": "func.10064270c",
+            "lang": "objc",
+            "addr": 4301530892
+          },
+          {
+            "name": "registerForSyncProgressForDevice:withReply:",
+            "flag": "func.100642cb0",
+            "lang": "objc",
+            "addr": 4301532336
+          },
+          {
+            "name": "stopSyncForDevice:withReply:",
+            "flag": "func.100643254",
+            "lang": "objc",
+            "addr": 4301533780
+          },
+          {
+            "name": "skipSyncOperation:forDevice:withReply:",
+            "flag": "func.10064369c",
+            "lang": "objc",
+            "addr": 4301534876
+          },
+          {
+            "name": "checkForSyncWhenConnectedForDevice:withReply:",
+            "flag": "func.100643b1c",
+            "lang": "objc",
+            "addr": 4301536028
+          },
+          {
+            "name": "fetchAutoFillPrefsForDevice:withReply:",
+            "flag": "func.100643e38",
+            "lang": "objc",
+            "addr": 4301536824
+          },
+          {
+            "name": "setAutoFillPrefs:forDevice:withReply:",
+            "flag": "func.1006442a4",
+            "lang": "objc",
+            "addr": 4301537956
+          },
+          {
+            "name": "autoFillMusicForDevice:withReply:",
+            "flag": "func.1006446fc",
+            "lang": "objc",
+            "addr": 4301539068
+          },
+          {
+            "name": "canAcceptObjects:forDevice:withReply:",
+            "flag": "func.100644aa0",
+            "lang": "objc",
+            "addr": 4301540000
+          },
+          {
+            "name": "canAcceptFiles:forDevice:withReply:",
+            "flag": "func.100645940",
+            "lang": "objc",
+            "addr": 4301543744
+          },
+          {
+            "name": "copyObjects:toDevice:withReply:",
+            "flag": "func.100645cfc",
+            "lang": "objc",
+            "addr": 4301544700
+          },
+          {
+            "name": "copyFiles:toDevice:withReply:",
+            "flag": "func.1006461f8",
+            "lang": "objc",
+            "addr": 4301545976
+          },
+          {
+            "name": "deleteObjects:fromDevice:withReply:",
+            "flag": "func.1006466d8",
+            "lang": "objc",
+            "addr": 4301547224
+          },
+          {
+            "name": "hasSyncErrorsForDevice:withReply:",
+            "flag": "func.100646bd4",
+            "lang": "objc",
+            "addr": 4301548500
+          },
+          {
+            "name": "fetchSyncErrorsForDevice:withReply:",
+            "flag": "func.100646f64",
+            "lang": "objc",
+            "addr": 4301549412
+          },
+          {
+            "name": "fetchBackupInfoForDevice:withReply:",
+            "flag": "func.10064740c",
+            "lang": "objc",
+            "addr": 4301550604
+          },
+          {
+            "name": "fetchBackupsForDevice:includingIncompatibleBackups:includingAllCompatibleBackups:withReply:",
+            "flag": "func.100647824",
+            "lang": "objc",
+            "addr": 4301551652
+          },
+          {
+            "name": "fetchAllBackupsWithReply:",
+            "flag": "func.100647dac",
+            "lang": "objc",
+            "addr": 4301553068
+          },
+          {
+            "name": "changeBackupPasswordForDevice:oldPassword:newPassword:withReply:",
+            "flag": "func.1006481a0",
+            "lang": "objc",
+            "addr": 4301554080
+          },
+          {
+            "name": "fetchBackupPasswordFromKeychainForDevice:withReply:",
+            "flag": "func.100648704",
+            "lang": "objc",
+            "addr": 4301555460
+          },
+          {
+            "name": "fetchPasswordFromKeychainForBackup:withReply:",
+            "flag": "func.100648bac",
+            "lang": "objc",
+            "addr": 4301556652
+          },
+          {
+            "name": "setKeychainBackupPassword:forDevice:withReply:",
+            "flag": "func.10064906c",
+            "lang": "objc",
+            "addr": 4301557868
+          },
+          {
+            "name": "isBackupInProgressForDevice:withReply:",
+            "flag": "func.100649588",
+            "lang": "objc",
+            "addr": 4301559176
+          },
+          {
+            "name": "backupDevice:withReply:",
+            "flag": "func.1006498e8",
+            "lang": "objc",
+            "addr": 4301560040
+          },
+          {
+            "name": "cancelBackupForDevice:withReply:",
+            "flag": "func.100649e2c",
+            "lang": "objc",
+            "addr": 4301561388
+          },
+          {
+            "name": "isEraseInProgressForDevice:withReply:",
+            "flag": "func.10064a184",
+            "lang": "objc",
+            "addr": 4301562244
+          },
+          {
+            "name": "isRestoreFromBackupInProgressForDevice:withReply:",
+            "flag": "func.10064a4e4",
+            "lang": "objc",
+            "addr": 4301563108
+          },
+          {
+            "name": "restoreDevice:fromBackup:withPassword:setPasswordInKeychain:eraseDevice:withReply:",
+            "flag": "func.10064a844",
+            "lang": "objc",
+            "addr": 4301563972
+          },
+          {
+            "name": "completeRestoreFromBackupForDevice:withReply:",
+            "flag": "func.10064aecc",
+            "lang": "objc",
+            "addr": 4301565644
+          },
+          {
+            "name": "registerForBackupProgressForDevice:withReply:",
+            "flag": "func.10064b410",
+            "lang": "objc",
+            "addr": 4301566992
+          },
+          {
+            "name": "registerForSoftwareDownloadProgressForDevice:withReply:",
+            "flag": "func.10064b938",
+            "lang": "objc",
+            "addr": 4301568312
+          },
+          {
+            "name": "registerForEraseProgressForDevice:withReply:",
+            "flag": "func.10064be68",
+            "lang": "objc",
+            "addr": 4301569640
+          },
+          {
+            "name": "registerForRestoreProgressForDevice:withReply:",
+            "flag": "func.10064c390",
+            "lang": "objc",
+            "addr": 4301570960
+          },
+          {
+            "name": "archiveBackup:withReply:",
+            "flag": "func.10064c8b8",
+            "lang": "objc",
+            "addr": 4301572280
+          },
+          {
+            "name": "deleteBackup:withReply:",
+            "flag": "func.10064cd18",
+            "lang": "objc",
+            "addr": 4301573400
+          },
+          {
+            "name": "fetchActivationStateForDevice:withReply:",
+            "flag": "func.10064d188",
+            "lang": "objc",
+            "addr": 4301574536
+          },
+          {
+            "name": "fetchActivationInfoForDevice:withReply:",
+            "flag": "func.10064d64c",
+            "lang": "objc",
+            "addr": 4301575756
+          },
+          {
+            "name": "completeActivationForDevice:withInfo:withData:withHeaders:withReply:",
+            "flag": "func.10064dae0",
+            "lang": "objc",
+            "addr": 4301576928
+          },
+          {
+            "name": "fetchSoftwareInfoForDevice:withReply:",
+            "flag": "func.10064e100",
+            "lang": "objc",
+            "addr": 4301578496
+          },
+          {
+            "name": "checkForSoftwareUpdatesForDevice:withOptions:withReply:",
+            "flag": "func.10064ed08",
+            "lang": "objc",
+            "addr": 4301581576
+          },
+          {
+            "name": "startSoftwareUpdateForDevice:withOptions:withReply:",
+            "flag": "func.10064f32c",
+            "lang": "objc",
+            "addr": 4301583148
+          },
+          {
+            "name": "startSoftwareRestoreForDevice:withOptions:withReply:",
+            "flag": "func.10064f934",
+            "lang": "objc",
+            "addr": 4301584692
+          },
+          {
+            "name": "isSoftwareUpdateOrRestoreInProgressForDevice:withReply:",
+            "flag": "func.10064ff20",
+            "lang": "objc",
+            "addr": 4301586208
+          },
+          {
+            "name": "registerForSoftwareUpdateRestoreProgressForDevice:withReply:",
+            "flag": "func.100650284",
+            "lang": "objc",
+            "addr": 4301587076
+          },
+          {
+            "name": "registerForSoftwareUpdateCheckProgressForDevice:withReply:",
+            "flag": "func.100650678",
+            "lang": "objc",
+            "addr": 4301588088
+          },
+          {
+            "name": "fetchDeviceIdentifiersWithReply:",
+            "flag": "func.1006509f8",
+            "lang": "objc",
+            "addr": 4301588984
+          },
+          {
+            "name": "fetchBatteryInfoForDevice:withReply:",
+            "flag": "func.100650d70",
+            "lang": "objc",
+            "addr": 4301589872
+          },
+          {
+            "name": "setName:forDevice:withReply:",
+            "flag": "func.10065123c",
+            "lang": "objc",
+            "addr": 4301591100
+          },
+          {
+            "name": "resetWarningsForDevice:withReply:",
+            "flag": "func.1006517ec",
+            "lang": "objc",
+            "addr": 4301592556
+          },
+          {
+            "name": "revealDeviceInFinder:withReply:",
+            "flag": "func.100651c78",
+            "lang": "objc",
+            "addr": 4301593720
+          },
+          {
+            "name": "ejectDevice:withReply:",
+            "flag": "func.1006520ac",
+            "lang": "objc",
+            "addr": 4301594796
+          },
+          {
+            "name": "fetchFileSharingAppsForDevice:withReply:",
+            "flag": "func.10065257c",
+            "lang": "objc",
+            "addr": 4301596028
+          },
+          {
+            "name": "fetchFileSharingItemsForApp:forDevice:withReply:",
+            "flag": "func.100652ed4",
+            "lang": "objc",
+            "addr": 4301598420
+          },
+          {
+            "name": "fetchFileSharingItemsForApp:forDevice:fromFolder:",
+            "flag": "method.AMPDevicesClientConnection.fetchFileSharingItemsForApp:forDevice:fromFolder:",
+            "lang": "objc",
+            "addr": 4301601308
+          },
+          {
+            "name": "copyItemAtURL:toURL:withReply:",
+            "flag": "func.100653e78",
+            "lang": "objc",
+            "addr": 4301602424
+          },
+          {
+            "name": "moveItemAtURL:toURL:withReply:",
+            "flag": "func.100654884",
+            "lang": "objc",
+            "addr": 4301604996
+          },
+          {
+            "name": "renameItemAtURL:to:withReply:",
+            "flag": "func.100654a64",
+            "lang": "objc",
+            "addr": 4301605476
+          },
+          {
+            "name": "deleteItemAtURL:withReply:",
+            "flag": "func.100654e54",
+            "lang": "objc",
+            "addr": 4301606484
+          },
+          {
+            "name": "attributesForItemAtURL:withReply:",
+            "flag": "func.1006551c8",
+            "lang": "objc",
+            "addr": 4301607368
+          },
+          {
+            "name": "allowsUI",
+            "flag": "method.AMPDevicesClientConnection.allowsUI",
+            "lang": "objc",
+            "addr": 4301611196
+          },
+          {
+            "name": "setAllowsUI:",
+            "flag": "method.AMPDevicesClientConnection.setAllowsUI:",
+            "lang": "objc",
+            "addr": 4301611204
+          },
+          {
+            "name": "clientID",
+            "flag": "method.AMPDevicesClientConnection.clientID",
+            "lang": "objc",
+            "addr": 4301611212
+          },
+          {
+            "name": "setClientID:",
+            "flag": "method.AMPDevicesClientConnection.setClientID:",
+            "lang": "objc",
+            "addr": 4301611220
+          },
+          {
+            "name": "processID",
+            "flag": "method.AMPDevicesClientConnection.processID",
+            "lang": "objc",
+            "addr": 4301611228
+          },
+          {
+            "name": "setProcessID:",
+            "flag": "method.AMPDevicesClientConnection.setProcessID:",
+            "lang": "objc",
+            "addr": 4301611236
+          },
+          {
+            "name": "processName",
+            "flag": "method.AMPDevicesClientConnection.processName",
+            "lang": "objc",
+            "addr": 4301611244
+          },
+          {
+            "name": "setProcessName:",
+            "flag": "method.AMPDevicesClientConnection.setProcessName:",
+            "lang": "objc",
+            "addr": 4301611252
+          },
+          {
+            "name": "pendingRequestQueue",
+            "flag": "method.AMPDevicesClientConnection.pendingRequestQueue",
+            "lang": "objc",
+            "addr": 4301611264
+          },
+          {
+            "name": "setPendingRequestQueue:",
+            "flag": "method.AMPDevicesClientConnection.setPendingRequestQueue:",
+            "lang": "objc",
+            "addr": 4301611272
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.AMPDevicesClientConnection..cxx_destruct",
+            "lang": "objc",
+            "addr": 4301611280
+          },
+          {
+            "name": "shouldPairWithDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.shouldPairWithDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913456
+          },
+          {
+            "name": "fetchSetupInfoForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.fetchSetupInfoForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913468
+          },
+          {
+            "name": "completeSetupForDevice:didAcceptLicenseAgreement:didAcceptWarrantyInfo:withReply:",
+            "flag": "method.AMPDevicesClientConnection.completeSetupForDevice:didAcceptLicenseAgreement:didAcceptWarrantyInfo:withReply:",
+            "lang": "objc",
+            "addr": 4301913480
+          },
+          {
+            "name": "fetchSettingsForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.fetchSettingsForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913492
+          },
+          {
+            "name": "setSyncPrefs:forDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.setSyncPrefs:forDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913504
+          },
+          {
+            "name": "fetchAccessibilityPrefsForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.fetchAccessibilityPrefsForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913516
+          },
+          {
+            "name": "setAccessibilityPrefs:forDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.setAccessibilityPrefs:forDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913528
+          },
+          {
+            "name": "fetchTotalsForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.fetchTotalsForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913540
+          },
+          {
+            "name": "fetchStateFlagsForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.fetchStateFlagsForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913552
+          },
+          {
+            "name": "isSyncAllowedForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.isSyncAllowedForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913564
+          },
+          {
+            "name": "isSyncInProgressForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.isSyncInProgressForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913576
+          },
+          {
+            "name": "startSyncForDevice:withOptions:withReply:",
+            "flag": "method.AMPDevicesClientConnection.startSyncForDevice:withOptions:withReply:",
+            "lang": "objc",
+            "addr": 4301913588
+          },
+          {
+            "name": "registerForSyncProgressForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.registerForSyncProgressForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913600
+          },
+          {
+            "name": "stopSyncForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.stopSyncForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913612
+          },
+          {
+            "name": "skipSyncOperation:forDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.skipSyncOperation:forDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913624
+          },
+          {
+            "name": "checkForSyncWhenConnectedForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.checkForSyncWhenConnectedForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913636
+          },
+          {
+            "name": "fetchAutoFillPrefsForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.fetchAutoFillPrefsForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913648
+          },
+          {
+            "name": "setAutoFillPrefs:forDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.setAutoFillPrefs:forDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913660
+          },
+          {
+            "name": "autoFillMusicForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.autoFillMusicForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913672
+          },
+          {
+            "name": "canAcceptObjects:forDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.canAcceptObjects:forDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913684
+          },
+          {
+            "name": "canAcceptFiles:forDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.canAcceptFiles:forDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913696
+          },
+          {
+            "name": "copyObjects:toDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.copyObjects:toDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913708
+          },
+          {
+            "name": "copyFiles:toDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.copyFiles:toDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913720
+          },
+          {
+            "name": "deleteObjects:fromDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.deleteObjects:fromDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913732
+          },
+          {
+            "name": "hasSyncErrorsForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.hasSyncErrorsForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913744
+          },
+          {
+            "name": "fetchSyncErrorsForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.fetchSyncErrorsForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913756
+          },
+          {
+            "name": "fetchBackupInfoForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.fetchBackupInfoForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913768
+          },
+          {
+            "name": "fetchBackupsForDevice:includingIncompatibleBackups:includingAllCompatibleBackups:withReply:",
+            "flag": "method.AMPDevicesClientConnection.fetchBackupsForDevice:includingIncompatibleBackups:includingAllCompatibleBackups:withReply:",
+            "lang": "objc",
+            "addr": 4301913780
+          },
+          {
+            "name": "fetchAllBackupsWithReply:",
+            "flag": "method.AMPDevicesClientConnection.fetchAllBackupsWithReply:",
+            "lang": "objc",
+            "addr": 4301913792
+          },
+          {
+            "name": "changeBackupPasswordForDevice:oldPassword:newPassword:withReply:",
+            "flag": "method.AMPDevicesClientConnection.changeBackupPasswordForDevice:oldPassword:newPassword:withReply:",
+            "lang": "objc",
+            "addr": 4301913804
+          },
+          {
+            "name": "fetchBackupPasswordFromKeychainForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.fetchBackupPasswordFromKeychainForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913816
+          },
+          {
+            "name": "fetchPasswordFromKeychainForBackup:withReply:",
+            "flag": "method.AMPDevicesClientConnection.fetchPasswordFromKeychainForBackup:withReply:",
+            "lang": "objc",
+            "addr": 4301913828
+          },
+          {
+            "name": "setKeychainBackupPassword:forDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.setKeychainBackupPassword:forDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913840
+          },
+          {
+            "name": "isBackupInProgressForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.isBackupInProgressForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913852
+          },
+          {
+            "name": "backupDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.backupDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913864
+          },
+          {
+            "name": "cancelBackupForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.cancelBackupForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913876
+          },
+          {
+            "name": "isEraseInProgressForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.isEraseInProgressForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913888
+          },
+          {
+            "name": "isRestoreFromBackupInProgressForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.isRestoreFromBackupInProgressForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913900
+          },
+          {
+            "name": "restoreDevice:fromBackup:withPassword:setPasswordInKeychain:eraseDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.restoreDevice:fromBackup:withPassword:setPasswordInKeychain:eraseDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913912
+          },
+          {
+            "name": "completeRestoreFromBackupForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.completeRestoreFromBackupForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913924
+          },
+          {
+            "name": "registerForBackupProgressForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.registerForBackupProgressForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913936
+          },
+          {
+            "name": "registerForEraseProgressForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.registerForEraseProgressForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913948
+          },
+          {
+            "name": "registerForRestoreProgressForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.registerForRestoreProgressForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913960
+          },
+          {
+            "name": "archiveBackup:withReply:",
+            "flag": "method.AMPDevicesClientConnection.archiveBackup:withReply:",
+            "lang": "objc",
+            "addr": 4301913972
+          },
+          {
+            "name": "deleteBackup:withReply:",
+            "flag": "method.AMPDevicesClientConnection.deleteBackup:withReply:",
+            "lang": "objc",
+            "addr": 4301913984
+          },
+          {
+            "name": "fetchActivationStateForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.fetchActivationStateForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913996
+          },
+          {
+            "name": "fetchActivationInfoForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.fetchActivationInfoForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301914008
+          },
+          {
+            "name": "completeActivationForDevice:withInfo:withData:withHeaders:withReply:",
+            "flag": "method.AMPDevicesClientConnection.completeActivationForDevice:withInfo:withData:withHeaders:withReply:",
+            "lang": "objc",
+            "addr": 4301914020
+          },
+          {
+            "name": "fetchSoftwareInfoForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.fetchSoftwareInfoForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301914032
+          },
+          {
+            "name": "checkForSoftwareUpdatesForDevice:withOptions:withReply:",
+            "flag": "method.AMPDevicesClientConnection.checkForSoftwareUpdatesForDevice:withOptions:withReply:",
+            "lang": "objc",
+            "addr": 4301914044
+          },
+          {
+            "name": "startSoftwareUpdateForDevice:withOptions:withReply:",
+            "flag": "method.AMPDevicesClientConnection.startSoftwareUpdateForDevice:withOptions:withReply:",
+            "lang": "objc",
+            "addr": 4301914056
+          },
+          {
+            "name": "startSoftwareRestoreForDevice:withOptions:withReply:",
+            "flag": "method.AMPDevicesClientConnection.startSoftwareRestoreForDevice:withOptions:withReply:",
+            "lang": "objc",
+            "addr": 4301914068
+          },
+          {
+            "name": "isSoftwareUpdateOrRestoreInProgressForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.isSoftwareUpdateOrRestoreInProgressForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301914080
+          },
+          {
+            "name": "registerForSoftwareUpdateRestoreProgressForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.registerForSoftwareUpdateRestoreProgressForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301914092
+          },
+          {
+            "name": "registerForSoftwareDownloadProgressForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.registerForSoftwareDownloadProgressForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301914104
+          },
+          {
+            "name": "registerForSoftwareUpdateCheckProgressForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.registerForSoftwareUpdateCheckProgressForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301914116
+          },
+          {
+            "name": "fetchDeviceIdentifiersWithReply:",
+            "flag": "method.AMPDevicesClientConnection.fetchDeviceIdentifiersWithReply:",
+            "lang": "objc",
+            "addr": 4301914128
+          },
+          {
+            "name": "fetchBatteryInfoForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.fetchBatteryInfoForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301914140
+          },
+          {
+            "name": "setName:forDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.setName:forDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301914152
+          },
+          {
+            "name": "resetWarningsForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.resetWarningsForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301914164
+          },
+          {
+            "name": "revealDeviceInFinder:withReply:",
+            "flag": "method.AMPDevicesClientConnection.revealDeviceInFinder:withReply:",
+            "lang": "objc",
+            "addr": 4301914176
+          },
+          {
+            "name": "ejectDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.ejectDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301914188
+          },
+          {
+            "name": "fetchFileSharingAppsForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.fetchFileSharingAppsForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301914200
+          },
+          {
+            "name": "fetchFileSharingItemsForApp:forDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.fetchFileSharingItemsForApp:forDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301914212
+          },
+          {
+            "name": "copyItemAtURL:toURL:withReply:",
+            "flag": "method.AMPDevicesClientConnection.copyItemAtURL:toURL:withReply:",
+            "lang": "objc",
+            "addr": 4301914224
+          },
+          {
+            "name": "moveItemAtURL:toURL:withReply:",
+            "flag": "method.AMPDevicesClientConnection.moveItemAtURL:toURL:withReply:",
+            "lang": "objc",
+            "addr": 4301914236
+          },
+          {
+            "name": "renameItemAtURL:to:withReply:",
+            "flag": "method.AMPDevicesClientConnection.renameItemAtURL:to:withReply:",
+            "lang": "objc",
+            "addr": 4301914248
+          },
+          {
+            "name": "deleteItemAtURL:withReply:",
+            "flag": "method.AMPDevicesClientConnection.deleteItemAtURL:withReply:",
+            "lang": "objc",
+            "addr": 4301914260
+          },
+          {
+            "name": "attributesForItemAtURL:withReply:",
+            "flag": "method.AMPDevicesClientConnection.attributesForItemAtURL:withReply:",
+            "lang": "objc",
+            "addr": 4301914272
+          },
+          {
+            "name": "ensureFullService",
+            "flag": "method.class.AMPDevicesClientConnection.ensureFullService",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4301500924
+          },
+          {
+            "name": "syncProgressInfoForObjectID:",
+            "flag": "method.class.AMPDevicesClientConnection.syncProgressInfoForObjectID:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4301508208
+          },
+          {
+            "name": "addSyncProgress:withReply:forObjectID:",
+            "flag": "method.class.AMPDevicesClientConnection.addSyncProgress:withReply:forObjectID:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4301508232
+          },
+          {
+            "name": "updateSyncProgressForObjectID:withIPodSyncProgress:withSyncOperation:",
+            "flag": "method.class.AMPDevicesClientConnection.updateSyncProgressForObjectID:withIPodSyncProgress:withSyncOperation:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4301508244
+          },
+          {
+            "name": "shouldStopSyncForObjectID:",
+            "flag": "method.class.AMPDevicesClientConnection.shouldStopSyncForObjectID:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4301508488
+          },
+          {
+            "name": "didStopSyncForObjectID:",
+            "flag": "method.class.AMPDevicesClientConnection.didStopSyncForObjectID:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4301508552
+          },
+          {
+            "name": "notifySyncCompletedForObjectID:withError:",
+            "flag": "method.class.AMPDevicesClientConnection.notifySyncCompletedForObjectID:withError:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4301508564
+          },
+          {
+            "name": "backupRestoreProgressInfoForObjectID:",
+            "flag": "method.class.AMPDevicesClientConnection.backupRestoreProgressInfoForObjectID:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4301508576
+          },
+          {
+            "name": "cancelBackupRestoreProgressForObjectID:",
+            "flag": "method.class.AMPDevicesClientConnection.cancelBackupRestoreProgressForObjectID:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4301508600
+          },
+          {
+            "name": "addBackupRestoreProgress:withReply:forObjectID:",
+            "flag": "method.class.AMPDevicesClientConnection.addBackupRestoreProgress:withReply:forObjectID:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4301508612
+          },
+          {
+            "name": "notifyBackupRestoreCompletedForObjectID:withError:",
+            "flag": "method.class.AMPDevicesClientConnection.notifyBackupRestoreCompletedForObjectID:withError:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4301508624
+          },
+          {
+            "name": "softwareUpdateRestoreProgressInfoForObjectID:",
+            "flag": "method.class.AMPDevicesClientConnection.softwareUpdateRestoreProgressInfoForObjectID:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4301508636
+          },
+          {
+            "name": "addSoftwareDownloadProgress:withReply:forObjectID:",
+            "flag": "method.class.AMPDevicesClientConnection.addSoftwareDownloadProgress:withReply:forObjectID:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4301508660
+          },
+          {
+            "name": "addSoftwareUpdateRestoreProgress:withReply:forObjectID:",
+            "flag": "method.class.AMPDevicesClientConnection.addSoftwareUpdateRestoreProgress:withReply:forObjectID:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4301508688
+          },
+          {
+            "name": "didCompleteSoftwareDownloadForObjectID:withError:withUpdateRestoreImminent:",
+            "flag": "method.class.AMPDevicesClientConnection.didCompleteSoftwareDownloadForObjectID:withError:withUpdateRestoreImminent:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4301508700
+          },
+          {
+            "name": "notifySoftwareUpdateRestoreCompletedForObjectID:withError:",
+            "flag": "method.class.AMPDevicesClientConnection.notifySoftwareUpdateRestoreCompletedForObjectID:withError:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4301508712
+          },
+          {
+            "name": "softwareUpdateRestoreDelegateForObjectID:withStatus:",
+            "flag": "method.class.AMPDevicesClientConnection.softwareUpdateRestoreDelegateForObjectID:withStatus:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4301508724
+          },
+          {
+            "name": "softwareUpdateRestoreDeviceIdentifierForObjectID:",
+            "flag": "method.class.AMPDevicesClientConnection.softwareUpdateRestoreDeviceIdentifierForObjectID:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4301508796
+          },
+          {
+            "name": "addSoftwareUpdateRestoreDeviceIdentifier:forObjectID:",
+            "flag": "method.class.AMPDevicesClientConnection.addSoftwareUpdateRestoreDeviceIdentifier:forObjectID:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4301508932
+          },
+          {
+            "name": "removeSoftwareUpdateRestoreDeviceIdentifierForObjectID:",
+            "flag": "method.class.AMPDevicesClientConnection.removeSoftwareUpdateRestoreDeviceIdentifierForObjectID:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4301509244
+          },
+          {
+            "name": "installProgressInfoForObjectID:",
+            "flag": "method.class.AMPDevicesClientConnection.installProgressInfoForObjectID:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4301509360
+          },
+          {
+            "name": "addInstallProgress:withReply:forObjectID:",
+            "flag": "method.class.AMPDevicesClientConnection.addInstallProgress:withReply:forObjectID:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4301509384
+          },
+          {
+            "name": "notifyInstallCompletedForObjectID:withError:",
+            "flag": "method.class.AMPDevicesClientConnection.notifyInstallCompletedForObjectID:withError:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4301509396
+          },
+          {
+            "name": "deviceIdentifierForDulcimerOrRawObjectID:",
+            "flag": "method.class.AMPDevicesClientConnection.deviceIdentifierForDulcimerOrRawObjectID:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4301509408
+          },
+          {
+            "name": "allDeviceIdentifiers",
+            "flag": "method.class.AMPDevicesClientConnection.allDeviceIdentifiers",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4301509452
+          },
+          {
+            "name": "performBlockForEachClientConnection:",
+            "flag": "method.class.AMPDevicesClientConnection.performBlockForEachClientConnection:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4301509628
+          },
+          {
+            "name": "totalsForDeviceTotals:",
+            "flag": "method.class.AMPDevicesClientConnection.totalsForDeviceTotals:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4301524472
+          },
+          {
+            "name": "batteryInfoForObjectID:",
+            "flag": "method.class.AMPDevicesClientConnection.batteryInfoForObjectID:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4301589672
+          },
+          {
+            "name": "fetchFileSharingAppsForDeviceWithIdentifier:withReply:",
+            "flag": "method.class.AMPDevicesClientConnection.fetchFileSharingAppsForDeviceWithIdentifier:withReply:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4301596648
+          },
+          {
+            "name": "attributesForFileSharingItem:withFileName:withFileInfo:forDeviceIdentifier:forAppIdentifier:",
+            "flag": "method.class.AMPDevicesClientConnection.attributesForFileSharingItem:withFileName:withFileInfo:forDeviceIdentifier:forAppIdentifier:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4301599736
+          },
+          {
+            "name": "attributesForFileSharingItem:withURL:",
+            "flag": "method.class.AMPDevicesClientConnection.attributesForFileSharingItem:withURL:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4301600732
+          },
+          {
+            "name": "makeFileSpec:fromURL:returningInfo:",
+            "flag": "method.class.AMPDevicesClientConnection.makeFileSpec:fromURL:returningInfo:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4301608132
+          },
+          {
+            "name": "mountFileSharingVolumeForURL:",
+            "flag": "method.class.AMPDevicesClientConnection.mountFileSharingVolumeForURL:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4301609756
+          },
+          {
+            "name": "unmountFileSharingVolumeForURL:",
+            "flag": "method.class.AMPDevicesClientConnection.unmountFileSharingVolumeForURL:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4301610484
+          },
+          {
+            "name": "shouldPairWithDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.shouldPairWithDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913456
+          },
+          {
+            "name": "fetchSetupInfoForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.fetchSetupInfoForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913468
+          },
+          {
+            "name": "completeSetupForDevice:didAcceptLicenseAgreement:didAcceptWarrantyInfo:withReply:",
+            "flag": "method.AMPDevicesClientConnection.completeSetupForDevice:didAcceptLicenseAgreement:didAcceptWarrantyInfo:withReply:",
+            "lang": "objc",
+            "addr": 4301913480
+          },
+          {
+            "name": "fetchSettingsForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.fetchSettingsForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913492
+          },
+          {
+            "name": "setSyncPrefs:forDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.setSyncPrefs:forDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913504
+          },
+          {
+            "name": "fetchAccessibilityPrefsForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.fetchAccessibilityPrefsForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913516
+          },
+          {
+            "name": "setAccessibilityPrefs:forDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.setAccessibilityPrefs:forDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913528
+          },
+          {
+            "name": "fetchTotalsForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.fetchTotalsForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913540
+          },
+          {
+            "name": "fetchStateFlagsForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.fetchStateFlagsForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913552
+          },
+          {
+            "name": "isSyncAllowedForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.isSyncAllowedForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913564
+          },
+          {
+            "name": "isSyncInProgressForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.isSyncInProgressForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913576
+          },
+          {
+            "name": "startSyncForDevice:withOptions:withReply:",
+            "flag": "method.AMPDevicesClientConnection.startSyncForDevice:withOptions:withReply:",
+            "lang": "objc",
+            "addr": 4301913588
+          },
+          {
+            "name": "registerForSyncProgressForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.registerForSyncProgressForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913600
+          },
+          {
+            "name": "stopSyncForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.stopSyncForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913612
+          },
+          {
+            "name": "skipSyncOperation:forDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.skipSyncOperation:forDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913624
+          },
+          {
+            "name": "checkForSyncWhenConnectedForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.checkForSyncWhenConnectedForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913636
+          },
+          {
+            "name": "fetchAutoFillPrefsForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.fetchAutoFillPrefsForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913648
+          },
+          {
+            "name": "setAutoFillPrefs:forDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.setAutoFillPrefs:forDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913660
+          },
+          {
+            "name": "autoFillMusicForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.autoFillMusicForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913672
+          },
+          {
+            "name": "canAcceptObjects:forDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.canAcceptObjects:forDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913684
+          },
+          {
+            "name": "canAcceptFiles:forDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.canAcceptFiles:forDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913696
+          },
+          {
+            "name": "copyObjects:toDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.copyObjects:toDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913708
+          },
+          {
+            "name": "copyFiles:toDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.copyFiles:toDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913720
+          },
+          {
+            "name": "deleteObjects:fromDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.deleteObjects:fromDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913732
+          },
+          {
+            "name": "hasSyncErrorsForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.hasSyncErrorsForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913744
+          },
+          {
+            "name": "fetchSyncErrorsForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.fetchSyncErrorsForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913756
+          },
+          {
+            "name": "fetchBackupInfoForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.fetchBackupInfoForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913768
+          },
+          {
+            "name": "fetchBackupsForDevice:includingIncompatibleBackups:includingAllCompatibleBackups:withReply:",
+            "flag": "method.AMPDevicesClientConnection.fetchBackupsForDevice:includingIncompatibleBackups:includingAllCompatibleBackups:withReply:",
+            "lang": "objc",
+            "addr": 4301913780
+          },
+          {
+            "name": "fetchAllBackupsWithReply:",
+            "flag": "method.AMPDevicesClientConnection.fetchAllBackupsWithReply:",
+            "lang": "objc",
+            "addr": 4301913792
+          },
+          {
+            "name": "changeBackupPasswordForDevice:oldPassword:newPassword:withReply:",
+            "flag": "method.AMPDevicesClientConnection.changeBackupPasswordForDevice:oldPassword:newPassword:withReply:",
+            "lang": "objc",
+            "addr": 4301913804
+          },
+          {
+            "name": "fetchBackupPasswordFromKeychainForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.fetchBackupPasswordFromKeychainForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913816
+          },
+          {
+            "name": "fetchPasswordFromKeychainForBackup:withReply:",
+            "flag": "method.AMPDevicesClientConnection.fetchPasswordFromKeychainForBackup:withReply:",
+            "lang": "objc",
+            "addr": 4301913828
+          },
+          {
+            "name": "setKeychainBackupPassword:forDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.setKeychainBackupPassword:forDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913840
+          },
+          {
+            "name": "isBackupInProgressForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.isBackupInProgressForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913852
+          },
+          {
+            "name": "backupDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.backupDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913864
+          },
+          {
+            "name": "cancelBackupForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.cancelBackupForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913876
+          },
+          {
+            "name": "isEraseInProgressForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.isEraseInProgressForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913888
+          },
+          {
+            "name": "isRestoreFromBackupInProgressForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.isRestoreFromBackupInProgressForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913900
+          },
+          {
+            "name": "restoreDevice:fromBackup:withPassword:setPasswordInKeychain:eraseDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.restoreDevice:fromBackup:withPassword:setPasswordInKeychain:eraseDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913912
+          },
+          {
+            "name": "completeRestoreFromBackupForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.completeRestoreFromBackupForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913924
+          },
+          {
+            "name": "registerForBackupProgressForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.registerForBackupProgressForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913936
+          },
+          {
+            "name": "registerForEraseProgressForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.registerForEraseProgressForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913948
+          },
+          {
+            "name": "registerForRestoreProgressForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.registerForRestoreProgressForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913960
+          },
+          {
+            "name": "archiveBackup:withReply:",
+            "flag": "method.AMPDevicesClientConnection.archiveBackup:withReply:",
+            "lang": "objc",
+            "addr": 4301913972
+          },
+          {
+            "name": "deleteBackup:withReply:",
+            "flag": "method.AMPDevicesClientConnection.deleteBackup:withReply:",
+            "lang": "objc",
+            "addr": 4301913984
+          },
+          {
+            "name": "fetchActivationStateForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.fetchActivationStateForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301913996
+          },
+          {
+            "name": "fetchActivationInfoForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.fetchActivationInfoForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301914008
+          },
+          {
+            "name": "completeActivationForDevice:withInfo:withData:withHeaders:withReply:",
+            "flag": "method.AMPDevicesClientConnection.completeActivationForDevice:withInfo:withData:withHeaders:withReply:",
+            "lang": "objc",
+            "addr": 4301914020
+          },
+          {
+            "name": "fetchSoftwareInfoForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.fetchSoftwareInfoForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301914032
+          },
+          {
+            "name": "checkForSoftwareUpdatesForDevice:withOptions:withReply:",
+            "flag": "method.AMPDevicesClientConnection.checkForSoftwareUpdatesForDevice:withOptions:withReply:",
+            "lang": "objc",
+            "addr": 4301914044
+          },
+          {
+            "name": "startSoftwareUpdateForDevice:withOptions:withReply:",
+            "flag": "method.AMPDevicesClientConnection.startSoftwareUpdateForDevice:withOptions:withReply:",
+            "lang": "objc",
+            "addr": 4301914056
+          },
+          {
+            "name": "startSoftwareRestoreForDevice:withOptions:withReply:",
+            "flag": "method.AMPDevicesClientConnection.startSoftwareRestoreForDevice:withOptions:withReply:",
+            "lang": "objc",
+            "addr": 4301914068
+          },
+          {
+            "name": "isSoftwareUpdateOrRestoreInProgressForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.isSoftwareUpdateOrRestoreInProgressForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301914080
+          },
+          {
+            "name": "registerForSoftwareUpdateRestoreProgressForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.registerForSoftwareUpdateRestoreProgressForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301914092
+          },
+          {
+            "name": "registerForSoftwareDownloadProgressForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.registerForSoftwareDownloadProgressForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301914104
+          },
+          {
+            "name": "registerForSoftwareUpdateCheckProgressForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.registerForSoftwareUpdateCheckProgressForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301914116
+          },
+          {
+            "name": "fetchDeviceIdentifiersWithReply:",
+            "flag": "method.AMPDevicesClientConnection.fetchDeviceIdentifiersWithReply:",
+            "lang": "objc",
+            "addr": 4301914128
+          },
+          {
+            "name": "fetchBatteryInfoForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.fetchBatteryInfoForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301914140
+          },
+          {
+            "name": "setName:forDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.setName:forDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301914152
+          },
+          {
+            "name": "resetWarningsForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.resetWarningsForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301914164
+          },
+          {
+            "name": "revealDeviceInFinder:withReply:",
+            "flag": "method.AMPDevicesClientConnection.revealDeviceInFinder:withReply:",
+            "lang": "objc",
+            "addr": 4301914176
+          },
+          {
+            "name": "ejectDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.ejectDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301914188
+          },
+          {
+            "name": "fetchFileSharingAppsForDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.fetchFileSharingAppsForDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301914200
+          },
+          {
+            "name": "fetchFileSharingItemsForApp:forDevice:withReply:",
+            "flag": "method.AMPDevicesClientConnection.fetchFileSharingItemsForApp:forDevice:withReply:",
+            "lang": "objc",
+            "addr": 4301914212
+          },
+          {
+            "name": "copyItemAtURL:toURL:withReply:",
+            "flag": "method.AMPDevicesClientConnection.copyItemAtURL:toURL:withReply:",
+            "lang": "objc",
+            "addr": 4301914224
+          },
+          {
+            "name": "moveItemAtURL:toURL:withReply:",
+            "flag": "method.AMPDevicesClientConnection.moveItemAtURL:toURL:withReply:",
+            "lang": "objc",
+            "addr": 4301914236
+          },
+          {
+            "name": "renameItemAtURL:to:withReply:",
+            "flag": "method.AMPDevicesClientConnection.renameItemAtURL:to:withReply:",
+            "lang": "objc",
+            "addr": 4301914248
+          },
+          {
+            "name": "deleteItemAtURL:withReply:",
+            "flag": "method.AMPDevicesClientConnection.deleteItemAtURL:withReply:",
+            "lang": "objc",
+            "addr": 4301914260
+          },
+          {
+            "name": "attributesForItemAtURL:withReply:",
+            "flag": "method.AMPDevicesClientConnection.attributesForItemAtURL:withReply:",
+            "lang": "objc",
+            "addr": 4301914272
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_allowsUI",
+            "kind": "var",
+            "type": "B",
+            "addr": 4303734776
+          },
+          {
+            "name": "_clientID",
+            "kind": "var",
+            "type": "I",
+            "addr": 4303734780
+          },
+          {
+            "name": "_processID",
+            "kind": "var",
+            "type": "i",
+            "addr": 4303734784
+          },
+          {
+            "name": "_processName",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4303734788
+          },
+          {
+            "name": "_pendingRequestQueue",
+            "kind": "var",
+            "type": "^v",
+            "addr": 4303734792
+          },
+          {
+            "name": "pendingRequestQueue",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "allowsUI",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "clientID",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "processID",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "processName",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "AMPDevicesClientBroadcaster",
+        "addr": 4303736128,
+        "lang": "objc",
+        "index": 24,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.AMPDevicesClientBroadcaster.init",
+            "lang": "objc",
+            "addr": 4301611440
+          },
+          {
+            "name": "addClientWithConnection:",
+            "flag": "method.AMPDevicesClientBroadcaster.addClientWithConnection:",
+            "lang": "objc",
+            "addr": 4301611616
+          },
+          {
+            "name": "removeClientWithConnection:",
+            "flag": "method.AMPDevicesClientBroadcaster.removeClientWithConnection:",
+            "lang": "objc",
+            "addr": 4301613600
+          },
+          {
+            "name": "performBlockForEachClientConnection:",
+            "flag": "method.AMPDevicesClientBroadcaster.performBlockForEachClientConnection:",
+            "lang": "objc",
+            "addr": 4301613756
+          },
+          {
+            "name": "performBlockAsyncForEachRemoteObjectProxy:",
+            "flag": "method.AMPDevicesClientBroadcaster.performBlockAsyncForEachRemoteObjectProxy:",
+            "lang": "objc",
+            "addr": 4301614200
+          },
+          {
+            "name": "didChangeDevicesClientConnectionState:",
+            "flag": "method.AMPDevicesClientBroadcaster.didChangeDevicesClientConnectionState:",
+            "lang": "objc",
+            "addr": 4301614840
+          },
+          {
+            "name": "requestCompleteWithActivationInfo:forDeviceWithIdentifier:withError:",
+            "flag": "method.AMPDevicesClientBroadcaster.requestCompleteWithActivationInfo:forDeviceWithIdentifier:withError:",
+            "lang": "objc",
+            "addr": 4301615060
+          },
+          {
+            "name": "didChangeDeviceName:forDeviceWithIdentifier:",
+            "flag": "method.AMPDevicesClientBroadcaster.didChangeDeviceName:forDeviceWithIdentifier:",
+            "lang": "objc",
+            "addr": 4301615672
+          },
+          {
+            "name": "didChangeDeviceInfo:forDeviceWithIdentifier:",
+            "flag": "method.AMPDevicesClientBroadcaster.didChangeDeviceInfo:forDeviceWithIdentifier:",
+            "lang": "objc",
+            "addr": 4301616208
+          },
+          {
+            "name": "didChangeDeviceSyncPrefs:forDeviceWithIdentifier:",
+            "flag": "method.AMPDevicesClientBroadcaster.didChangeDeviceSyncPrefs:forDeviceWithIdentifier:",
+            "lang": "objc",
+            "addr": 4301616744
+          },
+          {
+            "name": "didChangeBatteryInfo:forDeviceWithIdentifier:",
+            "flag": "method.AMPDevicesClientBroadcaster.didChangeBatteryInfo:forDeviceWithIdentifier:",
+            "lang": "objc",
+            "addr": 4301617280
+          },
+          {
+            "name": "didChangeDeviceTotals:forDeviceWithIdentifier:",
+            "flag": "method.AMPDevicesClientBroadcaster.didChangeDeviceTotals:forDeviceWithIdentifier:",
+            "lang": "objc",
+            "addr": 4301617816
+          },
+          {
+            "name": "didChangeBackupInfoForDeviceWithIdentifier:",
+            "flag": "method.AMPDevicesClientBroadcaster.didChangeBackupInfoForDeviceWithIdentifier:",
+            "lang": "objc",
+            "addr": 4301618352
+          },
+          {
+            "name": "didChangeSyncAllowedState:forDeviceWithIdentifier:",
+            "flag": "method.AMPDevicesClientBroadcaster.didChangeSyncAllowedState:forDeviceWithIdentifier:",
+            "lang": "objc",
+            "addr": 4301618816
+          },
+          {
+            "name": "didStartSyncForDeviceWithIdentifier:",
+            "flag": "method.AMPDevicesClientBroadcaster.didStartSyncForDeviceWithIdentifier:",
+            "lang": "objc",
+            "addr": 4301619292
+          },
+          {
+            "name": "didCompleteSyncForDeviceWithIdentifier:withError:",
+            "flag": "method.AMPDevicesClientBroadcaster.didCompleteSyncForDeviceWithIdentifier:withError:",
+            "lang": "objc",
+            "addr": 4301619756
+          },
+          {
+            "name": "didChangeSyncErrorState:forDeviceWithIdentifier:",
+            "flag": "method.AMPDevicesClientBroadcaster.didChangeSyncErrorState:forDeviceWithIdentifier:",
+            "lang": "objc",
+            "addr": 4301620292
+          },
+          {
+            "name": "didStartBackupForDeviceWithIdentifier:",
+            "flag": "method.AMPDevicesClientBroadcaster.didStartBackupForDeviceWithIdentifier:",
+            "lang": "objc",
+            "addr": 4301620768
+          },
+          {
+            "name": "didCompleteBackupForDeviceWithIdentifier:withError:",
+            "flag": "method.AMPDevicesClientBroadcaster.didCompleteBackupForDeviceWithIdentifier:withError:",
+            "lang": "objc",
+            "addr": 4301621232
+          },
+          {
+            "name": "didStartEraseForDeviceWithIdentifier:",
+            "flag": "method.AMPDevicesClientBroadcaster.didStartEraseForDeviceWithIdentifier:",
+            "lang": "objc",
+            "addr": 4301621768
+          },
+          {
+            "name": "didCompleteEraseForDeviceWithIdentifier:withError:",
+            "flag": "method.AMPDevicesClientBroadcaster.didCompleteEraseForDeviceWithIdentifier:withError:",
+            "lang": "objc",
+            "addr": 4301622232
+          },
+          {
+            "name": "didStartRestoreFromBackupForDeviceWithIdentifier:",
+            "flag": "method.AMPDevicesClientBroadcaster.didStartRestoreFromBackupForDeviceWithIdentifier:",
+            "lang": "objc",
+            "addr": 4301622768
+          },
+          {
+            "name": "didCompleteRestoreFromBackupForDeviceWithIdentifier:withError:",
+            "flag": "method.AMPDevicesClientBroadcaster.didCompleteRestoreFromBackupForDeviceWithIdentifier:withError:",
+            "lang": "objc",
+            "addr": 4301623232
+          },
+          {
+            "name": "didChangeSoftwareInfoForDeviceWithIdentifier:",
+            "flag": "method.AMPDevicesClientBroadcaster.didChangeSoftwareInfoForDeviceWithIdentifier:",
+            "lang": "objc",
+            "addr": 4301623768
+          },
+          {
+            "name": "didChangeFileSharingApps:forDeviceWithIdentifier:",
+            "flag": "method.AMPDevicesClientBroadcaster.didChangeFileSharingApps:forDeviceWithIdentifier:",
+            "lang": "objc",
+            "addr": 4301624232
+          },
+          {
+            "name": "didHideDeviceWithIdentifier:",
+            "flag": "method.AMPDevicesClientBroadcaster.didHideDeviceWithIdentifier:",
+            "lang": "objc",
+            "addr": 4301624768
+          },
+          {
+            "name": "didRemoveDeviceWithIdentifier:hasRecoveryDevice:",
+            "flag": "method.AMPDevicesClientBroadcaster.didRemoveDeviceWithIdentifier:hasRecoveryDevice:",
+            "lang": "objc",
+            "addr": 4301625232
+          },
+          {
+            "name": "didStartManualSoftwareUpdateCheckForDeviceWithIdentifier:",
+            "flag": "method.AMPDevicesClientBroadcaster.didStartManualSoftwareUpdateCheckForDeviceWithIdentifier:",
+            "lang": "objc",
+            "addr": 4301625708
+          },
+          {
+            "name": "didCompleteManualSoftwareUpdateCheckForDeviceWithIdentifier:withError:",
+            "flag": "method.AMPDevicesClientBroadcaster.didCompleteManualSoftwareUpdateCheckForDeviceWithIdentifier:withError:",
+            "lang": "objc",
+            "addr": 4301626172
+          },
+          {
+            "name": "didStartSoftwareDownloadForDeviceWithIdentifier:",
+            "flag": "method.AMPDevicesClientBroadcaster.didStartSoftwareDownloadForDeviceWithIdentifier:",
+            "lang": "objc",
+            "addr": 4301626708
+          },
+          {
+            "name": "didCompleteSoftwareDownloadForDeviceWithIdentifier:withError:",
+            "flag": "method.AMPDevicesClientBroadcaster.didCompleteSoftwareDownloadForDeviceWithIdentifier:withError:",
+            "lang": "objc",
+            "addr": 4301627172
+          },
+          {
+            "name": "didStartSoftwareUpdateRestoreForDeviceWithIdentifier:",
+            "flag": "method.AMPDevicesClientBroadcaster.didStartSoftwareUpdateRestoreForDeviceWithIdentifier:",
+            "lang": "objc",
+            "addr": 4301627708
+          },
+          {
+            "name": "didCompleteSoftwareUpdateRestoreForDeviceWithIdentifier:withError:",
+            "flag": "method.AMPDevicesClientBroadcaster.didCompleteSoftwareUpdateRestoreForDeviceWithIdentifier:withError:",
+            "lang": "objc",
+            "addr": 4301628172
+          },
+          {
+            "name": "updateAvailableWithSoftwareInfo:forDeviceWithIdentifier:",
+            "flag": "method.AMPDevicesClientBroadcaster.updateAvailableWithSoftwareInfo:forDeviceWithIdentifier:",
+            "lang": "objc",
+            "addr": 4301628784
+          },
+          {
+            "name": "connectionForUserInteractionWithSelector:andDeviceWithIdentifier:",
+            "flag": "method.AMPDevicesClientBroadcaster.connectionForUserInteractionWithSelector:andDeviceWithIdentifier:",
+            "lang": "objc",
+            "addr": 4301629320
+          },
+          {
+            "name": "connectionForUserInteractionWithSelector:forOptionalDeviceWithIdentifier:",
+            "flag": "method.AMPDevicesClientBroadcaster.connectionForUserInteractionWithSelector:forOptionalDeviceWithIdentifier:",
+            "lang": "objc",
+            "addr": 4301631700
+          },
+          {
+            "name": "askUserWithParameters:withReply:",
+            "flag": "method.AMPDevicesClientBroadcaster.askUserWithParameters:withReply:",
+            "lang": "objc",
+            "addr": 4301632908
+          },
+          {
+            "name": "promptForPasswordWithParameters:inParentWindow:withReply:",
+            "flag": "method.AMPDevicesClientBroadcaster.promptForPasswordWithParameters:inParentWindow:withReply:",
+            "lang": "objc",
+            "addr": 4301634160
+          },
+          {
+            "name": "showReportWithParameters:withReply:",
+            "flag": "method.AMPDevicesClientBroadcaster.showReportWithParameters:withReply:",
+            "lang": "objc",
+            "addr": 4301635492
+          },
+          {
+            "name": "openPanelWithParameters:withReply:",
+            "flag": "method.AMPDevicesClientBroadcaster.openPanelWithParameters:withReply:",
+            "lang": "objc",
+            "addr": 4301636736
+          },
+          {
+            "name": "xpcConnections",
+            "flag": "method.AMPDevicesClientBroadcaster.xpcConnections",
+            "lang": "objc",
+            "addr": 4301637988
+          },
+          {
+            "name": "setXpcConnections:",
+            "flag": "method.AMPDevicesClientBroadcaster.setXpcConnections:",
+            "lang": "objc",
+            "addr": 4301637996
+          },
+          {
+            "name": "xpcDispatchQueue",
+            "flag": "method.AMPDevicesClientBroadcaster.xpcDispatchQueue",
+            "lang": "objc",
+            "addr": 4301638008
+          },
+          {
+            "name": "setXpcDispatchQueue:",
+            "flag": "method.AMPDevicesClientBroadcaster.setXpcDispatchQueue:",
+            "lang": "objc",
+            "addr": 4301638016
+          },
+          {
+            "name": "nextClientID",
+            "flag": "method.AMPDevicesClientBroadcaster.nextClientID",
+            "lang": "objc",
+            "addr": 4301638028
+          },
+          {
+            "name": "setNextClientID:",
+            "flag": "method.AMPDevicesClientBroadcaster.setNextClientID:",
+            "lang": "objc",
+            "addr": 4301638036
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.AMPDevicesClientBroadcaster..cxx_destruct",
+            "lang": "objc",
+            "addr": 4301638044
+          },
+          {
+            "name": "sharedInstance",
+            "flag": "method.class.AMPDevicesClientBroadcaster.sharedInstance",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4301611292
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_nextClientID",
+            "kind": "var",
+            "type": "I",
+            "addr": 4303734796
+          },
+          {
+            "name": "_xpcConnections",
+            "kind": "var",
+            "type": "@\"NSHashTable\"",
+            "addr": 4303734800
+          },
+          {
+            "name": "_xpcDispatchQueue",
+            "kind": "var",
+            "type": "@\"NSObject<OS_dispatch_queue>\"",
+            "addr": 4303734804
+          },
+          {
+            "name": "xpcConnections",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "xpcDispatchQueue",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "nextClientID",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "std::logic_error",
+        "addr": 0,
+        "lang": "c++",
+        "index": 25,
+        "methods": [
+          {
+            "name": "logic_error(char const*)",
+            "flag": "method.std::logic_error.logic_error_char_const_",
+            "rawname": "_ZNSt11logic_errorC2EPKc",
+            "lang": "c++",
+            "addr": 4303278096
+          }
+        ]
+      },
+      {
+        "classname": "std::exception_ptr",
+        "addr": 0,
+        "lang": "c++",
+        "index": 26,
+        "methods": [
+          {
+            "name": "~exception_ptr()",
+            "flag": "method.std::exception_ptr._exception_ptr__",
+            "rawname": "_ZNSt13exception_ptrD1Ev",
+            "lang": "c++",
+            "addr": 4303278104
+          }
+        ]
+      },
+      {
+        "classname": "std::runtime_error",
+        "addr": 0,
+        "lang": "c++",
+        "index": 27,
+        "methods": [
+          {
+            "name": "runtime_error(char const*)",
+            "flag": "method.std::runtime_error.runtime_error_char_const_",
+            "rawname": "_ZNSt13runtime_errorC2EPKc",
+            "lang": "c++",
+            "addr": 4303278112
+          },
+          {
+            "name": "~runtime_error()",
+            "flag": "method.std::runtime_error._runtime_error__",
+            "rawname": "_ZNSt13runtime_errorD2Ev",
+            "lang": "c++",
+            "addr": 4303278120
+          },
+          {
+            "name": "what() const",
+            "flag": "method.std::runtime_error.what___const",
+            "rawname": "_ZNKSt13runtime_error4whatEv",
+            "lang": "c++",
+            "addr": 4303407952
+          }
+        ]
+      },
+      {
+        "classname": "std::bad_array_new_length",
+        "addr": 0,
+        "lang": "c++",
+        "index": 28,
+        "methods": [
+          {
+            "name": "bad_array_new_length()",
+            "flag": "method.std::bad_array_new_length.bad_array_new_length__",
+            "rawname": "_ZNSt20bad_array_new_lengthC1Ev",
+            "lang": "c++",
+            "addr": 4303278128
+          },
+          {
+            "name": "~bad_array_new_length()",
+            "flag": "method.std::bad_array_new_length._bad_array_new_length__",
+            "rawname": "_ZNSt20bad_array_new_lengthD1Ev",
+            "lang": "c++",
+            "addr": 4303287184
+          }
+        ]
+      },
+      {
+        "classname": "std::__1",
+        "addr": 0,
+        "lang": "c++",
+        "index": 29,
+        "methods": [
+          {
+            "name": "__call_once(unsigned long volatile&, void*, void (*)(void*))",
+            "flag": "method.std::__1.__call_once_unsigned_long_volatile__void__void____void__",
+            "rawname": "_ZNSt3__111__call_onceERVmPvPFvS2_E",
+            "lang": "c++",
+            "addr": 4303278136
+          },
+          {
+            "name": "__get_sp_mut(void const*)",
+            "flag": "method.std::__1.__get_sp_mut_void_const_",
+            "rawname": "_ZNSt3__112__get_sp_mutEPKv",
+            "lang": "c++",
+            "addr": 4303278144
+          },
+          {
+            "name": "__next_prime(unsigned long)",
+            "flag": "method.std::__1.__next_prime_unsigned_long_",
+            "rawname": "_ZNSt3__112__next_primeEm",
+            "lang": "c++",
+            "addr": 4303278152
+          },
+          {
+            "name": "__thread_local_data()",
+            "flag": "method.std::__1.__thread_local_data__",
+            "rawname": "_ZNSt3__119__thread_local_dataEv",
+            "lang": "c++",
+            "addr": 4303278288
+          },
+          {
+            "name": "__throw_system_error(int, char const*)",
+            "flag": "method.std::__1.__throw_system_error_int__char_const_",
+            "rawname": "_ZNSt3__120__throw_system_errorEiPKc",
+            "lang": "c++",
+            "addr": 4303278296
+          }
+        ]
+      },
+      {
+        "classname": "std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >",
+        "addr": 0,
+        "lang": "c++",
+        "index": 30,
+        "methods": [
+          {
+            "name": "__grow_by_and_replace(unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, char const*)",
+            "flag": "std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::__grow_by_and_replace(unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, char const*)",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE21__grow_by_and_replaceEmmmmmmPKc",
+            "lang": "c++",
+            "addr": 4303278160
+          },
+          {
+            "name": "append(char const*, unsigned long)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char___.append_char_const__unsigned_long_",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKcm",
+            "lang": "c++",
+            "addr": 4303278168
+          },
+          {
+            "name": "__grow_by_and_replace(unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, char const*)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char___.__grow_by_and_replace_unsigned_long__unsigned_long__unsigned_long__unsigned_long__unsigned_long__unsigned_long__char_const_",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE21__grow_by_and_replaceEmmmmmmPKc",
+            "lang": "c++",
+            "addr": 4301868476
+          },
+          {
+            "name": "__grow_by_and_replace(unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, char const*)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char___.__grow_by_and_replace_unsigned_long__unsigned_long__unsigned_long__unsigned_long__unsigned_long__unsigned_long__char_const_",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE21__grow_by_and_replaceEmmmmmmPKc",
+            "lang": "c++",
+            "addr": 4301868476
+          },
+          {
+            "name": "__grow_by_and_replace(unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, char const*)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char___.__grow_by_and_replace_unsigned_long__unsigned_long__unsigned_long__unsigned_long__unsigned_long__unsigned_long__char_const_",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE21__grow_by_and_replaceEmmmmmmPKc",
+            "lang": "c++",
+            "addr": 4301868476
+          }
+        ]
+      },
+      {
+        "classname": "std::__1::random_device",
+        "addr": 0,
+        "lang": "c++",
+        "index": 31,
+        "methods": [
+          {
+            "name": "random_device(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "flag": "std::__1::random_device::random_device(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "rawname": "_ZNSt3__113random_deviceC1ERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+            "lang": "c++",
+            "addr": 4303278176
+          },
+          {
+            "name": "~random_device()",
+            "flag": "method.std::__1::random_device._random_device__",
+            "rawname": "_ZNSt3__113random_deviceD1Ev",
+            "lang": "c++",
+            "addr": 4303278184
+          },
+          {
+            "name": "operator()()",
+            "flag": "method.std::__1::random_device.operator____",
+            "rawname": "_ZNSt3__113random_deviceclEv",
+            "lang": "c++",
+            "addr": 4303278192
+          },
+          {
+            "name": "random_device(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "flag": "method.std::__1::random_device.random_device_std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const_",
+            "rawname": "_ZNSt3__113random_deviceC1ERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+            "lang": "c++",
+            "addr": 4301868508
+          },
+          {
+            "name": "random_device(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "flag": "method.std::__1::random_device.random_device_std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const_",
+            "rawname": "_ZNSt3__113random_deviceC1ERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+            "lang": "c++",
+            "addr": 4301868508
+          },
+          {
+            "name": "random_device(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "flag": "method.std::__1::random_device.random_device_std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const_",
+            "rawname": "_ZNSt3__113random_deviceC1ERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE",
+            "lang": "c++",
+            "addr": 4301868508
+          }
+        ]
+      },
+      {
+        "classname": "std::__1::__shared_count",
+        "addr": 0,
+        "lang": "c++",
+        "index": 32,
+        "methods": [
+          {
+            "name": "~__shared_count()",
+            "flag": "method.std::__1::__shared_count.___shared_count__",
+            "rawname": "_ZNSt3__114__shared_countD2Ev",
+            "lang": "c++",
+            "addr": 4303278200
+          }
+        ]
+      },
+      {
+        "classname": "std::__1::__thread_struct",
+        "addr": 0,
+        "lang": "c++",
+        "index": 33,
+        "methods": [
+          {
+            "name": "__thread_struct()",
+            "flag": "method.std::__1::__thread_struct.__thread_struct__",
+            "rawname": "_ZNSt3__115__thread_structC1Ev",
+            "lang": "c++",
+            "addr": 4303278208
+          },
+          {
+            "name": "~__thread_struct()",
+            "flag": "method.std::__1::__thread_struct.___thread_struct__",
+            "rawname": "_ZNSt3__115__thread_structD1Ev",
+            "lang": "c++",
+            "addr": 4303278216
+          }
+        ]
+      },
+      {
+        "classname": "std::__1::__assoc_sub_state",
+        "addr": 0,
+        "lang": "c++",
+        "index": 34,
+        "methods": [
+          {
+            "name": "set_exception(std::exception_ptr)",
+            "flag": "method.std::__1::__assoc_sub_state.set_exception_std::exception_ptr_",
+            "rawname": "_ZNSt3__117__assoc_sub_state13set_exceptionESt13exception_ptr",
+            "lang": "c++",
+            "addr": 4303278224
+          },
+          {
+            "name": "__on_zero_shared()",
+            "flag": "method.std::__1::__assoc_sub_state.__on_zero_shared__",
+            "rawname": "_ZNSt3__117__assoc_sub_state16__on_zero_sharedEv",
+            "lang": "c++",
+            "addr": 4303278232
+          },
+          {
+            "name": "wait()",
+            "flag": "method.std::__1::__assoc_sub_state.wait__",
+            "rawname": "_ZNSt3__117__assoc_sub_state4waitEv",
+            "lang": "c++",
+            "addr": 4303278240
+          },
+          {
+            "name": "set_value()",
+            "flag": "method.std::__1::__assoc_sub_state.set_value__",
+            "rawname": "_ZNSt3__117__assoc_sub_state9set_valueEv",
+            "lang": "c++",
+            "addr": 4303278248
+          }
+        ]
+      },
+      {
+        "classname": "std::__1::condition_variable",
+        "addr": 0,
+        "lang": "c++",
+        "index": 35,
+        "methods": [
+          {
+            "name": "~condition_variable()",
+            "flag": "method.std::__1::condition_variable._condition_variable__",
+            "rawname": "_ZNSt3__118condition_variableD1Ev",
+            "lang": "c++",
+            "addr": 4303278256
+          }
+        ]
+      },
+      {
+        "classname": "std::__1::__shared_weak_count",
+        "addr": 0,
+        "lang": "c++",
+        "index": 36,
+        "methods": [
+          {
+            "name": "__release_weak()",
+            "flag": "method.std::__1::__shared_weak_count.__release_weak__",
+            "rawname": "_ZNSt3__119__shared_weak_count14__release_weakEv",
+            "lang": "c++",
+            "addr": 4303278264
+          },
+          {
+            "name": "lock()",
+            "flag": "method.std::__1::__shared_weak_count.lock__",
+            "rawname": "_ZNSt3__119__shared_weak_count4lockEv",
+            "lang": "c++",
+            "addr": 4303278272
+          },
+          {
+            "name": "~__shared_weak_count()",
+            "flag": "method.std::__1::__shared_weak_count.___shared_weak_count__",
+            "rawname": "_ZNSt3__119__shared_weak_countD2Ev",
+            "lang": "c++",
+            "addr": 4303278280
+          },
+          {
+            "name": "__get_deleter(std::type_info const&) const",
+            "flag": "method.std::__1::__shared_weak_count.__get_deleter_std::type_info_const__const",
+            "rawname": "_ZNKSt3__119__shared_weak_count13__get_deleterERKSt9type_info",
+            "lang": "c++",
+            "addr": 4303403904
+          }
+        ]
+      },
+      {
+        "classname": "std::__1::mutex",
+        "addr": 0,
+        "lang": "c++",
+        "index": 37,
+        "methods": [
+          {
+            "name": "lock()",
+            "flag": "method.std::__1::mutex.lock__",
+            "rawname": "_ZNSt3__15mutex4lockEv",
+            "lang": "c++",
+            "addr": 4303278304
+          },
+          {
+            "name": "unlock()",
+            "flag": "method.std::__1::mutex.unlock__",
+            "rawname": "_ZNSt3__15mutex6unlockEv",
+            "lang": "c++",
+            "addr": 4303278312
+          },
+          {
+            "name": "~mutex()",
+            "flag": "method.std::__1::mutex._mutex__",
+            "rawname": "_ZNSt3__15mutexD1Ev",
+            "lang": "c++",
+            "addr": 4303278320
+          }
+        ]
+      },
+      {
+        "classname": "std::__1::future<void>",
+        "addr": 0,
+        "lang": "c++",
+        "index": 38,
+        "methods": [
+          {
+            "name": "future(std::__1::__assoc_sub_state*)",
+            "flag": "method.std::__1::future_void_.future_std::__1::__assoc_sub_state_",
+            "rawname": "_ZNSt3__16futureIvEC1EPNS_17__assoc_sub_stateE",
+            "lang": "c++",
+            "addr": 4303278328
+          },
+          {
+            "name": "~future()",
+            "flag": "method.std::__1::future_void_._future__",
+            "rawname": "_ZNSt3__16futureIvED1Ev",
+            "lang": "c++",
+            "addr": 4303278336
+          }
+        ]
+      },
+      {
+        "classname": "std::__1::thread",
+        "addr": 0,
+        "lang": "c++",
+        "index": 39,
+        "methods": [
+          {
+            "name": "detach()",
+            "flag": "method.std::__1::thread.detach__",
+            "rawname": "_ZNSt3__16thread6detachEv",
+            "lang": "c++",
+            "addr": 4303278344
+          },
+          {
+            "name": "~thread()",
+            "flag": "method.std::__1::thread._thread__",
+            "rawname": "_ZNSt3__16threadD1Ev",
+            "lang": "c++",
+            "addr": 4303278352
+          }
+        ]
+      },
+      {
+        "classname": "std::__1::__sp_mut",
+        "addr": 0,
+        "lang": "c++",
+        "index": 40,
+        "methods": [
+          {
+            "name": "lock()",
+            "flag": "method.std::__1::__sp_mut.lock__",
+            "rawname": "_ZNSt3__18__sp_mut4lockEv",
+            "lang": "c++",
+            "addr": 4303278360
+          },
+          {
+            "name": "unlock()",
+            "flag": "method.std::__1::__sp_mut.unlock__",
+            "rawname": "_ZNSt3__18__sp_mut6unlockEv",
+            "lang": "c++",
+            "addr": 4303278368
+          }
+        ]
+      },
+      {
+        "classname": "std::bad_alloc",
+        "addr": 0,
+        "lang": "c++",
+        "index": 41,
+        "methods": [
+          {
+            "name": "bad_alloc()",
+            "flag": "method.std::bad_alloc.bad_alloc__",
+            "rawname": "_ZNSt9bad_allocC1Ev",
+            "lang": "c++",
+            "addr": 4303278376
+          },
+          {
+            "name": "~bad_alloc()",
+            "flag": "method.std::bad_alloc._bad_alloc__",
+            "rawname": "_ZNSt9bad_allocD1Ev",
+            "lang": "c++",
+            "addr": 4303287216
+          }
+        ]
+      },
+      {
+        "classname": "std",
+        "addr": 0,
+        "lang": "c++",
+        "index": 42,
+        "methods": [
+          {
+            "name": "current_exception()",
+            "flag": "method.std.current_exception__",
+            "rawname": "_ZSt17current_exceptionv",
+            "lang": "c++",
+            "addr": 4303278384
+          },
+          {
+            "name": "terminate()",
+            "flag": "method.std.terminate__",
+            "rawname": "_ZSt9terminatev",
+            "lang": "c++",
+            "addr": 4303278392
+          }
+        ]
+      },
+      {
+        "classname": "std::length_error",
+        "addr": 0,
+        "lang": "c++",
+        "index": 43,
+        "methods": [
+          {
+            "name": "~length_error()",
+            "flag": "method.std::length_error._length_error__",
+            "rawname": "_ZNSt12length_errorD1Ev",
+            "lang": "c++",
+            "addr": 4303287152
+          }
+        ]
+      },
+      {
+        "classname": "std::out_of_range",
+        "addr": 0,
+        "lang": "c++",
+        "index": 44,
+        "methods": [
+          {
+            "name": "~out_of_range()",
+            "flag": "method.std::out_of_range._out_of_range__",
+            "rawname": "_ZNSt12out_of_rangeD1Ev",
+            "lang": "c++",
+            "addr": 4303287160
+          }
+        ]
+      },
+      {
+        "classname": "std::invalid_argument",
+        "addr": 0,
+        "lang": "c++",
+        "index": 45,
+        "methods": [
+          {
+            "name": "~invalid_argument()",
+            "flag": "method.std::invalid_argument._invalid_argument__",
+            "rawname": "_ZNSt16invalid_argumentD1Ev",
+            "lang": "c++",
+            "addr": 4303287168
+          }
+        ]
+      },
+      {
+        "classname": "std::bad_optional_access",
+        "addr": 0,
+        "lang": "c++",
+        "index": 46,
+        "methods": [
+          {
+            "name": "~bad_optional_access()",
+            "flag": "method.std::bad_optional_access._bad_optional_access__",
+            "rawname": "_ZNSt19bad_optional_accessD1Ev",
+            "lang": "c++",
+            "addr": 4303287176
+          }
+        ]
+      },
+      {
+        "classname": "std::__1::bad_weak_ptr",
+        "addr": 0,
+        "lang": "c++",
+        "index": 47,
+        "methods": [
+          {
+            "name": "~bad_weak_ptr()",
+            "flag": "method.std::__1::bad_weak_ptr._bad_weak_ptr__",
+            "rawname": "_ZNSt3__112bad_weak_ptrD1Ev",
+            "lang": "c++",
+            "addr": 4303287192
+          }
+        ]
+      },
+      {
+        "classname": "std::__1::bad_function_call",
+        "addr": 0,
+        "lang": "c++",
+        "index": 48,
+        "methods": [
+          {
+            "name": "~bad_function_call()",
+            "flag": "method.std::__1::bad_function_call._bad_function_call__",
+            "rawname": "_ZNSt3__117bad_function_callD1Ev",
+            "lang": "c++",
+            "addr": 4303287200
+          }
+        ]
+      }
+    ],
+    "protocols": []
+  },
+  "usage": {
+    "layer": "usage",
+    "status": "not_implemented"
+  },
+  "runtime": {
+    "layer": "runtime",
+    "status": "not_implemented"
+  }
+}

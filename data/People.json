@@ -1,0 +1,2061 @@
+{
+  "framework": "People.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/People.framework/peopled",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 512288,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "swift",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/Frameworks/ScreenTime.framework/Versions/A/ScreenTime",
+          "/System/Library/PrivateFrameworks/ScreenTimeCore.framework/Versions/A/ScreenTimeCore",
+          "/System/Library/PrivateFrameworks/ChronoServices.framework/Versions/A/ChronoServices",
+          "/System/Library/PrivateFrameworks/IMCore.framework/Versions/A/IMCore",
+          "/System/Library/PrivateFrameworks/SpotlightReceiver.framework/Versions/A/SpotlightReceiver",
+          "/System/Library/PrivateFrameworks/IDS.framework/Versions/A/IDS",
+          "/System/Library/PrivateFrameworks/People.framework/Versions/A/People",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents",
+          "/System/Library/Frameworks/Contacts.framework/Versions/A/Contacts",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "/System/Library/Frameworks/EventKit.framework/Versions/A/EventKit",
+          "/System/Library/Frameworks/Intents.framework/Versions/A/Intents",
+          "/System/Library/Frameworks/RelevanceKit.framework/Versions/A/RelevanceKit",
+          "/System/Library/PrivateFrameworks/AAAFoundation.framework/Versions/A/AAAFoundation",
+          "/System/Library/PrivateFrameworks/AAAFoundationSwift.framework/Versions/A/AAAFoundationSwift",
+          "/System/Library/PrivateFrameworks/AvailabilityKit.framework/Versions/A/AvailabilityKit",
+          "/System/Library/PrivateFrameworks/BiomeLibrary.framework/Versions/A/BiomeLibrary",
+          "/System/Library/PrivateFrameworks/BiomeStreams.framework/Versions/A/BiomeStreams",
+          "/System/Library/PrivateFrameworks/CallHistory.framework/Versions/A/CallHistory",
+          "/System/Library/PrivateFrameworks/FamilyCircle.framework/Versions/A/FamilyCircle",
+          "/System/Library/PrivateFrameworks/StatusKit.framework/Versions/A/StatusKit",
+          "/usr/lib/swift/libswiftAVFoundation.dylib",
+          "/usr/lib/swift/libswiftAccelerate.dylib",
+          "/usr/lib/swift/libswiftAppleArchive.dylib",
+          "/usr/lib/swift/libswiftCompression.dylib",
+          "/usr/lib/swift/libswiftCore.dylib",
+          "/usr/lib/swift/libswiftCoreAudio.dylib",
+          "/usr/lib/swift/libswiftCoreFoundation.dylib",
+          "/usr/lib/swift/libswiftCoreImage.dylib",
+          "/usr/lib/swift/libswiftCoreLocation.dylib",
+          "/usr/lib/swift/libswiftCoreMIDI.dylib",
+          "/usr/lib/swift/libswiftCoreMedia.dylib",
+          "/usr/lib/swift/libswiftDispatch.dylib",
+          "/usr/lib/swift/libswiftIOKit.dylib",
+          "/usr/lib/swift/libswiftIntents.dylib",
+          "/usr/lib/swift/libswiftMetal.dylib",
+          "/usr/lib/swift/libswiftNaturalLanguage.dylib",
+          "/usr/lib/swift/libswiftOSLog.dylib",
+          "/usr/lib/swift/libswiftObjectiveC.dylib",
+          "/usr/lib/swift/libswiftQuartzCore.dylib",
+          "/usr/lib/swift/libswiftSpatial.dylib",
+          "/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib",
+          "/usr/lib/swift/libswiftVideoToolbox.dylib",
+          "/usr/lib/swift/libswiftXPC.dylib",
+          "/usr/lib/swift/libswift_Builtin_float.dylib",
+          "/usr/lib/swift/libswift_Concurrency.dylib",
+          "/usr/lib/swift/libswiftos.dylib",
+          "/usr/lib/swift/libswiftsimd.dylib"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "StatusManager",
+        "addr": 337168,
+        "lang": "swift",
+        "index": 0,
+        "fields": [
+          {
+            "name": "statusSources",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295307600
+          },
+          {
+            "name": "statusEventListeners",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295307616
+          },
+          {
+            "name": "widgetConfigurationReader",
+            "kind": "property",
+            "addr": 4295307648
+          },
+          {
+            "name": "timelineControllerFactory",
+            "kind": "property",
+            "addr": 4295307680
+          },
+          {
+            "name": "widgetSuggester",
+            "kind": "property",
+            "addr": 4295307706
+          },
+          {
+            "name": "reindexHandlers",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295307722
+          }
+        ]
+      },
+      {
+        "classname": "WidgetConfigurationReader",
+        "addr": 337300,
+        "lang": "swift",
+        "index": 1,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.WidgetConfigurationReader.0",
+            "lang": "swift",
+            "addr": 4295356811
+          },
+          {
+            "name": "1",
+            "flag": "method.WidgetConfigurationReader.1",
+            "lang": "swift",
+            "addr": 4295314783
+          }
+        ],
+        "fields": [
+          {
+            "name": "chronoConfigurationReader",
+            "kind": "property",
+            "addr": 4295307744
+          }
+        ]
+      },
+      {
+        "classname": "NoWidgetHostsReturned",
+        "addr": 337368,
+        "lang": "swift",
+        "index": 2
+      },
+      {
+        "classname": "LocationStatusEventListener",
+        "addr": 337396,
+        "lang": "swift",
+        "index": 3,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.LocationStatusEventListener.0",
+            "lang": "swift",
+            "addr": 4295334298
+          },
+          {
+            "name": "1",
+            "flag": "method.LocationStatusEventListener.1",
+            "lang": "swift",
+            "addr": 4295307186
+          },
+          {
+            "name": "2",
+            "flag": "method.LocationStatusEventListener.2",
+            "lang": "swift",
+            "addr": 4295343099
+          },
+          {
+            "name": "3",
+            "flag": "method.LocationStatusEventListener.3",
+            "lang": "swift",
+            "addr": 4295308258
+          },
+          {
+            "name": "4",
+            "flag": "method.LocationStatusEventListener.4",
+            "lang": "swift",
+            "addr": 4295342623
+          },
+          {
+            "name": "5",
+            "flag": "method.LocationStatusEventListener.5",
+            "lang": "swift",
+            "addr": 4295341259
+          },
+          {
+            "name": "6",
+            "flag": "method.LocationStatusEventListener.6",
+            "lang": "swift",
+            "addr": 4295348845
+          },
+          {
+            "name": "7",
+            "flag": "method.LocationStatusEventListener.7",
+            "lang": "swift",
+            "addr": 4295321011
+          },
+          {
+            "name": "8",
+            "flag": "method.LocationStatusEventListener.8",
+            "lang": "swift",
+            "addr": 4295345304
+          },
+          {
+            "name": "9",
+            "flag": "method.LocationStatusEventListener.9",
+            "lang": "swift",
+            "addr": 4295340059
+          }
+        ],
+        "fields": [
+          {
+            "name": "delegate",
+            "kind": "property",
+            "addr": 4295307776
+          },
+          {
+            "name": "listener",
+            "kind": "property",
+            "addr": 4295307785
+          },
+          {
+            "name": "featureFlags",
+            "kind": "property",
+            "addr": 4295307794
+          },
+          {
+            "name": "contactFetcher",
+            "kind": "property",
+            "addr": 4295307807
+          },
+          {
+            "name": "indexer",
+            "kind": "property",
+            "addr": 4295307822
+          },
+          {
+            "name": "friendLocateProvider",
+            "kind": "property",
+            "addr": 4295307840
+          },
+          {
+            "name": "widgetConfigurationReader",
+            "kind": "property",
+            "addr": 4295307872
+          }
+        ]
+      },
+      {
+        "classname": "ChildStateStatusSource",
+        "addr": 337576,
+        "lang": "swift",
+        "index": 4,
+        "fields": [
+          {
+            "name": "delegate",
+            "kind": "property",
+            "addr": 4295307898
+          },
+          {
+            "name": "featureFlags",
+            "kind": "property",
+            "addr": 4295307907
+          },
+          {
+            "name": "ttl",
+            "kind": "property",
+            "addr": 4295307920
+          },
+          {
+            "name": "contactFetcher",
+            "kind": "property",
+            "addr": 4295307924
+          },
+          {
+            "name": "downtimeClient",
+            "kind": "property",
+            "addr": 4295307939
+          },
+          {
+            "name": "listener",
+            "kind": "property",
+            "addr": 4295307954
+          }
+        ]
+      },
+      {
+        "classname": "CallHistoryFetcher",
+        "addr": 337776,
+        "lang": "swift",
+        "index": 5
+      },
+      {
+        "classname": "MissedCallStatusSource",
+        "addr": 337844,
+        "lang": "swift",
+        "index": 6,
+        "fields": [
+          {
+            "name": "delegate",
+            "kind": "property",
+            "addr": 4295307968
+          },
+          {
+            "name": "listener",
+            "kind": "property",
+            "addr": 4295307977
+          },
+          {
+            "name": "contactFetcher",
+            "kind": "property",
+            "addr": 4295307986
+          },
+          {
+            "name": "callHistoryFetcher",
+            "kind": "property",
+            "addr": 4295308016
+          },
+          {
+            "name": "featureFlags",
+            "kind": "property",
+            "addr": 4295308035
+          },
+          {
+            "name": "launchRecorder",
+            "kind": "property",
+            "addr": 4295308048
+          }
+        ]
+      },
+      {
+        "classname": "MessageFetcher",
+        "addr": 338120,
+        "lang": "swift",
+        "index": 7,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.MessageFetcher.0",
+            "lang": "swift",
+            "addr": 4295305590
+          }
+        ],
+        "fields": [
+          {
+            "name": "interface",
+            "kind": "property",
+            "addr": 4295308064
+          }
+        ]
+      },
+      {
+        "classname": "IMessageStatusSource",
+        "addr": 338196,
+        "lang": "swift",
+        "index": 8,
+        "fields": [
+          {
+            "name": "featureFlags",
+            "kind": "property",
+            "addr": 4295308074
+          },
+          {
+            "name": "launchRecorder",
+            "kind": "property",
+            "addr": 4295308087
+          },
+          {
+            "name": "contactFetcher",
+            "kind": "property",
+            "addr": 4295308102
+          },
+          {
+            "name": "messageFetcher",
+            "kind": "property",
+            "addr": 4295308117
+          },
+          {
+            "name": "readMessageListener",
+            "kind": "property",
+            "addr": 4295308144
+          },
+          {
+            "name": "delegate",
+            "kind": "property",
+            "addr": 4295308164
+          }
+        ]
+      },
+      {
+        "classname": "LocationStatusSource",
+        "addr": 338368,
+        "lang": "swift",
+        "index": 9,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.LocationStatusSource.0",
+            "lang": "swift",
+            "addr": 4295305848
+          }
+        ],
+        "fields": [
+          {
+            "name": "contactFetcher",
+            "kind": "property",
+            "addr": 4295308176
+          },
+          {
+            "name": "featureFlags",
+            "kind": "property",
+            "addr": 4295308191
+          },
+          {
+            "name": "friendLocateProvider",
+            "kind": "property",
+            "addr": 4295308208
+          }
+        ]
+      },
+      {
+        "classname": "AskToBuyStatusSource",
+        "addr": 338428,
+        "lang": "swift",
+        "index": 10,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.AskToBuyStatusSource.0",
+            "lang": "swift",
+            "addr": 4295306039
+          },
+          {
+            "name": "1",
+            "flag": "method.AskToBuyStatusSource.1",
+            "lang": "swift",
+            "addr": 4295305833
+          }
+        ],
+        "fields": [
+          {
+            "name": "delegate",
+            "kind": "property",
+            "addr": 4295308229
+          },
+          {
+            "name": "ttl",
+            "kind": "property",
+            "addr": 4295308238
+          },
+          {
+            "name": "featureFlags",
+            "kind": "property",
+            "addr": 4295308242
+          },
+          {
+            "name": "indexer",
+            "kind": "property",
+            "addr": 4295308255
+          },
+          {
+            "name": "contactFetcher",
+            "kind": "property",
+            "addr": 4295308263
+          },
+          {
+            "name": "messageConduit",
+            "kind": "property",
+            "addr": 4295308278
+          },
+          {
+            "name": "listener",
+            "kind": "property",
+            "addr": 4295308293
+          }
+        ]
+      },
+      {
+        "classname": "XPCListener",
+        "addr": 338500,
+        "lang": "swift",
+        "index": 11,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ],
+        "fields": [
+          {
+            "name": "_listener",
+            "kind": "property",
+            "type": "__C.NSXPCListener",
+            "addr": 4295308304
+          },
+          {
+            "name": "_machServiceName",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295308320
+          },
+          {
+            "name": "eventObserver",
+            "kind": "property",
+            "addr": 4295308337
+          }
+        ]
+      },
+      {
+        "classname": "KettleStatusFetcher",
+        "addr": 338664,
+        "lang": "swift",
+        "index": 12
+      },
+      {
+        "classname": "DNDStatusSource",
+        "addr": 338732,
+        "lang": "swift",
+        "index": 13,
+        "fields": [
+          {
+            "name": "featureFlags",
+            "kind": "property",
+            "addr": 4295308352
+          },
+          {
+            "name": "kettleStatusFetcher",
+            "kind": "property",
+            "addr": 4295308368
+          },
+          {
+            "name": "contactFetcher",
+            "kind": "property",
+            "addr": 4295308388
+          },
+          {
+            "name": "availabilityService",
+            "kind": "property",
+            "addr": 4295308416
+          },
+          {
+            "name": "delegate",
+            "kind": "property",
+            "addr": 4295308436
+          },
+          {
+            "name": "listener",
+            "kind": "property",
+            "addr": 4295308445
+          }
+        ]
+      },
+      {
+        "classname": "XPCEventObserver",
+        "addr": 338880,
+        "lang": "swift",
+        "index": 14,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.XPCEventObserver.0",
+            "lang": "swift",
+            "addr": 4295306240
+          },
+          {
+            "name": "1",
+            "flag": "method.XPCEventObserver.1",
+            "lang": "swift",
+            "addr": 4295306248
+          },
+          {
+            "name": "2",
+            "flag": "method.XPCEventObserver.2",
+            "lang": "swift",
+            "addr": 4295306256
+          },
+          {
+            "name": "3",
+            "flag": "method.XPCEventObserver.3",
+            "lang": "swift",
+            "addr": 4295306264
+          },
+          {
+            "name": "4",
+            "flag": "method.XPCEventObserver.4",
+            "lang": "swift",
+            "addr": 4295306272
+          },
+          {
+            "name": "5",
+            "flag": "method.XPCEventObserver.5",
+            "lang": "swift",
+            "addr": 4295306280
+          },
+          {
+            "name": "func.10002c190",
+            "flag": "method.XPCEventObserver.func.10002c190",
+            "lang": "swift",
+            "addr": 4295147920
+          },
+          {
+            "name": "func.10002c874",
+            "flag": "method.XPCEventObserver.func.10002c874",
+            "lang": "swift",
+            "addr": 4295149684
+          },
+          {
+            "name": "8",
+            "flag": "method.XPCEventObserver.8",
+            "lang": "swift",
+            "addr": 4295304248
+          }
+        ],
+        "fields": [
+          {
+            "name": "stream",
+            "kind": "property",
+            "addr": 4295308464
+          },
+          {
+            "name": "timelineControllerFactory",
+            "kind": "property",
+            "addr": 4295308480
+          },
+          {
+            "name": "flags",
+            "kind": "property",
+            "addr": 4295308506
+          },
+          {
+            "name": "handlers",
+            "kind": "property",
+            "type": "SDySSy\u0002=~",
+            "addr": 4295308512
+          }
+        ]
+      },
+      {
+        "classname": "XPCEvent",
+        "addr": 339036,
+        "lang": "swift",
+        "index": 15,
+        "fields": [
+          {
+            "name": "object",
+            "kind": "property",
+            "type": "\f{\u00ba\u00ff\u00ff_p",
+            "addr": 4295308521
+          }
+        ]
+      },
+      {
+        "classname": "XPCStreamHandler",
+        "addr": 339096,
+        "lang": "swift",
+        "index": 16
+      },
+      {
+        "classname": "FamilyStatusEventProcessor",
+        "addr": 339164,
+        "lang": "swift",
+        "index": 17,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.FamilyStatusEventProcessor.0",
+            "lang": "swift",
+            "addr": 4295339287
+          }
+        ],
+        "fields": [
+          {
+            "name": "statusType",
+            "kind": "property",
+            "addr": 4295308528
+          },
+          {
+            "name": "contactFetcher",
+            "kind": "property",
+            "addr": 4295308539
+          },
+          {
+            "name": "maxAge",
+            "kind": "property",
+            "addr": 4295308554
+          },
+          {
+            "name": "reader",
+            "kind": "property",
+            "addr": 4295308561
+          }
+        ]
+      },
+      {
+        "classname": "AvailabilitySubscriptionManager",
+        "addr": 339304,
+        "lang": "swift",
+        "index": 18,
+        "fields": [
+          {
+            "name": "subscriptionService",
+            "kind": "property",
+            "addr": 4295308576
+          },
+          {
+            "name": "widgetConfigurationReader",
+            "kind": "property",
+            "addr": 4295308608
+          },
+          {
+            "name": "contactFetcher",
+            "kind": "property",
+            "addr": 4295308634
+          }
+        ]
+      },
+      {
+        "classname": "ScreenTimeStatusSource",
+        "addr": 339380,
+        "lang": "swift",
+        "index": 19,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.ScreenTimeStatusSource.0",
+            "lang": "swift",
+            "addr": 4295306991
+          },
+          {
+            "name": "1",
+            "flag": "method.ScreenTimeStatusSource.1",
+            "lang": "swift",
+            "addr": 4295306842
+          }
+        ],
+        "fields": [
+          {
+            "name": "delegate",
+            "kind": "property",
+            "addr": 4295308649
+          },
+          {
+            "name": "featureFlags",
+            "kind": "property",
+            "addr": 4295308658
+          },
+          {
+            "name": "ttl",
+            "kind": "property",
+            "addr": 4295308671
+          },
+          {
+            "name": "indexer",
+            "kind": "property",
+            "addr": 4295308675
+          },
+          {
+            "name": "contactFetcher",
+            "kind": "property",
+            "addr": 4295308683
+          },
+          {
+            "name": "messageConduit",
+            "kind": "property",
+            "addr": 4295308698
+          },
+          {
+            "name": "listener",
+            "kind": "property",
+            "addr": 4295308713
+          }
+        ]
+      },
+      {
+        "classname": "ServiceDelegate",
+        "addr": 339452,
+        "lang": "swift",
+        "index": 20,
+        "fields": [
+          {
+            "name": "dispatcher",
+            "kind": "property",
+            "addr": 4295308736
+          },
+          {
+            "name": "statusManager",
+            "kind": "property",
+            "addr": 4295308747
+          },
+          {
+            "name": "availabilitySubscriptionManager",
+            "kind": "property",
+            "addr": 4295308768
+          }
+        ]
+      },
+      {
+        "classname": "RequestMessageSender",
+        "addr": 339560,
+        "lang": "swift",
+        "index": 21,
+        "fields": [
+          {
+            "name": "details",
+            "kind": "property",
+            "addr": 4295308800
+          },
+          {
+            "name": "messageConduit",
+            "kind": "property",
+            "addr": 4295308808
+          }
+        ]
+      },
+      {
+        "classname": "PeopleIndexingClient",
+        "addr": 339664,
+        "lang": "swift",
+        "index": 22,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ],
+        "fields": [
+          {
+            "name": "statusManager",
+            "kind": "property",
+            "addr": 4295308823
+          }
+        ]
+      },
+      {
+        "classname": "CalendarStatusSource",
+        "addr": 339756,
+        "lang": "swift",
+        "index": 23,
+        "fields": [
+          {
+            "name": "flags",
+            "kind": "property",
+            "addr": 4295308837
+          },
+          {
+            "name": "eventStore",
+            "kind": "property",
+            "type": "__C.EKEventStore",
+            "addr": 4295308843
+          },
+          {
+            "name": "contactStore",
+            "kind": "property",
+            "addr": 4295308854
+          },
+          {
+            "name": "delegate",
+            "kind": "property",
+            "addr": 4295308867
+          }
+        ]
+      },
+      {
+        "classname": "EventWithReason",
+        "addr": 339904,
+        "lang": "swift",
+        "index": 24,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "field.class.MissedCallStatusSource.property.contactFetcher",
+            "lang": "swift",
+            "addr": 4295307986
+          },
+          {
+            "name": "1",
+            "flag": "method.EventWithReason.1",
+            "lang": "swift",
+            "addr": 4295328219
+          }
+        ],
+        "fields": [
+          {
+            "name": "event",
+            "kind": "property",
+            "type": "__C.EKEvent",
+            "addr": 4295308876
+          },
+          {
+            "name": "reason",
+            "kind": "property",
+            "addr": 4295308882
+          }
+        ]
+      },
+      {
+        "classname": "Reason",
+        "addr": 339932,
+        "lang": "swift",
+        "index": 25,
+        "fields": [
+          {
+            "name": "attendee",
+            "kind": "property",
+            "addr": 4295308889
+          },
+          {
+            "name": "sharee",
+            "kind": "property",
+            "addr": 4295308898
+          }
+        ]
+      },
+      {
+        "classname": "WidgetSuggester",
+        "addr": 340056,
+        "lang": "swift",
+        "index": 26,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.WidgetSuggester.0",
+            "lang": "swift",
+            "addr": 4295307639
+          }
+        ],
+        "fields": [
+          {
+            "name": "contactFetcher",
+            "kind": "property",
+            "addr": 4295308912
+          },
+          {
+            "name": "relevantShortcutStore",
+            "kind": "property",
+            "addr": 4295308928
+          },
+          {
+            "name": "widgetConfigurationReader",
+            "kind": "property",
+            "addr": 4295308960
+          },
+          {
+            "name": "contactFormatter",
+            "kind": "property",
+            "addr": 4295308992
+          },
+          {
+            "name": "storage",
+            "kind": "property",
+            "addr": 4295309009
+          },
+          {
+            "name": "relevantIntentManager",
+            "kind": "property",
+            "addr": 4295309024
+          }
+        ]
+      },
+      {
+        "classname": "Relevance",
+        "addr": 340156,
+        "lang": "swift",
+        "index": 27,
+        "fields": [
+          {
+            "name": "duration",
+            "kind": "property",
+            "addr": 4295309046
+          }
+        ]
+      },
+      {
+        "classname": "MinMessageItem",
+        "addr": 4295352272,
+        "lang": "objc",
+        "index": 28,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWith:andText:",
+            "flag": "method.MinMessageItem.initWith:andText:",
+            "lang": "objc",
+            "addr": 4294975704
+          },
+          {
+            "name": "date",
+            "flag": "method.MinMessageItem.date",
+            "lang": "objc",
+            "addr": 4294975864
+          },
+          {
+            "name": "text",
+            "flag": "method.MinMessageItem.text",
+            "lang": "objc",
+            "addr": 4294975876
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.MinMessageItem..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294975888
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_date",
+            "kind": "var",
+            "type": "@\"NSDate\"",
+            "addr": 4295352224
+          },
+          {
+            "name": "_text",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295352228
+          },
+          {
+            "name": "date",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "text",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "IMCoreInterface",
+        "addr": 4295352352,
+        "lang": "objc",
+        "index": 29,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.IMCoreInterface.init",
+            "lang": "objc",
+            "addr": 4294977948
+          },
+          {
+            "name": "grabUnreadFor:completionHandler:",
+            "flag": "method.IMCoreInterface.grabUnreadFor:completionHandler:",
+            "lang": "objc",
+            "addr": 4294978004
+          },
+          {
+            "name": "logHandle",
+            "flag": "method.class.IMCoreInterface.logHandle",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294975956
+          },
+          {
+            "name": "checkAndClear:service:",
+            "flag": "method.class.IMCoreInterface.checkAndClear:service:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294976096
+          },
+          {
+            "name": "clearUnreadFor:andPhone:",
+            "flag": "method.class.IMCoreInterface.clearUnreadFor:andPhone:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294976508
+          },
+          {
+            "name": "checkWithWait:service:",
+            "flag": "method.class.IMCoreInterface.checkWithWait:service:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294976712
+          }
+        ]
+      },
+      {
+        "classname": "peopled.StatusManager",
+        "addr": 4295353648,
+        "lang": "objc",
+        "index": 30,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "statusSources",
+            "kind": "var",
+            "addr": 4295279696
+          },
+          {
+            "name": "statusEventListeners",
+            "kind": "var",
+            "addr": 4295279704
+          },
+          {
+            "name": "widgetConfigurationReader",
+            "kind": "var",
+            "addr": 4295279712
+          },
+          {
+            "name": "timelineControllerFactory",
+            "kind": "var",
+            "addr": 4295279720
+          },
+          {
+            "name": "widgetSuggester",
+            "kind": "var",
+            "addr": 4295279728
+          },
+          {
+            "name": "reindexHandlers",
+            "kind": "var",
+            "addr": 4295279736
+          }
+        ]
+      },
+      {
+        "classname": "peopled.WidgetConfigurationReader",
+        "addr": 4295353880,
+        "lang": "objc",
+        "index": 31,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "chronoConfigurationReader",
+            "kind": "var",
+            "addr": 4295279816
+          }
+        ]
+      },
+      {
+        "classname": "peopled.LocationStatusEventListener",
+        "addr": 4295354464,
+        "lang": "objc",
+        "index": 32,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "delegate",
+            "kind": "var",
+            "addr": 4295280192
+          },
+          {
+            "name": "listener",
+            "kind": "var",
+            "addr": 4295280200
+          },
+          {
+            "name": "featureFlags",
+            "kind": "var",
+            "addr": 4295280208
+          },
+          {
+            "name": "contactFetcher",
+            "kind": "var",
+            "addr": 4295280216
+          },
+          {
+            "name": "indexer",
+            "kind": "var",
+            "addr": 4295280224
+          },
+          {
+            "name": "friendLocateProvider",
+            "kind": "var",
+            "addr": 4295280232
+          },
+          {
+            "name": "widgetConfigurationReader",
+            "kind": "var",
+            "addr": 4295280240
+          }
+        ]
+      },
+      {
+        "classname": "peopled.ChildStateStatusSource",
+        "addr": 4295354912,
+        "lang": "objc",
+        "index": 33,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "listener",
+            "kind": "var",
+            "addr": 4295354904
+          },
+          {
+            "name": "delegate",
+            "kind": "var",
+            "addr": 4295280720
+          },
+          {
+            "name": "featureFlags",
+            "kind": "var",
+            "addr": 4295280728
+          },
+          {
+            "name": "downtimeClient",
+            "kind": "var",
+            "addr": 4295365816
+          },
+          {
+            "name": "contactFetcher",
+            "kind": "var",
+            "addr": 4295365808
+          },
+          {
+            "name": "ttl",
+            "kind": "var",
+            "addr": 4295365800
+          }
+        ]
+      },
+      {
+        "classname": "peopled.CallHistoryFetcher",
+        "addr": 4295355296,
+        "lang": "objc",
+        "index": 34,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ]
+      },
+      {
+        "classname": "peopled.MissedCallStatusSource",
+        "addr": 4295355456,
+        "lang": "objc",
+        "index": 35,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "delegate",
+            "kind": "var",
+            "addr": 4295281112
+          },
+          {
+            "name": "listener",
+            "kind": "var",
+            "addr": 4295281120
+          },
+          {
+            "name": "contactFetcher",
+            "kind": "var",
+            "addr": 4295281128
+          },
+          {
+            "name": "callHistoryFetcher",
+            "kind": "var",
+            "addr": 4295281136
+          },
+          {
+            "name": "featureFlags",
+            "kind": "var",
+            "addr": 4295281144
+          },
+          {
+            "name": "launchRecorder",
+            "kind": "var",
+            "addr": 4295281152
+          }
+        ]
+      },
+      {
+        "classname": "peopled.MessageFetcher",
+        "addr": 4295355928,
+        "lang": "objc",
+        "index": 36,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "interface",
+            "kind": "var",
+            "addr": 4295281560
+          }
+        ]
+      },
+      {
+        "classname": "peopled.IMessageStatusSource",
+        "addr": 4295356104,
+        "lang": "objc",
+        "index": 37,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "featureFlags",
+            "kind": "var",
+            "addr": 4295281600
+          },
+          {
+            "name": "launchRecorder",
+            "kind": "var",
+            "addr": 4295281608
+          },
+          {
+            "name": "contactFetcher",
+            "kind": "var",
+            "addr": 4295281616
+          },
+          {
+            "name": "messageFetcher",
+            "kind": "var",
+            "addr": 4295281624
+          },
+          {
+            "name": "readMessageListener",
+            "kind": "var",
+            "addr": 4295281632
+          },
+          {
+            "name": "delegate",
+            "kind": "var",
+            "addr": 4295281640
+          }
+        ]
+      },
+      {
+        "classname": "peopled.LocationStatusSource",
+        "addr": 4295356528,
+        "lang": "objc",
+        "index": 38,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "contactFetcher",
+            "kind": "var",
+            "addr": 4295282016
+          },
+          {
+            "name": "featureFlags",
+            "kind": "var",
+            "addr": 4295282024
+          },
+          {
+            "name": "friendLocateProvider",
+            "kind": "var",
+            "addr": 4295282032
+          }
+        ]
+      },
+      {
+        "classname": "peopled.AskToBuyStatusSource",
+        "addr": 4295356720,
+        "lang": "objc",
+        "index": 39,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "listener",
+            "kind": "var",
+            "addr": 4295356712
+          },
+          {
+            "name": "delegate",
+            "kind": "var",
+            "addr": 4295282192
+          },
+          {
+            "name": "featureFlags",
+            "kind": "var",
+            "addr": 4295365840
+          },
+          {
+            "name": "contactFetcher",
+            "kind": "var",
+            "addr": 4295365856
+          },
+          {
+            "name": "messageConduit",
+            "kind": "var",
+            "addr": 4295365864
+          },
+          {
+            "name": "ttl",
+            "kind": "var",
+            "addr": 4295365832
+          },
+          {
+            "name": "indexer",
+            "kind": "var",
+            "addr": 4295365848
+          }
+        ]
+      },
+      {
+        "classname": "peopled.XPCListener",
+        "addr": 4295357064,
+        "lang": "objc",
+        "index": 40,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "listener:shouldAcceptNewConnection:",
+            "flag": "method.peopled.XPCListener.listener:shouldAcceptNewConnection:",
+            "lang": "objc",
+            "addr": 4295137140
+          },
+          {
+            "name": "init",
+            "flag": "method.peopled.XPCListener.init",
+            "lang": "objc",
+            "addr": 4295136920
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.peopled.XPCListener..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295137008
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_listener",
+            "kind": "var",
+            "addr": 4295357040
+          },
+          {
+            "name": "_machServiceName",
+            "kind": "var",
+            "addr": 4295357048
+          },
+          {
+            "name": "eventObserver",
+            "kind": "var",
+            "addr": 4295357056
+          }
+        ]
+      },
+      {
+        "classname": "peopled.KettleStatusFetcher",
+        "addr": 4295357208,
+        "lang": "objc",
+        "index": 41,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ]
+      },
+      {
+        "classname": "peopled.DNDStatusSource",
+        "addr": 4295357368,
+        "lang": "objc",
+        "index": 42,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "featureFlags",
+            "kind": "var",
+            "addr": 4295282792
+          },
+          {
+            "name": "kettleStatusFetcher",
+            "kind": "var",
+            "addr": 4295282800
+          },
+          {
+            "name": "contactFetcher",
+            "kind": "var",
+            "addr": 4295282808
+          },
+          {
+            "name": "availabilityService",
+            "kind": "var",
+            "addr": 4295282816
+          },
+          {
+            "name": "delegate",
+            "kind": "var",
+            "addr": 4295282824
+          },
+          {
+            "name": "listener",
+            "kind": "var",
+            "addr": 4295282832
+          }
+        ]
+      },
+      {
+        "classname": "peopled.XPCEventObserver",
+        "addr": 4295357688,
+        "lang": "objc",
+        "index": 43,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "stream",
+            "kind": "var",
+            "addr": 4295283072
+          },
+          {
+            "name": "timelineControllerFactory",
+            "kind": "var",
+            "addr": 4295283080
+          },
+          {
+            "name": "flags",
+            "kind": "var",
+            "addr": 4295283088
+          },
+          {
+            "name": "handlers",
+            "kind": "var",
+            "addr": 4295283096
+          }
+        ]
+      },
+      {
+        "classname": "peopled.XPCStreamHandler",
+        "addr": 4295358032,
+        "lang": "objc",
+        "index": 44,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ]
+      },
+      {
+        "classname": "peopled.AvailabilitySubscriptionManager",
+        "addr": 4295358424,
+        "lang": "objc",
+        "index": 45,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "subscriptionService",
+            "kind": "var",
+            "addr": 4295283464
+          },
+          {
+            "name": "widgetConfigurationReader",
+            "kind": "var",
+            "addr": 4295283472
+          },
+          {
+            "name": "contactFetcher",
+            "kind": "var",
+            "addr": 4295283480
+          }
+        ]
+      },
+      {
+        "classname": "peopled.ScreenTimeStatusSource",
+        "addr": 4295358672,
+        "lang": "objc",
+        "index": 46,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "listener",
+            "kind": "var",
+            "addr": 4295358664
+          },
+          {
+            "name": "delegate",
+            "kind": "var",
+            "addr": 4295283584
+          },
+          {
+            "name": "featureFlags",
+            "kind": "var",
+            "addr": 4295283592
+          },
+          {
+            "name": "ttl",
+            "kind": "var",
+            "addr": 4295365912
+          },
+          {
+            "name": "indexer",
+            "kind": "var",
+            "addr": 4295365920
+          },
+          {
+            "name": "messageConduit",
+            "kind": "var",
+            "addr": 4295365936
+          },
+          {
+            "name": "contactFetcher",
+            "kind": "var",
+            "addr": 4295365928
+          }
+        ]
+      },
+      {
+        "classname": "peopled.ServiceDelegate",
+        "addr": 4295358952,
+        "lang": "objc",
+        "index": 47,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "methods": [
+          {
+            "name": "sendMessageWith:completion:",
+            "flag": "func.100033fa0",
+            "lang": "objc",
+            "addr": 4295180192
+          },
+          {
+            "name": "sendMessageWith:completion:",
+            "flag": "method.peopled.ServiceDelegate.sendMessageWith:completion:",
+            "lang": "objc",
+            "addr": 4295279416
+          },
+          {
+            "name": "sendMessageWith:completion:",
+            "flag": "method.peopled.ServiceDelegate.sendMessageWith:completion:",
+            "lang": "objc",
+            "addr": 4295279416
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "dispatcher",
+            "kind": "var",
+            "addr": 4295284048
+          },
+          {
+            "name": "statusManager",
+            "kind": "var",
+            "addr": 4295284056
+          },
+          {
+            "name": "availabilitySubscriptionManager",
+            "kind": "var",
+            "addr": 4295284064
+          }
+        ]
+      },
+      {
+        "classname": "peopled.RequestMessageSender",
+        "addr": 4295359256,
+        "lang": "objc",
+        "index": 48,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "details",
+            "kind": "var",
+            "addr": 4295359248
+          },
+          {
+            "name": "messageConduit",
+            "kind": "var",
+            "addr": 4295365952
+          }
+        ]
+      },
+      {
+        "classname": "peopled.PeopleIndexingClient",
+        "addr": 4295359496,
+        "lang": "objc",
+        "index": 49,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "provideDataForBundleID:protectionClass:itemIdentifier:typeIdentifier:options:completionHandler:",
+            "flag": "method.peopled.PeopleIndexingClient.provideDataForBundleID:protectionClass:itemIdentifier:typeIdentifier:options:completionHandler:",
+            "lang": "objc",
+            "addr": 4295206788
+          },
+          {
+            "name": "provideFileURLForBundleID:protectionClass:itemIdentifier:typeIdentifier:options:completionHandler:",
+            "flag": "method.peopled.PeopleIndexingClient.provideFileURLForBundleID:protectionClass:itemIdentifier:typeIdentifier:options:completionHandler:",
+            "lang": "objc",
+            "addr": 4295207408
+          },
+          {
+            "name": "reindexAllItemsForBundleID:protectionClass:acknowledgementHandler:",
+            "flag": "func.10003ae40",
+            "lang": "objc",
+            "addr": 4295208512
+          },
+          {
+            "name": "reindexItemsWithIdentifiers:bundleID:protectionClass:acknowledgementHandler:",
+            "flag": "method.peopled.PeopleIndexingClient.reindexItemsWithIdentifiers:bundleID:protectionClass:acknowledgementHandler:",
+            "lang": "objc",
+            "addr": 4295210968
+          },
+          {
+            "name": "init",
+            "flag": "method.peopled.PeopleIndexingClient.init",
+            "lang": "objc",
+            "addr": 4295212216
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.peopled.PeopleIndexingClient..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295212316
+          },
+          {
+            "name": "reindexAllItemsForBundleID:protectionClass:acknowledgementHandler:",
+            "flag": "method.peopled.PeopleIndexingClient.reindexAllItemsForBundleID:protectionClass:acknowledgementHandler:",
+            "lang": "objc",
+            "addr": 4295279392
+          },
+          {
+            "name": "reindexAllItemsForBundleID:protectionClass:acknowledgementHandler:",
+            "flag": "method.peopled.PeopleIndexingClient.reindexAllItemsForBundleID:protectionClass:acknowledgementHandler:",
+            "lang": "objc",
+            "addr": 4295279392
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "statusManager",
+            "kind": "var",
+            "addr": 4295359488
+          }
+        ]
+      },
+      {
+        "classname": "peopled.CalendarStatusSource",
+        "addr": 4295359632,
+        "lang": "objc",
+        "index": 50,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "flags",
+            "kind": "var",
+            "addr": 4295284592
+          },
+          {
+            "name": "eventStore",
+            "kind": "var",
+            "addr": 4295284600
+          },
+          {
+            "name": "contactStore",
+            "kind": "var",
+            "addr": 4295284608
+          },
+          {
+            "name": "delegate",
+            "kind": "var",
+            "addr": 4295284616
+          }
+        ]
+      },
+      {
+        "classname": "peopled.WidgetSuggester",
+        "addr": 4295360024,
+        "lang": "objc",
+        "index": 51,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "contactFetcher",
+            "kind": "var",
+            "addr": 4295285544
+          },
+          {
+            "name": "relevantShortcutStore",
+            "kind": "var",
+            "addr": 4295285552
+          },
+          {
+            "name": "widgetConfigurationReader",
+            "kind": "var",
+            "addr": 4295285560
+          },
+          {
+            "name": "contactFormatter",
+            "kind": "var",
+            "addr": 4295285568
+          },
+          {
+            "name": "storage",
+            "kind": "var",
+            "addr": 4295285576
+          },
+          {
+            "name": "relevantIntentManager",
+            "kind": "var",
+            "addr": 4295285584
+          }
+        ]
+      }
+    ],
+    "protocols": []
+  },
+  "usage": {
+    "layer": "usage",
+    "status": "not_implemented"
+  },
+  "runtime": {
+    "layer": "runtime",
+    "status": "not_implemented"
+  }
+}

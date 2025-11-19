@@ -1,0 +1,3127 @@
+{
+  "framework": "AssetCacheServices.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/AssetCacheServices.framework/Versions/A/XPCServices/AssetCacheLocatorService.xpc/Contents/MacOS/AssetCacheLocatorService",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 325344,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "objc with blocks",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/PrivateFrameworks/EAP8021X.framework/Versions/A/EAP8021X",
+          "/System/Library/Frameworks/CoreWLAN.framework/Versions/A/CoreWLAN",
+          "/System/Library/PrivateFrameworks/AssetCacheServices.framework/Versions/A/AssetCacheServices",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration",
+          "/usr/lib/libresolv.9.dylib",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+          "/System/Library/Frameworks/Security.framework/Versions/A/Security"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "NSString(ACLSAdditions)",
+        "addr": 4295229440,
+        "lang": "objc",
+        "index": 0,
+        "super": [
+          "NSString"
+        ],
+        "rawsuper": [
+          "NSString"
+        ],
+        "methods": [
+          {
+            "name": "stringByRemovingSystemDataPathPrefix",
+            "flag": "method.NSString_ACLSAdditions_.stringByRemovingSystemDataPathPrefix",
+            "lang": "objc",
+            "addr": 4294971432
+          }
+        ]
+      },
+      {
+        "classname": "ACLSTypeVerifier",
+        "addr": 4295240424,
+        "lang": "objc",
+        "index": 1,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithTemplate:",
+            "flag": "method.ACLSTypeVerifier.initWithTemplate:",
+            "lang": "objc",
+            "addr": 4294971588
+          },
+          {
+            "name": "verify:name:tag:",
+            "flag": "method.ACLSTypeVerifier.verify:name:tag:",
+            "lang": "objc",
+            "addr": 4294971700
+          },
+          {
+            "name": "sanitize:tag:",
+            "flag": "method.ACLSTypeVerifier.sanitize:tag:",
+            "lang": "objc",
+            "addr": 4294971856
+          },
+          {
+            "name": "verify:name:withTemplate:tag:",
+            "flag": "method.ACLSTypeVerifier.verify:name:withTemplate:tag:",
+            "lang": "objc",
+            "addr": 4294972000
+          },
+          {
+            "name": "sanitize:withTemplate:tag:",
+            "flag": "method.ACLSTypeVerifier.sanitize:withTemplate:tag:",
+            "lang": "objc",
+            "addr": 4294973876
+          },
+          {
+            "name": "template",
+            "flag": "method.ACLSTypeVerifier.template",
+            "lang": "objc",
+            "addr": 4294974992
+          },
+          {
+            "name": "setTemplate:",
+            "flag": "method.ACLSTypeVerifier.setTemplate:",
+            "lang": "objc",
+            "addr": 4294975004
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.ACLSTypeVerifier..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294975012
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_template",
+            "kind": "var",
+            "type": "@\"NSDictionary\"",
+            "addr": 4295240072
+          },
+          {
+            "name": "template",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "ACLSNetworkInterface",
+        "addr": 4295240464,
+        "lang": "objc",
+        "index": 2,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "description",
+            "flag": "method.ACLSNetworkInterface.description",
+            "lang": "objc",
+            "addr": 4294975024
+          },
+          {
+            "name": "ipAddress",
+            "flag": "method.ACLSNetworkInterface.ipAddress",
+            "lang": "objc",
+            "addr": 4294975404
+          },
+          {
+            "name": "setIpAddress:",
+            "flag": "method.ACLSNetworkInterface.setIpAddress:",
+            "lang": "objc",
+            "addr": 4294975416
+          },
+          {
+            "name": "bsdName",
+            "flag": "method.ACLSNetworkInterface.bsdName",
+            "lang": "objc",
+            "addr": 4294975424
+          },
+          {
+            "name": "setBsdName:",
+            "flag": "method.ACLSNetworkInterface.setBsdName:",
+            "lang": "objc",
+            "addr": 4294975436
+          },
+          {
+            "name": "deviceID",
+            "flag": "method.ACLSNetworkInterface.deviceID",
+            "lang": "objc",
+            "addr": 4294975444
+          },
+          {
+            "name": "setDeviceID:",
+            "flag": "method.ACLSNetworkInterface.setDeviceID:",
+            "lang": "objc",
+            "addr": 4294975456
+          },
+          {
+            "name": "userReadable",
+            "flag": "method.ACLSNetworkInterface.userReadable",
+            "lang": "objc",
+            "addr": 4294975464
+          },
+          {
+            "name": "setUserReadable:",
+            "flag": "method.ACLSNetworkInterface.setUserReadable:",
+            "lang": "objc",
+            "addr": 4294975476
+          },
+          {
+            "name": "locationID",
+            "flag": "method.ACLSNetworkInterface.locationID",
+            "lang": "objc",
+            "addr": 4294975484
+          },
+          {
+            "name": "setLocationID:",
+            "flag": "method.ACLSNetworkInterface.setLocationID:",
+            "lang": "objc",
+            "addr": 4294975496
+          },
+          {
+            "name": "wired",
+            "flag": "method.ACLSNetworkInterface.wired",
+            "lang": "objc",
+            "addr": 4294975504
+          },
+          {
+            "name": "setWired:",
+            "flag": "method.ACLSNetworkInterface.setWired:",
+            "lang": "objc",
+            "addr": 4294975516
+          },
+          {
+            "name": "speed",
+            "flag": "method.ACLSNetworkInterface.speed",
+            "lang": "objc",
+            "addr": 4294975524
+          },
+          {
+            "name": "setSpeed:",
+            "flag": "method.ACLSNetworkInterface.setSpeed:",
+            "lang": "objc",
+            "addr": 4294975532
+          },
+          {
+            "name": "interfaceType",
+            "flag": "method.ACLSNetworkInterface.interfaceType",
+            "lang": "objc",
+            "addr": 4294975540
+          },
+          {
+            "name": "setInterfaceType:",
+            "flag": "method.ACLSNetworkInterface.setInterfaceType:",
+            "lang": "objc",
+            "addr": 4294975552
+          },
+          {
+            "name": "isNCM",
+            "flag": "method.ACLSNetworkInterface.isNCM",
+            "lang": "objc",
+            "addr": 4294975560
+          },
+          {
+            "name": "setIsNCM:",
+            "flag": "method.ACLSNetworkInterface.setIsNCM:",
+            "lang": "objc",
+            "addr": 4294975572
+          },
+          {
+            "name": "shareable",
+            "flag": "method.ACLSNetworkInterface.shareable",
+            "lang": "objc",
+            "addr": 4294975580
+          },
+          {
+            "name": "setShareable:",
+            "flag": "method.ACLSNetworkInterface.setShareable:",
+            "lang": "objc",
+            "addr": 4294975592
+          },
+          {
+            "name": "useful",
+            "flag": "method.ACLSNetworkInterface.useful",
+            "lang": "objc",
+            "addr": 4294975600
+          },
+          {
+            "name": "setUseful:",
+            "flag": "method.ACLSNetworkInterface.setUseful:",
+            "lang": "objc",
+            "addr": 4294975612
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.ACLSNetworkInterface..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294975620
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_wired",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295240076
+          },
+          {
+            "name": "_isNCM",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295240080
+          },
+          {
+            "name": "_shareable",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295240084
+          },
+          {
+            "name": "_useful",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295240088
+          },
+          {
+            "name": "_ipAddress",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295240092
+          },
+          {
+            "name": "_bsdName",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295240096
+          },
+          {
+            "name": "_deviceID",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295240100
+          },
+          {
+            "name": "_userReadable",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295240104
+          },
+          {
+            "name": "_locationID",
+            "kind": "var",
+            "type": "@\"NSNumber\"",
+            "addr": 4295240108
+          },
+          {
+            "name": "_speed",
+            "kind": "var",
+            "type": "d",
+            "addr": 4295240112
+          },
+          {
+            "name": "_interfaceType",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295240116
+          },
+          {
+            "name": "ipAddress",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "bsdName",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "deviceID",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "userReadable",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "locationID",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "wired",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "interfaceType",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "isNCM",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "speed",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "shareable",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "useful",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "ACLSIPv4Range",
+        "addr": 4295240624,
+        "lang": "objc",
+        "index": 3,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithFirst:andLast:",
+            "flag": "method.ACLSIPv4Range.initWithFirst:andLast:",
+            "lang": "objc",
+            "addr": 4294975736
+          },
+          {
+            "name": "containsAddress:",
+            "flag": "method.ACLSIPv4Range.containsAddress:",
+            "lang": "objc",
+            "addr": 4294975900
+          },
+          {
+            "name": "description",
+            "flag": "method.ACLSIPv4Range.description",
+            "lang": "objc",
+            "addr": 4294975992
+          },
+          {
+            "name": "first",
+            "flag": "method.ACLSIPv4Range.first",
+            "lang": "objc",
+            "addr": 4294976228
+          },
+          {
+            "name": "setFirst:",
+            "flag": "method.ACLSIPv4Range.setFirst:",
+            "lang": "objc",
+            "addr": 4294976236
+          },
+          {
+            "name": "last",
+            "flag": "method.ACLSIPv4Range.last",
+            "lang": "objc",
+            "addr": 4294976244
+          },
+          {
+            "name": "setLast:",
+            "flag": "method.ACLSIPv4Range.setLast:",
+            "lang": "objc",
+            "addr": 4294976252
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_first",
+            "kind": "var",
+            "type": "{in_addr=\"s_addr\"I}",
+            "addr": 4295240120
+          },
+          {
+            "name": "_last",
+            "kind": "var",
+            "type": "{in_addr=\"s_addr\"I}",
+            "addr": 4295240124
+          },
+          {
+            "name": "first",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "last",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "ACLSIPv6Range",
+        "addr": 4295240704,
+        "lang": "objc",
+        "index": 4,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithFirst:andLast:",
+            "flag": "method.ACLSIPv6Range.initWithFirst:andLast:",
+            "lang": "objc",
+            "addr": 4294976260
+          },
+          {
+            "name": "containsAddress:",
+            "flag": "method.ACLSIPv6Range.containsAddress:",
+            "lang": "objc",
+            "addr": 4294976476
+          },
+          {
+            "name": "description",
+            "flag": "method.ACLSIPv6Range.description",
+            "lang": "objc",
+            "addr": 4294976640
+          },
+          {
+            "name": "first",
+            "flag": "method.ACLSIPv6Range.first",
+            "lang": "objc",
+            "addr": 4294976892
+          },
+          {
+            "name": "setFirst:",
+            "flag": "method.ACLSIPv6Range.setFirst:",
+            "lang": "objc",
+            "addr": 4294976952
+          },
+          {
+            "name": "last",
+            "flag": "method.ACLSIPv6Range.last",
+            "lang": "objc",
+            "addr": 4294977008
+          },
+          {
+            "name": "setLast:",
+            "flag": "method.ACLSIPv6Range.setLast:",
+            "lang": "objc",
+            "addr": 4294977068
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_first",
+            "kind": "var",
+            "type": "{in6_addr=\"__u6_addr\"(?=\"__u6_addr8\"[16C]\"__u6_addr16\"[8S]\"__u6_addr32\"[4I])}",
+            "addr": 4295240128
+          },
+          {
+            "name": "_last",
+            "kind": "var",
+            "type": "{in6_addr=\"__u6_addr\"(?=\"__u6_addr8\"[16C]\"__u6_addr16\"[8S]\"__u6_addr32\"[4I])}",
+            "addr": 4295240132
+          },
+          {
+            "name": "first",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "last",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "ACLSNetworkUtilities",
+        "addr": 4295240744,
+        "lang": "objc",
+        "index": 5,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "primaryNetworkInterfaceFromInterfaces:",
+            "flag": "method.class.ACLSNetworkUtilities.primaryNetworkInterfaceFromInterfaces:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294977124
+          },
+          {
+            "name": "allShareableUSBEthernetInterfacesFromInterfaces:",
+            "flag": "method.class.ACLSNetworkUtilities.allShareableUSBEthernetInterfacesFromInterfaces:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294977608
+          },
+          {
+            "name": "internetSharingBridgeInterfaceBSDNames",
+            "flag": "method.class.ACLSNetworkUtilities.internetSharingBridgeInterfaceBSDNames",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294977944
+          },
+          {
+            "name": "memberBSDNamesForBridgeInterface:",
+            "flag": "method.class.ACLSNetworkUtilities.memberBSDNamesForBridgeInterface:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294978576
+          },
+          {
+            "name": "ifbifconf_copy:",
+            "flag": "method.class.ACLSNetworkUtilities.ifbifconf_copy:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294978872
+          },
+          {
+            "name": "hasUsefulUSBEthernetInterface",
+            "flag": "method.class.ACLSNetworkUtilities.hasUsefulUSBEthernetInterface",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294979224
+          },
+          {
+            "name": "netmask4ContainingStartAddress:endAddress:",
+            "flag": "method.class.ACLSNetworkUtilities.netmask4ContainingStartAddress:endAddress:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294979232
+          },
+          {
+            "name": "allActiveNetworkInterfaces",
+            "flag": "method.class.ACLSNetworkUtilities.allActiveNetworkInterfaces",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294979568
+          },
+          {
+            "name": "speedFromEthernetMediaSubType:",
+            "flag": "method.class.ACLSNetworkUtilities.speedFromEthernetMediaSubType:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294982668
+          },
+          {
+            "name": "createNetworkInterface:service:configInfo:",
+            "flag": "method.class.ACLSNetworkUtilities.createNetworkInterface:service:configInfo:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294982820
+          },
+          {
+            "name": "isShareableSockaddr4:",
+            "flag": "method.class.ACLSNetworkUtilities.isShareableSockaddr4:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294984180
+          },
+          {
+            "name": "isShareableSockaddr6:",
+            "flag": "method.class.ACLSNetworkUtilities.isShareableSockaddr6:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294984188
+          },
+          {
+            "name": "isShareableInaddr4:",
+            "flag": "method.class.ACLSNetworkUtilities.isShareableInaddr4:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294984196
+          },
+          {
+            "name": "isShareableInaddr6:",
+            "flag": "method.class.ACLSNetworkUtilities.isShareableInaddr6:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294984264
+          },
+          {
+            "name": "isUsefulSockaddr4:",
+            "flag": "method.class.ACLSNetworkUtilities.isUsefulSockaddr4:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294984340
+          },
+          {
+            "name": "isUsefulSockaddr6:",
+            "flag": "method.class.ACLSNetworkUtilities.isUsefulSockaddr6:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294984348
+          },
+          {
+            "name": "isUsefulInaddr4:",
+            "flag": "method.class.ACLSNetworkUtilities.isUsefulInaddr4:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294984356
+          },
+          {
+            "name": "isUsefulInaddr6:",
+            "flag": "method.class.ACLSNetworkUtilities.isUsefulInaddr6:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294984396
+          },
+          {
+            "name": "isManualConfigMethod4:",
+            "flag": "method.class.ACLSNetworkUtilities.isManualConfigMethod4:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294984500
+          },
+          {
+            "name": "isManualConfigMethod6:",
+            "flag": "method.class.ACLSNetworkUtilities.isManualConfigMethod6:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294984520
+          },
+          {
+            "name": "isAutomaticConfigMethod4:",
+            "flag": "method.class.ACLSNetworkUtilities.isAutomaticConfigMethod4:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294984540
+          },
+          {
+            "name": "isAutomaticConfigMethod6:",
+            "flag": "method.class.ACLSNetworkUtilities.isAutomaticConfigMethod6:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294984724
+          },
+          {
+            "name": "isWiredNetworkInterfaceType:",
+            "flag": "method.class.ACLSNetworkUtilities.isWiredNetworkInterfaceType:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294984744
+          },
+          {
+            "name": "serviceIDFromKey:",
+            "flag": "method.class.ACLSNetworkUtilities.serviceIDFromKey:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294984968
+          },
+          {
+            "name": "stringFromInaddr4:",
+            "flag": "method.class.ACLSNetworkUtilities.stringFromInaddr4:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294985204
+          },
+          {
+            "name": "stringFromInaddr6:",
+            "flag": "method.class.ACLSNetworkUtilities.stringFromInaddr6:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294985344
+          },
+          {
+            "name": "stringFromMacAddr:",
+            "flag": "method.class.ACLSNetworkUtilities.stringFromMacAddr:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294985492
+          },
+          {
+            "name": "stringFromSockaddr4:",
+            "flag": "method.class.ACLSNetworkUtilities.stringFromSockaddr4:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294985576
+          },
+          {
+            "name": "stringFromSockaddr6:",
+            "flag": "method.class.ACLSNetworkUtilities.stringFromSockaddr6:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294985584
+          },
+          {
+            "name": "stringFromSockaddrDL:",
+            "flag": "method.class.ACLSNetworkUtilities.stringFromSockaddrDL:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294985592
+          },
+          {
+            "name": "stringFromSockaddrStorage:",
+            "flag": "method.class.ACLSNetworkUtilities.stringFromSockaddrStorage:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294985908
+          },
+          {
+            "name": "makeLocalAddresses:andGatewayIdentifiers:tag:",
+            "flag": "method.class.ACLSNetworkUtilities.makeLocalAddresses:andGatewayIdentifiers:tag:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294986060
+          },
+          {
+            "name": "digestIdentifier:tag:",
+            "flag": "method.class.ACLSNetworkUtilities.digestIdentifier:tag:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294990168
+          },
+          {
+            "name": "digestIdentifiers:tag:",
+            "flag": "method.class.ACLSNetworkUtilities.digestIdentifiers:tag:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294990776
+          },
+          {
+            "name": "isDigestedIdentifier:equalToCleartextIdentifier:tag:",
+            "flag": "method.class.ACLSNetworkUtilities.isDigestedIdentifier:equalToCleartextIdentifier:tag:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294991156
+          },
+          {
+            "name": "areDigestedIdentifiers:equalToCleartextIdentifiers:tag:",
+            "flag": "method.class.ACLSNetworkUtilities.areDigestedIdentifiers:equalToCleartextIdentifiers:tag:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294991836
+          }
+        ]
+      },
+      {
+        "classname": "ACLSImportDelegate",
+        "addr": 4295240824,
+        "lang": "objc",
+        "index": 6,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithFileHandle:fileOffset:length:callback:callbackQueue:tag:",
+            "flag": "method.ACLSImportDelegate.initWithFileHandle:fileOffset:length:callback:callbackQueue:tag:",
+            "lang": "objc",
+            "addr": 4294992384
+          },
+          {
+            "name": "URLSession:didReceiveChallenge:completionHandler:",
+            "flag": "method.ACLSImportDelegate.URLSession:didReceiveChallenge:completionHandler:",
+            "lang": "objc",
+            "addr": 4294992640
+          },
+          {
+            "name": "URLSession:task:didReceiveChallenge:completionHandler:",
+            "flag": "method.ACLSImportDelegate.URLSession:task:didReceiveChallenge:completionHandler:",
+            "lang": "objc",
+            "addr": 4294992984
+          },
+          {
+            "name": "URLSession:task:needNewBodyStream:",
+            "flag": "method.ACLSImportDelegate.URLSession:task:needNewBodyStream:",
+            "lang": "objc",
+            "addr": 4294993360
+          },
+          {
+            "name": "URLSession:task:didCompleteWithError:",
+            "flag": "method.ACLSImportDelegate.URLSession:task:didCompleteWithError:",
+            "lang": "objc",
+            "addr": 4294993804
+          },
+          {
+            "name": "URLSession:dataTask:didReceiveResponse:completionHandler:",
+            "flag": "method.ACLSImportDelegate.URLSession:dataTask:didReceiveResponse:completionHandler:",
+            "lang": "objc",
+            "addr": 4294994684
+          },
+          {
+            "name": "URLSession:dataTask:willCacheResponse:completionHandler:",
+            "flag": "method.ACLSImportDelegate.URLSession:dataTask:willCacheResponse:completionHandler:",
+            "lang": "objc",
+            "addr": 4294995120
+          },
+          {
+            "name": "fileHandle",
+            "flag": "method.ACLSImportDelegate.fileHandle",
+            "lang": "objc",
+            "addr": 4294995140
+          },
+          {
+            "name": "setFileHandle:",
+            "flag": "method.ACLSImportDelegate.setFileHandle:",
+            "lang": "objc",
+            "addr": 4294995152
+          },
+          {
+            "name": "fileOffset",
+            "flag": "method.ACLSImportDelegate.fileOffset",
+            "lang": "objc",
+            "addr": 4294995160
+          },
+          {
+            "name": "setFileOffset:",
+            "flag": "method.ACLSImportDelegate.setFileOffset:",
+            "lang": "objc",
+            "addr": 4294995168
+          },
+          {
+            "name": "length",
+            "flag": "method.ACLSImportDelegate.length",
+            "lang": "objc",
+            "addr": 4294995176
+          },
+          {
+            "name": "setLength:",
+            "flag": "method.ACLSImportDelegate.setLength:",
+            "lang": "objc",
+            "addr": 4294995184
+          },
+          {
+            "name": "callback",
+            "flag": "method.ACLSImportDelegate.callback",
+            "lang": "objc",
+            "addr": 4294995192
+          },
+          {
+            "name": "setCallback:",
+            "flag": "method.ACLSImportDelegate.setCallback:",
+            "lang": "objc",
+            "addr": 4294995204
+          },
+          {
+            "name": "callbackQueue",
+            "flag": "method.ACLSImportDelegate.callbackQueue",
+            "lang": "objc",
+            "addr": 4294995212
+          },
+          {
+            "name": "setCallbackQueue:",
+            "flag": "method.ACLSImportDelegate.setCallbackQueue:",
+            "lang": "objc",
+            "addr": 4294995224
+          },
+          {
+            "name": "tag",
+            "flag": "method.ACLSImportDelegate.tag",
+            "lang": "objc",
+            "addr": 4294995232
+          },
+          {
+            "name": "setTag:",
+            "flag": "method.ACLSImportDelegate.setTag:",
+            "lang": "objc",
+            "addr": 4294995240
+          },
+          {
+            "name": "responseCode",
+            "flag": "method.ACLSImportDelegate.responseCode",
+            "lang": "objc",
+            "addr": 4294995248
+          },
+          {
+            "name": "setResponseCode:",
+            "flag": "method.ACLSImportDelegate.setResponseCode:",
+            "lang": "objc",
+            "addr": 4294995256
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.ACLSImportDelegate..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294995264
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_tag",
+            "kind": "var",
+            "type": "I",
+            "addr": 4295240136
+          },
+          {
+            "name": "_responseCode",
+            "kind": "var",
+            "type": "i",
+            "addr": 4295240140
+          },
+          {
+            "name": "_fileHandle",
+            "kind": "var",
+            "type": "@\"NSFileHandle\"",
+            "addr": 4295240144
+          },
+          {
+            "name": "_fileOffset",
+            "kind": "var",
+            "type": "Q",
+            "addr": 4295240148
+          },
+          {
+            "name": "_length",
+            "kind": "var",
+            "type": "Q",
+            "addr": 4295240152
+          },
+          {
+            "name": "_callback",
+            "kind": "var",
+            "type": "@?",
+            "addr": 4295240156
+          },
+          {
+            "name": "_callbackQueue",
+            "kind": "var",
+            "type": "@\"NSObject<OS_dispatch_queue>\"",
+            "addr": 4295240160
+          },
+          {
+            "name": "fileHandle",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "fileOffset",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "length",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "callback",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "callbackQueue",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "tag",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "responseCode",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "ACLSFileHandleInputStream",
+        "addr": 4295240904,
+        "lang": "objc",
+        "index": 7,
+        "super": [
+          "NSInputStream"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSInputStream"
+        ],
+        "methods": [
+          {
+            "name": "initWithFileHandle:fileOffset:length:",
+            "flag": "method.ACLSFileHandleInputStream.initWithFileHandle:fileOffset:length:",
+            "lang": "objc",
+            "addr": 4294995424
+          },
+          {
+            "name": "open",
+            "flag": "method.ACLSFileHandleInputStream.open",
+            "lang": "objc",
+            "addr": 4294995612
+          },
+          {
+            "name": "close",
+            "flag": "method.ACLSFileHandleInputStream.close",
+            "lang": "objc",
+            "addr": 4294995632
+          },
+          {
+            "name": "streamStatus",
+            "flag": "method.ACLSFileHandleInputStream.streamStatus",
+            "lang": "objc",
+            "addr": 4294995652
+          },
+          {
+            "name": "streamError",
+            "flag": "method.ACLSFileHandleInputStream.streamError",
+            "lang": "objc",
+            "addr": 4294995736
+          },
+          {
+            "name": "_scheduleInCFRunLoop:forMode:",
+            "flag": "method.ACLSFileHandleInputStream._scheduleInCFRunLoop:forMode:",
+            "lang": "objc",
+            "addr": 4294995744
+          },
+          {
+            "name": "_setCFClientFlags:callback:context:",
+            "flag": "method.ACLSFileHandleInputStream._setCFClientFlags:callback:context:",
+            "lang": "objc",
+            "addr": 4294995748
+          },
+          {
+            "name": "_unscheduleFromCFRunLoop:forMode:",
+            "flag": "method.ACLSFileHandleInputStream._unscheduleFromCFRunLoop:forMode:",
+            "lang": "objc",
+            "addr": 4294995756
+          },
+          {
+            "name": "read:maxLength:",
+            "flag": "method.ACLSFileHandleInputStream.read:maxLength:",
+            "lang": "objc",
+            "addr": 4294995760
+          },
+          {
+            "name": "getBuffer:length:",
+            "flag": "method.ACLSFileHandleInputStream.getBuffer:length:",
+            "lang": "objc",
+            "addr": 4294995892
+          },
+          {
+            "name": "hasBytesAvailable",
+            "flag": "method.ACLSFileHandleInputStream.hasBytesAvailable",
+            "lang": "objc",
+            "addr": 4294995900
+          },
+          {
+            "name": "fileHandle",
+            "flag": "method.ACLSFileHandleInputStream.fileHandle",
+            "lang": "objc",
+            "addr": 4294995936
+          },
+          {
+            "name": "setFileHandle:",
+            "flag": "method.ACLSFileHandleInputStream.setFileHandle:",
+            "lang": "objc",
+            "addr": 4294995952
+          },
+          {
+            "name": "fileOffset",
+            "flag": "method.ACLSFileHandleInputStream.fileOffset",
+            "lang": "objc",
+            "addr": 4294995964
+          },
+          {
+            "name": "setFileOffset:",
+            "flag": "method.ACLSFileHandleInputStream.setFileOffset:",
+            "lang": "objc",
+            "addr": 4294995980
+          },
+          {
+            "name": "fileEndOffset",
+            "flag": "method.ACLSFileHandleInputStream.fileEndOffset",
+            "lang": "objc",
+            "addr": 4294995996
+          },
+          {
+            "name": "setFileEndOffset:",
+            "flag": "method.ACLSFileHandleInputStream.setFileEndOffset:",
+            "lang": "objc",
+            "addr": 4294996012
+          },
+          {
+            "name": "status",
+            "flag": "method.ACLSFileHandleInputStream.status",
+            "lang": "objc",
+            "addr": 4294996028
+          },
+          {
+            "name": "setStatus:",
+            "flag": "method.ACLSFileHandleInputStream.setStatus:",
+            "lang": "objc",
+            "addr": 4294996044
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.ACLSFileHandleInputStream..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294996060
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_fileHandle",
+            "kind": "var",
+            "type": "@\"NSFileHandle\"",
+            "addr": 4295240164
+          },
+          {
+            "name": "_fileOffset",
+            "kind": "var",
+            "type": "q",
+            "addr": 4295240168
+          },
+          {
+            "name": "_fileEndOffset",
+            "kind": "var",
+            "type": "q",
+            "addr": 4295240172
+          },
+          {
+            "name": "_status",
+            "kind": "var",
+            "type": "Q",
+            "addr": 4295240176
+          },
+          {
+            "name": "fileHandle",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "fileOffset",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "fileEndOffset",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "status",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "AssetCacheLocatorService",
+        "addr": 4295240984,
+        "lang": "objc",
+        "index": 8,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.AssetCacheLocatorService.init",
+            "lang": "objc",
+            "addr": 4294996080
+          },
+          {
+            "name": "sandbox",
+            "flag": "method.AssetCacheLocatorService.sandbox",
+            "lang": "objc",
+            "addr": 4295005820
+          },
+          {
+            "name": "amRunningOnMyQueue",
+            "flag": "method.AssetCacheLocatorService.amRunningOnMyQueue",
+            "lang": "objc",
+            "addr": 4295006564
+          },
+          {
+            "name": "amRunningInMySingleLocate:",
+            "flag": "method.AssetCacheLocatorService.amRunningInMySingleLocate:",
+            "lang": "objc",
+            "addr": 4295006644
+          },
+          {
+            "name": "objectWithError:",
+            "flag": "method.AssetCacheLocatorService.objectWithError:",
+            "lang": "objc",
+            "addr": 4295006688
+          },
+          {
+            "name": "errorWithObject:fromService:tag:",
+            "flag": "method.AssetCacheLocatorService.errorWithObject:fromService:tag:",
+            "lang": "objc",
+            "addr": 4295006940
+          },
+          {
+            "name": "NSObjectFromXPCObject:tag:",
+            "flag": "method.AssetCacheLocatorService.NSObjectFromXPCObject:tag:",
+            "lang": "objc",
+            "addr": 4295007296
+          },
+          {
+            "name": "XPCObjectFromNSObject:tag:",
+            "flag": "method.AssetCacheLocatorService.XPCObjectFromNSObject:tag:",
+            "lang": "objc",
+            "addr": 4295008248
+          },
+          {
+            "name": "servers:byAppendingServers:",
+            "flag": "method.AssetCacheLocatorService.servers:byAppendingServers:",
+            "lang": "objc",
+            "addr": 4295009104
+          },
+          {
+            "name": "choose:fromArray:sorted:other:tag:",
+            "flag": "method.AssetCacheLocatorService.choose:fromArray:sorted:other:tag:",
+            "lang": "objc",
+            "addr": 4295009264
+          },
+          {
+            "name": "start",
+            "flag": "method.AssetCacheLocatorService.start",
+            "lang": "objc",
+            "addr": 4295010640
+          },
+          {
+            "name": "handleConnection:",
+            "flag": "method.AssetCacheLocatorService.handleConnection:",
+            "lang": "objc",
+            "addr": 4295011784
+          },
+          {
+            "name": "handleEvent:forConnection:",
+            "flag": "method.AssetCacheLocatorService.handleEvent:forConnection:",
+            "lang": "objc",
+            "addr": 4295012304
+          },
+          {
+            "name": "handleLocateEvent:forConnection:tag:",
+            "flag": "method.AssetCacheLocatorService.handleLocateEvent:forConnection:tag:",
+            "lang": "objc",
+            "addr": 4295014256
+          },
+          {
+            "name": "handleRecentlySeenEvent:forConnection:tag:",
+            "flag": "method.AssetCacheLocatorService.handleRecentlySeenEvent:forConnection:tag:",
+            "lang": "objc",
+            "addr": 4295019024
+          },
+          {
+            "name": "handleUpdateHealthEvent:forConnection:tag:",
+            "flag": "method.AssetCacheLocatorService.handleUpdateHealthEvent:forConnection:tag:",
+            "lang": "objc",
+            "addr": 4295020652
+          },
+          {
+            "name": "handleImportEvent:forConnection:tag:",
+            "flag": "method.AssetCacheLocatorService.handleImportEvent:forConnection:tag:",
+            "lang": "objc",
+            "addr": 4295021572
+          },
+          {
+            "name": "handleIntrospectEvent:forConnection:tag:",
+            "flag": "method.AssetCacheLocatorService.handleIntrospectEvent:forConnection:tag:",
+            "lang": "objc",
+            "addr": 4295024176
+          },
+          {
+            "name": "handleSetTestFlagsEvent:forConnection:tag:",
+            "flag": "method.AssetCacheLocatorService.handleSetTestFlagsEvent:forConnection:tag:",
+            "lang": "objc",
+            "addr": 4295026656
+          },
+          {
+            "name": "doesConnection:haveEntitlement:",
+            "flag": "method.AssetCacheLocatorService.doesConnection:haveEntitlement:",
+            "lang": "objc",
+            "addr": 4295026720
+          },
+          {
+            "name": "makeSoftwareVersions",
+            "flag": "method.AssetCacheLocatorService.makeSoftwareVersions",
+            "lang": "objc",
+            "addr": 4295026800
+          },
+          {
+            "name": "networkChanged",
+            "flag": "method.AssetCacheLocatorService.networkChanged",
+            "lang": "objc",
+            "addr": 4295027796
+          },
+          {
+            "name": "watchForNetworkChanges",
+            "flag": "method.AssetCacheLocatorService.watchForNetworkChanges",
+            "lang": "objc",
+            "addr": 4295028216
+          },
+          {
+            "name": "makeLocalAddresses:andGatewayIdentifiers:tag:",
+            "flag": "method.AssetCacheLocatorService.makeLocalAddresses:andGatewayIdentifiers:tag:",
+            "lang": "objc",
+            "addr": 4295028864
+          },
+          {
+            "name": "safeString:length:forceHex:",
+            "flag": "method.AssetCacheLocatorService.safeString:length:forceHex:",
+            "lang": "objc",
+            "addr": 4295029424
+          },
+          {
+            "name": "makeRangesFromDNSRecordNamed:withType:data:length:more:error:tag:",
+            "flag": "method.AssetCacheLocatorService.makeRangesFromDNSRecordNamed:withType:data:length:more:error:tag:",
+            "lang": "objc",
+            "addr": 4295029612
+          },
+          {
+            "name": "resolveDNSRecordNamed:withTimeout:errorIfNotFound:callback:callbackQueue:tag:",
+            "flag": "method.AssetCacheLocatorService.resolveDNSRecordNamed:withTimeout:errorIfNotFound:callback:callbackQueue:tag:",
+            "lang": "objc",
+            "addr": 4295032608
+          },
+          {
+            "name": "resolveDNSRecordsWithTimeout:callback:callbackQueue:tag:",
+            "flag": "method.AssetCacheLocatorService.resolveDNSRecordsWithTimeout:callback:callbackQueue:tag:",
+            "lang": "objc",
+            "addr": 4295037904
+          },
+          {
+            "name": "sanitizeRanges:fromSource:tag:",
+            "flag": "method.AssetCacheLocatorService.sanitizeRanges:fromSource:tag:",
+            "lang": "objc",
+            "addr": 4295042260
+          },
+          {
+            "name": "makeBootTimeWithTag:",
+            "flag": "method.AssetCacheLocatorService.makeBootTimeWithTag:",
+            "lang": "objc",
+            "addr": 4295043760
+          },
+          {
+            "name": "loadDiskCacheWithTag:",
+            "flag": "method.AssetCacheLocatorService.loadDiskCacheWithTag:",
+            "lang": "objc",
+            "addr": 4295044084
+          },
+          {
+            "name": "transferVolatileStateFromDiskCache:toDiskCache:tag:",
+            "flag": "method.AssetCacheLocatorService.transferVolatileStateFromDiskCache:toDiskCache:tag:",
+            "lang": "objc",
+            "addr": 4295047524
+          },
+          {
+            "name": "saveDiskCacheWithTag:",
+            "flag": "method.AssetCacheLocatorService.saveDiskCacheWithTag:",
+            "lang": "objc",
+            "addr": 4295049196
+          },
+          {
+            "name": "updateDiskCacheRefreshTimerWithTag:",
+            "flag": "method.AssetCacheLocatorService.updateDiskCacheRefreshTimerWithTag:",
+            "lang": "objc",
+            "addr": 4295050088
+          },
+          {
+            "name": "cachedServers:forNetworkIdentifiers:validityInterval:tag:",
+            "flag": "method.AssetCacheLocatorService.cachedServers:forNetworkIdentifiers:validityInterval:tag:",
+            "lang": "objc",
+            "addr": 4295051744
+          },
+          {
+            "name": "cachedEntryCalled:withKey:forNetworkIdentifiers:validityInterval:tag:",
+            "flag": "method.AssetCacheLocatorService.cachedEntryCalled:withKey:forNetworkIdentifiers:validityInterval:tag:",
+            "lang": "objc",
+            "addr": 4295051900
+          },
+          {
+            "name": "cacheServers:forNetworkIdentifiers:validityInterval:tag:",
+            "flag": "method.AssetCacheLocatorService.cacheServers:forNetworkIdentifiers:validityInterval:tag:",
+            "lang": "objc",
+            "addr": 4295052952
+          },
+          {
+            "name": "uncacheServersForNetworkIdentifiers:tag:",
+            "flag": "method.AssetCacheLocatorService.uncacheServersForNetworkIdentifiers:tag:",
+            "lang": "objc",
+            "addr": 4295053892
+          },
+          {
+            "name": "uncacheEntriesCalled:withKey:forNetworkIdentifiers:tag:",
+            "flag": "method.AssetCacheLocatorService.uncacheEntriesCalled:withKey:forNetworkIdentifiers:tag:",
+            "lang": "objc",
+            "addr": 4295053920
+          },
+          {
+            "name": "anyCachedServersWithTag:",
+            "flag": "method.AssetCacheLocatorService.anyCachedServersWithTag:",
+            "lang": "objc",
+            "addr": 4295054712
+          },
+          {
+            "name": "uncacheAllServersWithTag:",
+            "flag": "method.AssetCacheLocatorService.uncacheAllServersWithTag:",
+            "lang": "objc",
+            "addr": 4295054840
+          },
+          {
+            "name": "cachedDNSPublicAddressRanges:andFavoredServerRanges:forNetworkIdentifiers:tag:",
+            "flag": "method.AssetCacheLocatorService.cachedDNSPublicAddressRanges:andFavoredServerRanges:forNetworkIdentifiers:tag:",
+            "lang": "objc",
+            "addr": 4295055044
+          },
+          {
+            "name": "cacheDNSPublicAddressRanges:andFavoredServerRanges:forNetworkIdentifiers:validityInterval:tag:",
+            "flag": "method.AssetCacheLocatorService.cacheDNSPublicAddressRanges:andFavoredServerRanges:forNetworkIdentifiers:validityInterval:tag:",
+            "lang": "objc",
+            "addr": 4295055252
+          },
+          {
+            "name": "uncacheDNSPublicAddressRangesAndFavoredServerRangesForNetworkIdentifiers:tag:",
+            "flag": "method.AssetCacheLocatorService.uncacheDNSPublicAddressRangesAndFavoredServerRangesForNetworkIdentifiers:tag:",
+            "lang": "objc",
+            "addr": 4295056064
+          },
+          {
+            "name": "cachedRecentlySeen:forNetworkIdentifiers:validityInterval:tag:",
+            "flag": "method.AssetCacheLocatorService.cachedRecentlySeen:forNetworkIdentifiers:validityInterval:tag:",
+            "lang": "objc",
+            "addr": 4295056092
+          },
+          {
+            "name": "cacheRecentlySeen:forNetworkIdentifiers:validityInterval:tag:",
+            "flag": "method.AssetCacheLocatorService.cacheRecentlySeen:forNetworkIdentifiers:validityInterval:tag:",
+            "lang": "objc",
+            "addr": 4295056224
+          },
+          {
+            "name": "cacheNotRecentlySeenForNetworkIdentifiers:tag:",
+            "flag": "method.AssetCacheLocatorService.cacheNotRecentlySeenForNetworkIdentifiers:tag:",
+            "lang": "objc",
+            "addr": 4295057052
+          },
+          {
+            "name": "uncacheRecentlySeenForNetworkIdentifiers:tag:",
+            "flag": "method.AssetCacheLocatorService.uncacheRecentlySeenForNetworkIdentifiers:tag:",
+            "lang": "objc",
+            "addr": 4295057232
+          },
+          {
+            "name": "uncacheAllRecentlySeenWithTag:",
+            "flag": "method.AssetCacheLocatorService.uncacheAllRecentlySeenWithTag:",
+            "lang": "objc",
+            "addr": 4295057260
+          },
+          {
+            "name": "cachedConfigurationProfilesLastModifiedWithTag:",
+            "flag": "method.AssetCacheLocatorService.cachedConfigurationProfilesLastModifiedWithTag:",
+            "lang": "objc",
+            "addr": 4295057464
+          },
+          {
+            "name": "cacheConfigurationProfilesLastModified:tag:",
+            "flag": "method.AssetCacheLocatorService.cacheConfigurationProfilesLastModified:tag:",
+            "lang": "objc",
+            "addr": 4295057680
+          },
+          {
+            "name": "configurationProfilesLastModifiedWithTag:",
+            "flag": "method.AssetCacheLocatorService.configurationProfilesLastModifiedWithTag:",
+            "lang": "objc",
+            "addr": 4295057900
+          },
+          {
+            "name": "loadConfigurationProfilesWithTag:",
+            "flag": "method.AssetCacheLocatorService.loadConfigurationProfilesWithTag:",
+            "lang": "objc",
+            "addr": 4295058516
+          },
+          {
+            "name": "publicAddressRanges:andFavoredServerRanges:fromConfigurationProfiles:tag:",
+            "flag": "method.AssetCacheLocatorService.publicAddressRanges:andFavoredServerRanges:fromConfigurationProfiles:tag:",
+            "lang": "objc",
+            "addr": 4295060064
+          },
+          {
+            "name": "localhostServiceIDWithTag:",
+            "flag": "method.AssetCacheLocatorService.localhostServiceIDWithTag:",
+            "lang": "objc",
+            "addr": 4295060824
+          },
+          {
+            "name": "locateLocalhostCachingServersWithTimeout:callback:callbackQueue:tag:",
+            "flag": "method.AssetCacheLocatorService.locateLocalhostCachingServersWithTimeout:callback:callbackQueue:tag:",
+            "lang": "objc",
+            "addr": 4295060836
+          },
+          {
+            "name": "locateLocalCachingServersWithHeaders:body:timeout:favoredServerRanges:callback:callbackQueue:tag:",
+            "flag": "method.AssetCacheLocatorService.locateLocalCachingServersWithHeaders:body:timeout:favoredServerRanges:callback:callbackQueue:tag:",
+            "lang": "objc",
+            "addr": 4295067792
+          },
+          {
+            "name": "parseLocateResponse:withFavoredServerRanges:intoServers:validityInterval:error:tag:",
+            "flag": "method.AssetCacheLocatorService.parseLocateResponse:withFavoredServerRanges:intoServers:validityInterval:error:tag:",
+            "lang": "objc",
+            "addr": 4295071216
+          },
+          {
+            "name": "locateLocalCachingServersWithTimeout:localAddresses:gatewayIdentifiers:configurationProfiles:forceDNSRefresh:callback:callbackQueue:tag:",
+            "flag": "method.AssetCacheLocatorService.locateLocalCachingServersWithTimeout:localAddresses:gatewayIdentifiers:configurationProfiles:forceDNSRefresh:callback:callbackQueue:tag:",
+            "lang": "objc",
+            "addr": 4295075152
+          },
+          {
+            "name": "doesServer:haveCapabilities:tag:",
+            "flag": "method.AssetCacheLocatorService.doesServer:haveCapabilities:tag:",
+            "lang": "objc",
+            "addr": 4295079248
+          },
+          {
+            "name": "serversFromArray:withCapabilities:tag:",
+            "flag": "method.AssetCacheLocatorService.serversFromArray:withCapabilities:tag:",
+            "lang": "objc",
+            "addr": 4295080364
+          },
+          {
+            "name": "refineServers:intoBest:andOther:tag:",
+            "flag": "method.AssetCacheLocatorService.refineServers:intoBest:andOther:tag:",
+            "lang": "objc",
+            "addr": 4295081136
+          },
+          {
+            "name": "cachedServers:forAffinityID:tag:",
+            "flag": "method.AssetCacheLocatorService.cachedServers:forAffinityID:tag:",
+            "lang": "objc",
+            "addr": 4295082204
+          },
+          {
+            "name": "cacheServers:forAffinityID:tag:",
+            "flag": "method.AssetCacheLocatorService.cacheServers:forAffinityID:tag:",
+            "lang": "objc",
+            "addr": 4295083172
+          },
+          {
+            "name": "queryServersFromArray:forReachabilityOrAffinityID:withTimeout:callbackWithServers:callbackQueue:tag:",
+            "flag": "method.AssetCacheLocatorService.queryServersFromArray:forReachabilityOrAffinityID:withTimeout:callbackWithServers:callbackQueue:tag:",
+            "lang": "objc",
+            "addr": 4295083812
+          },
+          {
+            "name": "uncacheAllAffinitiesWithTag:",
+            "flag": "method.AssetCacheLocatorService.uncacheAllAffinitiesWithTag:",
+            "lang": "objc",
+            "addr": 4295091744
+          },
+          {
+            "name": "probeCacheForType:withLabel:networkIdentifiers:hitServers:hitValidityInterval:tag:",
+            "flag": "method.AssetCacheLocatorService.probeCacheForType:withLabel:networkIdentifiers:hitServers:hitValidityInterval:tag:",
+            "lang": "objc",
+            "addr": 4295091880
+          },
+          {
+            "name": "probeCacheWithLabel:capabilities:affinityID:hitServers:hitServersAreSorted:hitOtherServers:hitValidityInterval:tag:",
+            "flag": "method.AssetCacheLocatorService.probeCacheWithLabel:capabilities:affinityID:hitServers:hitServersAreSorted:hitOtherServers:hitValidityInterval:tag:",
+            "lang": "objc",
+            "addr": 4295092716
+          },
+          {
+            "name": "locateCachingServersWithTimeout:capabilities:affinityID:autoRefresh:quickMiss:forceMiss:callback:callbackQueue:tag:",
+            "flag": "method.AssetCacheLocatorService.locateCachingServersWithTimeout:capabilities:affinityID:autoRefresh:quickMiss:forceMiss:callback:callbackQueue:tag:",
+            "lang": "objc",
+            "addr": 4295094792
+          },
+          {
+            "name": "relocateCachingServersWithTimeout:capabilities:affinityID:forceRefresh:tag:",
+            "flag": "method.AssetCacheLocatorService.relocateCachingServersWithTimeout:capabilities:affinityID:forceRefresh:tag:",
+            "lang": "objc",
+            "addr": 4295097092
+          },
+          {
+            "name": "slowcateCachingServerWithTimeout:capabilities:affinityID:forceRefresh:forceDNSRefresh:callback:tag:",
+            "flag": "method.AssetCacheLocatorService.slowcateCachingServerWithTimeout:capabilities:affinityID:forceRefresh:forceDNSRefresh:callback:tag:",
+            "lang": "objc",
+            "addr": 4295098804
+          },
+          {
+            "name": "describeCapableServers:fromAvailableServers:withOtherServers:",
+            "flag": "method.AssetCacheLocatorService.describeCapableServers:fromAvailableServers:withOtherServers:",
+            "lang": "objc",
+            "addr": 4295106076
+          },
+          {
+            "name": "compileRanges:tag:",
+            "flag": "method.AssetCacheLocatorService.compileRanges:tag:",
+            "lang": "objc",
+            "addr": 4295107076
+          },
+          {
+            "name": "isAddress:inCompiledRanges:tag:",
+            "flag": "method.AssetCacheLocatorService.isAddress:inCompiledRanges:tag:",
+            "lang": "objc",
+            "addr": 4295108140
+          },
+          {
+            "name": "recentlySeenCachingServerWithAutoRefresh:callback:callbackQueue:tag:",
+            "flag": "method.AssetCacheLocatorService.recentlySeenCachingServerWithAutoRefresh:callback:callbackQueue:tag:",
+            "lang": "objc",
+            "addr": 4295108932
+          },
+          {
+            "name": "updateHealthOfCachingServerWithHostport:healthy:override:callback:callbackQueue:tag:",
+            "flag": "method.AssetCacheLocatorService.updateHealthOfCachingServerWithHostport:healthy:override:callback:callbackQueue:tag:",
+            "lang": "objc",
+            "addr": 4295110040
+          },
+          {
+            "name": "importToLocalhostCachingServerAsURL:sourcePath:sourceFileHandle:sourceOffset:sourceLength:method:headers:importStrategies:xpcFlags:callback:callbackQueue:tag:",
+            "flag": "method.AssetCacheLocatorService.importToLocalhostCachingServerAsURL:sourcePath:sourceFileHandle:sourceOffset:sourceLength:method:headers:importStrategies:xpcFlags:callback:callbackQueue:tag:",
+            "lang": "objc",
+            "addr": 4295111992
+          },
+          {
+            "name": "importToLocalCachingServerAsURL:sourceFileHandle:sourceOffset:sourceLength:method:headers:callback:callbackQueue:tag:",
+            "flag": "method.AssetCacheLocatorService.importToLocalCachingServerAsURL:sourceFileHandle:sourceOffset:sourceLength:method:headers:callback:callbackQueue:tag:",
+            "lang": "objc",
+            "addr": 4295114568
+          },
+          {
+            "name": "importToCachingServerAsURL:sourcePath:sourceFileHandle:sourceOffset:sourceLength:method:headers:importStrategies:entitled:callback:callbackQueue:tag:",
+            "flag": "method.AssetCacheLocatorService.importToCachingServerAsURL:sourcePath:sourceFileHandle:sourceOffset:sourceLength:method:headers:importStrategies:entitled:callback:callbackQueue:tag:",
+            "lang": "objc",
+            "addr": 4295115608
+          },
+          {
+            "name": "URLSession:didReceiveChallenge:completionHandler:",
+            "flag": "method.AssetCacheLocatorService.URLSession:didReceiveChallenge:completionHandler:",
+            "lang": "objc",
+            "addr": 4295116708
+          },
+          {
+            "name": "URLSession:task:didReceiveChallenge:completionHandler:",
+            "flag": "method.AssetCacheLocatorService.URLSession:task:didReceiveChallenge:completionHandler:",
+            "lang": "objc",
+            "addr": 4295118340
+          },
+          {
+            "name": "URLSession:task:didCompleteWithError:",
+            "flag": "method.AssetCacheLocatorService.URLSession:task:didCompleteWithError:",
+            "lang": "objc",
+            "addr": 4295118716
+          },
+          {
+            "name": "URLSession:dataTask:didReceiveResponse:completionHandler:",
+            "flag": "method.AssetCacheLocatorService.URLSession:dataTask:didReceiveResponse:completionHandler:",
+            "lang": "objc",
+            "addr": 4295120928
+          },
+          {
+            "name": "URLSession:dataTask:didReceiveData:",
+            "flag": "method.AssetCacheLocatorService.URLSession:dataTask:didReceiveData:",
+            "lang": "objc",
+            "addr": 4295121552
+          },
+          {
+            "name": "URLSession:dataTask:willCacheResponse:completionHandler:",
+            "flag": "method.AssetCacheLocatorService.URLSession:dataTask:willCacheResponse:completionHandler:",
+            "lang": "objc",
+            "addr": 4295122356
+          },
+          {
+            "name": "redactObject:",
+            "flag": "method.AssetCacheLocatorService.redactObject:",
+            "lang": "objc",
+            "addr": 4295122376
+          },
+          {
+            "name": "redactStringsFromObject:usingBlock:",
+            "flag": "method.AssetCacheLocatorService.redactStringsFromObject:usingBlock:",
+            "lang": "objc",
+            "addr": 4295123440
+          },
+          {
+            "name": "affinityQueryTimeout",
+            "flag": "method.AssetCacheLocatorService.affinityQueryTimeout",
+            "lang": "objc",
+            "addr": 4295123992
+          },
+          {
+            "name": "setAffinityQueryTimeout:",
+            "flag": "method.AssetCacheLocatorService.setAffinityQueryTimeout:",
+            "lang": "objc",
+            "addr": 4295124000
+          },
+          {
+            "name": "concurrentDNSResolutions",
+            "flag": "method.AssetCacheLocatorService.concurrentDNSResolutions",
+            "lang": "objc",
+            "addr": 4295124008
+          },
+          {
+            "name": "setConcurrentDNSResolutions:",
+            "flag": "method.AssetCacheLocatorService.setConcurrentDNSResolutions:",
+            "lang": "objc",
+            "addr": 4295124016
+          },
+          {
+            "name": "locateTimeout",
+            "flag": "method.AssetCacheLocatorService.locateTimeout",
+            "lang": "objc",
+            "addr": 4295124024
+          },
+          {
+            "name": "setLocateTimeout:",
+            "flag": "method.AssetCacheLocatorService.setLocateTimeout:",
+            "lang": "objc",
+            "addr": 4295124032
+          },
+          {
+            "name": "dnsResolutionTimeout",
+            "flag": "method.AssetCacheLocatorService.dnsResolutionTimeout",
+            "lang": "objc",
+            "addr": 4295124040
+          },
+          {
+            "name": "setDnsResolutionTimeout:",
+            "flag": "method.AssetCacheLocatorService.setDnsResolutionTimeout:",
+            "lang": "objc",
+            "addr": 4295124048
+          },
+          {
+            "name": "locateURL",
+            "flag": "method.AssetCacheLocatorService.locateURL",
+            "lang": "objc",
+            "addr": 4295124056
+          },
+          {
+            "name": "setLocateURL:",
+            "flag": "method.AssetCacheLocatorService.setLocateURL:",
+            "lang": "objc",
+            "addr": 4295124068
+          },
+          {
+            "name": "redactLogs",
+            "flag": "method.AssetCacheLocatorService.redactLogs",
+            "lang": "objc",
+            "addr": 4295124076
+          },
+          {
+            "name": "setRedactLogs:",
+            "flag": "method.AssetCacheLocatorService.setRedactLogs:",
+            "lang": "objc",
+            "addr": 4295124088
+          },
+          {
+            "name": "refreshValidityInterval",
+            "flag": "method.AssetCacheLocatorService.refreshValidityInterval",
+            "lang": "objc",
+            "addr": 4295124096
+          },
+          {
+            "name": "setRefreshValidityInterval:",
+            "flag": "method.AssetCacheLocatorService.setRefreshValidityInterval:",
+            "lang": "objc",
+            "addr": 4295124104
+          },
+          {
+            "name": "skipEVCheck",
+            "flag": "method.AssetCacheLocatorService.skipEVCheck",
+            "lang": "objc",
+            "addr": 4295124112
+          },
+          {
+            "name": "setSkipEVCheck:",
+            "flag": "method.AssetCacheLocatorService.setSkipEVCheck:",
+            "lang": "objc",
+            "addr": 4295124124
+          },
+          {
+            "name": "skipLocalhostCheck",
+            "flag": "method.AssetCacheLocatorService.skipLocalhostCheck",
+            "lang": "objc",
+            "addr": 4295124132
+          },
+          {
+            "name": "setSkipLocalhostCheck:",
+            "flag": "method.AssetCacheLocatorService.setSkipLocalhostCheck:",
+            "lang": "objc",
+            "addr": 4295124144
+          },
+          {
+            "name": "userCachePath",
+            "flag": "method.AssetCacheLocatorService.userCachePath",
+            "lang": "objc",
+            "addr": 4295124152
+          },
+          {
+            "name": "setUserCachePath:",
+            "flag": "method.AssetCacheLocatorService.setUserCachePath:",
+            "lang": "objc",
+            "addr": 4295124164
+          },
+          {
+            "name": "userTempPath",
+            "flag": "method.AssetCacheLocatorService.userTempPath",
+            "lang": "objc",
+            "addr": 4295124172
+          },
+          {
+            "name": "setUserTempPath:",
+            "flag": "method.AssetCacheLocatorService.setUserTempPath:",
+            "lang": "objc",
+            "addr": 4295124184
+          },
+          {
+            "name": "userHome",
+            "flag": "method.AssetCacheLocatorService.userHome",
+            "lang": "objc",
+            "addr": 4295124192
+          },
+          {
+            "name": "setUserHome:",
+            "flag": "method.AssetCacheLocatorService.setUserHome:",
+            "lang": "objc",
+            "addr": 4295124204
+          },
+          {
+            "name": "cacheDirPath",
+            "flag": "method.AssetCacheLocatorService.cacheDirPath",
+            "lang": "objc",
+            "addr": 4295124212
+          },
+          {
+            "name": "setCacheDirPath:",
+            "flag": "method.AssetCacheLocatorService.setCacheDirPath:",
+            "lang": "objc",
+            "addr": 4295124224
+          },
+          {
+            "name": "diskCachePlistPath",
+            "flag": "method.AssetCacheLocatorService.diskCachePlistPath",
+            "lang": "objc",
+            "addr": 4295124232
+          },
+          {
+            "name": "setDiskCachePlistPath:",
+            "flag": "method.AssetCacheLocatorService.setDiskCachePlistPath:",
+            "lang": "objc",
+            "addr": 4295124244
+          },
+          {
+            "name": "localhostAddresses",
+            "flag": "method.AssetCacheLocatorService.localhostAddresses",
+            "lang": "objc",
+            "addr": 4295124252
+          },
+          {
+            "name": "setLocalhostAddresses:",
+            "flag": "method.AssetCacheLocatorService.setLocalhostAddresses:",
+            "lang": "objc",
+            "addr": 4295124264
+          },
+          {
+            "name": "serverCapabilitiesTemplate",
+            "flag": "method.AssetCacheLocatorService.serverCapabilitiesTemplate",
+            "lang": "objc",
+            "addr": 4295124272
+          },
+          {
+            "name": "setServerCapabilitiesTemplate:",
+            "flag": "method.AssetCacheLocatorService.setServerCapabilitiesTemplate:",
+            "lang": "objc",
+            "addr": 4295124284
+          },
+          {
+            "name": "serverCapabilitiesVerifier",
+            "flag": "method.AssetCacheLocatorService.serverCapabilitiesVerifier",
+            "lang": "objc",
+            "addr": 4295124292
+          },
+          {
+            "name": "setServerCapabilitiesVerifier:",
+            "flag": "method.AssetCacheLocatorService.setServerCapabilitiesVerifier:",
+            "lang": "objc",
+            "addr": 4295124304
+          },
+          {
+            "name": "serverDetailsTemplate",
+            "flag": "method.AssetCacheLocatorService.serverDetailsTemplate",
+            "lang": "objc",
+            "addr": 4295124312
+          },
+          {
+            "name": "setServerDetailsTemplate:",
+            "flag": "method.AssetCacheLocatorService.setServerDetailsTemplate:",
+            "lang": "objc",
+            "addr": 4295124324
+          },
+          {
+            "name": "serverDetailsVerifier",
+            "flag": "method.AssetCacheLocatorService.serverDetailsVerifier",
+            "lang": "objc",
+            "addr": 4295124332
+          },
+          {
+            "name": "setServerDetailsVerifier:",
+            "flag": "method.AssetCacheLocatorService.setServerDetailsVerifier:",
+            "lang": "objc",
+            "addr": 4295124344
+          },
+          {
+            "name": "diskCacheTemplate",
+            "flag": "method.AssetCacheLocatorService.diskCacheTemplate",
+            "lang": "objc",
+            "addr": 4295124352
+          },
+          {
+            "name": "setDiskCacheTemplate:",
+            "flag": "method.AssetCacheLocatorService.setDiskCacheTemplate:",
+            "lang": "objc",
+            "addr": 4295124364
+          },
+          {
+            "name": "diskCacheVerifier",
+            "flag": "method.AssetCacheLocatorService.diskCacheVerifier",
+            "lang": "objc",
+            "addr": 4295124372
+          },
+          {
+            "name": "setDiskCacheVerifier:",
+            "flag": "method.AssetCacheLocatorService.setDiskCacheVerifier:",
+            "lang": "objc",
+            "addr": 4295124384
+          },
+          {
+            "name": "softwareVersions",
+            "flag": "method.AssetCacheLocatorService.softwareVersions",
+            "lang": "objc",
+            "addr": 4295124392
+          },
+          {
+            "name": "setSoftwareVersions:",
+            "flag": "method.AssetCacheLocatorService.setSoftwareVersions:",
+            "lang": "objc",
+            "addr": 4295124404
+          },
+          {
+            "name": "bootTime",
+            "flag": "method.AssetCacheLocatorService.bootTime",
+            "lang": "objc",
+            "addr": 4295124412
+          },
+          {
+            "name": "setBootTime:",
+            "flag": "method.AssetCacheLocatorService.setBootTime:",
+            "lang": "objc",
+            "addr": 4295124424
+          },
+          {
+            "name": "locateSessionConfig",
+            "flag": "method.AssetCacheLocatorService.locateSessionConfig",
+            "lang": "objc",
+            "addr": 4295124432
+          },
+          {
+            "name": "setLocateSessionConfig:",
+            "flag": "method.AssetCacheLocatorService.setLocateSessionConfig:",
+            "lang": "objc",
+            "addr": 4295124444
+          },
+          {
+            "name": "importSessionConfig",
+            "flag": "method.AssetCacheLocatorService.importSessionConfig",
+            "lang": "objc",
+            "addr": 4295124452
+          },
+          {
+            "name": "setImportSessionConfig:",
+            "flag": "method.AssetCacheLocatorService.setImportSessionConfig:",
+            "lang": "objc",
+            "addr": 4295124464
+          },
+          {
+            "name": "querySessionConfig",
+            "flag": "method.AssetCacheLocatorService.querySessionConfig",
+            "lang": "objc",
+            "addr": 4295124472
+          },
+          {
+            "name": "setQuerySessionConfig:",
+            "flag": "method.AssetCacheLocatorService.setQuerySessionConfig:",
+            "lang": "objc",
+            "addr": 4295124484
+          },
+          {
+            "name": "queue",
+            "flag": "method.AssetCacheLocatorService.queue",
+            "lang": "objc",
+            "addr": 4295124492
+          },
+          {
+            "name": "setQueue:",
+            "flag": "method.AssetCacheLocatorService.setQueue:",
+            "lang": "objc",
+            "addr": 4295124504
+          },
+          {
+            "name": "listenerConnection",
+            "flag": "method.AssetCacheLocatorService.listenerConnection",
+            "lang": "objc",
+            "addr": 4295124512
+          },
+          {
+            "name": "setListenerConnection:",
+            "flag": "method.AssetCacheLocatorService.setListenerConnection:",
+            "lang": "objc",
+            "addr": 4295124524
+          },
+          {
+            "name": "diskCache",
+            "flag": "method.AssetCacheLocatorService.diskCache",
+            "lang": "objc",
+            "addr": 4295124532
+          },
+          {
+            "name": "setDiskCache:",
+            "flag": "method.AssetCacheLocatorService.setDiskCache:",
+            "lang": "objc",
+            "addr": 4295124544
+          },
+          {
+            "name": "diskCacheRefreshTimer",
+            "flag": "method.AssetCacheLocatorService.diskCacheRefreshTimer",
+            "lang": "objc",
+            "addr": 4295124552
+          },
+          {
+            "name": "setDiskCacheRefreshTimer:",
+            "flag": "method.AssetCacheLocatorService.setDiskCacheRefreshTimer:",
+            "lang": "objc",
+            "addr": 4295124564
+          },
+          {
+            "name": "diskCacheRefreshTimerResumed",
+            "flag": "method.AssetCacheLocatorService.diskCacheRefreshTimerResumed",
+            "lang": "objc",
+            "addr": 4295124572
+          },
+          {
+            "name": "setDiskCacheRefreshTimerResumed:",
+            "flag": "method.AssetCacheLocatorService.setDiskCacheRefreshTimerResumed:",
+            "lang": "objc",
+            "addr": 4295124584
+          },
+          {
+            "name": "singleLocate",
+            "flag": "method.AssetCacheLocatorService.singleLocate",
+            "lang": "objc",
+            "addr": 4295124592
+          },
+          {
+            "name": "setSingleLocate:",
+            "flag": "method.AssetCacheLocatorService.setSingleLocate:",
+            "lang": "objc",
+            "addr": 4295124604
+          },
+          {
+            "name": "singleLocateTag",
+            "flag": "method.AssetCacheLocatorService.singleLocateTag",
+            "lang": "objc",
+            "addr": 4295124612
+          },
+          {
+            "name": "setSingleLocateTag:",
+            "flag": "method.AssetCacheLocatorService.setSingleLocateTag:",
+            "lang": "objc",
+            "addr": 4295124620
+          },
+          {
+            "name": "locateOpQueue",
+            "flag": "method.AssetCacheLocatorService.locateOpQueue",
+            "lang": "objc",
+            "addr": 4295124628
+          },
+          {
+            "name": "setLocateOpQueue:",
+            "flag": "method.AssetCacheLocatorService.setLocateOpQueue:",
+            "lang": "objc",
+            "addr": 4295124640
+          },
+          {
+            "name": "localAddresses",
+            "flag": "method.AssetCacheLocatorService.localAddresses",
+            "lang": "objc",
+            "addr": 4295124648
+          },
+          {
+            "name": "setLocalAddresses:",
+            "flag": "method.AssetCacheLocatorService.setLocalAddresses:",
+            "lang": "objc",
+            "addr": 4295124660
+          },
+          {
+            "name": "gatewayIdentifiers",
+            "flag": "method.AssetCacheLocatorService.gatewayIdentifiers",
+            "lang": "objc",
+            "addr": 4295124668
+          },
+          {
+            "name": "setGatewayIdentifiers:",
+            "flag": "method.AssetCacheLocatorService.setGatewayIdentifiers:",
+            "lang": "objc",
+            "addr": 4295124680
+          },
+          {
+            "name": "cacheRefreshQueue",
+            "flag": "method.AssetCacheLocatorService.cacheRefreshQueue",
+            "lang": "objc",
+            "addr": 4295124688
+          },
+          {
+            "name": "setCacheRefreshQueue:",
+            "flag": "method.AssetCacheLocatorService.setCacheRefreshQueue:",
+            "lang": "objc",
+            "addr": 4295124700
+          },
+          {
+            "name": "cacheRefreshInProgress",
+            "flag": "method.AssetCacheLocatorService.cacheRefreshInProgress",
+            "lang": "objc",
+            "addr": 4295124708
+          },
+          {
+            "name": "setCacheRefreshInProgress:",
+            "flag": "method.AssetCacheLocatorService.setCacheRefreshInProgress:",
+            "lang": "objc",
+            "addr": 4295124720
+          },
+          {
+            "name": "affinityCache",
+            "flag": "method.AssetCacheLocatorService.affinityCache",
+            "lang": "objc",
+            "addr": 4295124728
+          },
+          {
+            "name": "setAffinityCache:",
+            "flag": "method.AssetCacheLocatorService.setAffinityCache:",
+            "lang": "objc",
+            "addr": 4295124740
+          },
+          {
+            "name": "testFlags",
+            "flag": "method.AssetCacheLocatorService.testFlags",
+            "lang": "objc",
+            "addr": 4295124748
+          },
+          {
+            "name": "setTestFlags:",
+            "flag": "method.AssetCacheLocatorService.setTestFlags:",
+            "lang": "objc",
+            "addr": 4295124756
+          },
+          {
+            "name": "store",
+            "flag": "method.AssetCacheLocatorService.store",
+            "lang": "objc",
+            "addr": 4295124764
+          },
+          {
+            "name": "setStore:",
+            "flag": "method.AssetCacheLocatorService.setStore:",
+            "lang": "objc",
+            "addr": 4295124776
+          },
+          {
+            "name": "locateTag",
+            "flag": "method.AssetCacheLocatorService.locateTag",
+            "lang": "objc",
+            "addr": 4295124784
+          },
+          {
+            "name": "setLocateTag:",
+            "flag": "method.AssetCacheLocatorService.setLocateTag:",
+            "lang": "objc",
+            "addr": 4295124792
+          },
+          {
+            "name": "locateCallback",
+            "flag": "method.AssetCacheLocatorService.locateCallback",
+            "lang": "objc",
+            "addr": 4295124800
+          },
+          {
+            "name": "setLocateCallback:",
+            "flag": "method.AssetCacheLocatorService.setLocateCallback:",
+            "lang": "objc",
+            "addr": 4295124812
+          },
+          {
+            "name": "locateCallbackQueue",
+            "flag": "method.AssetCacheLocatorService.locateCallbackQueue",
+            "lang": "objc",
+            "addr": 4295124820
+          },
+          {
+            "name": "setLocateCallbackQueue:",
+            "flag": "method.AssetCacheLocatorService.setLocateCallbackQueue:",
+            "lang": "objc",
+            "addr": 4295124832
+          },
+          {
+            "name": "locateFavoredServerRanges",
+            "flag": "method.AssetCacheLocatorService.locateFavoredServerRanges",
+            "lang": "objc",
+            "addr": 4295124840
+          },
+          {
+            "name": "setLocateFavoredServerRanges:",
+            "flag": "method.AssetCacheLocatorService.setLocateFavoredServerRanges:",
+            "lang": "objc",
+            "addr": 4295124852
+          },
+          {
+            "name": "locateSession",
+            "flag": "method.AssetCacheLocatorService.locateSession",
+            "lang": "objc",
+            "addr": 4295124860
+          },
+          {
+            "name": "setLocateSession:",
+            "flag": "method.AssetCacheLocatorService.setLocateSession:",
+            "lang": "objc",
+            "addr": 4295124872
+          },
+          {
+            "name": "locateServerValidated",
+            "flag": "method.AssetCacheLocatorService.locateServerValidated",
+            "lang": "objc",
+            "addr": 4295124880
+          },
+          {
+            "name": "setLocateServerValidated:",
+            "flag": "method.AssetCacheLocatorService.setLocateServerValidated:",
+            "lang": "objc",
+            "addr": 4295124892
+          },
+          {
+            "name": "locateResponseCode",
+            "flag": "method.AssetCacheLocatorService.locateResponseCode",
+            "lang": "objc",
+            "addr": 4295124900
+          },
+          {
+            "name": "setLocateResponseCode:",
+            "flag": "method.AssetCacheLocatorService.setLocateResponseCode:",
+            "lang": "objc",
+            "addr": 4295124908
+          },
+          {
+            "name": "locateResponseData",
+            "flag": "method.AssetCacheLocatorService.locateResponseData",
+            "lang": "objc",
+            "addr": 4295124916
+          },
+          {
+            "name": "setLocateResponseData:",
+            "flag": "method.AssetCacheLocatorService.setLocateResponseData:",
+            "lang": "objc",
+            "addr": 4295124928
+          },
+          {
+            "name": "lastLocateDate",
+            "flag": "method.AssetCacheLocatorService.lastLocateDate",
+            "lang": "objc",
+            "addr": 4295124936
+          },
+          {
+            "name": "setLastLocateDate:",
+            "flag": "method.AssetCacheLocatorService.setLastLocateDate:",
+            "lang": "objc",
+            "addr": 4295124948
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.AssetCacheLocatorService..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295124956
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_redactLogs",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295240180
+          },
+          {
+            "name": "_skipEVCheck",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295240184
+          },
+          {
+            "name": "_skipLocalhostCheck",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295240188
+          },
+          {
+            "name": "_diskCacheRefreshTimerResumed",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295240192
+          },
+          {
+            "name": "_cacheRefreshInProgress",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295240196
+          },
+          {
+            "name": "_locateServerValidated",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295240200
+          },
+          {
+            "name": "_concurrentDNSResolutions",
+            "kind": "var",
+            "type": "i",
+            "addr": 4295240204
+          },
+          {
+            "name": "_singleLocateTag",
+            "kind": "var",
+            "type": "I",
+            "addr": 4295240208
+          },
+          {
+            "name": "_locateTag",
+            "kind": "var",
+            "type": "I",
+            "addr": 4295240212
+          },
+          {
+            "name": "_affinityQueryTimeout",
+            "kind": "var",
+            "type": "d",
+            "addr": 4295240216
+          },
+          {
+            "name": "_locateTimeout",
+            "kind": "var",
+            "type": "d",
+            "addr": 4295240220
+          },
+          {
+            "name": "_dnsResolutionTimeout",
+            "kind": "var",
+            "type": "d",
+            "addr": 4295240224
+          },
+          {
+            "name": "_locateURL",
+            "kind": "var",
+            "type": "@\"NSURL\"",
+            "addr": 4295240228
+          },
+          {
+            "name": "_refreshValidityInterval",
+            "kind": "var",
+            "type": "d",
+            "addr": 4295240232
+          },
+          {
+            "name": "_userCachePath",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295240236
+          },
+          {
+            "name": "_userTempPath",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295240240
+          },
+          {
+            "name": "_userHome",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295240244
+          },
+          {
+            "name": "_cacheDirPath",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295240248
+          },
+          {
+            "name": "_diskCachePlistPath",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295240252
+          },
+          {
+            "name": "_localhostAddresses",
+            "kind": "var",
+            "type": "@\"NSArray\"",
+            "addr": 4295240256
+          },
+          {
+            "name": "_serverCapabilitiesTemplate",
+            "kind": "var",
+            "type": "@\"NSDictionary\"",
+            "addr": 4295240260
+          },
+          {
+            "name": "_serverCapabilitiesVerifier",
+            "kind": "var",
+            "type": "@\"ACLSTypeVerifier\"",
+            "addr": 4295240264
+          },
+          {
+            "name": "_serverDetailsTemplate",
+            "kind": "var",
+            "type": "@\"NSDictionary\"",
+            "addr": 4295240268
+          },
+          {
+            "name": "_serverDetailsVerifier",
+            "kind": "var",
+            "type": "@\"ACLSTypeVerifier\"",
+            "addr": 4295240272
+          },
+          {
+            "name": "_diskCacheTemplate",
+            "kind": "var",
+            "type": "@\"NSDictionary\"",
+            "addr": 4295240276
+          },
+          {
+            "name": "_diskCacheVerifier",
+            "kind": "var",
+            "type": "@\"ACLSTypeVerifier\"",
+            "addr": 4295240280
+          },
+          {
+            "name": "_softwareVersions",
+            "kind": "var",
+            "type": "@\"NSArray\"",
+            "addr": 4295240284
+          },
+          {
+            "name": "_bootTime",
+            "kind": "var",
+            "type": "@\"NSDate\"",
+            "addr": 4295240288
+          },
+          {
+            "name": "_locateSessionConfig",
+            "kind": "var",
+            "type": "@\"NSURLSessionConfiguration\"",
+            "addr": 4295240292
+          },
+          {
+            "name": "_importSessionConfig",
+            "kind": "var",
+            "type": "@\"NSURLSessionConfiguration\"",
+            "addr": 4295240296
+          },
+          {
+            "name": "_querySessionConfig",
+            "kind": "var",
+            "type": "@\"NSURLSessionConfiguration\"",
+            "addr": 4295240300
+          },
+          {
+            "name": "_queue",
+            "kind": "var",
+            "type": "@\"NSObject<OS_dispatch_queue>\"",
+            "addr": 4295240304
+          },
+          {
+            "name": "_listenerConnection",
+            "kind": "var",
+            "type": "@\"NSObject<OS_xpc_object>\"",
+            "addr": 4295240308
+          },
+          {
+            "name": "_diskCache",
+            "kind": "var",
+            "type": "@\"NSMutableDictionary\"",
+            "addr": 4295240312
+          },
+          {
+            "name": "_diskCacheRefreshTimer",
+            "kind": "var",
+            "type": "@\"NSObject<OS_dispatch_source>\"",
+            "addr": 4295240316
+          },
+          {
+            "name": "_singleLocate",
+            "kind": "var",
+            "type": "@\"NSObject<OS_dispatch_semaphore>\"",
+            "addr": 4295240320
+          },
+          {
+            "name": "_locateOpQueue",
+            "kind": "var",
+            "type": "@\"NSOperationQueue\"",
+            "addr": 4295240324
+          },
+          {
+            "name": "_localAddresses",
+            "kind": "var",
+            "type": "@\"NSArray\"",
+            "addr": 4295240328
+          },
+          {
+            "name": "_gatewayIdentifiers",
+            "kind": "var",
+            "type": "@\"NSArray\"",
+            "addr": 4295240332
+          },
+          {
+            "name": "_cacheRefreshQueue",
+            "kind": "var",
+            "type": "@\"NSObject<OS_dispatch_queue>\"",
+            "addr": 4295240336
+          },
+          {
+            "name": "_affinityCache",
+            "kind": "var",
+            "type": "@\"NSMutableDictionary\"",
+            "addr": 4295240340
+          },
+          {
+            "name": "_testFlags",
+            "kind": "var",
+            "type": "Q",
+            "addr": 4295240344
+          },
+          {
+            "name": "_store",
+            "kind": "var",
+            "type": "^{__SCDynamicStore=}",
+            "addr": 4295240348
+          },
+          {
+            "name": "_locateCallback",
+            "kind": "var",
+            "type": "@?",
+            "addr": 4295240352
+          },
+          {
+            "name": "_locateCallbackQueue",
+            "kind": "var",
+            "type": "@\"NSObject<OS_dispatch_queue>\"",
+            "addr": 4295240356
+          },
+          {
+            "name": "_locateFavoredServerRanges",
+            "kind": "var",
+            "type": "@\"NSArray\"",
+            "addr": 4295240360
+          },
+          {
+            "name": "_locateSession",
+            "kind": "var",
+            "type": "@\"ACSURLSession\"",
+            "addr": 4295240364
+          },
+          {
+            "name": "_locateResponseCode",
+            "kind": "var",
+            "type": "Q",
+            "addr": 4295240368
+          },
+          {
+            "name": "_locateResponseData",
+            "kind": "var",
+            "type": "@\"NSMutableData\"",
+            "addr": 4295240372
+          },
+          {
+            "name": "_lastLocateDate",
+            "kind": "var",
+            "type": "@\"NSDate\"",
+            "addr": 4295240376
+          },
+          {
+            "name": "affinityQueryTimeout",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "concurrentDNSResolutions",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "locateTimeout",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "dnsResolutionTimeout",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "locateURL",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "redactLogs",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "refreshValidityInterval",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "skipEVCheck",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "skipLocalhostCheck",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "userCachePath",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "userTempPath",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "userHome",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "cacheDirPath",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "diskCachePlistPath",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "localhostAddresses",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "serverCapabilitiesTemplate",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "serverCapabilitiesVerifier",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "serverDetailsTemplate",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "serverDetailsVerifier",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "diskCacheTemplate",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "diskCacheVerifier",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "softwareVersions",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "bootTime",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "locateSessionConfig",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "importSessionConfig",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "querySessionConfig",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "queue",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "listenerConnection",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "diskCache",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "diskCacheRefreshTimer",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "diskCacheRefreshTimerResumed",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "singleLocate",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "singleLocateTag",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "locateOpQueue",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "localAddresses",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "gatewayIdentifiers",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "cacheRefreshQueue",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "cacheRefreshInProgress",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "affinityCache",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "testFlags",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "store",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "locateTag",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "locateCallback",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "locateCallbackQueue",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "locateFavoredServerRanges",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "locateSession",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "locateServerValidated",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "locateResponseCode",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "locateResponseData",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "lastLocateDate",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      }
+    ],
+    "protocols": []
+  },
+  "usage": {
+    "layer": "usage",
+    "status": "not_implemented"
+  },
+  "runtime": {
+    "layer": "runtime",
+    "status": "not_implemented"
+  }
+}

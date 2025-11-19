@@ -1,0 +1,182 @@
+{
+  "framework": "TextToSpeech.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/TextToSpeech.framework/PlugIns/SiriAUSP.appex/Contents/MacOS/SiriAUSP",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 79344,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": false,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "swift",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/PrivateFrameworks/TextToSpeechBundleSupport.framework/Versions/A/TextToSpeechBundleSupport",
+          "/System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/usr/lib/swift/libswiftAVFoundation.dylib",
+          "/usr/lib/swift/libswiftAccelerate.dylib",
+          "/usr/lib/swift/libswiftCompression.dylib",
+          "/usr/lib/swift/libswiftCore.dylib",
+          "/usr/lib/swift/libswiftCoreAudio.dylib",
+          "/usr/lib/swift/libswiftCoreFoundation.dylib",
+          "/usr/lib/swift/libswiftCoreImage.dylib",
+          "/usr/lib/swift/libswiftCoreLocation.dylib",
+          "/usr/lib/swift/libswiftCoreMIDI.dylib",
+          "/usr/lib/swift/libswiftCoreMedia.dylib",
+          "/usr/lib/swift/libswiftDispatch.dylib",
+          "/usr/lib/swift/libswiftIOKit.dylib",
+          "/usr/lib/swift/libswiftMetal.dylib",
+          "/usr/lib/swift/libswiftNaturalLanguage.dylib",
+          "/usr/lib/swift/libswiftOSLog.dylib",
+          "/usr/lib/swift/libswiftObjectiveC.dylib",
+          "/usr/lib/swift/libswiftQuartzCore.dylib",
+          "/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib",
+          "/usr/lib/swift/libswiftXPC.dylib",
+          "/usr/lib/swift/libswift_Builtin_float.dylib",
+          "/usr/lib/swift/libswiftos.dylib",
+          "/usr/lib/swift/libswiftsimd.dylib"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "AudioUnitFactory",
+        "addr": 6960,
+        "lang": "swift",
+        "index": 0,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ],
+        "fields": [
+          {
+            "name": "audioUnit",
+            "kind": "property",
+            "type": "AUAudioUnit.allocator__GenericAccessorSg",
+            "addr": 4294974438
+          },
+          {
+            "name": "context",
+            "kind": "property",
+            "type": "NSExtensionContext.allocator__GenericAccessorSg",
+            "addr": 4294974448
+          }
+        ]
+      },
+      {
+        "classname": "SiriAUSP.AudioUnitFactory",
+        "addr": 4295001008,
+        "lang": "objc",
+        "index": 1,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "beginRequestWithExtensionContext:",
+            "flag": "method.SiriAUSP.AudioUnitFactory.beginRequestWithExtensionContext:",
+            "lang": "objc",
+            "addr": 4294972180
+          },
+          {
+            "name": "createAudioUnitWithComponentDescription:error:",
+            "flag": "func.1000013f4",
+            "lang": "objc",
+            "addr": 4294972404
+          },
+          {
+            "name": "init",
+            "flag": "method.SiriAUSP.AudioUnitFactory.init",
+            "lang": "objc",
+            "addr": 4294972800
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.SiriAUSP.AudioUnitFactory..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294972940
+          },
+          {
+            "name": "createAudioUnitWithComponentDescription:error:",
+            "flag": "method.SiriAUSP.AudioUnitFactory.createAudioUnitWithComponentDescription:error:",
+            "lang": "objc",
+            "addr": 4294973336
+          },
+          {
+            "name": "createAudioUnitWithComponentDescription:error:",
+            "flag": "method.SiriAUSP.AudioUnitFactory.createAudioUnitWithComponentDescription:error:",
+            "lang": "objc",
+            "addr": 4294973336
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "audioUnit",
+            "kind": "var",
+            "addr": 4295001000
+          },
+          {
+            "name": "context",
+            "kind": "var",
+            "addr": 4295000992
+          }
+        ]
+      }
+    ],
+    "protocols": []
+  },
+  "usage": {
+    "layer": "usage",
+    "status": "not_implemented"
+  },
+  "runtime": {
+    "layer": "runtime",
+    "status": "not_implemented"
+  }
+}

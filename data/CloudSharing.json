@@ -1,0 +1,3668 @@
+{
+  "framework": "CloudSharing.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/CloudSharing.framework/Versions/A/XPCServices/SPIHelper.xpc/Contents/MacOS/SPIHelper",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 913728,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "swift",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/PrivateFrameworks/CloudSharing.framework/Versions/A/CloudSharing",
+          "/System/Library/PrivateFrameworks/ShareKit.framework/Versions/A/ShareKit",
+          "/System/Library/Frameworks/WebKit.framework/Versions/A/WebKit",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/Accounts.framework/Versions/A/Accounts",
+          "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "/System/Library/Frameworks/CloudKit.framework/Versions/A/CloudKit",
+          "/System/Library/Frameworks/Combine.framework/Versions/A/Combine",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "/System/Library/Frameworks/LinkPresentation.framework/Versions/A/LinkPresentation",
+          "/System/Library/Frameworks/Network.framework/Versions/A/Network",
+          "/System/Library/Frameworks/SharedWithYouCore.framework/Versions/A/SharedWithYouCore",
+          "/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI",
+          "/System/Library/PrivateFrameworks/CloudDocs.framework/Versions/A/CloudDocs",
+          "/System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics",
+          "/System/Library/PrivateFrameworks/IconServices.framework/Versions/A/IconServices",
+          "/System/Library/PrivateFrameworks/RunningBoardServices.framework/Versions/A/RunningBoardServices",
+          "/usr/lib/swift/libswiftAVFoundation.dylib",
+          "/usr/lib/swift/libswiftAccelerate.dylib",
+          "/usr/lib/swift/libswiftCompression.dylib",
+          "/usr/lib/swift/libswiftCore.dylib",
+          "/usr/lib/swift/libswiftCoreAudio.dylib",
+          "/usr/lib/swift/libswiftCoreFoundation.dylib",
+          "/usr/lib/swift/libswiftCoreImage.dylib",
+          "/usr/lib/swift/libswiftCoreLocation.dylib",
+          "/usr/lib/swift/libswiftCoreMIDI.dylib",
+          "/usr/lib/swift/libswiftCoreMedia.dylib",
+          "/usr/lib/swift/libswiftCoreMediaIO.dylib",
+          "/usr/lib/swift/libswiftDispatch.dylib",
+          "/usr/lib/swift/libswiftIOKit.dylib",
+          "/usr/lib/swift/libswiftIntents.dylib",
+          "/usr/lib/swift/libswiftMLCompute.dylib",
+          "/usr/lib/swift/libswiftMetal.dylib",
+          "/usr/lib/swift/libswiftOSLog.dylib",
+          "/usr/lib/swift/libswiftObjectiveC.dylib",
+          "/usr/lib/swift/libswiftQuartzCore.dylib",
+          "/usr/lib/swift/libswiftSpatial.dylib",
+          "/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib",
+          "/usr/lib/swift/libswiftXPC.dylib",
+          "/usr/lib/swift/libswift_Builtin_float.dylib",
+          "/usr/lib/swift/libswift_Concurrency.dylib",
+          "/usr/lib/swift/libswiftos.dylib",
+          "/usr/lib/swift/libswiftsimd.dylib"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "ServiceDelegate",
+        "addr": 698948,
+        "lang": "swift",
+        "index": 0,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ]
+      },
+      {
+        "classname": "CSUICurrentUserCKShareStatus",
+        "addr": 699020,
+        "lang": "swift",
+        "index": 1
+      },
+      {
+        "classname": "URLResourceKey",
+        "addr": 699052,
+        "lang": "swift",
+        "index": 2,
+        "fields": [
+          {
+            "name": "_rawValue",
+            "kind": "property",
+            "type": "__C.NSString",
+            "addr": 4295682464
+          }
+        ]
+      },
+      {
+        "classname": "NSFileProviderServiceName",
+        "addr": 699108,
+        "lang": "swift",
+        "index": 3,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.NSFileProviderServiceName.0",
+            "lang": "swift",
+            "addr": 4295797545
+          },
+          {
+            "name": "1",
+            "flag": "method.NSFileProviderServiceName.1",
+            "lang": "swift",
+            "addr": 4295797553
+          },
+          {
+            "name": "2",
+            "flag": "method.NSFileProviderServiceName.2",
+            "lang": "swift",
+            "addr": 4295797561
+          },
+          {
+            "name": "3",
+            "flag": "method.NSFileProviderServiceName.3",
+            "lang": "swift",
+            "addr": 4295797569
+          },
+          {
+            "name": "4",
+            "flag": "method.NSFileProviderServiceName.4",
+            "lang": "swift",
+            "addr": 4295797577
+          },
+          {
+            "name": "5",
+            "flag": "method.NSFileProviderServiceName.5",
+            "lang": "swift",
+            "addr": 4295797585
+          },
+          {
+            "name": "6",
+            "flag": "method.NSFileProviderServiceName.6",
+            "lang": "swift",
+            "addr": 4295797593
+          },
+          {
+            "name": "7",
+            "flag": "method.NSFileProviderServiceName.7",
+            "lang": "swift",
+            "addr": 4295797601
+          },
+          {
+            "name": "8",
+            "flag": "method.NSFileProviderServiceName.8",
+            "lang": "swift",
+            "addr": 4295797609
+          },
+          {
+            "name": "9",
+            "flag": "method.NSFileProviderServiceName.9",
+            "lang": "swift",
+            "addr": 4295797617
+          },
+          {
+            "name": "10",
+            "flag": "method.NSFileProviderServiceName.10",
+            "lang": "swift",
+            "addr": 4295797625
+          },
+          {
+            "name": "11",
+            "flag": "method.NSFileProviderServiceName.11",
+            "lang": "swift",
+            "addr": 4295797633
+          },
+          {
+            "name": "12",
+            "flag": "method.NSFileProviderServiceName.12",
+            "lang": "swift",
+            "addr": 4295797641
+          },
+          {
+            "name": "13",
+            "flag": "method.NSFileProviderServiceName.13",
+            "lang": "swift",
+            "addr": 4295797649
+          },
+          {
+            "name": "14",
+            "flag": "method.NSFileProviderServiceName.14",
+            "lang": "swift",
+            "addr": 4295797657
+          },
+          {
+            "name": "15",
+            "flag": "method.NSFileProviderServiceName.15",
+            "lang": "swift",
+            "addr": 4295797665
+          },
+          {
+            "name": "16",
+            "flag": "method.NSFileProviderServiceName.16",
+            "lang": "swift",
+            "addr": 4295797673
+          },
+          {
+            "name": "17",
+            "flag": "method.NSFileProviderServiceName.17",
+            "lang": "swift",
+            "addr": 4295797681
+          },
+          {
+            "name": "18",
+            "flag": "method.NSFileProviderServiceName.18",
+            "lang": "swift",
+            "addr": 4295797689
+          },
+          {
+            "name": "19",
+            "flag": "method.NSFileProviderServiceName.19",
+            "lang": "swift",
+            "addr": 4295797697
+          }
+        ],
+        "fields": [
+          {
+            "name": "_rawValue",
+            "kind": "property",
+            "type": "__C.NSString",
+            "addr": 4295682464
+          }
+        ]
+      },
+      {
+        "classname": "CSUIShareItemStatus",
+        "addr": 699140,
+        "lang": "swift",
+        "index": 4
+      },
+      {
+        "classname": "CGSize",
+        "addr": 699172,
+        "lang": "swift",
+        "index": 5,
+        "fields": [
+          {
+            "name": "width",
+            "kind": "property",
+            "addr": 4295682517
+          },
+          {
+            "name": "height",
+            "kind": "property",
+            "addr": 4295682523
+          }
+        ]
+      },
+      {
+        "classname": "CheckingType",
+        "addr": 699204,
+        "lang": "swift",
+        "index": 6,
+        "fields": [
+          {
+            "name": "rawValue",
+            "kind": "property",
+            "addr": 4295682508
+          }
+        ]
+      },
+      {
+        "classname": "CKError",
+        "addr": 699248,
+        "lang": "swift",
+        "index": 7,
+        "fields": [
+          {
+            "name": "_nsError",
+            "kind": "property",
+            "type": "__C.NSError",
+            "addr": 4295682499
+          }
+        ]
+      },
+      {
+        "classname": "BRError",
+        "addr": 699280,
+        "lang": "swift",
+        "index": 8,
+        "fields": [
+          {
+            "name": "_nsError",
+            "kind": "property",
+            "type": "__C.NSError",
+            "addr": 4295682499
+          }
+        ]
+      },
+      {
+        "classname": "ParticipantPermission",
+        "addr": 699312,
+        "lang": "swift",
+        "index": 9
+      },
+      {
+        "classname": "Code",
+        "addr": 699356,
+        "lang": "swift",
+        "index": 10
+      },
+      {
+        "classname": "Code_1",
+        "addr": 699388,
+        "lang": "swift",
+        "index": 11
+      },
+      {
+        "classname": "CKShareModel",
+        "addr": 699420,
+        "lang": "swift",
+        "index": 12,
+        "fields": [
+          {
+            "name": "_ckShare",
+            "kind": "property",
+            "addr": 4295682560
+          },
+          {
+            "name": "_currentUserIsOwner",
+            "kind": "property",
+            "addr": 4295682576
+          },
+          {
+            "name": "_sharingURL",
+            "kind": "property",
+            "addr": 4295682596
+          },
+          {
+            "name": "_ckShareParticipantsCoOwnersState",
+            "kind": "property",
+            "addr": 4295682608
+          },
+          {
+            "name": "_containerID",
+            "kind": "property",
+            "addr": 4295682642
+          },
+          {
+            "name": "_containerSetupInfo",
+            "kind": "property",
+            "addr": 4295682656
+          },
+          {
+            "name": "accountID",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295682676
+          },
+          {
+            "name": "_container",
+            "kind": "property",
+            "addr": 4295682686
+          },
+          {
+            "name": "_ckSystemSharingUIObserver",
+            "kind": "property",
+            "addr": 4295682704
+          },
+          {
+            "name": "sharingModelReference",
+            "kind": "property",
+            "addr": 4295682736
+          },
+          {
+            "name": "store",
+            "kind": "property",
+            "type": "Shy\u0002\u0088V\u0001",
+            "addr": 4295682758
+          }
+        ]
+      },
+      {
+        "classname": "SPIAnalyticsEvent",
+        "addr": 699492,
+        "lang": "swift",
+        "index": 13,
+        "fields": [
+          {
+            "name": "urlSharingStatus",
+            "kind": "property",
+            "addr": 4295682768
+          },
+          {
+            "name": "startFileSharing",
+            "kind": "property",
+            "addr": 4295682800
+          },
+          {
+            "name": "addToCloudKitSharing",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295682832
+          },
+          {
+            "name": "addToShareByShareURL",
+            "kind": "property",
+            "addr": 4295682864
+          },
+          {
+            "name": "removeFromShareByShareURL",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295682896
+          },
+          {
+            "name": "removeFromShare",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295682922
+          },
+          {
+            "name": "removeFromShareForFileURL",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295682944
+          },
+          {
+            "name": "mailContent",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295682970
+          },
+          {
+            "name": "getMetadataFromShare",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295682992
+          },
+          {
+            "name": "updateShare",
+            "kind": "property",
+            "type": "CKShare.allocator -> (): Swift.String, S(...\u0002\u0099S\u0001)",
+            "addr": 4295683013
+          },
+          {
+            "name": "userSharingStatus",
+            "kind": "property",
+            "type": "CKShare.allocator -> ()....\u0002\u009bS\u0001",
+            "addr": 4295683040
+          },
+          {
+            "name": "addParticipantsToShareNoOptions",
+            "kind": "property",
+            "type": "CKShare.allocator -> (): Swift.String, S(...\u0002\u0099S\u0001)",
+            "addr": 4295683072
+          },
+          {
+            "name": "addParticipantsToShareWithOptions",
+            "kind": "property",
+            "addr": 4295683104
+          },
+          {
+            "name": "approveAccessRequest",
+            "kind": "property",
+            "type": "CKShare.allocator__GenericAccessorSg_\u0002cS\u0001",
+            "addr": 4295683152
+          },
+          {
+            "name": "denyAccessRequest",
+            "kind": "property",
+            "type": "CKShare.allocator__GenericAccessorSg_\u0002cS\u0001",
+            "addr": 4295683184
+          }
+        ]
+      },
+      {
+        "classname": "CSCombineLatest5",
+        "addr": 699544,
+        "lang": "swift",
+        "index": 14,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.CSCombineLatest5.0",
+            "lang": "swift",
+            "addr": 4295627435
+          }
+        ],
+        "fields": [
+          {
+            "name": "a",
+            "kind": "property",
+            "type": "x",
+            "addr": 4295683217
+          },
+          {
+            "name": "b",
+            "kind": "property",
+            "type": "q_",
+            "addr": 4295683219
+          },
+          {
+            "name": "c",
+            "kind": "property",
+            "type": "q0_",
+            "addr": 4295683221
+          },
+          {
+            "name": "d",
+            "kind": "property",
+            "type": "q1_",
+            "addr": 4295683223
+          },
+          {
+            "name": "e",
+            "kind": "property",
+            "type": "q2_",
+            "addr": 4295683225
+          }
+        ]
+      },
+      {
+        "classname": "CSCombineLatest6",
+        "addr": 699704,
+        "lang": "swift",
+        "index": 15,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.CSCombineLatest6.0",
+            "lang": "swift",
+            "addr": 4295627483
+          }
+        ],
+        "fields": [
+          {
+            "name": "a",
+            "kind": "property",
+            "type": "x",
+            "addr": 4295683217
+          },
+          {
+            "name": "b",
+            "kind": "property",
+            "type": "q_",
+            "addr": 4295683219
+          },
+          {
+            "name": "c",
+            "kind": "property",
+            "type": "q0_",
+            "addr": 4295683221
+          },
+          {
+            "name": "d",
+            "kind": "property",
+            "type": "q1_",
+            "addr": 4295683223
+          },
+          {
+            "name": "e",
+            "kind": "property",
+            "type": "q2_",
+            "addr": 4295683225
+          },
+          {
+            "name": "f",
+            "kind": "property",
+            "type": "q3_",
+            "addr": 4295683227
+          }
+        ]
+      },
+      {
+        "classname": "CSCombineLatest7",
+        "addr": 699888,
+        "lang": "swift",
+        "index": 16,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.CSCombineLatest7.0",
+            "lang": "swift",
+            "addr": 4295627531
+          },
+          {
+            "name": "1",
+            "flag": "method.CSCombineLatest7.1",
+            "lang": "swift",
+            "addr": 4295627539
+          },
+          {
+            "name": "2",
+            "flag": "method.CSCombineLatest7.2",
+            "lang": "swift",
+            "addr": 4295627547
+          }
+        ],
+        "fields": [
+          {
+            "name": "a",
+            "kind": "property",
+            "type": "x",
+            "addr": 4295683217
+          },
+          {
+            "name": "b",
+            "kind": "property",
+            "type": "q_",
+            "addr": 4295683219
+          },
+          {
+            "name": "c",
+            "kind": "property",
+            "type": "q0_",
+            "addr": 4295683221
+          },
+          {
+            "name": "d",
+            "kind": "property",
+            "type": "q1_",
+            "addr": 4295683223
+          },
+          {
+            "name": "e",
+            "kind": "property",
+            "type": "q2_",
+            "addr": 4295683225
+          },
+          {
+            "name": "f",
+            "kind": "property",
+            "type": "q3_",
+            "addr": 4295683227
+          },
+          {
+            "name": "g",
+            "kind": "property",
+            "type": "q4_",
+            "addr": 4295683229
+          }
+        ]
+      },
+      {
+        "classname": "CloudKitOperations",
+        "addr": 700168,
+        "lang": "swift",
+        "index": 17,
+        "fields": [
+          {
+            "name": "nsCloudKitContainerType",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295683232
+          },
+          {
+            "name": "nsCloudKitContainerID",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295683264
+          },
+          {
+            "name": "nsCloudKitContainerSetupInfo",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295683296
+          },
+          {
+            "name": "_ckSourceAppBundleID",
+            "kind": "property",
+            "addr": 4295683328
+          }
+        ]
+      },
+      {
+        "classname": "AlertViewModel",
+        "addr": 700376,
+        "lang": "swift",
+        "index": 18,
+        "fields": [
+          {
+            "name": "id",
+            "kind": "property",
+            "addr": 4295683349
+          },
+          {
+            "name": "title",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295683352
+          },
+          {
+            "name": "message",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295683370
+          },
+          {
+            "name": "buttons",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295683378
+          }
+        ]
+      },
+      {
+        "classname": "AlertViewModelButton",
+        "addr": 700416,
+        "lang": "swift",
+        "index": 19,
+        "fields": [
+          {
+            "name": "id",
+            "kind": "property",
+            "addr": 4295683349
+          },
+          {
+            "name": "title",
+            "kind": "property",
+            "addr": 4295683352
+          },
+          {
+            "name": "role",
+            "kind": "property",
+            "addr": 4295683358
+          },
+          {
+            "name": "action",
+            "kind": "property",
+            "type": "yycSg",
+            "addr": 4295683363
+          }
+        ]
+      },
+      {
+        "classname": "OptionsModel",
+        "addr": 700548,
+        "lang": "swift",
+        "index": 20,
+        "fields": [
+          {
+            "name": "_readWritePermission",
+            "kind": "property",
+            "addr": 4295683392
+          },
+          {
+            "name": "_sharingMode",
+            "kind": "property",
+            "addr": 4295683413
+          },
+          {
+            "name": "_sharingOptionsAllowed",
+            "kind": "property",
+            "addr": 4295683440
+          },
+          {
+            "name": "_allowCoOwnersEditing",
+            "kind": "property",
+            "addr": 4295683472
+          },
+          {
+            "name": "_newParticipantsCanBeCoOwners",
+            "kind": "property",
+            "addr": 4295683504
+          },
+          {
+            "name": "_participantsAreAlwaysCoOwners",
+            "kind": "property",
+            "addr": 4295683536
+          },
+          {
+            "name": "_currentUserCanInvitePublisher",
+            "kind": "property",
+            "addr": 4295683568
+          },
+          {
+            "name": "_currentUserCanManageAccessRequestsPublisher",
+            "kind": "property",
+            "addr": 4295683600
+          },
+          {
+            "name": "_anyoneCanRequestAccessPublisher",
+            "kind": "property",
+            "addr": 4295683648
+          },
+          {
+            "name": "_coOwnerNewParticipantsCanBeCoOwners",
+            "kind": "property",
+            "addr": 4295683696
+          },
+          {
+            "name": "ckShareModel",
+            "kind": "property",
+            "addr": 4295683733
+          },
+          {
+            "name": "allowAccessRequestsSPIOverride",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295683760
+          },
+          {
+            "name": "store",
+            "kind": "property",
+            "type": "Shy\u0002\u0088V\u0001",
+            "addr": 4295683791
+          }
+        ]
+      },
+      {
+        "classname": "CloudDocsOperations",
+        "addr": 700620,
+        "lang": "swift",
+        "index": 21
+      },
+      {
+        "classname": "SharingModel",
+        "addr": 700648,
+        "lang": "swift",
+        "index": 22,
+        "fields": [
+          {
+            "name": "optionsModel",
+            "kind": "property",
+            "addr": 4295683808
+          },
+          {
+            "name": "ckShareModel",
+            "kind": "property",
+            "addr": 4295683821
+          },
+          {
+            "name": "store",
+            "kind": "property",
+            "type": "Shy\u0002\u0088V\u0001",
+            "addr": 4295683834
+          },
+          {
+            "name": "extensionController",
+            "kind": "property",
+            "addr": 4295683840
+          },
+          {
+            "name": "_displayScale",
+            "kind": "property",
+            "addr": 4295683860
+          },
+          {
+            "name": "saveShareOnDone",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295683874
+          },
+          {
+            "name": "_isDelegateInitialized",
+            "kind": "property",
+            "addr": 4295683904
+          },
+          {
+            "name": "_executionMode",
+            "kind": "property",
+            "addr": 4295683927
+          },
+          {
+            "name": "_sharingType",
+            "kind": "property",
+            "addr": 4295683942
+          },
+          {
+            "name": "_sharingStage",
+            "kind": "property",
+            "addr": 4295683955
+          },
+          {
+            "name": "_addedAddresses",
+            "kind": "property",
+            "addr": 4295683969
+          },
+          {
+            "name": "_createOrLoadStage",
+            "kind": "property",
+            "addr": 4295684000
+          },
+          {
+            "name": "_addingAddressesStage",
+            "kind": "property",
+            "addr": 4295684032
+          },
+          {
+            "name": "_savingStage",
+            "kind": "property",
+            "addr": 4295684054
+          },
+          {
+            "name": "_alertNowShowing",
+            "kind": "property",
+            "addr": 4295684080
+          },
+          {
+            "name": "_isShowingAlert",
+            "kind": "property",
+            "addr": 4295684097
+          },
+          {
+            "name": "_isFolderShare",
+            "kind": "property",
+            "addr": 4295684113
+          },
+          {
+            "name": "_rootFolderURL",
+            "kind": "property",
+            "addr": 4295684128
+          },
+          {
+            "name": "_isFolderSubshare",
+            "kind": "property",
+            "addr": 4295684144
+          },
+          {
+            "name": "_rootFolderTitle",
+            "kind": "property",
+            "addr": 4295684176
+          },
+          {
+            "name": "_ckFolderSubitemName",
+            "kind": "property",
+            "addr": 4295684208
+          },
+          {
+            "name": "_folderSharingStage",
+            "kind": "property",
+            "addr": 4295684240
+          },
+          {
+            "name": "_shareSaveStatus",
+            "kind": "property",
+            "addr": 4295684272
+          },
+          {
+            "name": "lastServicesData",
+            "kind": "property",
+            "addr": 4295684304
+          },
+          {
+            "name": "_sharingOptionsAllowedFromSPI",
+            "kind": "property",
+            "addr": 4295684336
+          },
+          {
+            "name": "_yourNameAndEmail",
+            "kind": "property",
+            "addr": 4295684368
+          },
+          {
+            "name": "_sharedFileOrFolderURL",
+            "kind": "property",
+            "addr": 4295684400
+          },
+          {
+            "name": "shouldStopAccessingSharedFileOrFolderURL",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295684432
+          },
+          {
+            "name": "_itemUTI",
+            "kind": "property",
+            "addr": 4295684473
+          },
+          {
+            "name": "_isShareRoot",
+            "kind": "property",
+            "addr": 4295684482
+          },
+          {
+            "name": "_thumbnail",
+            "kind": "property",
+            "addr": 4295684495
+          },
+          {
+            "name": "_thumbnailFromCloudKitSPI",
+            "kind": "property",
+            "addr": 4295684512
+          },
+          {
+            "name": "_thumbnailFromDocumentSPI",
+            "kind": "property",
+            "addr": 4295684544
+          },
+          {
+            "name": "_itemTitle",
+            "kind": "property",
+            "addr": 4295684570
+          },
+          {
+            "name": "_sourceAppBundleID",
+            "kind": "property",
+            "addr": 4295684592
+          },
+          {
+            "name": "_sectionTitleForAuxiliaryToggles",
+            "kind": "property",
+            "addr": 4295684624
+          },
+          {
+            "name": "_primaryCheckboxTitle",
+            "kind": "property",
+            "addr": 4295684672
+          },
+          {
+            "name": "_secondaryCheckboxTitle",
+            "kind": "property",
+            "addr": 4295684704
+          },
+          {
+            "name": "_primaryCheckboxState",
+            "kind": "property",
+            "addr": 4295684736
+          },
+          {
+            "name": "_secondaryCheckboxState",
+            "kind": "property",
+            "addr": 4295684768
+          },
+          {
+            "name": "_ckContainerIdentifier",
+            "kind": "property",
+            "addr": 4295684800
+          },
+          {
+            "name": "_helpAnchor",
+            "kind": "property",
+            "addr": 4295684823
+          },
+          {
+            "name": "_participantDetails",
+            "kind": "property",
+            "addr": 4295684848
+          }
+        ]
+      },
+      {
+        "classname": "GlobalPermissionViewModel",
+        "addr": 700800,
+        "lang": "swift",
+        "index": 23,
+        "fields": [
+          {
+            "name": "sharingModel",
+            "kind": "property",
+            "addr": 4295684944
+          },
+          {
+            "name": "store",
+            "kind": "property",
+            "type": "Shy\u0002\u0088V\u0001",
+            "addr": 4295684957
+          },
+          {
+            "name": "_showingAlert",
+            "kind": "property",
+            "addr": 4295684963
+          },
+          {
+            "name": "_showingAlertBool",
+            "kind": "property",
+            "addr": 4295684992
+          },
+          {
+            "name": "_whoCanAccessPermissions",
+            "kind": "property",
+            "addr": 4295685024
+          },
+          {
+            "name": "_whoCanAccessPermissionSelected",
+            "kind": "property",
+            "addr": 4295685056
+          },
+          {
+            "name": "_readWritePermissions",
+            "kind": "property",
+            "addr": 4295685088
+          },
+          {
+            "name": "_readWritePermissionSelected",
+            "kind": "property",
+            "addr": 4295685120
+          },
+          {
+            "name": "_whoCanAddPeoplePermissions",
+            "kind": "property",
+            "addr": 4295685152
+          },
+          {
+            "name": "_whoCanAddPeoplePermissionSelected",
+            "kind": "property",
+            "addr": 4295685184
+          },
+          {
+            "name": "_anyoneCanAddPeople",
+            "kind": "property",
+            "addr": 4295685232
+          },
+          {
+            "name": "_whoCanRequestAccessPermissions",
+            "kind": "property",
+            "addr": 4295685264
+          },
+          {
+            "name": "_whoCanRequestAccessSelected",
+            "kind": "property",
+            "addr": 4295685296
+          },
+          {
+            "name": "_localizedPermissionSummary",
+            "kind": "property",
+            "addr": 4295685328
+          },
+          {
+            "name": "_shouldShowSharingOptionsView",
+            "kind": "property",
+            "addr": 4295685360
+          },
+          {
+            "name": "_didTapCopyLink",
+            "kind": "property",
+            "addr": 4295685390
+          },
+          {
+            "name": "_savingInProgress",
+            "kind": "property",
+            "addr": 4295685408
+          }
+        ]
+      },
+      {
+        "classname": "WhoCanRequestAccess",
+        "addr": 700872,
+        "lang": "swift",
+        "index": 24,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.WhoCanRequestAccess.0",
+            "lang": "swift",
+            "addr": 4295668115
+          },
+          {
+            "name": "1",
+            "flag": "method.WhoCanRequestAccess.1",
+            "lang": "swift",
+            "addr": 4295675291
+          },
+          {
+            "name": "2",
+            "flag": "method.WhoCanRequestAccess.2",
+            "lang": "swift",
+            "addr": 4295672483
+          }
+        ],
+        "fields": [
+          {
+            "name": "anyoneCanRequestAccess",
+            "kind": "property",
+            "addr": 4295685584
+          },
+          {
+            "name": "noOneCanRequestAccess",
+            "kind": "property",
+            "addr": 4295685616
+          }
+        ]
+      },
+      {
+        "classname": "WhoCanAddPeople",
+        "addr": 700900,
+        "lang": "swift",
+        "index": 25,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.WhoCanRequestAccess.0",
+            "lang": "swift",
+            "addr": 4295668115
+          },
+          {
+            "name": "1",
+            "flag": "method.WhoCanRequestAccess.1",
+            "lang": "swift",
+            "addr": 4295675291
+          },
+          {
+            "name": "2",
+            "flag": "method.WhoCanRequestAccess.2",
+            "lang": "swift",
+            "addr": 4295672483
+          }
+        ],
+        "fields": [
+          {
+            "name": "anyoneCanAddPeople",
+            "kind": "property",
+            "addr": 4295685520
+          },
+          {
+            "name": "onlyOwnerCanAddPeople",
+            "kind": "property",
+            "addr": 4295685552
+          },
+          {
+            "name": "mixed",
+            "kind": "property",
+            "addr": 4295685514
+          }
+        ]
+      },
+      {
+        "classname": "CanMakeChangesOrViewOnly",
+        "addr": 700928,
+        "lang": "swift",
+        "index": 26,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.WhoCanRequestAccess.0",
+            "lang": "swift",
+            "addr": 4295668115
+          },
+          {
+            "name": "1",
+            "flag": "method.WhoCanRequestAccess.1",
+            "lang": "swift",
+            "addr": 4295675291
+          },
+          {
+            "name": "2",
+            "flag": "method.WhoCanRequestAccess.2",
+            "lang": "swift",
+            "addr": 4295672483
+          }
+        ],
+        "fields": [
+          {
+            "name": "canMakeChanges",
+            "kind": "property",
+            "addr": 4295685490
+          },
+          {
+            "name": "viewOnly",
+            "kind": "property",
+            "addr": 4295685505
+          },
+          {
+            "name": "mixed",
+            "kind": "property",
+            "addr": 4295685514
+          }
+        ]
+      },
+      {
+        "classname": "WhoCanAccess",
+        "addr": 700956,
+        "lang": "swift",
+        "index": 27,
+        "fields": [
+          {
+            "name": "onlyPeopleYouInvite",
+            "kind": "property",
+            "addr": 4295685440
+          },
+          {
+            "name": "anyoneWithTheLink",
+            "kind": "property",
+            "addr": 4295685472
+          }
+        ]
+      },
+      {
+        "classname": "ModelPublished",
+        "addr": 700984,
+        "lang": "swift",
+        "index": 28,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.ModelPublished.0",
+            "lang": "swift",
+            "addr": 4295668338
+          },
+          {
+            "name": "1",
+            "flag": "method.ModelPublished.1",
+            "lang": "swift",
+            "addr": 4295668472
+          },
+          {
+            "name": "2",
+            "flag": "method.ModelPublished.2",
+            "lang": "swift",
+            "addr": 4295757745
+          },
+          {
+            "name": "3",
+            "flag": "method.ModelPublished.3",
+            "lang": "swift",
+            "addr": 4295668361
+          },
+          {
+            "name": "4",
+            "flag": "method.ModelPublished.4",
+            "lang": "swift",
+            "addr": 4295668368
+          },
+          {
+            "name": "5",
+            "flag": "method.ModelPublished.5",
+            "lang": "swift",
+            "addr": 4295666232
+          },
+          {
+            "name": "func.10004fcd8",
+            "flag": "method.ModelPublished.func.10004fcd8",
+            "lang": "swift",
+            "addr": 4295294168
+          },
+          {
+            "name": "7",
+            "flag": "method.ModelPublished.7",
+            "lang": "swift",
+            "addr": 4295668392
+          },
+          {
+            "name": "8",
+            "flag": "method.ModelPublished.8",
+            "lang": "swift",
+            "addr": 4295668425
+          },
+          {
+            "name": "9",
+            "flag": "method.ModelPublished.9",
+            "lang": "swift",
+            "addr": 4295668422
+          },
+          {
+            "name": "10",
+            "flag": "method.ModelPublished.10",
+            "lang": "swift",
+            "addr": 4295801360
+          },
+          {
+            "name": "func.10004fd24",
+            "flag": "method.ModelPublished.func.10004fd24",
+            "lang": "swift",
+            "addr": 4295294244
+          }
+        ],
+        "fields": [
+          {
+            "name": "_published",
+            "kind": "property",
+            "addr": 4295685690
+          },
+          {
+            "name": "updateAction",
+            "kind": "property",
+            "type": "yyScMYccSg",
+            "addr": 4295685701
+          }
+        ]
+      },
+      {
+        "classname": "ModelDelegateSPI",
+        "addr": 701076,
+        "lang": "swift",
+        "index": 29,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.ModelDelegateSPI.0",
+            "lang": "swift",
+            "addr": 4295687381
+          }
+        ],
+        "fields": [
+          {
+            "name": "isFolderSharing",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295685728
+          },
+          {
+            "name": "fileOrFolderURL",
+            "kind": "property",
+            "addr": 4295685744
+          },
+          {
+            "name": "itemUTI",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295685760
+          },
+          {
+            "name": "share",
+            "kind": "property",
+            "type": "CKShare.allocator__GenericAccessorSg",
+            "addr": 4295685768
+          },
+          {
+            "name": "sharingModel",
+            "kind": "property",
+            "addr": 4295685774
+          },
+          {
+            "name": "concludeSPI",
+            "kind": "property",
+            "type": "y\u0002T?\u0001",
+            "addr": 4295685787
+          },
+          {
+            "name": "concludeSPISharingURL",
+            "kind": "property",
+            "type": "ySb_So7CKShareCSg\u0002B>\u0001",
+            "addr": 4295685808
+          },
+          {
+            "name": "concludeSPIFileOrSetup",
+            "kind": "property",
+            "type": "NSString.allocator__GenericAccessorSg_AC\u0002#>\u0001",
+            "addr": 4295685840
+          },
+          {
+            "name": "concludeSPIRemove",
+            "kind": "property",
+            "type": "ySb_\u0002\u0013>\u0001",
+            "addr": 4295685872
+          },
+          {
+            "name": "concludeSPIMail",
+            "kind": "property",
+            "type": "ySSSg_AA\u0002\u00ff=\u0001",
+            "addr": 4295685890
+          },
+          {
+            "name": "concludeSPIMetadata",
+            "kind": "property",
+            "type": "CKShareMetadata.allocator__GenericAccessorSg_\u0002\u00db=\u0001",
+            "addr": 4295685920
+          },
+          {
+            "name": "concludeSPIUserStatus",
+            "kind": "property",
+            "type": "y\u0002\u008e?\u0001",
+            "addr": 4295685952
+          },
+          {
+            "name": "appIcon",
+            "kind": "property",
+            "type": "NSImage.allocator__GenericAccessorSg",
+            "addr": 4295685974
+          },
+          {
+            "name": "appName",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295685982
+          }
+        ]
+      },
+      {
+        "classname": "NetworkMonitor",
+        "addr": 701148,
+        "lang": "swift",
+        "index": 30,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.NetworkMonitor.0",
+            "lang": "swift",
+            "addr": 4295672082
+          }
+        ],
+        "fields": [
+          {
+            "name": "monitor",
+            "kind": "property",
+            "addr": 4295686032
+          },
+          {
+            "name": "queue",
+            "kind": "property",
+            "type": "__C.OS_dispatch_queue",
+            "addr": 4295686040
+          },
+          {
+            "name": "_status",
+            "kind": "property",
+            "addr": 4295686046
+          }
+        ]
+      },
+      {
+        "classname": "NetworkStatus",
+        "addr": 701220,
+        "lang": "swift",
+        "index": 31,
+        "fields": [
+          {
+            "name": "connected",
+            "kind": "property",
+            "addr": 4295686054
+          },
+          {
+            "name": "disconnected",
+            "kind": "property",
+            "addr": 4295686064
+          }
+        ]
+      },
+      {
+        "classname": "NSErrorContext",
+        "addr": 701336,
+        "lang": "swift",
+        "index": 32,
+        "fields": [
+          {
+            "name": "functionName",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295686454
+          },
+          {
+            "name": "nsError",
+            "kind": "property",
+            "type": "NSError.allocator__GenericAccessorSg",
+            "addr": 4295686467
+          },
+          {
+            "name": "internalMessage",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295686475
+          }
+        ]
+      },
+      {
+        "classname": "ErrorMessage",
+        "addr": 701364,
+        "lang": "swift",
+        "index": 33,
+        "fields": [
+          {
+            "name": "functionName",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295686454
+          },
+          {
+            "name": "nsError",
+            "kind": "property",
+            "type": "NSError.allocator__GenericAccessorSg",
+            "addr": 4295686467
+          },
+          {
+            "name": "internalMessage",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295686475
+          }
+        ]
+      },
+      {
+        "classname": "SharingError",
+        "addr": 701392,
+        "lang": "swift",
+        "index": 34,
+        "fields": [
+          {
+            "name": "unknownSharingMode",
+            "kind": "property",
+            "addr": 4295686112
+          },
+          {
+            "name": "creationError",
+            "kind": "property",
+            "type": "5cloudDriveError_t",
+            "addr": 4295686131
+          },
+          {
+            "name": "fetchParticipantError",
+            "kind": "property",
+            "type": "0fetchError_t",
+            "addr": 4295686160
+          },
+          {
+            "name": "folderPrepError",
+            "kind": "property",
+            "type": "prepError_t",
+            "addr": 4295686182
+          },
+          {
+            "name": "saveError",
+            "kind": "property",
+            "type": "error_t",
+            "addr": 4295686198
+          },
+          {
+            "name": "fetchShareError",
+            "kind": "property",
+            "type": "error_t",
+            "addr": 4295686208
+          },
+          {
+            "name": "nameAndEmailError",
+            "kind": "property",
+            "type": "7nameAndEmailError_t",
+            "addr": 4295686224
+          },
+          {
+            "name": "fetchSharingURLError",
+            "kind": "property",
+            "type": "5sharingURLError_t",
+            "addr": 4295686256
+          },
+          {
+            "name": "stopSharingError",
+            "kind": "property",
+            "type": "error_t",
+            "addr": 4295686288
+          },
+          {
+            "name": "fetchFPServicesError",
+            "kind": "property",
+            "type": "error_t",
+            "addr": 4295686320
+          },
+          {
+            "name": "extensionError",
+            "kind": "property",
+            "type": "4extensionError_t",
+            "addr": 4295686341
+          },
+          {
+            "name": "unexpectedInternalError",
+            "kind": "property",
+            "type": "message_t",
+            "addr": 4295686368
+          },
+          {
+            "name": "callerParametersError",
+            "kind": "property",
+            "type": "message_t",
+            "addr": 4295686400
+          },
+          {
+            "name": "callerPermissionError",
+            "kind": "property",
+            "type": "message_t",
+            "addr": 4295686432
+          }
+        ]
+      },
+      {
+        "classname": "SharingOptions",
+        "addr": 701420,
+        "lang": "swift",
+        "index": 35,
+        "fields": [
+          {
+            "name": "rawValue",
+            "kind": "property",
+            "type": "UInt",
+            "addr": 4295686549
+          }
+        ]
+      },
+      {
+        "classname": "SharingMode",
+        "addr": 701448,
+        "lang": "swift",
+        "index": 36,
+        "fields": [
+          {
+            "name": "none",
+            "kind": "property",
+            "addr": 4295686496
+          },
+          {
+            "name": "publicMode",
+            "kind": "property",
+            "addr": 4295686526
+          },
+          {
+            "name": "privateMode",
+            "kind": "property",
+            "addr": 4295686537
+          }
+        ]
+      },
+      {
+        "classname": "SharePermission",
+        "addr": 701476,
+        "lang": "swift",
+        "index": 37,
+        "fields": [
+          {
+            "name": "none",
+            "kind": "property",
+            "addr": 4295686496
+          },
+          {
+            "name": "readWrite",
+            "kind": "property",
+            "addr": 4295686501
+          },
+          {
+            "name": "readOnly",
+            "kind": "property",
+            "addr": 4295686511
+          },
+          {
+            "name": "mixed",
+            "kind": "property",
+            "addr": 4295686520
+          }
+        ]
+      },
+      {
+        "classname": "SPIHelper",
+        "addr": 701504,
+        "lang": "swift",
+        "index": 38,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ],
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.SPIHelper.0",
+            "lang": "swift",
+            "addr": 4295820405
+          }
+        ],
+        "fields": [
+          {
+            "name": "requestingProcessBundleIdentifier",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295686608
+          }
+        ]
+      },
+      {
+        "classname": "ShareSaveStatus",
+        "addr": 701792,
+        "lang": "swift",
+        "index": 39,
+        "fields": [
+          {
+            "name": "none",
+            "kind": "property",
+            "addr": 4295686821
+          },
+          {
+            "name": "creating",
+            "kind": "property",
+            "addr": 4295686795
+          },
+          {
+            "name": "saving",
+            "kind": "property",
+            "addr": 4295686868
+          },
+          {
+            "name": "completed",
+            "kind": "property",
+            "addr": 4295686923
+          }
+        ]
+      },
+      {
+        "classname": "FolderShareStage",
+        "addr": 701820,
+        "lang": "swift",
+        "index": 40,
+        "fields": [
+          {
+            "name": "needsPrep",
+            "kind": "property",
+            "addr": 4295686897
+          },
+          {
+            "name": "preparing",
+            "kind": "property",
+            "addr": 4295686907
+          },
+          {
+            "name": "ready",
+            "kind": "property",
+            "addr": 4295686917
+          },
+          {
+            "name": "failed",
+            "kind": "property",
+            "addr": 4295686814
+          }
+        ]
+      },
+      {
+        "classname": "SaveStage",
+        "addr": 701848,
+        "lang": "swift",
+        "index": 41,
+        "fields": [
+          {
+            "name": "saving",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295686868
+          },
+          {
+            "name": "none",
+            "kind": "property",
+            "addr": 4295686821
+          },
+          {
+            "name": "saved",
+            "kind": "property",
+            "addr": 4295686875
+          },
+          {
+            "name": "savedNoFinalize",
+            "kind": "property",
+            "addr": 4295686881
+          },
+          {
+            "name": "failed",
+            "kind": "property",
+            "addr": 4295686814
+          }
+        ]
+      },
+      {
+        "classname": "AddAddressesStage",
+        "addr": 701876,
+        "lang": "swift",
+        "index": 42,
+        "fields": [
+          {
+            "name": "none",
+            "kind": "property",
+            "addr": 4295686821
+          },
+          {
+            "name": "addingAddresses",
+            "kind": "property",
+            "addr": 4295686826
+          },
+          {
+            "name": "addressesAdded",
+            "kind": "property",
+            "addr": 4295686842
+          },
+          {
+            "name": "noneNeeded",
+            "kind": "property",
+            "addr": 4295686857
+          },
+          {
+            "name": "failed",
+            "kind": "property",
+            "addr": 4295686814
+          }
+        ]
+      },
+      {
+        "classname": "CreateOrLoadStage",
+        "addr": 701904,
+        "lang": "swift",
+        "index": 43,
+        "fields": [
+          {
+            "name": "unknown",
+            "kind": "property",
+            "addr": 4295686656
+          },
+          {
+            "name": "exploratoryLoading",
+            "kind": "property",
+            "addr": 4295686768
+          },
+          {
+            "name": "noShare",
+            "kind": "property",
+            "addr": 4295686787
+          },
+          {
+            "name": "creating",
+            "kind": "property",
+            "addr": 4295686795
+          },
+          {
+            "name": "haveShare",
+            "kind": "property",
+            "addr": 4295686804
+          },
+          {
+            "name": "failed",
+            "kind": "property",
+            "addr": 4295686814
+          }
+        ]
+      },
+      {
+        "classname": "ShareAddress",
+        "addr": 701932,
+        "lang": "swift",
+        "index": 44,
+        "fields": [
+          {
+            "name": "email",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295686754
+          },
+          {
+            "name": "phone",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295686760
+          }
+        ]
+      },
+      {
+        "classname": "SharingStage",
+        "addr": 701960,
+        "lang": "swift",
+        "index": 45,
+        "fields": [
+          {
+            "name": "preCreation",
+            "kind": "property",
+            "addr": 4295686693
+          },
+          {
+            "name": "create",
+            "kind": "property",
+            "addr": 4295686705
+          },
+          {
+            "name": "folderPrep",
+            "kind": "property",
+            "addr": 4295686712
+          },
+          {
+            "name": "initialSave",
+            "kind": "property",
+            "addr": 4295686723
+          },
+          {
+            "name": "load",
+            "kind": "property",
+            "addr": 4295686735
+          },
+          {
+            "name": "update",
+            "kind": "property",
+            "addr": 4295686740
+          },
+          {
+            "name": "cancel",
+            "kind": "property",
+            "addr": 4295686747
+          }
+        ]
+      },
+      {
+        "classname": "ExecutionMode",
+        "addr": 701988,
+        "lang": "swift",
+        "index": 46,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.ExecutionMode.0",
+            "lang": "swift",
+            "addr": 4295758157
+          }
+        ],
+        "fields": [
+          {
+            "name": "unknown",
+            "kind": "property",
+            "addr": 4295686656
+          },
+          {
+            "name": "preshare",
+            "kind": "property",
+            "addr": 4295686664
+          },
+          {
+            "name": "postshare",
+            "kind": "property",
+            "addr": 4295686673
+          },
+          {
+            "name": "addPeople",
+            "kind": "property",
+            "addr": 4295686683
+          }
+        ]
+      },
+      {
+        "classname": "SharingAttributeSnapshot",
+        "addr": 702016,
+        "lang": "swift",
+        "index": 47,
+        "fields": [
+          {
+            "name": "executionMode",
+            "kind": "property",
+            "addr": 4295686933
+          },
+          {
+            "name": "sharingType",
+            "kind": "property",
+            "addr": 4295686947
+          },
+          {
+            "name": "shareSaveStatus",
+            "kind": "property",
+            "addr": 4295686959
+          },
+          {
+            "name": "sharingMode",
+            "kind": "property",
+            "addr": 4295686975
+          },
+          {
+            "name": "sharingPermission",
+            "kind": "property",
+            "addr": 4295686992
+          },
+          {
+            "name": "currentUserIsOwner",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295687024
+          },
+          {
+            "name": "allowCoOwnersEditing",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295687056
+          },
+          {
+            "name": "newParticipantsCanBeCoOwners",
+            "kind": "property",
+            "addr": 4295687088
+          },
+          {
+            "name": "participantsAreAlwaysCoOwners",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295687120
+          },
+          {
+            "name": "anyoneCanRequestAccess",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295687152
+          }
+        ]
+      },
+      {
+        "classname": "SharingType",
+        "addr": 702044,
+        "lang": "swift",
+        "index": 48,
+        "fields": [
+          {
+            "name": "cloudKit",
+            "kind": "property",
+            "type": "type_t",
+            "addr": 4295687175
+          },
+          {
+            "name": "unknown",
+            "kind": "property",
+            "addr": 4295687184
+          },
+          {
+            "name": "document",
+            "kind": "property",
+            "addr": 4295687192
+          }
+        ]
+      },
+      {
+        "classname": "UTISupport",
+        "addr": 702072,
+        "lang": "swift",
+        "index": 49,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.UTISupport.0",
+            "lang": "swift",
+            "addr": 4295669387
+          },
+          {
+            "name": "1",
+            "flag": "method.UTISupport.1",
+            "lang": "swift",
+            "addr": 4295690387
+          }
+        ]
+      },
+      {
+        "classname": "SharingItemType",
+        "addr": 702100,
+        "lang": "swift",
+        "index": 50,
+        "fields": [
+          {
+            "name": "folder",
+            "kind": "property",
+            "addr": 4295687267
+          },
+          {
+            "name": "document",
+            "kind": "property",
+            "addr": 4295687192
+          },
+          {
+            "name": "spreadsheet",
+            "kind": "property",
+            "addr": 4295687274
+          },
+          {
+            "name": "presentation",
+            "kind": "property",
+            "addr": 4295687286
+          },
+          {
+            "name": "image",
+            "kind": "property",
+            "addr": 4295687299
+          },
+          {
+            "name": "movie",
+            "kind": "property",
+            "addr": 4295687305
+          },
+          {
+            "name": "pdf",
+            "kind": "property",
+            "addr": 4295687311
+          },
+          {
+            "name": "note",
+            "kind": "property",
+            "addr": 4295687315
+          },
+          {
+            "name": "notesFolder",
+            "kind": "property",
+            "addr": 4295687219
+          },
+          {
+            "name": "list",
+            "kind": "property",
+            "addr": 4295687320
+          },
+          {
+            "name": "tabGroup",
+            "kind": "property",
+            "addr": 4295687325
+          },
+          {
+            "name": "freeformBoard",
+            "kind": "property",
+            "addr": 4295687334
+          },
+          {
+            "name": "genericCloudKit",
+            "kind": "property",
+            "addr": 4295687348
+          },
+          {
+            "name": "other",
+            "kind": "property",
+            "addr": 4295687257
+          }
+        ]
+      },
+      {
+        "classname": "CloudKitAppType",
+        "addr": 702128,
+        "lang": "swift",
+        "index": 51,
+        "fields": [
+          {
+            "name": "unspecified",
+            "kind": "property",
+            "addr": 4295687201
+          },
+          {
+            "name": "notes",
+            "kind": "property",
+            "addr": 4295687213
+          },
+          {
+            "name": "notesFolder",
+            "kind": "property",
+            "addr": 4295687219
+          },
+          {
+            "name": "reminders",
+            "kind": "property",
+            "addr": 4295687231
+          },
+          {
+            "name": "safari",
+            "kind": "property",
+            "addr": 4295687241
+          },
+          {
+            "name": "freeform",
+            "kind": "property",
+            "addr": 4295687248
+          },
+          {
+            "name": "other",
+            "kind": "property",
+            "addr": 4295687257
+          },
+          {
+            "name": "any",
+            "kind": "property",
+            "addr": 4295687263
+          }
+        ]
+      },
+      {
+        "classname": "TriStateBool",
+        "addr": 702156,
+        "lang": "swift",
+        "index": 52,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.TriStateBool.0",
+            "lang": "swift",
+            "addr": 4295666244
+          }
+        ],
+        "fields": [
+          {
+            "name": "state",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295687373
+          }
+        ]
+      },
+      {
+        "classname": "MacOSSharingExtensionContext",
+        "addr": 4295793552,
+        "lang": "objc",
+        "index": 53,
+        "super": [
+          "NSSharingUIExtensionContext"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSSharingUIExtensionContext"
+        ],
+        "methods": [
+          {
+            "name": "initWithInputItems:listenerEndpoint:contextUUID:",
+            "flag": "method.MacOSSharingExtensionContext.initWithInputItems:listenerEndpoint:contextUUID:",
+            "lang": "objc",
+            "addr": 4294975176
+          },
+          {
+            "name": "resumeSessionTeardownByCallingContinuationBlock:",
+            "flag": "func.100001f3c",
+            "lang": "objc",
+            "addr": 4294975292
+          },
+          {
+            "name": "_fadesOutSuccessfulClosingAnimation",
+            "flag": "method.MacOSSharingExtensionContext._fadesOutSuccessfulClosingAnimation",
+            "lang": "objc",
+            "addr": 4294975540
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.MacOSSharingExtensionContext.dealloc",
+            "lang": "objc",
+            "addr": 4294975548
+          },
+          {
+            "name": "barrier",
+            "flag": "method.MacOSSharingExtensionContext.barrier",
+            "lang": "objc",
+            "addr": 4294975808
+          },
+          {
+            "name": "setBarrier:",
+            "flag": "method.MacOSSharingExtensionContext.setBarrier:",
+            "lang": "objc",
+            "addr": 4294975824
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.MacOSSharingExtensionContext..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294975836
+          },
+          {
+            "name": "resumeSessionTeardownByCallingContinuationBlock:",
+            "flag": "method.MacOSSharingExtensionContext.resumeSessionTeardownByCallingContinuationBlock:",
+            "lang": "objc",
+            "addr": 4295622520
+          },
+          {
+            "name": "_allowedErrorClasses",
+            "flag": "method.class.MacOSSharingExtensionContext._allowedErrorClasses",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294975624
+          },
+          {
+            "name": "resumeSessionTeardownByCallingContinuationBlock:",
+            "flag": "method.MacOSSharingExtensionContext.resumeSessionTeardownByCallingContinuationBlock:",
+            "lang": "objc",
+            "addr": 4295622520
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_barrier",
+            "kind": "var",
+            "type": "@\"NSObject<OS_dispatch_group>\"",
+            "addr": 4295793496
+          },
+          {
+            "name": "barrier",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "BRCKShareSubitem",
+        "addr": 4295793632,
+        "lang": "objc",
+        "index": 54,
+        "super": [
+          "CKShare"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_CKShare"
+        ],
+        "methods": [
+          {
+            "name": "initWithShare:",
+            "flag": "method.BRCKShareSubitem.initWithShare:",
+            "lang": "objc",
+            "addr": 4294975856
+          },
+          {
+            "name": "encodeWithCoder:",
+            "flag": "method.BRCKShareSubitem.encodeWithCoder:",
+            "lang": "objc",
+            "addr": 4294976696
+          },
+          {
+            "name": "initWithCoder:",
+            "flag": "method.BRCKShareSubitem.initWithCoder:",
+            "lang": "objc",
+            "addr": 4294976700
+          },
+          {
+            "name": "publicPermission",
+            "flag": "method.BRCKShareSubitem.publicPermission",
+            "lang": "objc",
+            "addr": 4294976728
+          },
+          {
+            "name": "originalShare",
+            "flag": "method.BRCKShareSubitem.originalShare",
+            "lang": "objc",
+            "addr": 4294976744
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.BRCKShareSubitem..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294976760
+          },
+          {
+            "name": "supportsSecureCoding",
+            "flag": "method.class.BRCKShareSubitem.supportsSecureCoding",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294976688
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_publicPermission",
+            "kind": "var",
+            "type": "q",
+            "addr": 4295793504
+          },
+          {
+            "name": "_originalShare",
+            "kind": "var",
+            "type": "@\"CKShare\"",
+            "addr": 4295793500
+          },
+          {
+            "name": "originalShare",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "SPIHelper.ServiceDelegate",
+        "addr": 4295794712,
+        "lang": "objc",
+        "index": 55,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "listener:shouldAcceptNewConnection:",
+            "flag": "method.SPIHelper.ServiceDelegate.listener:shouldAcceptNewConnection:",
+            "lang": "objc",
+            "addr": 4294976948
+          },
+          {
+            "name": "init",
+            "flag": "method.SPIHelper.ServiceDelegate.init",
+            "lang": "objc",
+            "addr": 4294977068
+          }
+        ]
+      },
+      {
+        "classname": "SPIHelper.CKShareModel",
+        "addr": 4295795584,
+        "lang": "objc",
+        "index": 56,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_ckShare",
+            "kind": "var",
+            "addr": 4295795512
+          },
+          {
+            "name": "_currentUserIsOwner",
+            "kind": "var",
+            "addr": 4295795520
+          },
+          {
+            "name": "_sharingURL",
+            "kind": "var",
+            "addr": 4295795528
+          },
+          {
+            "name": "_ckShareParticipantsCoOwnersState",
+            "kind": "var",
+            "addr": 4295795536
+          },
+          {
+            "name": "_containerID",
+            "kind": "var",
+            "addr": 4295795544
+          },
+          {
+            "name": "_containerSetupInfo",
+            "kind": "var",
+            "addr": 4295795552
+          },
+          {
+            "name": "accountID",
+            "kind": "var",
+            "addr": 4295802144
+          },
+          {
+            "name": "_container",
+            "kind": "var",
+            "addr": 4295795560
+          },
+          {
+            "name": "_ckSystemSharingUIObserver",
+            "kind": "var",
+            "addr": 4295795568
+          },
+          {
+            "name": "sharingModelReference",
+            "kind": "var",
+            "addr": 4295802152
+          },
+          {
+            "name": "store",
+            "kind": "var",
+            "addr": 4295795576
+          }
+        ]
+      },
+      {
+        "classname": "SPIHelper.CloudKitOperations",
+        "addr": 4295796792,
+        "lang": "objc",
+        "index": 57,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_ckSourceAppBundleID",
+            "kind": "var",
+            "addr": 4295796784
+          },
+          {
+            "name": "nsCloudKitContainerType",
+            "kind": "var",
+            "addr": 4295627616
+          },
+          {
+            "name": "nsCloudKitContainerID",
+            "kind": "var",
+            "addr": 4295627624
+          },
+          {
+            "name": "nsCloudKitContainerSetupInfo",
+            "kind": "var",
+            "addr": 4295627632
+          }
+        ]
+      },
+      {
+        "classname": "SPIHelper.OptionsModel",
+        "addr": 4295797672,
+        "lang": "objc",
+        "index": 58,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_readWritePermission",
+            "kind": "var",
+            "addr": 4295797576
+          },
+          {
+            "name": "_sharingMode",
+            "kind": "var",
+            "addr": 4295797584
+          },
+          {
+            "name": "_sharingOptionsAllowed",
+            "kind": "var",
+            "addr": 4295797592
+          },
+          {
+            "name": "_allowCoOwnersEditing",
+            "kind": "var",
+            "addr": 4295797600
+          },
+          {
+            "name": "_newParticipantsCanBeCoOwners",
+            "kind": "var",
+            "addr": 4295797608
+          },
+          {
+            "name": "_participantsAreAlwaysCoOwners",
+            "kind": "var",
+            "addr": 4295797616
+          },
+          {
+            "name": "_currentUserCanInvitePublisher",
+            "kind": "var",
+            "addr": 4295797624
+          },
+          {
+            "name": "_currentUserCanManageAccessRequestsPublisher",
+            "kind": "var",
+            "addr": 4295797632
+          },
+          {
+            "name": "_anyoneCanRequestAccessPublisher",
+            "kind": "var",
+            "addr": 4295797640
+          },
+          {
+            "name": "_coOwnerNewParticipantsCanBeCoOwners",
+            "kind": "var",
+            "addr": 4295797648
+          },
+          {
+            "name": "ckShareModel",
+            "kind": "var",
+            "addr": 4295802160
+          },
+          {
+            "name": "allowAccessRequestsSPIOverride",
+            "kind": "var",
+            "addr": 4295797656
+          },
+          {
+            "name": "store",
+            "kind": "var",
+            "addr": 4295797664
+          }
+        ]
+      },
+      {
+        "classname": "SPIHelper.SharingModel",
+        "addr": 4295798464,
+        "lang": "objc",
+        "index": 59,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_isDelegateInitialized",
+            "kind": "var",
+            "addr": 4295798168
+          },
+          {
+            "name": "_executionMode",
+            "kind": "var",
+            "addr": 4295798176
+          },
+          {
+            "name": "_sharingType",
+            "kind": "var",
+            "addr": 4295798184
+          },
+          {
+            "name": "_sharingStage",
+            "kind": "var",
+            "addr": 4295798192
+          },
+          {
+            "name": "_addedAddresses",
+            "kind": "var",
+            "addr": 4295798200
+          },
+          {
+            "name": "_createOrLoadStage",
+            "kind": "var",
+            "addr": 4295798208
+          },
+          {
+            "name": "_addingAddressesStage",
+            "kind": "var",
+            "addr": 4295798216
+          },
+          {
+            "name": "_savingStage",
+            "kind": "var",
+            "addr": 4295798224
+          },
+          {
+            "name": "_alertNowShowing",
+            "kind": "var",
+            "addr": 4295798232
+          },
+          {
+            "name": "_isShowingAlert",
+            "kind": "var",
+            "addr": 4295798240
+          },
+          {
+            "name": "_isFolderShare",
+            "kind": "var",
+            "addr": 4295798248
+          },
+          {
+            "name": "_rootFolderURL",
+            "kind": "var",
+            "addr": 4295798256
+          },
+          {
+            "name": "_isFolderSubshare",
+            "kind": "var",
+            "addr": 4295798264
+          },
+          {
+            "name": "_rootFolderTitle",
+            "kind": "var",
+            "addr": 4295798272
+          },
+          {
+            "name": "_ckFolderSubitemName",
+            "kind": "var",
+            "addr": 4295798280
+          },
+          {
+            "name": "_folderSharingStage",
+            "kind": "var",
+            "addr": 4295798288
+          },
+          {
+            "name": "_shareSaveStatus",
+            "kind": "var",
+            "addr": 4295798296
+          },
+          {
+            "name": "lastServicesData",
+            "kind": "var",
+            "addr": 4295802168
+          },
+          {
+            "name": "_sharingOptionsAllowedFromSPI",
+            "kind": "var",
+            "addr": 4295798304
+          },
+          {
+            "name": "_yourNameAndEmail",
+            "kind": "var",
+            "addr": 4295798312
+          },
+          {
+            "name": "_sharedFileOrFolderURL",
+            "kind": "var",
+            "addr": 4295798320
+          },
+          {
+            "name": "shouldStopAccessingSharedFileOrFolderURL",
+            "kind": "var",
+            "addr": 4295798328
+          },
+          {
+            "name": "_itemUTI",
+            "kind": "var",
+            "addr": 4295798336
+          },
+          {
+            "name": "_isShareRoot",
+            "kind": "var",
+            "addr": 4295798344
+          },
+          {
+            "name": "_thumbnail",
+            "kind": "var",
+            "addr": 4295798352
+          },
+          {
+            "name": "_thumbnailFromCloudKitSPI",
+            "kind": "var",
+            "addr": 4295798360
+          },
+          {
+            "name": "_thumbnailFromDocumentSPI",
+            "kind": "var",
+            "addr": 4295798368
+          },
+          {
+            "name": "_itemTitle",
+            "kind": "var",
+            "addr": 4295798376
+          },
+          {
+            "name": "_sourceAppBundleID",
+            "kind": "var",
+            "addr": 4295798384
+          },
+          {
+            "name": "_sectionTitleForAuxiliaryToggles",
+            "kind": "var",
+            "addr": 4295798392
+          },
+          {
+            "name": "_primaryCheckboxTitle",
+            "kind": "var",
+            "addr": 4295798400
+          },
+          {
+            "name": "_secondaryCheckboxTitle",
+            "kind": "var",
+            "addr": 4295798408
+          },
+          {
+            "name": "_primaryCheckboxState",
+            "kind": "var",
+            "addr": 4295798416
+          },
+          {
+            "name": "_secondaryCheckboxState",
+            "kind": "var",
+            "addr": 4295798424
+          },
+          {
+            "name": "_ckContainerIdentifier",
+            "kind": "var",
+            "addr": 4295798432
+          },
+          {
+            "name": "_helpAnchor",
+            "kind": "var",
+            "addr": 4295798440
+          },
+          {
+            "name": "_participantDetails",
+            "kind": "var",
+            "addr": 4295798448
+          },
+          {
+            "name": "networkMonitor",
+            "kind": "var",
+            "addr": 4295798456
+          },
+          {
+            "name": "operations",
+            "kind": "var",
+            "addr": 4295629896
+          },
+          {
+            "name": "ckMetadata",
+            "kind": "var",
+            "addr": 4295802176
+          },
+          {
+            "name": "optionsModel",
+            "kind": "var",
+            "addr": 4295629848
+          },
+          {
+            "name": "ckShareModel",
+            "kind": "var",
+            "addr": 4295629856
+          },
+          {
+            "name": "store",
+            "kind": "var",
+            "addr": 4295629864
+          },
+          {
+            "name": "extensionController",
+            "kind": "var",
+            "addr": 4295629872
+          },
+          {
+            "name": "_displayScale",
+            "kind": "var",
+            "addr": 4295629880
+          },
+          {
+            "name": "saveShareOnDone",
+            "kind": "var",
+            "addr": 4295629888
+          }
+        ]
+      },
+      {
+        "classname": "SPIHelper.GlobalPermissionViewModel",
+        "addr": 4295800600,
+        "lang": "objc",
+        "index": 60,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_showingAlert",
+            "kind": "var",
+            "addr": 4295800480
+          },
+          {
+            "name": "_showingAlertBool",
+            "kind": "var",
+            "addr": 4295800488
+          },
+          {
+            "name": "_whoCanAccessPermissions",
+            "kind": "var",
+            "addr": 4295800496
+          },
+          {
+            "name": "_whoCanAccessPermissionSelected",
+            "kind": "var",
+            "addr": 4295800504
+          },
+          {
+            "name": "_readWritePermissions",
+            "kind": "var",
+            "addr": 4295800512
+          },
+          {
+            "name": "_readWritePermissionSelected",
+            "kind": "var",
+            "addr": 4295800520
+          },
+          {
+            "name": "_whoCanAddPeoplePermissions",
+            "kind": "var",
+            "addr": 4295800528
+          },
+          {
+            "name": "_whoCanAddPeoplePermissionSelected",
+            "kind": "var",
+            "addr": 4295800536
+          },
+          {
+            "name": "_anyoneCanAddPeople",
+            "kind": "var",
+            "addr": 4295800544
+          },
+          {
+            "name": "_whoCanRequestAccessPermissions",
+            "kind": "var",
+            "addr": 4295800552
+          },
+          {
+            "name": "_whoCanRequestAccessSelected",
+            "kind": "var",
+            "addr": 4295800560
+          },
+          {
+            "name": "_localizedPermissionSummary",
+            "kind": "var",
+            "addr": 4295800568
+          },
+          {
+            "name": "_shouldShowSharingOptionsView",
+            "kind": "var",
+            "addr": 4295800576
+          },
+          {
+            "name": "_didTapCopyLink",
+            "kind": "var",
+            "addr": 4295800584
+          },
+          {
+            "name": "_savingInProgress",
+            "kind": "var",
+            "addr": 4295800592
+          },
+          {
+            "name": "sharingModel",
+            "kind": "var",
+            "addr": 4295633248
+          },
+          {
+            "name": "store",
+            "kind": "var",
+            "addr": 4295633256
+          }
+        ]
+      },
+      {
+        "classname": "SPIHelper.ModelDelegateSPI",
+        "addr": 4295801320,
+        "lang": "objc",
+        "index": 61,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "fileOrFolderURL",
+            "kind": "var",
+            "addr": 4295802184
+          },
+          {
+            "name": "itemUTI",
+            "kind": "var",
+            "addr": 4295802192
+          },
+          {
+            "name": "share",
+            "kind": "var",
+            "addr": 4295802200
+          },
+          {
+            "name": "sharingModel",
+            "kind": "var",
+            "addr": 4295802208
+          },
+          {
+            "name": "concludeSPI",
+            "kind": "var",
+            "addr": 4295802216
+          },
+          {
+            "name": "concludeSPISharingURL",
+            "kind": "var",
+            "addr": 4295802224
+          },
+          {
+            "name": "concludeSPIFileOrSetup",
+            "kind": "var",
+            "addr": 4295802232
+          },
+          {
+            "name": "concludeSPIRemove",
+            "kind": "var",
+            "addr": 4295802240
+          },
+          {
+            "name": "concludeSPIMail",
+            "kind": "var",
+            "addr": 4295802248
+          },
+          {
+            "name": "concludeSPIMetadata",
+            "kind": "var",
+            "addr": 4295802256
+          },
+          {
+            "name": "concludeSPIUserStatus",
+            "kind": "var",
+            "addr": 4295802264
+          },
+          {
+            "name": "appIcon",
+            "kind": "var",
+            "addr": 4295802272
+          },
+          {
+            "name": "appName",
+            "kind": "var",
+            "addr": 4295802280
+          },
+          {
+            "name": "isFolderSharing",
+            "kind": "var",
+            "addr": 4295635200
+          }
+        ]
+      },
+      {
+        "classname": "SPIHelper.NetworkMonitor",
+        "addr": 4295801648,
+        "lang": "objc",
+        "index": 62,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_status",
+            "kind": "var",
+            "addr": 4295801640
+          },
+          {
+            "name": "monitor",
+            "kind": "var",
+            "addr": 4295636240
+          },
+          {
+            "name": "queue",
+            "kind": "var",
+            "addr": 4295636248
+          }
+        ]
+      },
+      {
+        "classname": "SPIHelper.SPIHelper",
+        "addr": 4295801968,
+        "lang": "objc",
+        "index": 63,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "sharingStatusForWithURLWrapper:withReply:",
+            "flag": "func.100056ec0",
+            "lang": "objc",
+            "addr": 4295323328
+          },
+          {
+            "name": "sharingStatusFor:withReply:",
+            "flag": "func.100059d8c",
+            "lang": "objc",
+            "addr": 4295335308
+          },
+          {
+            "name": "startFileSharingWithURLWrapper:emailAddresses:phoneNumbers:accessType:permissionType:allowOthersToInvite:withReply:",
+            "flag": "func.10005a2a4",
+            "lang": "objc",
+            "addr": 4295336612
+          },
+          {
+            "name": "startFileSharingWithURLWrapper:emailAddresses:phoneNumbers:optionsGroups:withReply:",
+            "flag": "func.10005dda4",
+            "lang": "objc",
+            "addr": 4295351716
+          },
+          {
+            "name": "addToCloudKitSharing:containerSetupInfo:emailAddresses:phoneNumbers:accessType:permissionType:allowOthersToInvite:withReply:",
+            "flag": "func.10005e79c",
+            "lang": "objc",
+            "addr": 4295354268
+          },
+          {
+            "name": "addToCloudKitSharing:containerSetupInfo:emailAddresses:phoneNumbers:optionsGroups:withReply:",
+            "flag": "func.100062dc0",
+            "lang": "objc",
+            "addr": 4295372224
+          },
+          {
+            "name": "addToShareFromSharingURL:containerSetupInfo:emailAddresses:phoneNumbers:accessType:permissionType:allowOthersToInvite:withReply:",
+            "flag": "func.100065e8c",
+            "lang": "objc",
+            "addr": 4295384716
+          },
+          {
+            "name": "removeFromShareFromSharingURL:containerSetupInfo:withReply:",
+            "flag": "func.100067c88",
+            "lang": "objc",
+            "addr": 4295392392
+          },
+          {
+            "name": "removeFromShare:containerSetupInfo:withReply:",
+            "flag": "func.10006934c",
+            "lang": "objc",
+            "addr": 4295398220
+          },
+          {
+            "name": "removeFromShareForFileURL:withReply:",
+            "flag": "func.10006b0a0",
+            "lang": "objc",
+            "addr": 4295405728
+          },
+          {
+            "name": "mailContentFromSharingURL:share:fileURL:appName:appIconData:withReply:",
+            "flag": "func.10006cb54",
+            "lang": "objc",
+            "addr": 4295412564
+          },
+          {
+            "name": "getMetadataFromShareFromSharingURL:containerSetupInfo:withReply:",
+            "flag": "func.10006e1c8",
+            "lang": "objc",
+            "addr": 4295418312
+          },
+          {
+            "name": "updateShare:containerSetupInfo:withReply:",
+            "flag": "func.100070730",
+            "lang": "objc",
+            "addr": 4295427888
+          },
+          {
+            "name": "currentUserSharingStatusFor:withReply:",
+            "flag": "func.100072114",
+            "lang": "objc",
+            "addr": 4295434516
+          },
+          {
+            "name": "addParticipantsToShare:containerSetupInfo:emailAddresses:phoneNumbers:withReply:",
+            "flag": "func.100075cb8",
+            "lang": "objc",
+            "addr": 4295449784
+          },
+          {
+            "name": "addParticipantsToShareWithURLWrapper:share:emailAddresses:phoneNumbers:permissionType:allowOthersToInvite:withReply:",
+            "flag": "func.100075ddc",
+            "lang": "objc",
+            "addr": 4295450076
+          },
+          {
+            "name": "addParticipantsToShareWithURLWrapper:share:emailAddresses:phoneNumbers:optionsGroups:withReply:",
+            "flag": "func.100075efc",
+            "lang": "objc",
+            "addr": 4295450364
+          },
+          {
+            "name": "addParticipantsToShare:containerSetupInfo:emailAddresses:phoneNumbers:permissionType:allowOthersToInvite:withReply:",
+            "flag": "func.100076080",
+            "lang": "objc",
+            "addr": 4295450752
+          },
+          {
+            "name": "addParticipantsToShare:containerSetupInfo:emailAddresses:phoneNumbers:optionsGroups:withReply:",
+            "flag": "func.1000761a0",
+            "lang": "objc",
+            "addr": 4295451040
+          },
+          {
+            "name": "existingShareForFileWithURLWrapper:withReply:",
+            "flag": "func.10007c37c",
+            "lang": "objc",
+            "addr": 4295476092
+          },
+          {
+            "name": "userNameAndEmailWithURLWrapper:containerSetupInfo:withReply:",
+            "flag": "func.10007ce5c",
+            "lang": "objc",
+            "addr": 4295478876
+          },
+          {
+            "name": "forciblyShareFolder:emailAddresses:phoneNumbers:accessType:permissionType:allowOthersToInvite:withReply:",
+            "flag": "func.10007d49c",
+            "lang": "objc",
+            "addr": 4295480476
+          },
+          {
+            "name": "forciblyShareFolder:emailAddresses:phoneNumbers:optionsGroups:withReply:",
+            "flag": "func.100080580",
+            "lang": "objc",
+            "addr": 4295492992
+          },
+          {
+            "name": "init",
+            "flag": "method.SPIHelper.SPIHelper.init",
+            "lang": "objc",
+            "addr": 4295504600
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.SPIHelper.SPIHelper..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295504704
+          },
+          {
+            "name": "sharingStatusForWithURLWrapper:withReply:",
+            "flag": "method.SPIHelper.SPIHelper.sharingStatusForWithURLWrapper:withReply:",
+            "lang": "objc",
+            "addr": 4295622592
+          },
+          {
+            "name": "sharingStatusFor:withReply:",
+            "flag": "method.SPIHelper.SPIHelper.sharingStatusFor:withReply:",
+            "lang": "objc",
+            "addr": 4295622604
+          },
+          {
+            "name": "startFileSharingWithURLWrapper:emailAddresses:phoneNumbers:accessType:permissionType:allowOthersToInvite:withReply:",
+            "flag": "method.SPIHelper.SPIHelper.startFileSharingWithURLWrapper:emailAddresses:phoneNumbers:accessType:permissionType:allowOthersToInvite:withReply:",
+            "lang": "objc",
+            "addr": 4295622616
+          },
+          {
+            "name": "startFileSharingWithURLWrapper:emailAddresses:phoneNumbers:optionsGroups:withReply:",
+            "flag": "method.SPIHelper.SPIHelper.startFileSharingWithURLWrapper:emailAddresses:phoneNumbers:optionsGroups:withReply:",
+            "lang": "objc",
+            "addr": 4295622628
+          },
+          {
+            "name": "addToCloudKitSharing:containerSetupInfo:emailAddresses:phoneNumbers:accessType:permissionType:allowOthersToInvite:withReply:",
+            "flag": "method.SPIHelper.SPIHelper.addToCloudKitSharing:containerSetupInfo:emailAddresses:phoneNumbers:accessType:permissionType:allowOthersToInvite:withReply:",
+            "lang": "objc",
+            "addr": 4295622640
+          },
+          {
+            "name": "addToCloudKitSharing:containerSetupInfo:emailAddresses:phoneNumbers:optionsGroups:withReply:",
+            "flag": "method.SPIHelper.SPIHelper.addToCloudKitSharing:containerSetupInfo:emailAddresses:phoneNumbers:optionsGroups:withReply:",
+            "lang": "objc",
+            "addr": 4295622652
+          },
+          {
+            "name": "addToShareFromSharingURL:containerSetupInfo:emailAddresses:phoneNumbers:accessType:permissionType:allowOthersToInvite:withReply:",
+            "flag": "method.SPIHelper.SPIHelper.addToShareFromSharingURL:containerSetupInfo:emailAddresses:phoneNumbers:accessType:permissionType:allowOthersToInvite:withReply:",
+            "lang": "objc",
+            "addr": 4295622664
+          },
+          {
+            "name": "removeFromShareFromSharingURL:containerSetupInfo:withReply:",
+            "flag": "method.SPIHelper.SPIHelper.removeFromShareFromSharingURL:containerSetupInfo:withReply:",
+            "lang": "objc",
+            "addr": 4295622676
+          },
+          {
+            "name": "removeFromShare:containerSetupInfo:withReply:",
+            "flag": "method.SPIHelper.SPIHelper.removeFromShare:containerSetupInfo:withReply:",
+            "lang": "objc",
+            "addr": 4295622688
+          },
+          {
+            "name": "removeFromShareForFileURL:withReply:",
+            "flag": "method.SPIHelper.SPIHelper.removeFromShareForFileURL:withReply:",
+            "lang": "objc",
+            "addr": 4295622700
+          },
+          {
+            "name": "mailContentFromSharingURL:share:fileURL:appName:appIconData:withReply:",
+            "flag": "method.SPIHelper.SPIHelper.mailContentFromSharingURL:share:fileURL:appName:appIconData:withReply:",
+            "lang": "objc",
+            "addr": 4295622712
+          },
+          {
+            "name": "getMetadataFromShareFromSharingURL:containerSetupInfo:withReply:",
+            "flag": "method.SPIHelper.SPIHelper.getMetadataFromShareFromSharingURL:containerSetupInfo:withReply:",
+            "lang": "objc",
+            "addr": 4295622724
+          },
+          {
+            "name": "updateShare:containerSetupInfo:withReply:",
+            "flag": "method.SPIHelper.SPIHelper.updateShare:containerSetupInfo:withReply:",
+            "lang": "objc",
+            "addr": 4295622736
+          },
+          {
+            "name": "currentUserSharingStatusFor:withReply:",
+            "flag": "method.SPIHelper.SPIHelper.currentUserSharingStatusFor:withReply:",
+            "lang": "objc",
+            "addr": 4295622748
+          },
+          {
+            "name": "addParticipantsToShare:containerSetupInfo:emailAddresses:phoneNumbers:withReply:",
+            "flag": "method.SPIHelper.SPIHelper.addParticipantsToShare:containerSetupInfo:emailAddresses:phoneNumbers:withReply:",
+            "lang": "objc",
+            "addr": 4295622760
+          },
+          {
+            "name": "addParticipantsToShareWithURLWrapper:share:emailAddresses:phoneNumbers:permissionType:allowOthersToInvite:withReply:",
+            "flag": "method.SPIHelper.SPIHelper.addParticipantsToShareWithURLWrapper:share:emailAddresses:phoneNumbers:permissionType:allowOthersToInvite:withReply:",
+            "lang": "objc",
+            "addr": 4295622772
+          },
+          {
+            "name": "addParticipantsToShareWithURLWrapper:share:emailAddresses:phoneNumbers:optionsGroups:withReply:",
+            "flag": "method.SPIHelper.SPIHelper.addParticipantsToShareWithURLWrapper:share:emailAddresses:phoneNumbers:optionsGroups:withReply:",
+            "lang": "objc",
+            "addr": 4295622784
+          },
+          {
+            "name": "addParticipantsToShare:containerSetupInfo:emailAddresses:phoneNumbers:permissionType:allowOthersToInvite:withReply:",
+            "flag": "method.SPIHelper.SPIHelper.addParticipantsToShare:containerSetupInfo:emailAddresses:phoneNumbers:permissionType:allowOthersToInvite:withReply:",
+            "lang": "objc",
+            "addr": 4295622796
+          },
+          {
+            "name": "addParticipantsToShare:containerSetupInfo:emailAddresses:phoneNumbers:optionsGroups:withReply:",
+            "flag": "method.SPIHelper.SPIHelper.addParticipantsToShare:containerSetupInfo:emailAddresses:phoneNumbers:optionsGroups:withReply:",
+            "lang": "objc",
+            "addr": 4295622808
+          },
+          {
+            "name": "existingShareForFileWithURLWrapper:withReply:",
+            "flag": "method.SPIHelper.SPIHelper.existingShareForFileWithURLWrapper:withReply:",
+            "lang": "objc",
+            "addr": 4295622820
+          },
+          {
+            "name": "userNameAndEmailWithURLWrapper:containerSetupInfo:withReply:",
+            "flag": "method.SPIHelper.SPIHelper.userNameAndEmailWithURLWrapper:containerSetupInfo:withReply:",
+            "lang": "objc",
+            "addr": 4295622832
+          },
+          {
+            "name": "forciblyShareFolder:emailAddresses:phoneNumbers:accessType:permissionType:allowOthersToInvite:withReply:",
+            "flag": "method.SPIHelper.SPIHelper.forciblyShareFolder:emailAddresses:phoneNumbers:accessType:permissionType:allowOthersToInvite:withReply:",
+            "lang": "objc",
+            "addr": 4295622844
+          },
+          {
+            "name": "forciblyShareFolder:emailAddresses:phoneNumbers:optionsGroups:withReply:",
+            "flag": "method.SPIHelper.SPIHelper.forciblyShareFolder:emailAddresses:phoneNumbers:optionsGroups:withReply:",
+            "lang": "objc",
+            "addr": 4295622856
+          },
+          {
+            "name": "sharingStatusForWithURLWrapper:withReply:",
+            "flag": "method.SPIHelper.SPIHelper.sharingStatusForWithURLWrapper:withReply:",
+            "lang": "objc",
+            "addr": 4295622592
+          },
+          {
+            "name": "sharingStatusFor:withReply:",
+            "flag": "method.SPIHelper.SPIHelper.sharingStatusFor:withReply:",
+            "lang": "objc",
+            "addr": 4295622604
+          },
+          {
+            "name": "startFileSharingWithURLWrapper:emailAddresses:phoneNumbers:accessType:permissionType:allowOthersToInvite:withReply:",
+            "flag": "method.SPIHelper.SPIHelper.startFileSharingWithURLWrapper:emailAddresses:phoneNumbers:accessType:permissionType:allowOthersToInvite:withReply:",
+            "lang": "objc",
+            "addr": 4295622616
+          },
+          {
+            "name": "startFileSharingWithURLWrapper:emailAddresses:phoneNumbers:optionsGroups:withReply:",
+            "flag": "method.SPIHelper.SPIHelper.startFileSharingWithURLWrapper:emailAddresses:phoneNumbers:optionsGroups:withReply:",
+            "lang": "objc",
+            "addr": 4295622628
+          },
+          {
+            "name": "addToCloudKitSharing:containerSetupInfo:emailAddresses:phoneNumbers:accessType:permissionType:allowOthersToInvite:withReply:",
+            "flag": "method.SPIHelper.SPIHelper.addToCloudKitSharing:containerSetupInfo:emailAddresses:phoneNumbers:accessType:permissionType:allowOthersToInvite:withReply:",
+            "lang": "objc",
+            "addr": 4295622640
+          },
+          {
+            "name": "addToCloudKitSharing:containerSetupInfo:emailAddresses:phoneNumbers:optionsGroups:withReply:",
+            "flag": "method.SPIHelper.SPIHelper.addToCloudKitSharing:containerSetupInfo:emailAddresses:phoneNumbers:optionsGroups:withReply:",
+            "lang": "objc",
+            "addr": 4295622652
+          },
+          {
+            "name": "addToShareFromSharingURL:containerSetupInfo:emailAddresses:phoneNumbers:accessType:permissionType:allowOthersToInvite:withReply:",
+            "flag": "method.SPIHelper.SPIHelper.addToShareFromSharingURL:containerSetupInfo:emailAddresses:phoneNumbers:accessType:permissionType:allowOthersToInvite:withReply:",
+            "lang": "objc",
+            "addr": 4295622664
+          },
+          {
+            "name": "removeFromShareFromSharingURL:containerSetupInfo:withReply:",
+            "flag": "method.SPIHelper.SPIHelper.removeFromShareFromSharingURL:containerSetupInfo:withReply:",
+            "lang": "objc",
+            "addr": 4295622676
+          },
+          {
+            "name": "removeFromShare:containerSetupInfo:withReply:",
+            "flag": "method.SPIHelper.SPIHelper.removeFromShare:containerSetupInfo:withReply:",
+            "lang": "objc",
+            "addr": 4295622688
+          },
+          {
+            "name": "removeFromShareForFileURL:withReply:",
+            "flag": "method.SPIHelper.SPIHelper.removeFromShareForFileURL:withReply:",
+            "lang": "objc",
+            "addr": 4295622700
+          },
+          {
+            "name": "mailContentFromSharingURL:share:fileURL:appName:appIconData:withReply:",
+            "flag": "method.SPIHelper.SPIHelper.mailContentFromSharingURL:share:fileURL:appName:appIconData:withReply:",
+            "lang": "objc",
+            "addr": 4295622712
+          },
+          {
+            "name": "getMetadataFromShareFromSharingURL:containerSetupInfo:withReply:",
+            "flag": "method.SPIHelper.SPIHelper.getMetadataFromShareFromSharingURL:containerSetupInfo:withReply:",
+            "lang": "objc",
+            "addr": 4295622724
+          },
+          {
+            "name": "updateShare:containerSetupInfo:withReply:",
+            "flag": "method.SPIHelper.SPIHelper.updateShare:containerSetupInfo:withReply:",
+            "lang": "objc",
+            "addr": 4295622736
+          },
+          {
+            "name": "currentUserSharingStatusFor:withReply:",
+            "flag": "method.SPIHelper.SPIHelper.currentUserSharingStatusFor:withReply:",
+            "lang": "objc",
+            "addr": 4295622748
+          },
+          {
+            "name": "addParticipantsToShare:containerSetupInfo:emailAddresses:phoneNumbers:withReply:",
+            "flag": "method.SPIHelper.SPIHelper.addParticipantsToShare:containerSetupInfo:emailAddresses:phoneNumbers:withReply:",
+            "lang": "objc",
+            "addr": 4295622760
+          },
+          {
+            "name": "addParticipantsToShareWithURLWrapper:share:emailAddresses:phoneNumbers:permissionType:allowOthersToInvite:withReply:",
+            "flag": "method.SPIHelper.SPIHelper.addParticipantsToShareWithURLWrapper:share:emailAddresses:phoneNumbers:permissionType:allowOthersToInvite:withReply:",
+            "lang": "objc",
+            "addr": 4295622772
+          },
+          {
+            "name": "addParticipantsToShareWithURLWrapper:share:emailAddresses:phoneNumbers:optionsGroups:withReply:",
+            "flag": "method.SPIHelper.SPIHelper.addParticipantsToShareWithURLWrapper:share:emailAddresses:phoneNumbers:optionsGroups:withReply:",
+            "lang": "objc",
+            "addr": 4295622784
+          },
+          {
+            "name": "addParticipantsToShare:containerSetupInfo:emailAddresses:phoneNumbers:permissionType:allowOthersToInvite:withReply:",
+            "flag": "method.SPIHelper.SPIHelper.addParticipantsToShare:containerSetupInfo:emailAddresses:phoneNumbers:permissionType:allowOthersToInvite:withReply:",
+            "lang": "objc",
+            "addr": 4295622796
+          },
+          {
+            "name": "addParticipantsToShare:containerSetupInfo:emailAddresses:phoneNumbers:optionsGroups:withReply:",
+            "flag": "method.SPIHelper.SPIHelper.addParticipantsToShare:containerSetupInfo:emailAddresses:phoneNumbers:optionsGroups:withReply:",
+            "lang": "objc",
+            "addr": 4295622808
+          },
+          {
+            "name": "existingShareForFileWithURLWrapper:withReply:",
+            "flag": "method.SPIHelper.SPIHelper.existingShareForFileWithURLWrapper:withReply:",
+            "lang": "objc",
+            "addr": 4295622820
+          },
+          {
+            "name": "userNameAndEmailWithURLWrapper:containerSetupInfo:withReply:",
+            "flag": "method.SPIHelper.SPIHelper.userNameAndEmailWithURLWrapper:containerSetupInfo:withReply:",
+            "lang": "objc",
+            "addr": 4295622832
+          },
+          {
+            "name": "forciblyShareFolder:emailAddresses:phoneNumbers:accessType:permissionType:allowOthersToInvite:withReply:",
+            "flag": "method.SPIHelper.SPIHelper.forciblyShareFolder:emailAddresses:phoneNumbers:accessType:permissionType:allowOthersToInvite:withReply:",
+            "lang": "objc",
+            "addr": 4295622844
+          },
+          {
+            "name": "forciblyShareFolder:emailAddresses:phoneNumbers:optionsGroups:withReply:",
+            "flag": "method.SPIHelper.SPIHelper.forciblyShareFolder:emailAddresses:phoneNumbers:optionsGroups:withReply:",
+            "lang": "objc",
+            "addr": 4295622856
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "requestingProcessBundleIdentifier",
+            "kind": "var",
+            "addr": 4295801960
+          }
+        ]
+      }
+    ],
+    "protocols": []
+  },
+  "usage": {
+    "layer": "usage",
+    "status": "not_implemented"
+  },
+  "runtime": {
+    "layer": "runtime",
+    "status": "not_implemented"
+  }
+}

@@ -1,0 +1,2082 @@
+{
+  "framework": "JetCore.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/JetCore.framework/Support/jetpackassetd",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 812592,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "swift",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/PrivateFrameworks/AppleMediaServicesKitInternal.framework/Versions/A/AppleMediaServicesKitInternal",
+          "/System/Library/PrivateFrameworks/JetCore.framework/Versions/A/JetCore",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",
+          "/System/Library/Frameworks/PushKit.framework/Versions/A/PushKit",
+          "/System/Library/PrivateFrameworks/AppleMediaServices.framework/Versions/A/AppleMediaServices",
+          "/System/Library/PrivateFrameworks/ApplePushService.framework/Versions/A/ApplePushService",
+          "/System/Library/PrivateFrameworks/BackgroundSystemTasks.framework/Versions/A/BackgroundSystemTasks",
+          "/usr/lib/swift/libswiftAccelerate.dylib",
+          "/usr/lib/swift/libswiftCompression.dylib",
+          "/usr/lib/swift/libswiftCore.dylib",
+          "/usr/lib/swift/libswiftCoreFoundation.dylib",
+          "/usr/lib/swift/libswiftDispatch.dylib",
+          "/usr/lib/swift/libswiftIOKit.dylib",
+          "/usr/lib/swift/libswiftMetal.dylib",
+          "/usr/lib/swift/libswiftOSLog.dylib",
+          "/usr/lib/swift/libswiftObjectiveC.dylib",
+          "/usr/lib/swift/libswiftQuartzCore.dylib",
+          "/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib",
+          "/usr/lib/swift/libswiftXPC.dylib",
+          "/usr/lib/swift/libswift_Builtin_float.dylib",
+          "/usr/lib/swift/libswift_Concurrency.dylib",
+          "/usr/lib/swift/libswiftos.dylib",
+          "/usr/lib/swift/libswiftsimd.dylib"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "os_unfair_lock_s",
+        "addr": 563868,
+        "lang": "swift",
+        "index": 0,
+        "fields": [
+          {
+            "name": "_os_unfair_lock_opaque",
+            "kind": "property",
+            "addr": 4295534512
+          }
+        ]
+      },
+      {
+        "classname": "audit_token_t",
+        "addr": 563900,
+        "lang": "swift",
+        "index": 1,
+        "fields": [
+          {
+            "name": "val",
+            "kind": "property",
+            "addr": 4295534535
+          }
+        ]
+      },
+      {
+        "classname": "DefaultJetPackAssetProvider",
+        "addr": 563976,
+        "lang": "swift",
+        "index": 2,
+        "fields": [
+          {
+            "name": "urlSessionFactoryProvider",
+            "kind": "property",
+            "type": "NSURLSession.allocator: allocator, S...o0A13ConfigurationCYbcSg",
+            "addr": 4295534544
+          }
+        ]
+      },
+      {
+        "classname": "AssetRetrievalCoordinator",
+        "addr": 564004,
+        "lang": "swift",
+        "index": 3,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.AssetRetrievalCoordinator.0",
+            "lang": "swift",
+            "addr": 4295531831
+          },
+          {
+            "name": "1",
+            "flag": "method.AssetRetrievalCoordinator.1",
+            "lang": "swift",
+            "addr": 4295552319
+          }
+        ],
+        "fields": [
+          {
+            "name": "mode",
+            "kind": "property",
+            "addr": 4295534570
+          },
+          {
+            "name": "localPreferences",
+            "kind": "property",
+            "addr": 4295534576
+          }
+        ]
+      },
+      {
+        "classname": "RetrievalMode",
+        "addr": 564032,
+        "lang": "swift",
+        "index": 4,
+        "fields": [
+          {
+            "name": "xpcGet",
+            "kind": "property",
+            "addr": 4295534593
+          },
+          {
+            "name": "scheduledDownload",
+            "kind": "property",
+            "addr": 4295534608
+          }
+        ]
+      },
+      {
+        "classname": "SystemAppRegistry",
+        "addr": 564092,
+        "lang": "swift",
+        "index": 5
+      },
+      {
+        "classname": "SchedulingConfiguration",
+        "addr": 564120,
+        "lang": "swift",
+        "index": 6,
+        "fields": [
+          {
+            "name": "randomRolloutWindowRange",
+            "kind": "property",
+            "type": "Swift.Double",
+            "addr": 4295534640
+          },
+          {
+            "name": "priorityMapping",
+            "kind": "property",
+            "type": "SDy\u0002~\u0011\u0001",
+            "addr": 4295534665
+          },
+          {
+            "name": "standardRolloutWindow",
+            "kind": "property",
+            "type": "Swift.Double",
+            "addr": 4295534688
+          },
+          {
+            "name": "minimumRolloutWindow",
+            "kind": "property",
+            "type": "Swift.Double",
+            "addr": 4295534720
+          },
+          {
+            "name": "randomEndTimeJitterRange",
+            "kind": "property",
+            "type": "Swift.Double",
+            "addr": 4295534752
+          },
+          {
+            "name": "miniumEndTimeJitter",
+            "kind": "property",
+            "type": "Swift.Double",
+            "addr": 4295534784
+          },
+          {
+            "name": "minimumScheduleDelay",
+            "kind": "property",
+            "type": "Swift.Double",
+            "addr": 4295534816
+          },
+          {
+            "name": "tolerance",
+            "kind": "property",
+            "type": "Swift.Double",
+            "addr": 4295534837
+          },
+          {
+            "name": "downloadAttempts",
+            "kind": "property",
+            "type": "Swift.Int",
+            "addr": 4295534848
+          },
+          {
+            "name": "backoffBase",
+            "kind": "property",
+            "type": "Swift.Double",
+            "addr": 4295534865
+          },
+          {
+            "name": "backoffMaximum",
+            "kind": "property",
+            "type": "Swift.Double",
+            "addr": 4295534877
+          }
+        ]
+      },
+      {
+        "classname": "PushSubscriptionRequestHandler",
+        "addr": 564148,
+        "lang": "swift",
+        "index": 7
+      },
+      {
+        "classname": "PushEnvironment",
+        "addr": 564176,
+        "lang": "swift",
+        "index": 8,
+        "fields": [
+          {
+            "name": "prod",
+            "kind": "property",
+            "addr": 4295534904
+          },
+          {
+            "name": "dev",
+            "kind": "property",
+            "addr": 4295534909
+          },
+          {
+            "name": "prototypeProd",
+            "kind": "property",
+            "addr": 4295534913
+          }
+        ]
+      },
+      {
+        "classname": "DefaultBagProvider",
+        "addr": 564308,
+        "lang": "swift",
+        "index": 9
+      },
+      {
+        "classname": "BagFetchMode",
+        "addr": 564336,
+        "lang": "swift",
+        "index": 10,
+        "fields": [
+          {
+            "name": "cacheOnly",
+            "kind": "property",
+            "addr": 4295534944
+          },
+          {
+            "name": "cacheOrNetwork",
+            "kind": "property",
+            "addr": 4295534954
+          },
+          {
+            "name": "forcedRefresh",
+            "kind": "property",
+            "addr": 4295534969
+          }
+        ]
+      },
+      {
+        "classname": "BagManager",
+        "addr": 564364,
+        "lang": "swift",
+        "index": 11,
+        "fields": [
+          {
+            "name": "enabledKey",
+            "kind": "property",
+            "addr": 4295534983
+          },
+          {
+            "name": "localPreferences",
+            "kind": "property",
+            "addr": 4295535008
+          },
+          {
+            "name": "bagProvider",
+            "kind": "property",
+            "addr": 4295535025
+          },
+          {
+            "name": "_cachedBagLock",
+            "kind": "property",
+            "addr": 4295535037
+          },
+          {
+            "name": "_cachedBagHadError",
+            "kind": "property",
+            "addr": 4295535056
+          }
+        ]
+      },
+      {
+        "classname": "BagRefreshRequestHandler",
+        "addr": 564404,
+        "lang": "swift",
+        "index": 12
+      },
+      {
+        "classname": "PushDeleteSubscriptionRequestHandler",
+        "addr": 564492,
+        "lang": "swift",
+        "index": 13
+      },
+      {
+        "classname": "RefreshTestAssetHandler",
+        "addr": 564520,
+        "lang": "swift",
+        "index": 14
+      },
+      {
+        "classname": "PushInfoRequestHandler",
+        "addr": 564548,
+        "lang": "swift",
+        "index": 15
+      },
+      {
+        "classname": "PushMessage",
+        "addr": 564576,
+        "lang": "swift",
+        "index": 16,
+        "super": [
+          "Dt\u0001"
+        ],
+        "rawsuper": [
+          "Dt\u0001"
+        ],
+        "fields": [
+          {
+            "name": "id",
+            "kind": "property",
+            "addr": 4295535218
+          },
+          {
+            "name": "timestamp",
+            "kind": "property",
+            "addr": 4295535221
+          },
+          {
+            "name": "channelID",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295535231
+          },
+          {
+            "name": "userInfoJSONString",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295535248
+          },
+          {
+            "name": "priority",
+            "kind": "property",
+            "addr": 4295535267
+          },
+          {
+            "name": "evictOlderThanDate",
+            "kind": "property",
+            "addr": 4295535280
+          },
+          {
+            "name": "evictIsExpiryOnly",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295535312
+          },
+          {
+            "name": "actions",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295535330
+          }
+        ]
+      },
+      {
+        "classname": "Action",
+        "addr": 564616,
+        "lang": "swift",
+        "index": 17,
+        "fields": [
+          {
+            "name": "clearCache",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295535152
+          },
+          {
+            "name": "bagEnabled",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295535163
+          },
+          {
+            "name": "refreshBag",
+            "kind": "property",
+            "type": "Swift.Double",
+            "addr": 4295535174
+          },
+          {
+            "name": "pushReset",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295535185
+          },
+          {
+            "name": "killSwitchEnabled",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295535200
+          }
+        ]
+      },
+      {
+        "classname": "PushMessageUserInfo",
+        "addr": 564644,
+        "lang": "swift",
+        "index": 18,
+        "fields": [
+          {
+            "name": "channelID",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295535231
+          },
+          {
+            "name": "priority",
+            "kind": "property",
+            "addr": 4295535267
+          },
+          {
+            "name": "evictOlderThanDate",
+            "kind": "property",
+            "addr": 4295535280
+          },
+          {
+            "name": "evictIsExpiryOnly",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295535312
+          },
+          {
+            "name": "actions",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295535330
+          }
+        ]
+      },
+      {
+        "classname": "CodingKeys",
+        "addr": 564692,
+        "lang": "swift",
+        "index": 19,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.CodingKeys.0",
+            "lang": "swift",
+            "addr": 4295533239
+          }
+        ],
+        "fields": [
+          {
+            "name": "actionType",
+            "kind": "property",
+            "addr": 4295535338
+          },
+          {
+            "name": "value",
+            "kind": "property",
+            "addr": 4295535349
+          }
+        ]
+      },
+      {
+        "classname": "CodingKeys_1",
+        "addr": 564728,
+        "lang": "swift",
+        "index": 20,
+        "fields": [
+          {
+            "name": "channelID",
+            "kind": "property",
+            "addr": 4295535231
+          },
+          {
+            "name": "priority",
+            "kind": "property",
+            "addr": 4295535267
+          },
+          {
+            "name": "evict",
+            "kind": "property",
+            "addr": 4295535364
+          },
+          {
+            "name": "expiryOnly",
+            "kind": "property",
+            "addr": 4295535370
+          },
+          {
+            "name": "actions",
+            "kind": "property",
+            "addr": 4295535330
+          }
+        ]
+      },
+      {
+        "classname": "DaemonStartupErrorLog",
+        "addr": 564756,
+        "lang": "swift",
+        "index": 21,
+        "fields": [
+          {
+            "name": "phase",
+            "kind": "property",
+            "addr": 4295535392
+          }
+        ]
+      },
+      {
+        "classname": "DaemonStartupErrorLogPhase",
+        "addr": 564784,
+        "lang": "swift",
+        "index": 22,
+        "fields": [
+          {
+            "name": "begin",
+            "kind": "property",
+            "addr": 4295535398
+          },
+          {
+            "name": "containerLocation",
+            "kind": "property",
+            "addr": 4295535408
+          },
+          {
+            "name": "database",
+            "kind": "property",
+            "addr": 4295535426
+          },
+          {
+            "name": "pushManager",
+            "kind": "property",
+            "addr": 4295535435
+          },
+          {
+            "name": "scheduler",
+            "kind": "property",
+            "addr": 4295535447
+          },
+          {
+            "name": "end",
+            "kind": "property",
+            "addr": 4295535457
+          }
+        ]
+      },
+      {
+        "classname": "GetAssetRequestHandlerErrorLog",
+        "addr": 564812,
+        "lang": "swift",
+        "index": 23,
+        "fields": [
+          {
+            "name": "errorDomain",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295535488
+          },
+          {
+            "name": "errorCode",
+            "kind": "property",
+            "type": "Swift.Int",
+            "addr": 4295535500
+          },
+          {
+            "name": "bundleID",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295535510
+          },
+          {
+            "name": "isConnectionError",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295535520
+          }
+        ]
+      },
+      {
+        "classname": "HandleControlMessageErrorLog",
+        "addr": 564840,
+        "lang": "swift",
+        "index": 24,
+        "fields": [
+          {
+            "name": "errorDomain",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295535538
+          },
+          {
+            "name": "errorCode",
+            "kind": "property",
+            "type": "Swift.Int",
+            "addr": 4295535550
+          },
+          {
+            "name": "action",
+            "kind": "property",
+            "addr": 4295535560
+          }
+        ]
+      },
+      {
+        "classname": "HandlePushErrorLog",
+        "addr": 564868,
+        "lang": "swift",
+        "index": 25,
+        "fields": [
+          {
+            "name": "errorDomain",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295535567
+          },
+          {
+            "name": "errorCode",
+            "kind": "property",
+            "type": "Swift.Int",
+            "addr": 4295535579
+          },
+          {
+            "name": "channelID",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295535589
+          }
+        ]
+      },
+      {
+        "classname": "DefaultBeforeFirstUnlockChecker",
+        "addr": 564928,
+        "lang": "swift",
+        "index": 26
+      },
+      {
+        "classname": "HandleScheduledTaskErrorLog",
+        "addr": 564988,
+        "lang": "swift",
+        "index": 27,
+        "fields": [
+          {
+            "name": "errorDomain",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295535599
+          },
+          {
+            "name": "errorCode",
+            "kind": "property",
+            "type": "Swift.Int",
+            "addr": 4295535611
+          },
+          {
+            "name": "taskIdentifier",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295535621
+          },
+          {
+            "name": "stage",
+            "kind": "property",
+            "addr": 4295535636
+          }
+        ]
+      },
+      {
+        "classname": "ScheduledTaskStage",
+        "addr": 565016,
+        "lang": "swift",
+        "index": 28,
+        "fields": [
+          {
+            "name": "handleTask",
+            "kind": "property",
+            "addr": 4295535642
+          },
+          {
+            "name": "postProcess",
+            "kind": "property",
+            "addr": 4295535653
+          }
+        ]
+      },
+      {
+        "classname": "PingLog",
+        "addr": 565044,
+        "lang": "swift",
+        "index": 29,
+        "fields": [
+          {
+            "name": "numPendingJetpacks",
+            "kind": "property",
+            "addr": 4295535696
+          },
+          {
+            "name": "numPendingToReattempt",
+            "kind": "property",
+            "addr": 4295535728
+          }
+        ]
+      },
+      {
+        "classname": "PushNotificationReceivedLog",
+        "addr": 565072,
+        "lang": "swift",
+        "index": 30,
+        "fields": [
+          {
+            "name": "channelID",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295535760
+          },
+          {
+            "name": "bundleID",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295535770
+          },
+          {
+            "name": "priority",
+            "kind": "property",
+            "addr": 4295535779
+          },
+          {
+            "name": "timeSincePushSent",
+            "kind": "property",
+            "type": "Swift.Double",
+            "addr": 4295535792
+          }
+        ]
+      },
+      {
+        "classname": "ScheduledAssetRetrievalLog",
+        "addr": 565100,
+        "lang": "swift",
+        "index": 31,
+        "super": [
+          "R"
+        ],
+        "rawsuper": [
+          "R"
+        ],
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.ScheduledAssetRetrievalLog.0",
+            "lang": "swift",
+            "addr": 4295534463
+          },
+          {
+            "name": "1",
+            "flag": "method.ScheduledAssetRetrievalLog.1",
+            "lang": "swift",
+            "addr": 4295553415
+          }
+        ],
+        "fields": [
+          {
+            "name": "assetURL",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295535824
+          },
+          {
+            "name": "bundleID",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295535833
+          },
+          {
+            "name": "usageID",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295535842
+          },
+          {
+            "name": "version",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295535850
+          },
+          {
+            "name": "priority",
+            "kind": "property",
+            "addr": 4295535858
+          },
+          {
+            "name": "isSuccess",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295535867
+          },
+          {
+            "name": "fetchReason",
+            "kind": "property",
+            "addr": 4295535877
+          },
+          {
+            "name": "percentOfSchedulingWindow",
+            "kind": "property",
+            "type": "Swift.Double",
+            "addr": 4295535904
+          }
+        ]
+      },
+      {
+        "classname": "FetchReason",
+        "addr": 565128,
+        "lang": "swift",
+        "index": 32,
+        "fields": [
+          {
+            "name": "standard",
+            "kind": "property",
+            "addr": 4295535930
+          },
+          {
+            "name": "maintenance",
+            "kind": "property",
+            "addr": 4295535939
+          },
+          {
+            "name": "apsReconnect",
+            "kind": "property",
+            "addr": 4295535951
+          }
+        ]
+      },
+      {
+        "classname": "PushManager",
+        "addr": 565284,
+        "lang": "swift",
+        "index": 33,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ],
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.PushManager.0",
+            "lang": "swift",
+            "addr": 4295532648
+          },
+          {
+            "name": "1",
+            "flag": "method.PushManager.1",
+            "lang": "swift",
+            "addr": 4295531228
+          },
+          {
+            "name": "func.10003ef6c",
+            "flag": "method.PushManager.func.10003ef6c",
+            "lang": "swift",
+            "addr": 4295225196
+          },
+          {
+            "name": "3",
+            "flag": "method.PushManager.3",
+            "lang": "swift",
+            "addr": 4295532672
+          },
+          {
+            "name": "4",
+            "flag": "method.PushManager.4",
+            "lang": "swift",
+            "addr": 4295532761
+          },
+          {
+            "name": "5",
+            "flag": "method.PushManager.5",
+            "lang": "swift",
+            "addr": 4295504128
+          },
+          {
+            "name": "6",
+            "flag": "method.PushManager.6",
+            "lang": "swift",
+            "addr": 4295539224
+          },
+          {
+            "name": "7",
+            "flag": "method.PushManager.7",
+            "lang": "swift",
+            "addr": 4295532706
+          },
+          {
+            "name": "8",
+            "flag": "method.PushManager.1",
+            "lang": "swift",
+            "addr": 4295531228
+          },
+          {
+            "name": "func.10003fe70",
+            "flag": "method.PushManager.func.10003fe70",
+            "lang": "swift",
+            "addr": 4295229040
+          },
+          {
+            "name": "10",
+            "flag": "method.PushManager.10",
+            "lang": "swift",
+            "addr": 4295532728
+          },
+          {
+            "name": "11",
+            "flag": "method.PushManager.11",
+            "lang": "swift",
+            "addr": 4295532818
+          },
+          {
+            "name": "12",
+            "flag": "method.PushManager.12",
+            "lang": "swift",
+            "addr": 4295504270
+          },
+          {
+            "name": "13",
+            "flag": "method.PushManager.13",
+            "lang": "swift",
+            "addr": 4295539272
+          },
+          {
+            "name": "14",
+            "flag": "method.PushManager.4",
+            "lang": "swift",
+            "addr": 4295532761
+          },
+          {
+            "name": "15",
+            "flag": "method.PushManager.1",
+            "lang": "swift",
+            "addr": 4295531228
+          },
+          {
+            "name": "func.100041420",
+            "flag": "method.PushManager.func.100041420",
+            "lang": "swift",
+            "addr": 4295234592
+          },
+          {
+            "name": "17",
+            "flag": "method.PushManager.17",
+            "lang": "swift",
+            "addr": 4295532784
+          },
+          {
+            "name": "18",
+            "flag": "method.PushManager.18",
+            "lang": "swift",
+            "addr": 4295598395
+          },
+          {
+            "name": "19",
+            "flag": "method.PushManager.19",
+            "lang": "swift",
+            "addr": 4295504640
+          },
+          {
+            "name": "20",
+            "flag": "method.PushManager.20",
+            "lang": "swift",
+            "addr": 4295532812
+          }
+        ],
+        "fields": [
+          {
+            "name": "database",
+            "kind": "property",
+            "addr": 4295535984
+          },
+          {
+            "name": "pushSubscriptionStore",
+            "kind": "property",
+            "addr": 4295536000
+          },
+          {
+            "name": "diskCache",
+            "kind": "property",
+            "addr": 4295536022
+          },
+          {
+            "name": "scheduler",
+            "kind": "property",
+            "addr": 4295536032
+          },
+          {
+            "name": "coreAnalyticsLogger",
+            "kind": "property",
+            "addr": 4295536048
+          },
+          {
+            "name": "bagManager",
+            "kind": "property",
+            "addr": 4295536068
+          },
+          {
+            "name": "killSwitchManager",
+            "kind": "property",
+            "addr": 4295536080
+          },
+          {
+            "name": "beforeFirstUnlockChecker",
+            "kind": "property",
+            "addr": 4295536112
+          },
+          {
+            "name": "connectionWrapper",
+            "kind": "property",
+            "addr": 4295536144
+          },
+          {
+            "name": "localPreferences",
+            "kind": "property",
+            "addr": 4295536176
+          },
+          {
+            "name": "dateProvider",
+            "kind": "property",
+            "addr": 4295536193
+          },
+          {
+            "name": "metricsPipelineManager",
+            "kind": "property",
+            "addr": 4295536208
+          },
+          {
+            "name": "subscribedControlChannelIDKey",
+            "kind": "property",
+            "addr": 4295536240
+          },
+          {
+            "name": "apsLastKnownConnectedKey",
+            "kind": "property",
+            "addr": 4295536272
+          },
+          {
+            "name": "beforeUnlockPushes",
+            "kind": "property",
+            "addr": 4295536304
+          },
+          {
+            "name": "unlockListener",
+            "kind": "property",
+            "addr": 4295536323
+          }
+        ]
+      },
+      {
+        "classname": "PushClearSubscriptionsRequestHandler",
+        "addr": 565356,
+        "lang": "swift",
+        "index": 34
+      },
+      {
+        "classname": "PushResetSubscriptionRequestHandler",
+        "addr": 565384,
+        "lang": "swift",
+        "index": 35
+      },
+      {
+        "classname": "PingRequestHandler",
+        "addr": 565412,
+        "lang": "swift",
+        "index": 36
+      },
+      {
+        "classname": "CacheEvictError",
+        "addr": 565440,
+        "lang": "swift",
+        "index": 37,
+        "fields": [
+          {
+            "name": "notFound",
+            "kind": "property",
+            "addr": 4295536374
+          }
+        ]
+      },
+      {
+        "classname": "CacheEvictRequestHandler",
+        "addr": 565468,
+        "lang": "swift",
+        "index": 38
+      },
+      {
+        "classname": "SchedulingPriority",
+        "addr": 565756,
+        "lang": "swift",
+        "index": 39,
+        "fields": [
+          {
+            "name": "urgent",
+            "kind": "property",
+            "addr": 4295536400
+          },
+          {
+            "name": "veryHigh",
+            "kind": "property",
+            "addr": 4295536407
+          },
+          {
+            "name": "high",
+            "kind": "property",
+            "addr": 4295536416
+          },
+          {
+            "name": "medium",
+            "kind": "property",
+            "addr": 4295536421
+          },
+          {
+            "name": "low",
+            "kind": "property",
+            "addr": 4295536428
+          },
+          {
+            "name": "debug",
+            "kind": "property",
+            "addr": 4295536432
+          }
+        ]
+      },
+      {
+        "classname": "Scheduler",
+        "addr": 565784,
+        "lang": "swift",
+        "index": 40,
+        "fields": [
+          {
+            "name": "pushSubscriptionStore",
+            "kind": "property",
+            "addr": 4295536512
+          },
+          {
+            "name": "bagManager",
+            "kind": "property",
+            "addr": 4295536534
+          },
+          {
+            "name": "dateProvider",
+            "kind": "property",
+            "addr": 4295536545
+          },
+          {
+            "name": "systemTaskSchedulerWrapper",
+            "kind": "property",
+            "addr": 4295536560
+          },
+          {
+            "name": "randomizer",
+            "kind": "property",
+            "addr": 4295536587
+          }
+        ]
+      },
+      {
+        "classname": "DefaultRandomizer",
+        "addr": 565812,
+        "lang": "swift",
+        "index": 41
+      },
+      {
+        "classname": "PostInstallScheduledTaskHandler",
+        "addr": 565840,
+        "lang": "swift",
+        "index": 42
+      },
+      {
+        "classname": "MaintenanceCleanupTaskHandler",
+        "addr": 565868,
+        "lang": "swift",
+        "index": 43
+      },
+      {
+        "classname": "BagRefreshTaskHandler",
+        "addr": 565896,
+        "lang": "swift",
+        "index": 44
+      },
+      {
+        "classname": "APSConnectedRefreshTaskHandler",
+        "addr": 565924,
+        "lang": "swift",
+        "index": 45,
+        "fields": [
+          {
+            "name": "refreshAssetsTaskHandler",
+            "kind": "property",
+            "addr": 4295536608
+          },
+          {
+            "name": "dateProvider",
+            "kind": "property",
+            "addr": 4295536545
+          }
+        ]
+      },
+      {
+        "classname": "MaintenanceRefreshAssetsTaskHandler",
+        "addr": 565952,
+        "lang": "swift",
+        "index": 46,
+        "fields": [
+          {
+            "name": "refreshAssetsTaskHandler",
+            "kind": "property",
+            "addr": 4295536608
+          }
+        ]
+      },
+      {
+        "classname": "DefaultRefreshAssetsTaskHandler",
+        "addr": 565980,
+        "lang": "swift",
+        "index": 47,
+        "fields": [
+          {
+            "name": "refreshAssetsTaskHandler",
+            "kind": "property",
+            "addr": 4295536608
+          }
+        ]
+      },
+      {
+        "classname": "SchedulingError",
+        "addr": 566008,
+        "lang": "swift",
+        "index": 48,
+        "fields": [
+          {
+            "name": "invalidSchedule",
+            "kind": "property",
+            "addr": 4295536485
+          }
+        ]
+      },
+      {
+        "classname": "ScheduleTime",
+        "addr": 566036,
+        "lang": "swift",
+        "index": 49,
+        "fields": [
+          {
+            "name": "scheduleAfter",
+            "kind": "property",
+            "type": "Swift.Double",
+            "addr": 4295536456
+          },
+          {
+            "name": "scheduleBefore",
+            "kind": "property",
+            "type": "Swift.Double",
+            "addr": 4295536470
+          }
+        ]
+      },
+      {
+        "classname": "RefreshAssetsTaskHandler",
+        "addr": 566064,
+        "lang": "swift",
+        "index": 50,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.RefreshAssetsTaskHandler.0",
+            "lang": "swift",
+            "addr": 4295533891
+          },
+          {
+            "name": "1",
+            "flag": "method.RefreshAssetsTaskHandler.1",
+            "lang": "swift",
+            "addr": 4295554379
+          }
+        ],
+        "fields": [
+          {
+            "name": "dateProvider",
+            "kind": "property",
+            "addr": 4295536545
+          },
+          {
+            "name": "context",
+            "kind": "property",
+            "addr": 4295536633
+          }
+        ]
+      },
+      {
+        "classname": "Context",
+        "addr": 566092,
+        "lang": "swift",
+        "index": 51,
+        "fields": [
+          {
+            "name": "standard",
+            "kind": "property",
+            "addr": 4295536641
+          },
+          {
+            "name": "maintenance",
+            "kind": "property",
+            "addr": 4295536650
+          },
+          {
+            "name": "apsReconnect",
+            "kind": "property",
+            "addr": 4295536662
+          }
+        ]
+      },
+      {
+        "classname": "DaemonActor",
+        "addr": 566120,
+        "lang": "swift",
+        "index": 52,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.DaemonActor.0",
+            "lang": "swift",
+            "addr": 4295577936
+          },
+          {
+            "name": "1",
+            "flag": "method.DaemonActor.1",
+            "lang": "swift",
+            "addr": 4295561452
+          }
+        ],
+        "fields": [
+          {
+            "name": "executor",
+            "kind": "property",
+            "addr": 4295536675
+          }
+        ]
+      },
+      {
+        "classname": "PostInstallRequestHandler",
+        "addr": 566188,
+        "lang": "swift",
+        "index": 53
+      },
+      {
+        "classname": "ReadTestAssetHandler",
+        "addr": 566216,
+        "lang": "swift",
+        "index": 54
+      },
+      {
+        "classname": "ClientInfo",
+        "addr": 566244,
+        "lang": "swift",
+        "index": 55,
+        "fields": [
+          {
+            "name": "bundleIdentifier",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295536720
+          },
+          {
+            "name": "auditToken",
+            "kind": "property",
+            "addr": 4295536737
+          }
+        ]
+      },
+      {
+        "classname": "GetAssetRequestHandler",
+        "addr": 566272,
+        "lang": "swift",
+        "index": 56
+      },
+      {
+        "classname": "NotificationsListener",
+        "addr": 566300,
+        "lang": "swift",
+        "index": 57,
+        "fields": [
+          {
+            "name": "tokenLookup",
+            "kind": "property",
+            "addr": 4295536760
+          }
+        ]
+      },
+      {
+        "classname": "Phase",
+        "addr": 566360,
+        "lang": "swift",
+        "index": 58,
+        "fields": [
+          {
+            "name": "begin",
+            "kind": "property",
+            "addr": 4295536791
+          },
+          {
+            "name": "containerLocation",
+            "kind": "property",
+            "addr": 4295536800
+          },
+          {
+            "name": "database",
+            "kind": "property",
+            "addr": 4295536818
+          },
+          {
+            "name": "pushManager",
+            "kind": "property",
+            "addr": 4295536827
+          },
+          {
+            "name": "scheduler",
+            "kind": "property",
+            "addr": 4295536839
+          },
+          {
+            "name": "end",
+            "kind": "property",
+            "addr": 4295536849
+          }
+        ]
+      },
+      {
+        "classname": "DaemonStartupStatus",
+        "addr": 566388,
+        "lang": "swift",
+        "index": 59,
+        "fields": [
+          {
+            "name": "_phase",
+            "kind": "property",
+            "addr": 4295536784
+          }
+        ]
+      },
+      {
+        "classname": "KillSwitchManager",
+        "addr": 566476,
+        "lang": "swift",
+        "index": 60,
+        "fields": [
+          {
+            "name": "enabledKey",
+            "kind": "property",
+            "addr": 4295536864
+          },
+          {
+            "name": "localPreferences",
+            "kind": "property",
+            "addr": 4295536880
+          }
+        ]
+      },
+      {
+        "classname": "SystemRestrictions",
+        "addr": 566580,
+        "lang": "swift",
+        "index": 61
+      },
+      {
+        "classname": "AssetRequestMetricsEvent",
+        "addr": 566608,
+        "lang": "swift",
+        "index": 62,
+        "fields": [
+          {
+            "name": "bundleID",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295536897
+          },
+          {
+            "name": "usageID",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295536906
+          },
+          {
+            "name": "assetURL",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295536914
+          },
+          {
+            "name": "assetVersion",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295536923
+          },
+          {
+            "name": "assetSource",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295536936
+          },
+          {
+            "name": "fetchReason",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295536948
+          },
+          {
+            "name": "isSuccess",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295536960
+          },
+          {
+            "name": "attempt",
+            "kind": "property",
+            "type": "Swift.Int",
+            "addr": 4295536970
+          },
+          {
+            "name": "broadcastTime",
+            "kind": "property",
+            "addr": 4295536978
+          },
+          {
+            "name": "priority",
+            "kind": "property",
+            "type": "Swift.Int",
+            "addr": 4295536992
+          }
+        ]
+      },
+      {
+        "classname": "DaemonMetricsEventRecorder",
+        "addr": 566648,
+        "lang": "swift",
+        "index": 63,
+        "fields": [
+          {
+            "name": "bag",
+            "kind": "property",
+            "addr": 4295537001
+          },
+          {
+            "name": "metricsWrapper",
+            "kind": "property",
+            "addr": 4295537005
+          },
+          {
+            "name": "defaultTopic",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295537020
+          },
+          {
+            "name": "anonymousTopics",
+            "kind": "property",
+            "type": "ShySSG",
+            "addr": 4295537033
+          }
+        ]
+      },
+      {
+        "classname": "DaemonEventPayloadDecorator",
+        "addr": 566688,
+        "lang": "swift",
+        "index": 64,
+        "fields": [
+          {
+            "name": "beforeFirstUnlock",
+            "kind": "property",
+            "addr": 4295537056
+          }
+        ]
+      },
+      {
+        "classname": "EventTimeMetricsFieldProvider",
+        "addr": 566716,
+        "lang": "swift",
+        "index": 65
+      },
+      {
+        "classname": "MetricsPipelineManager",
+        "addr": 566844,
+        "lang": "swift",
+        "index": 66,
+        "fields": [
+          {
+            "name": "$defaultActor",
+            "kind": "property",
+            "type": "BD",
+            "addr": 4295537074
+          },
+          {
+            "name": "cachedPipeline",
+            "kind": "property",
+            "addr": 4295537088
+          },
+          {
+            "name": "bagManager",
+            "kind": "property",
+            "addr": 4295537103
+          },
+          {
+            "name": "restrictions",
+            "kind": "property",
+            "addr": 4295537114
+          }
+        ]
+      },
+      {
+        "classname": "MetricsPipelineManagerError",
+        "addr": 566956,
+        "lang": "swift",
+        "index": 67,
+        "fields": [
+          {
+            "name": "noBagAvailable",
+            "kind": "property",
+            "addr": 4295537127
+          }
+        ]
+      },
+      {
+        "classname": "PushReceivedMetricsEvent",
+        "addr": 566984,
+        "lang": "swift",
+        "index": 68,
+        "fields": [
+          {
+            "name": "channelID",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295537142
+          },
+          {
+            "name": "broadcastTime",
+            "kind": "property",
+            "addr": 4295537152
+          },
+          {
+            "name": "priority",
+            "kind": "property",
+            "type": "Swift.Int",
+            "addr": 4295537166
+          }
+        ]
+      },
+      {
+        "classname": "ScheduleTaskRequestHandler",
+        "addr": 567024,
+        "lang": "swift",
+        "index": 69
+      },
+      {
+        "classname": "Daemon",
+        "addr": 567052,
+        "lang": "swift",
+        "index": 70,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.Daemon.0",
+            "lang": "swift",
+            "addr": 4295559684
+          }
+        ],
+        "fields": [
+          {
+            "name": "listener",
+            "kind": "property",
+            "addr": 4295537187
+          },
+          {
+            "name": "objectGraph",
+            "kind": "property",
+            "addr": 4295537196
+          }
+        ]
+      },
+      {
+        "classname": "RequestHandler",
+        "addr": 567120,
+        "lang": "swift",
+        "index": 71,
+        "fields": [
+          {
+            "name": "xpcSession",
+            "kind": "property",
+            "addr": 4295537208
+          },
+          {
+            "name": "objectGraph",
+            "kind": "property",
+            "addr": 4295537196
+          }
+        ]
+      },
+      {
+        "classname": "jetpackassetd.DefaultBeforeFirstUnlockChecker",
+        "addr": 4295627728,
+        "lang": "objc",
+        "index": 72,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ]
+      },
+      {
+        "classname": "jetpackassetd.PushManager",
+        "addr": 4295628144,
+        "lang": "objc",
+        "index": 73,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "connection:didReceivePublicToken:",
+            "flag": "func.10002ccc0",
+            "lang": "objc",
+            "addr": 4295150784
+          },
+          {
+            "name": "connection:didReceiveIncomingMessage:",
+            "flag": "method.jetpackassetd.PushManager.connection:didReceiveIncomingMessage:",
+            "lang": "objc",
+            "addr": 4295153064
+          },
+          {
+            "name": "connection:channelSubscriptionsFailedWithFailures:",
+            "flag": "method.jetpackassetd.PushManager.connection:channelSubscriptionsFailedWithFailures:",
+            "lang": "objc",
+            "addr": 4295188304
+          },
+          {
+            "name": "connection:didChangeConnectedStatus:",
+            "flag": "method.jetpackassetd.PushManager.connection:didChangeConnectedStatus:",
+            "lang": "objc",
+            "addr": 4295190296
+          },
+          {
+            "name": "init",
+            "flag": "method.jetpackassetd.PushManager.init",
+            "lang": "objc",
+            "addr": 4295190400
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.jetpackassetd.PushManager..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295190504
+          },
+          {
+            "name": "connection:didReceivePublicToken:",
+            "flag": "method.jetpackassetd.PushManager.connection:didReceivePublicToken:",
+            "lang": "objc",
+            "addr": 4295496296
+          },
+          {
+            "name": "connection:didReceivePublicToken:",
+            "flag": "method.jetpackassetd.PushManager.connection:didReceivePublicToken:",
+            "lang": "objc",
+            "addr": 4295496296
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "subscribedControlChannelIDKey",
+            "kind": "var",
+            "addr": 4295628120
+          },
+          {
+            "name": "apsLastKnownConnectedKey",
+            "kind": "var",
+            "addr": 4295628128
+          },
+          {
+            "name": "beforeUnlockPushes",
+            "kind": "var",
+            "addr": 4295628136
+          },
+          {
+            "name": "unlockListener",
+            "kind": "var",
+            "addr": 4295631776
+          },
+          {
+            "name": "database",
+            "kind": "var",
+            "addr": 4295628024
+          },
+          {
+            "name": "pushSubscriptionStore",
+            "kind": "var",
+            "addr": 4295628032
+          },
+          {
+            "name": "diskCache",
+            "kind": "var",
+            "addr": 4295628040
+          },
+          {
+            "name": "scheduler",
+            "kind": "var",
+            "addr": 4295628048
+          },
+          {
+            "name": "coreAnalyticsLogger",
+            "kind": "var",
+            "addr": 4295628056
+          },
+          {
+            "name": "bagManager",
+            "kind": "var",
+            "addr": 4295628064
+          },
+          {
+            "name": "killSwitchManager",
+            "kind": "var",
+            "addr": 4295628072
+          },
+          {
+            "name": "beforeFirstUnlockChecker",
+            "kind": "var",
+            "addr": 4295628080
+          },
+          {
+            "name": "connectionWrapper",
+            "kind": "var",
+            "addr": 4295628088
+          },
+          {
+            "name": "localPreferences",
+            "kind": "var",
+            "addr": 4295628096
+          },
+          {
+            "name": "dateProvider",
+            "kind": "var",
+            "addr": 4295628104
+          },
+          {
+            "name": "metricsPipelineManager",
+            "kind": "var",
+            "addr": 4295628112
+          }
+        ]
+      },
+      {
+        "classname": "jetpackassetd.DaemonActor",
+        "addr": 4295629144,
+        "lang": "objc",
+        "index": 74,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "executor",
+            "kind": "var",
+            "addr": 4295506600
+          }
+        ]
+      },
+      {
+        "classname": "jetpackassetd.NotificationsListener",
+        "addr": 4295629640,
+        "lang": "objc",
+        "index": 75,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "tokenLookup",
+            "kind": "var",
+            "addr": 4295507184
+          }
+        ]
+      },
+      {
+        "classname": "jetpackassetd.KillSwitchManager",
+        "addr": 4295629824,
+        "lang": "objc",
+        "index": 76,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "enabledKey",
+            "kind": "var",
+            "addr": 4295629808
+          },
+          {
+            "name": "localPreferences",
+            "kind": "var",
+            "addr": 4295629816
+          }
+        ]
+      },
+      {
+        "classname": "jetpackassetd.MetricsPipelineManager",
+        "addr": 4295630512,
+        "lang": "objc",
+        "index": 77,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$defaultActor",
+            "kind": "var",
+            "addr": 0
+          },
+          {
+            "name": "cachedPipeline",
+            "kind": "var",
+            "addr": 4295630488
+          },
+          {
+            "name": "bagManager",
+            "kind": "var",
+            "addr": 4295630496
+          },
+          {
+            "name": "restrictions",
+            "kind": "var",
+            "addr": 4295630504
+          }
+        ]
+      },
+      {
+        "classname": "jetpackassetd.Daemon",
+        "addr": 4295631144,
+        "lang": "objc",
+        "index": 78,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "listener",
+            "kind": "var",
+            "addr": 4295508872
+          },
+          {
+            "name": "objectGraph",
+            "kind": "var",
+            "addr": 4295508880
+          }
+        ]
+      }
+    ],
+    "protocols": []
+  },
+  "usage": {
+    "layer": "usage",
+    "status": "not_implemented"
+  },
+  "runtime": {
+    "layer": "runtime",
+    "status": "not_implemented"
+  }
+}

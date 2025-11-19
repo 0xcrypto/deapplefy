@@ -1,0 +1,2206 @@
+{
+  "framework": "TranslationUIServices.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/TranslationUIServices.framework/PlugIns/TranslationUIService.appex/Contents/MacOS/TranslationUIService",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 401296,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "swift",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/Frameworks/Translation.framework/Versions/A/Translation",
+          "/System/Library/PrivateFrameworks/TranslationUIServices.framework/Versions/A/TranslationUIServices",
+          "/System/Library/PrivateFrameworks/TranslationUI.framework/Versions/A/TranslationUI",
+          "/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI",
+          "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",
+          "/System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics",
+          "/System/Library/Frameworks/Security.framework/Versions/A/Security",
+          "/System/Library/PrivateFrameworks/SearchUI.framework/Versions/A/SearchUI",
+          "/System/Library/Frameworks/NetworkExtension.framework/Versions/A/NetworkExtension",
+          "/System/Library/Frameworks/ExtensionFoundation.framework/Versions/A/ExtensionFoundation",
+          "/usr/lib/libbsm.0.dylib",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/AVFAudio.framework/Versions/A/AVFAudio",
+          "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "/System/Library/Frameworks/Combine.framework/Versions/A/Combine",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics",
+          "/usr/lib/swift/libswiftAVFoundation.dylib",
+          "/usr/lib/swift/libswiftAccelerate.dylib",
+          "/usr/lib/swift/libswiftCompression.dylib",
+          "/usr/lib/swift/libswiftCore.dylib",
+          "/usr/lib/swift/libswiftCoreAudio.dylib",
+          "/usr/lib/swift/libswiftCoreFoundation.dylib",
+          "/usr/lib/swift/libswiftCoreImage.dylib",
+          "/usr/lib/swift/libswiftCoreLocation.dylib",
+          "/usr/lib/swift/libswiftCoreMIDI.dylib",
+          "/usr/lib/swift/libswiftCoreMedia.dylib",
+          "/usr/lib/swift/libswiftDispatch.dylib",
+          "/usr/lib/swift/libswiftIOKit.dylib",
+          "/usr/lib/swift/libswiftIntents.dylib",
+          "/usr/lib/swift/libswiftMLCompute.dylib",
+          "/usr/lib/swift/libswiftMapKit.dylib",
+          "/usr/lib/swift/libswiftMetal.dylib",
+          "/usr/lib/swift/libswiftNaturalLanguage.dylib",
+          "/usr/lib/swift/libswiftOSLog.dylib",
+          "/usr/lib/swift/libswiftObjectiveC.dylib",
+          "/usr/lib/swift/libswiftQuartzCore.dylib",
+          "/usr/lib/swift/libswiftSpatial.dylib",
+          "/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib",
+          "/usr/lib/swift/libswiftVideoToolbox.dylib",
+          "/usr/lib/swift/libswiftXPC.dylib",
+          "/usr/lib/swift/libswift_Builtin_float.dylib",
+          "/usr/lib/swift/libswift_Concurrency.dylib",
+          "/usr/lib/swift/libswiftos.dylib",
+          "/usr/lib/swift/libswiftsimd.dylib"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "Key",
+        "addr": 247088,
+        "lang": "swift",
+        "index": 0,
+        "fields": [
+          {
+            "name": "_rawValue",
+            "kind": "property",
+            "type": "__C.NSString",
+            "addr": 4295230128
+          }
+        ]
+      },
+      {
+        "classname": "PasteboardType",
+        "addr": 247132,
+        "lang": "swift",
+        "index": 1,
+        "fields": [
+          {
+            "name": "_rawValue",
+            "kind": "property",
+            "type": "__C.NSString",
+            "addr": 4295230128
+          }
+        ]
+      },
+      {
+        "classname": "TextStyleOptionKey",
+        "addr": 247176,
+        "lang": "swift",
+        "index": 2,
+        "fields": [
+          {
+            "name": "_rawValue",
+            "kind": "property",
+            "type": "__C.NSString",
+            "addr": 4295230128
+          }
+        ]
+      },
+      {
+        "classname": "ActionViewController",
+        "addr": 247208,
+        "lang": "swift",
+        "index": 3,
+        "super": [
+          "__C.NSViewController"
+        ],
+        "rawsuper": [
+          "So16NSViewControllerC"
+        ],
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.ActionViewController.0",
+            "lang": "swift",
+            "addr": 4295250376
+          },
+          {
+            "name": "1",
+            "flag": "method.ActionViewController.1",
+            "lang": "swift",
+            "addr": 4295278404
+          }
+        ],
+        "fields": [
+          {
+            "name": "$__lazy_storage_$_translationModel",
+            "kind": "property",
+            "addr": 4295230176
+          },
+          {
+            "name": "$__lazy_storage_$_hostController",
+            "kind": "property",
+            "type": "NSViewController.allocator__GenericAccessorSg",
+            "addr": 4295230224
+          }
+        ]
+      },
+      {
+        "classname": "Data",
+        "addr": 247348,
+        "lang": "swift",
+        "index": 4,
+        "fields": [
+          {
+            "name": "sourceEditable",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295230257
+          },
+          {
+            "name": "onDeviceOnlyEnabled",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295230272
+          },
+          {
+            "name": "tokenCount",
+            "kind": "property",
+            "type": "Swift.Int",
+            "addr": 4295230292
+          },
+          {
+            "name": "bundleID",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295230303
+          },
+          {
+            "name": "isImageBased",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295230312
+          },
+          {
+            "name": "isDeveloperOriginated",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295230336
+          }
+        ]
+      },
+      {
+        "classname": "AnnotationView",
+        "addr": 247376,
+        "lang": "swift",
+        "index": 5,
+        "fields": [
+          {
+            "name": "annotation",
+            "kind": "property",
+            "addr": 4295230358
+          }
+        ]
+      },
+      {
+        "classname": "BorderlessPopUpButtonCell",
+        "addr": 247444,
+        "lang": "swift",
+        "index": 6,
+        "super": [
+          "__C.NSPopUpButtonCell"
+        ],
+        "rawsuper": [
+          "So17NSPopUpButtonCellC"
+        ],
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.BorderlessPopUpButtonCell.0",
+            "lang": "swift",
+            "addr": 4295215040
+          },
+          {
+            "name": "1",
+            "flag": "method.BorderlessPopUpButtonCell.1",
+            "lang": "swift",
+            "addr": 4295215028
+          },
+          {
+            "name": "2",
+            "flag": "method.BorderlessPopUpButtonCell.2",
+            "lang": "swift",
+            "addr": 4295215009
+          },
+          {
+            "name": "3",
+            "flag": "method.BorderlessPopUpButtonCell.3",
+            "lang": "swift",
+            "addr": 4295066339
+          }
+        ],
+        "fields": [
+          {
+            "name": "titleAttributes",
+            "kind": "property",
+            "type": "SDy\u0002\u00f6\u00c2",
+            "addr": 4295230374
+          }
+        ]
+      },
+      {
+        "classname": "BorderlessPopUpButton",
+        "addr": 247520,
+        "lang": "swift",
+        "index": 7,
+        "super": [
+          "__C.NSPopUpButton"
+        ],
+        "rawsuper": [
+          "So13NSPopUpButtonC"
+        ]
+      },
+      {
+        "classname": "Coordinator",
+        "addr": 247564,
+        "lang": "swift",
+        "index": 8,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ],
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.Coordinator.0",
+            "lang": "swift",
+            "addr": 4295251759
+          },
+          {
+            "name": "1",
+            "flag": "method.Coordinator.1",
+            "lang": "swift",
+            "addr": 4295244048
+          }
+        ],
+        "fields": [
+          {
+            "name": "button",
+            "kind": "property",
+            "addr": 4295230390
+          }
+        ]
+      },
+      {
+        "classname": "CardAction",
+        "addr": 247632,
+        "lang": "swift",
+        "index": 9,
+        "fields": [
+          {
+            "name": "title",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295230397
+          },
+          {
+            "name": "action",
+            "kind": "property",
+            "type": "yycSg",
+            "addr": 4295230403
+          },
+          {
+            "name": "_isEnabled",
+            "kind": "property",
+            "addr": 4295230410
+          }
+        ]
+      },
+      {
+        "classname": "DismissAction",
+        "addr": 247660,
+        "lang": "swift",
+        "index": 10,
+        "fields": [
+          {
+            "name": "handler",
+            "kind": "property",
+            "type": "yyc",
+            "addr": 4295230449
+          }
+        ]
+      },
+      {
+        "classname": "DismissActionKey",
+        "addr": 247688,
+        "lang": "swift",
+        "index": 11
+      },
+      {
+        "classname": "DownloadSelectionView",
+        "addr": 247716,
+        "lang": "swift",
+        "index": 12,
+        "fields": [
+          {
+            "name": "sourceLocale",
+            "kind": "property",
+            "addr": 4295230464
+          },
+          {
+            "name": "targetLocale",
+            "kind": "property",
+            "addr": 4295230477
+          },
+          {
+            "name": "action",
+            "kind": "property",
+            "type": "y\u0002\u00e8\u00c2",
+            "addr": 4295230490
+          }
+        ]
+      },
+      {
+        "classname": "DownloadSelectionView_macOS",
+        "addr": 247756,
+        "lang": "swift",
+        "index": 13,
+        "fields": [
+          {
+            "name": "initialSourceLocale",
+            "kind": "property",
+            "addr": 4295230512
+          },
+          {
+            "name": "initialTargetLocale",
+            "kind": "property",
+            "addr": 4295230544
+          },
+          {
+            "name": "_sourceLocale",
+            "kind": "property",
+            "addr": 4295230564
+          },
+          {
+            "name": "_targetLocale",
+            "kind": "property",
+            "addr": 4295230578
+          },
+          {
+            "name": "_continueButtonText",
+            "kind": "property",
+            "addr": 4295230592
+          },
+          {
+            "name": "action",
+            "kind": "property",
+            "type": "y\u0002\u00e8\u00c2",
+            "addr": 4295230490
+          },
+          {
+            "name": "_languagesService",
+            "kind": "property",
+            "addr": 4295230624
+          }
+        ]
+      },
+      {
+        "classname": "ErrorView",
+        "addr": 247876,
+        "lang": "swift",
+        "index": 14,
+        "fields": [
+          {
+            "name": "error",
+            "kind": "property",
+            "addr": 4295230642
+          }
+        ]
+      },
+      {
+        "classname": "Coordinator_1",
+        "addr": 247944,
+        "lang": "swift",
+        "index": 15,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ],
+        "fields": [
+          {
+            "name": "continueAction",
+            "kind": "property",
+            "type": "yycSg",
+            "addr": 4295230656
+          }
+        ]
+      },
+      {
+        "classname": "FirstUseExperienceView",
+        "addr": 248064,
+        "lang": "swift",
+        "index": 16,
+        "fields": [
+          {
+            "name": "_userEnabled",
+            "kind": "property",
+            "addr": 4295230687
+          }
+        ]
+      },
+      {
+        "classname": "SearchUIFirstUseView",
+        "addr": 248036,
+        "lang": "swift",
+        "index": 17,
+        "fields": [
+          {
+            "name": "continuePressed",
+            "kind": "property",
+            "type": "yyc",
+            "addr": 4295230671
+          }
+        ]
+      },
+      {
+        "classname": "Coordinator_2",
+        "addr": 248132,
+        "lang": "swift",
+        "index": 18,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ],
+        "fields": [
+          {
+            "name": "localeInfos",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295230753
+          },
+          {
+            "name": "_selection",
+            "kind": "property",
+            "addr": 4295230765
+          }
+        ]
+      },
+      {
+        "classname": "LanguageButton",
+        "addr": 248276,
+        "lang": "swift",
+        "index": 19,
+        "fields": [
+          {
+            "name": "locales",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295230776
+          },
+          {
+            "name": "_selection",
+            "kind": "property",
+            "addr": 4295230765
+          },
+          {
+            "name": "titleFont",
+            "kind": "property",
+            "type": "__C.NSFont",
+            "addr": 4295230784
+          },
+          {
+            "name": "titleColor",
+            "kind": "property",
+            "type": "__C.NSColor",
+            "addr": 4295230794
+          }
+        ]
+      },
+      {
+        "classname": "LanguageButtonContainer",
+        "addr": 248316,
+        "lang": "swift",
+        "index": 20,
+        "fields": [
+          {
+            "name": "locales",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295230833
+          },
+          {
+            "name": "_selection",
+            "kind": "property",
+            "addr": 4295230841
+          },
+          {
+            "name": "titleColor",
+            "kind": "property",
+            "type": "__C.NSColor",
+            "addr": 4295230852
+          },
+          {
+            "name": "onChange",
+            "kind": "property",
+            "type": "y\u0002\u033b",
+            "addr": 4295230863
+          }
+        ]
+      },
+      {
+        "classname": "LanguageText",
+        "addr": 248396,
+        "lang": "swift",
+        "index": 21,
+        "fields": [
+          {
+            "name": "locale",
+            "kind": "property",
+            "addr": 4295230877
+          },
+          {
+            "name": "text",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295230884
+          },
+          {
+            "name": "allowsExpansion",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295230889
+          },
+          {
+            "name": "_isExpanded",
+            "kind": "property",
+            "addr": 4295230905
+          }
+        ]
+      },
+      {
+        "classname": "LIDResolutionView",
+        "addr": 248476,
+        "lang": "swift",
+        "index": 22,
+        "fields": [
+          {
+            "name": "language",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295230928
+          },
+          {
+            "name": "availableLocales",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295230944
+          },
+          {
+            "name": "_sourceLocale",
+            "kind": "property",
+            "addr": 4295230961
+          },
+          {
+            "name": "_targetLocale",
+            "kind": "property",
+            "addr": 4295230975
+          },
+          {
+            "name": "suggestedLocales",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295230992
+          },
+          {
+            "name": "_languageSelectionVisible",
+            "kind": "property",
+            "addr": 4295231024
+          },
+          {
+            "name": "_directionSelection",
+            "kind": "property",
+            "addr": 4295231056
+          }
+        ]
+      },
+      {
+        "classname": "ReplaceAction",
+        "addr": 248556,
+        "lang": "swift",
+        "index": 23,
+        "fields": [
+          {
+            "name": "handler",
+            "kind": "property",
+            "type": "NSAttributedString.allocator",
+            "addr": 4295231081
+          }
+        ]
+      },
+      {
+        "classname": "ReplaceActionKey",
+        "addr": 248584,
+        "lang": "swift",
+        "index": 24
+      },
+      {
+        "classname": "ToolbarButton",
+        "addr": 248612,
+        "lang": "swift",
+        "index": 25,
+        "fields": [
+          {
+            "name": "title",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295231095
+          },
+          {
+            "name": "image",
+            "kind": "property",
+            "type": "NSImage.allocator__GenericAccessorSg",
+            "addr": 4295231101
+          },
+          {
+            "name": "action",
+            "kind": "property",
+            "type": "yycSg",
+            "addr": 4295231107
+          }
+        ]
+      },
+      {
+        "classname": "TranslationModel",
+        "addr": 248640,
+        "lang": "swift",
+        "index": 26,
+        "fields": [
+          {
+            "name": "_suggestedLocales",
+            "kind": "property",
+            "addr": 4295231152
+          },
+          {
+            "name": "_lowConfidenceLocales",
+            "kind": "property",
+            "addr": 4295231184
+          },
+          {
+            "name": "_error",
+            "kind": "property",
+            "addr": 4295231206
+          },
+          {
+            "name": "attributedSource",
+            "kind": "property",
+            "type": "NSAttributedString.allocator__GenericAccessorSg",
+            "addr": 4295231216
+          },
+          {
+            "name": "ignoredAttributes",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295231248
+          },
+          {
+            "name": "_sourceLocale",
+            "kind": "property",
+            "addr": 4295231266
+          },
+          {
+            "name": "_sourceText",
+            "kind": "property",
+            "addr": 4295231280
+          },
+          {
+            "name": "_sourceLocaleWasDetected",
+            "kind": "property",
+            "addr": 4295231296
+          },
+          {
+            "name": "_targetLocale",
+            "kind": "property",
+            "addr": 4295231321
+          },
+          {
+            "name": "_targetText",
+            "kind": "property",
+            "addr": 4295231335
+          },
+          {
+            "name": "consentHandler",
+            "kind": "property",
+            "type": "yycSg",
+            "addr": 4295231347
+          },
+          {
+            "name": "_translationAnnotation",
+            "kind": "property",
+            "addr": 4295231376
+          },
+          {
+            "name": "_availableLocales",
+            "kind": "property",
+            "addr": 4295231408
+          },
+          {
+            "name": "_replacementAvailable",
+            "kind": "property",
+            "addr": 4295231440
+          },
+          {
+            "name": "$__lazy_storage_$_languagesService",
+            "kind": "property",
+            "addr": 4295231472
+          },
+          {
+            "name": "showConsentOnly",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295231507
+          },
+          {
+            "name": "_firstUseConsent",
+            "kind": "property",
+            "addr": 4295231536
+          },
+          {
+            "name": "translationResult",
+            "kind": "property",
+            "type": "_LTTranslationResult.allocator__GenericAccessorSg",
+            "addr": 4295231568
+          },
+          {
+            "name": "_selectedDisambiguation",
+            "kind": "property",
+            "addr": 4295231600
+          },
+          {
+            "name": "cplIntervalID",
+            "kind": "property",
+            "addr": 4295231624
+          },
+          {
+            "name": "waitingForUserConsent",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295231648
+          },
+          {
+            "name": "subscriptions",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295231670
+          },
+          {
+            "name": "$__lazy_storage_$_sharedFavorites",
+            "kind": "property",
+            "addr": 4295231696
+          },
+          {
+            "name": "hostBundleIdentifier",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295231744
+          },
+          {
+            "name": "requestOrigin",
+            "kind": "property",
+            "addr": 4295231765
+          },
+          {
+            "name": "originalPlayer",
+            "kind": "property",
+            "addr": 4295231779
+          },
+          {
+            "name": "translationPlayer",
+            "kind": "property",
+            "addr": 4295231808
+          },
+          {
+            "name": "_isFavorite",
+            "kind": "property",
+            "addr": 4295231826
+          },
+          {
+            "name": "selfInvocation",
+            "kind": "property",
+            "type": "_LTSELFLoggingInvocation.allocator__GenericAccessorSg",
+            "addr": 4295231838
+          },
+          {
+            "name": "inProgressRequest",
+            "kind": "property",
+            "type": "_LTTranslationRequest.allocator__GenericAccessorSg",
+            "addr": 4295231856
+          }
+        ]
+      },
+      {
+        "classname": "TranslationAnnotation",
+        "addr": 248712,
+        "lang": "swift",
+        "index": 27,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.TranslationAnnotation.0",
+            "lang": "swift",
+            "addr": 4295215955
+          },
+          {
+            "name": "1",
+            "flag": "method.TranslationAnnotation.1",
+            "lang": "swift",
+            "addr": 4295226459
+          },
+          {
+            "name": "2",
+            "flag": "method.TranslationAnnotation.2",
+            "lang": "swift",
+            "addr": 4295223651
+          }
+        ],
+        "fields": [
+          {
+            "name": "lowQualityTranslation",
+            "kind": "property",
+            "addr": 4295231904
+          },
+          {
+            "name": "maximumLengthExceeded",
+            "kind": "property",
+            "addr": 4295231936
+          }
+        ]
+      },
+      {
+        "classname": "LocaleInfo",
+        "addr": 248740,
+        "lang": "swift",
+        "index": 28,
+        "fields": [
+          {
+            "name": "locale",
+            "kind": "property",
+            "addr": 4295231874
+          },
+          {
+            "name": "available",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295231881
+          }
+        ]
+      },
+      {
+        "classname": "TranslationError",
+        "addr": 248780,
+        "lang": "swift",
+        "index": 29,
+        "fields": [
+          {
+            "name": "unsupportedLanguage",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295232000
+          },
+          {
+            "name": "languagePairUnavailableOnDevice",
+            "kind": "property",
+            "addr": 4295232032
+          },
+          {
+            "name": "languagePairDownloading",
+            "kind": "property",
+            "type": "Swift.Double",
+            "addr": 4295232064
+          },
+          {
+            "name": "serviceUnavailable",
+            "kind": "property",
+            "addr": 4295232096
+          },
+          {
+            "name": "lowConfidenceDetectedLanguages",
+            "kind": "property",
+            "addr": 4295232128
+          }
+        ]
+      },
+      {
+        "classname": "TranslationRequestContext",
+        "addr": 248820,
+        "lang": "swift",
+        "index": 30,
+        "fields": [
+          {
+            "name": "text",
+            "kind": "property",
+            "type": "__C.NSAttributedString",
+            "addr": 4295232191
+          },
+          {
+            "name": "showConsentOnly",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295232196
+          },
+          {
+            "name": "skipFirstUseConsent",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295232224
+          },
+          {
+            "name": "ignoredAttributes",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295232256
+          },
+          {
+            "name": "cplIntervalID",
+            "kind": "property",
+            "addr": 4295232274
+          },
+          {
+            "name": "replacementAvailable",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295232288
+          },
+          {
+            "name": "lidContext",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295232309
+          },
+          {
+            "name": "origin",
+            "kind": "property",
+            "addr": 4295232320
+          },
+          {
+            "name": "sourceLocale",
+            "kind": "property",
+            "addr": 4295232327
+          },
+          {
+            "name": "targetLocale",
+            "kind": "property",
+            "addr": 4295232340
+          }
+        ]
+      },
+      {
+        "classname": "Origin",
+        "addr": 248860,
+        "lang": "swift",
+        "index": 31,
+        "fields": [
+          {
+            "name": "unspecified",
+            "kind": "property",
+            "addr": 4295232160
+          },
+          {
+            "name": "image",
+            "kind": "property",
+            "addr": 4295232172
+          },
+          {
+            "name": "developerAPI",
+            "kind": "property",
+            "addr": 4295232178
+          }
+        ]
+      },
+      {
+        "classname": "TranslationServiceView",
+        "addr": 248888,
+        "lang": "swift",
+        "index": 32,
+        "fields": [
+          {
+            "name": "_viewModel",
+            "kind": "property",
+            "addr": 4295232362
+          },
+          {
+            "name": "_dismissAction",
+            "kind": "property",
+            "addr": 4295232373
+          }
+        ]
+      },
+      {
+        "classname": "TranslationView",
+        "addr": 248956,
+        "lang": "swift",
+        "index": 33,
+        "fields": [
+          {
+            "name": "_viewModel",
+            "kind": "property",
+            "addr": 4295232400
+          },
+          {
+            "name": "_originalPlayer",
+            "kind": "property",
+            "addr": 4295232411
+          },
+          {
+            "name": "_translationPlayer",
+            "kind": "property",
+            "addr": 4295232432
+          },
+          {
+            "name": "_replaceAction",
+            "kind": "property",
+            "addr": 4295232451
+          },
+          {
+            "name": "_dismissAction",
+            "kind": "property",
+            "addr": 4295232466
+          },
+          {
+            "name": "_availableTextWidth",
+            "kind": "property",
+            "addr": 4295232496
+          },
+          {
+            "name": "metrics",
+            "kind": "property",
+            "addr": 4295232516
+          }
+        ]
+      },
+      {
+        "classname": "VoicePlayback",
+        "addr": 249076,
+        "lang": "swift",
+        "index": 34,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.VoicePlayback.0",
+            "lang": "swift",
+            "addr": 4295216548
+          },
+          {
+            "name": "1",
+            "flag": "method.VoicePlayback.1",
+            "lang": "swift",
+            "addr": 4295216540
+          },
+          {
+            "name": "2",
+            "flag": "method.VoicePlayback.2",
+            "lang": "swift",
+            "addr": 4295216619
+          },
+          {
+            "name": "3",
+            "flag": "method.VoicePlayback.3",
+            "lang": "swift",
+            "addr": 4295216555
+          },
+          {
+            "name": "4",
+            "flag": "method.VoicePlayback.4",
+            "lang": "swift",
+            "addr": 4295216508
+          },
+          {
+            "name": "5",
+            "flag": "method.VoicePlayback.5",
+            "lang": "swift",
+            "addr": 4295216645
+          },
+          {
+            "name": "6",
+            "flag": "method.VoicePlayback.6",
+            "lang": "swift",
+            "addr": 4295216523
+          },
+          {
+            "name": "7",
+            "flag": "method.VoicePlayback.7",
+            "lang": "swift",
+            "addr": 4295216690
+          },
+          {
+            "name": "8",
+            "flag": "method.VoicePlayback.8",
+            "lang": "swift",
+            "addr": 4295216564
+          },
+          {
+            "name": "9",
+            "flag": "method.VoicePlayback.9",
+            "lang": "swift",
+            "addr": 4295216590
+          },
+          {
+            "name": "10",
+            "flag": "method.VoicePlayback.10",
+            "lang": "swift",
+            "addr": 4295216536
+          },
+          {
+            "name": "11",
+            "flag": "method.VoicePlayback.11",
+            "lang": "swift",
+            "addr": 4295216769
+          },
+          {
+            "name": "12",
+            "flag": "method.VoicePlayback.12",
+            "lang": "swift",
+            "addr": 4295216767
+          },
+          {
+            "name": "13",
+            "flag": "method.VoicePlayback.13",
+            "lang": "swift",
+            "addr": 4295216717
+          },
+          {
+            "name": "14",
+            "flag": "method.VoicePlayback.14",
+            "lang": "swift",
+            "addr": 4295216675
+          },
+          {
+            "name": "15",
+            "flag": "method.VoicePlayback.15",
+            "lang": "swift",
+            "addr": 4295216823
+          },
+          {
+            "name": "16",
+            "flag": "method.VoicePlayback.16",
+            "lang": "swift",
+            "addr": 4295216720
+          },
+          {
+            "name": "17",
+            "flag": "method.VoicePlayback.17",
+            "lang": "swift",
+            "addr": 4295216667
+          },
+          {
+            "name": "18",
+            "flag": "method.VoicePlayback.18",
+            "lang": "swift",
+            "addr": 4295216765
+          },
+          {
+            "name": "19",
+            "flag": "method.VoicePlayback.19",
+            "lang": "swift",
+            "addr": 4295216711
+          }
+        ],
+        "fields": [
+          {
+            "name": "_isPlaying",
+            "kind": "property",
+            "addr": 4295232544
+          },
+          {
+            "name": "processBundleIdentifier",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295232560
+          },
+          {
+            "name": "loggingLocation",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295232584
+          },
+          {
+            "name": "text",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295232600
+          },
+          {
+            "name": "locale",
+            "kind": "property",
+            "addr": 4295232605
+          },
+          {
+            "name": "requestID",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295232612
+          }
+        ]
+      },
+      {
+        "classname": "ResourceBundleClass",
+        "addr": 249356,
+        "lang": "swift",
+        "index": 35
+      },
+      {
+        "classname": "TranslationUIService.ActionViewController",
+        "addr": 4295284416,
+        "lang": "objc",
+        "index": 36,
+        "super": [
+          "NSViewController"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSViewController"
+        ],
+        "methods": [
+          {
+            "name": "loadView",
+            "flag": "method.TranslationUIService.ActionViewController.loadView",
+            "lang": "objc",
+            "addr": 4294981172
+          },
+          {
+            "name": "viewDidLoad",
+            "flag": "method.TranslationUIService.ActionViewController.viewDidLoad",
+            "lang": "objc",
+            "addr": 4294984064
+          },
+          {
+            "name": "viewWillDisappear",
+            "flag": "method.TranslationUIService.ActionViewController.viewWillDisappear",
+            "lang": "objc",
+            "addr": 4294984124
+          },
+          {
+            "name": "initWithNibName:bundle:",
+            "flag": "method.TranslationUIService.ActionViewController.initWithNibName:bundle:",
+            "lang": "objc",
+            "addr": 4294985124
+          },
+          {
+            "name": "initWithCoder:",
+            "flag": "method.TranslationUIService.ActionViewController.initWithCoder:",
+            "lang": "objc",
+            "addr": 4294985348
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.TranslationUIService.ActionViewController..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294985556
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$__lazy_storage_$_translationModel",
+            "kind": "var",
+            "addr": 4295284400
+          },
+          {
+            "name": "$__lazy_storage_$_hostController",
+            "kind": "var",
+            "addr": 4295284408
+          }
+        ]
+      },
+      {
+        "classname": "TranslationUIService.BorderlessPopUpButtonCell",
+        "addr": 4295284600,
+        "lang": "objc",
+        "index": 37,
+        "super": [
+          "NSPopUpButtonCell"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSPopUpButtonCell"
+        ],
+        "methods": [
+          {
+            "name": "drawBorderAndBackgroundWithFrame:inView:",
+            "flag": "method.TranslationUIService.BorderlessPopUpButtonCell.drawBorderAndBackgroundWithFrame:inView:",
+            "lang": "objc",
+            "addr": 4294990732
+          },
+          {
+            "name": "drawTitle:withFrame:inView:",
+            "flag": "method.TranslationUIService.BorderlessPopUpButtonCell.drawTitle:withFrame:inView:",
+            "lang": "objc",
+            "addr": 4294991280
+          },
+          {
+            "name": "initTextCell:pullsDown:",
+            "flag": "method.TranslationUIService.BorderlessPopUpButtonCell.initTextCell:pullsDown:",
+            "lang": "objc",
+            "addr": 4294991476
+          },
+          {
+            "name": "initWithCoder:",
+            "flag": "method.TranslationUIService.BorderlessPopUpButtonCell.initWithCoder:",
+            "lang": "objc",
+            "addr": 4294991576
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.TranslationUIService.BorderlessPopUpButtonCell..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294991684
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "titleAttributes",
+            "kind": "var",
+            "addr": 4295284592
+          }
+        ]
+      },
+      {
+        "classname": "TranslationUIService.BorderlessPopUpButton",
+        "addr": 4295284640,
+        "lang": "objc",
+        "index": 38,
+        "super": [
+          "NSPopUpButton"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSPopUpButton"
+        ],
+        "methods": [
+          {
+            "name": "alignmentRectInsets",
+            "flag": "method.TranslationUIService.BorderlessPopUpButton.alignmentRectInsets",
+            "lang": "objc",
+            "addr": 4294991856
+          },
+          {
+            "name": "initWithFrame:pullsDown:",
+            "flag": "method.TranslationUIService.BorderlessPopUpButton.initWithFrame:pullsDown:",
+            "lang": "objc",
+            "addr": 4294992424
+          },
+          {
+            "name": "initWithFrame:",
+            "flag": "method.TranslationUIService.BorderlessPopUpButton.initWithFrame:",
+            "lang": "objc",
+            "addr": 4294992544
+          },
+          {
+            "name": "initWithCoder:",
+            "flag": "method.TranslationUIService.BorderlessPopUpButton.initWithCoder:",
+            "lang": "objc",
+            "addr": 4294992656
+          },
+          {
+            "name": "cellClass",
+            "flag": "method.class.TranslationUIService.BorderlessPopUpButton.cellClass",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294991736
+          },
+          {
+            "name": "setCellClass:",
+            "flag": "method.class.TranslationUIService.BorderlessPopUpButton.setCellClass:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294991776
+          }
+        ],
+        "fields": [
+          {
+            "name": "alignmentRectInsets",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "cellClass",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "TranslationUIService.CardAction.Coordinator",
+        "addr": 4295284688,
+        "lang": "objc",
+        "index": 39,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "primaryActionWithSender:",
+            "flag": "method.TranslationUIService.CardAction.Coordinator.primaryActionWithSender:",
+            "lang": "objc",
+            "addr": 4294992992
+          },
+          {
+            "name": "init",
+            "flag": "method.TranslationUIService.CardAction.Coordinator.init",
+            "lang": "objc",
+            "addr": 4294993124
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.TranslationUIService.CardAction.Coordinator..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294993224
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "button",
+            "kind": "var",
+            "addr": 4295284680
+          }
+        ]
+      },
+      {
+        "classname": "TranslationUIService.SearchUIFirstUseView.Coordinator",
+        "addr": 4295285464,
+        "lang": "objc",
+        "index": 40,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "firstTimeExperienceContinueButtonPressed",
+            "flag": "func.10000c564",
+            "lang": "objc",
+            "addr": 4295017828
+          },
+          {
+            "name": "firstTimeExperienceLearnMoreButtonPressed",
+            "flag": "method.TranslationUIService.SearchUIFirstUseView.Coordinator.firstTimeExperienceLearnMoreButtonPressed",
+            "lang": "objc",
+            "addr": 4295017964
+          },
+          {
+            "name": "init",
+            "flag": "method.TranslationUIService.SearchUIFirstUseView.Coordinator.init",
+            "lang": "objc",
+            "addr": 4295017968
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.TranslationUIService.SearchUIFirstUseView.Coordinator..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295018100
+          },
+          {
+            "name": "firstTimeExperienceContinueButtonPressed",
+            "flag": "method.TranslationUIService.SearchUIFirstUseView.Coordinator.firstTimeExperienceContinueButtonPressed",
+            "lang": "objc",
+            "addr": 4295203768
+          },
+          {
+            "name": "firstTimeExperienceContinueButtonPressed",
+            "flag": "method.TranslationUIService.SearchUIFirstUseView.Coordinator.firstTimeExperienceContinueButtonPressed",
+            "lang": "objc",
+            "addr": 4295203768
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "continueAction",
+            "kind": "var",
+            "addr": 4295285456
+          }
+        ]
+      },
+      {
+        "classname": "TranslationUIService.LanguageButton.Coordinator",
+        "addr": 4295285728,
+        "lang": "objc",
+        "index": 41,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "menuSelectionChangedWithSender:",
+            "flag": "method.TranslationUIService.LanguageButton.Coordinator.menuSelectionChangedWithSender:",
+            "lang": "objc",
+            "addr": 4295027492
+          },
+          {
+            "name": "init",
+            "flag": "method.TranslationUIService.LanguageButton.Coordinator.init",
+            "lang": "objc",
+            "addr": 4295027592
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.TranslationUIService.LanguageButton.Coordinator..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295027696
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_selection",
+            "kind": "var",
+            "addr": 4295285720
+          },
+          {
+            "name": "localeInfos",
+            "kind": "var",
+            "addr": 4295285712
+          }
+        ]
+      },
+      {
+        "classname": "TranslationUIService.TranslationModel",
+        "addr": 4295287112,
+        "lang": "objc",
+        "index": 42,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_suggestedLocales",
+            "kind": "var",
+            "addr": 4295286928
+          },
+          {
+            "name": "_lowConfidenceLocales",
+            "kind": "var",
+            "addr": 4295286936
+          },
+          {
+            "name": "_error",
+            "kind": "var",
+            "addr": 4295286944
+          },
+          {
+            "name": "attributedSource",
+            "kind": "var",
+            "addr": 4295286952
+          },
+          {
+            "name": "ignoredAttributes",
+            "kind": "var",
+            "addr": 4295286960
+          },
+          {
+            "name": "_sourceLocale",
+            "kind": "var",
+            "addr": 4295286968
+          },
+          {
+            "name": "_sourceText",
+            "kind": "var",
+            "addr": 4295286976
+          },
+          {
+            "name": "_sourceLocaleWasDetected",
+            "kind": "var",
+            "addr": 4295286984
+          },
+          {
+            "name": "_targetLocale",
+            "kind": "var",
+            "addr": 4295286992
+          },
+          {
+            "name": "_targetText",
+            "kind": "var",
+            "addr": 4295287000
+          },
+          {
+            "name": "_translationAnnotation",
+            "kind": "var",
+            "addr": 4295287008
+          },
+          {
+            "name": "_availableLocales",
+            "kind": "var",
+            "addr": 4295287016
+          },
+          {
+            "name": "_replacementAvailable",
+            "kind": "var",
+            "addr": 4295287024
+          },
+          {
+            "name": "$__lazy_storage_$_languagesService",
+            "kind": "var",
+            "addr": 4295287032
+          },
+          {
+            "name": "_firstUseConsent",
+            "kind": "var",
+            "addr": 4295287040
+          },
+          {
+            "name": "translationResult",
+            "kind": "var",
+            "addr": 4295287048
+          },
+          {
+            "name": "_selectedDisambiguation",
+            "kind": "var",
+            "addr": 4295287056
+          },
+          {
+            "name": "waitingForUserConsent",
+            "kind": "var",
+            "addr": 4295287064
+          },
+          {
+            "name": "subscriptions",
+            "kind": "var",
+            "addr": 4295287072
+          },
+          {
+            "name": "$__lazy_storage_$_sharedFavorites",
+            "kind": "var",
+            "addr": 4295287080
+          },
+          {
+            "name": "_isFavorite",
+            "kind": "var",
+            "addr": 4295287088
+          },
+          {
+            "name": "selfInvocation",
+            "kind": "var",
+            "addr": 4295287096
+          },
+          {
+            "name": "inProgressRequest",
+            "kind": "var",
+            "addr": 4295287104
+          },
+          {
+            "name": "consentHandler",
+            "kind": "var",
+            "addr": 4295297056
+          },
+          {
+            "name": "showConsentOnly",
+            "kind": "var",
+            "addr": 4295297064
+          },
+          {
+            "name": "cplIntervalID",
+            "kind": "var",
+            "addr": 4295297072
+          },
+          {
+            "name": "hostBundleIdentifier",
+            "kind": "var",
+            "addr": 4295297080
+          },
+          {
+            "name": "requestOrigin",
+            "kind": "var",
+            "addr": 4295297088
+          },
+          {
+            "name": "originalPlayer",
+            "kind": "var",
+            "addr": 4295297096
+          },
+          {
+            "name": "translationPlayer",
+            "kind": "var",
+            "addr": 4295297104
+          }
+        ]
+      },
+      {
+        "classname": "TranslationUIService.VoicePlayback",
+        "addr": 4295289656,
+        "lang": "objc",
+        "index": 43,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_isPlaying",
+            "kind": "var",
+            "addr": 4295289624
+          },
+          {
+            "name": "text",
+            "kind": "var",
+            "addr": 4295289632
+          },
+          {
+            "name": "locale",
+            "kind": "var",
+            "addr": 4295289640
+          },
+          {
+            "name": "requestID",
+            "kind": "var",
+            "addr": 4295289648
+          },
+          {
+            "name": "processBundleIdentifier",
+            "kind": "var",
+            "addr": 4295297112
+          },
+          {
+            "name": "loggingLocation",
+            "kind": "var",
+            "addr": 4295297120
+          }
+        ]
+      },
+      {
+        "classname": "TranslationUIService._A4FE2B3BD149C01AD39F8EF1620854C2.ResourceBundleClass",
+        "addr": 4295290104,
+        "lang": "objc",
+        "index": 44,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ]
+      }
+    ],
+    "swift_metadata": {
+      "is_swift": true,
+      "symbols": [
+        {
+          "name": "_$s20TranslationUIService13DismissActionVMa",
+          "demname": "TranslationUIService.DismissAction...VMa",
+          "flagname": "sym.TranslationUIService.DismissAction...VMa",
+          "realname": "TranslationUIService.DismissAction...VMa",
+          "ordinal": 0,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294995808,
+          "paddr": 405344,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20TranslationUIService13DismissActionVMn",
+          "demname": "TranslationUIService.DismissAction...VMn",
+          "flagname": "sym.TranslationUIService.DismissAction...VMn",
+          "realname": "TranslationUIService.DismissAction...VMn",
+          "ordinal": 1,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295214956,
+          "paddr": 624492,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20TranslationUIService13DismissActionVN",
+          "demname": "TranslationUIService.DismissAction...VN",
+          "flagname": "sym.TranslationUIService.DismissAction...VN",
+          "realname": "TranslationUIService.DismissAction...VN",
+          "ordinal": 2,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295269680,
+          "paddr": 679216,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20TranslationUIService13ReplaceActionVMa",
+          "demname": "TranslationUIService.ReplaceAction...VMa",
+          "flagname": "sym.TranslationUIService.ReplaceAction...VMa",
+          "realname": "TranslationUIService.ReplaceAction...VMa",
+          "ordinal": 3,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295049820,
+          "paddr": 459356,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20TranslationUIService13ReplaceActionVMn",
+          "demname": "TranslationUIService.ReplaceAction...VMn",
+          "flagname": "sym.TranslationUIService.ReplaceAction...VMn",
+          "realname": "TranslationUIService.ReplaceAction...VMn",
+          "ordinal": 4,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295215852,
+          "paddr": 625388,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20TranslationUIService13ReplaceActionVN",
+          "demname": "TranslationUIService.ReplaceAction...VN",
+          "flagname": "sym.TranslationUIService.ReplaceAction...VN",
+          "realname": "TranslationUIService.ReplaceAction...VN",
+          "ordinal": 5,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295270624,
+          "paddr": 680160,
+          "is_imported": false
+        },
+        {
+          "name": "_$s7SwiftUI17EnvironmentValuesV20TranslationUIServiceE8_dismissAD13DismissActionVvM",
+          "demname": "SwiftUI.EnvironmentValues.TranslationUIService._dismiss.DismissAction...VvM",
+          "flagname": "sym.SwiftUI.EnvironmentValues.TranslationUIService._dismiss.DismissAction...VvM",
+          "realname": "SwiftUI.EnvironmentValues.TranslationUIService._dismiss.DismissAction...VvM",
+          "ordinal": 6,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294995364,
+          "paddr": 404900,
+          "is_imported": false
+        },
+        {
+          "name": "_$s7SwiftUI17EnvironmentValuesV20TranslationUIServiceE8_dismissAD13DismissActionVvg",
+          "demname": "SwiftUI.EnvironmentValues.TranslationUIService._dismiss.DismissAction...Vvg",
+          "flagname": "sym.SwiftUI.EnvironmentValues.TranslationUIService._dismiss.DismissAction...Vvg",
+          "realname": "SwiftUI.EnvironmentValues.TranslationUIService._dismiss.DismissAction...Vvg",
+          "ordinal": 7,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294995840,
+          "paddr": 405376,
+          "is_imported": false
+        },
+        {
+          "name": "_$s7SwiftUI17EnvironmentValuesV20TranslationUIServiceE8_dismissAD13DismissActionVvpMV",
+          "demname": "SwiftUI.EnvironmentValues.TranslationUIService._dismiss.DismissAction...VvpMV",
+          "flagname": "sym.SwiftUI.EnvironmentValues.TranslationUIService._dismiss.DismissAction...VvpMV",
+          "realname": "SwiftUI.EnvironmentValues.TranslationUIService._dismiss.DismissAction...VvpMV",
+          "ordinal": 8,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295206256,
+          "paddr": 615792,
+          "is_imported": false
+        },
+        {
+          "name": "_$s7SwiftUI17EnvironmentValuesV20TranslationUIServiceE8_dismissAD13DismissActionVvs",
+          "demname": "SwiftUI.EnvironmentValues.TranslationUIService._dismiss.DismissAction...Vvs",
+          "flagname": "sym.SwiftUI.EnvironmentValues.TranslationUIService._dismiss.DismissAction...Vvs",
+          "realname": "SwiftUI.EnvironmentValues.TranslationUIService._dismiss.DismissAction...Vvs",
+          "ordinal": 9,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294995304,
+          "paddr": 404840,
+          "is_imported": false
+        },
+        {
+          "name": "_$s7SwiftUI17EnvironmentValuesV20TranslationUIServiceE8_replaceAD13ReplaceActionVvM",
+          "demname": "SwiftUI.EnvironmentValues.TranslationUIService._replace.ReplaceAction...VvM",
+          "flagname": "sym.SwiftUI.EnvironmentValues.TranslationUIService._replace.ReplaceAction...VvM",
+          "realname": "SwiftUI.EnvironmentValues.TranslationUIService._replace.ReplaceAction...VvM",
+          "ordinal": 10,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295049520,
+          "paddr": 459056,
+          "is_imported": false
+        },
+        {
+          "name": "_$s7SwiftUI17EnvironmentValuesV20TranslationUIServiceE8_replaceAD13ReplaceActionVvg",
+          "demname": "SwiftUI.EnvironmentValues.TranslationUIService._replace.ReplaceAction...Vvg",
+          "flagname": "sym.SwiftUI.EnvironmentValues.TranslationUIService._replace.ReplaceAction...Vvg",
+          "realname": "SwiftUI.EnvironmentValues.TranslationUIService._replace.ReplaceAction...Vvg",
+          "ordinal": 11,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295049852,
+          "paddr": 459388,
+          "is_imported": false
+        },
+        {
+          "name": "_$s7SwiftUI17EnvironmentValuesV20TranslationUIServiceE8_replaceAD13ReplaceActionVvpMV",
+          "demname": "SwiftUI.EnvironmentValues.TranslationUIService._replace.ReplaceAction...VvpMV",
+          "flagname": "sym.SwiftUI.EnvironmentValues.TranslationUIService._replace.ReplaceAction...VvpMV",
+          "realname": "SwiftUI.EnvironmentValues.TranslationUIService._replace.ReplaceAction...VvpMV",
+          "ordinal": 12,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295208688,
+          "paddr": 618224,
+          "is_imported": false
+        },
+        {
+          "name": "_$s7SwiftUI17EnvironmentValuesV20TranslationUIServiceE8_replaceAD13ReplaceActionVvs",
+          "demname": "SwiftUI.EnvironmentValues.TranslationUIService._replace.ReplaceAction...Vvs",
+          "flagname": "sym.SwiftUI.EnvironmentValues.TranslationUIService._replace.ReplaceAction...Vvs",
+          "realname": "SwiftUI.EnvironmentValues.TranslationUIService._replace.ReplaceAction...Vvs",
+          "ordinal": 13,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295049460,
+          "paddr": 458996,
+          "is_imported": false
+        }
+      ]
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/Localizable.loctable",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist",
+        "PlugIns/TranslationUIService.appex/Contents/Info.plist",
+        "PlugIns/TranslationUIService.appex/Contents/version.plist",
+        "PlugIns/TranslationUIService.appex/Contents/_CodeSignature/CodeResources",
+        "PlugIns/TranslationUIService.appex/Contents/MacOS/TranslationUIService",
+        "PlugIns/TranslationUIService.appex/Contents/Resources/Localizable.loctable",
+        "PlugIns/TranslationUIService.appex/Contents/Resources/InfoPlist.loctable"
+      ],
+      "plists": {
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "TranslationUIServices",
+          "DTXcode": "2600",
+          "NSExtensionSDK": {
+            "com.apple.private.translation-ui": {
+              "XPCService": {
+                "ServiceType": "Application",
+                "JoinExistingSession": true,
+                "RunLoopType": "_NSApplicationMain",
+                "_AdditionalSubServices": {
+                  "apple-extension-service": true,
+                  "viewbridge": true
+                }
+              },
+              "NSExtension": {
+                "NSExtensionContainingViewControllerClass": "LTUIExtensionVendorViewController",
+                "NSExtensionHostViewControllerClass": "LTUIRemoteViewController",
+                "NSExtensionAttributes": {
+                  "NSExtensionPointName": "com.apple.private.translation-ui",
+                  "NSExtensionPointVersion": "1.0"
+                },
+                "NSExtensionPointIdentifier": "com.apple.private.translation-ui",
+                "NSExtensionContextClass": "LTUIExtensionContext",
+                "NSExtensionContextHostClass": "LTUIExtensionHostContext",
+                "Subsystems": [
+                  "NSExtensionService_Subsystem",
+                  "NSViewService_PKSubsystem"
+                ]
+              },
+              "CFBundlePackageType": "XPC!"
+            }
+          },
+          "DTSDKName": "macosx26.1.internal",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2020 Apple Inc. All rights reserved.",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "355.3",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "FMWK",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "TranslationUIServices",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.TranslationUIServices",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleVersion": "355.3",
+          "ProjectName": "TranslationUIServices",
+          "BuildAliasOf": "Translation",
+          "SourceVersion": "355003000000000",
+          "BuildVersion": "36"
+        },
+        "PlugIns/TranslationUIService.appex/Contents/Info.plist": {
+          "CFBundleName": "TranslationUIService",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "TranslationUIService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.TranslationUIServices.TranslationUIService",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleDisplayName": "TranslationUIService",
+          "DTPlatformBuild": "",
+          "NSExtension": {
+            "NSExtensionPointIdentifier": "com.apple.private.translation-ui",
+            "NSExtensionPrincipalClass": "TranslationUIService.ActionViewController"
+          }
+        },
+        "PlugIns/TranslationUIService.appex/Contents/version.plist": {
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleVersion": "1",
+          "ProjectName": "TranslationUI",
+          "BuildAliasOf": "Translation",
+          "SourceVersion": "355003000000000",
+          "BuildVersion": "39"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
+  },
+  "usage": {
+    "layer": "usage",
+    "used_by": [
+      {
+        "path": "/System/Applications/Freeform.app",
+        "binary": "/System/Applications/Freeform.app/Contents/MacOS/Freeform",
+        "used_classes": []
+      }
+    ]
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "loaded"
+  }
+}

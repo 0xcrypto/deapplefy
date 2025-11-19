@@ -1,0 +1,1637 @@
+{
+  "framework": "ClassroomKit.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/ClassroomKit.framework/Versions/A/XPCServices/BooksService.xpc/Contents/MacOS/BooksService",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 110992,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "objc with blocks",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/System/Library/PrivateFrameworks/ClassroomKit.framework/Versions/A/ClassroomKit",
+          "/System/Library/PrivateFrameworks/Catalyst.framework/Versions/A/Catalyst",
+          "/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics",
+          "/System/Library/PrivateFrameworks/BookKit.framework/Versions/A/BookKit",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "CBSParsePDFMetadataOperation",
+        "addr": 4295039696,
+        "lang": "objc",
+        "index": 0,
+        "super": [
+          "CATOperation"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_CATOperation"
+        ],
+        "methods": [
+          {
+            "name": "initWithPDFBook:filePath:parseImage:",
+            "flag": "method.CBSParsePDFMetadataOperation.initWithPDFBook:filePath:parseImage:",
+            "lang": "objc",
+            "addr": 4294971088
+          },
+          {
+            "name": "main",
+            "flag": "method.CBSParsePDFMetadataOperation.main",
+            "lang": "objc",
+            "addr": 4294971288
+          },
+          {
+            "name": "updateTitleWithDictionaryRef:",
+            "flag": "method.CBSParsePDFMetadataOperation.updateTitleWithDictionaryRef:",
+            "lang": "objc",
+            "addr": 4294972020
+          },
+          {
+            "name": "titleFromDictionaryRef:",
+            "flag": "method.CBSParsePDFMetadataOperation.titleFromDictionaryRef:",
+            "lang": "objc",
+            "addr": 4294972384
+          },
+          {
+            "name": "fileName",
+            "flag": "method.CBSParsePDFMetadataOperation.fileName",
+            "lang": "objc",
+            "addr": 4294972524
+          },
+          {
+            "name": "updateAuthor:",
+            "flag": "method.CBSParsePDFMetadataOperation.updateAuthor:",
+            "lang": "objc",
+            "addr": 4294972660
+          },
+          {
+            "name": "book",
+            "flag": "method.CBSParsePDFMetadataOperation.book",
+            "lang": "objc",
+            "addr": 4294972768
+          },
+          {
+            "name": "filePath",
+            "flag": "method.CBSParsePDFMetadataOperation.filePath",
+            "lang": "objc",
+            "addr": 4294972784
+          },
+          {
+            "name": "parseImage",
+            "flag": "method.CBSParsePDFMetadataOperation.parseImage",
+            "lang": "objc",
+            "addr": 4294972800
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.CBSParsePDFMetadataOperation..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294972816
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_parseImage",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295039456
+          },
+          {
+            "name": "_book",
+            "kind": "var",
+            "type": "@\"CRKBook\"",
+            "addr": 4295039448
+          },
+          {
+            "name": "_filePath",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295039452
+          },
+          {
+            "name": "book",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "filePath",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "parseImage",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "CBSBookKitSandboxExtension_macOS",
+        "addr": 4295039776,
+        "lang": "objc",
+        "index": 1,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "dealloc",
+            "flag": "method.CBSBookKitSandboxExtension_macOS.dealloc",
+            "lang": "objc",
+            "addr": 4294972900
+          },
+          {
+            "name": "initWithAgent:",
+            "flag": "method.CBSBookKitSandboxExtension_macOS.initWithAgent:",
+            "lang": "objc",
+            "addr": 4294972972
+          },
+          {
+            "name": "agentWithError:",
+            "flag": "method.CBSBookKitSandboxExtension_macOS.agentWithError:",
+            "lang": "objc",
+            "addr": 4294973096
+          },
+          {
+            "name": "acquireWithError:",
+            "flag": "method.CBSBookKitSandboxExtension_macOS.acquireWithError:",
+            "lang": "objc",
+            "addr": 4294973180
+          },
+          {
+            "name": "relinquish",
+            "flag": "method.CBSBookKitSandboxExtension_macOS.relinquish",
+            "lang": "objc",
+            "addr": 4294973408
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.CBSBookKitSandboxExtension_macOS..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294973472
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "mAgent",
+            "kind": "var",
+            "type": "@\"BKAgent\"",
+            "addr": 4295039460
+          },
+          {
+            "name": "mURL",
+            "kind": "var",
+            "type": "@\"NSURL\"",
+            "addr": 4295039464
+          }
+        ]
+      },
+      {
+        "classname": "CBSBLBookItem",
+        "addr": 4295039816,
+        "lang": "objc",
+        "index": 2,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "description",
+            "flag": "method.CBSBLBookItem.description",
+            "lang": "objc",
+            "addr": 4294973540
+          },
+          {
+            "name": "title",
+            "flag": "method.CBSBLBookItem.title",
+            "lang": "objc",
+            "addr": 4294973872
+          },
+          {
+            "name": "setTitle:",
+            "flag": "method.CBSBLBookItem.setTitle:",
+            "lang": "objc",
+            "addr": 4294973880
+          },
+          {
+            "name": "author",
+            "flag": "method.CBSBLBookItem.author",
+            "lang": "objc",
+            "addr": 4294973888
+          },
+          {
+            "name": "setAuthor:",
+            "flag": "method.CBSBLBookItem.setAuthor:",
+            "lang": "objc",
+            "addr": 4294973896
+          },
+          {
+            "name": "path",
+            "flag": "method.CBSBLBookItem.path",
+            "lang": "objc",
+            "addr": 4294973904
+          },
+          {
+            "name": "setPath:",
+            "flag": "method.CBSBLBookItem.setPath:",
+            "lang": "objc",
+            "addr": 4294973912
+          },
+          {
+            "name": "storeIdentifier",
+            "flag": "method.CBSBLBookItem.storeIdentifier",
+            "lang": "objc",
+            "addr": 4294973920
+          },
+          {
+            "name": "setStoreIdentifier:",
+            "flag": "method.CBSBLBookItem.setStoreIdentifier:",
+            "lang": "objc",
+            "addr": 4294973928
+          },
+          {
+            "name": "identifier",
+            "flag": "method.CBSBLBookItem.identifier",
+            "lang": "objc",
+            "addr": 4294973936
+          },
+          {
+            "name": "setIdentifier:",
+            "flag": "method.CBSBLBookItem.setIdentifier:",
+            "lang": "objc",
+            "addr": 4294973944
+          },
+          {
+            "name": "legacyUniqueIdentifier",
+            "flag": "method.CBSBLBookItem.legacyUniqueIdentifier",
+            "lang": "objc",
+            "addr": 4294973952
+          },
+          {
+            "name": "setLegacyUniqueIdentifier:",
+            "flag": "method.CBSBLBookItem.setLegacyUniqueIdentifier:",
+            "lang": "objc",
+            "addr": 4294973960
+          },
+          {
+            "name": "type",
+            "flag": "method.CBSBLBookItem.type",
+            "lang": "objc",
+            "addr": 4294973968
+          },
+          {
+            "name": "setType:",
+            "flag": "method.CBSBLBookItem.setType:",
+            "lang": "objc",
+            "addr": 4294973976
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.CBSBLBookItem..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294973984
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_title",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295039468
+          },
+          {
+            "name": "_author",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295039472
+          },
+          {
+            "name": "_path",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295039476
+          },
+          {
+            "name": "_storeIdentifier",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295039480
+          },
+          {
+            "name": "_identifier",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295039484
+          },
+          {
+            "name": "_legacyUniqueIdentifier",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295039488
+          },
+          {
+            "name": "_type",
+            "kind": "var",
+            "type": "q",
+            "addr": 4295039492
+          },
+          {
+            "name": "title",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "author",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "path",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "storeIdentifier",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "identifier",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "legacyUniqueIdentifier",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "type",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "CBSFetchChaptersOperation",
+        "addr": 4295039936,
+        "lang": "objc",
+        "index": 3,
+        "super": [
+          "CATOperation"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_CATOperation"
+        ],
+        "methods": [
+          {
+            "name": "initWithRequest:",
+            "flag": "method.CBSFetchChaptersOperation.initWithRequest:",
+            "lang": "objc",
+            "addr": 4294974100
+          },
+          {
+            "name": "isAsynchronous",
+            "flag": "method.CBSFetchChaptersOperation.isAsynchronous",
+            "lang": "objc",
+            "addr": 4294974232
+          },
+          {
+            "name": "main",
+            "flag": "method.CBSFetchChaptersOperation.main",
+            "lang": "objc",
+            "addr": 4294974240
+          },
+          {
+            "name": "run",
+            "flag": "method.CBSFetchChaptersOperation.run",
+            "lang": "objc",
+            "addr": 4294974260
+          },
+          {
+            "name": "parseOPFFilePathOperationDidFinish:",
+            "flag": "method.CBSFetchChaptersOperation.parseOPFFilePathOperationDidFinish:",
+            "lang": "objc",
+            "addr": 4294974628
+          },
+          {
+            "name": "parseOFPPackageContentsOperationDidFinish:",
+            "flag": "method.CBSFetchChaptersOperation.parseOFPPackageContentsOperationDidFinish:",
+            "lang": "objc",
+            "addr": 4294974952
+          },
+          {
+            "name": "parseTableOfContentsOperationDidFinish:",
+            "flag": "method.CBSFetchChaptersOperation.parseTableOfContentsOperationDidFinish:",
+            "lang": "objc",
+            "addr": 4294975432
+          },
+          {
+            "name": "finishOperation:",
+            "flag": "method.CBSFetchChaptersOperation.finishOperation:",
+            "lang": "objc",
+            "addr": 4294975436
+          },
+          {
+            "name": "finishOperationWithError:",
+            "flag": "method.CBSFetchChaptersOperation.finishOperationWithError:",
+            "lang": "objc",
+            "addr": 4294975668
+          },
+          {
+            "name": "cleanUp",
+            "flag": "method.CBSFetchChaptersOperation.cleanUp",
+            "lang": "objc",
+            "addr": 4294975752
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.CBSFetchChaptersOperation..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294975776
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "mRequest",
+            "kind": "var",
+            "type": "@\"CRKFetchChaptersRequest\"",
+            "addr": 4295039496
+          },
+          {
+            "name": "mSandboxExtension",
+            "kind": "var",
+            "type": "@\"CBSBookKitSandboxExtension_macOS\"",
+            "addr": 4295039500
+          }
+        ]
+      },
+      {
+        "classname": "CBSFetchBooksOperation",
+        "addr": 4295040016,
+        "lang": "objc",
+        "index": 4,
+        "super": [
+          "CATOperation"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_CATOperation"
+        ],
+        "methods": [
+          {
+            "name": "initWithRequest:",
+            "flag": "method.CBSFetchBooksOperation.initWithRequest:",
+            "lang": "objc",
+            "addr": 4294976108
+          },
+          {
+            "name": "isAsynchronous",
+            "flag": "method.CBSFetchBooksOperation.isAsynchronous",
+            "lang": "objc",
+            "addr": 4294976240
+          },
+          {
+            "name": "main",
+            "flag": "method.CBSFetchBooksOperation.main",
+            "lang": "objc",
+            "addr": 4294976248
+          },
+          {
+            "name": "run",
+            "flag": "method.CBSFetchBooksOperation.run",
+            "lang": "objc",
+            "addr": 4294976268
+          },
+          {
+            "name": "finishOperation",
+            "flag": "method.CBSFetchBooksOperation.finishOperation",
+            "lang": "objc",
+            "addr": 4294979276
+          },
+          {
+            "name": "parseBookMetadataOperationDidFail:",
+            "flag": "method.CBSFetchBooksOperation.parseBookMetadataOperationDidFail:",
+            "lang": "objc",
+            "addr": 4294979392
+          },
+          {
+            "name": "parsePDFMetadataOperationDidFail:",
+            "flag": "method.CBSFetchBooksOperation.parsePDFMetadataOperationDidFail:",
+            "lang": "objc",
+            "addr": 4294979484
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.CBSFetchBooksOperation..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294979576
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "mRequest",
+            "kind": "var",
+            "type": "@\"CRKFetchBooksRequest\"",
+            "addr": 4295039504
+          },
+          {
+            "name": "mSandboxExtension",
+            "kind": "var",
+            "type": "@\"CBSBookKitSandboxExtension_macOS\"",
+            "addr": 4295039508
+          },
+          {
+            "name": "mBooks",
+            "kind": "var",
+            "type": "@\"NSMutableArray\"",
+            "addr": 4295039512
+          }
+        ]
+      },
+      {
+        "classname": "CBSParseHTMLTableOfContentsOperation",
+        "addr": 4295040096,
+        "lang": "objc",
+        "index": 5,
+        "super": [
+          "CATOperation"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_CATOperation"
+        ],
+        "methods": [
+          {
+            "name": "initWithFilePath:packageContents:",
+            "flag": "method.CBSParseHTMLTableOfContentsOperation.initWithFilePath:packageContents:",
+            "lang": "objc",
+            "addr": 4294980440
+          },
+          {
+            "name": "isAsynchronous",
+            "flag": "method.CBSParseHTMLTableOfContentsOperation.isAsynchronous",
+            "lang": "objc",
+            "addr": 4294980692
+          },
+          {
+            "name": "main",
+            "flag": "method.CBSParseHTMLTableOfContentsOperation.main",
+            "lang": "objc",
+            "addr": 4294980700
+          },
+          {
+            "name": "parser:didStartElement:namespaceURI:qualifiedName:attributes:",
+            "flag": "method.CBSParseHTMLTableOfContentsOperation.parser:didStartElement:namespaceURI:qualifiedName:attributes:",
+            "lang": "objc",
+            "addr": 4294980960
+          },
+          {
+            "name": "parser:didEndElement:namespaceURI:qualifiedName:",
+            "flag": "method.CBSParseHTMLTableOfContentsOperation.parser:didEndElement:namespaceURI:qualifiedName:",
+            "lang": "objc",
+            "addr": 4294981416
+          },
+          {
+            "name": "parser:foundCharacters:",
+            "flag": "method.CBSParseHTMLTableOfContentsOperation.parser:foundCharacters:",
+            "lang": "objc",
+            "addr": 4294981932
+          },
+          {
+            "name": "parserDidEndDocument:",
+            "flag": "method.CBSParseHTMLTableOfContentsOperation.parserDidEndDocument:",
+            "lang": "objc",
+            "addr": 4294981952
+          },
+          {
+            "name": "parser:parseErrorOccurred:",
+            "flag": "method.CBSParseHTMLTableOfContentsOperation.parser:parseErrorOccurred:",
+            "lang": "objc",
+            "addr": 4294982036
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.CBSParseHTMLTableOfContentsOperation..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294982124
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "mHTMLParser",
+            "kind": "var",
+            "type": "@\"NSXMLParser\"",
+            "addr": 4295039532
+          },
+          {
+            "name": "mHTMLFilePath",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295039516
+          },
+          {
+            "name": "mPackageContents",
+            "kind": "var",
+            "type": "@\"CBSOPFPackageContents\"",
+            "addr": 4295039520
+          },
+          {
+            "name": "mChapters",
+            "kind": "var",
+            "type": "@\"NSMutableArray\"",
+            "addr": 4295039524
+          },
+          {
+            "name": "mCurrentChapter",
+            "kind": "var",
+            "type": "@\"CRKChapter\"",
+            "addr": 4295039540
+          },
+          {
+            "name": "mParentChapters",
+            "kind": "var",
+            "type": "@\"NSMutableArray\"",
+            "addr": 4295039528
+          },
+          {
+            "name": "mCurrentText",
+            "kind": "var",
+            "type": "@\"NSMutableString\"",
+            "addr": 4295039544
+          },
+          {
+            "name": "mIsInNav",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295039536
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "CBSParseOPFPackageContentsOperation",
+        "addr": 4295040176,
+        "lang": "objc",
+        "index": 6,
+        "super": [
+          "CATOperation"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_CATOperation"
+        ],
+        "methods": [
+          {
+            "name": "initWithOPFFilePath:identifierType:identifier:",
+            "flag": "method.CBSParseOPFPackageContentsOperation.initWithOPFFilePath:identifierType:identifier:",
+            "lang": "objc",
+            "addr": 4294982308
+          },
+          {
+            "name": "isAsynchronous",
+            "flag": "method.CBSParseOPFPackageContentsOperation.isAsynchronous",
+            "lang": "objc",
+            "addr": 4294982544
+          },
+          {
+            "name": "main",
+            "flag": "method.CBSParseOPFPackageContentsOperation.main",
+            "lang": "objc",
+            "addr": 4294982552
+          },
+          {
+            "name": "parser:didStartElement:namespaceURI:qualifiedName:attributes:",
+            "flag": "method.CBSParseOPFPackageContentsOperation.parser:didStartElement:namespaceURI:qualifiedName:attributes:",
+            "lang": "objc",
+            "addr": 4294982812
+          },
+          {
+            "name": "parser:didEndElement:namespaceURI:qualifiedName:",
+            "flag": "method.CBSParseOPFPackageContentsOperation.parser:didEndElement:namespaceURI:qualifiedName:",
+            "lang": "objc",
+            "addr": 4294983944
+          },
+          {
+            "name": "parser:foundCharacters:",
+            "flag": "method.CBSParseOPFPackageContentsOperation.parser:foundCharacters:",
+            "lang": "objc",
+            "addr": 4294984132
+          },
+          {
+            "name": "parserDidEndDocument:",
+            "flag": "method.CBSParseOPFPackageContentsOperation.parserDidEndDocument:",
+            "lang": "objc",
+            "addr": 4294984152
+          },
+          {
+            "name": "parser:parseErrorOccurred:",
+            "flag": "method.CBSParseOPFPackageContentsOperation.parser:parseErrorOccurred:",
+            "lang": "objc",
+            "addr": 4294984168
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.CBSParseOPFPackageContentsOperation..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294984176
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "mOPFParser",
+            "kind": "var",
+            "type": "@\"NSXMLParser\"",
+            "addr": 4295039556
+          },
+          {
+            "name": "mOPFFilePath",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295039548
+          },
+          {
+            "name": "mPackageContents",
+            "kind": "var",
+            "type": "@\"CBSOPFPackageContents\"",
+            "addr": 4295039552
+          },
+          {
+            "name": "mCurrentText",
+            "kind": "var",
+            "type": "@\"NSMutableString\"",
+            "addr": 4295039564
+          },
+          {
+            "name": "mCoverItemID",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295039560
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "CBSParseNCXTableOfContentsOperation",
+        "addr": 4295040256,
+        "lang": "objc",
+        "index": 7,
+        "super": [
+          "CATOperation"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_CATOperation"
+        ],
+        "methods": [
+          {
+            "name": "initWithFilePath:packageContents:",
+            "flag": "method.CBSParseNCXTableOfContentsOperation.initWithFilePath:packageContents:",
+            "lang": "objc",
+            "addr": 4294984320
+          },
+          {
+            "name": "isAsynchronous",
+            "flag": "method.CBSParseNCXTableOfContentsOperation.isAsynchronous",
+            "lang": "objc",
+            "addr": 4294984572
+          },
+          {
+            "name": "main",
+            "flag": "method.CBSParseNCXTableOfContentsOperation.main",
+            "lang": "objc",
+            "addr": 4294984580
+          },
+          {
+            "name": "parser:didStartElement:namespaceURI:qualifiedName:attributes:",
+            "flag": "method.CBSParseNCXTableOfContentsOperation.parser:didStartElement:namespaceURI:qualifiedName:attributes:",
+            "lang": "objc",
+            "addr": 4294984840
+          },
+          {
+            "name": "parser:didEndElement:namespaceURI:qualifiedName:",
+            "flag": "method.CBSParseNCXTableOfContentsOperation.parser:didEndElement:namespaceURI:qualifiedName:",
+            "lang": "objc",
+            "addr": 4294985276
+          },
+          {
+            "name": "parser:foundCharacters:",
+            "flag": "method.CBSParseNCXTableOfContentsOperation.parser:foundCharacters:",
+            "lang": "objc",
+            "addr": 4294985748
+          },
+          {
+            "name": "parserDidEndDocument:",
+            "flag": "method.CBSParseNCXTableOfContentsOperation.parserDidEndDocument:",
+            "lang": "objc",
+            "addr": 4294985860
+          },
+          {
+            "name": "parser:parseErrorOccurred:",
+            "flag": "method.CBSParseNCXTableOfContentsOperation.parser:parseErrorOccurred:",
+            "lang": "objc",
+            "addr": 4294985876
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.CBSParseNCXTableOfContentsOperation..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294985884
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "mNCXParser",
+            "kind": "var",
+            "type": "@\"NSXMLParser\"",
+            "addr": 4295039584
+          },
+          {
+            "name": "mNCXFilePath",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295039568
+          },
+          {
+            "name": "mPackageContents",
+            "kind": "var",
+            "type": "@\"CBSOPFPackageContents\"",
+            "addr": 4295039572
+          },
+          {
+            "name": "mChapters",
+            "kind": "var",
+            "type": "@\"NSMutableArray\"",
+            "addr": 4295039576
+          },
+          {
+            "name": "mCurrentChapter",
+            "kind": "var",
+            "type": "@\"CRKChapter\"",
+            "addr": 4295039588
+          },
+          {
+            "name": "mParentChapters",
+            "kind": "var",
+            "type": "@\"NSMutableArray\"",
+            "addr": 4295039580
+          },
+          {
+            "name": "mCurrentText",
+            "kind": "var",
+            "type": "@\"NSMutableString\"",
+            "addr": 4295039592
+          },
+          {
+            "name": "mCurrentElementName",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295039596
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "CBSParseOPFFilePathOperation",
+        "addr": 4295040336,
+        "lang": "objc",
+        "index": 8,
+        "super": [
+          "CATOperation"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_CATOperation"
+        ],
+        "methods": [
+          {
+            "name": "initWithBookFilePath:",
+            "flag": "method.CBSParseOPFFilePathOperation.initWithBookFilePath:",
+            "lang": "objc",
+            "addr": 4294986088
+          },
+          {
+            "name": "isAsynchronous",
+            "flag": "method.CBSParseOPFFilePathOperation.isAsynchronous",
+            "lang": "objc",
+            "addr": 4294986220
+          },
+          {
+            "name": "main",
+            "flag": "method.CBSParseOPFFilePathOperation.main",
+            "lang": "objc",
+            "addr": 4294986228
+          },
+          {
+            "name": "parser:didStartElement:namespaceURI:qualifiedName:attributes:",
+            "flag": "method.CBSParseOPFFilePathOperation.parser:didStartElement:namespaceURI:qualifiedName:attributes:",
+            "lang": "objc",
+            "addr": 4294986500
+          },
+          {
+            "name": "parserDidEndDocument:",
+            "flag": "method.CBSParseOPFFilePathOperation.parserDidEndDocument:",
+            "lang": "objc",
+            "addr": 4294986836
+          },
+          {
+            "name": "parser:parseErrorOccurred:",
+            "flag": "method.CBSParseOPFFilePathOperation.parser:parseErrorOccurred:",
+            "lang": "objc",
+            "addr": 4294986844
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.CBSParseOPFFilePathOperation..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294986852
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "mContainerParser",
+            "kind": "var",
+            "type": "@\"NSXMLParser\"",
+            "addr": 4295039604
+          },
+          {
+            "name": "mBookFilePath",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295039600
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "CBSService",
+        "addr": 4295040416,
+        "lang": "objc",
+        "index": 9,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.CBSService.init",
+            "lang": "objc",
+            "addr": 4294986936
+          },
+          {
+            "name": "run",
+            "flag": "method.CBSService.run",
+            "lang": "objc",
+            "addr": 4294987040
+          },
+          {
+            "name": "listener:shouldAcceptNewConnection:",
+            "flag": "method.CBSService.listener:shouldAcceptNewConnection:",
+            "lang": "objc",
+            "addr": 4294987124
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.CBSService..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294987356
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "mRequestServicer",
+            "kind": "var",
+            "type": "@\"CBSRequestServicer\"",
+            "addr": 4295039608
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "CBSRequestServicer",
+        "addr": 4295040456,
+        "lang": "objc",
+        "index": 10,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "performOperation:completion:",
+            "flag": "method.CBSRequestServicer.performOperation:completion:",
+            "lang": "objc",
+            "addr": 4294987440
+          },
+          {
+            "name": "fetchBooksWithRequest:completion:",
+            "flag": "func.100005100",
+            "lang": "objc",
+            "addr": 4294988032
+          },
+          {
+            "name": "fetchChaptersWithRequest:completion:",
+            "flag": "func.1000052cc",
+            "lang": "objc",
+            "addr": 4294988492
+          },
+          {
+            "name": "fetchBooksWithRequest:completion:",
+            "flag": "method.CBSRequestServicer.fetchBooksWithRequest:completion:",
+            "lang": "objc",
+            "addr": 4294999728
+          },
+          {
+            "name": "fetchChaptersWithRequest:completion:",
+            "flag": "method.CBSRequestServicer.fetchChaptersWithRequest:completion:",
+            "lang": "objc",
+            "addr": 4294999740
+          },
+          {
+            "name": "fetchBooksWithRequest:completion:",
+            "flag": "method.CBSRequestServicer.fetchBooksWithRequest:completion:",
+            "lang": "objc",
+            "addr": 4294999728
+          },
+          {
+            "name": "fetchChaptersWithRequest:completion:",
+            "flag": "method.CBSRequestServicer.fetchChaptersWithRequest:completion:",
+            "lang": "objc",
+            "addr": 4294999740
+          }
+        ],
+        "fields": [
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "CBSParseBookMetadataOperation",
+        "addr": 4295040576,
+        "lang": "objc",
+        "index": 11,
+        "super": [
+          "CATOperation"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_CATOperation"
+        ],
+        "methods": [
+          {
+            "name": "initWithBook:parseImage:",
+            "flag": "method.CBSParseBookMetadataOperation.initWithBook:parseImage:",
+            "lang": "objc",
+            "addr": 4294988804
+          },
+          {
+            "name": "isAsynchronous",
+            "flag": "method.CBSParseBookMetadataOperation.isAsynchronous",
+            "lang": "objc",
+            "addr": 4294988952
+          },
+          {
+            "name": "main",
+            "flag": "method.CBSParseBookMetadataOperation.main",
+            "lang": "objc",
+            "addr": 4294988960
+          },
+          {
+            "name": "parseContentsFilePathOperationDidFinish:",
+            "flag": "method.CBSParseBookMetadataOperation.parseContentsFilePathOperationDidFinish:",
+            "lang": "objc",
+            "addr": 4294989168
+          },
+          {
+            "name": "parseBookContentsOperationDidFinish:",
+            "flag": "method.CBSParseBookMetadataOperation.parseBookContentsOperationDidFinish:",
+            "lang": "objc",
+            "addr": 4294989664
+          },
+          {
+            "name": "updateTitle:",
+            "flag": "method.CBSParseBookMetadataOperation.updateTitle:",
+            "lang": "objc",
+            "addr": 4294990128
+          },
+          {
+            "name": "updateAuthor:",
+            "flag": "method.CBSParseBookMetadataOperation.updateAuthor:",
+            "lang": "objc",
+            "addr": 4294990236
+          },
+          {
+            "name": "book",
+            "flag": "method.CBSParseBookMetadataOperation.book",
+            "lang": "objc",
+            "addr": 4294990344
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.CBSParseBookMetadataOperation..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294990360
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "mParseImage",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295039616
+          },
+          {
+            "name": "_book",
+            "kind": "var",
+            "type": "@\"CRKBook\"",
+            "addr": 4295039612
+          },
+          {
+            "name": "book",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "CBSOPFPackageContents",
+        "addr": 4295040656,
+        "lang": "objc",
+        "index": 12,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithIdentifierType:identifier:",
+            "flag": "method.CBSOPFPackageContents.initWithIdentifierType:identifier:",
+            "lang": "objc",
+            "addr": 4294990380
+          },
+          {
+            "name": "itemIdentifierForHref:fragment:",
+            "flag": "method.CBSOPFPackageContents.itemIdentifierForHref:fragment:",
+            "lang": "objc",
+            "addr": 4294990604
+          },
+          {
+            "name": "cfiWithItemIdentifier:fragment:",
+            "flag": "method.CBSOPFPackageContents.cfiWithItemIdentifier:fragment:",
+            "lang": "objc",
+            "addr": 4294991148
+          },
+          {
+            "name": "urlWithItemIdentifier:fragment:",
+            "flag": "method.CBSOPFPackageContents.urlWithItemIdentifier:fragment:",
+            "lang": "objc",
+            "addr": 4294991424
+          },
+          {
+            "name": "bookIdentifier",
+            "flag": "method.CBSOPFPackageContents.bookIdentifier",
+            "lang": "objc",
+            "addr": 4294991684
+          },
+          {
+            "name": "setBookIdentifier:",
+            "flag": "method.CBSOPFPackageContents.setBookIdentifier:",
+            "lang": "objc",
+            "addr": 4294991692
+          },
+          {
+            "name": "bookIdentifierType",
+            "flag": "method.CBSOPFPackageContents.bookIdentifierType",
+            "lang": "objc",
+            "addr": 4294991700
+          },
+          {
+            "name": "setBookIdentifierType:",
+            "flag": "method.CBSOPFPackageContents.setBookIdentifierType:",
+            "lang": "objc",
+            "addr": 4294991708
+          },
+          {
+            "name": "title",
+            "flag": "method.CBSOPFPackageContents.title",
+            "lang": "objc",
+            "addr": 4294991716
+          },
+          {
+            "name": "setTitle:",
+            "flag": "method.CBSOPFPackageContents.setTitle:",
+            "lang": "objc",
+            "addr": 4294991724
+          },
+          {
+            "name": "author",
+            "flag": "method.CBSOPFPackageContents.author",
+            "lang": "objc",
+            "addr": 4294991732
+          },
+          {
+            "name": "setAuthor:",
+            "flag": "method.CBSOPFPackageContents.setAuthor:",
+            "lang": "objc",
+            "addr": 4294991740
+          },
+          {
+            "name": "coverImagePath",
+            "flag": "method.CBSOPFPackageContents.coverImagePath",
+            "lang": "objc",
+            "addr": 4294991748
+          },
+          {
+            "name": "setCoverImagePath:",
+            "flag": "method.CBSOPFPackageContents.setCoverImagePath:",
+            "lang": "objc",
+            "addr": 4294991756
+          },
+          {
+            "name": "tableOfContentsFilePath",
+            "flag": "method.CBSOPFPackageContents.tableOfContentsFilePath",
+            "lang": "objc",
+            "addr": 4294991764
+          },
+          {
+            "name": "setTableOfContentsFilePath:",
+            "flag": "method.CBSOPFPackageContents.setTableOfContentsFilePath:",
+            "lang": "objc",
+            "addr": 4294991772
+          },
+          {
+            "name": "tableOfContentsMediaType",
+            "flag": "method.CBSOPFPackageContents.tableOfContentsMediaType",
+            "lang": "objc",
+            "addr": 4294991780
+          },
+          {
+            "name": "setTableOfContentsMediaType:",
+            "flag": "method.CBSOPFPackageContents.setTableOfContentsMediaType:",
+            "lang": "objc",
+            "addr": 4294991788
+          },
+          {
+            "name": "spineItemIdentifiers",
+            "flag": "method.CBSOPFPackageContents.spineItemIdentifiers",
+            "lang": "objc",
+            "addr": 4294991796
+          },
+          {
+            "name": "itemPathsByIdentifier",
+            "flag": "method.CBSOPFPackageContents.itemPathsByIdentifier",
+            "lang": "objc",
+            "addr": 4294991804
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.CBSOPFPackageContents..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294991812
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_bookIdentifier",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295039620
+          },
+          {
+            "name": "_bookIdentifierType",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295039624
+          },
+          {
+            "name": "_title",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295039628
+          },
+          {
+            "name": "_author",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295039632
+          },
+          {
+            "name": "_coverImagePath",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295039636
+          },
+          {
+            "name": "_tableOfContentsFilePath",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295039640
+          },
+          {
+            "name": "_tableOfContentsMediaType",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295039644
+          },
+          {
+            "name": "_spineItemIdentifiers",
+            "kind": "var",
+            "type": "@\"NSMutableArray\"",
+            "addr": 4295039648
+          },
+          {
+            "name": "_itemPathsByIdentifier",
+            "kind": "var",
+            "type": "@\"NSMutableDictionary\"",
+            "addr": 4295039652
+          },
+          {
+            "name": "bookIdentifier",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "bookIdentifierType",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "title",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "author",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "coverImagePath",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "tableOfContentsFilePath",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "tableOfContentsMediaType",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "spineItemIdentifiers",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "itemPathsByIdentifier",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      }
+    ],
+    "protocols": []
+  },
+  "usage": {
+    "layer": "usage",
+    "status": "not_implemented"
+  },
+  "runtime": {
+    "layer": "runtime",
+    "status": "not_implemented"
+  }
+}

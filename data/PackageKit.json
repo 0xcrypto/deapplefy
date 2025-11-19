@@ -1,0 +1,418 @@
+{
+  "framework": "PackageKit.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/PackageKit.framework/Versions/A/Resources/deferred_install",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 109936,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "objc with blocks",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "PKShoveDataStore",
+        "addr": 4295034776,
+        "lang": "objc",
+        "index": 0,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.PKShoveDataStore.init",
+            "lang": "objc",
+            "addr": 4294970672
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.PKShoveDataStore..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294971452
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_atomicReplacementDevicesToNodes",
+            "kind": "var",
+            "type": "@\"NSMutableDictionary\"",
+            "addr": 4295034688
+          }
+        ]
+      },
+      {
+        "classname": "PKShoveOptions",
+        "addr": 4295034856,
+        "lang": "objc",
+        "index": 1,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.PKShoveOptions.init",
+            "lang": "objc",
+            "addr": 4294972468
+          },
+          {
+            "name": "encodeWithCoder:",
+            "flag": "method.PKShoveOptions.encodeWithCoder:",
+            "lang": "objc",
+            "addr": 4294972624
+          },
+          {
+            "name": "initWithCoder:",
+            "flag": "method.PKShoveOptions.initWithCoder:",
+            "lang": "objc",
+            "addr": 4294972896
+          },
+          {
+            "name": "description",
+            "flag": "method.PKShoveOptions.description",
+            "lang": "objc",
+            "addr": 4294973292
+          },
+          {
+            "name": "sourcePath",
+            "flag": "method.PKShoveOptions.sourcePath",
+            "lang": "objc",
+            "addr": 4294973644
+          },
+          {
+            "name": "setSourcePath:",
+            "flag": "method.PKShoveOptions.setSourcePath:",
+            "lang": "objc",
+            "addr": 4294973656
+          },
+          {
+            "name": "destPath",
+            "flag": "method.PKShoveOptions.destPath",
+            "lang": "objc",
+            "addr": 4294973664
+          },
+          {
+            "name": "setDestPath:",
+            "flag": "method.PKShoveOptions.setDestPath:",
+            "lang": "objc",
+            "addr": 4294973676
+          },
+          {
+            "name": "optionFlags",
+            "flag": "method.PKShoveOptions.optionFlags",
+            "lang": "objc",
+            "addr": 4294973684
+          },
+          {
+            "name": "setOptionFlags:",
+            "flag": "method.PKShoveOptions.setOptionFlags:",
+            "lang": "objc",
+            "addr": 4294973692
+          },
+          {
+            "name": "forcedReplacementPaths",
+            "flag": "method.PKShoveOptions.forcedReplacementPaths",
+            "lang": "objc",
+            "addr": 4294973700
+          },
+          {
+            "name": "setForcedReplacementPaths:",
+            "flag": "method.PKShoveOptions.setForcedReplacementPaths:",
+            "lang": "objc",
+            "addr": 4294973712
+          },
+          {
+            "name": "stompReplacementPaths",
+            "flag": "method.PKShoveOptions.stompReplacementPaths",
+            "lang": "objc",
+            "addr": 4294973720
+          },
+          {
+            "name": "setStompReplacementPaths:",
+            "flag": "method.PKShoveOptions.setStompReplacementPaths:",
+            "lang": "objc",
+            "addr": 4294973732
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.PKShoveOptions..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294973740
+          },
+          {
+            "name": "supportsSecureCoding",
+            "flag": "method.class.PKShoveOptions.supportsSecureCoding",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295001984
+          },
+          {
+            "name": "supportsSecureCoding",
+            "flag": "func.10000142c",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294972460
+          },
+          {
+            "name": "supportsSecureCoding",
+            "flag": "method.class.PKShoveOptions.supportsSecureCoding",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295001984
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_stompReplacementPaths",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295034692
+          },
+          {
+            "name": "_sourcePath",
+            "kind": "var",
+            "type": "@\"NSURL\"",
+            "addr": 4295034696
+          },
+          {
+            "name": "_destPath",
+            "kind": "var",
+            "type": "@\"NSURL\"",
+            "addr": 4295034700
+          },
+          {
+            "name": "_optionFlags",
+            "kind": "var",
+            "type": "Q",
+            "addr": 4295034704
+          },
+          {
+            "name": "_forcedReplacementPaths",
+            "kind": "var",
+            "type": "@\"NSSet\"",
+            "addr": 4295034708
+          },
+          {
+            "name": "sourcePath",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "destPath",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "optionFlags",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "forcedReplacementPaths",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "stompReplacementPaths",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "supportsSecureCoding",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "PKCoreShove",
+        "addr": 4295034936,
+        "lang": "objc",
+        "index": 2,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.PKCoreShove.init",
+            "lang": "objc",
+            "addr": 4294973984
+          },
+          {
+            "name": "shoveWithOptions:",
+            "flag": "method.PKCoreShove.shoveWithOptions:",
+            "lang": "objc",
+            "addr": 4294974304
+          },
+          {
+            "name": "loggingBlock",
+            "flag": "method.PKCoreShove.loggingBlock",
+            "lang": "objc",
+            "addr": 4294995372
+          },
+          {
+            "name": "setLoggingBlock:",
+            "flag": "method.PKCoreShove.setLoggingBlock:",
+            "lang": "objc",
+            "addr": 4294995384
+          },
+          {
+            "name": "errorBlock",
+            "flag": "method.PKCoreShove.errorBlock",
+            "lang": "objc",
+            "addr": 4294995392
+          },
+          {
+            "name": "setErrorBlock:",
+            "flag": "method.PKCoreShove.setErrorBlock:",
+            "lang": "objc",
+            "addr": 4294995404
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.PKCoreShove..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294995412
+          },
+          {
+            "name": "genericSyslogLoggingBlock",
+            "flag": "method.class.PKCoreShove.genericSyslogLoggingBlock",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294973820
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_loggingBlock",
+            "kind": "var",
+            "type": "@?",
+            "addr": 4295034712
+          },
+          {
+            "name": "_errorBlock",
+            "kind": "var",
+            "type": "@?",
+            "addr": 4295034716
+          },
+          {
+            "name": "_shoveLock",
+            "kind": "var",
+            "type": "@\"NSLock\"",
+            "addr": 4295034720
+          },
+          {
+            "name": "_options",
+            "kind": "var",
+            "type": "@\"PKShoveOptions\"",
+            "addr": 4295034724
+          },
+          {
+            "name": "_dataStore",
+            "kind": "var",
+            "type": "@\"PKShoveDataStore\"",
+            "addr": 4295034728
+          },
+          {
+            "name": "loggingBlock",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "errorBlock",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      }
+    ],
+    "protocols": []
+  },
+  "usage": {
+    "layer": "usage",
+    "status": "not_implemented"
+  },
+  "runtime": {
+    "layer": "runtime",
+    "status": "not_implemented"
+  }
+}

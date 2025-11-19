@@ -1,0 +1,4130 @@
+{
+  "framework": "AppSSOKerberos.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/AppSSOKerberos.framework/PlugIns/KerberosExtension.appex/Contents/MacOS/KerberosExtension",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 246464,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "objc with blocks",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/PrivateFrameworks/AppSSO.framework/Versions/A/AppSSO",
+          "/System/Library/Frameworks/CryptoTokenKit.framework/Versions/A/CryptoTokenKit",
+          "/System/Library/Frameworks/LocalAuthentication.framework/Versions/A/LocalAuthentication",
+          "/System/Library/PrivateFrameworks/AppSSOCore.framework/Versions/A/AppSSOCore",
+          "/System/Library/Frameworks/SecurityInterface.framework/Versions/A/SecurityInterface",
+          "/System/Library/Frameworks/OpenDirectory.framework/Versions/A/OpenDirectory",
+          "/System/Library/Frameworks/LocalAuthenticationEmbeddedUI.framework/Versions/A/LocalAuthenticationEmbeddedUI",
+          "/System/Library/PrivateFrameworks/AppSSOKerberos.framework/Versions/A/AppSSOKerberos",
+          "/System/Library/Frameworks/Security.framework/Versions/A/Security",
+          "/System/Library/Frameworks/GSS.framework/Versions/A/GSS",
+          "/System/Library/PrivateFrameworks/AppleLDAP.framework/Versions/A/AppleLDAP",
+          "/usr/lib/libresolv.9.dylib",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/System/Library/Frameworks/Network.framework/Versions/A/Network",
+          "/System/Library/PrivateFrameworks/Heimdal.framework/Versions/A/Heimdal",
+          "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "/System/Library/PrivateFrameworks/SoftLinking.framework/Versions/A/SoftLinking"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "KerberosPasswordPolicyPopoverText",
+        "addr": 4295166624,
+        "lang": "objc",
+        "index": 0,
+        "super": [
+          "NSViewController"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSViewController"
+        ],
+        "methods": [
+          {
+            "name": "viewDidLoad",
+            "flag": "method.KerberosPasswordPolicyPopoverText.viewDidLoad",
+            "lang": "objc",
+            "addr": 4294972384
+          },
+          {
+            "name": "viewWillAppear",
+            "flag": "method.KerberosPasswordPolicyPopoverText.viewWillAppear",
+            "lang": "objc",
+            "addr": 4294972440
+          },
+          {
+            "name": "passwordPolicyText",
+            "flag": "method.KerberosPasswordPolicyPopoverText.passwordPolicyText",
+            "lang": "objc",
+            "addr": 4294972668
+          },
+          {
+            "name": "setPasswordPolicyText:",
+            "flag": "method.KerberosPasswordPolicyPopoverText.setPasswordPolicyText:",
+            "lang": "objc",
+            "addr": 4294972720
+          },
+          {
+            "name": "passwordPolicyString",
+            "flag": "method.KerberosPasswordPolicyPopoverText.passwordPolicyString",
+            "lang": "objc",
+            "addr": 4294972740
+          },
+          {
+            "name": "setPasswordPolicyString:",
+            "flag": "method.KerberosPasswordPolicyPopoverText.setPasswordPolicyString:",
+            "lang": "objc",
+            "addr": 4294972756
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.KerberosPasswordPolicyPopoverText..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294972776
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_passwordPolicyText",
+            "kind": "var",
+            "type": "@\"NSTextView\"",
+            "addr": 4295166088
+          },
+          {
+            "name": "_passwordPolicyString",
+            "kind": "var",
+            "type": "@\"NSAttributedString\"",
+            "addr": 4295166092
+          },
+          {
+            "name": "passwordPolicyText",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "passwordPolicyString",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "KerberosBaseViewController",
+        "addr": 4295166704,
+        "lang": "objc",
+        "index": 1,
+        "super": [
+          "NSViewController"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSViewController"
+        ],
+        "methods": [
+          {
+            "name": "initWithNibName:bundle:",
+            "flag": "method.KerberosBaseViewController.initWithNibName:bundle:",
+            "lang": "objc",
+            "addr": 4294972856
+          },
+          {
+            "name": "initWithCoder:",
+            "flag": "method.KerberosBaseViewController.initWithCoder:",
+            "lang": "objc",
+            "addr": 4294973052
+          },
+          {
+            "name": "encodeWithCoder:",
+            "flag": "method.KerberosBaseViewController.encodeWithCoder:",
+            "lang": "objc",
+            "addr": 4294973248
+          },
+          {
+            "name": "beginAuthorizationWithRequest:",
+            "flag": "func.100001778",
+            "lang": "objc",
+            "addr": 4294973304
+          },
+          {
+            "name": "cancelAuthorizationWithRequest:",
+            "flag": "method.KerberosBaseViewController.cancelAuthorizationWithRequest:",
+            "lang": "objc",
+            "addr": 4294974348
+          },
+          {
+            "name": "handleKerberosOperations:",
+            "flag": "method.KerberosBaseViewController.handleKerberosOperations:",
+            "lang": "objc",
+            "addr": 4294974496
+          },
+          {
+            "name": "handleChangePasswordWithRequest:",
+            "flag": "method.KerberosBaseViewController.handleChangePasswordWithRequest:",
+            "lang": "objc",
+            "addr": 4294974648
+          },
+          {
+            "name": "addViewControllerAsChildViewController:",
+            "flag": "method.KerberosBaseViewController.addViewControllerAsChildViewController:",
+            "lang": "objc",
+            "addr": 4294975776
+          },
+          {
+            "name": "requestContainsNegotiateChallenge:",
+            "flag": "method.KerberosBaseViewController.requestContainsNegotiateChallenge:",
+            "lang": "objc",
+            "addr": 4294975780
+          },
+          {
+            "name": "createLoginViewControllerWithContext:",
+            "flag": "method.KerberosBaseViewController.createLoginViewControllerWithContext:",
+            "lang": "objc",
+            "addr": 4294976252
+          },
+          {
+            "name": "handleResult:context:error:",
+            "flag": "method.KerberosBaseViewController.handleResult:context:error:",
+            "lang": "objc",
+            "addr": 4294976808
+          },
+          {
+            "name": "retrievePasswordFromKeychain:",
+            "flag": "method.KerberosBaseViewController.retrievePasswordFromKeychain:",
+            "lang": "objc",
+            "addr": 4294977976
+          },
+          {
+            "name": "resetUI",
+            "flag": "method.KerberosBaseViewController.resetUI",
+            "lang": "objc",
+            "addr": 4294978472
+          },
+          {
+            "name": "passwordSyncViewController",
+            "flag": "method.KerberosBaseViewController.passwordSyncViewController",
+            "lang": "objc",
+            "addr": 4294978476
+          },
+          {
+            "name": "setPasswordSyncViewController:",
+            "flag": "method.KerberosBaseViewController.setPasswordSyncViewController:",
+            "lang": "objc",
+            "addr": 4294978492
+          },
+          {
+            "name": "loginViewController",
+            "flag": "method.KerberosBaseViewController.loginViewController",
+            "lang": "objc",
+            "addr": 4294978512
+          },
+          {
+            "name": "setLoginViewController:",
+            "flag": "method.KerberosBaseViewController.setLoginViewController:",
+            "lang": "objc",
+            "addr": 4294978528
+          },
+          {
+            "name": "passwordViewController",
+            "flag": "method.KerberosBaseViewController.passwordViewController",
+            "lang": "objc",
+            "addr": 4294978548
+          },
+          {
+            "name": "setPasswordViewController:",
+            "flag": "method.KerberosBaseViewController.setPasswordViewController:",
+            "lang": "objc",
+            "addr": 4294978564
+          },
+          {
+            "name": "process",
+            "flag": "method.KerberosBaseViewController.process",
+            "lang": "objc",
+            "addr": 4294978584
+          },
+          {
+            "name": "setProcess:",
+            "flag": "method.KerberosBaseViewController.setProcess:",
+            "lang": "objc",
+            "addr": 4294978600
+          },
+          {
+            "name": "keychainHelper",
+            "flag": "method.KerberosBaseViewController.keychainHelper",
+            "lang": "objc",
+            "addr": 4294978620
+          },
+          {
+            "name": "setKeychainHelper:",
+            "flag": "method.KerberosBaseViewController.setKeychainHelper:",
+            "lang": "objc",
+            "addr": 4294978636
+          },
+          {
+            "name": "extensionWindow",
+            "flag": "method.KerberosBaseViewController.extensionWindow",
+            "lang": "objc",
+            "addr": 4294978656
+          },
+          {
+            "name": "setExtensionWindow:",
+            "flag": "method.KerberosBaseViewController.setExtensionWindow:",
+            "lang": "objc",
+            "addr": 4294978708
+          },
+          {
+            "name": "requestQueue",
+            "flag": "method.KerberosBaseViewController.requestQueue",
+            "lang": "objc",
+            "addr": 4294978728
+          },
+          {
+            "name": "setRequestQueue:",
+            "flag": "method.KerberosBaseViewController.setRequestQueue:",
+            "lang": "objc",
+            "addr": 4294978744
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.KerberosBaseViewController..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294978764
+          },
+          {
+            "name": "beginAuthorizationWithRequest:",
+            "flag": "method.KerberosBaseViewController.beginAuthorizationWithRequest:",
+            "lang": "objc",
+            "addr": 4295093600
+          },
+          {
+            "name": "beginAuthorizationWithRequest:",
+            "flag": "method.KerberosBaseViewController.beginAuthorizationWithRequest:",
+            "lang": "objc",
+            "addr": 4295093600
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_passwordSyncViewController",
+            "kind": "var",
+            "type": "@\"NSViewController<KerberosViewControllerData>\"",
+            "addr": 4295166108
+          },
+          {
+            "name": "_loginViewController",
+            "kind": "var",
+            "type": "@\"NSViewController<KerberosViewControllerData><SOKerberosExtensionKerberosDelegate>\"",
+            "addr": 4295166112
+          },
+          {
+            "name": "_passwordViewController",
+            "kind": "var",
+            "type": "@\"NSViewController<KerberosViewControllerData>\"",
+            "addr": 4295166116
+          },
+          {
+            "name": "_process",
+            "kind": "var",
+            "type": "@\"SOKerberosExtensionProcess\"",
+            "addr": 4295166096
+          },
+          {
+            "name": "_keychainHelper",
+            "kind": "var",
+            "type": "@\"SOKeychainHelper\"",
+            "addr": 4295166104
+          },
+          {
+            "name": "_extensionWindow",
+            "kind": "var",
+            "type": "@\"NSWindow\"",
+            "addr": 4295166120
+          },
+          {
+            "name": "_requestQueue",
+            "kind": "var",
+            "type": "@\"NSOperationQueue\"",
+            "addr": 4295166100
+          },
+          {
+            "name": "requestQueue",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "passwordSyncViewController",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "loginViewController",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "passwordViewController",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "process",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "keychainHelper",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "extensionWindow",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "KerberosPasswordPolicyPopoverInteractiveComplex",
+        "addr": 4295166784,
+        "lang": "objc",
+        "index": 2,
+        "super": [
+          "NSViewController"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSViewController"
+        ],
+        "methods": [
+          {
+            "name": "viewDidLoad",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.viewDidLoad",
+            "lang": "objc",
+            "addr": 4294979512
+          },
+          {
+            "name": "viewWillAppear",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.viewWillAppear",
+            "lang": "objc",
+            "addr": 4294979568
+          },
+          {
+            "name": "setPasswordLengthUIWithLength:",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.setPasswordLengthUIWithLength:",
+            "lang": "objc",
+            "addr": 4294980036
+          },
+          {
+            "name": "setPasswordHistoryUIWithCount:",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.setPasswordHistoryUIWithCount:",
+            "lang": "objc",
+            "addr": 4294980296
+          },
+          {
+            "name": "setPasswordAgeUIWithDays:",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.setPasswordAgeUIWithDays:",
+            "lang": "objc",
+            "addr": 4294980556
+          },
+          {
+            "name": "setStatusForImage:withStatus:",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.setStatusForImage:withStatus:",
+            "lang": "objc",
+            "addr": 4294980816
+          },
+          {
+            "name": "setStatusPwCharLength:",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.setStatusPwCharLength:",
+            "lang": "objc",
+            "addr": 4294980964
+          },
+          {
+            "name": "setStatusPwMaster:",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.setStatusPwMaster:",
+            "lang": "objc",
+            "addr": 4294981064
+          },
+          {
+            "name": "setStatusPwThreeRequirements:",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.setStatusPwThreeRequirements:",
+            "lang": "objc",
+            "addr": 4294981164
+          },
+          {
+            "name": "setStatusPwUppercase:",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.setStatusPwUppercase:",
+            "lang": "objc",
+            "addr": 4294981264
+          },
+          {
+            "name": "setStatusPwLowercase:",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.setStatusPwLowercase:",
+            "lang": "objc",
+            "addr": 4294981364
+          },
+          {
+            "name": "setStatusPwNumber:",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.setStatusPwNumber:",
+            "lang": "objc",
+            "addr": 4294981464
+          },
+          {
+            "name": "setStatusPwSpecialChar:",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.setStatusPwSpecialChar:",
+            "lang": "objc",
+            "addr": 4294981564
+          },
+          {
+            "name": "setStatusPwUnicode:",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.setStatusPwUnicode:",
+            "lang": "objc",
+            "addr": 4294981664
+          },
+          {
+            "name": "setStatusUsername:",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.setStatusUsername:",
+            "lang": "objc",
+            "addr": 4294981764
+          },
+          {
+            "name": "pwMasterLight",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.pwMasterLight",
+            "lang": "objc",
+            "addr": 4294981864
+          },
+          {
+            "name": "setPwMasterLight:",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.setPwMasterLight:",
+            "lang": "objc",
+            "addr": 4294981916
+          },
+          {
+            "name": "pwCharLengthLight",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.pwCharLengthLight",
+            "lang": "objc",
+            "addr": 4294981936
+          },
+          {
+            "name": "setPwCharLengthLight:",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.setPwCharLengthLight:",
+            "lang": "objc",
+            "addr": 4294981988
+          },
+          {
+            "name": "pwUppercaseLight",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.pwUppercaseLight",
+            "lang": "objc",
+            "addr": 4294982008
+          },
+          {
+            "name": "setPwUppercaseLight:",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.setPwUppercaseLight:",
+            "lang": "objc",
+            "addr": 4294982060
+          },
+          {
+            "name": "pwLowercaseLight",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.pwLowercaseLight",
+            "lang": "objc",
+            "addr": 4294982080
+          },
+          {
+            "name": "setPwLowercaseLight:",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.setPwLowercaseLight:",
+            "lang": "objc",
+            "addr": 4294982132
+          },
+          {
+            "name": "pwNumberLight",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.pwNumberLight",
+            "lang": "objc",
+            "addr": 4294982152
+          },
+          {
+            "name": "setPwNumberLight:",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.setPwNumberLight:",
+            "lang": "objc",
+            "addr": 4294982204
+          },
+          {
+            "name": "pwSpecialCharLight",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.pwSpecialCharLight",
+            "lang": "objc",
+            "addr": 4294982224
+          },
+          {
+            "name": "setPwSpecialCharLight:",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.setPwSpecialCharLight:",
+            "lang": "objc",
+            "addr": 4294982276
+          },
+          {
+            "name": "pwUnicodeLight",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.pwUnicodeLight",
+            "lang": "objc",
+            "addr": 4294982296
+          },
+          {
+            "name": "setPwUnicodeLight:",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.setPwUnicodeLight:",
+            "lang": "objc",
+            "addr": 4294982348
+          },
+          {
+            "name": "pwUsernameLight",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.pwUsernameLight",
+            "lang": "objc",
+            "addr": 4294982368
+          },
+          {
+            "name": "setPwUsernameLight:",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.setPwUsernameLight:",
+            "lang": "objc",
+            "addr": 4294982420
+          },
+          {
+            "name": "pwThreeRequirementsLight",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.pwThreeRequirementsLight",
+            "lang": "objc",
+            "addr": 4294982440
+          },
+          {
+            "name": "setPwThreeRequirementsLight:",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.setPwThreeRequirementsLight:",
+            "lang": "objc",
+            "addr": 4294982492
+          },
+          {
+            "name": "pwComplexityMasterText",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.pwComplexityMasterText",
+            "lang": "objc",
+            "addr": 4294982512
+          },
+          {
+            "name": "setPwComplexityMasterText:",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.setPwComplexityMasterText:",
+            "lang": "objc",
+            "addr": 4294982564
+          },
+          {
+            "name": "pwCharLengthText",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.pwCharLengthText",
+            "lang": "objc",
+            "addr": 4294982584
+          },
+          {
+            "name": "setPwCharLengthText:",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.setPwCharLengthText:",
+            "lang": "objc",
+            "addr": 4294982636
+          },
+          {
+            "name": "pwUppercaseText",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.pwUppercaseText",
+            "lang": "objc",
+            "addr": 4294982656
+          },
+          {
+            "name": "setPwUppercaseText:",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.setPwUppercaseText:",
+            "lang": "objc",
+            "addr": 4294982708
+          },
+          {
+            "name": "pwLowercaseText",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.pwLowercaseText",
+            "lang": "objc",
+            "addr": 4294982728
+          },
+          {
+            "name": "setPwLowercaseText:",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.setPwLowercaseText:",
+            "lang": "objc",
+            "addr": 4294982780
+          },
+          {
+            "name": "pwNumberText",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.pwNumberText",
+            "lang": "objc",
+            "addr": 4294982800
+          },
+          {
+            "name": "setPwNumberText:",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.setPwNumberText:",
+            "lang": "objc",
+            "addr": 4294982852
+          },
+          {
+            "name": "pwSpecialCharText",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.pwSpecialCharText",
+            "lang": "objc",
+            "addr": 4294982872
+          },
+          {
+            "name": "setPwSpecialCharText:",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.setPwSpecialCharText:",
+            "lang": "objc",
+            "addr": 4294982924
+          },
+          {
+            "name": "pwUnicodeText",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.pwUnicodeText",
+            "lang": "objc",
+            "addr": 4294982944
+          },
+          {
+            "name": "setPwUnicodeText:",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.setPwUnicodeText:",
+            "lang": "objc",
+            "addr": 4294982996
+          },
+          {
+            "name": "pwUsernameText",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.pwUsernameText",
+            "lang": "objc",
+            "addr": 4294983016
+          },
+          {
+            "name": "setPwUsernameText:",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.setPwUsernameText:",
+            "lang": "objc",
+            "addr": 4294983068
+          },
+          {
+            "name": "pwThreeRequirementsText",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.pwThreeRequirementsText",
+            "lang": "objc",
+            "addr": 4294983088
+          },
+          {
+            "name": "setPwThreeRequirementsText:",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.setPwThreeRequirementsText:",
+            "lang": "objc",
+            "addr": 4294983140
+          },
+          {
+            "name": "pwHistoryText",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.pwHistoryText",
+            "lang": "objc",
+            "addr": 4294983160
+          },
+          {
+            "name": "setPwHistoryText:",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.setPwHistoryText:",
+            "lang": "objc",
+            "addr": 4294983212
+          },
+          {
+            "name": "pwAgeText",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.pwAgeText",
+            "lang": "objc",
+            "addr": 4294983232
+          },
+          {
+            "name": "setPwAgeText:",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.setPwAgeText:",
+            "lang": "objc",
+            "addr": 4294983284
+          },
+          {
+            "name": "lineSeperator",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.lineSeperator",
+            "lang": "objc",
+            "addr": 4294983304
+          },
+          {
+            "name": "setLineSeperator:",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.setLineSeperator:",
+            "lang": "objc",
+            "addr": 4294983356
+          },
+          {
+            "name": "currentUIContext",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.currentUIContext",
+            "lang": "objc",
+            "addr": 4294983376
+          },
+          {
+            "name": "setCurrentUIContext:",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex.setCurrentUIContext:",
+            "lang": "objc",
+            "addr": 4294983392
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractiveComplex..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294983412
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "pwCharLengthLight",
+            "kind": "var",
+            "type": "@\"NSImageView\"",
+            "addr": 4295166148
+          },
+          {
+            "name": "pwUppercaseLight",
+            "kind": "var",
+            "type": "@\"NSImageView\"",
+            "addr": 4295166160
+          },
+          {
+            "name": "pwLowercaseLight",
+            "kind": "var",
+            "type": "@\"NSImageView\"",
+            "addr": 4295166164
+          },
+          {
+            "name": "pwNumberLight",
+            "kind": "var",
+            "type": "@\"NSImageView\"",
+            "addr": 4295166168
+          },
+          {
+            "name": "pwSpecialCharLight",
+            "kind": "var",
+            "type": "@\"NSImageView\"",
+            "addr": 4295166172
+          },
+          {
+            "name": "pwUnicodeLight",
+            "kind": "var",
+            "type": "@\"NSImageView\"",
+            "addr": 4295166128
+          },
+          {
+            "name": "pwUsernameLight",
+            "kind": "var",
+            "type": "@\"NSImageView\"",
+            "addr": 4295166176
+          },
+          {
+            "name": "pwThreeRequirementsLight",
+            "kind": "var",
+            "type": "@\"NSImageView\"",
+            "addr": 4295166156
+          },
+          {
+            "name": "pwHistoryLight",
+            "kind": "var",
+            "type": "@\"NSImageView\"",
+            "addr": 4295166220
+          },
+          {
+            "name": "pwAgeLight",
+            "kind": "var",
+            "type": "@\"NSImageView\"",
+            "addr": 4295166216
+          },
+          {
+            "name": "pwComplexityMasterText",
+            "kind": "var",
+            "type": "@\"NSTextField\"",
+            "addr": 4295166180
+          },
+          {
+            "name": "pwCharLengthText",
+            "kind": "var",
+            "type": "@\"NSTextField\"",
+            "addr": 4295166144
+          },
+          {
+            "name": "pwUppercaseText",
+            "kind": "var",
+            "type": "@\"NSTextField\"",
+            "addr": 4295166184
+          },
+          {
+            "name": "pwLowercaseText",
+            "kind": "var",
+            "type": "@\"NSTextField\"",
+            "addr": 4295166188
+          },
+          {
+            "name": "pwNumberText",
+            "kind": "var",
+            "type": "@\"NSTextField\"",
+            "addr": 4295166192
+          },
+          {
+            "name": "pwSpecialCharText",
+            "kind": "var",
+            "type": "@\"NSTextField\"",
+            "addr": 4295166196
+          },
+          {
+            "name": "pwUnicodeText",
+            "kind": "var",
+            "type": "@\"NSTextField\"",
+            "addr": 4295166124
+          },
+          {
+            "name": "pwUsernameText",
+            "kind": "var",
+            "type": "@\"NSTextField\"",
+            "addr": 4295166200
+          },
+          {
+            "name": "pwThreeRequirementsText",
+            "kind": "var",
+            "type": "@\"NSTextField\"",
+            "addr": 4295166204
+          },
+          {
+            "name": "pwHistoryText",
+            "kind": "var",
+            "type": "@\"NSTextField\"",
+            "addr": 4295166136
+          },
+          {
+            "name": "pwAgeText",
+            "kind": "var",
+            "type": "@\"NSTextField\"",
+            "addr": 4295166132
+          },
+          {
+            "name": "pwComplexityMasterLight",
+            "kind": "var",
+            "type": "@\"NSImageView\"",
+            "addr": 4295166212
+          },
+          {
+            "name": "pwMasterLight",
+            "kind": "var",
+            "type": "@\"NSImageView\"",
+            "addr": 4295166152
+          },
+          {
+            "name": "lineSeperator",
+            "kind": "var",
+            "type": "@\"NSBox\"",
+            "addr": 4295166140
+          },
+          {
+            "name": "_currentUIContext",
+            "kind": "var",
+            "type": "@\"SOKerberosContext\"",
+            "addr": 4295166208
+          },
+          {
+            "name": "pwCharLengthLight",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "pwMasterLight",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "pwUppercaseLight",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "pwLowercaseLight",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "pwNumberLight",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "pwSpecialCharLight",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "pwUnicodeLight",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "pwUsernameLight",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "pwThreeRequirementsLight",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "pwComplexityMasterText",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "pwCharLengthText",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "pwUppercaseText",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "pwLowercaseText",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "pwNumberText",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "pwSpecialCharText",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "pwUnicodeText",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "pwUsernameText",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "pwThreeRequirementsText",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "pwHistoryText",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "pwAgeText",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "lineSeperator",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "currentUIContext",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "KerberosPasswordPolicyPopoverInteractive",
+        "addr": 4295166864,
+        "lang": "objc",
+        "index": 3,
+        "super": [
+          "NSViewController"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSViewController"
+        ],
+        "methods": [
+          {
+            "name": "viewDidLoad",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractive.viewDidLoad",
+            "lang": "objc",
+            "addr": 4294983860
+          },
+          {
+            "name": "viewWillAppear",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractive.viewWillAppear",
+            "lang": "objc",
+            "addr": 4294983916
+          },
+          {
+            "name": "setPasswordLengthUIWithLength:",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractive.setPasswordLengthUIWithLength:",
+            "lang": "objc",
+            "addr": 4294983996
+          },
+          {
+            "name": "setStatusForImage:withStatus:",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractive.setStatusForImage:withStatus:",
+            "lang": "objc",
+            "addr": 4294984256
+          },
+          {
+            "name": "setStatusPwCharLength:",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractive.setStatusPwCharLength:",
+            "lang": "objc",
+            "addr": 4294984404
+          },
+          {
+            "name": "setStatusPwMaster:",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractive.setStatusPwMaster:",
+            "lang": "objc",
+            "addr": 4294984504
+          },
+          {
+            "name": "pwMasterLight",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractive.pwMasterLight",
+            "lang": "objc",
+            "addr": 4294984604
+          },
+          {
+            "name": "setPwMasterLight:",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractive.setPwMasterLight:",
+            "lang": "objc",
+            "addr": 4294984656
+          },
+          {
+            "name": "pwCharLengthLight",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractive.pwCharLengthLight",
+            "lang": "objc",
+            "addr": 4294984676
+          },
+          {
+            "name": "setPwCharLengthLight:",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractive.setPwCharLengthLight:",
+            "lang": "objc",
+            "addr": 4294984728
+          },
+          {
+            "name": "pwMasterText",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractive.pwMasterText",
+            "lang": "objc",
+            "addr": 4294984748
+          },
+          {
+            "name": "setPwMasterText:",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractive.setPwMasterText:",
+            "lang": "objc",
+            "addr": 4294984800
+          },
+          {
+            "name": "pwCharLengthText",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractive.pwCharLengthText",
+            "lang": "objc",
+            "addr": 4294984820
+          },
+          {
+            "name": "setPwCharLengthText:",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractive.setPwCharLengthText:",
+            "lang": "objc",
+            "addr": 4294984872
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.KerberosPasswordPolicyPopoverInteractive..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294984892
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "pwCharLengthLight",
+            "kind": "var",
+            "type": "@\"NSImageView\"",
+            "addr": 4295166228
+          },
+          {
+            "name": "pwMasterText",
+            "kind": "var",
+            "type": "@\"NSTextField\"",
+            "addr": 4295166236
+          },
+          {
+            "name": "pwCharLengthText",
+            "kind": "var",
+            "type": "@\"NSTextField\"",
+            "addr": 4295166224
+          },
+          {
+            "name": "pwMasterLight",
+            "kind": "var",
+            "type": "@\"NSImageView\"",
+            "addr": 4295166232
+          },
+          {
+            "name": "pwCharLengthLight",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "pwMasterLight",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "pwMasterText",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "pwCharLengthText",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "KerberosPasswordChangeViewController",
+        "addr": 4295166944,
+        "lang": "objc",
+        "index": 4,
+        "super": [
+          "NSViewController"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSViewController"
+        ],
+        "methods": [
+          {
+            "name": "initWithCoder:",
+            "flag": "method.KerberosPasswordChangeViewController.initWithCoder:",
+            "lang": "objc",
+            "addr": 4294985000
+          },
+          {
+            "name": "initWithNibName:bundle:",
+            "flag": "method.KerberosPasswordChangeViewController.initWithNibName:bundle:",
+            "lang": "objc",
+            "addr": 4294985148
+          },
+          {
+            "name": "viewDidLoad",
+            "flag": "method.KerberosPasswordChangeViewController.viewDidLoad",
+            "lang": "objc",
+            "addr": 4294985296
+          },
+          {
+            "name": "viewWillAppear",
+            "flag": "method.KerberosPasswordChangeViewController.viewWillAppear",
+            "lang": "objc",
+            "addr": 4294985520
+          },
+          {
+            "name": "viewDidAppear",
+            "flag": "method.KerberosPasswordChangeViewController.viewDidAppear",
+            "lang": "objc",
+            "addr": 4294985876
+          },
+          {
+            "name": "viewDidDisappear",
+            "flag": "method.KerberosPasswordChangeViewController.viewDidDisappear",
+            "lang": "objc",
+            "addr": 4294987712
+          },
+          {
+            "name": "showPasswordChangeAlertWithContext:presentViewController:",
+            "flag": "method.KerberosPasswordChangeViewController.showPasswordChangeAlertWithContext:presentViewController:",
+            "lang": "objc",
+            "addr": 4294987796
+          },
+          {
+            "name": "startUIProgress",
+            "flag": "method.KerberosPasswordChangeViewController.startUIProgress",
+            "lang": "objc",
+            "addr": 4294989800
+          },
+          {
+            "name": "stopUIProgress",
+            "flag": "method.KerberosPasswordChangeViewController.stopUIProgress",
+            "lang": "objc",
+            "addr": 4294990056
+          },
+          {
+            "name": "clickCancelButton:",
+            "flag": "method.KerberosPasswordChangeViewController.clickCancelButton:",
+            "lang": "objc",
+            "addr": 4294990312
+          },
+          {
+            "name": "updateValidationImageWithView:withField:",
+            "flag": "method.KerberosPasswordChangeViewController.updateValidationImageWithView:withField:",
+            "lang": "objc",
+            "addr": 4294990604
+          },
+          {
+            "name": "changeMobileAccountPassword",
+            "flag": "method.KerberosPasswordChangeViewController.changeMobileAccountPassword",
+            "lang": "objc",
+            "addr": 4294990800
+          },
+          {
+            "name": "changeADPasswordWithStatus",
+            "flag": "method.KerberosPasswordChangeViewController.changeADPasswordWithStatus",
+            "lang": "objc",
+            "addr": 4294995332
+          },
+          {
+            "name": "doECPasswordChange",
+            "flag": "method.KerberosPasswordChangeViewController.doECPasswordChange",
+            "lang": "objc",
+            "addr": 4294997236
+          },
+          {
+            "name": "clickChangePasswordButton:",
+            "flag": "method.KerberosPasswordChangeViewController.clickChangePasswordButton:",
+            "lang": "objc",
+            "addr": 4295000576
+          },
+          {
+            "name": "updatePasswordPolicyPopoverInteractiveComplex",
+            "flag": "method.KerberosPasswordChangeViewController.updatePasswordPolicyPopoverInteractiveComplex",
+            "lang": "objc",
+            "addr": 4295001484
+          },
+          {
+            "name": "updatePasswordPolicyPopoverInteractive",
+            "flag": "method.KerberosPasswordChangeViewController.updatePasswordPolicyPopoverInteractive",
+            "lang": "objc",
+            "addr": 4295002948
+          },
+          {
+            "name": "control:textShouldBeginEditing:",
+            "flag": "method.KerberosPasswordChangeViewController.control:textShouldBeginEditing:",
+            "lang": "objc",
+            "addr": 4295003176
+          },
+          {
+            "name": "control:textShouldEndEditing:",
+            "flag": "method.KerberosPasswordChangeViewController.control:textShouldEndEditing:",
+            "lang": "objc",
+            "addr": 4295003832
+          },
+          {
+            "name": "controlTextDidChange:",
+            "flag": "method.KerberosPasswordChangeViewController.controlTextDidChange:",
+            "lang": "objc",
+            "addr": 4295003840
+          },
+          {
+            "name": "handleKerberosOperation:withMessage:",
+            "flag": "method.KerberosPasswordChangeViewController.handleKerberosOperation:withMessage:",
+            "lang": "objc",
+            "addr": 4295004216
+          },
+          {
+            "name": "cancelCurrentOperation",
+            "flag": "method.KerberosPasswordChangeViewController.cancelCurrentOperation",
+            "lang": "objc",
+            "addr": 4295004320
+          },
+          {
+            "name": "commitEditingAndReturnError:",
+            "flag": "method.KerberosPasswordChangeViewController.commitEditingAndReturnError:",
+            "lang": "objc",
+            "addr": 4295004328
+          },
+          {
+            "name": "closeCurrentAlert",
+            "flag": "method.KerberosPasswordChangeViewController.closeCurrentAlert",
+            "lang": "objc",
+            "addr": 4295004336
+          },
+          {
+            "name": "respondAndClose",
+            "flag": "method.KerberosPasswordChangeViewController.respondAndClose",
+            "lang": "objc",
+            "addr": 4295004464
+          },
+          {
+            "name": "cancelButton",
+            "flag": "method.KerberosPasswordChangeViewController.cancelButton",
+            "lang": "objc",
+            "addr": 4295004872
+          },
+          {
+            "name": "setCancelButton:",
+            "flag": "method.KerberosPasswordChangeViewController.setCancelButton:",
+            "lang": "objc",
+            "addr": 4295004924
+          },
+          {
+            "name": "progressSpinner",
+            "flag": "method.KerberosPasswordChangeViewController.progressSpinner",
+            "lang": "objc",
+            "addr": 4295004944
+          },
+          {
+            "name": "setProgressSpinner:",
+            "flag": "method.KerberosPasswordChangeViewController.setProgressSpinner:",
+            "lang": "objc",
+            "addr": 4295004996
+          },
+          {
+            "name": "changePasswordButton",
+            "flag": "method.KerberosPasswordChangeViewController.changePasswordButton",
+            "lang": "objc",
+            "addr": 4295005016
+          },
+          {
+            "name": "setChangePasswordButton:",
+            "flag": "method.KerberosPasswordChangeViewController.setChangePasswordButton:",
+            "lang": "objc",
+            "addr": 4295005068
+          },
+          {
+            "name": "oldPasswordField",
+            "flag": "method.KerberosPasswordChangeViewController.oldPasswordField",
+            "lang": "objc",
+            "addr": 4295005088
+          },
+          {
+            "name": "setOldPasswordField:",
+            "flag": "method.KerberosPasswordChangeViewController.setOldPasswordField:",
+            "lang": "objc",
+            "addr": 4295005140
+          },
+          {
+            "name": "updatedPasswordField",
+            "flag": "method.KerberosPasswordChangeViewController.updatedPasswordField",
+            "lang": "objc",
+            "addr": 4295005160
+          },
+          {
+            "name": "setUpdatedPasswordField:",
+            "flag": "method.KerberosPasswordChangeViewController.setUpdatedPasswordField:",
+            "lang": "objc",
+            "addr": 4295005212
+          },
+          {
+            "name": "updatedPasswordField2",
+            "flag": "method.KerberosPasswordChangeViewController.updatedPasswordField2",
+            "lang": "objc",
+            "addr": 4295005232
+          },
+          {
+            "name": "setUpdatedPasswordField2:",
+            "flag": "method.KerberosPasswordChangeViewController.setUpdatedPasswordField2:",
+            "lang": "objc",
+            "addr": 4295005284
+          },
+          {
+            "name": "popover",
+            "flag": "method.KerberosPasswordChangeViewController.popover",
+            "lang": "objc",
+            "addr": 4295005304
+          },
+          {
+            "name": "setPopover:",
+            "flag": "method.KerberosPasswordChangeViewController.setPopover:",
+            "lang": "objc",
+            "addr": 4295005320
+          },
+          {
+            "name": "pvc",
+            "flag": "method.KerberosPasswordChangeViewController.pvc",
+            "lang": "objc",
+            "addr": 4295005332
+          },
+          {
+            "name": "setPvc:",
+            "flag": "method.KerberosPasswordChangeViewController.setPvc:",
+            "lang": "objc",
+            "addr": 4295005348
+          },
+          {
+            "name": "pvcComplex",
+            "flag": "method.KerberosPasswordChangeViewController.pvcComplex",
+            "lang": "objc",
+            "addr": 4295005360
+          },
+          {
+            "name": "setPvcComplex:",
+            "flag": "method.KerberosPasswordChangeViewController.setPvcComplex:",
+            "lang": "objc",
+            "addr": 4295005376
+          },
+          {
+            "name": "pvcText",
+            "flag": "method.KerberosPasswordChangeViewController.pvcText",
+            "lang": "objc",
+            "addr": 4295005388
+          },
+          {
+            "name": "setPvcText:",
+            "flag": "method.KerberosPasswordChangeViewController.setPvcText:",
+            "lang": "objc",
+            "addr": 4295005404
+          },
+          {
+            "name": "delegate",
+            "flag": "method.KerberosPasswordChangeViewController.delegate",
+            "lang": "objc",
+            "addr": 4295005416
+          },
+          {
+            "name": "setDelegate:",
+            "flag": "method.KerberosPasswordChangeViewController.setDelegate:",
+            "lang": "objc",
+            "addr": 4295005468
+          },
+          {
+            "name": "viewIsShowing",
+            "flag": "method.KerberosPasswordChangeViewController.viewIsShowing",
+            "lang": "objc",
+            "addr": 4295005488
+          },
+          {
+            "name": "setViewIsShowing:",
+            "flag": "method.KerberosPasswordChangeViewController.setViewIsShowing:",
+            "lang": "objc",
+            "addr": 4295005508
+          },
+          {
+            "name": "process",
+            "flag": "method.KerberosPasswordChangeViewController.process",
+            "lang": "objc",
+            "addr": 4295005524
+          },
+          {
+            "name": "setProcess:",
+            "flag": "method.KerberosPasswordChangeViewController.setProcess:",
+            "lang": "objc",
+            "addr": 4295005540
+          },
+          {
+            "name": "keychainHelper",
+            "flag": "method.KerberosPasswordChangeViewController.keychainHelper",
+            "lang": "objc",
+            "addr": 4295005560
+          },
+          {
+            "name": "setKeychainHelper:",
+            "flag": "method.KerberosPasswordChangeViewController.setKeychainHelper:",
+            "lang": "objc",
+            "addr": 4295005576
+          },
+          {
+            "name": "currentUIContext",
+            "flag": "method.KerberosPasswordChangeViewController.currentUIContext",
+            "lang": "objc",
+            "addr": 4295005596
+          },
+          {
+            "name": "setCurrentUIContext:",
+            "flag": "method.KerberosPasswordChangeViewController.setCurrentUIContext:",
+            "lang": "objc",
+            "addr": 4295005612
+          },
+          {
+            "name": "extensionWindow",
+            "flag": "method.KerberosPasswordChangeViewController.extensionWindow",
+            "lang": "objc",
+            "addr": 4295005632
+          },
+          {
+            "name": "setExtensionWindow:",
+            "flag": "method.KerberosPasswordChangeViewController.setExtensionWindow:",
+            "lang": "objc",
+            "addr": 4295005684
+          },
+          {
+            "name": "adUsername",
+            "flag": "method.KerberosPasswordChangeViewController.adUsername",
+            "lang": "objc",
+            "addr": 4295005704
+          },
+          {
+            "name": "setAdUsername:",
+            "flag": "method.KerberosPasswordChangeViewController.setAdUsername:",
+            "lang": "objc",
+            "addr": 4295005720
+          },
+          {
+            "name": "adRealm",
+            "flag": "method.KerberosPasswordChangeViewController.adRealm",
+            "lang": "objc",
+            "addr": 4295005732
+          },
+          {
+            "name": "setAdRealm:",
+            "flag": "method.KerberosPasswordChangeViewController.setAdRealm:",
+            "lang": "objc",
+            "addr": 4295005748
+          },
+          {
+            "name": "sAMAccountName",
+            "flag": "method.KerberosPasswordChangeViewController.sAMAccountName",
+            "lang": "objc",
+            "addr": 4295005760
+          },
+          {
+            "name": "setSAMAccountName:",
+            "flag": "method.KerberosPasswordChangeViewController.setSAMAccountName:",
+            "lang": "objc",
+            "addr": 4295005776
+          },
+          {
+            "name": "displayName",
+            "flag": "method.KerberosPasswordChangeViewController.displayName",
+            "lang": "objc",
+            "addr": 4295005788
+          },
+          {
+            "name": "setDisplayName:",
+            "flag": "method.KerberosPasswordChangeViewController.setDisplayName:",
+            "lang": "objc",
+            "addr": 4295005804
+          },
+          {
+            "name": "smartCardInUse",
+            "flag": "method.KerberosPasswordChangeViewController.smartCardInUse",
+            "lang": "objc",
+            "addr": 4295005816
+          },
+          {
+            "name": "setSmartCardInUse:",
+            "flag": "method.KerberosPasswordChangeViewController.setSmartCardInUse:",
+            "lang": "objc",
+            "addr": 4295005832
+          },
+          {
+            "name": "newPasswordPassed",
+            "flag": "method.KerberosPasswordChangeViewController.newPasswordPassed",
+            "lang": "objc",
+            "addr": 4295005848
+          },
+          {
+            "name": "setNewPasswordPassed:",
+            "flag": "method.KerberosPasswordChangeViewController.setNewPasswordPassed:",
+            "lang": "objc",
+            "addr": 4295005868
+          },
+          {
+            "name": "pwReqComplexity",
+            "flag": "method.KerberosPasswordChangeViewController.pwReqComplexity",
+            "lang": "objc",
+            "addr": 4295005884
+          },
+          {
+            "name": "setPwReqComplexity:",
+            "flag": "method.KerberosPasswordChangeViewController.setPwReqComplexity:",
+            "lang": "objc",
+            "addr": 4295005904
+          },
+          {
+            "name": "pwReqText",
+            "flag": "method.KerberosPasswordChangeViewController.pwReqText",
+            "lang": "objc",
+            "addr": 4295005920
+          },
+          {
+            "name": "setPwReqText:",
+            "flag": "method.KerberosPasswordChangeViewController.setPwReqText:",
+            "lang": "objc",
+            "addr": 4295005936
+          },
+          {
+            "name": "pwReqRTFData",
+            "flag": "method.KerberosPasswordChangeViewController.pwReqRTFData",
+            "lang": "objc",
+            "addr": 4295005948
+          },
+          {
+            "name": "setPwReqRTFData:",
+            "flag": "method.KerberosPasswordChangeViewController.setPwReqRTFData:",
+            "lang": "objc",
+            "addr": 4295005964
+          },
+          {
+            "name": "popoverIsShowing",
+            "flag": "method.KerberosPasswordChangeViewController.popoverIsShowing",
+            "lang": "objc",
+            "addr": 4295005976
+          },
+          {
+            "name": "setPopoverIsShowing:",
+            "flag": "method.KerberosPasswordChangeViewController.setPopoverIsShowing:",
+            "lang": "objc",
+            "addr": 4295005996
+          },
+          {
+            "name": "pwReqLength",
+            "flag": "method.KerberosPasswordChangeViewController.pwReqLength",
+            "lang": "objc",
+            "addr": 4295006012
+          },
+          {
+            "name": "setPwReqLength:",
+            "flag": "method.KerberosPasswordChangeViewController.setPwReqLength:",
+            "lang": "objc",
+            "addr": 4295006028
+          },
+          {
+            "name": "pwReqHistoryCount",
+            "flag": "method.KerberosPasswordChangeViewController.pwReqHistoryCount",
+            "lang": "objc",
+            "addr": 4295006040
+          },
+          {
+            "name": "setPwReqHistoryCount:",
+            "flag": "method.KerberosPasswordChangeViewController.setPwReqHistoryCount:",
+            "lang": "objc",
+            "addr": 4295006056
+          },
+          {
+            "name": "pwReqMinAge",
+            "flag": "method.KerberosPasswordChangeViewController.pwReqMinAge",
+            "lang": "objc",
+            "addr": 4295006068
+          },
+          {
+            "name": "setPwReqMinAge:",
+            "flag": "method.KerberosPasswordChangeViewController.setPwReqMinAge:",
+            "lang": "objc",
+            "addr": 4295006084
+          },
+          {
+            "name": "allowAutomaticLogin",
+            "flag": "method.KerberosPasswordChangeViewController.allowAutomaticLogin",
+            "lang": "objc",
+            "addr": 4295006096
+          },
+          {
+            "name": "setAllowAutomaticLogin:",
+            "flag": "method.KerberosPasswordChangeViewController.setAllowAutomaticLogin:",
+            "lang": "objc",
+            "addr": 4295006116
+          },
+          {
+            "name": "allowAutomaticLoginUserSetting",
+            "flag": "method.KerberosPasswordChangeViewController.allowAutomaticLoginUserSetting",
+            "lang": "objc",
+            "addr": 4295006132
+          },
+          {
+            "name": "setAllowAutomaticLoginUserSetting:",
+            "flag": "method.KerberosPasswordChangeViewController.setAllowAutomaticLoginUserSetting:",
+            "lang": "objc",
+            "addr": 4295006152
+          },
+          {
+            "name": "requireUserPresence",
+            "flag": "method.KerberosPasswordChangeViewController.requireUserPresence",
+            "lang": "objc",
+            "addr": 4295006168
+          },
+          {
+            "name": "setRequireUserPresence:",
+            "flag": "method.KerberosPasswordChangeViewController.setRequireUserPresence:",
+            "lang": "objc",
+            "addr": 4295006188
+          },
+          {
+            "name": "kerberosOpenDirectory",
+            "flag": "method.KerberosPasswordChangeViewController.kerberosOpenDirectory",
+            "lang": "objc",
+            "addr": 4295006204
+          },
+          {
+            "name": "setKerberosOpenDirectory:",
+            "flag": "method.KerberosPasswordChangeViewController.setKerberosOpenDirectory:",
+            "lang": "objc",
+            "addr": 4295006220
+          },
+          {
+            "name": "startedByOperation",
+            "flag": "method.KerberosPasswordChangeViewController.startedByOperation",
+            "lang": "objc",
+            "addr": 4295006232
+          },
+          {
+            "name": "setStartedByOperation:",
+            "flag": "method.KerberosPasswordChangeViewController.setStartedByOperation:",
+            "lang": "objc",
+            "addr": 4295006252
+          },
+          {
+            "name": "alertWindow",
+            "flag": "method.KerberosPasswordChangeViewController.alertWindow",
+            "lang": "objc",
+            "addr": 4295006268
+          },
+          {
+            "name": "setAlertWindow:",
+            "flag": "method.KerberosPasswordChangeViewController.setAlertWindow:",
+            "lang": "objc",
+            "addr": 4295006284
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.KerberosPasswordChangeViewController..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295006296
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "username",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295166324
+          },
+          {
+            "name": "usernameUPN",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295166388
+          },
+          {
+            "name": "realm",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295166384
+          },
+          {
+            "name": "_viewIsShowing",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295166240
+          },
+          {
+            "name": "_smartCardInUse",
+            "kind": "var",
+            "type": "C",
+            "addr": 4295166372
+          },
+          {
+            "name": "_newPasswordPassed",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295166376
+          },
+          {
+            "name": "_pwReqComplexity",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295166284
+          },
+          {
+            "name": "_popoverIsShowing",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295166244
+          },
+          {
+            "name": "_allowAutomaticLogin",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295166304
+          },
+          {
+            "name": "_allowAutomaticLoginUserSetting",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295166312
+          },
+          {
+            "name": "_requireUserPresence",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295166308
+          },
+          {
+            "name": "_startedByOperation",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295166252
+          },
+          {
+            "name": "cancelButton",
+            "kind": "var",
+            "type": "@\"NSButton\"",
+            "addr": 4295166336
+          },
+          {
+            "name": "progressSpinner",
+            "kind": "var",
+            "type": "@\"NSProgressIndicator\"",
+            "addr": 4295166340
+          },
+          {
+            "name": "changePasswordButton",
+            "kind": "var",
+            "type": "@\"NSButton\"",
+            "addr": 4295166344
+          },
+          {
+            "name": "_oldPasswordField",
+            "kind": "var",
+            "type": "@\"NSSecureTextField\"",
+            "addr": 4295166348
+          },
+          {
+            "name": "_updatedPasswordField",
+            "kind": "var",
+            "type": "@\"NSSecureTextField\"",
+            "addr": 4295166328
+          },
+          {
+            "name": "_updatedPasswordField2",
+            "kind": "var",
+            "type": "@\"NSSecureTextField\"",
+            "addr": 4295166352
+          },
+          {
+            "name": "_popover",
+            "kind": "var",
+            "type": "@\"NSPopover\"",
+            "addr": 4295166316
+          },
+          {
+            "name": "_pvc",
+            "kind": "var",
+            "type": "@\"KerberosPasswordPolicyPopoverInteractive\"",
+            "addr": 4295166256
+          },
+          {
+            "name": "_pvcComplex",
+            "kind": "var",
+            "type": "@\"KerberosPasswordPolicyPopoverInteractiveComplex\"",
+            "addr": 4295166260
+          },
+          {
+            "name": "_pvcText",
+            "kind": "var",
+            "type": "@\"KerberosPasswordPolicyPopoverText\"",
+            "addr": 4295166264
+          },
+          {
+            "name": "_delegate",
+            "kind": "var",
+            "type": "@\"<KerberosPasswordChangeViewControllerDelegate>\"",
+            "addr": 4295166356
+          },
+          {
+            "name": "_process",
+            "kind": "var",
+            "type": "@\"SOKerberosExtensionProcess\"",
+            "addr": 4295166360
+          },
+          {
+            "name": "_keychainHelper",
+            "kind": "var",
+            "type": "@\"SOKeychainHelper\"",
+            "addr": 4295166364
+          },
+          {
+            "name": "_currentUIContext",
+            "kind": "var",
+            "type": "@\"SOKerberosContext\"",
+            "addr": 4295166320
+          },
+          {
+            "name": "_extensionWindow",
+            "kind": "var",
+            "type": "@\"NSWindow\"",
+            "addr": 4295166368
+          },
+          {
+            "name": "_adUsername",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295166272
+          },
+          {
+            "name": "_adRealm",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295166268
+          },
+          {
+            "name": "_sAMAccountName",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295166276
+          },
+          {
+            "name": "_displayName",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295166332
+          },
+          {
+            "name": "_pwReqText",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295166288
+          },
+          {
+            "name": "_pwReqRTFData",
+            "kind": "var",
+            "type": "@\"NSData\"",
+            "addr": 4295166292
+          },
+          {
+            "name": "_pwReqLength",
+            "kind": "var",
+            "type": "@\"NSNumber\"",
+            "addr": 4295166280
+          },
+          {
+            "name": "_pwReqHistoryCount",
+            "kind": "var",
+            "type": "@\"NSNumber\"",
+            "addr": 4295166296
+          },
+          {
+            "name": "_pwReqMinAge",
+            "kind": "var",
+            "type": "@\"NSNumber\"",
+            "addr": 4295166300
+          },
+          {
+            "name": "_kerberosOpenDirectory",
+            "kind": "var",
+            "type": "@\"SOKerberosOpenDirectory\"",
+            "addr": 4295166248
+          },
+          {
+            "name": "_alertWindow",
+            "kind": "var",
+            "type": "@\"NSWindow\"",
+            "addr": 4295166380
+          },
+          {
+            "name": "adUsername",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "adRealm",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "sAMAccountName",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "displayName",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "smartCardInUse",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "newPasswordPassed",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "pwReqComplexity",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "pwReqText",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "pwReqRTFData",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "popoverIsShowing",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "pwReqLength",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "pwReqHistoryCount",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "pwReqMinAge",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "allowAutomaticLogin",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "allowAutomaticLoginUserSetting",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "requireUserPresence",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "kerberosOpenDirectory",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "startedByOperation",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "alertWindow",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "oldPasswordField",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "updatedPasswordField",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "updatedPasswordField2",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "progressSpinner",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "changePasswordButton",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "cancelButton",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "popover",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "pvc",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "pvcComplex",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "pvcText",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "delegate",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "viewIsShowing",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "process",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "keychainHelper",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "currentUIContext",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "extensionWindow",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "KerberosLocalPasswordViewController",
+        "addr": 4295167024,
+        "lang": "objc",
+        "index": 5,
+        "super": [
+          "NSViewController"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSViewController"
+        ],
+        "methods": [
+          {
+            "name": "viewDidLoad",
+            "flag": "method.KerberosLocalPasswordViewController.viewDidLoad",
+            "lang": "objc",
+            "addr": 4295006992
+          },
+          {
+            "name": "viewWillAppear",
+            "flag": "method.KerberosLocalPasswordViewController.viewWillAppear",
+            "lang": "objc",
+            "addr": 4295007072
+          },
+          {
+            "name": "viewDidDisappear",
+            "flag": "method.KerberosLocalPasswordViewController.viewDidDisappear",
+            "lang": "objc",
+            "addr": 4295007296
+          },
+          {
+            "name": "resetWindow",
+            "flag": "method.KerberosLocalPasswordViewController.resetWindow",
+            "lang": "objc",
+            "addr": 4295007448
+          },
+          {
+            "name": "respondAndClose:",
+            "flag": "method.KerberosLocalPasswordViewController.respondAndClose:",
+            "lang": "objc",
+            "addr": 4295007820
+          },
+          {
+            "name": "clickOKButton:",
+            "flag": "method.KerberosLocalPasswordViewController.clickOKButton:",
+            "lang": "objc",
+            "addr": 4295008076
+          },
+          {
+            "name": "clickCancelButton:",
+            "flag": "method.KerberosLocalPasswordViewController.clickCancelButton:",
+            "lang": "objc",
+            "addr": 4295012616
+          },
+          {
+            "name": "controlTextDidChange:",
+            "flag": "method.KerberosLocalPasswordViewController.controlTextDidChange:",
+            "lang": "objc",
+            "addr": 4295013632
+          },
+          {
+            "name": "showPasswordSyncAlertWithContext:",
+            "flag": "method.KerberosLocalPasswordViewController.showPasswordSyncAlertWithContext:",
+            "lang": "objc",
+            "addr": 4295013876
+          },
+          {
+            "name": "alertShowHelp:",
+            "flag": "method.KerberosLocalPasswordViewController.alertShowHelp:",
+            "lang": "objc",
+            "addr": 4295016192
+          },
+          {
+            "name": "closeCurrentAlert",
+            "flag": "method.KerberosLocalPasswordViewController.closeCurrentAlert",
+            "lang": "objc",
+            "addr": 4295016200
+          },
+          {
+            "name": "handleKerberosOperation:withMessage:",
+            "flag": "method.KerberosLocalPasswordViewController.handleKerberosOperation:withMessage:",
+            "lang": "objc",
+            "addr": 4295016328
+          },
+          {
+            "name": "cancelCurrentOperation",
+            "flag": "method.KerberosLocalPasswordViewController.cancelCurrentOperation",
+            "lang": "objc",
+            "addr": 4295016492
+          },
+          {
+            "name": "cancelButton",
+            "flag": "method.KerberosLocalPasswordViewController.cancelButton",
+            "lang": "objc",
+            "addr": 4295016560
+          },
+          {
+            "name": "setCancelButton:",
+            "flag": "method.KerberosLocalPasswordViewController.setCancelButton:",
+            "lang": "objc",
+            "addr": 4295016612
+          },
+          {
+            "name": "progressIndicator",
+            "flag": "method.KerberosLocalPasswordViewController.progressIndicator",
+            "lang": "objc",
+            "addr": 4295016632
+          },
+          {
+            "name": "setProgressIndicator:",
+            "flag": "method.KerberosLocalPasswordViewController.setProgressIndicator:",
+            "lang": "objc",
+            "addr": 4295016684
+          },
+          {
+            "name": "adPasswordField",
+            "flag": "method.KerberosLocalPasswordViewController.adPasswordField",
+            "lang": "objc",
+            "addr": 4295016704
+          },
+          {
+            "name": "setAdPasswordField:",
+            "flag": "method.KerberosLocalPasswordViewController.setAdPasswordField:",
+            "lang": "objc",
+            "addr": 4295016756
+          },
+          {
+            "name": "localPasswordField",
+            "flag": "method.KerberosLocalPasswordViewController.localPasswordField",
+            "lang": "objc",
+            "addr": 4295016776
+          },
+          {
+            "name": "setLocalPasswordField:",
+            "flag": "method.KerberosLocalPasswordViewController.setLocalPasswordField:",
+            "lang": "objc",
+            "addr": 4295016828
+          },
+          {
+            "name": "keychainHelper",
+            "flag": "method.KerberosLocalPasswordViewController.keychainHelper",
+            "lang": "objc",
+            "addr": 4295016848
+          },
+          {
+            "name": "setKeychainHelper:",
+            "flag": "method.KerberosLocalPasswordViewController.setKeychainHelper:",
+            "lang": "objc",
+            "addr": 4295016864
+          },
+          {
+            "name": "process",
+            "flag": "method.KerberosLocalPasswordViewController.process",
+            "lang": "objc",
+            "addr": 4295016884
+          },
+          {
+            "name": "setProcess:",
+            "flag": "method.KerberosLocalPasswordViewController.setProcess:",
+            "lang": "objc",
+            "addr": 4295016900
+          },
+          {
+            "name": "keychianHelper",
+            "flag": "method.KerberosLocalPasswordViewController.keychianHelper",
+            "lang": "objc",
+            "addr": 4295016920
+          },
+          {
+            "name": "setKeychianHelper:",
+            "flag": "method.KerberosLocalPasswordViewController.setKeychianHelper:",
+            "lang": "objc",
+            "addr": 4295016936
+          },
+          {
+            "name": "currentUIContext",
+            "flag": "method.KerberosLocalPasswordViewController.currentUIContext",
+            "lang": "objc",
+            "addr": 4295016956
+          },
+          {
+            "name": "setCurrentUIContext:",
+            "flag": "method.KerberosLocalPasswordViewController.setCurrentUIContext:",
+            "lang": "objc",
+            "addr": 4295016972
+          },
+          {
+            "name": "extensionWindow",
+            "flag": "method.KerberosLocalPasswordViewController.extensionWindow",
+            "lang": "objc",
+            "addr": 4295016992
+          },
+          {
+            "name": "setExtensionWindow:",
+            "flag": "method.KerberosLocalPasswordViewController.setExtensionWindow:",
+            "lang": "objc",
+            "addr": 4295017044
+          },
+          {
+            "name": "adUsername",
+            "flag": "method.KerberosLocalPasswordViewController.adUsername",
+            "lang": "objc",
+            "addr": 4295017064
+          },
+          {
+            "name": "setAdUsername:",
+            "flag": "method.KerberosLocalPasswordViewController.setAdUsername:",
+            "lang": "objc",
+            "addr": 4295017080
+          },
+          {
+            "name": "adRealm",
+            "flag": "method.KerberosLocalPasswordViewController.adRealm",
+            "lang": "objc",
+            "addr": 4295017100
+          },
+          {
+            "name": "setAdRealm:",
+            "flag": "method.KerberosLocalPasswordViewController.setAdRealm:",
+            "lang": "objc",
+            "addr": 4295017116
+          },
+          {
+            "name": "passwordSyncSucceeded",
+            "flag": "method.KerberosLocalPasswordViewController.passwordSyncSucceeded",
+            "lang": "objc",
+            "addr": 4295017136
+          },
+          {
+            "name": "setPasswordSyncSucceeded:",
+            "flag": "method.KerberosLocalPasswordViewController.setPasswordSyncSucceeded:",
+            "lang": "objc",
+            "addr": 4295017152
+          },
+          {
+            "name": "alertWindow",
+            "flag": "method.KerberosLocalPasswordViewController.alertWindow",
+            "lang": "objc",
+            "addr": 4295017168
+          },
+          {
+            "name": "setAlertWindow:",
+            "flag": "method.KerberosLocalPasswordViewController.setAlertWindow:",
+            "lang": "objc",
+            "addr": 4295017184
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.KerberosLocalPasswordViewController..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295017196
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "localPasswordField",
+            "kind": "var",
+            "type": "@\"NSSecureTextField\"",
+            "addr": 4295166408
+          },
+          {
+            "name": "okButton",
+            "kind": "var",
+            "type": "@\"NSButton\"",
+            "addr": 4295166396
+          },
+          {
+            "name": "cancelButton",
+            "kind": "var",
+            "type": "@\"NSButton\"",
+            "addr": 4295166400
+          },
+          {
+            "name": "progressIndicator",
+            "kind": "var",
+            "type": "@\"NSProgressIndicator\"",
+            "addr": 4295166404
+          },
+          {
+            "name": "adPasswordField",
+            "kind": "var",
+            "type": "@\"NSSecureTextField\"",
+            "addr": 4295166412
+          },
+          {
+            "name": "_passwordSyncSucceeded",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295166392
+          },
+          {
+            "name": "keychainHelper",
+            "kind": "var",
+            "type": "@\"SOKeychainHelper\"",
+            "addr": 4295166424
+          },
+          {
+            "name": "process",
+            "kind": "var",
+            "type": "@\"SOKerberosExtensionProcess\"",
+            "addr": 4295166428
+          },
+          {
+            "name": "_keychianHelper",
+            "kind": "var",
+            "type": "@\"SOKeychainHelper\"",
+            "addr": 4295166432
+          },
+          {
+            "name": "_currentUIContext",
+            "kind": "var",
+            "type": "@\"SOKerberosContext\"",
+            "addr": 4295166436
+          },
+          {
+            "name": "_extensionWindow",
+            "kind": "var",
+            "type": "@\"NSWindow\"",
+            "addr": 4295166440
+          },
+          {
+            "name": "_adUsername",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295166416
+          },
+          {
+            "name": "_adRealm",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295166420
+          },
+          {
+            "name": "_alertWindow",
+            "kind": "var",
+            "type": "@\"NSWindow\"",
+            "addr": 4295166444
+          },
+          {
+            "name": "adUsername",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "adRealm",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "passwordSyncSucceeded",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "alertWindow",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "cancelButton",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "progressIndicator",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "adPasswordField",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "localPasswordField",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "process",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "keychianHelper",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "currentUIContext",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "extensionWindow",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "keychainHelper",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "KerberosCertPickerPopover",
+        "addr": 4295167104,
+        "lang": "objc",
+        "index": 6,
+        "super": [
+          "NSViewController"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSViewController"
+        ],
+        "methods": [
+          {
+            "name": "viewDidLoad",
+            "flag": "method.KerberosCertPickerPopover.viewDidLoad",
+            "lang": "objc",
+            "addr": 4295017548
+          },
+          {
+            "name": "viewWillAppear",
+            "flag": "method.KerberosCertPickerPopover.viewWillAppear",
+            "lang": "objc",
+            "addr": 4295017696
+          },
+          {
+            "name": "viewDidAppear",
+            "flag": "method.KerberosCertPickerPopover.viewDidAppear",
+            "lang": "objc",
+            "addr": 4295017992
+          },
+          {
+            "name": "viewWillDisappear",
+            "flag": "method.KerberosCertPickerPopover.viewWillDisappear",
+            "lang": "objc",
+            "addr": 4295018868
+          },
+          {
+            "name": "clearSmartcardTable",
+            "flag": "method.KerberosCertPickerPopover.clearSmartcardTable",
+            "lang": "objc",
+            "addr": 4295019116
+          },
+          {
+            "name": "addSmartcardIdentitiesToTable",
+            "flag": "method.KerberosCertPickerPopover.addSmartcardIdentitiesToTable",
+            "lang": "objc",
+            "addr": 4295019356
+          },
+          {
+            "name": "clickSelectCert:",
+            "flag": "method.KerberosCertPickerPopover.clickSelectCert:",
+            "lang": "objc",
+            "addr": 4295021204
+          },
+          {
+            "name": "clickInspectCert:",
+            "flag": "method.KerberosCertPickerPopover.clickInspectCert:",
+            "lang": "objc",
+            "addr": 4295021568
+          },
+          {
+            "name": "delegate",
+            "flag": "method.KerberosCertPickerPopover.delegate",
+            "lang": "objc",
+            "addr": 4295022076
+          },
+          {
+            "name": "setDelegate:",
+            "flag": "method.KerberosCertPickerPopover.setDelegate:",
+            "lang": "objc",
+            "addr": 4295022128
+          },
+          {
+            "name": "certsList",
+            "flag": "method.KerberosCertPickerPopover.certsList",
+            "lang": "objc",
+            "addr": 4295022148
+          },
+          {
+            "name": "setCertsList:",
+            "flag": "method.KerberosCertPickerPopover.setCertsList:",
+            "lang": "objc",
+            "addr": 4295022164
+          },
+          {
+            "name": "certsTableView",
+            "flag": "method.KerberosCertPickerPopover.certsTableView",
+            "lang": "objc",
+            "addr": 4295022176
+          },
+          {
+            "name": "setCertsTableView:",
+            "flag": "method.KerberosCertPickerPopover.setCertsTableView:",
+            "lang": "objc",
+            "addr": 4295022228
+          },
+          {
+            "name": "tokenWatcher",
+            "flag": "method.KerberosCertPickerPopover.tokenWatcher",
+            "lang": "objc",
+            "addr": 4295022248
+          },
+          {
+            "name": "setTokenWatcher:",
+            "flag": "method.KerberosCertPickerPopover.setTokenWatcher:",
+            "lang": "objc",
+            "addr": 4295022264
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.KerberosCertPickerPopover..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295022276
+          },
+          {
+            "name": "getAvailableIdentities",
+            "flag": "method.class.KerberosCertPickerPopover.getAvailableIdentities",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295019688
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_delegate",
+            "kind": "var",
+            "type": "@\"<certPickerDelegate>\"",
+            "addr": 4295166456
+          },
+          {
+            "name": "_certsList",
+            "kind": "var",
+            "type": "@\"NSArrayController\"",
+            "addr": 4295166448
+          },
+          {
+            "name": "_certsTableView",
+            "kind": "var",
+            "type": "@\"NSTableView\"",
+            "addr": 4295166452
+          },
+          {
+            "name": "_tokenWatcher",
+            "kind": "var",
+            "type": "@\"TKTokenWatcher\"",
+            "addr": 4295166460
+          },
+          {
+            "name": "certsList",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "certsTableView",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "tokenWatcher",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "delegate",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "KerberosMacLoginViewController",
+        "addr": 4295167184,
+        "lang": "objc",
+        "index": 7,
+        "super": [
+          "NSViewController"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSViewController"
+        ],
+        "methods": [
+          {
+            "name": "initWithNibName:bundle:",
+            "flag": "method.KerberosMacLoginViewController.initWithNibName:bundle:",
+            "lang": "objc",
+            "addr": 4295022464
+          },
+          {
+            "name": "initWithCoder:",
+            "flag": "method.KerberosMacLoginViewController.initWithCoder:",
+            "lang": "objc",
+            "addr": 4295022576
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.KerberosMacLoginViewController.dealloc",
+            "lang": "objc",
+            "addr": 4295022688
+          },
+          {
+            "name": "viewDidLoad",
+            "flag": "method.KerberosMacLoginViewController.viewDidLoad",
+            "lang": "objc",
+            "addr": 4295022804
+          },
+          {
+            "name": "viewWillAppear",
+            "flag": "method.KerberosMacLoginViewController.viewWillAppear",
+            "lang": "objc",
+            "addr": 4295023176
+          },
+          {
+            "name": "viewDidDisappear",
+            "flag": "method.KerberosMacLoginViewController.viewDidDisappear",
+            "lang": "objc",
+            "addr": 4295023344
+          },
+          {
+            "name": "closeCurrentAlert",
+            "flag": "method.KerberosMacLoginViewController.closeCurrentAlert",
+            "lang": "objc",
+            "addr": 4295023428
+          },
+          {
+            "name": "setupDefaults",
+            "flag": "method.KerberosMacLoginViewController.setupDefaults",
+            "lang": "objc",
+            "addr": 4295023556
+          },
+          {
+            "name": "smartCardModeEnabled",
+            "flag": "method.KerberosMacLoginViewController.smartCardModeEnabled",
+            "lang": "objc",
+            "addr": 4295024412
+          },
+          {
+            "name": "startInSmartCardMode",
+            "flag": "method.KerberosMacLoginViewController.startInSmartCardMode",
+            "lang": "objc",
+            "addr": 4295024492
+          },
+          {
+            "name": "allowSmartCard",
+            "flag": "method.KerberosMacLoginViewController.allowSmartCard",
+            "lang": "objc",
+            "addr": 4295024736
+          },
+          {
+            "name": "allowPassword",
+            "flag": "method.KerberosMacLoginViewController.allowPassword",
+            "lang": "objc",
+            "addr": 4295024980
+          },
+          {
+            "name": "useKerberosPasswordClicked:",
+            "flag": "method.KerberosMacLoginViewController.useKerberosPasswordClicked:",
+            "lang": "objc",
+            "addr": 4295025224
+          },
+          {
+            "name": "observeValueForKeyPath:ofObject:change:context:",
+            "flag": "method.KerberosMacLoginViewController.observeValueForKeyPath:ofObject:change:context:",
+            "lang": "objc",
+            "addr": 4295025632
+          },
+          {
+            "name": "laCancelClicked:",
+            "flag": "method.KerberosMacLoginViewController.laCancelClicked:",
+            "lang": "objc",
+            "addr": 4295025912
+          },
+          {
+            "name": "cancelClicked:",
+            "flag": "method.KerberosMacLoginViewController.cancelClicked:",
+            "lang": "objc",
+            "addr": 4295025916
+          },
+          {
+            "name": "identityLoginClicked:",
+            "flag": "method.KerberosMacLoginViewController.identityLoginClicked:",
+            "lang": "objc",
+            "addr": 4295026524
+          },
+          {
+            "name": "loginClicked:",
+            "flag": "method.KerberosMacLoginViewController.loginClicked:",
+            "lang": "objc",
+            "addr": 4295027488
+          },
+          {
+            "name": "handleSignInProgressIsRunning:",
+            "flag": "method.KerberosMacLoginViewController.handleSignInProgressIsRunning:",
+            "lang": "objc",
+            "addr": 4295029420
+          },
+          {
+            "name": "chooseIdentityClicked:",
+            "flag": "method.KerberosMacLoginViewController.chooseIdentityClicked:",
+            "lang": "objc",
+            "addr": 4295030084
+          },
+          {
+            "name": "doCertPickerClose",
+            "flag": "method.KerberosMacLoginViewController.doCertPickerClose",
+            "lang": "objc",
+            "addr": 4295030472
+          },
+          {
+            "name": "switchSmartCardClicked:",
+            "flag": "method.KerberosMacLoginViewController.switchSmartCardClicked:",
+            "lang": "objc",
+            "addr": 4295030604
+          },
+          {
+            "name": "handlePasswordChangeWithContext:",
+            "flag": "method.KerberosMacLoginViewController.handlePasswordChangeWithContext:",
+            "lang": "objc",
+            "addr": 4295030892
+          },
+          {
+            "name": "handleAddKeychainCreds:completion:",
+            "flag": "method.KerberosMacLoginViewController.handleAddKeychainCreds:completion:",
+            "lang": "objc",
+            "addr": 4295031220
+          },
+          {
+            "name": "didChooseIdentity:",
+            "flag": "method.KerberosMacLoginViewController.didChooseIdentity:",
+            "lang": "objc",
+            "addr": 4295032832
+          },
+          {
+            "name": "controlTextDidChange:",
+            "flag": "method.KerberosMacLoginViewController.controlTextDidChange:",
+            "lang": "objc",
+            "addr": 4295033420
+          },
+          {
+            "name": "didClose",
+            "flag": "method.KerberosMacLoginViewController.didClose",
+            "lang": "objc",
+            "addr": 4295033808
+          },
+          {
+            "name": "didChangePassword",
+            "flag": "method.KerberosMacLoginViewController.didChangePassword",
+            "lang": "objc",
+            "addr": 4295034116
+          },
+          {
+            "name": "handleKerberosOperation:withMessage:",
+            "flag": "method.KerberosMacLoginViewController.handleKerberosOperation:withMessage:",
+            "lang": "objc",
+            "addr": 4295034492
+          },
+          {
+            "name": "cancelCurrentOperation",
+            "flag": "method.KerberosMacLoginViewController.cancelCurrentOperation",
+            "lang": "objc",
+            "addr": 4295034664
+          },
+          {
+            "name": "attemptKerberosWithContext:",
+            "flag": "method.KerberosMacLoginViewController.attemptKerberosWithContext:",
+            "lang": "objc",
+            "addr": 4295034776
+          },
+          {
+            "name": "handleResult:context:error:",
+            "flag": "method.KerberosMacLoginViewController.handleResult:context:error:",
+            "lang": "objc",
+            "addr": 4295035124
+          },
+          {
+            "name": "createEmbeddedLAViewWithContext:",
+            "flag": "method.KerberosMacLoginViewController.createEmbeddedLAViewWithContext:",
+            "lang": "objc",
+            "addr": 4295041320
+          },
+          {
+            "name": "promptForMDMCertificateWithContext:",
+            "flag": "method.KerberosMacLoginViewController.promptForMDMCertificateWithContext:",
+            "lang": "objc",
+            "addr": 4295042244
+          },
+          {
+            "name": "promptForPasswordWithContext:",
+            "flag": "method.KerberosMacLoginViewController.promptForPasswordWithContext:",
+            "lang": "objc",
+            "addr": 4295046876
+          },
+          {
+            "name": "promptForUsernameOrPasswordWithContext:",
+            "flag": "method.KerberosMacLoginViewController.promptForUsernameOrPasswordWithContext:",
+            "lang": "objc",
+            "addr": 4295047544
+          },
+          {
+            "name": "promptForPasswordUsingLAContextWithContext:",
+            "flag": "method.KerberosMacLoginViewController.promptForPasswordUsingLAContextWithContext:",
+            "lang": "objc",
+            "addr": 4295050156
+          },
+          {
+            "name": "promptForSmartcardWithContext:",
+            "flag": "method.KerberosMacLoginViewController.promptForSmartcardWithContext:",
+            "lang": "objc",
+            "addr": 4295055156
+          },
+          {
+            "name": "showMessage:andContext:completion:",
+            "flag": "method.KerberosMacLoginViewController.showMessage:andContext:completion:",
+            "lang": "objc",
+            "addr": 4295059360
+          },
+          {
+            "name": "handleUICustomization:",
+            "flag": "method.KerberosMacLoginViewController.handleUICustomization:",
+            "lang": "objc",
+            "addr": 4295061516
+          },
+          {
+            "name": "showAuthControllerForContext:completion:",
+            "flag": "method.KerberosMacLoginViewController.showAuthControllerForContext:completion:",
+            "lang": "objc",
+            "addr": 4295062336
+          },
+          {
+            "name": "resetUI",
+            "flag": "method.KerberosMacLoginViewController.resetUI",
+            "lang": "objc",
+            "addr": 4295062868
+          },
+          {
+            "name": "process",
+            "flag": "method.KerberosMacLoginViewController.process",
+            "lang": "objc",
+            "addr": 4295063688
+          },
+          {
+            "name": "setProcess:",
+            "flag": "method.KerberosMacLoginViewController.setProcess:",
+            "lang": "objc",
+            "addr": 4295063704
+          },
+          {
+            "name": "keychainHelper",
+            "flag": "method.KerberosMacLoginViewController.keychainHelper",
+            "lang": "objc",
+            "addr": 4295063724
+          },
+          {
+            "name": "setKeychainHelper:",
+            "flag": "method.KerberosMacLoginViewController.setKeychainHelper:",
+            "lang": "objc",
+            "addr": 4295063740
+          },
+          {
+            "name": "currentUIContext",
+            "flag": "method.KerberosMacLoginViewController.currentUIContext",
+            "lang": "objc",
+            "addr": 4295063760
+          },
+          {
+            "name": "setCurrentUIContext:",
+            "flag": "method.KerberosMacLoginViewController.setCurrentUIContext:",
+            "lang": "objc",
+            "addr": 4295063776
+          },
+          {
+            "name": "extensionWindow",
+            "flag": "method.KerberosMacLoginViewController.extensionWindow",
+            "lang": "objc",
+            "addr": 4295063796
+          },
+          {
+            "name": "setExtensionWindow:",
+            "flag": "method.KerberosMacLoginViewController.setExtensionWindow:",
+            "lang": "objc",
+            "addr": 4295063848
+          },
+          {
+            "name": "optionsButton",
+            "flag": "method.KerberosMacLoginViewController.optionsButton",
+            "lang": "objc",
+            "addr": 4295063868
+          },
+          {
+            "name": "setOptionsButton:",
+            "flag": "method.KerberosMacLoginViewController.setOptionsButton:",
+            "lang": "objc",
+            "addr": 4295063920
+          },
+          {
+            "name": "helpTextLabel",
+            "flag": "method.KerberosMacLoginViewController.helpTextLabel",
+            "lang": "objc",
+            "addr": 4295063940
+          },
+          {
+            "name": "setHelpTextLabel:",
+            "flag": "method.KerberosMacLoginViewController.setHelpTextLabel:",
+            "lang": "objc",
+            "addr": 4295063992
+          },
+          {
+            "name": "helpTextWidthConstraint",
+            "flag": "method.KerberosMacLoginViewController.helpTextWidthConstraint",
+            "lang": "objc",
+            "addr": 4295064012
+          },
+          {
+            "name": "setHelpTextWidthConstraint:",
+            "flag": "method.KerberosMacLoginViewController.setHelpTextWidthConstraint:",
+            "lang": "objc",
+            "addr": 4295064064
+          },
+          {
+            "name": "helpTextHeightConstraint",
+            "flag": "method.KerberosMacLoginViewController.helpTextHeightConstraint",
+            "lang": "objc",
+            "addr": 4295064084
+          },
+          {
+            "name": "setHelpTextHeightConstraint:",
+            "flag": "method.KerberosMacLoginViewController.setHelpTextHeightConstraint:",
+            "lang": "objc",
+            "addr": 4295064136
+          },
+          {
+            "name": "nameTextField",
+            "flag": "method.KerberosMacLoginViewController.nameTextField",
+            "lang": "objc",
+            "addr": 4295064156
+          },
+          {
+            "name": "setNameTextField:",
+            "flag": "method.KerberosMacLoginViewController.setNameTextField:",
+            "lang": "objc",
+            "addr": 4295064208
+          },
+          {
+            "name": "passwordTextField",
+            "flag": "method.KerberosMacLoginViewController.passwordTextField",
+            "lang": "objc",
+            "addr": 4295064228
+          },
+          {
+            "name": "setPasswordTextField:",
+            "flag": "method.KerberosMacLoginViewController.setPasswordTextField:",
+            "lang": "objc",
+            "addr": 4295064280
+          },
+          {
+            "name": "loginButton",
+            "flag": "method.KerberosMacLoginViewController.loginButton",
+            "lang": "objc",
+            "addr": 4295064300
+          },
+          {
+            "name": "setLoginButton:",
+            "flag": "method.KerberosMacLoginViewController.setLoginButton:",
+            "lang": "objc",
+            "addr": 4295064352
+          },
+          {
+            "name": "loginProgressIndicator",
+            "flag": "method.KerberosMacLoginViewController.loginProgressIndicator",
+            "lang": "objc",
+            "addr": 4295064372
+          },
+          {
+            "name": "setLoginProgressIndicator:",
+            "flag": "method.KerberosMacLoginViewController.setLoginProgressIndicator:",
+            "lang": "objc",
+            "addr": 4295064424
+          },
+          {
+            "name": "chooseIdentity",
+            "flag": "method.KerberosMacLoginViewController.chooseIdentity",
+            "lang": "objc",
+            "addr": 4295064444
+          },
+          {
+            "name": "setChooseIdentity:",
+            "flag": "method.KerberosMacLoginViewController.setChooseIdentity:",
+            "lang": "objc",
+            "addr": 4295064496
+          },
+          {
+            "name": "smartCardConfigured",
+            "flag": "method.KerberosMacLoginViewController.smartCardConfigured",
+            "lang": "objc",
+            "addr": 4295064516
+          },
+          {
+            "name": "setSmartCardConfigured:",
+            "flag": "method.KerberosMacLoginViewController.setSmartCardConfigured:",
+            "lang": "objc",
+            "addr": 4295064568
+          },
+          {
+            "name": "loginCancelButton",
+            "flag": "method.KerberosMacLoginViewController.loginCancelButton",
+            "lang": "objc",
+            "addr": 4295064588
+          },
+          {
+            "name": "setLoginCancelButton:",
+            "flag": "method.KerberosMacLoginViewController.setLoginCancelButton:",
+            "lang": "objc",
+            "addr": 4295064640
+          },
+          {
+            "name": "useKerberosPasswordButton",
+            "flag": "method.KerberosMacLoginViewController.useKerberosPasswordButton",
+            "lang": "objc",
+            "addr": 4295064660
+          },
+          {
+            "name": "setUseKerberosPasswordButton:",
+            "flag": "method.KerberosMacLoginViewController.setUseKerberosPasswordButton:",
+            "lang": "objc",
+            "addr": 4295064712
+          },
+          {
+            "name": "LAAuthReasonLabel",
+            "flag": "method.KerberosMacLoginViewController.LAAuthReasonLabel",
+            "lang": "objc",
+            "addr": 4295064732
+          },
+          {
+            "name": "setLAAuthReasonLabel:",
+            "flag": "method.KerberosMacLoginViewController.setLAAuthReasonLabel:",
+            "lang": "objc",
+            "addr": 4295064784
+          },
+          {
+            "name": "laAuthViewContainer",
+            "flag": "method.KerberosMacLoginViewController.laAuthViewContainer",
+            "lang": "objc",
+            "addr": 4295064804
+          },
+          {
+            "name": "setLaAuthViewContainer:",
+            "flag": "method.KerberosMacLoginViewController.setLaAuthViewContainer:",
+            "lang": "objc",
+            "addr": 4295064856
+          },
+          {
+            "name": "laAuthView",
+            "flag": "method.KerberosMacLoginViewController.laAuthView",
+            "lang": "objc",
+            "addr": 4295064876
+          },
+          {
+            "name": "setLaAuthView:",
+            "flag": "method.KerberosMacLoginViewController.setLaAuthView:",
+            "lang": "objc",
+            "addr": 4295064892
+          },
+          {
+            "name": "laStackView",
+            "flag": "method.KerberosMacLoginViewController.laStackView",
+            "lang": "objc",
+            "addr": 4295064904
+          },
+          {
+            "name": "setLaStackView:",
+            "flag": "method.KerberosMacLoginViewController.setLaStackView:",
+            "lang": "objc",
+            "addr": 4295064956
+          },
+          {
+            "name": "identityStackView",
+            "flag": "method.KerberosMacLoginViewController.identityStackView",
+            "lang": "objc",
+            "addr": 4295064976
+          },
+          {
+            "name": "setIdentityStackView:",
+            "flag": "method.KerberosMacLoginViewController.setIdentityStackView:",
+            "lang": "objc",
+            "addr": 4295065028
+          },
+          {
+            "name": "switchSmartCardButton",
+            "flag": "method.KerberosMacLoginViewController.switchSmartCardButton",
+            "lang": "objc",
+            "addr": 4295065048
+          },
+          {
+            "name": "setSwitchSmartCardButton:",
+            "flag": "method.KerberosMacLoginViewController.setSwitchSmartCardButton:",
+            "lang": "objc",
+            "addr": 4295065100
+          },
+          {
+            "name": "passwordChangeVC",
+            "flag": "method.KerberosMacLoginViewController.passwordChangeVC",
+            "lang": "objc",
+            "addr": 4295065120
+          },
+          {
+            "name": "setPasswordChangeVC:",
+            "flag": "method.KerberosMacLoginViewController.setPasswordChangeVC:",
+            "lang": "objc",
+            "addr": 4295065136
+          },
+          {
+            "name": "identitySelectViewController",
+            "flag": "method.KerberosMacLoginViewController.identitySelectViewController",
+            "lang": "objc",
+            "addr": 4295065148
+          },
+          {
+            "name": "setIdentitySelectViewController:",
+            "flag": "method.KerberosMacLoginViewController.setIdentitySelectViewController:",
+            "lang": "objc",
+            "addr": 4295065164
+          },
+          {
+            "name": "identitySelectPopover",
+            "flag": "method.KerberosMacLoginViewController.identitySelectPopover",
+            "lang": "objc",
+            "addr": 4295065176
+          },
+          {
+            "name": "setIdentitySelectPopover:",
+            "flag": "method.KerberosMacLoginViewController.setIdentitySelectPopover:",
+            "lang": "objc",
+            "addr": 4295065192
+          },
+          {
+            "name": "viewControllerIsShowing",
+            "flag": "method.KerberosMacLoginViewController.viewControllerIsShowing",
+            "lang": "objc",
+            "addr": 4295065204
+          },
+          {
+            "name": "setViewControllerIsShowing:",
+            "flag": "method.KerberosMacLoginViewController.setViewControllerIsShowing:",
+            "lang": "objc",
+            "addr": 4295065220
+          },
+          {
+            "name": "promptIsShowing",
+            "flag": "method.KerberosMacLoginViewController.promptIsShowing",
+            "lang": "objc",
+            "addr": 4295065236
+          },
+          {
+            "name": "setPromptIsShowing:",
+            "flag": "method.KerberosMacLoginViewController.setPromptIsShowing:",
+            "lang": "objc",
+            "addr": 4295065256
+          },
+          {
+            "name": "promptForSmartCard",
+            "flag": "method.KerberosMacLoginViewController.promptForSmartCard",
+            "lang": "objc",
+            "addr": 4295065272
+          },
+          {
+            "name": "setPromptForSmartCard:",
+            "flag": "method.KerberosMacLoginViewController.setPromptForSmartCard:",
+            "lang": "objc",
+            "addr": 4295065288
+          },
+          {
+            "name": "tokenWatcher",
+            "flag": "method.KerberosMacLoginViewController.tokenWatcher",
+            "lang": "objc",
+            "addr": 4295065304
+          },
+          {
+            "name": "setTokenWatcher:",
+            "flag": "method.KerberosMacLoginViewController.setTokenWatcher:",
+            "lang": "objc",
+            "addr": 4295065320
+          },
+          {
+            "name": "alertWindow",
+            "flag": "method.KerberosMacLoginViewController.alertWindow",
+            "lang": "objc",
+            "addr": 4295065332
+          },
+          {
+            "name": "setAlertWindow:",
+            "flag": "method.KerberosMacLoginViewController.setAlertWindow:",
+            "lang": "objc",
+            "addr": 4295065348
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.KerberosMacLoginViewController..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295065360
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_viewControllerIsShowing",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295166568
+          },
+          {
+            "name": "_promptIsShowing",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295166572
+          },
+          {
+            "name": "_promptForSmartCard",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295166476
+          },
+          {
+            "name": "_process",
+            "kind": "var",
+            "type": "@\"SOKerberosExtensionProcess\"",
+            "addr": 4295166496
+          },
+          {
+            "name": "_keychainHelper",
+            "kind": "var",
+            "type": "@\"SOKeychainHelper\"",
+            "addr": 4295166500
+          },
+          {
+            "name": "_currentUIContext",
+            "kind": "var",
+            "type": "@\"SOKerberosContext\"",
+            "addr": 4295166484
+          },
+          {
+            "name": "_extensionWindow",
+            "kind": "var",
+            "type": "@\"NSWindow\"",
+            "addr": 4295166504
+          },
+          {
+            "name": "_optionsButton",
+            "kind": "var",
+            "type": "@\"NSPopUpButton\"",
+            "addr": 4295166508
+          },
+          {
+            "name": "_helpTextLabel",
+            "kind": "var",
+            "type": "@\"NSTextField\"",
+            "addr": 4295166512
+          },
+          {
+            "name": "_helpTextWidthConstraint",
+            "kind": "var",
+            "type": "@\"NSLayoutConstraint\"",
+            "addr": 4295166516
+          },
+          {
+            "name": "_helpTextHeightConstraint",
+            "kind": "var",
+            "type": "@\"NSLayoutConstraint\"",
+            "addr": 4295166520
+          },
+          {
+            "name": "_nameTextField",
+            "kind": "var",
+            "type": "@\"NSTextField\"",
+            "addr": 4295166464
+          },
+          {
+            "name": "_passwordTextField",
+            "kind": "var",
+            "type": "@\"NSSecureTextField\"",
+            "addr": 4295166492
+          },
+          {
+            "name": "_loginButton",
+            "kind": "var",
+            "type": "@\"NSButton\"",
+            "addr": 4295166524
+          },
+          {
+            "name": "_loginProgressIndicator",
+            "kind": "var",
+            "type": "@\"NSProgressIndicator\"",
+            "addr": 4295166528
+          },
+          {
+            "name": "_chooseIdentity",
+            "kind": "var",
+            "type": "@\"NSButton\"",
+            "addr": 4295166532
+          },
+          {
+            "name": "_smartCardConfigured",
+            "kind": "var",
+            "type": "@\"NSTextField\"",
+            "addr": 4295166488
+          },
+          {
+            "name": "_loginCancelButton",
+            "kind": "var",
+            "type": "@\"NSButton\"",
+            "addr": 4295166536
+          },
+          {
+            "name": "_useKerberosPasswordButton",
+            "kind": "var",
+            "type": "@\"NSButton\"",
+            "addr": 4295166540
+          },
+          {
+            "name": "_LAAuthReasonLabel",
+            "kind": "var",
+            "type": "@\"NSTextField\"",
+            "addr": 4295166544
+          },
+          {
+            "name": "_laAuthViewContainer",
+            "kind": "var",
+            "type": "@\"NSView\"",
+            "addr": 4295166548
+          },
+          {
+            "name": "_laAuthView",
+            "kind": "var",
+            "type": "@\"LAAuthenticationView\"",
+            "addr": 4295166552
+          },
+          {
+            "name": "_laStackView",
+            "kind": "var",
+            "type": "@\"NSStackView\"",
+            "addr": 4295166556
+          },
+          {
+            "name": "_identityStackView",
+            "kind": "var",
+            "type": "@\"NSStackView\"",
+            "addr": 4295166560
+          },
+          {
+            "name": "_switchSmartCardButton",
+            "kind": "var",
+            "type": "@\"NSButton\"",
+            "addr": 4295166564
+          },
+          {
+            "name": "_passwordChangeVC",
+            "kind": "var",
+            "type": "@\"KerberosPasswordChangeViewController\"",
+            "addr": 4295166480
+          },
+          {
+            "name": "_identitySelectViewController",
+            "kind": "var",
+            "type": "@\"KerberosCertPickerPopover\"",
+            "addr": 4295166468
+          },
+          {
+            "name": "_identitySelectPopover",
+            "kind": "var",
+            "type": "@\"NSPopover\"",
+            "addr": 4295166472
+          },
+          {
+            "name": "_tokenWatcher",
+            "kind": "var",
+            "type": "@\"TKTokenWatcher\"",
+            "addr": 4295166576
+          },
+          {
+            "name": "_alertWindow",
+            "kind": "var",
+            "type": "@\"NSWindow\"",
+            "addr": 4295166580
+          },
+          {
+            "name": "optionsButton",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "helpTextLabel",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "helpTextWidthConstraint",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "helpTextHeightConstraint",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "nameTextField",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "passwordTextField",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "loginButton",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "loginProgressIndicator",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "chooseIdentity",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "smartCardConfigured",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "loginCancelButton",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "useKerberosPasswordButton",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "LAAuthReasonLabel",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "laAuthViewContainer",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "laAuthView",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "laStackView",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "identityStackView",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "switchSmartCardButton",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "passwordChangeVC",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "identitySelectViewController",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "identitySelectPopover",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "viewControllerIsShowing",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "promptIsShowing",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "promptForSmartCard",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "tokenWatcher",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "alertWindow",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "process",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "keychainHelper",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "currentUIContext",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "extensionWindow",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "KerberosMacViewController",
+        "addr": 4295167264,
+        "lang": "objc",
+        "index": 8,
+        "super": [
+          "KerberosBaseViewController",
+          "KerberosBaseViewController"
+        ],
+        "rawsuper": [
+          "KerberosBaseViewController",
+          "KerberosBaseViewController"
+        ],
+        "methods": [
+          {
+            "name": "initWithNibName:bundle:",
+            "flag": "method.KerberosMacViewController.initWithNibName:bundle:",
+            "lang": "objc",
+            "addr": 4295066044
+          },
+          {
+            "name": "initWithCoder:",
+            "flag": "method.KerberosMacViewController.initWithCoder:",
+            "lang": "objc",
+            "addr": 4295066500
+          },
+          {
+            "name": "nibName",
+            "flag": "method.KerberosMacViewController.nibName",
+            "lang": "objc",
+            "addr": 4295066556
+          },
+          {
+            "name": "beginAuthorizationWithRequest:",
+            "flag": "method.KerberosMacViewController.beginAuthorizationWithRequest:",
+            "lang": "objc",
+            "addr": 4295066568
+          },
+          {
+            "name": "handlePasswordSyncWithRequest:",
+            "flag": "method.KerberosMacViewController.handlePasswordSyncWithRequest:",
+            "lang": "objc",
+            "addr": 4295066856
+          },
+          {
+            "name": "viewDidDisappear",
+            "flag": "method.KerberosMacViewController.viewDidDisappear",
+            "lang": "objc",
+            "addr": 4295067576
+          },
+          {
+            "name": "resetUI",
+            "flag": "method.KerberosMacViewController.resetUI",
+            "lang": "objc",
+            "addr": 4295067660
+          }
+        ]
+      }
+    ],
+    "swift_metadata": {
+      "is_swift": false,
+      "symbols": []
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Support/KerberosMenuExtra.app/Contents/Info.plist",
+        "Support/KerberosMenuExtra.app/Contents/PkgInfo",
+        "Support/KerberosMenuExtra.app/Contents/version.plist",
+        "Support/KerberosMenuExtra.app/Contents/_CodeSignature/CodeResources",
+        "Support/KerberosMenuExtra.app/Contents/MacOS/KerberosMenuExtra",
+        "Support/KerberosMenuExtra.app/Contents/Resources/MainMenu.loctable",
+        "Support/KerberosMenuExtra.app/Contents/Resources/blackKeyTemplate.tiff",
+        "Support/KerberosMenuExtra.app/Contents/Resources/Localizable.loctable",
+        "Support/KerberosMenuExtra.app/Contents/Resources/greyKeyTemplate.tiff",
+        "Support/KerberosMenuExtra.app/Contents/Resources/Base.lproj/MainMenu.nib",
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/Localizable.loctable",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist",
+        "PlugIns/KerberosExtension.appex/Contents/Info.plist",
+        "PlugIns/KerberosExtension.appex/Contents/version.plist",
+        "PlugIns/KerberosExtension.appex/Contents/_CodeSignature/CodeResources",
+        "PlugIns/KerberosExtension.appex/Contents/MacOS/KerberosExtension",
+        "PlugIns/KerberosExtension.appex/Contents/Resources/KerberosPasswordPolicyPopoverText.nib",
+        "PlugIns/KerberosExtension.appex/Contents/Resources/icon.icns",
+        "PlugIns/KerberosExtension.appex/Contents/Resources/KerberosMacLoginViewControllerEmbedded.loctable",
+        "PlugIns/KerberosExtension.appex/Contents/Resources/KerberosPasswordPolicyPopoverInteractive.loctable",
+        "PlugIns/KerberosExtension.appex/Contents/Resources/KerberosCertPickerPopover.loctable",
+        "PlugIns/KerberosExtension.appex/Contents/Resources/Localizable.loctable",
+        "PlugIns/KerberosExtension.appex/Contents/Resources/KerberosPasswordPolicyPopoverInteractiveComplex.loctable",
+        "PlugIns/KerberosExtension.appex/Contents/Resources/Assets.car",
+        "PlugIns/KerberosExtension.appex/Contents/Resources/KerberosLocalPasswordView.loctable",
+        "PlugIns/KerberosExtension.appex/Contents/Resources/KerberosMacViewController.nib",
+        "PlugIns/KerberosExtension.appex/Contents/Resources/KerberosPasswordChangeViewController.loctable",
+        "PlugIns/KerberosExtension.appex/Contents/Resources/InfoPlist.loctable",
+        "PlugIns/KerberosExtension.appex/Contents/Resources/Base.lproj/KerberosLocalPasswordView.nib",
+        "PlugIns/KerberosExtension.appex/Contents/Resources/Base.lproj/KerberosMacLoginViewControllerEmbedded.nib",
+        "PlugIns/KerberosExtension.appex/Contents/Resources/Base.lproj/KerberosCertPickerPopover.nib",
+        "PlugIns/KerberosExtension.appex/Contents/Resources/Base.lproj/KerberosPasswordPolicyPopoverInteractiveComplex.nib",
+        "PlugIns/KerberosExtension.appex/Contents/Resources/Base.lproj/KerberosPasswordPolicyPopoverInteractive.nib",
+        "PlugIns/KerberosExtension.appex/Contents/Resources/Base.lproj/KerberosPasswordChangeViewController.nib"
+      ],
+      "plists": {
+        "Support/KerberosMenuExtra.app/Contents/Info.plist": {
+          "CFBundleName": "KerberosMenuExtra",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66x",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "NSPrincipalClass": "NSApplication",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "APPL",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "NSMainNibFile": "MainMenu",
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "KerberosMenuExtra",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.KerberosMenuExtra",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "25B66x",
+          "LSUIElement": true
+        },
+        "Support/KerberosMenuExtra.app/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "AppSSO",
+          "SourceVersion": "483040014000000",
+          "BuildVersion": "2"
+        },
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "AppSSOKerberos",
+          "CFBundleIdentifier": "com.apple.AppSSOKerberos",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "DTPlatformBuild": "25B66x",
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleVersion": "483.40.14",
+          "CFBundleExecutable": "AppSSOKerberos",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTXcode": "2600",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundlePackageType": "FMWK",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "DTSDKBuild": "25B66x",
+          "CFBundleDevelopmentRegion": "en",
+          "DTSDKName": "macosx26.1.internal",
+          "CFBundleShortVersionString": "1.0"
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "483.40.14",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "AppSSO",
+          "SourceVersion": "483040014000000",
+          "BuildVersion": "2"
+        },
+        "PlugIns/KerberosExtension.appex/Contents/Info.plist": {
+          "CFBundleName": "KerberosExtension",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66x",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleIconFile": "icon",
+          "Application-Group": [
+            "ConfigurationProfiles"
+          ],
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "KerberosExtension",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.AppSSOKerberos.KerberosExtension",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleDisplayName": "Kerberos",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "25B66x",
+          "NSExtension": {
+            "NSExtensionAttributes": {},
+            "NSExtensionPointIdentifier": "com.apple.AppSSO.idp-extension",
+            "NSExtensionPrincipalClass": "KerberosMacViewController"
+          }
+        },
+        "PlugIns/KerberosExtension.appex/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "AppSSO",
+          "SourceVersion": "483040014000000",
+          "BuildVersion": "2"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
+  },
+  "usage": {
+    "layer": "usage",
+    "used_by": []
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "loaded"
+  }
+}

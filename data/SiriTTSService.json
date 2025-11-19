@@ -1,0 +1,1244 @@
+{
+  "framework": "SiriTTSService.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/SiriTTSService.framework/sirittsd",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 333616,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "swift",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/PrivateFrameworks/SiriTTSService.framework/Versions/A/SiriTTSService",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "/System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/AssistantServices",
+          "/System/Library/PrivateFrameworks/CoreKnowledge.framework/Versions/A/CoreKnowledge",
+          "/System/Library/PrivateFrameworks/PowerExperience.framework/Versions/A/PowerExperience",
+          "/System/Library/PrivateFrameworks/SymptomDiagnosticReporter.framework/Versions/A/SymptomDiagnosticReporter",
+          "/usr/lib/swift/libswiftAccelerate.dylib",
+          "/usr/lib/swift/libswiftCore.dylib",
+          "/usr/lib/swift/libswiftCoreFoundation.dylib",
+          "/usr/lib/swift/libswiftCoreImage.dylib",
+          "/usr/lib/swift/libswiftCoreLocation.dylib",
+          "/usr/lib/swift/libswiftDispatch.dylib",
+          "/usr/lib/swift/libswiftIOKit.dylib",
+          "/usr/lib/swift/libswiftIntents.dylib",
+          "/usr/lib/swift/libswiftMetal.dylib",
+          "/usr/lib/swift/libswiftOSLog.dylib",
+          "/usr/lib/swift/libswiftObjectiveC.dylib",
+          "/usr/lib/swift/libswiftQuartzCore.dylib",
+          "/usr/lib/swift/libswiftSynchronization.dylib",
+          "/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib",
+          "/usr/lib/swift/libswiftXPC.dylib",
+          "/usr/lib/swift/libswift_Builtin_float.dylib",
+          "/usr/lib/swift/libswiftos.dylib",
+          "/usr/lib/swift/libswiftsimd.dylib"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "AFPowerContextOption",
+        "addr": 185552,
+        "lang": "swift",
+        "index": 0
+      },
+      {
+        "classname": "DiagnosticReporterError",
+        "addr": 185584,
+        "lang": "swift",
+        "index": 1,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.DiagnosticReporterError.0",
+            "lang": "swift",
+            "addr": 4295153186
+          },
+          {
+            "name": "1",
+            "flag": "method.DiagnosticReporterError.1",
+            "lang": "swift",
+            "addr": 4295152939
+          }
+        ],
+        "fields": [
+          {
+            "name": "signatureCreationFailure",
+            "kind": "property",
+            "addr": 4295155872
+          },
+          {
+            "name": "notSupported",
+            "kind": "property",
+            "addr": 4295155897
+          }
+        ]
+      },
+      {
+        "classname": "HomeManager",
+        "addr": 185684,
+        "lang": "swift",
+        "index": 2
+      },
+      {
+        "classname": "TaskQueue",
+        "addr": 185752,
+        "lang": "swift",
+        "index": 3,
+        "fields": [
+          {
+            "name": "queue",
+            "kind": "property",
+            "type": "__C.OS_dispatch_queue",
+            "addr": 4295155910
+          },
+          {
+            "name": "tasks",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295155916
+          },
+          {
+            "name": "currentTask",
+            "kind": "property",
+            "addr": 4295155922
+          },
+          {
+            "name": "lock",
+            "kind": "property",
+            "type": "__C.NSRecursiveLock",
+            "addr": 4295155934
+          }
+        ]
+      },
+      {
+        "classname": "HomeHubManagementClient",
+        "addr": 185940,
+        "lang": "swift",
+        "index": 4
+      },
+      {
+        "classname": "BackgroundLoader",
+        "addr": 186008,
+        "lang": "swift",
+        "index": 5,
+        "fields": [
+          {
+            "name": "backgroundQueue",
+            "kind": "property",
+            "type": "__C.OS_dispatch_queue",
+            "addr": 4295155952
+          },
+          {
+            "name": "voiceUpdateObserver",
+            "kind": "property",
+            "type": "\f\u0087\u00f8\u00ff\u00ff_pSg",
+            "addr": 4295155968
+          }
+        ]
+      },
+      {
+        "classname": "SiriSynthesisProfile",
+        "addr": 186100,
+        "lang": "swift",
+        "index": 6,
+        "fields": [
+          {
+            "name": "throttleBuffer",
+            "kind": "property",
+            "type": "Swift.Double",
+            "addr": 4295156000
+          },
+          {
+            "name": "synthesisFixedPriority",
+            "kind": "property",
+            "addr": 4295156016
+          }
+        ]
+      },
+      {
+        "classname": "SubscriptionService",
+        "addr": 186216,
+        "lang": "swift",
+        "index": 7,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.SubscriptionService.0",
+            "lang": "swift",
+            "addr": 4295193073
+          },
+          {
+            "name": "1",
+            "flag": "method.SubscriptionService.1",
+            "lang": "swift",
+            "addr": 4295207336
+          },
+          {
+            "name": "2",
+            "flag": "method.SubscriptionService.2",
+            "lang": "swift",
+            "addr": 4295184587
+          },
+          {
+            "name": "3",
+            "flag": "method.SubscriptionService.3",
+            "lang": "swift",
+            "addr": 4295184417
+          }
+        ],
+        "fields": [
+          {
+            "name": "queue",
+            "kind": "property",
+            "type": "__C.OS_dispatch_queue",
+            "addr": 4295156048
+          },
+          {
+            "name": "preferences",
+            "kind": "property",
+            "addr": 4295156054
+          },
+          {
+            "name": "homeHubManagementClient",
+            "kind": "property",
+            "addr": 4295156080
+          },
+          {
+            "name": "homeManager",
+            "kind": "property",
+            "addr": 4295156104
+          },
+          {
+            "name": "uafAssetProvider",
+            "kind": "property",
+            "addr": 4295156128
+          },
+          {
+            "name": "trialAssetProvider",
+            "kind": "property",
+            "addr": 4295156160
+          },
+          {
+            "name": "downloadingAssets",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295156192
+          },
+          {
+            "name": "downloadingAssetsLock",
+            "kind": "property",
+            "type": "__C.NSLock",
+            "addr": 4295156224
+          }
+        ]
+      },
+      {
+        "classname": "DownloadingVoiceAsset",
+        "addr": 186356,
+        "lang": "swift",
+        "index": 8,
+        "fields": [
+          {
+            "name": "voice",
+            "kind": "property",
+            "addr": 4295156246
+          },
+          {
+            "name": "downloadingToken",
+            "kind": "property",
+            "type": "yp",
+            "addr": 4295156256
+          }
+        ]
+      },
+      {
+        "classname": "OspreyServerConfig",
+        "addr": 186384,
+        "lang": "swift",
+        "index": 9,
+        "fields": [
+          {
+            "name": "appId",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295156273
+          },
+          {
+            "name": "knowledgeStore",
+            "kind": "property",
+            "addr": 4295156279
+          }
+        ]
+      },
+      {
+        "classname": "DaemonXPCListener",
+        "addr": 186484,
+        "lang": "swift",
+        "index": 10,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ],
+        "fields": [
+          {
+            "name": "listener",
+            "kind": "property",
+            "type": "__C.NSXPCListener",
+            "addr": 4295156304
+          }
+        ]
+      },
+      {
+        "classname": "DaemonXPCHandler",
+        "addr": 186544,
+        "lang": "swift",
+        "index": 11,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ],
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.DaemonXPCHandler.0",
+            "lang": "swift",
+            "addr": 4295201732
+          },
+          {
+            "name": "1",
+            "flag": "method.DaemonXPCHandler.1",
+            "lang": "swift",
+            "addr": 4295165917
+          }
+        ],
+        "fields": [
+          {
+            "name": "remoteDelegate",
+            "kind": "property",
+            "type": "\fk\u00fa\u00ff\u00ff_p",
+            "addr": 4295156313
+          },
+          {
+            "name": "entitlements",
+            "kind": "property",
+            "addr": 4295156328
+          },
+          {
+            "name": "preferences",
+            "kind": "property",
+            "addr": 4295156341
+          },
+          {
+            "name": "uafAssetProvider",
+            "kind": "property",
+            "addr": 4295156368
+          },
+          {
+            "name": "trialAssetProvider",
+            "kind": "property",
+            "addr": 4295156400
+          },
+          {
+            "name": "subscriptionService",
+            "kind": "property",
+            "addr": 4295156432
+          },
+          {
+            "name": "activeSession",
+            "kind": "property",
+            "type": "\fM\u00fa\u00ff\u00ff_pSg",
+            "addr": 4295156452
+          },
+          {
+            "name": "taskSemaphores",
+            "kind": "property",
+            "addr": 4295156466
+          }
+        ]
+      },
+      {
+        "classname": "WorkflowFactory",
+        "addr": 186856,
+        "lang": "swift",
+        "index": 12,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.WorkflowFactory.0",
+            "lang": "swift",
+            "addr": 4295154427
+          }
+        ],
+        "fields": [
+          {
+            "name": "pool",
+            "kind": "property",
+            "addr": 4295156514
+          }
+        ]
+      },
+      {
+        "classname": "TTSErrorHandler",
+        "addr": 186884,
+        "lang": "swift",
+        "index": 13,
+        "fields": [
+          {
+            "name": "graph",
+            "kind": "property",
+            "addr": 4295156481
+          },
+          {
+            "name": "capableErrorCodes",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295156496
+          }
+        ]
+      },
+      {
+        "classname": "Activity",
+        "addr": 186924,
+        "lang": "swift",
+        "index": 14,
+        "fields": [
+          {
+            "name": "name",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295156519
+          },
+          {
+            "name": "handler",
+            "kind": "property",
+            "type": "y\f\u009c\u00f3\u00ff\u00ff_pc",
+            "addr": 4295156524
+          }
+        ]
+      },
+      {
+        "classname": "SiriTTSDaemon.HomeManager",
+        "addr": 4295184936,
+        "lang": "objc",
+        "index": 15,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ]
+      },
+      {
+        "classname": "SiriTTSDaemon.TaskQueue",
+        "addr": 4295185120,
+        "lang": "objc",
+        "index": 16,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "queue",
+            "kind": "var",
+            "addr": 4295138368
+          },
+          {
+            "name": "tasks",
+            "kind": "var",
+            "addr": 4295138376
+          },
+          {
+            "name": "currentTask",
+            "kind": "var",
+            "addr": 4295138384
+          },
+          {
+            "name": "lock",
+            "kind": "var",
+            "addr": 4295138392
+          }
+        ]
+      },
+      {
+        "classname": "SiriTTSDaemon.HomeHubManagementClient",
+        "addr": 4295185680,
+        "lang": "objc",
+        "index": 17,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ]
+      },
+      {
+        "classname": "SiriTTSDaemon.BackgroundLoader",
+        "addr": 4295185848,
+        "lang": "objc",
+        "index": 18,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "backgroundQueue",
+            "kind": "var",
+            "addr": 4295138592
+          },
+          {
+            "name": "voiceUpdateObserver",
+            "kind": "var",
+            "addr": 4295138600
+          }
+        ]
+      },
+      {
+        "classname": "SiriTTSDaemon.SiriSynthesisProfile",
+        "addr": 4295186048,
+        "lang": "objc",
+        "index": 19,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "throttleBuffer",
+            "kind": "var",
+            "addr": 4295138672
+          },
+          {
+            "name": "synthesisFixedPriority",
+            "kind": "var",
+            "addr": 4295138680
+          }
+        ]
+      },
+      {
+        "classname": "SiriTTSDaemon.SubscriptionService",
+        "addr": 4295186272,
+        "lang": "objc",
+        "index": 20,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "queue",
+            "kind": "var",
+            "addr": 4295138784
+          },
+          {
+            "name": "preferences",
+            "kind": "var",
+            "addr": 4295138792
+          },
+          {
+            "name": "homeHubManagementClient",
+            "kind": "var",
+            "addr": 4295138800
+          },
+          {
+            "name": "homeManager",
+            "kind": "var",
+            "addr": 4295138808
+          },
+          {
+            "name": "uafAssetProvider",
+            "kind": "var",
+            "addr": 4295138816
+          },
+          {
+            "name": "trialAssetProvider",
+            "kind": "var",
+            "addr": 4295138824
+          },
+          {
+            "name": "downloadingAssets",
+            "kind": "var",
+            "addr": 4295138832
+          },
+          {
+            "name": "downloadingAssetsLock",
+            "kind": "var",
+            "addr": 4295138840
+          }
+        ]
+      },
+      {
+        "classname": "SiriTTSDaemon.OspreyServerConfig",
+        "addr": 4295186608,
+        "lang": "objc",
+        "index": 21,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "appId",
+            "kind": "var",
+            "addr": 4295138992
+          },
+          {
+            "name": "knowledgeStore",
+            "kind": "var",
+            "addr": 4295139000
+          }
+        ]
+      },
+      {
+        "classname": "SiriTTSDaemon.DaemonXPCListener",
+        "addr": 4295186856,
+        "lang": "objc",
+        "index": 22,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "listener:shouldAcceptNewConnection:",
+            "flag": "method.SiriTTSDaemon.DaemonXPCListener.listener:shouldAcceptNewConnection:",
+            "lang": "objc",
+            "addr": 4295038932
+          },
+          {
+            "name": "init",
+            "flag": "method.SiriTTSDaemon.DaemonXPCListener.init",
+            "lang": "objc",
+            "addr": 4295023936
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.SiriTTSDaemon.DaemonXPCListener.dealloc",
+            "lang": "objc",
+            "addr": 4295024240
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.SiriTTSDaemon.DaemonXPCListener..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295024368
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "listener",
+            "kind": "var",
+            "addr": 4295186848
+          }
+        ]
+      },
+      {
+        "classname": "SiriTTSDaemon.DaemonXPCHandler",
+        "addr": 4295187000,
+        "lang": "objc",
+        "index": 23,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "keepActive:reply:",
+            "flag": "func.1000122d0",
+            "lang": "objc",
+            "addr": 4295041744
+          },
+          {
+            "name": "prewarmWithRequest:reply:",
+            "flag": "func.1000123a8",
+            "lang": "objc",
+            "addr": 4295041960
+          },
+          {
+            "name": "speakWithPreviewRequest:reply:",
+            "flag": "func.100012d70",
+            "lang": "objc",
+            "addr": 4295044464
+          },
+          {
+            "name": "speakWithAudioRequest:reply:",
+            "flag": "func.100012e64",
+            "lang": "objc",
+            "addr": 4295044708
+          },
+          {
+            "name": "speakWithSpeechRequest:reply:",
+            "flag": "func.100013164",
+            "lang": "objc",
+            "addr": 4295045476
+          },
+          {
+            "name": "keepAliveWhileAudioToolboxIsFreewheelingWithRequest:reply:",
+            "flag": "func.100013b98",
+            "lang": "objc",
+            "addr": 4295048088
+          },
+          {
+            "name": "cancelWithRequest:",
+            "flag": "func.100013c84",
+            "lang": "objc",
+            "addr": 4295048324
+          },
+          {
+            "name": "synthesizeWithRequest:reply:",
+            "flag": "func.1000140ac",
+            "lang": "objc",
+            "addr": 4295049388
+          },
+          {
+            "name": "estimateDurationWithRequest:reply:",
+            "flag": "func.1000140c4",
+            "lang": "objc",
+            "addr": 4295049412
+          },
+          {
+            "name": "textToPhonemeWithRequest:reply:",
+            "flag": "func.100014280",
+            "lang": "objc",
+            "addr": 4295049856
+          },
+          {
+            "name": "signalWithInlineStreaming:",
+            "flag": "func.1000143b8",
+            "lang": "objc",
+            "addr": 4295050168
+          },
+          {
+            "name": "forwardWithStreamObject:",
+            "flag": "func.100014430",
+            "lang": "objc",
+            "addr": 4295050288
+          },
+          {
+            "name": "subscribeWithVoices:clientId:accessoryId:reply:",
+            "flag": "func.1000144a8",
+            "lang": "objc",
+            "addr": 4295050408
+          },
+          {
+            "name": "subscribedVoicesWithClientId:reply:",
+            "flag": "func.1000145ac",
+            "lang": "objc",
+            "addr": 4295050668
+          },
+          {
+            "name": "downloadedVoicesMatching:reply:",
+            "flag": "func.1000146e8",
+            "lang": "objc",
+            "addr": 4295050984
+          },
+          {
+            "name": "getSynthesisVoiceMatching:reply:",
+            "flag": "func.100014778",
+            "lang": "objc",
+            "addr": 4295051128
+          },
+          {
+            "name": "queryPhaticCapabilityWithVoice:reply:",
+            "flag": "func.100014790",
+            "lang": "objc",
+            "addr": 4295051152
+          },
+          {
+            "name": "queryWordTimingSupportWithVoice:reply:",
+            "flag": "func.1000147a4",
+            "lang": "objc",
+            "addr": 4295051172
+          },
+          {
+            "name": "isSpeakingWithAccessoryId:reply:",
+            "flag": "func.10001485c",
+            "lang": "objc",
+            "addr": 4295051356
+          },
+          {
+            "name": "getAudioPowerWithAccessoryId:reply:",
+            "flag": "func.100014874",
+            "lang": "objc",
+            "addr": 4295051380
+          },
+          {
+            "name": "adjustVolumeWithAccessoryId:volume:rampTime:didFinish:",
+            "flag": "func.1000149fc",
+            "lang": "objc",
+            "addr": 4295051772
+          },
+          {
+            "name": "isANEModelCompiledMatching:reply:",
+            "flag": "func.100014b74",
+            "lang": "objc",
+            "addr": 4295052148
+          },
+          {
+            "name": "clearDeviceCacheWithDidFinish:",
+            "flag": "func.100014c20",
+            "lang": "objc",
+            "addr": 4295052320
+          },
+          {
+            "name": "killDaemon",
+            "flag": "func.100014c88",
+            "lang": "objc",
+            "addr": 4295052424
+          },
+          {
+            "name": "init",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.init",
+            "lang": "objc",
+            "addr": 4295052428
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295052532
+          },
+          {
+            "name": "keepActive:reply:",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.keepActive:reply:",
+            "lang": "objc",
+            "addr": 4295137576
+          },
+          {
+            "name": "prewarmWithRequest:reply:",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.prewarmWithRequest:reply:",
+            "lang": "objc",
+            "addr": 4295137588
+          },
+          {
+            "name": "speakWithPreviewRequest:reply:",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.speakWithPreviewRequest:reply:",
+            "lang": "objc",
+            "addr": 4295137600
+          },
+          {
+            "name": "speakWithAudioRequest:reply:",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.speakWithAudioRequest:reply:",
+            "lang": "objc",
+            "addr": 4295137612
+          },
+          {
+            "name": "speakWithSpeechRequest:reply:",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.speakWithSpeechRequest:reply:",
+            "lang": "objc",
+            "addr": 4295137624
+          },
+          {
+            "name": "keepAliveWhileAudioToolboxIsFreewheelingWithRequest:reply:",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.keepAliveWhileAudioToolboxIsFreewheelingWithRequest:reply:",
+            "lang": "objc",
+            "addr": 4295137636
+          },
+          {
+            "name": "cancelWithRequest:",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.cancelWithRequest:",
+            "lang": "objc",
+            "addr": 4295137648
+          },
+          {
+            "name": "synthesizeWithRequest:reply:",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.synthesizeWithRequest:reply:",
+            "lang": "objc",
+            "addr": 4295137660
+          },
+          {
+            "name": "estimateDurationWithRequest:reply:",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.estimateDurationWithRequest:reply:",
+            "lang": "objc",
+            "addr": 4295137672
+          },
+          {
+            "name": "textToPhonemeWithRequest:reply:",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.textToPhonemeWithRequest:reply:",
+            "lang": "objc",
+            "addr": 4295137684
+          },
+          {
+            "name": "signalWithInlineStreaming:",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.signalWithInlineStreaming:",
+            "lang": "objc",
+            "addr": 4295137696
+          },
+          {
+            "name": "forwardWithStreamObject:",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.forwardWithStreamObject:",
+            "lang": "objc",
+            "addr": 4295137708
+          },
+          {
+            "name": "subscribeWithVoices:clientId:accessoryId:reply:",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.subscribeWithVoices:clientId:accessoryId:reply:",
+            "lang": "objc",
+            "addr": 4295137720
+          },
+          {
+            "name": "subscribedVoicesWithClientId:reply:",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.subscribedVoicesWithClientId:reply:",
+            "lang": "objc",
+            "addr": 4295137732
+          },
+          {
+            "name": "downloadedVoicesMatching:reply:",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.downloadedVoicesMatching:reply:",
+            "lang": "objc",
+            "addr": 4295137744
+          },
+          {
+            "name": "getSynthesisVoiceMatching:reply:",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.getSynthesisVoiceMatching:reply:",
+            "lang": "objc",
+            "addr": 4295137756
+          },
+          {
+            "name": "queryPhaticCapabilityWithVoice:reply:",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.queryPhaticCapabilityWithVoice:reply:",
+            "lang": "objc",
+            "addr": 4295137768
+          },
+          {
+            "name": "queryWordTimingSupportWithVoice:reply:",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.queryWordTimingSupportWithVoice:reply:",
+            "lang": "objc",
+            "addr": 4295137780
+          },
+          {
+            "name": "isSpeakingWithAccessoryId:reply:",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.isSpeakingWithAccessoryId:reply:",
+            "lang": "objc",
+            "addr": 4295137792
+          },
+          {
+            "name": "getAudioPowerWithAccessoryId:reply:",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.getAudioPowerWithAccessoryId:reply:",
+            "lang": "objc",
+            "addr": 4295137804
+          },
+          {
+            "name": "adjustVolumeWithAccessoryId:volume:rampTime:didFinish:",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.adjustVolumeWithAccessoryId:volume:rampTime:didFinish:",
+            "lang": "objc",
+            "addr": 4295137816
+          },
+          {
+            "name": "killDaemon",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.killDaemon",
+            "lang": "objc",
+            "addr": 4295137828
+          },
+          {
+            "name": "isANEModelCompiledMatching:reply:",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.isANEModelCompiledMatching:reply:",
+            "lang": "objc",
+            "addr": 4295137840
+          },
+          {
+            "name": "clearDeviceCacheWithDidFinish:",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.clearDeviceCacheWithDidFinish:",
+            "lang": "objc",
+            "addr": 4295137852
+          },
+          {
+            "name": "keepActive:reply:",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.keepActive:reply:",
+            "lang": "objc",
+            "addr": 4295137576
+          },
+          {
+            "name": "prewarmWithRequest:reply:",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.prewarmWithRequest:reply:",
+            "lang": "objc",
+            "addr": 4295137588
+          },
+          {
+            "name": "speakWithPreviewRequest:reply:",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.speakWithPreviewRequest:reply:",
+            "lang": "objc",
+            "addr": 4295137600
+          },
+          {
+            "name": "speakWithAudioRequest:reply:",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.speakWithAudioRequest:reply:",
+            "lang": "objc",
+            "addr": 4295137612
+          },
+          {
+            "name": "speakWithSpeechRequest:reply:",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.speakWithSpeechRequest:reply:",
+            "lang": "objc",
+            "addr": 4295137624
+          },
+          {
+            "name": "keepAliveWhileAudioToolboxIsFreewheelingWithRequest:reply:",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.keepAliveWhileAudioToolboxIsFreewheelingWithRequest:reply:",
+            "lang": "objc",
+            "addr": 4295137636
+          },
+          {
+            "name": "cancelWithRequest:",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.cancelWithRequest:",
+            "lang": "objc",
+            "addr": 4295137648
+          },
+          {
+            "name": "synthesizeWithRequest:reply:",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.synthesizeWithRequest:reply:",
+            "lang": "objc",
+            "addr": 4295137660
+          },
+          {
+            "name": "estimateDurationWithRequest:reply:",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.estimateDurationWithRequest:reply:",
+            "lang": "objc",
+            "addr": 4295137672
+          },
+          {
+            "name": "textToPhonemeWithRequest:reply:",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.textToPhonemeWithRequest:reply:",
+            "lang": "objc",
+            "addr": 4295137684
+          },
+          {
+            "name": "signalWithInlineStreaming:",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.signalWithInlineStreaming:",
+            "lang": "objc",
+            "addr": 4295137696
+          },
+          {
+            "name": "forwardWithStreamObject:",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.forwardWithStreamObject:",
+            "lang": "objc",
+            "addr": 4295137708
+          },
+          {
+            "name": "subscribeWithVoices:clientId:accessoryId:reply:",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.subscribeWithVoices:clientId:accessoryId:reply:",
+            "lang": "objc",
+            "addr": 4295137720
+          },
+          {
+            "name": "subscribedVoicesWithClientId:reply:",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.subscribedVoicesWithClientId:reply:",
+            "lang": "objc",
+            "addr": 4295137732
+          },
+          {
+            "name": "downloadedVoicesMatching:reply:",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.downloadedVoicesMatching:reply:",
+            "lang": "objc",
+            "addr": 4295137744
+          },
+          {
+            "name": "getSynthesisVoiceMatching:reply:",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.getSynthesisVoiceMatching:reply:",
+            "lang": "objc",
+            "addr": 4295137756
+          },
+          {
+            "name": "queryPhaticCapabilityWithVoice:reply:",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.queryPhaticCapabilityWithVoice:reply:",
+            "lang": "objc",
+            "addr": 4295137768
+          },
+          {
+            "name": "queryWordTimingSupportWithVoice:reply:",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.queryWordTimingSupportWithVoice:reply:",
+            "lang": "objc",
+            "addr": 4295137780
+          },
+          {
+            "name": "isSpeakingWithAccessoryId:reply:",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.isSpeakingWithAccessoryId:reply:",
+            "lang": "objc",
+            "addr": 4295137792
+          },
+          {
+            "name": "getAudioPowerWithAccessoryId:reply:",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.getAudioPowerWithAccessoryId:reply:",
+            "lang": "objc",
+            "addr": 4295137804
+          },
+          {
+            "name": "adjustVolumeWithAccessoryId:volume:rampTime:didFinish:",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.adjustVolumeWithAccessoryId:volume:rampTime:didFinish:",
+            "lang": "objc",
+            "addr": 4295137816
+          },
+          {
+            "name": "killDaemon",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.killDaemon",
+            "lang": "objc",
+            "addr": 4295137828
+          },
+          {
+            "name": "isANEModelCompiledMatching:reply:",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.isANEModelCompiledMatching:reply:",
+            "lang": "objc",
+            "addr": 4295137840
+          },
+          {
+            "name": "clearDeviceCacheWithDidFinish:",
+            "flag": "method.SiriTTSDaemon.DaemonXPCHandler.clearDeviceCacheWithDidFinish:",
+            "lang": "objc",
+            "addr": 4295137852
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "entitlements",
+            "kind": "var",
+            "addr": 4295187904
+          },
+          {
+            "name": "preferences",
+            "kind": "var",
+            "addr": 4295187912
+          },
+          {
+            "name": "uafAssetProvider",
+            "kind": "var",
+            "addr": 4295187920
+          },
+          {
+            "name": "trialAssetProvider",
+            "kind": "var",
+            "addr": 4295187928
+          },
+          {
+            "name": "subscriptionService",
+            "kind": "var",
+            "addr": 4295187936
+          },
+          {
+            "name": "activeSession",
+            "kind": "var",
+            "addr": 4295187944
+          },
+          {
+            "name": "taskSemaphores",
+            "kind": "var",
+            "addr": 4295187952
+          },
+          {
+            "name": "remoteDelegate",
+            "kind": "var",
+            "addr": 4295186992
+          }
+        ]
+      }
+    ],
+    "protocols": []
+  },
+  "usage": {
+    "layer": "usage",
+    "status": "not_implemented"
+  },
+  "runtime": {
+    "layer": "runtime",
+    "status": "not_implemented"
+  }
+}

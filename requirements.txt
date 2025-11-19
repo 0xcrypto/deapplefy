@@ -1,0 +1,4 @@
+# Deapplefy Requirements
+
+# Core dependencies
+# Note: radare2 must be installed separately via system package manager

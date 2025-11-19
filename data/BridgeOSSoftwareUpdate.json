@@ -1,0 +1,943 @@
+{
+  "framework": "BridgeOSSoftwareUpdate.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/BridgeOSSoftwareUpdate.framework/Support/bosUpdateProxy",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 129168,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "objc with blocks",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/usr/lib/libnfrestore.dylib",
+          "/System/Library/PrivateFrameworks/NearField.framework/Versions/A/NearField",
+          "/System/Library/PrivateFrameworks/LoggingSupport.framework/Versions/A/LoggingSupport",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/System/Library/PrivateFrameworks/RemoteXPC.framework/Versions/A/RemoteXPC",
+          "/System/Library/PrivateFrameworks/RemoteServiceDiscovery.framework/Versions/A/RemoteServiceDiscovery",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "NSError(BridgeOSSoftwareUpdateErrorAdditions)",
+        "addr": 4295049352,
+        "lang": "objc",
+        "index": 0,
+        "super": [
+          "NSError"
+        ],
+        "rawsuper": [
+          "NSError"
+        ],
+        "methods": [
+          {
+            "name": "isMSUError",
+            "flag": "method.NSError_BridgeOSSoftwareUpdateErrorAdditions_.isMSUError",
+            "lang": "objc",
+            "addr": 4294971120
+          },
+          {
+            "name": "msuErrorCode",
+            "flag": "method.NSError_BridgeOSSoftwareUpdateErrorAdditions_.msuErrorCode",
+            "lang": "objc",
+            "addr": 4294971164
+          },
+          {
+            "name": "msuErrorDescription",
+            "flag": "method.NSError_BridgeOSSoftwareUpdateErrorAdditions_.msuErrorDescription",
+            "lang": "objc",
+            "addr": 4294971228
+          },
+          {
+            "name": "isAMAuthInstallError",
+            "flag": "method.NSError_BridgeOSSoftwareUpdateErrorAdditions_.isAMAuthInstallError",
+            "lang": "objc",
+            "addr": 4294971276
+          },
+          {
+            "name": "amAuthInstallErrorCode",
+            "flag": "method.NSError_BridgeOSSoftwareUpdateErrorAdditions_.amAuthInstallErrorCode",
+            "lang": "objc",
+            "addr": 4294971320
+          },
+          {
+            "name": "networkRequired",
+            "flag": "method.NSError_BridgeOSSoftwareUpdateErrorAdditions_.networkRequired",
+            "lang": "objc",
+            "addr": 4294971384
+          },
+          {
+            "name": "fullReplacementRequired",
+            "flag": "method.NSError_BridgeOSSoftwareUpdateErrorAdditions_.fullReplacementRequired",
+            "lang": "objc",
+            "addr": 4294971428
+          },
+          {
+            "name": "systemPartitionSize",
+            "flag": "method.NSError_BridgeOSSoftwareUpdateErrorAdditions_.systemPartitionSize",
+            "lang": "objc",
+            "addr": 4294971472
+          }
+        ],
+        "fields": [
+          {
+            "name": "isMSUError",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "msuErrorCode",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "msuErrorDescription",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "isAMAuthInstallError",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "amAuthInstallErrorCode",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "networkRequired",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "fullReplacementRequired",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "systemPartitionSize",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "NSDictionary(BridgeOSSoftwareUpdateTypeAdditions)",
+        "addr": 4295051240,
+        "lang": "objc",
+        "index": 1,
+        "super": [
+          "NSDictionary"
+        ],
+        "rawsuper": [
+          "NSDictionary"
+        ],
+        "methods": [
+          {
+            "name": "isErrorDict",
+            "flag": "method.NSDictionary_BridgeOSSoftwareUpdateTypeAdditions_.isErrorDict",
+            "lang": "objc",
+            "addr": 4294997196
+          },
+          {
+            "name": "decodeError",
+            "flag": "method.NSDictionary_BridgeOSSoftwareUpdateTypeAdditions_.decodeError",
+            "lang": "objc",
+            "addr": 4294997268
+          },
+          {
+            "name": "objectForKey:withClass:",
+            "flag": "method.NSDictionary_BridgeOSSoftwareUpdateTypeAdditions_.objectForKey:withClass:",
+            "lang": "objc",
+            "addr": 4294996416
+          },
+          {
+            "name": "dictionaryWithEncodedError:",
+            "flag": "method.class.NSDictionary_BridgeOSSoftwareUpdateTypeAdditions_.dictionaryWithEncodedError:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294996544
+          }
+        ]
+      },
+      {
+        "classname": "UpdateControlRequestingClient",
+        "addr": 4295052432,
+        "lang": "objc",
+        "index": 2,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "connection",
+            "flag": "method.UpdateControlRequestingClient.connection",
+            "lang": "objc",
+            "addr": 4294974864
+          },
+          {
+            "name": "setConnection:",
+            "flag": "method.UpdateControlRequestingClient.setConnection:",
+            "lang": "objc",
+            "addr": 4294974872
+          },
+          {
+            "name": "context",
+            "flag": "method.UpdateControlRequestingClient.context",
+            "lang": "objc",
+            "addr": 4294974880
+          },
+          {
+            "name": "setContext:",
+            "flag": "method.UpdateControlRequestingClient.setContext:",
+            "lang": "objc",
+            "addr": 4294974888
+          },
+          {
+            "name": "clientWithConenction:context:",
+            "flag": "method.class.UpdateControlRequestingClient.clientWithConenction:context:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294974628
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_connection",
+            "kind": "var",
+            "type": "@\"NSObject<OS_xpc_object>\"",
+            "addr": 4295052320
+          },
+          {
+            "name": "_context",
+            "kind": "var",
+            "type": "@\"NSObject<OS_xpc_object>\"",
+            "addr": 4295052324
+          },
+          {
+            "name": "connection",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "context",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "BridgeOSUpdateProxyIPCServer",
+        "addr": 4295052552,
+        "lang": "objc",
+        "index": 3,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithMessageQueue:",
+            "flag": "method.BridgeOSUpdateProxyIPCServer.initWithMessageQueue:",
+            "lang": "objc",
+            "addr": 4294974896
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.BridgeOSUpdateProxyIPCServer.dealloc",
+            "lang": "objc",
+            "addr": 4294975512
+          },
+          {
+            "name": "startProxyListener",
+            "flag": "method.BridgeOSUpdateProxyIPCServer.startProxyListener",
+            "lang": "objc",
+            "addr": 4294975660
+          },
+          {
+            "name": "handleListenerEvent:",
+            "flag": "method.BridgeOSUpdateProxyIPCServer.handleListenerEvent:",
+            "lang": "objc",
+            "addr": 4294976340
+          },
+          {
+            "name": "handleNewProxyClientConnection:",
+            "flag": "method.BridgeOSUpdateProxyIPCServer.handleNewProxyClientConnection:",
+            "lang": "objc",
+            "addr": 4294976528
+          },
+          {
+            "name": "handleListenerError:",
+            "flag": "method.BridgeOSUpdateProxyIPCServer.handleListenerError:",
+            "lang": "objc",
+            "addr": 4294977208
+          },
+          {
+            "name": "handleProxyClientEvent:client:",
+            "flag": "method.BridgeOSUpdateProxyIPCServer.handleProxyClientEvent:client:",
+            "lang": "objc",
+            "addr": 4294977280
+          },
+          {
+            "name": "handleProxyClientMessage:client:",
+            "flag": "method.BridgeOSUpdateProxyIPCServer.handleProxyClientMessage:client:",
+            "lang": "objc",
+            "addr": 4294977560
+          },
+          {
+            "name": "sendNextUpdateControlRequest",
+            "flag": "method.BridgeOSUpdateProxyIPCServer.sendNextUpdateControlRequest",
+            "lang": "objc",
+            "addr": 4294981024
+          },
+          {
+            "name": "releaseUpdateControl:client:",
+            "flag": "method.BridgeOSUpdateProxyIPCServer.releaseUpdateControl:client:",
+            "lang": "objc",
+            "addr": 4294981304
+          },
+          {
+            "name": "runNetworkProxyForCommand:options:",
+            "flag": "method.BridgeOSUpdateProxyIPCServer.runNetworkProxyForCommand:options:",
+            "lang": "objc",
+            "addr": 4294982140
+          },
+          {
+            "name": "addInFlightCommand:",
+            "flag": "method.BridgeOSUpdateProxyIPCServer.addInFlightCommand:",
+            "lang": "objc",
+            "addr": 4294982472
+          },
+          {
+            "name": "removeInFlightCommand:",
+            "flag": "method.BridgeOSUpdateProxyIPCServer.removeInFlightCommand:",
+            "lang": "objc",
+            "addr": 4294982660
+          },
+          {
+            "name": "removeAllInFlightCommands",
+            "flag": "method.BridgeOSUpdateProxyIPCServer.removeAllInFlightCommands",
+            "lang": "objc",
+            "addr": 4294983016
+          },
+          {
+            "name": "stopNetworkProxy",
+            "flag": "method.BridgeOSUpdateProxyIPCServer.stopNetworkProxy",
+            "lang": "objc",
+            "addr": 4294983216
+          },
+          {
+            "name": "addFileTransfer:command:",
+            "flag": "method.BridgeOSUpdateProxyIPCServer.addFileTransfer:command:",
+            "lang": "objc",
+            "addr": 4294983272
+          },
+          {
+            "name": "handleProxyClientError:client:",
+            "flag": "method.BridgeOSUpdateProxyIPCServer.handleProxyClientError:client:",
+            "lang": "objc",
+            "addr": 4294984092
+          },
+          {
+            "name": "commandRequiresNetworkProxy:",
+            "flag": "method.BridgeOSUpdateProxyIPCServer.commandRequiresNetworkProxy:",
+            "lang": "objc",
+            "addr": 4294984412
+          },
+          {
+            "name": "commandRequiresUpdateControl:",
+            "flag": "method.BridgeOSUpdateProxyIPCServer.commandRequiresUpdateControl:",
+            "lang": "objc",
+            "addr": 4294984608
+          },
+          {
+            "name": "sendXPCMessageToClients:",
+            "flag": "method.BridgeOSUpdateProxyIPCServer.sendXPCMessageToClients:",
+            "lang": "objc",
+            "addr": 4294984732
+          },
+          {
+            "name": "buildResponseMessage:mergeDict:options:",
+            "flag": "method.BridgeOSUpdateProxyIPCServer.buildResponseMessage:mergeDict:options:",
+            "lang": "objc",
+            "addr": 4294985088
+          },
+          {
+            "name": "sendResponseToClients:mergeDict:options:",
+            "flag": "method.BridgeOSUpdateProxyIPCServer.sendResponseToClients:mergeDict:options:",
+            "lang": "objc",
+            "addr": 4294985436
+          },
+          {
+            "name": "sendResponse:toClient:mergeDict:options:",
+            "flag": "method.BridgeOSUpdateProxyIPCServer.sendResponse:toClient:mergeDict:options:",
+            "lang": "objc",
+            "addr": 4294985636
+          },
+          {
+            "name": "sendErrorToClients:",
+            "flag": "method.BridgeOSUpdateProxyIPCServer.sendErrorToClients:",
+            "lang": "objc",
+            "addr": 4294985884
+          },
+          {
+            "name": "sendErrorResponseToClients:command:",
+            "flag": "method.BridgeOSUpdateProxyIPCServer.sendErrorResponseToClients:command:",
+            "lang": "objc",
+            "addr": 4294985976
+          },
+          {
+            "name": "sendErrorResponse:toClient:command:",
+            "flag": "method.BridgeOSUpdateProxyIPCServer.sendErrorResponse:toClient:command:",
+            "lang": "objc",
+            "addr": 4294986184
+          },
+          {
+            "name": "connectToRemoteDevice",
+            "flag": "method.BridgeOSUpdateProxyIPCServer.connectToRemoteDevice",
+            "lang": "objc",
+            "addr": 4294986452
+          },
+          {
+            "name": "handleBridgeEvent:",
+            "flag": "method.BridgeOSUpdateProxyIPCServer.handleBridgeEvent:",
+            "lang": "objc",
+            "addr": 4294986788
+          },
+          {
+            "name": "handleBridgeError:",
+            "flag": "method.BridgeOSUpdateProxyIPCServer.handleBridgeError:",
+            "lang": "objc",
+            "addr": 4294987340
+          },
+          {
+            "name": "sendXPCMessageToBridge:",
+            "flag": "method.BridgeOSUpdateProxyIPCServer.sendXPCMessageToBridge:",
+            "lang": "objc",
+            "addr": 4294987440
+          },
+          {
+            "name": "registerForExistingStatsSubmissionActivity",
+            "flag": "method.BridgeOSUpdateProxyIPCServer.registerForExistingStatsSubmissionActivity",
+            "lang": "objc",
+            "addr": 4294987820
+          },
+          {
+            "name": "registerForStatsSubmissionActivityWithDelay:",
+            "flag": "method.BridgeOSUpdateProxyIPCServer.registerForStatsSubmissionActivityWithDelay:",
+            "lang": "objc",
+            "addr": 4294988604
+          },
+          {
+            "name": "registerForImmediateStatsSubmissionActivity",
+            "flag": "method.BridgeOSUpdateProxyIPCServer.registerForImmediateStatsSubmissionActivity",
+            "lang": "objc",
+            "addr": 4294989008
+          },
+          {
+            "name": "registerForDelayedStatsSubmissionActivity",
+            "flag": "method.BridgeOSUpdateProxyIPCServer.registerForDelayedStatsSubmissionActivity",
+            "lang": "objc",
+            "addr": 4294989252
+          },
+          {
+            "name": "checkForUnsubmittedUpdateStats",
+            "flag": "method.BridgeOSUpdateProxyIPCServer.checkForUnsubmittedUpdateStats",
+            "lang": "objc",
+            "addr": 4294989508
+          },
+          {
+            "name": "submitUpdateStats",
+            "flag": "method.BridgeOSUpdateProxyIPCServer.submitUpdateStats",
+            "lang": "objc",
+            "addr": 4294989992
+          },
+          {
+            "name": "updateControlClient",
+            "flag": "method.BridgeOSUpdateProxyIPCServer.updateControlClient",
+            "lang": "objc",
+            "addr": 4294990596
+          },
+          {
+            "name": "setUpdateControlClient:",
+            "flag": "method.BridgeOSUpdateProxyIPCServer.setUpdateControlClient:",
+            "lang": "objc",
+            "addr": 4294990604
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_messageQueue",
+            "kind": "var",
+            "type": "@\"NSObject<OS_dispatch_queue>\"",
+            "addr": 4295052328
+          },
+          {
+            "name": "_listenerConnection",
+            "kind": "var",
+            "type": "@\"NSObject<OS_xpc_object>\"",
+            "addr": 4295052332
+          },
+          {
+            "name": "_updateControlClient",
+            "kind": "var",
+            "type": "@\"NSObject<OS_xpc_object>\"",
+            "addr": 4295052336
+          },
+          {
+            "name": "_updateControlRequestingClients",
+            "kind": "var",
+            "type": "@\"NSMutableArray\"",
+            "addr": 4295052340
+          },
+          {
+            "name": "openTransactionForUpdateControlRequest",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295052344
+          },
+          {
+            "name": "_clientConnections",
+            "kind": "var",
+            "type": "@\"NSMutableSet\"",
+            "addr": 4295052348
+          },
+          {
+            "name": "_updateBridgeClient",
+            "kind": "var",
+            "type": "@\"BridgeOSUpdateBridgeIPCClient\"",
+            "addr": 4295052352
+          },
+          {
+            "name": "_remoteDeviceType",
+            "kind": "var",
+            "type": "I",
+            "addr": 4295052356
+          },
+          {
+            "name": "_networkProxy",
+            "kind": "var",
+            "type": "@\"BridgeOSUpdateNetworkProxy\"",
+            "addr": 4295052360
+          },
+          {
+            "name": "_inFlightCommands",
+            "kind": "var",
+            "type": "@\"NSMutableSet\"",
+            "addr": 4295052364
+          },
+          {
+            "name": "_networkProxyCommands",
+            "kind": "var",
+            "type": "@\"NSMutableSet\"",
+            "addr": 4295052368
+          },
+          {
+            "name": "_immediateStatsSubmissionActivityRegistered",
+            "kind": "var",
+            "type": "C",
+            "addr": 4295052372
+          },
+          {
+            "name": "_delayedStatsSubmissionActivityRegistered",
+            "kind": "var",
+            "type": "C",
+            "addr": 4295052376
+          },
+          {
+            "name": "updateControlClient",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "BridgeOSUpdateNetworkProxy",
+        "addr": 4295052632,
+        "lang": "objc",
+        "index": 4,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initForRemoteDeviceType:",
+            "flag": "method.BridgeOSUpdateNetworkProxy.initForRemoteDeviceType:",
+            "lang": "objc",
+            "addr": 4294990644
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.BridgeOSUpdateNetworkProxy.dealloc",
+            "lang": "objc",
+            "addr": 4294990724
+          },
+          {
+            "name": "startProxyServer",
+            "flag": "method.BridgeOSUpdateNetworkProxy.startProxyServer",
+            "lang": "objc",
+            "addr": 4294990796
+          },
+          {
+            "name": "stopProxyServer",
+            "flag": "method.BridgeOSUpdateNetworkProxy.stopProxyServer",
+            "lang": "objc",
+            "addr": 4294991004
+          },
+          {
+            "name": "proxyListenerPort",
+            "flag": "method.BridgeOSUpdateNetworkProxy.proxyListenerPort",
+            "lang": "objc",
+            "addr": 4294991104
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_remoteDeviceType",
+            "kind": "var",
+            "type": "I",
+            "addr": 4295052380
+          },
+          {
+            "name": "_socksServer",
+            "kind": "var",
+            "type": "@\"_NSCFServer\"",
+            "addr": 4295052384
+          },
+          {
+            "name": "_listenerPort",
+            "kind": "var",
+            "type": "q",
+            "addr": 4295052388
+          },
+          {
+            "name": "proxyListenerPort",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "BridgeOSUpdateBridgeIPCClient",
+        "addr": 4295052712,
+        "lang": "objc",
+        "index": 5,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithRemoteDeviceType:messageQueue:",
+            "flag": "method.BridgeOSUpdateBridgeIPCClient.initWithRemoteDeviceType:messageQueue:",
+            "lang": "objc",
+            "addr": 4294991320
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.BridgeOSUpdateBridgeIPCClient.dealloc",
+            "lang": "objc",
+            "addr": 4294991512
+          },
+          {
+            "name": "getConnectedDevice",
+            "flag": "method.BridgeOSUpdateBridgeIPCClient.getConnectedDevice",
+            "lang": "objc",
+            "addr": 4294991620
+          },
+          {
+            "name": "connectToRemoteDevice",
+            "flag": "method.BridgeOSUpdateBridgeIPCClient.connectToRemoteDevice",
+            "lang": "objc",
+            "addr": 4294992052
+          },
+          {
+            "name": "cancelRemoteConnection",
+            "flag": "method.BridgeOSUpdateBridgeIPCClient.cancelRemoteConnection",
+            "lang": "objc",
+            "addr": 4294992648
+          },
+          {
+            "name": "handleEvent:",
+            "flag": "method.BridgeOSUpdateBridgeIPCClient.handleEvent:",
+            "lang": "objc",
+            "addr": 4294992704
+          },
+          {
+            "name": "sendMessage:",
+            "flag": "method.BridgeOSUpdateBridgeIPCClient.sendMessage:",
+            "lang": "objc",
+            "addr": 4294993076
+          },
+          {
+            "name": "eventHandler",
+            "flag": "method.BridgeOSUpdateBridgeIPCClient.eventHandler",
+            "lang": "objc",
+            "addr": 4294993260
+          },
+          {
+            "name": "setEventHandler:",
+            "flag": "method.BridgeOSUpdateBridgeIPCClient.setEventHandler:",
+            "lang": "objc",
+            "addr": 4294993268
+          },
+          {
+            "name": "errorHandler",
+            "flag": "method.BridgeOSUpdateBridgeIPCClient.errorHandler",
+            "lang": "objc",
+            "addr": 4294993276
+          },
+          {
+            "name": "setErrorHandler:",
+            "flag": "method.BridgeOSUpdateBridgeIPCClient.setErrorHandler:",
+            "lang": "objc",
+            "addr": 4294993284
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_remoteDeviceType",
+            "kind": "var",
+            "type": "I",
+            "addr": 4295052392
+          },
+          {
+            "name": "_remoteConnection",
+            "kind": "var",
+            "type": "@\"OS_xpc_remote_connection\"",
+            "addr": 4295052396
+          },
+          {
+            "name": "_messageQueue",
+            "kind": "var",
+            "type": "@\"NSObject<OS_dispatch_queue>\"",
+            "addr": 4295052400
+          },
+          {
+            "name": "_eventHandler",
+            "kind": "var",
+            "type": "@?",
+            "addr": 4295052404
+          },
+          {
+            "name": "_errorHandler",
+            "kind": "var",
+            "type": "@?",
+            "addr": 4295052408
+          },
+          {
+            "name": "eventHandler",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "errorHandler",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "BOSSecureElement",
+        "addr": 4295052752,
+        "lang": "objc",
+        "index": 6,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "bosSEID",
+            "flag": "method.BOSSecureElement.bosSEID",
+            "lang": "objc",
+            "addr": 4294994812
+          },
+          {
+            "name": "setBosSEID:",
+            "flag": "method.BOSSecureElement.setBosSEID:",
+            "lang": "objc",
+            "addr": 4294994820
+          },
+          {
+            "name": "personalizable",
+            "flag": "method.BOSSecureElement.personalizable",
+            "lang": "objc",
+            "addr": 4294994828
+          },
+          {
+            "name": "setPersonalizable:",
+            "flag": "method.BOSSecureElement.setPersonalizable:",
+            "lang": "objc",
+            "addr": 4294994840
+          },
+          {
+            "name": "manifest",
+            "flag": "method.BOSSecureElement.manifest",
+            "lang": "objc",
+            "addr": 4294994848
+          },
+          {
+            "name": "setManifest:",
+            "flag": "method.BOSSecureElement.setManifest:",
+            "lang": "objc",
+            "addr": 4294994860
+          },
+          {
+            "name": "result",
+            "flag": "method.BOSSecureElement.result",
+            "lang": "objc",
+            "addr": 4294994868
+          },
+          {
+            "name": "setResult:",
+            "flag": "method.BOSSecureElement.setResult:",
+            "lang": "objc",
+            "addr": 4294994876
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "personalizable",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295052412
+          },
+          {
+            "name": "bosSEID",
+            "kind": "var",
+            "type": "i",
+            "addr": 4295052416
+          },
+          {
+            "name": "result",
+            "kind": "var",
+            "type": "i",
+            "addr": 4295052420
+          },
+          {
+            "name": "manifest",
+            "kind": "var",
+            "type": "@\"NSData\"",
+            "addr": 4295052424
+          },
+          {
+            "name": "bosSEID",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "personalizable",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "manifest",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "result",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      }
+    ],
+    "protocols": []
+  },
+  "usage": {
+    "layer": "usage",
+    "status": "not_implemented"
+  },
+  "runtime": {
+    "layer": "runtime",
+    "status": "not_implemented"
+  }
+}

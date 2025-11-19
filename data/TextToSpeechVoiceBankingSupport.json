@@ -1,0 +1,2308 @@
+{
+  "framework": "TextToSpeechVoiceBankingSupport.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/TextToSpeechVoiceBankingSupport.framework/Support/voicebankingd",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 322464,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": false,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "swift",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/PrivateFrameworks/BackgroundSystemTasks.framework/Versions/A/BackgroundSystemTasks",
+          "/System/Library/PrivateFrameworks/TextToSpeech.framework/Versions/A/TextToSpeech",
+          "/System/Library/PrivateFrameworks/AXAssetLoader.framework/Versions/A/AXAssetLoader",
+          "/System/Library/Frameworks/UserNotifications.framework/Versions/A/UserNotifications",
+          "/System/Library/PrivateFrameworks/TextToSpeechVoiceBankingSupport.framework/Versions/A/TextToSpeechVoiceBankingSupport",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/Combine.framework/Versions/A/Combine",
+          "/System/Library/Frameworks/CoreData.framework/Versions/A/CoreData",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "/System/Library/Frameworks/Security.framework/Versions/A/Security",
+          "/System/Library/PrivateFrameworks/AXCoreUtilities.framework/Versions/A/AXCoreUtilities",
+          "/usr/lib/libAccessibility.dylib",
+          "/usr/lib/libMobileGestalt.dylib",
+          "/usr/lib/swift/libswiftAVFoundation.dylib",
+          "/usr/lib/swift/libswiftAccelerate.dylib",
+          "/usr/lib/swift/libswiftCompression.dylib",
+          "/usr/lib/swift/libswiftCore.dylib",
+          "/usr/lib/swift/libswiftCoreAudio.dylib",
+          "/usr/lib/swift/libswiftCoreFoundation.dylib",
+          "/usr/lib/swift/libswiftCoreImage.dylib",
+          "/usr/lib/swift/libswiftCoreLocation.dylib",
+          "/usr/lib/swift/libswiftCoreMIDI.dylib",
+          "/usr/lib/swift/libswiftCoreMedia.dylib",
+          "/usr/lib/swift/libswiftDispatch.dylib",
+          "/usr/lib/swift/libswiftIOKit.dylib",
+          "/usr/lib/swift/libswiftMetal.dylib",
+          "/usr/lib/swift/libswiftNaturalLanguage.dylib",
+          "/usr/lib/swift/libswiftOSLog.dylib",
+          "/usr/lib/swift/libswiftObjectiveC.dylib",
+          "/usr/lib/swift/libswiftQuartzCore.dylib",
+          "/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib",
+          "/usr/lib/swift/libswiftXPC.dylib",
+          "/usr/lib/swift/libswift_Builtin_float.dylib",
+          "/usr/lib/swift/libswift_Concurrency.dylib",
+          "/usr/lib/swift/libswiftos.dylib",
+          "/usr/lib/swift/libswiftsimd.dylib"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "VoiceBankingXPCStore",
+        "addr": 181996,
+        "lang": "swift",
+        "index": 0,
+        "fields": [
+          {
+            "name": "xpcStoreServer",
+            "kind": "property",
+            "type": "NSXPCStoreServer.allocator__GenericAccessorSg",
+            "addr": 4295149792
+          },
+          {
+            "name": "voiceBankingManager",
+            "kind": "property",
+            "addr": 4295149808
+          }
+        ]
+      },
+      {
+        "classname": "VoiceBankingUserNotificationManager",
+        "addr": 182056,
+        "lang": "swift",
+        "index": 1,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ],
+        "fields": [
+          {
+            "name": "$__lazy_storage_$_userNotificationCenter",
+            "kind": "property",
+            "type": "UNUserNotificationCenter.allocator__GenericAccessorSg",
+            "addr": 4295149840
+          },
+          {
+            "name": "modelIDsQueuedToSkipNotifications",
+            "kind": "property",
+            "type": "Shy\u0002r\u008f",
+            "addr": 4295149888
+          },
+          {
+            "name": "$__lazy_storage_$_voicebankingUserNotificationBundle",
+            "kind": "property",
+            "type": "NSBundle.allocator__GenericAccessorSgSg",
+            "addr": 4295149936
+          }
+        ]
+      },
+      {
+        "classname": "UNNotificationInterruptionLevel",
+        "addr": 182112,
+        "lang": "swift",
+        "index": 2
+      },
+      {
+        "classname": "UNNotificationPresentationOptions",
+        "addr": 182144,
+        "lang": "swift",
+        "index": 3,
+        "fields": [
+          {
+            "name": "rawValue",
+            "kind": "property",
+            "type": "UInt",
+            "addr": 4295149989
+          }
+        ]
+      },
+      {
+        "classname": "VoiceBankingXPCServer",
+        "addr": 182236,
+        "lang": "swift",
+        "index": 4,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ],
+        "fields": [
+          {
+            "name": "listener",
+            "kind": "property",
+            "type": "__C.NSXPCListener",
+            "addr": 4295150037
+          },
+          {
+            "name": "delegate",
+            "kind": "property",
+            "addr": 4295150046
+          }
+        ]
+      },
+      {
+        "classname": "VoiceBankingServerConfigChecker",
+        "addr": 182280,
+        "lang": "swift",
+        "index": 5,
+        "fields": [
+          {
+            "name": "networkTransaction",
+            "kind": "property",
+            "type": "\f\u008d\u0006",
+            "addr": 4295150064
+          }
+        ]
+      },
+      {
+        "classname": "VoiceBankingDaemon",
+        "addr": 182380,
+        "lang": "swift",
+        "index": 6,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ],
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.VoiceBankingDaemon.0",
+            "lang": "swift",
+            "addr": 4295149740
+          },
+          {
+            "name": "1",
+            "flag": "method.VoiceBankingDaemon.1",
+            "lang": "swift",
+            "addr": 4295149828
+          },
+          {
+            "name": "2",
+            "flag": "method.VoiceBankingDaemon.2",
+            "lang": "swift",
+            "addr": 4295133184
+          },
+          {
+            "name": "3",
+            "flag": "method.VoiceBankingDaemon.3",
+            "lang": "swift",
+            "addr": 4295151180
+          },
+          {
+            "name": "4",
+            "flag": "method.VoiceBankingDaemon.4",
+            "lang": "swift",
+            "addr": 4295149775
+          },
+          {
+            "name": "5",
+            "flag": "method.VoiceBankingDaemon.5",
+            "lang": "swift",
+            "addr": 4295149784
+          },
+          {
+            "name": "6",
+            "flag": "method.VoiceBankingDaemon.6",
+            "lang": "swift",
+            "addr": 4295149798
+          }
+        ],
+        "fields": [
+          {
+            "name": "$__lazy_storage_$_xpcServer",
+            "kind": "property",
+            "addr": 4295150112
+          },
+          {
+            "name": "$__lazy_storage_$_xpcStore",
+            "kind": "property",
+            "addr": 4295150144
+          },
+          {
+            "name": "$__lazy_storage_$_liveSpeechSyncController",
+            "kind": "property",
+            "addr": 4295150176
+          },
+          {
+            "name": "$__lazy_storage_$_userNotificationManager",
+            "kind": "property",
+            "addr": 4295150224
+          },
+          {
+            "name": "$__lazy_storage_$_serverConfigChecker",
+            "kind": "property",
+            "addr": 4295150272
+          },
+          {
+            "name": "startupTransaction",
+            "kind": "property",
+            "type": "\f\u008d\u0006",
+            "addr": 4295150320
+          },
+          {
+            "name": "queue",
+            "kind": "property",
+            "type": "__C.OS_dispatch_queue",
+            "addr": 4295150339
+          },
+          {
+            "name": "$__lazy_storage_$_voiceBankingManager",
+            "kind": "property",
+            "addr": 4295150352
+          },
+          {
+            "name": "datastoreEventSubscription",
+            "kind": "property",
+            "addr": 4295150400
+          },
+          {
+            "name": "$__lazy_storage_$_accessManager",
+            "kind": "property",
+            "addr": 4295150432
+          },
+          {
+            "name": "notificationObserverTokens",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295150464
+          },
+          {
+            "name": "$__lazy_storage_$_assetsService",
+            "kind": "property",
+            "type": "AXAssetsService.allocator__GenericAccessorSg",
+            "addr": 4295150496
+          },
+          {
+            "name": "$__lazy_storage_$_vdbXpc",
+            "kind": "property",
+            "addr": 4295150528
+          }
+        ]
+      },
+      {
+        "classname": "TTSVBSiriTrainingEvent",
+        "addr": 182424,
+        "lang": "swift",
+        "index": 7,
+        "fields": [
+          {
+            "name": "undefined",
+            "kind": "property",
+            "addr": 4295150553
+          },
+          {
+            "name": "submitted",
+            "kind": "property",
+            "addr": 4295150563
+          },
+          {
+            "name": "running",
+            "kind": "property",
+            "addr": 4295150573
+          },
+          {
+            "name": "cancelled",
+            "kind": "property",
+            "addr": 4295150581
+          },
+          {
+            "name": "failed",
+            "kind": "property",
+            "addr": 4295150591
+          },
+          {
+            "name": "done",
+            "kind": "property",
+            "addr": 4295150598
+          },
+          {
+            "name": "paused",
+            "kind": "property",
+            "addr": 4295150603
+          }
+        ]
+      },
+      {
+        "classname": "UNNotificationInterruptionLevel_1",
+        "addr": 182112,
+        "lang": "swift",
+        "index": 8
+      },
+      {
+        "classname": "LiveSpeechSyncController",
+        "addr": 182452,
+        "lang": "swift",
+        "index": 9,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ],
+        "fields": [
+          {
+            "name": "queue",
+            "kind": "property",
+            "type": "__C.OS_dispatch_queue",
+            "addr": 4295150624
+          },
+          {
+            "name": "localDefaults",
+            "kind": "property",
+            "type": "__C.NSUserDefaults",
+            "addr": 4295150630
+          },
+          {
+            "name": "cloudDefaults",
+            "kind": "property",
+            "type": "__C.NSUbiquitousKeyValueStore",
+            "addr": 4295150644
+          },
+          {
+            "name": "favoritePhrasesPrefObservation",
+            "kind": "property",
+            "addr": 4295150672
+          }
+        ]
+      },
+      {
+        "classname": "voicebankingd.VoiceBankingXPCStore",
+        "addr": 4295184192,
+        "lang": "objc",
+        "index": 10,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "xpcStoreServer",
+            "kind": "var",
+            "addr": 4295131592
+          },
+          {
+            "name": "voiceBankingManager",
+            "kind": "var",
+            "addr": 4295131600
+          }
+        ]
+      },
+      {
+        "classname": "voicebankingd.VoiceBankingUserNotificationManager",
+        "addr": 4295184392,
+        "lang": "objc",
+        "index": 11,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.voicebankingd.VoiceBankingUserNotificationManager.init",
+            "lang": "objc",
+            "addr": 4294975740
+          },
+          {
+            "name": "userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:",
+            "flag": "method.voicebankingd.VoiceBankingUserNotificationManager.userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:",
+            "lang": "objc",
+            "addr": 4294981632
+          },
+          {
+            "name": "userNotificationCenter:willPresentNotification:withCompletionHandler:",
+            "flag": "method.voicebankingd.VoiceBankingUserNotificationManager.userNotificationCenter:willPresentNotification:withCompletionHandler:",
+            "lang": "objc",
+            "addr": 4294983084
+          },
+          {
+            "name": "userNotificationCenter:openSettingsForNotification:",
+            "flag": "method.voicebankingd.VoiceBankingUserNotificationManager.userNotificationCenter:openSettingsForNotification:",
+            "lang": "objc",
+            "addr": 4294984132
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.voicebankingd.VoiceBankingUserNotificationManager..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294984312
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$__lazy_storage_$_userNotificationCenter",
+            "kind": "var",
+            "addr": 4295184376
+          },
+          {
+            "name": "modelIDsQueuedToSkipNotifications",
+            "kind": "var",
+            "addr": 4295184368
+          },
+          {
+            "name": "$__lazy_storage_$_voicebankingUserNotificationBundle",
+            "kind": "var",
+            "addr": 4295184384
+          }
+        ]
+      },
+      {
+        "classname": "voicebankingd.VoiceBankingXPCServer",
+        "addr": 4295184720,
+        "lang": "objc",
+        "index": 12,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.voicebankingd.VoiceBankingXPCServer.init",
+            "lang": "objc",
+            "addr": 4294993204
+          },
+          {
+            "name": "listener:shouldAcceptNewConnection:",
+            "flag": "method.voicebankingd.VoiceBankingXPCServer.listener:shouldAcceptNewConnection:",
+            "lang": "objc",
+            "addr": 4294993512
+          },
+          {
+            "name": "createVoiceWithNamed:localeID:reply:",
+            "flag": "method.voicebankingd.VoiceBankingXPCServer.createVoiceWithNamed:localeID:reply:",
+            "lang": "objc",
+            "addr": 4294994096
+          },
+          {
+            "name": "importTrainingDataFromDirectory:creatingVoiceName:localeID:reply:",
+            "flag": "method.voicebankingd.VoiceBankingXPCServer.importTrainingDataFromDirectory:creatingVoiceName:localeID:reply:",
+            "lang": "objc",
+            "addr": 4294997848
+          },
+          {
+            "name": "importModelFromDirectory:overrideLocaleID:addingToVoice:reply:",
+            "flag": "method.voicebankingd.VoiceBankingXPCServer.importModelFromDirectory:overrideLocaleID:addingToVoice:reply:",
+            "lang": "objc",
+            "addr": 4295000128
+          },
+          {
+            "name": "exportTrainingDataWithVoiceID:shouldCompressResult:includeEntireScript:reply:",
+            "flag": "method.voicebankingd.VoiceBankingXPCServer.exportTrainingDataWithVoiceID:shouldCompressResult:includeEntireScript:reply:",
+            "lang": "objc",
+            "addr": 4295003096
+          },
+          {
+            "name": "deleteVoiceWithVoiceID:reply:",
+            "flag": "method.voicebankingd.VoiceBankingXPCServer.deleteVoiceWithVoiceID:reply:",
+            "lang": "objc",
+            "addr": 4295003812
+          },
+          {
+            "name": "synchronizeModelFuturesWithModelID:reply:",
+            "flag": "method.voicebankingd.VoiceBankingXPCServer.synchronizeModelFuturesWithModelID:reply:",
+            "lang": "objc",
+            "addr": 4295003896
+          },
+          {
+            "name": "deleteModelWithModelID:reply:",
+            "flag": "method.voicebankingd.VoiceBankingXPCServer.deleteModelWithModelID:reply:",
+            "lang": "objc",
+            "addr": 4295004312
+          },
+          {
+            "name": "fetchVoicesWithCompletion:",
+            "flag": "method.voicebankingd.VoiceBankingXPCServer.fetchVoicesWithCompletion:",
+            "lang": "objc",
+            "addr": 4295004396
+          },
+          {
+            "name": "fetchVoiceModelsWithCompletion:",
+            "flag": "method.voicebankingd.VoiceBankingXPCServer.fetchVoiceModelsWithCompletion:",
+            "lang": "objc",
+            "addr": 4295004488
+          },
+          {
+            "name": "fetchInstalledVoiceModelsWithCompletion:",
+            "flag": "method.voicebankingd.VoiceBankingXPCServer.fetchInstalledVoiceModelsWithCompletion:",
+            "lang": "objc",
+            "addr": 4295006324
+          },
+          {
+            "name": "fetchPersonalVoiceSystemRepresentationWithCompletion:",
+            "flag": "method.voicebankingd.VoiceBankingXPCServer.fetchPersonalVoiceSystemRepresentationWithCompletion:",
+            "lang": "objc",
+            "addr": 4295007032
+          },
+          {
+            "name": "fetchTrainingMetadataWithVoiceID:completion:",
+            "flag": "method.voicebankingd.VoiceBankingXPCServer.fetchTrainingMetadataWithVoiceID:completion:",
+            "lang": "objc",
+            "addr": 4295007848
+          },
+          {
+            "name": "trainModelWithVoiceID:mode:startImmediately:skipValidation:overrideMinimumPhraseCount:useUserRecordingsForTraining:reply:",
+            "flag": "method.voicebankingd.VoiceBankingXPCServer.trainModelWithVoiceID:mode:startImmediately:skipValidation:overrideMinimumPhraseCount:useUserRecordingsForTraining:reply:",
+            "lang": "objc",
+            "addr": 4295010904
+          },
+          {
+            "name": "discardTrainingTasksWithReply:",
+            "flag": "method.voicebankingd.VoiceBankingXPCServer.discardTrainingTasksWithReply:",
+            "lang": "objc",
+            "addr": 4295011348
+          },
+          {
+            "name": "cancelTrainingTaskWithTaskID:reply:",
+            "flag": "method.voicebankingd.VoiceBankingXPCServer.cancelTrainingTaskWithTaskID:reply:",
+            "lang": "objc",
+            "addr": 4295013252
+          },
+          {
+            "name": "requestVoiceCacheRebuildIfNeeded",
+            "flag": "method.voicebankingd.VoiceBankingXPCServer.requestVoiceCacheRebuildIfNeeded",
+            "lang": "objc",
+            "addr": 4295013744
+          },
+          {
+            "name": "repairDatastoreFromFilesystemWithReply:",
+            "flag": "method.voicebankingd.VoiceBankingXPCServer.repairDatastoreFromFilesystemWithReply:",
+            "lang": "objc",
+            "addr": 4295013948
+          },
+          {
+            "name": "updateTCCCloudKitAccessWithAllowed:reply:",
+            "flag": "method.voicebankingd.VoiceBankingXPCServer.updateTCCCloudKitAccessWithAllowed:reply:",
+            "lang": "objc",
+            "addr": 4295014592
+          },
+          {
+            "name": "initializeCloudKitSchemaWithReply:",
+            "flag": "method.voicebankingd.VoiceBankingXPCServer.initializeCloudKitSchemaWithReply:",
+            "lang": "objc",
+            "addr": 4295015324
+          },
+          {
+            "name": "createSupplementaryModelForVoiceWithVoiceID:sourceVersion:targetVersion:reply:",
+            "flag": "method.voicebankingd.VoiceBankingXPCServer.createSupplementaryModelForVoiceWithVoiceID:sourceVersion:targetVersion:reply:",
+            "lang": "objc",
+            "addr": 4295017916
+          },
+          {
+            "name": "synthesizeAudioSamplesForVoiceWithID:reply:",
+            "flag": "method.voicebankingd.VoiceBankingXPCServer.synthesizeAudioSamplesForVoiceWithID:reply:",
+            "lang": "objc",
+            "addr": 4295022380
+          },
+          {
+            "name": "sendMockUserNotification",
+            "flag": "method.voicebankingd.VoiceBankingXPCServer.sendMockUserNotification",
+            "lang": "objc",
+            "addr": 4295022908
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.voicebankingd.VoiceBankingXPCServer..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295023104
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "listener",
+            "kind": "var",
+            "addr": 4295184712
+          },
+          {
+            "name": "delegate",
+            "kind": "var",
+            "addr": 4295184704
+          }
+        ]
+      },
+      {
+        "classname": "voicebankingd.VoiceBankingServerConfigChecker",
+        "addr": 4295185088,
+        "lang": "objc",
+        "index": 13,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "networkTransaction",
+            "kind": "var",
+            "addr": 4295132664
+          }
+        ]
+      },
+      {
+        "classname": "voicebankingd.VoiceBankingDaemon",
+        "addr": 4295185528,
+        "lang": "objc",
+        "index": 14,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.voicebankingd.VoiceBankingDaemon.init",
+            "lang": "objc",
+            "addr": 4295041992
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.voicebankingd.VoiceBankingDaemon..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295091964
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$__lazy_storage_$_xpcServer",
+            "kind": "var",
+            "addr": 4295185360
+          },
+          {
+            "name": "$__lazy_storage_$_xpcStore",
+            "kind": "var",
+            "addr": 4295185368
+          },
+          {
+            "name": "$__lazy_storage_$_liveSpeechSyncController",
+            "kind": "var",
+            "addr": 4295185376
+          },
+          {
+            "name": "$__lazy_storage_$_userNotificationManager",
+            "kind": "var",
+            "addr": 4295185384
+          },
+          {
+            "name": "$__lazy_storage_$_serverConfigChecker",
+            "kind": "var",
+            "addr": 4295185392
+          },
+          {
+            "name": "startupTransaction",
+            "kind": "var",
+            "addr": 4295185400
+          },
+          {
+            "name": "queue",
+            "kind": "var",
+            "addr": 4295185408
+          },
+          {
+            "name": "$__lazy_storage_$_voiceBankingManager",
+            "kind": "var",
+            "addr": 4295185448
+          },
+          {
+            "name": "datastoreEventSubscription",
+            "kind": "var",
+            "addr": 4295185456
+          },
+          {
+            "name": "$__lazy_storage_$_accessManager",
+            "kind": "var",
+            "addr": 4295185464
+          },
+          {
+            "name": "notificationObserverTokens",
+            "kind": "var",
+            "addr": 4295185472
+          },
+          {
+            "name": "$__lazy_storage_$_assetsService",
+            "kind": "var",
+            "addr": 4295185480
+          },
+          {
+            "name": "$__lazy_storage_$_vdbXpc",
+            "kind": "var",
+            "addr": 4295185488
+          }
+        ]
+      },
+      {
+        "classname": "voicebankingd.LiveSpeechSyncController",
+        "addr": 4295185832,
+        "lang": "objc",
+        "index": 15,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.voicebankingd.LiveSpeechSyncController.init",
+            "lang": "objc",
+            "addr": 4295107664
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.voicebankingd.LiveSpeechSyncController.dealloc",
+            "lang": "objc",
+            "addr": 4295107836
+          },
+          {
+            "name": "handleCloudPrefsChanged:",
+            "flag": "method.voicebankingd.LiveSpeechSyncController.handleCloudPrefsChanged:",
+            "lang": "objc",
+            "addr": 4295115108
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.voicebankingd.LiveSpeechSyncController..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295107992
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "queue",
+            "kind": "var",
+            "addr": 4295185784
+          },
+          {
+            "name": "localDefaults",
+            "kind": "var",
+            "addr": 4295185792
+          },
+          {
+            "name": "cloudDefaults",
+            "kind": "var",
+            "addr": 4295185800
+          },
+          {
+            "name": "favoritePhrasesPrefObservation",
+            "kind": "var",
+            "addr": 4295185808
+          }
+        ]
+      }
+    ],
+    "swift_metadata": {
+      "is_swift": true,
+      "symbols": [
+        {
+          "name": "imp.$s10Foundation10URLRequestV19_bridgeToObjectiveCSo12NSURLRequestCyF",
+          "demname": "Foundation.URLRequest._bridgeToObjectiveC.NSURLRequest(...F)",
+          "flagname": "sym.imp.Foundation.URLRequest._bridgeToObjectiveC.NSURLRequest_...F_",
+          "realname": "Foundation.URLRequest._bridgeToObjectiveC.NSURLRequest(...F)",
+          "ordinal": 2,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295124728,
+          "paddr": 452344,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation10URLRequestV3url11cachePolicy15timeoutIntervalAcA3URLV_So017NSURLRequestCacheE0VSdtcfC",
+          "demname": "Foundation.URLRequest.url.cachePolicy.timeoutInterval.URL.NSURLRequestCache...E0VSdtcfC",
+          "flagname": "sym.imp.Foundation.URLRequest.url.cachePolicy.timeoutInterval.URL.NSURLRequestCache...E0VSdtcfC",
+          "realname": "Foundation.URLRequest.url.cachePolicy.timeoutInterval.URL.NSURLRequestCache...E0VSdtcfC",
+          "ordinal": 3,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295124744,
+          "paddr": 452360,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation10URLRequestVMa",
+          "demname": "Foundation.URLRequest...VMa",
+          "flagname": "sym.imp.Foundation.URLRequest...VMa",
+          "realname": "Foundation.URLRequest...VMa",
+          "ordinal": 4,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295124760,
+          "paddr": 452376,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation12NotificationV36_unconditionallyBridgeFromObjectiveCyACSo14NSNotificationCSgFZ",
+          "demname": "Foundation.Notification._unconditionallyBridgeFromObjectiveC.NSNotification(...gFZ)",
+          "flagname": "sym.imp.Foundation.Notification._unconditionallyBridgeFromObjectiveC.NSNotification_...gFZ_",
+          "realname": "Foundation.Notification._unconditionallyBridgeFromObjectiveC.NSNotification(...gFZ)",
+          "ordinal": 5,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295124776,
+          "paddr": 452392,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation12NotificationV8userInfoSDys11AnyHashableVypGSgvg",
+          "demname": "Foundation.Notification.userInfo.AnyHashable...VypGSgvg",
+          "flagname": "sym.imp.Foundation.Notification.userInfo.AnyHashable...VypGSgvg",
+          "realname": "Foundation.Notification.userInfo.AnyHashable...VypGSgvg",
+          "ordinal": 6,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295124792,
+          "paddr": 452408,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation12NotificationVMa",
+          "demname": "Foundation.Notification...VMa",
+          "flagname": "sym.imp.Foundation.Notification...VMa",
+          "realname": "Foundation.Notification...VMa",
+          "ordinal": 7,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295124808,
+          "paddr": 452424,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation22_convertErrorToNSErrorySo0E0Cs0C0_pF",
+          "demname": "Foundation._convertErrorToNSError(...F)",
+          "flagname": "sym.imp.Foundation._convertErrorToNSError_...F_",
+          "realname": "Foundation._convertErrorToNSError(...F)",
+          "ordinal": 8,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295124824,
+          "paddr": 452440,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation22_convertNSErrorToErrorys0E0_pSo0C0CSgF",
+          "demname": "Foundation._convertNSErrorToError(...So0C0CSgF)",
+          "flagname": "sym.imp.Foundation._convertNSErrorToError_...So0C0CSgF_",
+          "realname": "Foundation._convertNSErrorToError(...So0C0CSgF)",
+          "ordinal": 9,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295124840,
+          "paddr": 452456,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation27_KeyValueCodingAndObservingPAAE7observe_7options13changeHandlerAA05NSKeyC11ObservationCs0B4PathCyxqd__G_So0kcF7OptionsVyx_AA0kC14ObservedChangeVyqd__GtctlF",
+          "demname": "Foundation._KeyValueCodingAndObserving.....G_So0kcF7OptionsVyx_AA0kC14ObservedChangeVyqd__GtctlF",
+          "flagname": "sym.imp.Foundation._KeyValueCodingAndObserving.....G_So0kcF7OptionsVyx_AA0kC14ObservedChangeVyqd__GtctlF",
+          "realname": "Foundation._KeyValueCodingAndObserving.....G_So0kcF7OptionsVyx_AA0kC14ObservedChangeVyqd__GtctlF",
+          "ordinal": 10,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295124856,
+          "paddr": 452472,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation3URLV13DirectoryHintOMa",
+          "demname": "Foundation.URL.DirectoryHint(...a)",
+          "flagname": "sym.imp.Foundation.URL.DirectoryHint_...a_",
+          "realname": "Foundation.URL.DirectoryHint(...a)",
+          "ordinal": 11,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295124872,
+          "paddr": 452488,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation3URLV14absoluteStringSSvg",
+          "demname": "Foundation.URL.absoluteString(...vg)",
+          "flagname": "sym.imp.Foundation.URL.absoluteString_...vg_",
+          "realname": "Foundation.URL.absoluteString(...vg)",
+          "ordinal": 12,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295124888,
+          "paddr": 452504,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation3URLV19_bridgeToObjectiveCSo5NSURLCyF",
+          "demname": "Foundation.URL._bridgeToObjectiveC.NSURL(...F)",
+          "flagname": "sym.imp.Foundation.URL._bridgeToObjectiveC.NSURL_...F_",
+          "realname": "Foundation.URL._bridgeToObjectiveC.NSURL(...F)",
+          "ordinal": 13,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295124904,
+          "paddr": 452520,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation3URLV36_unconditionallyBridgeFromObjectiveCyACSo5NSURLCSgFZ",
+          "demname": "Foundation.URL._unconditionallyBridgeFromObjectiveC.NSURL(...gFZ)",
+          "flagname": "sym.imp.Foundation.URL._unconditionallyBridgeFromObjectiveC.NSURL_...gFZ_",
+          "realname": "Foundation.URL._unconditionallyBridgeFromObjectiveC.NSURL(...gFZ)",
+          "ordinal": 14,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295124920,
+          "paddr": 452536,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation3URLV4pathSSvg",
+          "demname": "Foundation.URL.path(...vg)",
+          "flagname": "sym.imp.Foundation.URL.path_...vg_",
+          "realname": "Foundation.URL.path(...vg)",
+          "ordinal": 15,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295124936,
+          "paddr": 452552,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation3URLV6stringACSgSSh_tcfC",
+          "demname": "Foundation.URL.string(...cfC)",
+          "flagname": "sym.imp.Foundation.URL.string_...cfC_",
+          "realname": "Foundation.URL.string(...cfC)",
+          "ordinal": 16,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295124952,
+          "paddr": 452568,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation3URLV9appending4path13directoryHintACx_AC09DirectoryF0OtSyRzlF",
+          "demname": "Foundation.URL.appending.path.directoryHint.Directory...F0OtSyRzlF",
+          "flagname": "sym.imp.Foundation.URL.appending.path.directoryHint.Directory...F0OtSyRzlF",
+          "realname": "Foundation.URL.appending.path.directoryHint.Directory...F0OtSyRzlF",
+          "ordinal": 17,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295124968,
+          "paddr": 452584,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation3URLVMa",
+          "demname": "Foundation.URL...VMa",
+          "flagname": "sym.imp.Foundation.URL...VMa",
+          "realname": "Foundation.URL...VMa",
+          "ordinal": 18,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295124984,
+          "paddr": 452600,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4DataV19_bridgeToObjectiveCSo6NSDataCyF",
+          "demname": "Foundation.Data._bridgeToObjectiveC.NSData(...F)",
+          "flagname": "sym.imp.Foundation.Data._bridgeToObjectiveC.NSData_...F_",
+          "realname": "Foundation.Data._bridgeToObjectiveC.NSData(...F)",
+          "ordinal": 19,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125000,
+          "paddr": 452616,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4DataV36_unconditionallyBridgeFromObjectiveCyACSo6NSDataCSgFZ",
+          "demname": "Foundation.Data._unconditionallyBridgeFromObjectiveC.NSData(...gFZ)",
+          "flagname": "sym.imp.Foundation.Data._unconditionallyBridgeFromObjectiveC.NSData_...gFZ_",
+          "realname": "Foundation.Data._unconditionallyBridgeFromObjectiveC.NSData(...gFZ)",
+          "ordinal": 20,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125016,
+          "paddr": 452632,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4DateV18addingTimeIntervalyACSdF",
+          "demname": "Foundation.Date.addingTimeInterval(...CSdF)",
+          "flagname": "sym.imp.Foundation.Date.addingTimeInterval_...CSdF_",
+          "realname": "Foundation.Date.addingTimeInterval(...CSdF)",
+          "ordinal": 21,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125032,
+          "paddr": 452648,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4DateVACycfC",
+          "demname": "Foundation.Date...VACycfC",
+          "flagname": "sym.imp.Foundation.Date...VACycfC",
+          "realname": "Foundation.Date...VACycfC",
+          "ordinal": 22,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125048,
+          "paddr": 452664,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4DateVMa",
+          "demname": "Foundation.Date...VMa",
+          "flagname": "sym.imp.Foundation.Date...VMa",
+          "realname": "Foundation.Date...VMa",
+          "ordinal": 23,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125064,
+          "paddr": 452680,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4UUIDV10uuidStringSSvg",
+          "demname": "Foundation.UUID.uuidString(...vg)",
+          "flagname": "sym.imp.Foundation.UUID.uuidString_...vg_",
+          "realname": "Foundation.UUID.uuidString(...vg)",
+          "ordinal": 24,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125080,
+          "paddr": 452696,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4UUIDV36_unconditionallyBridgeFromObjectiveCyACSo6NSUUIDCSgFZ",
+          "demname": "Foundation.UUID._unconditionallyBridgeFromObjectiveC.NSUUID(...gFZ)",
+          "flagname": "sym.imp.Foundation.UUID._unconditionallyBridgeFromObjectiveC.NSUUID_...gFZ_",
+          "realname": "Foundation.UUID._unconditionallyBridgeFromObjectiveC.NSUUID(...gFZ)",
+          "ordinal": 25,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125096,
+          "paddr": 452712,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4UUIDVMa",
+          "demname": "Foundation.UUID...VMa",
+          "flagname": "sym.imp.Foundation.UUID...VMa",
+          "realname": "Foundation.UUID...VMa",
+          "ordinal": 26,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125112,
+          "paddr": 452728,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s12TextToSpeech16VoiceDatabaseXPCC6ClientC4load8loaderIdySS_tYaKF",
+          "demname": "TextToSpeech.VoiceDatabaseXPC.Client.allocator.load.loaderId(...YaKF)",
+          "flagname": "sym.imp.TextToSpeech.VoiceDatabaseXPC.Client.allocator.load.loaderId_...YaKF_",
+          "realname": "TextToSpeech.VoiceDatabaseXPC.Client.allocator.load.loaderId(...YaKF)",
+          "ordinal": 27,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125128,
+          "paddr": 452744,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s2os0A4_log_3dso0B0__ySo0a1_B7_type_ta_SVSo03OS_a1_B0Cs12StaticStringVs7CVarArg_pdtF",
+          "demname": "os._log.dso.....ySo0a1_B7_type_ta_SVSo03OS_a1_B0Cs12StaticStringVs7CVarArg_pdtF",
+          "flagname": "sym.imp.os._log.dso.....ySo0a1_B7_type_ta_SVSo03OS_a1_B0Cs12StaticStringVs7CVarArg_pdtF",
+          "realname": "os._log.dso.....ySo0a1_B7_type_ta_SVSo03OS_a1_B0Cs12StaticStringVs7CVarArg_pdtF",
+          "ordinal": 28,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125144,
+          "paddr": 452760,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s2os6LoggerV9logObjectSo03OS_a1_C0Cvg",
+          "demname": "os.Logger.logObject.OS_._...C0Cvg",
+          "flagname": "sym.imp.os.Logger.logObject.OS_._...C0Cvg",
+          "realname": "os.Logger.logObject.OS_._...C0Cvg",
+          "ordinal": 29,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125160,
+          "paddr": 452776,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s2os6LoggerVMa",
+          "demname": "os.Logger...VMa",
+          "flagname": "sym.imp.os.Logger...VMa",
+          "realname": "os.Logger...VMa",
+          "ordinal": 30,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125176,
+          "paddr": 452792,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport010TTSVBVoiceE7ManagerC014fetchInstalledD6Models10completionyySayAA014TTSVBInstalledD5ModelVGYbc_tF",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBVoice(...F)",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBVoice_...F_",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBVoice(...F)",
+          "ordinal": 31,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125192,
+          "paddr": 452808,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport010TTSVBVoiceE7ManagerC027createSupplementaryModelForD07voiceID13sourceVersion06targetP024startTrainingImmediately10completiony10Foundation4UUIDV_AA0gkP0VANSbSgys6ResultOyAA13TTSVBResultOKOAA10TTSVBErrorVGYbctF",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBVoice.(...gkP0VANSbSgys6ResultOyAA13TTSVBResultOKOAA10TTSVBErrorVGYbctF)",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBVoice._...gkP0VANSbSgys6ResultOyAA13TTSVBResultOKOAA10TTSVBErrorVGYbctF_",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBVoice.(...gkP0VANSbSgys6ResultOyAA13TTSVBResultOKOAA10TTSVBErrorVGYbctF)",
+          "ordinal": 32,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125208,
+          "paddr": 452824,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport010TTSVBVoiceE7ManagerC05fetchD6Models10completionyySayAA0G5ModelVGYbc_tF",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBVoice(...F)",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBVoice_...F_",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBVoice(...F)",
+          "ordinal": 33,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125224,
+          "paddr": 452840,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport010TTSVBVoiceE7ManagerC06createD05named8localeID10completionySS_SSys6ResultOy10Foundation4UUIDVAA10TTSVBErrorVGctF",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBVoice__String(...ys6ResultOy10Foundation4UUIDVAA10TTSVBErrorVGctF)",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBVoice__String_...ys6ResultOy10Foundation4UUIDVAA10TTSVBErrorVGctF_",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBVoice__String(...ys6ResultOy10Foundation4UUIDVAA10TTSVBErrorVGctF)",
+          "ordinal": 34,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125240,
+          "paddr": 452856,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport010TTSVBVoiceE7ManagerC07performD28DatastoreMigrationV1IfNeeded10completionyys6ResultOyAA13TTSVBResultOKOAA10TTSVBErrorVGYbc_tF",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBVoice(...F)",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBVoice_...F_",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBVoice(...F)",
+          "ordinal": 35,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125256,
+          "paddr": 452872,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport010TTSVBVoiceE7ManagerC07startV1b2V2D17MigrationIfNeededyyYaKF",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBVoice.Manager.startV1.V2.MigrationIfNeeded(...YaKF)",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBVoice.Manager.startV1.V2.MigrationIfNeeded_...YaKF_",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBVoice.Manager.startV1.V2.MigrationIfNeeded(...YaKF)",
+          "ordinal": 36,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125272,
+          "paddr": 452888,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport010TTSVBVoiceE7ManagerC10loadStoresyyys6ResultOyAA13TTSVBResultOKOAA10TTSVBErrorVGYbcF",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBVoice.Manager.loadStores.Result.TTSVBResultOK.TTSVBError...VGYbcF",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBVoice.Manager.loadStores.Result.TTSVBResultOK.TTSVBError...VGYbcF",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBVoice.Manager.loadStores.Result.TTSVBResultOK.TTSVBError...VGYbcF",
+          "ordinal": 37,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125288,
+          "paddr": 452904,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport010TTSVBVoiceE7ManagerC11importModel13fromDirectory16overrideLocaleID06addingbD010completiony10Foundation3URLV_SSSgAI4UUIDVys6ResultOyAA13TTSVBResultOKOAA10TTSVBErrorVGYbctF",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBVoice__String(...SgAI4UUIDVys6ResultOyAA13TTSVBResultOKOAA10TTSVBErrorVGYbctF)",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBVoice__String_...SgAI4UUIDVys6ResultOyAA13TTSVBResultOKOAA10TTSVBErrorVGYbctF_",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBVoice__String(...SgAI4UUIDVys6ResultOyAA13TTSVBResultOKOAA10TTSVBErrorVGYbctF)",
+          "ordinal": 38,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125304,
+          "paddr": 452920,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport010TTSVBVoiceE7ManagerC13refreshModels10completionyys6ResultOySayAA0G20ModelStateTransitionVGAA10TTSVBErrorVGc_tF",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBVoice(...F)",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBVoice_...F_",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBVoice(...F)",
+          "ordinal": 39,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125320,
+          "paddr": 452936,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport010TTSVBVoiceE7ManagerC16logLongTermErroryySSyXKF",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBVoice.Manager.logLongTermError(...SSyXKF)",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBVoice.Manager.logLongTermError_...SSyXKF_",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBVoice.Manager.logLongTermError(...SSyXKF)",
+          "ordinal": 40,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125336,
+          "paddr": 452952,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport010TTSVBVoiceE7ManagerC16xpcServiceConfigAA14TTSVBDataStoreC010XPCServiceK0Vvg",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBVoice.Manager.xpcServiceConfig.TTSVBDataStore.XPCService...K0Vvg",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBVoice.Manager.xpcServiceConfig.TTSVBDataStore.XPCService...K0Vvg",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBVoice.Manager.xpcServiceConfig.TTSVBDataStore.XPCService...K0Vvg",
+          "ordinal": 41,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125352,
+          "paddr": 452968,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport010TTSVBVoiceE7ManagerC18TrainingDataSourceOMa",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBVoice.Manager.TrainingDataSource(...a)",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBVoice.Manager.TrainingDataSource_...a_",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBVoice.Manager.TrainingDataSource(...a)",
+          "ordinal": 42,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125368,
+          "paddr": 452984,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport010TTSVBVoiceE7ManagerC18cancelTrainingTask6taskID10completionySS_ys6ResultOyAA13TTSVBResultOKOAA10TTSVBErrorVGYbctF",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBVoice(...s6ResultOyAA13TTSVBResultOKOAA10TTSVBErrorVGYbctF)",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBVoice_...s6ResultOyAA13TTSVBResultOKOAA10TTSVBErrorVGYbctF_",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBVoice(...s6ResultOyAA13TTSVBResultOKOAA10TTSVBErrorVGYbctF)",
+          "ordinal": 43,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125384,
+          "paddr": 453000,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport010TTSVBVoiceE7ManagerC18exportTrainingData03forD020shouldCompressResult19includeEntireScript10completiony10Foundation4UUIDV_S2bys0O0OyAI3URLVAA10TTSVBErrorVGYbctF",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBVoice.by...s0O0OyAI3URLVAA10TTSVBErrorVGYbctF",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBVoice.by...s0O0OyAI3URLVAA10TTSVBErrorVGYbctF",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBVoice.by...s0O0OyAI3URLVAA10TTSVBErrorVGYbctF",
+          "ordinal": 44,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125400,
+          "paddr": 453016,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport010TTSVBVoiceE7ManagerC18importTrainingData13fromDirectory08creatingD4Name8localeID10completiony10Foundation3URLV_S2Sys6ResultOyAI4UUIDVAA10TTSVBErrorVGctF",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBVoice.Sy.Result.UUID.TTSVBError...VGctF",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBVoice.Sy.Result.UUID.TTSVBError...VGctF",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBVoice.Sy.Result.UUID.TTSVBError...VGctF",
+          "ordinal": 45,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125416,
+          "paddr": 453032,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport010TTSVBVoiceE7ManagerC18logLongTermMessageyySSyXKF",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBVoice.Manager.logLongTermMessage(...SSyXKF)",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBVoice.Manager.logLongTermMessage_...SSyXKF_",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBVoice.Manager.logLongTermMessage(...SSyXKF)",
+          "ordinal": 46,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125432,
+          "paddr": 453048,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport010TTSVBVoiceE7ManagerC19discardLongTermLogs9olderThany10Foundation4DateV_tF",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBVoice(...F)",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBVoice_...F_",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBVoice(...F)",
+          "ordinal": 47,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125448,
+          "paddr": 453064,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport010TTSVBVoiceE7ManagerC23dataStoreEventPublisher7Combine03AnyL0VyAA09TTSVBDatajK0Os5NeverOGvg",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBVoice.Manager.dataStoreEventPublisher.Combine.Any...L0VyAA09TTSVBDatajK0Os5NeverOGvg",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBVoice.Manager.dataStoreEventPublisher.Combine.Any...L0VyAA09TTSVBDatajK0Os5NeverOGvg",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBVoice.Manager.dataStoreEventPublisher.Combine.Any...L0VyAA09TTSVBDatajK0Os5NeverOGvg",
+          "ordinal": 48,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125464,
+          "paddr": 453080,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport010TTSVBVoiceE7ManagerC24sendMockUserNotificationyyF",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBVoice.Manager.sendMockUserNotification(...F)",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBVoice.Manager.sendMockUserNotification_...F_",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBVoice.Manager.sendMockUserNotification(...F)",
+          "ordinal": 49,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125480,
+          "paddr": 453096,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport010TTSVBVoiceE7ManagerC26synthesizeAudioForTraining7voiceIDy10Foundation4UUIDV_tYaKF",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBVoice(...YaKF)",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBVoice_...YaKF_",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBVoice(...YaKF)",
+          "ordinal": 50,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125496,
+          "paddr": 453112,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport010TTSVBVoiceE7ManagerC35importCloudVoicesIntoLocalDatastore10completionyys6ResultOyAA13TTSVBResultOKOAA10TTSVBErrorVGYbc_tF",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBVoice(...F)",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBVoice_...F_",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBVoice(...F)",
+          "ordinal": 51,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125512,
+          "paddr": 453128,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport010TTSVBVoiceE7ManagerC35repairDatastoreVoicesFromFilesystem10completionyys6ResultOyAA13TTSVBResultOKOAA10TTSVBErrorVGYbc_tF",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBVoice(...F)",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBVoice_...F_",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBVoice(...F)",
+          "ordinal": 52,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125528,
+          "paddr": 453144,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport010TTSVBVoiceE7ManagerC40synchronizeFileBackedFuturesForAllModels10completionyys6ResultOyAA13TTSVBResultOKOAA10TTSVBErrorVGYbc_tF",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBVoice(...F)",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBVoice_...F_",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBVoice(...F)",
+          "ordinal": 53,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125544,
+          "paddr": 453160,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport010TTSVBVoiceE7ManagerC45synchronizeAudioFileBackedFuturesForAllVoices10completionyys6ResultOyAA13TTSVBResultOKOAA10TTSVBErrorVGYbc_tF",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBVoice(...F)",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBVoice_...F_",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBVoice(...F)",
+          "ordinal": 54,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125560,
+          "paddr": 453176,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport010TTSVBVoiceE7ManagerC5train7voiceID4mode16startImmediately18trainingDataSource23validateTrainingSamples26overrideMinimumPhraseCount10completiony10Foundation4UUIDV_So27TTSVBSiriTTSTrainerTaskModeVSbAC0spQ0OSbSiSgys6ResultOyAA13TTSVBResultOKOAA10TTSVBErrorVGYbctF",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBVoice(...o27TTSVBSiriTTSTrainerTaskModeVSbAC0spQ0OSbSiSgys6ResultOyAA13TTSVBResultOKOAA10TTSVBErrorVGYbctF)",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBVoice_...o27TTSVBSiriTTSTrainerTaskModeVSbAC0spQ0OSbSiSgys6ResultOyAA13TTSVBResultOKOAA10TTSVBErrorVGYbctF_",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBVoice(...o27TTSVBSiriTTSTrainerTaskModeVSbAC0spQ0OSbSiSgys6ResultOyAA13TTSVBResultOKOAA10TTSVBErrorVGYbctF)",
+          "ordinal": 55,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125576,
+          "paddr": 453192,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport013TTSVBPersonalD20SystemRepresentationVMa",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBPersonal.SystemRepresentation.deallocator...VMa",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBPersonal.SystemRepresentation.deallocator...VMa",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBPersonal.SystemRepresentation.deallocator...VMa",
+          "ordinal": 56,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125592,
+          "paddr": 453208,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport014TTSVBInstalledD5ModelVMa",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBInstalled.Model.deallocator...VMa",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBInstalled.Model.deallocator...VMa",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBInstalled.Model.deallocator...VMa",
+          "ordinal": 57,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125608,
+          "paddr": 453224,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport09TTSVBLivecF0O06phraseA3KeySSvgZ",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBLive.constructor ()...F0O06phraseA3KeySSvgZ",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBLive.constructor___...F0O06phraseA3KeySSvgZ",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBLive.constructor ()...F0O06phraseA3KeySSvgZ",
+          "ordinal": 58,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125624,
+          "paddr": 453240,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport09TTSVBLivecF0O16cloudPrefsDomainSSvgZ",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBLive.constructor ()...F0O16cloudPrefsDomainSSvgZ",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBLive.constructor___...F0O16cloudPrefsDomainSSvgZ",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBLive.constructor ()...F0O16cloudPrefsDomainSSvgZ",
+          "ordinal": 59,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125640,
+          "paddr": 453256,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport09TTSVBLivecF0O16localPrefsDomainSSvgZ",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBLive.constructor ()...F0O16localPrefsDomainSSvgZ",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBLive.constructor___...F0O16localPrefsDomainSSvgZ",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBLive.constructor ()...F0O16localPrefsDomainSSvgZ",
+          "ordinal": 60,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125656,
+          "paddr": 453272,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport09TTSVBLivecF0O18favoritePhrasesKeySSvgZ",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBLive.constructor ()...F0O18favoritePhrasesKeySSvgZ",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBLive.constructor___...F0O18favoritePhrasesKeySSvgZ",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBLive.constructor ()...F0O18favoritePhrasesKeySSvgZ",
+          "ordinal": 61,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125672,
+          "paddr": 453288,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport09TTSVBLivecF0O27favoritePhraseCategoriesKeySSvgZ",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBLive.constructor ()...F0O27favoritePhraseCategoriesKeySSvgZ",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBLive.constructor___...F0O27favoritePhraseCategoriesKeySSvgZ",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBLive.constructor ()...F0O27favoritePhraseCategoriesKeySSvgZ",
+          "ordinal": 62,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125688,
+          "paddr": 453304,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport10TTSVBErrorV11descriptionSSvg",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBError.description(...vg)",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBError.description_...vg_",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBError.description(...vg)",
+          "ordinal": 63,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125704,
+          "paddr": 453320,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport10TTSVBErrorV3mapyACs5Error_p_AC7ProblemOtFZ",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBError.map.Error.Problem(...FZ)",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBError.map.Error.Problem_...FZ_",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBError.map.Error.Problem(...FZ)",
+          "ordinal": 64,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125720,
+          "paddr": 453336,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport10TTSVBErrorV5boxedAA15TTSVBBoxedErrorCvg",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBError.boxed.TTSVBBoxedError(...g)",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBError.boxed.TTSVBBoxedError_...g_",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBError.boxed.TTSVBBoxedError(...g)",
+          "ordinal": 65,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125736,
+          "paddr": 453352,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport10TTSVBErrorV7ProblemOMa",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBError.Problem(...a)",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBError.Problem_...a_",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBError.Problem(...a)",
+          "ordinal": 66,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125752,
+          "paddr": 453368,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport10TTSVBErrorVMa",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBError...VMa",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBError...VMa",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBError...VMa",
+          "ordinal": 67,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125768,
+          "paddr": 453384,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport10TTSVBErrorVyACSS_SSSgSo7NSErrorCSgtcfC",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBError...VyACSS_SSSgSo7NSErrorCSgtcfC",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBError...VyACSS_SSSgSo7NSErrorCSgtcfC",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBError...VyACSS_SSSgSo7NSErrorCSgtcfC",
+          "ordinal": 68,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125784,
+          "paddr": 453400,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport10TTSVBVoiceVMa",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBVoice...VMa",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBVoice...VMa",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBVoice...VMa",
+          "ordinal": 69,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125800,
+          "paddr": 453416,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport12TTSVBServiceC11serviceNameSSvgZ",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBService.serviceName.allocator__Swift.String__String: allocator, serviceName__String: allocatorS.gZ",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBService.serviceName.allocator__Swift.String__String:_allocator__serviceName__String:_allocatorS.gZ",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBService.serviceName.allocator__Swift.String__String: allocator, serviceName__String: allocatorS.gZ",
+          "ordinal": 70,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125816,
+          "paddr": 453432,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport12TTSVBServiceC25configuredClientInterfaceSo14NSXPCInterfaceCyFZ",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBService.configuredClientInterface.allocator: allocator, configuredClientInterface: allocator, S.NSXPCInterface(...FZ)",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBService.configuredClientInterface.allocator:_allocator__configuredClientInterface:_allocator__S.NSXPCInterface_...FZ_",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBService.configuredClientInterface.allocator: allocator, configuredClientInterface: allocator, S.NSXPCInterface(...FZ)",
+          "ordinal": 71,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125832,
+          "paddr": 453448,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport12TTSVBServiceC26configuredServiceInterfaceSo14NSXPCInterfaceCyFZ",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBService.configuredServiceInterface.allocator: allocator, configuredServiceInterface: allocator, S.NSXPCInterface(...FZ)",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBService.configuredServiceInterface.allocator:_allocator__configuredServiceInterface:_allocator__S.NSXPCInterface_...FZ_",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBService.configuredServiceInterface.allocator: allocator, configuredServiceInterface: allocator, S.NSXPCInterface(...FZ)",
+          "ordinal": 72,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125848,
+          "paddr": 453464,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport12TTSVBServiceCMa",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBService.allocator(...a)",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBService.allocator_...a_",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBService.allocator(...a)",
+          "ordinal": 73,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125864,
+          "paddr": 453480,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport14TTSVBAnalyticsV21trainingEventOccurred9eventNameySS_tFZ",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBAnalytics.trainingEventOccurred.eventName(...FZ)",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBAnalytics.trainingEventOccurred.eventName_...FZ_",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBAnalytics.trainingEventOccurred.eventName(...FZ)",
+          "ordinal": 74,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125880,
+          "paddr": 453496,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport14TTSVBDataStoreC16XPCServiceConfigV5modelSo20NSManagedObjectModelCvg",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBDataStore.XPCServiceConfig.allocator.model.NSManagedObjectModel(...g)",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBDataStore.XPCServiceConfig.allocator.model.NSManagedObjectModel_...g_",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBDataStore.XPCServiceConfig.allocator.model.NSManagedObjectModel(...g)",
+          "ordinal": 75,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125896,
+          "paddr": 453512,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport14TTSVBDataStoreC16XPCServiceConfigV7optionsSDys11AnyHashableVypGvg",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBDataStore.XPCServiceConfig.allocator.options.AnyHashable...VypGvg",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBDataStore.XPCServiceConfig.allocator.options.AnyHashable...VypGvg",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBDataStore.XPCServiceConfig.allocator.options.AnyHashable...VypGvg",
+          "ordinal": 76,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125912,
+          "paddr": 453528,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport14TTSVBDataStoreC16XPCServiceConfigV8storeURL10Foundation0L0Vvg",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBDataStore.XPCServiceConfig.allocator.storeURL.Foundation...n0L0Vvg",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBDataStore.XPCServiceConfig.allocator.storeURL.Foundation...n0L0Vvg",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBDataStore.XPCServiceConfig.allocator.storeURL.Foundation...n0L0Vvg",
+          "ordinal": 77,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125928,
+          "paddr": 453544,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport14TTSVBDataStoreC16XPCServiceConfigVMa",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBDataStore.XPCServiceConfig.allocator...VMa",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBDataStore.XPCServiceConfig.allocator...VMa",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBDataStore.XPCServiceConfig.allocator...VMa",
+          "ordinal": 78,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125944,
+          "paddr": 453560,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport15TTSVBVoiceModelV10isTrainingSbyF",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBVoiceModel.isTraining(...yF)",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBVoiceModel.isTraining_...yF_",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBVoiceModel.isTraining(...yF)",
+          "ordinal": 79,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125960,
+          "paddr": 453576,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport15TTSVBVoiceModelV12typedVersionAA0ghJ0Vvg",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBVoiceModel.typedVersion...A0ghJ0Vvg",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBVoiceModel.typedVersion...A0ghJ0Vvg",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBVoiceModel.typedVersion...A0ghJ0Vvg",
+          "ordinal": 80,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125976,
+          "paddr": 453592,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport15TTSVBVoiceModelV18creationDeviceUDIDSSSgvg",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBVoiceModel.creationDeviceUDID(...Sgvg)",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBVoiceModel.creationDeviceUDID_...Sgvg_",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBVoiceModel.creationDeviceUDID(...Sgvg)",
+          "ordinal": 81,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295125992,
+          "paddr": 453608,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport15TTSVBVoiceModelV6statusSo0G6StatusVvg",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBVoiceModel.status...o0G6StatusVvg",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBVoiceModel.status...o0G6StatusVvg",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBVoiceModel.status...o0G6StatusVvg",
+          "ordinal": 82,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295126008,
+          "paddr": 453624,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport15TTSVBVoiceModelV7modelID10Foundation4UUIDVvg",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBVoiceModel.modelID.Foundation.UUID...Vvg",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBVoiceModel.modelID.Foundation.UUID...Vvg",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBVoiceModel.modelID.Foundation.UUID...Vvg",
+          "ordinal": 83,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295126024,
+          "paddr": 453640,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport15TTSVBVoiceModelVMa",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBVoiceModel...VMa",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBVoiceModel...VMa",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBVoiceModel...VMa",
+          "ordinal": 84,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295126040,
+          "paddr": 453656,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport16TTSVBVoiceLoaderC16loaderIdentifierSSvgZ",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBVoiceLoader.loaderIdentifier.allocator__Swift.String__String: allocator, loaderIdentifier__String: allocatorS.gZ",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBVoiceLoader.loaderIdentifier.allocator__Swift.String__String:_allocator__loaderIdentifier__String:_allocatorS.gZ",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBVoiceLoader.loaderIdentifier.allocator__Swift.String__String: allocator, loaderIdentifier__String: allocatorS.gZ",
+          "ordinal": 85,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295126056,
+          "paddr": 453672,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport16TTSVBVoiceLoaderCMa",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBVoiceLoader.allocator(...a)",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBVoiceLoader.allocator_...a_",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBVoiceLoader.allocator(...a)",
+          "ordinal": 86,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295126072,
+          "paddr": 453688,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport16TTSVBVoiceSampleVMa",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBVoiceSample...VMa",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBVoiceSample...VMa",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBVoiceSample...VMa",
+          "ordinal": 87,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295126088,
+          "paddr": 453704,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport18TTSVBAccessManagerC17tccCloudKitAccessAA013TTSVBTCCCloudkL0OvgTj",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBAccessManager.tccCloudKitAccess.allocator..TTSVBTCCCloud...L0OvgTj",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBAccessManager.tccCloudKitAccess.allocator..TTSVBTCCCloud...L0OvgTj",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBAccessManager.tccCloudKitAccess.allocator..TTSVBTCCCloud...L0OvgTj",
+          "ordinal": 88,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295126104,
+          "paddr": 453720,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport18TTSVBAccessManagerC20isCloudSyncAvailableSbvgTj",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBAccessManager.isCloudSyncAvailable.allocator__Bool: allocator, isCloudSyncAvailable: allocator, Sbool -> allocator",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBAccessManager.isCloudSyncAvailable.allocator__Bool:_allocator__isCloudSyncAvailable:_allocator__Sbool____allocator",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBAccessManager.isCloudSyncAvailable.allocator__Bool: allocator, isCloudSyncAvailable: allocator, Sbool -> allocator",
+          "ordinal": 89,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295126120,
+          "paddr": 453736,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport18TTSVBAccessManagerC23updateTCCCloudKitAccess_13userInitiatedSbAA013TTSVBTCCCloudkL0O_SbtFTj",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBAccessManager.updateTCCCloudKitAccess.allocator.userInitiated...SbAA013TTSVBTCCCloudkL0O_SbtFTj",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBAccessManager.updateTCCCloudKitAccess.allocator.userInitiated...SbAA013TTSVBTCCCloudkL0O_SbtFTj",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBAccessManager.updateTCCCloudKitAccess.allocator.userInitiated...SbAA013TTSVBTCCCloudkL0O_SbtFTj",
+          "ordinal": 90,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295126136,
+          "paddr": 453752,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport18TTSVBAccessManagerC32startMonitoringForAccountChangesyyys6ResultOyAA13TTSVBResultOKOAA10TTSVBErrorVGYbcFTj",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBAccessManager.startMonitoringForAccountChanges.allocator(...yys6ResultOyAA13TTSVBResultOKOAA10TTSVBErrorVGYbcFTj)",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBAccessManager.startMonitoringForAccountChanges.allocator_...yys6ResultOyAA13TTSVBResultOKOAA10TTSVBErrorVGYbcFTj_",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBAccessManager.startMonitoringForAccountChanges.allocator(...yys6ResultOyAA13TTSVBResultOKOAA10TTSVBErrorVGYbcFTj)",
+          "ordinal": 91,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295126152,
+          "paddr": 453768,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport18TTSVBAccessManagerC39applyCloudKitAccessForCurrentConditionsyyFTj",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBAccessManager.applyCloudKitAccessForCurrentConditions.allocator(...yFTj)",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBAccessManager.applyCloudKitAccessForCurrentConditions.allocator_...yFTj_",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBAccessManager.applyCloudKitAccessForCurrentConditions.allocator(...yFTj)",
+          "ordinal": 92,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295126168,
+          "paddr": 453784,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport19TTSVBDataStoreEventO012CloudKitSyncI0V10isFinishedSbvg",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBDataStoreEvent.CloudKitSync...I0V10isFinishedSbvg",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBDataStoreEvent.CloudKitSync...I0V10isFinishedSbvg",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBDataStoreEvent.CloudKitSync...I0V10isFinishedSbvg",
+          "ordinal": 93,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295126184,
+          "paddr": 453800,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport19TTSVBDataStoreEventO012CloudKitSyncI0V5eventSo012NSPersistentjk9ContainerI0Cvg",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBDataStoreEvent.CloudKitSync...I0V5eventSo012NSPersistentjk9ContainerI0Cvg",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBDataStoreEvent.CloudKitSync...I0V5eventSo012NSPersistentjk9ContainerI0Cvg",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBDataStoreEvent.CloudKitSync...I0V5eventSo012NSPersistentjk9ContainerI0Cvg",
+          "ordinal": 94,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295126200,
+          "paddr": 453816,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport19TTSVBDataStoreEventO012CloudKitSyncI0VMa",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBDataStoreEvent.CloudKitSync...I0VMa",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBDataStoreEvent.CloudKitSync...I0VMa",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBDataStoreEvent.CloudKitSync...I0VMa",
+          "ordinal": 95,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295126216,
+          "paddr": 453832,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport19TTSVBDataStoreEventO11descriptionSSvg",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBDataStoreEvent.description__String(...vg)",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBDataStoreEvent.description__String_...vg_",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBDataStoreEvent.description__String(...vg)",
+          "ordinal": 96,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295126232,
+          "paddr": 453848,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport19TTSVBDataStoreEventOMa",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBDataStoreEvent..metadata.accessor(...a)",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBDataStoreEvent..metadata.accessor_...a_",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBDataStoreEvent..metadata.accessor(...a)",
+          "ordinal": 97,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295126248,
+          "paddr": 453864,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport22TTSVBTCCCloudKitAccessO8rawValueSSvg",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBTCCCloudKitAccess.rawValue__String(...vg)",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBTCCCloudKitAccess.rawValue__String_...vg_",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBTCCCloudKitAccess.rawValue__String(...vg)",
+          "ordinal": 98,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295126264,
+          "paddr": 453880,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport22TTSVBVoiceModelVersionV15version2_LLASSIACvgZ",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBVoiceModelVersion.version2_LLASSI(...vgZ)",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBVoiceModelVersion.version2_LLASSI_...vgZ_",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBVoiceModelVersion.version2_LLASSI(...vgZ)",
+          "ordinal": 99,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295126280,
+          "paddr": 453896,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport22TTSVBVoiceModelVersionV8rawValueACSS_tcfC",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBVoiceModelVersion.rawValue(...cfC)",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBVoiceModelVersion.rawValue_...cfC_",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBVoiceModelVersion.rawValue(...cfC)",
+          "ordinal": 100,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295126296,
+          "paddr": 453912,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s31TextToSpeechVoiceBankingSupport22TTSVBVoiceModelVersionVMa",
+          "demname": "TextToSpeechVoiceBankingSupport.TTSVBVoiceModelVersion...VMa",
+          "flagname": "sym.imp.TextToSpeechVoiceBankingSupport.TTSVBVoiceModelVersion...VMa",
+          "realname": "TextToSpeechVoiceBankingSupport.TTSVBVoiceModelVersion...VMa",
+          "ordinal": 101,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295126312,
+          "paddr": 453928,
+          "is_imported": true
+        }
+      ]
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Support/voicebankingd",
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/VoiceBankingSupport.loctable",
+        "Versions/A/Resources/recordingDidFinish.wav",
+        "Versions/A/Resources/recordingWillStart.wav",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist",
+        "Versions/A/Resources/TTSVoiceBanking.momd/VersionInfo.plist",
+        "Versions/A/Resources/TTSVoiceBanking.momd/TTSVoiceBanking.mom",
+        "PlugIns/VoiceBankingDiagnostics.appex/Contents/Info.plist",
+        "PlugIns/VoiceBankingDiagnostics.appex/Contents/version.plist",
+        "PlugIns/VoiceBankingDiagnostics.appex/Contents/_CodeSignature/CodeResources",
+        "PlugIns/VoiceBankingDiagnostics.appex/Contents/MacOS/VoiceBankingDiagnostics"
+      ],
+      "plists": {
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "TextToSpeechVoiceBankingSupport",
+          "CFBundleIdentifier": "com.apple.TextToSpeechVoiceBankingSupport",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "DTPlatformBuild": "",
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleVersion": "1",
+          "CFBundleExecutable": "TextToSpeechVoiceBankingSupport",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTXcode": "2600",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundlePackageType": "FMWK",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "DTSDKName": "macosx26.1.internal",
+          "CFBundleShortVersionString": "1.0"
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "TextToSpeech",
+          "SourceVersion": "679003004000000",
+          "BuildVersion": "62"
+        },
+        "PlugIns/VoiceBankingDiagnostics.appex/Contents/Info.plist": {
+          "CFBundleName": "VoiceBankingDiagnostics",
+          "DTSDKName": "macosx26.1.internal",
+          "DTXcode": "2600",
+          "DERequiresClassBDataClass": true,
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "DELocalizedDataCollectedExplanationText": "Collects logs, audio samples used for training, and modeling data related to speech synthesis",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleShortVersionString": "1.0",
+          "DELocalizedDataCollectedSummaryText": "Personal Voice audio and speech modeling data",
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "VoiceBankingDiagnostics",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "DELocalizedConsentText": "To aid in debugging speech synthesis issues related to Personal Voice",
+          "CFBundleIdentifier": "com.apple.TextToSpeechVoiceBankingSupport.VoiceBankingDiagnostics",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleDisplayName": "VoiceBanking Diagnostics",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "",
+          "NSExtension": {
+            "NSExtensionAttributes": {
+              "DEAttachmentsName": "Personal Voices Logs",
+              "DEAttachmentsLoggingEnabled": true
+            },
+            "NSExtensionPointIdentifier": "com.apple.diagnosticextensions-service",
+            "NSExtensionPrincipalClass": "VoiceBankingDiagnosticsExtension"
+          }
+        },
+        "PlugIns/VoiceBankingDiagnostics.appex/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "TextToSpeech",
+          "SourceVersion": "679003004000000",
+          "BuildVersion": "62"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
+  },
+  "usage": {
+    "layer": "usage",
+    "used_by": []
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "loaded"
+  }
+}

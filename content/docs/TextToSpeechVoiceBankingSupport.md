@@ -1,0 +1,27 @@
+---
+title: TextToSpeechVoiceBankingSupport
+weight: 1
+---
+
+## Raw Data
+
+Full analysis data is available in [`data/TextToSpeechVoiceBankingSupport.json`](../../data/TextToSpeechVoiceBankingSupport.json).
+
+## Summary
+
+```json
+{
+  "binary_path": "/System/Library/PrivateFrameworks/TextToSpeechVoiceBankingSupport.framework/Support/voicebankingd",
+  "static": {
+    "classes_count": 16,
+    "swift_enabled": true
+  },
+  "usage": {
+    "used_by_count": 0
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "loaded"
+  }
+}
+```

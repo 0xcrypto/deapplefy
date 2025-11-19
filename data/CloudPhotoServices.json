@@ -1,0 +1,464 @@
+{
+  "framework": "CloudPhotoServices.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/CloudPhotoServices.framework/Versions/A/XPCServices/com.apple.CloudPhotosConfiguration.xpc/Contents/MacOS/com.apple.CloudPhotosConfiguration",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 127664,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "objc with blocks",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/Frameworks/Accounts.framework/Versions/A/Accounts",
+          "/System/Library/PrivateFrameworks/CloudPhotoLibrary.framework/Versions/A/CloudPhotoLibrary",
+          "/System/Library/PrivateFrameworks/CloudPhotoServicesConfiguration.framework/Versions/A/CloudPhotoServicesConfiguration",
+          "/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/usr/lib/libsqlite3.dylib",
+          "/System/Library/PrivateFrameworks/PhotoFoundation.framework/Versions/A/PhotoFoundation",
+          "/System/Library/PrivateFrameworks/PhotoLibraryServices.framework/Versions/A/PhotoLibraryServices",
+          "/System/Library/PrivateFrameworks/PhotoLibraryServicesCore.framework/Versions/A/PhotoLibraryServicesCore",
+          "/System/Library/Frameworks/ServiceManagement.framework/Versions/A/ServiceManagement",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "CPSConfigurationService",
+        "addr": 4295051608,
+        "lang": "objc",
+        "index": 0,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.CPSConfigurationService.init",
+            "lang": "objc",
+            "addr": 4295000440
+          },
+          {
+            "name": "run",
+            "flag": "method.CPSConfigurationService.run",
+            "lang": "objc",
+            "addr": 4295000264
+          },
+          {
+            "name": "startDistributedNotificationListener",
+            "flag": "method.CPSConfigurationService.startDistributedNotificationListener",
+            "lang": "objc",
+            "addr": 4295000120
+          },
+          {
+            "name": "didReceiveAccountStatusChangeNotification:",
+            "flag": "method.CPSConfigurationService.didReceiveAccountStatusChangeNotification:",
+            "lang": "objc",
+            "addr": 4295000100
+          },
+          {
+            "name": "volumeWillUnmount:",
+            "flag": "func.100007ef8",
+            "lang": "objc",
+            "addr": 4294999800
+          },
+          {
+            "name": "startListeningForSystemLibraryChanges",
+            "flag": "method.CPSConfigurationService.startListeningForSystemLibraryChanges",
+            "lang": "objc",
+            "addr": 4294999256
+          },
+          {
+            "name": "listenForVolumeUnmount",
+            "flag": "method.CPSConfigurationService.listenForVolumeUnmount",
+            "lang": "objc",
+            "addr": 4294998248
+          },
+          {
+            "name": "startListeningForRunningPhotoApplication",
+            "flag": "method.CPSConfigurationService.startListeningForRunningPhotoApplication",
+            "lang": "objc",
+            "addr": 4294997944
+          },
+          {
+            "name": "stopListeningForRunningPhotoApplication",
+            "flag": "method.CPSConfigurationService.stopListeningForRunningPhotoApplication",
+            "lang": "objc",
+            "addr": 4294997664
+          },
+          {
+            "name": "workspaceDidLaunchOrTerminateApplication:",
+            "flag": "method.CPSConfigurationService.workspaceDidLaunchOrTerminateApplication:",
+            "lang": "objc",
+            "addr": 4294997240
+          },
+          {
+            "name": "loggedInAppleID",
+            "flag": "method.CPSConfigurationService.loggedInAppleID",
+            "lang": "objc",
+            "addr": 4294997112
+          },
+          {
+            "name": "loggedInAccountStatus",
+            "flag": "method.CPSConfigurationService.loggedInAccountStatus",
+            "lang": "objc",
+            "addr": 4294997056
+          },
+          {
+            "name": "knownServiceIdentifiers",
+            "flag": "method.CPSConfigurationService.knownServiceIdentifiers",
+            "lang": "objc",
+            "addr": 4294996908
+          },
+          {
+            "name": "serviceIdentifierToDataClassMap",
+            "flag": "method.CPSConfigurationService.serviceIdentifierToDataClassMap",
+            "lang": "objc",
+            "addr": 4294996712
+          },
+          {
+            "name": "serviceConfigurationStateMap",
+            "flag": "method.CPSConfigurationService.serviceConfigurationStateMap",
+            "lang": "objc",
+            "addr": 4294996216
+          },
+          {
+            "name": "servicePreferencesMap",
+            "flag": "method.CPSConfigurationService.servicePreferencesMap",
+            "lang": "objc",
+            "addr": 4294995860
+          },
+          {
+            "name": "preferencesForServiceIdentifier:",
+            "flag": "method.CPSConfigurationService.preferencesForServiceIdentifier:",
+            "lang": "objc",
+            "addr": 4294995584
+          },
+          {
+            "name": "servicePreferencesByAddingDefaultsToPreferences:forServiceIdentifier:",
+            "flag": "method.CPSConfigurationService.servicePreferencesByAddingDefaultsToPreferences:forServiceIdentifier:",
+            "lang": "objc",
+            "addr": 4294995060
+          },
+          {
+            "name": "setPreferences:forServiceIdentifier:",
+            "flag": "method.CPSConfigurationService.setPreferences:forServiceIdentifier:",
+            "lang": "objc",
+            "addr": 4294994560
+          },
+          {
+            "name": "cloudPhotoServicesStatusWithOptions:reply:",
+            "flag": "method.CPSConfigurationService.cloudPhotoServicesStatusWithOptions:reply:",
+            "lang": "objc",
+            "addr": 4294993372
+          },
+          {
+            "name": "systemPhotoLibraryInformation",
+            "flag": "method.CPSConfigurationService.systemPhotoLibraryInformation",
+            "lang": "objc",
+            "addr": 4294991240
+          },
+          {
+            "name": "isMetadataRequestKey:",
+            "flag": "method.CPSConfigurationService.isMetadataRequestKey:",
+            "lang": "objc",
+            "addr": 4294991224
+          },
+          {
+            "name": "requestCloudPhotoServiceStateChange:reply:",
+            "flag": "method.CPSConfigurationService.requestCloudPhotoServiceStateChange:reply:",
+            "lang": "objc",
+            "addr": 4294989092
+          },
+          {
+            "name": "_setEnabled:forDataclass:",
+            "flag": "method.CPSConfigurationService._setEnabled:forDataclass:",
+            "lang": "objc",
+            "addr": 4294988396
+          },
+          {
+            "name": "requestPreferenceChange:reply:",
+            "flag": "method.CPSConfigurationService.requestPreferenceChange:reply:",
+            "lang": "objc",
+            "addr": 4294986872
+          },
+          {
+            "name": "addConnectedClient:withConnectionIdentifier:",
+            "flag": "method.CPSConfigurationService.addConnectedClient:withConnectionIdentifier:",
+            "lang": "objc",
+            "addr": 4294986456
+          },
+          {
+            "name": "removeConnectedClientWithConnectionIdentifier:",
+            "flag": "method.CPSConfigurationService.removeConnectedClientWithConnectionIdentifier:",
+            "lang": "objc",
+            "addr": 4294986092
+          },
+          {
+            "name": "firstClientDidConnect",
+            "flag": "method.CPSConfigurationService.firstClientDidConnect",
+            "lang": "objc",
+            "addr": 4294985968
+          },
+          {
+            "name": "lastClientDidDisconnect",
+            "flag": "method.CPSConfigurationService.lastClientDidDisconnect",
+            "lang": "objc",
+            "addr": 4294985844
+          },
+          {
+            "name": "notifyConnectedClients:",
+            "flag": "method.CPSConfigurationService.notifyConnectedClients:",
+            "lang": "objc",
+            "addr": 4294984920
+          },
+          {
+            "name": "_openSPLWithOptions:outError:",
+            "flag": "method.CPSConfigurationService._openSPLWithOptions:outError:",
+            "lang": "objc",
+            "addr": 4294984244
+          },
+          {
+            "name": "calculateLibrarySizeWithOptions:completionHandler:",
+            "flag": "method.CPSConfigurationService.calculateLibrarySizeWithOptions:completionHandler:",
+            "lang": "objc",
+            "addr": 4294980848
+          },
+          {
+            "name": "cloudPhotoLibraryServiceStatusWithReply:",
+            "flag": "method.CPSConfigurationService.cloudPhotoLibraryServiceStatusWithReply:",
+            "lang": "objc",
+            "addr": 4294976088
+          },
+          {
+            "name": "cloudPhotoLibraryFitsOnLocalDiskStateForRequestWithIdentifier:options:error:",
+            "flag": "method.CPSConfigurationService.cloudPhotoLibraryFitsOnLocalDiskStateForRequestWithIdentifier:options:error:",
+            "lang": "objc",
+            "addr": 4294974060
+          },
+          {
+            "name": "currentConnectionIdentifierString",
+            "flag": "method.CPSConfigurationService.currentConnectionIdentifierString",
+            "lang": "objc",
+            "addr": 4294973896
+          },
+          {
+            "name": "listener:shouldAcceptNewConnection:",
+            "flag": "method.CPSConfigurationService.listener:shouldAcceptNewConnection:",
+            "lang": "objc",
+            "addr": 4294972064
+          },
+          {
+            "name": "connectedClientMap",
+            "flag": "method.CPSConfigurationService.connectedClientMap",
+            "lang": "objc",
+            "addr": 4294972052
+          },
+          {
+            "name": "setConnectedClientMap:",
+            "flag": "method.CPSConfigurationService.setConnectedClientMap:",
+            "lang": "objc",
+            "addr": 4294972044
+          },
+          {
+            "name": "listener",
+            "flag": "method.CPSConfigurationService.listener",
+            "lang": "objc",
+            "addr": 4294972032
+          },
+          {
+            "name": "setListener:",
+            "flag": "method.CPSConfigurationService.setListener:",
+            "lang": "objc",
+            "addr": 4294972024
+          },
+          {
+            "name": "isolationQueue",
+            "flag": "method.CPSConfigurationService.isolationQueue",
+            "lang": "objc",
+            "addr": 4294972012
+          },
+          {
+            "name": "setIsolationQueue:",
+            "flag": "method.CPSConfigurationService.setIsolationQueue:",
+            "lang": "objc",
+            "addr": 4294972004
+          },
+          {
+            "name": "systemLibraryChangeObserver",
+            "flag": "method.CPSConfigurationService.systemLibraryChangeObserver",
+            "lang": "objc",
+            "addr": 4294971992
+          },
+          {
+            "name": "setSystemLibraryChangeObserver:",
+            "flag": "method.CPSConfigurationService.setSystemLibraryChangeObserver:",
+            "lang": "objc",
+            "addr": 4294971984
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.CPSConfigurationService..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294971880
+          },
+          {
+            "name": "volumeWillUnmount:",
+            "flag": "method.CPSConfigurationService.volumeWillUnmount:",
+            "lang": "objc",
+            "addr": 4295007224
+          },
+          {
+            "name": "run",
+            "flag": "method.class.CPSConfigurationService.run",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295000664
+          },
+          {
+            "name": "volumeWillUnmount:",
+            "flag": "method.CPSConfigurationService.volumeWillUnmount:",
+            "lang": "objc",
+            "addr": 4295007224
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_splURLChangeNotificationToken",
+            "kind": "var",
+            "type": "i",
+            "addr": 4295051544
+          },
+          {
+            "name": "_fileSystemVolumeUnmountMonitor",
+            "kind": "var",
+            "type": "@\"PLFileSystemVolumeUnmountMonitor\"",
+            "addr": 4295051548
+          },
+          {
+            "name": "_connectedClientMap",
+            "kind": "var",
+            "type": "@\"NSDictionary\"",
+            "addr": 4295051552
+          },
+          {
+            "name": "_listener",
+            "kind": "var",
+            "type": "@\"NSXPCListener\"",
+            "addr": 4295051556
+          },
+          {
+            "name": "_isolationQueue",
+            "kind": "var",
+            "type": "@\"NSObject<OS_dispatch_queue>\"",
+            "addr": 4295051560
+          },
+          {
+            "name": "_systemLibraryChangeObserver",
+            "kind": "var",
+            "type": "@",
+            "addr": 4295051564
+          },
+          {
+            "name": "connectedClientMap",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "listener",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "isolationQueue",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "systemLibraryChangeObserver",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      }
+    ],
+    "protocols": []
+  },
+  "usage": {
+    "layer": "usage",
+    "status": "not_implemented"
+  },
+  "runtime": {
+    "layer": "runtime",
+    "status": "not_implemented"
+  }
+}

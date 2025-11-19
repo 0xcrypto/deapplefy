@@ -1,0 +1,176 @@
+{
+  "framework": "Install.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/Install.framework/Frameworks/DistributionKit.framework/Versions/A/XPCServices/DistributionHelper.xpc/Contents/MacOS/DistributionHelper",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 71056,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "objc",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "DistributionHelperServiceDelegate",
+        "addr": 4295001208,
+        "lang": "objc",
+        "index": 0,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "listener:shouldAcceptNewConnection:",
+            "flag": "method.DistributionHelperServiceDelegate.listener:shouldAcceptNewConnection:",
+            "lang": "objc",
+            "addr": 4294970184
+          }
+        ],
+        "fields": [
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "DistributionHelperService",
+        "addr": 4295001328,
+        "lang": "objc",
+        "index": 1,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithAuditToken:",
+            "flag": "method.DistributionHelperService.initWithAuditToken:",
+            "lang": "objc",
+            "addr": 4294970488
+          },
+          {
+            "name": "fileHandleIsOnGraft:reply:",
+            "flag": "func.100000ccc",
+            "lang": "objc",
+            "addr": 4294970572
+          },
+          {
+            "name": "clientAuditToken",
+            "flag": "method.DistributionHelperService.clientAuditToken",
+            "lang": "objc",
+            "addr": 4294971108
+          },
+          {
+            "name": "setClientAuditToken:",
+            "flag": "method.DistributionHelperService.setClientAuditToken:",
+            "lang": "objc",
+            "addr": 4294971124
+          },
+          {
+            "name": "fileHandleIsOnGraft:reply:",
+            "flag": "method.DistributionHelperService.fileHandleIsOnGraft:reply:",
+            "lang": "objc",
+            "addr": 4294971808
+          },
+          {
+            "name": "fileHandleIsOnGraft:reply:",
+            "flag": "method.DistributionHelperService.fileHandleIsOnGraft:reply:",
+            "lang": "objc",
+            "addr": 4294971808
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_clientAuditToken",
+            "kind": "var",
+            "type": "{?=\"val\"[8I]}",
+            "addr": 4295001200
+          },
+          {
+            "name": "clientAuditToken",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      }
+    ],
+    "protocols": []
+  },
+  "usage": {
+    "layer": "usage",
+    "status": "not_implemented"
+  },
+  "runtime": {
+    "layer": "runtime",
+    "status": "not_implemented"
+  }
+}

@@ -1,0 +1,739 @@
+{
+  "framework": "AOSAccounts.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/AOSAccounts.framework/Versions/A/Resources/iCloudUserNotificationsd.app/Contents/MacOS/iCloudUserNotificationsd",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 90416,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "objc with blocks",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/PrivateFrameworks/AOSAccounts.framework/Versions/A/AOSAccounts",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "NSString(UniqueIdentifier)",
+        "addr": 4295019912,
+        "lang": "objc",
+        "index": 0,
+        "super": [
+          "NSString"
+        ],
+        "rawsuper": [
+          "NSString"
+        ],
+        "methods": [
+          {
+            "name": "uniqueIdentifier",
+            "flag": "method.class.NSString_UniqueIdentifier_.uniqueIdentifier",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294983476
+          }
+        ]
+      },
+      {
+        "classname": "NotifierDelegate",
+        "addr": 4295021136,
+        "lang": "objc",
+        "index": 1,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "start",
+            "flag": "method.NotifierDelegate.start",
+            "lang": "objc",
+            "addr": 4294970900
+          },
+          {
+            "name": "listener:shouldAcceptNewConnection:",
+            "flag": "method.NotifierDelegate.listener:shouldAcceptNewConnection:",
+            "lang": "objc",
+            "addr": 4294971040
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.NotifierDelegate..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294971320
+          },
+          {
+            "name": "sharedInstance",
+            "flag": "method.class.NotifierDelegate.sharedInstance",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294970768
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_listener",
+            "kind": "var",
+            "type": "@\"NSXPCListener\"",
+            "addr": 4295021056
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "NotifierInterface",
+        "addr": 4295021176,
+        "lang": "objc",
+        "index": 2,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithXPCConnection:",
+            "flag": "method.NotifierInterface.initWithXPCConnection:",
+            "lang": "objc",
+            "addr": 4294971332
+          },
+          {
+            "name": "deliverNotificaton:replyBlock:",
+            "flag": "func.100001034",
+            "lang": "objc",
+            "addr": 4294971444
+          },
+          {
+            "name": "removeNotificationWithIdentifier:",
+            "flag": "func.1000011cc",
+            "lang": "objc",
+            "addr": 4294971852
+          },
+          {
+            "name": "removeNotificationsWithDSID:",
+            "flag": "func.100001288",
+            "lang": "objc",
+            "addr": 4294972040
+          },
+          {
+            "name": "removeAllNotifications",
+            "flag": "func.100001344",
+            "lang": "objc",
+            "addr": 4294972228
+          },
+          {
+            "name": "pendingNotificationsWithIdentifier:replyBlock:",
+            "flag": "func.1000013d4",
+            "lang": "objc",
+            "addr": 4294972372
+          },
+          {
+            "name": "clientIdentifier",
+            "flag": "method.NotifierInterface.clientIdentifier",
+            "lang": "objc",
+            "addr": 4294972936
+          },
+          {
+            "name": "setClientIdentifier:",
+            "flag": "func.100001614",
+            "lang": "objc",
+            "addr": 4294972948
+          },
+          {
+            "name": "delegateMachServiceName",
+            "flag": "method.NotifierInterface.delegateMachServiceName",
+            "lang": "objc",
+            "addr": 4294972956
+          },
+          {
+            "name": "setDelegateMachServiceName:",
+            "flag": "func.100001628",
+            "lang": "objc",
+            "addr": 4294972968
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.NotifierInterface..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294972976
+          },
+          {
+            "name": "deliverNotificaton:replyBlock:",
+            "flag": "method.NotifierInterface.deliverNotificaton:replyBlock:",
+            "lang": "objc",
+            "addr": 4294988632
+          },
+          {
+            "name": "removeNotificationWithIdentifier:",
+            "flag": "method.NotifierInterface.removeNotificationWithIdentifier:",
+            "lang": "objc",
+            "addr": 4294988644
+          },
+          {
+            "name": "removeNotificationsWithDSID:",
+            "flag": "method.NotifierInterface.removeNotificationsWithDSID:",
+            "lang": "objc",
+            "addr": 4294988656
+          },
+          {
+            "name": "removeAllNotifications",
+            "flag": "method.NotifierInterface.removeAllNotifications",
+            "lang": "objc",
+            "addr": 4294988668
+          },
+          {
+            "name": "pendingNotificationsWithIdentifier:replyBlock:",
+            "flag": "method.NotifierInterface.pendingNotificationsWithIdentifier:replyBlock:",
+            "lang": "objc",
+            "addr": 4294988680
+          },
+          {
+            "name": "setClientIdentifier:",
+            "flag": "method.NotifierInterface.setClientIdentifier:",
+            "lang": "objc",
+            "addr": 4294988692
+          },
+          {
+            "name": "setDelegateMachServiceName:",
+            "flag": "method.NotifierInterface.setDelegateMachServiceName:",
+            "lang": "objc",
+            "addr": 4294988704
+          },
+          {
+            "name": "deliverNotificaton:replyBlock:",
+            "flag": "method.NotifierInterface.deliverNotificaton:replyBlock:",
+            "lang": "objc",
+            "addr": 4294988632
+          },
+          {
+            "name": "removeNotificationWithIdentifier:",
+            "flag": "method.NotifierInterface.removeNotificationWithIdentifier:",
+            "lang": "objc",
+            "addr": 4294988644
+          },
+          {
+            "name": "removeNotificationsWithDSID:",
+            "flag": "method.NotifierInterface.removeNotificationsWithDSID:",
+            "lang": "objc",
+            "addr": 4294988656
+          },
+          {
+            "name": "removeAllNotifications",
+            "flag": "method.NotifierInterface.removeAllNotifications",
+            "lang": "objc",
+            "addr": 4294988668
+          },
+          {
+            "name": "pendingNotificationsWithIdentifier:replyBlock:",
+            "flag": "method.NotifierInterface.pendingNotificationsWithIdentifier:replyBlock:",
+            "lang": "objc",
+            "addr": 4294988680
+          },
+          {
+            "name": "setClientIdentifier:",
+            "flag": "method.NotifierInterface.setClientIdentifier:",
+            "lang": "objc",
+            "addr": 4294988692
+          },
+          {
+            "name": "setDelegateMachServiceName:",
+            "flag": "method.NotifierInterface.setDelegateMachServiceName:",
+            "lang": "objc",
+            "addr": 4294988704
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_conn",
+            "kind": "var",
+            "type": "@\"NSXPCConnection\"",
+            "addr": 4295021060
+          },
+          {
+            "name": "_clientIdentifier",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295021064
+          },
+          {
+            "name": "_delegateMachServiceName",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295021068
+          },
+          {
+            "name": "clientIdentifier",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "delegateMachServiceName",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "NotificationController",
+        "addr": 4295021296,
+        "lang": "objc",
+        "index": 3,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.NotificationController.init",
+            "lang": "objc",
+            "addr": 4294973276
+          },
+          {
+            "name": "start",
+            "flag": "method.NotificationController.start",
+            "lang": "objc",
+            "addr": 4294973644
+          },
+          {
+            "name": "deliverNotification:",
+            "flag": "method.NotificationController.deliverNotification:",
+            "lang": "objc",
+            "addr": 4294973728
+          },
+          {
+            "name": "removeNotificationWithIdentifier:fromClient:",
+            "flag": "method.NotificationController.removeNotificationWithIdentifier:fromClient:",
+            "lang": "objc",
+            "addr": 4294974144
+          },
+          {
+            "name": "removeNotificationsWithDSID:fromClient:",
+            "flag": "method.NotificationController.removeNotificationsWithDSID:fromClient:",
+            "lang": "objc",
+            "addr": 4294974488
+          },
+          {
+            "name": "removeAllNotificationsFromClient:",
+            "flag": "method.NotificationController.removeAllNotificationsFromClient:",
+            "lang": "objc",
+            "addr": 4294975192
+          },
+          {
+            "name": "pendingNotificationsForClient:",
+            "flag": "method.NotificationController.pendingNotificationsForClient:",
+            "lang": "objc",
+            "addr": 4294975720
+          },
+          {
+            "name": "allPendingNotifications",
+            "flag": "method.NotificationController.allPendingNotifications",
+            "lang": "objc",
+            "addr": 4294975892
+          },
+          {
+            "name": "XMLStringFromDictionary:",
+            "flag": "method.NotificationController.XMLStringFromDictionary:",
+            "lang": "objc",
+            "addr": 4294976264
+          },
+          {
+            "name": "SendDictionaryAsAETo:dict:",
+            "flag": "method.NotificationController.SendDictionaryAsAETo:dict:",
+            "lang": "objc",
+            "addr": 4294976440
+          },
+          {
+            "name": "_persistedCacheURL",
+            "flag": "method.NotificationController._persistedCacheURL",
+            "lang": "objc",
+            "addr": 4294976720
+          },
+          {
+            "name": "readPersistedNotificationCache",
+            "flag": "method.NotificationController.readPersistedNotificationCache",
+            "lang": "objc",
+            "addr": 4294976872
+          },
+          {
+            "name": "writePersistedNotificationCache",
+            "flag": "method.NotificationController.writePersistedNotificationCache",
+            "lang": "objc",
+            "addr": 4294977948
+          },
+          {
+            "name": "providerForNotification:",
+            "flag": "method.NotificationController.providerForNotification:",
+            "lang": "objc",
+            "addr": 4294979240
+          },
+          {
+            "name": "provider:didActivateNotificationWithUUID:activationType:",
+            "flag": "func.100002eb0",
+            "lang": "objc",
+            "addr": 4294979248
+          },
+          {
+            "name": "provider:didClearNotificationsWithUUIDs:",
+            "flag": "func.1000031d0",
+            "lang": "objc",
+            "addr": 4294980048
+          },
+          {
+            "name": "provider:didDismissNotificationWithUUID:",
+            "flag": "func.100003500",
+            "lang": "objc",
+            "addr": 4294980864
+          },
+          {
+            "name": "xpcConnectionForClientWithMachServiceName:",
+            "flag": "method.NotificationController.xpcConnectionForClientWithMachServiceName:",
+            "lang": "objc",
+            "addr": 4294981292
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.NotificationController..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294981452
+          },
+          {
+            "name": "provider:didActivateNotificationWithUUID:activationType:",
+            "flag": "method.NotificationController.provider:didActivateNotificationWithUUID:activationType:",
+            "lang": "objc",
+            "addr": 4294988488
+          },
+          {
+            "name": "provider:didDismissNotificationWithUUID:",
+            "flag": "method.NotificationController.provider:didDismissNotificationWithUUID:",
+            "lang": "objc",
+            "addr": 4294988500
+          },
+          {
+            "name": "provider:didClearNotificationsWithUUIDs:",
+            "flag": "method.NotificationController.provider:didClearNotificationsWithUUIDs:",
+            "lang": "objc",
+            "addr": 4294988512
+          },
+          {
+            "name": "sharedController",
+            "flag": "method.class.NotificationController.sharedController",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294973144
+          },
+          {
+            "name": "provider:didActivateNotificationWithUUID:activationType:",
+            "flag": "method.NotificationController.provider:didActivateNotificationWithUUID:activationType:",
+            "lang": "objc",
+            "addr": 4294988488
+          },
+          {
+            "name": "provider:didDismissNotificationWithUUID:",
+            "flag": "method.NotificationController.provider:didDismissNotificationWithUUID:",
+            "lang": "objc",
+            "addr": 4294988500
+          },
+          {
+            "name": "provider:didClearNotificationsWithUUIDs:",
+            "flag": "method.NotificationController.provider:didClearNotificationsWithUUIDs:",
+            "lang": "objc",
+            "addr": 4294988512
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_notificationsByUUID",
+            "kind": "var",
+            "type": "@\"NSMutableDictionary\"",
+            "addr": 4295021072
+          },
+          {
+            "name": "_notificationsByClient",
+            "kind": "var",
+            "type": "@\"NSMutableDictionary\"",
+            "addr": 4295021076
+          },
+          {
+            "name": "_notificationsLock",
+            "kind": "var",
+            "type": "@\"NSLock\"",
+            "addr": 4295021080
+          },
+          {
+            "name": "_ncProvider",
+            "kind": "var",
+            "type": "@\"NotificationCenterProvider\"",
+            "addr": 4295021084
+          }
+        ]
+      },
+      {
+        "classname": "NotificationCenterProvider",
+        "addr": 4295021376,
+        "lang": "objc",
+        "index": 4,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.NotificationCenterProvider.init",
+            "lang": "objc",
+            "addr": 4294981544
+          },
+          {
+            "name": "postNotification:",
+            "flag": "func.100003828",
+            "lang": "objc",
+            "addr": 4294981672
+          },
+          {
+            "name": "tearDownNotification:",
+            "flag": "func.100003938",
+            "lang": "objc",
+            "addr": 4294981944
+          },
+          {
+            "name": "notificationForiCloudUserNotification:",
+            "flag": "method.NotificationCenterProvider.notificationForiCloudUserNotification:",
+            "lang": "objc",
+            "addr": 4294982384
+          },
+          {
+            "name": "alertNotificationCenter",
+            "flag": "method.NotificationCenterProvider.alertNotificationCenter",
+            "lang": "objc",
+            "addr": 4294983024
+          },
+          {
+            "name": "userNotificationCenter:didActivateNotification:",
+            "flag": "method.NotificationCenterProvider.userNotificationCenter:didActivateNotification:",
+            "lang": "objc",
+            "addr": 4294983048
+          },
+          {
+            "name": "userNotificationCenter:didDismissAlert:",
+            "flag": "method.NotificationCenterProvider.userNotificationCenter:didDismissAlert:",
+            "lang": "objc",
+            "addr": 4294983232
+          },
+          {
+            "name": "delegate",
+            "flag": "method.NotificationCenterProvider.delegate",
+            "lang": "objc",
+            "addr": 4294983412
+          },
+          {
+            "name": "setDelegate:",
+            "flag": "func.100003f20",
+            "lang": "objc",
+            "addr": 4294983456
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.NotificationCenterProvider..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294983468
+          },
+          {
+            "name": "setDelegate:",
+            "flag": "method.NotificationCenterProvider.setDelegate:",
+            "lang": "objc",
+            "addr": 4294988440
+          },
+          {
+            "name": "postNotification:",
+            "flag": "method.NotificationCenterProvider.postNotification:",
+            "lang": "objc",
+            "addr": 4294988452
+          },
+          {
+            "name": "tearDownNotification:",
+            "flag": "method.NotificationCenterProvider.tearDownNotification:",
+            "lang": "objc",
+            "addr": 4294988464
+          },
+          {
+            "name": "setDelegate:",
+            "flag": "method.NotificationCenterProvider.setDelegate:",
+            "lang": "objc",
+            "addr": 4294988440
+          },
+          {
+            "name": "postNotification:",
+            "flag": "method.NotificationCenterProvider.postNotification:",
+            "lang": "objc",
+            "addr": 4294988452
+          },
+          {
+            "name": "tearDownNotification:",
+            "flag": "method.NotificationCenterProvider.tearDownNotification:",
+            "lang": "objc",
+            "addr": 4294988464
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_delegate",
+            "kind": "var",
+            "type": "@\"<NotificationProviderDelegate>\"",
+            "addr": 4295021088
+          },
+          {
+            "name": "delegate",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      }
+    ],
+    "protocols": []
+  },
+  "usage": {
+    "layer": "usage",
+    "status": "not_implemented"
+  },
+  "runtime": {
+    "layer": "runtime",
+    "status": "not_implemented"
+  }
+}

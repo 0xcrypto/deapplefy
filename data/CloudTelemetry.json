@@ -1,0 +1,4762 @@
+{
+  "framework": "CloudTelemetry.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/CloudTelemetry.framework/Versions/A/XPCServices/CloudTelemetryService.xpc/Contents/MacOS/CloudTelemetryService",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 758976,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "swift",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/System/Library/PrivateFrameworks/C2.framework/Versions/A/C2",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/CryptoKit.framework/Versions/A/CryptoKit",
+          "/System/Library/Frameworks/Network.framework/Versions/A/Network",
+          "/System/Library/Frameworks/Security.framework/Versions/A/Security",
+          "/System/Library/PrivateFrameworks/CrashReporterSupport.framework/Versions/A/CrashReporterSupport",
+          "/System/Library/PrivateFrameworks/OSAnalytics.framework/Versions/A/OSAnalytics",
+          "/usr/lib/libMobileGestalt.dylib",
+          "/usr/lib/libsqlite3.dylib",
+          "/usr/lib/libz.1.dylib",
+          "/usr/lib/swift/libswiftCore.dylib",
+          "/usr/lib/swift/libswiftCoreFoundation.dylib",
+          "/usr/lib/swift/libswiftDispatch.dylib",
+          "/usr/lib/swift/libswiftIOKit.dylib",
+          "/usr/lib/swift/libswiftObjectiveC.dylib",
+          "/usr/lib/swift/libswiftXPC.dylib",
+          "/usr/lib/swift/libswift_Builtin_float.dylib",
+          "/usr/lib/swift/libswift_Concurrency.dylib",
+          "/usr/lib/swift/libswiftos.dylib"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "TransparencyLog",
+        "addr": 552168,
+        "lang": "swift",
+        "index": 0,
+        "fields": [
+          {
+            "name": "$defaultActor",
+            "kind": "property",
+            "type": "BD",
+            "addr": 4295525488
+          },
+          {
+            "name": "rootLogsURL",
+            "kind": "property",
+            "addr": 4295525502
+          },
+          {
+            "name": "writeInternalEvents",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295525520
+          },
+          {
+            "name": "activeFile",
+            "kind": "property",
+            "type": "__C.NSFileHandle",
+            "addr": 4295525540
+          },
+          {
+            "name": "fileDeletionSource",
+            "kind": "property",
+            "type": "\f\u00c3d\u00ff\u00ff_pSg",
+            "addr": 4295525552
+          }
+        ]
+      },
+      {
+        "classname": "WriteError",
+        "addr": 552240,
+        "lang": "swift",
+        "index": 1,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.WriteError.0",
+            "lang": "swift",
+            "addr": 4295519483
+          },
+          {
+            "name": "1",
+            "flag": "method.WriteError.1",
+            "lang": "swift",
+            "addr": 4295523587
+          },
+          {
+            "name": "2",
+            "flag": "method.WriteError.2",
+            "lang": "swift",
+            "addr": 4295520779
+          }
+        ],
+        "fields": [
+          {
+            "name": "encodeFailed",
+            "kind": "property",
+            "addr": 4295525571
+          }
+        ]
+      },
+      {
+        "classname": "JustEvents",
+        "addr": 552284,
+        "lang": "swift",
+        "index": 2,
+        "fields": [
+          {
+            "name": "events",
+            "kind": "property",
+            "type": "SDySS\u0002(\u00fb",
+            "addr": 4295525584
+          }
+        ]
+      },
+      {
+        "classname": "URLResourceKey",
+        "addr": 552324,
+        "lang": "swift",
+        "index": 3,
+        "fields": [
+          {
+            "name": "_rawValue",
+            "kind": "property",
+            "type": "__C.NSString",
+            "addr": 4295525591
+          }
+        ]
+      },
+      {
+        "classname": "CodingKeys",
+        "addr": 552356,
+        "lang": "swift",
+        "index": 4,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.CodingKeys.0",
+            "lang": "swift",
+            "addr": 4295519958
+          },
+          {
+            "name": "1",
+            "flag": "method.CodingKeys.1",
+            "lang": "swift",
+            "addr": 4295519711
+          },
+          {
+            "name": "2",
+            "flag": "method.CodingKeys.2",
+            "lang": "swift",
+            "addr": 4295519749
+          },
+          {
+            "name": "3",
+            "flag": "method.CodingKeys.3",
+            "lang": "swift",
+            "addr": 4295519976
+          },
+          {
+            "name": "4",
+            "flag": "method.CodingKeys.4",
+            "lang": "swift",
+            "addr": 4295519943
+          },
+          {
+            "name": "5",
+            "flag": "method.CodingKeys.5",
+            "lang": "swift",
+            "addr": 4295519962
+          },
+          {
+            "name": "6",
+            "flag": "method.CodingKeys.6",
+            "lang": "swift",
+            "addr": 4295519872
+          },
+          {
+            "name": "7",
+            "flag": "method.CodingKeys.7",
+            "lang": "swift",
+            "addr": 4295519796
+          },
+          {
+            "name": "8",
+            "flag": "method.CodingKeys.8",
+            "lang": "swift",
+            "addr": 4295438871
+          }
+        ],
+        "fields": [
+          {
+            "name": "events",
+            "kind": "property",
+            "addr": 4295525584
+          }
+        ]
+      },
+      {
+        "classname": "SessionUser",
+        "addr": 552468,
+        "lang": "swift",
+        "index": 5,
+        "fields": [
+          {
+            "name": "uid",
+            "kind": "property",
+            "addr": 4295525626
+          },
+          {
+            "name": "unknown",
+            "kind": "property",
+            "addr": 4295525630
+          }
+        ]
+      },
+      {
+        "classname": "CachedSession",
+        "addr": 552496,
+        "lang": "swift",
+        "index": 6,
+        "fields": [
+          {
+            "name": "identity",
+            "kind": "property",
+            "addr": 4295525638
+          },
+          {
+            "name": "id",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295525647
+          },
+          {
+            "name": "samplingFactor",
+            "kind": "property",
+            "type": "Swift.Double",
+            "addr": 4295525650
+          },
+          {
+            "name": "creation",
+            "kind": "property",
+            "addr": 4295525665
+          },
+          {
+            "name": "user",
+            "kind": "property",
+            "addr": 4295525674
+          },
+          {
+            "name": "eventPayload",
+            "kind": "property",
+            "type": "SDySS\u0002(\u00fb",
+            "addr": 4295525679
+          }
+        ]
+      },
+      {
+        "classname": "Session",
+        "addr": 552536,
+        "lang": "swift",
+        "index": 7,
+        "fields": [
+          {
+            "name": "$defaultActor",
+            "kind": "property",
+            "type": "BD",
+            "addr": 4295525692
+          }
+        ]
+      },
+      {
+        "classname": "StorebagSigningConfiguration",
+        "addr": 552596,
+        "lang": "swift",
+        "index": 8,
+        "fields": [
+          {
+            "name": "throttleCacheURL",
+            "kind": "property",
+            "addr": 4295525712
+          },
+          {
+            "name": "configurationsCacheURL",
+            "kind": "property",
+            "addr": 4295525744
+          }
+        ]
+      },
+      {
+        "classname": "Error",
+        "addr": 552636,
+        "lang": "swift",
+        "index": 9,
+        "fields": [
+          {
+            "name": "failedParse",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295525767
+          },
+          {
+            "name": "internalError",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295525779
+          },
+          {
+            "name": "downloadFailed",
+            "kind": "property",
+            "type": "Swift.Int",
+            "addr": 4295525793
+          },
+          {
+            "name": "throttled",
+            "kind": "property",
+            "addr": 4295525808
+          }
+        ]
+      },
+      {
+        "classname": "URLResourceKey_1",
+        "addr": 552324,
+        "lang": "swift",
+        "index": 10,
+        "fields": [
+          {
+            "name": "_rawValue",
+            "kind": "property",
+            "type": "__C.NSString",
+            "addr": 4295525591
+          }
+        ]
+      },
+      {
+        "classname": "CFString",
+        "addr": 552664,
+        "lang": "swift",
+        "index": 11
+      },
+      {
+        "classname": "SecKey",
+        "addr": 552712,
+        "lang": "swift",
+        "index": 12
+      },
+      {
+        "classname": "BackendHTTP",
+        "addr": 552772,
+        "lang": "swift",
+        "index": 13,
+        "fields": [
+          {
+            "name": "$defaultActor",
+            "kind": "property",
+            "type": "BD",
+            "addr": 4295525818
+          },
+          {
+            "name": "coord",
+            "kind": "property",
+            "addr": 4295525832
+          },
+          {
+            "name": "transparencyLog",
+            "kind": "property",
+            "addr": 4295525838
+          },
+          {
+            "name": "url",
+            "kind": "property",
+            "addr": 4295525854
+          },
+          {
+            "name": "options",
+            "kind": "property",
+            "type": "__C.C2RequestOptions",
+            "addr": 4295525858
+          },
+          {
+            "name": "clientID",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295525866
+          },
+          {
+            "name": "extraHeaders",
+            "kind": "property",
+            "addr": 4295525875
+          },
+          {
+            "name": "filters",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295525888
+          },
+          {
+            "name": "name",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295525896
+          },
+          {
+            "name": "skipLogging",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295525901
+          }
+        ]
+      },
+      {
+        "classname": "ZLibError",
+        "addr": 552880,
+        "lang": "swift",
+        "index": 14,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.ZLibError.0",
+            "lang": "swift",
+            "addr": 4295520087
+          },
+          {
+            "name": "1",
+            "flag": "method.ZLibError.1",
+            "lang": "swift",
+            "addr": 4295526239
+          },
+          {
+            "name": "2",
+            "flag": "method.ZLibError.2",
+            "lang": "swift",
+            "addr": 4295522663
+          }
+        ],
+        "fields": [
+          {
+            "name": "initFailed",
+            "kind": "property",
+            "addr": 4295525913
+          }
+        ]
+      },
+      {
+        "classname": "POSTData",
+        "addr": 552916,
+        "lang": "swift",
+        "index": 15,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.POSTData.0",
+            "lang": "swift",
+            "addr": 4295520999
+          },
+          {
+            "name": "1",
+            "flag": "method.POSTData.1",
+            "lang": "swift",
+            "addr": 4295541231
+          }
+        ],
+        "fields": [
+          {
+            "name": "postTime",
+            "kind": "property",
+            "type": "Swift.Double",
+            "addr": 4295525924
+          },
+          {
+            "name": "clientId",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295525933
+          },
+          {
+            "name": "events",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295525942
+          }
+        ]
+      },
+      {
+        "classname": "CodingKeys_1",
+        "addr": 552944,
+        "lang": "swift",
+        "index": 16,
+        "fields": [
+          {
+            "name": "postTime",
+            "kind": "property",
+            "addr": 4295525924
+          },
+          {
+            "name": "clientId",
+            "kind": "property",
+            "addr": 4295525933
+          },
+          {
+            "name": "events",
+            "kind": "property",
+            "addr": 4295525942
+          }
+        ]
+      },
+      {
+        "classname": "SessionHierarchyItem",
+        "addr": 552972,
+        "lang": "swift",
+        "index": 17,
+        "fields": [
+          {
+            "name": "level",
+            "kind": "property",
+            "type": "Swift.Int",
+            "addr": 4295525952
+          },
+          {
+            "name": "id",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295525958
+          }
+        ]
+      },
+      {
+        "classname": "SessionCoordinator",
+        "addr": 553000,
+        "lang": "swift",
+        "index": 18,
+        "fields": [
+          {
+            "name": "$defaultActor",
+            "kind": "property",
+            "type": "BD",
+            "addr": 4295525961
+          },
+          {
+            "name": "storebagCoordinator",
+            "kind": "property",
+            "addr": 4295525984
+          },
+          {
+            "name": "diskCache",
+            "kind": "property",
+            "addr": 4295526004
+          },
+          {
+            "name": "sessionsPerClientType",
+            "kind": "property",
+            "type": "SDySS\u0002\u00b8\u00f9",
+            "addr": 4295526016
+          },
+          {
+            "name": "evictingClientTypes",
+            "kind": "property",
+            "type": "ShySSG",
+            "addr": 4295526048
+          },
+          {
+            "name": "sessionHierarchy",
+            "kind": "property",
+            "type": "SDySSSay\u0001]\u0012",
+            "addr": 4295526080
+          }
+        ]
+      },
+      {
+        "classname": "StorebagSectionBackendHTTP",
+        "addr": 553196,
+        "lang": "swift",
+        "index": 19,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.StorebagSectionBackendHTTP.0",
+            "lang": "swift",
+            "addr": 4295521023
+          },
+          {
+            "name": "1",
+            "flag": "method.StorebagSectionBackendHTTP.1",
+            "lang": "swift",
+            "addr": 4295541511
+          }
+        ],
+        "fields": [
+          {
+            "name": "name",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295526097
+          },
+          {
+            "name": "event_types",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295526102
+          }
+        ]
+      },
+      {
+        "classname": "CodingKeys_2",
+        "addr": 553224,
+        "lang": "swift",
+        "index": 20,
+        "fields": [
+          {
+            "name": "event_types",
+            "kind": "property",
+            "addr": 4295526102
+          }
+        ]
+      },
+      {
+        "classname": "StorebagSectionBackendScriptGroup",
+        "addr": 553252,
+        "lang": "swift",
+        "index": 21,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.StorebagSectionBackendScriptGroup.0",
+            "lang": "swift",
+            "addr": 4295520823
+          },
+          {
+            "name": "1",
+            "flag": "method.StorebagSectionBackendScriptGroup.1",
+            "lang": "swift",
+            "addr": 4295541567
+          }
+        ],
+        "fields": [
+          {
+            "name": "script_groups",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295526114
+          }
+        ]
+      },
+      {
+        "classname": "CodingKeys_3",
+        "addr": 553280,
+        "lang": "swift",
+        "index": 22,
+        "fields": [
+          {
+            "name": "script_groups",
+            "kind": "property",
+            "addr": 4295526114
+          }
+        ]
+      },
+      {
+        "classname": "StorebagSectionBackend",
+        "addr": 553308,
+        "lang": "swift",
+        "index": 23,
+        "fields": [
+          {
+            "name": "http",
+            "kind": "property",
+            "addr": 4295526128
+          },
+          {
+            "name": "local",
+            "kind": "property",
+            "addr": 4295526133
+          },
+          {
+            "name": "other",
+            "kind": "property",
+            "addr": 4295526139
+          }
+        ]
+      },
+      {
+        "classname": "SubmitEventsActivity",
+        "addr": 553336,
+        "lang": "swift",
+        "index": 24,
+        "fields": [
+          {
+            "name": "$defaultActor",
+            "kind": "property",
+            "type": "BD",
+            "addr": 4295526160
+          },
+          {
+            "name": "diskCache",
+            "kind": "property",
+            "addr": 4295526174
+          },
+          {
+            "name": "sessionCoord",
+            "kind": "property",
+            "addr": 4295526184
+          },
+          {
+            "name": "submissionCoord",
+            "kind": "property",
+            "addr": 4295526197
+          }
+        ]
+      },
+      {
+        "classname": "Error_1",
+        "addr": 553404,
+        "lang": "swift",
+        "index": 25,
+        "fields": [
+          {
+            "name": "noBackendAvailable",
+            "kind": "property",
+            "addr": 4295526224
+          }
+        ]
+      },
+      {
+        "classname": "DiskCacheError",
+        "addr": 553432,
+        "lang": "swift",
+        "index": 26,
+        "fields": [
+          {
+            "name": "invalidEvent",
+            "kind": "property",
+            "addr": 4295526243
+          },
+          {
+            "name": "recreateDB",
+            "kind": "property",
+            "addr": 4295526256
+          }
+        ]
+      },
+      {
+        "classname": "DiskCache",
+        "addr": 553460,
+        "lang": "swift",
+        "index": 27,
+        "fields": [
+          {
+            "name": "$defaultActor",
+            "kind": "property",
+            "type": "BD",
+            "addr": 4295526267
+          },
+          {
+            "name": "database",
+            "kind": "property",
+            "addr": 4295526281
+          }
+        ]
+      },
+      {
+        "classname": "URLResourceKey_2",
+        "addr": 552324,
+        "lang": "swift",
+        "index": 28,
+        "fields": [
+          {
+            "name": "_rawValue",
+            "kind": "property",
+            "type": "__C.NSString",
+            "addr": 4295525591
+          }
+        ]
+      },
+      {
+        "classname": "PostInstallActivity",
+        "addr": 553520,
+        "lang": "swift",
+        "index": 29,
+        "fields": [
+          {
+            "name": "$defaultActor",
+            "kind": "property",
+            "type": "BD",
+            "addr": 4295526290
+          }
+        ]
+      },
+      {
+        "classname": "RawStorebag",
+        "addr": 553588,
+        "lang": "swift",
+        "index": 30,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.RawStorebag.0",
+            "lang": "swift",
+            "addr": 4295521415
+          },
+          {
+            "name": "1",
+            "flag": "method.RawStorebag.1",
+            "lang": "swift",
+            "addr": 4295537807
+          }
+        ],
+        "fields": [
+          {
+            "name": "bag",
+            "kind": "property",
+            "addr": 4295526304
+          },
+          {
+            "name": "signature",
+            "kind": "property",
+            "addr": 4295526308
+          }
+        ]
+      },
+      {
+        "classname": "_EncodedRawStorebag",
+        "addr": 553624,
+        "lang": "swift",
+        "index": 31,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method._EncodedRawStorebag.0",
+            "lang": "swift",
+            "addr": 4295521451
+          },
+          {
+            "name": "1",
+            "flag": "method._EncodedRawStorebag.1",
+            "lang": "swift",
+            "addr": 4295541939
+          }
+        ],
+        "fields": [
+          {
+            "name": "bag",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295526304
+          },
+          {
+            "name": "signature",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295526308
+          }
+        ]
+      },
+      {
+        "classname": "CodingKeys_4",
+        "addr": 553652,
+        "lang": "swift",
+        "index": 32,
+        "fields": [
+          {
+            "name": "bag",
+            "kind": "property",
+            "addr": 4295526304
+          },
+          {
+            "name": "signature",
+            "kind": "property",
+            "addr": 4295526308
+          }
+        ]
+      },
+      {
+        "classname": "StorebagSharedValue",
+        "addr": 553680,
+        "lang": "swift",
+        "index": 33,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.StorebagSharedValue.0",
+            "lang": "swift",
+            "addr": 4295521763
+          },
+          {
+            "name": "1",
+            "flag": "method.StorebagSharedValue.1",
+            "lang": "swift",
+            "addr": 4295541995
+          }
+        ],
+        "fields": [
+          {
+            "name": "filters",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295526318
+          },
+          {
+            "name": "scripts",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295526326
+          },
+          {
+            "name": "stringList",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295526334
+          }
+        ]
+      },
+      {
+        "classname": "Error_2",
+        "addr": 553708,
+        "lang": "swift",
+        "index": 34,
+        "fields": [
+          {
+            "name": "invalid",
+            "kind": "property",
+            "addr": 4295526345
+          }
+        ]
+      },
+      {
+        "classname": "Listener",
+        "addr": 553736,
+        "lang": "swift",
+        "index": 35,
+        "methods": [
+          {
+            "name": "mode.allocator__String(...SgtYaKcfCTu)",
+            "flag": "method.Listener.mode.allocator__String_...SgtYaKcfCTu_",
+            "rawname": "_$s21CloudTelemetryService8ListenerC4mode14clientBundleIDAcA4ModeO_SSSgtYaKcfCTu",
+            "lang": "swift",
+            "addr": 4295481200
+          },
+          {
+            "name": "1",
+            "flag": "method.Listener.1",
+            "lang": "swift",
+            "addr": 4295519608
+          },
+          {
+            "name": "func.10002994c",
+            "flag": "method.Listener.func.10002994c",
+            "lang": "swift",
+            "addr": 4295137612
+          },
+          {
+            "name": "3",
+            "flag": "method.Listener.3",
+            "lang": "swift",
+            "addr": 4295521113
+          },
+          {
+            "name": "4",
+            "flag": "method.Listener.4",
+            "lang": "swift",
+            "addr": 4295521120
+          },
+          {
+            "name": "5",
+            "flag": "method.Listener.5",
+            "lang": "swift",
+            "addr": 4295519452
+          },
+          {
+            "name": "func.10002c264",
+            "flag": "method.Listener.func.10002c264",
+            "lang": "swift",
+            "addr": 4295148132
+          },
+          {
+            "name": "7",
+            "flag": "method.Listener.7",
+            "lang": "swift",
+            "addr": 4295521144
+          },
+          {
+            "name": "8",
+            "flag": "method.Listener.8",
+            "lang": "swift",
+            "addr": 4295521170
+          },
+          {
+            "name": "9",
+            "flag": "method.Listener.9",
+            "lang": "swift",
+            "addr": 4295521165
+          }
+        ],
+        "fields": [
+          {
+            "name": "connectionQueue",
+            "kind": "property",
+            "type": "__C.OS_dispatch_queue",
+            "addr": 4295526368
+          },
+          {
+            "name": "clients",
+            "kind": "property",
+            "addr": 4295526384
+          },
+          {
+            "name": "daemon",
+            "kind": "property",
+            "addr": 4295526392
+          },
+          {
+            "name": "conn",
+            "kind": "property",
+            "addr": 4295526399
+          }
+        ]
+      },
+      {
+        "classname": "os_unfair_lock_s",
+        "addr": 553796,
+        "lang": "swift",
+        "index": 36,
+        "fields": [
+          {
+            "name": "_os_unfair_lock_opaque",
+            "kind": "property",
+            "addr": 4295526416
+          }
+        ]
+      },
+      {
+        "classname": "BackendLocal",
+        "addr": 553828,
+        "lang": "swift",
+        "index": 37,
+        "fields": [
+          {
+            "name": "$defaultActor",
+            "kind": "property",
+            "type": "BD",
+            "addr": 4295526439
+          },
+          {
+            "name": "sender",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295526453
+          },
+          {
+            "name": "scripts",
+            "kind": "property",
+            "type": "SDySSSo8NSObjectCG",
+            "addr": 4295526460
+          },
+          {
+            "name": "filters",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295526468
+          },
+          {
+            "name": "frameworkObj",
+            "kind": "property",
+            "type": "CloudTelemetryLocalBackend.allocator__GenericAccessorSg",
+            "addr": 4295526476
+          }
+        ]
+      },
+      {
+        "classname": "Main",
+        "addr": 553904,
+        "lang": "swift",
+        "index": 38
+      },
+      {
+        "classname": "Event",
+        "addr": 553932,
+        "lang": "swift",
+        "index": 39,
+        "fields": [
+          {
+            "name": "sessionID",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295526489
+          },
+          {
+            "name": "payload",
+            "kind": "property",
+            "type": "SDySS\u0002(\u00fb",
+            "addr": 4295526499
+          }
+        ]
+      },
+      {
+        "classname": "CachedEvent",
+        "addr": 553960,
+        "lang": "swift",
+        "index": 40,
+        "fields": [
+          {
+            "name": "rowID",
+            "kind": "property",
+            "addr": 4295526507
+          },
+          {
+            "name": "event",
+            "kind": "property",
+            "addr": 4295526513
+          }
+        ]
+      },
+      {
+        "classname": "ServiceEventValue",
+        "addr": 553988,
+        "lang": "swift",
+        "index": 41,
+        "fields": [
+          {
+            "name": "string",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295526519
+          },
+          {
+            "name": "int",
+            "kind": "property",
+            "addr": 4295526526
+          },
+          {
+            "name": "uint",
+            "kind": "property",
+            "addr": 4295526530
+          },
+          {
+            "name": "double",
+            "kind": "property",
+            "type": "Swift.Double",
+            "addr": 4295526535
+          },
+          {
+            "name": "bool",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295526542
+          },
+          {
+            "name": "uuid",
+            "kind": "property",
+            "addr": 4295526547
+          },
+          {
+            "name": "array",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295526552
+          },
+          {
+            "name": "dictionary",
+            "kind": "property",
+            "type": "SDySS\u0002(\u00fb",
+            "addr": 4295526558
+          }
+        ]
+      },
+      {
+        "classname": "CodingKeys_5",
+        "addr": 554028,
+        "lang": "swift",
+        "index": 42,
+        "fields": [
+          {
+            "name": "stringValue",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295526569
+          }
+        ]
+      },
+      {
+        "classname": "BadCachedEvent",
+        "addr": 554056,
+        "lang": "swift",
+        "index": 43
+      },
+      {
+        "classname": "StorebagSectionScript",
+        "addr": 554084,
+        "lang": "swift",
+        "index": 44,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.StorebagSectionScript.0",
+            "lang": "swift",
+            "addr": 4295522423
+          },
+          {
+            "name": "1",
+            "flag": "method.StorebagSectionScript.1",
+            "lang": "swift",
+            "addr": 4295542399
+          }
+        ],
+        "fields": [
+          {
+            "name": "script",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295526601
+          },
+          {
+            "name": "version",
+            "kind": "property",
+            "addr": 4295526608
+          },
+          {
+            "name": "jsCode",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295526616
+          },
+          {
+            "name": "requiredLibraries",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295526624
+          }
+        ]
+      },
+      {
+        "classname": "CodingKeys_6",
+        "addr": 554112,
+        "lang": "swift",
+        "index": 45,
+        "fields": [
+          {
+            "name": "script",
+            "kind": "property",
+            "addr": 4295526601
+          },
+          {
+            "name": "version",
+            "kind": "property",
+            "addr": 4295526608
+          },
+          {
+            "name": "jsCode",
+            "kind": "property",
+            "addr": 4295526616
+          },
+          {
+            "name": "requiredLibraries",
+            "kind": "property",
+            "addr": 4295526624
+          }
+        ]
+      },
+      {
+        "classname": "StorebagSectionScriptRequiredLibraries",
+        "addr": 554140,
+        "lang": "swift",
+        "index": 46,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.StorebagSectionScriptRequiredLibraries.0",
+            "lang": "swift",
+            "addr": 4295522991
+          },
+          {
+            "name": "1",
+            "flag": "method.StorebagSectionScriptRequiredLibraries.1",
+            "lang": "swift",
+            "addr": 4295542455
+          }
+        ],
+        "fields": [
+          {
+            "name": "library",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295526642
+          },
+          {
+            "name": "varName",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295526650
+          },
+          {
+            "name": "tapToRadarDecisionServerURL",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295526672
+          },
+          {
+            "name": "tapToRadarRadarComponentID",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295526704
+          },
+          {
+            "name": "tapToRadarRadarKeywordIDs",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295526736
+          },
+          {
+            "name": "tapToRadarRadarTitle",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295526768
+          }
+        ]
+      },
+      {
+        "classname": "CodingKeys_7",
+        "addr": 554168,
+        "lang": "swift",
+        "index": 47,
+        "fields": [
+          {
+            "name": "library",
+            "kind": "property",
+            "addr": 4295526642
+          },
+          {
+            "name": "varName",
+            "kind": "property",
+            "addr": 4295526650
+          },
+          {
+            "name": "tapToRadarDecisionServerURL",
+            "kind": "property",
+            "addr": 4295526672
+          },
+          {
+            "name": "tapToRadarRadarComponentID",
+            "kind": "property",
+            "addr": 4295526704
+          },
+          {
+            "name": "tapToRadarRadarKeywordIDs",
+            "kind": "property",
+            "addr": 4295526736
+          },
+          {
+            "name": "tapToRadarRadarTitle",
+            "kind": "property",
+            "addr": 4295526768
+          }
+        ]
+      },
+      {
+        "classname": "StorebagSectionMaybeShared",
+        "addr": 554196,
+        "lang": "swift",
+        "index": 48,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.StorebagSectionMaybeShared.0",
+            "lang": "swift",
+            "addr": 4295483891
+          },
+          {
+            "name": "1",
+            "flag": "method.StorebagSectionMaybeShared.1",
+            "lang": "swift",
+            "addr": 4295483899
+          },
+          {
+            "name": "2",
+            "flag": "method.StorebagSectionMaybeShared.2",
+            "lang": "swift",
+            "addr": 4295483907
+          },
+          {
+            "name": "3",
+            "flag": "method.StorebagSectionMaybeShared.3",
+            "lang": "swift",
+            "addr": 4295483915
+          },
+          {
+            "name": "4",
+            "flag": "method.StorebagSectionMaybeShared.4",
+            "lang": "swift",
+            "addr": 4295483923
+          },
+          {
+            "name": "5",
+            "flag": "method.StorebagSectionMaybeShared.5",
+            "lang": "swift",
+            "addr": 4295483931
+          },
+          {
+            "name": "6",
+            "flag": "method.StorebagSectionMaybeShared.6",
+            "lang": "swift",
+            "addr": 4295483938
+          },
+          {
+            "name": "7",
+            "flag": "method.StorebagSectionMaybeShared.7",
+            "lang": "swift",
+            "addr": 4295483947
+          },
+          {
+            "name": "8",
+            "flag": "method.StorebagSectionMaybeShared.8",
+            "lang": "swift",
+            "addr": 4295483955
+          },
+          {
+            "name": "9",
+            "flag": "method.StorebagSectionMaybeShared.9",
+            "lang": "swift",
+            "addr": 4295483963
+          },
+          {
+            "name": "10",
+            "flag": "method.StorebagSectionMaybeShared.10",
+            "lang": "swift",
+            "addr": 4295483971
+          },
+          {
+            "name": "11",
+            "flag": "method.StorebagSectionMaybeShared.11",
+            "lang": "swift",
+            "addr": 4295483979
+          },
+          {
+            "name": "12",
+            "flag": "method.StorebagSectionMaybeShared.12",
+            "lang": "swift",
+            "addr": 4295483987
+          },
+          {
+            "name": "13",
+            "flag": "method.StorebagSectionMaybeShared.13",
+            "lang": "swift",
+            "addr": 4295483995
+          }
+        ],
+        "fields": [
+          {
+            "name": "direct",
+            "kind": "property",
+            "type": "x",
+            "addr": 4295526798
+          },
+          {
+            "name": "shared",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295526805
+          }
+        ]
+      },
+      {
+        "classname": "StorebagSectionFilter",
+        "addr": 554256,
+        "lang": "swift",
+        "index": 49,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.StorebagSectionFilter.0",
+            "lang": "swift",
+            "addr": 4295522595
+          },
+          {
+            "name": "1",
+            "flag": "method.StorebagSectionFilter.1",
+            "lang": "swift",
+            "addr": 4295542571
+          }
+        ],
+        "fields": [
+          {
+            "name": "keys",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295526812
+          },
+          {
+            "name": "values",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295526817
+          },
+          {
+            "name": "action",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295526824
+          },
+          {
+            "name": "condition",
+            "kind": "property",
+            "addr": 4295526831
+          }
+        ]
+      },
+      {
+        "classname": "CodingKeys_8",
+        "addr": 554284,
+        "lang": "swift",
+        "index": 50,
+        "fields": [
+          {
+            "name": "keys",
+            "kind": "property",
+            "addr": 4295526812
+          },
+          {
+            "name": "key",
+            "kind": "property",
+            "addr": 4295526841
+          },
+          {
+            "name": "values",
+            "kind": "property",
+            "addr": 4295526817
+          },
+          {
+            "name": "value",
+            "kind": "property",
+            "addr": 4295526845
+          },
+          {
+            "name": "action",
+            "kind": "property",
+            "addr": 4295526824
+          },
+          {
+            "name": "condition",
+            "kind": "property",
+            "addr": 4295526831
+          }
+        ]
+      },
+      {
+        "classname": "StorebagSectionCondition",
+        "addr": 554312,
+        "lang": "swift",
+        "index": 51,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.StorebagSectionCondition.0",
+            "lang": "swift",
+            "addr": 4295522651
+          },
+          {
+            "name": "1",
+            "flag": "method.StorebagSectionCondition.1",
+            "lang": "swift",
+            "addr": 4295538531
+          },
+          {
+            "name": "2",
+            "flag": "method.StorebagSectionCondition.2",
+            "lang": "swift",
+            "addr": 4295542890
+          }
+        ],
+        "fields": [
+          {
+            "name": "action",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295526824
+          },
+          {
+            "name": "keys",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295526812
+          },
+          {
+            "name": "values",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295526817
+          },
+          {
+            "name": "conditions",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295526851
+          }
+        ]
+      },
+      {
+        "classname": "CodingKeys_9",
+        "addr": 554348,
+        "lang": "swift",
+        "index": 52,
+        "fields": [
+          {
+            "name": "action",
+            "kind": "property",
+            "addr": 4295526824
+          },
+          {
+            "name": "keys",
+            "kind": "property",
+            "addr": 4295526812
+          },
+          {
+            "name": "values",
+            "kind": "property",
+            "addr": 4295526817
+          },
+          {
+            "name": "conditions",
+            "kind": "property",
+            "addr": 4295526851
+          }
+        ]
+      },
+      {
+        "classname": "ServiceSamplingOutcome",
+        "addr": 554376,
+        "lang": "swift",
+        "index": 53,
+        "fields": [
+          {
+            "name": "deterministic",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295526873
+          },
+          {
+            "name": "nondeterministic",
+            "kind": "property",
+            "addr": 4295526896
+          },
+          {
+            "name": "disallowed",
+            "kind": "property",
+            "addr": 4295526913
+          },
+          {
+            "name": "storebagUnavailable",
+            "kind": "property",
+            "addr": 4295526928
+          },
+          {
+            "name": "eventNotFound",
+            "kind": "property",
+            "addr": 4295526948
+          },
+          {
+            "name": "unknown",
+            "kind": "property",
+            "addr": 4295526962
+          }
+        ]
+      },
+      {
+        "classname": "HTTPHeaderFieldProvider",
+        "addr": 554468,
+        "lang": "swift",
+        "index": 54,
+        "fields": [
+          {
+            "name": "internalType",
+            "kind": "property",
+            "type": "Swift.Int",
+            "addr": 4295526976
+          },
+          {
+            "name": "id",
+            "kind": "property",
+            "addr": 4295526989
+          },
+          {
+            "name": "includeSessionID",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295526992
+          },
+          {
+            "name": "sessionID",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295527009
+          }
+        ]
+      },
+      {
+        "classname": "AllEventFieldProvider",
+        "addr": 554496,
+        "lang": "swift",
+        "index": 55,
+        "fields": [
+          {
+            "name": "internalType",
+            "kind": "property",
+            "type": "Swift.Int",
+            "addr": 4295526976
+          },
+          {
+            "name": "tzOffset",
+            "kind": "property",
+            "type": "Swift.Int",
+            "addr": 4295527019
+          },
+          {
+            "name": "sessionID",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295527009
+          },
+          {
+            "name": "clientID",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295527028
+          },
+          {
+            "name": "identity",
+            "kind": "property",
+            "addr": 4295527037
+          },
+          {
+            "name": "allowedEventFields",
+            "kind": "property",
+            "addr": 4295527056
+          },
+          {
+            "name": "automatedDeviceGroupProvider",
+            "kind": "property",
+            "addr": 4295527088
+          }
+        ]
+      },
+      {
+        "classname": "StartEventFieldProvider",
+        "addr": 554524,
+        "lang": "swift",
+        "index": 56,
+        "fields": [
+          {
+            "name": "currentLocaleCode",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295527120
+          }
+        ]
+      },
+      {
+        "classname": "EndEventFieldProvider",
+        "addr": 554552,
+        "lang": "swift",
+        "index": 57,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.EndEventFieldProvider.0",
+            "lang": "swift",
+            "addr": 4295523603
+          }
+        ],
+        "fields": [
+          {
+            "name": "graceful",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295527138
+          },
+          {
+            "name": "storebagVersion",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295527147
+          }
+        ]
+      },
+      {
+        "classname": "OSASystemConfigurationFields",
+        "addr": 554588,
+        "lang": "swift",
+        "index": 58,
+        "fields": [
+          {
+            "name": "automatedDeviceGroup",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295527168
+          }
+        ]
+      },
+      {
+        "classname": "CachedStorebag",
+        "addr": 554616,
+        "lang": "swift",
+        "index": 59,
+        "fields": [
+          {
+            "name": "storebag",
+            "kind": "property",
+            "addr": 4295527200
+          },
+          {
+            "name": "expiration",
+            "kind": "property",
+            "addr": 4295527209
+          }
+        ]
+      },
+      {
+        "classname": "CacheError",
+        "addr": 554656,
+        "lang": "swift",
+        "index": 60,
+        "fields": [
+          {
+            "name": "cacheOutOfDiskSpace",
+            "kind": "property",
+            "addr": 4295527232
+          },
+          {
+            "name": "unableToAccessSBCache",
+            "kind": "property",
+            "addr": 4295527264
+          },
+          {
+            "name": "unknownSBCacheFileError",
+            "kind": "property",
+            "addr": 4295527296
+          },
+          {
+            "name": "unknownSBCacheError",
+            "kind": "property",
+            "addr": 4295527328
+          },
+          {
+            "name": "mockError",
+            "kind": "property",
+            "addr": 4295527348
+          }
+        ]
+      },
+      {
+        "classname": "StorebagCache",
+        "addr": 554696,
+        "lang": "swift",
+        "index": 61,
+        "fields": [
+          {
+            "name": "$defaultActor",
+            "kind": "property",
+            "type": "BD",
+            "addr": 4295527358
+          },
+          {
+            "name": "cache",
+            "kind": "property",
+            "type": "SDySS\u0001\u001a\u0012",
+            "addr": 4295527372
+          },
+          {
+            "name": "activeLoadingTask",
+            "kind": "property",
+            "type": "UnicodeScalar",
+            "addr": 4295527392
+          },
+          {
+            "name": "activeLoadingTransaction",
+            "kind": "property",
+            "type": "\fI\u0084\u00ff\u00ff_pSg",
+            "addr": 4295527424
+          },
+          {
+            "name": "storebagCacheURL",
+            "kind": "property",
+            "addr": 4295527456
+          },
+          {
+            "name": "storebagSource",
+            "kind": "property",
+            "addr": 4295527473
+          }
+        ]
+      },
+      {
+        "classname": "URLResourceKey_3",
+        "addr": 552324,
+        "lang": "swift",
+        "index": 62,
+        "fields": [
+          {
+            "name": "_rawValue",
+            "kind": "property",
+            "type": "__C.NSString",
+            "addr": 4295525591
+          }
+        ]
+      },
+      {
+        "classname": "Mode",
+        "addr": 554896,
+        "lang": "swift",
+        "index": 63,
+        "fields": [
+          {
+            "name": "inProcess",
+            "kind": "property",
+            "addr": 4295527488
+          },
+          {
+            "name": "xpcService",
+            "kind": "property",
+            "addr": 4295527498
+          },
+          {
+            "name": "machService",
+            "kind": "property",
+            "addr": 4295527509
+          }
+        ]
+      },
+      {
+        "classname": "Daemon",
+        "addr": 554924,
+        "lang": "swift",
+        "index": 64,
+        "fields": [
+          {
+            "name": "mode",
+            "kind": "property",
+            "addr": 4295527521
+          },
+          {
+            "name": "clientBundleID",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295527526
+          },
+          {
+            "name": "diskCache",
+            "kind": "property",
+            "addr": 4295527541
+          },
+          {
+            "name": "sessionCoord",
+            "kind": "property",
+            "addr": 4295527551
+          },
+          {
+            "name": "submissionCoord",
+            "kind": "property",
+            "addr": 4295527564
+          },
+          {
+            "name": "transparencyLog",
+            "kind": "property",
+            "addr": 4295527580
+          },
+          {
+            "name": "disabled",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295527596
+          }
+        ]
+      },
+      {
+        "classname": "URLResourceKey_4",
+        "addr": 552324,
+        "lang": "swift",
+        "index": 65,
+        "fields": [
+          {
+            "name": "_rawValue",
+            "kind": "property",
+            "type": "__C.NSString",
+            "addr": 4295525591
+          }
+        ]
+      },
+      {
+        "classname": "os_unfair_lock_s_1",
+        "addr": 553796,
+        "lang": "swift",
+        "index": 66,
+        "fields": [
+          {
+            "name": "_os_unfair_lock_opaque",
+            "kind": "property",
+            "addr": 4295526416
+          }
+        ]
+      },
+      {
+        "classname": "StorebagEnvironment",
+        "addr": 554952,
+        "lang": "swift",
+        "index": 67,
+        "fields": [
+          {
+            "name": "development",
+            "kind": "property",
+            "addr": 4295527623
+          },
+          {
+            "name": "internal",
+            "kind": "property",
+            "addr": 4295527635
+          },
+          {
+            "name": "seed",
+            "kind": "property",
+            "addr": 4295527644
+          },
+          {
+            "name": "release",
+            "kind": "property",
+            "addr": 4295527649
+          }
+        ]
+      },
+      {
+        "classname": "Storebag",
+        "addr": 554980,
+        "lang": "swift",
+        "index": 68,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.Storebag.0",
+            "lang": "swift",
+            "addr": 4295523319
+          },
+          {
+            "name": "1",
+            "flag": "method.Storebag.1",
+            "lang": "swift",
+            "addr": 4295543295
+          }
+        ],
+        "fields": [
+          {
+            "name": "backends",
+            "kind": "property",
+            "type": "SDySS\u0002\u00d0\u00f4",
+            "addr": 4295527657
+          },
+          {
+            "name": "ttl",
+            "kind": "property",
+            "addr": 4295527666
+          },
+          {
+            "name": "version",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295527670
+          },
+          {
+            "name": "sharedValues",
+            "kind": "property",
+            "type": "SDySS\u0002\u00cc\u00f4",
+            "addr": 4295527678
+          }
+        ]
+      },
+      {
+        "classname": "Error_3",
+        "addr": 555008,
+        "lang": "swift",
+        "index": 69,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.Storebag.0",
+            "lang": "swift",
+            "addr": 4295523319
+          },
+          {
+            "name": "1",
+            "flag": "method.Storebag.1",
+            "lang": "swift",
+            "addr": 4295543295
+          }
+        ],
+        "fields": [
+          {
+            "name": "failedParse",
+            "kind": "property",
+            "addr": 4295527691
+          },
+          {
+            "name": "failedVerify",
+            "kind": "property",
+            "addr": 4295527703
+          },
+          {
+            "name": "storebagMissing",
+            "kind": "property",
+            "addr": 4295527716
+          }
+        ]
+      },
+      {
+        "classname": "CFString_1",
+        "addr": 552664,
+        "lang": "swift",
+        "index": 70
+      },
+      {
+        "classname": "_StorebagRoot",
+        "addr": 555044,
+        "lang": "swift",
+        "index": 71,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method._StorebagRoot.0",
+            "lang": "swift",
+            "addr": 4295523383
+          },
+          {
+            "name": "1",
+            "flag": "method._StorebagRoot.1",
+            "lang": "swift",
+            "addr": 4295543359
+          }
+        ],
+        "fields": [
+          {
+            "name": "version",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295527670
+          },
+          {
+            "name": "refreshCycle",
+            "kind": "property",
+            "addr": 4295527732
+          },
+          {
+            "name": "sharedValues",
+            "kind": "property",
+            "type": "SDySS\u0002z\u00f3",
+            "addr": 4295527678
+          },
+          {
+            "name": "environments",
+            "kind": "property",
+            "type": "SDy\u0001V\u0012",
+            "addr": 4295527745
+          }
+        ]
+      },
+      {
+        "classname": "CodingKeys_10",
+        "addr": 555072,
+        "lang": "swift",
+        "index": 72,
+        "fields": [
+          {
+            "name": "environment",
+            "kind": "property",
+            "addr": 4295527758
+          },
+          {
+            "name": "version",
+            "kind": "property",
+            "addr": 4295527670
+          },
+          {
+            "name": "refreshCycle",
+            "kind": "property",
+            "addr": 4295527732
+          },
+          {
+            "name": "sharedValues",
+            "kind": "property",
+            "addr": 4295527678
+          }
+        ]
+      },
+      {
+        "classname": "EventFilterMatcher",
+        "addr": 555156,
+        "lang": "swift",
+        "index": 73,
+        "fields": [
+          {
+            "name": "keys",
+            "kind": "property",
+            "type": "ShySSG",
+            "addr": 4295527770
+          },
+          {
+            "name": "values",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295527775
+          }
+        ]
+      },
+      {
+        "classname": "EventAllowFilter",
+        "addr": 555184,
+        "lang": "swift",
+        "index": 74,
+        "fields": [
+          {
+            "name": "matcher",
+            "kind": "property",
+            "addr": 4295527782
+          },
+          {
+            "name": "allAllowedKeys",
+            "kind": "property",
+            "type": "ShySSG",
+            "addr": 4295527790
+          }
+        ]
+      },
+      {
+        "classname": "EventRemoveFilter",
+        "addr": 555212,
+        "lang": "swift",
+        "index": 75,
+        "fields": [
+          {
+            "name": "matcher",
+            "kind": "property",
+            "addr": 4295527782
+          }
+        ]
+      },
+      {
+        "classname": "EventSHA256KeyFilter",
+        "addr": 555240,
+        "lang": "swift",
+        "index": 76,
+        "fields": [
+          {
+            "name": "matcher",
+            "kind": "property",
+            "addr": 4295527782
+          }
+        ]
+      },
+      {
+        "classname": "EventAllowValuesFilter",
+        "addr": 555268,
+        "lang": "swift",
+        "index": 77,
+        "fields": [
+          {
+            "name": "matcher",
+            "kind": "property",
+            "addr": 4295527782
+          }
+        ]
+      },
+      {
+        "classname": "EventDenyValuesFilter",
+        "addr": 555296,
+        "lang": "swift",
+        "index": 78,
+        "fields": [
+          {
+            "name": "matcher",
+            "kind": "property",
+            "addr": 4295527782
+          }
+        ]
+      },
+      {
+        "classname": "EventInsertStringKeyFilter",
+        "addr": 555324,
+        "lang": "swift",
+        "index": 79,
+        "fields": [
+          {
+            "name": "matcher",
+            "kind": "property",
+            "addr": 4295527782
+          }
+        ]
+      },
+      {
+        "classname": "EventAppendToKeyFilter",
+        "addr": 555352,
+        "lang": "swift",
+        "index": 80,
+        "fields": [
+          {
+            "name": "matcher",
+            "kind": "property",
+            "addr": 4295527782
+          }
+        ]
+      },
+      {
+        "classname": "EventPrependToKeyFilter",
+        "addr": 555380,
+        "lang": "swift",
+        "index": 81,
+        "fields": [
+          {
+            "name": "matcher",
+            "kind": "property",
+            "addr": 4295527782
+          }
+        ]
+      },
+      {
+        "classname": "BackendGroup",
+        "addr": 555452,
+        "lang": "swift",
+        "index": 82,
+        "fields": [
+          {
+            "name": "$defaultActor",
+            "kind": "property",
+            "type": "BD",
+            "addr": 4295527808
+          },
+          {
+            "name": "backends",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295527822
+          }
+        ]
+      },
+      {
+        "classname": "Error_4",
+        "addr": 555552,
+        "lang": "swift",
+        "index": 83,
+        "fields": [
+          {
+            "name": "noRemainingBackends",
+            "kind": "property",
+            "addr": 4295527840
+          }
+        ]
+      },
+      {
+        "classname": "RequestOptions",
+        "addr": 555580,
+        "lang": "swift",
+        "index": 84,
+        "fields": [
+          {
+            "name": "networkingDelegate",
+            "kind": "property",
+            "type": "\f\u04ca\u00ff\u00ff_pSg",
+            "addr": 4295527872
+          }
+        ]
+      },
+      {
+        "classname": "Throttle",
+        "addr": 555640,
+        "lang": "swift",
+        "index": 85,
+        "fields": [
+          {
+            "name": "$defaultActor",
+            "kind": "property",
+            "type": "BD",
+            "addr": 4295527891
+          },
+          {
+            "name": "location",
+            "kind": "property",
+            "addr": 4295527905
+          },
+          {
+            "name": "state",
+            "kind": "property",
+            "type": "SDySSypGSg",
+            "addr": 4295527914
+          }
+        ]
+      },
+      {
+        "classname": "CacheCleanupActivity",
+        "addr": 555776,
+        "lang": "swift",
+        "index": 86,
+        "fields": [
+          {
+            "name": "$defaultActor",
+            "kind": "property",
+            "type": "BD",
+            "addr": 4295527920
+          },
+          {
+            "name": "diskCache",
+            "kind": "property",
+            "addr": 4295527934
+          }
+        ]
+      },
+      {
+        "classname": "StorebagBool",
+        "addr": 555844,
+        "lang": "swift",
+        "index": 87,
+        "fields": [
+          {
+            "name": "true",
+            "kind": "property",
+            "addr": 4295527961
+          },
+          {
+            "name": "false",
+            "kind": "property",
+            "addr": 4295527966
+          }
+        ]
+      },
+      {
+        "classname": "StorebagSectionClientHTTP",
+        "addr": 555872,
+        "lang": "swift",
+        "index": 88,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.StorebagSectionClientHTTP.0",
+            "lang": "swift",
+            "addr": 4295528819
+          },
+          {
+            "name": "1",
+            "flag": "method.StorebagSectionClientHTTP.1",
+            "lang": "swift",
+            "addr": 4295544187
+          }
+        ],
+        "fields": [
+          {
+            "name": "eventType",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295527972
+          },
+          {
+            "name": "samplingKeys",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295527982
+          },
+          {
+            "name": "postURL",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295527995
+          },
+          {
+            "name": "samplingThreshold",
+            "kind": "property",
+            "type": "Swift.Double",
+            "addr": 4295528016
+          },
+          {
+            "name": "clientIDMaxAge",
+            "kind": "property",
+            "addr": 4295528034
+          },
+          {
+            "name": "customClientID",
+            "kind": "property",
+            "addr": 4295528049
+          },
+          {
+            "name": "deviceDenylist",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295528064
+          },
+          {
+            "name": "deviceAllowlist",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295528079
+          },
+          {
+            "name": "enabledSince",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295528095
+          },
+          {
+            "name": "eventDenylist",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295528108
+          },
+          {
+            "name": "eventAllowlist",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295528122
+          },
+          {
+            "name": "eventThreshold",
+            "kind": "property",
+            "addr": 4295528137
+          },
+          {
+            "name": "extrasOnInternal",
+            "kind": "property",
+            "addr": 4295528160
+          },
+          {
+            "name": "filters",
+            "kind": "property",
+            "addr": 4295528177
+          },
+          {
+            "name": "hashedClient",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295528185
+          },
+          {
+            "name": "hierarchy",
+            "kind": "property",
+            "addr": 4295528198
+          },
+          {
+            "name": "includeSessionID",
+            "kind": "property",
+            "addr": 4295528208
+          },
+          {
+            "name": "localeAllowlist",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295528225
+          },
+          {
+            "name": "overrideDNU",
+            "kind": "property",
+            "addr": 4295528241
+          },
+          {
+            "name": "isRealtime",
+            "kind": "property",
+            "addr": 4295528253
+          },
+          {
+            "name": "overrideSampling",
+            "kind": "property",
+            "addr": 4295528272
+          },
+          {
+            "name": "perCountrySamplingThresholds",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295528304
+          }
+        ]
+      },
+      {
+        "classname": "CodingKeys_11",
+        "addr": 555900,
+        "lang": "swift",
+        "index": 89,
+        "fields": [
+          {
+            "name": "eventType",
+            "kind": "property",
+            "addr": 4295527972
+          },
+          {
+            "name": "postURL",
+            "kind": "property",
+            "addr": 4295527995
+          },
+          {
+            "name": "samplingKeys",
+            "kind": "property",
+            "addr": 4295527982
+          },
+          {
+            "name": "samplingThreshold",
+            "kind": "property",
+            "addr": 4295528016
+          },
+          {
+            "name": "clientIDMaxAge",
+            "kind": "property",
+            "addr": 4295528034
+          },
+          {
+            "name": "customClientID",
+            "kind": "property",
+            "addr": 4295528049
+          },
+          {
+            "name": "deviceDenylist",
+            "kind": "property",
+            "addr": 4295528064
+          },
+          {
+            "name": "deviceAllowlist",
+            "kind": "property",
+            "addr": 4295528079
+          },
+          {
+            "name": "enabledSince",
+            "kind": "property",
+            "addr": 4295528095
+          },
+          {
+            "name": "eventDenylist",
+            "kind": "property",
+            "addr": 4295528108
+          },
+          {
+            "name": "eventAllowlist",
+            "kind": "property",
+            "addr": 4295528122
+          },
+          {
+            "name": "eventThreshold",
+            "kind": "property",
+            "addr": 4295528137
+          },
+          {
+            "name": "extrasOnInternal",
+            "kind": "property",
+            "addr": 4295528160
+          },
+          {
+            "name": "filters",
+            "kind": "property",
+            "addr": 4295528177
+          },
+          {
+            "name": "hashedClient",
+            "kind": "property",
+            "addr": 4295528185
+          },
+          {
+            "name": "hierarchy",
+            "kind": "property",
+            "addr": 4295528198
+          },
+          {
+            "name": "includeSessionID",
+            "kind": "property",
+            "addr": 4295528208
+          },
+          {
+            "name": "localeAllowlist",
+            "kind": "property",
+            "addr": 4295528225
+          },
+          {
+            "name": "overrideDNU",
+            "kind": "property",
+            "addr": 4295528241
+          },
+          {
+            "name": "isRealtime",
+            "kind": "property",
+            "addr": 4295528253
+          },
+          {
+            "name": "overrideSampling",
+            "kind": "property",
+            "addr": 4295528272
+          },
+          {
+            "name": "perCountrySamplingThresholds",
+            "kind": "property",
+            "addr": 4295528304
+          }
+        ]
+      },
+      {
+        "classname": "StorebagSectionPerCountrySampling",
+        "addr": 555928,
+        "lang": "swift",
+        "index": 90,
+        "fields": [
+          {
+            "name": "country",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295528333
+          },
+          {
+            "name": "threshold",
+            "kind": "property",
+            "type": "Swift.Double",
+            "addr": 4295528341
+          }
+        ]
+      },
+      {
+        "classname": "StorebagSectionClientScriptGroup",
+        "addr": 555956,
+        "lang": "swift",
+        "index": 91,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.StorebagSectionClientScriptGroup.0",
+            "lang": "swift",
+            "addr": 4295524295
+          },
+          {
+            "name": "1",
+            "flag": "method.StorebagSectionClientScriptGroup.1",
+            "lang": "swift",
+            "addr": 4295544271
+          }
+        ],
+        "fields": [
+          {
+            "name": "eventTypes",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295528351
+          },
+          {
+            "name": "samplingThreshold",
+            "kind": "property",
+            "type": "Swift.Double",
+            "addr": 4295528016
+          },
+          {
+            "name": "filters",
+            "kind": "property",
+            "addr": 4295528177
+          },
+          {
+            "name": "scripts",
+            "kind": "property",
+            "addr": 4295528362
+          }
+        ]
+      },
+      {
+        "classname": "CodingKeys_12",
+        "addr": 555984,
+        "lang": "swift",
+        "index": 92,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.CodingKeys_12.0",
+            "lang": "swift",
+            "addr": 4295523755
+          }
+        ],
+        "fields": [
+          {
+            "name": "eventTypes",
+            "kind": "property",
+            "addr": 4295528351
+          },
+          {
+            "name": "samplingThreshold",
+            "kind": "property",
+            "addr": 4295528016
+          },
+          {
+            "name": "filters",
+            "kind": "property",
+            "addr": 4295528177
+          },
+          {
+            "name": "scripts",
+            "kind": "property",
+            "addr": 4295528362
+          }
+        ]
+      },
+      {
+        "classname": "CodingKeys_13",
+        "addr": 556020,
+        "lang": "swift",
+        "index": 93,
+        "fields": [
+          {
+            "name": "country",
+            "kind": "property",
+            "addr": 4295528333
+          },
+          {
+            "name": "threshold",
+            "kind": "property",
+            "addr": 4295528341
+          }
+        ]
+      },
+      {
+        "classname": "SQLError",
+        "addr": 556048,
+        "lang": "swift",
+        "index": 94,
+        "fields": [
+          {
+            "name": "code",
+            "kind": "property",
+            "addr": 4295528370
+          },
+          {
+            "name": "desc",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295528375
+          }
+        ]
+      },
+      {
+        "classname": "DBError",
+        "addr": 556076,
+        "lang": "swift",
+        "index": 95,
+        "fields": [
+          {
+            "name": "noRows",
+            "kind": "property",
+            "addr": 4295528380
+          },
+          {
+            "name": "tooManyRows",
+            "kind": "property",
+            "addr": 4295528387
+          },
+          {
+            "name": "wrongColumns",
+            "kind": "property",
+            "addr": 4295528399
+          },
+          {
+            "name": "closed",
+            "kind": "property",
+            "addr": 4295528412
+          }
+        ]
+      },
+      {
+        "classname": "SQLiteDB",
+        "addr": 556104,
+        "lang": "swift",
+        "index": 96,
+        "fields": [
+          {
+            "name": "$defaultActor",
+            "kind": "property",
+            "type": "BD",
+            "addr": 4295528419
+          },
+          {
+            "name": "handle",
+            "kind": "property",
+            "addr": 4295528433
+          }
+        ]
+      },
+      {
+        "classname": "Location",
+        "addr": 556164,
+        "lang": "swift",
+        "index": 97,
+        "fields": [
+          {
+            "name": "url",
+            "kind": "property",
+            "addr": 4295528440
+          },
+          {
+            "name": "memory",
+            "kind": "property",
+            "addr": 4295528444
+          }
+        ]
+      },
+      {
+        "classname": "DBHandle",
+        "addr": 556212,
+        "lang": "swift",
+        "index": 98,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.DBHandle.0",
+            "lang": "swift",
+            "addr": 4295576978
+          }
+        ],
+        "fields": [
+          {
+            "name": "rawHandle",
+            "kind": "property",
+            "addr": 4295528451
+          },
+          {
+            "name": "closed",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295528412
+          }
+        ]
+      },
+      {
+        "classname": "Statement",
+        "addr": 556272,
+        "lang": "swift",
+        "index": 99,
+        "fields": [
+          {
+            "name": "handle",
+            "kind": "property",
+            "addr": 4295528433
+          },
+          {
+            "name": "finished",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295528461
+          }
+        ]
+      },
+      {
+        "classname": "Row",
+        "addr": 556428,
+        "lang": "swift",
+        "index": 100,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.Row.0",
+            "lang": "swift",
+            "addr": 4295523419
+          },
+          {
+            "name": "1",
+            "flag": "method.Row.1",
+            "lang": "swift",
+            "addr": 4295526755
+          },
+          {
+            "name": "2",
+            "flag": "method.Row.2",
+            "lang": "swift",
+            "addr": 4295523947
+          },
+          {
+            "name": "3",
+            "flag": "method.Row.3",
+            "lang": "swift",
+            "addr": 4295526515
+          }
+        ],
+        "fields": [
+          {
+            "name": "statement",
+            "kind": "property",
+            "addr": 4295528470
+          }
+        ]
+      },
+      {
+        "classname": "Transaction",
+        "addr": 556456,
+        "lang": "swift",
+        "index": 101,
+        "fields": [
+          {
+            "name": "db",
+            "kind": "property",
+            "addr": 4295528480
+          },
+          {
+            "name": "finalized",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295528483
+          }
+        ]
+      },
+      {
+        "classname": "StorebagCoordinator",
+        "addr": 556668,
+        "lang": "swift",
+        "index": 102,
+        "fields": [
+          {
+            "name": "$defaultActor",
+            "kind": "property",
+            "type": "BD",
+            "addr": 4295528496
+          },
+          {
+            "name": "pathMonitor",
+            "kind": "property",
+            "addr": 4295528510
+          },
+          {
+            "name": "pathMonitorQueue",
+            "kind": "property",
+            "type": "__C.OS_dispatch_queue",
+            "addr": 4295528528
+          },
+          {
+            "name": "storebagCache",
+            "kind": "property",
+            "addr": 4295528545
+          },
+          {
+            "name": "rootCacheURL",
+            "kind": "property",
+            "addr": 4295528559
+          }
+        ]
+      },
+      {
+        "classname": "ServiceTransportConfiguration",
+        "addr": 556780,
+        "lang": "swift",
+        "index": 103,
+        "fields": [
+          {
+            "name": "allowCellularAccess",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295528592
+          },
+          {
+            "name": "allowExpensiveAccess",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295528624
+          },
+          {
+            "name": "bundleID",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295528645
+          }
+        ]
+      },
+      {
+        "classname": "ClientIdentity",
+        "addr": 556808,
+        "lang": "swift",
+        "index": 104,
+        "fields": [
+          {
+            "name": "clientType",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295528654
+          },
+          {
+            "name": "eventType",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295528665
+          },
+          {
+            "name": "transportConfiguration",
+            "kind": "property",
+            "addr": 4295528688
+          }
+        ]
+      },
+      {
+        "classname": "Client",
+        "addr": 556836,
+        "lang": "swift",
+        "index": 105,
+        "fields": [
+          {
+            "name": "$defaultActor",
+            "kind": "property",
+            "type": "BD",
+            "addr": 4295528711
+          },
+          {
+            "name": "connection",
+            "kind": "property",
+            "addr": 4295528725
+          },
+          {
+            "name": "queue",
+            "kind": "property",
+            "type": "__C.OS_dispatch_queue",
+            "addr": 4295528736
+          },
+          {
+            "name": "remoteName",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295528742
+          },
+          {
+            "name": "diskCache",
+            "kind": "property",
+            "addr": 4295528753
+          },
+          {
+            "name": "sessionCoord",
+            "kind": "property",
+            "addr": 4295528763
+          },
+          {
+            "name": "submissionCoord",
+            "kind": "property",
+            "addr": 4295528776
+          },
+          {
+            "name": "transparencyLog",
+            "kind": "property",
+            "addr": 4295528792
+          },
+          {
+            "name": "listener",
+            "kind": "property",
+            "addr": 4295528808
+          }
+        ]
+      },
+      {
+        "classname": "SessionConfiguration",
+        "addr": 556964,
+        "lang": "swift",
+        "index": 106,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.SessionConfiguration.0",
+            "lang": "swift",
+            "addr": 4295525303
+          },
+          {
+            "name": "1",
+            "flag": "method.SessionConfiguration.1",
+            "lang": "swift",
+            "addr": 4295545279
+          }
+        ],
+        "fields": [
+          {
+            "name": "backends",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295528832
+          },
+          {
+            "name": "immediateBackends",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295528848
+          },
+          {
+            "name": "deferred",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295528866
+          },
+          {
+            "name": "version",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295528875
+          }
+        ]
+      },
+      {
+        "classname": "Availability",
+        "addr": 556992,
+        "lang": "swift",
+        "index": 107,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.SessionConfiguration.0",
+            "lang": "swift",
+            "addr": 4295525303
+          },
+          {
+            "name": "1",
+            "flag": "method.SessionConfiguration.1",
+            "lang": "swift",
+            "addr": 4295545279
+          }
+        ],
+        "fields": [
+          {
+            "name": "none",
+            "kind": "property",
+            "addr": 4295528883
+          },
+          {
+            "name": "expensive",
+            "kind": "property",
+            "addr": 4295528888
+          },
+          {
+            "name": "deferred",
+            "kind": "property",
+            "addr": 4295528866
+          },
+          {
+            "name": "immediate",
+            "kind": "property",
+            "addr": 4295528898
+          }
+        ]
+      },
+      {
+        "classname": "Backend",
+        "addr": 557020,
+        "lang": "swift",
+        "index": 108,
+        "fields": [
+          {
+            "name": "http",
+            "kind": "property",
+            "addr": 4295528908
+          },
+          {
+            "name": "local",
+            "kind": "property",
+            "addr": 4295528913
+          }
+        ]
+      },
+      {
+        "classname": "BackendHTTP_1",
+        "addr": 557060,
+        "lang": "swift",
+        "index": 109,
+        "fields": [
+          {
+            "name": "name",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295528919
+          },
+          {
+            "name": "samplingThreshold",
+            "kind": "property",
+            "type": "Swift.Double",
+            "addr": 4295528928
+          },
+          {
+            "name": "samplingKeys",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295528946
+          },
+          {
+            "name": "postURL",
+            "kind": "property",
+            "addr": 4295528959
+          },
+          {
+            "name": "filters",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295528967
+          },
+          {
+            "name": "includeSessionID",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295528976
+          },
+          {
+            "name": "skipLogging",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295528993
+          }
+        ]
+      },
+      {
+        "classname": "BackendLocal_1",
+        "addr": 557100,
+        "lang": "swift",
+        "index": 110,
+        "fields": [
+          {
+            "name": "samplingThreshold",
+            "kind": "property",
+            "type": "Swift.Double",
+            "addr": 4295528928
+          },
+          {
+            "name": "filters",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295528967
+          },
+          {
+            "name": "scripts",
+            "kind": "property",
+            "type": "SDySS\u0002T\u00ed",
+            "addr": 4295529005
+          }
+        ]
+      },
+      {
+        "classname": "StorebagSource",
+        "addr": 557128,
+        "lang": "swift",
+        "index": 111,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.StorebagSource.0",
+            "lang": "swift",
+            "addr": 4295525763
+          }
+        ],
+        "fields": [
+          {
+            "name": "throttleCacheURL",
+            "kind": "property",
+            "addr": 4295529024
+          },
+          {
+            "name": "storebagSigningConfiguration",
+            "kind": "property",
+            "addr": 4295529056
+          },
+          {
+            "name": "throttlesByName",
+            "kind": "property",
+            "type": "SDySS\u0002z\u00ef",
+            "addr": 4295529085
+          }
+        ]
+      },
+      {
+        "classname": "Error_5",
+        "addr": 557232,
+        "lang": "swift",
+        "index": 112,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.Error_5.0",
+            "lang": "swift",
+            "addr": 4295524443
+          },
+          {
+            "name": "1",
+            "flag": "method.Error_5.1",
+            "lang": "swift",
+            "addr": 4295529059
+          },
+          {
+            "name": "2",
+            "flag": "method.Error_5.2",
+            "lang": "swift",
+            "addr": 4295525227
+          }
+        ],
+        "fields": [
+          {
+            "name": "failedParse",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295529101
+          },
+          {
+            "name": "downloadFailed",
+            "kind": "property",
+            "type": "Swift.Int",
+            "addr": 4295529113
+          },
+          {
+            "name": "internalError",
+            "kind": "property",
+            "addr": 4295529128
+          }
+        ]
+      },
+      {
+        "classname": "StorebagResponse",
+        "addr": 557260,
+        "lang": "swift",
+        "index": 113,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.StorebagResponse.0",
+            "lang": "swift",
+            "addr": 4295525087
+          },
+          {
+            "name": "1",
+            "flag": "method.StorebagResponse.1",
+            "lang": "swift",
+            "addr": 4295541479
+          },
+          {
+            "name": "2",
+            "flag": "method.StorebagResponse.2",
+            "lang": "swift",
+            "addr": 4295545838
+          }
+        ],
+        "fields": [
+          {
+            "name": "json",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295529142
+          },
+          {
+            "name": "signature",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295529147
+          }
+        ]
+      },
+      {
+        "classname": "CodingKeys_14",
+        "addr": 557296,
+        "lang": "swift",
+        "index": 114,
+        "fields": [
+          {
+            "name": "json",
+            "kind": "property",
+            "addr": 4295529142
+          },
+          {
+            "name": "signature",
+            "kind": "property",
+            "addr": 4295529147
+          }
+        ]
+      },
+      {
+        "classname": "SubmissionCoordinator",
+        "addr": 557324,
+        "lang": "swift",
+        "index": 115,
+        "fields": [
+          {
+            "name": "$defaultActor",
+            "kind": "property",
+            "type": "BD",
+            "addr": 4295529157
+          },
+          {
+            "name": "sessionCoord",
+            "kind": "property",
+            "addr": 4295529171
+          },
+          {
+            "name": "diskCache",
+            "kind": "property",
+            "addr": 4295529184
+          },
+          {
+            "name": "transparencyLog",
+            "kind": "property",
+            "addr": 4295529194
+          }
+        ]
+      },
+      {
+        "classname": "SubmitEventsActivityConfig",
+        "addr": 557436,
+        "lang": "swift",
+        "index": 116
+      },
+      {
+        "classname": "XPCObject",
+        "addr": 557464,
+        "lang": "swift",
+        "index": 117,
+        "fields": [
+          {
+            "name": "connection",
+            "kind": "property",
+            "type": "\f3\u0096\u00ff\u00ff_p",
+            "addr": 4295529220
+          },
+          {
+            "name": "endpoint",
+            "kind": "property",
+            "type": "\f3\u0096\u00ff\u00ff_p",
+            "addr": 4295529231
+          },
+          {
+            "name": "bool",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295529240
+          },
+          {
+            "name": "int64",
+            "kind": "property",
+            "addr": 4295529245
+          },
+          {
+            "name": "uint64",
+            "kind": "property",
+            "addr": 4295529251
+          },
+          {
+            "name": "double",
+            "kind": "property",
+            "type": "Swift.Double",
+            "addr": 4295529258
+          },
+          {
+            "name": "date",
+            "kind": "property",
+            "addr": 4295529265
+          },
+          {
+            "name": "data",
+            "kind": "property",
+            "addr": 4295529270
+          },
+          {
+            "name": "string",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295529275
+          },
+          {
+            "name": "uuid",
+            "kind": "property",
+            "addr": 4295529282
+          },
+          {
+            "name": "shmem",
+            "kind": "property",
+            "type": "\f3\u0096\u00ff\u00ff_p",
+            "addr": 4295529287
+          },
+          {
+            "name": "array",
+            "kind": "property",
+            "type": "\f3\u0096\u00ff\u00ff_p",
+            "addr": 4295529293
+          },
+          {
+            "name": "dictionary",
+            "kind": "property",
+            "addr": 4295529299
+          },
+          {
+            "name": "null",
+            "kind": "property",
+            "addr": 4295529310
+          }
+        ]
+      },
+      {
+        "classname": "XPCDictionary",
+        "addr": 557504,
+        "lang": "swift",
+        "index": 118,
+        "fields": [
+          {
+            "name": "dict",
+            "kind": "property",
+            "type": "\f3\u0096\u00ff\u00ff_p",
+            "addr": 4295529315
+          }
+        ]
+      },
+      {
+        "classname": "XPCActivityHandle",
+        "addr": 557640,
+        "lang": "swift",
+        "index": 119,
+        "fields": [
+          {
+            "name": "handle",
+            "kind": "property",
+            "type": "\f3\u0096\u00ff\u00ff_p",
+            "addr": 4295529320
+          }
+        ]
+      },
+      {
+        "classname": "XPCActivity",
+        "addr": 557700,
+        "lang": "swift",
+        "index": 120,
+        "fields": [
+          {
+            "name": "$defaultActor",
+            "kind": "property",
+            "type": "BD",
+            "addr": 4295529327
+          },
+          {
+            "name": "handlerType",
+            "kind": "property",
+            "addr": 4295529341
+          },
+          {
+            "name": "currentTask",
+            "kind": "property",
+            "type": "UnicodeScalar",
+            "addr": 4295529353
+          },
+          {
+            "name": "disabled",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295529365
+          }
+        ]
+      },
+      {
+        "classname": "MessageKeys",
+        "addr": 557848,
+        "lang": "swift",
+        "index": 121
+      },
+      {
+        "classname": "XPCError",
+        "addr": 557928,
+        "lang": "swift",
+        "index": 122,
+        "fields": [
+          {
+            "name": "raw",
+            "kind": "property",
+            "type": "\f3\u0096\u00ff\u00ff_p",
+            "addr": 4295529374
+          }
+        ]
+      },
+      {
+        "classname": "XPCIncomingConnection",
+        "addr": 557956,
+        "lang": "swift",
+        "index": 123,
+        "fields": [
+          {
+            "name": "conn",
+            "kind": "property",
+            "type": "\f3\u0096\u00ff\u00ff_p",
+            "addr": 4295529378
+          }
+        ]
+      },
+      {
+        "classname": "XPCConnection",
+        "addr": 557984,
+        "lang": "swift",
+        "index": 124,
+        "fields": [
+          {
+            "name": "conn",
+            "kind": "property",
+            "type": "\f\u0015\u0095\u00ff\u00ff_pSg",
+            "addr": 4295529378
+          },
+          {
+            "name": "delegate",
+            "kind": "property",
+            "addr": 4295529383
+          },
+          {
+            "name": "targetQ",
+            "kind": "property",
+            "type": "__C.OS_dispatch_queue",
+            "addr": 4295529392
+          }
+        ]
+      },
+      {
+        "classname": "PostInstallActivityConfig",
+        "addr": 558076,
+        "lang": "swift",
+        "index": 125
+      },
+      {
+        "classname": "CacheCleanupActivityConfig",
+        "addr": 558104,
+        "lang": "swift",
+        "index": 126
+      },
+      {
+        "classname": "XPCMessage",
+        "addr": 558132,
+        "lang": "swift",
+        "index": 127,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.XPCMessage.0",
+            "lang": "swift",
+            "addr": 4295525959
+          },
+          {
+            "name": "1",
+            "flag": "method.XPCMessage.1",
+            "lang": "swift",
+            "addr": 4295546447
+          }
+        ],
+        "fields": [
+          {
+            "name": "dict",
+            "kind": "property",
+            "addr": 4295529417
+          },
+          {
+            "name": "ty",
+            "kind": "property",
+            "addr": 4295529422
+          }
+        ]
+      },
+      {
+        "classname": "MessageType",
+        "addr": 558160,
+        "lang": "swift",
+        "index": 128,
+        "fields": [
+          {
+            "name": "SendOneMessage",
+            "kind": "property",
+            "addr": 4295529425
+          },
+          {
+            "name": "SubmitEventsActivity",
+            "kind": "property",
+            "addr": 4295529440
+          },
+          {
+            "name": "PostInstallActivity",
+            "kind": "property",
+            "addr": 4295529472
+          },
+          {
+            "name": "CacheCleanupActivity",
+            "kind": "property",
+            "addr": 4295529504
+          },
+          {
+            "name": "CheckSamplingResult",
+            "kind": "property",
+            "addr": 4295529536
+          }
+        ]
+      },
+      {
+        "classname": "CloudTelemetryService.TransparencyLog",
+        "addr": 4295614048,
+        "lang": "objc",
+        "index": 129,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$defaultActor",
+            "kind": "var",
+            "addr": 0
+          },
+          {
+            "name": "rootLogsURL",
+            "kind": "var",
+            "addr": 4295650264
+          },
+          {
+            "name": "writeInternalEvents",
+            "kind": "var",
+            "addr": 4295650272
+          },
+          {
+            "name": "activeFile",
+            "kind": "var",
+            "addr": 4295650280
+          },
+          {
+            "name": "fileDeletionSource",
+            "kind": "var",
+            "addr": 4295650288
+          }
+        ]
+      },
+      {
+        "classname": "CloudTelemetryService.Session",
+        "addr": 4295614920,
+        "lang": "objc",
+        "index": 130,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$defaultActor",
+            "kind": "var",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "CloudTelemetryService.BackendHTTP",
+        "addr": 4295615344,
+        "lang": "objc",
+        "index": 131,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$defaultActor",
+            "kind": "var",
+            "addr": 0
+          },
+          {
+            "name": "coord",
+            "kind": "var",
+            "addr": 4295477024
+          },
+          {
+            "name": "transparencyLog",
+            "kind": "var",
+            "addr": 4295477032
+          },
+          {
+            "name": "options",
+            "kind": "var",
+            "addr": 4295650352
+          },
+          {
+            "name": "extraHeaders",
+            "kind": "var",
+            "addr": 4295650368
+          },
+          {
+            "name": "clientID",
+            "kind": "var",
+            "addr": 4295650360
+          },
+          {
+            "name": "name",
+            "kind": "var",
+            "addr": 4295650384
+          },
+          {
+            "name": "skipLogging",
+            "kind": "var",
+            "addr": 4295650392
+          },
+          {
+            "name": "url",
+            "kind": "var",
+            "addr": 4295650344
+          },
+          {
+            "name": "filters",
+            "kind": "var",
+            "addr": 4295650376
+          }
+        ]
+      },
+      {
+        "classname": "CloudTelemetryService.SessionCoordinator",
+        "addr": 4295615656,
+        "lang": "objc",
+        "index": 132,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$defaultActor",
+            "kind": "var",
+            "addr": 0
+          },
+          {
+            "name": "storebagCoordinator",
+            "kind": "var",
+            "addr": 4295477768
+          },
+          {
+            "name": "diskCache",
+            "kind": "var",
+            "addr": 4295477776
+          },
+          {
+            "name": "sessionsPerClientType",
+            "kind": "var",
+            "addr": 4295477784
+          },
+          {
+            "name": "evictingClientTypes",
+            "kind": "var",
+            "addr": 4295477792
+          },
+          {
+            "name": "sessionHierarchy",
+            "kind": "var",
+            "addr": 4295477800
+          }
+        ]
+      },
+      {
+        "classname": "CloudTelemetryService.SubmitEventsActivity",
+        "addr": 4295616168,
+        "lang": "objc",
+        "index": 133,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$defaultActor",
+            "kind": "var",
+            "addr": 0
+          },
+          {
+            "name": "diskCache",
+            "kind": "var",
+            "addr": 4295479240
+          },
+          {
+            "name": "sessionCoord",
+            "kind": "var",
+            "addr": 4295479248
+          },
+          {
+            "name": "submissionCoord",
+            "kind": "var",
+            "addr": 4295479256
+          }
+        ]
+      },
+      {
+        "classname": "CloudTelemetryService.DiskCache",
+        "addr": 4295616432,
+        "lang": "objc",
+        "index": 134,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$defaultActor",
+            "kind": "var",
+            "addr": 0
+          },
+          {
+            "name": "database",
+            "kind": "var",
+            "addr": 4295479816
+          }
+        ]
+      },
+      {
+        "classname": "CloudTelemetryService.PostInstallActivity",
+        "addr": 4295616648,
+        "lang": "objc",
+        "index": 135,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$defaultActor",
+            "kind": "var",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "CloudTelemetryService.Listener",
+        "addr": 4295616896,
+        "lang": "objc",
+        "index": 136,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "connectionQueue",
+            "kind": "var",
+            "addr": 4295481248
+          },
+          {
+            "name": "clients",
+            "kind": "var",
+            "addr": 4295481256
+          },
+          {
+            "name": "daemon",
+            "kind": "var",
+            "addr": 4295481264
+          },
+          {
+            "name": "conn",
+            "kind": "var",
+            "addr": 4295481272
+          }
+        ]
+      },
+      {
+        "classname": "CloudTelemetryService.BackendLocal",
+        "addr": 4295617128,
+        "lang": "objc",
+        "index": 137,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$defaultActor",
+            "kind": "var",
+            "addr": 0
+          },
+          {
+            "name": "sender",
+            "kind": "var",
+            "addr": 4295481488
+          },
+          {
+            "name": "scripts",
+            "kind": "var",
+            "addr": 4295481496
+          },
+          {
+            "name": "filters",
+            "kind": "var",
+            "addr": 4295481504
+          },
+          {
+            "name": "frameworkObj",
+            "kind": "var",
+            "addr": 4295481512
+          }
+        ]
+      },
+      {
+        "classname": "CloudTelemetryService.StorebagCache",
+        "addr": 4295618264,
+        "lang": "objc",
+        "index": 138,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$defaultActor",
+            "kind": "var",
+            "addr": 0
+          },
+          {
+            "name": "cache",
+            "kind": "var",
+            "addr": 4295485568
+          },
+          {
+            "name": "activeLoadingTask",
+            "kind": "var",
+            "addr": 4295485576
+          },
+          {
+            "name": "activeLoadingTransaction",
+            "kind": "var",
+            "addr": 4295485584
+          },
+          {
+            "name": "storebagCacheURL",
+            "kind": "var",
+            "addr": 4295650576
+          },
+          {
+            "name": "storebagSource",
+            "kind": "var",
+            "addr": 4295650584
+          }
+        ]
+      },
+      {
+        "classname": "CloudTelemetryService.BackendGroup",
+        "addr": 4295619088,
+        "lang": "objc",
+        "index": 139,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$defaultActor",
+            "kind": "var",
+            "addr": 0
+          },
+          {
+            "name": "backends",
+            "kind": "var",
+            "addr": 4295487936
+          }
+        ]
+      },
+      {
+        "classname": "CloudTelemetryService.RequestOptions",
+        "addr": 4295619360,
+        "lang": "objc",
+        "index": 140,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "networkingDelegate",
+            "kind": "var",
+            "addr": 4295488056
+          }
+        ]
+      },
+      {
+        "classname": "CloudTelemetryService.Throttle",
+        "addr": 4295619616,
+        "lang": "objc",
+        "index": 141,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$defaultActor",
+            "kind": "var",
+            "addr": 0
+          },
+          {
+            "name": "state",
+            "kind": "var",
+            "addr": 4295641608
+          },
+          {
+            "name": "location",
+            "kind": "var",
+            "addr": 4295641616
+          }
+        ]
+      },
+      {
+        "classname": "CloudTelemetryService.CacheCleanupActivity",
+        "addr": 4295619872,
+        "lang": "objc",
+        "index": 142,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$defaultActor",
+            "kind": "var",
+            "addr": 0
+          },
+          {
+            "name": "diskCache",
+            "kind": "var",
+            "addr": 4295488328
+          }
+        ]
+      },
+      {
+        "classname": "CloudTelemetryService.SQLiteDB",
+        "addr": 4295620256,
+        "lang": "objc",
+        "index": 143,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$defaultActor",
+            "kind": "var",
+            "addr": 0
+          },
+          {
+            "name": "handle",
+            "kind": "var",
+            "addr": 4295490968
+          }
+        ]
+      },
+      {
+        "classname": "CloudTelemetryService.SQLiteDB._63B944502EA165D1836E2F0164F7F00D.DBHandle",
+        "addr": 4295620568,
+        "lang": "objc",
+        "index": 144,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "rawHandle",
+            "kind": "var",
+            "addr": 4295491000
+          },
+          {
+            "name": "closed",
+            "kind": "var",
+            "addr": 4295491008
+          }
+        ]
+      },
+      {
+        "classname": "CloudTelemetryService.SQLiteDB.Statement",
+        "addr": 4295620736,
+        "lang": "objc",
+        "index": 145,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "handle",
+            "kind": "var",
+            "addr": 4295491032
+          },
+          {
+            "name": "finished",
+            "kind": "var",
+            "addr": 4295491040
+          }
+        ]
+      },
+      {
+        "classname": "CloudTelemetryService.SQLiteDB.Transaction",
+        "addr": 4295621000,
+        "lang": "objc",
+        "index": 146,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "db",
+            "kind": "var",
+            "addr": 4295491104
+          },
+          {
+            "name": "finalized",
+            "kind": "var",
+            "addr": 4295491112
+          }
+        ]
+      },
+      {
+        "classname": "CloudTelemetryService.StorebagCoordinator",
+        "addr": 4295621248,
+        "lang": "objc",
+        "index": 147,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$defaultActor",
+            "kind": "var",
+            "addr": 0
+          },
+          {
+            "name": "pathMonitor",
+            "kind": "var",
+            "addr": 4295491328
+          },
+          {
+            "name": "pathMonitorQueue",
+            "kind": "var",
+            "addr": 4295491336
+          },
+          {
+            "name": "storebagCache",
+            "kind": "var",
+            "addr": 4295491344
+          },
+          {
+            "name": "rootCacheURL",
+            "kind": "var",
+            "addr": 4295646240
+          }
+        ]
+      },
+      {
+        "classname": "CloudTelemetryService.Client",
+        "addr": 4295621552,
+        "lang": "objc",
+        "index": 148,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$defaultActor",
+            "kind": "var",
+            "addr": 0
+          },
+          {
+            "name": "connection",
+            "kind": "var",
+            "addr": 4295491856
+          },
+          {
+            "name": "queue",
+            "kind": "var",
+            "addr": 4295491864
+          },
+          {
+            "name": "remoteName",
+            "kind": "var",
+            "addr": 4295491872
+          },
+          {
+            "name": "diskCache",
+            "kind": "var",
+            "addr": 4295491880
+          },
+          {
+            "name": "sessionCoord",
+            "kind": "var",
+            "addr": 4295491888
+          },
+          {
+            "name": "submissionCoord",
+            "kind": "var",
+            "addr": 4295491896
+          },
+          {
+            "name": "transparencyLog",
+            "kind": "var",
+            "addr": 4295491904
+          },
+          {
+            "name": "listener",
+            "kind": "var",
+            "addr": 4295491912
+          }
+        ]
+      },
+      {
+        "classname": "CloudTelemetryService.StorebagSource",
+        "addr": 4295622184,
+        "lang": "objc",
+        "index": 149,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "throttlesByName",
+            "kind": "var",
+            "addr": 4295650784
+          },
+          {
+            "name": "throttleCacheURL",
+            "kind": "var",
+            "addr": 4295650768
+          },
+          {
+            "name": "storebagSigningConfiguration",
+            "kind": "var",
+            "addr": 4295650776
+          }
+        ]
+      },
+      {
+        "classname": "CloudTelemetryService.SubmissionCoordinator",
+        "addr": 4295622424,
+        "lang": "objc",
+        "index": 150,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$defaultActor",
+            "kind": "var",
+            "addr": 0
+          },
+          {
+            "name": "sessionCoord",
+            "kind": "var",
+            "addr": 4295493152
+          },
+          {
+            "name": "diskCache",
+            "kind": "var",
+            "addr": 4295493160
+          },
+          {
+            "name": "transparencyLog",
+            "kind": "var",
+            "addr": 4295493168
+          }
+        ]
+      },
+      {
+        "classname": "CloudTelemetryShared.XPCActivityHandle",
+        "addr": 4295622864,
+        "lang": "objc",
+        "index": 151,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "handle",
+            "kind": "var",
+            "addr": 4295493704
+          }
+        ]
+      },
+      {
+        "classname": "CloudTelemetryShared.XPCActivity",
+        "addr": 4295623120,
+        "lang": "objc",
+        "index": 152,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$defaultActor",
+            "kind": "var",
+            "addr": 0
+          },
+          {
+            "name": "handlerType",
+            "kind": "var",
+            "addr": 4295493744
+          },
+          {
+            "name": "currentTask",
+            "kind": "var",
+            "addr": 4295493752
+          },
+          {
+            "name": "disabled",
+            "kind": "var",
+            "addr": 4295493760
+          }
+        ]
+      },
+      {
+        "classname": "CloudTelemetryShared.XPCConnection",
+        "addr": 4295623432,
+        "lang": "objc",
+        "index": 153,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "conn",
+            "kind": "var",
+            "addr": 4295494504
+          },
+          {
+            "name": "delegate",
+            "kind": "var",
+            "addr": 4295494512
+          },
+          {
+            "name": "targetQ",
+            "kind": "var",
+            "addr": 4295494520
+          }
+        ]
+      }
+    ],
+    "protocols": []
+  },
+  "usage": {
+    "layer": "usage",
+    "status": "not_implemented"
+  },
+  "runtime": {
+    "layer": "runtime",
+    "status": "not_implemented"
+  }
+}
