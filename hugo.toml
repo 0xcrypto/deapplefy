@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://o.eval.blog/deapplefy/'
 languageCode = 'en-us'
 title = 'Deapplefy'
 theme = 'hextra'
@@ -13,11 +13,11 @@ theme = 'hextra'
 [menu]
   [[menu.main]]
     name = "Documentation"
-    pageRef = "/docs"
+    pageRef = "/deapplefy/docs"
     weight = 1
   [[menu.main]]
     name = "About"
-    pageRef = "/about"
+    pageRef = "/deapplefy/docs/about"
     weight = 2
 
 [markup]
