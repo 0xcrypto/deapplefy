@@ -5,7 +5,11 @@ theme = 'hextra'
 
 [params]
   description = "Documentation for Apple Private Frameworks"
-  
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [menu]
   [[menu.main]]
     name = "Documentation"
