@@ -219,14 +219,214 @@
         ]
       }
     ],
-    "protocols": []
+    "swift_metadata": {
+      "is_swift": true,
+      "symbols": [
+        {
+          "name": "_objc_msgSend$serviceListener",
+          "flagname": "sym._objc_msgSend_serviceListener",
+          "realname": "_objc_msgSend$serviceListener",
+          "ordinal": 34,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294973504,
+          "paddr": 71744,
+          "is_imported": false
+        },
+        {
+          "name": "_objc_msgSend$setDelegate:",
+          "flagname": "sym._objc_msgSend_setDelegate:",
+          "realname": "_objc_msgSend$setDelegate:",
+          "ordinal": 35,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294973536,
+          "paddr": 71776,
+          "is_imported": false
+        },
+        {
+          "name": "_objc_msgSend$setExportedInterface:",
+          "flagname": "sym._objc_msgSend_setExportedInterface:",
+          "realname": "_objc_msgSend$setExportedInterface:",
+          "ordinal": 36,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294973568,
+          "paddr": 71808,
+          "is_imported": false
+        },
+        {
+          "name": "_objc_msgSend$setExportedObject:",
+          "flagname": "sym._objc_msgSend_setExportedObject:",
+          "realname": "_objc_msgSend$setExportedObject:",
+          "ordinal": 37,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294973600,
+          "paddr": 71840,
+          "is_imported": false
+        },
+        {
+          "name": "_objc_msgSend$setSigtermSource:",
+          "flagname": "sym._objc_msgSend_setSigtermSource:",
+          "realname": "_objc_msgSend$setSigtermSource:",
+          "ordinal": 38,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294973632,
+          "paddr": 71872,
+          "is_imported": false
+        },
+        {
+          "name": "_objc_msgSend$sigtermSource",
+          "flagname": "sym._objc_msgSend_sigtermSource",
+          "realname": "_objc_msgSend$sigtermSource",
+          "ordinal": 39,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294973664,
+          "paddr": 71904,
+          "is_imported": false
+        },
+        {
+          "name": "_objc_msgSend$string",
+          "flagname": "sym._objc_msgSend_string",
+          "realname": "_objc_msgSend$string",
+          "ordinal": 40,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294973696,
+          "paddr": 71936,
+          "is_imported": false
+        },
+        {
+          "name": "_objc_msgSend$stringWithFormat:",
+          "flagname": "sym._objc_msgSend_stringWithFormat:",
+          "realname": "_objc_msgSend$stringWithFormat:",
+          "ordinal": 41,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294973728,
+          "paddr": 71968,
+          "is_imported": false
+        }
+      ]
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist",
+        "Versions/A/XPCServices/LogArchiveCollector.xpc/Contents/Info.plist",
+        "Versions/A/XPCServices/LogArchiveCollector.xpc/Contents/version.plist",
+        "Versions/A/XPCServices/LogArchiveCollector.xpc/Contents/_CodeSignature/CodeResources",
+        "Versions/A/XPCServices/LogArchiveCollector.xpc/Contents/MacOS/LogArchiveCollector"
+      ],
+      "plists": {
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "XCTAutomationSupport",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2025 Apple Inc. All rights reserved.",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "24418",
+          "BuildMachineOSBuild": "23A344014",
+          "NSPrincipalClass": "XCTAutomationSession",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "FMWK",
+          "CFBundleShortVersionString": "26.1",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "XCTAutomationSupport",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.dt.XCTAutomationSupport",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "24418",
+          "CFBundleShortVersionString": "26.1",
+          "ProjectName": "XCTest",
+          "SourceVersion": "24418000000000000",
+          "BuildVersion": "130"
+        },
+        "Versions/A/XPCServices/LogArchiveCollector.xpc/Contents/Info.plist": {
+          "CFBundleName": "LogArchiveCollector",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2025 Apple Inc. All rights reserved.",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "24418",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "26.1",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "XPCService": {
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "LogArchiveCollector",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.dt.xctautomationsupport.LogArchiveCollector",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/XPCServices/LogArchiveCollector.xpc/Contents/version.plist": {
+          "CFBundleVersion": "24418",
+          "CFBundleShortVersionString": "26.1",
+          "ProjectName": "XCTest",
+          "SourceVersion": "24418000000000000",
+          "BuildVersion": "130"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
   },
   "usage": {
     "layer": "usage",
-    "status": "not_implemented"
+    "used_by": []
   },
   "runtime": {
-    "layer": "runtime",
-    "status": "not_implemented"
+    "method": "ctypes",
+    "status": "loaded"
   }
 }

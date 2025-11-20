@@ -1,0 +1,3786 @@
+{
+  "framework": "CoreHapticsTools.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/CoreHapticsTools.framework/PlugIns/HapticsQLPreviewExtension.appex/Contents/MacOS/HapticsQLPreviewExtension",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 96768,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": false,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "swift",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/PrivateFrameworks/CoreHapticsTools.framework/Versions/A/CoreHapticsTools",
+          "/System/Library/Frameworks/Quartz.framework/Versions/A/Quartz",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics",
+          "/usr/lib/swift/libswiftAVFoundation.dylib",
+          "/usr/lib/swift/libswiftAccelerate.dylib",
+          "/usr/lib/swift/libswiftCore.dylib",
+          "/usr/lib/swift/libswiftCoreAudio.dylib",
+          "/usr/lib/swift/libswiftCoreFoundation.dylib",
+          "/usr/lib/swift/libswiftCoreImage.dylib",
+          "/usr/lib/swift/libswiftCoreMIDI.dylib",
+          "/usr/lib/swift/libswiftCoreMedia.dylib",
+          "/usr/lib/swift/libswiftDispatch.dylib",
+          "/usr/lib/swift/libswiftIOKit.dylib",
+          "/usr/lib/swift/libswiftMLCompute.dylib",
+          "/usr/lib/swift/libswiftMetal.dylib",
+          "/usr/lib/swift/libswiftOSLog.dylib",
+          "/usr/lib/swift/libswiftObjectiveC.dylib",
+          "/usr/lib/swift/libswiftOpenCL.dylib",
+          "/usr/lib/swift/libswiftQuartzCore.dylib",
+          "/usr/lib/swift/libswiftQuickLookUI.dylib",
+          "/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib",
+          "/usr/lib/swift/libswiftXPC.dylib",
+          "/usr/lib/swift/libswift_Builtin_float.dylib",
+          "/usr/lib/swift/libswiftos.dylib",
+          "/usr/lib/swift/libswiftsimd.dylib"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "PreviewViewController",
+        "addr": 28196,
+        "lang": "swift",
+        "index": 0,
+        "super": [
+          "__C.NSViewController"
+        ],
+        "rawsuper": [
+          "So16NSViewControllerC"
+        ],
+        "fields": [
+          {
+            "name": "qlView",
+            "kind": "property",
+            "addr": 4294996096
+          },
+          {
+            "name": "versionLabel",
+            "kind": "property",
+            "type": "NSText.allocator__GenericAccessorSg",
+            "addr": 4294996103
+          },
+          {
+            "name": "exportButton",
+            "kind": "property",
+            "type": "NSButton.allocator__GenericAccessorSg",
+            "addr": 4294996116
+          },
+          {
+            "name": "fileUrl",
+            "kind": "property",
+            "addr": 4294996129
+          },
+          {
+            "name": "hideInternalFeatures",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4294996144
+          },
+          {
+            "name": "versionLabelFont",
+            "kind": "property",
+            "type": "__C.NSFont",
+            "addr": 4294996176
+          },
+          {
+            "name": "versionLabelFontSize",
+            "kind": "property",
+            "addr": 4294996208
+          },
+          {
+            "name": "exportButtonWidth",
+            "kind": "property",
+            "type": "Swift.Double",
+            "addr": 4294996240
+          }
+        ]
+      },
+      {
+        "classname": "PropertyKey",
+        "addr": 28496,
+        "lang": "swift",
+        "index": 1,
+        "fields": [
+          {
+            "name": "_rawValue",
+            "kind": "property",
+            "type": "__C.NSString",
+            "addr": 4294996258
+          }
+        ]
+      },
+      {
+        "classname": "HapticsQLPreviewExtension.PreviewViewController",
+        "addr": 4295018440,
+        "lang": "objc",
+        "index": 2,
+        "super": [
+          "NSViewController"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSViewController"
+        ],
+        "methods": [
+          {
+            "name": "nibName",
+            "flag": "method.HapticsQLPreviewExtension.PreviewViewController.nibName",
+            "lang": "objc",
+            "addr": 4294973040
+          },
+          {
+            "name": "wantsBorder",
+            "flag": "method.HapticsQLPreviewExtension.PreviewViewController.wantsBorder",
+            "lang": "objc",
+            "addr": 4294973104
+          },
+          {
+            "name": "loadView",
+            "flag": "method.HapticsQLPreviewExtension.PreviewViewController.loadView",
+            "lang": "objc",
+            "addr": 4294973112
+          },
+          {
+            "name": "preparePreviewOfSearchableItemWithIdentifier:queryString:completionHandler:",
+            "flag": "method.HapticsQLPreviewExtension.PreviewViewController.preparePreviewOfSearchableItemWithIdentifier:queryString:completionHandler:",
+            "lang": "objc",
+            "addr": 4294973180
+          },
+          {
+            "name": "preparePreviewOfFileAtURL:completionHandler:",
+            "flag": "method.HapticsQLPreviewExtension.PreviewViewController.preparePreviewOfFileAtURL:completionHandler:",
+            "lang": "objc",
+            "addr": 4294973324
+          },
+          {
+            "name": "exportQuicklookImage:",
+            "flag": "method.HapticsQLPreviewExtension.PreviewViewController.exportQuicklookImage:",
+            "lang": "objc",
+            "addr": 4294978736
+          },
+          {
+            "name": "viewWillLayout",
+            "flag": "method.HapticsQLPreviewExtension.PreviewViewController.viewWillLayout",
+            "lang": "objc",
+            "addr": 4294981520
+          },
+          {
+            "name": "updateViewConstraints",
+            "flag": "method.HapticsQLPreviewExtension.PreviewViewController.updateViewConstraints",
+            "lang": "objc",
+            "addr": 4294981936
+          },
+          {
+            "name": "initWithNibName:bundle:",
+            "flag": "method.HapticsQLPreviewExtension.PreviewViewController.initWithNibName:bundle:",
+            "lang": "objc",
+            "addr": 4294982432
+          },
+          {
+            "name": "initWithCoder:",
+            "flag": "method.HapticsQLPreviewExtension.PreviewViewController.initWithCoder:",
+            "lang": "objc",
+            "addr": 4294982924
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.HapticsQLPreviewExtension.PreviewViewController..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294983024
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "fileUrl",
+            "kind": "var",
+            "addr": 4295019688
+          },
+          {
+            "name": "hideInternalFeatures",
+            "kind": "var",
+            "addr": 4295019696
+          },
+          {
+            "name": "versionLabelFont",
+            "kind": "var",
+            "addr": 4295019704
+          },
+          {
+            "name": "versionLabelFontSize",
+            "kind": "var",
+            "addr": 4295019712
+          },
+          {
+            "name": "exportButtonWidth",
+            "kind": "var",
+            "addr": 4295019720
+          },
+          {
+            "name": "qlView",
+            "kind": "var",
+            "addr": 4295018416
+          },
+          {
+            "name": "versionLabel",
+            "kind": "var",
+            "addr": 4295018424
+          },
+          {
+            "name": "exportButton",
+            "kind": "var",
+            "addr": 4295018432
+          },
+          {
+            "name": "nibName",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      }
+    ],
+    "swift_metadata": {
+      "is_swift": false,
+      "symbols": []
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/CHTStrings.loctable",
+        "Versions/A/Resources/hapticengineconfig.plist",
+        "Versions/A/Resources/Localizable.loctable",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist",
+        "PlugIns/HapticsQLThumbnailExtension.appex/Contents/Info.plist",
+        "PlugIns/HapticsQLThumbnailExtension.appex/Contents/version.plist",
+        "PlugIns/HapticsQLThumbnailExtension.appex/Contents/_CodeSignature/CodeResources",
+        "PlugIns/HapticsQLThumbnailExtension.appex/Contents/MacOS/HapticsQLThumbnailExtension",
+        "PlugIns/HapticsQLThumbnailExtension.appex/Contents/Resources/AHAP_tempFileIcon.png",
+        "PlugIns/HapticsQLThumbnailExtension.appex/Contents/Resources/InfoPlist.loctable",
+        "PlugIns/HapticsQLPreviewExtension.appex/Contents/Info.plist",
+        "PlugIns/HapticsQLPreviewExtension.appex/Contents/version.plist",
+        "PlugIns/HapticsQLPreviewExtension.appex/Contents/_CodeSignature/CodeResources",
+        "PlugIns/HapticsQLPreviewExtension.appex/Contents/MacOS/HapticsQLPreviewExtension",
+        "PlugIns/HapticsQLPreviewExtension.appex/Contents/Resources/Base.lproj/PreviewViewController.nib"
+      ],
+      "plists": {
+        "Versions/A/Resources/hapticengineconfig.plist": {
+          "Events": [
+            {
+              "Layers": [
+                {
+                  "Zones": [
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 150,
+                      "Gain": -0.4072117555418535,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 2,
+                      "WaveformPath": "Sine"
+                    }
+                  ],
+                  "LayerHasSine": true,
+                  "GainMode": "Linear",
+                  "LayerType": "Haptic",
+                  "LayerTypeID": 97,
+                  "Name": "Vibe Sine No Envelope",
+                  "Parameters": {
+                    "TransposeParameter": {
+                      "TransposeFactor": 2
+                    }
+                  }
+                },
+                {
+                  "Zones": [
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 150,
+                      "Gain": -0.4072117555418535,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 1,
+                      "WaveformPath": "Sine"
+                    }
+                  ],
+                  "LayerHasSine": true,
+                  "GainMode": "Linear",
+                  "GainEnvelope": {
+                    "AttackTime": 0.02,
+                    "ReleaseTime": 0.02
+                  },
+                  "LayerType": "Haptic",
+                  "LayerTypeID": 97,
+                  "Name": "Vibe Sine Default Envelope",
+                  "Parameters": {
+                    "TransposeParameter": {
+                      "TransposeFactor": 2
+                    }
+                  }
+                },
+                {
+                  "Zones": [
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 135.6466,
+                      "Gain": -0.4072117555418535,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 127,
+                      "WaveformPath": "Sine"
+                    }
+                  ],
+                  "LayerHasSine": true,
+                  "GainEnvelope": {
+                    "DecayTime": 0.02,
+                    "SustainLevel": 0,
+                    "ReleaseTime": 0.02,
+                    "AttackTime": 0.02
+                  },
+                  "LayerType": "Haptic",
+                  "LayerTypeID": 99,
+                  "Name": "Haptic Sine Transient",
+                  "Parameters": {
+                    "AttackTimeParameter": {
+                      "AttackTimeFactor": 256
+                    },
+                    "TransposeParameter": {
+                      "TransposeFactor": 1.6956
+                    },
+                    "DecayTimeParameter": {
+                      "DecayTimeFactor": 256
+                    }
+                  }
+                },
+                {
+                  "Zones": [
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 135.6466,
+                      "Gain": -0.4072117555418535,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 127,
+                      "WaveformPath": "Sine"
+                    }
+                  ],
+                  "LayerHasSine": true,
+                  "GainEnvelope": {
+                    "AttackTime": 0.02,
+                    "ReleaseTime": 0.02
+                  },
+                  "LayerType": "Haptic",
+                  "LayerTypeID": 98,
+                  "Name": "Haptic Sine Enveloped",
+                  "Parameters": {
+                    "AttackTimeParameter": {
+                      "AttackTimeFactor": 256
+                    },
+                    "TransposeParameter": {
+                      "TransposeFactor": 1.6956
+                    },
+                    "ReleaseTimeParameter": {
+                      "ReleaseTimeFactor": 256
+                    }
+                  }
+                },
+                {
+                  "Zones": [
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 80,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 1,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 81.94332352898768,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 2,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 83.9338533872043,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 3,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 85.97273628927874,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 4,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 88.06114680530882,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 5,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 90.20028803751374,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 6,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 92.39139231332331,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 7,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 94.63572189530346,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 8,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 96.93456970832692,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 9,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 99.289260084408,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 10,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 101.70114952563057,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 11,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 104.17162748560871,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 12,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 106.70211716993023,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 13,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 109.29407635604429,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 14,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 111.94899823306523,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 15,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 114.66841226197667,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 16,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 117.45388505673112,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 17,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 120.30702128675313,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 18,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 123.22946460136521,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 19,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 126.22289857667002,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 20,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 129.28904768543336,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 21,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 132.42967829052725,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 22,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 135.64659966250537,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 23,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 138.94166502189682,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 24,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 142.316772606819,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 25,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 145.77386676652426,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 26,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 149.31493908151052,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 27,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 152.94202951084122,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 28,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 156.65722756733553,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 29,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 160.46267352130525,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 30,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 164.360559633533,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 31,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 168.35313141820083,
+                      "Gain": -3.5210798960841387,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 32,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 172.4426889364976,
+                      "Gain": -4.1193899196696036,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 33,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 176.63158812165005,
+                      "Gain": -4.782186103048052,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 34,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 180.92224213614085,
+                      "Gain": -5.4377084663984,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 35,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 185.3171227618954,
+                      "Gain": -6.084283325395243,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 36,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 189.818761824239,
+                      "Gain": -6.717811492481768,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 37,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 194.42975265044336,
+                      "Gain": -7.3380718249377805,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 38,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 199.1527515637041,
+                      "Gain": -7.950134142985329,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 39,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 203.99047941340888,
+                      "Gain": -8.553633091346937,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 40,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 208.94572314257826,
+                      "Gain": -9.148498066134824,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 41,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 214.02133739338217,
+                      "Gain": -9.734880252643562,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 42,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 219.2202461516568,
+                      "Gain": -10.313094128981461,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 43,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 224.5454444313691,
+                      "Gain": -10.883572237741861,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 44,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 230,
+                      "Gain": -11.446831216506856,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 45,
+                      "WaveformPath": "Sine"
+                    }
+                  ],
+                  "LayerHasSine": true,
+                  "GainEnvelope": {
+                    "AttackTime": 0.02,
+                    "ReleaseTime": 0.02
+                  },
+                  "LayerType": "Haptic",
+                  "DefaultSharpness": 0.422601,
+                  "LayerTypeID": 95,
+                  "Locality": "Default",
+                  "Name": "Default Sine Lookup",
+                  "DefaultIntensity": 0.6,
+                  "Parameters": {
+                    "AttackTimeParameter": {
+                      "AttackTimeFactor": 256
+                    },
+                    "TransposeParameter": {
+                      "TransposeFactor": 1.6956
+                    },
+                    "ReleaseTimeParameter": {
+                      "ReleaseTimeFactor": 256
+                    }
+                  }
+                },
+                {
+                  "Zones": [
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 80,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 1,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 81.94332352898768,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 2,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 83.9338533872043,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 3,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 85.97273628927874,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 4,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 88.06114680530882,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 5,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 90.20028803751374,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 6,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 92.39139231332331,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 7,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 94.63572189530346,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 8,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 96.93456970832692,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 9,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 99.289260084408,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 10,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 101.70114952563057,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 11,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 104.17162748560871,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 12,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 106.70211716993023,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 13,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 109.29407635604429,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 14,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 111.94899823306523,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 15,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 114.66841226197667,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 16,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 117.45388505673112,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 17,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 120.30702128675313,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 18,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 123.22946460136521,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 19,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 126.22289857667002,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 20,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 129.28904768543336,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 21,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 132.42967829052725,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 22,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 135.64659966250537,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 23,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 138.94166502189682,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 24,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 142.316772606819,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 25,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 145.77386676652426,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 26,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 149.31493908151052,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 27,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 152.94202951084122,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 28,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 156.65722756733553,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 29,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 160.46267352130525,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 30,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 164.360559633533,
+                      "Gain": -3.0980391997148637,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 31,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 168.35313141820083,
+                      "Gain": -3.5210798960841387,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 32,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 172.4426889364976,
+                      "Gain": -4.1193899196696036,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 33,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 176.63158812165005,
+                      "Gain": -4.782186103048052,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 34,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 180.92224213614085,
+                      "Gain": -5.4377084663984,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 35,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 185.3171227618954,
+                      "Gain": -6.084283325395243,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 36,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 189.818761824239,
+                      "Gain": -6.717811492481768,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 37,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 194.42975265044336,
+                      "Gain": -7.3380718249377805,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 38,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 199.1527515637041,
+                      "Gain": -7.950134142985329,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 39,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 203.99047941340888,
+                      "Gain": -8.553633091346937,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 40,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 208.94572314257826,
+                      "Gain": -9.148498066134824,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 41,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 214.02133739338217,
+                      "Gain": -9.734880252643562,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 42,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 219.2202461516568,
+                      "Gain": -10.313094128981461,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 43,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 224.5454444313691,
+                      "Gain": -10.883572237741861,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 44,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 230,
+                      "Gain": -11.446831216506856,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 45,
+                      "WaveformPath": "Sine"
+                    }
+                  ],
+                  "LayerHasSine": true,
+                  "GainEnvelope": {
+                    "DecayTime": 0.02,
+                    "SustainLevel": 0,
+                    "ReleaseTime": 0.02,
+                    "AttackTime": 0.02
+                  },
+                  "LayerType": "Haptic",
+                  "DefaultSharpness": 0.422601,
+                  "LayerTypeID": 96,
+                  "Locality": "Default",
+                  "Name": "Default Sine Transient",
+                  "DefaultIntensity": 0.6,
+                  "Parameters": {
+                    "AttackTimeParameter": {
+                      "AttackTimeFactor": 256
+                    },
+                    "TransposeParameter": {
+                      "TransposeFactor": 1.6956
+                    },
+                    "DecayTimeParameter": {
+                      "DecayTimeFactor": 256
+                    }
+                  }
+                },
+                {
+                  "Zones": [
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 80,
+                      "Gain": -2.593140415882886,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 1,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 81.94332352898768,
+                      "Gain": -2.4121397122360015,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 2,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 83.9338533872043,
+                      "Gain": -2.230571598879773,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 3,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 85.97273628927874,
+                      "Gain": -2.0345103216888263,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 4,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 88.06114680530882,
+                      "Gain": -1.8229021994816677,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 5,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 90.20028803751374,
+                      "Gain": -1.608121440471255,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 6,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 92.39139231332331,
+                      "Gain": -1.3621367862931018,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 7,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 94.63572189530346,
+                      "Gain": -1.1171974008086445,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 8,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 96.93456970832692,
+                      "Gain": -0.838970353619159,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 9,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 99.289260084408,
+                      "Gain": -0.556540219008032,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 10,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 101.70114952563057,
+                      "Gain": -0.46368622735511544,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 11,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 104.17162748560871,
+                      "Gain": -0.45008405508140015,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 12,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 106.70211716993023,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 13,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 109.29407635604429,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 14,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 111.94899823306523,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 15,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 114.66841226197667,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 16,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 117.45388505673112,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 17,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 120.30702128675313,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 18,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 123.22946460136521,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 19,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 126.22289857667002,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 20,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 129.28904768543336,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 21,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 132.42967829052725,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 22,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 135.64659966250537,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 23,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 138.94166502189682,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 24,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 142.316772606819,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 25,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 145.77386676652426,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 26,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 149.31493908151052,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 27,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 152.94202951084122,
+                      "Gain": -0.8362992324303082,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 28,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 156.65722756733553,
+                      "Gain": -1.4103800263387936,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 29,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 160.46267352130525,
+                      "Gain": -2.1034868105461,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 30,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 164.360559633533,
+                      "Gain": -2.782363247331464,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 31,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 168.35313141820083,
+                      "Gain": -3.4517250212936847,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 32,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 172.4426889364976,
+                      "Gain": -4.1193899196696036,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 33,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 176.63158812165005,
+                      "Gain": -4.782186103048052,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 34,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 180.92224213614085,
+                      "Gain": -5.4377084663984,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 35,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 185.3171227618954,
+                      "Gain": -6.084283325395243,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 36,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 189.818761824239,
+                      "Gain": -6.717811492481768,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 37,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 194.42975265044336,
+                      "Gain": -7.3380718249377805,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 38,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 199.1527515637041,
+                      "Gain": -7.950134142985329,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 39,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 203.99047941340888,
+                      "Gain": -8.553633091346937,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 40,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 208.94572314257826,
+                      "Gain": -9.148498066134824,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 41,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 214.02133739338217,
+                      "Gain": -9.734880252643562,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 42,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 219.2202461516568,
+                      "Gain": -10.313094128981461,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 43,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 224.5454444313691,
+                      "Gain": -10.883572237741861,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 44,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 230,
+                      "Gain": -11.446831216506856,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 45,
+                      "WaveformPath": "Sine"
+                    }
+                  ],
+                  "LayerHasSine": true,
+                  "GainEnvelope": {
+                    "AttackTime": 0.02,
+                    "ReleaseTime": 0.02
+                  },
+                  "LayerType": "Haptic",
+                  "DefaultSharpness": 0.422601,
+                  "LayerTypeID": 100,
+                  "Locality": "FullGamut",
+                  "Name": "FullGamut Sine Lookup",
+                  "DefaultIntensity": 0.6,
+                  "Parameters": {
+                    "AttackTimeParameter": {
+                      "AttackTimeFactor": 256
+                    },
+                    "TransposeParameter": {
+                      "TransposeFactor": 1.6956
+                    },
+                    "ReleaseTimeParameter": {
+                      "ReleaseTimeFactor": 256
+                    }
+                  }
+                },
+                {
+                  "Zones": [
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 80,
+                      "Gain": -2.593140415882886,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 1,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 81.94332352898768,
+                      "Gain": -2.4121397122360015,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 2,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 83.9338533872043,
+                      "Gain": -2.230571598879773,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 3,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 85.97273628927874,
+                      "Gain": -2.0345103216888263,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 4,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 88.06114680530882,
+                      "Gain": -1.8229021994816677,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 5,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 90.20028803751374,
+                      "Gain": -1.608121440471255,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 6,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 92.39139231332331,
+                      "Gain": -1.3621367862931018,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 7,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 94.63572189530346,
+                      "Gain": -1.1171974008086445,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 8,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 96.93456970832692,
+                      "Gain": -0.838970353619159,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 9,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 99.289260084408,
+                      "Gain": -0.556540219008032,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 10,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 101.70114952563057,
+                      "Gain": -0.46368622735511544,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 11,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 104.17162748560871,
+                      "Gain": -0.45008405508140015,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 12,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 106.70211716993023,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 13,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 109.29407635604429,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 14,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 111.94899823306523,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 15,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 114.66841226197667,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 16,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 117.45388505673112,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 17,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 120.30702128675313,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 18,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 123.22946460136521,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 19,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 126.22289857667002,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 20,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 129.28904768543336,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 21,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 132.42967829052725,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 22,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 135.64659966250537,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 23,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 138.94166502189682,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 24,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 142.316772606819,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 25,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 145.77386676652426,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 26,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 149.31493908151052,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 27,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 152.94202951084122,
+                      "Gain": -0.8362992324303082,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 28,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 156.65722756733553,
+                      "Gain": -1.4103800263387936,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 29,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 160.46267352130525,
+                      "Gain": -2.1034868105461,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 30,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 164.360559633533,
+                      "Gain": -2.782363247331464,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 31,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 168.35313141820083,
+                      "Gain": -3.4517250212936847,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 32,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 172.4426889364976,
+                      "Gain": -4.1193899196696036,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 33,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 176.63158812165005,
+                      "Gain": -4.782186103048052,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 34,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 180.92224213614085,
+                      "Gain": -5.4377084663984,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 35,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 185.3171227618954,
+                      "Gain": -6.084283325395243,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 36,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 189.818761824239,
+                      "Gain": -6.717811492481768,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 37,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 194.42975265044336,
+                      "Gain": -7.3380718249377805,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 38,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 199.1527515637041,
+                      "Gain": -7.950134142985329,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 39,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 203.99047941340888,
+                      "Gain": -8.553633091346937,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 40,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 208.94572314257826,
+                      "Gain": -9.148498066134824,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 41,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 214.02133739338217,
+                      "Gain": -9.734880252643562,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 42,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 219.2202461516568,
+                      "Gain": -10.313094128981461,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 43,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 224.5454444313691,
+                      "Gain": -10.883572237741861,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 44,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 230,
+                      "Gain": -11.446831216506856,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 45,
+                      "WaveformPath": "Sine"
+                    }
+                  ],
+                  "LayerHasSine": true,
+                  "GainEnvelope": {
+                    "DecayTime": 0.02,
+                    "SustainLevel": 0,
+                    "ReleaseTime": 0.02,
+                    "AttackTime": 0.02
+                  },
+                  "LayerType": "Haptic",
+                  "DefaultSharpness": 0.422601,
+                  "LayerTypeID": 101,
+                  "Locality": "FullGamut",
+                  "Name": "FullGamut Sine Transient",
+                  "DefaultIntensity": 0.6,
+                  "Parameters": {
+                    "AttackTimeParameter": {
+                      "AttackTimeFactor": 256
+                    },
+                    "TransposeParameter": {
+                      "TransposeFactor": 1.6956
+                    },
+                    "DecayTimeParameter": {
+                      "DecayTimeFactor": 256
+                    }
+                  }
+                },
+                {
+                  "Zones": [
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 150,
+                      "Gain": -0.4072117555418535,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 127,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 80,
+                      "Gain": -2.593092578380806,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 61,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 125,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 62,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 150,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 63,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 200,
+                      "Gain": -8.06366128168819,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 64,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 230,
+                      "Gain": -11.447032576261346,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 65,
+                      "WaveformPath": "Sine"
+                    }
+                  ],
+                  "LayerHasSine": true,
+                  "GainEnvelope": {
+                    "AttackTime": 0.02,
+                    "ReleaseTime": 0.02
+                  },
+                  "LayerType": "Haptic",
+                  "LayerTypeID": 97,
+                  "Name": "Fixed Freq Haptic Sines",
+                  "Parameters": {
+                    "GainParameter": {
+                      "MinimumGainInDecibels": -96
+                    },
+                    "AttackTimeParameter": {
+                      "AttackTimeFactor": 128
+                    },
+                    "ReleaseTimeParameter": {
+                      "ReleaseTimeFactor": 128
+                    },
+                    "TransposeParameter": {
+                      "TransposeFactor": 1.5
+                    }
+                  }
+                },
+                {
+                  "Zones": [
+                    {
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MicroTap80Hz.wav",
+                      "Name": "MicroTap80Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 1,
+                      "Gain": -2.2713136074212334
+                    },
+                    {
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MicroTap100Hz.wav",
+                      "Name": "MicroTap100Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 2,
+                      "Gain": -1.5975334741855216
+                    },
+                    {
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MicroTap125Hz.wav",
+                      "Name": "MicroTap125Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 3,
+                      "Gain": -0.4620009803412429
+                    },
+                    {
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MicroTap150Hz.wav",
+                      "Name": "MicroTap150Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 4,
+                      "Gain": -0.2591942604146651
+                    },
+                    {
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MicroTap200Hz.wav",
+                      "Name": "MicroTap200Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 5,
+                      "Gain": -0.13656789938470135
+                    },
+                    {
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MicroTap230Hz.wav",
+                      "Name": "MicroTap230Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 6,
+                      "Gain": -0.7478785415174611
+                    },
+                    {
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MicroTap270Hz.wav",
+                      "Name": "MicroTap270Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 7,
+                      "Gain": -1.6341497448928888
+                    },
+                    {
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MicroTap300Hz.wav",
+                      "Name": "MicroTap300Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 8,
+                      "Gain": -2.9443026263890437
+                    },
+                    {
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MiniTap80Hz.wav",
+                      "Name": "MiniTap80Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 9,
+                      "Gain": -2.3517863125206393
+                    },
+                    {
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MiniTap100Hz.wav",
+                      "Name": "MiniTap100Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 10,
+                      "Gain": -1.5589919566565238
+                    },
+                    {
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MiniTap125Hz.wav",
+                      "Name": "MiniTap125Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 11,
+                      "Gain": -1.2697251504221343
+                    },
+                    {
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MiniTap150Hz.wav",
+                      "Name": "MiniTap150Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 12,
+                      "Gain": -0.8977953805889638
+                    },
+                    {
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MiniTap200Hz.wav",
+                      "Name": "MiniTap200Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 13,
+                      "Gain": -0.7299100117141838
+                    },
+                    {
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MiniTap230Hz.wav",
+                      "Name": "MiniTap230Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 14,
+                      "Gain": -3.395928021485917
+                    },
+                    {
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MiniTap270Hz.wav",
+                      "Name": "MiniTap270Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 15,
+                      "Gain": -7.84446792516614
+                    },
+                    {
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MiniTap300Hz.wav",
+                      "Name": "MiniTap300Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 16,
+                      "Gain": -10.2346276900908
+                    },
+                    {
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/FullTap80Hz.wav",
+                      "Name": "FullTap80Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 17,
+                      "Gain": -1.4014087983082426
+                    },
+                    {
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/FullTap100Hz.wav",
+                      "Name": "FullTap100Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 18,
+                      "Gain": -0.12334266772027715
+                    },
+                    {
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/FullTap125Hz.wav",
+                      "Name": "FullTap125Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 19,
+                      "Gain": 0
+                    },
+                    {
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/FullTap150Hz.wav",
+                      "Name": "FullTap150Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 20,
+                      "Gain": -0.10310300893204073
+                    },
+                    {
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/FullTap200Hz.wav",
+                      "Name": "FullTap200Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 21,
+                      "Gain": 0
+                    },
+                    {
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/FullTap230Hz.wav",
+                      "Name": "FullTap230Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 22,
+                      "Gain": -4.1339729277377
+                    },
+                    {
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/FullTap270Hz.wav",
+                      "Name": "FullTap270Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 23,
+                      "Gain": -8.770816575161682
+                    },
+                    {
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/FullTap300Hz.wav",
+                      "Name": "FullTap300Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 24,
+                      "Gain": -10.98885981163342
+                    }
+                  ],
+                  "LayerType": "Haptic",
+                  "DefaultSharpness": 0.5,
+                  "LayerTypeID": 103,
+                  "Locality": "FullGamut",
+                  "Name": "FullGamut Taps",
+                  "DefaultIntensity": 0.75,
+                  "Parameters": {
+                    "GainParameter": {
+                      "MinimumGainInDecibels": -96
+                    },
+                    "TransposeParameter": {
+                      "TransposeFactor": 1
+                    }
+                  }
+                },
+                {
+                  "Zones": [
+                    {
+                      "ZoneTypeID": 1,
+                      "Name": "FullTap80Hz",
+                      "WaveformLooped": false,
+                      "Gain": -1.4014087983082426,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/FullTap80Hz.wav"
+                    },
+                    {
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/FullTap100Hz.wav",
+                      "ZoneTypeID": 2,
+                      "Name": "FullTap100Hz",
+                      "Gain": -0.12334266772027715,
+                      "LocalityGain": -2.4646771587,
+                      "WaveformLooped": false
+                    },
+                    {
+                      "ZoneTypeID": 3,
+                      "Name": "MiniTap100Hz",
+                      "WaveformLooped": false,
+                      "Gain": -1.5589919566565238,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MiniTap100Hz.wav"
+                    },
+                    {
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/FullTap150Hz.wav",
+                      "ZoneTypeID": 4,
+                      "Name": "FullTap150Hz",
+                      "Gain": -0.10310300893204073,
+                      "LocalityGain": -4.9867471137,
+                      "WaveformLooped": false
+                    },
+                    {
+                      "ZoneTypeID": 5,
+                      "Name": "MiniTap150Hz",
+                      "WaveformLooped": false,
+                      "Gain": -0.8977953805889638,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MiniTap150Hz.wav"
+                    },
+                    {
+                      "ZoneTypeID": 6,
+                      "Name": "MiniTap200Hz",
+                      "WaveformLooped": false,
+                      "Gain": -0.7299100117141838,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MiniTap200Hz.wav"
+                    },
+                    {
+                      "ZoneTypeID": 7,
+                      "Name": "MicroTap200Hz",
+                      "WaveformLooped": false,
+                      "Gain": -0.13656789938470135,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MicroTap200Hz.wav"
+                    },
+                    {
+                      "ZoneTypeID": 8,
+                      "Name": "MiniTap230Hz",
+                      "WaveformLooped": false,
+                      "Gain": -3.395928021485917,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MiniTap230Hz.wav"
+                    },
+                    {
+                      "ZoneTypeID": 9,
+                      "Name": "MicroTap230Hz",
+                      "WaveformLooped": false,
+                      "Gain": -0.7478785415174611,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MicroTap230Hz.wav"
+                    },
+                    {
+                      "ZoneTypeID": 10,
+                      "Name": "MiniTap270Hz",
+                      "WaveformLooped": false,
+                      "Gain": -7.84446792516614,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MiniTap270Hz.wav"
+                    },
+                    {
+                      "ZoneTypeID": 11,
+                      "Name": "MicroTap270Hz",
+                      "WaveformLooped": false,
+                      "Gain": -1.6341497448928888,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MicroTap270Hz.wav"
+                    },
+                    {
+                      "ZoneTypeID": 12,
+                      "Name": "MicroTap300Hz",
+                      "WaveformLooped": false,
+                      "Gain": -2.9443026263890437,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MicroTap300Hz.wav"
+                    }
+                  ],
+                  "LayerType": "Haptic",
+                  "DefaultSharpness": 0.5,
+                  "LayerTypeID": 102,
+                  "LocalityGain": -1.1103465934,
+                  "Name": "Default Taps",
+                  "Locality": "Default",
+                  "DefaultIntensity": 0.75,
+                  "Parameters": {
+                    "GainParameter": {
+                      "MinimumGainInDecibels": -96
+                    },
+                    "TransposeParameter": {
+                      "TransposeFactor": 1
+                    }
+                  }
+                },
+                {
+                  "LayerTypeID": 85,
+                  "Name": "MicroTaps",
+                  "Parameters": {
+                    "GainParameter": {
+                      "MinimumGainInDecibels": -96
+                    },
+                    "TransposeParameter": {
+                      "TransposeFactor": 1
+                    }
+                  },
+                  "Zones": [
+                    {
+                      "Gain": -2.2713136074212334,
+                      "Name": "MicroTap80Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 31,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MicroTap80Hz.wav"
+                    },
+                    {
+                      "Gain": -1.5975334741855216,
+                      "Name": "MicroTap100Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 43,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MicroTap100Hz.wav"
+                    },
+                    {
+                      "Gain": -0.4620009803412429,
+                      "Name": "MicroTap125Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 55,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MicroTap125Hz.wav"
+                    },
+                    {
+                      "Gain": -0.2591942604146651,
+                      "Name": "MicroTap150Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 67,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MicroTap150Hz.wav"
+                    },
+                    {
+                      "Gain": -0.13656789938470135,
+                      "Name": "MicroTap200Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 79,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MicroTap200Hz.wav"
+                    },
+                    {
+                      "Gain": -0.7478785415174611,
+                      "Name": "MicroTap230Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 91,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MicroTap230Hz.wav"
+                    },
+                    {
+                      "Gain": -1.6341497448928888,
+                      "Name": "MicroTap270Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 103,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MicroTap270Hz.wav"
+                    },
+                    {
+                      "Gain": -2.9443026263890437,
+                      "Name": "MicroTap300Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 115,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MicroTap300Hz.wav"
+                    }
+                  ],
+                  "LayerType": "Haptic"
+                },
+                {
+                  "LayerTypeID": 86,
+                  "Name": "MiniTaps",
+                  "Parameters": {
+                    "GainParameter": {
+                      "MinimumGainInDecibels": -96
+                    },
+                    "TransposeParameter": {
+                      "TransposeFactor": 1
+                    }
+                  },
+                  "Zones": [
+                    {
+                      "Gain": -2.3517863125206393,
+                      "Name": "MiniTap80Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 31,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MiniTap80Hz.wav"
+                    },
+                    {
+                      "Gain": -1.5589919566565238,
+                      "Name": "MiniTap100Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 43,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MiniTap100Hz.wav"
+                    },
+                    {
+                      "Gain": -1.2697251504221343,
+                      "Name": "MiniTap125Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 55,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MiniTap125Hz.wav"
+                    },
+                    {
+                      "Gain": -0.8977953805889638,
+                      "Name": "MiniTap150Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 67,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MiniTap150Hz.wav"
+                    },
+                    {
+                      "Gain": -0.7299100117141838,
+                      "Name": "MiniTap200Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 79,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MiniTap200Hz.wav"
+                    },
+                    {
+                      "Gain": -3.395928021485917,
+                      "Name": "MiniTap230Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 91,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MiniTap230Hz.wav"
+                    },
+                    {
+                      "Gain": -7.84446792516614,
+                      "Name": "MiniTap270Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 103,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MiniTap270Hz.wav"
+                    },
+                    {
+                      "Gain": -10.2346276900908,
+                      "Name": "MiniTap300Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 115,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MiniTap300Hz.wav"
+                    }
+                  ],
+                  "LayerType": "Haptic"
+                },
+                {
+                  "LayerTypeID": 87,
+                  "Name": "FullTaps",
+                  "Parameters": {
+                    "GainParameter": {
+                      "MinimumGainInDecibels": -96
+                    },
+                    "TransposeParameter": {
+                      "TransposeFactor": 1
+                    }
+                  },
+                  "Zones": [
+                    {
+                      "Gain": -1.4014087983082426,
+                      "Name": "FullTap80Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 31,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/FullTap80Hz.wav"
+                    },
+                    {
+                      "Gain": -0.12334266772027715,
+                      "Name": "FullTap100Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 43,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/FullTap100Hz.wav"
+                    },
+                    {
+                      "Gain": 0,
+                      "Name": "FullTap125Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 55,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/FullTap125Hz.wav"
+                    },
+                    {
+                      "Gain": -0.10310300893204073,
+                      "Name": "FullTap150Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 67,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/FullTap150Hz.wav"
+                    },
+                    {
+                      "Gain": 0,
+                      "Name": "FullTap200Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 79,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/FullTap200Hz.wav"
+                    },
+                    {
+                      "Gain": -4.1339729277377,
+                      "Name": "FullTap230Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 91,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/FullTap230Hz.wav"
+                    },
+                    {
+                      "Gain": -8.770816575161682,
+                      "Name": "FullTap270Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 103,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/FullTap270Hz.wav"
+                    },
+                    {
+                      "Gain": -10.98885981163342,
+                      "Name": "FullTap300Hz",
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 115,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/FullTap300Hz.wav"
+                    }
+                  ],
+                  "LayerType": "Haptic"
+                },
+                {
+                  "LayerHasSine": true,
+                  "LayerTypeID": 127,
+                  "Name": "Reflection Drone",
+                  "GainMode": "Linear",
+                  "Zones": [
+                    {
+                      "WaveformBaseFreq": 100,
+                      "RootFreq": 100,
+                      "Gain": 0,
+                      "WaveformLooped": false,
+                      "ZoneTypeID": 127,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/ReflectionDrone.wav"
+                    }
+                  ],
+                  "LayerType": "Haptic"
+                },
+                {
+                  "LayerTypeID": 1,
+                  "Name": "Audio Sine Enveloped",
+                  "GainEnvelope": {
+                    "AttackTime": 0.01,
+                    "ReleaseTime": 0.01,
+                    "DecayTime": 0.01
+                  },
+                  "Parameters": {
+                    "GainParameter": {
+                      "MinimumGainInDecibels": -96
+                    },
+                    "AttackTimeParameter": {
+                      "AttackTimeFactor": 512
+                    },
+                    "ReleaseTimeParameter": {
+                      "ReleaseTimeFactor": 512
+                    },
+                    "TransposeParameter": {
+                      "TransposeFactor": 4
+                    }
+                  },
+                  "Zones": [
+                    {
+                      "WaveformPath": "Sine",
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 127
+                    }
+                  ],
+                  "LayerType": "Audio"
+                },
+                {
+                  "LayerTypeID": 2,
+                  "Name": "Audio Sine Transient",
+                  "GainEnvelope": {
+                    "DecayTime": 0.01,
+                    "SustainLevel": 0,
+                    "ReleaseTime": 0.01,
+                    "AttackTime": 0.01
+                  },
+                  "Parameters": {
+                    "DecayTimeParameter": {
+                      "DecayTimeFactor": 512
+                    },
+                    "GainParameter": {
+                      "MinimumGainInDecibels": -96
+                    },
+                    "AttackTimeParameter": {
+                      "AttackTimeFactor": 512
+                    },
+                    "AudioFilterCutoffParameter": {
+                      "FixedFilterCutoffInHertz": 10000,
+                      "FilterCutoffFactor": 100
+                    },
+                    "TransposeParameter": {
+                      "TransposeFactor": 4
+                    }
+                  },
+                  "Zones": [
+                    {
+                      "WaveformPath": "Sine",
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 127
+                    }
+                  ],
+                  "LayerType": "Audio"
+                },
+                {
+                  "LayerTypeID": 43,
+                  "Name": "Audio Click",
+                  "GainEnvelope": {
+                    "AttackTime": 0,
+                    "SustainLevel": 0,
+                    "DecayTime": 0.005
+                  },
+                  "Parameters": {
+                    "GainParameter": {
+                      "MinimumGainInDecibels": -96
+                    },
+                    "TransposeParameter": {
+                      "TransposeFactor": 4
+                    },
+                    "AudioFilterCutoffParameter": {
+                      "FixedFilterCutoffInHertz": 10000,
+                      "FilterCutoffFactor": 100
+                    }
+                  },
+                  "Zones": [
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 1760,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 127,
+                      "WaveformPath": "Sine"
+                    }
+                  ],
+                  "LayerType": "Audio"
+                },
+                {
+                  "Zones": [
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 80,
+                      "Gain": -2.593140415882886,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 1,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 81.94332352898768,
+                      "Gain": -2.4121397122360015,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 2,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 83.9338533872043,
+                      "Gain": -2.230571598879773,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 3,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 85.97273628927874,
+                      "Gain": -2.0345103216888263,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 4,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 88.06114680530882,
+                      "Gain": -1.8229021994816677,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 5,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 90.20028803751374,
+                      "Gain": -1.608121440471255,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 6,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 92.39139231332331,
+                      "Gain": -1.3621367862931018,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 7,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 94.63572189530346,
+                      "Gain": -1.1171974008086445,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 8,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 96.93456970832692,
+                      "Gain": -0.838970353619159,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 9,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 99.289260084408,
+                      "Gain": -0.556540219008032,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 10,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 101.70114952563057,
+                      "Gain": -0.46368622735511544,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 11,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 104.17162748560871,
+                      "Gain": -0.45008405508140015,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 12,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 106.70211716993023,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 13,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 109.29407635604429,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 14,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 111.94899823306523,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 15,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 114.66841226197667,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 16,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 117.45388505673112,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 17,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 120.30702128675313,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 18,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 123.22946460136521,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 19,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 126.22289857667002,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 20,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 129.28904768543336,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 21,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 132.42967829052725,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 22,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 135.64659966250537,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 23,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 138.94166502189682,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 24,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 142.316772606819,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 25,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 145.77386676652426,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 26,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 149.31493908151052,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 27,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 152.94202951084122,
+                      "Gain": -0.8362992324303082,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 28,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 156.65722756733553,
+                      "Gain": -1.4103800263387936,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 29,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 160.46267352130525,
+                      "Gain": -2.1034868105461,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 30,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 164.360559633533,
+                      "Gain": -2.782363247331464,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 31,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 168.35313141820083,
+                      "Gain": -3.4517250212936847,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 32,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 172.4426889364976,
+                      "Gain": -4.1193899196696036,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 33,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 176.63158812165005,
+                      "Gain": -4.782186103048052,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 34,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 180.92224213614085,
+                      "Gain": -5.4377084663984,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 35,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 185.3171227618954,
+                      "Gain": -6.084283325395243,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 36,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 189.818761824239,
+                      "Gain": -6.717811492481768,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 37,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 194.42975265044336,
+                      "Gain": -7.3380718249377805,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 38,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 199.1527515637041,
+                      "Gain": -7.950134142985329,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 39,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 203.99047941340888,
+                      "Gain": -8.553633091346937,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 40,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 208.94572314257826,
+                      "Gain": -9.148498066134824,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 41,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 214.02133739338217,
+                      "Gain": -9.734880252643562,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 42,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 219.2202461516568,
+                      "Gain": -10.313094128981461,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 43,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 224.5454444313691,
+                      "Gain": -10.883572237741861,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 44,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 230,
+                      "Gain": -11.446831216506856,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 45,
+                      "WaveformPath": "Sine"
+                    }
+                  ],
+                  "LayerHasSine": true,
+                  "GainEnvelope": {
+                    "AttackTime": 0.02,
+                    "ReleaseTime": 0.02
+                  },
+                  "LayerType": "Haptic",
+                  "DefaultSharpness": 0.422601,
+                  "LayerTypeID": 93,
+                  "Locality": "DefaultWithFullStrength",
+                  "Name": "DefaultWithFullStrength Sine Lookup",
+                  "DefaultIntensity": 0.6,
+                  "Parameters": {
+                    "AttackTimeParameter": {
+                      "AttackTimeFactor": 256
+                    },
+                    "TransposeParameter": {
+                      "TransposeFactor": 1.6956
+                    },
+                    "ReleaseTimeParameter": {
+                      "ReleaseTimeFactor": 256
+                    }
+                  }
+                },
+                {
+                  "Zones": [
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 80,
+                      "Gain": -2.593140415882886,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 1,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 81.94332352898768,
+                      "Gain": -2.4121397122360015,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 2,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 83.9338533872043,
+                      "Gain": -2.230571598879773,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 3,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 85.97273628927874,
+                      "Gain": -2.0345103216888263,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 4,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 88.06114680530882,
+                      "Gain": -1.8229021994816677,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 5,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 90.20028803751374,
+                      "Gain": -1.608121440471255,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 6,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 92.39139231332331,
+                      "Gain": -1.3621367862931018,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 7,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 94.63572189530346,
+                      "Gain": -1.1171974008086445,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 8,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 96.93456970832692,
+                      "Gain": -0.838970353619159,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 9,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 99.289260084408,
+                      "Gain": -0.556540219008032,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 10,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 101.70114952563057,
+                      "Gain": -0.46368622735511544,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 11,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 104.17162748560871,
+                      "Gain": -0.45008405508140015,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 12,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 106.70211716993023,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 13,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 109.29407635604429,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 14,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 111.94899823306523,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 15,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 114.66841226197667,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 16,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 117.45388505673112,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 17,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 120.30702128675313,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 18,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 123.22946460136521,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 19,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 126.22289857667002,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 20,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 129.28904768543336,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 21,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 132.42967829052725,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 22,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 135.64659966250537,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 23,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 138.94166502189682,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 24,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 142.316772606819,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 25,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 145.77386676652426,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 26,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 149.31493908151052,
+                      "Gain": -0.44552789422304506,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 27,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 152.94202951084122,
+                      "Gain": -0.8362992324303082,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 28,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 156.65722756733553,
+                      "Gain": -1.4103800263387936,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 29,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 160.46267352130525,
+                      "Gain": -2.1034868105461,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 30,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 164.360559633533,
+                      "Gain": -2.782363247331464,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 31,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 168.35313141820083,
+                      "Gain": -3.4517250212936847,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 32,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 172.4426889364976,
+                      "Gain": -4.1193899196696036,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 33,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 176.63158812165005,
+                      "Gain": -4.782186103048052,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 34,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 180.92224213614085,
+                      "Gain": -5.4377084663984,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 35,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 185.3171227618954,
+                      "Gain": -6.084283325395243,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 36,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 189.818761824239,
+                      "Gain": -6.717811492481768,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 37,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 194.42975265044336,
+                      "Gain": -7.3380718249377805,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 38,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 199.1527515637041,
+                      "Gain": -7.950134142985329,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 39,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 203.99047941340888,
+                      "Gain": -8.553633091346937,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 40,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 208.94572314257826,
+                      "Gain": -9.148498066134824,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 41,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 214.02133739338217,
+                      "Gain": -9.734880252643562,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 42,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 219.2202461516568,
+                      "Gain": -10.313094128981461,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 43,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 224.5454444313691,
+                      "Gain": -10.883572237741861,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 44,
+                      "WaveformPath": "Sine"
+                    },
+                    {
+                      "WaveformBaseFreq": 440,
+                      "RootFreq": 230,
+                      "Gain": -11.446831216506856,
+                      "WaveformLooped": true,
+                      "ZoneTypeID": 45,
+                      "WaveformPath": "Sine"
+                    }
+                  ],
+                  "LayerHasSine": true,
+                  "GainEnvelope": {
+                    "DecayTime": 0.02,
+                    "SustainLevel": 0,
+                    "ReleaseTime": 0.02,
+                    "AttackTime": 0.02
+                  },
+                  "LayerType": "Haptic",
+                  "DefaultSharpness": 0.422601,
+                  "LayerTypeID": 94,
+                  "Locality": "DefaultWithFullStrength",
+                  "Name": "DefaultWithFullStrength Sine Transient",
+                  "DefaultIntensity": 0.6,
+                  "Parameters": {
+                    "AttackTimeParameter": {
+                      "AttackTimeFactor": 256
+                    },
+                    "TransposeParameter": {
+                      "TransposeFactor": 1.6956
+                    },
+                    "DecayTimeParameter": {
+                      "DecayTimeFactor": 256
+                    }
+                  }
+                },
+                {
+                  "Zones": [
+                    {
+                      "ZoneTypeID": 1,
+                      "Name": "FullTap80Hz",
+                      "WaveformLooped": false,
+                      "Gain": -1.4014087983082426,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/FullTap80Hz.wav"
+                    },
+                    {
+                      "ZoneTypeID": 2,
+                      "Name": "FullTap100Hz",
+                      "WaveformLooped": false,
+                      "Gain": -0.12334266772027715,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/FullTap100Hz.wav"
+                    },
+                    {
+                      "ZoneTypeID": 3,
+                      "Name": "MiniTap100Hz",
+                      "WaveformLooped": false,
+                      "Gain": -1.5589919566565238,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MiniTap100Hz.wav"
+                    },
+                    {
+                      "ZoneTypeID": 4,
+                      "Name": "FullTap150Hz",
+                      "WaveformLooped": false,
+                      "Gain": -0.10310300893204073,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/FullTap150Hz.wav"
+                    },
+                    {
+                      "ZoneTypeID": 5,
+                      "Name": "MiniTap150Hz",
+                      "WaveformLooped": false,
+                      "Gain": -0.8977953805889638,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MiniTap150Hz.wav"
+                    },
+                    {
+                      "ZoneTypeID": 6,
+                      "Name": "MiniTap200Hz",
+                      "WaveformLooped": false,
+                      "Gain": -0.7299100117141838,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MiniTap200Hz.wav"
+                    },
+                    {
+                      "ZoneTypeID": 7,
+                      "Name": "MicroTap200Hz",
+                      "WaveformLooped": false,
+                      "Gain": -0.13656789938470135,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MicroTap200Hz.wav"
+                    },
+                    {
+                      "ZoneTypeID": 8,
+                      "Name": "MiniTap230Hz",
+                      "WaveformLooped": false,
+                      "Gain": -3.395928021485917,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MiniTap230Hz.wav"
+                    },
+                    {
+                      "ZoneTypeID": 9,
+                      "Name": "MicroTap230Hz",
+                      "WaveformLooped": false,
+                      "Gain": -0.7478785415174611,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MicroTap230Hz.wav"
+                    },
+                    {
+                      "ZoneTypeID": 10,
+                      "Name": "MiniTap270Hz",
+                      "WaveformLooped": false,
+                      "Gain": -7.84446792516614,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MiniTap270Hz.wav"
+                    },
+                    {
+                      "ZoneTypeID": 11,
+                      "Name": "MicroTap270Hz",
+                      "WaveformLooped": false,
+                      "Gain": -1.6341497448928888,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MicroTap270Hz.wav"
+                    },
+                    {
+                      "ZoneTypeID": 12,
+                      "Name": "MicroTap300Hz",
+                      "WaveformLooped": false,
+                      "Gain": -2.9443026263890437,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/MicroTap300Hz.wav"
+                    }
+                  ],
+                  "LayerType": "Haptic",
+                  "DefaultSharpness": 0.5,
+                  "LayerTypeID": 104,
+                  "Locality": "DefaultWithFullStrength",
+                  "Name": "DefaultWithFullStrength Taps",
+                  "DefaultIntensity": 0.75,
+                  "Parameters": {
+                    "GainParameter": {
+                      "MinimumGainInDecibels": -96
+                    },
+                    "TransposeParameter": {
+                      "TransposeFactor": 1
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "TypeID": 32512,
+              "Layers": [
+                {
+                  "LayerType": "Audio",
+                  "Zones": [
+                    {
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/Keyboard-Key.wav"
+                    }
+                  ],
+                  "Parameters": {
+                    "GainParameter": {
+                      "MinimumGainInDecibels": -96
+                    },
+                    "TransposeParameter": {
+                      "TransposeFactor": 1
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "TypeID": 32557,
+              "Layers": [
+                {
+                  "LayerType": "Audio",
+                  "Zones": [
+                    {
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/Keyboard-Delete.wav"
+                    }
+                  ],
+                  "Parameters": {
+                    "GainParameter": {
+                      "MinimumGainInDecibels": -96
+                    },
+                    "TransposeParameter": {
+                      "TransposeFactor": 1
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "TypeID": 29485,
+              "Layers": [
+                {
+                  "LayerType": "Audio",
+                  "Zones": [
+                    {
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/Keyboard-Modifier.wav"
+                    }
+                  ],
+                  "Parameters": {
+                    "GainParameter": {
+                      "MinimumGainInDecibels": -96
+                    },
+                    "TransposeParameter": {
+                      "TransposeFactor": 1
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "TypeID": 32556,
+              "Layers": [
+                {
+                  "LayerType": "Audio",
+                  "Zones": [
+                    {
+                      "Gain": -21,
+                      "WaveformPath": "/Library/Audio/Tunings/D83/Haptics/WheelsOfTime.wav"
+                    }
+                  ],
+                  "Parameters": {
+                    "GainParameter": {
+                      "MinimumGainInDecibels": -96
+                    },
+                    "TransposeParameter": {
+                      "TransposeFactor": 1.4142135623731
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "CoreHapticsTools",
+          "CFBundleAllowMixedLocalizations": true,
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2019 Interactive Haptics. All rights reserved.",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "41",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "FMWK",
+          "CFBundleShortVersionString": "3",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "CoreHapticsTools",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.CoreHapticsTools",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleSignature": "????",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "41",
+          "CFBundleShortVersionString": "3",
+          "ProjectName": "CoreHapticsTools",
+          "SourceVersion": "41000000000000",
+          "BuildVersion": "1125"
+        },
+        "PlugIns/HapticsQLThumbnailExtension.appex/Contents/Info.plist": {
+          "CFBundleName": "HapticsQLThumbnailExtension",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2020 Interactive Haptics. All rights reserved.",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "29",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "HapticsQLThumbnailExtension",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.CoreHapticsTools.QLThumbnailExtension",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleDisplayName": "HapticsQLThumbnail",
+          "DTPlatformBuild": "",
+          "NSExtension": {
+            "NSExtensionAttributes": {
+              "QLThumbnailMinimumDimension": 0,
+              "QLSupportedContentTypes": [
+                "com.apple.haptics.ahap"
+              ]
+            },
+            "NSExtensionPointIdentifier": "com.apple.quicklook.thumbnail",
+            "com.apple.showsInExtensionsManager": false,
+            "NSExtensionPrincipalClass": "HapticsQLThumbnailExtension.ThumbnailProvider"
+          }
+        },
+        "PlugIns/HapticsQLThumbnailExtension.appex/Contents/version.plist": {
+          "CFBundleVersion": "29",
+          "CFBundleShortVersionString": "0",
+          "ProjectName": "CoreHapticsTools",
+          "SourceVersion": "41000000000000",
+          "BuildVersion": "1125"
+        },
+        "PlugIns/HapticsQLPreviewExtension.appex/Contents/Info.plist": {
+          "CFBundleName": "HapticsQLPreviewExtension",
+          "CFBundleAllowMixedLocalizations": true,
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2019 Interactive Haptics. All rights reserved.",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "41",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "3",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "HapticsQLPreviewExtension",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.CoreHapticsTools.QLPreviewExtension",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleDisplayName": "AHAPQLPreview",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "",
+          "NSExtension": {
+            "NSExtensionAttributes": {
+              "QLSupportsSearchableItems": true,
+              "QLSupportedContentTypes": [
+                "com.apple.haptics.ahap"
+              ]
+            },
+            "NSExtensionPointIdentifier": "com.apple.quicklook.preview",
+            "com.apple.showsInExtensionsManager": false,
+            "NSExtensionPrincipalClass": "HapticsQLPreviewExtension.PreviewViewController"
+          }
+        },
+        "PlugIns/HapticsQLPreviewExtension.appex/Contents/version.plist": {
+          "CFBundleVersion": "41",
+          "CFBundleShortVersionString": "3",
+          "ProjectName": "CoreHapticsTools",
+          "SourceVersion": "41000000000000",
+          "BuildVersion": "1125"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
+  },
+  "usage": {
+    "layer": "usage",
+    "used_by": []
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "loaded"
+  }
+}

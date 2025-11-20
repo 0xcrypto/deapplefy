@@ -142,14 +142,162 @@
         ]
       }
     ],
-    "protocols": []
+    "swift_metadata": {
+      "is_swift": false,
+      "symbols": []
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "TimeSources/AppleVirtualPlatformRTCPlugin.bundle/Contents/Info.plist",
+        "TimeSources/AppleVirtualPlatformRTCPlugin.bundle/Contents/version.plist",
+        "TimeSources/AppleVirtualPlatformRTCPlugin.bundle/Contents/_CodeSignature/CodeResources",
+        "TimeSources/AppleVirtualPlatformRTCPlugin.bundle/Contents/MacOS/AppleVirtualPlatformRTCPlugin",
+        "TimeSources/ServerState.bundle/Contents/Info.plist",
+        "TimeSources/ServerState.bundle/Contents/version.plist",
+        "TimeSources/ServerState.bundle/Contents/_CodeSignature/CodeResources",
+        "TimeSources/ServerState.bundle/Contents/MacOS/ServerState",
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/TimeZoneRules.plist",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist"
+      ],
+      "plists": {
+        "TimeSources/AppleVirtualPlatformRTCPlugin.bundle/Contents/Info.plist": {
+          "CFBundleName": "AppleVirtualPlatformRTCPlugin",
+          "CFBundleIdentifier": "com.apple.AppleVirtualPlatformRTCPlugin",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "DTPlatformBuild": "25B73",
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleVersion": "1",
+          "CFBundleExecutable": "AppleVirtualPlatformRTCPlugin",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTXcode": "2600",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundlePackageType": "BNDL",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "DTSDKBuild": "25B73",
+          "CFBundleDevelopmentRegion": "en",
+          "DTSDKName": "macosx26.1.internal",
+          "CFBundleShortVersionString": "1.0"
+        },
+        "TimeSources/AppleVirtualPlatformRTCPlugin.bundle/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "AppleVirtualPlatform",
+          "SourceVersion": "172000000000000",
+          "BuildVersion": "57185"
+        },
+        "TimeSources/ServerState.bundle/Contents/Info.plist": {
+          "CFBundleName": "ServerState",
+          "CFBundleIdentifier": "com.apple.ServerState",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "DTPlatformBuild": "",
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleVersion": "1",
+          "CFBundleExecutable": "ServerState",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTXcode": "2600",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundlePackageType": "BNDL",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "DTSDKName": "macosx26.1.internal",
+          "CFBundleShortVersionString": "1.0"
+        },
+        "TimeSources/ServerState.bundle/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "SNTPServerStatePlugin",
+          "SourceVersion": "6000000000000",
+          "BuildVersion": "50408"
+        },
+        "Versions/A/Resources/TimeZoneRules.plist": {
+          "Location": {
+            "Order": 500,
+            "UnavailableDelay": 0,
+            "AvailabilityTimeout": 7200
+          },
+          "MobileLockdown": {
+            "Order": 1000
+          },
+          "LocationBorder": {
+            "Order": 1500,
+            "UnavailableDelay": 0,
+            "AvailabilityTimeout": 7200
+          }
+        },
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "CoreTime",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "English",
+          "CFBundleVersion": "334.0.16",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "FMWK",
+          "CFBundleShortVersionString": "334.0.16",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "CoreTime",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.CoreTime",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleSignature": "????",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "334.0.16",
+          "CFBundleShortVersionString": "334.0.16",
+          "ProjectName": "CoreTime",
+          "SourceVersion": "334000016000000",
+          "BuildVersion": "4864"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
   },
   "usage": {
     "layer": "usage",
-    "status": "not_implemented"
+    "used_by": []
   },
   "runtime": {
-    "layer": "runtime",
-    "status": "not_implemented"
+    "method": "ctypes",
+    "status": "loaded"
   }
 }

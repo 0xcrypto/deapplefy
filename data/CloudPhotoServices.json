@@ -451,14 +451,119 @@
         ]
       }
     ],
-    "protocols": []
+    "swift_metadata": {
+      "is_swift": false,
+      "symbols": []
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist",
+        "Versions/A/XPCServices/com.apple.CloudPhotosConfiguration.xpc/Contents/Info.plist",
+        "Versions/A/XPCServices/com.apple.CloudPhotosConfiguration.xpc/Contents/version.plist",
+        "Versions/A/XPCServices/com.apple.CloudPhotosConfiguration.xpc/Contents/_CodeSignature/CodeResources",
+        "Versions/A/XPCServices/com.apple.CloudPhotosConfiguration.xpc/Contents/MacOS/com.apple.CloudPhotosConfiguration",
+        "Versions/A/XPCServices/com.apple.CloudPhotosConfiguration.xpc/Contents/Resources/InfoPlist.loctable"
+      ],
+      "plists": {
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "CloudPhotoServices",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B69",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "811.0.106",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "FMWK",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "CloudPhotoServices",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.CloudPhotoServices",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleSignature": "????",
+          "DTPlatformBuild": "25B69"
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "811.0.106",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "Photos",
+          "SourceVersion": "811000106000000",
+          "BuildVersion": "3"
+        },
+        "Versions/A/XPCServices/com.apple.CloudPhotosConfiguration.xpc/Contents/Info.plist": {
+          "CFBundleName": "com.apple.CloudPhotosConfiguration",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B69",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "811.0.106",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "11.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "XPCService": {
+            "RunLoopType": "NSRunLoop",
+            "ServiceType": "User",
+            "_JoinGUISession": true
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "com.apple.CloudPhotosConfiguration",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.CloudPhotosConfiguration",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleSignature": "????",
+          "DTPlatformBuild": "25B69"
+        },
+        "Versions/A/XPCServices/com.apple.CloudPhotosConfiguration.xpc/Contents/version.plist": {
+          "CFBundleVersion": "811.0.106",
+          "CFBundleShortVersionString": "11.0",
+          "ProjectName": "Photos",
+          "SourceVersion": "811000106000000",
+          "BuildVersion": "3"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
   },
   "usage": {
     "layer": "usage",
-    "status": "not_implemented"
+    "used_by": []
   },
   "runtime": {
-    "layer": "runtime",
-    "status": "not_implemented"
+    "method": "ctypes",
+    "status": "loaded"
   }
 }

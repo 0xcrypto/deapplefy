@@ -75,14 +75,426 @@
         ]
       }
     ],
-    "protocols": []
+    "swift_metadata": {
+      "is_swift": false,
+      "symbols": []
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/AppIntents.loctable",
+        "Versions/A/Resources/Localizable.loctable",
+        "Versions/A/Resources/Assets.car",
+        "Versions/A/Resources/Actions.loctable",
+        "Versions/A/Resources/soundDefault.caf",
+        "Versions/A/Resources/WFHealthKitConstants.plist",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist",
+        "Versions/A/Resources/Metadata.appintents/version.json",
+        "Versions/A/Resources/Metadata.appintents/extract.actionsdata",
+        "Versions/A/Resources/Base.lproj/Actions.intentdefinition",
+        "Versions/A/Resources/ENSDKResources.bundle/ENActivityIcon@2x.png",
+        "Versions/A/Resources/ENSDKResources.bundle/ENNextIcon@2x.png",
+        "Versions/A/Resources/ENSDKResources.bundle/xhtml-lat1.ent",
+        "Versions/A/Resources/ENSDKResources.bundle/xhtml1-strict.dtd",
+        "Versions/A/Resources/ENSDKResources.bundle/ENNextIcon@3x.png",
+        "Versions/A/Resources/ENSDKResources.bundle/ENActivityIcon@3x.png",
+        "Versions/A/Resources/ENSDKResources.bundle/ENActivityIcon.png",
+        "Versions/A/Resources/ENSDKResources.bundle/ENBusinessIcon@2x.png",
+        "Versions/A/Resources/ENSDKResources.bundle/ENBusinessIcon@3x.png",
+        "Versions/A/Resources/ENSDKResources.bundle/recoIndex.dtd",
+        "Versions/A/Resources/ENSDKResources.bundle/ENNextIcon.png",
+        "Versions/A/Resources/ENSDKResources.bundle/xhtml1-transitional.dtd",
+        "Versions/A/Resources/ENSDKResources.bundle/evernote-export.dtd",
+        "Versions/A/Resources/ENSDKResources.bundle/ENBusinessIcon.png",
+        "Versions/A/Resources/ENSDKResources.bundle/ENCheckIcon@2x.png",
+        "Versions/A/Resources/ENSDKResources.bundle/Localizable.loctable",
+        "Versions/A/Resources/ENSDKResources.bundle/ENCheckIcon.png",
+        "Versions/A/Resources/ENSDKResources.bundle/ENCheckIcon@3x.png",
+        "Versions/A/Resources/ENSDKResources.bundle/xhtml-special.ent",
+        "Versions/A/Resources/ENSDKResources.bundle/ENMultiplePeopleIcon.png",
+        "Versions/A/Resources/ENSDKResources.bundle/ENMultiplePeopleIcon@2x.png",
+        "Versions/A/Resources/ENSDKResources.bundle/enml2.dtd",
+        "Versions/A/Resources/ENSDKResources.bundle/ENMultiplePeopleIcon@3x.png",
+        "Versions/A/Resources/ENSDKResources.bundle/xhtml-symbol.ent",
+        "PlugIns/BundledIntentHandler.appex/Contents/Info.plist",
+        "PlugIns/BundledIntentHandler.appex/Contents/version.plist",
+        "PlugIns/BundledIntentHandler.appex/Contents/_CodeSignature/CodeResources",
+        "PlugIns/BundledIntentHandler.appex/Contents/MacOS/BundledIntentHandler",
+        "PlugIns/BundledIntentHandler.appex/Contents/Resources/Actions.loctable",
+        "PlugIns/BundledIntentHandler.appex/Contents/Resources/InfoPlist.loctable",
+        "PlugIns/BundledIntentHandler.appex/Contents/Resources/Base.lproj/Actions.intentdefinition"
+      ],
+      "plists": {
+        "Versions/A/Resources/WFHealthKitConstants.plist": {
+          "Units": [
+            {
+              "group": "si",
+              "unitString": "g",
+              "important": true
+            },
+            {
+              "group": "si",
+              "unitString": "m",
+              "important": true
+            },
+            {
+              "group": "si",
+              "unitString": "L",
+              "important": true
+            },
+            {
+              "group": "si",
+              "unitString": "Pa",
+              "important": true
+            },
+            {
+              "group": "si",
+              "unitString": "s",
+              "important": true
+            },
+            {
+              "group": "si",
+              "unitString": "J",
+              "important": true
+            },
+            {
+              "group": "si",
+              "unitString": "K",
+              "important": true
+            },
+            {
+              "group": "si",
+              "unitString": "S",
+              "important": true
+            },
+            {
+              "group": "si",
+              "unitString": "mg",
+              "important": false
+            },
+            {
+              "group": "si",
+              "unitString": "kg",
+              "important": false
+            },
+            {
+              "group": "si",
+              "unitString": "mm",
+              "important": false
+            },
+            {
+              "group": "si",
+              "unitString": "km",
+              "important": false
+            },
+            {
+              "group": "si",
+              "unitString": "mL",
+              "important": false
+            },
+            {
+              "group": "si",
+              "unitString": "kPa",
+              "important": false
+            },
+            {
+              "group": "si",
+              "unitString": "ms",
+              "important": false
+            },
+            {
+              "group": "si",
+              "unitString": "kJ",
+              "important": false
+            },
+            {
+              "group": "si",
+              "unitString": "kK",
+              "important": false
+            },
+            {
+              "group": "si",
+              "unitString": "mS",
+              "important": false
+            },
+            {
+              "group": "si",
+              "unitString": "kS",
+              "important": false
+            },
+            {
+              "group": "non_si",
+              "unitString": "oz",
+              "important": true
+            },
+            {
+              "group": "non_si",
+              "unitString": "lb",
+              "important": true
+            },
+            {
+              "group": "non_si",
+              "unitString": "st",
+              "important": true
+            },
+            {
+              "group": "non_si",
+              "unitString": "in",
+              "important": true
+            },
+            {
+              "group": "non_si",
+              "unitString": "ft",
+              "important": true
+            },
+            {
+              "group": "non_si",
+              "unitString": "mi",
+              "important": true
+            },
+            {
+              "group": "non_si",
+              "unitString": "mmHg",
+              "important": true
+            },
+            {
+              "group": "non_si",
+              "unitString": "cmAq",
+              "important": false
+            },
+            {
+              "group": "non_si",
+              "unitString": "atm",
+              "important": true
+            },
+            {
+              "group": "non_si",
+              "unitString": "fl_oz_us",
+              "important": true
+            },
+            {
+              "group": "non_si",
+              "unitString": "fl_oz_imp",
+              "important": false
+            },
+            {
+              "group": "non_si",
+              "unitString": "pt_us",
+              "important": true
+            },
+            {
+              "group": "non_si",
+              "unitString": "pt_imp",
+              "important": true
+            },
+            {
+              "group": "non_si",
+              "unitString": "min",
+              "important": true
+            },
+            {
+              "group": "non_si",
+              "unitString": "hr",
+              "important": true
+            },
+            {
+              "group": "non_si",
+              "unitString": "d",
+              "important": true
+            },
+            {
+              "group": "non_si",
+              "unitString": "cal",
+              "important": false
+            },
+            {
+              "group": "non_si",
+              "unitString": "kcal",
+              "important": true
+            },
+            {
+              "group": "si",
+              "unitString": "degC",
+              "important": true
+            },
+            {
+              "group": "non_si",
+              "unitString": "degF",
+              "important": true
+            },
+            {
+              "group": "non_si",
+              "unitString": "count",
+              "important": true
+            },
+            {
+              "group": "non_si",
+              "unitString": "%",
+              "important": false
+            },
+            {
+              "group": "compound",
+              "unitString": "count/min",
+              "important": true
+            },
+            {
+              "group": "compound",
+              "unitString": "mg/dl",
+              "important": true
+            },
+            {
+              "group": "compound",
+              "unitString": "J/s",
+              "important": true
+            },
+            {
+              "group": "compound",
+              "unitString": "m/s^2",
+              "important": true
+            },
+            {
+              "group": "compound",
+              "unitString": "m/s",
+              "important": true
+            }
+          ]
+        },
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "ActionKit",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2015 DeskConnect. All rights reserved.",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B68",
+          "CFBundleDevelopmentRegion": "en",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "FMWK",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "ActionKit",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.ActionKit",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleSignature": "????",
+          "DTPlatformBuild": "25B68"
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "Shortcuts",
+          "SourceVersion": "4042000002002000",
+          "BuildVersion": "5"
+        },
+        "PlugIns/BundledIntentHandler.appex/Contents/Info.plist": {
+          "CFBundleName": "Shortcuts",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B68",
+          "INDisplayableApplicationBundleIdentifier": "com.apple.shortcuts",
+          "CFBundleVersion": "4042.0.2.2",
+          "BuildMachineOSBuild": "23A344014",
+          "CFBundleDevelopmentRegion": "en",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "7.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "UIBackgroundModes": [],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "BundledIntentHandler",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.ActionKit.BundledIntentHandler",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleDisplayName": "Shortcuts",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "25B68",
+          "NSExtension": {
+            "NSExtensionAttributes": {
+              "IntentsRestrictedWhileLocked": [],
+              "IntentsRestrictedWhileProtectedDataUnavailable": [],
+              "IntentsSupported": [
+                "WFAskForInputIntent",
+                "WFChangeCaseIntent",
+                "WFChooseFromListIntent",
+                "WFCombineTextIntent",
+                "WFCorrectSpellingIntent",
+                "WFDeletePhotosIntent",
+                "WFMatchTextGetGroupIntent",
+                "WFMatchTextIntent",
+                "WFSetAirplaneModeIntent",
+                "WFSetAlwaysOnDisplayIntent",
+                "WFSetAnnounceNotificationsIntent",
+                "WFSetAppearanceIntent",
+                "WFSetBluetoothIntent",
+                "WFSetBrightnessIntent",
+                "WFSetCellularDataIntent",
+                "WFSetFlashlightIntent",
+                "WFSetLowPowerModeIntent",
+                "WFSetNightShiftIntent",
+                "WFSetOrientationLockIntent",
+                "WFSetPersonalHotspotIntent",
+                "WFSetSilenceUnknownCallersIntent",
+                "WFSetStageManagerIntent",
+                "WFSetTrueToneIntent",
+                "WFSetWiFiIntent",
+                "WFSplitTextIntent"
+              ]
+            },
+            "NSExtensionPointIdentifier": "com.apple.intents-service",
+            "NSExtensionPrincipalClass": "WFBundledIntentsExtension"
+          }
+        },
+        "PlugIns/BundledIntentHandler.appex/Contents/version.plist": {
+          "CFBundleVersion": "4042.0.2.2",
+          "CFBundleShortVersionString": "7.0",
+          "ProjectName": "Shortcuts",
+          "SourceVersion": "4042000002002000",
+          "BuildVersion": "5"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
   },
   "usage": {
     "layer": "usage",
-    "status": "not_implemented"
+    "used_by": [
+      {
+        "path": "/System/Applications/Shortcuts.app",
+        "binary": "/System/Applications/Shortcuts.app/Contents/MacOS/Shortcuts",
+        "used_classes": []
+      }
+    ]
   },
   "runtime": {
-    "layer": "runtime",
-    "status": "not_implemented"
+    "method": "ctypes",
+    "status": "crashed",
+    "error": "Subprocess crashed (likely +load assertion)"
   }
 }

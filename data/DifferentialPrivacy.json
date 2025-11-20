@@ -6939,14 +6939,1762 @@
         ]
       }
     ],
-    "protocols": []
+    "swift_metadata": {
+      "is_swift": true,
+      "symbols": [
+        {
+          "name": "_$s10Foundation4DataV19DPSubmissionService10TLSCodableADMc",
+          "demname": "Foundation.Data.DPSubmissionService.TLSCodable(...Mc)",
+          "flagname": "sym.Foundation.Data.DPSubmissionService.TLSCodable_...Mc_",
+          "realname": "Foundation.Data.DPSubmissionService.TLSCodable(...Mc)",
+          "ordinal": 0,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295333528,
+          "paddr": 1005208,
+          "is_imported": false
+        },
+        {
+          "name": "_$s10Foundation4DataV19DPSubmissionService10TLSCodableADWP",
+          "demname": "Foundation.Data.DPSubmissionService.TLSCodable(...WP)",
+          "flagname": "sym.Foundation.Data.DPSubmissionService.TLSCodable_...WP_",
+          "realname": "Foundation.Data.DPSubmissionService.TLSCodable(...WP)",
+          "ordinal": 1,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295481128,
+          "paddr": 1152808,
+          "is_imported": false
+        },
+        {
+          "name": "_$s15CodingParameter19DPSubmissionService10TLSCodablePTl",
+          "demname": "CodingParameter.DPSubmissionService.TLSCodable(...l)",
+          "flagname": "sym.CodingParameter.DPSubmissionService.TLSCodable_...l_",
+          "realname": "CodingParameter.DPSubmissionService.TLSCodable(...l)",
+          "ordinal": 2,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295388372,
+          "paddr": 1060052,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService023_DPDediscoPCCNetworkingB0C18submitSyncronously17serializedPayload19baaCertificateChain0I9Signature7optionsSo7NSErrorCSg10Foundation4DataV_AA017_DPBAACertificateK0CANSo24DediscoNetworkingOptionsVtF",
+          "demname": "DPSubmissionService._DPDediscoPCCNetworking.(...PBAACertificateK0CANSo24DediscoNetworkingOptionsVtF)",
+          "flagname": "sym.DPSubmissionService._DPDediscoPCCNetworking._...PBAACertificateK0CANSo24DediscoNetworkingOptionsVtF_",
+          "realname": "DPSubmissionService._DPDediscoPCCNetworking.(...PBAACertificateK0CANSo24DediscoNetworkingOptionsVtF)",
+          "ordinal": 3,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295054132,
+          "paddr": 725812,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService023_DPDediscoPCCNetworkingB0C18submitSyncronously17serializedPayload19baaCertificateChain0I9Signature7optionsSo7NSErrorCSg10Foundation4DataV_AA017_DPBAACertificateK0CANSo24DediscoNetworkingOptionsVtFTq",
+          "demname": "DPSubmissionService._DPDediscoPCCNetworking.(...PBAACertificateK0CANSo24DediscoNetworkingOptionsVtFTq)",
+          "flagname": "sym.DPSubmissionService._DPDediscoPCCNetworking._...PBAACertificateK0CANSo24DediscoNetworkingOptionsVtFTq_",
+          "realname": "DPSubmissionService._DPDediscoPCCNetworking.(...PBAACertificateK0CANSo24DediscoNetworkingOptionsVtFTq)",
+          "ordinal": 4,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295386552,
+          "paddr": 1058232,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService023_DPDediscoPCCNetworkingB0CACycfC",
+          "demname": "DPSubmissionService._DPDediscoPCCNetworking...B0CACycfC",
+          "flagname": "sym.DPSubmissionService._DPDediscoPCCNetworking...B0CACycfC",
+          "realname": "DPSubmissionService._DPDediscoPCCNetworking...B0CACycfC",
+          "ordinal": 5,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053428,
+          "paddr": 725108,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService023_DPDediscoPCCNetworkingB0CACycfc",
+          "demname": "DPSubmissionService._DPDediscoPCCNetworking...B0CACycfc",
+          "flagname": "sym.DPSubmissionService._DPDediscoPCCNetworking...B0CACycfc",
+          "realname": "DPSubmissionService._DPDediscoPCCNetworking...B0CACycfc",
+          "ordinal": 6,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053480,
+          "paddr": 725160,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService023_DPDediscoPCCNetworkingB0CMa",
+          "demname": "DPSubmissionService._DPDediscoPCCNetworking...B0CMa",
+          "flagname": "sym.DPSubmissionService._DPDediscoPCCNetworking...B0CMa",
+          "realname": "DPSubmissionService._DPDediscoPCCNetworking...B0CMa",
+          "ordinal": 7,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295054020,
+          "paddr": 725700,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService023_DPDediscoPCCNetworkingB0CMn",
+          "demname": "DPSubmissionService._DPDediscoPCCNetworking...B0CMn",
+          "flagname": "sym.DPSubmissionService._DPDediscoPCCNetworking...B0CMn",
+          "realname": "DPSubmissionService._DPDediscoPCCNetworking...B0CMn",
+          "ordinal": 8,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295386480,
+          "paddr": 1058160,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService023_DPDediscoPCCNetworkingB0CN",
+          "demname": "DPSubmissionService._DPDediscoPCCNetworking...B0CN",
+          "flagname": "sym.DPSubmissionService._DPDediscoPCCNetworking...B0CN",
+          "realname": "DPSubmissionService._DPDediscoPCCNetworking...B0CN",
+          "ordinal": 9,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295474464,
+          "paddr": 1146144,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService023_DPDediscoPCCNetworkingB0CfD",
+          "demname": "DPSubmissionService._DPDediscoPCCNetworking...B0CfD",
+          "flagname": "sym.DPSubmissionService._DPDediscoPCCNetworking...B0CfD",
+          "realname": "DPSubmissionService._DPDediscoPCCNetworking...B0CfD",
+          "ordinal": 10,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295055572,
+          "paddr": 727252,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService10TLSCodableMp",
+          "demname": "DPSubmissionService.TLSCodable(...p)",
+          "flagname": "sym.DPSubmissionService.TLSCodable_...p_",
+          "realname": "DPSubmissionService.TLSCodable(...p)",
+          "ordinal": 11,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295388328,
+          "paddr": 1060008,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService10TLSCodablePAAE12encodedBytes10Foundation4DataVyKF",
+          "demname": "DPSubmissionService.TLSCodable..encodedBytes.Foundation.Data...VyKF",
+          "flagname": "sym.DPSubmissionService.TLSCodable..encodedBytes.Foundation.Data...VyKF",
+          "realname": "DPSubmissionService.TLSCodable..encodedBytes.Foundation.Data...VyKF",
+          "ordinal": 12,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295185812,
+          "paddr": 857492,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService10TLSCodablePAAE12encodedBytes4with10Foundation4DataV15CodingParameterQzSg_tKF",
+          "demname": "DPSubmissionService.TLSCodable.(...KF)",
+          "flagname": "sym.DPSubmissionService.TLSCodable._...KF_",
+          "realname": "DPSubmissionService.TLSCodable.(...KF)",
+          "ordinal": 13,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295188208,
+          "paddr": 859888,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService10TLSCodablePAAE13encodedLengthSiyKF",
+          "demname": "DPSubmissionService.TLSCodable..encodedLength(...yKF)",
+          "flagname": "sym.DPSubmissionService.TLSCodable..encodedLength_...yKF_",
+          "realname": "DPSubmissionService.TLSCodable..encodedLength(...yKF)",
+          "ordinal": 14,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295187160,
+          "paddr": 858840,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService10TLSCodablePAAE4fromxqd__z_tKcSkRd__11SubSequenceQyd__Rsd__s5UInt8V7ElementRtd__lufC",
+          "demname": "DPSubmissionService.TLSCodable.....z_tKcSkRd__11SubSequenceQyd__Rsd__s5UInt8V7ElementRtd__lufC",
+          "flagname": "sym.DPSubmissionService.TLSCodable.....z_tKcSkRd__11SubSequenceQyd__Rsd__s5UInt8V7ElementRtd__lufC",
+          "realname": "DPSubmissionService.TLSCodable.....z_tKcSkRd__11SubSequenceQyd__Rsd__s5UInt8V7ElementRtd__lufC",
+          "ordinal": 15,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295188428,
+          "paddr": 860108,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService10TLSCodablePAAE6encode4intoyqd__z_tKSmRd__s5UInt8V7ElementRtd__Si5IndexRtd__lF",
+          "demname": "DPSubmissionService.TLSCodable.....z_tKSmRd__s5UInt8V7ElementRtd__Si5IndexRtd__lF",
+          "flagname": "sym.DPSubmissionService.TLSCodable.....z_tKSmRd__s5UInt8V7ElementRtd__Si5IndexRtd__lF",
+          "realname": "DPSubmissionService.TLSCodable.....z_tKSmRd__s5UInt8V7ElementRtd__Si5IndexRtd__lF",
+          "ordinal": 16,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295187552,
+          "paddr": 859232,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService10TLSCodablePSQTb",
+          "demname": "DPSubmissionService.TLSCodable(...QTb)",
+          "flagname": "sym.DPSubmissionService.TLSCodable_...QTb_",
+          "realname": "DPSubmissionService.TLSCodable(...QTb)",
+          "ordinal": 17,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295388364,
+          "paddr": 1060044,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService10TLSCodableTL",
+          "demname": "DPSubmissionService.TLSCodable(...L)",
+          "flagname": "sym.DPSubmissionService.TLSCodable_...L_",
+          "realname": "DPSubmissionService.TLSCodable(...L)",
+          "ordinal": 18,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295388356,
+          "paddr": 1060036,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService11TLSEnumTypeMp",
+          "demname": "DPSubmissionService.TLSEnumType(...p)",
+          "flagname": "sym.DPSubmissionService.TLSEnumType_...p_",
+          "realname": "DPSubmissionService.TLSEnumType(...p)",
+          "ordinal": 19,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295388088,
+          "paddr": 1059768,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService11TLSEnumTypeP9EnumValueAC_SHTn",
+          "demname": "DPSubmissionService.TLSEnumType.EnumValue.....SHTn",
+          "flagname": "sym.DPSubmissionService.TLSEnumType.EnumValue.....SHTn",
+          "realname": "DPSubmissionService.TLSEnumType.EnumValue.....SHTn",
+          "ordinal": 20,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295388164,
+          "paddr": 1059844,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService11TLSEnumTypeP9EnumValueAC_s12CaseIterableTn",
+          "demname": "DPSubmissionService.TLSEnumType.EnumValue.....s12CaseIterableTn",
+          "flagname": "sym.DPSubmissionService.TLSEnumType.EnumValue.....s12CaseIterableTn",
+          "realname": "DPSubmissionService.TLSEnumType.EnumValue.....s12CaseIterableTn",
+          "ordinal": 21,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295388156,
+          "paddr": 1059836,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService11TLSEnumTypePAA29TLSTypeWithFixedEncodedLengthTb",
+          "demname": "DPSubmissionService.TLSEnumType..TLSTypeWi(...FixedEncodedLengthTb)",
+          "flagname": "sym.DPSubmissionService.TLSEnumType..TLSTypeWi_...FixedEncodedLengthTb_",
+          "realname": "DPSubmissionService.TLSEnumType..TLSTypeWi(...FixedEncodedLengthTb)",
+          "ordinal": 22,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295388148,
+          "paddr": 1059828,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService11TLSEnumTypePAAE13encodedLengthSivgZ",
+          "demname": "DPSubmissionService.TLSEnumType..encodedLength(...vgZ)",
+          "flagname": "sym.DPSubmissionService.TLSEnumType..encodedLength_...vgZ_",
+          "realname": "DPSubmissionService.TLSEnumType..encodedLength(...vgZ)",
+          "ordinal": 23,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295177300,
+          "paddr": 848980,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService11TLSEnumTypePAAE13encodedLengthSivpZMV",
+          "demname": "DPSubmissionService.TLSEnumType..encodedLength(...vpZMV)",
+          "flagname": "sym.DPSubmissionService.TLSEnumType..encodedLength_...vpZMV_",
+          "realname": "DPSubmissionService.TLSEnumType..encodedLength(...vpZMV)",
+          "ordinal": 24,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295332904,
+          "paddr": 1004584,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService11TLSEnumTypePAAE4from4withxqd__z_ytSgtKcSkRd__11SubSequenceQyd__Rsd__s5UInt8V7ElementRtd__lufC",
+          "demname": "DPSubmissionService.TLSEnumType.....z_ytSgtKcSkRd__11SubSequenceQyd__Rsd__s5UInt8V7ElementRtd__lufC",
+          "flagname": "sym.DPSubmissionService.TLSEnumType.....z_ytSgtKcSkRd__11SubSequenceQyd__Rsd__s5UInt8V7ElementRtd__lufC",
+          "realname": "DPSubmissionService.TLSEnumType.....z_ytSgtKcSkRd__11SubSequenceQyd__Rsd__s5UInt8V7ElementRtd__lufC",
+          "ordinal": 25,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295175560,
+          "paddr": 847240,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService11TLSEnumTypePAAE6encode4into4withyqd__z_ytSgtKSmRd__s5UInt8V7ElementRtd__Si5IndexRtd__lF",
+          "demname": "DPSubmissionService.TLSEnumType.....z_ytSgtKSmRd__s5UInt8V7ElementRtd__Si5IndexRtd__lF",
+          "flagname": "sym.DPSubmissionService.TLSEnumType.....z_ytSgtKSmRd__s5UInt8V7ElementRtd__Si5IndexRtd__lF",
+          "realname": "DPSubmissionService.TLSEnumType.....z_ytSgtKSmRd__s5UInt8V7ElementRtd__Si5IndexRtd__lF",
+          "ordinal": 26,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295175520,
+          "paddr": 847200,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService11TLSEnumTypePAAE8rawValuexs6UInt32V_tKcfC",
+          "demname": "DPSubmissionService.TLSEnumType.(...KcfC)",
+          "flagname": "sym.DPSubmissionService.TLSEnumType._...KcfC_",
+          "realname": "DPSubmissionService.TLSEnumType.(...KcfC)",
+          "ordinal": 27,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295175884,
+          "paddr": 847564,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService11TLSEnumTypePAAE9enumValuex04EnumF0Qz_tKcfC",
+          "demname": "DPSubmissionService.TLSEnumType.(...KcfC)",
+          "flagname": "sym.DPSubmissionService.TLSEnumType._...KcfC_",
+          "realname": "DPSubmissionService.TLSEnumType.(...KcfC)",
+          "ordinal": 28,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295174860,
+          "paddr": 846540,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService11TLSEnumTypeTL",
+          "demname": "DPSubmissionService.TLSEnumType(...L)",
+          "flagname": "sym.DPSubmissionService.TLSEnumType_...L_",
+          "realname": "DPSubmissionService.TLSEnumType(...L)",
+          "ordinal": 29,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295388140,
+          "paddr": 1059820,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService12CollectionIDV010collectionD0SSvM",
+          "demname": "DPSubmissionService.CollectionID.collection...D0SSvM",
+          "flagname": "sym.DPSubmissionService.CollectionID.collection...D0SSvM",
+          "realname": "DPSubmissionService.CollectionID.collection...D0SSvM",
+          "ordinal": 30,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295259264,
+          "paddr": 930944,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService12CollectionIDV010collectionD0SSvg",
+          "demname": "DPSubmissionService.CollectionID.collection...D0SSvg",
+          "flagname": "sym.DPSubmissionService.CollectionID.collection...D0SSvg",
+          "realname": "DPSubmissionService.CollectionID.collection...D0SSvg",
+          "ordinal": 31,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295267248,
+          "paddr": 938928,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService12CollectionIDV010collectionD0SSvpMV",
+          "demname": "DPSubmissionService.CollectionID.collection...D0SSvpMV",
+          "flagname": "sym.DPSubmissionService.CollectionID.collection...D0SSvpMV",
+          "realname": "DPSubmissionService.CollectionID.collection...D0SSvpMV",
+          "ordinal": 32,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295343296,
+          "paddr": 1014976,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService12CollectionIDV010collectionD0SSvpfi",
+          "demname": "DPSubmissionService.CollectionID.collection...D0SSvpfi",
+          "flagname": "sym.DPSubmissionService.CollectionID.collection...D0SSvpfi",
+          "realname": "DPSubmissionService.CollectionID.collection...D0SSvpfi",
+          "ordinal": 33,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295055840,
+          "paddr": 727520,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService12CollectionIDV010collectionD0SSvs",
+          "demname": "DPSubmissionService.CollectionID.collection...D0SSvs",
+          "flagname": "sym.DPSubmissionService.CollectionID.collection...D0SSvs",
+          "realname": "DPSubmissionService.CollectionID.collection...D0SSvs",
+          "ordinal": 34,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295267296,
+          "paddr": 938976,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService12CollectionIDV13decodeMessage7decoderyxz_tK21InternalSwiftProtobuf7DecoderRzlF",
+          "demname": "DPSubmissionService.CollectionID.decodeMessage.decoder.InternalSwiftProtobuf.Decoder(...lF)",
+          "flagname": "sym.DPSubmissionService.CollectionID.decodeMessage.decoder.InternalSwiftProtobuf.Decoder_...lF_",
+          "realname": "DPSubmissionService.CollectionID.decodeMessage.decoder.InternalSwiftProtobuf.Decoder(...lF)",
+          "ordinal": 35,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295281920,
+          "paddr": 953600,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService12CollectionIDV13unknownFields21InternalSwiftProtobuf14UnknownStorageVvM",
+          "demname": "DPSubmissionService.CollectionID.unknownFields.InternalSwiftProtobuf.UnknownStorage...VvM",
+          "flagname": "sym.DPSubmissionService.CollectionID.unknownFields.InternalSwiftProtobuf.UnknownStorage...VvM",
+          "realname": "DPSubmissionService.CollectionID.unknownFields.InternalSwiftProtobuf.UnknownStorage...VvM",
+          "ordinal": 36,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295267632,
+          "paddr": 939312,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService12CollectionIDV13unknownFields21InternalSwiftProtobuf14UnknownStorageVvg",
+          "demname": "DPSubmissionService.CollectionID.unknownFields.InternalSwiftProtobuf.UnknownStorage...Vvg",
+          "flagname": "sym.DPSubmissionService.CollectionID.unknownFields.InternalSwiftProtobuf.UnknownStorage...Vvg",
+          "realname": "DPSubmissionService.CollectionID.unknownFields.InternalSwiftProtobuf.UnknownStorage...Vvg",
+          "ordinal": 37,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295267352,
+          "paddr": 939032,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService12CollectionIDV13unknownFields21InternalSwiftProtobuf14UnknownStorageVvpMV",
+          "demname": "DPSubmissionService.CollectionID.unknownFields.InternalSwiftProtobuf.UnknownStorage...VvpMV",
+          "flagname": "sym.DPSubmissionService.CollectionID.unknownFields.InternalSwiftProtobuf.UnknownStorage...VvpMV",
+          "realname": "DPSubmissionService.CollectionID.unknownFields.InternalSwiftProtobuf.UnknownStorage...VvpMV",
+          "ordinal": 38,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295343296,
+          "paddr": 1014976,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService12CollectionIDV13unknownFields21InternalSwiftProtobuf14UnknownStorageVvpfi",
+          "demname": "DPSubmissionService.CollectionID.unknownFields.InternalSwiftProtobuf.UnknownStorage...Vvpfi",
+          "flagname": "sym.DPSubmissionService.CollectionID.unknownFields.InternalSwiftProtobuf.UnknownStorage...Vvpfi",
+          "realname": "DPSubmissionService.CollectionID.unknownFields.InternalSwiftProtobuf.UnknownStorage...Vvpfi",
+          "ordinal": 39,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295056008,
+          "paddr": 727688,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService12CollectionIDV13unknownFields21InternalSwiftProtobuf14UnknownStorageVvs",
+          "demname": "DPSubmissionService.CollectionID.unknownFields.InternalSwiftProtobuf.UnknownStorage...Vvs",
+          "flagname": "sym.DPSubmissionService.CollectionID.unknownFields.InternalSwiftProtobuf.UnknownStorage...Vvs",
+          "realname": "DPSubmissionService.CollectionID.unknownFields.InternalSwiftProtobuf.UnknownStorage...Vvs",
+          "ordinal": 40,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295267508,
+          "paddr": 939188,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService12CollectionIDV16protoMessageNameSSvau",
+          "demname": "DPSubmissionService.CollectionID.protoMessageName(...vau)",
+          "flagname": "sym.DPSubmissionService.CollectionID.protoMessageName_...vau_",
+          "realname": "DPSubmissionService.CollectionID.protoMessageName(...vau)",
+          "ordinal": 41,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295281416,
+          "paddr": 953096,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService12CollectionIDV16protoMessageNameSSvgZ",
+          "demname": "DPSubmissionService.CollectionID.protoMessageName(...vgZ)",
+          "flagname": "sym.DPSubmissionService.CollectionID.protoMessageName_...vgZ_",
+          "realname": "DPSubmissionService.CollectionID.protoMessageName(...vgZ)",
+          "ordinal": 42,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295281428,
+          "paddr": 953108,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService12CollectionIDV16protoMessageNameSSvpZ",
+          "demname": "DPSubmissionService.CollectionID.protoMessageName(...vpZ)",
+          "flagname": "sym.DPSubmissionService.CollectionID.protoMessageName_...vpZ_",
+          "realname": "DPSubmissionService.CollectionID.protoMessageName(...vpZ)",
+          "ordinal": 43,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295340376,
+          "paddr": 1012056,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService12CollectionIDV17_protobuf_nameMap21InternalSwiftProtobuf05_NameG0Vvau",
+          "demname": "DPSubmissionService.CollectionID._protobuf_nameMap.InternalSwiftProtobuf._Name...G0Vvau",
+          "flagname": "sym.DPSubmissionService.CollectionID._protobuf_nameMap.InternalSwiftProtobuf._Name...G0Vvau",
+          "realname": "DPSubmissionService.CollectionID._protobuf_nameMap.InternalSwiftProtobuf._Name...G0Vvau",
+          "ordinal": 44,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295281848,
+          "paddr": 953528,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService12CollectionIDV17_protobuf_nameMap21InternalSwiftProtobuf05_NameG0VvgZ",
+          "demname": "DPSubmissionService.CollectionID._protobuf_nameMap.InternalSwiftProtobuf._Name...G0VvgZ",
+          "flagname": "sym.DPSubmissionService.CollectionID._protobuf_nameMap.InternalSwiftProtobuf._Name...G0VvgZ",
+          "realname": "DPSubmissionService.CollectionID._protobuf_nameMap.InternalSwiftProtobuf._Name...G0VvgZ",
+          "ordinal": 45,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295281884,
+          "paddr": 953564,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService12CollectionIDV17_protobuf_nameMap21InternalSwiftProtobuf05_NameG0VvpZ",
+          "demname": "DPSubmissionService.CollectionID._protobuf_nameMap.InternalSwiftProtobuf._Name...G0VvpZ",
+          "flagname": "sym.DPSubmissionService.CollectionID._protobuf_nameMap.InternalSwiftProtobuf._Name...G0VvpZ",
+          "realname": "DPSubmissionService.CollectionID._protobuf_nameMap.InternalSwiftProtobuf._Name...G0VvpZ",
+          "ordinal": 46,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295541792,
+          "paddr": 1180704,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService12CollectionIDV21InternalSwiftProtobuf19_ProtoNameProvidingAAMc",
+          "demname": "DPSubmissionService.CollectionID.InternalSwiftProtobuf._ProtoNameProviding(...Mc)",
+          "flagname": "sym.DPSubmissionService.CollectionID.InternalSwiftProtobuf._ProtoNameProviding_...Mc_",
+          "realname": "DPSubmissionService.CollectionID.InternalSwiftProtobuf._ProtoNameProviding(...Mc)",
+          "ordinal": 47,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295342752,
+          "paddr": 1014432,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService12CollectionIDV21InternalSwiftProtobuf26_MessageImplementationBaseAAMc",
+          "demname": "DPSubmissionService.CollectionID.InternalSwiftProtobuf._MessageImplementationBase(...Mc)",
+          "flagname": "sym.DPSubmissionService.CollectionID.InternalSwiftProtobuf._MessageImplementationBase_...Mc_",
+          "realname": "DPSubmissionService.CollectionID.InternalSwiftProtobuf._MessageImplementationBase(...Mc)",
+          "ordinal": 48,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295342696,
+          "paddr": 1014376,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService12CollectionIDV21InternalSwiftProtobuf7MessageAAMc",
+          "demname": "DPSubmissionService.CollectionID.InternalSwiftProtobuf.Message(...Mc)",
+          "flagname": "sym.DPSubmissionService.CollectionID.InternalSwiftProtobuf.Message_...Mc_",
+          "realname": "DPSubmissionService.CollectionID.InternalSwiftProtobuf.Message(...Mc)",
+          "ordinal": 49,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295342576,
+          "paddr": 1014256,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService12CollectionIDV2eeoiySbAC_ACtFZ",
+          "demname": "DPSubmissionService.CollectionID.ee.(...FZ)",
+          "flagname": "sym.DPSubmissionService.CollectionID.ee._...FZ_",
+          "realname": "DPSubmissionService.CollectionID.ee.(...FZ)",
+          "ordinal": 50,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295282180,
+          "paddr": 953860,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService12CollectionIDV8traverse7visitoryxz_tK21InternalSwiftProtobuf7VisitorRzlF",
+          "demname": "DPSubmissionService.CollectionID.traverse.visitor.InternalSwiftProtobuf.Visitor(...lF)",
+          "flagname": "sym.DPSubmissionService.CollectionID.traverse.visitor.InternalSwiftProtobuf.Visitor_...lF_",
+          "realname": "DPSubmissionService.CollectionID.traverse.visitor.InternalSwiftProtobuf.Visitor(...lF)",
+          "ordinal": 51,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295282032,
+          "paddr": 953712,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService12CollectionIDV9hashValueSivg",
+          "demname": "getter DPSubmissionService.CollectionID.hashValue(...vg)",
+          "flagname": "sym.getter_DPSubmissionService.CollectionID.hashValue_...vg_",
+          "realname": "getter DPSubmissionService.CollectionID.hashValue(...vg)",
+          "ordinal": 52,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295282372,
+          "paddr": 954052,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService12CollectionIDV9hashValueSivpMV",
+          "demname": "DPSubmissionService.CollectionID.hashValue(...vpMV)",
+          "flagname": "sym.DPSubmissionService.CollectionID.hashValue_...vpMV_",
+          "realname": "DPSubmissionService.CollectionID.hashValue(...vpMV)",
+          "ordinal": 53,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295343296,
+          "paddr": 1014976,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService12CollectionIDVACycfC",
+          "demname": "DPSubmissionService.CollectionID...VACycfC",
+          "flagname": "sym.DPSubmissionService.CollectionID...VACycfC",
+          "realname": "DPSubmissionService.CollectionID...VACycfC",
+          "ordinal": 54,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295267704,
+          "paddr": 939384,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService12CollectionIDVMa",
+          "demname": "DPSubmissionService.CollectionID...VMa",
+          "flagname": "sym.DPSubmissionService.CollectionID...VMa",
+          "realname": "DPSubmissionService.CollectionID...VMa",
+          "ordinal": 55,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295267476,
+          "paddr": 939156,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService12CollectionIDVMn",
+          "demname": "DPSubmissionService.CollectionID...VMn",
+          "flagname": "sym.DPSubmissionService.CollectionID...VMn",
+          "realname": "DPSubmissionService.CollectionID...VMn",
+          "ordinal": 56,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295389904,
+          "paddr": 1061584,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService12CollectionIDVN",
+          "demname": "DPSubmissionService.CollectionID...VN",
+          "flagname": "sym.DPSubmissionService.CollectionID...VN",
+          "realname": "DPSubmissionService.CollectionID...VN",
+          "ordinal": 57,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295485000,
+          "paddr": 1156680,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService12CollectionIDVSHAAMc",
+          "demname": "DPSubmissionService.CollectionID...VSHAAMc",
+          "flagname": "sym.DPSubmissionService.CollectionID...VSHAAMc",
+          "realname": "DPSubmissionService.CollectionID...VSHAAMc",
+          "ordinal": 58,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295342832,
+          "paddr": 1014512,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService12CollectionIDVSQAAMc",
+          "demname": "DPSubmissionService.CollectionID: ImplicitlyUnwrappedOptionalA.",
+          "flagname": "sym.DPSubmissionService.CollectionID:_ImplicitlyUnwrappedOptionalA.",
+          "realname": "DPSubmissionService.CollectionID: ImplicitlyUnwrappedOptionalA.",
+          "ordinal": 59,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295342896,
+          "paddr": 1014576,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService12CollectionIDVs28CustomDebugStringConvertibleAAMc",
+          "demname": "DPSubmissionService.CollectionID...Vs28CustomDebugStringConvertibleAAMc",
+          "flagname": "sym.DPSubmissionService.CollectionID...Vs28CustomDebugStringConvertibleAAMc",
+          "realname": "DPSubmissionService.CollectionID...Vs28CustomDebugStringConvertibleAAMc",
+          "ordinal": 60,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295342792,
+          "paddr": 1014472,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService13TLSCodecErrorOMa",
+          "demname": "DPSubmissionService.TLSCodecError..metadata.accessor(...a)",
+          "flagname": "sym.DPSubmissionService.TLSCodecError..metadata.accessor_...a_",
+          "realname": "DPSubmissionService.TLSCodecError..metadata.accessor(...a)",
+          "ordinal": 61,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295206408,
+          "paddr": 878088,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService13TLSCodecErrorOMn",
+          "demname": "DPSubmissionService.TLSCodecError..nominal.type.descriptor(...n)",
+          "flagname": "sym.DPSubmissionService.TLSCodecError..nominal.type.descriptor_...n_",
+          "realname": "DPSubmissionService.TLSCodecError..nominal.type.descriptor(...n)",
+          "ordinal": 62,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295388444,
+          "paddr": 1060124,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService13TLSCodecErrorON",
+          "demname": "DPSubmissionService.TLSCodecError..metadata.type",
+          "flagname": "sym.DPSubmissionService.TLSCodecError..metadata.type",
+          "realname": "DPSubmissionService.TLSCodecError..metadata.type",
+          "ordinal": 63,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295438080,
+          "paddr": 1109760,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService13TLSCodecErrorOs0D0AAMc",
+          "demname": "DPSubmissionService.TLSCodecError.(...AAMc)",
+          "flagname": "sym.DPSubmissionService.TLSCodecError._...AAMc_",
+          "realname": "DPSubmissionService.TLSCodecError.(...AAMc)",
+          "ordinal": 64,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295332992,
+          "paddr": 1004672,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService13TLSNumberTypeMp",
+          "demname": "DPSubmissionService.TLSNumberType(...p)",
+          "flagname": "sym.DPSubmissionService.TLSNumberType_...p_",
+          "realname": "DPSubmissionService.TLSNumberType(...p)",
+          "ordinal": 65,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295386652,
+          "paddr": 1058332,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService13TLSNumberTypePAA29TLSTypeWithFixedEncodedLengthTb",
+          "demname": "DPSubmissionService.TLSNumberType..TLSTypeWi(...FixedEncodedLengthTb)",
+          "flagname": "sym.DPSubmissionService.TLSNumberType..TLSTypeWi_...FixedEncodedLengthTb_",
+          "realname": "DPSubmissionService.TLSNumberType..TLSTypeWi(...FixedEncodedLengthTb)",
+          "ordinal": 66,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295386688,
+          "paddr": 1058368,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService13TLSNumberTypeTL",
+          "demname": "DPSubmissionService.TLSNumberType(...L)",
+          "flagname": "sym.DPSubmissionService.TLSNumberType_...L_",
+          "realname": "DPSubmissionService.TLSNumberType(...L)",
+          "ordinal": 67,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295386680,
+          "paddr": 1058360,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService15DediscoDonationV11dsPublicKeySSvM",
+          "demname": "DPSubmissionService.DediscoDonation.dsPublicKey(...vM)",
+          "flagname": "sym.DPSubmissionService.DediscoDonation.dsPublicKey_...vM_",
+          "realname": "DPSubmissionService.DediscoDonation.dsPublicKey(...vM)",
+          "ordinal": 68,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295265984,
+          "paddr": 937664,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService15DediscoDonationV11dsPublicKeySSvg",
+          "demname": "DPSubmissionService.DediscoDonation.dsPublicKey(...vg)",
+          "flagname": "sym.DPSubmissionService.DediscoDonation.dsPublicKey_...vg_",
+          "realname": "DPSubmissionService.DediscoDonation.dsPublicKey(...vg)",
+          "ordinal": 69,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295265880,
+          "paddr": 937560,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService15DediscoDonationV11dsPublicKeySSvpMV",
+          "demname": "DPSubmissionService.DediscoDonation.dsPublicKey(...vpMV)",
+          "flagname": "sym.DPSubmissionService.DediscoDonation.dsPublicKey_...vpMV_",
+          "realname": "DPSubmissionService.DediscoDonation.dsPublicKey(...vpMV)",
+          "ordinal": 70,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295343296,
+          "paddr": 1014976,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService15DediscoDonationV11dsPublicKeySSvpfi",
+          "demname": "DPSubmissionService.DediscoDonation.dsPublicKey(...vpfi)",
+          "flagname": "sym.DPSubmissionService.DediscoDonation.dsPublicKey_...vpfi_",
+          "realname": "DPSubmissionService.DediscoDonation.dsPublicKey(...vpfi)",
+          "ordinal": 71,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295055840,
+          "paddr": 727520,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService15DediscoDonationV11dsPublicKeySSvs",
+          "demname": "DPSubmissionService.DediscoDonation.dsPublicKey(...vs)",
+          "flagname": "sym.DPSubmissionService.DediscoDonation.dsPublicKey_...vs_",
+          "realname": "DPSubmissionService.DediscoDonation.dsPublicKey(...vs)",
+          "ordinal": 72,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295265928,
+          "paddr": 937608,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService15DediscoDonationV11fsPublicKeySSvM",
+          "demname": "DPSubmissionService.DediscoDonation.fsPublicKey(...vM)",
+          "flagname": "sym.DPSubmissionService.DediscoDonation.fsPublicKey_...vM_",
+          "realname": "DPSubmissionService.DediscoDonation.fsPublicKey(...vM)",
+          "ordinal": 73,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295265848,
+          "paddr": 937528,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService15DediscoDonationV11fsPublicKeySSvg",
+          "demname": "DPSubmissionService.DediscoDonation.fsPublicKey(...vg)",
+          "flagname": "sym.DPSubmissionService.DediscoDonation.fsPublicKey_...vg_",
+          "realname": "DPSubmissionService.DediscoDonation.fsPublicKey(...vg)",
+          "ordinal": 74,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295265744,
+          "paddr": 937424,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService15DediscoDonationV11fsPublicKeySSvpMV",
+          "demname": "DPSubmissionService.DediscoDonation.fsPublicKey(...vpMV)",
+          "flagname": "sym.DPSubmissionService.DediscoDonation.fsPublicKey_...vpMV_",
+          "realname": "DPSubmissionService.DediscoDonation.fsPublicKey(...vpMV)",
+          "ordinal": 75,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295343296,
+          "paddr": 1014976,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService15DediscoDonationV11fsPublicKeySSvpfi",
+          "demname": "DPSubmissionService.DediscoDonation.fsPublicKey(...vpfi)",
+          "flagname": "sym.DPSubmissionService.DediscoDonation.fsPublicKey_...vpfi_",
+          "realname": "DPSubmissionService.DediscoDonation.fsPublicKey(...vpfi)",
+          "ordinal": 76,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295055840,
+          "paddr": 727520,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService15DediscoDonationV11fsPublicKeySSvs",
+          "demname": "DPSubmissionService.DediscoDonation.fsPublicKey(...vs)",
+          "flagname": "sym.DPSubmissionService.DediscoDonation.fsPublicKey_...vs_",
+          "realname": "DPSubmissionService.DediscoDonation.fsPublicKey(...vs)",
+          "ordinal": 77,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295265792,
+          "paddr": 937472,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService15DediscoDonationV11versionHashSSvM",
+          "demname": "DPSubmissionService.DediscoDonation.versionHash(...vM)",
+          "flagname": "sym.DPSubmissionService.DediscoDonation.versionHash_...vM_",
+          "realname": "DPSubmissionService.DediscoDonation.versionHash(...vM)",
+          "ordinal": 78,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295266120,
+          "paddr": 937800,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService15DediscoDonationV11versionHashSSvg",
+          "demname": "DPSubmissionService.DediscoDonation.versionHash(...vg)",
+          "flagname": "sym.DPSubmissionService.DediscoDonation.versionHash_...vg_",
+          "realname": "DPSubmissionService.DediscoDonation.versionHash(...vg)",
+          "ordinal": 79,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295266016,
+          "paddr": 937696,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService15DediscoDonationV11versionHashSSvpMV",
+          "demname": "DPSubmissionService.DediscoDonation.versionHash(...vpMV)",
+          "flagname": "sym.DPSubmissionService.DediscoDonation.versionHash_...vpMV_",
+          "realname": "DPSubmissionService.DediscoDonation.versionHash(...vpMV)",
+          "ordinal": 80,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295343296,
+          "paddr": 1014976,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService15DediscoDonationV11versionHashSSvpfi",
+          "demname": "DPSubmissionService.DediscoDonation.versionHash(...vpfi)",
+          "flagname": "sym.DPSubmissionService.DediscoDonation.versionHash_...vpfi_",
+          "realname": "DPSubmissionService.DediscoDonation.versionHash(...vpfi)",
+          "ordinal": 81,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295055840,
+          "paddr": 727520,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService15DediscoDonationV11versionHashSSvs",
+          "demname": "DPSubmissionService.DediscoDonation.versionHash(...vs)",
+          "flagname": "sym.DPSubmissionService.DediscoDonation.versionHash_...vs_",
+          "realname": "DPSubmissionService.DediscoDonation.versionHash(...vs)",
+          "ordinal": 82,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295266064,
+          "paddr": 937744,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService15DediscoDonationV12collectionIDSSvM",
+          "demname": "DPSubmissionService.DediscoDonation.collectionID(...vM)",
+          "flagname": "sym.DPSubmissionService.DediscoDonation.collectionID_...vM_",
+          "realname": "DPSubmissionService.DediscoDonation.collectionID(...vM)",
+          "ordinal": 83,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295259264,
+          "paddr": 930944,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService15DediscoDonationV12collectionIDSSvg",
+          "demname": "DPSubmissionService.DediscoDonation.collectionID(...vg)",
+          "flagname": "sym.DPSubmissionService.DediscoDonation.collectionID_...vg_",
+          "realname": "DPSubmissionService.DediscoDonation.collectionID(...vg)",
+          "ordinal": 84,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295295704,
+          "paddr": 967384,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService15DediscoDonationV12collectionIDSSvpMV",
+          "demname": "DPSubmissionService.DediscoDonation.collectionID(...vpMV)",
+          "flagname": "sym.DPSubmissionService.DediscoDonation.collectionID_...vpMV_",
+          "realname": "DPSubmissionService.DediscoDonation.collectionID(...vpMV)",
+          "ordinal": 85,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295343296,
+          "paddr": 1014976,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService15DediscoDonationV12collectionIDSSvpfi",
+          "demname": "DPSubmissionService.DediscoDonation.collectionID(...vpfi)",
+          "flagname": "sym.DPSubmissionService.DediscoDonation.collectionID_...vpfi_",
+          "realname": "DPSubmissionService.DediscoDonation.collectionID(...vpfi)",
+          "ordinal": 86,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295055840,
+          "paddr": 727520,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService15DediscoDonationV12collectionIDSSvs",
+          "demname": "DPSubmissionService.DediscoDonation.collectionID(...vs)",
+          "flagname": "sym.DPSubmissionService.DediscoDonation.collectionID_...vs_",
+          "realname": "DPSubmissionService.DediscoDonation.collectionID(...vs)",
+          "ordinal": 87,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295295756,
+          "paddr": 967436,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService15DediscoDonationV13decodeMessage7decoderyxz_tK21InternalSwiftProtobuf7DecoderRzlF",
+          "demname": "DPSubmissionService.DediscoDonation.decodeMessage.decoder.InternalSwiftProtobuf.Decoder(...lF)",
+          "flagname": "sym.DPSubmissionService.DediscoDonation.decodeMessage.decoder.InternalSwiftProtobuf.Decoder_...lF_",
+          "realname": "DPSubmissionService.DediscoDonation.decodeMessage.decoder.InternalSwiftProtobuf.Decoder(...lF)",
+          "ordinal": 88,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295276940,
+          "paddr": 948620,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService15DediscoDonationV13unknownFields21InternalSwiftProtobuf14UnknownStorageVvM",
+          "demname": "DPSubmissionService.DediscoDonation.unknownFields.InternalSwiftProtobuf.UnknownStorage...VvM",
+          "flagname": "sym.DPSubmissionService.DediscoDonation.unknownFields.InternalSwiftProtobuf.UnknownStorage...VvM",
+          "realname": "DPSubmissionService.DediscoDonation.unknownFields.InternalSwiftProtobuf.UnknownStorage...VvM",
+          "ordinal": 89,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295266540,
+          "paddr": 938220,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService15DediscoDonationV13unknownFields21InternalSwiftProtobuf14UnknownStorageVvg",
+          "demname": "DPSubmissionService.DediscoDonation.unknownFields.InternalSwiftProtobuf.UnknownStorage...Vvg",
+          "flagname": "sym.DPSubmissionService.DediscoDonation.unknownFields.InternalSwiftProtobuf.UnknownStorage...Vvg",
+          "realname": "DPSubmissionService.DediscoDonation.unknownFields.InternalSwiftProtobuf.UnknownStorage...Vvg",
+          "ordinal": 90,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295266292,
+          "paddr": 937972,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService15DediscoDonationV13unknownFields21InternalSwiftProtobuf14UnknownStorageVvpMV",
+          "demname": "DPSubmissionService.DediscoDonation.unknownFields.InternalSwiftProtobuf.UnknownStorage...VvpMV",
+          "flagname": "sym.DPSubmissionService.DediscoDonation.unknownFields.InternalSwiftProtobuf.UnknownStorage...VvpMV",
+          "realname": "DPSubmissionService.DediscoDonation.unknownFields.InternalSwiftProtobuf.UnknownStorage...VvpMV",
+          "ordinal": 91,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295343296,
+          "paddr": 1014976,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService15DediscoDonationV13unknownFields21InternalSwiftProtobuf14UnknownStorageVvpfi",
+          "demname": "DPSubmissionService.DediscoDonation.unknownFields.InternalSwiftProtobuf.UnknownStorage...Vvpfi",
+          "flagname": "sym.DPSubmissionService.DediscoDonation.unknownFields.InternalSwiftProtobuf.UnknownStorage...Vvpfi",
+          "realname": "DPSubmissionService.DediscoDonation.unknownFields.InternalSwiftProtobuf.UnknownStorage...Vvpfi",
+          "ordinal": 92,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295059788,
+          "paddr": 731468,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService15DediscoDonationV13unknownFields21InternalSwiftProtobuf14UnknownStorageVvs",
+          "demname": "DPSubmissionService.DediscoDonation.unknownFields.InternalSwiftProtobuf.UnknownStorage...Vvs",
+          "flagname": "sym.DPSubmissionService.DediscoDonation.unknownFields.InternalSwiftProtobuf.UnknownStorage...Vvs",
+          "realname": "DPSubmissionService.DediscoDonation.unknownFields.InternalSwiftProtobuf.UnknownStorage...Vvs",
+          "ordinal": 93,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295266416,
+          "paddr": 938096,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService15DediscoDonationV16dsEncryptedShare10Foundation4DataVvM",
+          "demname": "DPSubmissionService.DediscoDonation.dsEncryptedShare.Foundation.Data...VvM",
+          "flagname": "sym.DPSubmissionService.DediscoDonation.dsEncryptedShare.Foundation.Data...VvM",
+          "realname": "DPSubmissionService.DediscoDonation.dsEncryptedShare.Foundation.Data...VvM",
+          "ordinal": 94,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295265712,
+          "paddr": 937392,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService15DediscoDonationV16dsEncryptedShare10Foundation4DataVvg",
+          "demname": "DPSubmissionService.DediscoDonation.dsEncryptedShare.Foundation.Data...Vvg",
+          "flagname": "sym.DPSubmissionService.DediscoDonation.dsEncryptedShare.Foundation.Data...Vvg",
+          "realname": "DPSubmissionService.DediscoDonation.dsEncryptedShare.Foundation.Data...Vvg",
+          "ordinal": 95,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295107916,
+          "paddr": 779596,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService15DediscoDonationV16dsEncryptedShare10Foundation4DataVvpMV",
+          "demname": "DPSubmissionService.DediscoDonation.dsEncryptedShare.Foundation.Data...VvpMV",
+          "flagname": "sym.DPSubmissionService.DediscoDonation.dsEncryptedShare.Foundation.Data...VvpMV",
+          "realname": "DPSubmissionService.DediscoDonation.dsEncryptedShare.Foundation.Data...VvpMV",
+          "ordinal": 96,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295343296,
+          "paddr": 1014976,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService15DediscoDonationV16dsEncryptedShare10Foundation4DataVvpfi",
+          "demname": "DPSubmissionService.DediscoDonation.dsEncryptedShare.Foundation.Data...Vvpfi",
+          "flagname": "sym.DPSubmissionService.DediscoDonation.dsEncryptedShare.Foundation.Data...Vvpfi",
+          "realname": "DPSubmissionService.DediscoDonation.dsEncryptedShare.Foundation.Data...Vvpfi",
+          "ordinal": 97,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295055804,
+          "paddr": 727484,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService15DediscoDonationV16dsEncryptedShare10Foundation4DataVvs",
+          "demname": "DPSubmissionService.DediscoDonation.dsEncryptedShare.Foundation.Data...Vvs",
+          "flagname": "sym.DPSubmissionService.DediscoDonation.dsEncryptedShare.Foundation.Data...Vvs",
+          "realname": "DPSubmissionService.DediscoDonation.dsEncryptedShare.Foundation.Data...Vvs",
+          "ordinal": 98,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295265656,
+          "paddr": 937336,
+          "is_imported": false
+        },
+        {
+          "name": "_$s19DPSubmissionService15DediscoDonationV16fsEncryptedShare10Foundation4DataVvM",
+          "demname": "DPSubmissionService.DediscoDonation.fsEncryptedShare.Foundation.Data...VvM",
+          "flagname": "sym.DPSubmissionService.DediscoDonation.fsEncryptedShare.Foundation.Data...VvM",
+          "realname": "DPSubmissionService.DediscoDonation.fsEncryptedShare.Foundation.Data...VvM",
+          "ordinal": 99,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295265624,
+          "paddr": 937304,
+          "is_imported": false
+        }
+      ]
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "XPCServices/DPSubmissionService.xpc/Contents/Info.plist",
+        "XPCServices/DPSubmissionService.xpc/Contents/version.plist",
+        "XPCServices/DPSubmissionService.xpc/Contents/_CodeSignature/CodeResources",
+        "XPCServices/DPSubmissionService.xpc/Contents/MacOS/DPSubmissionService",
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/override.keynames.plist",
+        "Versions/A/Resources/override.datatypeparameters.plist",
+        "Versions/A/Resources/override.namespaceparameters.plist",
+        "Versions/A/Resources/override.keyproperties.plist",
+        "Versions/A/Resources/override.budgetproperties.plist",
+        "Versions/A/Resources/override.algorithmparameters.plist",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist",
+        "Versions/A/Resources/DifferentialPrivacyDataModel.momd/DifferentialPrivacyDataModel-v4.mom",
+        "Versions/A/Resources/DifferentialPrivacyDataModel.momd/DifferentialPrivacyDataModel-v5.mom",
+        "Versions/A/Resources/DifferentialPrivacyDataModel.momd/DifferentialPrivacyDataModel-v7.mom",
+        "Versions/A/Resources/DifferentialPrivacyDataModel.momd/DifferentialPrivacyDataModel-v6.mom",
+        "Versions/A/Resources/DifferentialPrivacyDataModel.momd/DifferentialPrivacyDataModel-v2.mom",
+        "Versions/A/Resources/DifferentialPrivacyDataModel.momd/DifferentialPrivacyDataModel-v3.mom",
+        "Versions/A/Resources/DifferentialPrivacyDataModel.momd/VersionInfo.plist",
+        "Versions/A/Resources/DifferentialPrivacyDataModel.momd/DifferentialPrivacyDataModel-v14.omo",
+        "Versions/A/Resources/DifferentialPrivacyDataModel.momd/DifferentialPrivacyDataModel-v14.mom",
+        "Versions/A/Resources/DifferentialPrivacyDataModel.momd/DifferentialPrivacyDataModel.mom",
+        "Versions/A/Resources/DifferentialPrivacyDataModel.momd/DifferentialPrivacyDataModel-v11.mom",
+        "Versions/A/Resources/DifferentialPrivacyDataModel.momd/DifferentialPrivacyDataModel-v10.mom",
+        "Versions/A/Resources/DifferentialPrivacyDataModel.momd/DifferentialPrivacyDataModel-v12.mom",
+        "Versions/A/Resources/DifferentialPrivacyDataModel.momd/DifferentialPrivacyDataModel-v13.mom",
+        "Versions/A/Resources/DifferentialPrivacyDataModel.momd/DifferentialPrivacyDataModel-v8.mom",
+        "Versions/A/Resources/DifferentialPrivacyDataModel.momd/DifferentialPrivacyDataModel-v9.mom"
+      ],
+      "plists": {
+        "XPCServices/DPSubmissionService.xpc/Contents/Info.plist": {
+          "CFBundleName": "DPSubmissionService",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "English",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "XPCService": {
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "DPSubmissionService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.DPSubmissionService",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleDisplayName": "DPSubmissionService",
+          "DTPlatformBuild": ""
+        },
+        "XPCServices/DPSubmissionService.xpc/Contents/version.plist": {
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleVersion": "1",
+          "ProjectName": "DifferentialPrivacy_Services",
+          "BuildAliasOf": "DifferentialPrivacy",
+          "SourceVersion": "684040008000000",
+          "BuildVersion": "75"
+        },
+        "Versions/A/Resources/override.keynames.plist": {
+          "pfl:com.apple.priml.PFLCarryTraining.SiriMASPFLPlugin:results:": {
+            "PropertiesName": "PFL.PFLCarryTraining.SiriMASPFLPlugin:Results"
+          },
+          "fedstats:com.apple.differentialprivacy.prio2TunableDPBudgetTestKey": {
+            "PropertiesName": "Prio2TunableDPBudgetTest"
+          },
+          "pfl:com.apple.priml.PFLCarryTraining.PlaygroundPlugin.v2:metadata:": {
+            "PropertiesName": "PFL.PFLCarryTraining.PlaygroundPlugin.V2:Metadata"
+          },
+          "pfl:com.apple.priml.PFLCarryTraining.SiriMASPFLPlugin:metadata:": {
+            "PropertiesName": "PFL.PFLCarryTraining.SiriMASPFLPlugin:Metadata"
+          },
+          "pfl:com.apple.priml.PFLCarryTraining.PlaygroundPlugin:metrics:": {
+            "PropertiesName": "PFL.PFLCarryTraining.PlaygroundPlugin:Metrics"
+          },
+          "fedstats:com.apple.differentialprivacy.prio3SumVectorTunableDPBudgetTestKey": {
+            "PropertiesName": "Prio3SumVectorTunableDPBudgetTest"
+          },
+          "pfl:com.apple.priml.PFLCarryTraining.PlaygroundPlugin.v2:results:": {
+            "PropertiesName": "PFL.PFLCarryTraining.PlaygroundPlugin.V2:Results"
+          },
+          "pfl:com.apple.priml.PFLCarryTraining.SiriMASPFLPlugin:metrics:": {
+            "PropertiesName": "PFL.PFLCarryTraining.SiriMASPFLPlugin:Metrics"
+          },
+          "pfl:com.apple.differentialprivacy.prioPlusPlusDirectUploadTestKey": {
+            "PropertiesName": "PrioPlusPlusDirectUploadTest"
+          },
+          "fedstats:com.apple.insights.wireless.connectivity-context": {
+            "PropertiesName": "WirelessConnectivityContext"
+          },
+          "pfl:com.apple.priml.PFLCarryTraining.PlaygroundPlugin.v2:metrics:": {
+            "PropertiesName": "PFL.PFLCarryTraining.PlaygroundPlugin.V2:Metrics"
+          },
+          "pfl:com.apple.priml.PFLCarryTraining.PlaygroundPlugin:metadata:": {
+            "PropertiesName": "PFL.PFLCarryTraining.PlaygroundPlugin:Metadata"
+          },
+          "fedstats:com.apple.insights.photos-video-assets-stats": {
+            "PropertiesName": "PhotosVideoAssetsStats"
+          },
+          "fedstats:com.apple.dedisco.telemetry": {
+            "PropertiesName": "fedstats.com.apple.dedisco.telemetry"
+          },
+          "pfl:com.apple.priml.PFLCarryTraining.PlaygroundPlugin:results:": {
+            "PropertiesName": "PFL.PFLCarryTraining.PlaygroundPlugin:Results"
+          }
+        },
+        "Versions/A/Resources/override.datatypeparameters.plist": {},
+        "Versions/A/Resources/override.namespaceparameters.plist": {},
+        "Versions/A/Resources/override.keyproperties.plist": {
+          "PhotosVideoAssetsStats": {
+            "BudgetKeyName": "fedstats.com.apple.insights.photos-video-assets-stats",
+            "PrivacyParameter": 8,
+            "AlgorithmParameters": {
+              "DefaultMinBatchSize": 5
+            },
+            "ServerAlgorithmString": "Prio3SumVectorField64MultiproofHmacSha256Aes128",
+            "TelemetryAllowed": true,
+            "SubmissionPriority": 1,
+            "DataAlgorithm": "BitValueFrequency",
+            "Transport": "Dedisco",
+            "PrivatizationAlgorithm": "Prio3SumVectorField64MultiproofHmacSha256Aes128"
+          },
+          "PFL.PFLCarryTraining.SiriMASPFLPlugin:Metrics": {
+            "AlgorithmParameters": {
+              "delta": 1e-05,
+              "n": 237500
+            },
+            "PrivacyParameter": 2,
+            "DirectUpload": true,
+            "ServerAlgorithmString": "PrioPlusPlusMetrics",
+            "BudgetKeyName": "PFL.Budget.PFLCarryTraining.SiriMASPFLPlugin:Metrics",
+            "DataAlgorithm": "BitValueFrequency",
+            "SubmissionPriority": 1,
+            "Transport": "Dedisco",
+            "PrivatizationAlgorithm": "PrioPlusPlusMetrics"
+          },
+          "PFL.PFLCarryTraining.PlaygroundPlugin:Results": {
+            "BudgetKeyName": "PFL.Budget.PFLCarryTraining.PlaygroundPlugin:Results",
+            "AlgorithmParameters": {
+              "delta": 1e-05,
+              "n": 237500
+            },
+            "PrivacyParameter": 8,
+            "ServerAlgorithmString": "PrioPlusPlus",
+            "PrivatizationAlgorithm": "PrioPlusPlus",
+            "SubmissionPriority": 1,
+            "DataAlgorithm": "BitValueFrequency",
+            "Transport": "Dedisco",
+            "DirectUpload": true
+          },
+          "PFL.PFLCarryTraining.PlaygroundPlugin:Metrics": {
+            "BudgetKeyName": "PFL.Budget.PFLCarryTraining.PlaygroundPlugin:Metrics",
+            "AlgorithmParameters": {
+              "delta": 1e-05,
+              "n": 237500
+            },
+            "PrivacyParameter": 8,
+            "ServerAlgorithmString": "PrioPlusPlusMetrics",
+            "PrivatizationAlgorithm": "PrioPlusPlusMetrics",
+            "SubmissionPriority": 1,
+            "DataAlgorithm": "BitValueFrequency",
+            "Transport": "Dedisco",
+            "DirectUpload": true
+          },
+          "WirelessConnectivityContext": {
+            "DirectUpload": true,
+            "PrivacyParameter": 8,
+            "BudgetKeyName": "fedstats.com.apple.insights.wireless.connectivity-context",
+            "ServerAlgorithmString": "PrioPiRappor",
+            "AlgorithmParameters": {
+              "p": 10000000,
+              "dynamicVectorSize": true
+            },
+            "TelemetryAllowed": true,
+            "SubmissionPriority": 1,
+            "DataAlgorithm": "BitValueFrequency",
+            "Transport": "Dedisco",
+            "PrivatizationAlgorithm": "PrioPiRappor"
+          },
+          "PFL.PFLCarryTraining.PlaygroundPlugin:Metadata": {
+            "BudgetKeyName": "PFL.Budget.PFLCarryTraining.PlaygroundPlugin:Metadata",
+            "AlgorithmParameters": {
+              "p": 65536,
+              "dynamicVectorSize": true
+            },
+            "PrivacyParameter": 8,
+            "ServerAlgorithmString": "PrioPlusPlusMetadata",
+            "PrivatizationAlgorithm": "PrioPlusPlusMetadata",
+            "SubmissionPriority": 1,
+            "DataAlgorithm": "BitValueFrequency",
+            "Transport": "Dedisco",
+            "DirectUpload": true
+          },
+          "fedstats.com.apple.dedisco.telemetry": {
+            "AlgorithmParameters": {
+              "delta": 1e-05,
+              "n": 237500
+            },
+            "PrivacyParameter": 10,
+            "DirectUpload": true,
+            "ServerAlgorithmString": "PrioPlusPlusMetrics",
+            "BudgetKeyName": "fedstats.budgets.dedisco.telemetry",
+            "DataAlgorithm": "BitValueFrequency",
+            "SubmissionPriority": 1,
+            "Transport": "Dedisco",
+            "PrivatizationAlgorithm": "PrioPlusPlusMetrics"
+          },
+          "Prio2TunableDPBudgetTest": {
+            "AlgorithmParameters": {
+              "p": 10000,
+              "dynamicVectorSize": true,
+              "DefaultMinBatchSize": 462
+            },
+            "PrivacyParameter": 3,
+            "BudgetKeyName": "com.apple.differentialprivacy.testBudget",
+            "ServerAlgorithmString": "Prio",
+            "SubmissionPriority": 1,
+            "DataAlgorithm": "BitValueFrequency",
+            "Transport": "Dedisco",
+            "PrivatizationAlgorithm": "Prio"
+          },
+          "PFL.PFLCarryTraining.PlaygroundPlugin.V2:Metadata": {
+            "DirectUpload": true,
+            "PrivacyParameter": 8,
+            "BudgetKeyName": "PFL.Budget.PFLCarryTraining.PlaygroundPlugin:Metadata",
+            "ServerAlgorithmString": "PINEMetadata",
+            "SubmissionPriority": 1,
+            "DataAlgorithm": "BitValueFrequency",
+            "Transport": "Dedisco",
+            "PrivatizationAlgorithm": "PINEMetadata"
+          },
+          "PFL.PFLCarryTraining.PlaygroundPlugin.V2:Results": {
+            "DirectUpload": true,
+            "PrivacyParameter": 8,
+            "BudgetKeyName": "PFL.Budget.PFLCarryTraining.PlaygroundPlugin:Results",
+            "ServerAlgorithmString": "PINEResults",
+            "SubmissionPriority": 1,
+            "DataAlgorithm": "BitValueFrequency",
+            "Transport": "Dedisco",
+            "PrivatizationAlgorithm": "PINEResults"
+          },
+          "PrioPlusPlusDirectUploadTest": {
+            "AlgorithmParameters": {
+              "delta": 1,
+              "n": 237500
+            },
+            "PrivacyParameter": 8,
+            "BudgetKeyName": "com.apple.differentialprivacy.testBudget",
+            "ServerAlgorithmString": "PrioPlusPlus",
+            "DirectUpload": true,
+            "SubmissionPriority": 1,
+            "DataAlgorithm": "BitValueFrequency",
+            "Transport": "Dedisco",
+            "PrivatizationAlgorithm": "PrioPlusPlus"
+          },
+          "PFL.PFLCarryTraining.PlaygroundPlugin.V2:Metrics": {
+            "DirectUpload": true,
+            "PrivacyParameter": 8,
+            "BudgetKeyName": "PFL.Budget.PFLCarryTraining.PlaygroundPlugin:Metrics",
+            "ServerAlgorithmString": "PINEMetrics",
+            "SubmissionPriority": 1,
+            "DataAlgorithm": "BitValueFrequency",
+            "Transport": "Dedisco",
+            "PrivatizationAlgorithm": "PINEMetrics"
+          },
+          "PFL.PFLCarryTraining.SiriMASPFLPlugin:Results": {
+            "AlgorithmParameters": {
+              "delta": 1e-05,
+              "n": 237500
+            },
+            "PrivacyParameter": 2,
+            "DirectUpload": true,
+            "ServerAlgorithmString": "PrioPlusPlus",
+            "BudgetKeyName": "PFL.Budget.PFLCarryTraining.SiriMASPFLPlugin:Results",
+            "DataAlgorithm": "BitValueFrequency",
+            "SubmissionPriority": 1,
+            "Transport": "Dedisco",
+            "PrivatizationAlgorithm": "PrioPlusPlus"
+          },
+          "Prio3SumVectorTunableDPBudgetTest": {
+            "AlgorithmParameters": {
+              "DefaultMinBatchSize": 462
+            },
+            "PrivacyParameter": 3,
+            "BudgetKeyName": "com.apple.differentialprivacy.testBudget",
+            "ServerAlgorithmString": "Prio3SumVectorField64MultiproofHmacSha256Aes128",
+            "SubmissionPriority": 1,
+            "DataAlgorithm": "BitValueFrequency",
+            "Transport": "Dedisco",
+            "PrivatizationAlgorithm": "Prio3SumVectorField64MultiproofHmacSha256Aes128"
+          },
+          "PFL.PFLCarryTraining.SiriMASPFLPlugin:Metadata": {
+            "AlgorithmParameters": {
+              "p": 65536,
+              "dynamicVectorSize": true
+            },
+            "PrivacyParameter": 2,
+            "DirectUpload": true,
+            "ServerAlgorithmString": "PrioPlusPlusMetadata",
+            "BudgetKeyName": "PFL.Budget.PFLCarryTraining.SiriMASPFLPlugin:Metadata",
+            "DataAlgorithm": "BitValueFrequency",
+            "SubmissionPriority": 1,
+            "Transport": "Dedisco",
+            "PrivatizationAlgorithm": "PrioPlusPlusMetadata"
+          }
+        },
+        "Versions/A/Resources/override.budgetproperties.plist": {
+          "fedstats.budgets.dedisco.telemetry": {
+            "RefillInterval": 3600,
+            "SessionSeconds": 86400,
+            "SessionAmount": 10,
+            "RefillAmount": 20
+          },
+          "PFL.Budget.PFLCarryTraining.SiriMASPFLPlugin:Results": {
+            "RefillInterval": 3600,
+            "SessionChunks": 1,
+            "SessionSeconds": 86400,
+            "SessionAmount": 1,
+            "RefillAmount": 1
+          },
+          "fedstats.com.apple.insights.wireless.connectivity-context": {
+            "RefillInterval": 3600,
+            "SessionSeconds": 86400,
+            "SessionChunks": 1,
+            "SessionAmount": 3,
+            "RefillAmount": 3
+          },
+          "PFL.Budget.PFLCarryTraining.SiriMASPFLPlugin:Metrics": {
+            "RefillInterval": 3600,
+            "SessionSeconds": 86400,
+            "SessionAmount": 1,
+            "RefillAmount": 1
+          },
+          "PFL.Budget.PFLCarryTraining.PlaygroundPlugin:Metadata": {
+            "RefillInterval": 3600,
+            "SessionSeconds": 86400,
+            "SessionAmount": 1,
+            "RefillAmount": 1
+          },
+          "PFL.Budget.PFLCarryTraining.SiriMASPFLPlugin:Metadata": {
+            "RefillInterval": 3600,
+            "SessionSeconds": 86400,
+            "SessionAmount": 1,
+            "RefillAmount": 1
+          },
+          "com.apple.differentialprivacy.testBudget": {
+            "RefillInterval": 3600,
+            "SessionSeconds": 86400,
+            "SessionChunks": 60,
+            "SessionAmount": 10,
+            "RefillAmount": 50
+          },
+          "fedstats.com.apple.insights.photos-video-assets-stats": {
+            "RefillInterval": 3600,
+            "SessionSeconds": 86400,
+            "SessionChunks": 1,
+            "SessionAmount": 3,
+            "RefillAmount": 20
+          },
+          "PFL.Budget.PFLCarryTraining.PlaygroundPlugin:Results": {
+            "RefillInterval": 3600,
+            "SessionSeconds": 86400,
+            "SessionChunks": 2,
+            "SessionAmount": 1,
+            "RefillAmount": 1
+          },
+          "PFL.Budget.PFLCarryTraining.PlaygroundPlugin:Metrics": {
+            "RefillInterval": 3600,
+            "SessionSeconds": 86400,
+            "SessionAmount": 1,
+            "RefillAmount": 1
+          },
+          "com.apple.AppLaunch": {
+            "RefillInterval": 3600,
+            "SessionChunks": 2,
+            "SessionSeconds": 86400,
+            "SessionAmount": 10,
+            "RefillAmount": 20
+          }
+        },
+        "Versions/A/Resources/override.algorithmparameters.plist": {},
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "DifferentialPrivacy",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "FMWK",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "DifferentialPrivacy",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.DifferentialPrivacy",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleSignature": "????",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "DifferentialPrivacy",
+          "SourceVersion": "684040008000000",
+          "BuildVersion": "75"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
   },
   "usage": {
     "layer": "usage",
-    "status": "not_implemented"
+    "used_by": []
   },
   "runtime": {
-    "layer": "runtime",
-    "status": "not_implemented"
+    "method": "ctypes",
+    "status": "loaded"
   }
 }

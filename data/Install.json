@@ -163,14 +163,404 @@
         ]
       }
     ],
-    "protocols": []
+    "swift_metadata": {
+      "is_swift": false,
+      "symbols": []
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Frameworks/DistributionKit.framework/Versions/A/_CodeSignature/CodeResources",
+        "Frameworks/DistributionKit.framework/Versions/A/Resources/OpenCLParameters.plist",
+        "Frameworks/DistributionKit.framework/Versions/A/Resources/OpenGLParameters.plist",
+        "Frameworks/DistributionKit.framework/Versions/A/Resources/Distribution.loctable",
+        "Frameworks/DistributionKit.framework/Versions/A/Resources/PKDistributionController.loctable",
+        "Frameworks/DistributionKit.framework/Versions/A/Resources/Info.plist",
+        "Frameworks/DistributionKit.framework/Versions/A/Resources/version.plist",
+        "Frameworks/DistributionKit.framework/Versions/A/XPCServices/DistributionHelper.xpc/Contents/Info.plist",
+        "Frameworks/DistributionKit.framework/Versions/A/XPCServices/DistributionHelper.xpc/Contents/version.plist",
+        "Frameworks/DistributionKit.framework/Versions/A/XPCServices/DistributionHelper.xpc/Contents/_CodeSignature/CodeResources",
+        "Frameworks/DistributionKit.framework/Versions/A/XPCServices/DistributionHelper.xpc/Contents/MacOS/DistributionHelper",
+        "Frameworks/DistributionKit.framework/Versions/A/XPCServices/DistributionHelper.xpc/Contents/Resources/InfoPlist.loctable",
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/IFRequirement.loctable",
+        "Versions/A/Resources/PaxErrors.loctable",
+        "Versions/A/Resources/StatusStrings.loctable",
+        "Versions/A/Resources/AppleCoreLanguages.plist",
+        "Versions/A/Resources/AppCompatibility.plist",
+        "Versions/A/Resources/Errors.loctable",
+        "Versions/A/Resources/rc.installer_cleanup",
+        "Versions/A/Resources/VolumeCheck.loctable",
+        "Versions/A/Resources/LogEntries.loctable",
+        "Versions/A/Resources/FileSystemNames.loctable",
+        "Versions/A/Resources/ReceiptCompatibility.plist",
+        "Versions/A/Resources/InstallationCheck.loctable",
+        "Versions/A/Resources/InstallDescriptions.loctable",
+        "Versions/A/Resources/Default.hints",
+        "Versions/A/Resources/Architectures.loctable",
+        "Versions/A/Resources/Localizable.loctable",
+        "Versions/A/Resources/PackageFilters.plist",
+        "Versions/A/Resources/Distribution.loctable",
+        "Versions/A/Resources/InstallQueueDescription.plist",
+        "Versions/A/Resources/InfoPlist.loctable",
+        "Versions/A/Resources/DiskSizes.loctable",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist"
+      ],
+      "plists": {
+        "Frameworks/DistributionKit.framework/Versions/A/Resources/OpenCLParameters.plist": {},
+        "Frameworks/DistributionKit.framework/Versions/A/Resources/OpenGLParameters.plist": {},
+        "Frameworks/DistributionKit.framework/Versions/A/Resources/Info.plist": {
+          "CFBundleName": "DistributionKit",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "English",
+          "CFBundleVersion": "1000",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "FMWK",
+          "CFBundleShortVersionString": "700",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "DistributionKit",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.DistributionKit",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleSignature": "????",
+          "DTPlatformBuild": ""
+        },
+        "Frameworks/DistributionKit.framework/Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "1000",
+          "CFBundleShortVersionString": "700",
+          "ProjectName": "Install",
+          "SourceVersion": "1660000000000000",
+          "BuildVersion": "505"
+        },
+        "Frameworks/DistributionKit.framework/Versions/A/XPCServices/DistributionHelper.xpc/Contents/Info.plist": {
+          "CFBundleName": "DistributionHelper",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2023 Apple Inc. All rights reserved.",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "XPCService": {
+            "RunLoopType": "NSRunLoop",
+            "JoinExistingSession": false,
+            "ServiceType": "User"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "DistributionHelper",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.DistributionKit.DistributionHelper",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "13.3",
+          "CFBundleDisplayName": "DistributionHelper",
+          "DTPlatformBuild": ""
+        },
+        "Frameworks/DistributionKit.framework/Versions/A/XPCServices/DistributionHelper.xpc/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "Install",
+          "SourceVersion": "1660000000000000",
+          "BuildVersion": "505"
+        },
+        "Versions/A/Resources/AppleCoreLanguages.plist": {
+          "tier0": {
+            "de": "German",
+            "en": "English",
+            "jp": "Japanese",
+            "fr": "French"
+          },
+          "tier1": {
+            "zh_CN": "Simplified Chinese",
+            "es": "Spanish",
+            "nl": "Dutch",
+            "it": "Italian"
+          },
+          "tier2": {
+            "zh_TW": "Traditional Chinese",
+            "ko": "Korean",
+            "pl": "Polish",
+            "pt": "Portuguese",
+            "pt_PT": "Portuguese",
+            "ru": "Russian",
+            "fi": "Finnish",
+            "no": "Norwegian",
+            "sv": "Swedish",
+            "da": "Danish"
+          }
+        },
+        "Versions/A/Resources/AppCompatibility.plist": [
+          {
+            "Predicate": "( SUBQUERY( packages, $p, $p.identifier == \"com.symantec.nav.install\" && $p.normalizedVersion <= \"011.000.000.011.000\" ).@count != 0 )",
+            "Description": "LiveUpdate mechanism relies on receipt data existing before postinstall scripts run [6833901]"
+          },
+          {
+            "Predicate": "packages[FIRST].location.path CONTAINS \"Install Pro Tools LE\"",
+            "Description": "Package scripts depend on interleaving of extraction and postinstall scripts to adjust permissions; payload has incorrect permissions [6620211]"
+          },
+          {
+            "Predicate": "(packages[FIRST].location.path CONTAINS \"LabVIEW 8.5\") AND (ANY packages.identifier BEGINSWITH \"com.ni\")",
+            "Description": "Package scripts depend on interleaving of extraction and postinstall scripts to complete successfully [6401285]."
+          },
+          {
+            "Predicate": "ANY packages.identifier BEGINSWITH \"com.quark.quarkxpress.installer.quarkxpress8\"",
+            "Description": "Package scripts rely on logname(1) [6467375]."
+          },
+          {
+            "Predicate": "(packages[FIRST].identifier == \"com.nikon.capturenx2\") AND (packages[FIRST].version BEGINSWITH \"2.\")",
+            "Description": "Package relies on deprecated IFPkgPathMappings mechanism [6516527, 6815746]"
+          },
+          {
+            "Predicate": "ANY packages.identifier BEGINSWITH \"com.aspyr.pkg.\"",
+            "Description": "Package relies on LaunchServices search but has incomplete component data in TokenDefinitions.plist [6692734,6931346]"
+          },
+          {
+            "Predicate": "hasPathMapperUserLocation == YES",
+            "Description": "Package uses special UserLocation path mapper token [6388588]"
+          }
+        ],
+        "Versions/A/Resources/ReceiptCompatibility.plist": [
+          {
+            "ReceiptName": "Shade7.1.1bscUpdater.pkg",
+            "ReceiptID": "com.e-frontier.pkg.shade.basic"
+          }
+        ],
+        "Versions/A/Resources/PackageFilters.plist": [
+          {
+            "Description": "6648253 6945471",
+            "Predicate": "( SUBQUERY( packages, $p, $p.identifier == \"com.apple.pkg.iLife'08\" && ( $p.version == \"8.0.1.2660000.1915\" || $p.version == \"8.0.1.2660200.1927\" ) ).@count != 0 )",
+            "DisablePackages": [
+              "com.apple.pkg.RAWCamera"
+            ]
+          }
+        ],
+        "Versions/A/Resources/InstallQueueDescription.plist": [
+          {
+            "OSClassName": "OSRecoverFailedInstallQueueElement",
+            "Name": "post failure recovery",
+            "Description": "prepares the disk to retry after failed installation"
+          },
+          {
+            "OSClassName": "OSPreInstallSizingQueueElement",
+            "Name": "pre-reap sizing",
+            "Description": "calculates expected reap size, and ensures enough space for install"
+          },
+          {
+            "OSClassName": "OSVolumeFsckQueueElement",
+            "Name": "fsck target",
+            "Description": "fsck the target volume"
+          },
+          {
+            "OSClassName": "OSCreateRecoverySystemQueueElement",
+            "Name": "ensure recovery partition",
+            "Description": "creates or updates the recovery partition using BaseSystem.dmg"
+          },
+          {
+            "OSClassName": "OSDownloadPackagesQueueElement",
+            "Name": "download packages",
+            "Description": "copies or downloads selected packages into a cache on local disk for installation"
+          },
+          {
+            "OSClassName": "OSVerifyMediaQueueElement",
+            "Name": "verify packages",
+            "Description": "xar verifies selected packages queued for installation"
+          },
+          {
+            "Attributes": [
+              "instant"
+            ],
+            "Description": "create an archive of the old system for reaping and migration",
+            "Name": "create archive",
+            "OSClassName": "OSPreUpgradeInstallQueueElement"
+          },
+          {
+            "Attributes": [
+              "instant"
+            ],
+            "Description": "enable vm with swap files on the target disk, reserves disk, enables journaling",
+            "Name": "activate vm",
+            "OSClassName": "OSVolumeSetupQueueElement",
+            "IFClassName": "IFVolumeSetupElement"
+          },
+          {
+            "OSClassName": "OSSystemReaperQueueElement",
+            "Name": "reap old system",
+            "Description": "reap system files in the previous system archive"
+          },
+          {
+            "Attributes": [
+              "instant"
+            ],
+            "Description": "routes the install log buffer to a file on the target",
+            "Name": "start logging to disk",
+            "OSClassName": "OSAttachLogQueueElement"
+          },
+          {
+            "OSClassName": "OSBaseSystemCopierQueueElement",
+            "Name": "copy base system",
+            "Description": "copies the base system"
+          },
+          {
+            "IFClassName": "IFPKInstallElement",
+            "Name": "install packages with PackageKit",
+            "Description": "installs packages using PackageKit"
+          },
+          {
+            "Attributes": [
+              "instant"
+            ],
+            "Description": "writes language cookie for macbuddy and install type cookie for server",
+            "Name": "write helper cookies",
+            "OSClassName": "OSCookiesQueueElement"
+          },
+          {
+            "Attributes": [
+              "instant"
+            ],
+            "Description": "removes temporary directory used by IF-based package installs",
+            "Name": "remove temporary directory",
+            "IFClassName": "IFRemoveTempDirsElement"
+          },
+          {
+            "Attributes": [
+              "instant"
+            ],
+            "Description": "execs /usr/sbin/bless on the target volume on non-media-based os install",
+            "Name": "bless target disk",
+            "OSClassName": "OSBlessDiskQueueElement"
+          },
+          {
+            "Attributes": [
+              "instant"
+            ],
+            "Description": "blesses disk for media-based os install, releases reserved disks",
+            "Name": "finalize target disk",
+            "OSClassName": "OSFinalizeDiskQueueElement",
+            "IFClassName": "IFFinalizeDiskElement"
+          },
+          {
+            "OSClassName": "OSPostUpgradeInstallQueueElement",
+            "Name": "migrate users and files",
+            "Description": "migrates users and files from the archive to the new system"
+          },
+          {
+            "Attributes": [
+              "instant"
+            ],
+            "Description": "touches files on the target volume based on paths installed",
+            "Name": "end of install tasks",
+            "OSClassName": "OSEndOfInstallJobQueueElement",
+            "IFClassName": "IFEndOfInstallJobElement"
+          }
+        ],
+        "Versions/A/Resources/Info.plist": {
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "English",
+          "CFBundleVersion": "1000",
+          "BuildMachineOSBuild": "23A344014",
+          "IFSupportedFSTypes": [
+            "Journaled HFS+",
+            "Case-sensitive Journaled HFS+",
+            "Case-sensitive HFS+",
+            "HFS+",
+            "UFS"
+          ],
+          "DTPlatformName": "macosx",
+          "CFBundleDocumentTypes": [],
+          "CFBundlePackageType": "FMWK",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleShortVersionString": "700",
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "Install",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.installframework",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleSignature": "????",
+          "LSMinimumSystemVersion": "26.1",
+          "IFLanguageNamesOrder": [
+            "en",
+            "ja",
+            "fr",
+            "de",
+            "es",
+            "it",
+            "pt",
+            "pt_PT",
+            "nl",
+            "sv",
+            "no",
+            "da",
+            "fi",
+            "ru",
+            "pl",
+            "zh_CN",
+            "zh_TW",
+            "ko"
+          ],
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "1000",
+          "CFBundleShortVersionString": "700",
+          "ProjectName": "Install",
+          "SourceVersion": "1660000000000000",
+          "BuildVersion": "505"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
   },
   "usage": {
     "layer": "usage",
-    "status": "not_implemented"
+    "used_by": [
+      {
+        "path": "/System/Library/CoreServices/Installer.app",
+        "binary": "/System/Library/CoreServices/Installer.app/Contents/MacOS/Installer",
+        "used_classes": []
+      }
+    ]
   },
   "runtime": {
-    "layer": "runtime",
-    "status": "not_implemented"
+    "method": "ctypes",
+    "status": "loaded"
   }
 }

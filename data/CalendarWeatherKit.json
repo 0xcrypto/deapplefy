@@ -1,0 +1,1846 @@
+{
+  "framework": "CalendarWeatherKit.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/CalendarWeatherKit.framework/Versions/A/XPCServices/com.apple.CalendarWeatherKitService.xpc/Contents/MacOS/com.apple.CalendarWeatherKitService",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 192336,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "objc",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/System/Library/PrivateFrameworks/CalendarFoundation.framework/Versions/A/CalendarFoundation",
+          "/System/Library/Frameworks/CoreLocation.framework/Versions/A/CoreLocation",
+          "/System/Library/PrivateFrameworks/CalendarWeatherKit.framework/Versions/A/CalendarWeatherKit",
+          "/System/Library/PrivateFrameworks/OAuth.framework/Versions/A/OAuth",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "/System/Library/Frameworks/_LocationEssentials.framework/Versions/A/_LocationEssentials",
+          "/System/Library/PrivateFrameworks/CalendarDatabase.framework/Versions/A/CalendarDatabase"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "NSArray(WMDataWithDate)",
+        "addr": 4295115112,
+        "lang": "objc",
+        "index": 0,
+        "super": [
+          "NSArray"
+        ],
+        "rawsuper": [
+          "NSArray"
+        ],
+        "methods": [
+          {
+            "name": "creationDate",
+            "flag": "func.100001254",
+            "lang": "objc",
+            "addr": 4294971988
+          },
+          {
+            "name": "creationDate",
+            "flag": "method.NSArray_WMDataWithDate_.creationDate",
+            "lang": "objc",
+            "addr": 4295064840
+          }
+        ],
+        "fields": [
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "NSDictionary(WMWeatherChannelJSONExtensions)",
+        "addr": 4295117256,
+        "lang": "objc",
+        "index": 1,
+        "super": [
+          "NSDictionary"
+        ],
+        "rawsuper": [
+          "NSDictionary"
+        ],
+        "methods": [
+          {
+            "name": "_objectOfKind:forKeyPath:",
+            "flag": "method.NSDictionary_WMWeatherChannelJSONExtensions_._objectOfKind:forKeyPath:",
+            "lang": "objc",
+            "addr": 4295043788
+          },
+          {
+            "name": "objectForKeyPath:",
+            "flag": "method.NSDictionary_WMWeatherChannelJSONExtensions_.objectForKeyPath:",
+            "lang": "objc",
+            "addr": 4295044272
+          },
+          {
+            "name": "stringForKeyPath:",
+            "flag": "method.NSDictionary_WMWeatherChannelJSONExtensions_.stringForKeyPath:",
+            "lang": "objc",
+            "addr": 4295044284
+          },
+          {
+            "name": "numberForKeyPath:",
+            "flag": "method.NSDictionary_WMWeatherChannelJSONExtensions_.numberForKeyPath:",
+            "lang": "objc",
+            "addr": 4295044408
+          },
+          {
+            "name": "floatForKeyPath:",
+            "flag": "method.NSDictionary_WMWeatherChannelJSONExtensions_.floatForKeyPath:",
+            "lang": "objc",
+            "addr": 4295044532
+          }
+        ]
+      },
+      {
+        "classname": "NSString(WMWeatherChannelStringAdditions)",
+        "addr": 4295117320,
+        "lang": "objc",
+        "index": 2,
+        "super": [
+          "NSString"
+        ],
+        "rawsuper": [
+          "NSString"
+        ],
+        "methods": [
+          {
+            "name": "stringWithFormat:andArguments:",
+            "flag": "method.class.NSString_WMWeatherChannelStringAdditions_.stringWithFormat:andArguments:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295044696
+          }
+        ]
+      },
+      {
+        "classname": "WMWeatherStoreService",
+        "addr": 4295120072,
+        "lang": "objc",
+        "index": 3,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.WMWeatherStoreService.init",
+            "lang": "objc",
+            "addr": 4294972076
+          },
+          {
+            "name": "getCacheFileLocationWithFilename:",
+            "flag": "method.WMWeatherStoreService.getCacheFileLocationWithFilename:",
+            "lang": "objc",
+            "addr": 4294974208
+          },
+          {
+            "name": "getOldCacheFileLocationWithFilename:",
+            "flag": "method.WMWeatherStoreService.getOldCacheFileLocationWithFilename:",
+            "lang": "objc",
+            "addr": 4294974320
+          },
+          {
+            "name": "deleteOldDataFromCache:allowedStaleness:",
+            "flag": "method.WMWeatherStoreService.deleteOldDataFromCache:allowedStaleness:",
+            "lang": "objc",
+            "addr": 4294974628
+          },
+          {
+            "name": "shrinkCache:",
+            "flag": "method.WMWeatherStoreService.shrinkCache:",
+            "lang": "objc",
+            "addr": 4294975032
+          },
+          {
+            "name": "deleteOldDataFromCache",
+            "flag": "method.WMWeatherStoreService.deleteOldDataFromCache",
+            "lang": "objc",
+            "addr": 4294975896
+          },
+          {
+            "name": "writeCacheDictionariesToFile",
+            "flag": "method.WMWeatherStoreService.writeCacheDictionariesToFile",
+            "lang": "objc",
+            "addr": 4294976552
+          },
+          {
+            "name": "cachedDataForKey:inCacheDictionary:",
+            "flag": "method.WMWeatherStoreService.cachedDataForKey:inCacheDictionary:",
+            "lang": "objc",
+            "addr": 4294977812
+          },
+          {
+            "name": "setCachedData:forKey:inCacheDictionary:",
+            "flag": "method.WMWeatherStoreService.setCachedData:forKey:inCacheDictionary:",
+            "lang": "objc",
+            "addr": 4294978416
+          },
+          {
+            "name": "weatherForCoordinate:atDate:result:",
+            "flag": "func.100002c8c",
+            "lang": "objc",
+            "addr": 4294978700
+          },
+          {
+            "name": "almanacWeatherForCoordinate:atDate:result:",
+            "flag": "func.100003114",
+            "lang": "objc",
+            "addr": 4294979860
+          },
+          {
+            "name": "historicalWeatherForCoordinate:atDate:result:",
+            "flag": "func.100003828",
+            "lang": "objc",
+            "addr": 4294981672
+          },
+          {
+            "name": "forecastForCoordinate:atDate:result:",
+            "flag": "func.100004010",
+            "lang": "objc",
+            "addr": 4294983696
+          },
+          {
+            "name": "currentDailyForecastForCoordinate:result:",
+            "flag": "func.1000046d8",
+            "lang": "objc",
+            "addr": 4294985432
+          },
+          {
+            "name": "currentHourlyForecastForCoordinate:result:",
+            "flag": "func.1000046e4",
+            "lang": "objc",
+            "addr": 4294985444
+          },
+          {
+            "name": "currentConditionsForCoordinate:result:",
+            "flag": "func.1000046f0",
+            "lang": "objc",
+            "addr": 4294985456
+          },
+          {
+            "name": "currentForecastForCoordinate:forecastType:result:",
+            "flag": "method.WMWeatherStoreService.currentForecastForCoordinate:forecastType:result:",
+            "lang": "objc",
+            "addr": 4294985732
+          },
+          {
+            "name": "locationForCoordinateUsingHistoricalProvider:result:",
+            "flag": "method.WMWeatherStoreService.locationForCoordinateUsingHistoricalProvider:result:",
+            "lang": "objc",
+            "addr": 4294987696
+          },
+          {
+            "name": "locationsForString:results:",
+            "flag": "method.WMWeatherStoreService.locationsForString:results:",
+            "lang": "objc",
+            "addr": 4294993824
+          },
+          {
+            "name": "locationsForString:allowNetworkLookupIfNotInCache:allowedStaleness:results:",
+            "flag": "method.WMWeatherStoreService.locationsForString:allowNetworkLookupIfNotInCache:allowedStaleness:results:",
+            "lang": "objc",
+            "addr": 4294993844
+          },
+          {
+            "name": "dailyForecastsForLocation:results:",
+            "flag": "method.WMWeatherStoreService.dailyForecastsForLocation:results:",
+            "lang": "objc",
+            "addr": 4294994808
+          },
+          {
+            "name": "dailyForecastsForLocation:allowNetworkLookupIfNotInCache:allowedStaleness:results:",
+            "flag": "method.WMWeatherStoreService.dailyForecastsForLocation:allowNetworkLookupIfNotInCache:allowedStaleness:results:",
+            "lang": "objc",
+            "addr": 4294994828
+          },
+          {
+            "name": "hourlyForecastsForLocation:results:",
+            "flag": "method.WMWeatherStoreService.hourlyForecastsForLocation:results:",
+            "lang": "objc",
+            "addr": 4294996000
+          },
+          {
+            "name": "hourlyForecastsForLocation:allowNetworkLookupIfNotInCache:allowedStaleness:results:",
+            "flag": "method.WMWeatherStoreService.hourlyForecastsForLocation:allowNetworkLookupIfNotInCache:allowedStaleness:results:",
+            "lang": "objc",
+            "addr": 4294996020
+          },
+          {
+            "name": "currentConditionsForLocation:results:",
+            "flag": "method.WMWeatherStoreService.currentConditionsForLocation:results:",
+            "lang": "objc",
+            "addr": 4294997192
+          },
+          {
+            "name": "currentConditionsForLocation:allowNetworkLookupIfNotInCache:allowedStaleness:results:",
+            "flag": "method.WMWeatherStoreService.currentConditionsForLocation:allowNetworkLookupIfNotInCache:allowedStaleness:results:",
+            "lang": "objc",
+            "addr": 4294997212
+          },
+          {
+            "name": "cachedLocationLookups",
+            "flag": "method.WMWeatherStoreService.cachedLocationLookups",
+            "lang": "objc",
+            "addr": 4294998260
+          },
+          {
+            "name": "setCachedLocationLookups:",
+            "flag": "method.WMWeatherStoreService.setCachedLocationLookups:",
+            "lang": "objc",
+            "addr": 4294998272
+          },
+          {
+            "name": "cachedDailyForecasts",
+            "flag": "method.WMWeatherStoreService.cachedDailyForecasts",
+            "lang": "objc",
+            "addr": 4294998280
+          },
+          {
+            "name": "setCachedDailyForecasts:",
+            "flag": "method.WMWeatherStoreService.setCachedDailyForecasts:",
+            "lang": "objc",
+            "addr": 4294998292
+          },
+          {
+            "name": "cachedHourlyForecasts",
+            "flag": "method.WMWeatherStoreService.cachedHourlyForecasts",
+            "lang": "objc",
+            "addr": 4294998300
+          },
+          {
+            "name": "setCachedHourlyForecasts:",
+            "flag": "method.WMWeatherStoreService.setCachedHourlyForecasts:",
+            "lang": "objc",
+            "addr": 4294998312
+          },
+          {
+            "name": "cachedCurrentConditions",
+            "flag": "method.WMWeatherStoreService.cachedCurrentConditions",
+            "lang": "objc",
+            "addr": 4294998320
+          },
+          {
+            "name": "setCachedCurrentConditions:",
+            "flag": "method.WMWeatherStoreService.setCachedCurrentConditions:",
+            "lang": "objc",
+            "addr": 4294998332
+          },
+          {
+            "name": "cachedAlmanacData",
+            "flag": "method.WMWeatherStoreService.cachedAlmanacData",
+            "lang": "objc",
+            "addr": 4294998340
+          },
+          {
+            "name": "setCachedAlmanacData:",
+            "flag": "method.WMWeatherStoreService.setCachedAlmanacData:",
+            "lang": "objc",
+            "addr": 4294998352
+          },
+          {
+            "name": "cachedHistoricalData",
+            "flag": "method.WMWeatherStoreService.cachedHistoricalData",
+            "lang": "objc",
+            "addr": 4294998360
+          },
+          {
+            "name": "setCachedHistoricalData:",
+            "flag": "method.WMWeatherStoreService.setCachedHistoricalData:",
+            "lang": "objc",
+            "addr": 4294998372
+          },
+          {
+            "name": "cachedWUGLocationLookups",
+            "flag": "method.WMWeatherStoreService.cachedWUGLocationLookups",
+            "lang": "objc",
+            "addr": 4294998380
+          },
+          {
+            "name": "setCachedWUGLocationLookups:",
+            "flag": "method.WMWeatherStoreService.setCachedWUGLocationLookups:",
+            "lang": "objc",
+            "addr": 4294998392
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.WMWeatherStoreService..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294998400
+          },
+          {
+            "name": "weatherForCoordinate:atDate:result:",
+            "flag": "method.WMWeatherStoreService.weatherForCoordinate:atDate:result:",
+            "lang": "objc",
+            "addr": 4295064864
+          },
+          {
+            "name": "almanacWeatherForCoordinate:atDate:result:",
+            "flag": "method.WMWeatherStoreService.almanacWeatherForCoordinate:atDate:result:",
+            "lang": "objc",
+            "addr": 4295064876
+          },
+          {
+            "name": "historicalWeatherForCoordinate:atDate:result:",
+            "flag": "method.WMWeatherStoreService.historicalWeatherForCoordinate:atDate:result:",
+            "lang": "objc",
+            "addr": 4295064888
+          },
+          {
+            "name": "forecastForCoordinate:atDate:result:",
+            "flag": "method.WMWeatherStoreService.forecastForCoordinate:atDate:result:",
+            "lang": "objc",
+            "addr": 4295064900
+          },
+          {
+            "name": "currentDailyForecastForCoordinate:result:",
+            "flag": "method.WMWeatherStoreService.currentDailyForecastForCoordinate:result:",
+            "lang": "objc",
+            "addr": 4295064912
+          },
+          {
+            "name": "currentHourlyForecastForCoordinate:result:",
+            "flag": "method.WMWeatherStoreService.currentHourlyForecastForCoordinate:result:",
+            "lang": "objc",
+            "addr": 4295064924
+          },
+          {
+            "name": "currentConditionsForCoordinate:result:",
+            "flag": "method.WMWeatherStoreService.currentConditionsForCoordinate:result:",
+            "lang": "objc",
+            "addr": 4295064936
+          },
+          {
+            "name": "areCachedResultsFreshFetchedOn:withAllowedStaleness:",
+            "flag": "method.class.WMWeatherStoreService.areCachedResultsFreshFetchedOn:withAllowedStaleness:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294977708
+          },
+          {
+            "name": "stringRepresentationOfLocation:",
+            "flag": "method.class.WMWeatherStoreService.stringRepresentationOfLocation:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294988616
+          },
+          {
+            "name": "locationRepresentationOfString:",
+            "flag": "method.class.WMWeatherStoreService.locationRepresentationOfString:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294988668
+          },
+          {
+            "name": "keyForWundergroundLocationDictionaryWithCoordinate:",
+            "flag": "method.class.WMWeatherStoreService.keyForWundergroundLocationDictionaryWithCoordinate:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294988864
+          },
+          {
+            "name": "keyForAlmanacDictionaryWithCoordinate:andDate:",
+            "flag": "method.class.WMWeatherStoreService.keyForAlmanacDictionaryWithCoordinate:andDate:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294988868
+          },
+          {
+            "name": "keyForHistoricalDictionaryWithCoordinate:andDate:",
+            "flag": "method.class.WMWeatherStoreService.keyForHistoricalDictionaryWithCoordinate:andDate:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294989076
+          },
+          {
+            "name": "minutesFromNowForDateComponents:",
+            "flag": "method.class.WMWeatherStoreService.minutesFromNowForDateComponents:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294989304
+          },
+          {
+            "name": "minutesBetweenDateComponents:andComponents:",
+            "flag": "method.class.WMWeatherStoreService.minutesBetweenDateComponents:andComponents:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294989528
+          },
+          {
+            "name": "minutesBetweenDateComponent:andDate:",
+            "flag": "method.class.WMWeatherStoreService.minutesBetweenDateComponent:andDate:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294989784
+          },
+          {
+            "name": "dateComponentsAreTimeless:",
+            "flag": "method.class.WMWeatherStoreService.dateComponentsAreTimeless:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294990004
+          },
+          {
+            "name": "weatherDataClosestToDate:inArray:",
+            "flag": "method.class.WMWeatherStoreService.weatherDataClosestToDate:inArray:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294990116
+          },
+          {
+            "name": "componentsWithoutTimeZone:",
+            "flag": "method.class.WMWeatherStoreService.componentsWithoutTimeZone:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294990524
+          },
+          {
+            "name": "isSameDayWithComponents:andComponents:",
+            "flag": "method.class.WMWeatherStoreService.isSameDayWithComponents:andComponents:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294990712
+          },
+          {
+            "name": "weatherDatasOnDate:inArray:",
+            "flag": "method.class.WMWeatherStoreService.weatherDatasOnDate:inArray:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294990964
+          },
+          {
+            "name": "weatherDataOnDate:inArray:",
+            "flag": "method.class.WMWeatherStoreService.weatherDataOnDate:inArray:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294991376
+          },
+          {
+            "name": "removeObjectsFromCache:passingTest:",
+            "flag": "method.class.WMWeatherStoreService.removeObjectsFromCache:passingTest:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294991556
+          },
+          {
+            "name": "filterWithStaleness:lookupBlock:",
+            "flag": "method.class.WMWeatherStoreService.filterWithStaleness:lookupBlock:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294992092
+          },
+          {
+            "name": "fetchResultsOfType:allowedStaleness:allowNetworkLookup:networkQueue:cacheLookupBlock:networkLookupBlock:finishCallback:",
+            "flag": "method.class.WMWeatherStoreService.fetchResultsOfType:allowedStaleness:allowNetworkLookup:networkQueue:cacheLookupBlock:networkLookupBlock:finishCallback:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294992320
+          },
+          {
+            "name": "weatherForCoordinate:atDate:result:",
+            "flag": "method.WMWeatherStoreService.weatherForCoordinate:atDate:result:",
+            "lang": "objc",
+            "addr": 4295064864
+          },
+          {
+            "name": "almanacWeatherForCoordinate:atDate:result:",
+            "flag": "method.WMWeatherStoreService.almanacWeatherForCoordinate:atDate:result:",
+            "lang": "objc",
+            "addr": 4295064876
+          },
+          {
+            "name": "historicalWeatherForCoordinate:atDate:result:",
+            "flag": "method.WMWeatherStoreService.historicalWeatherForCoordinate:atDate:result:",
+            "lang": "objc",
+            "addr": 4295064888
+          },
+          {
+            "name": "forecastForCoordinate:atDate:result:",
+            "flag": "method.WMWeatherStoreService.forecastForCoordinate:atDate:result:",
+            "lang": "objc",
+            "addr": 4295064900
+          },
+          {
+            "name": "currentDailyForecastForCoordinate:result:",
+            "flag": "method.WMWeatherStoreService.currentDailyForecastForCoordinate:result:",
+            "lang": "objc",
+            "addr": 4295064912
+          },
+          {
+            "name": "currentHourlyForecastForCoordinate:result:",
+            "flag": "method.WMWeatherStoreService.currentHourlyForecastForCoordinate:result:",
+            "lang": "objc",
+            "addr": 4295064924
+          },
+          {
+            "name": "currentConditionsForCoordinate:result:",
+            "flag": "method.WMWeatherStoreService.currentConditionsForCoordinate:result:",
+            "lang": "objc",
+            "addr": 4295064936
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_cacheSaveQueue",
+            "kind": "var",
+            "type": "@\"NSObject<OS_dispatch_queue>\"",
+            "addr": 4295119968
+          },
+          {
+            "name": "_cacheReadWriteQueue",
+            "kind": "var",
+            "type": "@\"NSObject<OS_dispatch_queue>\"",
+            "addr": 4295119972
+          },
+          {
+            "name": "_networkQueue",
+            "kind": "var",
+            "type": "@\"NSObject<OS_dispatch_queue>\"",
+            "addr": 4295119976
+          },
+          {
+            "name": "_locationForCoordinateQueue",
+            "kind": "var",
+            "type": "@\"NSObject<OS_dispatch_queue>\"",
+            "addr": 4295119980
+          },
+          {
+            "name": "_limitedWidthQueue",
+            "kind": "var",
+            "type": "@\"CalNWideQueue\"",
+            "addr": 4295119984
+          },
+          {
+            "name": "_currentForecastProvider",
+            "kind": "var",
+            "type": "#",
+            "addr": 4295119988
+          },
+          {
+            "name": "_currentHistorialProvider",
+            "kind": "var",
+            "type": "#",
+            "addr": 4295119992
+          },
+          {
+            "name": "_cachedLocationLookups",
+            "kind": "var",
+            "type": "@\"NSMutableDictionary\"",
+            "addr": 4295119996
+          },
+          {
+            "name": "_cachedDailyForecasts",
+            "kind": "var",
+            "type": "@\"NSMutableDictionary\"",
+            "addr": 4295120000
+          },
+          {
+            "name": "_cachedHourlyForecasts",
+            "kind": "var",
+            "type": "@\"NSMutableDictionary\"",
+            "addr": 4295120004
+          },
+          {
+            "name": "_cachedCurrentConditions",
+            "kind": "var",
+            "type": "@\"NSMutableDictionary\"",
+            "addr": 4295120008
+          },
+          {
+            "name": "_cachedAlmanacData",
+            "kind": "var",
+            "type": "@\"NSMutableDictionary\"",
+            "addr": 4295120012
+          },
+          {
+            "name": "_cachedHistoricalData",
+            "kind": "var",
+            "type": "@\"NSMutableDictionary\"",
+            "addr": 4295120016
+          },
+          {
+            "name": "_cachedWUGLocationLookups",
+            "kind": "var",
+            "type": "@\"NSMutableDictionary\"",
+            "addr": 4295120020
+          },
+          {
+            "name": "cachedLocationLookups",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "cachedDailyForecasts",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "cachedHourlyForecasts",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "cachedCurrentConditions",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "cachedAlmanacData",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "cachedHistoricalData",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "cachedWUGLocationLookups",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "WMXPCListenerDelegate",
+        "addr": 4295120152,
+        "lang": "objc",
+        "index": 4,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.WMXPCListenerDelegate.init",
+            "lang": "objc",
+            "addr": 4294998692
+          },
+          {
+            "name": "listener:shouldAcceptNewConnection:",
+            "flag": "method.WMXPCListenerDelegate.listener:shouldAcceptNewConnection:",
+            "lang": "objc",
+            "addr": 4294998796
+          },
+          {
+            "name": "sharedWeatherStoreService",
+            "flag": "method.WMXPCListenerDelegate.sharedWeatherStoreService",
+            "lang": "objc",
+            "addr": 4294999128
+          },
+          {
+            "name": "setSharedWeatherStoreService:",
+            "flag": "method.WMXPCListenerDelegate.setSharedWeatherStoreService:",
+            "lang": "objc",
+            "addr": 4294999140
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.WMXPCListenerDelegate..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294999148
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_sharedWeatherStoreService",
+            "kind": "var",
+            "type": "@\"WMWeatherStoreService\"",
+            "addr": 4295120024
+          },
+          {
+            "name": "sharedWeatherStoreService",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "WMYahooWeatherProvider",
+        "addr": 4295120232,
+        "lang": "objc",
+        "index": 5,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "forecastsForLocation:results:",
+            "flag": "method.class.WMYahooWeatherProvider.forecastsForLocation:results:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295064456
+          },
+          {
+            "name": "currentConditionsForLocation:results:",
+            "flag": "method.class.WMYahooWeatherProvider.currentConditionsForLocation:results:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295064468
+          },
+          {
+            "name": "forecastsAndCurrentConditionsForLocation:results:",
+            "flag": "method.class.WMYahooWeatherProvider.forecastsAndCurrentConditionsForLocation:results:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295064480
+          },
+          {
+            "name": "initialize",
+            "flag": "method.class.WMYahooWeatherProvider.initialize",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294999160
+          },
+          {
+            "name": "locationForCoordinate:result:",
+            "flag": "method.class.WMYahooWeatherProvider.locationForCoordinate:result:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294999280
+          },
+          {
+            "name": "locationsForString:results:",
+            "flag": "method.class.WMYahooWeatherProvider.locationsForString:results:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294999696
+          },
+          {
+            "name": "supportsNetworkLocationLookup",
+            "flag": "method.class.WMYahooWeatherProvider.supportsNetworkLocationLookup",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295000908
+          },
+          {
+            "name": "forecastsForLocation:results:",
+            "flag": "func.100008354",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295000916
+          },
+          {
+            "name": "currentConditionsForLocation:results:",
+            "flag": "func.100008410",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295001104
+          },
+          {
+            "name": "forecastsAndCurrentConditionsForLocation:results:",
+            "flag": "func.1000084d0",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295001296
+          },
+          {
+            "name": "_forecastHelperForLocation:results:",
+            "flag": "method.class.WMYahooWeatherProvider._forecastHelperForLocation:results:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295001484
+          },
+          {
+            "name": "consumerKey",
+            "flag": "method.class.WMYahooWeatherProvider.consumerKey",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295002924
+          },
+          {
+            "name": "consumerSecret",
+            "flag": "method.class.WMYahooWeatherProvider.consumerSecret",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295002936
+          },
+          {
+            "name": "createCredential",
+            "flag": "method.class.WMYahooWeatherProvider.createCredential",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295002948
+          },
+          {
+            "name": "signedRequestForURL:",
+            "flag": "method.class.WMYahooWeatherProvider.signedRequestForURL:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295003104
+          },
+          {
+            "name": "parseLocationData:",
+            "flag": "method.class.WMYahooWeatherProvider.parseLocationData:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295003488
+          },
+          {
+            "name": "parseForecastData:results:",
+            "flag": "method.class.WMYahooWeatherProvider.parseForecastData:results:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295004120
+          },
+          {
+            "name": "locationObjectsFromArrayOfKeyValueDictionary:",
+            "flag": "method.class.WMYahooWeatherProvider.locationObjectsFromArrayOfKeyValueDictionary:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295005316
+          },
+          {
+            "name": "dateGivenDayOfWeekString:",
+            "flag": "method.class.WMYahooWeatherProvider.dateGivenDayOfWeekString:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295006796
+          },
+          {
+            "name": "dailyForecastObjectsFromArrayOfKeyValueDictionary:",
+            "flag": "method.class.WMYahooWeatherProvider.dailyForecastObjectsFromArrayOfKeyValueDictionary:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295007468
+          },
+          {
+            "name": "hourlyForecastObjectsFromArrayOfKeyValueDictionary:",
+            "flag": "method.class.WMYahooWeatherProvider.hourlyForecastObjectsFromArrayOfKeyValueDictionary:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295009076
+          },
+          {
+            "name": "currentConditionsObjectFromKeyValueDictionary:",
+            "flag": "method.class.WMYahooWeatherProvider.currentConditionsObjectFromKeyValueDictionary:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295011384
+          },
+          {
+            "name": "forecastConditionCodeGivenYahooConditionCode:",
+            "flag": "method.class.WMYahooWeatherProvider.forecastConditionCodeGivenYahooConditionCode:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295012304
+          },
+          {
+            "name": "localizedDescriptionGivenForecastConditionCode:",
+            "flag": "method.class.WMYahooWeatherProvider.localizedDescriptionGivenForecastConditionCode:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295012960
+          },
+          {
+            "name": "adjustedConditionCodeGivenConditionCode:isDayTime:",
+            "flag": "method.class.WMYahooWeatherProvider.adjustedConditionCodeGivenConditionCode:isDayTime:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295013172
+          },
+          {
+            "name": "forecastImageGivenForecastConditionCode:",
+            "flag": "method.class.WMYahooWeatherProvider.forecastImageGivenForecastConditionCode:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295013260
+          },
+          {
+            "name": "updateWeatherDatas:withLocation:currentConditions:",
+            "flag": "method.class.WMYahooWeatherProvider.updateWeatherDatas:withLocation:currentConditions:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295013408
+          },
+          {
+            "name": "urlEncodeString:",
+            "flag": "method.class.WMYahooWeatherProvider.urlEncodeString:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295013996
+          },
+          {
+            "name": "forecastsForLocation:results:",
+            "flag": "method.class.WMYahooWeatherProvider.forecastsForLocation:results:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295064456
+          },
+          {
+            "name": "currentConditionsForLocation:results:",
+            "flag": "method.class.WMYahooWeatherProvider.currentConditionsForLocation:results:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295064468
+          },
+          {
+            "name": "forecastsAndCurrentConditionsForLocation:results:",
+            "flag": "method.class.WMYahooWeatherProvider.forecastsAndCurrentConditionsForLocation:results:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295064480
+          }
+        ],
+        "fields": [
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "WMWeatherUndergroundProvider",
+        "addr": 4295120312,
+        "lang": "objc",
+        "index": 6,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "almanacWeatherForLocation:onDate:result:",
+            "flag": "method.class.WMWeatherUndergroundProvider.almanacWeatherForLocation:onDate:result:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295064424
+          },
+          {
+            "name": "historicalWeatherForLocation:onDate:result:",
+            "flag": "method.class.WMWeatherUndergroundProvider.historicalWeatherForLocation:onDate:result:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295064436
+          },
+          {
+            "name": "locationForCoordinate:result:",
+            "flag": "method.class.WMWeatherUndergroundProvider.locationForCoordinate:result:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295014100
+          },
+          {
+            "name": "locationsForString:results:",
+            "flag": "method.class.WMWeatherUndergroundProvider.locationsForString:results:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295014516
+          },
+          {
+            "name": "supportsNetworkLocationLookup",
+            "flag": "method.class.WMWeatherUndergroundProvider.supportsNetworkLocationLookup",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295015316
+          },
+          {
+            "name": "almanacWeatherForLocation:onDate:result:",
+            "flag": "func.10000bb9c",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295015324
+          },
+          {
+            "name": "historicalWeatherForLocation:onDate:result:",
+            "flag": "func.10000c188",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295016840
+          },
+          {
+            "name": "parseHistoricalData:",
+            "flag": "method.class.WMWeatherUndergroundProvider.parseHistoricalData:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295018576
+          },
+          {
+            "name": "parsePlannerData:",
+            "flag": "method.class.WMWeatherUndergroundProvider.parsePlannerData:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295020364
+          },
+          {
+            "name": "parseLocationData:",
+            "flag": "method.class.WMWeatherUndergroundProvider.parseLocationData:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295021684
+          },
+          {
+            "name": "components:inTimeZone:",
+            "flag": "method.class.WMWeatherUndergroundProvider.components:inTimeZone:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295022724
+          },
+          {
+            "name": "requestForURL:",
+            "flag": "method.class.WMWeatherUndergroundProvider.requestForURL:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295022952
+          },
+          {
+            "name": "almanacWeatherForLocation:onDate:result:",
+            "flag": "method.class.WMWeatherUndergroundProvider.almanacWeatherForLocation:onDate:result:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295064424
+          },
+          {
+            "name": "historicalWeatherForLocation:onDate:result:",
+            "flag": "method.class.WMWeatherUndergroundProvider.historicalWeatherForLocation:onDate:result:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295064436
+          }
+        ],
+        "fields": [
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "WMWeatherChannelProvider",
+        "addr": 4295120352,
+        "lang": "objc",
+        "index": 7,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "forecastsForLocation:results:",
+            "flag": "method.class.WMYahooWeatherProvider.forecastsForLocation:results:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295064456
+          },
+          {
+            "name": "currentConditionsForLocation:results:",
+            "flag": "method.class.WMYahooWeatherProvider.currentConditionsForLocation:results:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295064468
+          },
+          {
+            "name": "forecastsAndCurrentConditionsForLocation:results:",
+            "flag": "method.class.WMYahooWeatherProvider.forecastsAndCurrentConditionsForLocation:results:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295064480
+          },
+          {
+            "name": "locationForCoordinate:result:",
+            "flag": "method.class.WMWeatherChannelProvider.locationForCoordinate:result:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295023288
+          },
+          {
+            "name": "locationsForString:results:",
+            "flag": "method.class.WMWeatherChannelProvider.locationsForString:results:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295023652
+          },
+          {
+            "name": "supportsNetworkLocationLookup",
+            "flag": "method.class.WMWeatherChannelProvider.supportsNetworkLocationLookup",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295024196
+          },
+          {
+            "name": "forecastsForLocation:results:",
+            "flag": "method.class.WMWeatherChannelProvider.forecastsForLocation:results:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295024204
+          },
+          {
+            "name": "currentConditionsForLocation:results:",
+            "flag": "method.class.WMWeatherChannelProvider.currentConditionsForLocation:results:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295024392
+          },
+          {
+            "name": "forecastsAndCurrentConditionsForLocation:results:",
+            "flag": "method.class.WMWeatherChannelProvider.forecastsAndCurrentConditionsForLocation:results:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295024584
+          },
+          {
+            "name": "_forecastHelperForLocation:results:",
+            "flag": "method.class.WMWeatherChannelProvider._forecastHelperForLocation:results:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295024772
+          },
+          {
+            "name": "_parseForecastData:atLocation:results:",
+            "flag": "method.class.WMWeatherChannelProvider._parseForecastData:atLocation:results:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295026476
+          },
+          {
+            "name": "_processHourlyForecasts:atLocation:withDailyForecasts:",
+            "flag": "method.class.WMWeatherChannelProvider._processHourlyForecasts:atLocation:withDailyForecasts:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295027280
+          },
+          {
+            "name": "_handleHourlyForecastConditionCodeAdjustment:upcomingSunrises:upcomingSunsets:",
+            "flag": "method.class.WMWeatherChannelProvider._handleHourlyForecastConditionCodeAdjustment:upcomingSunrises:upcomingSunsets:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295028348
+          },
+          {
+            "name": "_isDayTime:upcomingSunrises:upcomingSunsets:",
+            "flag": "method.class.WMWeatherChannelProvider._isDayTime:upcomingSunrises:upcomingSunsets:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295028640
+          },
+          {
+            "name": "_processDailyForecasts:atLocation:",
+            "flag": "method.class.WMWeatherChannelProvider._processDailyForecasts:atLocation:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295029348
+          },
+          {
+            "name": "_processCurrentConditions:atLocation:withDailyForecasts:withHourlyForecasts:",
+            "flag": "method.class.WMWeatherChannelProvider._processCurrentConditions:atLocation:withDailyForecasts:withHourlyForecasts:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295030592
+          },
+          {
+            "name": "almanacWeatherForLocation:onDate:result:",
+            "flag": "method.class.WMWeatherChannelProvider.almanacWeatherForLocation:onDate:result:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295036996
+          },
+          {
+            "name": "_parseAlmanacWeatherFromData:atLocation:onDate:",
+            "flag": "method.class.WMWeatherChannelProvider._parseAlmanacWeatherFromData:atLocation:onDate:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295038636
+          },
+          {
+            "name": "_processAlmanacWeather:atLocation:onDate:",
+            "flag": "method.class.WMWeatherChannelProvider._processAlmanacWeather:atLocation:onDate:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295038932
+          },
+          {
+            "name": "historicalWeatherForLocation:onDate:result:",
+            "flag": "method.class.WMWeatherChannelProvider.historicalWeatherForLocation:onDate:result:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295039416
+          },
+          {
+            "name": "_parseHistoricalWeatherFromData:atLocation:onDate:",
+            "flag": "method.class.WMWeatherChannelProvider._parseHistoricalWeatherFromData:atLocation:onDate:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295041028
+          },
+          {
+            "name": "_processHistoricalWeather:atLocation:onDate:",
+            "flag": "method.class.WMWeatherChannelProvider._processHistoricalWeather:atLocation:onDate:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295041444
+          },
+          {
+            "name": "_secondsFromGMTForForecastData:parsedGMTOffset:",
+            "flag": "method.class.WMWeatherChannelProvider._secondsFromGMTForForecastData:parsedGMTOffset:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295042236
+          },
+          {
+            "name": "_locationOfTime:inHourlyForecasts:",
+            "flag": "method.class.WMWeatherChannelProvider._locationOfTime:inHourlyForecasts:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295042708
+          },
+          {
+            "name": "_dateComponentsForEpochDateNumber:secondsFromGMT:",
+            "flag": "method.class.WMWeatherChannelProvider._dateComponentsForEpochDateNumber:secondsFromGMT:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295043044
+          },
+          {
+            "name": "_ISO8601Calendar",
+            "flag": "method.class.WMWeatherChannelProvider._ISO8601Calendar",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295043276
+          },
+          {
+            "name": "_ISO8601DateFormatter",
+            "flag": "method.class.WMWeatherChannelProvider._ISO8601DateFormatter",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295043380
+          },
+          {
+            "name": "forecastsForLocation:results:",
+            "flag": "method.class.WMYahooWeatherProvider.forecastsForLocation:results:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295064456
+          },
+          {
+            "name": "currentConditionsForLocation:results:",
+            "flag": "method.class.WMYahooWeatherProvider.currentConditionsForLocation:results:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295064468
+          },
+          {
+            "name": "forecastsAndCurrentConditionsForLocation:results:",
+            "flag": "method.class.WMYahooWeatherProvider.forecastsAndCurrentConditionsForLocation:results:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295064480
+          }
+        ],
+        "fields": [
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      }
+    ],
+    "swift_metadata": {
+      "is_swift": false,
+      "symbols": []
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/hot.tiff",
+        "Versions/A/Resources/hail.tiff",
+        "Versions/A/Resources/blowingsnow.tiff",
+        "Versions/A/Resources/scattered-thunderstorm.tiff",
+        "Versions/A/Resources/flurry_snow_snow_shower.tiff",
+        "Versions/A/Resources/blizzard.tiff",
+        "Versions/A/Resources/drizzle.tiff",
+        "Versions/A/Resources/severe-thunderstorm.tiff",
+        "Versions/A/Resources/fog.tiff",
+        "Versions/A/Resources/mostly-sunny.tiff",
+        "Versions/A/Resources/haze.tiff",
+        "Versions/A/Resources/partly-cloudy-night.tiff",
+        "Versions/A/Resources/clear-night.tiff",
+        "Versions/A/Resources/flurry.tiff",
+        "Versions/A/Resources/Localizable.loctable",
+        "Versions/A/Resources/breezy.tiff",
+        "Versions/A/Resources/dust.tiff",
+        "Versions/A/Resources/scattered-showers.tiff",
+        "Versions/A/Resources/smoke.tiff",
+        "Versions/A/Resources/mostly-cloudy.tiff",
+        "Versions/A/Resources/sleet.tiff",
+        "Versions/A/Resources/tornado.tiff",
+        "Versions/A/Resources/tropical_storm.tiff",
+        "Versions/A/Resources/mostly-cloudy_night.tiff",
+        "Versions/A/Resources/hurricane.tiff",
+        "Versions/A/Resources/partly-cloudy-day.tiff",
+        "Versions/A/Resources/InfoPlist.loctable",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/ice.tiff",
+        "Versions/A/Resources/heavy-rain.tiff",
+        "Versions/A/Resources/version.plist",
+        "Versions/A/XPCServices/com.apple.CalendarWeatherKitService.xpc/Contents/Info.plist",
+        "Versions/A/XPCServices/com.apple.CalendarWeatherKitService.xpc/Contents/version.plist",
+        "Versions/A/XPCServices/com.apple.CalendarWeatherKitService.xpc/Contents/_CodeSignature/CodeResources",
+        "Versions/A/XPCServices/com.apple.CalendarWeatherKitService.xpc/Contents/MacOS/com.apple.CalendarWeatherKitService"
+      ],
+      "plists": {
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "CalendarWeatherKit",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2012 Apple Inc. All rights reserved.",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "English",
+          "CFBundleVersion": "731",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "FMWK",
+          "CFBundleShortVersionString": "2.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "CalendarWeatherKit",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.CalendarWeatherKit",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleSignature": "????",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "731",
+          "CFBundleShortVersionString": "2.0",
+          "ProjectName": "WeatherKit",
+          "SourceVersion": "731000000000000",
+          "BuildVersion": "1756"
+        },
+        "Versions/A/XPCServices/com.apple.CalendarWeatherKitService.xpc/Contents/Info.plist": {
+          "CFBundleName": "com.apple.CalendarWeatherKitService",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2012 Apple Inc. All rights reserved.",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "English",
+          "CFBundleVersion": "731",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "2.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "XPCService": {
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "com.apple.CalendarWeatherKitService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.CalendarWeatherKitService",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleSignature": "????",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/XPCServices/com.apple.CalendarWeatherKitService.xpc/Contents/version.plist": {
+          "CFBundleVersion": "731",
+          "CFBundleShortVersionString": "2.0",
+          "ProjectName": "WeatherKit",
+          "SourceVersion": "731000000000000",
+          "BuildVersion": "1756"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
+  },
+  "usage": {
+    "layer": "usage",
+    "used_by": [
+      {
+        "path": "/System/Applications/Calendar.app",
+        "binary": "/System/Applications/Calendar.app/Contents/MacOS/Calendar",
+        "used_classes": []
+      }
+    ]
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "loaded"
+  }
+}

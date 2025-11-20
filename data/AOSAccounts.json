@@ -726,14 +726,206 @@
         ]
       }
     ],
-    "protocols": []
+    "swift_metadata": {
+      "is_swift": false,
+      "symbols": []
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/iCloud_Banner@3x.png",
+        "Versions/A/Resources/framework.sb",
+        "Versions/A/Resources/iCloud_Banner@2x.png",
+        "Versions/A/Resources/Localizable.loctable",
+        "Versions/A/Resources/iCloud_Banner.png",
+        "Versions/A/Resources/DocumentsInCloudWhiteList.plist",
+        "Versions/A/Resources/iCloudAccountsMigrator",
+        "Versions/A/Resources/InfoPlist.loctable",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist",
+        "Versions/A/Resources/iCloudUserNotificationsd.app/Contents/Info.plist",
+        "Versions/A/Resources/iCloudUserNotificationsd.app/Contents/PkgInfo",
+        "Versions/A/Resources/iCloudUserNotificationsd.app/Contents/version.plist",
+        "Versions/A/Resources/iCloudUserNotificationsd.app/Contents/_CodeSignature/CodeResources",
+        "Versions/A/Resources/iCloudUserNotificationsd.app/Contents/MacOS/iCloudUserNotificationsd",
+        "Versions/A/Resources/iCloudUserNotificationsd.app/Contents/Resources/MainMenu.loctable",
+        "Versions/A/Resources/iCloudUserNotificationsd.app/Contents/Resources/AppIcon.icns",
+        "Versions/A/Resources/iCloudUserNotificationsd.app/Contents/Resources/iCloud_Banner.tiff",
+        "Versions/A/Resources/iCloudUserNotificationsd.app/Contents/Resources/InfoPlist.loctable",
+        "Versions/A/Resources/iCloudUserNotificationsd.app/Contents/Resources/com.apple.iCloudUserNotifications.plist",
+        "Versions/A/Resources/iCloudUserNotificationsd.app/Contents/Resources/Base.lproj/MainMenu.nib"
+      ],
+      "plists": {
+        "Versions/A/Resources/DocumentsInCloudWhiteList.plist": {
+          "com.apple.inputmethod.TCIM": true,
+          "com.apple.Safari": true,
+          "com.apple.finder": true,
+          "com.apple.Photos": true,
+          "com.apple.inputmethod.Kotoeri": true,
+          "com.apple.Pass-Viewer": true,
+          "com.apple.inputmethod.SCIM": true
+        },
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "AOSAccounts",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "English",
+          "CFBundleVersion": "206.125.1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "FMWK",
+          "CFBundleShortVersionString": "1.3.1",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "AOSAccounts",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.AOSAccounts",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleSignature": "????",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "206.125.1",
+          "CFBundleShortVersionString": "1.3.1",
+          "ProjectName": "AOSAccounts",
+          "SourceVersion": "206125001000000",
+          "BuildVersion": "325"
+        },
+        "Versions/A/Resources/iCloudUserNotificationsd.app/Contents/Info.plist": {
+          "CFBundleName": "iCloudUserNotificationsd",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "206.125.1",
+          "BuildMachineOSBuild": "23A344014",
+          "NSPrincipalClass": "NSApplication",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "APPL",
+          "CFBundleIconFile": "AppIcon.icns",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleShortVersionString": "1.0",
+          "NSMainNibFile": "MainMenu",
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "iCloudUserNotificationsd",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.iCloudUserNotificationsd",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleSignature": "????",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/Resources/iCloudUserNotificationsd.app/Contents/version.plist": {
+          "CFBundleVersion": "206.125.1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "AOSAccounts",
+          "SourceVersion": "206125001000000",
+          "BuildVersion": "325"
+        },
+        "Versions/A/Resources/iCloudUserNotificationsd.app/Contents/Resources/com.apple.iCloudUserNotifications.plist": {
+          "Program": "/System/Library/PrivateFrameworks/AOSAccounts.framework/Versions/A/Resources/iCloudUserNotificationsd.app/Contents/MacOS/iCloudUserNotificationsd",
+          "ExitTimeOut": 1,
+          "POSIXSpawnType": "Adaptive",
+          "LimitLoadToSessionType": [
+            "LoginWindow",
+            "Aqua"
+          ],
+          "MachServices": {
+            "com.apple.icloudusernotification.agent": true
+          },
+          "EnableTransactions": true,
+          "LaunchEvents": {
+            "com.apple.usernotificationcenter.matching": {
+              "iCloudUserNotification": {
+                "delay registration": true,
+                "bundleid": "com.apple.iCloudUserNotificationsd",
+                "events": [
+                  "didDismissAlert",
+                  "didActivateNotification",
+                  "didDeliverNotification",
+                  "didSnoozeAlert",
+                  "didRemoveDeliveredNotifications",
+                  "didExpireNotifications"
+                ]
+              }
+            }
+          },
+          "Label": "com.apple.iCloudUserNotificationsd"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
   },
   "usage": {
     "layer": "usage",
-    "status": "not_implemented"
+    "used_by": [
+      {
+        "path": "/System/Applications/Music.app",
+        "binary": "/System/Applications/Music.app/Contents/MacOS/Music",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Applications/TV.app",
+        "binary": "/System/Applications/TV.app/Contents/MacOS/TV",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Applications/Photos.app",
+        "binary": "/System/Applications/Photos.app/Contents/MacOS/Photos",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Applications/Reminders.app",
+        "binary": "/System/Applications/Reminders.app/Contents/MacOS/Reminders",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/Finder.app",
+        "binary": "/System/Library/CoreServices/Finder.app/Contents/MacOS/Finder",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/Setup Assistant.app",
+        "binary": "/System/Library/CoreServices/Setup Assistant.app/Contents/MacOS/Setup Assistant",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/Keychain Circle Notification.app",
+        "binary": "/System/Library/CoreServices/Keychain Circle Notification.app/Contents/MacOS/Keychain Circle Notification",
+        "used_classes": []
+      }
+    ]
   },
   "runtime": {
-    "layer": "runtime",
-    "status": "not_implemented"
+    "method": "ctypes",
+    "status": "loaded"
   }
 }

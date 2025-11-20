@@ -78,14 +78,121 @@
       }
     },
     "classes": [],
-    "protocols": []
+    "swift_metadata": {
+      "is_swift": true,
+      "symbols": [
+        {
+          "name": "imp.$s27AppStoreComponentsDaemonKit0D0C3runyyF",
+          "demname": "AppStoreComponentsDaemonKit.deallocator.run(...yF)",
+          "flagname": "sym.imp.AppStoreComponentsDaemonKit.deallocator.run_...yF_",
+          "realname": "AppStoreComponentsDaemonKit.deallocator.run(...yF)",
+          "ordinal": 2,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294974100,
+          "paddr": 72340,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s27AppStoreComponentsDaemonKit0D0C6sharedACvgZ",
+          "demname": "AppStoreComponentsDaemonKit.deallocator.shared.(...gZ)",
+          "flagname": "sym.imp.AppStoreComponentsDaemonKit.deallocator.shared._...gZ_",
+          "realname": "AppStoreComponentsDaemonKit.deallocator.shared.(...gZ)",
+          "ordinal": 3,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294974116,
+          "paddr": 72356,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s27AppStoreComponentsDaemonKit0D0CMa",
+          "demname": "AppStoreComponentsDaemonKit.deallocator..metadata.accessor(...a)",
+          "flagname": "sym.imp.AppStoreComponentsDaemonKit.deallocator..metadata.accessor_...a_",
+          "realname": "AppStoreComponentsDaemonKit.deallocator..metadata.accessor(...a)",
+          "ordinal": 4,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294974132,
+          "paddr": 72372,
+          "is_imported": true
+        }
+      ]
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Support/appstorecomponentsd",
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/Localizable.loctable",
+        "Versions/A/Resources/Assets.car",
+        "Versions/A/Resources/com.apple.appstorecomponentsd.sb",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist"
+      ],
+      "plists": {
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "AppStoreComponents",
+          "CFBundleIdentifier": "com.apple.AppStoreComponents",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "DTPlatformBuild": "",
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleVersion": "1",
+          "CFBundleExecutable": "AppStoreComponents",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTXcode": "2600",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundlePackageType": "FMWK",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "DTSDKName": "macosx26.1.internal",
+          "CFBundleShortVersionString": "1.0"
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "AppStoreFramework",
+          "SourceVersion": "8001008000000",
+          "BuildVersion": "117"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
   },
   "usage": {
     "layer": "usage",
-    "status": "not_implemented"
+    "used_by": []
   },
   "runtime": {
-    "layer": "runtime",
-    "status": "not_implemented"
+    "method": "ctypes",
+    "status": "loaded"
   }
 }

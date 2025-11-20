@@ -1624,14 +1624,270 @@
         ]
       }
     ],
-    "protocols": []
+    "swift_metadata": {
+      "is_swift": false,
+      "symbols": []
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/Plural.loctable",
+        "Versions/A/Resources/defaultSettings_macOS.plist",
+        "Versions/A/Resources/Localizable.loctable",
+        "Versions/A/Resources/Assets.car",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist",
+        "Versions/A/XPCServices/ResourcesService.xpc/Contents/Info.plist",
+        "Versions/A/XPCServices/ResourcesService.xpc/Contents/version.plist",
+        "Versions/A/XPCServices/ResourcesService.xpc/Contents/_CodeSignature/CodeResources",
+        "Versions/A/XPCServices/ResourcesService.xpc/Contents/MacOS/ResourcesService",
+        "Versions/A/XPCServices/ResourcesService.xpc/Contents/Resources/InfoPlist.loctable",
+        "Versions/A/XPCServices/BooksService.xpc/Contents/Info.plist",
+        "Versions/A/XPCServices/BooksService.xpc/Contents/version.plist",
+        "Versions/A/XPCServices/BooksService.xpc/Contents/_CodeSignature/CodeResources",
+        "Versions/A/XPCServices/BooksService.xpc/Contents/MacOS/BooksService",
+        "Versions/A/XPCServices/BooksService.xpc/Contents/Resources/InfoPlist.loctable"
+      ],
+      "plists": {
+        "Versions/A/Resources/defaultSettings_macOS.plist": {
+          "allowClassroomLockDevice": {
+            "ask": true,
+            "value": true
+          },
+          "forceClassroomUnpromptedAppAndDeviceLock": {
+            "value": false
+          },
+          "allowClassroomDeviceSettingsModification": {
+            "ask": true,
+            "value": true
+          },
+          "allowClassroomAirPlay": {
+            "ask": true,
+            "value": true
+          },
+          "forceClassroomAutomaticallyJoinClasses": {
+            "value": false
+          },
+          "allowClassroomScreenObservation": {
+            "ask": true,
+            "value": true
+          },
+          "allowClassroomOpenURL": {
+            "ask": true,
+            "value": true
+          },
+          "allowRemoteScreenObservation": {
+            "ask": true,
+            "value": true
+          },
+          "allowClassroomAppLock": {
+            "ask": true,
+            "value": true
+          },
+          "forceUnpromptedRemoteScreenObservation": {
+            "ask": true,
+            "value": false
+          },
+          "allowScreenShot": {
+            "value": true
+          },
+          "allowClassroomOpenApp": {
+            "ask": true,
+            "value": true
+          },
+          "allowClassroomOpenDeepLink": {
+            "ask": true,
+            "value": true
+          },
+          "forceClassroomRequestPermissionToLeaveClasses": {
+            "value": false
+          },
+          "forceClassroomUnpromptedScreenObservation": {
+            "value": false
+          }
+        },
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "ClassroomKit",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "NSExtensionSDK": {
+            "com.apple.classroom.instructor": {
+              "XPCService": {
+                "ServiceType": "Application",
+                "JoinExistingSession": true,
+                "RunLoopType": "NSRunLoop",
+                "_AdditionalSubServices": {
+                  "apple-extension-service": true
+                }
+              },
+              "NSExtension": {
+                "NSExtensionPrincipalClass": "InstructorExtension",
+                "NSExtensionAttributes": {
+                  "NSExtensionPointName": "com.apple.classroom.instructor",
+                  "NSExtensionPointVersion": "1.0"
+                },
+                "NSExtensionPointIdentifier": "com.apple.classroom.instructor",
+                "NSExtensionContextClass": "CRKInstructorExtensionContext",
+                "NSExtensionProtocol": "CRKInstructorExtension",
+                "NSExtensionContextHostClass": "CRKInstructorHostContext",
+                "Subsystems": [
+                  "NSExtensionService_Subsystem"
+                ]
+              },
+              "CFBundlePackageType": "XPC!"
+            }
+          },
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "FMWK",
+          "CFBundleShortVersionString": "1.0.11",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "ClassroomKit",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.ClassroomKit",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleSignature": "????",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0.11",
+          "ProjectName": "Classroom",
+          "SourceVersion": "119000000000000",
+          "BuildVersion": "385"
+        },
+        "Versions/A/XPCServices/ResourcesService.xpc/Contents/Info.plist": {
+          "CFBundleName": "ResourcesService",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2018 Apple Inc. All rights reserved.",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "Application-Group": [
+            "ConfigurationProfiles"
+          ],
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "XPCService": {
+            "RunLoopType": "NSRunLoop",
+            "JoinExistingSession": true,
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "ResourcesService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.ClassroomKit.ResourcesService",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleDisplayName": "ResourcesService",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/XPCServices/ResourcesService.xpc/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "Classroom",
+          "SourceVersion": "119000000000000",
+          "BuildVersion": "385"
+        },
+        "Versions/A/XPCServices/BooksService.xpc/Contents/Info.plist": {
+          "CFBundleName": "BooksService",
+          "CFBundleAllowMixedLocalizations": true,
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2018 Apple Inc. All rights reserved.",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "XPCService": {
+            "RunLoopType": "NSRunLoop",
+            "ServiceType": "Application",
+            "_AdditionalProperties": {
+              "RunningBoard": {
+                "Managed": false,
+                "Reported": false
+              }
+            }
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "BooksService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.ClassroomKit.BooksService",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleDisplayName": "BooksService",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/XPCServices/BooksService.xpc/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "Classroom",
+          "SourceVersion": "119000000000000",
+          "BuildVersion": "385"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
   },
   "usage": {
     "layer": "usage",
-    "status": "not_implemented"
+    "used_by": [
+      {
+        "path": "/System/Applications/TV.app",
+        "binary": "/System/Applications/TV.app/Contents/MacOS/TV",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/ControlCenter.app",
+        "binary": "/System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter",
+        "used_classes": []
+      }
+    ]
   },
   "runtime": {
-    "layer": "runtime",
-    "status": "not_implemented"
+    "method": "ctypes",
+    "status": "loaded"
   }
 }

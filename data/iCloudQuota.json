@@ -358,14 +358,133 @@
         ]
       }
     ],
-    "protocols": []
+    "swift_metadata": {
+      "is_swift": false,
+      "symbols": []
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist",
+        "PlugIns/ICQFollowup.appex/Contents/Info.plist",
+        "PlugIns/ICQFollowup.appex/Contents/version.plist",
+        "PlugIns/ICQFollowup.appex/Contents/_CodeSignature/CodeResources",
+        "PlugIns/ICQFollowup.appex/Contents/MacOS/ICQFollowup",
+        "PlugIns/ICQFollowup.appex/Contents/Resources/AppIcon.icns"
+      ],
+      "plists": {
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "iCloudQuota",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "FMWK",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "iCloudQuota",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.iCloudQuota",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleSignature": "????",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "iCloudQuota",
+          "SourceVersion": "301023001006000",
+          "BuildVersion": "48"
+        },
+        "PlugIns/ICQFollowup.appex/Contents/Info.plist": {
+          "CFBundleName": "ICQFollowup",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleIconFile": "AppIcon.icns",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleShortVersionString": "1.0",
+          "XPCService": {},
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "ICQFollowup",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "_CFBundleUseAppleLocalizations": true,
+          "CFBundleIdentifier": "com.apple.iCloudQuota.ICQFollowup",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleDisplayName": "ICQFollowup",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "",
+          "NSExtension": {
+            "NSExtensionAttributes": {},
+            "NSExtensionPointIdentifier": "com.apple.followup-extension",
+            "NSExtensionPrincipalClass": "ICQFollowupViewController_macOS"
+          }
+        },
+        "PlugIns/ICQFollowup.appex/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "iCloudQuota",
+          "SourceVersion": "301023001006000",
+          "BuildVersion": "48"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
   },
   "usage": {
     "layer": "usage",
-    "status": "not_implemented"
+    "used_by": [
+      {
+        "path": "/System/Library/CoreServices/Finder.app",
+        "binary": "/System/Library/CoreServices/Finder.app/Contents/MacOS/Finder",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/iCloud+.app",
+        "binary": "/System/Library/CoreServices/iCloud+.app/Contents/MacOS/iCloud+",
+        "used_classes": []
+      }
+    ]
   },
   "runtime": {
-    "layer": "runtime",
-    "status": "not_implemented"
+    "method": "ctypes",
+    "status": "loaded"
   }
 }

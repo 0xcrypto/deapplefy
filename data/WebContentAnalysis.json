@@ -1,0 +1,2521 @@
+{
+  "framework": "WebContentAnalysis.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/WebContentAnalysis.framework/Versions/A/Resources/webfilterproxyd",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 180384,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "objc with blocks",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",
+          "/System/Library/PrivateFrameworks/FamilyControls.framework/Versions/A/FamilyControls",
+          "/System/Library/PrivateFrameworks/WebContentAnalysis.framework/Versions/A/WebContentAnalysis",
+          "/System/Library/PrivateFrameworks/WebFilterDNS.framework/Versions/A/WebFilterDNS",
+          "/usr/lib/libz.1.dylib",
+          "/System/Library/Frameworks/Security.framework/Versions/A/Security",
+          "/System/Library/PrivateFrameworks/SystemAdministration.framework/Versions/A/SystemAdministration",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "NSData(extra)",
+        "addr": 4295099752,
+        "lang": "objc",
+        "index": 0,
+        "super": [
+          "NSData"
+        ],
+        "rawsuper": [
+          "NSData"
+        ],
+        "methods": [
+          {
+            "name": "gzipInflate",
+            "flag": "method.NSData_extra_.gzipInflate",
+            "lang": "objc",
+            "addr": 4294989484
+          },
+          {
+            "name": "gzipDeflate",
+            "flag": "method.NSData_extra_.gzipDeflate",
+            "lang": "objc",
+            "addr": 4294990048
+          },
+          {
+            "name": "stringWithCFStringEnconding:",
+            "flag": "method.NSData_extra_.stringWithCFStringEnconding:",
+            "lang": "objc",
+            "addr": 4294990356
+          },
+          {
+            "name": "stringWithEncoding:",
+            "flag": "method.NSData_extra_.stringWithEncoding:",
+            "lang": "objc",
+            "addr": 4294990468
+          },
+          {
+            "name": "UTF8String",
+            "flag": "method.NSData_extra_.UTF8String",
+            "lang": "objc",
+            "addr": 4294990544
+          },
+          {
+            "name": "ISOLatin1String",
+            "flag": "method.NSData_extra_.ISOLatin1String",
+            "lang": "objc",
+            "addr": 4294990552
+          },
+          {
+            "name": "ASCIIString",
+            "flag": "method.NSData_extra_.ASCIIString",
+            "lang": "objc",
+            "addr": 4294990560
+          },
+          {
+            "name": "charConversionString",
+            "flag": "method.NSData_extra_.charConversionString",
+            "lang": "objc",
+            "addr": 4294990568
+          },
+          {
+            "name": "stringUsingLossyConversionWithCFStringEnconding:",
+            "flag": "method.NSData_extra_.stringUsingLossyConversionWithCFStringEnconding:",
+            "lang": "objc",
+            "addr": 4294990772
+          },
+          {
+            "name": "isGraphicFormat:",
+            "flag": "method.NSData_extra_.isGraphicFormat:",
+            "lang": "objc",
+            "addr": 4294991152
+          },
+          {
+            "name": "_containsMagicHeader:sizeOfHeader:",
+            "flag": "method.NSData_extra_._containsMagicHeader:sizeOfHeader:",
+            "lang": "objc",
+            "addr": 4294991328
+          },
+          {
+            "name": "isJPEG",
+            "flag": "method.NSData_extra_.isJPEG",
+            "lang": "objc",
+            "addr": 4294991428
+          },
+          {
+            "name": "isPNG",
+            "flag": "method.NSData_extra_.isPNG",
+            "lang": "objc",
+            "addr": 4294991488
+          },
+          {
+            "name": "isGIF",
+            "flag": "method.NSData_extra_.isGIF",
+            "lang": "objc",
+            "addr": 4294991592
+          },
+          {
+            "name": "isPDF",
+            "flag": "method.NSData_extra_.isPDF",
+            "lang": "objc",
+            "addr": 4294991712
+          },
+          {
+            "name": "isFlash",
+            "flag": "method.NSData_extra_.isFlash",
+            "lang": "objc",
+            "addr": 4294991768
+          },
+          {
+            "name": "indexOfSequence:size:",
+            "flag": "method.NSData_extra_.indexOfSequence:size:",
+            "lang": "objc",
+            "addr": 4294991896
+          },
+          {
+            "name": "indexOfSequence:size:inRange:",
+            "flag": "method.NSData_extra_.indexOfSequence:size:inRange:",
+            "lang": "objc",
+            "addr": 4294991984
+          },
+          {
+            "name": "indexOfSequence:size:inRange:ASCIICaseInsensitiveCompare:",
+            "flag": "method.NSData_extra_.indexOfSequence:size:inRange:ASCIICaseInsensitiveCompare:",
+            "lang": "objc",
+            "addr": 4294991992
+          },
+          {
+            "name": "encodeBase64",
+            "flag": "method.NSData_extra_.encodeBase64",
+            "lang": "objc",
+            "addr": 4294992292
+          },
+          {
+            "name": "encodeBase64WithNewlines:",
+            "flag": "method.NSData_extra_.encodeBase64WithNewlines:",
+            "lang": "objc",
+            "addr": 4294992300
+          },
+          {
+            "name": "HTMLMetaTagsArray",
+            "flag": "method.NSData_extra_.HTMLMetaTagsArray",
+            "lang": "objc",
+            "addr": 4294992396
+          },
+          {
+            "name": "HTMLMetaCharset",
+            "flag": "method.NSData_extra_.HTMLMetaCharset",
+            "lang": "objc",
+            "addr": 4294993288
+          },
+          {
+            "name": "_extractHTMLMetaCharsetFromMetaTag:",
+            "flag": "method.class.NSData_extra_._extractHTMLMetaCharsetFromMetaTag:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294992788
+          }
+        ]
+      },
+      {
+        "classname": "NSString(extra)",
+        "addr": 4295101728,
+        "lang": "objc",
+        "index": 1,
+        "super": [
+          "NSString"
+        ],
+        "rawsuper": [
+          "NSString"
+        ],
+        "methods": [
+          {
+            "name": "decodeBase64",
+            "flag": "method.NSString_extra_.decodeBase64",
+            "lang": "objc",
+            "addr": 4295014620
+          },
+          {
+            "name": "decodeBase64WithNewlines:",
+            "flag": "method.NSString_extra_.decodeBase64WithNewlines:",
+            "lang": "objc",
+            "addr": 4295014628
+          }
+        ]
+      },
+      {
+        "classname": "WPHijackedSocket",
+        "addr": 4295104616,
+        "lang": "objc",
+        "index": 2,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "filterClassForConnectionWithPort:browserProcess:",
+            "flag": "method.class.WPHijackedSocket.filterClassForConnectionWithPort:browserProcess:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294975360
+          },
+          {
+            "name": "_isAddressMyself:",
+            "flag": "method.class.WPHijackedSocket._isAddressMyself:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294975664
+          },
+          {
+            "name": "_hijackSocketFromKernelExtension:",
+            "flag": "method.class.WPHijackedSocket._hijackSocketFromKernelExtension:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294975836
+          },
+          {
+            "name": "_hijackNativeHandleThread:",
+            "flag": "method.class.WPHijackedSocket._hijackNativeHandleThread:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294976524
+          },
+          {
+            "name": "hijackNativeSocket:",
+            "flag": "method.class.WPHijackedSocket.hijackNativeSocket:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294976636
+          }
+        ]
+      },
+      {
+        "classname": "WPManInTheMiddle",
+        "addr": 4295104736,
+        "lang": "objc",
+        "index": 3,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "_createSocket:withNativeSocket:callback:",
+            "flag": "method.WPManInTheMiddle._createSocket:withNativeSocket:callback:",
+            "lang": "objc",
+            "addr": 4294976876
+          },
+          {
+            "name": "initWithSocketA:socketB:",
+            "flag": "method.WPManInTheMiddle.initWithSocketA:socketB:",
+            "lang": "objc",
+            "addr": 4294977184
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.WPManInTheMiddle.dealloc",
+            "lang": "objc",
+            "addr": 4294977608
+          },
+          {
+            "name": "_closeSocket:",
+            "flag": "method.WPManInTheMiddle._closeSocket:",
+            "lang": "objc",
+            "addr": 4294977740
+          },
+          {
+            "name": "_releaseLoopSource:",
+            "flag": "method.WPManInTheMiddle._releaseLoopSource:",
+            "lang": "objc",
+            "addr": 4294977800
+          },
+          {
+            "name": "invalidate",
+            "flag": "method.WPManInTheMiddle.invalidate",
+            "lang": "objc",
+            "addr": 4294977880
+          },
+          {
+            "name": "_installLoopSource:forSocket:",
+            "flag": "method.WPManInTheMiddle._installLoopSource:forSocket:",
+            "lang": "objc",
+            "addr": 4294978044
+          },
+          {
+            "name": "transferDataBidirectionally",
+            "flag": "method.WPManInTheMiddle.transferDataBidirectionally",
+            "lang": "objc",
+            "addr": 4294978316
+          },
+          {
+            "name": "_sendData:toSocket:",
+            "flag": "method.WPManInTheMiddle._sendData:toSocket:",
+            "lang": "objc",
+            "addr": 4294978404
+          },
+          {
+            "name": "_transferData:toSocket:",
+            "flag": "method.WPManInTheMiddle._transferData:toSocket:",
+            "lang": "objc",
+            "addr": 4294978788
+          },
+          {
+            "name": "socketADidReadData:",
+            "flag": "method.WPManInTheMiddle.socketADidReadData:",
+            "lang": "objc",
+            "addr": 4294978936
+          },
+          {
+            "name": "socketBDidReadData:",
+            "flag": "method.WPManInTheMiddle.socketBDidReadData:",
+            "lang": "objc",
+            "addr": 4294978944
+          },
+          {
+            "name": "transferDataBidirectionallySocketA:socketB:",
+            "flag": "method.class.WPManInTheMiddle.transferDataBidirectionallySocketA:socketB:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294976808
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "socketA",
+            "kind": "var",
+            "type": "^{__CFSocket=}",
+            "addr": 4295104464
+          },
+          {
+            "name": "socketB",
+            "kind": "var",
+            "type": "^{__CFSocket=}",
+            "addr": 4295104468
+          },
+          {
+            "name": "fromAToBLoopSource",
+            "kind": "var",
+            "type": "^{__CFRunLoopSource=}",
+            "addr": 4295104472
+          },
+          {
+            "name": "fromBToALoopSource",
+            "kind": "var",
+            "type": "^{__CFRunLoopSource=}",
+            "addr": 4295104476
+          },
+          {
+            "name": "invalidated",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295104480
+          }
+        ]
+      },
+      {
+        "classname": "WPWebFilter",
+        "addr": 4295104816,
+        "lang": "objc",
+        "index": 4,
+        "super": [
+          "WPManInTheMiddle",
+          "WPManInTheMiddle"
+        ],
+        "rawsuper": [
+          "WPManInTheMiddle",
+          "WPManInTheMiddle"
+        ],
+        "methods": [
+          {
+            "name": "serverAddress",
+            "flag": "method.WPWebFilter.serverAddress",
+            "lang": "objc",
+            "addr": 4294980916
+          },
+          {
+            "name": "setServerAddress:",
+            "flag": "method.WPWebFilter.setServerAddress:",
+            "lang": "objc",
+            "addr": 4294980932
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.WPWebFilter.dealloc",
+            "lang": "objc",
+            "addr": 4294980956
+          },
+          {
+            "name": "browserSocket",
+            "flag": "method.WPWebFilter.browserSocket",
+            "lang": "objc",
+            "addr": 4294981040
+          },
+          {
+            "name": "serverSocket",
+            "flag": "method.WPWebFilter.serverSocket",
+            "lang": "objc",
+            "addr": 4294981060
+          },
+          {
+            "name": "sendDataToBrowser:",
+            "flag": "method.WPWebFilter.sendDataToBrowser:",
+            "lang": "objc",
+            "addr": 4294981080
+          },
+          {
+            "name": "sendDataToServer:",
+            "flag": "method.WPWebFilter.sendDataToServer:",
+            "lang": "objc",
+            "addr": 4294981196
+          },
+          {
+            "name": "socketADidReadData:",
+            "flag": "method.WPWebFilter.socketADidReadData:",
+            "lang": "objc",
+            "addr": 4294981312
+          },
+          {
+            "name": "socketBDidReadData:",
+            "flag": "method.WPWebFilter.socketBDidReadData:",
+            "lang": "objc",
+            "addr": 4294981400
+          },
+          {
+            "name": "filterBrowserRequestData:",
+            "flag": "method.WPWebFilter.filterBrowserRequestData:",
+            "lang": "objc",
+            "addr": 4294981492
+          },
+          {
+            "name": "filterServerResponseData:",
+            "flag": "method.WPWebFilter.filterServerResponseData:",
+            "lang": "objc",
+            "addr": 4294981500
+          },
+          {
+            "name": "_isWebPageToRestict:URLString:pageTitle:why:",
+            "flag": "method.WPWebFilter._isWebPageToRestict:URLString:pageTitle:why:",
+            "lang": "objc",
+            "addr": 4294981508
+          },
+          {
+            "name": "isWebPageToRestict:URLString:pageTitle:log:",
+            "flag": "method.WPWebFilter.isWebPageToRestict:URLString:pageTitle:log:",
+            "lang": "objc",
+            "addr": 4294982256
+          },
+          {
+            "name": "logAction:identifier:explanation:",
+            "flag": "method.WPWebFilter.logAction:identifier:explanation:",
+            "lang": "objc",
+            "addr": 4294982748
+          },
+          {
+            "name": "browserProcess",
+            "flag": "method.WPWebFilter.browserProcess",
+            "lang": "objc",
+            "addr": 4294982940
+          },
+          {
+            "name": "setBrowserProcess:",
+            "flag": "method.WPWebFilter.setBrowserProcess:",
+            "lang": "objc",
+            "addr": 4294982956
+          },
+          {
+            "name": "hostNameFromURLString:",
+            "flag": "method.class.WPWebFilter.hostNameFromURLString:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294978952
+          },
+          {
+            "name": "isRestrictedDomain:",
+            "flag": "method.class.WPWebFilter.isRestrictedDomain:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294979088
+          },
+          {
+            "name": "isAppleURLString:",
+            "flag": "method.class.WPWebFilter.isAppleURLString:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294979136
+          },
+          {
+            "name": "isAllowedAuthURLString:",
+            "flag": "method.class.WPWebFilter.isAllowedAuthURLString:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294979876
+          },
+          {
+            "name": "tellParentalControlsURLWasVisited:pageTitle:",
+            "flag": "method.class.WPWebFilter.tellParentalControlsURLWasVisited:pageTitle:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294980504
+          },
+          {
+            "name": "tellParentalControlsURLWasBlocked:pageTitle:",
+            "flag": "method.class.WPWebFilter.tellParentalControlsURLWasBlocked:pageTitle:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294980808
+          },
+          {
+            "name": "filterTrafficWithBrowserSocket:serverSocket:",
+            "flag": "method.class.WPWebFilter.filterTrafficWithBrowserSocket:serverSocket:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294980912
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_serverAddress",
+            "kind": "var",
+            "type": "{sockaddr_storage=\"ss_len\"C\"ss_family\"C\"__ss_pad1\"[6c]\"__ss_align\"q\"__ss_pad2\"[112c]}",
+            "addr": 4295104484
+          },
+          {
+            "name": "browserProcess",
+            "kind": "var",
+            "type": "@\"WPProcess\"",
+            "addr": 4295104488
+          },
+          {
+            "name": "serverAddress",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "browserProcess",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "WPHTTPRequest",
+        "addr": 4295104896,
+        "lang": "objc",
+        "index": 5,
+        "super": [
+          "WPHTTPMessage",
+          "WPHTTPMessage"
+        ],
+        "rawsuper": [
+          "WPHTTPMessage",
+          "WPHTTPMessage"
+        ],
+        "methods": [
+          {
+            "name": "dealloc",
+            "flag": "method.WPHTTPRequest.dealloc",
+            "lang": "objc",
+            "addr": 4294983472
+          },
+          {
+            "name": "isRequest",
+            "flag": "method.WPHTTPRequest.isRequest",
+            "lang": "objc",
+            "addr": 4294983556
+          },
+          {
+            "name": "appendData:",
+            "flag": "method.WPHTTPRequest.appendData:",
+            "lang": "objc",
+            "addr": 4294983564
+          },
+          {
+            "name": "method",
+            "flag": "method.WPHTTPRequest.method",
+            "lang": "objc",
+            "addr": 4294983684
+          },
+          {
+            "name": "URL",
+            "flag": "method.WPHTTPRequest.URL",
+            "lang": "objc",
+            "addr": 4294983740
+          },
+          {
+            "name": "fileExtension",
+            "flag": "method.WPHTTPRequest.fileExtension",
+            "lang": "objc",
+            "addr": 4294983796
+          },
+          {
+            "name": "_absolutePath",
+            "flag": "method.WPHTTPRequest._absolutePath",
+            "lang": "objc",
+            "addr": 4294983908
+          },
+          {
+            "name": "absolutePath",
+            "flag": "method.WPHTTPRequest.absolutePath",
+            "lang": "objc",
+            "addr": 4294984044
+          },
+          {
+            "name": "isRequestToProxy",
+            "flag": "method.WPHTTPRequest.isRequestToProxy",
+            "lang": "objc",
+            "addr": 4294984112
+          },
+          {
+            "name": "logStatement",
+            "flag": "method.WPHTTPRequest.logStatement",
+            "lang": "objc",
+            "addr": 4294984164
+          },
+          {
+            "name": "isStartOfRequestData:",
+            "flag": "method.class.WPHTTPRequest.isStartOfRequestData:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294983028
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "absolutePathCache",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295104492
+          }
+        ]
+      },
+      {
+        "classname": "WPHTTPMessage",
+        "addr": 4295104976,
+        "lang": "objc",
+        "index": 6,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.WPHTTPMessage.init",
+            "lang": "objc",
+            "addr": 4294984524
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.WPHTTPMessage.dealloc",
+            "lang": "objc",
+            "addr": 4294984652
+          },
+          {
+            "name": "isRequest",
+            "flag": "method.WPHTTPMessage.isRequest",
+            "lang": "objc",
+            "addr": 4294984748
+          },
+          {
+            "name": "appendData:",
+            "flag": "method.WPHTTPMessage.appendData:",
+            "lang": "objc",
+            "addr": 4294984756
+          },
+          {
+            "name": "length",
+            "flag": "method.WPHTTPMessage.length",
+            "lang": "objc",
+            "addr": 4294985308
+          },
+          {
+            "name": "packets",
+            "flag": "method.WPHTTPMessage.packets",
+            "lang": "objc",
+            "addr": 4294985316
+          },
+          {
+            "name": "aggregateData",
+            "flag": "method.WPHTTPMessage.aggregateData",
+            "lang": "objc",
+            "addr": 4294985324
+          },
+          {
+            "name": "isComplete",
+            "flag": "method.WPHTTPMessage.isComplete",
+            "lang": "objc",
+            "addr": 4294985332
+          },
+          {
+            "name": "header",
+            "flag": "method.WPHTTPMessage.header",
+            "lang": "objc",
+            "addr": 4294985420
+          },
+          {
+            "name": "isHeaderComplete",
+            "flag": "method.WPHTTPMessage.isHeaderComplete",
+            "lang": "objc",
+            "addr": 4294985516
+          },
+          {
+            "name": "headerFields",
+            "flag": "method.WPHTTPMessage.headerFields",
+            "lang": "objc",
+            "addr": 4294985552
+          },
+          {
+            "name": "host",
+            "flag": "method.WPHTTPMessage.host",
+            "lang": "objc",
+            "addr": 4294985596
+          },
+          {
+            "name": "version",
+            "flag": "method.WPHTTPMessage.version",
+            "lang": "objc",
+            "addr": 4294985648
+          },
+          {
+            "name": "contentType",
+            "flag": "method.WPHTTPMessage.contentType",
+            "lang": "objc",
+            "addr": 4294985692
+          },
+          {
+            "name": "contentLength",
+            "flag": "method.WPHTTPMessage.contentLength",
+            "lang": "objc",
+            "addr": 4294985744
+          },
+          {
+            "name": "contentEncoding",
+            "flag": "method.WPHTTPMessage.contentEncoding",
+            "lang": "objc",
+            "addr": 4294985824
+          },
+          {
+            "name": "transferEncoding",
+            "flag": "method.WPHTTPMessage.transferEncoding",
+            "lang": "objc",
+            "addr": 4294985876
+          },
+          {
+            "name": "isTransferChunked",
+            "flag": "method.WPHTTPMessage.isTransferChunked",
+            "lang": "objc",
+            "addr": 4294985928
+          },
+          {
+            "name": "genericContentType",
+            "flag": "method.WPHTTPMessage.genericContentType",
+            "lang": "objc",
+            "addr": 4294985988
+          },
+          {
+            "name": "specificContentType",
+            "flag": "method.WPHTTPMessage.specificContentType",
+            "lang": "objc",
+            "addr": 4294986076
+          },
+          {
+            "name": "charsetContentType",
+            "flag": "method.WPHTTPMessage.charsetContentType",
+            "lang": "objc",
+            "addr": 4294986232
+          },
+          {
+            "name": "contentEncoding:",
+            "flag": "method.WPHTTPMessage.contentEncoding:",
+            "lang": "objc",
+            "addr": 4294986300
+          },
+          {
+            "name": "containsBody",
+            "flag": "method.WPHTTPMessage.containsBody",
+            "lang": "objc",
+            "addr": 4294986408
+          },
+          {
+            "name": "body",
+            "flag": "method.WPHTTPMessage.body",
+            "lang": "objc",
+            "addr": 4294986488
+          },
+          {
+            "name": "_startOfBodyIndex",
+            "flag": "method.WPHTTPMessage._startOfBodyIndex",
+            "lang": "objc",
+            "addr": 4294986572
+          },
+          {
+            "name": "startOfBodyIndex",
+            "flag": "method.WPHTTPMessage.startOfBodyIndex",
+            "lang": "objc",
+            "addr": 4294986608
+          },
+          {
+            "name": "subdataBodyToIndex:",
+            "flag": "method.WPHTTPMessage.subdataBodyToIndex:",
+            "lang": "objc",
+            "addr": 4294986676
+          },
+          {
+            "name": "bodyLength",
+            "flag": "method.WPHTTPMessage.bodyLength",
+            "lang": "objc",
+            "addr": 4294986796
+          },
+          {
+            "name": "_findDataPayloadFromIndex:expectedSize:nextChunkIndex:",
+            "flag": "method.WPHTTPMessage._findDataPayloadFromIndex:expectedSize:nextChunkIndex:",
+            "lang": "objc",
+            "addr": 4294986860
+          },
+          {
+            "name": "_dataChunkAtIndex:nextChunkIndex:isLastChunk:",
+            "flag": "method.WPHTTPMessage._dataChunkAtIndex:nextChunkIndex:isLastChunk:",
+            "lang": "objc",
+            "addr": 4294987156
+          },
+          {
+            "name": "_bodyByReassemblingChuncksIfNeeded",
+            "flag": "method.WPHTTPMessage._bodyByReassemblingChuncksIfNeeded",
+            "lang": "objc",
+            "addr": 4294987812
+          },
+          {
+            "name": "bodyByReassemblingChuncksIfNeeded",
+            "flag": "method.WPHTTPMessage.bodyByReassemblingChuncksIfNeeded",
+            "lang": "objc",
+            "addr": 4294988220
+          },
+          {
+            "name": "_isThereEndOfSequence",
+            "flag": "method.WPHTTPMessage._isThereEndOfSequence",
+            "lang": "objc",
+            "addr": 4294988312
+          },
+          {
+            "name": "isBodyComplete",
+            "flag": "method.WPHTTPMessage.isBodyComplete",
+            "lang": "objc",
+            "addr": 4294988444
+          },
+          {
+            "name": "isBodyGzipped",
+            "flag": "method.WPHTTPMessage.isBodyGzipped",
+            "lang": "objc",
+            "addr": 4294988540
+          },
+          {
+            "name": "logStatement",
+            "flag": "method.WPHTTPMessage.logStatement",
+            "lang": "objc",
+            "addr": 4294988588
+          },
+          {
+            "name": "description",
+            "flag": "method.WPHTTPMessage.description",
+            "lang": "objc",
+            "addr": 4294988592
+          },
+          {
+            "name": "charsetFromContentTypeString:",
+            "flag": "method.class.WPHTTPMessage.charsetFromContentTypeString:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294984300
+          },
+          {
+            "name": "emptyHTTPMessage",
+            "flag": "method.class.WPHTTPMessage.emptyHTTPMessage",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294984480
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "message",
+            "kind": "var",
+            "type": "^{__CFHTTPMessage=}",
+            "addr": 4295104496
+          },
+          {
+            "name": "packetBrigade",
+            "kind": "var",
+            "type": "@\"WPPacketBrigade\"",
+            "addr": 4295104500
+          },
+          {
+            "name": "zeroDataWasRead",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295104504
+          },
+          {
+            "name": "bodyIndexCache",
+            "kind": "var",
+            "type": "Q",
+            "addr": 4295104508
+          },
+          {
+            "name": "assebledBodyCache",
+            "kind": "var",
+            "type": "@\"NSData\"",
+            "addr": 4295104512
+          },
+          {
+            "name": "assebledBodyCacheFreshness",
+            "kind": "var",
+            "type": "Q",
+            "addr": 4295104516
+          }
+        ]
+      },
+      {
+        "classname": "WPHTTPResponse",
+        "addr": 4295105016,
+        "lang": "objc",
+        "index": 7,
+        "super": [
+          "WPHTTPMessage",
+          "WPHTTPMessage"
+        ],
+        "rawsuper": [
+          "WPHTTPMessage",
+          "WPHTTPMessage"
+        ],
+        "methods": [
+          {
+            "name": "isRequest",
+            "flag": "method.WPHTTPResponse.isRequest",
+            "lang": "objc",
+            "addr": 4294989000
+          },
+          {
+            "name": "statusCode",
+            "flag": "method.WPHTTPResponse.statusCode",
+            "lang": "objc",
+            "addr": 4294989008
+          },
+          {
+            "name": "statusLine",
+            "flag": "method.WPHTTPResponse.statusLine",
+            "lang": "objc",
+            "addr": 4294989028
+          },
+          {
+            "name": "logStatement",
+            "flag": "method.WPHTTPResponse.logStatement",
+            "lang": "objc",
+            "addr": 4294989084
+          },
+          {
+            "name": "serialized200OKResponseWithBody:",
+            "flag": "method.class.WPHTTPResponse.serialized200OKResponseWithBody:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294989088
+          }
+        ]
+      },
+      {
+        "classname": "WPHTTPCommunication",
+        "addr": 4295105136,
+        "lang": "objc",
+        "index": 8,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.WPHTTPCommunication.init",
+            "lang": "objc",
+            "addr": 4294993544
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.WPHTTPCommunication.dealloc",
+            "lang": "objc",
+            "addr": 4294993652
+          },
+          {
+            "name": "appendDataToRequest:",
+            "flag": "method.WPHTTPCommunication.appendDataToRequest:",
+            "lang": "objc",
+            "addr": 4294994896
+          },
+          {
+            "name": "requestPackets",
+            "flag": "method.WPHTTPCommunication.requestPackets",
+            "lang": "objc",
+            "addr": 4294995328
+          },
+          {
+            "name": "reinitializeRequest",
+            "flag": "method.WPHTTPCommunication.reinitializeRequest",
+            "lang": "objc",
+            "addr": 4294995336
+          },
+          {
+            "name": "isRequestHeaderComplete",
+            "flag": "method.WPHTTPCommunication.isRequestHeaderComplete",
+            "lang": "objc",
+            "addr": 4294995396
+          },
+          {
+            "name": "isRequestFiltrable:",
+            "flag": "method.WPHTTPCommunication.isRequestFiltrable:",
+            "lang": "objc",
+            "addr": 4294995404
+          },
+          {
+            "name": "requestURLString",
+            "flag": "method.WPHTTPCommunication.requestURLString",
+            "lang": "objc",
+            "addr": 4294995656
+          },
+          {
+            "name": "isCONNECTRequest",
+            "flag": "method.WPHTTPCommunication.isCONNECTRequest",
+            "lang": "objc",
+            "addr": 4294995664
+          },
+          {
+            "name": "appendDataToResponse:",
+            "flag": "method.WPHTTPCommunication.appendDataToResponse:",
+            "lang": "objc",
+            "addr": 4294995716
+          },
+          {
+            "name": "responsePackets",
+            "flag": "method.WPHTTPCommunication.responsePackets",
+            "lang": "objc",
+            "addr": 4294995724
+          },
+          {
+            "name": "reinitializeResponse",
+            "flag": "method.WPHTTPCommunication.reinitializeResponse",
+            "lang": "objc",
+            "addr": 4294995732
+          },
+          {
+            "name": "isResponseHeaderComplete",
+            "flag": "method.WPHTTPCommunication.isResponseHeaderComplete",
+            "lang": "objc",
+            "addr": 4294995792
+          },
+          {
+            "name": "_isResponseMIMETypeFiltrable",
+            "flag": "method.WPHTTPCommunication._isResponseMIMETypeFiltrable",
+            "lang": "objc",
+            "addr": 4294995800
+          },
+          {
+            "name": "isResponseHeaderOfWebPage:",
+            "flag": "method.WPHTTPCommunication.isResponseHeaderOfWebPage:",
+            "lang": "objc",
+            "addr": 4294996004
+          },
+          {
+            "name": "isResponseBodyOfWebPage:",
+            "flag": "method.WPHTTPCommunication.isResponseBodyOfWebPage:",
+            "lang": "objc",
+            "addr": 4294996156
+          },
+          {
+            "name": "dataFromDecodedResponseBody",
+            "flag": "method.WPHTTPCommunication.dataFromDecodedResponseBody",
+            "lang": "objc",
+            "addr": 4294996332
+          },
+          {
+            "name": "responseWebPageSource:encoding:",
+            "flag": "method.WPHTTPCommunication.responseWebPageSource:encoding:",
+            "lang": "objc",
+            "addr": 4294996472
+          },
+          {
+            "name": "description",
+            "flag": "method.WPHTTPCommunication.description",
+            "lang": "objc",
+            "addr": 4294996824
+          },
+          {
+            "name": "request",
+            "flag": "method.WPHTTPCommunication.request",
+            "lang": "objc",
+            "addr": 4294997076
+          },
+          {
+            "name": "response",
+            "flag": "method.WPHTTPCommunication.response",
+            "lang": "objc",
+            "addr": 4294997084
+          },
+          {
+            "name": "requestState",
+            "flag": "method.WPHTTPCommunication.requestState",
+            "lang": "objc",
+            "addr": 4294997092
+          },
+          {
+            "name": "setRequestState:",
+            "flag": "method.WPHTTPCommunication.setRequestState:",
+            "lang": "objc",
+            "addr": 4294997100
+          },
+          {
+            "name": "responseState",
+            "flag": "method.WPHTTPCommunication.responseState",
+            "lang": "objc",
+            "addr": 4294997108
+          },
+          {
+            "name": "setResponseState:",
+            "flag": "method.WPHTTPCommunication.setResponseState:",
+            "lang": "objc",
+            "addr": 4294997116
+          },
+          {
+            "name": "_fileExtensionsToIngore",
+            "flag": "method.class.WPHTTPCommunication._fileExtensionsToIngore",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294993736
+          },
+          {
+            "name": "_dictionaryOfFileExtensionsToIngore",
+            "flag": "method.class.WPHTTPCommunication._dictionaryOfFileExtensionsToIngore",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294994580
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "request",
+            "kind": "var",
+            "type": "@\"WPHTTPRequest\"",
+            "addr": 4295104520
+          },
+          {
+            "name": "response",
+            "kind": "var",
+            "type": "@\"WPHTTPResponse\"",
+            "addr": 4295104524
+          },
+          {
+            "name": "requestState",
+            "kind": "var",
+            "type": "Q",
+            "addr": 4295104528
+          },
+          {
+            "name": "responseState",
+            "kind": "var",
+            "type": "Q",
+            "addr": 4295104532
+          },
+          {
+            "name": "request",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "response",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "requestState",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "responseState",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "WPHTTPFilter",
+        "addr": 4295105216,
+        "lang": "objc",
+        "index": 9,
+        "super": [
+          "WPWebFilter",
+          "WPWebFilter"
+        ],
+        "rawsuper": [
+          "WPWebFilter",
+          "WPWebFilter"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.WPHTTPFilter.init",
+            "lang": "objc",
+            "addr": 4294997124
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.WPHTTPFilter.dealloc",
+            "lang": "objc",
+            "addr": 4294997224
+          },
+          {
+            "name": "_reinjectRequestPackets",
+            "flag": "method.WPHTTPFilter._reinjectRequestPackets",
+            "lang": "objc",
+            "addr": 4294997308
+          },
+          {
+            "name": "_filterRestrictionType",
+            "flag": "method.WPHTTPFilter._filterRestrictionType",
+            "lang": "objc",
+            "addr": 4294997752
+          },
+          {
+            "name": "_enforceGoogleSafeSearch",
+            "flag": "method.WPHTTPFilter._enforceGoogleSafeSearch",
+            "lang": "objc",
+            "addr": 4294997912
+          },
+          {
+            "name": "_sendModifiedRequestIfNeeded",
+            "flag": "method.WPHTTPFilter._sendModifiedRequestIfNeeded",
+            "lang": "objc",
+            "addr": 4294998440
+          },
+          {
+            "name": "_filterBrowserRequestDataWithCompleteHeader:",
+            "flag": "method.WPHTTPFilter._filterBrowserRequestDataWithCompleteHeader:",
+            "lang": "objc",
+            "addr": 4294998444
+          },
+          {
+            "name": "filterBrowserRequestData:",
+            "flag": "method.WPHTTPFilter.filterBrowserRequestData:",
+            "lang": "objc",
+            "addr": 4294998636
+          },
+          {
+            "name": "_reinjectResponsePackets",
+            "flag": "method.WPHTTPFilter._reinjectResponsePackets",
+            "lang": "objc",
+            "addr": 4294999092
+          },
+          {
+            "name": "_formatPageTitle:URLString:",
+            "flag": "method.WPHTTPFilter._formatPageTitle:URLString:",
+            "lang": "objc",
+            "addr": 4294999536
+          },
+          {
+            "name": "_blockPageForPageWithTitle:",
+            "flag": "method.WPHTTPFilter._blockPageForPageWithTitle:",
+            "lang": "objc",
+            "addr": 4294999772
+          },
+          {
+            "name": "_filterServerResponseContentEvaluation",
+            "flag": "method.WPHTTPFilter._filterServerResponseContentEvaluation",
+            "lang": "objc",
+            "addr": 4295000308
+          },
+          {
+            "name": "_filterServer_200_OK_Response",
+            "flag": "method.WPHTTPFilter._filterServer_200_OK_Response",
+            "lang": "objc",
+            "addr": 4295000636
+          },
+          {
+            "name": "_filterServerResponseWithCompleteHeader",
+            "flag": "method.WPHTTPFilter._filterServerResponseWithCompleteHeader",
+            "lang": "objc",
+            "addr": 4295000832
+          },
+          {
+            "name": "_filterServerResponseData:",
+            "flag": "method.WPHTTPFilter._filterServerResponseData:",
+            "lang": "objc",
+            "addr": 4295001176
+          },
+          {
+            "name": "filterServerResponseData:",
+            "flag": "method.WPHTTPFilter.filterServerResponseData:",
+            "lang": "objc",
+            "addr": 4295001272
+          },
+          {
+            "name": "logAction:explanation:",
+            "flag": "method.WPHTTPFilter.logAction:explanation:",
+            "lang": "objc",
+            "addr": 4295001412
+          },
+          {
+            "name": "isDisabled",
+            "flag": "method.WPHTTPFilter.isDisabled",
+            "lang": "objc",
+            "addr": 4295001512
+          },
+          {
+            "name": "setIsDisabled:",
+            "flag": "method.WPHTTPFilter.setIsDisabled:",
+            "lang": "objc",
+            "addr": 4295001532
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "isDisabled",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295104540
+          },
+          {
+            "name": "communication",
+            "kind": "var",
+            "type": "@\"WPHTTPCommunication\"",
+            "addr": 4295104536
+          },
+          {
+            "name": "isDisabled",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "WPPacketBrigade",
+        "addr": 4295105296,
+        "lang": "objc",
+        "index": 10,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.WPPacketBrigade.init",
+            "lang": "objc",
+            "addr": 4295001804
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.WPPacketBrigade.dealloc",
+            "lang": "objc",
+            "addr": 4295001896
+          },
+          {
+            "name": "appendDataPacket:",
+            "flag": "method.WPPacketBrigade.appendDataPacket:",
+            "lang": "objc",
+            "addr": 4295001972
+          },
+          {
+            "name": "_calculateLength",
+            "flag": "method.WPPacketBrigade._calculateLength",
+            "lang": "objc",
+            "addr": 4295002060
+          },
+          {
+            "name": "numberOfPackets",
+            "flag": "method.WPPacketBrigade.numberOfPackets",
+            "lang": "objc",
+            "addr": 4295002308
+          },
+          {
+            "name": "length",
+            "flag": "method.WPPacketBrigade.length",
+            "lang": "objc",
+            "addr": 4295002316
+          },
+          {
+            "name": "packets",
+            "flag": "method.WPPacketBrigade.packets",
+            "lang": "objc",
+            "addr": 4295002392
+          },
+          {
+            "name": "lastDataPacket",
+            "flag": "method.WPPacketBrigade.lastDataPacket",
+            "lang": "objc",
+            "addr": 4295002412
+          },
+          {
+            "name": "data",
+            "flag": "method.WPPacketBrigade.data",
+            "lang": "objc",
+            "addr": 4295002420
+          },
+          {
+            "name": "dataFromIndex:",
+            "flag": "method.WPPacketBrigade.dataFromIndex:",
+            "lang": "objc",
+            "addr": 4295002700
+          },
+          {
+            "name": "subdataWithRange:",
+            "flag": "method.WPPacketBrigade.subdataWithRange:",
+            "lang": "objc",
+            "addr": 4295002768
+          },
+          {
+            "name": "byteAtIndex:",
+            "flag": "method.WPPacketBrigade.byteAtIndex:",
+            "lang": "objc",
+            "addr": 4295003220
+          },
+          {
+            "name": "indexOfSequence:size:inRange:",
+            "flag": "method.WPPacketBrigade.indexOfSequence:size:inRange:",
+            "lang": "objc",
+            "addr": 4295003512
+          },
+          {
+            "name": "indexOfCRLFSequenceFromIndex:",
+            "flag": "method.WPPacketBrigade.indexOfCRLFSequenceFromIndex:",
+            "lang": "objc",
+            "addr": 4295003752
+          },
+          {
+            "name": "indexOfCRLFCRLFSequenceFromIndex:",
+            "flag": "method.WPPacketBrigade.indexOfCRLFCRLFSequenceFromIndex:",
+            "lang": "objc",
+            "addr": 4295003832
+          },
+          {
+            "name": "packetBrigadeWithDataPackets:",
+            "flag": "method.class.WPPacketBrigade.packetBrigadeWithDataPackets:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295001548
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "packets",
+            "kind": "var",
+            "type": "@\"NSArray\"",
+            "addr": 4295104544
+          },
+          {
+            "name": "cacheIdentifier",
+            "kind": "var",
+            "type": "Q",
+            "addr": 4295104548
+          },
+          {
+            "name": "lengthCached",
+            "kind": "var",
+            "type": "Q",
+            "addr": 4295104552
+          },
+          {
+            "name": "packets",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "WPProcess",
+        "addr": 4295105376,
+        "lang": "objc",
+        "index": 11,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "_copyPath",
+            "flag": "method.WPProcess._copyPath",
+            "lang": "objc",
+            "addr": 4295007016
+          },
+          {
+            "name": "_copyUsername",
+            "flag": "method.WPProcess._copyUsername",
+            "lang": "objc",
+            "addr": 4295007204
+          },
+          {
+            "name": "initWithPID:",
+            "flag": "method.WPProcess.initWithPID:",
+            "lang": "objc",
+            "addr": 4295007348
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.WPProcess.dealloc",
+            "lang": "objc",
+            "addr": 4295007796
+          },
+          {
+            "name": "_bundlePath",
+            "flag": "method.WPProcess._bundlePath",
+            "lang": "objc",
+            "addr": 4295007896
+          },
+          {
+            "name": "_copyBundleID",
+            "flag": "method.WPProcess._copyBundleID",
+            "lang": "objc",
+            "addr": 4295008024
+          },
+          {
+            "name": "appBundle",
+            "flag": "method.WPProcess.appBundle",
+            "lang": "objc",
+            "addr": 4295008432
+          },
+          {
+            "name": "_isFiltrable",
+            "flag": "method.WPProcess._isFiltrable",
+            "lang": "objc",
+            "addr": 4295008520
+          },
+          {
+            "name": "isFiltrable",
+            "flag": "method.WPProcess.isFiltrable",
+            "lang": "objc",
+            "addr": 4295008880
+          },
+          {
+            "name": "isEqual:",
+            "flag": "method.WPProcess.isEqual:",
+            "lang": "objc",
+            "addr": 4295008948
+          },
+          {
+            "name": "hash",
+            "flag": "method.WPProcess.hash",
+            "lang": "objc",
+            "addr": 4295009040
+          },
+          {
+            "name": "description",
+            "flag": "method.WPProcess.description",
+            "lang": "objc",
+            "addr": 4295009068
+          },
+          {
+            "name": "logDescription",
+            "flag": "method.WPProcess.logDescription",
+            "lang": "objc",
+            "addr": 4295009220
+          },
+          {
+            "name": "PID",
+            "flag": "method.WPProcess.PID",
+            "lang": "objc",
+            "addr": 4295009340
+          },
+          {
+            "name": "UID",
+            "flag": "method.WPProcess.UID",
+            "lang": "objc",
+            "addr": 4295009348
+          },
+          {
+            "name": "path",
+            "flag": "method.WPProcess.path",
+            "lang": "objc",
+            "addr": 4295009356
+          },
+          {
+            "name": "appBundleIdentifier",
+            "flag": "method.WPProcess.appBundleIdentifier",
+            "lang": "objc",
+            "addr": 4295009364
+          },
+          {
+            "name": "isSignedByApple",
+            "flag": "method.WPProcess.isSignedByApple",
+            "lang": "objc",
+            "addr": 4295009372
+          },
+          {
+            "name": "isSignedByAppStore",
+            "flag": "method.WPProcess.isSignedByAppStore",
+            "lang": "objc",
+            "addr": 4295009384
+          },
+          {
+            "name": "name",
+            "flag": "method.WPProcess.name",
+            "lang": "objc",
+            "addr": 4295009396
+          },
+          {
+            "name": "username",
+            "flag": "method.WPProcess.username",
+            "lang": "objc",
+            "addr": 4295009404
+          },
+          {
+            "name": "isNetworkUser",
+            "flag": "method.WPProcess.isNetworkUser",
+            "lang": "objc",
+            "addr": 4295009412
+          },
+          {
+            "name": "sharedProcessWithPID:",
+            "flag": "method.class.WPProcess.sharedProcessWithPID:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295005920
+          },
+          {
+            "name": "_off_sharedProcessWithPID:",
+            "flag": "method.class.WPProcess._off_sharedProcessWithPID:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295006428
+          },
+          {
+            "name": "processWithPID:",
+            "flag": "method.class.WPProcess.processWithPID:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295006952
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "PID",
+            "kind": "var",
+            "type": "i",
+            "addr": 4295104556
+          },
+          {
+            "name": "name",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295104560
+          },
+          {
+            "name": "path",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295104564
+          },
+          {
+            "name": "appBundleIdentifier",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295104568
+          },
+          {
+            "name": "isSignedByApple",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295104572
+          },
+          {
+            "name": "isSignedByAppStore",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295104576
+          },
+          {
+            "name": "UID",
+            "kind": "var",
+            "type": "I",
+            "addr": 4295104580
+          },
+          {
+            "name": "username",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295104584
+          },
+          {
+            "name": "isNetworkUser",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295104588
+          },
+          {
+            "name": "isFiltrableCache",
+            "kind": "var",
+            "type": "q",
+            "addr": 4295104592
+          },
+          {
+            "name": "PID",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "name",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "path",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "appBundleIdentifier",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "isSignedByApple",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "isSignedByAppStore",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "UID",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "username",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "isNetworkUser",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "WPOverrideRestriction",
+        "addr": 4295105456,
+        "lang": "objc",
+        "index": 12,
+        "super": [
+          "WPWebFilter",
+          "WPWebFilter"
+        ],
+        "rawsuper": [
+          "WPWebFilter",
+          "WPWebFilter"
+        ],
+        "methods": [
+          {
+            "name": "initWithSocketA:socketB:",
+            "flag": "method.WPOverrideRestriction.initWithSocketA:socketB:",
+            "lang": "objc",
+            "addr": 4295010108
+          },
+          {
+            "name": "_goBackPage",
+            "flag": "method.WPOverrideRestriction._goBackPage",
+            "lang": "objc",
+            "addr": 4295010208
+          },
+          {
+            "name": "_errorPage",
+            "flag": "method.WPOverrideRestriction._errorPage",
+            "lang": "objc",
+            "addr": 4295010412
+          },
+          {
+            "name": "_overrideRequest",
+            "flag": "method.WPOverrideRestriction._overrideRequest",
+            "lang": "objc",
+            "addr": 4295010480
+          },
+          {
+            "name": "filterBrowserRequestData:",
+            "flag": "method.WPOverrideRestriction.filterBrowserRequestData:",
+            "lang": "objc",
+            "addr": 4295010864
+          },
+          {
+            "name": "tellParentalControlsToOverrideURLString:pageTitle:",
+            "flag": "method.class.WPOverrideRestriction.tellParentalControlsToOverrideURLString:pageTitle:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295009468
+          },
+          {
+            "name": "_extractURLString:title:fromBody:",
+            "flag": "method.class.WPOverrideRestriction._extractURLString:title:fromBody:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295009824
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "request",
+            "kind": "var",
+            "type": "@\"WPHTTPRequest\"",
+            "addr": 4295104596
+          }
+        ]
+      },
+      {
+        "classname": "WPHTTPSFilter",
+        "addr": 4295105536,
+        "lang": "objc",
+        "index": 13,
+        "super": [
+          "WPWebFilter",
+          "WPWebFilter"
+        ],
+        "rawsuper": [
+          "WPWebFilter",
+          "WPWebFilter"
+        ],
+        "methods": [
+          {
+            "name": "dealloc",
+            "flag": "method.WPHTTPSFilter.dealloc",
+            "lang": "objc",
+            "addr": 4295012876
+          },
+          {
+            "name": "_serverDomainName",
+            "flag": "method.WPHTTPSFilter._serverDomainName",
+            "lang": "objc",
+            "addr": 4295012964
+          },
+          {
+            "name": "isServerAllowed",
+            "flag": "method.WPHTTPSFilter.isServerAllowed",
+            "lang": "objc",
+            "addr": 4295013360
+          },
+          {
+            "name": "filterBrowserRequestData:",
+            "flag": "method.WPHTTPSFilter.filterBrowserRequestData:",
+            "lang": "objc",
+            "addr": 4295013612
+          },
+          {
+            "name": "serverURLString",
+            "flag": "method.WPHTTPSFilter.serverURLString",
+            "lang": "objc",
+            "addr": 4295013856
+          },
+          {
+            "name": "setServerURLString:",
+            "flag": "method.WPHTTPSFilter.setServerURLString:",
+            "lang": "objc",
+            "addr": 4295013872
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "serverWasVerified",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295104604
+          },
+          {
+            "name": "_serverURLString",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295104600
+          },
+          {
+            "name": "serverURLString",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "WPUserAgent",
+        "addr": 4295105616,
+        "lang": "objc",
+        "index": 14,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithUID:",
+            "flag": "method.WPUserAgent.initWithUID:",
+            "lang": "objc",
+            "addr": 4295014776
+          },
+          {
+            "name": "showHTTPSRestrictionForURL:applicationPath:",
+            "flag": "method.WPUserAgent.showHTTPSRestrictionForURL:applicationPath:",
+            "lang": "objc",
+            "addr": 4295014852
+          },
+          {
+            "name": "userAgentWithUID:",
+            "flag": "method.class.WPUserAgent.userAgentWithUID:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295014712
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "uea_port",
+            "kind": "var",
+            "type": "I",
+            "addr": 4295104608
+          },
+          {
+            "name": "uid",
+            "kind": "var",
+            "type": "I",
+            "addr": 4295104612
+          }
+        ]
+      }
+    ],
+    "swift_metadata": {
+      "is_swift": false,
+      "symbols": []
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/webfilterDNSd.sb",
+        "Versions/A/Resources/com.apple.webcontentfilter.proxy.plist",
+        "Versions/A/Resources/debugpageheader.html",
+        "Versions/A/Resources/blockpage_script.js",
+        "Versions/A/Resources/framework.sb",
+        "Versions/A/Resources/webfilterDNSd",
+        "Versions/A/Resources/metasites.txt",
+        "Versions/A/Resources/webfilterproxyd.sb",
+        "Versions/A/Resources/com.apple.webcontentfilter.dns.plist",
+        "Versions/A/Resources/InfoPlist.loctable",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/webfilterproxyd",
+        "Versions/A/Resources/metasites_exceptions.txt",
+        "Versions/A/Resources/version.plist",
+        "Versions/A/Resources/de.lproj/blockpage-nooverride.html",
+        "Versions/A/Resources/de.lproj/blockpage_style.css",
+        "Versions/A/Resources/de.lproj/blockpage-net.html",
+        "Versions/A/Resources/de.lproj/blockpage.html",
+        "Versions/A/Resources/de.lproj/blockpage-wl.html",
+        "Versions/A/Resources/de.lproj/blockpage-net-wl.html",
+        "Versions/A/Resources/de.lproj/error.html",
+        "Versions/A/Resources/he.lproj/blockpage-nooverride.html",
+        "Versions/A/Resources/he.lproj/blockpage_style.css",
+        "Versions/A/Resources/he.lproj/blockpage-net.html",
+        "Versions/A/Resources/he.lproj/blockpage.html",
+        "Versions/A/Resources/he.lproj/blockpage-wl.html",
+        "Versions/A/Resources/he.lproj/blockpage-net-wl.html",
+        "Versions/A/Resources/he.lproj/error.html",
+        "Versions/A/Resources/en_AU.lproj/blockpage-nooverride.html",
+        "Versions/A/Resources/en_AU.lproj/blockpage_style.css",
+        "Versions/A/Resources/en_AU.lproj/blockpage-net.html",
+        "Versions/A/Resources/en_AU.lproj/blockpage.html",
+        "Versions/A/Resources/en_AU.lproj/blockpage-wl.html",
+        "Versions/A/Resources/en_AU.lproj/blockpage-net-wl.html",
+        "Versions/A/Resources/en_AU.lproj/error.html",
+        "Versions/A/Resources/ar.lproj/blockpage-nooverride.html",
+        "Versions/A/Resources/ar.lproj/blockpage_style.css",
+        "Versions/A/Resources/ar.lproj/blockpage-net.html",
+        "Versions/A/Resources/ar.lproj/blockpage.html",
+        "Versions/A/Resources/ar.lproj/blockpage-wl.html",
+        "Versions/A/Resources/ar.lproj/blockpage-net-wl.html",
+        "Versions/A/Resources/ar.lproj/error.html",
+        "Versions/A/Resources/el.lproj/blockpage-nooverride.html",
+        "Versions/A/Resources/el.lproj/blockpage_style.css",
+        "Versions/A/Resources/el.lproj/blockpage-net.html",
+        "Versions/A/Resources/el.lproj/blockpage.html",
+        "Versions/A/Resources/el.lproj/blockpage-wl.html",
+        "Versions/A/Resources/el.lproj/blockpage-net-wl.html",
+        "Versions/A/Resources/el.lproj/error.html",
+        "Versions/A/Resources/ja.lproj/blockpage-nooverride.html",
+        "Versions/A/Resources/ja.lproj/blockpage_style.css",
+        "Versions/A/Resources/ja.lproj/blockpage-net.html",
+        "Versions/A/Resources/ja.lproj/blockpage.html",
+        "Versions/A/Resources/ja.lproj/blockpage-wl.html",
+        "Versions/A/Resources/ja.lproj/blockpage-net-wl.html",
+        "Versions/A/Resources/ja.lproj/error.html",
+        "Versions/A/Resources/en.lproj/blockpage-nooverride.html",
+        "Versions/A/Resources/en.lproj/blockpage_style.css",
+        "Versions/A/Resources/en.lproj/blockpage-net.html",
+        "Versions/A/Resources/en.lproj/blockpage.html",
+        "Versions/A/Resources/en.lproj/blockpage-wl.html",
+        "Versions/A/Resources/en.lproj/blockpage-net-wl.html",
+        "Versions/A/Resources/en.lproj/error.html",
+        "Versions/A/Resources/uk.lproj/blockpage-nooverride.html",
+        "Versions/A/Resources/uk.lproj/blockpage_style.css",
+        "Versions/A/Resources/uk.lproj/blockpage-net.html",
+        "Versions/A/Resources/uk.lproj/blockpage.html",
+        "Versions/A/Resources/uk.lproj/blockpage-wl.html",
+        "Versions/A/Resources/uk.lproj/blockpage-net-wl.html",
+        "Versions/A/Resources/uk.lproj/error.html",
+        "Versions/A/Resources/es_419.lproj/blockpage-nooverride.html",
+        "Versions/A/Resources/es_419.lproj/blockpage_style.css",
+        "Versions/A/Resources/es_419.lproj/blockpage-net.html",
+        "Versions/A/Resources/es_419.lproj/blockpage.html",
+        "Versions/A/Resources/es_419.lproj/blockpage-wl.html",
+        "Versions/A/Resources/es_419.lproj/blockpage-net-wl.html",
+        "Versions/A/Resources/es_419.lproj/error.html",
+        "Versions/A/Resources/zh_CN.lproj/blockpage-nooverride.html",
+        "Versions/A/Resources/zh_CN.lproj/blockpage_style.css",
+        "Versions/A/Resources/zh_CN.lproj/blockpage-net.html",
+        "Versions/A/Resources/zh_CN.lproj/blockpage.html",
+        "Versions/A/Resources/zh_CN.lproj/blockpage-wl.html",
+        "Versions/A/Resources/zh_CN.lproj/blockpage-net-wl.html",
+        "Versions/A/Resources/zh_CN.lproj/error.html",
+        "Versions/A/Resources/es.lproj/blockpage-nooverride.html",
+        "Versions/A/Resources/es.lproj/blockpage_style.css",
+        "Versions/A/Resources/es.lproj/blockpage-net.html",
+        "Versions/A/Resources/es.lproj/blockpage.html",
+        "Versions/A/Resources/es.lproj/blockpage-wl.html",
+        "Versions/A/Resources/es.lproj/blockpage-net-wl.html",
+        "Versions/A/Resources/es.lproj/error.html",
+        "Versions/A/Resources/sl.lproj/blockpage-nooverride.html",
+        "Versions/A/Resources/sl.lproj/blockpage_style.css",
+        "Versions/A/Resources/sl.lproj/blockpage-net.html",
+        "Versions/A/Resources/sl.lproj/blockpage.html",
+        "Versions/A/Resources/sl.lproj/blockpage-wl.html",
+        "Versions/A/Resources/sl.lproj/blockpage-net-wl.html",
+        "Versions/A/Resources/sl.lproj/error.html",
+        "Versions/A/Resources/pt_BR.lproj/blockpage-nooverride.html",
+        "Versions/A/Resources/pt_BR.lproj/blockpage_style.css",
+        "Versions/A/Resources/pt_BR.lproj/blockpage-net.html",
+        "Versions/A/Resources/pt_BR.lproj/blockpage.html",
+        "Versions/A/Resources/pt_BR.lproj/blockpage-wl.html",
+        "Versions/A/Resources/pt_BR.lproj/blockpage-net-wl.html",
+        "Versions/A/Resources/pt_BR.lproj/error.html",
+        "Versions/A/Resources/da.lproj/blockpage-nooverride.html",
+        "Versions/A/Resources/da.lproj/blockpage_style.css",
+        "Versions/A/Resources/da.lproj/blockpage-net.html",
+        "Versions/A/Resources/da.lproj/blockpage.html",
+        "Versions/A/Resources/da.lproj/blockpage-wl.html",
+        "Versions/A/Resources/da.lproj/blockpage-net-wl.html",
+        "Versions/A/Resources/da.lproj/error.html",
+        "Versions/A/Resources/it.lproj/blockpage-nooverride.html",
+        "Versions/A/Resources/it.lproj/blockpage_style.css",
+        "Versions/A/Resources/it.lproj/blockpage-net.html",
+        "Versions/A/Resources/it.lproj/blockpage.html",
+        "Versions/A/Resources/it.lproj/blockpage-wl.html",
+        "Versions/A/Resources/it.lproj/blockpage-net-wl.html",
+        "Versions/A/Resources/it.lproj/error.html",
+        "Versions/A/Resources/sk.lproj/blockpage-nooverride.html",
+        "Versions/A/Resources/sk.lproj/blockpage_style.css",
+        "Versions/A/Resources/sk.lproj/blockpage-net.html",
+        "Versions/A/Resources/sk.lproj/blockpage.html",
+        "Versions/A/Resources/sk.lproj/blockpage-wl.html",
+        "Versions/A/Resources/sk.lproj/blockpage-net-wl.html",
+        "Versions/A/Resources/sk.lproj/error.html",
+        "Versions/A/Resources/pt_PT.lproj/blockpage-nooverride.html",
+        "Versions/A/Resources/pt_PT.lproj/blockpage_style.css",
+        "Versions/A/Resources/pt_PT.lproj/blockpage-net.html",
+        "Versions/A/Resources/pt_PT.lproj/blockpage.html",
+        "Versions/A/Resources/pt_PT.lproj/blockpage-wl.html",
+        "Versions/A/Resources/pt_PT.lproj/blockpage-net-wl.html",
+        "Versions/A/Resources/pt_PT.lproj/error.html",
+        "Versions/A/Resources/ms.lproj/blockpage-nooverride.html",
+        "Versions/A/Resources/ms.lproj/blockpage_style.css",
+        "Versions/A/Resources/ms.lproj/blockpage-net.html",
+        "Versions/A/Resources/ms.lproj/blockpage.html",
+        "Versions/A/Resources/ms.lproj/blockpage-wl.html",
+        "Versions/A/Resources/ms.lproj/blockpage-net-wl.html",
+        "Versions/A/Resources/ms.lproj/error.html",
+        "Versions/A/Resources/sv.lproj/blockpage-nooverride.html",
+        "Versions/A/Resources/sv.lproj/blockpage_style.css",
+        "Versions/A/Resources/sv.lproj/blockpage-net.html",
+        "Versions/A/Resources/sv.lproj/blockpage.html",
+        "Versions/A/Resources/sv.lproj/blockpage-wl.html",
+        "Versions/A/Resources/sv.lproj/blockpage-net-wl.html",
+        "Versions/A/Resources/sv.lproj/error.html",
+        "Versions/A/Resources/cs.lproj/blockpage-nooverride.html",
+        "Versions/A/Resources/cs.lproj/blockpage_style.css",
+        "Versions/A/Resources/cs.lproj/blockpage-net.html",
+        "Versions/A/Resources/cs.lproj/blockpage.html",
+        "Versions/A/Resources/cs.lproj/blockpage-wl.html",
+        "Versions/A/Resources/cs.lproj/blockpage-net-wl.html",
+        "Versions/A/Resources/cs.lproj/error.html",
+        "Versions/A/Resources/ko.lproj/blockpage-nooverride.html",
+        "Versions/A/Resources/ko.lproj/blockpage_style.css",
+        "Versions/A/Resources/ko.lproj/blockpage-net.html",
+        "Versions/A/Resources/ko.lproj/blockpage.html",
+        "Versions/A/Resources/ko.lproj/blockpage-wl.html",
+        "Versions/A/Resources/ko.lproj/blockpage-net-wl.html",
+        "Versions/A/Resources/ko.lproj/error.html",
+        "Versions/A/Resources/no.lproj/blockpage-nooverride.html",
+        "Versions/A/Resources/no.lproj/blockpage_style.css",
+        "Versions/A/Resources/no.lproj/blockpage-net.html",
+        "Versions/A/Resources/no.lproj/blockpage.html",
+        "Versions/A/Resources/no.lproj/blockpage-wl.html",
+        "Versions/A/Resources/no.lproj/blockpage-net-wl.html",
+        "Versions/A/Resources/no.lproj/error.html",
+        "Versions/A/Resources/hu.lproj/blockpage-nooverride.html",
+        "Versions/A/Resources/hu.lproj/blockpage_style.css",
+        "Versions/A/Resources/hu.lproj/blockpage-net.html",
+        "Versions/A/Resources/hu.lproj/blockpage.html",
+        "Versions/A/Resources/hu.lproj/blockpage-wl.html",
+        "Versions/A/Resources/hu.lproj/blockpage-net-wl.html",
+        "Versions/A/Resources/hu.lproj/error.html",
+        "Versions/A/Resources/zh_HK.lproj/blockpage-nooverride.html",
+        "Versions/A/Resources/zh_HK.lproj/blockpage_style.css",
+        "Versions/A/Resources/zh_HK.lproj/blockpage-net.html",
+        "Versions/A/Resources/zh_HK.lproj/blockpage.html",
+        "Versions/A/Resources/zh_HK.lproj/blockpage-wl.html",
+        "Versions/A/Resources/zh_HK.lproj/blockpage-net-wl.html",
+        "Versions/A/Resources/zh_HK.lproj/error.html",
+        "Versions/A/Resources/tr.lproj/blockpage-nooverride.html",
+        "Versions/A/Resources/tr.lproj/blockpage_style.css",
+        "Versions/A/Resources/tr.lproj/blockpage-net.html",
+        "Versions/A/Resources/tr.lproj/blockpage.html",
+        "Versions/A/Resources/tr.lproj/blockpage-wl.html",
+        "Versions/A/Resources/tr.lproj/blockpage-net-wl.html",
+        "Versions/A/Resources/tr.lproj/error.html",
+        "Versions/A/Resources/pl.lproj/blockpage-nooverride.html",
+        "Versions/A/Resources/pl.lproj/blockpage_style.css",
+        "Versions/A/Resources/pl.lproj/blockpage-net.html",
+        "Versions/A/Resources/pl.lproj/blockpage.html",
+        "Versions/A/Resources/pl.lproj/blockpage-wl.html",
+        "Versions/A/Resources/pl.lproj/blockpage-net-wl.html",
+        "Versions/A/Resources/pl.lproj/error.html",
+        "Versions/A/Resources/zh_TW.lproj/blockpage-nooverride.html",
+        "Versions/A/Resources/zh_TW.lproj/blockpage_style.css",
+        "Versions/A/Resources/zh_TW.lproj/blockpage-net.html",
+        "Versions/A/Resources/zh_TW.lproj/blockpage.html",
+        "Versions/A/Resources/zh_TW.lproj/blockpage-wl.html",
+        "Versions/A/Resources/zh_TW.lproj/blockpage-net-wl.html",
+        "Versions/A/Resources/zh_TW.lproj/error.html",
+        "Versions/A/Resources/en_GB.lproj/blockpage-nooverride.html",
+        "Versions/A/Resources/en_GB.lproj/blockpage_style.css",
+        "Versions/A/Resources/en_GB.lproj/blockpage-net.html",
+        "Versions/A/Resources/en_GB.lproj/blockpage.html",
+        "Versions/A/Resources/en_GB.lproj/blockpage-wl.html",
+        "Versions/A/Resources/en_GB.lproj/blockpage-net-wl.html",
+        "Versions/A/Resources/en_GB.lproj/error.html",
+        "Versions/A/Resources/vi.lproj/blockpage-nooverride.html",
+        "Versions/A/Resources/vi.lproj/blockpage_style.css",
+        "Versions/A/Resources/vi.lproj/blockpage-net.html",
+        "Versions/A/Resources/vi.lproj/blockpage.html",
+        "Versions/A/Resources/vi.lproj/blockpage-wl.html",
+        "Versions/A/Resources/vi.lproj/blockpage-net-wl.html",
+        "Versions/A/Resources/vi.lproj/error.html",
+        "Versions/A/Resources/ru.lproj/blockpage-nooverride.html",
+        "Versions/A/Resources/ru.lproj/blockpage_style.css",
+        "Versions/A/Resources/ru.lproj/blockpage-net.html",
+        "Versions/A/Resources/ru.lproj/blockpage.html",
+        "Versions/A/Resources/ru.lproj/blockpage-wl.html",
+        "Versions/A/Resources/ru.lproj/blockpage-net-wl.html",
+        "Versions/A/Resources/ru.lproj/error.html",
+        "Versions/A/Resources/fr_CA.lproj/blockpage-nooverride.html",
+        "Versions/A/Resources/fr_CA.lproj/blockpage_style.css",
+        "Versions/A/Resources/fr_CA.lproj/blockpage-net.html",
+        "Versions/A/Resources/fr_CA.lproj/blockpage.html",
+        "Versions/A/Resources/fr_CA.lproj/blockpage-wl.html",
+        "Versions/A/Resources/fr_CA.lproj/blockpage-net-wl.html",
+        "Versions/A/Resources/fr_CA.lproj/error.html",
+        "Versions/A/Resources/fr.lproj/blockpage-nooverride.html",
+        "Versions/A/Resources/fr.lproj/blockpage_style.css",
+        "Versions/A/Resources/fr.lproj/blockpage-net.html",
+        "Versions/A/Resources/fr.lproj/blockpage.html",
+        "Versions/A/Resources/fr.lproj/blockpage-wl.html",
+        "Versions/A/Resources/fr.lproj/blockpage-net-wl.html",
+        "Versions/A/Resources/fr.lproj/error.html",
+        "Versions/A/Resources/fi.lproj/blockpage-nooverride.html",
+        "Versions/A/Resources/fi.lproj/blockpage_style.css",
+        "Versions/A/Resources/fi.lproj/blockpage-net.html",
+        "Versions/A/Resources/fi.lproj/blockpage.html",
+        "Versions/A/Resources/fi.lproj/blockpage-wl.html",
+        "Versions/A/Resources/fi.lproj/blockpage-net-wl.html",
+        "Versions/A/Resources/fi.lproj/error.html",
+        "Versions/A/Resources/id.lproj/blockpage-nooverride.html",
+        "Versions/A/Resources/id.lproj/blockpage_style.css",
+        "Versions/A/Resources/id.lproj/blockpage-net.html",
+        "Versions/A/Resources/id.lproj/blockpage.html",
+        "Versions/A/Resources/id.lproj/blockpage-wl.html",
+        "Versions/A/Resources/id.lproj/blockpage-net-wl.html",
+        "Versions/A/Resources/id.lproj/error.html",
+        "Versions/A/Resources/nl.lproj/blockpage-nooverride.html",
+        "Versions/A/Resources/nl.lproj/blockpage_style.css",
+        "Versions/A/Resources/nl.lproj/blockpage-net.html",
+        "Versions/A/Resources/nl.lproj/blockpage.html",
+        "Versions/A/Resources/nl.lproj/blockpage-wl.html",
+        "Versions/A/Resources/nl.lproj/blockpage-net-wl.html",
+        "Versions/A/Resources/nl.lproj/error.html",
+        "Versions/A/Resources/th.lproj/blockpage-nooverride.html",
+        "Versions/A/Resources/th.lproj/blockpage_style.css",
+        "Versions/A/Resources/th.lproj/blockpage-net.html",
+        "Versions/A/Resources/th.lproj/blockpage.html",
+        "Versions/A/Resources/th.lproj/blockpage-wl.html",
+        "Versions/A/Resources/th.lproj/blockpage-net-wl.html",
+        "Versions/A/Resources/th.lproj/error.html",
+        "Versions/A/Resources/ro.lproj/blockpage-nooverride.html",
+        "Versions/A/Resources/ro.lproj/blockpage_style.css",
+        "Versions/A/Resources/ro.lproj/blockpage-net.html",
+        "Versions/A/Resources/ro.lproj/blockpage.html",
+        "Versions/A/Resources/ro.lproj/blockpage-wl.html",
+        "Versions/A/Resources/ro.lproj/blockpage-net-wl.html",
+        "Versions/A/Resources/ro.lproj/error.html",
+        "Versions/A/Resources/hr.lproj/blockpage-nooverride.html",
+        "Versions/A/Resources/hr.lproj/blockpage_style.css",
+        "Versions/A/Resources/hr.lproj/blockpage-net.html",
+        "Versions/A/Resources/hr.lproj/blockpage.html",
+        "Versions/A/Resources/hr.lproj/blockpage-wl.html",
+        "Versions/A/Resources/hr.lproj/blockpage-net-wl.html",
+        "Versions/A/Resources/hr.lproj/error.html",
+        "Versions/A/Resources/hi.lproj/blockpage-nooverride.html",
+        "Versions/A/Resources/hi.lproj/blockpage_style.css",
+        "Versions/A/Resources/hi.lproj/blockpage-net.html",
+        "Versions/A/Resources/hi.lproj/blockpage.html",
+        "Versions/A/Resources/hi.lproj/blockpage-wl.html",
+        "Versions/A/Resources/hi.lproj/blockpage-net-wl.html",
+        "Versions/A/Resources/hi.lproj/error.html",
+        "Versions/A/Resources/ca.lproj/blockpage-nooverride.html",
+        "Versions/A/Resources/ca.lproj/blockpage_style.css",
+        "Versions/A/Resources/ca.lproj/blockpage-net.html",
+        "Versions/A/Resources/ca.lproj/blockpage.html",
+        "Versions/A/Resources/ca.lproj/blockpage-wl.html",
+        "Versions/A/Resources/ca.lproj/blockpage-net-wl.html",
+        "Versions/A/Resources/ca.lproj/error.html"
+      ],
+      "plists": {
+        "Versions/A/Resources/com.apple.webcontentfilter.proxy.plist": {
+          "ProgramArguments": [
+            "sandbox-exec",
+            "-n",
+            "/System/Library/PrivateFrameworks/WebContentAnalysis.framework/Resources/webfilterproxyd.sb",
+            "/System/Library/PrivateFrameworks/WebContentAnalysis.framework/Resources/webfilterproxyd"
+          ],
+          "Sockets": {
+            "MyListenerSocket": {
+              "SockServiceName": "10011"
+            }
+          },
+          "MachServices": {
+            "com.apple.webcontentfilter.proxy": true
+          },
+          "Label": "com.apple.webcontentfilter.proxy",
+          "EnableTransactions": true
+        },
+        "Versions/A/Resources/com.apple.webcontentfilter.dns.plist": {
+          "ProgramArguments": [
+            "sandbox-exec",
+            "-n",
+            "/System/Library/PrivateFrameworks/WebContentAnalysis.framework/Resources/webfilterDNSd.sb",
+            "/System/Library/PrivateFrameworks/WebContentAnalysis.framework/Resources/webfilterDNSd"
+          ],
+          "KeepAlive": true,
+          "MachServices": {
+            "com.apple.webcontentfilter.dns": true
+          },
+          "Label": "com.apple.webcontentfilter.dns",
+          "UserName": "nobody",
+          "EnableTransactions": true
+        },
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "WebContentAnalysis",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B73",
+          "CFBundleDevelopmentRegion": "English",
+          "CFBundleVersion": "5.1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "FMWK",
+          "CFBundleShortVersionString": "5.1",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "WebContentAnalysis",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.webcontentfilter.framework",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleSignature": "????",
+          "DTPlatformBuild": "25B73"
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "5.1",
+          "CFBundleShortVersionString": "5.1",
+          "ProjectName": "WebContentFilter",
+          "SourceVersion": "63005000000000",
+          "BuildVersion": "5951"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
+  },
+  "usage": {
+    "layer": "usage",
+    "used_by": []
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "loaded"
+  }
+}

@@ -230,14 +230,197 @@
         ]
       }
     ],
-    "protocols": []
+    "swift_metadata": {
+      "is_swift": false,
+      "symbols": []
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/NSRTFFontFamilyMappings.plist",
+        "Versions/A/Resources/InfoPlist.loctable",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist",
+        "Versions/A/XPCServices/nsattributedstringagent.xpc/Contents/Info.plist",
+        "Versions/A/XPCServices/nsattributedstringagent.xpc/Contents/version.plist",
+        "Versions/A/XPCServices/nsattributedstringagent.xpc/Contents/_CodeSignature/CodeResources",
+        "Versions/A/XPCServices/nsattributedstringagent.xpc/Contents/MacOS/nsattributedstringagent"
+      ],
+      "plists": {
+        "Versions/A/Resources/NSRTFFontFamilyMappings.plist": {
+          "script": [
+            "Cursive",
+            "Tekton",
+            "Kaufmann",
+            "Park Avenue",
+            "ITC Zapf Chancery",
+            "Brush Script MT",
+            "Matura MT Script Capitals"
+          ],
+          "roman": [
+            "Times",
+            "Times New Roman",
+            "Palatino",
+            "Wide Latin",
+            "AdobeGaramond",
+            "Garamond",
+            "New Century Schoolbook",
+            "ITC Bookman",
+            "Adobe Caslon",
+            "Americana",
+            "Book Antiqua",
+            "Bookman Old Style",
+            "HeiseiMinTimes"
+          ],
+          "swiss": [
+            "Helvetica",
+            "Arial",
+            "Lucida Sans Unicode",
+            "Impact",
+            "Lucida Console",
+            "ITC Avant Garde Gothic",
+            "Century Gothic",
+            "Formata",
+            "Barmeno",
+            "Optima",
+            "Arial Black",
+            "Arial Narrow",
+            "Arial Rounded MT Bold",
+            "Haettenschweiler",
+            "Britannic Bold",
+            "HeiseiKakuGoHelvetica"
+          ],
+          "modern": [
+            "Ohlfs",
+            "Courier",
+            "Courier New",
+            "MS LineDraw",
+            "FixedHeiseiKakuGoCourier",
+            "FixedHeiseiMinCourier"
+          ],
+          "decor": [
+            "Blackoak",
+            "Lithos",
+            "Trajan",
+            "Poetica",
+            "Parisian",
+            "Algerian",
+            "Playbill",
+            "Braggadocio",
+            "Desdemona",
+            "Colonna MT",
+            "Kino MT"
+          ],
+          "tech": [
+            "Symbol",
+            "Wingdings",
+            "ITC Zapf Dingbats"
+          ]
+        },
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "UIFoundation",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1015.6",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "FMWK",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "UIFoundation",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.UIFoundation",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleSignature": "????",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "1015.6",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "UIFoundation",
+          "SourceVersion": "1015006000000000",
+          "BuildVersion": "240"
+        },
+        "Versions/A/XPCServices/nsattributedstringagent.xpc/Contents/Info.plist": {
+          "CFBundleName": "nsattributedstringagent",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2019 Apple Inc. All rights reserved.",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1015.6",
+          "BuildMachineOSBuild": "23A344014",
+          "NSPrincipalClass": "_NSAttributedStringAgentService",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "XPCService": {
+            "RunLoopType": "_NSApplicationMain",
+            "ServiceType": "Application",
+            "_AdditionalProperties": {
+              "RunningBoard": {
+                "Managed": false,
+                "Reported": false
+              }
+            }
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "nsattributedstringagent",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.textkit.nsattributedstringagent",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleDisplayName": "nsattributedstringagent",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/XPCServices/nsattributedstringagent.xpc/Contents/version.plist": {
+          "CFBundleVersion": "1015.6",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "UIFoundation",
+          "SourceVersion": "1015006000000000",
+          "BuildVersion": "240"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
   },
   "usage": {
     "layer": "usage",
-    "status": "not_implemented"
+    "used_by": []
   },
   "runtime": {
-    "layer": "runtime",
-    "status": "not_implemented"
+    "method": "ctypes",
+    "status": "loaded"
   }
 }

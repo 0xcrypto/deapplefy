@@ -405,14 +405,525 @@
         ]
       }
     ],
-    "protocols": []
+    "swift_metadata": {
+      "is_swift": false,
+      "symbols": []
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/DeferredInstallFixup",
+        "Versions/A/Resources/install_monitor",
+        "Versions/A/Resources/InstallScriptActions.plist",
+        "Versions/A/Resources/PKDistribution.loctable",
+        "Versions/A/Resources/CoreLanguages.plist",
+        "Versions/A/Resources/PKSignedContainer.loctable",
+        "Versions/A/Resources/PKDataSizeFormatter.loctable",
+        "Versions/A/Resources/InstallScriptMutations.plist",
+        "Versions/A/Resources/PKInstall.loctable",
+        "Versions/A/Resources/com.apple.system_installd.CacheDelete.plist",
+        "Versions/A/Resources/deferred_install",
+        "Versions/A/Resources/PKCheckErrors.loctable",
+        "Versions/A/Resources/shove",
+        "Versions/A/Resources/injectfse",
+        "Versions/A/Resources/deferred_install.sh",
+        "Versions/A/Resources/installd",
+        "Versions/A/Resources/InstallScriptTries.plist",
+        "Versions/A/Resources/system_installd",
+        "Versions/A/Resources/PKSigningIdentity.loctable",
+        "Versions/A/Resources/PKTimeRemainingFormatter.loctable",
+        "Versions/A/Resources/MASLibraryTask.txt",
+        "Versions/A/Resources/InfoPlist.loctable",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/PKInstallError.loctable",
+        "Versions/A/Resources/version.plist",
+        "Versions/A/XPCServices/package_script_service.xpc/Contents/Info.plist",
+        "Versions/A/XPCServices/package_script_service.xpc/Contents/version.plist",
+        "Versions/A/XPCServices/package_script_service.xpc/Contents/_CodeSignature/CodeResources",
+        "Versions/A/XPCServices/package_script_service.xpc/Contents/MacOS/package_script_service",
+        "Versions/A/XPCServices/package_script_service.xpc/Contents/Resources/InfoPlist.loctable"
+      ],
+      "plists": {
+        "Versions/A/Resources/InstallScriptActions.plist": [
+          {
+            "DropSIP": true,
+            "ComponentPackageIdentifiersRegex": [
+              "^.*$"
+            ],
+            "RelativePathTransformation": true,
+            "ScriptTypes": [
+              "preinstall",
+              "preflight",
+              "postinstall",
+              "postflight"
+            ],
+            "RelativePath": "%@_actions/LurkAndLaunch.pl"
+          },
+          {
+            "DropSIP": true,
+            "ComponentPackageIdentifiersRegex": [
+              "^.*$"
+            ],
+            "RelativePathTransformation": true,
+            "ScriptTypes": [
+              "preinstall",
+              "preflight",
+              "postinstall",
+              "postflight"
+            ],
+            "RelativePath": "%@_actions/zLurkNOpen.pl"
+          },
+          {
+            "DropSIP": true,
+            "ComponentPackageIdentifiersRegex": [
+              "^.*$"
+            ],
+            "RelativePathTransformation": true,
+            "ScriptTypes": [
+              "preinstall",
+              "preflight",
+              "postinstall",
+              "postflight"
+            ],
+            "RelativePath": "%@_actions/removeOldApp.sh"
+          },
+          {
+            "DropSIP": true,
+            "ComponentPackageIdentifiersRegex": [
+              "^.*$"
+            ],
+            "RelativePathTransformation": true,
+            "ScriptTypes": [
+              "preinstall",
+              "preflight",
+              "postinstall",
+              "postflight"
+            ],
+            "RelativePath": "%@_actions/spotlightReindex"
+          },
+          {
+            "DropSIP": true,
+            "ComponentPackageIdentifiersRegex": [
+              "^.*$"
+            ],
+            "RelativePathTransformation": true,
+            "ScriptTypes": [
+              "preinstall",
+              "preflight",
+              "postinstall",
+              "postflight"
+            ],
+            "RelativePath": "%@_actions/AlertAll.sh"
+          },
+          {
+            "DropSIP": true,
+            "ComponentPackageIdentifiersRegex": [
+              "^.*$"
+            ],
+            "RelativePathTransformation": true,
+            "ScriptTypes": [
+              "preinstall",
+              "preflight",
+              "postinstall",
+              "postflight"
+            ],
+            "RelativePath": "%@_actions/zopenmas"
+          },
+          {
+            "DropSIP": true,
+            "ComponentPackageIdentifiersRegex": [
+              "^.*$"
+            ],
+            "ScriptTypes": [
+              "preinstall",
+              "preflight",
+              "postinstall",
+              "postflight"
+            ],
+            "RelativePath": "Tools/zzz_autoLaunch"
+          },
+          {
+            "DropSIP": true,
+            "ComponentPackageIdentifiersRegex": [
+              "^.*$"
+            ],
+            "ScriptTypes": [
+              "preinstall",
+              "preflight",
+              "postinstall",
+              "postflight"
+            ],
+            "RelativePath": "Tools/aaa_alert"
+          },
+          {
+            "DropSIP": true,
+            "ComponentPackageIdentifiersRegex": [
+              "^.*$"
+            ],
+            "ScriptTypes": [
+              "preinstall",
+              "preflight",
+              "postinstall",
+              "postflight"
+            ],
+            "RelativePath": "Tools/zzz_alert"
+          },
+          {
+            "DropSIP": true,
+            "PerformMutation": "LinkSharedSupport",
+            "ComponentPackageIdentifiersRegex": [
+              "^com\\.apple\\.pkg\\.InstallAssistant\\S*$"
+            ],
+            "ScriptTypes": [
+              "postinstall"
+            ],
+            "RelativePath": "postinstall_actions/link_shared_support.bash"
+          },
+          {
+            "DropSIP": true,
+            "PerformMutation": "LinkSharedSupport",
+            "ComponentPackageIdentifiersRegex": [
+              "^com\\.apple\\.pkg\\.InstallAssistant\\S*$"
+            ],
+            "ScriptTypes": [
+              "postinstall"
+            ],
+            "RelativePath": "postinstall_actions/link_shared_support.zsh"
+          },
+          {
+            "DropSIP": true,
+            "PerformMutation": "LinkPackage",
+            "ComponentPackageIdentifiersRegex": [
+              "^com\\.apple\\.pkg\\.InstallESDDmg$"
+            ],
+            "ScriptTypes": [
+              "postinstall"
+            ],
+            "RelativePath": "link_package"
+          },
+          {
+            "DropSIP": true,
+            "PerformMutation": "LinkPackage2",
+            "ComponentPackageIdentifiersRegex": [
+              "^com\\.apple\\.(?:pkg\\.)?Install(?:Mac)?OS(?:X)?$",
+              "^com\\.apple\\.InstallAssistant\\.\\S*$"
+            ],
+            "ScriptTypes": [
+              "postinstall",
+              "preinstall"
+            ],
+            "RelativePath": "link_package"
+          },
+          {
+            "DropSIP": true,
+            "ComponentPackageIdentifiersRegex": [
+              "^com\\.apple\\.pkg\\.MXFPlugIns$"
+            ],
+            "RelativePathTransformation": true,
+            "ScriptTypes": [
+              "postinstall",
+              "postflight"
+            ],
+            "RelativePath": "%@_actions/moveMXFSettings.sh"
+          },
+          {
+            "DropSIP": true,
+            "ComponentPackageIdentifiersRegex": [
+              "^com\\.apple\\.pkg\\.SafeView$"
+            ],
+            "RelativePathTransformation": true,
+            "ScriptTypes": [
+              "postinstall"
+            ],
+            "RelativePath": "%@_actions/SafeViewPostActions.sh"
+          },
+          {
+            "DropSIP": true,
+            "ComponentPackageIdentifiersRegex": [
+              "^com\\.apple\\.WorkgroupManager$"
+            ],
+            "RelativePathTransformation": true,
+            "ScriptTypes": [
+              "postinstall"
+            ],
+            "RelativePath": "%@_actions/addDockIconUserPostflight"
+          },
+          {
+            "DropSIP": false,
+            "ComponentPackageIdentifiersRegex": [
+              "^com\\.apple\\.pkg\\.\\S*"
+            ],
+            "PerformMutation": "LIPOARM64e",
+            "RelativePathTransformation": true,
+            "ScriptTypes": [
+              "postinstall"
+            ],
+            "RelativePath": "%@_actions/lipoarm64e"
+          },
+          {
+            "ComponentPackageIdentifiersRegex": [
+              "^com\\.apple\\.pkg\\.iMovie\\S*"
+            ],
+            "Skip": true,
+            "PerformMutation": "DeleteScript",
+            "ScriptTypes": [
+              "preinstall"
+            ],
+            "RelativePath": "iMovieCoexPre"
+          },
+          {
+            "ComponentPackageIdentifiersRegex": [
+              "^com\\.apple\\.pkg\\.iMovie\\S*"
+            ],
+            "Skip": true,
+            "PerformMutation": "DeleteScript",
+            "ScriptTypes": [
+              "postinstall"
+            ],
+            "RelativePath": "iMovieCoexPost"
+          }
+        ],
+        "Versions/A/Resources/CoreLanguages.plist": {
+          "tier0": {
+            "de": "German",
+            "en": "English",
+            "__Base": "Base",
+            "fr": "French",
+            "ja": "Japanese"
+          },
+          "tier3": {
+            "ca": "Catalan",
+            "uk": "Ukrainian",
+            "ro": "Romanian",
+            "es_MX": "Mexican Spanish",
+            "hu": "Hungarian",
+            "sk": "Slovak",
+            "cs": "Czech",
+            "he": "Hebrew",
+            "hr": "Croatian",
+            "el": "Greek"
+          },
+          "tier2": {
+            "da": "Danish",
+            "ar": "Arabic",
+            "ko": "Korean",
+            "pt_PT": "Portuguese",
+            "th": "Thai",
+            "fi": "Finnish",
+            "ru": "Russian",
+            "zh_TW": "Traditional Chinese",
+            "pt": "Portuguese",
+            "sv": "Swedish",
+            "tr": "Turkish",
+            "no": "Norwegian",
+            "pl": "Polish"
+          },
+          "tier1": {
+            "zh_CN": "Simplified Chinese",
+            "es": "Spanish",
+            "nl": "Dutch",
+            "it": "Italian"
+          }
+        },
+        "Versions/A/Resources/InstallScriptMutations.plist": {
+          "DeleteScript": {
+            "Delete": true
+          },
+          "LinkPackage": {
+            "PostReplacementChanges": [
+              {
+                "PreMutationCaptureIndex": 0,
+                "RegexMatch": "^SHARED_SUPPORT_PATH\\=.*$"
+              }
+            ],
+            "ReplacementContent": "#!/bin/bash\n\nSHARED_SUPPORT_PATH=\"${3}Applications/%%%IA_NAME%%%/Contents/SharedSupport\"\n/bin/mkdir -m 755 -p \"${SHARED_SUPPORT_PATH}\"\n/bin/chmod 0755 \"${SHARED_SUPPORT_PATH}\"\n\necho \"Copying ${PACKAGE_PATH} into ${SHARED_SUPPORT_PATH}\"\n/bin/cp -fc \"${PACKAGE_PATH}\" \"${SHARED_SUPPORT_PATH}/InstallESD.dmg\" ||\n/bin/cp -f \"${PACKAGE_PATH}\" \"${SHARED_SUPPORT_PATH}/InstallESD.dmg\"",
+            "PreReplacementCaptures": [
+              "^SHARED_SUPPORT_PATH\\=.*$"
+            ]
+          },
+          "LinkSharedSupport": {
+            "PostReplacementChanges": [
+              {
+                "PreMutationCaptureIndex": 0,
+                "RegexMatch": "^SHARED_SUPPORT_PATH\\=.*$"
+              }
+            ],
+            "ReplacementContent": "#!/bin/bash\n\nSHARED_SUPPORT_PATH=\"${3}Applications/%%%IA_NAME%%%/Contents/SharedSupport\"\n/bin/mkdir -m 755 -p \"${SHARED_SUPPORT_PATH}\"\n\necho \"Copying ${PACKAGE_PATH} into ${SHARED_SUPPORT_PATH}\"\n/bin/cp -fc \"${PACKAGE_PATH}\" \"${SHARED_SUPPORT_PATH}/SharedSupport.dmg\" ||\n/bin/cp -f \"${PACKAGE_PATH}\" \"${SHARED_SUPPORT_PATH}/SharedSupport.dmg\"",
+            "PreReplacementCaptures": [
+              "^SHARED_SUPPORT_PATH\\=.*$"
+            ]
+          },
+          "LIPOARM64e": {
+            "ReplacementContent": "#!/bin/sh\n\necho \"lipoarm64e was mutated by PackageKit and is no longer implemented.\""
+          },
+          "LinkPackage2": {
+            "PostReplacementChanges": [
+              {
+                "PreMutationCaptureIndex": 0,
+                "RegexMatch": "^SHARED_SUPPORT_PATH\\=.*$"
+              }
+            ],
+            "ReplacementContent": "#!/bin/bash\n\n#\n# Note that this designed to be a component script for \"Install Mac OS X.app\",\n# so $2 contains the actual (possibly relocated) install path for IA. Actually\n# overwriting another copy of IA doesn't seem like a Real User Scenario (much\n# less having that existing copy relocated), but we should still aim to do the\n# right thing.\n#\nIA_PATH=\"$2\"\n\n#\n# Work around <rdar://problem/8966177>, which causes the prefix path (install-location)\n# to be prepended twice to $2. (An alternate workaround is to put \"./Applications\"\n# into the payload instead of into the install-location. This is still allowed by iTS,\n# and avoids having the double appending of the prefix path invalidate anything.)\n#\nif [ ! -e \"$IA_PATH\" ]; then\n    IA_PATH=\"${IA_PATH/\\/Applications/}\"\n    if [ ! -e \"$IA_PATH\" ]; then\n        echo \"Cannot find app from \\\"$2\\\"\"\n        exit 1\n    fi\nfi\n\nSHARED_SUPPORT_PATH=\"$IA_PATH/Contents/SharedSupport\"\n/bin/mkdir -m 755 -p \"${SHARED_SUPPORT_PATH}\"\n/bin/chmod 0755 \"${SHARED_SUPPORT_PATH}\"\n\necho \"Copying ${PACKAGE_PATH} into ${SHARED_SUPPORT_PATH}\"\n/bin/cp -fc \"${PACKAGE_PATH}\" \"${SHARED_SUPPORT_PATH}/InstallESD.dmg\" ||\n/bin/cp -f \"${PACKAGE_PATH}\" \"${SHARED_SUPPORT_PATH}/InstallESD.dmg\"",
+            "PreReplacementCaptures": [
+              "^SHARED_SUPPORT_PATH\\=.*$"
+            ]
+          }
+        },
+        "Versions/A/Resources/com.apple.system_installd.CacheDelete.plist": {
+          "CACHE_DELETE_SERVICES": [
+            "PURGE"
+          ],
+          "CACHE_DELETE_ID": "com.apple.system_installd.CacheDelete"
+        },
+        "Versions/A/Resources/InstallScriptTries.plist": {
+          "DropSIP": [
+            "com.apple.pkg.GarageBand",
+            "com.apple.pkg.ProAudio",
+            "com.apple.pkg.JamPack",
+            "com.apple.pkg.FinalCutServer",
+            "com.apple.pkg.iTunesX",
+            "com.apple.pkg.HP_",
+            "com.apple.pkg.Canon",
+            "com.apple.pkg.RecoveryHDMetaDmg",
+            "com.apple.pkg.RecoveryHDUpdate",
+            "com.apple.pkg.iDVD",
+            "com.apple.pkg.XcodeSystemResources",
+            "com.apple.pkg.ImageStackPlugin",
+            "com.apple.pkg.AppleServer",
+            "com.apple.pkg.AppClipCodeGenerator",
+            "com.apple.pkg.AST",
+            "com.apple.pkg.AppleServiceToolkit",
+            "com.apple.pkg.FieldDiags",
+            "com.apple.pkg.AppleConnect",
+            "com.apple.pkg.iPhoneSystemComponents",
+            "com.apple.metal.mrdt",
+            "com.apple.pkg.MobileDeviceDevelopment"
+          ]
+        },
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "PackageKit",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "English",
+          "CFBundleVersion": "1491.40.3",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "FMWK",
+          "CFBundleShortVersionString": "3.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "PackageKit",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.PackageKit",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleSignature": "????",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "1491.40.3",
+          "CFBundleShortVersionString": "3.0",
+          "ProjectName": "PackageKit",
+          "SourceVersion": "1491040003000000",
+          "BuildVersion": "40"
+        },
+        "Versions/A/XPCServices/package_script_service.xpc/Contents/Info.plist": {
+          "CFBundleName": "package_script_service",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2020 Apple Inc. All rights reserved.",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "XPCService": {
+            "RunLoopType": "NSRunLoop",
+            "JoinExistingSession": true,
+            "ServiceType": "User"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "package_script_service",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.package-script-service",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleDisplayName": "package_script_service",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/XPCServices/package_script_service.xpc/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "PackageKit",
+          "SourceVersion": "1491040003000000",
+          "BuildVersion": "40"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
   },
   "usage": {
     "layer": "usage",
-    "status": "not_implemented"
+    "used_by": [
+      {
+        "path": "/System/Library/CoreServices/Install Command Line Developer Tools.app",
+        "binary": "/System/Library/CoreServices/Install Command Line Developer Tools.app/Contents/MacOS/Install Command Line Developer Tools",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/Install in Progress.app",
+        "binary": "/System/Library/CoreServices/Install in Progress.app/Contents/MacOS/Install in Progress",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/Software Update.app",
+        "binary": "/System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/CoreServicesUIAgent.app",
+        "binary": "/System/Library/CoreServices/CoreServicesUIAgent.app/Contents/MacOS/CoreServicesUIAgent",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/Installer.app",
+        "binary": "/System/Library/CoreServices/Installer.app/Contents/MacOS/Installer",
+        "used_classes": []
+      }
+    ]
   },
   "runtime": {
-    "layer": "runtime",
-    "status": "not_implemented"
+    "method": "ctypes",
+    "status": "loaded"
   }
 }

@@ -1,0 +1,300 @@
+{
+  "framework": "MediaControl.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/MediaControl.framework/XPCServices/MediaControlMessageService.xpc/Contents/MacOS/MediaControlMessageService",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 91712,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": false,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "swift",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/PrivateFrameworks/MediaControl.framework/Versions/A/MediaControl",
+          "/usr/lib/swift/libswiftCore.dylib",
+          "/usr/lib/swift/libswiftCoreAudio.dylib",
+          "/usr/lib/swift/libswiftCoreFoundation.dylib",
+          "/usr/lib/swift/libswiftCoreMIDI.dylib",
+          "/usr/lib/swift/libswiftDispatch.dylib",
+          "/usr/lib/swift/libswiftIOKit.dylib",
+          "/usr/lib/swift/libswiftMetal.dylib",
+          "/usr/lib/swift/libswiftObjectiveC.dylib",
+          "/usr/lib/swift/libswiftQuartzCore.dylib",
+          "/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib",
+          "/usr/lib/swift/libswiftXPC.dylib",
+          "/usr/lib/swift/libswift_Builtin_float.dylib",
+          "/usr/lib/swift/libswiftos.dylib",
+          "/usr/lib/swift/libswiftsimd.dylib"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "MainServer",
+        "addr": 15720,
+        "lang": "swift",
+        "index": 0,
+        "fields": [
+          {
+            "name": "$__lazy_storage_$_clients",
+            "kind": "property",
+            "type": "Shy\u0001\u008e\u00ff\u00ff\u00ffGSg",
+            "addr": 4294983376
+          },
+          {
+            "name": "listener",
+            "kind": "property",
+            "addr": 4294983402
+          },
+          {
+            "name": "queue",
+            "kind": "property",
+            "type": "__C.OS_dispatch_queue",
+            "addr": 4294983411
+          }
+        ]
+      },
+      {
+        "classname": "XPCClient",
+        "addr": 15860,
+        "lang": "swift",
+        "index": 1,
+        "fields": [
+          {
+            "name": "session",
+            "kind": "property",
+            "addr": 4294983417
+          },
+          {
+            "name": "identifier",
+            "kind": "property",
+            "addr": 4294983425
+          }
+        ]
+      },
+      {
+        "classname": "MediaControlMessageService.MainServer",
+        "addr": 4295016920,
+        "lang": "objc",
+        "index": 2,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$__lazy_storage_$_clients",
+            "kind": "var",
+            "addr": 4294982384
+          },
+          {
+            "name": "listener",
+            "kind": "var",
+            "addr": 4294982392
+          },
+          {
+            "name": "queue",
+            "kind": "var",
+            "addr": 4294982400
+          }
+        ]
+      },
+      {
+        "classname": "MediaControlMessageService.MainServer.XPCClient",
+        "addr": 4295017176,
+        "lang": "objc",
+        "index": 3,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "identifier",
+            "kind": "var",
+            "addr": 4295017544
+          },
+          {
+            "name": "session",
+            "kind": "var",
+            "addr": 4294982456
+          }
+        ]
+      }
+    ],
+    "swift_metadata": {
+      "is_swift": false,
+      "symbols": []
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "XPCServices/MediaControlMessageService.xpc/Contents/Info.plist",
+        "XPCServices/MediaControlMessageService.xpc/Contents/version.plist",
+        "XPCServices/MediaControlMessageService.xpc/Contents/_CodeSignature/CodeResources",
+        "XPCServices/MediaControlMessageService.xpc/Contents/MacOS/MediaControlMessageService",
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/Localizable.loctable",
+        "Versions/A/Resources/MediaControlMessageService-InfoPlist.loctable",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist"
+      ],
+      "plists": {
+        "XPCServices/MediaControlMessageService.xpc/Contents/Info.plist": {
+          "CFBundleName": "MediaControlMessageService",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "4025.240.1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "XPCService": {
+            "ServiceType": "Application",
+            "_AdditionalProperties": {
+              "RunningBoard": {
+                "Managed": false,
+                "Reported": false
+              }
+            }
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "MediaControlMessageService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.MediaControl.MessageService",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleDisplayName": "MediaControlMessageService",
+          "RunLoopType": "dispatch_main",
+          "DTPlatformBuild": ""
+        },
+        "XPCServices/MediaControlMessageService.xpc/Contents/version.plist": {
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleVersion": "4025.240.1",
+          "ProjectName": "MediaControlFramework",
+          "BuildAliasOf": "MediaRemote",
+          "SourceVersion": "4025240001000000",
+          "BuildVersion": "9"
+        },
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "MediaControl",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "4025.240.1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "APPL",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "MediaControl",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.MediaControl",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleDisplayName": "MediaControl",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleVersion": "4025.240.1",
+          "ProjectName": "MediaControlFramework",
+          "BuildAliasOf": "MediaRemote",
+          "SourceVersion": "4025240001000000",
+          "BuildVersion": "9"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
+  },
+  "usage": {
+    "layer": "usage",
+    "used_by": []
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "loaded"
+  }
+}

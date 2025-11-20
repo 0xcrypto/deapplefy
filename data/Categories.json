@@ -1,0 +1,661 @@
+{
+  "framework": "Categories.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/Categories.framework/Versions/A/XPCServices/CategoriesService.xpc/Contents/MacOS/CategoriesService",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 114608,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "objc with blocks",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/PrivateFrameworks/ContextKit.framework/Versions/A/ContextKit",
+          "/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration",
+          "/usr/lib/libMobileGestalt.dylib",
+          "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",
+          "/System/Library/PrivateFrameworks/Categories.framework/Versions/A/Categories",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "ServiceDelegate",
+        "addr": 4295035616,
+        "lang": "objc",
+        "index": 0,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.ServiceDelegate.init",
+            "lang": "objc",
+            "addr": 4294971192
+          },
+          {
+            "name": "listener:shouldAcceptNewConnection:",
+            "flag": "method.ServiceDelegate.listener:shouldAcceptNewConnection:",
+            "lang": "objc",
+            "addr": 4294971424
+          },
+          {
+            "name": "hasEntitlement:connection:",
+            "flag": "method.ServiceDelegate.hasEntitlement:connection:",
+            "lang": "objc",
+            "addr": 4294971640
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.ServiceDelegate..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294971756
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_sharedXPCService",
+            "kind": "var",
+            "type": "@\"Categories_Service\"",
+            "addr": 4295035544
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "ContextServiceDelegate",
+        "addr": 4295035696,
+        "lang": "objc",
+        "index": 1,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.ContextServiceDelegate.init",
+            "lang": "objc",
+            "addr": 4294971768
+          },
+          {
+            "name": "currentIndexVersionID",
+            "flag": "method.ContextServiceDelegate.currentIndexVersionID",
+            "lang": "objc",
+            "addr": 4294972520
+          },
+          {
+            "name": "setCurrentIndexVersionID:",
+            "flag": "method.ContextServiceDelegate.setCurrentIndexVersionID:",
+            "lang": "objc",
+            "addr": 4294972532
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.ContextServiceDelegate..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294972540
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_currentIndexVersionID",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295035548
+          },
+          {
+            "name": "currentIndexVersionID",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "Categories_Service",
+        "addr": 4295035776,
+        "lang": "objc",
+        "index": 2,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.Categories_Service.init",
+            "lang": "objc",
+            "addr": 4294972552
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.Categories_Service.dealloc",
+            "lang": "objc",
+            "addr": 4294972868
+          },
+          {
+            "name": "genreIDsAndCounterpartIdentifiersForInstalledBundleIDs:replyHandler:",
+            "flag": "func.100001688",
+            "lang": "objc",
+            "addr": 4294973064
+          },
+          {
+            "name": "lookupAppStoreForBundleIDs:platform:replyHandler:",
+            "flag": "func.100001b60",
+            "lang": "objc",
+            "addr": 4294974304
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.Categories_Service..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294982860
+          },
+          {
+            "name": "genreIDsAndCounterpartIdentifiersForInstalledBundleIDs:replyHandler:",
+            "flag": "method.Categories_Service.genreIDsAndCounterpartIdentifiersForInstalledBundleIDs:replyHandler:",
+            "lang": "objc",
+            "addr": 4294998264
+          },
+          {
+            "name": "lookupAppStoreForBundleIDs:platform:replyHandler:",
+            "flag": "method.Categories_Service.lookupAppStoreForBundleIDs:platform:replyHandler:",
+            "lang": "objc",
+            "addr": 4294998276
+          },
+          {
+            "name": "_AppStoreIDToDHIDCategoriesMap",
+            "flag": "method.class.Categories_Service._AppStoreIDToDHIDCategoriesMap",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294975628
+          },
+          {
+            "name": "_macGenreIDToDHIDCategoriesMap",
+            "flag": "method.class.Categories_Service._macGenreIDToDHIDCategoriesMap",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294976300
+          },
+          {
+            "name": "_macAppStoreIDToDHIDCategoriesMap",
+            "flag": "method.class.Categories_Service._macAppStoreIDToDHIDCategoriesMap",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294977304
+          },
+          {
+            "name": "_lookupGenreIDAndCounterpartIdentifiersInPlist:withCompletionHandler:",
+            "flag": "method.class.Categories_Service._lookupGenreIDAndCounterpartIdentifiersInPlist:withCompletionHandler:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294977892
+          },
+          {
+            "name": "_lookupAppStoreUsing:platform:clientApplication:withCompletionHandler:",
+            "flag": "method.class.Categories_Service._lookupAppStoreUsing:platform:clientApplication:withCompletionHandler:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294979176
+          },
+          {
+            "name": "genreIDsAndCounterpartIdentifiersForInstalledBundleIDs:replyHandler:",
+            "flag": "method.Categories_Service.genreIDsAndCounterpartIdentifiersForInstalledBundleIDs:replyHandler:",
+            "lang": "objc",
+            "addr": 4294998264
+          },
+          {
+            "name": "lookupAppStoreForBundleIDs:platform:replyHandler:",
+            "flag": "method.Categories_Service.lookupAppStoreForBundleIDs:platform:replyHandler:",
+            "lang": "objc",
+            "addr": 4294998276
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_queue",
+            "kind": "var",
+            "type": "@\"NSObject<OS_dispatch_queue>\"",
+            "addr": 4295035552
+          }
+        ]
+      },
+      {
+        "classname": "CTAppStoreSearchResult",
+        "addr": 4295035856,
+        "lang": "objc",
+        "index": 3,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithSearchResultRecord:platform:",
+            "flag": "method.CTAppStoreSearchResult.initWithSearchResultRecord:platform:",
+            "lang": "objc",
+            "addr": 4294983944
+          },
+          {
+            "name": "initWithBundleID:platform:",
+            "flag": "method.CTAppStoreSearchResult.initWithBundleID:platform:",
+            "lang": "objc",
+            "addr": 4294984652
+          },
+          {
+            "name": "description",
+            "flag": "method.CTAppStoreSearchResult.description",
+            "lang": "objc",
+            "addr": 4294984832
+          },
+          {
+            "name": "bundleID",
+            "flag": "method.CTAppStoreSearchResult.bundleID",
+            "lang": "objc",
+            "addr": 4294984892
+          },
+          {
+            "name": "genreIDs",
+            "flag": "method.CTAppStoreSearchResult.genreIDs",
+            "lang": "objc",
+            "addr": 4294984904
+          },
+          {
+            "name": "platform",
+            "flag": "method.CTAppStoreSearchResult.platform",
+            "lang": "objc",
+            "addr": 4294984916
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.CTAppStoreSearchResult..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294984928
+          },
+          {
+            "name": "appStoreSearchResultsWithResultData:platform:error:",
+            "flag": "method.class.CTAppStoreSearchResult.appStoreSearchResultsWithResultData:platform:error:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294982872
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_bundleID",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295035556
+          },
+          {
+            "name": "_genreIDs",
+            "kind": "var",
+            "type": "@\"NSArray\"",
+            "addr": 4295035560
+          },
+          {
+            "name": "_platform",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295035564
+          },
+          {
+            "name": "bundleID",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "genreIDs",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "platform",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "CTNetworkReachability",
+        "addr": 4295035896,
+        "lang": "objc",
+        "index": 4,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "networkReachable",
+            "flag": "method.class.CTNetworkReachability.networkReachable",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294985956
+          },
+          {
+            "name": "networkReachableWithTargetURL:",
+            "flag": "method.class.CTNetworkReachability.networkReachableWithTargetURL:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294986052
+          },
+          {
+            "name": "_isReachableWithFlags:",
+            "flag": "method.class.CTNetworkReachability._isReachableWithFlags:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294986260
+          }
+        ]
+      },
+      {
+        "classname": "CTAppStoreSearch",
+        "addr": 4295036016,
+        "lang": "objc",
+        "index": 5,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithCallingProcess:",
+            "flag": "method.CTAppStoreSearch.initWithCallingProcess:",
+            "lang": "objc",
+            "addr": 4294986532
+          },
+          {
+            "name": "lookupAppWithBundleIDs:deviceFamily:completionHandler:",
+            "flag": "method.CTAppStoreSearch.lookupAppWithBundleIDs:deviceFamily:completionHandler:",
+            "lang": "objc",
+            "addr": 4294986824
+          },
+          {
+            "name": "performiTunesQueryWithURLComponents:queryItems:deviceFamily:completionHandler:",
+            "flag": "method.CTAppStoreSearch.performiTunesQueryWithURLComponents:queryItems:deviceFamily:completionHandler:",
+            "lang": "objc",
+            "addr": 4294990400
+          },
+          {
+            "name": "handleSearchResultsWithTaskData:platform:error:completionHandler:",
+            "flag": "method.CTAppStoreSearch.handleSearchResultsWithTaskData:platform:error:completionHandler:",
+            "lang": "objc",
+            "addr": 4294993004
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.CTAppStoreSearch..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294993556
+          },
+          {
+            "name": "resultByBundleID",
+            "flag": "method.class.CTAppStoreSearch.resultByBundleID",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294986692
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_log",
+            "kind": "var",
+            "type": "@\"NSObject<OS_os_log>\"",
+            "addr": 4295035568
+          },
+          {
+            "name": "_callingProcessBundleID",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295035572
+          },
+          {
+            "name": "resultByBundleID",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      }
+    ],
+    "swift_metadata": {
+      "is_swift": false,
+      "symbols": []
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/Localizable.loctable",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist",
+        "Versions/A/XPCServices/CategoriesService.xpc/Contents/Info.plist",
+        "Versions/A/XPCServices/CategoriesService.xpc/Contents/version.plist",
+        "Versions/A/XPCServices/CategoriesService.xpc/Contents/_CodeSignature/CodeResources",
+        "Versions/A/XPCServices/CategoriesService.xpc/Contents/MacOS/CategoriesService",
+        "Versions/A/XPCServices/CategoriesService.xpc/Contents/Resources/InfoPlist.loctable"
+      ],
+      "plists": {
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "Categories",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2019 Apple Inc. All rights reserved.",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "49.2",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "FMWK",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "Categories",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.framework.ctcategories",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "49.2",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "CategoriesFramework",
+          "SourceVersion": "49002000000000",
+          "BuildVersion": "4492"
+        },
+        "Versions/A/XPCServices/CategoriesService.xpc/Contents/Info.plist": {
+          "CFBundleName": "CategoriesService",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "XPCService": {
+            "ServiceType": "User",
+            "_AdditionalProperties": {
+              "RunningBoard": {
+                "Managed": false,
+                "Reported": false
+              }
+            }
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "CategoriesService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.ctcategories.service",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleDisplayName": "CategoriesService",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/XPCServices/CategoriesService.xpc/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "CategoriesFramework",
+          "SourceVersion": "49002000000000",
+          "BuildVersion": "4492"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
+  },
+  "usage": {
+    "layer": "usage",
+    "used_by": []
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "loaded"
+  }
+}
