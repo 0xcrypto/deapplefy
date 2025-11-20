@@ -1,0 +1,650 @@
+{
+  "framework": "FindMyDevice.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/FindMyDevice.framework/XPCServices/FindMyDeviceSharedConfigurationXPCService.xpc/Contents/MacOS/FindMyDeviceSharedConfigurationXPCService",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 139568,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "swift",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/PrivateFrameworks/NewDeviceOutreach.framework/Versions/A/NewDeviceOutreach",
+          "/System/Library/PrivateFrameworks/FindMyDevice.framework/Versions/A/FindMyDevice",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/System/Library/PrivateFrameworks/FindMyBase.framework/Versions/A/FindMyBase",
+          "/System/Library/PrivateFrameworks/FindMyServerInteraction.framework/Versions/A/FindMyServerInteraction",
+          "/usr/lib/libMobileGestalt.dylib",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/Accounts.framework/Versions/A/Accounts",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "/System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/AuthKit",
+          "/usr/lib/swift/libswiftCompression.dylib",
+          "/usr/lib/swift/libswiftCore.dylib",
+          "/usr/lib/swift/libswiftCoreAudio.dylib",
+          "/usr/lib/swift/libswiftCoreFoundation.dylib",
+          "/usr/lib/swift/libswiftCoreMIDI.dylib",
+          "/usr/lib/swift/libswiftDispatch.dylib",
+          "/usr/lib/swift/libswiftIOKit.dylib",
+          "/usr/lib/swift/libswiftMetal.dylib",
+          "/usr/lib/swift/libswiftOSLog.dylib",
+          "/usr/lib/swift/libswiftObjectiveC.dylib",
+          "/usr/lib/swift/libswiftQuartzCore.dylib",
+          "/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib",
+          "/usr/lib/swift/libswiftXPC.dylib",
+          "/usr/lib/swift/libswift_Builtin_float.dylib",
+          "/usr/lib/swift/libswift_Concurrency.dylib",
+          "/usr/lib/swift/libswiftos.dylib",
+          "/usr/lib/swift/libswiftsimd.dylib"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "FindMyDeviceSharedConfigurationXPCService",
+        "addr": 60336,
+        "lang": "swift",
+        "index": 0,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ],
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.FindMyDeviceSharedConfigurationXPCService.0",
+            "lang": "swift",
+            "addr": 4295022712
+          }
+        ],
+        "fields": [
+          {
+            "name": "downloadSerialQueue",
+            "kind": "property",
+            "type": "__C.OS_dispatch_queue",
+            "addr": 4295028016
+          }
+        ]
+      },
+      {
+        "classname": "FMDTheftAndLossCoverage",
+        "addr": 60392,
+        "lang": "swift",
+        "index": 1,
+        "fields": [
+          {
+            "name": "rawValue",
+            "kind": "property",
+            "type": "UInt",
+            "addr": 4295028249
+          }
+        ]
+      },
+      {
+        "classname": "SharedConfigurationError",
+        "addr": 60432,
+        "lang": "swift",
+        "index": 2,
+        "fields": [
+          {
+            "name": "invalidResult",
+            "kind": "property",
+            "addr": 4295028036
+          },
+          {
+            "name": "missingDevice",
+            "kind": "property",
+            "addr": 4295028050
+          },
+          {
+            "name": "missingSerialNumber",
+            "kind": "property",
+            "addr": 4295028064
+          },
+          {
+            "name": "missingContainer",
+            "kind": "property",
+            "addr": 4295028096
+          },
+          {
+            "name": "missingEndpoint",
+            "kind": "property",
+            "addr": 4295028113
+          },
+          {
+            "name": "missingCredential",
+            "kind": "property",
+            "addr": 4295028144
+          },
+          {
+            "name": "requestFailed",
+            "kind": "property",
+            "addr": 4295028162
+          },
+          {
+            "name": "notSupported",
+            "kind": "property",
+            "addr": 4295028176
+          },
+          {
+            "name": "followUpActionFailed",
+            "kind": "property",
+            "addr": 4295028192
+          },
+          {
+            "name": "followUpControllerFailed",
+            "kind": "property",
+            "addr": 4295028224
+          }
+        ]
+      },
+      {
+        "classname": "FileAttributeKey",
+        "addr": 60460,
+        "lang": "swift",
+        "index": 3,
+        "fields": [
+          {
+            "name": "_rawValue",
+            "kind": "property",
+            "type": "__C.NSString",
+            "addr": 4295028343
+          }
+        ]
+      },
+      {
+        "classname": "LocalizedStringsCredential",
+        "addr": 60500,
+        "lang": "swift",
+        "index": 4,
+        "fields": [
+          {
+            "name": "username",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295028353
+          },
+          {
+            "name": "password",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295028362
+          }
+        ]
+      },
+      {
+        "classname": "LocalizedStringsRequest",
+        "addr": 60536,
+        "lang": "swift",
+        "index": 5,
+        "fields": [
+          {
+            "name": "headerDictionary",
+            "kind": "property",
+            "type": "SDyS2SG",
+            "addr": 4295028384
+          },
+          {
+            "name": "data",
+            "kind": "property",
+            "addr": 4295028317
+          }
+        ]
+      },
+      {
+        "classname": "Configuration",
+        "addr": 60572,
+        "lang": "swift",
+        "index": 6,
+        "fields": [
+          {
+            "name": "version",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295028309
+          },
+          {
+            "name": "data",
+            "kind": "property",
+            "addr": 4295028317
+          },
+          {
+            "name": "lastRequested",
+            "kind": "property",
+            "addr": 4295028322
+          },
+          {
+            "name": "expiry",
+            "kind": "property",
+            "type": "Swift.Double",
+            "addr": 4295028336
+          }
+        ]
+      },
+      {
+        "classname": "LocalizedStringsEndpoint",
+        "addr": 60620,
+        "lang": "swift",
+        "index": 7,
+        "fields": [
+          {
+            "name": "urlComponents",
+            "kind": "property",
+            "addr": 4295028401
+          }
+        ]
+      },
+      {
+        "classname": "ServiceDelegate",
+        "addr": 60672,
+        "lang": "swift",
+        "index": 8,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ],
+        "fields": [
+          {
+            "name": "service",
+            "kind": "property",
+            "addr": 4295028431
+          }
+        ]
+      },
+      {
+        "classname": "FindMyDeviceSharedConfigurationXPCService.FindMyDeviceSharedConfigurationXPCService",
+        "addr": 4295051552,
+        "lang": "objc",
+        "index": 9,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "downloadSharedConfigurationWithLocale:reply:",
+            "flag": "func.1000032e8",
+            "lang": "objc",
+            "addr": 4294980328
+          },
+          {
+            "name": "getTheftAndLossCoverageWithSerialNumber:reply:",
+            "flag": "func.100002ad0",
+            "lang": "objc",
+            "addr": 4294978256
+          },
+          {
+            "name": "getTheftAndLossCoverageWithUDID:reply:",
+            "flag": "func.100002c5c",
+            "lang": "objc",
+            "addr": 4294978652
+          },
+          {
+            "name": "init",
+            "flag": "method.FindMyDeviceSharedConfigurationXPCService.FindMyDeviceSharedConfigurationXPCService.init",
+            "lang": "objc",
+            "addr": 4294975040
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.FindMyDeviceSharedConfigurationXPCService.FindMyDeviceSharedConfigurationXPCService..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294975132
+          },
+          {
+            "name": "getTheftAndLossCoverageWithSerialNumber:reply:",
+            "flag": "method.FindMyDeviceSharedConfigurationXPCService.FindMyDeviceSharedConfigurationXPCService.getTheftAndLossCoverageWithSerialNumber:reply:",
+            "lang": "objc",
+            "addr": 4295022184
+          },
+          {
+            "name": "getTheftAndLossCoverageWithUDID:reply:",
+            "flag": "method.FindMyDeviceSharedConfigurationXPCService.FindMyDeviceSharedConfigurationXPCService.getTheftAndLossCoverageWithUDID:reply:",
+            "lang": "objc",
+            "addr": 4295022196
+          },
+          {
+            "name": "downloadSharedConfigurationWithLocale:reply:",
+            "flag": "method.FindMyDeviceSharedConfigurationXPCService.FindMyDeviceSharedConfigurationXPCService.downloadSharedConfigurationWithLocale:reply:",
+            "lang": "objc",
+            "addr": 4295022208
+          },
+          {
+            "name": "getTheftAndLossCoverageWithSerialNumber:reply:",
+            "flag": "method.FindMyDeviceSharedConfigurationXPCService.FindMyDeviceSharedConfigurationXPCService.getTheftAndLossCoverageWithSerialNumber:reply:",
+            "lang": "objc",
+            "addr": 4295022184
+          },
+          {
+            "name": "getTheftAndLossCoverageWithUDID:reply:",
+            "flag": "method.FindMyDeviceSharedConfigurationXPCService.FindMyDeviceSharedConfigurationXPCService.getTheftAndLossCoverageWithUDID:reply:",
+            "lang": "objc",
+            "addr": 4295022196
+          },
+          {
+            "name": "downloadSharedConfigurationWithLocale:reply:",
+            "flag": "method.FindMyDeviceSharedConfigurationXPCService.FindMyDeviceSharedConfigurationXPCService.downloadSharedConfigurationWithLocale:reply:",
+            "lang": "objc",
+            "addr": 4295022208
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "downloadSerialQueue",
+            "kind": "var",
+            "addr": 4295051520
+          }
+        ]
+      },
+      {
+        "classname": "FindMyDeviceSharedConfigurationXPCService.ServiceDelegate",
+        "addr": 4295052264,
+        "lang": "objc",
+        "index": 10,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "listener:shouldAcceptNewConnection:",
+            "flag": "method.FindMyDeviceSharedConfigurationXPCService.ServiceDelegate.listener:shouldAcceptNewConnection:",
+            "lang": "objc",
+            "addr": 4295018188
+          },
+          {
+            "name": "init",
+            "flag": "method.FindMyDeviceSharedConfigurationXPCService.ServiceDelegate.init",
+            "lang": "objc",
+            "addr": 4295018416
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.FindMyDeviceSharedConfigurationXPCService.ServiceDelegate..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295018520
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "service",
+            "kind": "var",
+            "addr": 4295052256
+          }
+        ]
+      }
+    ],
+    "swift_metadata": {
+      "is_swift": false,
+      "symbols": []
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "XPCServices/FindMyDeviceIdentityXPCService.xpc/Contents/Info.plist",
+        "XPCServices/FindMyDeviceIdentityXPCService.xpc/Contents/version.plist",
+        "XPCServices/FindMyDeviceIdentityXPCService.xpc/Contents/_CodeSignature/CodeResources",
+        "XPCServices/FindMyDeviceIdentityXPCService.xpc/Contents/MacOS/FindMyDeviceIdentityXPCService",
+        "XPCServices/FindMyDeviceEraseXPCService.xpc/Contents/Info.plist",
+        "XPCServices/FindMyDeviceEraseXPCService.xpc/Contents/version.plist",
+        "XPCServices/FindMyDeviceEraseXPCService.xpc/Contents/_CodeSignature/CodeResources",
+        "XPCServices/FindMyDeviceEraseXPCService.xpc/Contents/MacOS/FindMyDeviceEraseXPCService",
+        "XPCServices/FindMyDeviceSharedConfigurationXPCService.xpc/Contents/Info.plist",
+        "XPCServices/FindMyDeviceSharedConfigurationXPCService.xpc/Contents/version.plist",
+        "XPCServices/FindMyDeviceSharedConfigurationXPCService.xpc/Contents/_CodeSignature/CodeResources",
+        "XPCServices/FindMyDeviceSharedConfigurationXPCService.xpc/Contents/MacOS/FindMyDeviceSharedConfigurationXPCService",
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/URLTemplates.plist",
+        "Versions/A/Resources/Localizable.loctable",
+        "Versions/A/Resources/fmd_sound.caf",
+        "Versions/A/Resources/Localizable-WARRANTY_DIAGNOSTICS.loctable",
+        "Versions/A/Resources/Localizable-BBBAA77A32.loctable",
+        "Versions/A/Resources/InfoPlist.loctable",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist"
+      ],
+      "plists": {
+        "XPCServices/FindMyDeviceIdentityXPCService.xpc/Contents/Info.plist": {
+          "CFBundleName": "FindMyDeviceIdentityXPCService",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "XPCService": {},
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "FindMyDeviceIdentityXPCService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.icloud.FindMyDevice.FindMyDeviceIdentityXPCService",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": ""
+        },
+        "XPCServices/FindMyDeviceIdentityXPCService.xpc/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "FindMyDevice",
+          "SourceVersion": "455021007014005",
+          "BuildVersion": "496"
+        },
+        "XPCServices/FindMyDeviceEraseXPCService.xpc/Contents/Info.plist": {
+          "CFBundleName": "FindMyDeviceEraseXPCService",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "English",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "XPCService": {},
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "FindMyDeviceEraseXPCService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.icloud.FindMyDevice.FindMyDeviceEraseXPCService",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleDisplayName": "FindMyDeviceEraseXPCService",
+          "DTPlatformBuild": ""
+        },
+        "XPCServices/FindMyDeviceEraseXPCService.xpc/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "FindMyDevice",
+          "SourceVersion": "455021007014005",
+          "BuildVersion": "496"
+        },
+        "XPCServices/FindMyDeviceSharedConfigurationXPCService.xpc/Contents/Info.plist": {
+          "CFBundleName": "FindMyDeviceSharedConfigurationXPCService",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "XPCService": {},
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "FindMyDeviceSharedConfigurationXPCService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.icloud.FindMyDevice.FindMyDeviceSharedConfigurationXPCService",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": ""
+        },
+        "XPCServices/FindMyDeviceSharedConfigurationXPCService.xpc/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "FindMyDevice",
+          "SourceVersion": "455021007014005",
+          "BuildVersion": "496"
+        },
+        "Versions/A/Resources/URLTemplates.plist": {
+          "currentLocation": "${scheme}://${hostname}/fmipservice/${service}/${dsid}/${udid}/currentLocation",
+          "qc": "${scheme}://${hostname}/fmipservice/${service}/${dsid}/${udid}/qc",
+          "unregister": "${scheme}://${hostname}/fmipservice/${service}/${dsid}/${udid}/unregister",
+          "unregisterV2": "${scheme}://${hostname}/fmipservice/${service}/${dsid}/${udid}/unregisterV2",
+          "unregisterV3": "${scheme}://${hostname}/fmipservice/${service}/${dsid}/${udid}/unregisterV3",
+          "register": "${scheme}://${hostname}/fmipservice/${service}/${dsid}/${udid}/register"
+        },
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "FindMyDevice",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "FMWK",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "FindMyDevice",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CLSystemService": true,
+          "CFBundleIdentifier": "com.apple.icloud.FindMyDevice",
+          "DTPlatformVersion": "26.1",
+          "CFBundleSignature": "????",
+          "CFBundleDisplayName": "FMM",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleVersion": "1",
+          "ProjectName": "FindMyDevice_frameworks",
+          "BuildAliasOf": "FindMyDevice",
+          "SourceVersion": "455021007014005",
+          "BuildVersion": "447"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
+  },
+  "usage": {
+    "layer": "usage",
+    "used_by": [
+      {
+        "path": "/System/Applications/FindMy.app",
+        "binary": "/System/Applications/FindMy.app/Contents/MacOS/FindMy",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/Erase Assistant.app",
+        "binary": "/System/Library/CoreServices/Erase Assistant.app/Contents/MacOS/Erase Assistant",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/Setup Assistant.app",
+        "binary": "/System/Library/CoreServices/Setup Assistant.app/Contents/MacOS/Setup Assistant",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/loginwindow.app",
+        "binary": "/System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow",
+        "used_classes": []
+      }
+    ]
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "loaded"
+  }
+}

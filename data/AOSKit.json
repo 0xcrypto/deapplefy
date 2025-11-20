@@ -1,0 +1,963 @@
+{
+  "framework": "AOSKit.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/AOSKit.framework/Versions/A/XPCServices/com.apple.iCloudHelper.xpc/Contents/MacOS/com.apple.iCloudHelper",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 154144,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "objc with blocks",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics",
+          "/System/Library/Frameworks/Security.framework/Versions/A/Security",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/System/Library/PrivateFrameworks/ApplePushService.framework/Versions/A/ApplePushService",
+          "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",
+          "/System/Library/PrivateFrameworks/FindMyDevice.framework/Versions/A/FindMyDevice",
+          "/System/Library/PrivateFrameworks/ProtectedCloudStorage.framework/Versions/A/ProtectedCloudStorage",
+          "/System/Library/Frameworks/Accounts.framework/Versions/A/Accounts",
+          "/System/Library/PrivateFrameworks/AppleIDSSOAuthentication.framework/Versions/A/AppleIDSSOAuthentication",
+          "/System/Library/PrivateFrameworks/SystemAdministration.framework/Versions/A/SystemAdministration",
+          "/System/Library/PrivateFrameworks/AOSKit.framework/Versions/A/AOSKit",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "AOSFamilyRequest",
+        "addr": 4295068048,
+        "lang": "objc",
+        "index": 0,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "retrieveFamilyDetailsForAccount:",
+            "flag": "method.class.AOSFamilyRequest.retrieveFamilyDetailsForAccount:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294971488
+          },
+          {
+            "name": "retrieveFamilyEventDetailsForAccount:andPushNotification:",
+            "flag": "method.class.AOSFamilyRequest.retrieveFamilyEventDetailsForAccount:andPushNotification:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294972392
+          },
+          {
+            "name": "performMembershipCheckForEmailAddress:usingAccount:",
+            "flag": "method.class.AOSFamilyRequest.performMembershipCheckForEmailAddress:usingAccount:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294973388
+          },
+          {
+            "name": "performFamilyEligibilityCheckForAccount:",
+            "flag": "method.class.AOSFamilyRequest.performFamilyEligibilityCheckForAccount:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294974460
+          },
+          {
+            "name": "retrieveFamilyPhotoForMemberDSID:usingAccount:andInfo:",
+            "flag": "method.class.AOSFamilyRequest.retrieveFamilyPhotoForMemberDSID:usingAccount:andInfo:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294975392
+          },
+          {
+            "name": "retrieveFamilyImageForMemberDSID:usingAccount:",
+            "flag": "method.class.AOSFamilyRequest.retrieveFamilyImageForMemberDSID:usingAccount:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294976668
+          }
+        ]
+      },
+      {
+        "classname": "AOSImageUtilities",
+        "addr": 4295068168,
+        "lang": "objc",
+        "index": 1,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "compressedImageData:withCropRect:outCropRect:",
+            "flag": "method.class.AOSImageUtilities.compressedImageData:withCropRect:outCropRect:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294978324
+          },
+          {
+            "name": "_downsampleImage:fromStartingQuality:toEndingQuality:increment:maxLength:",
+            "flag": "method.class.AOSImageUtilities._downsampleImage:fromStartingQuality:toEndingQuality:increment:maxLength:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294978680
+          },
+          {
+            "name": "_fullScreen2ImageFromImage:cropRect:outCropRect:",
+            "flag": "method.class.AOSImageUtilities._fullScreen2ImageFromImage:cropRect:outCropRect:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294979024
+          },
+          {
+            "name": "isRect:withinBoundsOfImage:",
+            "flag": "method.class.AOSImageUtilities.isRect:withinBoundsOfImage:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294980492
+          },
+          {
+            "name": "rectInPixelsFromPoints:",
+            "flag": "method.class.AOSImageUtilities.rectInPixelsFromPoints:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294980620
+          },
+          {
+            "name": "rectInPointsFromPixels:",
+            "flag": "method.class.AOSImageUtilities.rectInPointsFromPixels:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294980724
+          }
+        ]
+      },
+      {
+        "classname": "AOSAgentServer",
+        "addr": 4295068248,
+        "lang": "objc",
+        "index": 2,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.AOSAgentServer.init",
+            "lang": "objc",
+            "addr": 4294980828
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.AOSAgentServer.dealloc",
+            "lang": "objc",
+            "addr": 4294981140
+          },
+          {
+            "name": "_shutdownNotificationReceived:",
+            "flag": "method.AOSAgentServer._shutdownNotificationReceived:",
+            "lang": "objc",
+            "addr": 4294981228
+          },
+          {
+            "name": "connection",
+            "flag": "method.AOSAgentServer.connection",
+            "lang": "objc",
+            "addr": 4294992752
+          },
+          {
+            "name": "setConnection:",
+            "flag": "method.AOSAgentServer.setConnection:",
+            "lang": "objc",
+            "addr": 4294992760
+          },
+          {
+            "name": "initialize",
+            "flag": "method.class.AOSAgentServer.initialize",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294981276
+          },
+          {
+            "name": "sharedInstance",
+            "flag": "method.class.AOSAgentServer.sharedInstance",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294981460
+          },
+          {
+            "name": "handleNewConnection:",
+            "flag": "method.class.AOSAgentServer.handleNewConnection:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294981556
+          },
+          {
+            "name": "shutdownIfNeeded",
+            "flag": "method.class.AOSAgentServer.shutdownIfNeeded",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294982300
+          },
+          {
+            "name": "isEarlyShutdownRequired",
+            "flag": "method.class.AOSAgentServer.isEarlyShutdownRequired",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294982792
+          },
+          {
+            "name": "doAttemptImmediateShutdown",
+            "flag": "method.class.AOSAgentServer.doAttemptImmediateShutdown",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294982804
+          },
+          {
+            "name": "defaultAck:withResponse:",
+            "flag": "method.class.AOSAgentServer.defaultAck:withResponse:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294982816
+          },
+          {
+            "name": "defaultAck:",
+            "flag": "method.class.AOSAgentServer.defaultAck:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294982948
+          },
+          {
+            "name": "handleMessage:",
+            "flag": "method.class.AOSAgentServer.handleMessage:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294982964
+          },
+          {
+            "name": "logConnectionInfo:",
+            "flag": "method.class.AOSAgentServer.logConnectionInfo:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294990328
+          },
+          {
+            "name": "validateClientWithPid:auditToken:andIdentifier:",
+            "flag": "method.class.AOSAgentServer.validateClientWithPid:auditToken:andIdentifier:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294990552
+          },
+          {
+            "name": "accountFromPayload:withClientID:",
+            "flag": "method.class.AOSAgentServer.accountFromPayload:withClientID:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294991088
+          },
+          {
+            "name": "replyToMessage:withResult:",
+            "flag": "method.class.AOSAgentServer.replyToMessage:withResult:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294991396
+          },
+          {
+            "name": "incrementRefreshCount",
+            "flag": "method.class.AOSAgentServer.incrementRefreshCount",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294991760
+          },
+          {
+            "name": "decrementRefreshCount",
+            "flag": "method.class.AOSAgentServer.decrementRefreshCount",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294991868
+          },
+          {
+            "name": "errorTypeFromEvent:",
+            "flag": "method.class.AOSAgentServer.errorTypeFromEvent:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294991976
+          },
+          {
+            "name": "actionFromMessage:",
+            "flag": "method.class.AOSAgentServer.actionFromMessage:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294992060
+          },
+          {
+            "name": "handlePushNotification:onTopic:",
+            "flag": "method.class.AOSAgentServer.handlePushNotification:onTopic:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294992180
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_connection",
+            "kind": "var",
+            "type": "@\"NSObject<OS_xpc_object>\"",
+            "addr": 4295068032
+          },
+          {
+            "name": "connection",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "AOSDaemonUtilities",
+        "addr": 4295068328,
+        "lang": "objc",
+        "index": 3,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "authHeadersForAccount:andService:",
+            "flag": "method.class.AOSDaemonUtilities.authHeadersForAccount:andService:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294992768
+          },
+          {
+            "name": "retrieveGSTokenForAccount:withInfo:",
+            "flag": "method.class.AOSDaemonUtilities.retrieveGSTokenForAccount:withInfo:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294993288
+          },
+          {
+            "name": "updateGSTokensForAccount:withInfo:",
+            "flag": "method.class.AOSDaemonUtilities.updateGSTokensForAccount:withInfo:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294993836
+          },
+          {
+            "name": "removeGSInfoForAccount:",
+            "flag": "method.class.AOSDaemonUtilities.removeGSInfoForAccount:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294995960
+          },
+          {
+            "name": "generateHeadersWithAccount:andInfo:",
+            "flag": "method.class.AOSDaemonUtilities.generateHeadersWithAccount:andInfo:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294997056
+          },
+          {
+            "name": "updateNameForAccount:withInfo:",
+            "flag": "method.class.AOSDaemonUtilities.updateNameForAccount:withInfo:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294997936
+          },
+          {
+            "name": "retrieveMeCardPhotoForAccount:withInfo:",
+            "flag": "method.class.AOSDaemonUtilities.retrieveMeCardPhotoForAccount:withInfo:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294999148
+          },
+          {
+            "name": "uploadMeCardPhoto:forAccount:withInfo:",
+            "flag": "method.class.AOSDaemonUtilities.uploadMeCardPhoto:forAccount:withInfo:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295000188
+          },
+          {
+            "name": "retrieveMeCardImageForAccount:",
+            "flag": "method.class.AOSDaemonUtilities.retrieveMeCardImageForAccount:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295000980
+          },
+          {
+            "name": "uploadMeCardImage:forAccount:",
+            "flag": "method.class.AOSDaemonUtilities.uploadMeCardImage:forAccount:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295001572
+          },
+          {
+            "name": "retrieveEventDetailsForAccount:andPushNotification:",
+            "flag": "method.class.AOSDaemonUtilities.retrieveEventDetailsForAccount:andPushNotification:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295002184
+          },
+          {
+            "name": "handleAlertDismissalForAccount:withButtonID:pushNotification:andAlertInfo:",
+            "flag": "method.class.AOSDaemonUtilities.handleAlertDismissalForAccount:withButtonID:pushNotification:andAlertInfo:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295003688
+          },
+          {
+            "name": "_existingGSAccountForUser:",
+            "flag": "method.class.AOSDaemonUtilities._existingGSAccountForUser:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295004888
+          },
+          {
+            "name": "_gsUsernameForAccount:",
+            "flag": "method.class.AOSDaemonUtilities._gsUsernameForAccount:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295005408
+          },
+          {
+            "name": "_gsServiceIdentifiersFromInfo:",
+            "flag": "method.class.AOSDaemonUtilities._gsServiceIdentifiersFromInfo:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295005540
+          }
+        ]
+      },
+      {
+        "classname": "AOSTaskTracker",
+        "addr": 4295068408,
+        "lang": "objc",
+        "index": 4,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.AOSTaskTracker.init",
+            "lang": "objc",
+            "addr": 4295005916
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.AOSTaskTracker.dealloc",
+            "lang": "objc",
+            "addr": 4295006016
+          },
+          {
+            "name": "startTrackingTask",
+            "flag": "method.AOSTaskTracker.startTrackingTask",
+            "lang": "objc",
+            "addr": 4295006092
+          },
+          {
+            "name": "stopTrackingTaskWithID:",
+            "flag": "method.AOSTaskTracker.stopTrackingTaskWithID:",
+            "lang": "objc",
+            "addr": 4295006272
+          },
+          {
+            "name": "numRunningTasks",
+            "flag": "method.AOSTaskTracker.numRunningTasks",
+            "lang": "objc",
+            "addr": 4295006376
+          },
+          {
+            "name": "numLongRunningTasks:",
+            "flag": "method.AOSTaskTracker.numLongRunningTasks:",
+            "lang": "objc",
+            "addr": 4295006456
+          },
+          {
+            "name": "secondsSinceFirstActivity",
+            "flag": "method.AOSTaskTracker.secondsSinceFirstActivity",
+            "lang": "objc",
+            "addr": 4295006624
+          },
+          {
+            "name": "secondsSinceLastActivity",
+            "flag": "method.AOSTaskTracker.secondsSinceLastActivity",
+            "lang": "objc",
+            "addr": 4295006632
+          },
+          {
+            "name": "description",
+            "flag": "method.AOSTaskTracker.description",
+            "lang": "objc",
+            "addr": 4295006640
+          },
+          {
+            "name": "_secondsSinceStartTime:",
+            "flag": "method.AOSTaskTracker._secondsSinceStartTime:",
+            "lang": "objc",
+            "addr": 4295006720
+          },
+          {
+            "name": "_secondsBetweenStartTime:andEndTime:",
+            "flag": "method.AOSTaskTracker._secondsBetweenStartTime:andEndTime:",
+            "lang": "objc",
+            "addr": 4295006788
+          },
+          {
+            "name": "sharedInstance",
+            "flag": "method.class.AOSTaskTracker.sharedInstance",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295005820
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_tasks",
+            "kind": "var",
+            "type": "@\"NSMutableDictionary\"",
+            "addr": 4295068036
+          },
+          {
+            "name": "_firstActivity",
+            "kind": "var",
+            "type": "Q",
+            "addr": 4295068040
+          },
+          {
+            "name": "_lastActivity",
+            "kind": "var",
+            "type": "Q",
+            "addr": 4295068044
+          }
+        ]
+      }
+    ],
+    "swift_metadata": {
+      "is_swift": false,
+      "symbols": []
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist",
+        "Versions/A/Helpers/AOSPushRelay.app/Contents/Info.plist",
+        "Versions/A/Helpers/AOSPushRelay.app/Contents/PkgInfo",
+        "Versions/A/Helpers/AOSPushRelay.app/Contents/version.plist",
+        "Versions/A/Helpers/AOSPushRelay.app/Contents/_CodeSignature/CodeResources",
+        "Versions/A/Helpers/AOSPushRelay.app/Contents/MacOS/AOSPushRelay",
+        "Versions/A/Helpers/AOSPushRelay.app/Contents/Resources/MainMenu.loctable",
+        "Versions/A/Helpers/AOSPushRelay.app/Contents/Resources/InfoPlist.loctable",
+        "Versions/A/Helpers/AOSPushRelay.app/Contents/Resources/Base.lproj/MainMenu.nib",
+        "Versions/A/Helpers/AOSAlertManager.app/Contents/Info.plist",
+        "Versions/A/Helpers/AOSAlertManager.app/Contents/PkgInfo",
+        "Versions/A/Helpers/AOSAlertManager.app/Contents/version.plist",
+        "Versions/A/Helpers/AOSAlertManager.app/Contents/_CodeSignature/CodeResources",
+        "Versions/A/Helpers/AOSAlertManager.app/Contents/MacOS/AOSAlertManager",
+        "Versions/A/Helpers/AOSAlertManager.app/Contents/Resources/AOSAlertManager-Entitlements.plist",
+        "Versions/A/Helpers/AOSAlertManager.app/Contents/Resources/Localizable.loctable",
+        "Versions/A/Helpers/AOSAlertManager.app/Contents/Resources/InfoPlist.loctable",
+        "Versions/A/Helpers/AOSAlertManager.app/Contents/Resources/Base.lproj/MainMenu.nib",
+        "Versions/A/Helpers/AOSHeartbeat.app/Contents/Info.plist",
+        "Versions/A/Helpers/AOSHeartbeat.app/Contents/PkgInfo",
+        "Versions/A/Helpers/AOSHeartbeat.app/Contents/version.plist",
+        "Versions/A/Helpers/AOSHeartbeat.app/Contents/_CodeSignature/CodeResources",
+        "Versions/A/Helpers/AOSHeartbeat.app/Contents/MacOS/AOSHeartbeat",
+        "Versions/A/Helpers/AOSHeartbeat.app/Contents/Resources/MainMenu.loctable",
+        "Versions/A/Helpers/AOSHeartbeat.app/Contents/Resources/InfoPlist.loctable",
+        "Versions/A/Helpers/AOSHeartbeat.app/Contents/Resources/Base.lproj/MainMenu.nib",
+        "Versions/A/XPCServices/com.apple.iCloudHelper.xpc/Contents/Info.plist",
+        "Versions/A/XPCServices/com.apple.iCloudHelper.xpc/Contents/version.plist",
+        "Versions/A/XPCServices/com.apple.iCloudHelper.xpc/Contents/_CodeSignature/CodeResources",
+        "Versions/A/XPCServices/com.apple.iCloudHelper.xpc/Contents/MacOS/com.apple.iCloudHelper",
+        "Versions/A/XPCServices/com.apple.iCloudHelper.xpc/Contents/Resources/InfoPlist.loctable"
+      ],
+      "plists": {
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "AOSKit",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "English",
+          "CFBundleVersion": "282",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "FMWK",
+          "CFBundleShortVersionString": "1.07",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "AOSKit",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.AOSKit",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleSignature": "????",
+          "ProjectVersion": "282",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "282",
+          "CFBundleShortVersionString": "1.07",
+          "ProjectName": "AOSKit",
+          "SourceVersion": "293125001000000",
+          "BuildVersion": "433"
+        },
+        "Versions/A/Helpers/AOSPushRelay.app/Contents/Info.plist": {
+          "CFBundleName": "AOSPushRelay",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "282",
+          "BuildMachineOSBuild": "23A344014",
+          "NSPrincipalClass": "NSApplication",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "APPL",
+          "CFBundleShortVersionString": "1.07",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "NSMainNibFile": "MainMenu",
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "AOSPushRelay",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.AOSPushRelay",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleSignature": "????",
+          "DTPlatformBuild": "",
+          "LSUIElement": true
+        },
+        "Versions/A/Helpers/AOSPushRelay.app/Contents/version.plist": {
+          "CFBundleShortVersionString": "1.07",
+          "CFBundleVersion": "282",
+          "ProjectName": "AOSKit_executables",
+          "BuildAliasOf": "AOSKit",
+          "SourceVersion": "293125001000000",
+          "BuildVersion": "529"
+        },
+        "Versions/A/Helpers/AOSAlertManager.app/Contents/Info.plist": {
+          "CFBundleName": "AOSAlertManager",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2011 Apple, Inc. All rights reserved.",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "282",
+          "BuildMachineOSBuild": "23A344014",
+          "NSPrincipalClass": "NSApplication",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "APPL",
+          "CFBundleShortVersionString": "1.07",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "NSMainNibFile": "MainMenu",
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "AOSAlertManager",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.AOSAlertManager",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleSignature": "????",
+          "DTPlatformBuild": "",
+          "LSUIElement": true
+        },
+        "Versions/A/Helpers/AOSAlertManager.app/Contents/version.plist": {
+          "CFBundleShortVersionString": "1.07",
+          "CFBundleVersion": "282",
+          "ProjectName": "AOSKit_executables",
+          "BuildAliasOf": "AOSKit",
+          "SourceVersion": "293125001000000",
+          "BuildVersion": "529"
+        },
+        "Versions/A/Helpers/AOSAlertManager.app/Contents/Resources/AOSAlertManager-Entitlements.plist": {
+          "com.apple.private.accounts.allaccounts": true
+        },
+        "Versions/A/Helpers/AOSHeartbeat.app/Contents/Info.plist": {
+          "CFBundleName": "AOSHeartbeat",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "282",
+          "BuildMachineOSBuild": "23A344014",
+          "NSPrincipalClass": "NSApplication",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "APPL",
+          "CFBundleShortVersionString": "1.07",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "NSMainNibFile": "MainMenu",
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "AOSHeartbeat",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.AOSHeartbeat",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleSignature": "????",
+          "DTPlatformBuild": "",
+          "LSUIElement": true
+        },
+        "Versions/A/Helpers/AOSHeartbeat.app/Contents/version.plist": {
+          "CFBundleShortVersionString": "1.07",
+          "CFBundleVersion": "282",
+          "ProjectName": "AOSKit_executables",
+          "BuildAliasOf": "AOSKit",
+          "SourceVersion": "293125001000000",
+          "BuildVersion": "529"
+        },
+        "Versions/A/XPCServices/com.apple.iCloudHelper.xpc/Contents/Info.plist": {
+          "CFBundleName": "com.apple.iCloudHelper",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2012 Apple, Inc. All rights reserved.",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "English",
+          "CFBundleVersion": "282",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.07",
+          "Application-Group": [
+            "InternetAccounts"
+          ],
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "XPCService": {
+            "RunLoopType": "NSRunLoop",
+            "ServiceType": "User",
+            "_JoinGUISession": true
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "com.apple.iCloudHelper",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.iCloudHelper",
+          "DTPlatformVersion": "26.1",
+          "CFBundleSignature": "????",
+          "CFBundleDisplayName": "iCloud Helper",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/XPCServices/com.apple.iCloudHelper.xpc/Contents/version.plist": {
+          "CFBundleShortVersionString": "1.07",
+          "CFBundleVersion": "282",
+          "ProjectName": "AOSKit_executables",
+          "BuildAliasOf": "AOSKit",
+          "SourceVersion": "293125001000000",
+          "BuildVersion": "529"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
+  },
+  "usage": {
+    "layer": "usage",
+    "used_by": [
+      {
+        "path": "/System/Applications/Reminders.app",
+        "binary": "/System/Applications/Reminders.app/Contents/MacOS/Reminders",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/Setup Assistant.app",
+        "binary": "/System/Library/CoreServices/Setup Assistant.app/Contents/MacOS/Setup Assistant",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/loginwindow.app",
+        "binary": "/System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow",
+        "used_classes": []
+      }
+    ]
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "loaded"
+  }
+}

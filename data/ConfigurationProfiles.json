@@ -1,0 +1,3431 @@
+{
+  "framework": "ConfigurationProfiles.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/ConfigurationProfiles.framework/XPCServices/CertificateService.xpc/Contents/MacOS/CertificateService",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 451264,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "objc with blocks",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/usr/lib/libMobileGestalt.dylib",
+          "/System/Library/PrivateFrameworks/MDMClientLibrary.framework/Versions/A/MDMClientLibrary",
+          "/System/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork",
+          "/System/Library/Frameworks/SecurityInterface.framework/Versions/A/SecurityInterface",
+          "/System/Library/Frameworks/Security.framework/Versions/A/Security",
+          "/System/Library/PrivateFrameworks/DeviceIdentity.framework/Versions/A/DeviceIdentity",
+          "/System/Library/Frameworks/OpenDirectory.framework/Versions/A/OpenDirectory",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/System/Library/Frameworks/SecurityFoundation.framework/Versions/A/SecurityFoundation",
+          "/System/Library/PrivateFrameworks/ConfigurationProfiles.framework/Versions/A/ConfigurationProfiles",
+          "/System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libc++.1.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "CertificateServiceConnectionHandler",
+        "addr": 4295350968,
+        "lang": "objc",
+        "index": 0,
+        "super": [
+          "CPProfileDomainServiceConnectionHandler"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_CPProfileDomainServiceConnectionHandler"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.CertificateServiceConnectionHandler.init",
+            "lang": "objc",
+            "addr": 4295038220
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.CertificateServiceConnectionHandler.dealloc",
+            "lang": "objc",
+            "addr": 4295038624
+          },
+          {
+            "name": "installSimpleCertPayload:forProfile:forUserGUID:replacingProfile:error:",
+            "flag": "method.CertificateServiceConnectionHandler.installSimpleCertPayload:forProfile:forUserGUID:replacingProfile:error:",
+            "lang": "objc",
+            "addr": 4295038680
+          },
+          {
+            "name": "removeSimpleCertPayload:forProfile:forUserGUID:error:",
+            "flag": "method.CertificateServiceConnectionHandler.removeSimpleCertPayload:forProfile:forUserGUID:error:",
+            "lang": "objc",
+            "addr": 4295042608
+          },
+          {
+            "name": "cpValidatePayloadForInstall:profile:existingProfile:responseFlags:error:",
+            "flag": "method.CertificateServiceConnectionHandler.cpValidatePayloadForInstall:profile:existingProfile:responseFlags:error:",
+            "lang": "objc",
+            "addr": 4295042832
+          },
+          {
+            "name": "cpBuildDisplayDetails:payload:profile:error:",
+            "flag": "method.CertificateServiceConnectionHandler.cpBuildDisplayDetails:payload:profile:error:",
+            "lang": "objc",
+            "addr": 4295043324
+          },
+          {
+            "name": "cpBuildMissingInfo:payload:profile:error:",
+            "flag": "method.CertificateServiceConnectionHandler.cpBuildMissingInfo:payload:profile:error:",
+            "lang": "objc",
+            "addr": 4295047280
+          },
+          {
+            "name": "cpInstallPayload:profile:existingProfile:actions:error:",
+            "flag": "method.CertificateServiceConnectionHandler.cpInstallPayload:profile:existingProfile:actions:error:",
+            "lang": "objc",
+            "addr": 4295048512
+          },
+          {
+            "name": "cpRemovePayload:profile:actions:error:",
+            "flag": "method.CertificateServiceConnectionHandler.cpRemovePayload:profile:actions:error:",
+            "lang": "objc",
+            "addr": 4295050196
+          },
+          {
+            "name": "cpRenewPayload:profile:changes:error:",
+            "flag": "method.CertificateServiceConnectionHandler.cpRenewPayload:profile:changes:error:",
+            "lang": "objc",
+            "addr": 4295050676
+          }
+        ]
+      },
+      {
+        "classname": "MDMSecSCEPRequest",
+        "addr": 4295351048,
+        "lang": "objc",
+        "index": 1,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "destKeychain",
+            "flag": "method.MDMSecSCEPRequest.destKeychain",
+            "lang": "objc",
+            "addr": 4295087584
+          },
+          {
+            "name": "setDestKeychain:",
+            "flag": "method.MDMSecSCEPRequest.setDestKeychain:",
+            "lang": "objc",
+            "addr": 4295087688
+          },
+          {
+            "name": "pubKeyRequest",
+            "flag": "method.MDMSecSCEPRequest.pubKeyRequest",
+            "lang": "objc",
+            "addr": 4295087792
+          },
+          {
+            "name": "setPubKeyRequest:",
+            "flag": "method.MDMSecSCEPRequest.setPubKeyRequest:",
+            "lang": "objc",
+            "addr": 4295087896
+          },
+          {
+            "name": "privKeyRequest",
+            "flag": "method.MDMSecSCEPRequest.privKeyRequest",
+            "lang": "objc",
+            "addr": 4295088000
+          },
+          {
+            "name": "setPrivKeyRequest:",
+            "flag": "method.MDMSecSCEPRequest.setPrivKeyRequest:",
+            "lang": "objc",
+            "addr": 4295088104
+          },
+          {
+            "name": "identityToRenew",
+            "flag": "method.MDMSecSCEPRequest.identityToRenew",
+            "lang": "objc",
+            "addr": 4295088208
+          },
+          {
+            "name": "setIdentityToRenew:",
+            "flag": "method.MDMSecSCEPRequest.setIdentityToRenew:",
+            "lang": "objc",
+            "addr": 4295088312
+          },
+          {
+            "name": "tempSigningIdentity",
+            "flag": "method.MDMSecSCEPRequest.tempSigningIdentity",
+            "lang": "objc",
+            "addr": 4295088416
+          },
+          {
+            "name": "setTempSigningIdentity:",
+            "flag": "method.MDMSecSCEPRequest.setTempSigningIdentity:",
+            "lang": "objc",
+            "addr": 4295088520
+          },
+          {
+            "name": "SCEPSigningCertificate",
+            "flag": "method.MDMSecSCEPRequest.SCEPSigningCertificate",
+            "lang": "objc",
+            "addr": 4295088624
+          },
+          {
+            "name": "setSCEPSigningCertificate:",
+            "flag": "method.MDMSecSCEPRequest.setSCEPSigningCertificate:",
+            "lang": "objc",
+            "addr": 4295088728
+          },
+          {
+            "name": "SCEPCACertificate",
+            "flag": "method.MDMSecSCEPRequest.SCEPCACertificate",
+            "lang": "objc",
+            "addr": 4295088832
+          },
+          {
+            "name": "setSCEPCACertificate:",
+            "flag": "method.MDMSecSCEPRequest.setSCEPCACertificate:",
+            "lang": "objc",
+            "addr": 4295088936
+          },
+          {
+            "name": "init",
+            "flag": "method.MDMSecSCEPRequest.init",
+            "lang": "objc",
+            "addr": 4295089040
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.MDMSecSCEPRequest.dealloc",
+            "lang": "objc",
+            "addr": 4295089196
+          },
+          {
+            "name": "scepInfo",
+            "flag": "method.MDMSecSCEPRequest.scepInfo",
+            "lang": "objc",
+            "addr": 4295090028
+          },
+          {
+            "name": "serverURL",
+            "flag": "method.MDMSecSCEPRequest.serverURL",
+            "lang": "objc",
+            "addr": 4295090192
+          },
+          {
+            "name": "serverHasCapability:",
+            "flag": "method.MDMSecSCEPRequest.serverHasCapability:",
+            "lang": "objc",
+            "addr": 4295090308
+          },
+          {
+            "name": "digestAlgForCSR",
+            "flag": "method.MDMSecSCEPRequest.digestAlgForCSR",
+            "lang": "objc",
+            "addr": 4295090744
+          },
+          {
+            "name": "createKeypairReturningError:",
+            "flag": "method.MDMSecSCEPRequest.createKeypairReturningError:",
+            "lang": "objc",
+            "addr": 4295091008
+          },
+          {
+            "name": "setupForRenew:error:",
+            "flag": "method.MDMSecSCEPRequest.setupForRenew:error:",
+            "lang": "objc",
+            "addr": 4295093168
+          },
+          {
+            "name": "createTempSigner:",
+            "flag": "method.MDMSecSCEPRequest.createTempSigner:",
+            "lang": "objc",
+            "addr": 4295093936
+          },
+          {
+            "name": "URLForOperation:message:",
+            "flag": "method.MDMSecSCEPRequest.URLForOperation:message:",
+            "lang": "objc",
+            "addr": 4295095084
+          },
+          {
+            "name": "sendSCEP:method:content:contentType:outContent:outContentType:opDesc:error:",
+            "flag": "method.MDMSecSCEPRequest.sendSCEP:method:content:contentType:outContent:outContentType:opDesc:error:",
+            "lang": "objc",
+            "addr": 4295095680
+          },
+          {
+            "name": "performPKIOperation:outContent:opDesc:error:",
+            "flag": "method.MDMSecSCEPRequest.performPKIOperation:outContent:opDesc:error:",
+            "lang": "objc",
+            "addr": 4295096820
+          },
+          {
+            "name": "getCACerts:",
+            "flag": "method.MDMSecSCEPRequest.getCACerts:",
+            "lang": "objc",
+            "addr": 4295097272
+          },
+          {
+            "name": "getCACaps:",
+            "flag": "method.MDMSecSCEPRequest.getCACaps:",
+            "lang": "objc",
+            "addr": 4295099660
+          },
+          {
+            "name": "getSubjectParts:error:",
+            "flag": "method.MDMSecSCEPRequest.getSubjectParts:error:",
+            "lang": "objc",
+            "addr": 4295100556
+          },
+          {
+            "name": "getSubjectAltName:error:",
+            "flag": "method.MDMSecSCEPRequest.getSubjectAltName:error:",
+            "lang": "objc",
+            "addr": 4295101204
+          },
+          {
+            "name": "generateCSR:",
+            "flag": "method.MDMSecSCEPRequest.generateCSR:",
+            "lang": "objc",
+            "addr": 4295101676
+          },
+          {
+            "name": "buildErrorForBadResponseInfo:",
+            "flag": "method.MDMSecSCEPRequest.buildErrorForBadResponseInfo:",
+            "lang": "objc",
+            "addr": 4295102972
+          },
+          {
+            "name": "requestCertFromServer:",
+            "flag": "method.MDMSecSCEPRequest.requestCertFromServer:",
+            "lang": "objc",
+            "addr": 4295103148
+          },
+          {
+            "name": "completedOK",
+            "flag": "method.MDMSecSCEPRequest.completedOK",
+            "lang": "objc",
+            "addr": 4295109544
+          },
+          {
+            "name": "setCompletedOK:",
+            "flag": "method.MDMSecSCEPRequest.setCompletedOK:",
+            "lang": "objc",
+            "addr": 4295109556
+          },
+          {
+            "name": "preflightOnly",
+            "flag": "method.MDMSecSCEPRequest.preflightOnly",
+            "lang": "objc",
+            "addr": 4295109564
+          },
+          {
+            "name": "setPreflightOnly:",
+            "flag": "method.MDMSecSCEPRequest.setPreflightOnly:",
+            "lang": "objc",
+            "addr": 4295109576
+          },
+          {
+            "name": "profile",
+            "flag": "method.MDMSecSCEPRequest.profile",
+            "lang": "objc",
+            "addr": 4295109584
+          },
+          {
+            "name": "setProfile:",
+            "flag": "method.MDMSecSCEPRequest.setProfile:",
+            "lang": "objc",
+            "addr": 4295109596
+          },
+          {
+            "name": "payload",
+            "flag": "method.MDMSecSCEPRequest.payload",
+            "lang": "objc",
+            "addr": 4295109604
+          },
+          {
+            "name": "setPayload:",
+            "flag": "method.MDMSecSCEPRequest.setPayload:",
+            "lang": "objc",
+            "addr": 4295109616
+          },
+          {
+            "name": "forceExtractableKey",
+            "flag": "method.MDMSecSCEPRequest.forceExtractableKey",
+            "lang": "objc",
+            "addr": 4295109624
+          },
+          {
+            "name": "setForceExtractableKey:",
+            "flag": "method.MDMSecSCEPRequest.setForceExtractableKey:",
+            "lang": "objc",
+            "addr": 4295109636
+          },
+          {
+            "name": "serverCapabilities",
+            "flag": "method.MDMSecSCEPRequest.serverCapabilities",
+            "lang": "objc",
+            "addr": 4295109644
+          },
+          {
+            "name": "setServerCapabilities:",
+            "flag": "method.MDMSecSCEPRequest.setServerCapabilities:",
+            "lang": "objc",
+            "addr": 4295109656
+          },
+          {
+            "name": "addlTrustedApps",
+            "flag": "method.MDMSecSCEPRequest.addlTrustedApps",
+            "lang": "objc",
+            "addr": 4295109664
+          },
+          {
+            "name": "setAddlTrustedApps:",
+            "flag": "method.MDMSecSCEPRequest.setAddlTrustedApps:",
+            "lang": "objc",
+            "addr": 4295109676
+          },
+          {
+            "name": "SCEPCertificates",
+            "flag": "method.MDMSecSCEPRequest.SCEPCertificates",
+            "lang": "objc",
+            "addr": 4295109684
+          },
+          {
+            "name": "setSCEPCertificates:",
+            "flag": "method.MDMSecSCEPRequest.setSCEPCertificates:",
+            "lang": "objc",
+            "addr": 4295109696
+          },
+          {
+            "name": "removeSCEPSigningCertificate",
+            "flag": "method.MDMSecSCEPRequest.removeSCEPSigningCertificate",
+            "lang": "objc",
+            "addr": 4295109704
+          },
+          {
+            "name": "setRemoveSCEPSigningCertificate:",
+            "flag": "method.MDMSecSCEPRequest.setRemoveSCEPSigningCertificate:",
+            "lang": "objc",
+            "addr": 4295109716
+          },
+          {
+            "name": "subjectParts",
+            "flag": "method.MDMSecSCEPRequest.subjectParts",
+            "lang": "objc",
+            "addr": 4295109724
+          },
+          {
+            "name": "setSubjectParts:",
+            "flag": "method.MDMSecSCEPRequest.setSubjectParts:",
+            "lang": "objc",
+            "addr": 4295109736
+          },
+          {
+            "name": "cfObjects",
+            "flag": "method.MDMSecSCEPRequest.cfObjects",
+            "lang": "objc",
+            "addr": 4295109744
+          },
+          {
+            "name": "setCfObjects:",
+            "flag": "method.MDMSecSCEPRequest.setCfObjects:",
+            "lang": "objc",
+            "addr": 4295109756
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.MDMSecSCEPRequest..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295109764
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_completedOK",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295350752
+          },
+          {
+            "name": "_preflightOnly",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295350756
+          },
+          {
+            "name": "_forceExtractableKey",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295350760
+          },
+          {
+            "name": "_removeSCEPSigningCertificate",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295350764
+          },
+          {
+            "name": "_profile",
+            "kind": "var",
+            "type": "@\"CPProfile\"",
+            "addr": 4295350768
+          },
+          {
+            "name": "_payload",
+            "kind": "var",
+            "type": "@\"NSDictionary\"",
+            "addr": 4295350772
+          },
+          {
+            "name": "_serverCapabilities",
+            "kind": "var",
+            "type": "@\"NSArray\"",
+            "addr": 4295350776
+          },
+          {
+            "name": "_addlTrustedApps",
+            "kind": "var",
+            "type": "@\"NSArray\"",
+            "addr": 4295350780
+          },
+          {
+            "name": "_SCEPCertificates",
+            "kind": "var",
+            "type": "@\"NSArray\"",
+            "addr": 4295350784
+          },
+          {
+            "name": "_subjectParts",
+            "kind": "var",
+            "type": "@\"NSArray\"",
+            "addr": 4295350788
+          },
+          {
+            "name": "_cfObjects",
+            "kind": "var",
+            "type": "@\"NSMutableDictionary\"",
+            "addr": 4295350792
+          },
+          {
+            "name": "completedOK",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "preflightOnly",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "profile",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "payload",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "forceExtractableKey",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "serverCapabilities",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "addlTrustedApps",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "SCEPCertificates",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "removeSCEPSigningCertificate",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "subjectParts",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "cfObjects",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "DAVCertificateErrorHelper",
+        "addr": 4295351088,
+        "lang": "objc",
+        "index": 2,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "handleError:",
+            "flag": "method.DAVCertificateErrorHelper.handleError:",
+            "lang": "objc",
+            "addr": 4295154120
+          },
+          {
+            "name": "result",
+            "flag": "method.DAVCertificateErrorHelper.result",
+            "lang": "objc",
+            "addr": 4295154616
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "fResult",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295350796
+          }
+        ]
+      },
+      {
+        "classname": "URLConnectionOptions",
+        "addr": 4295351208,
+        "lang": "objc",
+        "index": 3,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.URLConnectionOptions.init",
+            "lang": "objc",
+            "addr": 4295157236
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.URLConnectionOptions.dealloc",
+            "lang": "objc",
+            "addr": 4295157432
+          },
+          {
+            "name": "setClientIdentity:isModernSystemKeychainSupported:",
+            "flag": "method.URLConnectionOptions.setClientIdentity:isModernSystemKeychainSupported:",
+            "lang": "objc",
+            "addr": 4295157556
+          },
+          {
+            "name": "clientIdentity",
+            "flag": "method.URLConnectionOptions.clientIdentity",
+            "lang": "objc",
+            "addr": 4295157628
+          },
+          {
+            "name": "modernSystemKeychainSupported",
+            "flag": "method.URLConnectionOptions.modernSystemKeychainSupported",
+            "lang": "objc",
+            "addr": 4295157636
+          },
+          {
+            "name": "authUserName",
+            "flag": "method.URLConnectionOptions.authUserName",
+            "lang": "objc",
+            "addr": 4295157644
+          },
+          {
+            "name": "setAuthUserName:",
+            "flag": "method.URLConnectionOptions.setAuthUserName:",
+            "lang": "objc",
+            "addr": 4295157656
+          },
+          {
+            "name": "authPassword",
+            "flag": "method.URLConnectionOptions.authPassword",
+            "lang": "objc",
+            "addr": 4295157664
+          },
+          {
+            "name": "setAuthPassword:",
+            "flag": "method.URLConnectionOptions.setAuthPassword:",
+            "lang": "objc",
+            "addr": 4295157676
+          },
+          {
+            "name": "validStatusCodes",
+            "flag": "method.URLConnectionOptions.validStatusCodes",
+            "lang": "objc",
+            "addr": 4295157684
+          },
+          {
+            "name": "setValidStatusCodes:",
+            "flag": "method.URLConnectionOptions.setValidStatusCodes:",
+            "lang": "objc",
+            "addr": 4295157696
+          },
+          {
+            "name": "ignoreInvalidServerCertificates",
+            "flag": "method.URLConnectionOptions.ignoreInvalidServerCertificates",
+            "lang": "objc",
+            "addr": 4295157704
+          },
+          {
+            "name": "setIgnoreInvalidServerCertificates:",
+            "flag": "method.URLConnectionOptions.setIgnoreInvalidServerCertificates:",
+            "lang": "objc",
+            "addr": 4295157716
+          },
+          {
+            "name": "anchorCerts",
+            "flag": "method.URLConnectionOptions.anchorCerts",
+            "lang": "objc",
+            "addr": 4295157724
+          },
+          {
+            "name": "setAnchorCerts:",
+            "flag": "method.URLConnectionOptions.setAnchorCerts:",
+            "lang": "objc",
+            "addr": 4295157736
+          },
+          {
+            "name": "pinningCerts",
+            "flag": "method.URLConnectionOptions.pinningCerts",
+            "lang": "objc",
+            "addr": 4295157744
+          },
+          {
+            "name": "setPinningCerts:",
+            "flag": "method.URLConnectionOptions.setPinningCerts:",
+            "lang": "objc",
+            "addr": 4295157756
+          },
+          {
+            "name": "pinningCertsRevocationFlags",
+            "flag": "method.URLConnectionOptions.pinningCertsRevocationFlags",
+            "lang": "objc",
+            "addr": 4295157764
+          },
+          {
+            "name": "setPinningCertsRevocationFlags:",
+            "flag": "method.URLConnectionOptions.setPinningCertsRevocationFlags:",
+            "lang": "objc",
+            "addr": 4295157772
+          },
+          {
+            "name": "useATS",
+            "flag": "method.URLConnectionOptions.useATS",
+            "lang": "objc",
+            "addr": 4295157780
+          },
+          {
+            "name": "setUseATS:",
+            "flag": "method.URLConnectionOptions.setUseATS:",
+            "lang": "objc",
+            "addr": 4295157792
+          },
+          {
+            "name": "allowRedirects",
+            "flag": "method.URLConnectionOptions.allowRedirects",
+            "lang": "objc",
+            "addr": 4295157800
+          },
+          {
+            "name": "setAllowRedirects:",
+            "flag": "method.URLConnectionOptions.setAllowRedirects:",
+            "lang": "objc",
+            "addr": 4295157812
+          },
+          {
+            "name": "useOriginalMethodForRedirects",
+            "flag": "method.URLConnectionOptions.useOriginalMethodForRedirects",
+            "lang": "objc",
+            "addr": 4295157820
+          },
+          {
+            "name": "setUseOriginalMethodForRedirects:",
+            "flag": "method.URLConnectionOptions.setUseOriginalMethodForRedirects:",
+            "lang": "objc",
+            "addr": 4295157832
+          },
+          {
+            "name": "timeoutIntervalForRequest",
+            "flag": "method.URLConnectionOptions.timeoutIntervalForRequest",
+            "lang": "objc",
+            "addr": 4295157840
+          },
+          {
+            "name": "setTimeoutIntervalForRequest:",
+            "flag": "method.URLConnectionOptions.setTimeoutIntervalForRequest:",
+            "lang": "objc",
+            "addr": 4295157848
+          },
+          {
+            "name": "preventAppSSO",
+            "flag": "method.URLConnectionOptions.preventAppSSO",
+            "lang": "objc",
+            "addr": 4295157856
+          },
+          {
+            "name": "setPreventAppSSO:",
+            "flag": "method.URLConnectionOptions.setPreventAppSSO:",
+            "lang": "objc",
+            "addr": 4295157868
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.URLConnectionOptions..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295157876
+          },
+          {
+            "name": "defaultOptions",
+            "flag": "method.class.URLConnectionOptions.defaultOptions",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295157188
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "fClientIdentityForAuth",
+            "kind": "var",
+            "type": "^{__SecIdentity=}",
+            "addr": 4295350800
+          },
+          {
+            "name": "fIsModernSystemKeychainSupported",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295350804
+          },
+          {
+            "name": "_ignoreInvalidServerCertificates",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295350808
+          },
+          {
+            "name": "_useATS",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295350812
+          },
+          {
+            "name": "_allowRedirects",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295350816
+          },
+          {
+            "name": "_useOriginalMethodForRedirects",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295350820
+          },
+          {
+            "name": "_preventAppSSO",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295350824
+          },
+          {
+            "name": "_authUserName",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295350828
+          },
+          {
+            "name": "_authPassword",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295350832
+          },
+          {
+            "name": "_validStatusCodes",
+            "kind": "var",
+            "type": "@\"NSIndexSet\"",
+            "addr": 4295350836
+          },
+          {
+            "name": "_anchorCerts",
+            "kind": "var",
+            "type": "@\"NSArray\"",
+            "addr": 4295350840
+          },
+          {
+            "name": "_pinningCerts",
+            "kind": "var",
+            "type": "@\"NSArray\"",
+            "addr": 4295350844
+          },
+          {
+            "name": "_pinningCertsRevocationFlags",
+            "kind": "var",
+            "type": "Q",
+            "addr": 4295350848
+          },
+          {
+            "name": "_timeoutIntervalForRequest",
+            "kind": "var",
+            "type": "d",
+            "addr": 4295350852
+          },
+          {
+            "name": "authUserName",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "authPassword",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "validStatusCodes",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "ignoreInvalidServerCertificates",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "anchorCerts",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "pinningCerts",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "pinningCertsRevocationFlags",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "useATS",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "allowRedirects",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "useOriginalMethodForRedirects",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "timeoutIntervalForRequest",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "preventAppSSO",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "URLConnectionLoader",
+        "addr": 4295351288,
+        "lang": "objc",
+        "index": 4,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.URLConnectionLoader.init",
+            "lang": "objc",
+            "addr": 4295157980
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.URLConnectionLoader.dealloc",
+            "lang": "objc",
+            "addr": 4295158168
+          },
+          {
+            "name": "httpResponse",
+            "flag": "method.URLConnectionLoader.httpResponse",
+            "lang": "objc",
+            "addr": 4295158344
+          },
+          {
+            "name": "statusCode",
+            "flag": "method.URLConnectionLoader.statusCode",
+            "lang": "objc",
+            "addr": 4295158552
+          },
+          {
+            "name": "callCompletionBlock",
+            "flag": "method.URLConnectionLoader.callCompletionBlock",
+            "lang": "objc",
+            "addr": 4295158636
+          },
+          {
+            "name": "start",
+            "flag": "method.URLConnectionLoader.start",
+            "lang": "objc",
+            "addr": 4295158860
+          },
+          {
+            "name": "prepRequest:taskType:forOpDesc:",
+            "flag": "method.URLConnectionLoader.prepRequest:taskType:forOpDesc:",
+            "lang": "objc",
+            "addr": 4295161748
+          },
+          {
+            "name": "sendSynchronousRequest:forOpDesc:returningError:",
+            "flag": "method.URLConnectionLoader.sendSynchronousRequest:forOpDesc:returningError:",
+            "lang": "objc",
+            "addr": 4295162136
+          },
+          {
+            "name": "startDataRequest:opDesc:completion:",
+            "flag": "method.URLConnectionLoader.startDataRequest:opDesc:completion:",
+            "lang": "objc",
+            "addr": 4295163724
+          },
+          {
+            "name": "startDownloadRequest:opDesc:completion:",
+            "flag": "method.URLConnectionLoader.startDownloadRequest:opDesc:completion:",
+            "lang": "objc",
+            "addr": 4295163920
+          },
+          {
+            "name": "stop",
+            "flag": "method.URLConnectionLoader.stop",
+            "lang": "objc",
+            "addr": 4295164116
+          },
+          {
+            "name": "recordAuthMethod:",
+            "flag": "method.URLConnectionLoader.recordAuthMethod:",
+            "lang": "objc",
+            "addr": 4295164232
+          },
+          {
+            "name": "URLSession:task:didReceiveChallenge:completionHandler:",
+            "flag": "method.URLConnectionLoader.URLSession:task:didReceiveChallenge:completionHandler:",
+            "lang": "objc",
+            "addr": 4295164680
+          },
+          {
+            "name": "URLSession:dataTask:didReceiveResponse:completionHandler:",
+            "flag": "method.URLConnectionLoader.URLSession:dataTask:didReceiveResponse:completionHandler:",
+            "lang": "objc",
+            "addr": 4295172756
+          },
+          {
+            "name": "URLSession:dataTask:didReceiveData:",
+            "flag": "method.URLConnectionLoader.URLSession:dataTask:didReceiveData:",
+            "lang": "objc",
+            "addr": 4295173384
+          },
+          {
+            "name": "URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:",
+            "flag": "method.URLConnectionLoader.URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:",
+            "lang": "objc",
+            "addr": 4295173680
+          },
+          {
+            "name": "URLSession:task:didCompleteWithError:",
+            "flag": "method.URLConnectionLoader.URLSession:task:didCompleteWithError:",
+            "lang": "objc",
+            "addr": 4295174608
+          },
+          {
+            "name": "opts",
+            "flag": "method.URLConnectionLoader.opts",
+            "lang": "objc",
+            "addr": 4295175184
+          },
+          {
+            "name": "setOpts:",
+            "flag": "method.URLConnectionLoader.setOpts:",
+            "lang": "objc",
+            "addr": 4295175196
+          },
+          {
+            "name": "response",
+            "flag": "method.URLConnectionLoader.response",
+            "lang": "objc",
+            "addr": 4295175204
+          },
+          {
+            "name": "setResponse:",
+            "flag": "method.URLConnectionLoader.setResponse:",
+            "lang": "objc",
+            "addr": 4295175216
+          },
+          {
+            "name": "error",
+            "flag": "method.URLConnectionLoader.error",
+            "lang": "objc",
+            "addr": 4295175224
+          },
+          {
+            "name": "setError:",
+            "flag": "method.URLConnectionLoader.setError:",
+            "lang": "objc",
+            "addr": 4295175236
+          },
+          {
+            "name": "failingURL",
+            "flag": "method.URLConnectionLoader.failingURL",
+            "lang": "objc",
+            "addr": 4295175244
+          },
+          {
+            "name": "setFailingURL:",
+            "flag": "method.URLConnectionLoader.setFailingURL:",
+            "lang": "objc",
+            "addr": 4295175256
+          },
+          {
+            "name": "redirectURL",
+            "flag": "method.URLConnectionLoader.redirectURL",
+            "lang": "objc",
+            "addr": 4295175264
+          },
+          {
+            "name": "setRedirectURL:",
+            "flag": "method.URLConnectionLoader.setRedirectURL:",
+            "lang": "objc",
+            "addr": 4295175276
+          },
+          {
+            "name": "responseData",
+            "flag": "method.URLConnectionLoader.responseData",
+            "lang": "objc",
+            "addr": 4295175284
+          },
+          {
+            "name": "setResponseData:",
+            "flag": "method.URLConnectionLoader.setResponseData:",
+            "lang": "objc",
+            "addr": 4295175296
+          },
+          {
+            "name": "downloadedFileURL",
+            "flag": "method.URLConnectionLoader.downloadedFileURL",
+            "lang": "objc",
+            "addr": 4295175304
+          },
+          {
+            "name": "setDownloadedFileURL:",
+            "flag": "method.URLConnectionLoader.setDownloadedFileURL:",
+            "lang": "objc",
+            "addr": 4295175316
+          },
+          {
+            "name": "completionBlock",
+            "flag": "method.URLConnectionLoader.completionBlock",
+            "lang": "objc",
+            "addr": 4295175324
+          },
+          {
+            "name": "setCompletionBlock:",
+            "flag": "method.URLConnectionLoader.setCompletionBlock:",
+            "lang": "objc",
+            "addr": 4295175336
+          },
+          {
+            "name": "opDesc",
+            "flag": "method.URLConnectionLoader.opDesc",
+            "lang": "objc",
+            "addr": 4295175344
+          },
+          {
+            "name": "setOpDesc:",
+            "flag": "method.URLConnectionLoader.setOpDesc:",
+            "lang": "objc",
+            "addr": 4295175356
+          },
+          {
+            "name": "authMethodsTried",
+            "flag": "method.URLConnectionLoader.authMethodsTried",
+            "lang": "objc",
+            "addr": 4295175364
+          },
+          {
+            "name": "setAuthMethodsTried:",
+            "flag": "method.URLConnectionLoader.setAuthMethodsTried:",
+            "lang": "objc",
+            "addr": 4295175376
+          },
+          {
+            "name": "session",
+            "flag": "method.URLConnectionLoader.session",
+            "lang": "objc",
+            "addr": 4295175384
+          },
+          {
+            "name": "setSession:",
+            "flag": "method.URLConnectionLoader.setSession:",
+            "lang": "objc",
+            "addr": 4295175396
+          },
+          {
+            "name": "currentTask",
+            "flag": "method.URLConnectionLoader.currentTask",
+            "lang": "objc",
+            "addr": 4295175404
+          },
+          {
+            "name": "setCurrentTask:",
+            "flag": "method.URLConnectionLoader.setCurrentTask:",
+            "lang": "objc",
+            "addr": 4295175416
+          },
+          {
+            "name": "asyncCallHelper",
+            "flag": "method.URLConnectionLoader.asyncCallHelper",
+            "lang": "objc",
+            "addr": 4295175424
+          },
+          {
+            "name": "setAsyncCallHelper:",
+            "flag": "method.URLConnectionLoader.setAsyncCallHelper:",
+            "lang": "objc",
+            "addr": 4295175432
+          },
+          {
+            "name": "request",
+            "flag": "method.URLConnectionLoader.request",
+            "lang": "objc",
+            "addr": 4295175440
+          },
+          {
+            "name": "setRequest:",
+            "flag": "method.URLConnectionLoader.setRequest:",
+            "lang": "objc",
+            "addr": 4295175452
+          },
+          {
+            "name": "stopRequested",
+            "flag": "method.URLConnectionLoader.stopRequested",
+            "lang": "objc",
+            "addr": 4295175460
+          },
+          {
+            "name": "setStopRequested:",
+            "flag": "method.URLConnectionLoader.setStopRequested:",
+            "lang": "objc",
+            "addr": 4295175472
+          },
+          {
+            "name": "pendingData",
+            "flag": "method.URLConnectionLoader.pendingData",
+            "lang": "objc",
+            "addr": 4295175480
+          },
+          {
+            "name": "setPendingData:",
+            "flag": "method.URLConnectionLoader.setPendingData:",
+            "lang": "objc",
+            "addr": 4295175492
+          },
+          {
+            "name": "taskType",
+            "flag": "method.URLConnectionLoader.taskType",
+            "lang": "objc",
+            "addr": 4295175500
+          },
+          {
+            "name": "setTaskType:",
+            "flag": "method.URLConnectionLoader.setTaskType:",
+            "lang": "objc",
+            "addr": 4295175508
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.URLConnectionLoader..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295175516
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_stopRequested",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295350856
+          },
+          {
+            "name": "_opts",
+            "kind": "var",
+            "type": "@\"URLConnectionOptions\"",
+            "addr": 4295350860
+          },
+          {
+            "name": "_response",
+            "kind": "var",
+            "type": "@\"NSURLResponse\"",
+            "addr": 4295350864
+          },
+          {
+            "name": "_error",
+            "kind": "var",
+            "type": "@\"NSError\"",
+            "addr": 4295350868
+          },
+          {
+            "name": "_failingURL",
+            "kind": "var",
+            "type": "@\"NSURL\"",
+            "addr": 4295350872
+          },
+          {
+            "name": "_redirectURL",
+            "kind": "var",
+            "type": "@\"NSURL\"",
+            "addr": 4295350876
+          },
+          {
+            "name": "_responseData",
+            "kind": "var",
+            "type": "@\"NSData\"",
+            "addr": 4295350880
+          },
+          {
+            "name": "_downloadedFileURL",
+            "kind": "var",
+            "type": "@\"NSURL\"",
+            "addr": 4295350884
+          },
+          {
+            "name": "_completionBlock",
+            "kind": "var",
+            "type": "@?",
+            "addr": 4295350888
+          },
+          {
+            "name": "_opDesc",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295350892
+          },
+          {
+            "name": "_authMethodsTried",
+            "kind": "var",
+            "type": "@\"NSMutableArray\"",
+            "addr": 4295350896
+          },
+          {
+            "name": "_session",
+            "kind": "var",
+            "type": "@\"NSURLSession\"",
+            "addr": 4295350900
+          },
+          {
+            "name": "_currentTask",
+            "kind": "var",
+            "type": "@\"NSURLSessionTask\"",
+            "addr": 4295350904
+          },
+          {
+            "name": "_asyncCallHelper",
+            "kind": "var",
+            "type": "^{StAsyncCallHelper=@@^B^q@B}",
+            "addr": 4295350908
+          },
+          {
+            "name": "_request",
+            "kind": "var",
+            "type": "@\"NSURLRequest\"",
+            "addr": 4295350912
+          },
+          {
+            "name": "_pendingData",
+            "kind": "var",
+            "type": "@\"NSMutableData\"",
+            "addr": 4295350916
+          },
+          {
+            "name": "_taskType",
+            "kind": "var",
+            "type": "Q",
+            "addr": 4295350920
+          },
+          {
+            "name": "opts",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "response",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "error",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "failingURL",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "redirectURL",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "responseData",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "downloadedFileURL",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "completionBlock",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "opDesc",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "authMethodsTried",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "session",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "currentTask",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "asyncCallHelper",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "request",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "stopRequested",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "pendingData",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "taskType",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "URLConnectionHelper",
+        "addr": 4295351368,
+        "lang": "objc",
+        "index": 5,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.URLConnectionHelper.init",
+            "lang": "objc",
+            "addr": 4295175952
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.URLConnectionHelper.dealloc",
+            "lang": "objc",
+            "addr": 4295176100
+          },
+          {
+            "name": "sendSynchronousRequest:forOpDesc:returningError:",
+            "flag": "method.URLConnectionHelper.sendSynchronousRequest:forOpDesc:returningError:",
+            "lang": "objc",
+            "addr": 4295176232
+          },
+          {
+            "name": "startDataRequest:opDesc:completion:",
+            "flag": "method.URLConnectionHelper.startDataRequest:opDesc:completion:",
+            "lang": "objc",
+            "addr": 4295176416
+          },
+          {
+            "name": "startDownloadRequest:opDesc:completion:",
+            "flag": "method.URLConnectionHelper.startDownloadRequest:opDesc:completion:",
+            "lang": "objc",
+            "addr": 4295176636
+          },
+          {
+            "name": "options",
+            "flag": "method.URLConnectionHelper.options",
+            "lang": "objc",
+            "addr": 4295176856
+          },
+          {
+            "name": "response",
+            "flag": "method.URLConnectionHelper.response",
+            "lang": "objc",
+            "addr": 4295176964
+          },
+          {
+            "name": "error",
+            "flag": "method.URLConnectionHelper.error",
+            "lang": "objc",
+            "addr": 4295177072
+          },
+          {
+            "name": "redirectURL",
+            "flag": "method.URLConnectionHelper.redirectURL",
+            "lang": "objc",
+            "addr": 4295177180
+          },
+          {
+            "name": "responseData",
+            "flag": "method.URLConnectionHelper.responseData",
+            "lang": "objc",
+            "addr": 4295177288
+          },
+          {
+            "name": "httpResponse",
+            "flag": "method.URLConnectionHelper.httpResponse",
+            "lang": "objc",
+            "addr": 4295177436
+          },
+          {
+            "name": "statusCode",
+            "flag": "method.URLConnectionHelper.statusCode",
+            "lang": "objc",
+            "addr": 4295177544
+          },
+          {
+            "name": "downloadedFileURL",
+            "flag": "method.URLConnectionHelper.downloadedFileURL",
+            "lang": "objc",
+            "addr": 4295177628
+          },
+          {
+            "name": "loader",
+            "flag": "method.URLConnectionHelper.loader",
+            "lang": "objc",
+            "addr": 4295177736
+          },
+          {
+            "name": "setLoader:",
+            "flag": "method.URLConnectionHelper.setLoader:",
+            "lang": "objc",
+            "addr": 4295177748
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.URLConnectionHelper..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295177756
+          },
+          {
+            "name": "helperWithOptions:",
+            "flag": "method.class.URLConnectionHelper.helperWithOptions:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295175728
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_loader",
+            "kind": "var",
+            "type": "@\"URLConnectionLoader\"",
+            "addr": 4295350924
+          },
+          {
+            "name": "loader",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "options",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "response",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "error",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "redirectURL",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "responseData",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "httpResponse",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "statusCode",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "downloadedFileURL",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "std",
+        "addr": 0,
+        "lang": "c++",
+        "index": 6,
+        "methods": [
+          {
+            "name": "terminate()",
+            "flag": "method.std.terminate__",
+            "rawname": "_ZSt9terminatev",
+            "lang": "c++",
+            "addr": 4295295912
+          }
+        ]
+      }
+    ],
+    "swift_metadata": {
+      "is_swift": false,
+      "symbols": []
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "XPCServices/ExecutionPolicyService.xpc/Contents/Info.plist",
+        "XPCServices/ExecutionPolicyService.xpc/Contents/version.plist",
+        "XPCServices/ExecutionPolicyService.xpc/Contents/_CodeSignature/CodeResources",
+        "XPCServices/ExecutionPolicyService.xpc/Contents/MacOS/ExecutionPolicyService",
+        "XPCServices/ExecutionPolicyService.xpc/Contents/Resources/Localizable.loctable",
+        "XPCServices/ExecutionPolicyService.xpc/Contents/Resources/InfoPlist.loctable",
+        "XPCServices/TCCProfileService.xpc/Contents/Info.plist",
+        "XPCServices/TCCProfileService.xpc/Contents/version.plist",
+        "XPCServices/TCCProfileService.xpc/Contents/_CodeSignature/CodeResources",
+        "XPCServices/TCCProfileService.xpc/Contents/MacOS/TCCProfileService",
+        "XPCServices/TCCProfileService.xpc/Contents/Resources/Localizable.loctable",
+        "XPCServices/TCCProfileService.xpc/Contents/Resources/InfoPlist.loctable",
+        "XPCServices/LOMXPCService.xpc/Contents/Info.plist",
+        "XPCServices/LOMXPCService.xpc/Contents/version.plist",
+        "XPCServices/LOMXPCService.xpc/Contents/_CodeSignature/CodeResources",
+        "XPCServices/LOMXPCService.xpc/Contents/MacOS/LOMXPCService",
+        "XPCServices/LOMXPCService.xpc/Contents/Resources/Localizable.loctable",
+        "XPCServices/LOMXPCService.xpc/Contents/Resources/InfoPlist.loctable",
+        "XPCServices/AirPlayService.xpc/Contents/Info.plist",
+        "XPCServices/AirPlayService.xpc/Contents/version.plist",
+        "XPCServices/AirPlayService.xpc/Contents/_CodeSignature/CodeResources",
+        "XPCServices/AirPlayService.xpc/Contents/MacOS/AirPlayService",
+        "XPCServices/AirPlayService.xpc/Contents/Resources/Localizable.loctable",
+        "XPCServices/AirPlayService.xpc/Contents/Resources/InfoPlist.loctable",
+        "XPCServices/MDMService.xpc/Contents/Info.plist",
+        "XPCServices/MDMService.xpc/Contents/version.plist",
+        "XPCServices/MDMService.xpc/Contents/_CodeSignature/CodeResources",
+        "XPCServices/MDMService.xpc/Contents/MacOS/MDMService",
+        "XPCServices/MDMService.xpc/Contents/Resources/Localizable.loctable",
+        "XPCServices/MDMService.xpc/Contents/Resources/InfoPlist.loctable",
+        "XPCServices/ClassroomMCXService.xpc/Contents/Info.plist",
+        "XPCServices/ClassroomMCXService.xpc/Contents/version.plist",
+        "XPCServices/ClassroomMCXService.xpc/Contents/_CodeSignature/CodeResources",
+        "XPCServices/ClassroomMCXService.xpc/Contents/MacOS/ClassroomMCXService",
+        "XPCServices/ClassroomMCXService.xpc/Contents/Resources/com.apple.ClassroomKit.ClassroomMCXService.sb",
+        "XPCServices/ClassroomMCXService.xpc/Contents/Resources/InfoPlist.loctable",
+        "XPCServices/FeatureFlagsProfileService.xpc/Contents/Info.plist",
+        "XPCServices/FeatureFlagsProfileService.xpc/Contents/version.plist",
+        "XPCServices/FeatureFlagsProfileService.xpc/Contents/_CodeSignature/CodeResources",
+        "XPCServices/FeatureFlagsProfileService.xpc/Contents/MacOS/FeatureFlagsProfileService",
+        "XPCServices/FileVaultEscrowService.xpc/Contents/Info.plist",
+        "XPCServices/FileVaultEscrowService.xpc/Contents/version.plist",
+        "XPCServices/FileVaultEscrowService.xpc/Contents/_CodeSignature/CodeResources",
+        "XPCServices/FileVaultEscrowService.xpc/Contents/MacOS/FileVaultEscrowService",
+        "XPCServices/FileVaultEscrowService.xpc/Contents/Resources/LegacyFDERecoveryRedirect.loctable",
+        "XPCServices/FileVaultEscrowService.xpc/Contents/Resources/Localizable.loctable",
+        "XPCServices/FileVaultEscrowService.xpc/Contents/Resources/InfoPlist.loctable",
+        "XPCServices/RemoteManagementMCXService.xpc/Contents/Info.plist",
+        "XPCServices/RemoteManagementMCXService.xpc/Contents/version.plist",
+        "XPCServices/RemoteManagementMCXService.xpc/Contents/_CodeSignature/CodeResources",
+        "XPCServices/RemoteManagementMCXService.xpc/Contents/MacOS/RemoteManagementMCXService",
+        "XPCServices/RemoteManagementMCXService.xpc/Contents/Resources/InfoPlist.loctable",
+        "XPCServices/SystemExtensionsMDM.xpc/Contents/Info.plist",
+        "XPCServices/SystemExtensionsMDM.xpc/Contents/version.plist",
+        "XPCServices/SystemExtensionsMDM.xpc/Contents/_CodeSignature/CodeResources",
+        "XPCServices/SystemExtensionsMDM.xpc/Contents/MacOS/SystemExtensionsMDM",
+        "XPCServices/SystemExtensionsMDM.xpc/Contents/Resources/Localizable.loctable",
+        "XPCServices/EraseService.xpc/Contents/Info.plist",
+        "XPCServices/EraseService.xpc/Contents/version.plist",
+        "XPCServices/EraseService.xpc/Contents/_CodeSignature/CodeResources",
+        "XPCServices/EraseService.xpc/Contents/MacOS/EraseService",
+        "XPCServices/EraseService.xpc/Contents/Resources/Localizable.loctable",
+        "XPCServices/EraseService.xpc/Contents/Resources/InfoPlist.loctable",
+        "XPCServices/AssetCacheProfilePlugin.xpc/Contents/Info.plist",
+        "XPCServices/AssetCacheProfilePlugin.xpc/Contents/version.plist",
+        "XPCServices/AssetCacheProfilePlugin.xpc/Contents/_CodeSignature/CodeResources",
+        "XPCServices/AssetCacheProfilePlugin.xpc/Contents/MacOS/AssetCacheProfilePlugin",
+        "XPCServices/AssetCacheProfilePlugin.xpc/Contents/Resources/Localizable.loctable",
+        "XPCServices/AssetCacheProfilePlugin.xpc/Contents/Resources/InfoPlist.loctable",
+        "XPCServices/CertificateService.xpc/Contents/Info.plist",
+        "XPCServices/CertificateService.xpc/Contents/version.plist",
+        "XPCServices/CertificateService.xpc/Contents/_CodeSignature/CodeResources",
+        "XPCServices/CertificateService.xpc/Contents/MacOS/CertificateService",
+        "XPCServices/CertificateService.xpc/Contents/Resources/Certificate.loctable",
+        "XPCServices/CertificateService.xpc/Contents/Resources/Localizable.loctable",
+        "XPCServices/CertificateService.xpc/Contents/Resources/CertIdentPreference.loctable",
+        "XPCServices/CertificateService.xpc/Contents/Resources/ACME.loctable",
+        "XPCServices/CertificateService.xpc/Contents/Resources/SCEP.loctable",
+        "XPCServices/CertificateService.xpc/Contents/Resources/InfoPlist.loctable",
+        "XPCServices/CertificateService.xpc/Contents/Resources/CertTransparency.loctable",
+        "XPCServices/AppleService.xpc/Contents/Info.plist",
+        "XPCServices/AppleService.xpc/Contents/version.plist",
+        "XPCServices/AppleService.xpc/Contents/_CodeSignature/CodeResources",
+        "XPCServices/AppleService.xpc/Contents/MacOS/AppleService",
+        "XPCServices/AppleService.xpc/Contents/Resources/Localizable.loctable",
+        "XPCServices/AppleService.xpc/Contents/Resources/InternalDiagnostics.loctable",
+        "XPCServices/AppleService.xpc/Contents/Resources/InfoPlist.loctable",
+        "XPCServices/PlugInKitService.xpc/Contents/Info.plist",
+        "XPCServices/PlugInKitService.xpc/Contents/version.plist",
+        "XPCServices/PlugInKitService.xpc/Contents/_CodeSignature/CodeResources",
+        "XPCServices/PlugInKitService.xpc/Contents/MacOS/PlugInKitService",
+        "XPCServices/PlugInKitService.xpc/Contents/Resources/Localizable.loctable",
+        "XPCServices/PlugInKitService.xpc/Contents/Resources/ShareKit.loctable",
+        "XPCServices/PlugInKitService.xpc/Contents/Resources/InfoPlist.loctable",
+        "XPCServices/AssessmentService.xpc/Contents/Info.plist",
+        "XPCServices/AssessmentService.xpc/Contents/version.plist",
+        "XPCServices/AssessmentService.xpc/Contents/_CodeSignature/CodeResources",
+        "XPCServices/AssessmentService.xpc/Contents/MacOS/AssessmentService",
+        "XPCServices/AssessmentService.xpc/Contents/Resources/Localizable.loctable",
+        "XPCServices/AssessmentService.xpc/Contents/Resources/InfoPlist.loctable",
+        "XPCServices/BTMProfileService.xpc/Contents/Info.plist",
+        "XPCServices/BTMProfileService.xpc/Contents/version.plist",
+        "XPCServices/BTMProfileService.xpc/Contents/_CodeSignature/CodeResources",
+        "XPCServices/BTMProfileService.xpc/Contents/MacOS/BTMProfileService",
+        "XPCServices/BTMProfileService.xpc/Contents/Resources/Localizable.loctable",
+        "XPCServices/BTMProfileService.xpc/Contents/Resources/InfoPlist.loctable",
+        "XPCServices/MAIDService.xpc/Contents/Info.plist",
+        "XPCServices/MAIDService.xpc/Contents/version.plist",
+        "XPCServices/MAIDService.xpc/Contents/_CodeSignature/CodeResources",
+        "XPCServices/MAIDService.xpc/Contents/MacOS/MAIDService",
+        "XPCServices/MAIDService.xpc/Contents/Resources/InfoPlist.loctable",
+        "XPCServices/CardDAVService.xpc/Contents/Info.plist",
+        "XPCServices/CardDAVService.xpc/Contents/version.plist",
+        "XPCServices/CardDAVService.xpc/Contents/_CodeSignature/CodeResources",
+        "XPCServices/CardDAVService.xpc/Contents/MacOS/CardDAVService",
+        "XPCServices/CardDAVService.xpc/Contents/Resources/Localizable.loctable",
+        "XPCServices/CardDAVService.xpc/Contents/Resources/InfoPlist.loctable",
+        "XPCServices/FontService.xpc/Contents/Info.plist",
+        "XPCServices/FontService.xpc/Contents/version.plist",
+        "XPCServices/FontService.xpc/Contents/_CodeSignature/CodeResources",
+        "XPCServices/FontService.xpc/Contents/MacOS/FontService",
+        "XPCServices/FontService.xpc/Contents/Resources/Localizable.loctable",
+        "XPCServices/FontService.xpc/Contents/Resources/InfoPlist.loctable",
+        "XPCServices/ExchangeService.xpc/Contents/Info.plist",
+        "XPCServices/ExchangeService.xpc/Contents/version.plist",
+        "XPCServices/ExchangeService.xpc/Contents/_CodeSignature/CodeResources",
+        "XPCServices/ExchangeService.xpc/Contents/MacOS/ExchangeService",
+        "XPCServices/ExchangeService.xpc/Contents/Resources/Localizable.loctable",
+        "XPCServices/ExchangeService.xpc/Contents/Resources/InfoPlist.loctable",
+        "XPCServices/FirewallService.xpc/Contents/Info.plist",
+        "XPCServices/FirewallService.xpc/Contents/version.plist",
+        "XPCServices/FirewallService.xpc/Contents/_CodeSignature/CodeResources",
+        "XPCServices/FirewallService.xpc/Contents/MacOS/FirewallService",
+        "XPCServices/FirewallService.xpc/Contents/Resources/Localizable.loctable",
+        "XPCServices/FirewallService.xpc/Contents/Resources/InfoPlist.loctable",
+        "XPCServices/RemoteManagementMCXProfile.xpc/Contents/Info.plist",
+        "XPCServices/RemoteManagementMCXProfile.xpc/Contents/version.plist",
+        "XPCServices/RemoteManagementMCXProfile.xpc/Contents/_CodeSignature/CodeResources",
+        "XPCServices/RemoteManagementMCXProfile.xpc/Contents/MacOS/RemoteManagementMCXProfile",
+        "XPCServices/RemoteManagementMCXProfile.xpc/Contents/Resources/Localizable.loctable",
+        "XPCServices/RemoteManagementMCXProfile.xpc/Contents/Resources/InfoPlist.loctable",
+        "XPCServices/SingleSignOnService.xpc/Contents/Info.plist",
+        "XPCServices/SingleSignOnService.xpc/Contents/version.plist",
+        "XPCServices/SingleSignOnService.xpc/Contents/_CodeSignature/CodeResources",
+        "XPCServices/SingleSignOnService.xpc/Contents/MacOS/SingleSignOnService",
+        "XPCServices/SingleSignOnService.xpc/Contents/Resources/AssociatedDomains.loctable",
+        "XPCServices/SingleSignOnService.xpc/Contents/Resources/Localizable.loctable",
+        "XPCServices/SingleSignOnService.xpc/Contents/Resources/InfoPlist.loctable",
+        "XPCServices/SystemPolicyService.xpc/Contents/Info.plist",
+        "XPCServices/SystemPolicyService.xpc/Contents/version.plist",
+        "XPCServices/SystemPolicyService.xpc/Contents/_CodeSignature/CodeResources",
+        "XPCServices/SystemPolicyService.xpc/Contents/MacOS/SystemPolicyService",
+        "XPCServices/SystemPolicyService.xpc/Contents/Resources/SystemPolicyControl.loctable",
+        "XPCServices/SystemPolicyService.xpc/Contents/Resources/SystemPolicyManaged.loctable",
+        "XPCServices/SystemPolicyService.xpc/Contents/Resources/Localizable.loctable",
+        "XPCServices/SystemPolicyService.xpc/Contents/Resources/SystemPolicyRule.loctable",
+        "XPCServices/SystemPolicyService.xpc/Contents/Resources/InfoPlist.loctable",
+        "XPCServices/FirmwarePasswordService.xpc/Contents/Info.plist",
+        "XPCServices/FirmwarePasswordService.xpc/Contents/version.plist",
+        "XPCServices/FirmwarePasswordService.xpc/Contents/_CodeSignature/CodeResources",
+        "XPCServices/FirmwarePasswordService.xpc/Contents/MacOS/FirmwarePasswordService",
+        "XPCServices/FirmwarePasswordService.xpc/Contents/Resources/InfoPlist.loctable",
+        "XPCServices/SampleService.xpc/Contents/Info.plist",
+        "XPCServices/SampleService.xpc/Contents/version.plist",
+        "XPCServices/SampleService.xpc/Contents/_CodeSignature/CodeResources",
+        "XPCServices/SampleService.xpc/Contents/MacOS/SampleService",
+        "XPCServices/SampleService.xpc/Contents/Resources/Localizable.loctable",
+        "XPCServices/SampleService.xpc/Contents/Resources/InfoPlist.loctable",
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/ErrorStrings.loctable",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/CPProfile.loctable",
+        "Versions/A/Resources/version.plist",
+        "Versions/A/Resources/ConfigProfiles.momd/VersionInfo.plist",
+        "Versions/A/Resources/ConfigProfiles.momd/ConfigProfiles 5.mom",
+        "Versions/A/Resources/ConfigProfiles.momd/ConfigProfiles 5.omo"
+      ],
+      "plists": {
+        "XPCServices/ExecutionPolicyService.xpc/Contents/Info.plist": {
+          "CFBundleName": "ExecutionPolicyService",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B73",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "XPCService": {
+            "RunLoopType": "NSRunLoop",
+            "JoinExistingSession": true,
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "ExecutionPolicyService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.ExecutionPolicyService",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleDisplayName": "ExecutionPolicyService",
+          "DTPlatformBuild": "25B73",
+          "ProfileDomainService": {
+            "DomainsSupported": [
+              "com.apple.syspolicy.kernel-extension-policy"
+            ]
+          }
+        },
+        "XPCServices/ExecutionPolicyService.xpc/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "syspolicyd",
+          "SourceVersion": "726040017000000",
+          "BuildVersion": "21"
+        },
+        "XPCServices/TCCProfileService.xpc/Contents/Info.plist": {
+          "CFBundleName": "TCCProfileService",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B70",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "XPCService": {
+            "RunLoopType": "NSRunLoop",
+            "JoinExistingSession": true,
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "TCCProfileService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.TCCProfileService",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleDisplayName": "TCCProfileService",
+          "DTPlatformBuild": "25B70",
+          "ProfileDomainService": {
+            "DomainsSupported": [
+              "com.apple.TCC.configuration-profile-policy"
+            ]
+          }
+        },
+        "XPCServices/TCCProfileService.xpc/Contents/version.plist": {
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleVersion": "1",
+          "ProjectName": "TCC_executables",
+          "BuildAliasOf": "TCC",
+          "SourceVersion": "858000001000001",
+          "BuildVersion": "22"
+        },
+        "XPCServices/LOMXPCService.xpc/Contents/Info.plist": {
+          "CFBundleName": "LOMXPCService",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2019 Apple. All rights reserved.",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "Application-Group": [
+            "ConfigurationProfiles"
+          ],
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "XPCService": {
+            "RunLoopType": "NSRunLoop",
+            "JoinExistingSession": true,
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "LOMXPCService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.LOMXPCService",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleDisplayName": "LOMXPCService",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "",
+          "ProfileDomainService": {
+            "DomainsSupported": [
+              "com.apple.lom"
+            ],
+            "MDMCommands": {
+              "LOMSetupRequest": {
+                "Destinations": [
+                  "Device"
+                ],
+                "PersistResponse": false,
+                "RequireDEPEnrolled": false,
+                "RequireSupervised": false,
+                "RequireAccessRights": [
+                  "QueryDeviceInfo"
+                ]
+              },
+              "LOMDeviceRequest": {
+                "Destinations": [
+                  "Device"
+                ],
+                "PersistResponse": false,
+                "RequireDEPEnrolled": false,
+                "RequireSupervised": false,
+                "RespondNotNow": [
+                  "Setup"
+                ],
+                "RequireAccessRights": [
+                  "QueryDeviceInfo"
+                ]
+              }
+            }
+          }
+        },
+        "XPCServices/LOMXPCService.xpc/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "AppleLOM",
+          "SourceVersion": "70000000000000",
+          "BuildVersion": "7157"
+        },
+        "XPCServices/AirPlayService.xpc/Contents/Info.plist": {
+          "CFBundleName": "AirPlayService",
+          "DTSDKName": "macosx26.1.internal",
+          "DTXcode": "2600",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "Application-Group": [
+            "ConfigurationProfiles",
+            "apple",
+            "com.apple.airplay"
+          ],
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleVisibleComponentName": "Device Management (AirPlay)",
+          "XPCService": {
+            "RunLoopType": "NSRunLoop",
+            "JoinExistingSession": true,
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "AirPlayService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.managedclient.pds.AirPlay",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleDisplayName": "AirPlayService",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "",
+          "ProfileDomainService": {
+            "DomainsSupported": [
+              "com.apple.airplay"
+            ],
+            "ReplacesBundleIDs": [
+              "com.apple.managedclient.profileplugin.airplay"
+            ]
+          }
+        },
+        "XPCServices/AirPlayService.xpc/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "MCXTools",
+          "SourceVersion": "1881040002000000",
+          "BuildVersion": "142"
+        },
+        "XPCServices/MDMService.xpc/Contents/Info.plist": {
+          "CFBundleName": "MDMService",
+          "DTSDKName": "macosx26.1.internal",
+          "DTXcode": "2600",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "Application-Group": [
+            "ConfigurationProfiles",
+            "apple"
+          ],
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleVisibleComponentName": "Device Management (MDM)",
+          "XPCService": {
+            "RunLoopType": "NSRunLoop",
+            "JoinExistingSession": true,
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "MDMService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.managedclient.pds.MDM",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleDisplayName": "MDMService",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "",
+          "ProfileDomainService": {
+            "DomainsSupported": [
+              "com.apple.mdm"
+            ],
+            "ExcludeDomainsFromManagedPrefs": true,
+            "ReplacesBundleIDs": [
+              "com.apple.managedclient.profileplugin.mdm"
+            ]
+          }
+        },
+        "XPCServices/MDMService.xpc/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "MCXTools",
+          "SourceVersion": "1881040002000000",
+          "BuildVersion": "142"
+        },
+        "XPCServices/ClassroomMCXService.xpc/Contents/Info.plist": {
+          "CFBundleName": "ClassroomMCXService",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2017 Apple. All rights reserved.",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "XPCService": {
+            "RunLoopType": "NSRunLoop",
+            "JoinExistingSession": true,
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "ClassroomMCXService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.ClassroomKit.ClassroomMCXService",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleDisplayName": "ClassroomMCXService",
+          "DTPlatformBuild": "",
+          "ProfileDomainService": {
+            "DomainsSupported": [
+              "com.apple.education"
+            ]
+          }
+        },
+        "XPCServices/ClassroomMCXService.xpc/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "Classroom",
+          "SourceVersion": "119000000000000",
+          "BuildVersion": "385"
+        },
+        "XPCServices/FeatureFlagsProfileService.xpc/Contents/Info.plist": {
+          "CFBundleName": "FeatureFlagsProfileService",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2021 Apple Inc. All rights reserved.",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "XPCService": {
+            "RunLoopType": "NSRunLoop",
+            "JoinExistingSession": true,
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "FeatureFlagsProfileService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.FeatureFlagsProfileService",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "",
+          "ProfileDomainService": {
+            "DomainsSupported": [
+              "com.apple.system.featureflags"
+            ]
+          }
+        },
+        "XPCServices/FeatureFlagsProfileService.xpc/Contents/version.plist": {
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleVersion": "1",
+          "ProjectName": "libfeatureflags_executables_extra",
+          "BuildAliasOf": "libfeatureflags",
+          "SourceVersion": "101000000000000",
+          "BuildVersion": "1597"
+        },
+        "XPCServices/FileVaultEscrowService.xpc/Contents/Info.plist": {
+          "CFBundleName": "FileVaultEscrowService",
+          "DTSDKName": "macosx26.1.internal",
+          "DTXcode": "2600",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "Application-Group": [
+            "ConfigurationProfiles",
+            "apple"
+          ],
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleVisibleComponentName": "Device Management (FileVault Escrow)",
+          "XPCService": {
+            "RunLoopType": "NSRunLoop",
+            "JoinExistingSession": true,
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "FileVaultEscrowService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.managedclient.pds.FileVaultEscrow",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleDisplayName": "FileVaultEscrowService",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "",
+          "ProfileDomainService": {
+            "DomainsSupported": [
+              "com.apple.security.FDERecoveryRedirect",
+              "com.apple.security.FDERecoveryKeyEscrow"
+            ],
+            "ExcludeDomainsFromManagedPrefs": true
+          }
+        },
+        "XPCServices/FileVaultEscrowService.xpc/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "MCXTools",
+          "SourceVersion": "1881040002000000",
+          "BuildVersion": "142"
+        },
+        "XPCServices/RemoteManagementMCXService.xpc/Contents/Info.plist": {
+          "CFBundleName": "RemoteManagementMCXService",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2020\u20132021 Apple Inc. All rights reserved.",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "Application-Group": [
+            "ConfigurationProfiles",
+            "apple"
+          ],
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "XPCService": {
+            "RunLoopType": "NSRunLoop",
+            "JoinExistingSession": true,
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "RemoteManagementMCXService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.RemoteManagementMCXService",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleDisplayName": "RemoteManagementMCXService",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "",
+          "ProfileDomainService": {
+            "DomainsSupported": [],
+            "MDMCommands": {
+              "DeclarativeManagement": {
+                "Destinations": [
+                  "Device",
+                  "User"
+                ],
+                "PersistResponse": false,
+                "RequireDEPEnrolled": false,
+                "RequireSupervised": false,
+                "RespondNotNow": [
+                  "PreLogin"
+                ],
+                "RequireAccessRights": []
+              }
+            }
+          }
+        },
+        "XPCServices/RemoteManagementMCXService.xpc/Contents/version.plist": {
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleVersion": "1",
+          "ProjectName": "RemoteManagementDaemon",
+          "BuildAliasOf": "RemoteManagement",
+          "SourceVersion": "585000000000000",
+          "BuildVersion": "2031"
+        },
+        "XPCServices/SystemExtensionsMDM.xpc/Contents/Info.plist": {
+          "CFBundleName": "SystemExtensionsMDM",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2019 Apple Inc. All rights reserved.",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "XPCService": {
+            "RunLoopType": "NSRunLoop",
+            "JoinExistingSession": true,
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "SystemExtensionsMDM",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.SystemExtensionsMDM",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "",
+          "ProfileDomainService": {
+            "DomainsSupported": [
+              "com.apple.system-extension-policy"
+            ]
+          }
+        },
+        "XPCServices/SystemExtensionsMDM.xpc/Contents/version.plist": {
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleVersion": "1",
+          "ProjectName": "SystemExtensions_executables",
+          "BuildAliasOf": "SystemExtensions",
+          "SourceVersion": "221000000000000",
+          "BuildVersion": "533"
+        },
+        "XPCServices/EraseService.xpc/Contents/Info.plist": {
+          "CFBundleName": "EraseService",
+          "DTSDKName": "macosx26.1.internal",
+          "DTXcode": "2600",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleVisibleComponentName": "Device Management (EraseService)",
+          "XPCService": {
+            "RunLoopType": "NSRunLoop",
+            "JoinExistingSession": true,
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "EraseService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.managedclient.pds.EraseDevice",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleDisplayName": "EraseService",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "",
+          "ProfileDomainService": {}
+        },
+        "XPCServices/EraseService.xpc/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "MCXTools",
+          "SourceVersion": "1881040002000000",
+          "BuildVersion": "142"
+        },
+        "XPCServices/AssetCacheProfilePlugin.xpc/Contents/Info.plist": {
+          "CFBundleName": "AssetCacheProfilePlugin",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "251",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "251",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "XPCService": {
+            "RunLoopType": "NSRunLoop",
+            "JoinExistingSession": true,
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "AssetCacheProfilePlugin",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.AssetCacheProfilePlugin",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleDisplayName": "macOS Profile Plugin",
+          "DTPlatformBuild": "",
+          "ProfileDomainService": {
+            "DomainsSupported": [
+              "com.apple.AssetCache.managed",
+              "com.apple.applicationaccess"
+            ],
+            "MDMCommands": {
+              "ContentCachingInformation": {
+                "Destinations": [
+                  "Device"
+                ],
+                "PersistResponse": false,
+                "RequireDEPEnrolled": false,
+                "RespondNotNow": [],
+                "RequireAccessRights": [
+                  "QueryNetworkInfo"
+                ]
+              }
+            }
+          }
+        },
+        "XPCServices/AssetCacheProfilePlugin.xpc/Contents/version.plist": {
+          "CFBundleVersion": "251",
+          "CFBundleShortVersionString": "251",
+          "ProjectName": "EdgeCache",
+          "SourceVersion": "251000000000000",
+          "BuildVersion": "2990"
+        },
+        "XPCServices/CertificateService.xpc/Contents/Info.plist": {
+          "CFBundleName": "CertificateService",
+          "DTSDKName": "macosx26.1.internal",
+          "DTXcode": "2600",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "Application-Group": [
+            "ConfigurationProfiles",
+            "apple"
+          ],
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleVisibleComponentName": "Device Management (Certificates)",
+          "XPCService": {
+            "RunLoopType": "NSRunLoop",
+            "JoinExistingSession": true,
+            "ServiceType": "Application"
+          },
+          "NSAppTransportSecurity": {
+            "NSAllowsArbitraryLoads": false
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "CertificateService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.managedclient.pds.Certificate",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleDisplayName": "CertificateService",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "",
+          "ProfileDomainService": {
+            "DomainsSupported": [
+              "com.apple.security.scep",
+              "com.apple.security.pkcs12",
+              "com.apple.security.pkcs1",
+              "com.apple.security.root",
+              "com.apple.security.pem",
+              "com.apple.security.certificatepreference",
+              "com.apple.security.identitypreference",
+              "com.apple.security.certificatetransparency",
+              "com.apple.security.acme",
+              "com.apple.security.selfsignedcertificate"
+            ],
+            "ExcludeDomainsFromManagedPrefs": true,
+            "ReplacesBundleIDs": [
+              "com.apple.managedclient.profileplugin.certificate"
+            ]
+          }
+        },
+        "XPCServices/CertificateService.xpc/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "MCXTools",
+          "SourceVersion": "1881040002000000",
+          "BuildVersion": "142"
+        },
+        "XPCServices/AppleService.xpc/Contents/Info.plist": {
+          "CFBundleName": "AppleService",
+          "DTSDKName": "macosx26.1.internal",
+          "DTXcode": "2600",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleVisibleComponentName": "Device Management (AppleService)",
+          "XPCService": {
+            "RunLoopType": "NSRunLoop",
+            "JoinExistingSession": true,
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "AppleService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.managedclient.pds.AppleService",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleDisplayName": "AppleService",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "",
+          "ProfileDomainService": {
+            "DomainsSupported": [
+              "com.apple.InternalDiagnostics"
+            ],
+            "ExcludeDomainsFromManagedPrefs": [
+              "com.apple.InternalDiagnostics"
+            ]
+          }
+        },
+        "XPCServices/AppleService.xpc/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "MCXTools",
+          "SourceVersion": "1881040002000000",
+          "BuildVersion": "142"
+        },
+        "XPCServices/PlugInKitService.xpc/Contents/Info.plist": {
+          "CFBundleName": "PlugInKitService",
+          "DTSDKName": "macosx26.1.internal",
+          "DTXcode": "2600",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "Application-Group": [
+            "ConfigurationProfiles",
+            "apple"
+          ],
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleVisibleComponentName": "Device Management (NSExtension)",
+          "XPCService": {
+            "RunLoopType": "NSRunLoop",
+            "JoinExistingSession": true,
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "PlugInKitService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.managedclient.pds.PlugInKit",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleDisplayName": "PlugInKitService",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "",
+          "ProfileDomainService": {
+            "DomainsSupported": [
+              "com.apple.NSExtension",
+              "com.apple.ShareKitHelper"
+            ],
+            "ExcludeDomainsFromManagedPrefs": [
+              "com.apple.NSExtension",
+              "__StillNeedShareKitHelperForMigration"
+            ],
+            "MDMCommands": {
+              "ActiveNSExtensions": {
+                "Destinations": [
+                  "User"
+                ],
+                "PersistResponse": false,
+                "RespondNotNow": [
+                  "Setup",
+                  "PreLogin",
+                  "DarkWake"
+                ],
+                "RequireAccessRights": [
+                  "QueryInstalledApps"
+                ]
+              },
+              "NSExtensionMappings": {
+                "Destinations": [
+                  "User"
+                ],
+                "PersistResponse": false,
+                "RespondNotNow": [
+                  "Setup",
+                  "PreLogin",
+                  "DarkWake"
+                ],
+                "RequireAccessRights": [
+                  "QueryInstalledApps"
+                ]
+              }
+            }
+          }
+        },
+        "XPCServices/PlugInKitService.xpc/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "MCXTools",
+          "SourceVersion": "1881040002000000",
+          "BuildVersion": "142"
+        },
+        "XPCServices/AssessmentService.xpc/Contents/Info.plist": {
+          "CFBundleName": "AssessmentService",
+          "DTSDKName": "macosx26.1.internal",
+          "DTXcode": "2600",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "Application-Group": [
+            "ConfigurationProfiles",
+            "apple"
+          ],
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleVisibleComponentName": "Device Management (Assessment)",
+          "XPCService": {
+            "RunLoopType": "NSRunLoop",
+            "JoinExistingSession": true,
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "AssessmentService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.managedclient.pds.Assessment",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleDisplayName": "AssessmentService",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "",
+          "ProfileDomainService": {
+            "DomainsSupported": [
+              "com.apple.asam"
+            ],
+            "ExcludeDomainsFromManagedPrefs": true
+          }
+        },
+        "XPCServices/AssessmentService.xpc/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "MCXTools",
+          "SourceVersion": "1881040002000000",
+          "BuildVersion": "142"
+        },
+        "XPCServices/BTMProfileService.xpc/Contents/Info.plist": {
+          "CFBundleName": "BTMProfileService",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "XPCService": {
+            "RunLoopType": "NSRunLoop",
+            "JoinExistingSession": true,
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "BTMProfileService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.BTMProfileService",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleDisplayName": "BTMProfileService",
+          "DTPlatformBuild": "",
+          "ProfileDomainService": {
+            "DomainsSupported": [
+              "com.apple.servicemanagement"
+            ]
+          }
+        },
+        "XPCServices/BTMProfileService.xpc/Contents/version.plist": {
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleVersion": "1",
+          "ProjectName": "SharedFileListSupport",
+          "BuildAliasOf": "SharedFileList",
+          "SourceVersion": "337001010000000",
+          "BuildVersion": "72"
+        },
+        "XPCServices/MAIDService.xpc/Contents/Info.plist": {
+          "CFBundleName": "MAIDService",
+          "DTSDKName": "macosx26.1.internal",
+          "DTXcode": "2600",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "Application-Group": [
+            "ConfigurationProfiles",
+            "apple"
+          ],
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleVisibleComponentName": "Device Management (Managed Apple ID)",
+          "XPCService": {
+            "RunLoopType": "NSRunLoop",
+            "JoinExistingSession": true,
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "MAIDService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.managedclient.pds.MAIDService",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleDisplayName": "MAIDService",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "",
+          "ProfileDomainService": {}
+        },
+        "XPCServices/MAIDService.xpc/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "MCXTools",
+          "SourceVersion": "1881040002000000",
+          "BuildVersion": "142"
+        },
+        "XPCServices/CardDAVService.xpc/Contents/Info.plist": {
+          "CFBundleName": "CardDAVService",
+          "DTSDKName": "macosx26.1.internal",
+          "DTXcode": "2600",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "Application-Group": [
+            "ConfigurationProfiles",
+            "apple",
+            "addressbookserver",
+            "exchange",
+            "InternetAccounts"
+          ],
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleVisibleComponentName": "Device Management (CardDAV)",
+          "XPCService": {
+            "RunLoopType": "NSRunLoop",
+            "JoinExistingSession": true,
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "CardDAVService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.managedclient.pds.CardDAV",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleDisplayName": "CardDAVService",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "",
+          "ProfileDomainService": {
+            "DomainsSupported": [
+              "com.apple.carddav.account"
+            ],
+            "ExcludeDomainsFromManagedPrefs": true,
+            "ReplacesBundleIDs": [
+              "com.apple.managedclient.profileplugin.carddav"
+            ]
+          }
+        },
+        "XPCServices/CardDAVService.xpc/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "MCXTools",
+          "SourceVersion": "1881040002000000",
+          "BuildVersion": "142"
+        },
+        "XPCServices/FontService.xpc/Contents/Info.plist": {
+          "CFBundleName": "FontService",
+          "DTSDKName": "macosx26.1.internal",
+          "DTXcode": "2600",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "Application-Group": [
+            "ConfigurationProfiles",
+            "apple"
+          ],
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleVisibleComponentName": "Device Management (Font)",
+          "XPCService": {
+            "RunLoopType": "NSRunLoop",
+            "JoinExistingSession": true,
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "FontService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.managedclient.pds.Font",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleDisplayName": "FontService",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "",
+          "ProfileDomainService": {
+            "DomainsSupported": [
+              "com.apple.font"
+            ],
+            "ExcludeDomainsFromManagedPrefs": true,
+            "ReplacesBundleIDs": [
+              "com.apple.managedclient.profileplugin.font"
+            ]
+          }
+        },
+        "XPCServices/FontService.xpc/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "MCXTools",
+          "SourceVersion": "1881040002000000",
+          "BuildVersion": "142"
+        },
+        "XPCServices/ExchangeService.xpc/Contents/Info.plist": {
+          "CFBundleName": "ExchangeService",
+          "DTSDKName": "macosx26.1.internal",
+          "DTXcode": "2600",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "Application-Group": [
+            "ConfigurationProfiles",
+            "apple",
+            "addressbookserver",
+            "exchange",
+            "InternetAccounts"
+          ],
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleVisibleComponentName": "Device Management (Exchange)",
+          "XPCService": {
+            "RunLoopType": "NSRunLoop",
+            "JoinExistingSession": true,
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "ExchangeService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.managedclient.pds.Exchange",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleDisplayName": "ExchangeService",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "",
+          "ProfileDomainService": {
+            "DomainsSupported": [
+              "com.apple.ews.account"
+            ],
+            "ExcludeDomainsFromManagedPrefs": true,
+            "ReplacesBundleIDs": [
+              "com.apple.managedclient.profileplugin.exchange"
+            ]
+          }
+        },
+        "XPCServices/ExchangeService.xpc/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "MCXTools",
+          "SourceVersion": "1881040002000000",
+          "BuildVersion": "142"
+        },
+        "XPCServices/FirewallService.xpc/Contents/Info.plist": {
+          "CFBundleName": "FirewallService",
+          "DTSDKName": "macosx26.1.internal",
+          "DTXcode": "2600",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "Application-Group": [
+            "ConfigurationProfiles",
+            "apple"
+          ],
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleVisibleComponentName": "Device Management (Firewall)",
+          "XPCService": {
+            "RunLoopType": "NSRunLoop",
+            "JoinExistingSession": true,
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "FirewallService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.managedclient.pds.Firewall",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleDisplayName": "FirewallService",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "",
+          "ProfileDomainService": {
+            "DomainsSupported": [
+              "com.apple.security.firewall"
+            ],
+            "ReplacesBundleIDs": [
+              "com.apple.managedclient.profileplugin.firewall"
+            ]
+          }
+        },
+        "XPCServices/FirewallService.xpc/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "MCXTools",
+          "SourceVersion": "1881040002000000",
+          "BuildVersion": "142"
+        },
+        "XPCServices/RemoteManagementMCXProfile.xpc/Contents/Info.plist": {
+          "CFBundleName": "RemoteManagementMCXProfile",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2022 Apple Inc. All rights reserved.",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "Application-Group": [
+            "ConfigurationProfiles",
+            "apple"
+          ],
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "XPCService": {
+            "RunLoopType": "NSRunLoop",
+            "JoinExistingSession": true,
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "RemoteManagementMCXProfile",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.RemoteManagementMCXProfile",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleDisplayName": "RemoteManagementMCXProfile",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "",
+          "ProfileDomainService": {
+            "DomainsSupported": [
+              "com.apple.declarations"
+            ],
+            "ExcludeDomainsFromManagedPrefs": [
+              "com.apple.declarations"
+            ],
+            "MDMCommands": {}
+          }
+        },
+        "XPCServices/RemoteManagementMCXProfile.xpc/Contents/version.plist": {
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleVersion": "1",
+          "ProjectName": "RemoteManagementDaemon",
+          "BuildAliasOf": "RemoteManagement",
+          "SourceVersion": "585000000000000",
+          "BuildVersion": "2031"
+        },
+        "XPCServices/SingleSignOnService.xpc/Contents/Info.plist": {
+          "CFBundleName": "SingleSignOnService",
+          "DTSDKName": "macosx26.1.internal",
+          "DTXcode": "2600",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleVisibleComponentName": "Device Management (Single Sign On)",
+          "XPCService": {
+            "RunLoopType": "NSRunLoop",
+            "JoinExistingSession": true,
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "SingleSignOnService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.managedclient.pds.SingleSignOn",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleDisplayName": "SingleSignOnService",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "",
+          "ProfileDomainService": {
+            "DomainsSupported": [
+              "com.apple.extensiblesso",
+              "com.apple.associated-domains"
+            ],
+            "ExcludeDomainsFromManagedPrefs": true
+          }
+        },
+        "XPCServices/SingleSignOnService.xpc/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "MCXTools",
+          "SourceVersion": "1881040002000000",
+          "BuildVersion": "142"
+        },
+        "XPCServices/SystemPolicyService.xpc/Contents/Info.plist": {
+          "CFBundleName": "SystemPolicyService",
+          "DTSDKName": "macosx26.1.internal",
+          "DTXcode": "2600",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "Application-Group": [
+            "ConfigurationProfiles",
+            "apple"
+          ],
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleVisibleComponentName": "Device Management (System Policy)",
+          "XPCService": {
+            "RunLoopType": "NSRunLoop",
+            "JoinExistingSession": true,
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "SystemPolicyService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.managedclient.pds.SystemPolicy",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleDisplayName": "SystemPolicyService",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "",
+          "ProfileDomainService": {
+            "DomainsSupported": [
+              "com.apple.systempolicy.rule",
+              "com.apple.systempolicy.control",
+              "com.apple.systempolicy.managed"
+            ],
+            "ExcludeDomainsFromManagedPrefs": [
+              "com.apple.systempolicy.rule"
+            ],
+            "ReplacesBundleIDs": [
+              "com.apple.managedclient.profileplugin.systempolicy"
+            ]
+          }
+        },
+        "XPCServices/SystemPolicyService.xpc/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "MCXTools",
+          "SourceVersion": "1881040002000000",
+          "BuildVersion": "142"
+        },
+        "XPCServices/FirmwarePasswordService.xpc/Contents/Info.plist": {
+          "CFBundleName": "FirmwarePasswordService",
+          "DTSDKName": "macosx26.1.internal",
+          "DTXcode": "2600",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "Application-Group": [
+            "ConfigurationProfiles",
+            "apple"
+          ],
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleVisibleComponentName": "Device Management (Firmware Password)",
+          "XPCService": {
+            "RunLoopType": "NSRunLoop",
+            "JoinExistingSession": true,
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "FirmwarePasswordService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.managedclient.pds.FirmwarePassword",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleDisplayName": "FirmwarePasswordService",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "",
+          "ProfileDomainService": {
+            "MDMCommands": {
+              "SetFirmwarePassword": {
+                "Destinations": [
+                  "Device"
+                ],
+                "PersistResponse": false,
+                "RespondNotNow": [],
+                "RequireAccessRights": [
+                  "DeviceLockAndRemovePasscode"
+                ]
+              },
+              "VerifyFirmwarePassword": {
+                "Destinations": [
+                  "Device"
+                ],
+                "PersistResponse": false,
+                "RespondNotNow": [],
+                "RequireAccessRights": []
+              }
+            }
+          }
+        },
+        "XPCServices/FirmwarePasswordService.xpc/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "MCXTools",
+          "SourceVersion": "1881040002000000",
+          "BuildVersion": "142"
+        },
+        "XPCServices/SampleService.xpc/Contents/Info.plist": {
+          "CFBundleName": "SampleService",
+          "DTSDKName": "macosx26.1.internal",
+          "DTXcode": "2600",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "Application-Group": [
+            "ConfigurationProfiles",
+            "apple"
+          ],
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleVisibleComponentName": "Device Management (SampleService)",
+          "XPCService": {
+            "RunLoopType": "NSRunLoop",
+            "JoinExistingSession": true,
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "SampleService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.managedclient.pds.SampleService",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleDisplayName": "SampleService",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "",
+          "ProfileDomainService": {
+            "DomainsSupported": [
+              "com.apple.test.SampleServiceOne",
+              "com.apple.test.SampleServiceTwo",
+              "com.apple.ManagedClient.preferences"
+            ],
+            "ExcludeDomainsFromManagedPrefs": [
+              "com.apple.test.SampleServiceOne"
+            ],
+            "MDMCommands": {
+              "SampleService_Echo": {
+                "Destinations": [
+                  "Device",
+                  "User"
+                ],
+                "PersistResponse": false,
+                "RespondNotNow": [],
+                "RequireAccessRights": [
+                  "QueryDeviceInfo"
+                ]
+              }
+            }
+          }
+        },
+        "XPCServices/SampleService.xpc/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "MCXTools",
+          "SourceVersion": "1881040002000000",
+          "BuildVersion": "142"
+        },
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "ConfigurationProfiles",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "English",
+          "CFBundleVersion": "1800",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "FMWK",
+          "CFBundleShortVersionString": "18.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "ConfigurationProfiles",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.framework.ConfigurationProfiles",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleSignature": "????",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "1800",
+          "CFBundleShortVersionString": "18.0",
+          "ProjectName": "ManagedClient",
+          "SourceVersion": "1798040003000000",
+          "BuildVersion": "14"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^Frameworks/ConfigurationProfileInstaller\\.framework": {
+            "omit": true,
+            "weight": 50
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^Frameworks/ConfigurationProfileInstaller\\.framework": {
+            "omit": true,
+            "weight": 50
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
+  },
+  "usage": {
+    "layer": "usage",
+    "used_by": [
+      {
+        "path": "/System/Applications/Music.app",
+        "binary": "/System/Applications/Music.app/Contents/MacOS/Music",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Applications/TV.app",
+        "binary": "/System/Applications/TV.app/Contents/MacOS/TV",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Applications/Mail.app",
+        "binary": "/System/Applications/Mail.app/Contents/MacOS/Mail",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/Language Chooser.app",
+        "binary": "/System/Library/CoreServices/Language Chooser.app/Contents/MacOS/Language Chooser",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/Erase Assistant.app",
+        "binary": "/System/Library/CoreServices/Erase Assistant.app/Contents/MacOS/Erase Assistant",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/Setup Assistant.app",
+        "binary": "/System/Library/CoreServices/Setup Assistant.app/Contents/MacOS/Setup Assistant",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/loginwindow.app",
+        "binary": "/System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/ManagedClient.app",
+        "binary": "/System/Library/CoreServices/ManagedClient.app/Contents/MacOS/ManagedClient",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/ProfileHelper.app",
+        "binary": "/System/Library/CoreServices/ProfileHelper.app/Contents/MacOS/ProfileHelper",
+        "used_classes": []
+      }
+    ]
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "loaded"
+  }
+}

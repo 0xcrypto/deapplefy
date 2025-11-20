@@ -1,0 +1,214 @@
+{
+  "framework": "ChronoCore.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 77616,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": false,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "swift",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/PrivateFrameworks/ChronoCore.framework/Versions/A/ChronoCore",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/usr/lib/swift/libswiftCore.dylib",
+          "/usr/lib/swift/libswiftCoreFoundation.dylib",
+          "/usr/lib/swift/libswiftDispatch.dylib",
+          "/usr/lib/swift/libswiftIOKit.dylib",
+          "/usr/lib/swift/libswiftObjectiveC.dylib",
+          "/usr/lib/swift/libswiftXPC.dylib",
+          "/usr/lib/swift/libswift_Builtin_float.dylib",
+          "/usr/lib/swift/libswiftos.dylib"
+        ]
+      }
+    },
+    "classes": [],
+    "swift_metadata": {
+      "is_swift": true,
+      "symbols": [
+        {
+          "name": "imp.$s10ChronoCore21_ChronodStartupHelperC9bootstrapyyFZ",
+          "demname": "ChronoCore._ChronodStartupHelper.bootstrap.allocator(...yFZ)",
+          "flagname": "sym.imp.ChronoCore._ChronodStartupHelper.bootstrap.allocator_...yFZ_",
+          "realname": "ChronoCore._ChronodStartupHelper.bootstrap.allocator(...yFZ)",
+          "ordinal": 2,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294970028,
+          "paddr": 84652,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10ChronoCore21_ChronodStartupHelperCMa",
+          "demname": "ChronoCore._ChronodStartupHelper.allocator(...a)",
+          "flagname": "sym.imp.ChronoCore._ChronodStartupHelper.allocator_...a_",
+          "realname": "ChronoCore._ChronodStartupHelper.allocator(...a)",
+          "ordinal": 3,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294970044,
+          "paddr": 84668,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s2os6LoggerV9logObjectSo03OS_a1_C0Cvg",
+          "demname": "os.Logger.logObject.OS_._...C0Cvg",
+          "flagname": "sym.imp.os.Logger.logObject.OS_._...C0Cvg",
+          "realname": "os.Logger.logObject.OS_._...C0Cvg",
+          "ordinal": 4,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294970060,
+          "paddr": 84684,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s2os6LoggerVACycfC",
+          "demname": "os.Logger...VACycfC",
+          "flagname": "sym.imp.os.Logger...VACycfC",
+          "realname": "os.Logger...VACycfC",
+          "ordinal": 5,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294970076,
+          "paddr": 84700,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s2os6LoggerVMa",
+          "demname": "os.Logger...VMa",
+          "flagname": "sym.imp.os.Logger...VMa",
+          "realname": "os.Logger...VMa",
+          "ordinal": 6,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294970092,
+          "paddr": 84716,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSo13os_log_type_ta0A0E7defaultABvgZ",
+          "demname": "os_log_type_t...a0A0E7defaultABvgZ",
+          "flagname": "sym.imp.os_log_type_t...a0A0E7defaultABvgZ",
+          "realname": "os_log_type_t...a0A0E7defaultABvgZ",
+          "ordinal": 7,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294970108,
+          "paddr": 84732,
+          "is_imported": true
+        }
+      ]
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Support/chronod",
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist"
+      ],
+      "plists": {
+        "Versions/A/Resources/Info.plist": {
+          "DTPlatformVersion": "26.1",
+          "CFBundleIdentifier": "com.apple.chronocore",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "DTPlatformBuild": "",
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleVersion": "1",
+          "CFBundleExecutable": "ChronoCore",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTXcode": "2600",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundlePackageType": "FMWK",
+          "CLSystemService": true,
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "DTSDKName": "macosx26.1.internal",
+          "CFBundleName": "ChronoCore"
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "1",
+          "ProjectName": "Chrono",
+          "SourceVersion": "664001024000000",
+          "BuildVersion": "79"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
+  },
+  "usage": {
+    "layer": "usage",
+    "used_by": []
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "loaded"
+  }
+}

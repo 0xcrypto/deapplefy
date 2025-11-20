@@ -1,0 +1,1418 @@
+{
+  "framework": "StoreKitUIMac.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/StoreKitUIMac.framework/Versions/A/XPCServices/StoreKitUIServiceMac.xpc/Contents/MacOS/StoreKitUIServiceMac",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 172016,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "swift",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/PrivateFrameworks/AppleMediaServices.framework/Versions/A/AppleMediaServices",
+          "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/System/Library/PrivateFrameworks/ViewBridge.framework/Versions/A/ViewBridge",
+          "/System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/Versions/A/AppleMediaServicesUI",
+          "/System/Library/Frameworks/WebKit.framework/Versions/A/WebKit",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "/usr/lib/swift/libswiftAccelerate.dylib",
+          "/usr/lib/swift/libswiftCompression.dylib",
+          "/usr/lib/swift/libswiftCore.dylib",
+          "/usr/lib/swift/libswiftCoreFoundation.dylib",
+          "/usr/lib/swift/libswiftCoreImage.dylib",
+          "/usr/lib/swift/libswiftDispatch.dylib",
+          "/usr/lib/swift/libswiftIOKit.dylib",
+          "/usr/lib/swift/libswiftMetal.dylib",
+          "/usr/lib/swift/libswiftOSLog.dylib",
+          "/usr/lib/swift/libswiftObjectiveC.dylib",
+          "/usr/lib/swift/libswiftQuartzCore.dylib",
+          "/usr/lib/swift/libswiftSpatial.dylib",
+          "/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib",
+          "/usr/lib/swift/libswiftXPC.dylib",
+          "/usr/lib/swift/libswift_Builtin_float.dylib",
+          "/usr/lib/swift/libswift_Concurrency.dylib",
+          "/usr/lib/swift/libswiftos.dylib",
+          "/usr/lib/swift/libswiftsimd.dylib"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "SKLogger",
+        "addr": 77420,
+        "lang": "swift",
+        "index": 0,
+        "fields": [
+          {
+            "name": "logger",
+            "kind": "property",
+            "addr": 4295046032
+          }
+        ]
+      },
+      {
+        "classname": "AMSAccountMediaType",
+        "addr": 77472,
+        "lang": "swift",
+        "index": 1,
+        "fields": [
+          {
+            "name": "_rawValue",
+            "kind": "property",
+            "type": "__C.NSString",
+            "addr": 4295046039
+          }
+        ]
+      },
+      {
+        "classname": "StorePaymentSheetViewService",
+        "addr": 77516,
+        "lang": "swift",
+        "index": 2,
+        "super": [
+          "__C.NSServiceViewController"
+        ],
+        "rawsuper": [
+          "So23NSServiceViewControllerC"
+        ],
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.StorePaymentSheetViewService.0",
+            "lang": "swift",
+            "addr": 4295044868
+          },
+          {
+            "name": "1",
+            "flag": "method.StorePaymentSheetViewService.1",
+            "lang": "swift",
+            "addr": 4295028392
+          },
+          {
+            "name": "2",
+            "flag": "method.StorePaymentSheetViewService.2",
+            "lang": "swift",
+            "addr": 4295028400
+          },
+          {
+            "name": "3",
+            "flag": "method.StorePaymentSheetViewService.3",
+            "lang": "swift",
+            "addr": 4295028408
+          },
+          {
+            "name": "4",
+            "flag": "method.StorePaymentSheetViewService.4",
+            "lang": "swift",
+            "addr": 4295044900
+          },
+          {
+            "name": "5",
+            "flag": "method.StorePaymentSheetViewService.5",
+            "lang": "swift",
+            "addr": 4295044704
+          },
+          {
+            "name": "func.100009974",
+            "flag": "method.StorePaymentSheetViewService.func.100009974",
+            "lang": "swift",
+            "addr": 4295006580
+          },
+          {
+            "name": "7",
+            "flag": "method.StorePaymentSheetViewService.7",
+            "lang": "swift",
+            "addr": 4295044929
+          },
+          {
+            "name": "8",
+            "flag": "method.StorePaymentSheetViewService.8",
+            "lang": "swift",
+            "addr": 4295044998
+          },
+          {
+            "name": "9",
+            "flag": "method.StorePaymentSheetViewService.9",
+            "lang": "swift",
+            "addr": 4295045022
+          }
+        ]
+      },
+      {
+        "classname": "RemoteUIEngagementRequest",
+        "addr": 77608,
+        "lang": "swift",
+        "index": 3,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.RemoteUIEngagementRequest.0",
+            "lang": "swift",
+            "addr": 4295046203
+          },
+          {
+            "name": "1",
+            "flag": "method.RemoteUIEngagementRequest.1",
+            "lang": "swift",
+            "addr": 4295061827
+          },
+          {
+            "name": "2",
+            "flag": "method.RemoteUIEngagementRequest.2",
+            "lang": "swift",
+            "addr": 4295066186
+          }
+        ],
+        "fields": [
+          {
+            "name": "logKey",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295046080
+          },
+          {
+            "name": "clientBundleID",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295046087
+          },
+          {
+            "name": "engagementRequestData",
+            "kind": "property",
+            "addr": 4295046112
+          },
+          {
+            "name": "accountMediaType",
+            "kind": "property",
+            "addr": 4295046144
+          },
+          {
+            "name": "isOctane",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295046161
+          }
+        ]
+      },
+      {
+        "classname": "CodingKeys",
+        "addr": 77644,
+        "lang": "swift",
+        "index": 4,
+        "fields": [
+          {
+            "name": "logKey",
+            "kind": "property",
+            "addr": 4295046080
+          },
+          {
+            "name": "clientBundleID",
+            "kind": "property",
+            "addr": 4295046087
+          },
+          {
+            "name": "engagementRequestData",
+            "kind": "property",
+            "addr": 4295046112
+          },
+          {
+            "name": "accountMediaTypeString",
+            "kind": "property",
+            "addr": 4295046176
+          },
+          {
+            "name": "isOctane",
+            "kind": "property",
+            "addr": 4295046161
+          }
+        ]
+      },
+      {
+        "classname": "PaymentSheetRequest",
+        "addr": 77672,
+        "lang": "swift",
+        "index": 5,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ],
+        "fields": [
+          {
+            "name": "request",
+            "kind": "property",
+            "type": "__C.AMSPaymentSheetRequest",
+            "addr": 4295046199
+          },
+          {
+            "name": "purchaseInfo",
+            "kind": "property",
+            "type": "__C.AMSPurchaseInfo",
+            "addr": 4295046207
+          },
+          {
+            "name": "sandbox",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295046220
+          }
+        ]
+      },
+      {
+        "classname": "EngagementError",
+        "addr": 77748,
+        "lang": "swift",
+        "index": 6,
+        "fields": [
+          {
+            "name": "invalidRequest",
+            "kind": "property",
+            "addr": 4295046228
+          },
+          {
+            "name": "unarchiveFailed",
+            "kind": "property",
+            "addr": 4295046243
+          }
+        ]
+      },
+      {
+        "classname": "InvalidRequestServerError",
+        "addr": 77776,
+        "lang": "swift",
+        "index": 7,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ]
+      },
+      {
+        "classname": "StoreKitInternalError",
+        "addr": 77844,
+        "lang": "swift",
+        "index": 8,
+        "fields": [
+          {
+            "name": "featureDisabled",
+            "kind": "property",
+            "addr": 4295046272
+          },
+          {
+            "name": "invalidApp",
+            "kind": "property",
+            "addr": 4295046288
+          },
+          {
+            "name": "notAvailableInStorefront",
+            "kind": "property",
+            "addr": 4295046304
+          },
+          {
+            "name": "notEntitled",
+            "kind": "property",
+            "addr": 4295046329
+          },
+          {
+            "name": "noUIContext",
+            "kind": "property",
+            "addr": 4295046341
+          },
+          {
+            "name": "purchasesDisabled",
+            "kind": "property",
+            "addr": 4295046368
+          },
+          {
+            "name": "requestDecodeFailed",
+            "kind": "property",
+            "addr": 4295046400
+          },
+          {
+            "name": "responseEncodeFailed",
+            "kind": "property",
+            "addr": 4295046432
+          },
+          {
+            "name": "responseDecodeFailed",
+            "kind": "property",
+            "addr": 4295046464
+          },
+          {
+            "name": "unimplementedFlow",
+            "kind": "property",
+            "addr": 4295046496
+          },
+          {
+            "name": "unknown",
+            "kind": "property",
+            "addr": 4295046514
+          },
+          {
+            "name": "userCancelled",
+            "kind": "property",
+            "addr": 4295046522
+          },
+          {
+            "name": "accountMissing",
+            "kind": "property",
+            "addr": 4295046536
+          },
+          {
+            "name": "invalidParameters",
+            "kind": "property",
+            "addr": 4295046560
+          },
+          {
+            "name": "serviceConnectionFailed",
+            "kind": "property",
+            "addr": 4295046592
+          },
+          {
+            "name": "invalidRequest",
+            "kind": "property",
+            "addr": 4295046616
+          },
+          {
+            "name": "presentationFailed",
+            "kind": "property",
+            "addr": 4295046640
+          },
+          {
+            "name": "requestEncodeFailed",
+            "kind": "property",
+            "addr": 4295046672
+          },
+          {
+            "name": "authenticationFailed",
+            "kind": "property",
+            "addr": 4295046704
+          }
+        ]
+      },
+      {
+        "classname": "SKUIRemoteEngagementViewService",
+        "addr": 4295089096,
+        "lang": "objc",
+        "index": 9,
+        "super": [
+          "NSServiceViewController"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSServiceViewController"
+        ],
+        "methods": [
+          {
+            "name": "_engagementTaskForRequest:error:",
+            "flag": "method.SKUIRemoteEngagementViewService._engagementTaskForRequest:error:",
+            "lang": "objc",
+            "addr": 4295013800
+          },
+          {
+            "name": "setPreferredContentSize:",
+            "flag": "method.SKUIRemoteEngagementViewService.setPreferredContentSize:",
+            "lang": "objc",
+            "addr": 4294973904
+          },
+          {
+            "name": "loadView",
+            "flag": "method.SKUIRemoteEngagementViewService.loadView",
+            "lang": "objc",
+            "addr": 4294974228
+          },
+          {
+            "name": "viewDidAppear",
+            "flag": "method.SKUIRemoteEngagementViewService.viewDidAppear",
+            "lang": "objc",
+            "addr": 4294974308
+          },
+          {
+            "name": "exportedInterface",
+            "flag": "method.SKUIRemoteEngagementViewService.exportedInterface",
+            "lang": "objc",
+            "addr": 4294974364
+          },
+          {
+            "name": "preferredContentSizeDidChangeForViewController:",
+            "flag": "method.SKUIRemoteEngagementViewService.preferredContentSizeDidChangeForViewController:",
+            "lang": "objc",
+            "addr": 4294974384
+          },
+          {
+            "name": "remoteViewControllerInterface",
+            "flag": "method.SKUIRemoteEngagementViewService.remoteViewControllerInterface",
+            "lang": "objc",
+            "addr": 4294974528
+          },
+          {
+            "name": "exportedObject",
+            "flag": "method.SKUIRemoteEngagementViewService.exportedObject",
+            "lang": "objc",
+            "addr": 4294974548
+          },
+          {
+            "name": "dismissController:",
+            "flag": "method.SKUIRemoteEngagementViewService.dismissController:",
+            "lang": "objc",
+            "addr": 4294974552
+          },
+          {
+            "name": "presentEngagementRequestData:completion:",
+            "flag": "method.SKUIRemoteEngagementViewService.presentEngagementRequestData:completion:",
+            "lang": "objc",
+            "addr": 4294974556
+          },
+          {
+            "name": "_dismissPresentedViewController",
+            "flag": "method.SKUIRemoteEngagementViewService._dismissPresentedViewController",
+            "lang": "objc",
+            "addr": 4294975788
+          }
+        ]
+      },
+      {
+        "classname": "SKUIOctaneBag",
+        "addr": 4295089176,
+        "lang": "objc",
+        "index": 10,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.SKUIOctaneBag.init",
+            "lang": "objc",
+            "addr": 4294976168
+          },
+          {
+            "name": "invalidate",
+            "flag": "method.SKUIOctaneBag.invalidate",
+            "lang": "objc",
+            "addr": 4294976308
+          },
+          {
+            "name": "URLForKey:",
+            "flag": "func.1000023b8",
+            "lang": "objc",
+            "addr": 4294976440
+          },
+          {
+            "name": "arrayForKey:",
+            "flag": "func.1000023c0",
+            "lang": "objc",
+            "addr": 4294976448
+          },
+          {
+            "name": "boolForKey:",
+            "flag": "func.1000023c8",
+            "lang": "objc",
+            "addr": 4294976456
+          },
+          {
+            "name": "createSnapshotWithCompletion:",
+            "flag": "func.1000023d0",
+            "lang": "objc",
+            "addr": 4294976464
+          },
+          {
+            "name": "dictionaryForKey:",
+            "flag": "func.100002500",
+            "lang": "objc",
+            "addr": 4294976768
+          },
+          {
+            "name": "doubleForKey:",
+            "flag": "func.100002508",
+            "lang": "objc",
+            "addr": 4294976776
+          },
+          {
+            "name": "integerForKey:",
+            "flag": "func.100002510",
+            "lang": "objc",
+            "addr": 4294976784
+          },
+          {
+            "name": "stringForKey:",
+            "flag": "func.100002518",
+            "lang": "objc",
+            "addr": 4294976792
+          },
+          {
+            "name": "processInfo",
+            "flag": "method.SKUIOctaneBag.processInfo",
+            "lang": "objc",
+            "addr": 4294976800
+          },
+          {
+            "name": "_activePort",
+            "flag": "method.SKUIOctaneBag._activePort",
+            "lang": "objc",
+            "addr": 4294976912
+          },
+          {
+            "name": "_bagValueForKey:ofType:",
+            "flag": "method.SKUIOctaneBag._bagValueForKey:ofType:",
+            "lang": "objc",
+            "addr": 4294977548
+          },
+          {
+            "name": "_fetchBag",
+            "flag": "method.SKUIOctaneBag._fetchBag",
+            "lang": "objc",
+            "addr": 4294978592
+          },
+          {
+            "name": "expirationDate",
+            "flag": "func.100003024",
+            "lang": "objc",
+            "addr": 4294979620
+          },
+          {
+            "name": "isExpired",
+            "flag": "func.100003030",
+            "lang": "objc",
+            "addr": 4294979632
+          },
+          {
+            "name": "profile",
+            "flag": "func.10000303c",
+            "lang": "objc",
+            "addr": 4294979644
+          },
+          {
+            "name": "profileVersion",
+            "flag": "func.100003048",
+            "lang": "objc",
+            "addr": 4294979656
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.SKUIOctaneBag..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294979668
+          },
+          {
+            "name": "arrayForKey:",
+            "flag": "method.SKUIOctaneBag.arrayForKey:",
+            "lang": "objc",
+            "addr": 4295026400
+          },
+          {
+            "name": "boolForKey:",
+            "flag": "method.SKUIOctaneBag.boolForKey:",
+            "lang": "objc",
+            "addr": 4295026412
+          },
+          {
+            "name": "createSnapshotWithCompletion:",
+            "flag": "method.SKUIOctaneBag.createSnapshotWithCompletion:",
+            "lang": "objc",
+            "addr": 4295026424
+          },
+          {
+            "name": "doubleForKey:",
+            "flag": "method.SKUIOctaneBag.doubleForKey:",
+            "lang": "objc",
+            "addr": 4295026436
+          },
+          {
+            "name": "integerForKey:",
+            "flag": "method.SKUIOctaneBag.integerForKey:",
+            "lang": "objc",
+            "addr": 4295026448
+          },
+          {
+            "name": "stringForKey:",
+            "flag": "method.SKUIOctaneBag.stringForKey:",
+            "lang": "objc",
+            "addr": 4295026460
+          },
+          {
+            "name": "URLForKey:",
+            "flag": "method.SKUIOctaneBag.URLForKey:",
+            "lang": "objc",
+            "addr": 4295026472
+          },
+          {
+            "name": "dictionaryForKey:",
+            "flag": "method.SKUIOctaneBag.dictionaryForKey:",
+            "lang": "objc",
+            "addr": 4295026484
+          },
+          {
+            "name": "isExpired",
+            "flag": "method.SKUIOctaneBag.isExpired",
+            "lang": "objc",
+            "addr": 4295026496
+          },
+          {
+            "name": "expirationDate",
+            "flag": "method.SKUIOctaneBag.expirationDate",
+            "lang": "objc",
+            "addr": 4295026508
+          },
+          {
+            "name": "profile",
+            "flag": "method.SKUIOctaneBag.profile",
+            "lang": "objc",
+            "addr": 4295026520
+          },
+          {
+            "name": "profileVersion",
+            "flag": "method.SKUIOctaneBag.profileVersion",
+            "lang": "objc",
+            "addr": 4295026532
+          },
+          {
+            "name": "shared",
+            "flag": "method.class.SKUIOctaneBag.shared",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294975948
+          },
+          {
+            "name": "arrayForKey:",
+            "flag": "method.SKUIOctaneBag.arrayForKey:",
+            "lang": "objc",
+            "addr": 4295026400
+          },
+          {
+            "name": "boolForKey:",
+            "flag": "method.SKUIOctaneBag.boolForKey:",
+            "lang": "objc",
+            "addr": 4295026412
+          },
+          {
+            "name": "createSnapshotWithCompletion:",
+            "flag": "method.SKUIOctaneBag.createSnapshotWithCompletion:",
+            "lang": "objc",
+            "addr": 4295026424
+          },
+          {
+            "name": "doubleForKey:",
+            "flag": "method.SKUIOctaneBag.doubleForKey:",
+            "lang": "objc",
+            "addr": 4295026436
+          },
+          {
+            "name": "integerForKey:",
+            "flag": "method.SKUIOctaneBag.integerForKey:",
+            "lang": "objc",
+            "addr": 4295026448
+          },
+          {
+            "name": "stringForKey:",
+            "flag": "method.SKUIOctaneBag.stringForKey:",
+            "lang": "objc",
+            "addr": 4295026460
+          },
+          {
+            "name": "URLForKey:",
+            "flag": "method.SKUIOctaneBag.URLForKey:",
+            "lang": "objc",
+            "addr": 4295026472
+          },
+          {
+            "name": "dictionaryForKey:",
+            "flag": "method.SKUIOctaneBag.dictionaryForKey:",
+            "lang": "objc",
+            "addr": 4295026484
+          },
+          {
+            "name": "isExpired",
+            "flag": "method.SKUIOctaneBag.isExpired",
+            "lang": "objc",
+            "addr": 4295026496
+          },
+          {
+            "name": "expirationDate",
+            "flag": "method.SKUIOctaneBag.expirationDate",
+            "lang": "objc",
+            "addr": 4295026508
+          },
+          {
+            "name": "profile",
+            "flag": "method.SKUIOctaneBag.profile",
+            "lang": "objc",
+            "addr": 4295026520
+          },
+          {
+            "name": "profileVersion",
+            "flag": "method.SKUIOctaneBag.profileVersion",
+            "lang": "objc",
+            "addr": 4295026532
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_dictionary",
+            "kind": "var",
+            "type": "@\"NSDictionary\"",
+            "addr": 4295089008
+          },
+          {
+            "name": "_dispatchQueue",
+            "kind": "var",
+            "type": "@\"NSObject<OS_dispatch_queue>\"",
+            "addr": 4295089012
+          },
+          {
+            "name": "_port",
+            "kind": "var",
+            "type": "q",
+            "addr": 4295089016
+          },
+          {
+            "name": "_connection",
+            "kind": "var",
+            "type": "@\"NSXPCConnection\"",
+            "addr": 4295089020
+          },
+          {
+            "name": "expired",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295089024
+          },
+          {
+            "name": "expirationDate",
+            "kind": "var",
+            "type": "@\"NSDate\"",
+            "addr": 4295089028
+          },
+          {
+            "name": "profile",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295089032
+          },
+          {
+            "name": "profileVersion",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295089036
+          },
+          {
+            "name": "expired",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "expirationDate",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "profile",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "profileVersion",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "processInfo",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "SKUIErrorHelper",
+        "addr": 4295089216,
+        "lang": "objc",
+        "index": 11,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "errorWithSafeUserInfo:",
+            "flag": "method.class.SKUIErrorHelper.errorWithSafeUserInfo:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294979812
+          }
+        ]
+      },
+      {
+        "classname": "StoreProductPageViewService",
+        "addr": 4295089336,
+        "lang": "objc",
+        "index": 12,
+        "super": [
+          "NSServiceViewController"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSServiceViewController"
+        ],
+        "methods": [
+          {
+            "name": "remoteViewControllerInterface",
+            "flag": "method.StoreProductPageViewService.remoteViewControllerInterface",
+            "lang": "objc",
+            "addr": 4294981836
+          },
+          {
+            "name": "exportedInterface",
+            "flag": "method.StoreProductPageViewService.exportedInterface",
+            "lang": "objc",
+            "addr": 4294981856
+          },
+          {
+            "name": "exportedObject",
+            "flag": "method.StoreProductPageViewService.exportedObject",
+            "lang": "objc",
+            "addr": 4294981876
+          },
+          {
+            "name": "loadView",
+            "flag": "method.StoreProductPageViewService.loadView",
+            "lang": "objc",
+            "addr": 4294981880
+          },
+          {
+            "name": "viewWillLayout",
+            "flag": "method.StoreProductPageViewService.viewWillLayout",
+            "lang": "objc",
+            "addr": 4294982292
+          },
+          {
+            "name": "loadProductWithParameters:completionHandler:",
+            "flag": "func.100003b08",
+            "lang": "objc",
+            "addr": 4294982408
+          },
+          {
+            "name": "webView:didFinishNavigation:",
+            "flag": "method.StoreProductPageViewService.webView:didFinishNavigation:",
+            "lang": "objc",
+            "addr": 4294985316
+          },
+          {
+            "name": "webView:didFailNavigation:withError:",
+            "flag": "method.StoreProductPageViewService.webView:didFailNavigation:withError:",
+            "lang": "objc",
+            "addr": 4294985700
+          },
+          {
+            "name": "webView",
+            "flag": "method.StoreProductPageViewService.webView",
+            "lang": "objc",
+            "addr": 4294985988
+          },
+          {
+            "name": "setWebView:",
+            "flag": "method.StoreProductPageViewService.setWebView:",
+            "lang": "objc",
+            "addr": 4294986004
+          },
+          {
+            "name": "itemIdentifier",
+            "flag": "method.StoreProductPageViewService.itemIdentifier",
+            "lang": "objc",
+            "addr": 4294986016
+          },
+          {
+            "name": "setItemIdentifier:",
+            "flag": "method.StoreProductPageViewService.setItemIdentifier:",
+            "lang": "objc",
+            "addr": 4294986032
+          },
+          {
+            "name": "loadCompletionBlock",
+            "flag": "method.StoreProductPageViewService.loadCompletionBlock",
+            "lang": "objc",
+            "addr": 4294986044
+          },
+          {
+            "name": "setLoadCompletionBlock:",
+            "flag": "method.StoreProductPageViewService.setLoadCompletionBlock:",
+            "lang": "objc",
+            "addr": 4294986060
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.StoreProductPageViewService..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294986072
+          },
+          {
+            "name": "loadProductWithParameters:completionHandler:",
+            "flag": "method.StoreProductPageViewService.loadProductWithParameters:completionHandler:",
+            "lang": "objc",
+            "addr": 4295027768
+          },
+          {
+            "name": "loadProductWithParameters:completionHandler:",
+            "flag": "method.StoreProductPageViewService.loadProductWithParameters:completionHandler:",
+            "lang": "objc",
+            "addr": 4295027768
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_webView",
+            "kind": "var",
+            "type": "@\"WKWebView\"",
+            "addr": 4295089040
+          },
+          {
+            "name": "_itemIdentifier",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295089044
+          },
+          {
+            "name": "_loadCompletionBlock",
+            "kind": "var",
+            "type": "@?",
+            "addr": 4295089048
+          },
+          {
+            "name": "webView",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "itemIdentifier",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "loadCompletionBlock",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "StorePaymentSheetViewService",
+        "rawclassname": "StorePaymentSheetViewService_1",
+        "addr": 4295090992,
+        "lang": "objc",
+        "index": 13,
+        "super": [
+          "NSServiceViewController"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSServiceViewController"
+        ],
+        "methods": [
+          {
+            "name": "exportedInterface",
+            "flag": "method.StorePaymentSheetViewService.exportedInterface",
+            "lang": "objc",
+            "addr": 4294988360
+          },
+          {
+            "name": "handlePaymentSheetRequest:reply:",
+            "flag": "func.10000694c",
+            "lang": "objc",
+            "addr": 4294994252
+          },
+          {
+            "name": "purchase:handleAuthenticateRequest:completion:",
+            "flag": "method.StorePaymentSheetViewService.purchase:handleAuthenticateRequest:completion:",
+            "lang": "objc",
+            "addr": 4294995664
+          },
+          {
+            "name": "purchase:handleDialogRequest:completion:",
+            "flag": "method.StorePaymentSheetViewService.purchase:handleDialogRequest:completion:",
+            "lang": "objc",
+            "addr": 4294997304
+          },
+          {
+            "name": "purchase:handleEngagementRequest:completion:",
+            "flag": "method.StorePaymentSheetViewService.purchase:handleEngagementRequest:completion:",
+            "lang": "objc",
+            "addr": 4294999360
+          },
+          {
+            "name": "purchase:handleWindowRequest:completion:",
+            "flag": "method.StorePaymentSheetViewService.purchase:handleWindowRequest:completion:",
+            "lang": "objc",
+            "addr": 4295000196
+          },
+          {
+            "name": "initWithNibName:bundle:",
+            "flag": "method.StorePaymentSheetViewService.initWithNibName:bundle:",
+            "lang": "objc",
+            "addr": 4295000496
+          },
+          {
+            "name": "initWithCoder:",
+            "flag": "method.StorePaymentSheetViewService.initWithCoder:",
+            "lang": "objc",
+            "addr": 4295000708
+          },
+          {
+            "name": "handlePaymentSheetRequest:reply:",
+            "flag": "method.StorePaymentSheetViewService.handlePaymentSheetRequest:reply:",
+            "lang": "objc",
+            "addr": 4295027688
+          },
+          {
+            "name": "handlePaymentSheetRequest:reply:",
+            "flag": "method.StorePaymentSheetViewService.handlePaymentSheetRequest:reply:",
+            "lang": "objc",
+            "addr": 4295027688
+          }
+        ]
+      },
+      {
+        "classname": "PaymentSheetRequest",
+        "rawclassname": "PaymentSheetRequest_1",
+        "addr": 4295091592,
+        "lang": "objc",
+        "index": 14,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithCoder:",
+            "flag": "method.PaymentSheetRequest.initWithCoder:",
+            "lang": "objc",
+            "addr": 4295010836
+          },
+          {
+            "name": "encodeWithCoder:",
+            "flag": "method.PaymentSheetRequest.encodeWithCoder:",
+            "lang": "objc",
+            "addr": 4295011108
+          },
+          {
+            "name": "init",
+            "flag": "method.PaymentSheetRequest.init",
+            "lang": "objc",
+            "addr": 4295011256
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.PaymentSheetRequest..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295011324
+          },
+          {
+            "name": "supportsSecureCoding",
+            "flag": "method.class.PaymentSheetRequest.supportsSecureCoding",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295026376
+          },
+          {
+            "name": "supportsSecureCoding",
+            "flag": "func.10000a87c",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295010428
+          },
+          {
+            "name": "supportsSecureCoding",
+            "flag": "method.class.PaymentSheetRequest.supportsSecureCoding",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295026376
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "request",
+            "kind": "var",
+            "addr": 4295091568
+          },
+          {
+            "name": "purchaseInfo",
+            "kind": "var",
+            "addr": 4295091576
+          },
+          {
+            "name": "sandbox",
+            "kind": "var",
+            "addr": 4295091584
+          },
+          {
+            "name": "supportsSecureCoding",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "StoreKitUIServiceMac.InvalidRequestServerError",
+        "addr": 4295091896,
+        "lang": "objc",
+        "index": 15,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.StoreKitUIServiceMac.InvalidRequestServerError.init",
+            "lang": "objc",
+            "addr": 4295017176
+          },
+          {
+            "name": "domain",
+            "flag": "method.class.StoreKitUIServiceMac.InvalidRequestServerError.domain",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295017016
+          }
+        ],
+        "fields": [
+          {
+            "name": "domain",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      }
+    ],
+    "swift_metadata": {
+      "is_swift": false,
+      "symbols": []
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist",
+        "Versions/A/XPCServices/StoreKitUIServiceMac.xpc/Contents/Info.plist",
+        "Versions/A/XPCServices/StoreKitUIServiceMac.xpc/Contents/version.plist",
+        "Versions/A/XPCServices/StoreKitUIServiceMac.xpc/Contents/_CodeSignature/CodeResources",
+        "Versions/A/XPCServices/StoreKitUIServiceMac.xpc/Contents/MacOS/StoreKitUIServiceMac",
+        "Versions/A/XPCServices/StoreKitUIServiceMac.xpc/Contents/Resources/InfoPlist.loctable"
+      ],
+      "plists": {
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "StoreKitUIMac",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2020 Apple Inc. All rights reserved.",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "FMWK",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "StoreKitUIMac",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.StoreKitUIMac",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleVersion": "1",
+          "ProjectName": "StoreKit_iosmac",
+          "BuildAliasOf": "StoreKit",
+          "SourceVersion": "815001015000000",
+          "BuildVersion": "15"
+        },
+        "Versions/A/XPCServices/StoreKitUIServiceMac.xpc/Contents/Info.plist": {
+          "CFBundleName": "StoreKitUIServiceMac",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2020 Apple Inc. All rights reserved.",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "NSPrincipalClass": "NSViewServiceApplication",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "XPCService": {
+            "RunLoopType": "_NSApplicationMain",
+            "JoinExistingSession": true
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "StoreKitUIServiceMac",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.StoreKit.UIService",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleDisplayName": "StoreKitUIMac",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/XPCServices/StoreKitUIServiceMac.xpc/Contents/version.plist": {
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleVersion": "1",
+          "ProjectName": "StoreKit_iosmac",
+          "BuildAliasOf": "StoreKit",
+          "SourceVersion": "815001015000000",
+          "BuildVersion": "15"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
+  },
+  "usage": {
+    "layer": "usage",
+    "used_by": []
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "loaded"
+  }
+}

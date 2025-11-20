@@ -1,0 +1,5598 @@
+{
+  "framework": "MediaConversionService.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/MediaConversionService.framework/Versions/A/XPCServices/com.apple.photos.VideoConversionService.xpc/Contents/MacOS/com.apple.photos.VideoConversionService",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 349712,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "objc with blocks",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation",
+          "/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics",
+          "/System/Library/Frameworks/CoreImage.framework/Versions/A/CoreImage",
+          "/System/Library/Frameworks/CoreLocation.framework/Versions/A/CoreLocation",
+          "/System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia",
+          "/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO",
+          "/usr/lib/libperfcheck.dylib",
+          "/System/Library/PrivateFrameworks/NeutrinoCore.framework/Versions/A/NeutrinoCore",
+          "/System/Library/PrivateFrameworks/PhotoFoundation.framework/Versions/A/PhotoFoundation",
+          "/System/Library/PrivateFrameworks/PhotoImaging.framework/Versions/A/PhotoImaging",
+          "/System/Library/PrivateFrameworks/PhotosFormats.framework/Versions/A/PhotosFormats",
+          "/System/Library/PrivateFrameworks/PhotosImagingFoundation.framework/Versions/A/PhotosImagingFoundation",
+          "/System/Library/PrivateFrameworks/SoftLinking.framework/Versions/A/SoftLinking",
+          "/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "/System/Library/Frameworks/_LocationEssentials.framework/Versions/A/_LocationEssentials"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "PAMediaConversionServiceResourceURLCollectionAccessProvider",
+        "addr": 4295247368,
+        "lang": "objc",
+        "index": 0,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithOptions:",
+            "flag": "method.PAMediaConversionServiceResourceURLCollectionAccessProvider.initWithOptions:",
+            "lang": "objc",
+            "addr": 4294986752
+          },
+          {
+            "name": "blastDoorSourceURL",
+            "flag": "method.PAMediaConversionServiceResourceURLCollectionAccessProvider.blastDoorSourceURL",
+            "lang": "objc",
+            "addr": 4294986664
+          },
+          {
+            "name": "validateAccessForURL:role:",
+            "flag": "method.PAMediaConversionServiceResourceURLCollectionAccessProvider.validateAccessForURL:role:",
+            "lang": "objc",
+            "addr": 4294986212
+          },
+          {
+            "name": "propertiesForVideoComplementURL:",
+            "flag": "method.PAMediaConversionServiceResourceURLCollectionAccessProvider.propertiesForVideoComplementURL:",
+            "lang": "objc",
+            "addr": 4294986140
+          },
+          {
+            "name": "_blastDoorMetadataWithSourceURL:",
+            "flag": "method.PAMediaConversionServiceResourceURLCollectionAccessProvider._blastDoorMetadataWithSourceURL:",
+            "lang": "objc",
+            "addr": 4294985016
+          },
+          {
+            "name": "_blastDoorURLWithImageSourceURL:properties:",
+            "flag": "method.PAMediaConversionServiceResourceURLCollectionAccessProvider._blastDoorURLWithImageSourceURL:properties:",
+            "lang": "objc",
+            "addr": 4294983032
+          },
+          {
+            "name": "_blastDoorURLWithVideoSourceURL:sourceMetadata:",
+            "flag": "method.PAMediaConversionServiceResourceURLCollectionAccessProvider._blastDoorURLWithVideoSourceURL:sourceMetadata:",
+            "lang": "objc",
+            "addr": 4294980764
+          },
+          {
+            "name": "_blastDoorStoreTemporarySourceImageWithImageRef:sourceURL:error:",
+            "flag": "method.PAMediaConversionServiceResourceURLCollectionAccessProvider._blastDoorStoreTemporarySourceImageWithImageRef:sourceURL:error:",
+            "lang": "objc",
+            "addr": 4294979436
+          },
+          {
+            "name": "_blastDoorConvertImageMetadata:",
+            "flag": "method.PAMediaConversionServiceResourceURLCollectionAccessProvider._blastDoorConvertImageMetadata:",
+            "lang": "objc",
+            "addr": 4294972456
+          },
+          {
+            "name": "isBlastDoorAccessRequired",
+            "flag": "method.PAMediaConversionServiceResourceURLCollectionAccessProvider.isBlastDoorAccessRequired",
+            "lang": "objc",
+            "addr": 4294972444
+          },
+          {
+            "name": "setBlastDoorAccessRequired:",
+            "flag": "method.PAMediaConversionServiceResourceURLCollectionAccessProvider.setBlastDoorAccessRequired:",
+            "lang": "objc",
+            "addr": 4294972436
+          },
+          {
+            "name": "blastDoorMainSourceProperties",
+            "flag": "method.PAMediaConversionServiceResourceURLCollectionAccessProvider.blastDoorMainSourceProperties",
+            "lang": "objc",
+            "addr": 4294972424
+          },
+          {
+            "name": "setBlastDoorMainSourceProperties:",
+            "flag": "method.PAMediaConversionServiceResourceURLCollectionAccessProvider.setBlastDoorMainSourceProperties:",
+            "lang": "objc",
+            "addr": 4294972416
+          },
+          {
+            "name": "error",
+            "flag": "method.PAMediaConversionServiceResourceURLCollectionAccessProvider.error",
+            "lang": "objc",
+            "addr": 4294972404
+          },
+          {
+            "name": "setError:",
+            "flag": "method.PAMediaConversionServiceResourceURLCollectionAccessProvider.setError:",
+            "lang": "objc",
+            "addr": 4294972396
+          },
+          {
+            "name": "collection",
+            "flag": "method.PAMediaConversionServiceResourceURLCollectionAccessProvider.collection",
+            "lang": "objc",
+            "addr": 4294972384
+          },
+          {
+            "name": "setCollection:",
+            "flag": "method.PAMediaConversionServiceResourceURLCollectionAccessProvider.setCollection:",
+            "lang": "objc",
+            "addr": 4294972376
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.PAMediaConversionServiceResourceURLCollectionAccessProvider..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294972272
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_isImageMedia",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295246840
+          },
+          {
+            "name": "_blastdoorInterface",
+            "kind": "var",
+            "type": "@\"IMMessagesBlastDoorInterface\"",
+            "addr": 4295246844
+          },
+          {
+            "name": "_blastDoorSourceURL",
+            "kind": "var",
+            "type": "@\"NSURL\"",
+            "addr": 4295246848
+          },
+          {
+            "name": "_blastDoorAccessRequired",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295246852
+          },
+          {
+            "name": "_blastDoorMainSourceProperties",
+            "kind": "var",
+            "type": "@\"NSDictionary\"",
+            "addr": 4295246856
+          },
+          {
+            "name": "_error",
+            "kind": "var",
+            "type": "@\"NSError\"",
+            "addr": 4295246860
+          },
+          {
+            "name": "_collection",
+            "kind": "var",
+            "type": "@\"PAMediaConversionServiceResourceURLCollection\"",
+            "addr": 4295246864
+          },
+          {
+            "name": "blastDoorMainSourceProperties",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "collection",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "error",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "blastDoorAccessRequired",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "blastDoorSourceURL",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "PAMediaConversionServiceResourceURLReference",
+        "addr": 4295247448,
+        "lang": "objc",
+        "index": 1,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "getPathHash:lastPathComponent:",
+            "flag": "method.PAMediaConversionServiceResourceURLReference.getPathHash:lastPathComponent:",
+            "lang": "objc",
+            "addr": 4294989344
+          },
+          {
+            "name": "isEqual:",
+            "flag": "method.PAMediaConversionServiceResourceURLReference.isEqual:",
+            "lang": "objc",
+            "addr": 4294989204
+          },
+          {
+            "name": "hash",
+            "flag": "method.PAMediaConversionServiceResourceURLReference.hash",
+            "lang": "objc",
+            "addr": 4294989136
+          },
+          {
+            "name": "getFileSize:error:",
+            "flag": "method.PAMediaConversionServiceResourceURLReference.getFileSize:error:",
+            "lang": "objc",
+            "addr": 4294989036
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.PAMediaConversionServiceResourceURLReference.dealloc",
+            "lang": "objc",
+            "addr": 4294988532
+          },
+          {
+            "name": "dictionaryRepresentationWithError:",
+            "flag": "method.PAMediaConversionServiceResourceURLReference.dictionaryRepresentationWithError:",
+            "lang": "objc",
+            "addr": 4294988328
+          },
+          {
+            "name": "url",
+            "flag": "method.PAMediaConversionServiceResourceURLReference.url",
+            "lang": "objc",
+            "addr": 4294988316
+          },
+          {
+            "name": "setUrl:",
+            "flag": "method.PAMediaConversionServiceResourceURLReference.setUrl:",
+            "lang": "objc",
+            "addr": 4294988308
+          },
+          {
+            "name": "mustStopAccessingURL",
+            "flag": "method.PAMediaConversionServiceResourceURLReference.mustStopAccessingURL",
+            "lang": "objc",
+            "addr": 4294988296
+          },
+          {
+            "name": "setMustStopAccessingURL:",
+            "flag": "method.PAMediaConversionServiceResourceURLReference.setMustStopAccessingURL:",
+            "lang": "objc",
+            "addr": 4294988288
+          },
+          {
+            "name": "shouldDeleteOnDeallocation",
+            "flag": "method.PAMediaConversionServiceResourceURLReference.shouldDeleteOnDeallocation",
+            "lang": "objc",
+            "addr": 4294988276
+          },
+          {
+            "name": "setShouldDeleteOnDeallocation:",
+            "flag": "method.PAMediaConversionServiceResourceURLReference.setShouldDeleteOnDeallocation:",
+            "lang": "objc",
+            "addr": 4294988268
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.PAMediaConversionServiceResourceURLReference..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294988256
+          },
+          {
+            "name": "referenceWithURL:",
+            "flag": "method.class.PAMediaConversionServiceResourceURLReference.referenceWithURL:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294990520
+          },
+          {
+            "name": "referenceWithDictionaryRepresentation:error:",
+            "flag": "method.class.PAMediaConversionServiceResourceURLReference.referenceWithDictionaryRepresentation:error:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294990056
+          },
+          {
+            "name": "getPathHash:lastPathComponent:forDictionaryRepresentation:",
+            "flag": "method.class.PAMediaConversionServiceResourceURLReference.getPathHash:lastPathComponent:forDictionaryRepresentation:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294989564
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_mustStopAccessingURL",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295246868
+          },
+          {
+            "name": "_shouldDeleteOnDeallocation",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295246872
+          },
+          {
+            "name": "_url",
+            "kind": "var",
+            "type": "@\"NSURL\"",
+            "addr": 4295246876
+          },
+          {
+            "name": "url",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "mustStopAccessingURL",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "shouldDeleteOnDeallocation",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "PAMediaConversionServiceResourceURLCollection",
+        "addr": 4295247488,
+        "lang": "objc",
+        "index": 2,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "isBlastDoorAccessRequired",
+            "flag": "method.PAMediaConversionServiceResourceURLCollection.isBlastDoorAccessRequired",
+            "lang": "objc",
+            "addr": 4295004040
+          },
+          {
+            "name": "blastDoorMainSourceProperties",
+            "flag": "method.PAMediaConversionServiceResourceURLCollection.blastDoorMainSourceProperties",
+            "lang": "objc",
+            "addr": 4295003952
+          },
+          {
+            "name": "blastDoorVideoComplementProperties",
+            "flag": "method.PAMediaConversionServiceResourceURLCollection.blastDoorVideoComplementProperties",
+            "lang": "objc",
+            "addr": 4295003784
+          },
+          {
+            "name": "blastDoorSourceURL",
+            "flag": "method.PAMediaConversionServiceResourceURLCollection.blastDoorSourceURL",
+            "lang": "objc",
+            "addr": 4295003696
+          },
+          {
+            "name": "blastDoorError",
+            "flag": "method.PAMediaConversionServiceResourceURLCollection.blastDoorError",
+            "lang": "objc",
+            "addr": 4295003608
+          },
+          {
+            "name": "init",
+            "flag": "method.PAMediaConversionServiceResourceURLCollection.init",
+            "lang": "objc",
+            "addr": 4295001604
+          },
+          {
+            "name": "isEqual:",
+            "flag": "method.PAMediaConversionServiceResourceURLCollection.isEqual:",
+            "lang": "objc",
+            "addr": 4295001524
+          },
+          {
+            "name": "hash",
+            "flag": "method.PAMediaConversionServiceResourceURLCollection.hash",
+            "lang": "objc",
+            "addr": 4295001248
+          },
+          {
+            "name": "setResourceURL:forRole:",
+            "flag": "method.PAMediaConversionServiceResourceURLCollection.setResourceURL:forRole:",
+            "lang": "objc",
+            "addr": 4295000808
+          },
+          {
+            "name": "setResourceURL:forRole:deleteOnDeallocation:",
+            "flag": "method.PAMediaConversionServiceResourceURLCollection.setResourceURL:forRole:deleteOnDeallocation:",
+            "lang": "objc",
+            "addr": 4295000696
+          },
+          {
+            "name": "resourceURLForRole:",
+            "flag": "method.PAMediaConversionServiceResourceURLCollection.resourceURLForRole:",
+            "lang": "objc",
+            "addr": 4295000380
+          },
+          {
+            "name": "setShouldDeleteURLOnDeallocation:forRole:",
+            "flag": "method.PAMediaConversionServiceResourceURLCollection.setShouldDeleteURLOnDeallocation:forRole:",
+            "lang": "objc",
+            "addr": 4295000164
+          },
+          {
+            "name": "containsAllRoles:",
+            "flag": "method.PAMediaConversionServiceResourceURLCollection.containsAllRoles:",
+            "lang": "objc",
+            "addr": 4294999760
+          },
+          {
+            "name": "containsAnyRole:",
+            "flag": "method.PAMediaConversionServiceResourceURLCollection.containsAnyRole:",
+            "lang": "objc",
+            "addr": 4294999356
+          },
+          {
+            "name": "typeIdentifierForResourceURLWithRole:",
+            "flag": "method.PAMediaConversionServiceResourceURLCollection.typeIdentifierForResourceURLWithRole:",
+            "lang": "objc",
+            "addr": 4294998392
+          },
+          {
+            "name": "bookmarkDataDictionaryRepresentationWithError:",
+            "flag": "method.PAMediaConversionServiceResourceURLCollection.bookmarkDataDictionaryRepresentationWithError:",
+            "lang": "objc",
+            "addr": 4294997608
+          },
+          {
+            "name": "filenameExtensionAndPathHashForRole:",
+            "flag": "method.PAMediaConversionServiceResourceURLCollection.filenameExtensionAndPathHashForRole:",
+            "lang": "objc",
+            "addr": 4294997396
+          },
+          {
+            "name": "ensureFilesExistWithError:",
+            "flag": "method.PAMediaConversionServiceResourceURLCollection.ensureFilesExistWithError:",
+            "lang": "objc",
+            "addr": 4294996240
+          },
+          {
+            "name": "removeExistingEmptyFilesWithError:",
+            "flag": "method.PAMediaConversionServiceResourceURLCollection.removeExistingEmptyFilesWithError:",
+            "lang": "objc",
+            "addr": 4294995112
+          },
+          {
+            "name": "allURLsAreReadable",
+            "flag": "method.PAMediaConversionServiceResourceURLCollection.allURLsAreReadable",
+            "lang": "objc",
+            "addr": 4294994612
+          },
+          {
+            "name": "logMessageSummaryWithFullPath:",
+            "flag": "method.PAMediaConversionServiceResourceURLCollection.logMessageSummaryWithFullPath:",
+            "lang": "objc",
+            "addr": 4294993996
+          },
+          {
+            "name": "logMessageSummary",
+            "flag": "method.PAMediaConversionServiceResourceURLCollection.logMessageSummary",
+            "lang": "objc",
+            "addr": 4294993988
+          },
+          {
+            "name": "description",
+            "flag": "method.PAMediaConversionServiceResourceURLCollection.description",
+            "lang": "objc",
+            "addr": 4294993980
+          },
+          {
+            "name": "fileSizeSummary",
+            "flag": "method.PAMediaConversionServiceResourceURLCollection.fileSizeSummary",
+            "lang": "objc",
+            "addr": 4294993248
+          },
+          {
+            "name": "enumerateResourceURLReferences:",
+            "flag": "method.PAMediaConversionServiceResourceURLCollection.enumerateResourceURLReferences:",
+            "lang": "objc",
+            "addr": 4294992848
+          },
+          {
+            "name": "enumerateResourceURLs:",
+            "flag": "method.PAMediaConversionServiceResourceURLCollection.enumerateResourceURLs:",
+            "lang": "objc",
+            "addr": 4294992532
+          },
+          {
+            "name": "urlCount",
+            "flag": "method.PAMediaConversionServiceResourceURLCollection.urlCount",
+            "lang": "objc",
+            "addr": 4294992524
+          },
+          {
+            "name": "urlForDebugDumpWithDirectoryName:inExistingParentDirectory:error:",
+            "flag": "method.PAMediaConversionServiceResourceURLCollection.urlForDebugDumpWithDirectoryName:inExistingParentDirectory:error:",
+            "lang": "objc",
+            "addr": 4294991068
+          },
+          {
+            "name": "copyURL:forRole:toDirectory:error:",
+            "flag": "method.PAMediaConversionServiceResourceURLCollection.copyURL:forRole:toDirectory:error:",
+            "lang": "objc",
+            "addr": 4294990828
+          },
+          {
+            "name": "urlReferencesByRole",
+            "flag": "method.PAMediaConversionServiceResourceURLCollection.urlReferencesByRole",
+            "lang": "objc",
+            "addr": 4294990816
+          },
+          {
+            "name": "setUrlReferencesByRole:",
+            "flag": "method.PAMediaConversionServiceResourceURLCollection.setUrlReferencesByRole:",
+            "lang": "objc",
+            "addr": 4294990808
+          },
+          {
+            "name": "accessProviderDelegate",
+            "flag": "method.PAMediaConversionServiceResourceURLCollection.accessProviderDelegate",
+            "lang": "objc",
+            "addr": 4294990796
+          },
+          {
+            "name": "setAccessProviderDelegate:",
+            "flag": "method.PAMediaConversionServiceResourceURLCollection.setAccessProviderDelegate:",
+            "lang": "objc",
+            "addr": 4294990788
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.PAMediaConversionServiceResourceURLCollection..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294990720
+          },
+          {
+            "name": "collectionWithMainResourceURL:",
+            "flag": "method.class.PAMediaConversionServiceResourceURLCollection.collectionWithMainResourceURL:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295003508
+          },
+          {
+            "name": "collectionForBookmarkDataDictionaryRepresentation:accessProvider:error:",
+            "flag": "method.class.PAMediaConversionServiceResourceURLCollection.collectionForBookmarkDataDictionaryRepresentation:accessProvider:error:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295002580
+          },
+          {
+            "name": "getSignatureString:filenameSummary:forDictionaryRepresentation:",
+            "flag": "method.class.PAMediaConversionServiceResourceURLCollection.getSignatureString:filenameSummary:forDictionaryRepresentation:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295001856
+          },
+          {
+            "name": "filenameSummaryStringForDictionaryRepresentation:",
+            "flag": "method.class.PAMediaConversionServiceResourceURLCollection.filenameSummaryStringForDictionaryRepresentation:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295001716
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_urlReferencesByRole",
+            "kind": "var",
+            "type": "@\"NSMutableDictionary\"",
+            "addr": 4295246880
+          },
+          {
+            "name": "_accessProviderDelegate",
+            "kind": "var",
+            "type": "@\"PAMediaConversionServiceResourceURLCollectionAccessProvider\"",
+            "addr": 4295246884
+          },
+          {
+            "name": "isBlastDoorAccessRequired",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "blastDoorMainSourceProperties",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "blastDoorVideoComplementProperties",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "blastDoorSourceURL",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "blastDoorError",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "urlReferencesByRole",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "accessProviderDelegate",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "urlCount",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "allURLsAreReadable",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "ClientRequest",
+        "addr": 4295247528,
+        "lang": "objc",
+        "index": 3,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "videoConversionTask:didUpdateFractionCompleted:",
+            "flag": "func.1000092d0",
+            "lang": "objc",
+            "addr": 4295004880
+          },
+          {
+            "name": "description",
+            "flag": "method.ClientRequest.description",
+            "lang": "objc",
+            "addr": 4295004668
+          },
+          {
+            "name": "identifier",
+            "flag": "method.ClientRequest.identifier",
+            "lang": "objc",
+            "addr": 4295004528
+          },
+          {
+            "name": "requestTracker",
+            "flag": "method.ClientRequest.requestTracker",
+            "lang": "objc",
+            "addr": 4295004516
+          },
+          {
+            "name": "setRequestTracker:",
+            "flag": "method.ClientRequest.setRequestTracker:",
+            "lang": "objc",
+            "addr": 4295004508
+          },
+          {
+            "name": "videoClientReplyHandler",
+            "flag": "method.ClientRequest.videoClientReplyHandler",
+            "lang": "objc",
+            "addr": 4295004496
+          },
+          {
+            "name": "setVideoClientReplyHandler:",
+            "flag": "method.ClientRequest.setVideoClientReplyHandler:",
+            "lang": "objc",
+            "addr": 4295004488
+          },
+          {
+            "name": "imageClientReplyHandler",
+            "flag": "method.ClientRequest.imageClientReplyHandler",
+            "lang": "objc",
+            "addr": 4295004476
+          },
+          {
+            "name": "setImageClientReplyHandler:",
+            "flag": "method.ClientRequest.setImageClientReplyHandler:",
+            "lang": "objc",
+            "addr": 4295004468
+          },
+          {
+            "name": "connection",
+            "flag": "method.ClientRequest.connection",
+            "lang": "objc",
+            "addr": 4295004424
+          },
+          {
+            "name": "setConnection:",
+            "flag": "method.ClientRequest.setConnection:",
+            "lang": "objc",
+            "addr": 4295004412
+          },
+          {
+            "name": "connectionIdentifier",
+            "flag": "method.ClientRequest.connectionIdentifier",
+            "lang": "objc",
+            "addr": 4295004400
+          },
+          {
+            "name": "setConnectionIdentifier:",
+            "flag": "method.ClientRequest.setConnectionIdentifier:",
+            "lang": "objc",
+            "addr": 4295004392
+          },
+          {
+            "name": "cancellationReasonDebugDescription",
+            "flag": "method.ClientRequest.cancellationReasonDebugDescription",
+            "lang": "objc",
+            "addr": 4295004380
+          },
+          {
+            "name": "setCancellationReasonDebugDescription:",
+            "flag": "method.ClientRequest.setCancellationReasonDebugDescription:",
+            "lang": "objc",
+            "addr": 4295004372
+          },
+          {
+            "name": "wantsProgress",
+            "flag": "method.ClientRequest.wantsProgress",
+            "lang": "objc",
+            "addr": 4295004360
+          },
+          {
+            "name": "setWantsProgress:",
+            "flag": "method.ClientRequest.setWantsProgress:",
+            "lang": "objc",
+            "addr": 4295004352
+          },
+          {
+            "name": "requiresDeduplicationAgainstOriginalWithIdenticalOutput",
+            "flag": "method.ClientRequest.requiresDeduplicationAgainstOriginalWithIdenticalOutput",
+            "lang": "objc",
+            "addr": 4295004340
+          },
+          {
+            "name": "setRequiresDeduplicationAgainstOriginalWithIdenticalOutput:",
+            "flag": "method.ClientRequest.setRequiresDeduplicationAgainstOriginalWithIdenticalOutput:",
+            "lang": "objc",
+            "addr": 4295004332
+          },
+          {
+            "name": "signpostID",
+            "flag": "method.ClientRequest.signpostID",
+            "lang": "objc",
+            "addr": 4295004324
+          },
+          {
+            "name": "setSignpostID:",
+            "flag": "method.ClientRequest.setSignpostID:",
+            "lang": "objc",
+            "addr": 4295004316
+          },
+          {
+            "name": "requestQueueEntry",
+            "flag": "method.ClientRequest.requestQueueEntry",
+            "lang": "objc",
+            "addr": 4295004272
+          },
+          {
+            "name": "setRequestQueueEntry:",
+            "flag": "method.ClientRequest.setRequestQueueEntry:",
+            "lang": "objc",
+            "addr": 4295004260
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.ClientRequest..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295004140
+          },
+          {
+            "name": "videoConversionTask:didUpdateFractionCompleted:",
+            "flag": "method.ClientRequest.videoConversionTask:didUpdateFractionCompleted:",
+            "lang": "objc",
+            "addr": 4295148728
+          },
+          {
+            "name": "videoConversionTask:didUpdateFractionCompleted:",
+            "flag": "method.ClientRequest.videoConversionTask:didUpdateFractionCompleted:",
+            "lang": "objc",
+            "addr": 4295148728
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_wantsProgress",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295246888
+          },
+          {
+            "name": "_requiresDeduplicationAgainstOriginalWithIdenticalOutput",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295246892
+          },
+          {
+            "name": "_requestTracker",
+            "kind": "var",
+            "type": "@\"MediaConversionRequestTracker\"",
+            "addr": 4295246896
+          },
+          {
+            "name": "_videoClientReplyHandler",
+            "kind": "var",
+            "type": "@?",
+            "addr": 4295246900
+          },
+          {
+            "name": "_imageClientReplyHandler",
+            "kind": "var",
+            "type": "@?",
+            "addr": 4295246904
+          },
+          {
+            "name": "_connection",
+            "kind": "var",
+            "type": "@\"NSXPCConnection\"",
+            "addr": 4295246908
+          },
+          {
+            "name": "_connectionIdentifier",
+            "kind": "var",
+            "type": "@\"NSUUID\"",
+            "addr": 4295246912
+          },
+          {
+            "name": "_cancellationReasonDebugDescription",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295246916
+          },
+          {
+            "name": "_signpostID",
+            "kind": "var",
+            "type": "Q",
+            "addr": 4295246920
+          },
+          {
+            "name": "_requestQueueEntry",
+            "kind": "var",
+            "type": "@\"MediaConversionQueueEntry\"",
+            "addr": 4295246924
+          },
+          {
+            "name": "requestQueueEntry",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "requestTracker",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "videoClientReplyHandler",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "imageClientReplyHandler",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "connection",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "connectionIdentifier",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "cancellationReasonDebugDescription",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "wantsProgress",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "requiresDeduplicationAgainstOriginalWithIdenticalOutput",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "identifier",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "signpostID",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "MediaConversionQueueEntry",
+        "addr": 4295247608,
+        "lang": "objc",
+        "index": 4,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithIdentifier:initialConversionOptions:",
+            "flag": "method.MediaConversionQueueEntry.initWithIdentifier:initialConversionOptions:",
+            "lang": "objc",
+            "addr": 4295010792
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.MediaConversionQueueEntry.dealloc",
+            "lang": "objc",
+            "addr": 4295010492
+          },
+          {
+            "name": "description",
+            "flag": "method.MediaConversionQueueEntry.description",
+            "lang": "objc",
+            "addr": 4295010284
+          },
+          {
+            "name": "addClientRequest:",
+            "flag": "method.MediaConversionQueueEntry.addClientRequest:",
+            "lang": "objc",
+            "addr": 4295010076
+          },
+          {
+            "name": "withLockEnumerateClientRequests:",
+            "flag": "method.MediaConversionQueueEntry.withLockEnumerateClientRequests:",
+            "lang": "objc",
+            "addr": 4295009864
+          },
+          {
+            "name": "didDequeueAndStartProcessingQueueEntry",
+            "flag": "method.MediaConversionQueueEntry.didDequeueAndStartProcessingQueueEntry",
+            "lang": "objc",
+            "addr": 4295009780
+          },
+          {
+            "name": "clientRequestIsDuplicate:identicalDestination:",
+            "flag": "method.MediaConversionQueueEntry.clientRequestIsDuplicate:identicalDestination:",
+            "lang": "objc",
+            "addr": 4295009572
+          },
+          {
+            "name": "removeAndReturnClientRequestWithIdentifier:remainingRequestCount:",
+            "flag": "method.MediaConversionQueueEntry.removeAndReturnClientRequestWithIdentifier:remainingRequestCount:",
+            "lang": "objc",
+            "addr": 4295009156
+          },
+          {
+            "name": "clientRequestForIdentifier:",
+            "flag": "method.MediaConversionQueueEntry.clientRequestForIdentifier:",
+            "lang": "objc",
+            "addr": 4295008696
+          },
+          {
+            "name": "anyDestinationURLCollection",
+            "flag": "method.MediaConversionQueueEntry.anyDestinationURLCollection",
+            "lang": "objc",
+            "addr": 4295008284
+          },
+          {
+            "name": "requestIdentifiersForConnectionIdentifier:",
+            "flag": "method.MediaConversionQueueEntry.requestIdentifiersForConnectionIdentifier:",
+            "lang": "objc",
+            "addr": 4295007740
+          },
+          {
+            "name": "videoConversionTask:didUpdateFractionCompleted:",
+            "flag": "method.MediaConversionQueueEntry.videoConversionTask:didUpdateFractionCompleted:",
+            "lang": "objc",
+            "addr": 4295007448
+          },
+          {
+            "name": "clientRequestsSnapshot",
+            "flag": "method.MediaConversionQueueEntry.clientRequestsSnapshot",
+            "lang": "objc",
+            "addr": 4295007368
+          },
+          {
+            "name": "compareProcessingOrderToEntry:",
+            "flag": "method.MediaConversionQueueEntry.compareProcessingOrderToEntry:",
+            "lang": "objc",
+            "addr": 4295006796
+          },
+          {
+            "name": "allRequestsHaveRequestPriority:",
+            "flag": "method.MediaConversionQueueEntry.allRequestsHaveRequestPriority:",
+            "lang": "objc",
+            "addr": 4295006484
+          },
+          {
+            "name": "allRequestsAreOptional",
+            "flag": "method.MediaConversionQueueEntry.allRequestsAreOptional",
+            "lang": "objc",
+            "addr": 4295006180
+          },
+          {
+            "name": "allRequestsAreBackground",
+            "flag": "method.MediaConversionQueueEntry.allRequestsAreBackground",
+            "lang": "objc",
+            "addr": 4295005868
+          },
+          {
+            "name": "identifier",
+            "flag": "method.MediaConversionQueueEntry.identifier",
+            "lang": "objc",
+            "addr": 4295005856
+          },
+          {
+            "name": "setIdentifier:",
+            "flag": "method.MediaConversionQueueEntry.setIdentifier:",
+            "lang": "objc",
+            "addr": 4295005848
+          },
+          {
+            "name": "initialRequestIdentifier",
+            "flag": "method.MediaConversionQueueEntry.initialRequestIdentifier",
+            "lang": "objc",
+            "addr": 4295005836
+          },
+          {
+            "name": "setInitialRequestIdentifier:",
+            "flag": "method.MediaConversionQueueEntry.setInitialRequestIdentifier:",
+            "lang": "objc",
+            "addr": 4295005828
+          },
+          {
+            "name": "initialRequestConversionOptions",
+            "flag": "method.MediaConversionQueueEntry.initialRequestConversionOptions",
+            "lang": "objc",
+            "addr": 4295005816
+          },
+          {
+            "name": "setInitialRequestConversionOptions:",
+            "flag": "method.MediaConversionQueueEntry.setInitialRequestConversionOptions:",
+            "lang": "objc",
+            "addr": 4295005808
+          },
+          {
+            "name": "temporaryFilesParentDirectoryURL",
+            "flag": "method.MediaConversionQueueEntry.temporaryFilesParentDirectoryURL",
+            "lang": "objc",
+            "addr": 4295005796
+          },
+          {
+            "name": "setTemporaryFilesParentDirectoryURL:",
+            "flag": "method.MediaConversionQueueEntry.setTemporaryFilesParentDirectoryURL:",
+            "lang": "objc",
+            "addr": 4295005788
+          },
+          {
+            "name": "videoConversionTask",
+            "flag": "method.MediaConversionQueueEntry.videoConversionTask",
+            "lang": "objc",
+            "addr": 4295005776
+          },
+          {
+            "name": "setVideoConversionTask:",
+            "flag": "method.MediaConversionQueueEntry.setVideoConversionTask:",
+            "lang": "objc",
+            "addr": 4295005768
+          },
+          {
+            "name": "sourceURLCollection",
+            "flag": "method.MediaConversionQueueEntry.sourceURLCollection",
+            "lang": "objc",
+            "addr": 4295005756
+          },
+          {
+            "name": "setSourceURLCollection:",
+            "flag": "method.MediaConversionQueueEntry.setSourceURLCollection:",
+            "lang": "objc",
+            "addr": 4295005748
+          },
+          {
+            "name": "temporaryDestinationURLCollection",
+            "flag": "method.MediaConversionQueueEntry.temporaryDestinationURLCollection",
+            "lang": "objc",
+            "addr": 4295005736
+          },
+          {
+            "name": "setTemporaryDestinationURLCollection:",
+            "flag": "method.MediaConversionQueueEntry.setTemporaryDestinationURLCollection:",
+            "lang": "objc",
+            "addr": 4295005728
+          },
+          {
+            "name": "cancelled",
+            "flag": "method.MediaConversionQueueEntry.cancelled",
+            "lang": "objc",
+            "addr": 4295005716
+          },
+          {
+            "name": "setCancelled:",
+            "flag": "method.MediaConversionQueueEntry.setCancelled:",
+            "lang": "objc",
+            "addr": 4295005708
+          },
+          {
+            "name": "taskTypeSupportsDeduplication",
+            "flag": "method.MediaConversionQueueEntry.taskTypeSupportsDeduplication",
+            "lang": "objc",
+            "addr": 4295005696
+          },
+          {
+            "name": "setTaskTypeSupportsDeduplication:",
+            "flag": "method.MediaConversionQueueEntry.setTaskTypeSupportsDeduplication:",
+            "lang": "objc",
+            "addr": 4295005688
+          },
+          {
+            "name": "transaction",
+            "flag": "method.MediaConversionQueueEntry.transaction",
+            "lang": "objc",
+            "addr": 4295005676
+          },
+          {
+            "name": "setTransaction:",
+            "flag": "method.MediaConversionQueueEntry.setTransaction:",
+            "lang": "objc",
+            "addr": 4295005668
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.MediaConversionQueueEntry..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295005516
+          },
+          {
+            "name": "videoConversionTask:didUpdateFractionCompleted:",
+            "flag": "method.ClientRequest.videoConversionTask:didUpdateFractionCompleted:",
+            "lang": "objc",
+            "addr": 4295148728
+          },
+          {
+            "name": "videoConversionTask:didUpdateFractionCompleted:",
+            "flag": "method.ClientRequest.videoConversionTask:didUpdateFractionCompleted:",
+            "lang": "objc",
+            "addr": 4295148728
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_clientRequests",
+            "kind": "var",
+            "type": "@\"NSMutableArray\"",
+            "addr": 4295246928
+          },
+          {
+            "name": "_queueEntryStateLock",
+            "kind": "var",
+            "type": "{os_unfair_lock_s=\"_os_unfair_lock_opaque\"I}",
+            "addr": 4295246932
+          },
+          {
+            "name": "_cancelled",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295246936
+          },
+          {
+            "name": "_taskTypeSupportsDeduplication",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295246940
+          },
+          {
+            "name": "_identifier",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295246944
+          },
+          {
+            "name": "_initialRequestIdentifier",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295246948
+          },
+          {
+            "name": "_initialRequestConversionOptions",
+            "kind": "var",
+            "type": "@\"NSDictionary\"",
+            "addr": 4295246952
+          },
+          {
+            "name": "_temporaryFilesParentDirectoryURL",
+            "kind": "var",
+            "type": "@\"NSURL\"",
+            "addr": 4295246956
+          },
+          {
+            "name": "_videoConversionTask",
+            "kind": "var",
+            "type": "@\"VideoConversionTask\"",
+            "addr": 4295246960
+          },
+          {
+            "name": "_sourceURLCollection",
+            "kind": "var",
+            "type": "@\"PAMediaConversionServiceResourceURLCollection\"",
+            "addr": 4295246964
+          },
+          {
+            "name": "_temporaryDestinationURLCollection",
+            "kind": "var",
+            "type": "@\"PAMediaConversionServiceResourceURLCollection\"",
+            "addr": 4295246968
+          },
+          {
+            "name": "_transaction",
+            "kind": "var",
+            "type": "@\"NSObject<OS_os_transaction>\"",
+            "addr": 4295246972
+          },
+          {
+            "name": "clientRequestsSnapshot",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "identifier",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "initialRequestIdentifier",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "initialRequestConversionOptions",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "temporaryFilesParentDirectoryURL",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "videoConversionTask",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "sourceURLCollection",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "temporaryDestinationURLCollection",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "cancelled",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "taskTypeSupportsDeduplication",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "transaction",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "MediaConversionQueue",
+        "addr": 4295247648,
+        "lang": "objc",
+        "index": 5,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithDelegate:",
+            "flag": "method.MediaConversionQueue.initWithDelegate:",
+            "lang": "objc",
+            "addr": 4295024384
+          },
+          {
+            "name": "nextRequestNumber",
+            "flag": "method.MediaConversionQueue.nextRequestNumber",
+            "lang": "objc",
+            "addr": 4295024320
+          },
+          {
+            "name": "queueEntryWithConversionOptions:",
+            "flag": "method.MediaConversionQueue.queueEntryWithConversionOptions:",
+            "lang": "objc",
+            "addr": 4295024036
+          },
+          {
+            "name": "enqueueEntry:clientRequest:isDuplicateOfOriginalQueueEntry:",
+            "flag": "method.MediaConversionQueue.enqueueEntry:clientRequest:isDuplicateOfOriginalQueueEntry:",
+            "lang": "objc",
+            "addr": 4295021812
+          },
+          {
+            "name": "delegateCanCancelCurrentlyProcessingRequestQueueEntry",
+            "flag": "method.MediaConversionQueue.delegateCanCancelCurrentlyProcessingRequestQueueEntry",
+            "lang": "objc",
+            "addr": 4295021696
+          },
+          {
+            "name": "enumerateCurrentlyProcessingAndQueuedEntries:",
+            "flag": "method.MediaConversionQueue.enumerateCurrentlyProcessingAndQueuedEntries:",
+            "lang": "objc",
+            "addr": 4295021464
+          },
+          {
+            "name": "anyDestinationURLCollectionForQueueEntry:",
+            "flag": "method.MediaConversionQueue.anyDestinationURLCollectionForQueueEntry:",
+            "lang": "objc",
+            "addr": 4295021348
+          },
+          {
+            "name": "scheduleQueueProcessing",
+            "flag": "method.MediaConversionQueue.scheduleQueueProcessing",
+            "lang": "objc",
+            "addr": 4295021224
+          },
+          {
+            "name": "processQueue",
+            "flag": "method.MediaConversionQueue.processQueue",
+            "lang": "objc",
+            "addr": 4295020784
+          },
+          {
+            "name": "optimizeQueueAndDequeueNextRequestQueueEntry",
+            "flag": "method.MediaConversionQueue.optimizeQueueAndDequeueNextRequestQueueEntry",
+            "lang": "objc",
+            "addr": 4295020100
+          },
+          {
+            "name": "cancelForCameraIfPossibleAndRequiredForNextQueueEntry:",
+            "flag": "method.MediaConversionQueue.cancelForCameraIfPossibleAndRequiredForNextQueueEntry:",
+            "lang": "objc",
+            "addr": 4295019260
+          },
+          {
+            "name": "entriesSortedByExecutionOrderForPendingEntries:",
+            "flag": "method.MediaConversionQueue.entriesSortedByExecutionOrderForPendingEntries:",
+            "lang": "objc",
+            "addr": 4295019144
+          },
+          {
+            "name": "markCompletionAndRetrieveClientRequestsForQueueEntry:resultURLCollection:didConvertSuccessfully:conversionOutputInformation:conversionOutputData:conversionOutputFileType:conversionError:",
+            "flag": "method.MediaConversionQueue.markCompletionAndRetrieveClientRequestsForQueueEntry:resultURLCollection:didConvertSuccessfully:conversionOutputInformation:conversionOutputData:conversionOutputFileType:conversionError:",
+            "lang": "objc",
+            "addr": 4295018640
+          },
+          {
+            "name": "processCompletedQueueEntry:resultURLCollection:didConvertSuccessfully:conversionOutputInformation:conversionOutputData:conversionOutputFileType:conversionError:",
+            "flag": "method.MediaConversionQueue.processCompletedQueueEntry:resultURLCollection:didConvertSuccessfully:conversionOutputInformation:conversionOutputData:conversionOutputFileType:conversionError:",
+            "lang": "objc",
+            "addr": 4295017212
+          },
+          {
+            "name": "copyConversionOutput:toRequestDestination:requestIdentifier:error:",
+            "flag": "method.MediaConversionQueue.copyConversionOutput:toRequestDestination:requestIdentifier:error:",
+            "lang": "objc",
+            "addr": 4295015764
+          },
+          {
+            "name": "orderingSummaryForRequestList:",
+            "flag": "method.MediaConversionQueue.orderingSummaryForRequestList:",
+            "lang": "objc",
+            "addr": 4295015656
+          },
+          {
+            "name": "modifyRequestWithIdentifier:changeHandler:",
+            "flag": "method.MediaConversionQueue.modifyRequestWithIdentifier:changeHandler:",
+            "lang": "objc",
+            "addr": 4295014900
+          },
+          {
+            "name": "cancelRequestWithIdentifier:",
+            "flag": "method.MediaConversionQueue.cancelRequestWithIdentifier:",
+            "lang": "objc",
+            "addr": 4295014304
+          },
+          {
+            "name": "findAndRemoveCancelledRequest:queueEntryWithoutRemainingClients:forRequestIdentifier:shouldCancelCurrentQueueEntry:",
+            "flag": "method.MediaConversionQueue.findAndRemoveCancelledRequest:queueEntryWithoutRemainingClients:forRequestIdentifier:shouldCancelCurrentQueueEntry:",
+            "lang": "objc",
+            "addr": 4295013156
+          },
+          {
+            "name": "assertDelegate:respondsToSelector:",
+            "flag": "method.MediaConversionQueue.assertDelegate:respondsToSelector:",
+            "lang": "objc",
+            "addr": 4295012856
+          },
+          {
+            "name": "cancelRequestsForConnectionIdentifier:",
+            "flag": "method.MediaConversionQueue.cancelRequestsForConnectionIdentifier:",
+            "lang": "objc",
+            "addr": 4295012320
+          },
+          {
+            "name": "sendCancellationReplyForClientRequest:",
+            "flag": "method.MediaConversionQueue.sendCancellationReplyForClientRequest:",
+            "lang": "objc",
+            "addr": 4295011828
+          },
+          {
+            "name": "cameraWatcherDidChangeState:",
+            "flag": "func.10000ac3c",
+            "lang": "objc",
+            "addr": 4295011388
+          },
+          {
+            "name": "queueStateLock",
+            "flag": "method.MediaConversionQueue.queueStateLock",
+            "lang": "objc",
+            "addr": 4295011380
+          },
+          {
+            "name": "setQueueStateLock:",
+            "flag": "method.MediaConversionQueue.setQueueStateLock:",
+            "lang": "objc",
+            "addr": 4295011372
+          },
+          {
+            "name": "queueEntryCounter",
+            "flag": "method.MediaConversionQueue.queueEntryCounter",
+            "lang": "objc",
+            "addr": 4295011364
+          },
+          {
+            "name": "setQueueEntryCounter:",
+            "flag": "method.MediaConversionQueue.setQueueEntryCounter:",
+            "lang": "objc",
+            "addr": 4295011356
+          },
+          {
+            "name": "requestCounter",
+            "flag": "method.MediaConversionQueue.requestCounter",
+            "lang": "objc",
+            "addr": 4295011348
+          },
+          {
+            "name": "setRequestCounter:",
+            "flag": "method.MediaConversionQueue.setRequestCounter:",
+            "lang": "objc",
+            "addr": 4295011340
+          },
+          {
+            "name": "queuedRequests",
+            "flag": "method.MediaConversionQueue.queuedRequests",
+            "lang": "objc",
+            "addr": 4295011328
+          },
+          {
+            "name": "setQueuedRequests:",
+            "flag": "method.MediaConversionQueue.setQueuedRequests:",
+            "lang": "objc",
+            "addr": 4295011320
+          },
+          {
+            "name": "requestProcessingQueue",
+            "flag": "method.MediaConversionQueue.requestProcessingQueue",
+            "lang": "objc",
+            "addr": 4295011308
+          },
+          {
+            "name": "setRequestProcessingQueue:",
+            "flag": "method.MediaConversionQueue.setRequestProcessingQueue:",
+            "lang": "objc",
+            "addr": 4295011300
+          },
+          {
+            "name": "cameraWatcherQueue",
+            "flag": "method.MediaConversionQueue.cameraWatcherQueue",
+            "lang": "objc",
+            "addr": 4295011288
+          },
+          {
+            "name": "setCameraWatcherQueue:",
+            "flag": "method.MediaConversionQueue.setCameraWatcherQueue:",
+            "lang": "objc",
+            "addr": 4295011280
+          },
+          {
+            "name": "currentlyProcessingRequestQueueEntry",
+            "flag": "method.MediaConversionQueue.currentlyProcessingRequestQueueEntry",
+            "lang": "objc",
+            "addr": 4295011268
+          },
+          {
+            "name": "setCurrentlyProcessingRequestQueueEntry:",
+            "flag": "method.MediaConversionQueue.setCurrentlyProcessingRequestQueueEntry:",
+            "lang": "objc",
+            "addr": 4295011260
+          },
+          {
+            "name": "delegate",
+            "flag": "method.MediaConversionQueue.delegate",
+            "lang": "objc",
+            "addr": 4295011216
+          },
+          {
+            "name": "setDelegate:",
+            "flag": "method.MediaConversionQueue.setDelegate:",
+            "lang": "objc",
+            "addr": 4295011204
+          },
+          {
+            "name": "cameraWatcher",
+            "flag": "method.MediaConversionQueue.cameraWatcher",
+            "lang": "objc",
+            "addr": 4295011192
+          },
+          {
+            "name": "setCameraWatcher:",
+            "flag": "method.MediaConversionQueue.setCameraWatcher:",
+            "lang": "objc",
+            "addr": 4295011184
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.MediaConversionQueue..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295011072
+          },
+          {
+            "name": "cameraWatcherDidChangeState:",
+            "flag": "method.MediaConversionQueue.cameraWatcherDidChangeState:",
+            "lang": "objc",
+            "addr": 4295148576
+          },
+          {
+            "name": "cameraWatcherDidChangeState:",
+            "flag": "method.MediaConversionQueue.cameraWatcherDidChangeState:",
+            "lang": "objc",
+            "addr": 4295148576
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_queueStateLock",
+            "kind": "var",
+            "type": "{os_unfair_lock_s=\"_os_unfair_lock_opaque\"I}",
+            "addr": 4295246976
+          },
+          {
+            "name": "_queueEntryCounter",
+            "kind": "var",
+            "type": "Q",
+            "addr": 4295246980
+          },
+          {
+            "name": "_requestCounter",
+            "kind": "var",
+            "type": "Q",
+            "addr": 4295246984
+          },
+          {
+            "name": "_queuedRequests",
+            "kind": "var",
+            "type": "@\"NSMutableArray\"",
+            "addr": 4295246988
+          },
+          {
+            "name": "_requestProcessingQueue",
+            "kind": "var",
+            "type": "@\"NSObject<OS_dispatch_queue>\"",
+            "addr": 4295246992
+          },
+          {
+            "name": "_cameraWatcherQueue",
+            "kind": "var",
+            "type": "@\"NSObject<OS_dispatch_queue>\"",
+            "addr": 4295246996
+          },
+          {
+            "name": "_currentlyProcessingRequestQueueEntry",
+            "kind": "var",
+            "type": "@\"MediaConversionQueueEntry\"",
+            "addr": 4295247000
+          },
+          {
+            "name": "_delegate",
+            "kind": "var",
+            "type": "@\"NSObject<MediaConversionQueueDelegate>\"",
+            "addr": 4295247004
+          },
+          {
+            "name": "_cameraWatcher",
+            "kind": "var",
+            "type": "@\"PFCameraViewfinderSessionWatcher\"",
+            "addr": 4295247008
+          },
+          {
+            "name": "queueStateLock",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "queueEntryCounter",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "requestCounter",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "queuedRequests",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "requestProcessingQueue",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "cameraWatcherQueue",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "currentlyProcessingRequestQueueEntry",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "delegate",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "cameraWatcher",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "PAMediaConversionServiceImageConversionJob",
+        "addr": 4295247728,
+        "lang": "objc",
+        "index": 6,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithRequestIdentifier:sourceResourceURLCollection:outputFileType:",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.initWithRequestIdentifier:sourceResourceURLCollection:outputFileType:",
+            "lang": "objc",
+            "addr": 4295030104
+          },
+          {
+            "name": "validateSourceAndOptions",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.validateSourceAndOptions",
+            "lang": "objc",
+            "addr": 4295030036
+          },
+          {
+            "name": "_validate",
+            "flag": "method.PAMediaConversionServiceImageConversionJob._validate",
+            "lang": "objc",
+            "addr": 4295029688
+          },
+          {
+            "name": "_validateSource",
+            "flag": "method.PAMediaConversionServiceImageConversionJob._validateSource",
+            "lang": "objc",
+            "addr": 4295029248
+          },
+          {
+            "name": "_validateMetadata",
+            "flag": "method.PAMediaConversionServiceImageConversionJob._validateMetadata",
+            "lang": "objc",
+            "addr": 4295028908
+          },
+          {
+            "name": "_validateOrientation",
+            "flag": "method.PAMediaConversionServiceImageConversionJob._validateOrientation",
+            "lang": "objc",
+            "addr": 4295028616
+          },
+          {
+            "name": "_validateOutputSize",
+            "flag": "method.PAMediaConversionServiceImageConversionJob._validateOutputSize",
+            "lang": "objc",
+            "addr": 4295028356
+          },
+          {
+            "name": "requestedOrCalculatedMaximumLongSideLength",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.requestedOrCalculatedMaximumLongSideLength",
+            "lang": "objc",
+            "addr": 4295028216
+          },
+          {
+            "name": "valid",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.valid",
+            "lang": "objc",
+            "addr": 4295028080
+          },
+          {
+            "name": "hasPhotosAdjustments",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.hasPhotosAdjustments",
+            "lang": "objc",
+            "addr": 4295028024
+          },
+          {
+            "name": "hasLivePhotoSourceURLs",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.hasLivePhotoSourceURLs",
+            "lang": "objc",
+            "addr": 4295027832
+          },
+          {
+            "name": "photosAdjustmentData",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.photosAdjustmentData",
+            "lang": "objc",
+            "addr": 4295027736
+          },
+          {
+            "name": "photosAdjustmentFormatIdentifier",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.photosAdjustmentFormatIdentifier",
+            "lang": "objc",
+            "addr": 4295027640
+          },
+          {
+            "name": "photosAdjustmentFormatVersion",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.photosAdjustmentFormatVersion",
+            "lang": "objc",
+            "addr": 4295027544
+          },
+          {
+            "name": "orientationTransformBehavior",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.orientationTransformBehavior",
+            "lang": "objc",
+            "addr": 4295027420
+          },
+          {
+            "name": "mainSourceResourceURL",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.mainSourceResourceURL",
+            "lang": "objc",
+            "addr": 4295027164
+          },
+          {
+            "name": "adjustmentSidecarDataResourceURL",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.adjustmentSidecarDataResourceURL",
+            "lang": "objc",
+            "addr": 4295027148
+          },
+          {
+            "name": "sourceImageRef",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.sourceImageRef",
+            "lang": "objc",
+            "addr": 4295026884
+          },
+          {
+            "name": "canAccessSourceImageProperties",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.canAccessSourceImageProperties",
+            "lang": "objc",
+            "addr": 4295026856
+          },
+          {
+            "name": "destinationImageProperties",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.destinationImageProperties",
+            "lang": "objc",
+            "addr": 4295026716
+          },
+          {
+            "name": "sourceImageProperties",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.sourceImageProperties",
+            "lang": "objc",
+            "addr": 4295026208
+          },
+          {
+            "name": "sourceRequiresRasterization",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.sourceRequiresRasterization",
+            "lang": "objc",
+            "addr": 4295026080
+          },
+          {
+            "name": "sourceUTI",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.sourceUTI",
+            "lang": "objc",
+            "addr": 4295025984
+          },
+          {
+            "name": "isRAWSourceUTI",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.isRAWSourceUTI",
+            "lang": "objc",
+            "addr": 4295025860
+          },
+          {
+            "name": "sourceOrientation",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.sourceOrientation",
+            "lang": "objc",
+            "addr": 4295025728
+          },
+          {
+            "name": "sourceImageSize",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.sourceImageSize",
+            "lang": "objc",
+            "addr": 4295025576
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.dealloc",
+            "lang": "objc",
+            "addr": 4295025472
+          },
+          {
+            "name": "requestIdentifier",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.requestIdentifier",
+            "lang": "objc",
+            "addr": 4295025460
+          },
+          {
+            "name": "status",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.status",
+            "lang": "objc",
+            "addr": 4295025452
+          },
+          {
+            "name": "setStatus:",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.setStatus:",
+            "lang": "objc",
+            "addr": 4295025444
+          },
+          {
+            "name": "sourceResourceURLCollection",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.sourceResourceURLCollection",
+            "lang": "objc",
+            "addr": 4295025432
+          },
+          {
+            "name": "setSourceResourceURLCollection:",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.setSourceResourceURLCollection:",
+            "lang": "objc",
+            "addr": 4295025424
+          },
+          {
+            "name": "destinationResourceURLCollection",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.destinationResourceURLCollection",
+            "lang": "objc",
+            "addr": 4295025412
+          },
+          {
+            "name": "setDestinationResourceURLCollection:",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.setDestinationResourceURLCollection:",
+            "lang": "objc",
+            "addr": 4295025404
+          },
+          {
+            "name": "destinationData",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.destinationData",
+            "lang": "objc",
+            "addr": 4295025392
+          },
+          {
+            "name": "setDestinationData:",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.setDestinationData:",
+            "lang": "objc",
+            "addr": 4295025384
+          },
+          {
+            "name": "requestedMaximumPixelCount",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.requestedMaximumPixelCount",
+            "lang": "objc",
+            "addr": 4295025376
+          },
+          {
+            "name": "setRequestedMaximumPixelCount:",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.setRequestedMaximumPixelCount:",
+            "lang": "objc",
+            "addr": 4295025368
+          },
+          {
+            "name": "requestedMaximumLongSideLength",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.requestedMaximumLongSideLength",
+            "lang": "objc",
+            "addr": 4295025360
+          },
+          {
+            "name": "setRequestedMaximumLongSideLength:",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.setRequestedMaximumLongSideLength:",
+            "lang": "objc",
+            "addr": 4295025352
+          },
+          {
+            "name": "scaleFactor",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.scaleFactor",
+            "lang": "objc",
+            "addr": 4295025344
+          },
+          {
+            "name": "setScaleFactor:",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.setScaleFactor:",
+            "lang": "objc",
+            "addr": 4295025336
+          },
+          {
+            "name": "applySourceOrientationTransform",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.applySourceOrientationTransform",
+            "lang": "objc",
+            "addr": 4295025324
+          },
+          {
+            "name": "setApplySourceOrientationTransform:",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.setApplySourceOrientationTransform:",
+            "lang": "objc",
+            "addr": 4295025316
+          },
+          {
+            "name": "orientation",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.orientation",
+            "lang": "objc",
+            "addr": 4295025308
+          },
+          {
+            "name": "setOrientation:",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.setOrientation:",
+            "lang": "objc",
+            "addr": 4295025300
+          },
+          {
+            "name": "colorspaceMode",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.colorspaceMode",
+            "lang": "objc",
+            "addr": 4295025292
+          },
+          {
+            "name": "setColorspaceMode:",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.setColorspaceMode:",
+            "lang": "objc",
+            "addr": 4295025284
+          },
+          {
+            "name": "formatConversionOnly",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.formatConversionOnly",
+            "lang": "objc",
+            "addr": 4295025272
+          },
+          {
+            "name": "setFormatConversionOnly:",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.setFormatConversionOnly:",
+            "lang": "objc",
+            "addr": 4295025264
+          },
+          {
+            "name": "shouldCheckForOutputCorruption",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.shouldCheckForOutputCorruption",
+            "lang": "objc",
+            "addr": 4295025252
+          },
+          {
+            "name": "setShouldCheckForOutputCorruption:",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.setShouldCheckForOutputCorruption:",
+            "lang": "objc",
+            "addr": 4295025244
+          },
+          {
+            "name": "adjustmentInformation",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.adjustmentInformation",
+            "lang": "objc",
+            "addr": 4295025232
+          },
+          {
+            "name": "setAdjustmentInformation:",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.setAdjustmentInformation:",
+            "lang": "objc",
+            "addr": 4295025224
+          },
+          {
+            "name": "error",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.error",
+            "lang": "objc",
+            "addr": 4295025212
+          },
+          {
+            "name": "setError:",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.setError:",
+            "lang": "objc",
+            "addr": 4295025204
+          },
+          {
+            "name": "inputFileType",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.inputFileType",
+            "lang": "objc",
+            "addr": 4295025192
+          },
+          {
+            "name": "setInputFileType:",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.setInputFileType:",
+            "lang": "objc",
+            "addr": 4295025184
+          },
+          {
+            "name": "outputFileType",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.outputFileType",
+            "lang": "objc",
+            "addr": 4295025172
+          },
+          {
+            "name": "setOutputFileType:",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.setOutputFileType:",
+            "lang": "objc",
+            "addr": 4295025164
+          },
+          {
+            "name": "metadataPolicy",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.metadataPolicy",
+            "lang": "objc",
+            "addr": 4295025152
+          },
+          {
+            "name": "setMetadataPolicy:",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.setMetadataPolicy:",
+            "lang": "objc",
+            "addr": 4295025144
+          },
+          {
+            "name": "outputImageSize",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.outputImageSize",
+            "lang": "objc",
+            "addr": 4295025084
+          },
+          {
+            "name": "setOutputImageSize:",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.setOutputImageSize:",
+            "lang": "objc",
+            "addr": 4295025028
+          },
+          {
+            "name": "candidacy",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.candidacy",
+            "lang": "objc",
+            "addr": 4295025016
+          },
+          {
+            "name": "setCandidacy:",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.setCandidacy:",
+            "lang": "objc",
+            "addr": 4295025008
+          },
+          {
+            "name": "shouldUseEmbeddedImageAsSource",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.shouldUseEmbeddedImageAsSource",
+            "lang": "objc",
+            "addr": 4295024996
+          },
+          {
+            "name": "setShouldUseEmbeddedImageAsSource:",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.setShouldUseEmbeddedImageAsSource:",
+            "lang": "objc",
+            "addr": 4295024988
+          },
+          {
+            "name": "imageSource",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.imageSource",
+            "lang": "objc",
+            "addr": 4295024980
+          },
+          {
+            "name": "setImageSource:",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.setImageSource:",
+            "lang": "objc",
+            "addr": 4295024972
+          },
+          {
+            "name": "imageDestinationData",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.imageDestinationData",
+            "lang": "objc",
+            "addr": 4295024960
+          },
+          {
+            "name": "setImageDestinationData:",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.setImageDestinationData:",
+            "lang": "objc",
+            "addr": 4295024952
+          },
+          {
+            "name": "imageDestination",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.imageDestination",
+            "lang": "objc",
+            "addr": 4295024944
+          },
+          {
+            "name": "setImageDestination:",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.setImageDestination:",
+            "lang": "objc",
+            "addr": 4295024936
+          },
+          {
+            "name": "validationState",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.validationState",
+            "lang": "objc",
+            "addr": 4295024928
+          },
+          {
+            "name": "setValidationState:",
+            "flag": "method.PAMediaConversionServiceImageConversionJob.setValidationState:",
+            "lang": "objc",
+            "addr": 4295024920
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.PAMediaConversionServiceImageConversionJob..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295024720
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_applySourceOrientationTransform",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295247012
+          },
+          {
+            "name": "_formatConversionOnly",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295247016
+          },
+          {
+            "name": "_shouldCheckForOutputCorruption",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295247020
+          },
+          {
+            "name": "_shouldUseEmbeddedImageAsSource",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295247024
+          },
+          {
+            "name": "_sourceImageRef",
+            "kind": "var",
+            "type": "^{CGImage=}",
+            "addr": 4295247028
+          },
+          {
+            "name": "_sourceImageProperties",
+            "kind": "var",
+            "type": "@\"NSDictionary\"",
+            "addr": 4295247032
+          },
+          {
+            "name": "_destinationImageProperties",
+            "kind": "var",
+            "type": "@\"NSMutableDictionary\"",
+            "addr": 4295247036
+          },
+          {
+            "name": "_orientationTransformBehavior",
+            "kind": "var",
+            "type": "Q",
+            "addr": 4295247040
+          },
+          {
+            "name": "_requestIdentifier",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295247044
+          },
+          {
+            "name": "_status",
+            "kind": "var",
+            "type": "Q",
+            "addr": 4295247048
+          },
+          {
+            "name": "_sourceResourceURLCollection",
+            "kind": "var",
+            "type": "@\"PAMediaConversionServiceResourceURLCollection\"",
+            "addr": 4295247052
+          },
+          {
+            "name": "_destinationResourceURLCollection",
+            "kind": "var",
+            "type": "@\"PAMediaConversionServiceResourceURLCollection\"",
+            "addr": 4295247056
+          },
+          {
+            "name": "_destinationData",
+            "kind": "var",
+            "type": "@\"NSData\"",
+            "addr": 4295247060
+          },
+          {
+            "name": "_requestedMaximumPixelCount",
+            "kind": "var",
+            "type": "q",
+            "addr": 4295247064
+          },
+          {
+            "name": "_requestedMaximumLongSideLength",
+            "kind": "var",
+            "type": "q",
+            "addr": 4295247068
+          },
+          {
+            "name": "_scaleFactor",
+            "kind": "var",
+            "type": "d",
+            "addr": 4295247072
+          },
+          {
+            "name": "_orientation",
+            "kind": "var",
+            "type": "q",
+            "addr": 4295247076
+          },
+          {
+            "name": "_colorspaceMode",
+            "kind": "var",
+            "type": "q",
+            "addr": 4295247080
+          },
+          {
+            "name": "_adjustmentInformation",
+            "kind": "var",
+            "type": "@\"NSDictionary\"",
+            "addr": 4295247084
+          },
+          {
+            "name": "_error",
+            "kind": "var",
+            "type": "@\"NSError\"",
+            "addr": 4295247088
+          },
+          {
+            "name": "_inputFileType",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295247092
+          },
+          {
+            "name": "_outputFileType",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295247096
+          },
+          {
+            "name": "_metadataPolicy",
+            "kind": "var",
+            "type": "@\"PFImageMetadataChangePolicy\"",
+            "addr": 4295247100
+          },
+          {
+            "name": "_candidacy",
+            "kind": "var",
+            "type": "@\"NSNumber\"",
+            "addr": 4295247104
+          },
+          {
+            "name": "_imageSource",
+            "kind": "var",
+            "type": "^{CGImageSource=}",
+            "addr": 4295247108
+          },
+          {
+            "name": "_imageDestinationData",
+            "kind": "var",
+            "type": "@\"NSMutableData\"",
+            "addr": 4295247112
+          },
+          {
+            "name": "_imageDestination",
+            "kind": "var",
+            "type": "^{CGImageDestination=}",
+            "addr": 4295247116
+          },
+          {
+            "name": "_validationState",
+            "kind": "var",
+            "type": "Q",
+            "addr": 4295247120
+          },
+          {
+            "name": "_outputImageSize",
+            "kind": "var",
+            "type": "{CGSize=\"width\"d\"height\"d}",
+            "addr": 4295247124
+          },
+          {
+            "name": "destinationImageProperties",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "sourceUTI",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "isRAWSourceUTI",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "sourceImageSize",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "sourceOrientation",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "sourceRequiresRasterization",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "sourceImageProperties",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "imageSource",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "sourceImageRef",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "imageDestinationData",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "imageDestination",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "canAccessSourceImageProperties",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "validationState",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "outputImageSize",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "valid",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "orientationTransformBehavior",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "requestIdentifier",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "status",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "sourceResourceURLCollection",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "destinationResourceURLCollection",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "destinationData",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "requestedMaximumPixelCount",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "requestedMaximumLongSideLength",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "scaleFactor",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "applySourceOrientationTransform",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "orientation",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "colorspaceMode",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "formatConversionOnly",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "shouldCheckForOutputCorruption",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "adjustmentInformation",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "error",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "inputFileType",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "outputFileType",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "metadataPolicy",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hasPhotosAdjustments",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hasLivePhotoSourceURLs",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "photosAdjustmentData",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "photosAdjustmentFormatIdentifier",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "photosAdjustmentFormatVersion",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "mainSourceResourceURL",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "adjustmentSidecarDataResourceURL",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "candidacy",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "shouldUseEmbeddedImageAsSource",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "PAMediaConversionServiceSharedUtilitiesServiceSide",
+        "addr": 4295247768,
+        "lang": "objc",
+        "index": 7,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "executeConversionJob:",
+            "flag": "method.class.PAMediaConversionServiceSharedUtilitiesServiceSide.executeConversionJob:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295047576
+          },
+          {
+            "name": "checkConversionResultForOutputCorruptionAndMarkJobAsFailed:",
+            "flag": "method.class.PAMediaConversionServiceSharedUtilitiesServiceSide.checkConversionResultForOutputCorruptionAndMarkJobAsFailed:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295046828
+          },
+          {
+            "name": "isOutputCorruptionLikelyComparingFileSizeOfInputURL:toOutputURL:",
+            "flag": "method.class.PAMediaConversionServiceSharedUtilitiesServiceSide.isOutputCorruptionLikelyComparingFileSizeOfInputURL:toOutputURL:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295045372
+          },
+          {
+            "name": "isOutputCorruptionLikelyUsingSSIMOfInputURL:toOutputURL:",
+            "flag": "method.class.PAMediaConversionServiceSharedUtilitiesServiceSide.isOutputCorruptionLikelyUsingSSIMOfInputURL:toOutputURL:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295044824
+          },
+          {
+            "name": "registerPhotosAdjustmentsSubsystems",
+            "flag": "method.class.PAMediaConversionServiceSharedUtilitiesServiceSide.registerPhotosAdjustmentsSubsystems",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295044784
+          },
+          {
+            "name": "emptyGenericCompositionWithAdjustmentForOrientation:",
+            "flag": "method.class.PAMediaConversionServiceSharedUtilitiesServiceSide.emptyGenericCompositionWithAdjustmentForOrientation:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295044400
+          },
+          {
+            "name": "generatePortraitAdjustmentForURL:contentType:orientation:error:",
+            "flag": "method.class.PAMediaConversionServiceSharedUtilitiesServiceSide.generatePortraitAdjustmentForURL:contentType:orientation:error:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295042028
+          },
+          {
+            "name": "adjustmentInformationForComposition:error:",
+            "flag": "method.class.PAMediaConversionServiceSharedUtilitiesServiceSide.adjustmentInformationForComposition:error:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295041760
+          },
+          {
+            "name": "compositionForPhotosAdjustmentInformation:secondaryDataURL:error:",
+            "flag": "method.class.PAMediaConversionServiceSharedUtilitiesServiceSide.compositionForPhotosAdjustmentInformation:secondaryDataURL:error:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295041044
+          },
+          {
+            "name": "compositionForConversionJob:error:",
+            "flag": "method.class.PAMediaConversionServiceSharedUtilitiesServiceSide.compositionForConversionJob:error:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295040768
+          },
+          {
+            "name": "compositionForPhotosAdjustmentInformation:error:",
+            "flag": "method.class.PAMediaConversionServiceSharedUtilitiesServiceSide.compositionForPhotosAdjustmentInformation:error:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295040756
+          },
+          {
+            "name": "loadCompositionFrom:formatIdentifier:formatVersion:secondaryDataURL:error:",
+            "flag": "method.class.PAMediaConversionServiceSharedUtilitiesServiceSide.loadCompositionFrom:formatIdentifier:formatVersion:secondaryDataURL:error:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295038856
+          },
+          {
+            "name": "configureSourcesForComposition:fromPhotosAdjustmentsJob:",
+            "flag": "method.class.PAMediaConversionServiceSharedUtilitiesServiceSide.configureSourcesForComposition:fromPhotosAdjustmentsJob:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295038012
+          },
+          {
+            "name": "renderPhotosAdjustmentsComposition:forConversionJob:",
+            "flag": "method.class.PAMediaConversionServiceSharedUtilitiesServiceSide.renderPhotosAdjustmentsComposition:forConversionJob:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295034788
+          },
+          {
+            "name": "exporterImageOptionsForScaleFactor:maximumPixelCount:metadataPolicy:shouldApplyOrientationTransform:outputFileType:",
+            "flag": "method.class.PAMediaConversionServiceSharedUtilitiesServiceSide.exporterImageOptionsForScaleFactor:maximumPixelCount:metadataPolicy:shouldApplyOrientationTransform:outputFileType:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295034032
+          },
+          {
+            "name": "scalePolicyForScaleFactor:maximumPixelCount:",
+            "flag": "method.class.PAMediaConversionServiceSharedUtilitiesServiceSide.scalePolicyForScaleFactor:maximumPixelCount:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295033884
+          },
+          {
+            "name": "exporterVideoOptionsForScaleFactor:maximumPixelCount:",
+            "flag": "method.class.PAMediaConversionServiceSharedUtilitiesServiceSide.exporterVideoOptionsForScaleFactor:maximumPixelCount:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295033688
+          },
+          {
+            "name": "imageDataForPhotosAdjustmentsComposition:source:exporterImageOptions:outOutputSize:job:",
+            "flag": "method.class.PAMediaConversionServiceSharedUtilitiesServiceSide.imageDataForPhotosAdjustmentsComposition:source:exporterImageOptions:outOutputSize:job:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295032604
+          },
+          {
+            "name": "newScaledImageForImageRef:inputSize:outputSize:sx:sy:orientation:colorspace:",
+            "flag": "method.class.PAMediaConversionServiceSharedUtilitiesServiceSide.newScaledImageForImageRef:inputSize:outputSize:sx:sy:orientation:colorspace:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295032232
+          },
+          {
+            "name": "newScaledImageForImageRef:scaleFactor:orientation:colorspace:",
+            "flag": "method.class.PAMediaConversionServiceSharedUtilitiesServiceSide.newScaledImageForImageRef:scaleFactor:orientation:colorspace:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295031948
+          },
+          {
+            "name": "imageSizeForImageData:",
+            "flag": "method.class.PAMediaConversionServiceSharedUtilitiesServiceSide.imageSizeForImageData:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295031444
+          },
+          {
+            "name": "temporaryDestinationURLCollectionForFinalDestinationURLCollection:inParentDirectoryURL:",
+            "flag": "method.class.PAMediaConversionServiceSharedUtilitiesServiceSide.temporaryDestinationURLCollectionForFinalDestinationURLCollection:inParentDirectoryURL:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295030792
+          },
+          {
+            "name": "temporaryFilesDirectoryURLForConversionTaskIdentifier:error:",
+            "flag": "method.class.PAMediaConversionServiceSharedUtilitiesServiceSide.temporaryFilesDirectoryURLForConversionTaskIdentifier:error:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295030412
+          }
+        ]
+      },
+      {
+        "classname": "PAMediaConversionServiceImagingUtilities",
+        "addr": 4295247808,
+        "lang": "objc",
+        "index": 8,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "imagePropertiesByImageIndexInImageSource:processedWithMetadataPolicy:",
+            "flag": "method.class.PAMediaConversionServiceImagingUtilities.imagePropertiesByImageIndexInImageSource:processedWithMetadataPolicy:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295054704
+          },
+          {
+            "name": "imageDataForPassthroughConversionForSourceURL:metadataPolicy:outResultImageSize:",
+            "flag": "method.class.PAMediaConversionServiceImagingUtilities.imageDataForPassthroughConversionForSourceURL:metadataPolicy:outResultImageSize:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295053424
+          },
+          {
+            "name": "dataForSingleImageJPEGPassthroughConversionForImageSource:primaryImageProperties:",
+            "flag": "method.class.PAMediaConversionServiceImagingUtilities.dataForSingleImageJPEGPassthroughConversionForImageSource:primaryImageProperties:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295053004
+          },
+          {
+            "name": "logMissingPropertiesInCMPhotoOutputData:comparedToProcessedSourceImagePropertiesByIndex:",
+            "flag": "method.class.PAMediaConversionServiceImagingUtilities.logMissingPropertiesInCMPhotoOutputData:comparedToProcessedSourceImagePropertiesByIndex:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295052120
+          },
+          {
+            "name": "primaryImagePropertiesForFileAtURL:",
+            "flag": "method.class.PAMediaConversionServiceImagingUtilities.primaryImagePropertiesForFileAtURL:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295051764
+          },
+          {
+            "name": "generatePosterFrameExportForVideoURL:destinationURL:maximumSize:outputFileType:error:",
+            "flag": "method.class.PAMediaConversionServiceImagingUtilities.generatePosterFrameExportForVideoURL:destinationURL:maximumSize:outputFileType:error:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295051292
+          },
+          {
+            "name": "generatePosterFrameExportForVideoURL:outputData:maximumSize:outputFileType:error:",
+            "flag": "method.class.PAMediaConversionServiceImagingUtilities.generatePosterFrameExportForVideoURL:outputData:maximumSize:outputFileType:error:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295050792
+          },
+          {
+            "name": "_generatePosterFrameExportForVideoURL:imageDestinationToAddToAndFinalize:maximumSize:error:",
+            "flag": "method.class.PAMediaConversionServiceImagingUtilities._generatePosterFrameExportForVideoURL:imageDestinationToAddToAndFinalize:maximumSize:error:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295050244
+          }
+        ]
+      },
+      {
+        "classname": "VideoConversionHangDetector",
+        "addr": 4295247928,
+        "lang": "objc",
+        "index": 9,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithThresholdTimeInterval:",
+            "flag": "method.VideoConversionHangDetector.initWithThresholdTimeInterval:",
+            "lang": "objc",
+            "addr": 4295055220
+          },
+          {
+            "name": "updateCurrentProgress:",
+            "flag": "method.VideoConversionHangDetector.updateCurrentProgress:",
+            "lang": "objc",
+            "addr": 4295055084
+          },
+          {
+            "name": "didDetectHang",
+            "flag": "method.VideoConversionHangDetector.didDetectHang",
+            "lang": "objc",
+            "addr": 4295055068
+          },
+          {
+            "name": "lastProgressTimestamp",
+            "flag": "method.VideoConversionHangDetector.lastProgressTimestamp",
+            "lang": "objc",
+            "addr": 4295055056
+          },
+          {
+            "name": "setLastProgressTimestamp:",
+            "flag": "method.VideoConversionHangDetector.setLastProgressTimestamp:",
+            "lang": "objc",
+            "addr": 4295055048
+          },
+          {
+            "name": "progressUnchangedTimeInterval",
+            "flag": "method.VideoConversionHangDetector.progressUnchangedTimeInterval",
+            "lang": "objc",
+            "addr": 4295055040
+          },
+          {
+            "name": "setProgressUnchangedTimeInterval:",
+            "flag": "method.VideoConversionHangDetector.setProgressUnchangedTimeInterval:",
+            "lang": "objc",
+            "addr": 4295055032
+          },
+          {
+            "name": "hangDetectionThresholdTimeInterval",
+            "flag": "method.VideoConversionHangDetector.hangDetectionThresholdTimeInterval",
+            "lang": "objc",
+            "addr": 4295055024
+          },
+          {
+            "name": "setHangDetectionThresholdTimeInterval:",
+            "flag": "method.VideoConversionHangDetector.setHangDetectionThresholdTimeInterval:",
+            "lang": "objc",
+            "addr": 4295055016
+          },
+          {
+            "name": "lastProgress",
+            "flag": "method.VideoConversionHangDetector.lastProgress",
+            "lang": "objc",
+            "addr": 4295055008
+          },
+          {
+            "name": "setLastProgress:",
+            "flag": "method.VideoConversionHangDetector.setLastProgress:",
+            "lang": "objc",
+            "addr": 4295055000
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.VideoConversionHangDetector..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295054988
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_lastProgressTimestamp",
+            "kind": "var",
+            "type": "@\"NSDate\"",
+            "addr": 4295247128
+          },
+          {
+            "name": "_progressUnchangedTimeInterval",
+            "kind": "var",
+            "type": "d",
+            "addr": 4295247132
+          },
+          {
+            "name": "_hangDetectionThresholdTimeInterval",
+            "kind": "var",
+            "type": "d",
+            "addr": 4295247136
+          },
+          {
+            "name": "_lastProgress",
+            "kind": "var",
+            "type": "d",
+            "addr": 4295247140
+          },
+          {
+            "name": "lastProgressTimestamp",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "progressUnchangedTimeInterval",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hangDetectionThresholdTimeInterval",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "lastProgress",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "didDetectHang",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "VideoConversionTask",
+        "addr": 4295248048,
+        "lang": "objc",
+        "index": 10,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithSourceBookmarkDictionary:outputURLCollection:options:requestTracker:",
+            "flag": "method.VideoConversionTask.initWithSourceBookmarkDictionary:outputURLCollection:options:requestTracker:",
+            "lang": "objc",
+            "addr": 4295058712
+          },
+          {
+            "name": "resolveSourceBookmarkDictionary:",
+            "flag": "method.VideoConversionTask.resolveSourceBookmarkDictionary:",
+            "lang": "objc",
+            "addr": 4295058172
+          },
+          {
+            "name": "sourceMainResourceURL",
+            "flag": "method.VideoConversionTask.sourceMainResourceURL",
+            "lang": "objc",
+            "addr": 4295058076
+          },
+          {
+            "name": "outputMainResourceURL",
+            "flag": "method.VideoConversionTask.outputMainResourceURL",
+            "lang": "objc",
+            "addr": 4295057980
+          },
+          {
+            "name": "loadAsset",
+            "flag": "method.VideoConversionTask.loadAsset",
+            "lang": "objc",
+            "addr": 4295057620
+          },
+          {
+            "name": "callCompletionHandler",
+            "flag": "method.VideoConversionTask.callCompletionHandler",
+            "lang": "objc",
+            "addr": 4295056916
+          },
+          {
+            "name": "updateResultTracker",
+            "flag": "method.VideoConversionTask.updateResultTracker",
+            "lang": "objc",
+            "addr": 4295056620
+          },
+          {
+            "name": "wantsResultAsData",
+            "flag": "method.VideoConversionTask.wantsResultAsData",
+            "lang": "objc",
+            "addr": 4295056516
+          },
+          {
+            "name": "didEnqueue",
+            "flag": "method.VideoConversionTask.didEnqueue",
+            "lang": "objc",
+            "addr": 4295056420
+          },
+          {
+            "name": "performConversion",
+            "flag": "method.VideoConversionTask.performConversion",
+            "lang": "objc",
+            "addr": 4295056300
+          },
+          {
+            "name": "cancel",
+            "flag": "method.VideoConversionTask.cancel",
+            "lang": "objc",
+            "addr": 4295056296
+          },
+          {
+            "name": "startProgressUpdateTimerAndMarkStartTime",
+            "flag": "method.VideoConversionTask.startProgressUpdateTimerAndMarkStartTime",
+            "lang": "objc",
+            "addr": 4295056292
+          },
+          {
+            "name": "isPassthroughConversion",
+            "flag": "method.VideoConversionTask.isPassthroughConversion",
+            "lang": "objc",
+            "addr": 4295056188
+          },
+          {
+            "name": "isMetadataTrackExtractionConversion",
+            "flag": "method.VideoConversionTask.isMetadataTrackExtractionConversion",
+            "lang": "objc",
+            "addr": 4295056084
+          },
+          {
+            "name": "requiresPhotosAdjustmentRendering",
+            "flag": "method.VideoConversionTask.requiresPhotosAdjustmentRendering",
+            "lang": "objc",
+            "addr": 4295055996
+          },
+          {
+            "name": "identifier",
+            "flag": "method.VideoConversionTask.identifier",
+            "lang": "objc",
+            "addr": 4295055984
+          },
+          {
+            "name": "setIdentifier:",
+            "flag": "method.VideoConversionTask.setIdentifier:",
+            "lang": "objc",
+            "addr": 4295055976
+          },
+          {
+            "name": "options",
+            "flag": "method.VideoConversionTask.options",
+            "lang": "objc",
+            "addr": 4295055964
+          },
+          {
+            "name": "setOptions:",
+            "flag": "method.VideoConversionTask.setOptions:",
+            "lang": "objc",
+            "addr": 4295055956
+          },
+          {
+            "name": "sourceURLCollection",
+            "flag": "method.VideoConversionTask.sourceURLCollection",
+            "lang": "objc",
+            "addr": 4295055944
+          },
+          {
+            "name": "setSourceURLCollection:",
+            "flag": "method.VideoConversionTask.setSourceURLCollection:",
+            "lang": "objc",
+            "addr": 4295055936
+          },
+          {
+            "name": "outputURLCollection",
+            "flag": "method.VideoConversionTask.outputURLCollection",
+            "lang": "objc",
+            "addr": 4295055924
+          },
+          {
+            "name": "setOutputURLCollection:",
+            "flag": "method.VideoConversionTask.setOutputURLCollection:",
+            "lang": "objc",
+            "addr": 4295055916
+          },
+          {
+            "name": "resultInformation",
+            "flag": "method.VideoConversionTask.resultInformation",
+            "lang": "objc",
+            "addr": 4295055904
+          },
+          {
+            "name": "setResultInformation:",
+            "flag": "method.VideoConversionTask.setResultInformation:",
+            "lang": "objc",
+            "addr": 4295055896
+          },
+          {
+            "name": "error",
+            "flag": "method.VideoConversionTask.error",
+            "lang": "objc",
+            "addr": 4295055884
+          },
+          {
+            "name": "setError:",
+            "flag": "method.VideoConversionTask.setError:",
+            "lang": "objc",
+            "addr": 4295055876
+          },
+          {
+            "name": "asset",
+            "flag": "method.VideoConversionTask.asset",
+            "lang": "objc",
+            "addr": 4295055864
+          },
+          {
+            "name": "setAsset:",
+            "flag": "method.VideoConversionTask.setAsset:",
+            "lang": "objc",
+            "addr": 4295055856
+          },
+          {
+            "name": "progressUpdateTimerSource",
+            "flag": "method.VideoConversionTask.progressUpdateTimerSource",
+            "lang": "objc",
+            "addr": 4295055844
+          },
+          {
+            "name": "setProgressUpdateTimerSource:",
+            "flag": "method.VideoConversionTask.setProgressUpdateTimerSource:",
+            "lang": "objc",
+            "addr": 4295055836
+          },
+          {
+            "name": "timerStatus",
+            "flag": "method.VideoConversionTask.timerStatus",
+            "lang": "objc",
+            "addr": 4295055828
+          },
+          {
+            "name": "setTimerStatus:",
+            "flag": "method.VideoConversionTask.setTimerStatus:",
+            "lang": "objc",
+            "addr": 4295055820
+          },
+          {
+            "name": "completionHandler",
+            "flag": "method.VideoConversionTask.completionHandler",
+            "lang": "objc",
+            "addr": 4295055808
+          },
+          {
+            "name": "setCompletionHandler:",
+            "flag": "method.VideoConversionTask.setCompletionHandler:",
+            "lang": "objc",
+            "addr": 4295055800
+          },
+          {
+            "name": "enqueueTime",
+            "flag": "method.VideoConversionTask.enqueueTime",
+            "lang": "objc",
+            "addr": 4295055788
+          },
+          {
+            "name": "setEnqueueTime:",
+            "flag": "method.VideoConversionTask.setEnqueueTime:",
+            "lang": "objc",
+            "addr": 4295055780
+          },
+          {
+            "name": "conversionStartTime",
+            "flag": "method.VideoConversionTask.conversionStartTime",
+            "lang": "objc",
+            "addr": 4295055768
+          },
+          {
+            "name": "setConversionStartTime:",
+            "flag": "method.VideoConversionTask.setConversionStartTime:",
+            "lang": "objc",
+            "addr": 4295055760
+          },
+          {
+            "name": "conversionEndTime",
+            "flag": "method.VideoConversionTask.conversionEndTime",
+            "lang": "objc",
+            "addr": 4295055748
+          },
+          {
+            "name": "setConversionEndTime:",
+            "flag": "method.VideoConversionTask.setConversionEndTime:",
+            "lang": "objc",
+            "addr": 4295055740
+          },
+          {
+            "name": "status",
+            "flag": "method.VideoConversionTask.status",
+            "lang": "objc",
+            "addr": 4295055732
+          },
+          {
+            "name": "setStatus:",
+            "flag": "method.VideoConversionTask.setStatus:",
+            "lang": "objc",
+            "addr": 4295055724
+          },
+          {
+            "name": "didCallCompletionHandler",
+            "flag": "method.VideoConversionTask.didCallCompletionHandler",
+            "lang": "objc",
+            "addr": 4295055712
+          },
+          {
+            "name": "setDidCallCompletionHandler:",
+            "flag": "method.VideoConversionTask.setDidCallCompletionHandler:",
+            "lang": "objc",
+            "addr": 4295055704
+          },
+          {
+            "name": "didDetectHang",
+            "flag": "method.VideoConversionTask.didDetectHang",
+            "lang": "objc",
+            "addr": 4295055692
+          },
+          {
+            "name": "requestTracker",
+            "flag": "method.VideoConversionTask.requestTracker",
+            "lang": "objc",
+            "addr": 4295055680
+          },
+          {
+            "name": "setRequestTracker:",
+            "flag": "method.VideoConversionTask.setRequestTracker:",
+            "lang": "objc",
+            "addr": 4295055672
+          },
+          {
+            "name": "progressObserver",
+            "flag": "method.VideoConversionTask.progressObserver",
+            "lang": "objc",
+            "addr": 4295055628
+          },
+          {
+            "name": "setProgressObserver:",
+            "flag": "method.VideoConversionTask.setProgressObserver:",
+            "lang": "objc",
+            "addr": 4295055616
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.VideoConversionTask..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295055408
+          },
+          {
+            "name": "supportsDeduplication",
+            "flag": "method.class.VideoConversionTask.supportsDeduplication",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295059252
+          },
+          {
+            "name": "temporaryFileURLWithNameComponent:pathExtension:",
+            "flag": "method.class.VideoConversionTask.temporaryFileURLWithNameComponent:pathExtension:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295059032
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_didCallCompletionHandler",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295247144
+          },
+          {
+            "name": "_didDetectHang",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295247148
+          },
+          {
+            "name": "_identifier",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295247152
+          },
+          {
+            "name": "_options",
+            "kind": "var",
+            "type": "@\"NSMutableDictionary\"",
+            "addr": 4295247156
+          },
+          {
+            "name": "_sourceURLCollection",
+            "kind": "var",
+            "type": "@\"PAMediaConversionServiceResourceURLCollection\"",
+            "addr": 4295247160
+          },
+          {
+            "name": "_outputURLCollection",
+            "kind": "var",
+            "type": "@\"PAMediaConversionServiceResourceURLCollection\"",
+            "addr": 4295247164
+          },
+          {
+            "name": "_resultInformation",
+            "kind": "var",
+            "type": "@\"NSMutableDictionary\"",
+            "addr": 4295247168
+          },
+          {
+            "name": "_error",
+            "kind": "var",
+            "type": "@\"NSError\"",
+            "addr": 4295247172
+          },
+          {
+            "name": "_asset",
+            "kind": "var",
+            "type": "@\"AVAsset\"",
+            "addr": 4295247176
+          },
+          {
+            "name": "_progressUpdateTimerSource",
+            "kind": "var",
+            "type": "@\"NSObject<OS_dispatch_source>\"",
+            "addr": 4295247180
+          },
+          {
+            "name": "_timerStatus",
+            "kind": "var",
+            "type": "Q",
+            "addr": 4295247184
+          },
+          {
+            "name": "_completionHandler",
+            "kind": "var",
+            "type": "@?",
+            "addr": 4295247188
+          },
+          {
+            "name": "_enqueueTime",
+            "kind": "var",
+            "type": "@\"NSDate\"",
+            "addr": 4295247192
+          },
+          {
+            "name": "_conversionStartTime",
+            "kind": "var",
+            "type": "@\"NSDate\"",
+            "addr": 4295247196
+          },
+          {
+            "name": "_conversionEndTime",
+            "kind": "var",
+            "type": "@\"NSDate\"",
+            "addr": 4295247200
+          },
+          {
+            "name": "_status",
+            "kind": "var",
+            "type": "q",
+            "addr": 4295247204
+          },
+          {
+            "name": "_requestTracker",
+            "kind": "var",
+            "type": "@\"MediaConversionRequestTracker\"",
+            "addr": 4295247208
+          },
+          {
+            "name": "_progressObserver",
+            "kind": "var",
+            "type": "@\"NSObject<VideoConversionTaskProgressUpdateObserver>\"",
+            "addr": 4295247212
+          },
+          {
+            "name": "identifier",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "options",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "sourceURLCollection",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "outputURLCollection",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "sourceMainResourceURL",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "outputMainResourceURL",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "resultInformation",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "error",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "asset",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "progressUpdateTimerSource",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "timerStatus",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "completionHandler",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "enqueueTime",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "conversionStartTime",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "conversionEndTime",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "status",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "didCallCompletionHandler",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "didDetectHang",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "requestTracker",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "progressObserver",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "supportsDeduplication",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "VideoTranscodingTask",
+        "addr": 4295248128,
+        "lang": "objc",
+        "index": 11,
+        "super": [
+          "VideoConversionTask",
+          "VideoConversionTask"
+        ],
+        "rawsuper": [
+          "VideoConversionTask",
+          "VideoConversionTask"
+        ],
+        "methods": [
+          {
+            "name": "performConversion",
+            "flag": "method.VideoTranscodingTask.performConversion",
+            "lang": "objc",
+            "addr": 4295063928
+          },
+          {
+            "name": "determineAndNotifyProgress",
+            "flag": "method.VideoTranscodingTask.determineAndNotifyProgress",
+            "lang": "objc",
+            "addr": 4295063524
+          },
+          {
+            "name": "didDetectHang",
+            "flag": "method.VideoTranscodingTask.didDetectHang",
+            "lang": "objc",
+            "addr": 4295063460
+          },
+          {
+            "name": "cancel",
+            "flag": "method.VideoTranscodingTask.cancel",
+            "lang": "objc",
+            "addr": 4295063044
+          },
+          {
+            "name": "performExport",
+            "flag": "method.VideoTranscodingTask.performExport",
+            "lang": "objc",
+            "addr": 4295062916
+          },
+          {
+            "name": "hasProgress",
+            "flag": "method.VideoTranscodingTask.hasProgress",
+            "lang": "objc",
+            "addr": 4295062796
+          },
+          {
+            "name": "currentFractionCompleted",
+            "flag": "method.VideoTranscodingTask.currentFractionCompleted",
+            "lang": "objc",
+            "addr": 4295062672
+          },
+          {
+            "name": "cancelTranscode",
+            "flag": "method.VideoTranscodingTask.cancelTranscode",
+            "lang": "objc",
+            "addr": 4295062544
+          },
+          {
+            "name": "logCancellation",
+            "flag": "method.VideoTranscodingTask.logCancellation",
+            "lang": "objc",
+            "addr": 4295062076
+          },
+          {
+            "name": "transitionToRunningStateAndConditionallyRunBlock:",
+            "flag": "method.VideoTranscodingTask.transitionToRunningStateAndConditionallyRunBlock:",
+            "lang": "objc",
+            "addr": 4295061916
+          },
+          {
+            "name": "hasSlowMotionAdjustments",
+            "flag": "method.VideoTranscodingTask.hasSlowMotionAdjustments",
+            "lang": "objc",
+            "addr": 4295061808
+          },
+          {
+            "name": "callCompletionHandler",
+            "flag": "method.VideoTranscodingTask.callCompletionHandler",
+            "lang": "objc",
+            "addr": 4295061732
+          },
+          {
+            "name": "startProgressUpdateTimerAndMarkStartTime",
+            "flag": "method.VideoTranscodingTask.startProgressUpdateTimerAndMarkStartTime",
+            "lang": "objc",
+            "addr": 4295061012
+          },
+          {
+            "name": "cancelProgressUpdateTimerAndMarkEndTime",
+            "flag": "method.VideoTranscodingTask.cancelProgressUpdateTimerAndMarkEndTime",
+            "lang": "objc",
+            "addr": 4295060780
+          },
+          {
+            "name": "outputAssetInformationWithError:",
+            "flag": "method.VideoTranscodingTask.outputAssetInformationWithError:",
+            "lang": "objc",
+            "addr": 4295059308
+          },
+          {
+            "name": "hangDetector",
+            "flag": "method.VideoTranscodingTask.hangDetector",
+            "lang": "objc",
+            "addr": 4295059292
+          },
+          {
+            "name": "setHangDetector:",
+            "flag": "method.VideoTranscodingTask.setHangDetector:",
+            "lang": "objc",
+            "addr": 4295059280
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.VideoTranscodingTask..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295059260
+          },
+          {
+            "name": "signatureOptionToIdentifierMapping",
+            "flag": "method.class.VideoTranscodingTask.signatureOptionToIdentifierMapping",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295065604
+          },
+          {
+            "name": "metadataItemsByApplyingSignatureMetadataFromOptions:toMetadataItems:",
+            "flag": "method.class.VideoTranscodingTask.metadataItemsByApplyingSignatureMetadataFromOptions:toMetadataItems:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295064800
+          },
+          {
+            "name": "shouldMaximizeVideoConversionPowerEfficiencyForOptions:inputAssetDuration:taskIdentifier:",
+            "flag": "method.class.VideoTranscodingTask.shouldMaximizeVideoConversionPowerEfficiencyForOptions:inputAssetDuration:taskIdentifier:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295064152
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_hangDetector",
+            "kind": "var",
+            "type": "@\"VideoConversionHangDetector\"",
+            "addr": 4295247216
+          },
+          {
+            "name": "hangDetector",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "PhotosAdjustmentsVideoTranscodingTask",
+        "addr": 4295248208,
+        "lang": "objc",
+        "index": 12,
+        "super": [
+          "VideoTranscodingTask",
+          "VideoTranscodingTask"
+        ],
+        "rawsuper": [
+          "VideoTranscodingTask",
+          "VideoTranscodingTask"
+        ],
+        "methods": [
+          {
+            "name": "performExport",
+            "flag": "method.PhotosAdjustmentsVideoTranscodingTask.performExport",
+            "lang": "objc",
+            "addr": 4295067860
+          },
+          {
+            "name": "photosAdjustmentsExporterCompletionHandler",
+            "flag": "method.PhotosAdjustmentsVideoTranscodingTask.photosAdjustmentsExporterCompletionHandler",
+            "lang": "objc",
+            "addr": 4295066912
+          },
+          {
+            "name": "hasProgress",
+            "flag": "method.PhotosAdjustmentsVideoTranscodingTask.hasProgress",
+            "lang": "objc",
+            "addr": 4295066856
+          },
+          {
+            "name": "currentFractionCompleted",
+            "flag": "method.PhotosAdjustmentsVideoTranscodingTask.currentFractionCompleted",
+            "lang": "objc",
+            "addr": 4295066784
+          },
+          {
+            "name": "cancelTranscode",
+            "flag": "method.PhotosAdjustmentsVideoTranscodingTask.cancelTranscode",
+            "lang": "objc",
+            "addr": 4295066616
+          },
+          {
+            "name": "dumpStatistics",
+            "flag": "method.PhotosAdjustmentsVideoTranscodingTask.dumpStatistics",
+            "lang": "objc",
+            "addr": 4295066104
+          },
+          {
+            "name": "photosAdjustmentsCompositionExporter",
+            "flag": "method.PhotosAdjustmentsVideoTranscodingTask.photosAdjustmentsCompositionExporter",
+            "lang": "objc",
+            "addr": 4295066088
+          },
+          {
+            "name": "setPhotosAdjustmentsCompositionExporter:",
+            "flag": "method.PhotosAdjustmentsVideoTranscodingTask.setPhotosAdjustmentsCompositionExporter:",
+            "lang": "objc",
+            "addr": 4295066076
+          },
+          {
+            "name": "progress",
+            "flag": "method.PhotosAdjustmentsVideoTranscodingTask.progress",
+            "lang": "objc",
+            "addr": 4295066060
+          },
+          {
+            "name": "setProgress:",
+            "flag": "method.PhotosAdjustmentsVideoTranscodingTask.setProgress:",
+            "lang": "objc",
+            "addr": 4295066048
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.PhotosAdjustmentsVideoTranscodingTask..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295065964
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_photosAdjustmentsCompositionExporter",
+            "kind": "var",
+            "type": "@\"PICompositionExporter\"",
+            "addr": 4295247220
+          },
+          {
+            "name": "_progress",
+            "kind": "var",
+            "type": "@\"NSProgress\"",
+            "addr": 4295247224
+          },
+          {
+            "name": "photosAdjustmentsCompositionExporter",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "progress",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "ExportSessionVideoTranscodingTask",
+        "addr": 4295248288,
+        "lang": "objc",
+        "index": 13,
+        "super": [
+          "VideoTranscodingTask",
+          "VideoTranscodingTask"
+        ],
+        "rawsuper": [
+          "VideoTranscodingTask",
+          "VideoTranscodingTask"
+        ],
+        "methods": [
+          {
+            "name": "performExport",
+            "flag": "method.ExportSessionVideoTranscodingTask.performExport",
+            "lang": "objc",
+            "addr": 4295078852
+          },
+          {
+            "name": "configureOutputForExportSession:outputFileType:",
+            "flag": "method.ExportSessionVideoTranscodingTask.configureOutputForExportSession:outputFileType:",
+            "lang": "objc",
+            "addr": 4295078728
+          },
+          {
+            "name": "startExportSession:",
+            "flag": "method.ExportSessionVideoTranscodingTask.startExportSession:",
+            "lang": "objc",
+            "addr": 4295078480
+          },
+          {
+            "name": "exportSessionCompletionHandler",
+            "flag": "method.ExportSessionVideoTranscodingTask.exportSessionCompletionHandler",
+            "lang": "objc",
+            "addr": 4295077288
+          },
+          {
+            "name": "hasProgress",
+            "flag": "method.ExportSessionVideoTranscodingTask.hasProgress",
+            "lang": "objc",
+            "addr": 4295077232
+          },
+          {
+            "name": "currentFractionCompleted",
+            "flag": "method.ExportSessionVideoTranscodingTask.currentFractionCompleted",
+            "lang": "objc",
+            "addr": 4295077160
+          },
+          {
+            "name": "cancelTranscode",
+            "flag": "method.ExportSessionVideoTranscodingTask.cancelTranscode",
+            "lang": "objc",
+            "addr": 4295076992
+          },
+          {
+            "name": "performPassthroughConversion",
+            "flag": "method.ExportSessionVideoTranscodingTask.performPassthroughConversion",
+            "lang": "objc",
+            "addr": 4295076760
+          },
+          {
+            "name": "performMetadataTrackExtractionConversion",
+            "flag": "method.ExportSessionVideoTranscodingTask.performMetadataTrackExtractionConversion",
+            "lang": "objc",
+            "addr": 4295075244
+          },
+          {
+            "name": "exportSessionForInputAsset:presetName:",
+            "flag": "method.ExportSessionVideoTranscodingTask.exportSessionForInputAsset:presetName:",
+            "lang": "objc",
+            "addr": 4295074724
+          },
+          {
+            "name": "addOutputMetadataFromOptionsAndInputAsset:toExportSession:",
+            "flag": "method.ExportSessionVideoTranscodingTask.addOutputMetadataFromOptionsAndInputAsset:toExportSession:",
+            "lang": "objc",
+            "addr": 4295074488
+          },
+          {
+            "name": "metadataItemsFromOptionsAndInputAsset:",
+            "flag": "method.ExportSessionVideoTranscodingTask.metadataItemsFromOptionsAndInputAsset:",
+            "lang": "objc",
+            "addr": 4295072284
+          },
+          {
+            "name": "exportPresetName",
+            "flag": "method.ExportSessionVideoTranscodingTask.exportPresetName",
+            "lang": "objc",
+            "addr": 4295072164
+          },
+          {
+            "name": "outputFileTypeForExportSession:",
+            "flag": "method.ExportSessionVideoTranscodingTask.outputFileTypeForExportSession:",
+            "lang": "objc",
+            "addr": 4295071644
+          },
+          {
+            "name": "dumpStatistics",
+            "flag": "method.ExportSessionVideoTranscodingTask.dumpStatistics",
+            "lang": "objc",
+            "addr": 4295071092
+          },
+          {
+            "name": "exportSession",
+            "flag": "method.ExportSessionVideoTranscodingTask.exportSession",
+            "lang": "objc",
+            "addr": 4295071076
+          },
+          {
+            "name": "setExportSession:",
+            "flag": "method.ExportSessionVideoTranscodingTask.setExportSession:",
+            "lang": "objc",
+            "addr": 4295071064
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.ExportSessionVideoTranscodingTask..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295071044
+          },
+          {
+            "name": "videoDateFormatter",
+            "flag": "method.class.ExportSessionVideoTranscodingTask.videoDateFormatter",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295070876
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_exportSession",
+            "kind": "var",
+            "type": "@\"AVAssetExportSession\"",
+            "addr": 4295247228
+          },
+          {
+            "name": "exportSession",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "SinglePassVideoTranscodingTask",
+        "addr": 4295248368,
+        "lang": "objc",
+        "index": 14,
+        "super": [
+          "VideoTranscodingTask",
+          "VideoTranscodingTask"
+        ],
+        "rawsuper": [
+          "VideoTranscodingTask",
+          "VideoTranscodingTask"
+        ],
+        "methods": [
+          {
+            "name": "performExport",
+            "flag": "method.SinglePassVideoTranscodingTask.performExport",
+            "lang": "objc",
+            "addr": 4295081456
+          },
+          {
+            "name": "hasProgress",
+            "flag": "method.SinglePassVideoTranscodingTask.hasProgress",
+            "lang": "objc",
+            "addr": 4295081400
+          },
+          {
+            "name": "currentFractionCompleted",
+            "flag": "method.SinglePassVideoTranscodingTask.currentFractionCompleted",
+            "lang": "objc",
+            "addr": 4295081304
+          },
+          {
+            "name": "cancelTranscode",
+            "flag": "method.SinglePassVideoTranscodingTask.cancelTranscode",
+            "lang": "objc",
+            "addr": 4295081088
+          },
+          {
+            "name": "singlePassExportItem",
+            "flag": "method.SinglePassVideoTranscodingTask.singlePassExportItem",
+            "lang": "objc",
+            "addr": 4295081072
+          },
+          {
+            "name": "setSinglePassExportItem:",
+            "flag": "method.SinglePassVideoTranscodingTask.setSinglePassExportItem:",
+            "lang": "objc",
+            "addr": 4295081060
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.SinglePassVideoTranscodingTask..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295081040
+          },
+          {
+            "name": "supportsDeduplication",
+            "flag": "method.class.SinglePassVideoTranscodingTask.supportsDeduplication",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295081032
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_singlePassExportItem",
+            "kind": "var",
+            "type": "@\"PFSinglePassVideoExportItem\"",
+            "addr": 4295247232
+          },
+          {
+            "name": "singlePassExportItem",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "GIFExportVideoTranscodingTask",
+        "addr": 4295248448,
+        "lang": "objc",
+        "index": 15,
+        "super": [
+          "VideoTranscodingTask",
+          "VideoTranscodingTask"
+        ],
+        "rawsuper": [
+          "VideoTranscodingTask",
+          "VideoTranscodingTask"
+        ],
+        "methods": [
+          {
+            "name": "performExport",
+            "flag": "method.GIFExportVideoTranscodingTask.performExport",
+            "lang": "objc",
+            "addr": 4295085196
+          },
+          {
+            "name": "hasProgress",
+            "flag": "method.GIFExportVideoTranscodingTask.hasProgress",
+            "lang": "objc",
+            "addr": 4295085140
+          },
+          {
+            "name": "currentFractionCompleted",
+            "flag": "method.GIFExportVideoTranscodingTask.currentFractionCompleted",
+            "lang": "objc",
+            "addr": 4295085068
+          },
+          {
+            "name": "cancelTranscode",
+            "flag": "method.GIFExportVideoTranscodingTask.cancelTranscode",
+            "lang": "objc",
+            "addr": 4295084900
+          },
+          {
+            "name": "progress",
+            "flag": "method.GIFExportVideoTranscodingTask.progress",
+            "lang": "objc",
+            "addr": 4295084884
+          },
+          {
+            "name": "setProgress:",
+            "flag": "method.GIFExportVideoTranscodingTask.setProgress:",
+            "lang": "objc",
+            "addr": 4295084872
+          },
+          {
+            "name": "exportGIFRequest",
+            "flag": "method.GIFExportVideoTranscodingTask.exportGIFRequest",
+            "lang": "objc",
+            "addr": 4295084856
+          },
+          {
+            "name": "setExportGIFRequest:",
+            "flag": "method.GIFExportVideoTranscodingTask.setExportGIFRequest:",
+            "lang": "objc",
+            "addr": 4295084844
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.GIFExportVideoTranscodingTask..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295084760
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_progress",
+            "kind": "var",
+            "type": "@\"NSProgress\"",
+            "addr": 4295247236
+          },
+          {
+            "name": "_exportGIFRequest",
+            "kind": "var",
+            "type": "@\"PFExportGIFRequest\"",
+            "addr": 4295247240
+          },
+          {
+            "name": "progress",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "exportGIFRequest",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "VideoStillImageExtractionTask",
+        "addr": 4295248568,
+        "lang": "objc",
+        "index": 16,
+        "super": [
+          "VideoConversionTask",
+          "VideoConversionTask"
+        ],
+        "rawsuper": [
+          "VideoConversionTask",
+          "VideoConversionTask"
+        ],
+        "methods": [
+          {
+            "name": "performConversion",
+            "flag": "method.VideoStillImageExtractionTask.performConversion",
+            "lang": "objc",
+            "addr": 4295089228
+          },
+          {
+            "name": "extractStillImage",
+            "flag": "method.VideoStillImageExtractionTask.extractStillImage",
+            "lang": "objc",
+            "addr": 4295086868
+          },
+          {
+            "name": "posterFrameScaleFactorForCGImage:",
+            "flag": "method.VideoStillImageExtractionTask.posterFrameScaleFactorForCGImage:",
+            "lang": "objc",
+            "addr": 4295086440
+          },
+          {
+            "name": "storeImage",
+            "flag": "method.VideoStillImageExtractionTask.storeImage",
+            "lang": "objc",
+            "addr": 4295085680
+          },
+          {
+            "name": "imageData",
+            "flag": "method.VideoStillImageExtractionTask.imageData",
+            "lang": "objc",
+            "addr": 4295085664
+          },
+          {
+            "name": "setImageData:",
+            "flag": "method.VideoStillImageExtractionTask.setImageData:",
+            "lang": "objc",
+            "addr": 4295085652
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.VideoStillImageExtractionTask..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295085632
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_imageData",
+            "kind": "var",
+            "type": "@\"NSData\"",
+            "addr": 4295247244
+          },
+          {
+            "name": "imageData",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "VideoConversionService",
+        "addr": 4295248728,
+        "lang": "objc",
+        "index": 17,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.VideoConversionService.init",
+            "lang": "objc",
+            "addr": 4295099468
+          },
+          {
+            "name": "run",
+            "flag": "method.VideoConversionService.run",
+            "lang": "objc",
+            "addr": 4295099312
+          },
+          {
+            "name": "validateRequestIdentifier:replyHandler:",
+            "flag": "method.VideoConversionService.validateRequestIdentifier:replyHandler:",
+            "lang": "objc",
+            "addr": 4295098872
+          },
+          {
+            "name": "performConversionOfClass:forSourceBookmarkDictionary:destinationBookmarkDictionary:options:replyHandler:",
+            "flag": "method.VideoConversionService.performConversionOfClass:forSourceBookmarkDictionary:destinationBookmarkDictionary:options:replyHandler:",
+            "lang": "objc",
+            "addr": 4295096360
+          },
+          {
+            "name": "optionsRequirePhotosAdjustmentProcessing:",
+            "flag": "method.VideoConversionService.optionsRequirePhotosAdjustmentProcessing:",
+            "lang": "objc",
+            "addr": 4295096292
+          },
+          {
+            "name": "conversionQueue:didCancelQueuedEntry:clientRequests:",
+            "flag": "method.VideoConversionService.conversionQueue:didCancelQueuedEntry:clientRequests:",
+            "lang": "objc",
+            "addr": 4295095396
+          },
+          {
+            "name": "conversionQueue:processNextEntry:",
+            "flag": "method.VideoConversionService.conversionQueue:processNextEntry:",
+            "lang": "objc",
+            "addr": 4295093796
+          },
+          {
+            "name": "conversionQueue:cancelCurrentlyProcessingEntry:",
+            "flag": "method.VideoConversionService.conversionQueue:cancelCurrentlyProcessingEntry:",
+            "lang": "objc",
+            "addr": 4295093464
+          },
+          {
+            "name": "echo:reply:",
+            "flag": "method.VideoConversionService.echo:reply:",
+            "lang": "objc",
+            "addr": 4295093340
+          },
+          {
+            "name": "convertVideoAtSourceBookmarkDictionary:toDestinationBookmarkDictionary:options:replyHandler:",
+            "flag": "method.VideoConversionService.convertVideoAtSourceBookmarkDictionary:toDestinationBookmarkDictionary:options:replyHandler:",
+            "lang": "objc",
+            "addr": 4295093116
+          },
+          {
+            "name": "generateGIFForVideoAtSourceBookmarkDictionary:toDestinationBookmarkDictionary:options:replyHandler:",
+            "flag": "method.VideoConversionService.generateGIFForVideoAtSourceBookmarkDictionary:toDestinationBookmarkDictionary:options:replyHandler:",
+            "lang": "objc",
+            "addr": 4295092920
+          },
+          {
+            "name": "singlePassConvertVideoAtSourceBookmarkDictionary:toDestinationBookmarkDictionary:options:replyHandler:",
+            "flag": "method.VideoConversionService.singlePassConvertVideoAtSourceBookmarkDictionary:toDestinationBookmarkDictionary:options:replyHandler:",
+            "lang": "objc",
+            "addr": 4295092724
+          },
+          {
+            "name": "extractStillImageFromVideoAtSourceBookmarkDictionary:toDestinationBookmarkDictionary:options:replyHandler:",
+            "flag": "method.VideoConversionService.extractStillImageFromVideoAtSourceBookmarkDictionary:toDestinationBookmarkDictionary:options:replyHandler:",
+            "lang": "objc",
+            "addr": 4295092528
+          },
+          {
+            "name": "modifyJobWithIdentifier:modifications:",
+            "flag": "method.VideoConversionService.modifyJobWithIdentifier:modifications:",
+            "lang": "objc",
+            "addr": 4295091244
+          },
+          {
+            "name": "cancelJobWithIdentifier:",
+            "flag": "method.VideoConversionService.cancelJobWithIdentifier:",
+            "lang": "objc",
+            "addr": 4295091236
+          },
+          {
+            "name": "cancelJobsForConnectionWithIdentifier:",
+            "flag": "method.VideoConversionService.cancelJobsForConnectionWithIdentifier:",
+            "lang": "objc",
+            "addr": 4295091152
+          },
+          {
+            "name": "requestStatusWithReply:",
+            "flag": "method.VideoConversionService.requestStatusWithReply:",
+            "lang": "objc",
+            "addr": 4295090916
+          },
+          {
+            "name": "listener:shouldAcceptNewConnection:",
+            "flag": "method.VideoConversionService.listener:shouldAcceptNewConnection:",
+            "lang": "objc",
+            "addr": 4295090080
+          },
+          {
+            "name": "connectionTerminationEventHandlerForConnectionIdentifier:eventDescription:",
+            "flag": "method.VideoConversionService.connectionTerminationEventHandlerForConnectionIdentifier:eventDescription:",
+            "lang": "objc",
+            "addr": 4295089436
+          },
+          {
+            "name": "listener",
+            "flag": "method.VideoConversionService.listener",
+            "lang": "objc",
+            "addr": 4295089424
+          },
+          {
+            "name": "setListener:",
+            "flag": "method.VideoConversionService.setListener:",
+            "lang": "objc",
+            "addr": 4295089416
+          },
+          {
+            "name": "requestQueue",
+            "flag": "method.VideoConversionService.requestQueue",
+            "lang": "objc",
+            "addr": 4295089404
+          },
+          {
+            "name": "setRequestQueue:",
+            "flag": "method.VideoConversionService.setRequestQueue:",
+            "lang": "objc",
+            "addr": 4295089396
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.VideoConversionService..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295089328
+          },
+          {
+            "name": "run",
+            "flag": "method.class.VideoConversionService.run",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295099920
+          },
+          {
+            "name": "resourceURLCollectionForDestinationBookmarkDictionary:error:",
+            "flag": "method.class.VideoConversionService.resourceURLCollectionForDestinationBookmarkDictionary:error:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295099608
+          },
+          {
+            "name": "_forceCrashAfterVideoConversionHangDetectedWithMarker",
+            "flag": "method.class.VideoConversionService._forceCrashAfterVideoConversionHangDetectedWithMarker",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295099580
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_listener",
+            "kind": "var",
+            "type": "@\"NSXPCListener\"",
+            "addr": 4295247248
+          },
+          {
+            "name": "_requestQueue",
+            "kind": "var",
+            "type": "@\"MediaConversionQueue\"",
+            "addr": 4295247252
+          },
+          {
+            "name": "listener",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "requestQueue",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "MediaConversionRequestTracker",
+        "addr": 4295248848,
+        "lang": "objc",
+        "index": 18,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithRequestOptions:requestNumber:",
+            "flag": "method.MediaConversionRequestTracker.initWithRequestOptions:requestNumber:",
+            "lang": "objc",
+            "addr": 4295115324
+          },
+          {
+            "name": "setupPerfCheck",
+            "flag": "method.MediaConversionRequestTracker.setupPerfCheck",
+            "lang": "objc",
+            "addr": 4295114928
+          },
+          {
+            "name": "setupCoreImageGraphDumpCapture",
+            "flag": "method.MediaConversionRequestTracker.setupCoreImageGraphDumpCapture",
+            "lang": "objc",
+            "addr": 4295114808
+          },
+          {
+            "name": "requestIdentifier",
+            "flag": "method.MediaConversionRequestTracker.requestIdentifier",
+            "lang": "objc",
+            "addr": 4295114712
+          },
+          {
+            "name": "shouldDump",
+            "flag": "method.MediaConversionRequestTracker.shouldDump",
+            "lang": "objc",
+            "addr": 4295114632
+          },
+          {
+            "name": "compare:",
+            "flag": "method.MediaConversionRequestTracker.compare:",
+            "lang": "objc",
+            "addr": 4295114432
+          },
+          {
+            "name": "cacheSourceBookmarkCollectionSignatureAndFilename",
+            "flag": "method.MediaConversionRequestTracker.cacheSourceBookmarkCollectionSignatureAndFilename",
+            "lang": "objc",
+            "addr": 4295114164
+          },
+          {
+            "name": "sourceURLFilenameOnlySummary",
+            "flag": "method.MediaConversionRequestTracker.sourceURLFilenameOnlySummary",
+            "lang": "objc",
+            "addr": 4295114096
+          },
+          {
+            "name": "sourceURLCollectionSignature",
+            "flag": "method.MediaConversionRequestTracker.sourceURLCollectionSignature",
+            "lang": "objc",
+            "addr": 4295114028
+          },
+          {
+            "name": "cacheDestinationBookmarkCollectionSignature",
+            "flag": "method.MediaConversionRequestTracker.cacheDestinationBookmarkCollectionSignature",
+            "lang": "objc",
+            "addr": 4295113776
+          },
+          {
+            "name": "destinationURLsSignature",
+            "flag": "method.MediaConversionRequestTracker.destinationURLsSignature",
+            "lang": "objc",
+            "addr": 4295113768
+          },
+          {
+            "name": "requestOptionsSignatureString",
+            "flag": "method.MediaConversionRequestTracker.requestOptionsSignatureString",
+            "lang": "objc",
+            "addr": 4295113384
+          },
+          {
+            "name": "isDuplicateOfRequestWithRequestTracker:identicalDestinationURL:",
+            "flag": "method.MediaConversionRequestTracker.isDuplicateOfRequestWithRequestTracker:identicalDestinationURL:",
+            "lang": "objc",
+            "addr": 4295112536
+          },
+          {
+            "name": "copyDuplicateRequestOutputFromOriginalRequestTracker:error:",
+            "flag": "method.MediaConversionRequestTracker.copyDuplicateRequestOutputFromOriginalRequestTracker:error:",
+            "lang": "objc",
+            "addr": 4295110948
+          },
+          {
+            "name": "hashForObject:",
+            "flag": "method.MediaConversionRequestTracker.hashForObject:",
+            "lang": "objc",
+            "addr": 4295109988
+          },
+          {
+            "name": "_valueIsSimpleScalarType:",
+            "flag": "method.MediaConversionRequestTracker._valueIsSimpleScalarType:",
+            "lang": "objc",
+            "addr": 4295109816
+          },
+          {
+            "name": "didDequeueAndStartProcessingRequest",
+            "flag": "method.MediaConversionRequestTracker.didDequeueAndStartProcessingRequest",
+            "lang": "objc",
+            "addr": 4295109424
+          },
+          {
+            "name": "markAsCompletedWithInitialRequestIdentifier:",
+            "flag": "method.MediaConversionRequestTracker.markAsCompletedWithInitialRequestIdentifier:",
+            "lang": "objc",
+            "addr": 4295108680
+          },
+          {
+            "name": "didCompleteRequest",
+            "flag": "method.MediaConversionRequestTracker.didCompleteRequest",
+            "lang": "objc",
+            "addr": 4295107672
+          },
+          {
+            "name": "requestCompletionPerfCheckExtraInformation",
+            "flag": "method.MediaConversionRequestTracker.requestCompletionPerfCheckExtraInformation",
+            "lang": "objc",
+            "addr": 4295106984
+          },
+          {
+            "name": "requestCompletionPerfCheckExtraInformationLogString",
+            "flag": "method.MediaConversionRequestTracker.requestCompletionPerfCheckExtraInformationLogString",
+            "lang": "objc",
+            "addr": 4295106640
+          },
+          {
+            "name": "storeDebugDump",
+            "flag": "method.MediaConversionRequestTracker.storeDebugDump",
+            "lang": "objc",
+            "addr": 4295105256
+          },
+          {
+            "name": "copyCoreImageGraphDumpsToURL:",
+            "flag": "method.MediaConversionRequestTracker.copyCoreImageGraphDumpsToURL:",
+            "lang": "objc",
+            "addr": 4295104592
+          },
+          {
+            "name": "graphDumpURLsForCurrentProcessIdentifier",
+            "flag": "method.MediaConversionRequestTracker.graphDumpURLsForCurrentProcessIdentifier",
+            "lang": "objc",
+            "addr": 4295103468
+          },
+          {
+            "name": "addCoreImageGraphDumpPath:",
+            "flag": "method.MediaConversionRequestTracker.addCoreImageGraphDumpPath:",
+            "lang": "objc",
+            "addr": 4295103348
+          },
+          {
+            "name": "storeDebugDumpInputInformationToURL:updatingDebugInformation:",
+            "flag": "method.MediaConversionRequestTracker.storeDebugDumpInputInformationToURL:updatingDebugInformation:",
+            "lang": "objc",
+            "addr": 4295102572
+          },
+          {
+            "name": "dumpResourceURLCollection:toParentDirectory:directoryName:updatingDebugInformation:",
+            "flag": "method.MediaConversionRequestTracker.dumpResourceURLCollection:toParentDirectory:directoryName:updatingDebugInformation:",
+            "lang": "objc",
+            "addr": 4295102072
+          },
+          {
+            "name": "storeDebugDumpOutputInformationToURL:updatingDebugInformation:",
+            "flag": "method.MediaConversionRequestTracker.storeDebugDumpOutputInformationToURL:updatingDebugInformation:",
+            "lang": "objc",
+            "addr": 4295100744
+          },
+          {
+            "name": "sourceURLCollection",
+            "flag": "method.MediaConversionRequestTracker.sourceURLCollection",
+            "lang": "objc",
+            "addr": 4295100732
+          },
+          {
+            "name": "setSourceURLCollection:",
+            "flag": "method.MediaConversionRequestTracker.setSourceURLCollection:",
+            "lang": "objc",
+            "addr": 4295100724
+          },
+          {
+            "name": "destinationURLCollection",
+            "flag": "method.MediaConversionRequestTracker.destinationURLCollection",
+            "lang": "objc",
+            "addr": 4295100712
+          },
+          {
+            "name": "setDestinationURLCollection:",
+            "flag": "method.MediaConversionRequestTracker.setDestinationURLCollection:",
+            "lang": "objc",
+            "addr": 4295100704
+          },
+          {
+            "name": "outputData",
+            "flag": "method.MediaConversionRequestTracker.outputData",
+            "lang": "objc",
+            "addr": 4295100692
+          },
+          {
+            "name": "setOutputData:",
+            "flag": "method.MediaConversionRequestTracker.setOutputData:",
+            "lang": "objc",
+            "addr": 4295100684
+          },
+          {
+            "name": "outputTypeIdentifier",
+            "flag": "method.MediaConversionRequestTracker.outputTypeIdentifier",
+            "lang": "objc",
+            "addr": 4295100672
+          },
+          {
+            "name": "setOutputTypeIdentifier:",
+            "flag": "method.MediaConversionRequestTracker.setOutputTypeIdentifier:",
+            "lang": "objc",
+            "addr": 4295100664
+          },
+          {
+            "name": "outputURL",
+            "flag": "method.MediaConversionRequestTracker.outputURL",
+            "lang": "objc",
+            "addr": 4295100652
+          },
+          {
+            "name": "setOutputURL:",
+            "flag": "method.MediaConversionRequestTracker.setOutputURL:",
+            "lang": "objc",
+            "addr": 4295100644
+          },
+          {
+            "name": "outputInformation",
+            "flag": "method.MediaConversionRequestTracker.outputInformation",
+            "lang": "objc",
+            "addr": 4295100632
+          },
+          {
+            "name": "setOutputInformation:",
+            "flag": "method.MediaConversionRequestTracker.setOutputInformation:",
+            "lang": "objc",
+            "addr": 4295100624
+          },
+          {
+            "name": "serviceInformation",
+            "flag": "method.MediaConversionRequestTracker.serviceInformation",
+            "lang": "objc",
+            "addr": 4295100612
+          },
+          {
+            "name": "setServiceInformation:",
+            "flag": "method.MediaConversionRequestTracker.setServiceInformation:",
+            "lang": "objc",
+            "addr": 4295100604
+          },
+          {
+            "name": "error",
+            "flag": "method.MediaConversionRequestTracker.error",
+            "lang": "objc",
+            "addr": 4295100592
+          },
+          {
+            "name": "setError:",
+            "flag": "method.MediaConversionRequestTracker.setError:",
+            "lang": "objc",
+            "addr": 4295100584
+          },
+          {
+            "name": "enqueueTime",
+            "flag": "method.MediaConversionRequestTracker.enqueueTime",
+            "lang": "objc",
+            "addr": 4295100572
+          },
+          {
+            "name": "setEnqueueTime:",
+            "flag": "method.MediaConversionRequestTracker.setEnqueueTime:",
+            "lang": "objc",
+            "addr": 4295100564
+          },
+          {
+            "name": "dequeueAndStartProcessingTime",
+            "flag": "method.MediaConversionRequestTracker.dequeueAndStartProcessingTime",
+            "lang": "objc",
+            "addr": 4295100552
+          },
+          {
+            "name": "setDequeueAndStartProcessingTime:",
+            "flag": "method.MediaConversionRequestTracker.setDequeueAndStartProcessingTime:",
+            "lang": "objc",
+            "addr": 4295100544
+          },
+          {
+            "name": "endTime",
+            "flag": "method.MediaConversionRequestTracker.endTime",
+            "lang": "objc",
+            "addr": 4295100532
+          },
+          {
+            "name": "setEndTime:",
+            "flag": "method.MediaConversionRequestTracker.setEndTime:",
+            "lang": "objc",
+            "addr": 4295100524
+          },
+          {
+            "name": "effectivePriority",
+            "flag": "method.MediaConversionRequestTracker.effectivePriority",
+            "lang": "objc",
+            "addr": 4295100516
+          },
+          {
+            "name": "setEffectivePriority:",
+            "flag": "method.MediaConversionRequestTracker.setEffectivePriority:",
+            "lang": "objc",
+            "addr": 4295100508
+          },
+          {
+            "name": "coreImageGraphDumpPaths",
+            "flag": "method.MediaConversionRequestTracker.coreImageGraphDumpPaths",
+            "lang": "objc",
+            "addr": 4295100496
+          },
+          {
+            "name": "setCoreImageGraphDumpPaths:",
+            "flag": "method.MediaConversionRequestTracker.setCoreImageGraphDumpPaths:",
+            "lang": "objc",
+            "addr": 4295100488
+          },
+          {
+            "name": "signpostId",
+            "flag": "method.MediaConversionRequestTracker.signpostId",
+            "lang": "objc",
+            "addr": 4295100480
+          },
+          {
+            "name": "setSignpostId:",
+            "flag": "method.MediaConversionRequestTracker.setSignpostId:",
+            "lang": "objc",
+            "addr": 4295100472
+          },
+          {
+            "name": "requestNumber",
+            "flag": "method.MediaConversionRequestTracker.requestNumber",
+            "lang": "objc",
+            "addr": 4295100464
+          },
+          {
+            "name": "setRequestNumber:",
+            "flag": "method.MediaConversionRequestTracker.setRequestNumber:",
+            "lang": "objc",
+            "addr": 4295100456
+          },
+          {
+            "name": "clientProcessIdentifier",
+            "flag": "method.MediaConversionRequestTracker.clientProcessIdentifier",
+            "lang": "objc",
+            "addr": 4295100448
+          },
+          {
+            "name": "setClientProcessIdentifier:",
+            "flag": "method.MediaConversionRequestTracker.setClientProcessIdentifier:",
+            "lang": "objc",
+            "addr": 4295100440
+          },
+          {
+            "name": "requestOptions",
+            "flag": "method.MediaConversionRequestTracker.requestOptions",
+            "lang": "objc",
+            "addr": 4295100428
+          },
+          {
+            "name": "setRequestOptions:",
+            "flag": "method.MediaConversionRequestTracker.setRequestOptions:",
+            "lang": "objc",
+            "addr": 4295100420
+          },
+          {
+            "name": "debugDumpDirectoryURL",
+            "flag": "method.MediaConversionRequestTracker.debugDumpDirectoryURL",
+            "lang": "objc",
+            "addr": 4295100408
+          },
+          {
+            "name": "setDebugDumpDirectoryURL:",
+            "flag": "method.MediaConversionRequestTracker.setDebugDumpDirectoryURL:",
+            "lang": "objc",
+            "addr": 4295100400
+          },
+          {
+            "name": "transaction",
+            "flag": "method.MediaConversionRequestTracker.transaction",
+            "lang": "objc",
+            "addr": 4295100388
+          },
+          {
+            "name": "setTransaction:",
+            "flag": "method.MediaConversionRequestTracker.setTransaction:",
+            "lang": "objc",
+            "addr": 4295100380
+          },
+          {
+            "name": "pc_session",
+            "flag": "method.MediaConversionRequestTracker.pc_session",
+            "lang": "objc",
+            "addr": 4295100372
+          },
+          {
+            "name": "setPc_session:",
+            "flag": "method.MediaConversionRequestTracker.setPc_session:",
+            "lang": "objc",
+            "addr": 4295100364
+          },
+          {
+            "name": "initialProcessMemoryPeak",
+            "flag": "method.MediaConversionRequestTracker.initialProcessMemoryPeak",
+            "lang": "objc",
+            "addr": 4295100356
+          },
+          {
+            "name": "setInitialProcessMemoryPeak:",
+            "flag": "method.MediaConversionRequestTracker.setInitialProcessMemoryPeak:",
+            "lang": "objc",
+            "addr": 4295100348
+          },
+          {
+            "name": "cachedPerfCheckInformation",
+            "flag": "method.MediaConversionRequestTracker.cachedPerfCheckInformation",
+            "lang": "objc",
+            "addr": 4295100336
+          },
+          {
+            "name": "setCachedPerfCheckInformation:",
+            "flag": "method.MediaConversionRequestTracker.setCachedPerfCheckInformation:",
+            "lang": "objc",
+            "addr": 4295100328
+          },
+          {
+            "name": "coreImageGraphDumpURLsAtStart",
+            "flag": "method.MediaConversionRequestTracker.coreImageGraphDumpURLsAtStart",
+            "lang": "objc",
+            "addr": 4295100316
+          },
+          {
+            "name": "setCoreImageGraphDumpURLsAtStart:",
+            "flag": "method.MediaConversionRequestTracker.setCoreImageGraphDumpURLsAtStart:",
+            "lang": "objc",
+            "addr": 4295100308
+          },
+          {
+            "name": "originalRequestIdentifier",
+            "flag": "method.MediaConversionRequestTracker.originalRequestIdentifier",
+            "lang": "objc",
+            "addr": 4295100296
+          },
+          {
+            "name": "setOriginalRequestIdentifier:",
+            "flag": "method.MediaConversionRequestTracker.setOriginalRequestIdentifier:",
+            "lang": "objc",
+            "addr": 4295100288
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.MediaConversionRequestTracker..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295099980
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_cachedRequestOptionsSignature",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295247256
+          },
+          {
+            "name": "_cachedSourceURLFilenameOnlySummary",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295247260
+          },
+          {
+            "name": "_cachedSourceURLCollectionSignature",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295247264
+          },
+          {
+            "name": "_cachedDestinationURLCollectionSignature",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295247268
+          },
+          {
+            "name": "_clientProcessIdentifier",
+            "kind": "var",
+            "type": "i",
+            "addr": 4295247272
+          },
+          {
+            "name": "_sourceURLCollection",
+            "kind": "var",
+            "type": "@\"PAMediaConversionServiceResourceURLCollection\"",
+            "addr": 4295247276
+          },
+          {
+            "name": "_destinationURLCollection",
+            "kind": "var",
+            "type": "@\"PAMediaConversionServiceResourceURLCollection\"",
+            "addr": 4295247280
+          },
+          {
+            "name": "_outputData",
+            "kind": "var",
+            "type": "@\"NSData\"",
+            "addr": 4295247284
+          },
+          {
+            "name": "_outputTypeIdentifier",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295247288
+          },
+          {
+            "name": "_outputURL",
+            "kind": "var",
+            "type": "@\"NSURL\"",
+            "addr": 4295247292
+          },
+          {
+            "name": "_outputInformation",
+            "kind": "var",
+            "type": "@\"NSDictionary\"",
+            "addr": 4295247296
+          },
+          {
+            "name": "_serviceInformation",
+            "kind": "var",
+            "type": "@\"NSDictionary\"",
+            "addr": 4295247300
+          },
+          {
+            "name": "_error",
+            "kind": "var",
+            "type": "@\"NSError\"",
+            "addr": 4295247304
+          },
+          {
+            "name": "_enqueueTime",
+            "kind": "var",
+            "type": "@\"NSDate\"",
+            "addr": 4295247308
+          },
+          {
+            "name": "_dequeueAndStartProcessingTime",
+            "kind": "var",
+            "type": "@\"NSDate\"",
+            "addr": 4295247312
+          },
+          {
+            "name": "_endTime",
+            "kind": "var",
+            "type": "@\"NSDate\"",
+            "addr": 4295247316
+          },
+          {
+            "name": "_effectivePriority",
+            "kind": "var",
+            "type": "q",
+            "addr": 4295247320
+          },
+          {
+            "name": "_coreImageGraphDumpPaths",
+            "kind": "var",
+            "type": "@\"NSMutableArray\"",
+            "addr": 4295247324
+          },
+          {
+            "name": "_signpostId",
+            "kind": "var",
+            "type": "Q",
+            "addr": 4295247328
+          },
+          {
+            "name": "_requestNumber",
+            "kind": "var",
+            "type": "Q",
+            "addr": 4295247332
+          },
+          {
+            "name": "_requestOptions",
+            "kind": "var",
+            "type": "@\"NSDictionary\"",
+            "addr": 4295247336
+          },
+          {
+            "name": "_debugDumpDirectoryURL",
+            "kind": "var",
+            "type": "@\"NSURL\"",
+            "addr": 4295247340
+          },
+          {
+            "name": "_transaction",
+            "kind": "var",
+            "type": "@\"NSObject<OS_os_transaction>\"",
+            "addr": 4295247344
+          },
+          {
+            "name": "_pc_session",
+            "kind": "var",
+            "type": "^{pc_session=}",
+            "addr": 4295247348
+          },
+          {
+            "name": "_initialProcessMemoryPeak",
+            "kind": "var",
+            "type": "d",
+            "addr": 4295247352
+          },
+          {
+            "name": "_cachedPerfCheckInformation",
+            "kind": "var",
+            "type": "@\"NSDictionary\"",
+            "addr": 4295247356
+          },
+          {
+            "name": "_coreImageGraphDumpURLsAtStart",
+            "kind": "var",
+            "type": "@\"NSSet\"",
+            "addr": 4295247360
+          },
+          {
+            "name": "_originalRequestIdentifier",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295247364
+          },
+          {
+            "name": "requestOptions",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "requestNumber",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDumpDirectoryURL",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "transaction",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "pc_session",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "initialProcessMemoryPeak",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "cachedPerfCheckInformation",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "coreImageGraphDumpURLsAtStart",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "coreImageGraphDumpPaths",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "signpostId",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "clientProcessIdentifier",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "originalRequestIdentifier",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "sourceURLCollection",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "destinationURLCollection",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "requestCompletionPerfCheckExtraInformation",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "outputData",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "outputTypeIdentifier",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "outputURL",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "outputInformation",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "serviceInformation",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "error",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "enqueueTime",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "dequeueAndStartProcessingTime",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "endTime",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "effectivePriority",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "requestIdentifier",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "requestOptionsSignatureString",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "sourceURLFilenameOnlySummary",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      }
+    ],
+    "swift_metadata": {
+      "is_swift": false,
+      "symbols": []
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/InfoPlist.loctable",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist",
+        "Versions/A/XPCServices/com.apple.photos.ImageConversionService.xpc/Contents/Info.plist",
+        "Versions/A/XPCServices/com.apple.photos.ImageConversionService.xpc/Contents/version.plist",
+        "Versions/A/XPCServices/com.apple.photos.ImageConversionService.xpc/Contents/_CodeSignature/CodeResources",
+        "Versions/A/XPCServices/com.apple.photos.ImageConversionService.xpc/Contents/MacOS/com.apple.photos.ImageConversionService",
+        "Versions/A/XPCServices/com.apple.photos.VideoConversionService.xpc/Contents/Info.plist",
+        "Versions/A/XPCServices/com.apple.photos.VideoConversionService.xpc/Contents/version.plist",
+        "Versions/A/XPCServices/com.apple.photos.VideoConversionService.xpc/Contents/_CodeSignature/CodeResources",
+        "Versions/A/XPCServices/com.apple.photos.VideoConversionService.xpc/Contents/MacOS/com.apple.photos.VideoConversionService"
+      ],
+      "plists": {
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "MediaConversionService",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2014 Apple Inc. All rights reserved.",
+          "DTSDKBuild": "25B69",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "811.0.106",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "FMWK",
+          "CFBundleShortVersionString": "11.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "MediaConversionService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.photo.MediaConversionService",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleSignature": "????",
+          "DTPlatformBuild": "25B69"
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "811.0.106",
+          "CFBundleShortVersionString": "11.0",
+          "ProjectName": "Photos",
+          "SourceVersion": "811000106000000",
+          "BuildVersion": "3"
+        },
+        "Versions/A/XPCServices/com.apple.photos.ImageConversionService.xpc/Contents/Info.plist": {
+          "CFBundleName": "com.apple.photos.ImageConversionService",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B69",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "811.0.106",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "11.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "NSSupportsAutomaticGraphicsSwitching": true,
+          "XPCService": {
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "com.apple.photos.ImageConversionService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.photos.ImageConversionService",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleSignature": "????",
+          "DTPlatformBuild": "25B69"
+        },
+        "Versions/A/XPCServices/com.apple.photos.ImageConversionService.xpc/Contents/version.plist": {
+          "CFBundleVersion": "811.0.106",
+          "CFBundleShortVersionString": "11.0",
+          "ProjectName": "Photos",
+          "SourceVersion": "811000106000000",
+          "BuildVersion": "3"
+        },
+        "Versions/A/XPCServices/com.apple.photos.VideoConversionService.xpc/Contents/Info.plist": {
+          "CFBundleName": "com.apple.photos.VideoConversionService",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B69",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "811.0.106",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "11.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "XPCService": {
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "com.apple.photos.VideoConversionService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.photos.VideoConversionService",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleSignature": "????",
+          "DTPlatformBuild": "25B69"
+        },
+        "Versions/A/XPCServices/com.apple.photos.VideoConversionService.xpc/Contents/version.plist": {
+          "CFBundleVersion": "811.0.106",
+          "CFBundleShortVersionString": "11.0",
+          "ProjectName": "Photos",
+          "SourceVersion": "811000106000000",
+          "BuildVersion": "3"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
+  },
+  "usage": {
+    "layer": "usage",
+    "used_by": [
+      {
+        "path": "/System/Applications/Photos.app",
+        "binary": "/System/Applications/Photos.app/Contents/MacOS/Photos",
+        "used_classes": []
+      }
+    ]
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "loaded"
+  }
+}

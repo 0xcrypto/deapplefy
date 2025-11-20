@@ -1,0 +1,1257 @@
+{
+  "framework": "AACCore.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/AACCore.framework/Versions/A/XPCServices/AssessmentUIService.xpc/Contents/MacOS/AssessmentUIService",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 165088,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "swift",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/System/Library/PrivateFrameworks/AACCore.framework/Versions/A/AACCore",
+          "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/Combine.framework/Versions/A/Combine",
+          "/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore",
+          "/usr/lib/swift/libswiftCore.dylib",
+          "/usr/lib/swift/libswiftCoreFoundation.dylib",
+          "/usr/lib/swift/libswiftCoreImage.dylib",
+          "/usr/lib/swift/libswiftDispatch.dylib",
+          "/usr/lib/swift/libswiftIOKit.dylib",
+          "/usr/lib/swift/libswiftMetal.dylib",
+          "/usr/lib/swift/libswiftOSLog.dylib",
+          "/usr/lib/swift/libswiftObjectiveC.dylib",
+          "/usr/lib/swift/libswiftQuartzCore.dylib",
+          "/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib",
+          "/usr/lib/swift/libswiftXPC.dylib",
+          "/usr/lib/swift/libswift_Builtin_float.dylib",
+          "/usr/lib/swift/libswift_Concurrency.dylib",
+          "/usr/lib/swift/libswiftos.dylib",
+          "/usr/lib/swift/libswiftsimd.dylib"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "CGGradient",
+        "addr": 74552,
+        "lang": "swift",
+        "index": 0
+      },
+      {
+        "classname": "NSDeviceDescriptionKey",
+        "addr": 74600,
+        "lang": "swift",
+        "index": 1,
+        "fields": [
+          {
+            "name": "_rawValue",
+            "kind": "property",
+            "type": "__C.NSString",
+            "addr": 4295045040
+          }
+        ]
+      },
+      {
+        "classname": "CGColor",
+        "addr": 74632,
+        "lang": "swift",
+        "index": 2
+      },
+      {
+        "classname": "AEUConcreteDisplayPrimitives",
+        "addr": 74824,
+        "lang": "swift",
+        "index": 3,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.AEUConcreteDisplayPrimitives.0",
+            "lang": "swift",
+            "addr": 4295067216
+          },
+          {
+            "name": "1",
+            "flag": "method.AEUConcreteDisplayPrimitives.1",
+            "lang": "swift",
+            "addr": 4295045389
+          },
+          {
+            "name": "2",
+            "flag": "method.AEUConcreteDisplayPrimitives.2",
+            "lang": "swift",
+            "addr": 4295101764
+          }
+        ]
+      },
+      {
+        "classname": "WindowSet",
+        "addr": 74900,
+        "lang": "swift",
+        "index": 4,
+        "fields": [
+          {
+            "name": "shieldWindowTable",
+            "kind": "property",
+            "addr": 4295045088
+          }
+        ]
+      },
+      {
+        "classname": "ShieldWindowTable",
+        "addr": 75016,
+        "lang": "swift",
+        "index": 5,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.ShieldWindowTable.0",
+            "lang": "swift",
+            "addr": 4295044603
+          },
+          {
+            "name": "1",
+            "flag": "method.ShieldWindowTable.1",
+            "lang": "swift",
+            "addr": 4295094925
+          },
+          {
+            "name": "2",
+            "flag": "method.ShieldWindowTable.2",
+            "lang": "swift",
+            "addr": 4295092555
+          },
+          {
+            "name": "3",
+            "flag": "method.ShieldWindowTable.3",
+            "lang": "swift",
+            "addr": 4295055545
+          },
+          {
+            "name": "4",
+            "flag": "method.ShieldWindowTable.4",
+            "lang": "swift",
+            "addr": 4295058364
+          },
+          {
+            "name": "5",
+            "flag": "method.ShieldWindowTable.5",
+            "lang": "swift",
+            "addr": 4295062071
+          },
+          {
+            "name": "6",
+            "flag": "method.ShieldWindowTable.6",
+            "lang": "swift",
+            "addr": 4295049969
+          },
+          {
+            "name": "7",
+            "flag": "method.ShieldWindowTable.7",
+            "lang": "swift",
+            "addr": 4295091660
+          },
+          {
+            "name": "8",
+            "flag": "method.ShieldWindowTable.8",
+            "lang": "swift",
+            "addr": 4295050755
+          },
+          {
+            "name": "9",
+            "flag": "method.ShieldWindowTable.9",
+            "lang": "swift",
+            "addr": 4295104945
+          }
+        ],
+        "fields": [
+          {
+            "name": "windowsByScreenNumber",
+            "kind": "property",
+            "type": "SDySo8NSNumberC\u0002\u001aY",
+            "addr": 4295045120
+          },
+          {
+            "name": "notificationToken",
+            "kind": "property",
+            "type": "ypSg",
+            "addr": 4295045152
+          },
+          {
+            "name": "alphaForNewWindows",
+            "kind": "property",
+            "addr": 4295045184
+          }
+        ]
+      },
+      {
+        "classname": "AEUService",
+        "addr": 75196,
+        "lang": "swift",
+        "index": 6,
+        "fields": [
+          {
+            "name": "environment",
+            "kind": "property",
+            "addr": 4295045203
+          },
+          {
+            "name": "xpcListener",
+            "kind": "property",
+            "addr": 4295045215
+          },
+          {
+            "name": "connectionCount",
+            "kind": "property",
+            "type": "Swift.Int",
+            "addr": 4295045227
+          },
+          {
+            "name": "_uiManager",
+            "kind": "property",
+            "addr": 4295045243
+          }
+        ]
+      },
+      {
+        "classname": "AEUConcreteOSPrimitives",
+        "addr": 75392,
+        "lang": "swift",
+        "index": 7
+      },
+      {
+        "classname": "Transaction",
+        "addr": 75460,
+        "lang": "swift",
+        "index": 8,
+        "fields": [
+          {
+            "name": "transaction",
+            "kind": "property",
+            "type": "\f{\u00f1\u00ff\u00ff_pSg",
+            "addr": 4295045254
+          }
+        ]
+      },
+      {
+        "classname": "AEUConcreteXPCPrimitives",
+        "addr": 75552,
+        "lang": "swift",
+        "index": 9
+      },
+      {
+        "classname": "Listener",
+        "addr": 75620,
+        "lang": "swift",
+        "index": 10,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ],
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.Listener.0",
+            "lang": "swift",
+            "addr": 4295042972
+          },
+          {
+            "name": "1",
+            "flag": "method.Listener.1",
+            "lang": "swift",
+            "addr": 4295042980
+          },
+          {
+            "name": "2",
+            "flag": "method.Listener.2",
+            "lang": "swift",
+            "addr": 4295042988
+          },
+          {
+            "name": "3",
+            "flag": "method.Listener.3",
+            "lang": "swift",
+            "addr": 4295042848
+          },
+          {
+            "name": "func.10000d03c",
+            "flag": "method.Listener.func.10000d03c",
+            "lang": "swift",
+            "addr": 4295020604
+          },
+          {
+            "name": "5",
+            "flag": "method.Listener.5",
+            "lang": "swift",
+            "addr": 4295043012
+          },
+          {
+            "name": "6",
+            "flag": "method.Listener.6",
+            "lang": "swift",
+            "addr": 4295043044
+          },
+          {
+            "name": "7",
+            "flag": "method.Listener.7",
+            "lang": "swift",
+            "addr": 4295043029
+          },
+          {
+            "name": "8",
+            "flag": "method.Listener.8",
+            "lang": "swift",
+            "addr": 4295043047
+          }
+        ],
+        "fields": [
+          {
+            "name": "listener",
+            "kind": "property",
+            "type": "__C.NSXPCListener",
+            "addr": 4295045280
+          },
+          {
+            "name": "connectionHandler",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295045296
+          }
+        ]
+      },
+      {
+        "classname": "Connection",
+        "addr": 75696,
+        "lang": "swift",
+        "index": 11,
+        "fields": [
+          {
+            "name": "connection",
+            "kind": "property",
+            "type": "__C.NSXPCConnection",
+            "addr": 4295045314
+          }
+        ]
+      },
+      {
+        "classname": "AEUNSWindow",
+        "addr": 75852,
+        "lang": "swift",
+        "index": 12,
+        "super": [
+          "__C.NSWindow"
+        ],
+        "rawsuper": [
+          "So8NSWindowC"
+        ],
+        "fields": [
+          {
+            "name": "shieldView",
+            "kind": "property",
+            "addr": 4295045325
+          }
+        ]
+      },
+      {
+        "classname": "AEUUIManager",
+        "addr": 75960,
+        "lang": "swift",
+        "index": 13,
+        "fields": [
+          {
+            "name": "environment",
+            "kind": "property",
+            "addr": 4295045344
+          },
+          {
+            "name": "shieldWindowSet",
+            "kind": "property",
+            "addr": 4295045356
+          },
+          {
+            "name": "displayAssertion",
+            "kind": "property",
+            "addr": 4295045376
+          },
+          {
+            "name": "transaction",
+            "kind": "property",
+            "addr": 4295045393
+          },
+          {
+            "name": "state",
+            "kind": "property",
+            "addr": 4295045405
+          }
+        ]
+      },
+      {
+        "classname": "UIState",
+        "addr": 76164,
+        "lang": "swift",
+        "index": 14,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.UIState.0",
+            "lang": "swift",
+            "addr": 4295043275
+          },
+          {
+            "name": "1",
+            "flag": "method.UIState.1",
+            "lang": "swift",
+            "addr": 4295051987
+          },
+          {
+            "name": "2",
+            "flag": "method.UIState.2",
+            "lang": "swift",
+            "addr": 4295044571
+          },
+          {
+            "name": "3",
+            "flag": "method.UIState.3",
+            "lang": "swift",
+            "addr": 4295047139
+          }
+        ],
+        "fields": [
+          {
+            "name": "notPresenting",
+            "kind": "property",
+            "addr": 4295045411
+          },
+          {
+            "name": "staged",
+            "kind": "property",
+            "addr": 4295045425
+          },
+          {
+            "name": "presenting",
+            "kind": "property",
+            "addr": 4295045432
+          }
+        ]
+      },
+      {
+        "classname": "UIError",
+        "addr": 76192,
+        "lang": "swift",
+        "index": 15,
+        "fields": [
+          {
+            "name": "invalidTransition",
+            "kind": "property",
+            "addr": 4295045456
+          }
+        ]
+      },
+      {
+        "classname": "AEUShieldView",
+        "addr": 76220,
+        "lang": "swift",
+        "index": 16,
+        "super": [
+          "__C.NSView"
+        ],
+        "rawsuper": [
+          "So6NSViewC"
+        ],
+        "fields": [
+          {
+            "name": "$__lazy_storage_$_gradientLayer",
+            "kind": "property",
+            "type": "g",
+            "addr": 4295045488
+          }
+        ]
+      },
+      {
+        "classname": "RadialGradientLayer",
+        "addr": 76304,
+        "lang": "swift",
+        "index": 17,
+        "super": [
+          "__C.CALayer"
+        ],
+        "rawsuper": [
+          "So7CALayerC"
+        ],
+        "fields": [
+          {
+            "name": "$__lazy_storage_$_gradient",
+            "kind": "property",
+            "addr": 4295045520
+          }
+        ]
+      },
+      {
+        "classname": "AEUConcreteEnvironment",
+        "addr": 76396,
+        "lang": "swift",
+        "index": 18,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.AEUConcreteEnvironment.0",
+            "lang": "swift",
+            "addr": 4295043932
+          }
+        ],
+        "fields": [
+          {
+            "name": "display",
+            "kind": "property",
+            "addr": 4295045547
+          },
+          {
+            "name": "xpc",
+            "kind": "property",
+            "addr": 4295045555
+          },
+          {
+            "name": "os",
+            "kind": "property",
+            "addr": 4295045559
+          }
+        ]
+      },
+      {
+        "classname": "AssessmentUIService.AEUConcreteDisplayPrimitives",
+        "addr": 4295086688,
+        "lang": "objc",
+        "index": 19,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ]
+      },
+      {
+        "classname": "AssessmentUIService.AEUConcreteDisplayPrimitives.WindowSet",
+        "addr": 4295086856,
+        "lang": "objc",
+        "index": 20,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "shieldWindowTable",
+            "kind": "var",
+            "addr": 4295040320
+          }
+        ]
+      },
+      {
+        "classname": "AssessmentUIService.AEUConcreteDisplayPrimitives.ShieldWindowTable",
+        "addr": 4295087072,
+        "lang": "objc",
+        "index": 21,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "windowsByScreenNumber",
+            "kind": "var",
+            "addr": 4295040344
+          },
+          {
+            "name": "notificationToken",
+            "kind": "var",
+            "addr": 4295040352
+          },
+          {
+            "name": "alphaForNewWindows",
+            "kind": "var",
+            "addr": 4295040360
+          }
+        ]
+      },
+      {
+        "classname": "AssessmentUIService.AEUService",
+        "addr": 4295087440,
+        "lang": "objc",
+        "index": 22,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "methods": [
+          {
+            "name": "activateWithConfiguration:completion:",
+            "flag": "func.100009794",
+            "lang": "objc",
+            "addr": 4295006100
+          },
+          {
+            "name": "animateInWithCompletion:",
+            "flag": "func.10000a1a4",
+            "lang": "objc",
+            "addr": 4295008676
+          },
+          {
+            "name": "animateOutWithCompletion:",
+            "flag": "func.10000aaa8",
+            "lang": "objc",
+            "addr": 4295010984
+          },
+          {
+            "name": "deactivateWithCompletion:",
+            "flag": "func.10000b2a8",
+            "lang": "objc",
+            "addr": 4295013032
+          },
+          {
+            "name": "activateWithConfiguration:completion:",
+            "flag": "method.AssessmentUIService.AEUService.activateWithConfiguration:completion:",
+            "lang": "objc",
+            "addr": 4295039272
+          },
+          {
+            "name": "animateInWithCompletion:",
+            "flag": "method.AssessmentUIService.AEUService.animateInWithCompletion:",
+            "lang": "objc",
+            "addr": 4295039284
+          },
+          {
+            "name": "animateOutWithCompletion:",
+            "flag": "method.AssessmentUIService.AEUService.animateOutWithCompletion:",
+            "lang": "objc",
+            "addr": 4295039296
+          },
+          {
+            "name": "deactivateWithCompletion:",
+            "flag": "method.AssessmentUIService.AEUService.deactivateWithCompletion:",
+            "lang": "objc",
+            "addr": 4295039308
+          },
+          {
+            "name": "activateWithConfiguration:completion:",
+            "flag": "method.AssessmentUIService.AEUService.activateWithConfiguration:completion:",
+            "lang": "objc",
+            "addr": 4295039272
+          },
+          {
+            "name": "animateInWithCompletion:",
+            "flag": "method.AssessmentUIService.AEUService.animateInWithCompletion:",
+            "lang": "objc",
+            "addr": 4295039284
+          },
+          {
+            "name": "animateOutWithCompletion:",
+            "flag": "method.AssessmentUIService.AEUService.animateOutWithCompletion:",
+            "lang": "objc",
+            "addr": 4295039296
+          },
+          {
+            "name": "deactivateWithCompletion:",
+            "flag": "method.AssessmentUIService.AEUService.deactivateWithCompletion:",
+            "lang": "objc",
+            "addr": 4295039308
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "environment",
+            "kind": "var",
+            "addr": 4295040480
+          },
+          {
+            "name": "xpcListener",
+            "kind": "var",
+            "addr": 4295040488
+          },
+          {
+            "name": "connectionCount",
+            "kind": "var",
+            "addr": 4295040496
+          },
+          {
+            "name": "_uiManager",
+            "kind": "var",
+            "addr": 4295040504
+          }
+        ]
+      },
+      {
+        "classname": "AssessmentUIService.AEUConcreteOSPrimitives",
+        "addr": 4295087872,
+        "lang": "objc",
+        "index": 23,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ]
+      },
+      {
+        "classname": "AssessmentUIService.AEUConcreteOSPrimitives.Transaction",
+        "addr": 4295088032,
+        "lang": "objc",
+        "index": 24,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "transaction",
+            "kind": "var",
+            "addr": 4295040840
+          }
+        ]
+      },
+      {
+        "classname": "AssessmentUIService.AEUConcreteXPCPrimitives",
+        "addr": 4295088224,
+        "lang": "objc",
+        "index": 25,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ]
+      },
+      {
+        "classname": "AssessmentUIService.AEUConcreteXPCPrimitives.Listener",
+        "addr": 4295088400,
+        "lang": "objc",
+        "index": 26,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "listener:shouldAcceptNewConnection:",
+            "flag": "method.AssessmentUIService.AEUConcreteXPCPrimitives.Listener.listener:shouldAcceptNewConnection:",
+            "lang": "objc",
+            "addr": 4295019988
+          },
+          {
+            "name": "init",
+            "flag": "method.AssessmentUIService.AEUConcreteXPCPrimitives.Listener.init",
+            "lang": "objc",
+            "addr": 4295020108
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.AssessmentUIService.AEUConcreteXPCPrimitives.Listener..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295020208
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "listener",
+            "kind": "var",
+            "addr": 4295088384
+          },
+          {
+            "name": "connectionHandler",
+            "kind": "var",
+            "addr": 4295088392
+          }
+        ]
+      },
+      {
+        "classname": "AssessmentUIService.AEUConcreteXPCPrimitives.Connection",
+        "addr": 4295088536,
+        "lang": "objc",
+        "index": 27,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "connection",
+            "kind": "var",
+            "addr": 4295040984
+          }
+        ]
+      },
+      {
+        "classname": "AssessmentUIService.AEUNSWindow",
+        "addr": 4295088800,
+        "lang": "objc",
+        "index": 28,
+        "super": [
+          "NSWindow"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSWindow"
+        ],
+        "methods": [
+          {
+            "name": "constrainFrameRect:toScreen:",
+            "flag": "method.AssessmentUIService.AEUNSWindow.constrainFrameRect:toScreen:",
+            "lang": "objc",
+            "addr": 4295020860
+          },
+          {
+            "name": "canBecomeKeyWindow",
+            "flag": "method.AssessmentUIService.AEUNSWindow.canBecomeKeyWindow",
+            "lang": "objc",
+            "addr": 4295020872
+          },
+          {
+            "name": "initWithContentRect:styleMask:backing:defer:",
+            "flag": "method.AssessmentUIService.AEUNSWindow.initWithContentRect:styleMask:backing:defer:",
+            "lang": "objc",
+            "addr": 4295020880
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.AssessmentUIService.AEUNSWindow..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295020980
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "shieldView",
+            "kind": "var",
+            "addr": 4295088792
+          },
+          {
+            "name": "canBecomeKeyWindow",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "AssessmentUIService.AEUUIManager",
+        "addr": 4295088840,
+        "lang": "objc",
+        "index": 29,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "environment",
+            "kind": "var",
+            "addr": 4295041120
+          },
+          {
+            "name": "shieldWindowSet",
+            "kind": "var",
+            "addr": 4295041128
+          },
+          {
+            "name": "displayAssertion",
+            "kind": "var",
+            "addr": 4295041136
+          },
+          {
+            "name": "transaction",
+            "kind": "var",
+            "addr": 4295041144
+          },
+          {
+            "name": "state",
+            "kind": "var",
+            "addr": 4295041152
+          }
+        ]
+      },
+      {
+        "classname": "AssessmentUIService.AEUShieldView",
+        "addr": 4295089240,
+        "lang": "objc",
+        "index": 30,
+        "super": [
+          "NSView"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSView"
+        ],
+        "methods": [
+          {
+            "name": "frame",
+            "flag": "method.AssessmentUIService.AEUShieldView.frame",
+            "lang": "objc",
+            "addr": 4295034284
+          },
+          {
+            "name": "setFrame:",
+            "flag": "method.AssessmentUIService.AEUShieldView.setFrame:",
+            "lang": "objc",
+            "addr": 4295034348
+          },
+          {
+            "name": "updateLayer",
+            "flag": "method.AssessmentUIService.AEUShieldView.updateLayer",
+            "lang": "objc",
+            "addr": 4295034756
+          },
+          {
+            "name": "initWithFrame:",
+            "flag": "method.AssessmentUIService.AEUShieldView.initWithFrame:",
+            "lang": "objc",
+            "addr": 4295034816
+          },
+          {
+            "name": "initWithCoder:",
+            "flag": "method.AssessmentUIService.AEUShieldView.initWithCoder:",
+            "lang": "objc",
+            "addr": 4295034940
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.AssessmentUIService.AEUShieldView..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295035000
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$__lazy_storage_$_gradientLayer",
+            "kind": "var",
+            "addr": 4295089232
+          },
+          {
+            "name": "frame",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "AssessmentUIService.AEUShieldView._DE646D830ADA021E3EDED782BE9CA9F1.RadialGradientLayer",
+        "addr": 4295089288,
+        "lang": "objc",
+        "index": 31,
+        "super": [
+          "CALayer"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_CALayer"
+        ],
+        "methods": [
+          {
+            "name": "drawInContext:",
+            "flag": "method.AssessmentUIService.AEUShieldView._DE646D830ADA021E3EDED782BE9CA9F1.RadialGradientLayer.drawInContext:",
+            "lang": "objc",
+            "addr": 4295035804
+          },
+          {
+            "name": "init",
+            "flag": "method.AssessmentUIService.AEUShieldView._DE646D830ADA021E3EDED782BE9CA9F1.RadialGradientLayer.init",
+            "lang": "objc",
+            "addr": 4295035904
+          },
+          {
+            "name": "initWithLayer:",
+            "flag": "method.AssessmentUIService.AEUShieldView._DE646D830ADA021E3EDED782BE9CA9F1.RadialGradientLayer.initWithLayer:",
+            "lang": "objc",
+            "addr": 4295035988
+          },
+          {
+            "name": "initWithCoder:",
+            "flag": "method.AssessmentUIService.AEUShieldView._DE646D830ADA021E3EDED782BE9CA9F1.RadialGradientLayer.initWithCoder:",
+            "lang": "objc",
+            "addr": 4295036160
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.AssessmentUIService.AEUShieldView._DE646D830ADA021E3EDED782BE9CA9F1.RadialGradientLayer..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295036432
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$__lazy_storage_$_gradient",
+            "kind": "var",
+            "addr": 4295089280
+          }
+        ]
+      },
+      {
+        "classname": "AssessmentUIService.AEUConcreteEnvironment",
+        "addr": 4295089328,
+        "lang": "objc",
+        "index": 32,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "display",
+            "kind": "var",
+            "addr": 4295041664
+          },
+          {
+            "name": "xpc",
+            "kind": "var",
+            "addr": 4295041672
+          },
+          {
+            "name": "os",
+            "kind": "var",
+            "addr": 4295041680
+          }
+        ]
+      }
+    ],
+    "swift_metadata": {
+      "is_swift": false,
+      "symbols": []
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/AACCoreErrors.loctable",
+        "Versions/A/Resources/AssessmentAgentErrors.loctable",
+        "Versions/A/Resources/AssessmentAgentStrings.loctable",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist",
+        "Versions/A/XPCServices/AssessmentUIService.xpc/Contents/Info.plist",
+        "Versions/A/XPCServices/AssessmentUIService.xpc/Contents/version.plist",
+        "Versions/A/XPCServices/AssessmentUIService.xpc/Contents/_CodeSignature/CodeResources",
+        "Versions/A/XPCServices/AssessmentUIService.xpc/Contents/MacOS/AssessmentUIService"
+      ],
+      "plists": {
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "AACCore",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2019 Apple Inc. All rights reserved.",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "12.0.0",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "FMWK",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "AACCore",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.AACCore",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "12.0.0",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "AssessmentMode",
+          "SourceVersion": "25041002000000",
+          "BuildVersion": "3"
+        },
+        "Versions/A/XPCServices/AssessmentUIService.xpc/Contents/Info.plist": {
+          "CFBundleName": "AssessmentUIService",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2022 Apple Inc. All rights reserved.",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "XPCService": {
+            "RunLoopType": "_NSApplicationMain",
+            "JoinExistingSession": true,
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "AssessmentUIService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.assessmentmode.AssessmentUIService",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleDisplayName": "AssessmentUIService",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/XPCServices/AssessmentUIService.xpc/Contents/version.plist": {
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleVersion": "1",
+          "ProjectName": "AssessmentMode_swift",
+          "BuildAliasOf": "AssessmentMode",
+          "SourceVersion": "25041002000000",
+          "BuildVersion": "4"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
+  },
+  "usage": {
+    "layer": "usage",
+    "used_by": [
+      {
+        "path": "/System/Library/CoreServices/UniversalControl.app",
+        "binary": "/System/Library/CoreServices/UniversalControl.app/Contents/MacOS/UniversalControl",
+        "used_classes": []
+      }
+    ]
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "loaded"
+  }
+}

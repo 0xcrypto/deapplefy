@@ -1,0 +1,229 @@
+{
+  "framework": "HeadGestures.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/HeadGestures.framework/PlugIns/HeadGesturesDiagnosticExtension.appex/Contents/MacOS/HeadGesturesDiagnosticExtension",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 72896,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "objc",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/PrivateFrameworks/Bom.framework/Versions/A/Bom",
+          "/System/Library/PrivateFrameworks/DiagnosticExtensions.framework/Versions/A/DiagnosticExtensions",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "HeadGesturesDiagnosticExtensionExtension",
+        "addr": 4295000448,
+        "lang": "objc",
+        "index": 0,
+        "super": [
+          "DEExtensionProvider"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_DEExtensionProvider"
+        ],
+        "methods": [
+          {
+            "name": "createZipArchiveForURL:destinationURL:",
+            "flag": "method.HeadGesturesDiagnosticExtensionExtension.createZipArchiveForURL:destinationURL:",
+            "lang": "objc",
+            "addr": 4294970416
+          },
+          {
+            "name": "generateTimeStamp",
+            "flag": "method.HeadGesturesDiagnosticExtensionExtension.generateTimeStamp",
+            "lang": "objc",
+            "addr": 4294971088
+          },
+          {
+            "name": "attachmentList",
+            "flag": "method.HeadGesturesDiagnosticExtensionExtension.attachmentList",
+            "lang": "objc",
+            "addr": 4294971228
+          },
+          {
+            "name": "attachmentsForParameters:",
+            "flag": "method.HeadGesturesDiagnosticExtensionExtension.attachmentsForParameters:",
+            "lang": "objc",
+            "addr": 4294972964
+          }
+        ]
+      }
+    ],
+    "swift_metadata": {
+      "is_swift": false,
+      "symbols": []
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/confirm_no.wav",
+        "Versions/A/Resources/blip_no.wav",
+        "Versions/A/Resources/experimental_yes.wav",
+        "Versions/A/Resources/blip_yes.wav",
+        "Versions/A/Resources/announce_loop.wav",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/confirm_yes.wav",
+        "Versions/A/Resources/version.plist",
+        "Versions/A/Resources/experimental_no.wav",
+        "Versions/A/Resources/MotionTransformer.mlmodelc/model.espresso.shape",
+        "Versions/A/Resources/MotionTransformer.mlmodelc/model.espresso.net",
+        "Versions/A/Resources/MotionTransformer.mlmodelc/metadata.json",
+        "Versions/A/Resources/MotionTransformer.mlmodelc/model.espresso.weights",
+        "Versions/A/Resources/MotionTransformer.mlmodelc/coremldata.bin",
+        "Versions/A/Resources/MotionTransformer.mlmodelc/model/coremldata.bin",
+        "Versions/A/Resources/MotionTransformer.mlmodelc/neural_network_optionals/coremldata.bin",
+        "Versions/A/Resources/MotionTransformer.mlmodelc/analytics/coremldata.bin",
+        "PlugIns/HeadGesturesDiagnosticExtension.appex/Contents/Info.plist",
+        "PlugIns/HeadGesturesDiagnosticExtension.appex/Contents/version.plist",
+        "PlugIns/HeadGesturesDiagnosticExtension.appex/Contents/_CodeSignature/CodeResources",
+        "PlugIns/HeadGesturesDiagnosticExtension.appex/Contents/MacOS/HeadGesturesDiagnosticExtension",
+        "PlugIns/HeadGesturesDiagnosticExtension.appex/Contents/Resources/legal.txt"
+      ],
+      "plists": {
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "HeadGestures",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "LSBundleContainsCoreMLmlmodelc": true,
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "FMWK",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "HeadGestures",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.HeadGestures",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "HeadGestures",
+          "SourceVersion": "38001000000000",
+          "BuildVersion": "9984"
+        },
+        "PlugIns/HeadGesturesDiagnosticExtension.appex/Contents/Info.plist": {
+          "CFBundleName": "HeadGesturesDiagnosticExtension",
+          "DTSDKName": "macosx26.1.internal",
+          "DTXcode": "2600",
+          "DELocalizedConsentFilename": "legal.txt",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "HeadGesturesDiagnosticExtension",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.HeadGestures.diagnosticextension.HeadGesturesDiagnosticExtension",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleDisplayName": "HeadGesturesDiagnosticExtension",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "",
+          "NSExtension": {
+            "NSExtensionAttributes": {
+              "DEAttachmentsName": "HeadGesturesDiagnosticExtension logs",
+              "DEAttachmentsLoggingEnabled": true
+            },
+            "NSExtensionPointIdentifier": "com.apple.diagnosticextensions-service",
+            "NSExtensionPrincipalClass": "HeadGesturesDiagnosticExtensionExtension"
+          }
+        },
+        "PlugIns/HeadGesturesDiagnosticExtension.appex/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "HeadGestures",
+          "SourceVersion": "38001000000000",
+          "BuildVersion": "9984"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
+  },
+  "usage": {
+    "layer": "usage",
+    "used_by": []
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "loaded"
+  }
+}

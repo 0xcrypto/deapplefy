@@ -1,0 +1,5439 @@
+{
+  "framework": "OnDeviceStorage.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/OnDeviceStorage.framework/Support/amsondevicestoraged",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 1728912,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "swift",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/PrivateFrameworks/OnDeviceStorageCore.framework/Versions/A/OnDeviceStorageCore",
+          "/usr/appleinternal/lib/liblinkguard.dylib",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/System/Library/PrivateFrameworks/JetCore.framework/Versions/A/JetCore",
+          "/System/Library/PrivateFrameworks/SignpostCollection.framework/Versions/A/SignpostCollection",
+          "/System/Library/PrivateFrameworks/SignpostSupport.framework/Versions/A/SignpostSupport",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libc++.1.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",
+          "/System/Library/Frameworks/CryptoKit.framework/Versions/A/CryptoKit",
+          "/System/Library/Frameworks/Security.framework/Versions/A/Security",
+          "/System/Library/PrivateFrameworks/AppleMediaServices.framework/Versions/A/AppleMediaServices",
+          "/System/Library/PrivateFrameworks/BackgroundSystemTasks.framework/Versions/A/BackgroundSystemTasks",
+          "/System/Library/PrivateFrameworks/OSAnalytics.framework/Versions/A/OSAnalytics",
+          "/usr/lib/libsqlite3.dylib",
+          "/usr/lib/swift/libswiftAccelerate.dylib",
+          "/usr/lib/swift/libswiftCompression.dylib",
+          "/usr/lib/swift/libswiftCore.dylib",
+          "/usr/lib/swift/libswiftCoreFoundation.dylib",
+          "/usr/lib/swift/libswiftDarwin.dylib",
+          "/usr/lib/swift/libswiftDispatch.dylib",
+          "/usr/lib/swift/libswiftIOKit.dylib",
+          "/usr/lib/swift/libswiftMetal.dylib",
+          "/usr/lib/swift/libswiftOSLog.dylib",
+          "/usr/lib/swift/libswiftObjectiveC.dylib",
+          "/usr/lib/swift/libswiftQuartzCore.dylib",
+          "/usr/lib/swift/libswiftSynchronization.dylib",
+          "/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib",
+          "/usr/lib/swift/libswiftXPC.dylib",
+          "/usr/lib/swift/libswift_Builtin_float.dylib",
+          "/usr/lib/swift/libswift_Concurrency.dylib",
+          "/usr/lib/swift/libswift_DarwinFoundation1.dylib",
+          "/usr/lib/swift/libswiftos.dylib",
+          "/usr/lib/swift/libswiftsimd.dylib"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "StatementType",
+        "addr": 1317080,
+        "lang": "swift",
+        "index": 0,
+        "fields": [
+          {
+            "name": "rawValue",
+            "kind": "property",
+            "addr": 4296296784
+          }
+        ]
+      },
+      {
+        "classname": "hsql",
+        "addr": 1317124,
+        "lang": "swift",
+        "index": 1
+      },
+      {
+        "classname": "os_unfair_lock_s",
+        "addr": 1317156,
+        "lang": "swift",
+        "index": 2,
+        "fields": [
+          {
+            "name": "_os_unfair_lock_opaque",
+            "kind": "property",
+            "addr": 4296296816
+          }
+        ]
+      },
+      {
+        "classname": "URLResourceKey",
+        "addr": 1317188,
+        "lang": "swift",
+        "index": 3,
+        "fields": [
+          {
+            "name": "_rawValue",
+            "kind": "property",
+            "type": "__C.NSString",
+            "addr": 4296296802
+          }
+        ]
+      },
+      {
+        "classname": "CFString",
+        "addr": 1317220,
+        "lang": "swift",
+        "index": 4
+      },
+      {
+        "classname": "FileAttributeKey",
+        "addr": 1317268,
+        "lang": "swift",
+        "index": 5,
+        "fields": [
+          {
+            "name": "_rawValue",
+            "kind": "property",
+            "type": "__C.NSString",
+            "addr": 4296296802
+          }
+        ]
+      },
+      {
+        "classname": "FileProtectionType",
+        "addr": 1317300,
+        "lang": "swift",
+        "index": 6,
+        "fields": [
+          {
+            "name": "_rawValue",
+            "kind": "property",
+            "type": "__C.NSString",
+            "addr": 4296296802
+          }
+        ]
+      },
+      {
+        "classname": "vector_hsql.SQLStatementSummary.Table__std.__1.allocator_hsql.SQLStatementSummary.Table__",
+        "addr": 1317344,
+        "lang": "swift",
+        "index": 7
+      },
+      {
+        "classname": "Table",
+        "addr": 1317376,
+        "lang": "swift",
+        "index": 8,
+        "fields": [
+          {
+            "name": "schema",
+            "kind": "property",
+            "addr": 4296296871
+          },
+          {
+            "name": "name",
+            "kind": "property",
+            "addr": 4296296878
+          },
+          {
+            "name": "alias",
+            "kind": "property",
+            "addr": 4296296883
+          },
+          {
+            "name": "primary",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4296296889
+          }
+        ]
+      },
+      {
+        "classname": "_NSRange",
+        "addr": 1317408,
+        "lang": "swift",
+        "index": 9,
+        "fields": [
+          {
+            "name": "location",
+            "kind": "property",
+            "type": "Swift.Int",
+            "addr": 4296296855
+          },
+          {
+            "name": "length",
+            "kind": "property",
+            "type": "Swift.Int",
+            "addr": 4296296864
+          }
+        ]
+      },
+      {
+        "classname": "std",
+        "addr": 1317440,
+        "lang": "swift",
+        "index": 10
+      },
+      {
+        "classname": "__1",
+        "addr": 1317472,
+        "lang": "swift",
+        "index": 11
+      },
+      {
+        "classname": "vector_hsql.SQLStatementSummary.ExpansionPoint__std.__1.allocator_hsql.SQLStatementSummary.ExpansionPoint__",
+        "addr": 1317504,
+        "lang": "swift",
+        "index": 12
+      },
+      {
+        "classname": "SQLStatementSummary",
+        "addr": 1317536,
+        "lang": "swift",
+        "index": 13,
+        "fields": [
+          {
+            "name": "type",
+            "kind": "property",
+            "addr": 4296296897
+          },
+          {
+            "name": "isUpsertStatement",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4296296912
+          }
+        ]
+      },
+      {
+        "classname": "__wrap_iter_UnsafePointer_hsql.SQLStatementSummary.Table__",
+        "addr": 1317568,
+        "lang": "swift",
+        "index": 14
+      },
+      {
+        "classname": "__wrap_iter_UnsafePointer_hsql.SQLStatementSummary.ExpansionPoint__",
+        "addr": 1317600,
+        "lang": "swift",
+        "index": 15
+      },
+      {
+        "classname": "ExpansionPoint",
+        "addr": 1317632,
+        "lang": "swift",
+        "index": 16,
+        "fields": [
+          {
+            "name": "position",
+            "kind": "property",
+            "addr": 4296297002
+          },
+          {
+            "name": "length",
+            "kind": "property",
+            "addr": 4296296864
+          },
+          {
+            "name": "schema",
+            "kind": "property",
+            "addr": 4296296871
+          },
+          {
+            "name": "table",
+            "kind": "property",
+            "addr": 4296297011
+          }
+        ]
+      },
+      {
+        "classname": "basic_string_CChar__std.__1.char_traits_CChar___std.__1.allocator_CChar__",
+        "addr": 1317664,
+        "lang": "swift",
+        "index": 17
+      },
+      {
+        "classname": "DefaultConnectionDelegate",
+        "addr": 1317808,
+        "lang": "swift",
+        "index": 18,
+        "fields": [
+          {
+            "name": "store",
+            "kind": "property",
+            "type": "NSCache.allocator(...\u0001/\u0019)",
+            "addr": 4296297024
+          }
+        ]
+      },
+      {
+        "classname": "CacheKey",
+        "addr": 1317876,
+        "lang": "swift",
+        "index": 19,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ],
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.CacheKey.0",
+            "lang": "swift",
+            "addr": 4296285376
+          },
+          {
+            "name": "1",
+            "flag": "method.CacheKey.1",
+            "lang": "swift",
+            "addr": 4296251443
+          },
+          {
+            "name": "2",
+            "flag": "method.CacheKey.2",
+            "lang": "swift",
+            "addr": 4296282299
+          }
+        ],
+        "fields": [
+          {
+            "name": "connection",
+            "kind": "property",
+            "addr": 4296297030
+          },
+          {
+            "name": "table",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4296297041
+          },
+          {
+            "name": "schema",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4296297047
+          }
+        ]
+      },
+      {
+        "classname": "Context",
+        "addr": 1317944,
+        "lang": "swift",
+        "index": 20,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.Context.0",
+            "lang": "swift",
+            "addr": 4296285520
+          },
+          {
+            "name": "1",
+            "flag": "method.Context.1",
+            "lang": "swift",
+            "addr": 4296205560
+          }
+        ],
+        "fields": [
+          {
+            "name": "_ignoredOversizeRowCount",
+            "kind": "property",
+            "addr": 4296297056
+          },
+          {
+            "name": "_ignoredRowLimitRowCount",
+            "kind": "property",
+            "addr": 4296297088
+          },
+          {
+            "name": "_evictedRowCount",
+            "kind": "property",
+            "addr": 4296297120
+          }
+        ]
+      },
+      {
+        "classname": "AccessCredentialFetcherImplementation",
+        "addr": 1318004,
+        "lang": "swift",
+        "index": 21,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.AccessCredentialFetcherImplementation.0",
+            "lang": "swift",
+            "addr": 4296572073
+          }
+        ],
+        "fields": [
+          {
+            "name": "$defaultActor",
+            "kind": "property",
+            "type": "BD",
+            "addr": 4296297137
+          }
+        ]
+      },
+      {
+        "classname": "AccessCredentialStoreImplementation",
+        "addr": 1318064,
+        "lang": "swift",
+        "index": 22,
+        "fields": [
+          {
+            "name": "$defaultActor",
+            "kind": "property",
+            "type": "BD",
+            "addr": 4296297152
+          },
+          {
+            "name": "configStore",
+            "kind": "property",
+            "addr": 4296297166
+          },
+          {
+            "name": "dbManager",
+            "kind": "property",
+            "addr": 4296297178
+          },
+          {
+            "name": "dataRegistry",
+            "kind": "property",
+            "addr": 4296297188
+          },
+          {
+            "name": "credentialFetcher",
+            "kind": "property",
+            "addr": 4296297216
+          },
+          {
+            "name": "timeProvider",
+            "kind": "property",
+            "addr": 4296297234
+          },
+          {
+            "name": "dateProvider",
+            "kind": "property",
+            "addr": 4296297247
+          }
+        ]
+      },
+      {
+        "classname": "AppRegistryImplementation",
+        "addr": 1318124,
+        "lang": "swift",
+        "index": 23,
+        "fields": [
+          {
+            "name": "$defaultActor",
+            "kind": "property",
+            "type": "BD",
+            "addr": 4296297260
+          }
+        ]
+      },
+      {
+        "classname": "ClientSessionManagerImplementation",
+        "addr": 1318184,
+        "lang": "swift",
+        "index": 24,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.ClientSessionManagerImplementation.0",
+            "lang": "swift",
+            "addr": 4296285536
+          },
+          {
+            "name": "1",
+            "flag": "method.ClientSessionManagerImplementation.1",
+            "lang": "swift",
+            "addr": 4296285480
+          },
+          {
+            "name": "2",
+            "flag": "method.ClientSessionManagerImplementation.2",
+            "lang": "swift",
+            "addr": 4296285540
+          },
+          {
+            "name": "func.10004e178",
+            "flag": "method.ClientSessionManagerImplementation.func.10004e178",
+            "lang": "swift",
+            "addr": 4295287160
+          },
+          {
+            "name": "4",
+            "flag": "method.ClientSessionManagerImplementation.4",
+            "lang": "swift",
+            "addr": 4296285570
+          }
+        ],
+        "fields": [
+          {
+            "name": "$defaultActor",
+            "kind": "property",
+            "type": "BD",
+            "addr": 4296297274
+          },
+          {
+            "name": "credentialStore",
+            "kind": "property",
+            "addr": 4296297288
+          },
+          {
+            "name": "timeProvider",
+            "kind": "property",
+            "addr": 4296297304
+          },
+          {
+            "name": "sessions",
+            "kind": "property",
+            "type": "SDy\u0001\u00f2\u0018",
+            "addr": 4296297317
+          }
+        ]
+      },
+      {
+        "classname": "SessionKey",
+        "addr": 1318252,
+        "lang": "swift",
+        "index": 25,
+        "fields": [
+          {
+            "name": "xpcSessionId",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4296297326
+          },
+          {
+            "name": "id",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4296297339
+          }
+        ]
+      },
+      {
+        "classname": "ConfigurationStoreImplementation",
+        "addr": 1318280,
+        "lang": "swift",
+        "index": 26,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.ConfigurationStoreImplementation.0",
+            "lang": "swift",
+            "addr": 4296333729
+          }
+        ],
+        "fields": [
+          {
+            "name": "$defaultActor",
+            "kind": "property",
+            "type": "BD",
+            "addr": 4296297342
+          },
+          {
+            "name": "preferences",
+            "kind": "property",
+            "addr": 4296297356
+          }
+        ]
+      },
+      {
+        "classname": "DatabaseConnectionManagerImplementation",
+        "addr": 1318340,
+        "lang": "swift",
+        "index": 27,
+        "fields": [
+          {
+            "name": "$defaultActor",
+            "kind": "property",
+            "type": "BD",
+            "addr": 4296297376
+          },
+          {
+            "name": "fileManager",
+            "kind": "property",
+            "addr": 4296297390
+          },
+          {
+            "name": "containerSize",
+            "kind": "property",
+            "addr": 4296297402
+          },
+          {
+            "name": "configurationStore",
+            "kind": "property",
+            "addr": 4296297424
+          },
+          {
+            "name": "secretsManager",
+            "kind": "property",
+            "addr": 4296297443
+          },
+          {
+            "name": "activeMainDbOperations",
+            "kind": "property",
+            "type": "Swift.Int",
+            "addr": 4296297472
+          },
+          {
+            "name": "pendingConnections",
+            "kind": "property",
+            "type": "SDy\u0001\u001a\u0018",
+            "addr": 4296297504
+          },
+          {
+            "name": "connections",
+            "kind": "property",
+            "type": "SDy\u0001\u00fe\u0017",
+            "addr": 4296297523
+          },
+          {
+            "name": "connectionOwnership",
+            "kind": "property",
+            "type": "SDy\u0001\u00ee\u0017",
+            "addr": 4296297536
+          }
+        ]
+      },
+      {
+        "classname": "ConnectionKey",
+        "addr": 1318408,
+        "lang": "swift",
+        "index": 28,
+        "fields": [
+          {
+            "name": "schema",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4296297556
+          },
+          {
+            "name": "storageCategory",
+            "kind": "property",
+            "addr": 4296297563
+          },
+          {
+            "name": "userId",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4296297579
+          },
+          {
+            "name": "isReadonly",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4296297586
+          },
+          {
+            "name": "isService",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4296297597
+          }
+        ]
+      },
+      {
+        "classname": "DataRegistryImplementation",
+        "addr": 1318448,
+        "lang": "swift",
+        "index": 29,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.DataRegistryImplementation.0",
+            "lang": "swift",
+            "addr": 4296285871
+          },
+          {
+            "name": "1",
+            "flag": "method.DataRegistryImplementation.1",
+            "lang": "swift",
+            "addr": 4296077040
+          }
+        ],
+        "fields": [
+          {
+            "name": "$defaultActor",
+            "kind": "property",
+            "type": "BD",
+            "addr": 4296297607
+          },
+          {
+            "name": "dbManager",
+            "kind": "property",
+            "addr": 4296297621
+          },
+          {
+            "name": "dateProvider",
+            "kind": "property",
+            "addr": 4296297631
+          }
+        ]
+      },
+      {
+        "classname": "NotificationCenterImplementation",
+        "addr": 1318508,
+        "lang": "swift",
+        "index": 30,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.NotificationCenterImplementation.0",
+            "lang": "swift",
+            "addr": 4296285866
+          },
+          {
+            "name": "1",
+            "flag": "method.NotificationCenterImplementation.1",
+            "lang": "swift",
+            "addr": 4296285872
+          },
+          {
+            "name": "2",
+            "flag": "method.NotificationCenterImplementation.2",
+            "lang": "swift",
+            "addr": 4296285880
+          },
+          {
+            "name": "3",
+            "flag": "method.NotificationCenterImplementation.3",
+            "lang": "swift",
+            "addr": 4296284992
+          },
+          {
+            "name": "func.1000766b4",
+            "flag": "method.NotificationCenterImplementation.func.1000766b4",
+            "lang": "swift",
+            "addr": 4295452340
+          },
+          {
+            "name": "5",
+            "flag": "method.NotificationCenterImplementation.5",
+            "lang": "swift",
+            "addr": 4296285904
+          },
+          {
+            "name": "6",
+            "flag": "method.NotificationCenterImplementation.6",
+            "lang": "swift",
+            "addr": 4296285924
+          },
+          {
+            "name": "7",
+            "flag": "method.NotificationCenterImplementation.7",
+            "lang": "swift",
+            "addr": 4296285921
+          },
+          {
+            "name": "8",
+            "flag": "method.NotificationCenterImplementation.8",
+            "lang": "swift",
+            "addr": 4296285939
+          }
+        ],
+        "fields": [
+          {
+            "name": "$defaultActor",
+            "kind": "property",
+            "type": "BD",
+            "addr": 4296297648
+          },
+          {
+            "name": "bag",
+            "kind": "property",
+            "addr": 4296297662
+          },
+          {
+            "name": "dataRegistry",
+            "kind": "property",
+            "addr": 4296297666
+          },
+          {
+            "name": "engagementFactory",
+            "kind": "property",
+            "type": "AMSEngagement.allocator__GenericAccessorSg\u0002\u00a7\"\u0002",
+            "addr": 4296297680
+          },
+          {
+            "name": "dateProvider",
+            "kind": "property",
+            "addr": 4296297698
+          },
+          {
+            "name": "scheduler",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4296297711
+          },
+          {
+            "name": "cachedPrefixes",
+            "kind": "property",
+            "addr": 4296297721
+          }
+        ]
+      },
+      {
+        "classname": "QueryAccessCheckerImplementation",
+        "addr": 1318588,
+        "lang": "swift",
+        "index": 31,
+        "fields": [
+          {
+            "name": "$defaultActor",
+            "kind": "property",
+            "type": "BD",
+            "addr": 4296297736
+          }
+        ]
+      },
+      {
+        "classname": "RateLimitCheckerImplementation",
+        "addr": 1318648,
+        "lang": "swift",
+        "index": 32,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.RateLimitCheckerImplementation.0",
+            "lang": "swift",
+            "addr": 4296286112
+          },
+          {
+            "name": "1",
+            "flag": "method.RateLimitCheckerImplementation.1",
+            "lang": "swift",
+            "addr": 4296025911
+          }
+        ],
+        "fields": [
+          {
+            "name": "$defaultActor",
+            "kind": "property",
+            "type": "BD",
+            "addr": 4296297750
+          },
+          {
+            "name": "credentialStore",
+            "kind": "property",
+            "addr": 4296297764
+          },
+          {
+            "name": "timeProvider",
+            "kind": "property",
+            "addr": 4296297780
+          }
+        ]
+      },
+      {
+        "classname": "SQLAnalyzer",
+        "addr": 1318708,
+        "lang": "swift",
+        "index": 33
+      },
+      {
+        "classname": "SQLAnalyzerError",
+        "addr": 1318736,
+        "lang": "swift",
+        "index": 34,
+        "fields": [
+          {
+            "name": "message",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4296297793
+          }
+        ]
+      },
+      {
+        "classname": "RequestContext",
+        "addr": 1318796,
+        "lang": "swift",
+        "index": 35,
+        "fields": [
+          {
+            "name": "clientInfo",
+            "kind": "property",
+            "addr": 4296297801
+          },
+          {
+            "name": "credential",
+            "kind": "property",
+            "addr": 4296297812
+          },
+          {
+            "name": "delegate",
+            "kind": "property",
+            "addr": 4296297823
+          },
+          {
+            "name": "dbManager",
+            "kind": "property",
+            "addr": 4296297832
+          }
+        ]
+      },
+      {
+        "classname": "Specification",
+        "addr": 1318848,
+        "lang": "swift",
+        "index": 36,
+        "fields": [
+          {
+            "name": "name",
+            "kind": "property",
+            "addr": 4296297856
+          },
+          {
+            "name": "datatype",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4296297861
+          },
+          {
+            "name": "isNullable",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4296297870
+          },
+          {
+            "name": "defaultValueOnCreate",
+            "kind": "property",
+            "addr": 4296297888
+          },
+          {
+            "name": "defaultValueOnAlter",
+            "kind": "property",
+            "addr": 4296297920
+          }
+        ]
+      },
+      {
+        "classname": "DispatchQueueExecutor",
+        "addr": 1318876,
+        "lang": "swift",
+        "index": 37,
+        "fields": [
+          {
+            "name": "queue",
+            "kind": "property",
+            "type": "__C.OS_dispatch_queue",
+            "addr": 4296297940
+          }
+        ]
+      },
+      {
+        "classname": "FileManagerWrapper",
+        "addr": 1318936,
+        "lang": "swift",
+        "index": 38,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.FileManagerWrapper.0",
+            "lang": "swift",
+            "addr": 4296340244
+          }
+        ],
+        "fields": [
+          {
+            "name": "wrapped",
+            "kind": "property",
+            "type": "__C.NSFileManager",
+            "addr": 4296297946
+          }
+        ]
+      },
+      {
+        "classname": "SecretsManagerImplementation",
+        "addr": 1319004,
+        "lang": "swift",
+        "index": 39,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.SecretsManagerImplementation.0",
+            "lang": "swift",
+            "addr": 4296286554
+          },
+          {
+            "name": "1",
+            "flag": "method.SecretsManagerImplementation.1",
+            "lang": "swift",
+            "addr": 4295935131
+          }
+        ],
+        "fields": [
+          {
+            "name": "$defaultActor",
+            "kind": "property",
+            "type": "BD",
+            "addr": 4296297968
+          },
+          {
+            "name": "passwordStore",
+            "kind": "property",
+            "addr": 4296297982
+          },
+          {
+            "name": "configurationStore",
+            "kind": "property",
+            "addr": 4296298000
+          }
+        ]
+      },
+      {
+        "classname": "SystemDateProvider",
+        "addr": 1319064,
+        "lang": "swift",
+        "index": 40
+      },
+      {
+        "classname": "GenericPasswordStore",
+        "addr": 1319152,
+        "lang": "swift",
+        "index": 41
+      },
+      {
+        "classname": "KeyStoreError",
+        "addr": 1319180,
+        "lang": "swift",
+        "index": 42,
+        "fields": [
+          {
+            "name": "message",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4296298019
+          }
+        ]
+      },
+      {
+        "classname": "SystemMonotonicTimeProvider",
+        "addr": 1319208,
+        "lang": "swift",
+        "index": 43
+      },
+      {
+        "classname": "SystemRestrictions",
+        "addr": 1319236,
+        "lang": "swift",
+        "index": 44,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.SystemRestrictions.0",
+            "lang": "swift",
+            "addr": 4296287667
+          }
+        ]
+      },
+      {
+        "classname": "Error",
+        "addr": 1319264,
+        "lang": "swift",
+        "index": 45,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.SystemRestrictions.0",
+            "lang": "swift",
+            "addr": 4296287667
+          }
+        ],
+        "fields": [
+          {
+            "name": "bundleIdAccessDenied",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4296298096
+          },
+          {
+            "name": "missingEntitlements",
+            "kind": "property",
+            "addr": 4296298128
+          }
+        ]
+      },
+      {
+        "classname": "MuteEntitlementChecker",
+        "addr": 1319300,
+        "lang": "swift",
+        "index": 46
+      },
+      {
+        "classname": "ClientInfo",
+        "addr": 1319328,
+        "lang": "swift",
+        "index": 47,
+        "fields": [
+          {
+            "name": "bundleId",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4296298032
+          },
+          {
+            "name": "userId",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4296298041
+          },
+          {
+            "name": "entitlementChecker",
+            "kind": "property",
+            "addr": 4296298048
+          },
+          {
+            "name": "bundleIdChecker",
+            "kind": "property",
+            "type": "ySS_\u0002\u00d9\u001e\u0002",
+            "addr": 4296298067
+          }
+        ]
+      },
+      {
+        "classname": "SystemStatusProvider",
+        "addr": 1319356,
+        "lang": "swift",
+        "index": 48,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.SystemStatusProvider.0",
+            "lang": "swift",
+            "addr": 4296287183
+          },
+          {
+            "name": "1",
+            "flag": "method.SystemStatusProvider.1",
+            "lang": "swift",
+            "addr": 4296303575
+          }
+        ],
+        "fields": [
+          {
+            "name": "configuration",
+            "kind": "property",
+            "addr": 4296298160
+          },
+          {
+            "name": "memoryLimit",
+            "kind": "property",
+            "addr": 4296298174
+          }
+        ]
+      },
+      {
+        "classname": "SQLStatus",
+        "addr": 1319392,
+        "lang": "swift",
+        "index": 49,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.SystemStatusProvider.0",
+            "lang": "swift",
+            "addr": 4296287183
+          },
+          {
+            "name": "1",
+            "flag": "method.SystemStatusProvider.1",
+            "lang": "swift",
+            "addr": 4296303575
+          }
+        ],
+        "fields": [
+          {
+            "name": "code",
+            "kind": "property",
+            "addr": 4296298390
+          },
+          {
+            "name": "name",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4296298395
+          },
+          {
+            "name": "details",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4296298400
+          },
+          {
+            "name": "store",
+            "kind": "property",
+            "addr": 4296298408
+          }
+        ]
+      },
+      {
+        "classname": "ProcessMemoryFootprint",
+        "addr": 1319420,
+        "lang": "swift",
+        "index": 50,
+        "fields": [
+          {
+            "name": "timestamp",
+            "kind": "property",
+            "addr": 4296298186
+          },
+          {
+            "name": "physicalFootprint",
+            "kind": "property",
+            "addr": 4296298336
+          },
+          {
+            "name": "peakPhysicalFootprint",
+            "kind": "property",
+            "addr": 4296298368
+          }
+        ]
+      },
+      {
+        "classname": "MemoryStats",
+        "addr": 1319460,
+        "lang": "swift",
+        "index": 51,
+        "fields": [
+          {
+            "name": "timestamp",
+            "kind": "property",
+            "addr": 4296298186
+          },
+          {
+            "name": "sqliteMemoryUsed",
+            "kind": "property",
+            "addr": 4296298208
+          },
+          {
+            "name": "sqliteMemoryHighwater",
+            "kind": "property",
+            "addr": 4296298240
+          },
+          {
+            "name": "cacheSize",
+            "kind": "property",
+            "addr": 4296298262
+          },
+          {
+            "name": "cacheHitRate",
+            "kind": "property",
+            "type": "Swift.Double",
+            "addr": 4296298272
+          },
+          {
+            "name": "pageSize",
+            "kind": "property",
+            "addr": 4296298285
+          },
+          {
+            "name": "totalConnections",
+            "kind": "property",
+            "type": "Swift.Int",
+            "addr": 4296298304
+          }
+        ]
+      },
+      {
+        "classname": "Store",
+        "addr": 1319500,
+        "lang": "swift",
+        "index": 52,
+        "fields": [
+          {
+            "name": "value",
+            "kind": "property",
+            "addr": 4296298414
+          },
+          {
+            "name": "error",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4296298420
+          }
+        ]
+      },
+      {
+        "classname": "TaskCenterImplementation",
+        "addr": 1319528,
+        "lang": "swift",
+        "index": 53,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.TaskCenterImplementation.0",
+            "lang": "swift",
+            "addr": 4296605341
+          }
+        ],
+        "fields": [
+          {
+            "name": "$defaultActor",
+            "kind": "property",
+            "type": "BD",
+            "addr": 4296298426
+          }
+        ]
+      },
+      {
+        "classname": "MetricsSamplingLottery",
+        "addr": 1319588,
+        "lang": "swift",
+        "index": 54,
+        "fields": [
+          {
+            "name": "isForcedKey",
+            "kind": "property",
+            "addr": 4296298448
+          },
+          {
+            "name": "sampleWindowStartKey",
+            "kind": "property",
+            "addr": 4296298464
+          },
+          {
+            "name": "percentage",
+            "kind": "property",
+            "type": "Swift.Double",
+            "addr": 4296298485
+          },
+          {
+            "name": "duration",
+            "kind": "property",
+            "type": "Swift.Double",
+            "addr": 4296298496
+          }
+        ]
+      },
+      {
+        "classname": "AccessCredentialDataCleanupTask",
+        "addr": 1319628,
+        "lang": "swift",
+        "index": 55,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.AccessCredentialDataCleanupTask.0",
+            "lang": "swift",
+            "addr": 4296288204
+          }
+        ],
+        "fields": [
+          {
+            "name": "$defaultActor",
+            "kind": "property",
+            "type": "BD",
+            "addr": 4296298505
+          },
+          {
+            "name": "requestId",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4296298519
+          }
+        ]
+      },
+      {
+        "classname": "Config",
+        "addr": 1319688,
+        "lang": "swift",
+        "index": 56,
+        "fields": [
+          {
+            "name": "forceCleanup",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4296298529
+          }
+        ]
+      },
+      {
+        "classname": "AppDataCleanupTask",
+        "addr": 1319716,
+        "lang": "swift",
+        "index": 57,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.AppDataCleanupTask.0",
+            "lang": "swift",
+            "addr": 4296291712
+          }
+        ],
+        "fields": [
+          {
+            "name": "$defaultActor",
+            "kind": "property",
+            "type": "BD",
+            "addr": 4296298542
+          },
+          {
+            "name": "bundleId",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4296298556
+          }
+        ]
+      },
+      {
+        "classname": "CheckInstalledAppsTask",
+        "addr": 1319776,
+        "lang": "swift",
+        "index": 58,
+        "fields": [
+          {
+            "name": "$defaultActor",
+            "kind": "property",
+            "type": "BD",
+            "addr": 4296298565
+          }
+        ]
+      },
+      {
+        "classname": "CheckInvalidAccessCredentialsTask",
+        "addr": 1319836,
+        "lang": "swift",
+        "index": 59,
+        "fields": [
+          {
+            "name": "$defaultActor",
+            "kind": "property",
+            "type": "BD",
+            "addr": 4296298579
+          }
+        ]
+      },
+      {
+        "classname": "DataOwnershipIndexCleanupTask",
+        "addr": 1319896,
+        "lang": "swift",
+        "index": 60,
+        "fields": [
+          {
+            "name": "$defaultActor",
+            "kind": "property",
+            "type": "BD",
+            "addr": 4296298593
+          }
+        ]
+      },
+      {
+        "classname": "FetchRevokedAccessCredentialsTask",
+        "addr": 1319956,
+        "lang": "swift",
+        "index": 61,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.FetchRevokedAccessCredentialsTask.0",
+            "lang": "swift",
+            "addr": 4296296738
+          }
+        ],
+        "fields": [
+          {
+            "name": "$defaultActor",
+            "kind": "property",
+            "type": "BD",
+            "addr": 4296298607
+          },
+          {
+            "name": "scheduleCleanup",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4296298621
+          }
+        ]
+      },
+      {
+        "classname": "MaintenanceTask",
+        "addr": 1320016,
+        "lang": "swift",
+        "index": 62,
+        "fields": [
+          {
+            "name": "$defaultActor",
+            "kind": "property",
+            "type": "BD",
+            "addr": 4296298637
+          }
+        ]
+      },
+      {
+        "classname": "OnlineMaintenanceTask",
+        "addr": 1320076,
+        "lang": "swift",
+        "index": 63,
+        "fields": [
+          {
+            "name": "$defaultActor",
+            "kind": "property",
+            "type": "BD",
+            "addr": 4296298651
+          }
+        ]
+      },
+      {
+        "classname": "PostScheduledNotificationsTask",
+        "addr": 1320136,
+        "lang": "swift",
+        "index": 64,
+        "fields": [
+          {
+            "name": "$defaultActor",
+            "kind": "property",
+            "type": "BD",
+            "addr": 4296298665
+          },
+          {
+            "name": "credential",
+            "kind": "property",
+            "addr": 4296298679
+          }
+        ]
+      },
+      {
+        "classname": "ScheduledTTLCleanupTask",
+        "addr": 1320208,
+        "lang": "swift",
+        "index": 65,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.ScheduledTTLCleanupTask.0",
+            "lang": "swift",
+            "addr": 4296301896
+          }
+        ],
+        "fields": [
+          {
+            "name": "$defaultActor",
+            "kind": "property",
+            "type": "BD",
+            "addr": 4296298690
+          },
+          {
+            "name": "taskFactory",
+            "kind": "property",
+            "addr": 4296298704
+          }
+        ]
+      },
+      {
+        "classname": "TriggerForwardDeletionRulesTask",
+        "addr": 1320336,
+        "lang": "swift",
+        "index": 66,
+        "fields": [
+          {
+            "name": "$defaultActor",
+            "kind": "property",
+            "type": "BD",
+            "addr": 4296298716
+          }
+        ]
+      },
+      {
+        "classname": "TTLCleanupTask",
+        "addr": 1320448,
+        "lang": "swift",
+        "index": 67,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.TTLCleanupTask.0",
+            "lang": "swift",
+            "addr": 4296288571
+          },
+          {
+            "name": "1",
+            "flag": "method.TTLCleanupTask.1",
+            "lang": "swift",
+            "addr": 4296287993
+          },
+          {
+            "name": "2",
+            "flag": "method.TTLCleanupTask.2",
+            "lang": "swift",
+            "addr": 4296288054
+          },
+          {
+            "name": "3",
+            "flag": "method.TTLCleanupTask.3",
+            "lang": "swift",
+            "addr": 4296288077
+          },
+          {
+            "name": "4",
+            "flag": "method.TTLCleanupTask.4",
+            "lang": "swift",
+            "addr": 4296264283
+          },
+          {
+            "name": "5",
+            "flag": "method.TTLCleanupTask.5",
+            "lang": "swift",
+            "addr": 4296284771
+          }
+        ],
+        "fields": [
+          {
+            "name": "$defaultActor",
+            "kind": "property",
+            "type": "BD",
+            "addr": 4296298736
+          },
+          {
+            "name": "table",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4296298750
+          },
+          {
+            "name": "schema",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4296298756
+          },
+          {
+            "name": "credentialSource",
+            "kind": "property",
+            "addr": 4296298768
+          },
+          {
+            "name": "connection",
+            "kind": "property",
+            "addr": 4296298785
+          }
+        ]
+      },
+      {
+        "classname": "CredentialSource",
+        "addr": 1320544,
+        "lang": "swift",
+        "index": 68,
+        "fields": [
+          {
+            "name": "requestId",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4296298796
+          },
+          {
+            "name": "asIs",
+            "kind": "property",
+            "addr": 4296298806
+          }
+        ]
+      },
+      {
+        "classname": "WeeklyMetricsTask",
+        "addr": 1320584,
+        "lang": "swift",
+        "index": 69,
+        "fields": [
+          {
+            "name": "$defaultActor",
+            "kind": "property",
+            "type": "BD",
+            "addr": 4296298811
+          }
+        ]
+      },
+      {
+        "classname": "DaemonMetricsConfiguration",
+        "addr": 1320652,
+        "lang": "swift",
+        "index": 70
+      },
+      {
+        "classname": "RateLimitInfo",
+        "addr": 1320824,
+        "lang": "swift",
+        "index": 71,
+        "fields": [
+          {
+            "name": "windowStartTime",
+            "kind": "property",
+            "addr": 4296298825
+          },
+          {
+            "name": "currentUsage",
+            "kind": "property",
+            "addr": 4296298841
+          },
+          {
+            "name": "delay",
+            "kind": "property",
+            "type": "Swift.Double",
+            "addr": 4296298854
+          }
+        ]
+      },
+      {
+        "classname": "ClientSession",
+        "addr": 1320896,
+        "lang": "swift",
+        "index": 72,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.ClientSession.0",
+            "lang": "swift",
+            "addr": 4296353786
+          },
+          {
+            "name": "1",
+            "flag": "method.ClientSession.1",
+            "lang": "swift",
+            "addr": 4296333364
+          }
+        ],
+        "fields": [
+          {
+            "name": "$defaultActor",
+            "kind": "property",
+            "type": "BD",
+            "addr": 4296298864
+          },
+          {
+            "name": "credential",
+            "kind": "property",
+            "addr": 4296298878
+          },
+          {
+            "name": "connectionDelegate",
+            "kind": "property",
+            "addr": 4296298896
+          },
+          {
+            "name": "id",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4296298915
+          },
+          {
+            "name": "dbManager",
+            "kind": "property",
+            "addr": 4296298918
+          },
+          {
+            "name": "statusProvider",
+            "kind": "property",
+            "addr": 4296298928
+          }
+        ]
+      },
+      {
+        "classname": "Context_1",
+        "addr": 1320968,
+        "lang": "swift",
+        "index": 73,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.Context_1.0",
+            "lang": "swift",
+            "addr": 4296229419
+          }
+        ],
+        "fields": [
+          {
+            "name": "request",
+            "kind": "property",
+            "type": "x",
+            "addr": 4296298943
+          },
+          {
+            "name": "summary",
+            "kind": "property",
+            "addr": 4296298951
+          },
+          {
+            "name": "schemaName",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4296298959
+          },
+          {
+            "name": "connection",
+            "kind": "property",
+            "addr": 4296298970
+          }
+        ]
+      },
+      {
+        "classname": "DataIndex",
+        "addr": 1321476,
+        "lang": "swift",
+        "index": 74,
+        "fields": [
+          {
+            "name": "requestId",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4296298992
+          },
+          {
+            "name": "client",
+            "kind": "property",
+            "addr": 4296299040
+          },
+          {
+            "name": "table",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4296299009
+          },
+          {
+            "name": "schema",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4296299002
+          }
+        ]
+      },
+      {
+        "classname": "ScheduledNotification",
+        "addr": 1321504,
+        "lang": "swift",
+        "index": 75,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.ScheduledNotification.0",
+            "lang": "swift",
+            "addr": 4296290099
+          },
+          {
+            "name": "1",
+            "flag": "method.ScheduledNotification.1",
+            "lang": "swift",
+            "addr": 4296305723
+          },
+          {
+            "name": "2",
+            "flag": "method.ScheduledNotification.2",
+            "lang": "swift",
+            "addr": 4296310082
+          }
+        ],
+        "fields": [
+          {
+            "name": "requestId",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4296298992
+          },
+          {
+            "name": "schema",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4296299002
+          },
+          {
+            "name": "table",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4296299009
+          },
+          {
+            "name": "_operationType",
+            "kind": "property",
+            "type": "Swift.Int",
+            "addr": 4296299015
+          },
+          {
+            "name": "createdAt",
+            "kind": "property",
+            "type": "Swift.Double",
+            "addr": 4296299030
+          }
+        ]
+      },
+      {
+        "classname": "CodingKeys",
+        "addr": 1321540,
+        "lang": "swift",
+        "index": 76,
+        "fields": [
+          {
+            "name": "requestId",
+            "kind": "property",
+            "addr": 4296298992
+          },
+          {
+            "name": "schema",
+            "kind": "property",
+            "addr": 4296299002
+          },
+          {
+            "name": "table",
+            "kind": "property",
+            "addr": 4296299009
+          },
+          {
+            "name": "_operationType",
+            "kind": "property",
+            "addr": 4296299015
+          },
+          {
+            "name": "createdAt",
+            "kind": "property",
+            "addr": 4296299030
+          }
+        ]
+      },
+      {
+        "classname": "DatabaseStatisticsResult",
+        "addr": 1321568,
+        "lang": "swift",
+        "index": 77,
+        "super": [
+          "B"
+        ],
+        "rawsuper": [
+          "B"
+        ],
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.DatabaseStatisticsResult.0",
+            "lang": "swift",
+            "addr": 4296290931
+          },
+          {
+            "name": "1",
+            "flag": "method.DatabaseStatisticsResult.1",
+            "lang": "swift",
+            "addr": 4296305787
+          },
+          {
+            "name": "2",
+            "flag": "method.DatabaseStatisticsResult.2",
+            "lang": "swift",
+            "addr": 4296310146
+          }
+        ],
+        "fields": [
+          {
+            "name": "sizes",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4296299047
+          },
+          {
+            "name": "successfulReads",
+            "kind": "property",
+            "type": "Swift.Int",
+            "addr": 4296299053
+          },
+          {
+            "name": "successfulWrites",
+            "kind": "property",
+            "type": "Swift.Int",
+            "addr": 4296299072
+          },
+          {
+            "name": "unauthorizedReads",
+            "kind": "property",
+            "type": "Swift.Int",
+            "addr": 4296299104
+          },
+          {
+            "name": "unauthorizedWrites",
+            "kind": "property",
+            "type": "Swift.Int",
+            "addr": 4296299136
+          },
+          {
+            "name": "rateLimitedReads",
+            "kind": "property",
+            "type": "Swift.Int",
+            "addr": 4296299168
+          },
+          {
+            "name": "rateLimitedWrites",
+            "kind": "property",
+            "type": "Swift.Int",
+            "addr": 4296299200
+          },
+          {
+            "name": "errors",
+            "kind": "property",
+            "type": "SDyS2iG",
+            "addr": 4296299218
+          }
+        ]
+      },
+      {
+        "classname": "CodingKeys_1",
+        "addr": 1321604,
+        "lang": "swift",
+        "index": 78,
+        "fields": [
+          {
+            "name": "sizes",
+            "kind": "property",
+            "addr": 4296299047
+          },
+          {
+            "name": "successfulReads",
+            "kind": "property",
+            "addr": 4296299053
+          },
+          {
+            "name": "successfulWrites",
+            "kind": "property",
+            "addr": 4296299072
+          },
+          {
+            "name": "unauthorizedReads",
+            "kind": "property",
+            "addr": 4296299104
+          },
+          {
+            "name": "unauthorizedWrites",
+            "kind": "property",
+            "addr": 4296299136
+          },
+          {
+            "name": "rateLimitedReads",
+            "kind": "property",
+            "addr": 4296299168
+          },
+          {
+            "name": "rateLimitedWrites",
+            "kind": "property",
+            "addr": 4296299200
+          },
+          {
+            "name": "errors",
+            "kind": "property",
+            "addr": 4296299218
+          }
+        ]
+      },
+      {
+        "classname": "DaemonMetricsEventRecorder",
+        "addr": 1321664,
+        "lang": "swift",
+        "index": 79,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.DaemonMetricsEventRecorder.0",
+            "lang": "swift",
+            "addr": 4296289030
+          }
+        ],
+        "fields": [
+          {
+            "name": "bag",
+            "kind": "property",
+            "addr": 4296299225
+          },
+          {
+            "name": "metrics",
+            "kind": "property",
+            "type": "AMSMetrics.allocator__GenericAccessorSg",
+            "addr": 4296299229
+          },
+          {
+            "name": "defaultTopic",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4296299237
+          },
+          {
+            "name": "anonymousTopics",
+            "kind": "property",
+            "type": "ShySSG",
+            "addr": 4296299250
+          }
+        ]
+      },
+      {
+        "classname": "QueryAccessError",
+        "addr": 1321864,
+        "lang": "swift",
+        "index": 80,
+        "fields": [
+          {
+            "name": "accessTypeNotPermitted",
+            "kind": "property",
+            "addr": 4296299280
+          },
+          {
+            "name": "schemaNotAccessible",
+            "kind": "property",
+            "type": "ShySSG",
+            "addr": 4296299312
+          },
+          {
+            "name": "tablesNotAccessible",
+            "kind": "property",
+            "type": "ShySSG",
+            "addr": 4296299344
+          },
+          {
+            "name": "columnsNotAccessible",
+            "kind": "property",
+            "type": "ShySSG",
+            "addr": 4296299376
+          },
+          {
+            "name": "forbiddenServiceColumnsAccess",
+            "kind": "property",
+            "type": "ShySSG",
+            "addr": 4296299408
+          }
+        ]
+      },
+      {
+        "classname": "RateLimitError",
+        "addr": 1321924,
+        "lang": "swift",
+        "index": 81,
+        "fields": [
+          {
+            "name": "delayIsActive",
+            "kind": "property",
+            "addr": 4296299440
+          },
+          {
+            "name": "exceededCapacity",
+            "kind": "property",
+            "addr": 4296299456
+          }
+        ]
+      },
+      {
+        "classname": "BootstrapSession",
+        "addr": 1322160,
+        "lang": "swift",
+        "index": 82,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.BootstrapSession.0",
+            "lang": "swift",
+            "addr": 4296312583
+          }
+        ],
+        "fields": [
+          {
+            "name": "$defaultActor",
+            "kind": "property",
+            "type": "BD",
+            "addr": 4296299473
+          },
+          {
+            "name": "state",
+            "kind": "property",
+            "addr": 4296299487
+          }
+        ]
+      },
+      {
+        "classname": "State",
+        "addr": 1322228,
+        "lang": "swift",
+        "index": 83,
+        "fields": [
+          {
+            "name": "started",
+            "kind": "property",
+            "type": "UnicodeScalar",
+            "addr": 4296299493
+          },
+          {
+            "name": "completed",
+            "kind": "property",
+            "addr": 4296299501
+          },
+          {
+            "name": "failed",
+            "kind": "property",
+            "addr": 4296299511
+          },
+          {
+            "name": "waiting",
+            "kind": "property",
+            "addr": 4296299518
+          }
+        ]
+      },
+      {
+        "classname": "Daemon",
+        "addr": 1322256,
+        "lang": "swift",
+        "index": 84,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.Daemon.0",
+            "lang": "swift",
+            "addr": 4296298954
+          }
+        ],
+        "fields": [
+          {
+            "name": "bootstrapSession",
+            "kind": "property",
+            "addr": 4296299536
+          },
+          {
+            "name": "listener",
+            "kind": "property",
+            "addr": 4296299553
+          }
+        ]
+      },
+      {
+        "classname": "DaemonActor",
+        "addr": 1322316,
+        "lang": "swift",
+        "index": 85,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.DaemonActor.0",
+            "lang": "swift",
+            "addr": 4296316559
+          },
+          {
+            "name": "1",
+            "flag": "method.DaemonActor.1",
+            "lang": "swift",
+            "addr": 4296314407
+          }
+        ],
+        "fields": [
+          {
+            "name": "executor",
+            "kind": "property",
+            "addr": 4296299562
+          }
+        ]
+      },
+      {
+        "classname": "RequestHandler",
+        "addr": 1322392,
+        "lang": "swift",
+        "index": 86,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.RequestHandler.0",
+            "lang": "swift",
+            "addr": 4296290731
+          }
+        ],
+        "fields": [
+          {
+            "name": "sessionId",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4296299581
+          },
+          {
+            "name": "xpcSession",
+            "kind": "property",
+            "addr": 4296299591
+          },
+          {
+            "name": "bootstrapSession",
+            "kind": "property",
+            "addr": 4296299536
+          },
+          {
+            "name": "handoffQueue",
+            "kind": "property",
+            "type": "__C.OS_dispatch_queue",
+            "addr": 4296299602
+          }
+        ]
+      },
+      {
+        "classname": "Signpost",
+        "addr": 1322420,
+        "lang": "swift",
+        "index": 87,
+        "fields": [
+          {
+            "name": "name",
+            "kind": "property",
+            "addr": 4296299628
+          },
+          {
+            "name": "state",
+            "kind": "property",
+            "addr": 4296299633
+          },
+          {
+            "name": "signposter",
+            "kind": "property",
+            "addr": 4296299639
+          }
+        ]
+      },
+      {
+        "classname": "CxxSequenceBox",
+        "addr": 1323636,
+        "lang": "swift",
+        "index": 88,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.CxxSequenceBox.0",
+            "lang": "swift",
+            "addr": 4296291499
+          },
+          {
+            "name": "1",
+            "flag": "method.CxxSequenceBox.1",
+            "lang": "swift",
+            "addr": 4296323763
+          },
+          {
+            "name": "2",
+            "flag": "method.CxxSequenceBox.2",
+            "lang": "swift",
+            "addr": 4296252346
+          },
+          {
+            "name": "3",
+            "flag": "method.CxxSequenceBox.3",
+            "lang": "swift",
+            "addr": 4296291267
+          }
+        ],
+        "fields": [
+          {
+            "name": "sequence",
+            "kind": "property",
+            "type": "x",
+            "addr": 4296299675
+          }
+        ]
+      },
+      {
+        "classname": "CxxIterator",
+        "addr": 1323728,
+        "lang": "swift",
+        "index": 89,
+        "fields": [
+          {
+            "name": "sequence",
+            "kind": "property",
+            "addr": 4296299675
+          },
+          {
+            "name": "rawIterator",
+            "kind": "property",
+            "type": "11RawIterator\u0001z\u0019",
+            "addr": 4296299684
+          },
+          {
+            "name": "endIterator",
+            "kind": "property",
+            "type": "11RawIterator\u0001z\u0019",
+            "addr": 4296299696
+          }
+        ]
+      },
+      {
+        "classname": "LinkGuardian",
+        "addr": 4296450088,
+        "lang": "objc",
+        "index": 90,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "check",
+            "flag": "method.class.LinkGuardian.check",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295113572
+          }
+        ]
+      },
+      {
+        "classname": "amsondevicestoraged.DefaultConnectionDelegate",
+        "addr": 4296452472,
+        "lang": "objc",
+        "index": 91,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "store",
+            "kind": "var",
+            "addr": 4296218712
+          }
+        ]
+      },
+      {
+        "classname": "amsondevicestoraged.DefaultConnectionDelegate._B92AB71E2A6FC2ADFBF145BD9B3715FE.CacheKey",
+        "addr": 4296452656,
+        "lang": "objc",
+        "index": 92,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "isEqual:",
+            "flag": "method.amsondevicestoraged.DefaultConnectionDelegate._B92AB71E2A6FC2ADFBF145BD9B3715FE.CacheKey.isEqual:",
+            "lang": "objc",
+            "addr": 4295149808
+          },
+          {
+            "name": "hash",
+            "flag": "method.amsondevicestoraged.DefaultConnectionDelegate._B92AB71E2A6FC2ADFBF145BD9B3715FE.CacheKey.hash",
+            "lang": "objc",
+            "addr": 4295149940
+          },
+          {
+            "name": "init",
+            "flag": "method.amsondevicestoraged.DefaultConnectionDelegate._B92AB71E2A6FC2ADFBF145BD9B3715FE.CacheKey.init",
+            "lang": "objc",
+            "addr": 4295150148
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.amsondevicestoraged.DefaultConnectionDelegate._B92AB71E2A6FC2ADFBF145BD9B3715FE.CacheKey..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295150260
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "connection",
+            "kind": "var",
+            "addr": 4296452632
+          },
+          {
+            "name": "table",
+            "kind": "var",
+            "addr": 4296452640
+          },
+          {
+            "name": "schema",
+            "kind": "var",
+            "addr": 4296452648
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "amsondevicestoraged.DefaultConnectionDelegate._B92AB71E2A6FC2ADFBF145BD9B3715FE.Context",
+        "addr": 4296452696,
+        "lang": "objc",
+        "index": 93,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_ignoredOversizeRowCount",
+            "kind": "var",
+            "addr": 4296218760
+          },
+          {
+            "name": "_ignoredRowLimitRowCount",
+            "kind": "var",
+            "addr": 4296218768
+          },
+          {
+            "name": "_evictedRowCount",
+            "kind": "var",
+            "addr": 4296218776
+          }
+        ]
+      },
+      {
+        "classname": "amsondevicestoraged.AccessCredentialFetcherImplementation",
+        "addr": 4296452968,
+        "lang": "objc",
+        "index": 94,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$defaultActor",
+            "kind": "var",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "amsondevicestoraged.AccessCredentialStoreImplementation",
+        "addr": 4296453184,
+        "lang": "objc",
+        "index": 95,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$defaultActor",
+            "kind": "var",
+            "addr": 0
+          },
+          {
+            "name": "configStore",
+            "kind": "var",
+            "addr": 4296219008
+          },
+          {
+            "name": "dbManager",
+            "kind": "var",
+            "addr": 4296219016
+          },
+          {
+            "name": "dataRegistry",
+            "kind": "var",
+            "addr": 4296219024
+          },
+          {
+            "name": "credentialFetcher",
+            "kind": "var",
+            "addr": 4296219032
+          },
+          {
+            "name": "timeProvider",
+            "kind": "var",
+            "addr": 4296219040
+          },
+          {
+            "name": "dateProvider",
+            "kind": "var",
+            "addr": 4296219048
+          }
+        ]
+      },
+      {
+        "classname": "amsondevicestoraged.AppRegistryImplementation",
+        "addr": 4296453704,
+        "lang": "objc",
+        "index": 96,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$defaultActor",
+            "kind": "var",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "amsondevicestoraged.ClientSessionManagerImplementation",
+        "addr": 4296453928,
+        "lang": "objc",
+        "index": 97,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$defaultActor",
+            "kind": "var",
+            "addr": 0
+          },
+          {
+            "name": "credentialStore",
+            "kind": "var",
+            "addr": 4296219536
+          },
+          {
+            "name": "timeProvider",
+            "kind": "var",
+            "addr": 4296219544
+          },
+          {
+            "name": "sessions",
+            "kind": "var",
+            "addr": 4296219552
+          }
+        ]
+      },
+      {
+        "classname": "amsondevicestoraged.ConfigurationStoreImplementation",
+        "addr": 4296454784,
+        "lang": "objc",
+        "index": 98,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$defaultActor",
+            "kind": "var",
+            "addr": 0
+          },
+          {
+            "name": "preferences",
+            "kind": "var",
+            "addr": 4296220032
+          }
+        ]
+      },
+      {
+        "classname": "amsondevicestoraged.DatabaseConnectionManagerImplementation",
+        "addr": 4296455096,
+        "lang": "objc",
+        "index": 99,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$defaultActor",
+            "kind": "var",
+            "addr": 0
+          },
+          {
+            "name": "fileManager",
+            "kind": "var",
+            "addr": 4296220192
+          },
+          {
+            "name": "containerSize",
+            "kind": "var",
+            "addr": 4296220200
+          },
+          {
+            "name": "configurationStore",
+            "kind": "var",
+            "addr": 4296220208
+          },
+          {
+            "name": "secretsManager",
+            "kind": "var",
+            "addr": 4296220216
+          },
+          {
+            "name": "activeMainDbOperations",
+            "kind": "var",
+            "addr": 4296220224
+          },
+          {
+            "name": "pendingConnections",
+            "kind": "var",
+            "addr": 4296220232
+          },
+          {
+            "name": "connections",
+            "kind": "var",
+            "addr": 4296220240
+          },
+          {
+            "name": "connectionOwnership",
+            "kind": "var",
+            "addr": 4296220248
+          }
+        ]
+      },
+      {
+        "classname": "amsondevicestoraged.DataRegistryImplementation",
+        "addr": 4296455648,
+        "lang": "objc",
+        "index": 100,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$defaultActor",
+            "kind": "var",
+            "addr": 0
+          },
+          {
+            "name": "dbManager",
+            "kind": "var",
+            "addr": 4296220656
+          },
+          {
+            "name": "dateProvider",
+            "kind": "var",
+            "addr": 4296220664
+          }
+        ]
+      },
+      {
+        "classname": "amsondevicestoraged.NotificationCenterImplementation",
+        "addr": 4296456096,
+        "lang": "objc",
+        "index": 101,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$defaultActor",
+            "kind": "var",
+            "addr": 0
+          },
+          {
+            "name": "bag",
+            "kind": "var",
+            "addr": 4296456048
+          },
+          {
+            "name": "dataRegistry",
+            "kind": "var",
+            "addr": 4296456056
+          },
+          {
+            "name": "engagementFactory",
+            "kind": "var",
+            "addr": 4296456064
+          },
+          {
+            "name": "dateProvider",
+            "kind": "var",
+            "addr": 4296456072
+          },
+          {
+            "name": "scheduler",
+            "kind": "var",
+            "addr": 4296456080
+          },
+          {
+            "name": "cachedPrefixes",
+            "kind": "var",
+            "addr": 4296456088
+          }
+        ]
+      },
+      {
+        "classname": "amsondevicestoraged.QueryAccessCheckerImplementation",
+        "addr": 4296456384,
+        "lang": "objc",
+        "index": 102,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$defaultActor",
+            "kind": "var",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "amsondevicestoraged.RateLimitCheckerImplementation",
+        "addr": 4296456600,
+        "lang": "objc",
+        "index": 103,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$defaultActor",
+            "kind": "var",
+            "addr": 0
+          },
+          {
+            "name": "credentialStore",
+            "kind": "var",
+            "addr": 4296221552
+          },
+          {
+            "name": "timeProvider",
+            "kind": "var",
+            "addr": 4296221560
+          }
+        ]
+      },
+      {
+        "classname": "amsondevicestoraged.DispatchQueueExecutor",
+        "addr": 4296457232,
+        "lang": "objc",
+        "index": 104,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "queue",
+            "kind": "var",
+            "addr": 4296222480
+          }
+        ]
+      },
+      {
+        "classname": "amsondevicestoraged.FileManagerWrapper",
+        "addr": 4296457432,
+        "lang": "objc",
+        "index": 105,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "wrapped",
+            "kind": "var",
+            "addr": 4296222688
+          }
+        ]
+      },
+      {
+        "classname": "amsondevicestoraged.SecretsManagerImplementation",
+        "addr": 4296457776,
+        "lang": "objc",
+        "index": 106,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$defaultActor",
+            "kind": "var",
+            "addr": 0
+          },
+          {
+            "name": "passwordStore",
+            "kind": "var",
+            "addr": 4296222880
+          },
+          {
+            "name": "configurationStore",
+            "kind": "var",
+            "addr": 4296222888
+          }
+        ]
+      },
+      {
+        "classname": "amsondevicestoraged.TaskCenterImplementation",
+        "addr": 4296458720,
+        "lang": "objc",
+        "index": 107,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$defaultActor",
+            "kind": "var",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "amsondevicestoraged.AccessCredentialDataCleanupTask",
+        "addr": 4296459168,
+        "lang": "objc",
+        "index": 108,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$defaultActor",
+            "kind": "var",
+            "addr": 0
+          },
+          {
+            "name": "requestId",
+            "kind": "var",
+            "addr": 4296225200
+          }
+        ]
+      },
+      {
+        "classname": "amsondevicestoraged.AppDataCleanupTask",
+        "addr": 4296459456,
+        "lang": "objc",
+        "index": 109,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$defaultActor",
+            "kind": "var",
+            "addr": 0
+          },
+          {
+            "name": "bundleId",
+            "kind": "var",
+            "addr": 4296225696
+          }
+        ]
+      },
+      {
+        "classname": "amsondevicestoraged.CheckInstalledAppsTask",
+        "addr": 4296459664,
+        "lang": "objc",
+        "index": 110,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$defaultActor",
+            "kind": "var",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "amsondevicestoraged.CheckInvalidAccessCredentialsTask",
+        "addr": 4296459856,
+        "lang": "objc",
+        "index": 111,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$defaultActor",
+            "kind": "var",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "amsondevicestoraged.DataOwnershipIndexCleanupTask",
+        "addr": 4296460088,
+        "lang": "objc",
+        "index": 112,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$defaultActor",
+            "kind": "var",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "amsondevicestoraged.FetchRevokedAccessCredentialsTask",
+        "addr": 4296460288,
+        "lang": "objc",
+        "index": 113,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$defaultActor",
+            "kind": "var",
+            "addr": 0
+          },
+          {
+            "name": "scheduleCleanup",
+            "kind": "var",
+            "addr": 4296226592
+          }
+        ]
+      },
+      {
+        "classname": "amsondevicestoraged.MaintenanceTask",
+        "addr": 4296460488,
+        "lang": "objc",
+        "index": 114,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$defaultActor",
+            "kind": "var",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "amsondevicestoraged.OnlineMaintenanceTask",
+        "addr": 4296460720,
+        "lang": "objc",
+        "index": 115,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$defaultActor",
+            "kind": "var",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "amsondevicestoraged.PostScheduledNotificationsTask",
+        "addr": 4296460928,
+        "lang": "objc",
+        "index": 116,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$defaultActor",
+            "kind": "var",
+            "addr": 0
+          },
+          {
+            "name": "credential",
+            "kind": "var",
+            "addr": 4296460920
+          }
+        ]
+      },
+      {
+        "classname": "amsondevicestoraged.ScheduledTTLCleanupTask",
+        "addr": 4296461208,
+        "lang": "objc",
+        "index": 117,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$defaultActor",
+            "kind": "var",
+            "addr": 0
+          },
+          {
+            "name": "taskFactory",
+            "kind": "var",
+            "addr": 4296227360
+          }
+        ]
+      },
+      {
+        "classname": "amsondevicestoraged.TriggerForwardDeletionRulesTask",
+        "addr": 4296461424,
+        "lang": "objc",
+        "index": 118,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$defaultActor",
+            "kind": "var",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "amsondevicestoraged.TTLCleanupTask",
+        "addr": 4296461680,
+        "lang": "objc",
+        "index": 119,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$defaultActor",
+            "kind": "var",
+            "addr": 0
+          },
+          {
+            "name": "credentialSource",
+            "kind": "var",
+            "addr": 4296461664
+          },
+          {
+            "name": "connection",
+            "kind": "var",
+            "addr": 4296461672
+          },
+          {
+            "name": "table",
+            "kind": "var",
+            "addr": 4296227800
+          },
+          {
+            "name": "schema",
+            "kind": "var",
+            "addr": 4296227808
+          }
+        ]
+      },
+      {
+        "classname": "amsondevicestoraged.WeeklyMetricsTask",
+        "addr": 4296462136,
+        "lang": "objc",
+        "index": 120,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$defaultActor",
+            "kind": "var",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "amsondevicestoraged.ClientSession",
+        "addr": 4296462624,
+        "lang": "objc",
+        "index": 121,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$defaultActor",
+            "kind": "var",
+            "addr": 0
+          },
+          {
+            "name": "connectionDelegate",
+            "kind": "var",
+            "addr": 4296462600
+          },
+          {
+            "name": "dbManager",
+            "kind": "var",
+            "addr": 4296462608
+          },
+          {
+            "name": "statusProvider",
+            "kind": "var",
+            "addr": 4296462616
+          },
+          {
+            "name": "credential",
+            "kind": "var",
+            "addr": 4296489096
+          },
+          {
+            "name": "id",
+            "kind": "var",
+            "addr": 4296489104
+          }
+        ]
+      },
+      {
+        "classname": "amsondevicestoraged.DaemonMetricsEventRecorder",
+        "addr": 4296463392,
+        "lang": "objc",
+        "index": 122,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "bag",
+            "kind": "var",
+            "addr": 4296463360
+          },
+          {
+            "name": "metrics",
+            "kind": "var",
+            "addr": 4296463368
+          },
+          {
+            "name": "defaultTopic",
+            "kind": "var",
+            "addr": 4296463376
+          },
+          {
+            "name": "anonymousTopics",
+            "kind": "var",
+            "addr": 4296463384
+          }
+        ]
+      },
+      {
+        "classname": "amsondevicestoraged.BootstrapSession",
+        "addr": 4296463784,
+        "lang": "objc",
+        "index": 123,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$defaultActor",
+            "kind": "var",
+            "addr": 0
+          },
+          {
+            "name": "state",
+            "kind": "var",
+            "addr": 4296232048
+          }
+        ]
+      },
+      {
+        "classname": "amsondevicestoraged.Daemon",
+        "addr": 4296464072,
+        "lang": "objc",
+        "index": 124,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "bootstrapSession",
+            "kind": "var",
+            "addr": 4296232336
+          },
+          {
+            "name": "listener",
+            "kind": "var",
+            "addr": 4296232344
+          }
+        ]
+      },
+      {
+        "classname": "amsondevicestoraged.DaemonActor",
+        "addr": 4296464240,
+        "lang": "objc",
+        "index": 125,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "executor",
+            "kind": "var",
+            "addr": 4296232368
+          }
+        ]
+      },
+      {
+        "classname": "std::__1::locale",
+        "addr": 0,
+        "lang": "c++",
+        "index": 126,
+        "methods": [
+          {
+            "name": "use_facet(std::__1::locale::id&) const",
+            "flag": "method.std::__1::locale.use_facet_std::__1::locale::id__const",
+            "rawname": "_ZNKSt3__16locale9use_facetERNS0_2idE",
+            "lang": "c++",
+            "addr": 4296412544
+          },
+          {
+            "name": "locale(std::__1::locale const&)",
+            "flag": "method.std::__1::locale.locale_std::__1::locale_const_",
+            "rawname": "_ZNSt3__16localeC1ERKS0_",
+            "lang": "c++",
+            "addr": 4296412696
+          },
+          {
+            "name": "locale()",
+            "flag": "method.std::__1::locale.locale__",
+            "rawname": "_ZNSt3__16localeC1Ev",
+            "lang": "c++",
+            "addr": 4296412704
+          },
+          {
+            "name": "~locale()",
+            "flag": "method.std::__1::locale._locale__",
+            "rawname": "_ZNSt3__16localeD1Ev",
+            "lang": "c++",
+            "addr": 4296412712
+          },
+          {
+            "name": "operator=(std::__1::locale const&)",
+            "flag": "method.std::__1::locale.operator_std::__1::locale_const_",
+            "rawname": "_ZNSt3__16localeaSERKS0_",
+            "lang": "c++",
+            "addr": 4296412720
+          }
+        ]
+      },
+      {
+        "classname": "std::__1::ios_base",
+        "addr": 0,
+        "lang": "c++",
+        "index": 127,
+        "methods": [
+          {
+            "name": "getloc() const",
+            "flag": "method.std::__1::ios_base.getloc___const",
+            "rawname": "_ZNKSt3__18ios_base6getlocEv",
+            "lang": "c++",
+            "addr": 4296412552
+          },
+          {
+            "name": "__set_badbit_and_consider_rethrow()",
+            "flag": "method.std::__1::ios_base.__set_badbit_and_consider_rethrow__",
+            "rawname": "_ZNSt3__18ios_base33__set_badbit_and_consider_rethrowEv",
+            "lang": "c++",
+            "addr": 4296412728
+          },
+          {
+            "name": "init(void*)",
+            "flag": "method.std::__1::ios_base.init_void_",
+            "rawname": "_ZNSt3__18ios_base4initEPv",
+            "lang": "c++",
+            "addr": 4296412736
+          },
+          {
+            "name": "clear(unsigned int)",
+            "flag": "method.std::__1::ios_base.clear_unsigned_int_",
+            "rawname": "_ZNSt3__18ios_base5clearEj",
+            "lang": "c++",
+            "addr": 4296412744
+          }
+        ]
+      },
+      {
+        "classname": "std::logic_error",
+        "addr": 0,
+        "lang": "c++",
+        "index": 128,
+        "methods": [
+          {
+            "name": "logic_error(char const*)",
+            "flag": "method.std::logic_error.logic_error_char_const_",
+            "rawname": "_ZNSt11logic_errorC2EPKc",
+            "lang": "c++",
+            "addr": 4296412560
+          }
+        ]
+      },
+      {
+        "classname": "std::runtime_error",
+        "addr": 0,
+        "lang": "c++",
+        "index": 129,
+        "methods": [
+          {
+            "name": "runtime_error(char const*)",
+            "flag": "method.std::runtime_error.runtime_error_char_const_",
+            "rawname": "_ZNSt13runtime_errorC2EPKc",
+            "lang": "c++",
+            "addr": 4296412568
+          },
+          {
+            "name": "~runtime_error()",
+            "flag": "method.std::runtime_error._runtime_error__",
+            "rawname": "_ZNSt13runtime_errorD2Ev",
+            "lang": "c++",
+            "addr": 4296412576
+          },
+          {
+            "name": "what() const",
+            "flag": "method.std::runtime_error.what___const",
+            "rawname": "_ZNKSt13runtime_error4whatEv",
+            "lang": "c++",
+            "addr": 4296424384
+          }
+        ]
+      },
+      {
+        "classname": "std::bad_array_new_length",
+        "addr": 0,
+        "lang": "c++",
+        "index": 130,
+        "methods": [
+          {
+            "name": "bad_array_new_length()",
+            "flag": "method.std::bad_array_new_length.bad_array_new_length__",
+            "rawname": "_ZNSt20bad_array_new_lengthC1Ev",
+            "lang": "c++",
+            "addr": 4296412584
+          },
+          {
+            "name": "~bad_array_new_length()",
+            "flag": "method.std::bad_array_new_length._bad_array_new_length__",
+            "rawname": "_ZNSt20bad_array_new_lengthD1Ev",
+            "lang": "c++",
+            "addr": 4296417096
+          }
+        ]
+      },
+      {
+        "classname": "std::__1",
+        "addr": 0,
+        "lang": "c++",
+        "index": 131,
+        "methods": [
+          {
+            "name": "__next_prime(unsigned long)",
+            "flag": "method.std::__1.__next_prime_unsigned_long_",
+            "rawname": "_ZNSt3__112__next_primeEm",
+            "lang": "c++",
+            "addr": 4296412592
+          },
+          {
+            "name": "to_chars(char*, char*, double)",
+            "flag": "method.std::__1.to_chars_char__char__double_",
+            "rawname": "_ZNSt3__18to_charsEPcS0_d",
+            "lang": "c++",
+            "addr": 4296412752
+          },
+          {
+            "name": "to_chars(char*, char*, double, std::__1::chars_format)",
+            "flag": "method.std::__1.to_chars_char__char__double__std::__1::chars_format_",
+            "rawname": "_ZNSt3__18to_charsEPcS0_dNS_12chars_formatE",
+            "lang": "c++",
+            "addr": 4296412760
+          },
+          {
+            "name": "to_chars(char*, char*, double, std::__1::chars_format, int)",
+            "flag": "method.std::__1.to_chars_char__char__double__std::__1::chars_format__int_",
+            "rawname": "_ZNSt3__18to_charsEPcS0_dNS_12chars_formatEi",
+            "lang": "c++",
+            "addr": 4296412768
+          },
+          {
+            "name": "to_chars(char*, char*, long double)",
+            "flag": "method.std::__1.to_chars_char__char__long_double_",
+            "rawname": "_ZNSt3__18to_charsEPcS0_e",
+            "lang": "c++",
+            "addr": 4296412776
+          },
+          {
+            "name": "to_chars(char*, char*, long double, std::__1::chars_format)",
+            "flag": "method.std::__1.to_chars_char__char__long_double__std::__1::chars_format_",
+            "rawname": "_ZNSt3__18to_charsEPcS0_eNS_12chars_formatE",
+            "lang": "c++",
+            "addr": 4296412784
+          },
+          {
+            "name": "to_chars(char*, char*, long double, std::__1::chars_format, int)",
+            "flag": "method.std::__1.to_chars_char__char__long_double__std::__1::chars_format__int_",
+            "rawname": "_ZNSt3__18to_charsEPcS0_eNS_12chars_formatEi",
+            "lang": "c++",
+            "addr": 4296412792
+          },
+          {
+            "name": "to_chars(char*, char*, float)",
+            "flag": "method.std::__1.to_chars_char__char__float_",
+            "rawname": "_ZNSt3__18to_charsEPcS0_f",
+            "lang": "c++",
+            "addr": 4296412800
+          },
+          {
+            "name": "to_chars(char*, char*, float, std::__1::chars_format)",
+            "flag": "method.std::__1.to_chars_char__char__float__std::__1::chars_format_",
+            "rawname": "_ZNSt3__18to_charsEPcS0_fNS_12chars_formatE",
+            "lang": "c++",
+            "addr": 4296412808
+          },
+          {
+            "name": "to_chars(char*, char*, float, std::__1::chars_format, int)",
+            "flag": "method.std::__1.to_chars_char__char__float__std::__1::chars_format__int_",
+            "rawname": "_ZNSt3__18to_charsEPcS0_fNS_12chars_formatEi",
+            "lang": "c++",
+            "addr": 4296412816
+          },
+          {
+            "name": "to_string(int)",
+            "flag": "method.std::__1.to_string_int_",
+            "rawname": "_ZNSt3__19to_stringEi",
+            "lang": "c++",
+            "addr": 4296412832
+          }
+        ]
+      },
+      {
+        "classname": "std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >",
+        "addr": 0,
+        "lang": "c++",
+        "index": 132,
+        "methods": [
+          {
+            "name": "__init(char const*, unsigned long)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char___.__init_char_const__unsigned_long_",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6__initEPKcm",
+            "lang": "c++",
+            "addr": 4296412600
+          },
+          {
+            "name": "append(char const*, unsigned long)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char___.append_char_const__unsigned_long_",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKcm",
+            "lang": "c++",
+            "addr": 4296412608
+          },
+          {
+            "name": "insert(unsigned long, char const*, unsigned long)",
+            "flag": "std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::insert(unsigned long, char const*, unsigned long)",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertEmPKcm",
+            "lang": "c++",
+            "addr": 4296412616
+          },
+          {
+            "name": "resize(unsigned long, char)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char___.resize_unsigned_long__char_",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6resizeEmc",
+            "lang": "c++",
+            "addr": 4296412624
+          },
+          {
+            "name": "reserve(unsigned long)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char___.reserve_unsigned_long_",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7reserveEm",
+            "lang": "c++",
+            "addr": 4296412632
+          },
+          {
+            "name": "push_back(char)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char___.push_back_char_",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE9push_backEc",
+            "lang": "c++",
+            "addr": 4296412640
+          },
+          {
+            "name": "basic_string(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "flag": "std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::basic_string(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_",
+            "lang": "c++",
+            "addr": 4296412648
+          },
+          {
+            "name": "~basic_string()",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char___._basic_string__",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEED1Ev",
+            "lang": "c++",
+            "addr": 4296412656
+          },
+          {
+            "name": "operator=(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "flag": "std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::operator=(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEaSERKS5_",
+            "lang": "c++",
+            "addr": 4296412664
+          },
+          {
+            "name": "insert(unsigned long, char const*, unsigned long)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char___.insert_unsigned_long__char_const__unsigned_long_",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertEmPKcm",
+            "lang": "c++",
+            "addr": 4296145668
+          },
+          {
+            "name": "basic_string(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char___.basic_string_std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const_",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_",
+            "lang": "c++",
+            "addr": 4296145732
+          },
+          {
+            "name": "operator=(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char___.operator_std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const_",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEaSERKS5_",
+            "lang": "c++",
+            "addr": 4296145764
+          },
+          {
+            "name": "insert(unsigned long, char const*, unsigned long)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char___.insert_unsigned_long__char_const__unsigned_long_",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertEmPKcm",
+            "lang": "c++",
+            "addr": 4296145668
+          },
+          {
+            "name": "insert(unsigned long, char const*, unsigned long)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char___.insert_unsigned_long__char_const__unsigned_long_",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertEmPKcm",
+            "lang": "c++",
+            "addr": 4296145668
+          },
+          {
+            "name": "basic_string(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char___.basic_string_std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const_",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_",
+            "lang": "c++",
+            "addr": 4296145732
+          },
+          {
+            "name": "basic_string(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char___.basic_string_std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const_",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1ERKS5_",
+            "lang": "c++",
+            "addr": 4296145732
+          },
+          {
+            "name": "operator=(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char___.operator_std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const_",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEaSERKS5_",
+            "lang": "c++",
+            "addr": 4296145764
+          },
+          {
+            "name": "operator=(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char___.operator_std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const_",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEaSERKS5_",
+            "lang": "c++",
+            "addr": 4296145764
+          }
+        ]
+      },
+      {
+        "classname": "std::__1::basic_ostream<char, std::__1::char_traits<char> >::sentry",
+        "addr": 0,
+        "lang": "c++",
+        "index": 133,
+        "methods": [
+          {
+            "name": "sentry(std::__1::basic_ostream<char, std::__1::char_traits<char> >&)",
+            "flag": "std::__1::basic_ostream<char, std::__1::char_traits<char> >::sentry::sentry(std::__1::basic_ostream<char, std::__1::char_traits<char> >&)",
+            "rawname": "_ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEE6sentryC1ERS3_",
+            "lang": "c++",
+            "addr": 4296412672
+          },
+          {
+            "name": "~sentry()",
+            "flag": "method.std::__1::basic_ostream_char__std::__1::char_traits_char___::sentry._sentry__",
+            "rawname": "_ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEE6sentryD1Ev",
+            "lang": "c++",
+            "addr": 4296412680
+          },
+          {
+            "name": "sentry(std::__1::basic_ostream<char, std::__1::char_traits<char> >&)",
+            "flag": "method.std::__1::basic_ostream_char__std::__1::char_traits_char___::sentry.sentry_std::__1::basic_ostream_char__std::__1::char_traits_char____",
+            "rawname": "_ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEE6sentryC1ERS3_",
+            "lang": "c++",
+            "addr": 4296145780
+          },
+          {
+            "name": "sentry(std::__1::basic_ostream<char, std::__1::char_traits<char> >&)",
+            "flag": "method.std::__1::basic_ostream_char__std::__1::char_traits_char___::sentry.sentry_std::__1::basic_ostream_char__std::__1::char_traits_char____",
+            "rawname": "_ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEE6sentryC1ERS3_",
+            "lang": "c++",
+            "addr": 4296145780
+          },
+          {
+            "name": "sentry(std::__1::basic_ostream<char, std::__1::char_traits<char> >&)",
+            "flag": "method.std::__1::basic_ostream_char__std::__1::char_traits_char___::sentry.sentry_std::__1::basic_ostream_char__std::__1::char_traits_char____",
+            "rawname": "_ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEE6sentryC1ERS3_",
+            "lang": "c++",
+            "addr": 4296145780
+          }
+        ]
+      },
+      {
+        "classname": "std::__1::basic_iostream<char, std::__1::char_traits<char> >",
+        "addr": 0,
+        "lang": "c++",
+        "index": 134,
+        "methods": [
+          {
+            "name": "~basic_iostream()",
+            "flag": "method.std::__1::basic_iostream_char__std::__1::char_traits_char___._basic_iostream__",
+            "rawname": "_ZNSt3__114basic_iostreamIcNS_11char_traitsIcEEED2Ev",
+            "lang": "c++",
+            "addr": 4296412688
+          }
+        ]
+      },
+      {
+        "classname": "std::__1::basic_ios<char, std::__1::char_traits<char> >",
+        "addr": 0,
+        "lang": "c++",
+        "index": 135,
+        "methods": [
+          {
+            "name": "~basic_ios()",
+            "flag": "method.std::__1::basic_ios_char__std::__1::char_traits_char___._basic_ios__",
+            "rawname": "_ZNSt3__19basic_iosIcNS_11char_traitsIcEEED2Ev",
+            "lang": "c++",
+            "addr": 4296412824
+          }
+        ]
+      },
+      {
+        "classname": "std",
+        "addr": 0,
+        "lang": "c++",
+        "index": 136,
+        "methods": [
+          {
+            "name": "terminate()",
+            "flag": "method.std.terminate__",
+            "rawname": "_ZSt9terminatev",
+            "lang": "c++",
+            "addr": 4296412840
+          }
+        ]
+      },
+      {
+        "classname": "std::length_error",
+        "addr": 0,
+        "lang": "c++",
+        "index": 137,
+        "methods": [
+          {
+            "name": "~length_error()",
+            "flag": "method.std::length_error._length_error__",
+            "rawname": "_ZNSt12length_errorD1Ev",
+            "lang": "c++",
+            "addr": 4296417088
+          }
+        ]
+      }
+    ],
+    "swift_metadata": {
+      "is_swift": true,
+      "symbols": [
+        {
+          "name": "imp.$s10Foundation13__DataStorageC5bytes6length4copy11deallocator6offsetACSvSg_SiSbySv_SitcSgSitcfc",
+          "demname": "Foundation.__DataStorage.bytes.allocator(...itcSgSitcfc)",
+          "flagname": "sym.imp.Foundation.__DataStorage.bytes.allocator_...itcSgSitcfc_",
+          "realname": "Foundation.__DataStorage.bytes.allocator(...itcSgSitcfc)",
+          "ordinal": 2,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135236,
+          "paddr": 2740804,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation13__DataStorageC5bytes6lengthACSVSg_Sitcfc",
+          "demname": "Foundation.__DataStorage.bytes.allocator(...itcfc)",
+          "flagname": "sym.imp.Foundation.__DataStorage.bytes.allocator_...itcfc_",
+          "realname": "Foundation.__DataStorage.bytes.allocator(...itcfc)",
+          "ordinal": 3,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135252,
+          "paddr": 2740820,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation13__DataStorageC6_bytesSvSgvg",
+          "demname": "Foundation.__DataStorage._bytes.allocator__UnsafeMutableRawPointer -> ().Sgvg",
+          "flagname": "sym.imp.Foundation.__DataStorage._bytes.allocator__UnsafeMutableRawPointer______.Sgvg",
+          "realname": "Foundation.__DataStorage._bytes.allocator__UnsafeMutableRawPointer -> ().Sgvg",
+          "ordinal": 4,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135268,
+          "paddr": 2740836,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation13__DataStorageC6lengthACSi_tcfc",
+          "demname": "Foundation.__DataStorage.length.allocator.: allocator, length.: allocator, A.CSi_tcfc",
+          "flagname": "sym.imp.Foundation.__DataStorage.length.allocator.:_allocator__length.:_allocator__A.CSi_tcfc",
+          "realname": "Foundation.__DataStorage.length.allocator.: allocator, length.: allocator, A.CSi_tcfc",
+          "ordinal": 5,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135284,
+          "paddr": 2740852,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation13__DataStorageC7_lengthSivg",
+          "demname": "getter Foundation.__DataStorage._length.allocator__Swift.Int -> (): allocator_lengthallocatorS(...vg)",
+          "flagname": "sym.imp.getter_Foundation.__DataStorage._length.allocator__Swift.Int______:_allocator_lengthallocatorS_...vg_",
+          "realname": "getter Foundation.__DataStorage._length.allocator__Swift.Int -> (): allocator_lengthallocatorS(...vg)",
+          "ordinal": 6,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135300,
+          "paddr": 2740868,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation13__DataStorageC7_offsetSivg",
+          "demname": "getter Foundation.__DataStorage._offset.allocator__Swift.Int -> (): allocator_offsetallocatorS(...vg)",
+          "flagname": "sym.imp.getter_Foundation.__DataStorage._offset.allocator__Swift.Int______:_allocator_offsetallocatorS_...vg_",
+          "realname": "getter Foundation.__DataStorage._offset.allocator__Swift.Int -> (): allocator_offsetallocatorS(...vg)",
+          "ordinal": 7,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135316,
+          "paddr": 2740884,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation13__DataStorageCMa",
+          "demname": "Foundation.__DataStorage.allocator(...a)",
+          "flagname": "sym.imp.Foundation.__DataStorage.allocator_...a_",
+          "realname": "Foundation.__DataStorage.allocator(...a)",
+          "ordinal": 8,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135332,
+          "paddr": 2740900,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation14LocalizedErrorPAAE10helpAnchorSSSgvg",
+          "demname": "Foundation.LocalizedError..helpAnchor(...Sgvg)",
+          "flagname": "sym.imp.Foundation.LocalizedError..helpAnchor_...Sgvg_",
+          "realname": "Foundation.LocalizedError..helpAnchor(...Sgvg)",
+          "ordinal": 9,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135348,
+          "paddr": 2740916,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation14LocalizedErrorPAAE13failureReasonSSSgvg",
+          "demname": "Foundation.LocalizedError..failureReason(...Sgvg)",
+          "flagname": "sym.imp.Foundation.LocalizedError..failureReason_...Sgvg_",
+          "realname": "Foundation.LocalizedError..failureReason(...Sgvg)",
+          "ordinal": 10,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135364,
+          "paddr": 2740932,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation14LocalizedErrorPAAE18recoverySuggestionSSSgvg",
+          "demname": "Foundation.LocalizedError..recoverySuggestion(...Sgvg)",
+          "flagname": "sym.imp.Foundation.LocalizedError..recoverySuggestion_...Sgvg_",
+          "realname": "Foundation.LocalizedError..recoverySuggestion(...Sgvg)",
+          "ordinal": 11,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135380,
+          "paddr": 2740948,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation15ContiguousBytesP010withUnsafeC0yqd__qd__SWKXEKlFTj",
+          "demname": "Foundation.ContiguousBytes.withUnsafe.allocator....qd__SWKXEKlFTj",
+          "flagname": "sym.imp.Foundation.ContiguousBytes.withUnsafe.allocator....qd__SWKXEKlFTj",
+          "realname": "Foundation.ContiguousBytes.withUnsafe.allocator....qd__SWKXEKlFTj",
+          "ordinal": 12,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135396,
+          "paddr": 2740964,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation17URLResourceValuesV11isDirectorySbSgvg",
+          "demname": "Foundation.URLResourceValues.isDirectory(...Sgvg)",
+          "flagname": "sym.imp.Foundation.URLResourceValues.isDirectory_...Sgvg_",
+          "realname": "Foundation.URLResourceValues.isDirectory(...Sgvg)",
+          "ordinal": 13,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135412,
+          "paddr": 2740980,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation17URLResourceValuesV8fileSizeSiSgvg",
+          "demname": "Foundation.URLResourceValues.fileSize(...Sgvg)",
+          "flagname": "sym.imp.Foundation.URLResourceValues.fileSize_...Sgvg_",
+          "realname": "Foundation.URLResourceValues.fileSize(...Sgvg)",
+          "ordinal": 14,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135428,
+          "paddr": 2740996,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation17URLResourceValuesVMa",
+          "demname": "Foundation.URLResourceValues...VMa",
+          "flagname": "sym.imp.Foundation.URLResourceValues...VMa",
+          "realname": "Foundation.URLResourceValues...VMa",
+          "ordinal": 15,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135444,
+          "paddr": 2741012,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation22_convertNSErrorToErrorys0E0_pSo0C0CSgF",
+          "demname": "Foundation._convertNSErrorToError(...So0C0CSgF)",
+          "flagname": "sym.imp.Foundation._convertNSErrorToError_...So0C0CSgF_",
+          "realname": "Foundation._convertNSErrorToError(...So0C0CSgF)",
+          "ordinal": 16,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135460,
+          "paddr": 2741028,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation25NSFastEnumerationIteratorVMa",
+          "demname": "Foundation.NSFastEnumerationIterator...VMa",
+          "flagname": "sym.imp.Foundation.NSFastEnumerationIterator...VMa",
+          "realname": "Foundation.NSFastEnumerationIterator...VMa",
+          "ordinal": 17,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135476,
+          "paddr": 2741044,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation3URLV13DirectoryHintOMa",
+          "demname": "Foundation.URL.DirectoryHint(...a)",
+          "flagname": "sym.imp.Foundation.URL.DirectoryHint_...a_",
+          "realname": "Foundation.URL.DirectoryHint(...a)",
+          "ordinal": 18,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135492,
+          "paddr": 2741060,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation3URLV14absoluteStringSSvg",
+          "demname": "Foundation.URL.absoluteString(...vg)",
+          "flagname": "sym.imp.Foundation.URL.absoluteString_...vg_",
+          "realname": "Foundation.URL.absoluteString(...vg)",
+          "ordinal": 19,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135508,
+          "paddr": 2741076,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation3URLV14resourceValues7forKeysAA011URLResourceD0VShySo16NSURLResourceKeyaG_tKF",
+          "demname": "Foundation.URL.resourceValues.forKeys.URLResource...D0VShySo16NSURLResourceKeyaG_tKF",
+          "flagname": "sym.imp.Foundation.URL.resourceValues.forKeys.URLResource...D0VShySo16NSURLResourceKeyaG_tKF",
+          "realname": "Foundation.URL.resourceValues.forKeys.URLResource...D0VShySo16NSURLResourceKeyaG_tKF",
+          "ordinal": 20,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135524,
+          "paddr": 2741092,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation3URLV19_bridgeToObjectiveCSo5NSURLCyF",
+          "demname": "Foundation.URL._bridgeToObjectiveC.NSURL(...F)",
+          "flagname": "sym.imp.Foundation.URL._bridgeToObjectiveC.NSURL_...F_",
+          "realname": "Foundation.URL._bridgeToObjectiveC.NSURL(...F)",
+          "ordinal": 21,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135540,
+          "paddr": 2741108,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation3URLV4path14percentEncodedSSSb_tF",
+          "demname": "Foundation.URL.path.percentEncoded(...F)",
+          "flagname": "sym.imp.Foundation.URL.path.percentEncoded_...F_",
+          "realname": "Foundation.URL.path.percentEncoded(...F)",
+          "ordinal": 22,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135556,
+          "paddr": 2741124,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation3URLV6append4path13directoryHintyx_AC09DirectoryF0OtSyRzlF",
+          "demname": "Foundation.URL.append.path.directoryHint.Directory...F0OtSyRzlF",
+          "flagname": "sym.imp.Foundation.URL.append.path.directoryHint.Directory...F0OtSyRzlF",
+          "realname": "Foundation.URL.append.path.directoryHint.Directory...F0OtSyRzlF",
+          "ordinal": 23,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135572,
+          "paddr": 2741140,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation3URLV9appending4path13directoryHintACx_AC09DirectoryF0OtSyRzlF",
+          "demname": "Foundation.URL.appending.path.directoryHint.Directory...F0OtSyRzlF",
+          "flagname": "sym.imp.Foundation.URL.appending.path.directoryHint.Directory...F0OtSyRzlF",
+          "realname": "Foundation.URL.appending.path.directoryHint.Directory...F0OtSyRzlF",
+          "ordinal": 24,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135588,
+          "paddr": 2741156,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation3URLVMa",
+          "demname": "Foundation.URL...VMa",
+          "flagname": "sym.imp.Foundation.URL...VMa",
+          "realname": "Foundation.URL...VMa",
+          "ordinal": 25,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135604,
+          "paddr": 2741172,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4DataV10LargeSliceV21ensureUniqueReferenceyyF",
+          "demname": "Foundation.Data.LargeSlice.ensureUniqueReference(...F)",
+          "flagname": "sym.imp.Foundation.Data.LargeSlice.ensureUniqueReference_...F_",
+          "realname": "Foundation.Data.LargeSlice.ensureUniqueReference(...F)",
+          "ordinal": 26,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135620,
+          "paddr": 2741188,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4DataV14RangeReferenceCMa",
+          "demname": "Foundation.Data.RangeReference(...a)",
+          "flagname": "sym.imp.Foundation.Data.RangeReference_...a_",
+          "realname": "Foundation.Data.RangeReference(...a)",
+          "ordinal": 27,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135636,
+          "paddr": 2741204,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4DataV15_RepresentationO15replaceSubrange_4with5countySnySiG_SVSgSitF",
+          "demname": "Foundation.Data._Representation.replaceSubrange.with.count(...VSgSitF)",
+          "flagname": "sym.imp.Foundation.Data._Representation.replaceSubrange.with.count_...VSgSitF_",
+          "realname": "Foundation.Data._Representation.replaceSubrange.with.count(...VSgSitF)",
+          "ordinal": 28,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135652,
+          "paddr": 2741220,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4DataV15_RepresentationO6append10contentsOfySW_tF",
+          "demname": "Foundation.Data._Representation.append.contentsOf(...F)",
+          "flagname": "sym.imp.Foundation.Data._Representation.append.contentsOf_...F_",
+          "realname": "Foundation.Data._Representation.append.contentsOf(...F)",
+          "ordinal": 29,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135668,
+          "paddr": 2741236,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4DateV026timeIntervalSinceReferenceB0ACSd_tcfC",
+          "demname": "Foundation.Date.timeIntervalSinceReference...B0ACSd_tcfC",
+          "flagname": "sym.imp.Foundation.Date.timeIntervalSinceReference...B0ACSd_tcfC",
+          "realname": "Foundation.Date.timeIntervalSinceReference...B0ACSd_tcfC",
+          "ordinal": 30,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135684,
+          "paddr": 2741252,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4DateV026timeIntervalSinceReferenceB0Sdvg",
+          "demname": "Foundation.Date.timeIntervalSinceReference...B0Sdvg",
+          "flagname": "sym.imp.Foundation.Date.timeIntervalSinceReference...B0Sdvg",
+          "realname": "Foundation.Date.timeIntervalSinceReference...B0Sdvg",
+          "ordinal": 31,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135700,
+          "paddr": 2741268,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4DateV18addingTimeIntervalyACSdF",
+          "demname": "Foundation.Date.addingTimeInterval(...CSdF)",
+          "flagname": "sym.imp.Foundation.Date.addingTimeInterval_...CSdF_",
+          "realname": "Foundation.Date.addingTimeInterval(...CSdF)",
+          "ordinal": 32,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135716,
+          "paddr": 2741284,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4DateV19OnDeviceStorageCoreE16declaredDatatypeSSvgZ",
+          "demname": "Foundation.Date.OnDeviceStorageCore.declaredDatatype(...vgZ)",
+          "flagname": "sym.imp.Foundation.Date.OnDeviceStorageCore.declaredDatatype_...vgZ_",
+          "realname": "Foundation.Date.OnDeviceStorageCore.declaredDatatype(...vgZ)",
+          "ordinal": 33,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135732,
+          "paddr": 2741300,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4DateV1loiySbAC_ACtFZ",
+          "demname": "Foundation.Date.l.(...FZ)",
+          "flagname": "sym.imp.Foundation.Date.l._...FZ_",
+          "realname": "Foundation.Date.l.(...FZ)",
+          "ordinal": 34,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135748,
+          "paddr": 2741316,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4DateV21timeIntervalSince1970Sdvg",
+          "demname": "Foundation.Date.timeIntervalSince1970(...vg)",
+          "flagname": "sym.imp.Foundation.Date.timeIntervalSince1970_...vg_",
+          "realname": "Foundation.Date.timeIntervalSince1970(...vg)",
+          "ordinal": 35,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135764,
+          "paddr": 2741332,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4DateV3nowACvgZ",
+          "demname": "Foundation.Date.now(...vgZ)",
+          "flagname": "sym.imp.Foundation.Date.now_...vgZ_",
+          "realname": "Foundation.Date.now(...vgZ)",
+          "ordinal": 36,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135780,
+          "paddr": 2741348,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4DateVACycfC",
+          "demname": "Foundation.Date...VACycfC",
+          "flagname": "sym.imp.Foundation.Date...VACycfC",
+          "realname": "Foundation.Date...VACycfC",
+          "ordinal": 37,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135796,
+          "paddr": 2741364,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4DateVMa",
+          "demname": "Foundation.Date...VMa",
+          "flagname": "sym.imp.Foundation.Date...VMa",
+          "realname": "Foundation.Date...VMa",
+          "ordinal": 38,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135812,
+          "paddr": 2741380,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4UUIDV10uuidStringSSvg",
+          "demname": "Foundation.UUID.uuidString(...vg)",
+          "flagname": "sym.imp.Foundation.UUID.uuidString_...vg_",
+          "realname": "Foundation.UUID.uuidString(...vg)",
+          "ordinal": 39,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135828,
+          "paddr": 2741396,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4UUIDVACycfC",
+          "demname": "Foundation.UUID...VACycfC",
+          "flagname": "sym.imp.Foundation.UUID...VACycfC",
+          "realname": "Foundation.UUID...VACycfC",
+          "ordinal": 40,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135844,
+          "paddr": 2741412,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4UUIDVMa",
+          "demname": "Foundation.UUID...VMa",
+          "flagname": "sym.imp.Foundation.UUID...VMa",
+          "realname": "Foundation.UUID...VMa",
+          "ordinal": 41,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135860,
+          "paddr": 2741428,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore0A14ConflictClauseVMa",
+          "demname": "OnDeviceStorageCore.ConflictClause...VMa",
+          "flagname": "sym.imp.OnDeviceStorageCore.ConflictClause...VMa",
+          "realname": "OnDeviceStorageCore.ConflictClause...VMa",
+          "ordinal": 42,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135876,
+          "paddr": 2741444,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore0A14ConflictClauseV__5whereAcA11Expressible_p_SayAA6SetterVGSgAA10ExpressionVySbGSgtcfC",
+          "demname": "OnDeviceStorageCore.ConflictClause...V__5whereAcA11Expressible_p_SayAA6SetterVGSgAA10ExpressionVySbGSgtcfC",
+          "flagname": "sym.imp.OnDeviceStorageCore.ConflictClause...V__5whereAcA11Expressible_p_SayAA6SetterVGSgAA10ExpressionVySbGSgtcfC",
+          "realname": "OnDeviceStorageCore.ConflictClause...V__5whereAcA11Expressible_p_SayAA6SetterVGSgAA10ExpressionVySbGSgtcfC",
+          "ordinal": 43,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135892,
+          "paddr": 2741460,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore0A8ConflictOMa",
+          "demname": "OnDeviceStorageCore.Conflict..metadata.accessor(...a)",
+          "flagname": "sym.imp.OnDeviceStorageCore.Conflict..metadata.accessor_...a_",
+          "realname": "OnDeviceStorageCore.Conflict..metadata.accessor(...a)",
+          "ordinal": 44,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135908,
+          "paddr": 2741476,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore0C8CategoryO18fileProtectionTypeSo06NSFilegH0aSgvg",
+          "demname": "OnDeviceStorageCore.Category.allocator.fileProtectionType: allocator, Category.fileProtectionType: allocator, O.fileProt.NSFile...H0aSgvg",
+          "flagname": "sym.imp.OnDeviceStorageCore.Category.allocator.fileProtectionType:_allocator__Category.fileProtectionType:_allocator__O.fileProt.NSFile...H0aSgvg",
+          "realname": "OnDeviceStorageCore.Category.allocator.fileProtectionType: allocator, Category.fileProtectionType: allocator, O.fileProt.NSFile...H0aSgvg",
+          "ordinal": 45,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135924,
+          "paddr": 2741492,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore0C8CategoryOMa",
+          "demname": "OnDeviceStorageCore.Category.allocator..metadata.accessor(...a)",
+          "flagname": "sym.imp.OnDeviceStorageCore.Category.allocator..metadata.accessor_...a_",
+          "realname": "OnDeviceStorageCore.Category.allocator..metadata.accessor(...a)",
+          "ordinal": 46,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135940,
+          "paddr": 2741508,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10AccessTypeV10isReadonlySbvg",
+          "demname": "OnDeviceStorageCore.AccessType.isReadonly(...vg)",
+          "flagname": "sym.imp.OnDeviceStorageCore.AccessType.isReadonly_...vg_",
+          "realname": "OnDeviceStorageCore.AccessType.isReadonly(...vg)",
+          "ordinal": 47,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135956,
+          "paddr": 2741524,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10AccessTypeV6deleteACvgZ",
+          "demname": "OnDeviceStorageCore.AccessType.delete(...vgZ)",
+          "flagname": "sym.imp.OnDeviceStorageCore.AccessType.delete_...vgZ_",
+          "realname": "OnDeviceStorageCore.AccessType.delete(...vgZ)",
+          "ordinal": 48,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135972,
+          "paddr": 2741540,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10AccessTypeV6insertACvgZ",
+          "demname": "OnDeviceStorageCore.AccessType.insert(...vgZ)",
+          "flagname": "sym.imp.OnDeviceStorageCore.AccessType.insert_...vgZ_",
+          "realname": "OnDeviceStorageCore.AccessType.insert(...vgZ)",
+          "ordinal": 49,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296135988,
+          "paddr": 2741556,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10AccessTypeV6selectACvgZ",
+          "demname": "OnDeviceStorageCore.AccessType.select(...vgZ)",
+          "flagname": "sym.imp.OnDeviceStorageCore.AccessType.select_...vgZ_",
+          "realname": "OnDeviceStorageCore.AccessType.select(...vgZ)",
+          "ordinal": 50,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136004,
+          "paddr": 2741572,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10AccessTypeV6updateACvgZ",
+          "demname": "OnDeviceStorageCore.AccessType.update(...vgZ)",
+          "flagname": "sym.imp.OnDeviceStorageCore.AccessType.update_...vgZ_",
+          "realname": "OnDeviceStorageCore.AccessType.update(...vgZ)",
+          "ordinal": 51,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136020,
+          "paddr": 2741588,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10AccessTypeVMa",
+          "demname": "OnDeviceStorageCore.AccessType...VMa",
+          "flagname": "sym.imp.OnDeviceStorageCore.AccessType...VMa",
+          "realname": "OnDeviceStorageCore.AccessType...VMa",
+          "ordinal": 52,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136036,
+          "paddr": 2741604,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ConnectionC02isA18ClientContextQueueSbvg",
+          "demname": "OnDeviceStorageCore.Connection.is.allocator.ClientContextQueue: allocator, is.ClientContextQueue: allocator, A.ClientCo(...extQueueSbvg)",
+          "flagname": "sym.imp.OnDeviceStorageCore.Connection.is.allocator.ClientContextQueue:_allocator__is.ClientContextQueue:_allocator__A.ClientCo_...extQueueSbvg_",
+          "realname": "OnDeviceStorageCore.Connection.is.allocator.ClientContextQueue: allocator, is.ClientContextQueue: allocator, A.ClientCo(...extQueueSbvg)",
+          "ordinal": 53,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136052,
+          "paddr": 2741620,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ConnectionC09isServiceE0Sbvg",
+          "demname": "OnDeviceStorageCore.Connection.isService.allocator...E0Sbvg",
+          "flagname": "sym.imp.OnDeviceStorageCore.Connection.isService.allocator...E0Sbvg",
+          "realname": "OnDeviceStorageCore.Connection.isService.allocator...E0Sbvg",
+          "ordinal": 54,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136068,
+          "paddr": 2741636,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ConnectionC10AttributesV4noneAEvgZ",
+          "demname": "OnDeviceStorageCore.Connection.Attributes.allocator.none(...vgZ)",
+          "flagname": "sym.imp.OnDeviceStorageCore.Connection.Attributes.allocator.none_...vgZ_",
+          "realname": "OnDeviceStorageCore.Connection.Attributes.allocator.none(...vgZ)",
+          "ordinal": 55,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136084,
+          "paddr": 2741652,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ConnectionC10AttributesV7serviceAEvgZ",
+          "demname": "OnDeviceStorageCore.Connection.Attributes.allocator.service(...vgZ)",
+          "flagname": "sym.imp.OnDeviceStorageCore.Connection.Attributes.allocator.service_...vgZ_",
+          "realname": "OnDeviceStorageCore.Connection.Attributes.allocator.service(...vgZ)",
+          "ordinal": 56,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136100,
+          "paddr": 2741668,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ConnectionC10AttributesVMa",
+          "demname": "OnDeviceStorageCore.Connection.Attributes.allocator...VMa",
+          "flagname": "sym.imp.OnDeviceStorageCore.Connection.Attributes.allocator...VMa",
+          "realname": "OnDeviceStorageCore.Connection.Attributes.allocator...VMa",
+          "ordinal": 57,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136116,
+          "paddr": 2741684,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ConnectionC11busyTimeoutSdvg",
+          "demname": "OnDeviceStorageCore.Connection.busyTimeout.allocator__Swift.Double: allocatorbusyTimeout: allocatorS(...vg)",
+          "flagname": "sym.imp.OnDeviceStorageCore.Connection.busyTimeout.allocator__Swift.Double:_allocatorbusyTimeout:_allocatorS_...vg_",
+          "realname": "OnDeviceStorageCore.Connection.busyTimeout.allocator__Swift.Double: allocatorbusyTimeout: allocatorS(...vg)",
+          "ordinal": 58,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136132,
+          "paddr": 2741700,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ConnectionC11tableExistsySbSSF",
+          "demname": "OnDeviceStorageCore.Connection.tableExists.allocator(...SbSSF)",
+          "flagname": "sym.imp.OnDeviceStorageCore.Connection.tableExists.allocator_...SbSSF_",
+          "realname": "OnDeviceStorageCore.Connection.tableExists.allocator(...SbSSF)",
+          "ordinal": 59,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136148,
+          "paddr": 2741716,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ConnectionC13releaseMemoryyyFZ",
+          "demname": "OnDeviceStorageCore.Connection.releaseMemory.allocator(...yFZ)",
+          "flagname": "sym.imp.OnDeviceStorageCore.Connection.releaseMemory.allocator_...yFZ_",
+          "realname": "OnDeviceStorageCore.Connection.releaseMemory.allocator(...yFZ)",
+          "ordinal": 60,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136164,
+          "paddr": 2741732,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ConnectionC13softHeapLimityys5Int64VFZ",
+          "demname": "OnDeviceStorageCore.Connection.softHeapLimit.allocator(...ys5Int64VFZ)",
+          "flagname": "sym.imp.OnDeviceStorageCore.Connection.softHeapLimit.allocator_...ys5Int64VFZ_",
+          "realname": "OnDeviceStorageCore.Connection.softHeapLimit.allocator(...ys5Int64VFZ)",
+          "ordinal": 61,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136180,
+          "paddr": 2741748,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ConnectionC14ServiceColumnsO10requestIdsAA10ExpressionVySSGvgZ",
+          "demname": "OnDeviceStorageCore.Connection.ServiceColumns.allocator.requestIds....10ExpressionVySSGvgZ",
+          "flagname": "sym.imp.OnDeviceStorageCore.Connection.ServiceColumns.allocator.requestIds....10ExpressionVySSGvgZ",
+          "realname": "OnDeviceStorageCore.Connection.ServiceColumns.allocator.requestIds....10ExpressionVySSGvgZ",
+          "ordinal": 62,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136196,
+          "paddr": 2741764,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ConnectionC14ServiceColumnsO12creationTimeAA10ExpressionVy10Foundation4DateVGvgZ",
+          "demname": "OnDeviceStorageCore.Connection.ServiceColumns.allocator.creationTime....10ExpressionVy10Foundation4DateVGvgZ",
+          "flagname": "sym.imp.OnDeviceStorageCore.Connection.ServiceColumns.allocator.creationTime....10ExpressionVy10Foundation4DateVGvgZ",
+          "realname": "OnDeviceStorageCore.Connection.ServiceColumns.allocator.creationTime....10ExpressionVy10Foundation4DateVGvgZ",
+          "ordinal": 63,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136212,
+          "paddr": 2741780,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ConnectionC14ServiceColumnsO16modificationTimeAA10ExpressionVy10Foundation4DateVGvgZ",
+          "demname": "OnDeviceStorageCore.Connection.ServiceColumns.allocator.modificationTime....10ExpressionVy10Foundation4DateVGvgZ",
+          "flagname": "sym.imp.OnDeviceStorageCore.Connection.ServiceColumns.allocator.modificationTime....10ExpressionVy10Foundation4DateVGvgZ",
+          "realname": "OnDeviceStorageCore.Connection.ServiceColumns.allocator.modificationTime....10ExpressionVy10Foundation4DateVGvgZ",
+          "ordinal": 64,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136228,
+          "paddr": 2741796,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ConnectionC14ServiceColumnsO5rowIdAA10ExpressionVys5Int64VGvgZ",
+          "demname": "OnDeviceStorageCore.Connection.ServiceColumns.allocator.rowId....10ExpressionVys5Int64VGvgZ",
+          "flagname": "sym.imp.OnDeviceStorageCore.Connection.ServiceColumns.allocator.rowId....10ExpressionVys5Int64VGvgZ",
+          "realname": "OnDeviceStorageCore.Connection.ServiceColumns.allocator.rowId....10ExpressionVys5Int64VGvgZ",
+          "ordinal": 65,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136244,
+          "paddr": 2741812,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ConnectionC14ServiceColumnsO8allNamesSaySSGvgZ",
+          "demname": "OnDeviceStorageCore.Connection.ServiceColumns.allocator.allNames: allocator, ServiceColumns.allNames: allocator, O(...allNamesSaySSGvgZ)",
+          "flagname": "sym.imp.OnDeviceStorageCore.Connection.ServiceColumns.allocator.allNames:_allocator__ServiceColumns.allNames:_allocator__O_...allNamesSaySSGvgZ_",
+          "realname": "OnDeviceStorageCore.Connection.ServiceColumns.allocator.allNames: allocator, ServiceColumns.allNames: allocator, O(...allNamesSaySSGvgZ)",
+          "ordinal": 66,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136260,
+          "paddr": 2741828,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ConnectionC14ServiceColumnsO9bundleIdsAA10ExpressionVySSGvgZ",
+          "demname": "OnDeviceStorageCore.Connection.ServiceColumns.allocator.bundleIds....10ExpressionVySSGvgZ",
+          "flagname": "sym.imp.OnDeviceStorageCore.Connection.ServiceColumns.allocator.bundleIds....10ExpressionVySSGvgZ",
+          "realname": "OnDeviceStorageCore.Connection.ServiceColumns.allocator.bundleIds....10ExpressionVySSGvgZ",
+          "ordinal": 67,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136276,
+          "paddr": 2741844,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ConnectionC14createFunction_13deterministic_AA10ExpressionVyxGAGyq_G_AGyq0_GAGyq1_GtcSS_Sbxq__q0_q1_tctKAA5ValueRzAaLR_AaLR0_AaLR1_r2_lF",
+          "demname": "OnDeviceStorageCore.Connection.createFunction.allocator.deterministic..._AA10ExpressionVyxGAGyq_G_AGyq0_GAGyq1_GtcSS_Sbxq__q0_q1_tctKAA5ValueRzAaLR_AaLR0_AaLR1_r2_lF",
+          "flagname": "sym.imp.OnDeviceStorageCore.Connection.createFunction.allocator.deterministic..._AA10ExpressionVyxGAGyq_G_AGyq0_GAGyq1_GtcSS_Sbxq__q0_q1_tctKAA5ValueRzAaLR_AaLR0_AaLR1_r2_lF",
+          "realname": "OnDeviceStorageCore.Connection.createFunction.allocator.deterministic..._AA10ExpressionVyxGAGyq_G_AGyq0_GAGyq1_GtcSS_Sbxq__q0_q1_tctKAA5ValueRzAaLR_AaLR0_AaLR1_r2_lF",
+          "ordinal": 68,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136292,
+          "paddr": 2741860,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ConnectionC14createFunction_13deterministic_AA10ExpressionVyxGAGyq_G_AGyq0_GAGyq1_GtcSS_Sbxq__q0_q1_tctKAA5ValueRzAaLR_AaLR0_AaLR1_r2_lFfA0_",
+          "demname": "OnDeviceStorageCore.Connection.createFunction.allocator.deterministic..._AA10ExpressionVyxGAGyq_G_AGyq0_GAGyq1_GtcSS_Sbxq__q0_q1_tctKAA5ValueRzAaLR_AaLR0_AaLR1_r2_lFfA0_",
+          "flagname": "sym.imp.OnDeviceStorageCore.Connection.createFunction.allocator.deterministic..._AA10ExpressionVyxGAGyq_G_AGyq0_GAGyq1_GtcSS_Sbxq__q0_q1_tctKAA5ValueRzAaLR_AaLR0_AaLR1_r2_lFfA0_",
+          "realname": "OnDeviceStorageCore.Connection.createFunction.allocator.deterministic..._AA10ExpressionVyxGAGyq_G_AGyq0_GAGyq1_GtcSS_Sbxq__q0_q1_tctKAA5ValueRzAaLR_AaLR0_AaLR1_r2_lFfA0_",
+          "ordinal": 69,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136308,
+          "paddr": 2741876,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ConnectionC14createFunction_13deterministic_AA10ExpressionVyxGAGyq_G_AGyq0_GtcSS_Sbxq__q0_tctKAA5ValueRzAaKR_AaKR0_r1_lF",
+          "demname": "OnDeviceStorageCore.Connection.createFunction.allocator.deterministic..._AA10ExpressionVyxGAGyq_G_AGyq0_GtcSS_Sbxq__q0_tctKAA5ValueRzAaKR_AaKR0_r1_lF",
+          "flagname": "sym.imp.OnDeviceStorageCore.Connection.createFunction.allocator.deterministic..._AA10ExpressionVyxGAGyq_G_AGyq0_GtcSS_Sbxq__q0_tctKAA5ValueRzAaKR_AaKR0_r1_lF",
+          "realname": "OnDeviceStorageCore.Connection.createFunction.allocator.deterministic..._AA10ExpressionVyxGAGyq_G_AGyq0_GtcSS_Sbxq__q0_tctKAA5ValueRzAaKR_AaKR0_r1_lF",
+          "ordinal": 70,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136324,
+          "paddr": 2741892,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ConnectionC14createFunction_13deterministic_AA10ExpressionVyxGAGyq_G_AGyq0_GtcSS_Sbxq__q0_tctKAA5ValueRzAaKR_AaKR0_r1_lFfA0_",
+          "demname": "OnDeviceStorageCore.Connection.createFunction.allocator.deterministic..._AA10ExpressionVyxGAGyq_G_AGyq0_GtcSS_Sbxq__q0_tctKAA5ValueRzAaKR_AaKR0_r1_lFfA0_",
+          "flagname": "sym.imp.OnDeviceStorageCore.Connection.createFunction.allocator.deterministic..._AA10ExpressionVyxGAGyq_G_AGyq0_GtcSS_Sbxq__q0_tctKAA5ValueRzAaKR_AaKR0_r1_lFfA0_",
+          "realname": "OnDeviceStorageCore.Connection.createFunction.allocator.deterministic..._AA10ExpressionVyxGAGyq_G_AGyq0_GtcSS_Sbxq__q0_tctKAA5ValueRzAaKR_AaKR0_r1_lFfA0_",
+          "ordinal": 71,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136340,
+          "paddr": 2741908,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ConnectionC14createFunction_13deterministic_AA10ExpressionVyxSgGycSS_SbAHyctKAA5ValueRzlF",
+          "demname": "OnDeviceStorageCore.Connection.createFunction.allocator.deterministic..._AA10ExpressionVyxSgGycSS_SbAHyctKAA5ValueRzlF",
+          "flagname": "sym.imp.OnDeviceStorageCore.Connection.createFunction.allocator.deterministic..._AA10ExpressionVyxSgGycSS_SbAHyctKAA5ValueRzlF",
+          "realname": "OnDeviceStorageCore.Connection.createFunction.allocator.deterministic..._AA10ExpressionVyxSgGycSS_SbAHyctKAA5ValueRzlF",
+          "ordinal": 72,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136356,
+          "paddr": 2741924,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ConnectionC14createFunction_13deterministic_AA10ExpressionVyxSgGycSS_SbAHyctKAA5ValueRzlFfA0_",
+          "demname": "OnDeviceStorageCore.Connection.createFunction.allocator.deterministic..._AA10ExpressionVyxSgGycSS_SbAHyctKAA5ValueRzlFfA0_",
+          "flagname": "sym.imp.OnDeviceStorageCore.Connection.createFunction.allocator.deterministic..._AA10ExpressionVyxSgGycSS_SbAHyctKAA5ValueRzlFfA0_",
+          "realname": "OnDeviceStorageCore.Connection.createFunction.allocator.deterministic..._AA10ExpressionVyxSgGycSS_SbAHyctKAA5ValueRzlFfA0_",
+          "ordinal": 73,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136372,
+          "paddr": 2741940,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ConnectionC14setBusyTimeoutyySdF",
+          "demname": "OnDeviceStorageCore.Connection.setBusyTimeout.allocator(...ySdF)",
+          "flagname": "sym.imp.OnDeviceStorageCore.Connection.setBusyTimeout.allocator_...ySdF_",
+          "realname": "OnDeviceStorageCore.Connection.setBusyTimeout.allocator(...ySdF)",
+          "ordinal": 74,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136388,
+          "paddr": 2741956,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ConnectionC16setClientContextyys8Sendable_pF",
+          "demname": "OnDeviceStorageCore.Connection.setClientContext.allocator(...F)",
+          "flagname": "sym.imp.OnDeviceStorageCore.Connection.setClientContext.allocator_...F_",
+          "realname": "OnDeviceStorageCore.Connection.setClientContext.allocator(...F)",
+          "ordinal": 75,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136404,
+          "paddr": 2741972,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ConnectionC18clearClientContextyyF",
+          "demname": "OnDeviceStorageCore.Connection.clearClientContext.allocator(...yF)",
+          "flagname": "sym.imp.OnDeviceStorageCore.Connection.clearClientContext.allocator_...yF_",
+          "realname": "OnDeviceStorageCore.Connection.clearClientContext.allocator(...yF)",
+          "ordinal": 76,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136420,
+          "paddr": 2741988,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ConnectionC18clientContextQueueSo17OS_dispatch_queueCvg",
+          "demname": "OnDeviceStorageCore.Connection.clientContextQueue.allocator: allocator, clientContextQueue: allocator, S(...ueueCvg)",
+          "flagname": "sym.imp.OnDeviceStorageCore.Connection.clientContextQueue.allocator:_allocator__clientContextQueue:_allocator__S_...ueueCvg_",
+          "realname": "OnDeviceStorageCore.Connection.clientContextQueue.allocator: allocator, clientContextQueue: allocator, S(...ueueCvg)",
+          "ordinal": 77,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136436,
+          "paddr": 2742004,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ConnectionC20currentClientContexts8Sendable_pSgvg",
+          "demname": "OnDeviceStorageCore.Connection.currentClientContext.allocatorSendable(...Sgvg)",
+          "flagname": "sym.imp.OnDeviceStorageCore.Connection.currentClientContext.allocatorSendable_...Sgvg_",
+          "realname": "OnDeviceStorageCore.Connection.currentClientContext.allocatorSendable(...Sgvg)",
+          "ordinal": 78,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136452,
+          "paddr": 2742020,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ConnectionC25withUnsafeHandleUncheckedyxxs13OpaquePointerVKXEKlF",
+          "demname": "OnDeviceStorageCore.Connection.withUnsafeHandleUnchecked.allocator(...xxs13OpaquePointerVKXEKlF)",
+          "flagname": "sym.imp.OnDeviceStorageCore.Connection.withUnsafeHandleUnchecked.allocator_...xxs13OpaquePointerVKXEKlF_",
+          "realname": "OnDeviceStorageCore.Connection.withUnsafeHandleUnchecked.allocator(...xxs13OpaquePointerVKXEKlF)",
+          "ordinal": 79,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136468,
+          "paddr": 2742036,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ConnectionC3key_2dbACXDx_SSSgtK10Foundation15ContiguousBytesRzlF",
+          "demname": "OnDeviceStorageCore.Connection.key.allocator.db...ACXDx_SSSgtK10Foundation15ContiguousBytesRzlF",
+          "flagname": "sym.imp.OnDeviceStorageCore.Connection.key.allocator.db...ACXDx_SSSgtK10Foundation15ContiguousBytesRzlF",
+          "realname": "OnDeviceStorageCore.Connection.key.allocator.db...ACXDx_SSSgtK10Foundation15ContiguousBytesRzlF",
+          "ordinal": 80,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136484,
+          "paddr": 2742052,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ConnectionC3runyAA9StatementCSS_AA7Binding_pSgdtKF",
+          "demname": "OnDeviceStorageCore.Connection.run.allocator.(...SgdtKF)",
+          "flagname": "sym.imp.OnDeviceStorageCore.Connection.run.allocator._...SgdtKF_",
+          "realname": "OnDeviceStorageCore.Connection.run.allocator.(...SgdtKF)",
+          "ordinal": 81,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136500,
+          "paddr": 2742068,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ConnectionC3runySiAA6DeleteVKF",
+          "demname": "OnDeviceStorageCore.Connection.run.allocator(...SiAA6DeleteVKF)",
+          "flagname": "sym.imp.OnDeviceStorageCore.Connection.run.allocator_...SiAA6DeleteVKF_",
+          "realname": "OnDeviceStorageCore.Connection.run.allocator(...SiAA6DeleteVKF)",
+          "ordinal": 82,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136516,
+          "paddr": 2742084,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ConnectionC3runySiAA6UpdateVKF",
+          "demname": "OnDeviceStorageCore.Connection.run.allocator(...SiAA6UpdateVKF)",
+          "flagname": "sym.imp.OnDeviceStorageCore.Connection.run.allocator_...SiAA6UpdateVKF_",
+          "realname": "OnDeviceStorageCore.Connection.run.allocator(...SiAA6UpdateVKF)",
+          "ordinal": 83,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136532,
+          "paddr": 2742100,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ConnectionC3runys5Int64VAA6InsertVKF",
+          "demname": "OnDeviceStorageCore.Connection.run.allocator(...s5Int64VAA6InsertVKF)",
+          "flagname": "sym.imp.OnDeviceStorageCore.Connection.run.allocator_...s5Int64VAA6InsertVKF_",
+          "realname": "OnDeviceStorageCore.Connection.run.allocator(...s5Int64VAA6InsertVKF)",
+          "ordinal": 84,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136548,
+          "paddr": 2742116,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ConnectionC5pluckyAA3RowVSgAA9QueryType_pKF",
+          "demname": "OnDeviceStorageCore.Connection.pluck.allocator(...KF)",
+          "flagname": "sym.imp.OnDeviceStorageCore.Connection.pluck.allocator_...KF_",
+          "realname": "OnDeviceStorageCore.Connection.pluck.allocator(...KF)",
+          "ordinal": 85,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136564,
+          "paddr": 2742132,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ConnectionC5pluckyAA3RowVSgSS_AA7Binding_pSgdtKF",
+          "demname": "OnDeviceStorageCore.Connection.pluck.allocator.(...SgdtKF)",
+          "flagname": "sym.imp.OnDeviceStorageCore.Connection.pluck.allocator._...SgdtKF_",
+          "realname": "OnDeviceStorageCore.Connection.pluck.allocator.(...SgdtKF)",
+          "ordinal": 86,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136580,
+          "paddr": 2742148,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ConnectionC6scalary9ValueTypeQzSgAA11ScalarQueryVyxSgGKAA0G0RzlF",
+          "demname": "OnDeviceStorageCore.Connection.scalar.allocator.ValueType.ScalarQuery...A0G0RzlF",
+          "flagname": "sym.imp.OnDeviceStorageCore.Connection.scalar.allocator.ValueType.ScalarQuery...A0G0RzlF",
+          "realname": "OnDeviceStorageCore.Connection.scalar.allocator.ValueType.ScalarQuery...A0G0RzlF",
+          "ordinal": 87,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136596,
+          "paddr": 2742164,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ConnectionC6scalaryAA7Binding_pSgSS_AFdtKF",
+          "demname": "OnDeviceStorageCore.Connection.scalar.allocator.(...tKF)",
+          "flagname": "sym.imp.OnDeviceStorageCore.Connection.scalar.allocator._...tKF_",
+          "realname": "OnDeviceStorageCore.Connection.scalar.allocator.(...tKF)",
+          "ordinal": 88,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136612,
+          "paddr": 2742180,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ConnectionC6scalaryAA7Binding_pSgSS_SayAFGtKF",
+          "demname": "OnDeviceStorageCore.Connection.scalar.allocator(...ayAFGtKF)",
+          "flagname": "sym.imp.OnDeviceStorageCore.Connection.scalar.allocator_...ayAFGtKF_",
+          "realname": "OnDeviceStorageCore.Connection.scalar.allocator(...ayAFGtKF)",
+          "ordinal": 89,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136628,
+          "paddr": 2742196,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ConnectionC6scalaryxAA11ScalarQueryVyxGKAA5ValueRzlF",
+          "demname": "OnDeviceStorageCore.Connection.scalar.allocator(...xAA11ScalarQueryVyxGKAA5ValueRzlF)",
+          "flagname": "sym.imp.OnDeviceStorageCore.Connection.scalar.allocator_...xAA11ScalarQueryVyxGKAA5ValueRzlF_",
+          "realname": "OnDeviceStorageCore.Connection.scalar.allocator(...xAA11ScalarQueryVyxGKAA5ValueRzlF)",
+          "ordinal": 90,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136644,
+          "paddr": 2742212,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ConnectionC6scalaryxAA6SelectVyxGKAA5ValueRzlF",
+          "demname": "OnDeviceStorageCore.Connection.scalar.allocator(...xAA6SelectVyxGKAA5ValueRzlF)",
+          "flagname": "sym.imp.OnDeviceStorageCore.Connection.scalar.allocator_...xAA6SelectVyxGKAA5ValueRzlF_",
+          "realname": "OnDeviceStorageCore.Connection.scalar.allocator(...xAA6SelectVyxGKAA5ValueRzlF)",
+          "ordinal": 91,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136660,
+          "paddr": 2742228,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ConnectionC6schemaAA12SchemaReaderCvg",
+          "demname": "OnDeviceStorageCore.Connection.schema.allocator..Sc(...maReaderCvg)",
+          "flagname": "sym.imp.OnDeviceStorageCore.Connection.schema.allocator..Sc_...maReaderCvg_",
+          "realname": "OnDeviceStorageCore.Connection.schema.allocator..Sc(...maReaderCvg)",
+          "ordinal": 92,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136676,
+          "paddr": 2742244,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ConnectionC7executeyySSKF",
+          "demname": "OnDeviceStorageCore.Connection.execute.allocator(...ySSKF)",
+          "flagname": "sym.imp.OnDeviceStorageCore.Connection.execute.allocator_...ySSKF_",
+          "realname": "OnDeviceStorageCore.Connection.execute.allocator(...ySSKF)",
+          "ordinal": 93,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136692,
+          "paddr": 2742260,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ConnectionC7prepareys11AnySequenceVyAA3RowVGAA9QueryType_pKF",
+          "demname": "OnDeviceStorageCore.Connection.prepare.allocator(...KF)",
+          "flagname": "sym.imp.OnDeviceStorageCore.Connection.prepare.allocator_...KF_",
+          "realname": "OnDeviceStorageCore.Connection.prepare.allocator(...KF)",
+          "ordinal": 94,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136708,
+          "paddr": 2742276,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ConnectionC7prepareys11AnySequenceVyAA3RowVGSS_AA7Binding_pSgdtKF",
+          "demname": "OnDeviceStorageCore.Connection.prepare.allocator.(...SgdtKF)",
+          "flagname": "sym.imp.OnDeviceStorageCore.Connection.prepare.allocator._...SgdtKF_",
+          "realname": "OnDeviceStorageCore.Connection.prepare.allocator.(...SgdtKF)",
+          "ordinal": 95,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136724,
+          "paddr": 2742292,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ConnectionCMa",
+          "demname": "OnDeviceStorageCore.Connection.allocator(...a)",
+          "flagname": "sym.imp.OnDeviceStorageCore.Connection.allocator_...a_",
+          "realname": "OnDeviceStorageCore.Connection.allocator(...a)",
+          "ordinal": 96,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136740,
+          "paddr": 2742308,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ConnectionC_8readonly14protectionType10attributesACSS_SbSo016NSFileProtectionH0aAC10AttributesVtKcfC",
+          "demname": "OnDeviceStorageCore.Connection.allocator -> ().readonly.protectionType(...bSo016NSFileProtectionH0aAC10AttributesVtKcfC)",
+          "flagname": "sym.imp.OnDeviceStorageCore.Connection.allocator______.readonly.protectionType_...bSo016NSFileProtectionH0aAC10AttributesVtKcfC_",
+          "realname": "OnDeviceStorageCore.Connection.allocator -> ().readonly.protectionType(...bSo016NSFileProtectionH0aAC10AttributesVtKcfC)",
+          "ordinal": 97,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136756,
+          "paddr": 2742324,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ExpressionVA2A6NumberRzlE1poiyACyqd__GAF_AFt9ValueTypeQyd__RszAA0G0Rd__lFZ",
+          "demname": "OnDeviceStorageCore.Expression...VA2A6NumberRzlE1poiyACyqd__GAF_AFt9ValueTypeQyd__RszAA0G0Rd__lFZ",
+          "flagname": "sym.imp.OnDeviceStorageCore.Expression...VA2A6NumberRzlE1poiyACyqd__GAF_AFt9ValueTypeQyd__RszAA0G0Rd__lFZ",
+          "realname": "OnDeviceStorageCore.Expression...VA2A6NumberRzlE1poiyACyqd__GAF_AFt9ValueTypeQyd__RszAA0G0Rd__lFZ",
+          "ordinal": 98,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136772,
+          "paddr": 2742340,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ExpressionVA2A6NumberRzlE1poiyACyqd__GAF_qd__t9ValueTypeQyd__RszAA0G0Rd__lFZ",
+          "demname": "OnDeviceStorageCore.Expression...VA2A6NumberRzlE1poiyACyqd__GAF_qd__t9ValueTypeQyd__RszAA0G0Rd__lFZ",
+          "flagname": "sym.imp.OnDeviceStorageCore.Expression...VA2A6NumberRzlE1poiyACyqd__GAF_qd__t9ValueTypeQyd__RszAA0G0Rd__lFZ",
+          "realname": "OnDeviceStorageCore.Expression...VA2A6NumberRzlE1poiyACyqd__GAF_qd__t9ValueTypeQyd__RszAA0G0Rd__lFZ",
+          "ordinal": 99,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136788,
+          "paddr": 2742356,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ExpressionVA2A6NumberRzlE2peoiyAA6SetterVACyqd__SgG_qd__t9ValueTypeQyd__RszAA0I0Rd__lFZ",
+          "demname": "OnDeviceStorageCore.Expression...VA2A6NumberRzlE2peoiyAA6SetterVACyqd__SgG_qd__t9ValueTypeQyd__RszAA0I0Rd__lFZ",
+          "flagname": "sym.imp.OnDeviceStorageCore.Expression...VA2A6NumberRzlE2peoiyAA6SetterVACyqd__SgG_qd__t9ValueTypeQyd__RszAA0I0Rd__lFZ",
+          "realname": "OnDeviceStorageCore.Expression...VA2A6NumberRzlE2peoiyAA6SetterVACyqd__SgG_qd__t9ValueTypeQyd__RszAA0I0Rd__lFZ",
+          "ordinal": 100,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136804,
+          "paddr": 2742372,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19OnDeviceStorageCore10ExpressionVAA10Foundation4DateVRszlE9timestampACySdGvg",
+          "demname": "OnDeviceStorageCore.Expression...VAA10Foundation4DateVRszlE9timestampACySdGvg",
+          "flagname": "sym.imp.OnDeviceStorageCore.Expression...VAA10Foundation4DateVRszlE9timestampACySdGvg",
+          "realname": "OnDeviceStorageCore.Expression...VAA10Foundation4DateVRszlE9timestampACySdGvg",
+          "ordinal": 101,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296136820,
+          "paddr": 2742388,
+          "is_imported": true
+        }
+      ]
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Support/amsondevicestoraged",
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist"
+      ],
+      "plists": {
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "OnDeviceStorage",
+          "CFBundleIdentifier": "com.apple.OnDeviceStorage",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "DTPlatformBuild": "",
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleVersion": "1",
+          "CFBundleExecutable": "OnDeviceStorage",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTXcode": "2600",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundlePackageType": "FMWK",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "DTSDKName": "macosx26.1.internal",
+          "CFBundleShortVersionString": "1.0"
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "OnDeviceInfrastructure",
+          "SourceVersion": "2001004000000",
+          "BuildVersion": "91"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
+  },
+  "usage": {
+    "layer": "usage",
+    "used_by": []
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "loaded"
+  }
+}

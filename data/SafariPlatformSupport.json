@@ -1,0 +1,2280 @@
+{
+  "framework": "SafariPlatformSupport.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/SafariPlatformSupport.framework/Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/MacOS/com.apple.SafariPlatformSupport.Helper",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 178528,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "objc with blocks",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/JavaScriptCore",
+          "/System/Library/PrivateFrameworks/SafariCore.framework/Versions/A/SafariCore",
+          "/System/Library/PrivateFrameworks/PasswordManagerUI.framework/Versions/A/PasswordManagerUI",
+          "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "/System/Library/Frameworks/AuthenticationServices.framework/Versions/A/AuthenticationServices",
+          "/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore",
+          "/System/Library/PrivateFrameworks/Safari.framework/Versions/A/Safari",
+          "/System/Library/PrivateFrameworks/SafariFoundation.framework/Versions/A/SafariFoundation",
+          "/System/Library/PrivateFrameworks/SafariPlatformSupport.framework/Versions/A/SafariPlatformSupport",
+          "/System/Library/PrivateFrameworks/SafariShared.framework/Versions/A/SafariShared",
+          "/System/Library/Frameworks/Security.framework/Versions/A/Security",
+          "/System/Library/PrivateFrameworks/ViewBridge.framework/Versions/A/ViewBridge",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libc++.1.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "SafariPlatformSupportHelperServiceDelegate",
+        "addr": 4295091600,
+        "lang": "objc",
+        "index": 0,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "listener:shouldAcceptNewConnection:",
+            "flag": "method.SafariPlatformSupportHelperServiceDelegate.listener:shouldAcceptNewConnection:",
+            "lang": "objc",
+            "addr": 4294972680
+          }
+        ],
+        "fields": [
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "SafariPlatformSupportHelper",
+        "addr": 4295091720,
+        "lang": "objc",
+        "index": 1,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.SafariPlatformSupportHelper.init",
+            "lang": "objc",
+            "addr": 4294973332
+          },
+          {
+            "name": "localAuthenticationManager",
+            "flag": "method.SafariPlatformSupportHelper.localAuthenticationManager",
+            "lang": "objc",
+            "addr": 4294973452
+          },
+          {
+            "name": "selectedOneTimeCodeForAuthenticationSheet",
+            "flag": "method.SafariPlatformSupportHelper.selectedOneTimeCodeForAuthenticationSheet",
+            "lang": "objc",
+            "addr": 4294973460
+          },
+          {
+            "name": "setSelectedOneTimeCodeForAuthenticationSheet:",
+            "flag": "method.SafariPlatformSupportHelper.setSelectedOneTimeCodeForAuthenticationSheet:",
+            "lang": "objc",
+            "addr": 4294973468
+          },
+          {
+            "name": "selectedCredentialForAuthenticationSheet",
+            "flag": "method.SafariPlatformSupportHelper.selectedCredentialForAuthenticationSheet",
+            "lang": "objc",
+            "addr": 4294973480
+          },
+          {
+            "name": "setSelectedCredentialForAuthenticationSheet:",
+            "flag": "method.SafariPlatformSupportHelper.setSelectedCredentialForAuthenticationSheet:",
+            "lang": "objc",
+            "addr": 4294973488
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.SafariPlatformSupportHelper..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294973500
+          },
+          {
+            "name": "sharedHelper",
+            "flag": "method.class.SafariPlatformSupportHelper.sharedHelper",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294973112
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_localAuthenticationManager",
+            "kind": "var",
+            "type": "@\"AutoFillLocalAuthenticationManager\"",
+            "addr": 4295091384
+          },
+          {
+            "name": "_selectedOneTimeCodeForAuthenticationSheet",
+            "kind": "var",
+            "type": "@\"SFAutoFillOneTimeCode\"",
+            "addr": 4295091388
+          },
+          {
+            "name": "_selectedCredentialForAuthenticationSheet",
+            "kind": "var",
+            "type": "@\"SFSafariCredential\"",
+            "addr": 4295091392
+          },
+          {
+            "name": "localAuthenticationManager",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "selectedOneTimeCodeForAuthenticationSheet",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "selectedCredentialForAuthenticationSheet",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "sharedHelper",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "SPAutoFillAuthorizationServiceViewController",
+        "addr": 4295091760,
+        "lang": "objc",
+        "index": 2,
+        "super": [
+          "NSServiceViewController"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSServiceViewController"
+        ],
+        "methods": [
+          {
+            "name": "exportedInterface",
+            "flag": "method.SPAutoFillAuthorizationServiceViewController.exportedInterface",
+            "lang": "objc",
+            "addr": 4294973580
+          },
+          {
+            "name": "remoteViewControllerInterface",
+            "flag": "method.SPAutoFillAuthorizationServiceViewController.remoteViewControllerInterface",
+            "lang": "objc",
+            "addr": 4294973728
+          },
+          {
+            "name": "loadView",
+            "flag": "method.SPAutoFillAuthorizationServiceViewController.loadView",
+            "lang": "objc",
+            "addr": 4294973876
+          },
+          {
+            "name": "requestAuthorizationForSelectedCredential",
+            "flag": "func.100001a04",
+            "lang": "objc",
+            "addr": 4294973956
+          },
+          {
+            "name": "requestAuthorizationForSelectedOneTimeCode",
+            "flag": "func.100001d94",
+            "lang": "objc",
+            "addr": 4294974868
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.SPAutoFillAuthorizationServiceViewController..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294975728
+          },
+          {
+            "name": "requestAuthorizationForSelectedCredential",
+            "flag": "method.SPAutoFillAuthorizationServiceViewController.requestAuthorizationForSelectedCredential",
+            "lang": "objc",
+            "addr": 4295034144
+          },
+          {
+            "name": "requestAuthorizationForSelectedOneTimeCode",
+            "flag": "method.SPAutoFillAuthorizationServiceViewController.requestAuthorizationForSelectedOneTimeCode",
+            "lang": "objc",
+            "addr": 4295034156
+          },
+          {
+            "name": "requestAuthorizationForSelectedCredential",
+            "flag": "method.SPAutoFillAuthorizationServiceViewController.requestAuthorizationForSelectedCredential",
+            "lang": "objc",
+            "addr": 4295034144
+          },
+          {
+            "name": "requestAuthorizationForSelectedOneTimeCode",
+            "flag": "method.SPAutoFillAuthorizationServiceViewController.requestAuthorizationForSelectedOneTimeCode",
+            "lang": "objc",
+            "addr": 4295034156
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_autoFillAuthenticationController",
+            "kind": "var",
+            "type": "@\"AutoFillAuthorizationController\"",
+            "addr": 4295091396
+          }
+        ]
+      },
+      {
+        "classname": "_GlassView",
+        "addr": 4295091880,
+        "lang": "objc",
+        "index": 3,
+        "super": [
+          "NSGlassView"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSGlassView"
+        ],
+        "methods": [
+          {
+            "name": "initWithFrame:",
+            "flag": "method._GlassView.initWithFrame:",
+            "lang": "objc",
+            "addr": 4294975748
+          }
+        ]
+      },
+      {
+        "classname": "_OtherPasswordsRowView",
+        "addr": 4295091920,
+        "lang": "objc",
+        "index": 4,
+        "super": [
+          "NSTableRowView"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSTableRowView"
+        ],
+        "methods": [
+          {
+            "name": "drawSeparatorInRect:",
+            "flag": "method._OtherPasswordsRowView.drawSeparatorInRect:",
+            "lang": "objc",
+            "addr": 4294975896
+          }
+        ]
+      },
+      {
+        "classname": "SPCompletionListServiceViewController",
+        "addr": 4295092040,
+        "lang": "objc",
+        "index": 5,
+        "super": [
+          "NSServiceViewController"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSServiceViewController"
+        ],
+        "methods": [
+          {
+            "name": "exportedInterface",
+            "flag": "method.SPCompletionListServiceViewController.exportedInterface",
+            "lang": "objc",
+            "addr": 4294975900
+          },
+          {
+            "name": "remoteViewControllerInterface",
+            "flag": "method.SPCompletionListServiceViewController.remoteViewControllerInterface",
+            "lang": "objc",
+            "addr": 4294976048
+          },
+          {
+            "name": "_extensionPasswordsString:",
+            "flag": "method.SPCompletionListServiceViewController._extensionPasswordsString:",
+            "lang": "objc",
+            "addr": 4294976196
+          },
+          {
+            "name": "_additionalPasswordsString",
+            "flag": "method.SPCompletionListServiceViewController._additionalPasswordsString",
+            "lang": "objc",
+            "addr": 4294976492
+          },
+          {
+            "name": "viewDidLoad",
+            "flag": "method.SPCompletionListServiceViewController.viewDidLoad",
+            "lang": "objc",
+            "addr": 4294976904
+          },
+          {
+            "name": "_credentialCommandAutoFillNibName",
+            "flag": "method.SPCompletionListServiceViewController._credentialCommandAutoFillNibName",
+            "lang": "objc",
+            "addr": 4294981028
+          },
+          {
+            "name": "awakeFromRemoteView",
+            "flag": "method.SPCompletionListServiceViewController.awakeFromRemoteView",
+            "lang": "objc",
+            "addr": 4294981040
+          },
+          {
+            "name": "loadView",
+            "flag": "method.SPCompletionListServiceViewController.loadView",
+            "lang": "objc",
+            "addr": 4294981504
+          },
+          {
+            "name": "_cellTypeForRow:",
+            "flag": "method.SPCompletionListServiceViewController._cellTypeForRow:",
+            "lang": "objc",
+            "addr": 4294982116
+          },
+          {
+            "name": "_firstOtherPasswordsRow",
+            "flag": "method.SPCompletionListServiceViewController._firstOtherPasswordsRow",
+            "lang": "objc",
+            "addr": 4294982308
+          },
+          {
+            "name": "_disambiguateBetweenPasswordsAndPasskeys",
+            "flag": "method.SPCompletionListServiceViewController._disambiguateBetweenPasswordsAndPasskeys",
+            "lang": "objc",
+            "addr": 4294982352
+          },
+          {
+            "name": "tableView:viewForTableColumn:row:",
+            "flag": "method.SPCompletionListServiceViewController.tableView:viewForTableColumn:row:",
+            "lang": "objc",
+            "addr": 4294982696
+          },
+          {
+            "name": "_tableView:passwordCellViewForTableColumn:row:",
+            "flag": "method.SPCompletionListServiceViewController._tableView:passwordCellViewForTableColumn:row:",
+            "lang": "objc",
+            "addr": 4294982936
+          },
+          {
+            "name": "_tableView:oneTimeCodeCellViewForTableColumn:row:",
+            "flag": "method.SPCompletionListServiceViewController._tableView:oneTimeCodeCellViewForTableColumn:row:",
+            "lang": "objc",
+            "addr": 4294983968
+          },
+          {
+            "name": "tableView:heightOfRow:",
+            "flag": "method.SPCompletionListServiceViewController.tableView:heightOfRow:",
+            "lang": "objc",
+            "addr": 4294984548
+          },
+          {
+            "name": "numberOfRowsInTableView:",
+            "flag": "method.SPCompletionListServiceViewController.numberOfRowsInTableView:",
+            "lang": "objc",
+            "addr": 4294984828
+          },
+          {
+            "name": "tableView:rowViewForRow:",
+            "flag": "method.SPCompletionListServiceViewController.tableView:rowViewForRow:",
+            "lang": "objc",
+            "addr": 4294985168
+          },
+          {
+            "name": "menuTableView:mouseUpInRow:",
+            "flag": "method.SPCompletionListServiceViewController.menuTableView:mouseUpInRow:",
+            "lang": "objc",
+            "addr": 4294985244
+          },
+          {
+            "name": "menuTableView:shouldHandleKeyDownEvent:",
+            "flag": "method.SPCompletionListServiceViewController.menuTableView:shouldHandleKeyDownEvent:",
+            "lang": "objc",
+            "addr": 4294985412
+          },
+          {
+            "name": "_menuTableView:mouseUpForPasswordInRow:",
+            "flag": "method.SPCompletionListServiceViewController._menuTableView:mouseUpForPasswordInRow:",
+            "lang": "objc",
+            "addr": 4294985540
+          },
+          {
+            "name": "_menuTableView:mouseUpForOneTimeCodeInRow:",
+            "flag": "method.SPCompletionListServiceViewController._menuTableView:mouseUpForOneTimeCodeInRow:",
+            "lang": "objc",
+            "addr": 4294986424
+          },
+          {
+            "name": "_sizeOfCompletionListForCurrentMode",
+            "flag": "method.SPCompletionListServiceViewController._sizeOfCompletionListForCurrentMode",
+            "lang": "objc",
+            "addr": 4294987088
+          },
+          {
+            "name": "keyDown:",
+            "flag": "method.SPCompletionListServiceViewController.keyDown:",
+            "lang": "objc",
+            "addr": 4294987152
+          },
+          {
+            "name": "_credentialSelected:requiresAuthentication:",
+            "flag": "method.SPCompletionListServiceViewController._credentialSelected:requiresAuthentication:",
+            "lang": "objc",
+            "addr": 4294987728
+          },
+          {
+            "name": "_oneTimeCodeSelectedForRow:requiresAuthentication:",
+            "flag": "method.SPCompletionListServiceViewController._oneTimeCodeSelectedForRow:requiresAuthentication:",
+            "lang": "objc",
+            "addr": 4294988716
+          },
+          {
+            "name": "_computeContentSizeAndUpdateWindowLayoutForPasswordAutoFill",
+            "flag": "method.SPCompletionListServiceViewController._computeContentSizeAndUpdateWindowLayoutForPasswordAutoFill",
+            "lang": "objc",
+            "addr": 4294990108
+          },
+          {
+            "name": "_computePreferredContentSizeForPasswordAutoFill",
+            "flag": "method.SPCompletionListServiceViewController._computePreferredContentSizeForPasswordAutoFill",
+            "lang": "objc",
+            "addr": 4294990452
+          },
+          {
+            "name": "preferredContentSizeForOneTimeCodeTable",
+            "flag": "method.SPCompletionListServiceViewController.preferredContentSizeForOneTimeCodeTable",
+            "lang": "objc",
+            "addr": 4294992212
+          },
+          {
+            "name": "_checkForAvailabilityOfBiometricAuthentication",
+            "flag": "method.SPCompletionListServiceViewController._checkForAvailabilityOfBiometricAuthentication",
+            "lang": "objc",
+            "addr": 4294992792
+          },
+          {
+            "name": "_updateBiometryAvailable:",
+            "flag": "method.SPCompletionListServiceViewController._updateBiometryAvailable:",
+            "lang": "objc",
+            "addr": 4294992952
+          },
+          {
+            "name": "tableView:selectionIndexesForProposedSelection:",
+            "flag": "method.SPCompletionListServiceViewController.tableView:selectionIndexesForProposedSelection:",
+            "lang": "objc",
+            "addr": 4294993260
+          },
+          {
+            "name": "tableViewSelectionDidChange:",
+            "flag": "method.SPCompletionListServiceViewController.tableViewSelectionDidChange:",
+            "lang": "objc",
+            "addr": 4294993520
+          },
+          {
+            "name": "_updateBiometricPromptForTableViewIfNecessary",
+            "flag": "method.SPCompletionListServiceViewController._updateBiometricPromptForTableViewIfNecessary",
+            "lang": "objc",
+            "addr": 4294993524
+          },
+          {
+            "name": "_updateCellAtIndex:inTableView:withBlock:",
+            "flag": "method.SPCompletionListServiceViewController._updateCellAtIndex:inTableView:withBlock:",
+            "lang": "objc",
+            "addr": 4294994560
+          },
+          {
+            "name": "_requestBiometricAuthenticationIfNecessary",
+            "flag": "method.SPCompletionListServiceViewController._requestBiometricAuthenticationIfNecessary",
+            "lang": "objc",
+            "addr": 4294994764
+          },
+          {
+            "name": "operation:attemptedAuthenticationWithResult:",
+            "flag": "func.100006c58",
+            "lang": "objc",
+            "addr": 4294995032
+          },
+          {
+            "name": "didBeginFingerDownOnTouchIDSensorForOperation:",
+            "flag": "func.100006f78",
+            "lang": "objc",
+            "addr": 4294995832
+          },
+          {
+            "name": "_showBiometricFingerDownFeedback",
+            "flag": "method.SPCompletionListServiceViewController._showBiometricFingerDownFeedback",
+            "lang": "objc",
+            "addr": 4294995956
+          },
+          {
+            "name": "_cancelAndDiscardCurrentLocalAuthenticationOperation",
+            "flag": "method.SPCompletionListServiceViewController._cancelAndDiscardCurrentLocalAuthenticationOperation",
+            "lang": "objc",
+            "addr": 4294996088
+          },
+          {
+            "name": "_setCredentialsToDisplay",
+            "flag": "method.SPCompletionListServiceViewController._setCredentialsToDisplay",
+            "lang": "objc",
+            "addr": 4294996172
+          },
+          {
+            "name": "filterCredentialsByPartialUsername:completionHandler:",
+            "flag": "method.SPCompletionListServiceViewController.filterCredentialsByPartialUsername:completionHandler:",
+            "lang": "objc",
+            "addr": 4294996292
+          },
+          {
+            "name": "_canExpandCompletionList",
+            "flag": "method.SPCompletionListServiceViewController._canExpandCompletionList",
+            "lang": "objc",
+            "addr": 4294996860
+          },
+          {
+            "name": "remoteViewSizeChanged:transaction:",
+            "flag": "method.SPCompletionListServiceViewController.remoteViewSizeChanged:transaction:",
+            "lang": "objc",
+            "addr": 4294996976
+          },
+          {
+            "name": "_windowDidBecomeKey:",
+            "flag": "method.SPCompletionListServiceViewController._windowDidBecomeKey:",
+            "lang": "objc",
+            "addr": 4294997332
+          },
+          {
+            "name": "_notifyHostAppOfUpdatedContentSize",
+            "flag": "method.SPCompletionListServiceViewController._notifyHostAppOfUpdatedContentSize",
+            "lang": "objc",
+            "addr": 4294997348
+          },
+          {
+            "name": "_notifyHostAppOfUpdatedPasswordAutoFillContentSize",
+            "flag": "method.SPCompletionListServiceViewController._notifyHostAppOfUpdatedPasswordAutoFillContentSize",
+            "lang": "objc",
+            "addr": 4294997392
+          },
+          {
+            "name": "_notifyHostAppOfUpdatedOneTimeCodeContentSize",
+            "flag": "method.SPCompletionListServiceViewController._notifyHostAppOfUpdatedOneTimeCodeContentSize",
+            "lang": "objc",
+            "addr": 4294997852
+          },
+          {
+            "name": "oneTimeCodes",
+            "flag": "method.SPCompletionListServiceViewController.oneTimeCodes",
+            "lang": "objc",
+            "addr": 4294998308
+          },
+          {
+            "name": "_oneTimeCodesIncludingApplePasswordsTOTPs:",
+            "flag": "method.SPCompletionListServiceViewController._oneTimeCodesIncludingApplePasswordsTOTPs:",
+            "lang": "objc",
+            "addr": 4294998404
+          },
+          {
+            "name": "setPartialUsername:inSecureTextField:isTextFieldEmpty:completionHandler:",
+            "flag": "method.SPCompletionListServiceViewController.setPartialUsername:inSecureTextField:isTextFieldEmpty:completionHandler:",
+            "lang": "objc",
+            "addr": 4294998736
+          },
+          {
+            "name": "setPartialUsername:inSecureTextField:isTextFieldEmpty:webViewURL:completionHandler:",
+            "flag": "method.SPCompletionListServiceViewController.setPartialUsername:inSecureTextField:isTextFieldEmpty:webViewURL:completionHandler:",
+            "lang": "objc",
+            "addr": 4294998756
+          },
+          {
+            "name": "didFocusCredentialField",
+            "flag": "method.SPCompletionListServiceViewController.didFocusCredentialField",
+            "lang": "objc",
+            "addr": 4295000344
+          },
+          {
+            "name": "_setUpForOneTimeCodesWithMode:",
+            "flag": "method.SPCompletionListServiceViewController._setUpForOneTimeCodesWithMode:",
+            "lang": "objc",
+            "addr": 4295000364
+          },
+          {
+            "name": "didFocusPossibleOneTimeCodeField",
+            "flag": "method.SPCompletionListServiceViewController.didFocusPossibleOneTimeCodeField",
+            "lang": "objc",
+            "addr": 4295000548
+          },
+          {
+            "name": "didFocusOtherTextField",
+            "flag": "method.SPCompletionListServiceViewController.didFocusOtherTextField",
+            "lang": "objc",
+            "addr": 4295000556
+          },
+          {
+            "name": "dismiss",
+            "flag": "method.SPCompletionListServiceViewController.dismiss",
+            "lang": "objc",
+            "addr": 4295000728
+          },
+          {
+            "name": "credentialProviderExtensionManagerExtensionListDidChange:",
+            "flag": "method.SPCompletionListServiceViewController.credentialProviderExtensionManagerExtensionListDidChange:",
+            "lang": "objc",
+            "addr": 4295000864
+          },
+          {
+            "name": "externalCredentialRequest:didFinishWithCredential:",
+            "flag": "method.SPCompletionListServiceViewController.externalCredentialRequest:didFinishWithCredential:",
+            "lang": "objc",
+            "addr": 4295002604
+          },
+          {
+            "name": "presentUIForExternalCredentialRequest:",
+            "flag": "method.SPCompletionListServiceViewController.presentUIForExternalCredentialRequest:",
+            "lang": "objc",
+            "addr": 4295002844
+          },
+          {
+            "name": "oneTimeCodeProviderReceivedCode:",
+            "flag": "method.SPCompletionListServiceViewController.oneTimeCodeProviderReceivedCode:",
+            "lang": "objc",
+            "addr": 4295003224
+          },
+          {
+            "name": "topContentConstraint",
+            "flag": "method.SPCompletionListServiceViewController.topContentConstraint",
+            "lang": "objc",
+            "addr": 4295003484
+          },
+          {
+            "name": "setTopContentConstraint:",
+            "flag": "method.SPCompletionListServiceViewController.setTopContentConstraint:",
+            "lang": "objc",
+            "addr": 4295003536
+          },
+          {
+            "name": "bottomContentConstraint",
+            "flag": "method.SPCompletionListServiceViewController.bottomContentConstraint",
+            "lang": "objc",
+            "addr": 4295003556
+          },
+          {
+            "name": "setBottomContentConstraint:",
+            "flag": "method.SPCompletionListServiceViewController.setBottomContentConstraint:",
+            "lang": "objc",
+            "addr": 4295003608
+          },
+          {
+            "name": "scrollView",
+            "flag": "method.SPCompletionListServiceViewController.scrollView",
+            "lang": "objc",
+            "addr": 4295003628
+          },
+          {
+            "name": "setScrollView:",
+            "flag": "method.SPCompletionListServiceViewController.setScrollView:",
+            "lang": "objc",
+            "addr": 4295003680
+          },
+          {
+            "name": "visualEffectView",
+            "flag": "method.SPCompletionListServiceViewController.visualEffectView",
+            "lang": "objc",
+            "addr": 4295003700
+          },
+          {
+            "name": "setVisualEffectView:",
+            "flag": "method.SPCompletionListServiceViewController.setVisualEffectView:",
+            "lang": "objc",
+            "addr": 4295003752
+          },
+          {
+            "name": "glassView",
+            "flag": "method.SPCompletionListServiceViewController.glassView",
+            "lang": "objc",
+            "addr": 4295003772
+          },
+          {
+            "name": "setGlassView:",
+            "flag": "method.SPCompletionListServiceViewController.setGlassView:",
+            "lang": "objc",
+            "addr": 4295003824
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.SPCompletionListServiceViewController..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295003844
+          },
+          {
+            "name": "operation:attemptedAuthenticationWithResult:",
+            "flag": "method.SPCompletionListServiceViewController.operation:attemptedAuthenticationWithResult:",
+            "lang": "objc",
+            "addr": 4295032760
+          },
+          {
+            "name": "didBeginFingerDownOnTouchIDSensorForOperation:",
+            "flag": "method.SPCompletionListServiceViewController.didBeginFingerDownOnTouchIDSensorForOperation:",
+            "lang": "objc",
+            "addr": 4295032772
+          },
+          {
+            "name": "operation:attemptedAuthenticationWithResult:",
+            "flag": "method.SPCompletionListServiceViewController.operation:attemptedAuthenticationWithResult:",
+            "lang": "objc",
+            "addr": 4295032760
+          },
+          {
+            "name": "didBeginFingerDownOnTouchIDSensorForOperation:",
+            "flag": "method.SPCompletionListServiceViewController.didBeginFingerDownOnTouchIDSensorForOperation:",
+            "lang": "objc",
+            "addr": 4295032772
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_tableView",
+            "kind": "var",
+            "type": "@\"MenuTableView\"",
+            "addr": 4295091428
+          },
+          {
+            "name": "_webViewURL",
+            "kind": "var",
+            "type": "@\"NSURL\"",
+            "addr": 4295091460
+          },
+          {
+            "name": "_partialUsername",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295091504
+          },
+          {
+            "name": "_allCredentials",
+            "kind": "var",
+            "type": "@\"NSArray\"",
+            "addr": 4295091496
+          },
+          {
+            "name": "_credentials",
+            "kind": "var",
+            "type": "@\"NSArray\"",
+            "addr": 4295091404
+          },
+          {
+            "name": "_credentialProviderExtensions",
+            "kind": "var",
+            "type": "@\"NSArray\"",
+            "addr": 4295091400
+          },
+          {
+            "name": "_externalCredentialFillingRequest",
+            "kind": "var",
+            "type": "@\"SPExternalCredentialFillingRequest\"",
+            "addr": 4295091476
+          },
+          {
+            "name": "_localAuthenticationManager",
+            "kind": "var",
+            "type": "@\"AutoFillLocalAuthenticationManager\"",
+            "addr": 4295091444
+          },
+          {
+            "name": "_currentLocalAuthenticationOperation",
+            "kind": "var",
+            "type": "@\"AutoFillLocalAuthenticationOperation\"",
+            "addr": 4295091480
+          },
+          {
+            "name": "_hasCompletedFirstTouchIDAvailabilityCheck",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295091448
+          },
+          {
+            "name": "_applicationIdentifier",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295091432
+          },
+          {
+            "name": "_initializationGroup",
+            "kind": "var",
+            "type": "@\"NSObject<OS_dispatch_group>\"",
+            "addr": 4295091452
+          },
+          {
+            "name": "_shouldSuppressBiometricLockoutSheet",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295091484
+          },
+          {
+            "name": "_tableViewNeedsReload",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295091500
+          },
+          {
+            "name": "_didUserExpandCompletionList",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295091440
+          },
+          {
+            "name": "_isShowingForSecureTextField",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295091488
+          },
+          {
+            "name": "_isTextFieldEmpty",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295091492
+          },
+          {
+            "name": "_mode",
+            "kind": "var",
+            "type": "q",
+            "addr": 4295091456
+          },
+          {
+            "name": "_oneTimeCodeProvider",
+            "kind": "var",
+            "type": "@\"SFAppAutoFillOneTimeCodeProvider\"",
+            "addr": 4295091472
+          },
+          {
+            "name": "_dateOfLastCredentialAutoFill",
+            "kind": "var",
+            "type": "@\"NSDate\"",
+            "addr": 4295091468
+          },
+          {
+            "name": "_usernameOfLastCredentialAutoFill",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295091464
+          },
+          {
+            "name": "_externalOneTimeCodeCredentials",
+            "kind": "var",
+            "type": "@\"NSArray\"",
+            "addr": 4295091436
+          },
+          {
+            "name": "_topContentConstraint",
+            "kind": "var",
+            "type": "@\"NSLayoutConstraint\"",
+            "addr": 4295091420
+          },
+          {
+            "name": "_bottomContentConstraint",
+            "kind": "var",
+            "type": "@\"NSLayoutConstraint\"",
+            "addr": 4295091424
+          },
+          {
+            "name": "_scrollView",
+            "kind": "var",
+            "type": "@\"NSScrollView\"",
+            "addr": 4295091408
+          },
+          {
+            "name": "_visualEffectView",
+            "kind": "var",
+            "type": "@\"NSVisualEffectView\"",
+            "addr": 4295091412
+          },
+          {
+            "name": "_glassView",
+            "kind": "var",
+            "type": "@\"NSGlassView\"",
+            "addr": 4295091416
+          },
+          {
+            "name": "topContentConstraint",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "bottomContentConstraint",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "scrollView",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "visualEffectView",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "glassView",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "SPExternalCredentialAuthenticationServiceViewController",
+        "addr": 4295092120,
+        "lang": "objc",
+        "index": 6,
+        "super": [
+          "NSServiceViewController"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSServiceViewController"
+        ],
+        "methods": [
+          {
+            "name": "exportedInterface",
+            "flag": "method.SPExternalCredentialAuthenticationServiceViewController.exportedInterface",
+            "lang": "objc",
+            "addr": 4295004264
+          },
+          {
+            "name": "remoteViewControllerInterface",
+            "flag": "method.SPExternalCredentialAuthenticationServiceViewController.remoteViewControllerInterface",
+            "lang": "objc",
+            "addr": 4295004284
+          },
+          {
+            "name": "loadView",
+            "flag": "method.SPExternalCredentialAuthenticationServiceViewController.loadView",
+            "lang": "objc",
+            "addr": 4295004532
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.SPExternalCredentialAuthenticationServiceViewController.dealloc",
+            "lang": "objc",
+            "addr": 4295004612
+          },
+          {
+            "name": "observeValueForKeyPath:ofObject:change:context:",
+            "flag": "method.SPExternalCredentialAuthenticationServiceViewController.observeValueForKeyPath:ofObject:change:context:",
+            "lang": "objc",
+            "addr": 4295004752
+          },
+          {
+            "name": "connectToExtensionWithIdentifier:completionHandler:",
+            "flag": "method.SPExternalCredentialAuthenticationServiceViewController.connectToExtensionWithIdentifier:completionHandler:",
+            "lang": "objc",
+            "addr": 4295004948
+          },
+          {
+            "name": "externalCredentialRequest:didFinishWithCredential:",
+            "flag": "func.100009714",
+            "lang": "objc",
+            "addr": 4295005972
+          },
+          {
+            "name": "presentUIForExternalCredentialRequest:",
+            "flag": "func.1000097d4",
+            "lang": "objc",
+            "addr": 4295006164
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.SPExternalCredentialAuthenticationServiceViewController..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295006168
+          },
+          {
+            "name": "externalCredentialRequest:didFinishWithCredential:",
+            "flag": "method.SPExternalCredentialAuthenticationServiceViewController.externalCredentialRequest:didFinishWithCredential:",
+            "lang": "objc",
+            "addr": 4295034408
+          },
+          {
+            "name": "presentUIForExternalCredentialRequest:",
+            "flag": "method.SPExternalCredentialAuthenticationServiceViewController.presentUIForExternalCredentialRequest:",
+            "lang": "objc",
+            "addr": 4295034420
+          },
+          {
+            "name": "registerExternalCredentialFillingRequest:",
+            "flag": "method.class.SPExternalCredentialAuthenticationServiceViewController.registerExternalCredentialFillingRequest:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295004304
+          },
+          {
+            "name": "externalCredentialRequest:didFinishWithCredential:",
+            "flag": "method.SPExternalCredentialAuthenticationServiceViewController.externalCredentialRequest:didFinishWithCredential:",
+            "lang": "objc",
+            "addr": 4295034408
+          },
+          {
+            "name": "presentUIForExternalCredentialRequest:",
+            "flag": "method.SPExternalCredentialAuthenticationServiceViewController.presentUIForExternalCredentialRequest:",
+            "lang": "objc",
+            "addr": 4295034420
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_request",
+            "kind": "var",
+            "type": "@\"SPExternalCredentialFillingRequest\"",
+            "addr": 4295091508
+          },
+          {
+            "name": "_extensionView",
+            "kind": "var",
+            "type": "@\"NSView\"",
+            "addr": 4295091516
+          },
+          {
+            "name": "_observingViewFrame",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295091512
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "SPExternalCredentialFillingRequest",
+        "addr": 4295092200,
+        "lang": "objc",
+        "index": 7,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithExternalCredential:extension:requiresBiometricAuthentication:applicationIdentifier:",
+            "flag": "method.SPExternalCredentialFillingRequest.initWithExternalCredential:extension:requiresBiometricAuthentication:applicationIdentifier:",
+            "lang": "objc",
+            "addr": 4295006252
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.SPExternalCredentialFillingRequest.dealloc",
+            "lang": "objc",
+            "addr": 4295006832
+          },
+          {
+            "name": "cancel",
+            "flag": "method.SPExternalCredentialFillingRequest.cancel",
+            "lang": "objc",
+            "addr": 4295006904
+          },
+          {
+            "name": "presentUIForPasswordCredentialAuthenticationViewController:",
+            "flag": "func.100009b38",
+            "lang": "objc",
+            "addr": 4295007032
+          },
+          {
+            "name": "credentialAuthenticationViewController:didFinishWithCredential:error:completion:",
+            "flag": "method.SPExternalCredentialFillingRequest.credentialAuthenticationViewController:didFinishWithCredential:error:completion:",
+            "lang": "objc",
+            "addr": 4295007104
+          },
+          {
+            "name": "credentialAuthenticationViewController:didFinishWithOneTimeCodeCredential:error:completion:",
+            "flag": "method.SPExternalCredentialFillingRequest.credentialAuthenticationViewController:didFinishWithOneTimeCodeCredential:error:completion:",
+            "lang": "objc",
+            "addr": 4295007656
+          },
+          {
+            "name": "delegate",
+            "flag": "method.SPExternalCredentialFillingRequest.delegate",
+            "lang": "objc",
+            "addr": 4295007924
+          },
+          {
+            "name": "setDelegate:",
+            "flag": "method.SPExternalCredentialFillingRequest.setDelegate:",
+            "lang": "objc",
+            "addr": 4295007968
+          },
+          {
+            "name": "identifier",
+            "flag": "method.SPExternalCredentialFillingRequest.identifier",
+            "lang": "objc",
+            "addr": 4295007980
+          },
+          {
+            "name": "viewController",
+            "flag": "method.SPExternalCredentialFillingRequest.viewController",
+            "lang": "objc",
+            "addr": 4295007988
+          },
+          {
+            "name": "setViewController:",
+            "flag": "method.SPExternalCredentialFillingRequest.setViewController:",
+            "lang": "objc",
+            "addr": 4295007996
+          },
+          {
+            "name": "finished",
+            "flag": "method.SPExternalCredentialFillingRequest.finished",
+            "lang": "objc",
+            "addr": 4295008008
+          },
+          {
+            "name": "credential",
+            "flag": "method.SPExternalCredentialFillingRequest.credential",
+            "lang": "objc",
+            "addr": 4295008016
+          },
+          {
+            "name": "requiresBiometricAuthentication",
+            "flag": "method.SPExternalCredentialFillingRequest.requiresBiometricAuthentication",
+            "lang": "objc",
+            "addr": 4295008024
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.SPExternalCredentialFillingRequest..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295008032
+          },
+          {
+            "name": "presentUIForPasswordCredentialAuthenticationViewController:",
+            "flag": "method.SPExternalCredentialFillingRequest.presentUIForPasswordCredentialAuthenticationViewController:",
+            "lang": "objc",
+            "addr": 4295034696
+          },
+          {
+            "name": "presentUIForPasswordCredentialAuthenticationViewController:",
+            "flag": "method.SPExternalCredentialFillingRequest.presentUIForPasswordCredentialAuthenticationViewController:",
+            "lang": "objc",
+            "addr": 4295034696
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_viewController",
+            "kind": "var",
+            "type": "@\"_ASCredentialAuthenticationViewController\"",
+            "addr": 4295091520
+          },
+          {
+            "name": "_conditionalRegistrationRequester",
+            "kind": "var",
+            "type": "@\"_ASConditionalRegistrationRequester\"",
+            "addr": 4295091524
+          },
+          {
+            "name": "_agentProxy",
+            "kind": "var",
+            "type": "@\"WBSAuthenticationServicesAgentProxy\"",
+            "addr": 4295091528
+          },
+          {
+            "name": "_clientBundleIdentifier",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295091532
+          },
+          {
+            "name": "_finished",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295091536
+          },
+          {
+            "name": "_requiresBiometricAuthentication",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295091540
+          },
+          {
+            "name": "_delegate",
+            "kind": "var",
+            "type": "@\"<SPExternalCredentialFillingRequestDelegate>\"",
+            "addr": 4295091544
+          },
+          {
+            "name": "_identifier",
+            "kind": "var",
+            "type": "@\"NSUUID\"",
+            "addr": 4295091548
+          },
+          {
+            "name": "_credential",
+            "kind": "var",
+            "type": "@\"SFSafariCredential\"",
+            "addr": 4295091552
+          },
+          {
+            "name": "delegate",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "identifier",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "viewController",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "finished",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "credential",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "requiresBiometricAuthentication",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "SPExternalCredentialListRequest",
+        "addr": 4295092240,
+        "lang": "objc",
+        "index": 8,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "extension",
+            "flag": "method.SPExternalCredentialListRequest.extension",
+            "lang": "objc",
+            "addr": 4295008156
+          },
+          {
+            "name": "setExtension:",
+            "flag": "method.SPExternalCredentialListRequest.setExtension:",
+            "lang": "objc",
+            "addr": 4295008164
+          },
+          {
+            "name": "applicationIdentifier",
+            "flag": "method.SPExternalCredentialListRequest.applicationIdentifier",
+            "lang": "objc",
+            "addr": 4295008176
+          },
+          {
+            "name": "setApplicationIdentifier:",
+            "flag": "method.SPExternalCredentialListRequest.setApplicationIdentifier:",
+            "lang": "objc",
+            "addr": 4295008184
+          },
+          {
+            "name": "webViewURL",
+            "flag": "method.SPExternalCredentialListRequest.webViewURL",
+            "lang": "objc",
+            "addr": 4295008196
+          },
+          {
+            "name": "setWebViewURL:",
+            "flag": "method.SPExternalCredentialListRequest.setWebViewURL:",
+            "lang": "objc",
+            "addr": 4295008204
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.SPExternalCredentialListRequest..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295008216
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_extension",
+            "kind": "var",
+            "type": "@\"NSExtension\"",
+            "addr": 4295091556
+          },
+          {
+            "name": "_applicationIdentifier",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295091560
+          },
+          {
+            "name": "_webViewURL",
+            "kind": "var",
+            "type": "@\"NSURL\"",
+            "addr": 4295091564
+          },
+          {
+            "name": "extension",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "applicationIdentifier",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "webViewURL",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "SPExternalCredentialListServiceViewController",
+        "addr": 4295092360,
+        "lang": "objc",
+        "index": 9,
+        "super": [
+          "NSServiceViewController"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSServiceViewController"
+        ],
+        "methods": [
+          {
+            "name": "exportedInterface",
+            "flag": "method.SPExternalCredentialListServiceViewController.exportedInterface",
+            "lang": "objc",
+            "addr": 4295008296
+          },
+          {
+            "name": "remoteViewControllerInterface",
+            "flag": "method.SPExternalCredentialListServiceViewController.remoteViewControllerInterface",
+            "lang": "objc",
+            "addr": 4295008316
+          },
+          {
+            "name": "loadView",
+            "flag": "method.SPExternalCredentialListServiceViewController.loadView",
+            "lang": "objc",
+            "addr": 4295008680
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.SPExternalCredentialListServiceViewController.dealloc",
+            "lang": "objc",
+            "addr": 4295008760
+          },
+          {
+            "name": "observeValueForKeyPath:ofObject:change:context:",
+            "flag": "method.SPExternalCredentialListServiceViewController.observeValueForKeyPath:ofObject:change:context:",
+            "lang": "objc",
+            "addr": 4295008908
+          },
+          {
+            "name": "connectToExtensionWithIdentifier:completionHandler:",
+            "flag": "method.SPExternalCredentialListServiceViewController.connectToExtensionWithIdentifier:completionHandler:",
+            "lang": "objc",
+            "addr": 4295009104
+          },
+          {
+            "name": "credentialListViewController:didFinishWithCredential:completion:",
+            "flag": "method.SPExternalCredentialListServiceViewController.credentialListViewController:didFinishWithCredential:completion:",
+            "lang": "objc",
+            "addr": 4295011728
+          },
+          {
+            "name": "credentialListViewControllerDidPrepareInterface:",
+            "flag": "method.SPExternalCredentialListServiceViewController.credentialListViewControllerDidPrepareInterface:",
+            "lang": "objc",
+            "addr": 4295012228
+          },
+          {
+            "name": "credentialListViewController:didFinishWithPasskeyAssertionCredential:completion:",
+            "flag": "method.SPExternalCredentialListServiceViewController.credentialListViewController:didFinishWithPasskeyAssertionCredential:completion:",
+            "lang": "objc",
+            "addr": 4295012332
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.SPExternalCredentialListServiceViewController..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295012912
+          },
+          {
+            "name": "requestIdentifierForExtension:applicationIdentifier:webViewURL:",
+            "flag": "method.class.SPExternalCredentialListServiceViewController.requestIdentifierForExtension:applicationIdentifier:webViewURL:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295008336
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_extensionViewController",
+            "kind": "var",
+            "type": "@\"_ASCredentialListViewController\"",
+            "addr": 4295091572
+          },
+          {
+            "name": "_extensionPreparedBlock",
+            "kind": "var",
+            "type": "@?",
+            "addr": 4295091576
+          },
+          {
+            "name": "_observingViewFrame",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295091568
+          },
+          {
+            "name": "_authenticationServicesAgentProxy",
+            "kind": "var",
+            "type": "@\"WBSAuthenticationServicesAgentProxy\"",
+            "addr": 4295091580
+          },
+          {
+            "name": "_requestingApplicationIdentifier",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295091584
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "SPOtherPasswordsServiceViewController",
+        "addr": 4295092400,
+        "lang": "objc",
+        "index": 10,
+        "super": [
+          "NSServiceViewController"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSServiceViewController"
+        ],
+        "methods": [
+          {
+            "name": "exportedInterface",
+            "flag": "method.SPOtherPasswordsServiceViewController.exportedInterface",
+            "lang": "objc",
+            "addr": 4295013036
+          },
+          {
+            "name": "remoteViewControllerInterface",
+            "flag": "method.SPOtherPasswordsServiceViewController.remoteViewControllerInterface",
+            "lang": "objc",
+            "addr": 4295013184
+          },
+          {
+            "name": "setWebViewURL:completionHandler:",
+            "flag": "func.10000b3d4",
+            "lang": "objc",
+            "addr": 4295013332
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.SPOtherPasswordsServiceViewController..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295016196
+          },
+          {
+            "name": "setWebViewURL:completionHandler:",
+            "flag": "method.SPOtherPasswordsServiceViewController.setWebViewURL:completionHandler:",
+            "lang": "objc",
+            "addr": 4295034512
+          },
+          {
+            "name": "setWebViewURL:completionHandler:",
+            "flag": "method.SPOtherPasswordsServiceViewController.setWebViewURL:completionHandler:",
+            "lang": "objc",
+            "addr": 4295034512
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_credentialPicker",
+            "kind": "var",
+            "type": "@\"AutoFillPasswordManagerUICredentialPicker\"",
+            "addr": 4295091592
+          },
+          {
+            "name": "_webViewURL",
+            "kind": "var",
+            "type": "@\"NSURL\"",
+            "addr": 4295091588
+          }
+        ]
+      },
+      {
+        "classname": "SPSystemAutoFillServiceViewController",
+        "addr": 4295092480,
+        "lang": "objc",
+        "index": 11,
+        "super": [
+          "NSServiceViewController"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSServiceViewController"
+        ],
+        "methods": [
+          {
+            "name": "exportedInterface",
+            "flag": "method.SPSystemAutoFillServiceViewController.exportedInterface",
+            "lang": "objc",
+            "addr": 4295016280
+          },
+          {
+            "name": "remoteViewControllerInterface",
+            "flag": "method.SPSystemAutoFillServiceViewController.remoteViewControllerInterface",
+            "lang": "objc",
+            "addr": 4295016428
+          },
+          {
+            "name": "_isClientEntitled",
+            "flag": "method.SPSystemAutoFillServiceViewController._isClientEntitled",
+            "lang": "objc",
+            "addr": 4295016576
+          },
+          {
+            "name": "loadView",
+            "flag": "method.SPSystemAutoFillServiceViewController.loadView",
+            "lang": "objc",
+            "addr": 4295016628
+          },
+          {
+            "name": "_processInitialClientParameters",
+            "flag": "method.SPSystemAutoFillServiceViewController._processInitialClientParameters",
+            "lang": "objc",
+            "addr": 4295017648
+          },
+          {
+            "name": "setExternallyVerifiedAndApprovedSharedWebCredentialsDomains:",
+            "flag": "method.SPSystemAutoFillServiceViewController.setExternallyVerifiedAndApprovedSharedWebCredentialsDomains:",
+            "lang": "objc",
+            "addr": 4295018708
+          },
+          {
+            "name": "setRemoteAppID:",
+            "flag": "method.SPSystemAutoFillServiceViewController.setRemoteAppID:",
+            "lang": "objc",
+            "addr": 4295018724
+          },
+          {
+            "name": "setRemoteLocalizedAppName:",
+            "flag": "method.SPSystemAutoFillServiceViewController.setRemoteLocalizedAppName:",
+            "lang": "objc",
+            "addr": 4295018740
+          },
+          {
+            "name": "setRemoteUnlocalizedAppName:",
+            "flag": "method.SPSystemAutoFillServiceViewController.setRemoteUnlocalizedAppName:",
+            "lang": "objc",
+            "addr": 4295018756
+          },
+          {
+            "name": "setAutoFillMode:",
+            "flag": "method.SPSystemAutoFillServiceViewController.setAutoFillMode:",
+            "lang": "objc",
+            "addr": 4295018772
+          },
+          {
+            "name": "setExplicitAutoFillMode:",
+            "flag": "method.SPSystemAutoFillServiceViewController.setExplicitAutoFillMode:",
+            "lang": "objc",
+            "addr": 4295018788
+          },
+          {
+            "name": "passwordsViewController:selectedAccount:",
+            "flag": "func.10000c934",
+            "lang": "objc",
+            "addr": 4295018804
+          },
+          {
+            "name": "passwordsViewController:fillUsername:",
+            "flag": "func.10000cb20",
+            "lang": "objc",
+            "addr": 4295019296
+          },
+          {
+            "name": "passwordsViewController:fillPassword:",
+            "flag": "func.10000cc00",
+            "lang": "objc",
+            "addr": 4295019520
+          },
+          {
+            "name": "passwordsViewController:fillVerificationCode:",
+            "flag": "func.10000cce0",
+            "lang": "objc",
+            "addr": 4295019744
+          },
+          {
+            "name": "passwordsViewControllerDidCancel:",
+            "flag": "func.10000cdc0",
+            "lang": "objc",
+            "addr": 4295019968
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.SPSystemAutoFillServiceViewController..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295019988
+          },
+          {
+            "name": "passwordsViewController:selectedAccount:",
+            "flag": "method.SPSystemAutoFillServiceViewController.passwordsViewController:selectedAccount:",
+            "lang": "objc",
+            "addr": 4295033968
+          },
+          {
+            "name": "passwordsViewController:fillUsername:",
+            "flag": "method.SPSystemAutoFillServiceViewController.passwordsViewController:fillUsername:",
+            "lang": "objc",
+            "addr": 4295033980
+          },
+          {
+            "name": "passwordsViewController:fillPassword:",
+            "flag": "method.SPSystemAutoFillServiceViewController.passwordsViewController:fillPassword:",
+            "lang": "objc",
+            "addr": 4295033992
+          },
+          {
+            "name": "passwordsViewController:fillVerificationCode:",
+            "flag": "method.SPSystemAutoFillServiceViewController.passwordsViewController:fillVerificationCode:",
+            "lang": "objc",
+            "addr": 4295034004
+          },
+          {
+            "name": "passwordsViewControllerDidCancel:",
+            "flag": "method.SPSystemAutoFillServiceViewController.passwordsViewControllerDidCancel:",
+            "lang": "objc",
+            "addr": 4295034016
+          },
+          {
+            "name": "passwordsViewController:selectedAccount:",
+            "flag": "method.SPSystemAutoFillServiceViewController.passwordsViewController:selectedAccount:",
+            "lang": "objc",
+            "addr": 4295033968
+          },
+          {
+            "name": "passwordsViewController:fillUsername:",
+            "flag": "method.SPSystemAutoFillServiceViewController.passwordsViewController:fillUsername:",
+            "lang": "objc",
+            "addr": 4295033980
+          },
+          {
+            "name": "passwordsViewController:fillPassword:",
+            "flag": "method.SPSystemAutoFillServiceViewController.passwordsViewController:fillPassword:",
+            "lang": "objc",
+            "addr": 4295033992
+          },
+          {
+            "name": "passwordsViewController:fillVerificationCode:",
+            "flag": "method.SPSystemAutoFillServiceViewController.passwordsViewController:fillVerificationCode:",
+            "lang": "objc",
+            "addr": 4295034004
+          },
+          {
+            "name": "passwordsViewControllerDidCancel:",
+            "flag": "method.SPSystemAutoFillServiceViewController.passwordsViewControllerDidCancel:",
+            "lang": "objc",
+            "addr": 4295034016
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_controller",
+            "kind": "var",
+            "type": "@\"PMMiniPasswordsViewController\"",
+            "addr": 4295091596
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "Safari::PasswordAutoFillStrings",
+        "addr": 0,
+        "lang": "c++",
+        "index": 12,
+        "methods": [
+          {
+            "name": "titleForSFSafariCredential(SFSafariCredential*)",
+            "flag": "method.Safari::PasswordAutoFillStrings.titleForSFSafariCredential_SFSafariCredential_",
+            "rawname": "_ZN6Safari23PasswordAutoFillStrings26titleForSFSafariCredentialEP18SFSafariCredential",
+            "lang": "c++",
+            "addr": 4295065648
+          },
+          {
+            "name": "originDescriptionForSFSafariCredential(SFSafariCredential*, NSString*, bool, bool)",
+            "flag": "method.Safari::PasswordAutoFillStrings.originDescriptionForSFSafariCredential_SFSafariCredential__NSString__bool__bool_",
+            "rawname": "_ZN6Safari23PasswordAutoFillStrings38originDescriptionForSFSafariCredentialEP18SFSafariCredentialP8NSStringbb",
+            "lang": "c++",
+            "addr": 4295065656
+          }
+        ]
+      }
+    ],
+    "swift_metadata": {
+      "is_swift": false,
+      "symbols": []
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Info.plist",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/version.plist",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/_CodeSignature/CodeResources",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/MacOS/com.apple.SafariPlatformSupport.Helper",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/ContactsAutoFillChoicesMenuItemView.nib",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/Assets.car",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/SPCompletionListServiceViewController.nib",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/SPOtherPasswordsServiceViewController.nib",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/de.lproj/HideMyEmailCreationAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/de.lproj/Localizable.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/de.lproj/InfoPlist.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/de.lproj/Localizable.stringsdict",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/de.lproj/HideMyEmailAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/he.lproj/HideMyEmailCreationAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/he.lproj/Localizable.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/he.lproj/InfoPlist.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/he.lproj/Localizable.stringsdict",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/he.lproj/HideMyEmailAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/en_AU.lproj/HideMyEmailCreationAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/en_AU.lproj/Localizable.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/en_AU.lproj/InfoPlist.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/en_AU.lproj/Localizable.stringsdict",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/en_AU.lproj/HideMyEmailAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/ar.lproj/HideMyEmailCreationAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/ar.lproj/Localizable.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/ar.lproj/InfoPlist.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/ar.lproj/Localizable.stringsdict",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/ar.lproj/HideMyEmailAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/el.lproj/HideMyEmailCreationAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/el.lproj/Localizable.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/el.lproj/InfoPlist.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/el.lproj/Localizable.stringsdict",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/el.lproj/HideMyEmailAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/ja.lproj/HideMyEmailCreationAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/ja.lproj/Localizable.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/ja.lproj/InfoPlist.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/ja.lproj/Localizable.stringsdict",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/ja.lproj/HideMyEmailAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/en.lproj/Localizable.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/en.lproj/InfoPlist.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/en.lproj/Localizable.stringsdict",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/uk.lproj/HideMyEmailCreationAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/uk.lproj/Localizable.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/uk.lproj/InfoPlist.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/uk.lproj/Localizable.stringsdict",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/uk.lproj/HideMyEmailAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/es_419.lproj/HideMyEmailCreationAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/es_419.lproj/Localizable.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/es_419.lproj/InfoPlist.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/es_419.lproj/Localizable.stringsdict",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/es_419.lproj/HideMyEmailAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/zh_CN.lproj/HideMyEmailCreationAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/zh_CN.lproj/Localizable.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/zh_CN.lproj/InfoPlist.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/zh_CN.lproj/Localizable.stringsdict",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/zh_CN.lproj/HideMyEmailAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/es.lproj/HideMyEmailCreationAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/es.lproj/Localizable.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/es.lproj/InfoPlist.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/es.lproj/Localizable.stringsdict",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/es.lproj/HideMyEmailAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/sl.lproj/HideMyEmailCreationAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/sl.lproj/Localizable.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/sl.lproj/InfoPlist.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/sl.lproj/Localizable.stringsdict",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/sl.lproj/HideMyEmailAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/da.lproj/HideMyEmailCreationAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/da.lproj/Localizable.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/da.lproj/InfoPlist.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/da.lproj/Localizable.stringsdict",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/da.lproj/HideMyEmailAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/it.lproj/HideMyEmailCreationAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/it.lproj/Localizable.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/it.lproj/InfoPlist.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/it.lproj/Localizable.stringsdict",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/it.lproj/HideMyEmailAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/sk.lproj/HideMyEmailCreationAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/sk.lproj/Localizable.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/sk.lproj/InfoPlist.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/sk.lproj/Localizable.stringsdict",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/sk.lproj/HideMyEmailAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/pt_PT.lproj/HideMyEmailCreationAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/pt_PT.lproj/Localizable.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/pt_PT.lproj/InfoPlist.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/pt_PT.lproj/Localizable.stringsdict",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/pt_PT.lproj/HideMyEmailAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/ms.lproj/HideMyEmailCreationAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/ms.lproj/Localizable.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/ms.lproj/InfoPlist.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/ms.lproj/Localizable.stringsdict",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/ms.lproj/HideMyEmailAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/sv.lproj/HideMyEmailCreationAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/sv.lproj/Localizable.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/sv.lproj/InfoPlist.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/sv.lproj/Localizable.stringsdict",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/sv.lproj/HideMyEmailAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/cs.lproj/HideMyEmailCreationAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/cs.lproj/Localizable.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/cs.lproj/InfoPlist.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/cs.lproj/Localizable.stringsdict",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/cs.lproj/HideMyEmailAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/ko.lproj/HideMyEmailCreationAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/ko.lproj/Localizable.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/ko.lproj/InfoPlist.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/ko.lproj/Localizable.stringsdict",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/ko.lproj/HideMyEmailAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/Base.lproj/HideMyEmailCreationAutoFillCellView.nib",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/Base.lproj/HideMyEmailAutoFillCellView.nib",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/no.lproj/HideMyEmailCreationAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/no.lproj/Localizable.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/no.lproj/InfoPlist.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/no.lproj/Localizable.stringsdict",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/no.lproj/HideMyEmailAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/hu.lproj/HideMyEmailCreationAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/hu.lproj/Localizable.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/hu.lproj/InfoPlist.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/hu.lproj/Localizable.stringsdict",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/hu.lproj/HideMyEmailAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/zh_HK.lproj/HideMyEmailCreationAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/zh_HK.lproj/Localizable.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/zh_HK.lproj/InfoPlist.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/zh_HK.lproj/Localizable.stringsdict",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/zh_HK.lproj/HideMyEmailAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/tr.lproj/HideMyEmailCreationAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/tr.lproj/Localizable.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/tr.lproj/InfoPlist.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/tr.lproj/Localizable.stringsdict",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/tr.lproj/HideMyEmailAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/pl.lproj/HideMyEmailCreationAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/pl.lproj/Localizable.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/pl.lproj/InfoPlist.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/pl.lproj/Localizable.stringsdict",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/pl.lproj/HideMyEmailAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/zh_TW.lproj/HideMyEmailCreationAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/zh_TW.lproj/Localizable.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/zh_TW.lproj/InfoPlist.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/zh_TW.lproj/Localizable.stringsdict",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/zh_TW.lproj/HideMyEmailAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/es_US.lproj/HideMyEmailCreationAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/es_US.lproj/Localizable.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/es_US.lproj/InfoPlist.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/es_US.lproj/Localizable.stringsdict",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/es_US.lproj/HideMyEmailAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/en_GB.lproj/HideMyEmailCreationAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/en_GB.lproj/Localizable.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/en_GB.lproj/InfoPlist.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/en_GB.lproj/Localizable.stringsdict",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/en_GB.lproj/HideMyEmailAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/vi.lproj/HideMyEmailCreationAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/vi.lproj/Localizable.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/vi.lproj/InfoPlist.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/vi.lproj/Localizable.stringsdict",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/vi.lproj/HideMyEmailAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/ru.lproj/HideMyEmailCreationAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/ru.lproj/Localizable.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/ru.lproj/InfoPlist.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/ru.lproj/Localizable.stringsdict",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/ru.lproj/HideMyEmailAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/fr_CA.lproj/HideMyEmailCreationAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/fr_CA.lproj/Localizable.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/fr_CA.lproj/InfoPlist.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/fr_CA.lproj/Localizable.stringsdict",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/fr_CA.lproj/HideMyEmailAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/fr.lproj/HideMyEmailCreationAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/fr.lproj/Localizable.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/fr.lproj/InfoPlist.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/fr.lproj/Localizable.stringsdict",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/fr.lproj/HideMyEmailAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/fi.lproj/HideMyEmailCreationAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/fi.lproj/Localizable.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/fi.lproj/InfoPlist.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/fi.lproj/Localizable.stringsdict",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/fi.lproj/HideMyEmailAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/id.lproj/HideMyEmailCreationAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/id.lproj/Localizable.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/id.lproj/InfoPlist.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/id.lproj/Localizable.stringsdict",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/id.lproj/HideMyEmailAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/nl.lproj/HideMyEmailCreationAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/nl.lproj/Localizable.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/nl.lproj/InfoPlist.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/nl.lproj/Localizable.stringsdict",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/nl.lproj/HideMyEmailAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/th.lproj/HideMyEmailCreationAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/th.lproj/Localizable.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/th.lproj/InfoPlist.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/th.lproj/Localizable.stringsdict",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/th.lproj/HideMyEmailAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/pt.lproj/HideMyEmailCreationAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/pt.lproj/Localizable.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/pt.lproj/InfoPlist.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/pt.lproj/Localizable.stringsdict",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/pt.lproj/HideMyEmailAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/ro.lproj/HideMyEmailCreationAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/ro.lproj/Localizable.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/ro.lproj/InfoPlist.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/ro.lproj/Localizable.stringsdict",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/ro.lproj/HideMyEmailAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/hr.lproj/HideMyEmailCreationAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/hr.lproj/Localizable.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/hr.lproj/InfoPlist.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/hr.lproj/Localizable.stringsdict",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/hr.lproj/HideMyEmailAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/hi.lproj/HideMyEmailCreationAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/hi.lproj/Localizable.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/hi.lproj/InfoPlist.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/hi.lproj/Localizable.stringsdict",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/hi.lproj/HideMyEmailAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/ca.lproj/HideMyEmailCreationAutoFillCellView.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/ca.lproj/Localizable.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/ca.lproj/InfoPlist.strings",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/ca.lproj/Localizable.stringsdict",
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Resources/ca.lproj/HideMyEmailAutoFillCellView.strings"
+      ],
+      "plists": {
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "SafariPlatformSupport",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2019-2025 Apple Inc. All rights reserved.",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B76",
+          "CFBundleDevelopmentRegion": "English",
+          "CFBundleVersion": "21622.2.11.11.9",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "FMWK",
+          "CFBundleShortVersionString": "21622",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "SafariPlatformSupport",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.SafariPlatformSupport.framework",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "25B76"
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "21622.2.11.11.9",
+          "CFBundleShortVersionString": "21622",
+          "ProjectName": "Safari",
+          "SourceVersion": "7622002011011009",
+          "BuildVersion": "1"
+        },
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/Info.plist": {
+          "CFBundleName": "com.apple.SafariPlatformSupport.Helper",
+          "CFBundleAllowMixedLocalizations": true,
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2019-2025 Apple Inc. All rights reserved.",
+          "DTSDKBuild": "25B76",
+          "CFBundleDevelopmentRegion": "English",
+          "CFBundleVersion": "21622.2.11.11.9",
+          "BuildMachineOSBuild": "23A344014",
+          "NSPrincipalClass": "NSViewServiceApplication",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "21622",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "XPCService": {
+            "RunLoopType": "_NSApplicationMain",
+            "JoinExistingSession": true,
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "com.apple.SafariPlatformSupport.Helper",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "_CFBundleUseAppleLocalizations": true,
+          "CFBundleIdentifier": "com.apple.SafariPlatformSupport.Helper",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleIcons": {
+            "ISGraphicIconConfiguration": {
+              "ISEnclosureColor": "gray",
+              "ISSymbolColor": "white",
+              "ISSymbolName": "key.fill"
+            }
+          },
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "25B76",
+          "ViewService": {
+            "WantsMasquerade": false
+          }
+        },
+        "Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/version.plist": {
+          "CFBundleVersion": "21622.2.11.11.9",
+          "CFBundleShortVersionString": "21622",
+          "ProjectName": "Safari",
+          "SourceVersion": "7622002011011009",
+          "BuildVersion": "1"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
+  },
+  "usage": {
+    "layer": "usage",
+    "used_by": []
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "loaded"
+  }
+}

@@ -1,0 +1,1698 @@
+{
+  "framework": "USDLib_FormatLoaderProxy.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/USDLib_FormatLoaderProxy.framework/Versions/A/XPCServices/USDLib_FormatLoader.xpc/Contents/MacOS/USDLib_FormatLoader",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 163536,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "objc",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libc++.1.dylib",
+          "/usr/lib/libSystem.B.dylib"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "XpcSandbox",
+        "addr": 0,
+        "lang": "c++",
+        "index": 0,
+        "methods": [
+          {
+            "name": "consumeExtension(char const*)",
+            "flag": "method.XpcSandbox.consumeExtension_char_const_",
+            "rawname": "__ZN10XpcSandbox16consumeExtensionEPKc",
+            "lang": "c++",
+            "addr": 4294989380
+          },
+          {
+            "name": "consume(char const*)",
+            "flag": "method.XpcSandbox.consume_char_const_",
+            "rawname": "__ZN10XpcSandbox7consumeEPKc",
+            "lang": "c++",
+            "addr": 4294989624
+          },
+          {
+            "name": "~XpcSandbox()",
+            "flag": "method.XpcSandbox._XpcSandbox__",
+            "rawname": "__ZN10XpcSandboxD2Ev",
+            "lang": "c++",
+            "addr": 4294989376
+          }
+        ]
+      },
+      {
+        "classname": "ObjConverter",
+        "addr": 0,
+        "lang": "c++",
+        "index": 1,
+        "methods": [
+          {
+            "name": "createMesh(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, ObjConverter::Group*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, serialize::Stage*)",
+            "flag": "method.ObjConverter.createMesh_std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const__ObjConverter::Group__std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const__serialize::Stage_",
+            "rawname": "__ZN12ObjConverter10createMeshERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPNS_5GroupES8_PN9serialize5StageE",
+            "lang": "c++",
+            "addr": 4295015332
+          },
+          {
+            "name": "setMaterial(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "flag": "method.ObjConverter.setMaterial_std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const_",
+            "rawname": "__ZN12ObjConverter11setMaterialERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE",
+            "lang": "c++",
+            "addr": 4295005908
+          },
+          {
+            "name": "updateMaterial(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "flag": "method.ObjConverter.updateMaterial_std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const_",
+            "rawname": "__ZN12ObjConverter14updateMaterialERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE",
+            "lang": "c++",
+            "addr": 4295006592
+          },
+          {
+            "name": "addMapToMaterial(serialize::MapInputName, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "flag": "method.ObjConverter.addMapToMaterial_serialize::MapInputName__std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const_",
+            "rawname": "__ZN12ObjConverter16addMapToMaterialEN9serialize12MapInputNameERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE",
+            "lang": "c++",
+            "addr": 4295012580
+          },
+          {
+            "name": "loadMaterialFile(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "flag": "method.ObjConverter.loadMaterialFile_std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const_",
+            "rawname": "__ZN12ObjConverter16loadMaterialFileERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE",
+            "lang": "c++",
+            "addr": 4295008756
+          },
+          {
+            "name": "addInputToMaterial(serialize::MapInputName, std::__1::basic_istringstream<char, std::__1::char_traits<char>, std::__1::allocator<char> >&)",
+            "flag": "method.ObjConverter.addInputToMaterial_serialize::MapInputName__std::__1::basic_istringstream_char__std::__1::char_traits_char___std::__1::allocator_char____",
+            "rawname": "__ZN12ObjConverter18addInputToMaterialEN9serialize12MapInputNameERNSt3__119basic_istringstreamIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE",
+            "lang": "c++",
+            "addr": 4295011780
+          },
+          {
+            "name": "getSerializeMaterial(int)",
+            "flag": "method.ObjConverter.getSerializeMaterial_int_",
+            "rawname": "__ZN12ObjConverter20getSerializeMaterialEi",
+            "lang": "c++",
+            "addr": 4295014804
+          },
+          {
+            "name": "checkLastSubMaterials()",
+            "flag": "method.ObjConverter.checkLastSubMaterials__",
+            "rawname": "__ZN12ObjConverter21checkLastSubMaterialsEv",
+            "lang": "c++",
+            "addr": 4295008632
+          },
+          {
+            "name": "addUV(std::__1::basic_istringstream<char, std::__1::char_traits<char>, std::__1::allocator<char> >&)",
+            "flag": "method.ObjConverter.addUV_std::__1::basic_istringstream_char__std::__1::char_traits_char___std::__1::allocator_char____",
+            "rawname": "__ZN12ObjConverter5addUVERNSt3__119basic_istringstreamIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE",
+            "lang": "c++",
+            "addr": 4295007212
+          },
+          {
+            "name": "addFace(std::__1::basic_istringstream<char, std::__1::char_traits<char>, std::__1::allocator<char> >&)",
+            "flag": "method.ObjConverter.addFace_std::__1::basic_istringstream_char__std::__1::char_traits_char___std::__1::allocator_char____",
+            "rawname": "__ZN12ObjConverter7addFaceERNSt3__119basic_istringstreamIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE",
+            "lang": "c++",
+            "addr": 4295007432
+          },
+          {
+            "name": "parseMtl(std::__1::basic_istream<char, std::__1::char_traits<char> >&)",
+            "flag": "method.ObjConverter.parseMtl_std::__1::basic_istream_char__std::__1::char_traits_char____",
+            "rawname": "__ZN12ObjConverter8parseMtlERNSt3__113basic_istreamIcNS0_11char_traitsIcEEEE",
+            "lang": "c++",
+            "addr": 4295010072
+          },
+          {
+            "name": "parseObj(std::__1::basic_istream<char, std::__1::char_traits<char> >&)",
+            "flag": "method.ObjConverter.parseObj_std::__1::basic_istream_char__std::__1::char_traits_char____",
+            "rawname": "__ZN12ObjConverter8parseObjERNSt3__113basic_istreamIcNS0_11char_traitsIcEEEE",
+            "lang": "c++",
+            "addr": 4295004252
+          },
+          {
+            "name": "setGroup(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "flag": "method.ObjConverter.setGroup_std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const_",
+            "rawname": "__ZN12ObjConverter8setGroupERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE",
+            "lang": "c++",
+            "addr": 4295003924
+          },
+          {
+            "name": "addNormal(std::__1::basic_istringstream<char, std::__1::char_traits<char>, std::__1::allocator<char> >&)",
+            "flag": "method.ObjConverter.addNormal_std::__1::basic_istringstream_char__std::__1::char_traits_char___std::__1::allocator_char____",
+            "rawname": "__ZN12ObjConverter9addNormalERNSt3__119basic_istringstreamIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE",
+            "lang": "c++",
+            "addr": 4295007328
+          },
+          {
+            "name": "addVertex(std::__1::basic_istringstream<char, std::__1::char_traits<char>, std::__1::allocator<char> >&)",
+            "flag": "method.ObjConverter.addVertex_std::__1::basic_istringstream_char__std::__1::char_traits_char___std::__1::allocator_char____",
+            "rawname": "__ZN12ObjConverter9addVertexERNSt3__119basic_istringstreamIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE",
+            "lang": "c++",
+            "addr": 4295006988
+          },
+          {
+            "name": "makeStage()",
+            "flag": "method.ObjConverter.makeStage__",
+            "rawname": "__ZN12ObjConverter9makeStageEv",
+            "lang": "c++",
+            "addr": 4295017880
+          },
+          {
+            "name": "ObjConverter(std::__1::basic_istream<char, std::__1::char_traits<char> >&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, XpcSandbox*)",
+            "flag": "func.100009530",
+            "rawname": "__ZN12ObjConverterC1ERNSt3__113basic_istreamIcNS0_11char_traitsIcEEEERKNS0_12basic_stringIcS3_NS0_9allocatorIcEEEESB_P10XpcSandbox",
+            "lang": "c++",
+            "addr": 4295005488
+          },
+          {
+            "name": "ObjConverter(std::__1::basic_istream<char, std::__1::char_traits<char> >&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, XpcSandbox*)",
+            "flag": "method.ObjConverter.ObjConverter_std::__1::basic_istream_char__std::__1::char_traits_char_____std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const__std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const__XpcSandbox_",
+            "rawname": "__ZN12ObjConverterC2ERNSt3__113basic_istreamIcNS0_11char_traitsIcEEEERKNS0_12basic_stringIcS3_NS0_9allocatorIcEEEESB_P10XpcSandbox",
+            "lang": "c++",
+            "addr": 4295003276
+          },
+          {
+            "name": "~ObjConverter()",
+            "flag": "method.ObjConverter._ObjConverter__",
+            "rawname": "__ZN12ObjConverterD2Ev",
+            "lang": "c++",
+            "addr": 4295005868
+          },
+          {
+            "name": "createMesh(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, ObjConverter::Group*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, serialize::Stage*)",
+            "flag": "method.ObjConverter.createMesh_std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const__ObjConverter::Group__std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const__serialize::Stage_",
+            "rawname": "__ZN12ObjConverter10createMeshERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPNS_5GroupES8_PN9serialize5StageE",
+            "lang": "c++",
+            "addr": 4295015332
+          },
+          {
+            "name": "createMesh(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, ObjConverter::Group*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, serialize::Stage*)",
+            "flag": "method.ObjConverter.createMesh_std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const__ObjConverter::Group__std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const__serialize::Stage_",
+            "rawname": "__ZN12ObjConverter10createMeshERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPNS_5GroupES8_PN9serialize5StageE",
+            "lang": "c++",
+            "addr": 4295015332
+          },
+          {
+            "name": "addMapToMaterial(serialize::MapInputName, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "flag": "method.ObjConverter.addMapToMaterial_serialize::MapInputName__std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const_",
+            "rawname": "__ZN12ObjConverter16addMapToMaterialEN9serialize12MapInputNameERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE",
+            "lang": "c++",
+            "addr": 4295012580
+          },
+          {
+            "name": "addMapToMaterial(serialize::MapInputName, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "flag": "method.ObjConverter.addMapToMaterial_serialize::MapInputName__std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const_",
+            "rawname": "__ZN12ObjConverter16addMapToMaterialEN9serialize12MapInputNameERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE",
+            "lang": "c++",
+            "addr": 4295012580
+          },
+          {
+            "name": "addInputToMaterial(serialize::MapInputName, std::__1::basic_istringstream<char, std::__1::char_traits<char>, std::__1::allocator<char> >&)",
+            "flag": "method.ObjConverter.addInputToMaterial_serialize::MapInputName__std::__1::basic_istringstream_char__std::__1::char_traits_char___std::__1::allocator_char____",
+            "rawname": "__ZN12ObjConverter18addInputToMaterialEN9serialize12MapInputNameERNSt3__119basic_istringstreamIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE",
+            "lang": "c++",
+            "addr": 4295011780
+          },
+          {
+            "name": "addInputToMaterial(serialize::MapInputName, std::__1::basic_istringstream<char, std::__1::char_traits<char>, std::__1::allocator<char> >&)",
+            "flag": "method.ObjConverter.addInputToMaterial_serialize::MapInputName__std::__1::basic_istringstream_char__std::__1::char_traits_char___std::__1::allocator_char____",
+            "rawname": "__ZN12ObjConverter18addInputToMaterialEN9serialize12MapInputNameERNSt3__119basic_istringstreamIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE",
+            "lang": "c++",
+            "addr": 4295011780
+          },
+          {
+            "name": "ObjConverter(std::__1::basic_istream<char, std::__1::char_traits<char> >&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, XpcSandbox*)",
+            "flag": "func.100009530",
+            "rawname": "__ZN12ObjConverterC1ERNSt3__113basic_istreamIcNS0_11char_traitsIcEEEERKNS0_12basic_stringIcS3_NS0_9allocatorIcEEEESB_P10XpcSandbox",
+            "lang": "c++",
+            "addr": 4295005488
+          },
+          {
+            "name": "ObjConverter(std::__1::basic_istream<char, std::__1::char_traits<char> >&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, XpcSandbox*)",
+            "flag": "func.100009530",
+            "rawname": "__ZN12ObjConverterC1ERNSt3__113basic_istreamIcNS0_11char_traitsIcEEEERKNS0_12basic_stringIcS3_NS0_9allocatorIcEEEESB_P10XpcSandbox",
+            "lang": "c++",
+            "addr": 4295005488
+          },
+          {
+            "name": "ObjConverter(std::__1::basic_istream<char, std::__1::char_traits<char> >&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, XpcSandbox*)",
+            "flag": "method.ObjConverter.ObjConverter_std::__1::basic_istream_char__std::__1::char_traits_char_____std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const__std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const__XpcSandbox_",
+            "rawname": "__ZN12ObjConverterC2ERNSt3__113basic_istreamIcNS0_11char_traitsIcEEEERKNS0_12basic_stringIcS3_NS0_9allocatorIcEEEESB_P10XpcSandbox",
+            "lang": "c++",
+            "addr": 4295003276
+          },
+          {
+            "name": "ObjConverter(std::__1::basic_istream<char, std::__1::char_traits<char> >&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, XpcSandbox*)",
+            "flag": "method.ObjConverter.ObjConverter_std::__1::basic_istream_char__std::__1::char_traits_char_____std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const__std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const__XpcSandbox_",
+            "rawname": "__ZN12ObjConverterC2ERNSt3__113basic_istreamIcNS0_11char_traitsIcEEEERKNS0_12basic_stringIcS3_NS0_9allocatorIcEEEESB_P10XpcSandbox",
+            "lang": "c++",
+            "addr": 4295003276
+          }
+        ]
+      },
+      {
+        "classname": "ObjConverter::Group",
+        "addr": 0,
+        "lang": "c++",
+        "index": 2,
+        "methods": [
+          {
+            "name": "setMaterial(int)",
+            "flag": "method.ObjConverter::Group.setMaterial_int_",
+            "rawname": "__ZN12ObjConverter5Group11setMaterialEi",
+            "lang": "c++",
+            "addr": 4295002900
+          },
+          {
+            "name": "appendIndices(int, int, int)",
+            "flag": "method.ObjConverter::Group.appendIndices_int__int__int_",
+            "rawname": "__ZN12ObjConverter5Group13appendIndicesEiii",
+            "lang": "c++",
+            "addr": 4295003192
+          },
+          {
+            "name": "removeLastSubMaterialIfEmpty()",
+            "flag": "method.ObjConverter::Group.removeLastSubMaterialIfEmpty__",
+            "rawname": "__ZN12ObjConverter5Group28removeLastSubMaterialIfEmptyEv",
+            "lang": "c++",
+            "addr": 4295002804
+          }
+        ]
+      },
+      {
+        "classname": "PlyConverter",
+        "addr": 0,
+        "lang": "c++",
+        "index": 3,
+        "methods": [
+          {
+            "name": "parsePlyHeader(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&, std::__1::basic_istream<char, std::__1::char_traits<char> >&)",
+            "flag": "method.PlyConverter.parsePlyHeader_std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char_____std::__1::basic_istream_char__std::__1::char_traits_char____",
+            "rawname": "__ZN12PlyConverter14parsePlyHeaderERNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEERNS0_13basic_istreamIcS3_EE",
+            "lang": "c++",
+            "addr": 4294972204
+          },
+          {
+            "name": "skipUnknownProperty(PlyConverter::Property const&, std::__1::basic_istream<char, std::__1::char_traits<char> >&, std::__1::function<float (std::__1::basic_istream<char, std::__1::char_traits<char> >&, PlyConverter::Type)>)",
+            "flag": "method.PlyConverter.skipUnknownProperty_PlyConverter::Property_const__std::__1::basic_istream_char__std::__1::char_traits_char_____std::__1::function_float__std::__1::basic_istream_char__std::__1::char_traits_char_____PlyConverter::Type___",
+            "rawname": "__ZN12PlyConverter19skipUnknownPropertyERKNS_8PropertyERNSt3__113basic_istreamIcNS3_11char_traitsIcEEEENS3_8functionIFfS8_NS_4TypeEEEE",
+            "lang": "c++",
+            "addr": 4294977416
+          },
+          {
+            "name": "parsePly(std::__1::basic_istream<char, std::__1::char_traits<char> >&)",
+            "flag": "method.PlyConverter.parsePly_std::__1::basic_istream_char__std::__1::char_traits_char____",
+            "rawname": "__ZN12PlyConverter8parsePlyERNSt3__113basic_istreamIcNS0_11char_traitsIcEEEE",
+            "lang": "c++",
+            "addr": 4294969468
+          },
+          {
+            "name": "makeStage()",
+            "flag": "method.PlyConverter.makeStage__",
+            "rawname": "__ZN12PlyConverter9makeStageEv",
+            "lang": "c++",
+            "addr": 4294982348
+          },
+          {
+            "name": "PlyConverter(std::__1::basic_istream<char, std::__1::char_traits<char> >&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "flag": "func.100001328",
+            "rawname": "__ZN12PlyConverterC1ERNSt3__113basic_istreamIcNS0_11char_traitsIcEEEERKNS0_12basic_stringIcS3_NS0_9allocatorIcEEEE",
+            "lang": "c++",
+            "addr": 4294972200
+          },
+          {
+            "name": "PlyConverter(std::__1::basic_istream<char, std::__1::char_traits<char> >&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "flag": "method.PlyConverter.PlyConverter_std::__1::basic_istream_char__std::__1::char_traits_char_____std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const_",
+            "rawname": "__ZN12PlyConverterC2ERNSt3__113basic_istreamIcNS0_11char_traitsIcEEEERKNS0_12basic_stringIcS3_NS0_9allocatorIcEEEE",
+            "lang": "c++",
+            "addr": 4294969192
+          },
+          {
+            "name": "createMesh(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, serialize::Stage*) const",
+            "flag": "method.PlyConverter.createMesh_std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const__std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const__serialize::Stage__const",
+            "rawname": "__ZNK12PlyConverter10createMeshERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEES8_PN9serialize5StageE",
+            "lang": "c++",
+            "addr": 4294981288
+          },
+          {
+            "name": "createPointCloud(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, serialize::Stage*) const",
+            "flag": "method.PlyConverter.createPointCloud_std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const__std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const__serialize::Stage__const",
+            "rawname": "__ZNK12PlyConverter16createPointCloudERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEES8_PN9serialize5StageE",
+            "lang": "c++",
+            "addr": 4294980236
+          },
+          {
+            "name": "parsePlyHeader(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&, std::__1::basic_istream<char, std::__1::char_traits<char> >&)",
+            "flag": "method.PlyConverter.parsePlyHeader_std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char_____std::__1::basic_istream_char__std::__1::char_traits_char____",
+            "rawname": "__ZN12PlyConverter14parsePlyHeaderERNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEERNS0_13basic_istreamIcS3_EE",
+            "lang": "c++",
+            "addr": 4294972204
+          },
+          {
+            "name": "parsePlyHeader(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&, std::__1::basic_istream<char, std::__1::char_traits<char> >&)",
+            "flag": "method.PlyConverter.parsePlyHeader_std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char_____std::__1::basic_istream_char__std::__1::char_traits_char____",
+            "rawname": "__ZN12PlyConverter14parsePlyHeaderERNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEERNS0_13basic_istreamIcS3_EE",
+            "lang": "c++",
+            "addr": 4294972204
+          },
+          {
+            "name": "skipUnknownProperty(PlyConverter::Property const&, std::__1::basic_istream<char, std::__1::char_traits<char> >&, std::__1::function<float (std::__1::basic_istream<char, std::__1::char_traits<char> >&, PlyConverter::Type)>)",
+            "flag": "method.PlyConverter.skipUnknownProperty_PlyConverter::Property_const__std::__1::basic_istream_char__std::__1::char_traits_char_____std::__1::function_float__std::__1::basic_istream_char__std::__1::char_traits_char_____PlyConverter::Type___",
+            "rawname": "__ZN12PlyConverter19skipUnknownPropertyERKNS_8PropertyERNSt3__113basic_istreamIcNS3_11char_traitsIcEEEENS3_8functionIFfS8_NS_4TypeEEEE",
+            "lang": "c++",
+            "addr": 4294977416
+          },
+          {
+            "name": "skipUnknownProperty(PlyConverter::Property const&, std::__1::basic_istream<char, std::__1::char_traits<char> >&, std::__1::function<float (std::__1::basic_istream<char, std::__1::char_traits<char> >&, PlyConverter::Type)>)",
+            "flag": "method.PlyConverter.skipUnknownProperty_PlyConverter::Property_const__std::__1::basic_istream_char__std::__1::char_traits_char_____std::__1::function_float__std::__1::basic_istream_char__std::__1::char_traits_char_____PlyConverter::Type___",
+            "rawname": "__ZN12PlyConverter19skipUnknownPropertyERKNS_8PropertyERNSt3__113basic_istreamIcNS3_11char_traitsIcEEEENS3_8functionIFfS8_NS_4TypeEEEE",
+            "lang": "c++",
+            "addr": 4294977416
+          },
+          {
+            "name": "PlyConverter(std::__1::basic_istream<char, std::__1::char_traits<char> >&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "flag": "func.100001328",
+            "rawname": "__ZN12PlyConverterC1ERNSt3__113basic_istreamIcNS0_11char_traitsIcEEEERKNS0_12basic_stringIcS3_NS0_9allocatorIcEEEE",
+            "lang": "c++",
+            "addr": 4294972200
+          },
+          {
+            "name": "PlyConverter(std::__1::basic_istream<char, std::__1::char_traits<char> >&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "flag": "func.100001328",
+            "rawname": "__ZN12PlyConverterC1ERNSt3__113basic_istreamIcNS0_11char_traitsIcEEEERKNS0_12basic_stringIcS3_NS0_9allocatorIcEEEE",
+            "lang": "c++",
+            "addr": 4294972200
+          },
+          {
+            "name": "PlyConverter(std::__1::basic_istream<char, std::__1::char_traits<char> >&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "flag": "method.PlyConverter.PlyConverter_std::__1::basic_istream_char__std::__1::char_traits_char_____std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const_",
+            "rawname": "__ZN12PlyConverterC2ERNSt3__113basic_istreamIcNS0_11char_traitsIcEEEERKNS0_12basic_stringIcS3_NS0_9allocatorIcEEEE",
+            "lang": "c++",
+            "addr": 4294969192
+          },
+          {
+            "name": "PlyConverter(std::__1::basic_istream<char, std::__1::char_traits<char> >&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "flag": "method.PlyConverter.PlyConverter_std::__1::basic_istream_char__std::__1::char_traits_char_____std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const_",
+            "rawname": "__ZN12PlyConverterC2ERNSt3__113basic_istreamIcNS0_11char_traitsIcEEEERKNS0_12basic_stringIcS3_NS0_9allocatorIcEEEE",
+            "lang": "c++",
+            "addr": 4294969192
+          },
+          {
+            "name": "createMesh(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, serialize::Stage*) const",
+            "flag": "method.PlyConverter.createMesh_std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const__std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const__serialize::Stage__const",
+            "rawname": "__ZNK12PlyConverter10createMeshERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEES8_PN9serialize5StageE",
+            "lang": "c++",
+            "addr": 4294981288
+          },
+          {
+            "name": "createMesh(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, serialize::Stage*) const",
+            "flag": "method.PlyConverter.createMesh_std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const__std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const__serialize::Stage__const",
+            "rawname": "__ZNK12PlyConverter10createMeshERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEES8_PN9serialize5StageE",
+            "lang": "c++",
+            "addr": 4294981288
+          },
+          {
+            "name": "createPointCloud(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, serialize::Stage*) const",
+            "flag": "method.PlyConverter.createPointCloud_std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const__std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const__serialize::Stage__const",
+            "rawname": "__ZNK12PlyConverter16createPointCloudERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEES8_PN9serialize5StageE",
+            "lang": "c++",
+            "addr": 4294980236
+          },
+          {
+            "name": "createPointCloud(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, serialize::Stage*) const",
+            "flag": "method.PlyConverter.createPointCloud_std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const__std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const__serialize::Stage__const",
+            "rawname": "__ZNK12PlyConverter16createPointCloudERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEES8_PN9serialize5StageE",
+            "lang": "c++",
+            "addr": 4294980236
+          }
+        ]
+      },
+      {
+        "classname": "StlConverter",
+        "addr": 0,
+        "lang": "c++",
+        "index": 4,
+        "methods": [
+          {
+            "name": "parseStlAscii(std::__1::basic_istream<char, std::__1::char_traits<char> >&)",
+            "flag": "method.StlConverter.parseStlAscii_std::__1::basic_istream_char__std::__1::char_traits_char____",
+            "rawname": "__ZN12StlConverter13parseStlAsciiERNSt3__113basic_istreamIcNS0_11char_traitsIcEEEE",
+            "lang": "c++",
+            "addr": 4294998656
+          },
+          {
+            "name": "parseStlBinary(std::__1::basic_istream<char, std::__1::char_traits<char> >&)",
+            "flag": "method.StlConverter.parseStlBinary_std::__1::basic_istream_char__std::__1::char_traits_char____",
+            "rawname": "__ZN12StlConverter14parseStlBinaryERNSt3__113basic_istreamIcNS0_11char_traitsIcEEEE",
+            "lang": "c++",
+            "addr": 4294999924
+          },
+          {
+            "name": "addSolid(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "flag": "method.StlConverter.addSolid_std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const_",
+            "rawname": "__ZN12StlConverter8addSolidERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE",
+            "lang": "c++",
+            "addr": 4294997356
+          },
+          {
+            "name": "parseStl(std::__1::basic_istream<char, std::__1::char_traits<char> >&)",
+            "flag": "method.StlConverter.parseStl_std::__1::basic_istream_char__std::__1::char_traits_char____",
+            "rawname": "__ZN12StlConverter8parseStlERNSt3__113basic_istreamIcNS0_11char_traitsIcEEEE",
+            "lang": "c++",
+            "addr": 4294996384
+          },
+          {
+            "name": "addNormal(std::__1::basic_istringstream<char, std::__1::char_traits<char>, std::__1::allocator<char> >&)",
+            "flag": "method.StlConverter.addNormal_std::__1::basic_istringstream_char__std::__1::char_traits_char___std::__1::allocator_char____",
+            "rawname": "__ZN12StlConverter9addNormalERNSt3__119basic_istringstreamIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE",
+            "lang": "c++",
+            "addr": 4294998220
+          },
+          {
+            "name": "addVertex(std::__1::basic_istringstream<char, std::__1::char_traits<char>, std::__1::allocator<char> >&)",
+            "flag": "method.StlConverter.addVertex_std::__1::basic_istringstream_char__std::__1::char_traits_char___std::__1::allocator_char____",
+            "rawname": "__ZN12StlConverter9addVertexERNSt3__119basic_istringstreamIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE",
+            "lang": "c++",
+            "addr": 4294998504
+          },
+          {
+            "name": "makeStage()",
+            "flag": "method.StlConverter.makeStage__",
+            "rawname": "__ZN12StlConverter9makeStageEv",
+            "lang": "c++",
+            "addr": 4295001476
+          },
+          {
+            "name": "StlConverter(std::__1::basic_istream<char, std::__1::char_traits<char> >&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "flag": "func.10000726c",
+            "rawname": "__ZN12StlConverterC1ERNSt3__113basic_istreamIcNS0_11char_traitsIcEEEERKNS0_12basic_stringIcS3_NS0_9allocatorIcEEEE",
+            "lang": "c++",
+            "addr": 4294996588
+          },
+          {
+            "name": "StlConverter(std::__1::basic_istream<char, std::__1::char_traits<char> >&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "flag": "method.StlConverter.StlConverter_std::__1::basic_istream_char__std::__1::char_traits_char_____std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const_",
+            "rawname": "__ZN12StlConverterC2ERNSt3__113basic_istreamIcNS0_11char_traitsIcEEEERKNS0_12basic_stringIcS3_NS0_9allocatorIcEEEE",
+            "lang": "c++",
+            "addr": 4294996188
+          },
+          {
+            "name": "~StlConverter()",
+            "flag": "method.StlConverter._StlConverter__",
+            "rawname": "__ZN12StlConverterD2Ev",
+            "lang": "c++",
+            "addr": 4294996800
+          },
+          {
+            "name": "createMesh(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, StlConverter::Solid const*, serialize::Mat*, serialize::Stage*) const",
+            "flag": "method.StlConverter.createMesh_std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const__StlConverter::Solid_const__serialize::Mat__serialize::Stage__const",
+            "rawname": "__ZNK12StlConverter10createMeshERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPKNS_5SolidEPN9serialize3MatEPNSC_5StageE",
+            "lang": "c++",
+            "addr": 4295000416
+          },
+          {
+            "name": "isBinary(std::__1::basic_istream<char, std::__1::char_traits<char> >&) const",
+            "flag": "method.StlConverter.isBinary_std::__1::basic_istream_char__std::__1::char_traits_char_____const",
+            "rawname": "__ZNK12StlConverter8isBinaryERNSt3__113basic_istreamIcNS0_11char_traitsIcEEEE",
+            "lang": "c++",
+            "addr": 4294996840
+          },
+          {
+            "name": "StlConverter(std::__1::basic_istream<char, std::__1::char_traits<char> >&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "flag": "func.10000726c",
+            "rawname": "__ZN12StlConverterC1ERNSt3__113basic_istreamIcNS0_11char_traitsIcEEEERKNS0_12basic_stringIcS3_NS0_9allocatorIcEEEE",
+            "lang": "c++",
+            "addr": 4294996588
+          },
+          {
+            "name": "StlConverter(std::__1::basic_istream<char, std::__1::char_traits<char> >&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "flag": "func.10000726c",
+            "rawname": "__ZN12StlConverterC1ERNSt3__113basic_istreamIcNS0_11char_traitsIcEEEERKNS0_12basic_stringIcS3_NS0_9allocatorIcEEEE",
+            "lang": "c++",
+            "addr": 4294996588
+          },
+          {
+            "name": "StlConverter(std::__1::basic_istream<char, std::__1::char_traits<char> >&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "flag": "method.StlConverter.StlConverter_std::__1::basic_istream_char__std::__1::char_traits_char_____std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const_",
+            "rawname": "__ZN12StlConverterC2ERNSt3__113basic_istreamIcNS0_11char_traitsIcEEEERKNS0_12basic_stringIcS3_NS0_9allocatorIcEEEE",
+            "lang": "c++",
+            "addr": 4294996188
+          },
+          {
+            "name": "StlConverter(std::__1::basic_istream<char, std::__1::char_traits<char> >&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "flag": "method.StlConverter.StlConverter_std::__1::basic_istream_char__std::__1::char_traits_char_____std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const_",
+            "rawname": "__ZN12StlConverterC2ERNSt3__113basic_istreamIcNS0_11char_traitsIcEEEERKNS0_12basic_stringIcS3_NS0_9allocatorIcEEEE",
+            "lang": "c++",
+            "addr": 4294996188
+          },
+          {
+            "name": "createMesh(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, StlConverter::Solid const*, serialize::Mat*, serialize::Stage*) const",
+            "flag": "method.StlConverter.createMesh_std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const__StlConverter::Solid_const__serialize::Mat__serialize::Stage__const",
+            "rawname": "__ZNK12StlConverter10createMeshERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPKNS_5SolidEPN9serialize3MatEPNSC_5StageE",
+            "lang": "c++",
+            "addr": 4295000416
+          },
+          {
+            "name": "createMesh(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, StlConverter::Solid const*, serialize::Mat*, serialize::Stage*) const",
+            "flag": "method.StlConverter.createMesh_std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const__StlConverter::Solid_const__serialize::Mat__serialize::Stage__const",
+            "rawname": "__ZNK12StlConverter10createMeshERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPKNS_5SolidEPN9serialize3MatEPNSC_5StageE",
+            "lang": "c++",
+            "addr": 4295000416
+          }
+        ]
+      },
+      {
+        "classname": "fileFormatUtils",
+        "addr": 0,
+        "lang": "c++",
+        "index": 5,
+        "methods": [
+          {
+            "name": "fixExponent(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&)",
+            "flag": "method.fileFormatUtils.fixExponent_std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____",
+            "rawname": "__ZN15fileFormatUtils11fixExponentERNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE",
+            "lang": "c++",
+            "addr": 4295027528
+          },
+          {
+            "name": "makeValidIdentifier(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "flag": "method.fileFormatUtils.makeValidIdentifier_std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const_",
+            "rawname": "__ZN15fileFormatUtils19makeValidIdentifierERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE",
+            "lang": "c++",
+            "addr": 4295027124
+          },
+          {
+            "name": "getFloat(std::__1::basic_istringstream<char, std::__1::char_traits<char>, std::__1::allocator<char> >&)",
+            "flag": "method.fileFormatUtils.getFloat_std::__1::basic_istringstream_char__std::__1::char_traits_char___std::__1::allocator_char____",
+            "rawname": "__ZN15fileFormatUtils8getFloatERNSt3__119basic_istringstreamIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE",
+            "lang": "c++",
+            "addr": 4295028756
+          },
+          {
+            "name": "makeValidIdentifier(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "flag": "method.fileFormatUtils.makeValidIdentifier_std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const_",
+            "rawname": "__ZN15fileFormatUtils19makeValidIdentifierERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE",
+            "lang": "c++",
+            "addr": 4295027124
+          },
+          {
+            "name": "makeValidIdentifier(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "flag": "method.fileFormatUtils.makeValidIdentifier_std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const_",
+            "rawname": "__ZN15fileFormatUtils19makeValidIdentifierERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE",
+            "lang": "c++",
+            "addr": 4295027124
+          }
+        ]
+      },
+      {
+        "classname": "fileFormatUtils::Asset",
+        "addr": 0,
+        "lang": "c++",
+        "index": 6,
+        "methods": [
+          {
+            "name": "initStage()",
+            "flag": "method.fileFormatUtils::Asset.initStage__",
+            "rawname": "__ZN15fileFormatUtils5Asset9initStageEv",
+            "lang": "c++",
+            "addr": 4295029684
+          },
+          {
+            "name": "getGeomPath() const",
+            "flag": "method.fileFormatUtils::Asset.getGeomPath___const",
+            "rawname": "__ZNK15fileFormatUtils5Asset11getGeomPathEv",
+            "lang": "c++",
+            "addr": 4295029376
+          },
+          {
+            "name": "getMaterialsPath() const",
+            "flag": "method.fileFormatUtils::Asset.getMaterialsPath___const",
+            "rawname": "__ZNK15fileFormatUtils5Asset16getMaterialsPathEv",
+            "lang": "c++",
+            "addr": 4295029068
+          },
+          {
+            "name": "getPath() const",
+            "flag": "method.fileFormatUtils::Asset.getPath___const",
+            "rawname": "__ZNK15fileFormatUtils5Asset7getPathEv",
+            "lang": "c++",
+            "addr": 4295028904
+          }
+        ]
+      },
+      {
+        "classname": "fileFormatUtils::Material",
+        "addr": 0,
+        "lang": "c++",
+        "index": 7,
+        "methods": [
+          {
+            "name": "_makeShader(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, fileFormatUtils::Map const&, serialize::MapInputName, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, serialize::Mat*, serialize::Stage*)",
+            "flag": "method.fileFormatUtils::Material._makeShader_std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const__fileFormatUtils::Map_const__serialize::MapInputName__std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const__serialize::Mat__serialize::Stage_",
+            "rawname": "__ZN15fileFormatUtils8Material11_makeShaderERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERKNS_3MapEN9serialize12MapInputNameES9_PNSD_3MatEPNSD_5StageE",
+            "lang": "c++",
+            "addr": 4295032504
+          },
+          {
+            "name": "makeSerializeMaterial(fileFormatUtils::Asset&)",
+            "flag": "method.fileFormatUtils::Material.makeSerializeMaterial_fileFormatUtils::Asset_",
+            "rawname": "__ZN15fileFormatUtils8Material21makeSerializeMaterialERNS_5AssetE",
+            "lang": "c++",
+            "addr": 4295029772
+          },
+          {
+            "name": "_makeTextureShaderNames()",
+            "flag": "method.fileFormatUtils::Material._makeTextureShaderNames__",
+            "rawname": "__ZN15fileFormatUtils8Material23_makeTextureShaderNamesEv",
+            "lang": "c++",
+            "addr": 4295030336
+          },
+          {
+            "name": "updateSerializeMaterial(serialize::Mat*, serialize::Stage*)",
+            "flag": "method.fileFormatUtils::Material.updateSerializeMaterial_serialize::Mat__serialize::Stage_",
+            "rawname": "__ZN15fileFormatUtils8Material23updateSerializeMaterialEPN9serialize3MatEPNS1_5StageE",
+            "lang": "c++",
+            "addr": 4295030248
+          },
+          {
+            "name": "_addMapToSerializeMaterial(serialize::MapInputName, serialize::Mat*, serialize::Stage*)",
+            "flag": "method.fileFormatUtils::Material._addMapToSerializeMaterial_serialize::MapInputName__serialize::Mat__serialize::Stage_",
+            "rawname": "__ZN15fileFormatUtils8Material26_addMapToSerializeMaterialEN9serialize12MapInputNameEPNS1_3MatEPNS1_5StageE",
+            "lang": "c++",
+            "addr": 4295031416
+          },
+          {
+            "name": "hasInput(serialize::MapInputName) const",
+            "flag": "method.fileFormatUtils::Material.hasInput_serialize::MapInputName__const",
+            "rawname": "__ZNK15fileFormatUtils8Material8hasInputEN9serialize12MapInputNameE",
+            "lang": "c++",
+            "addr": 4295031992
+          },
+          {
+            "name": "_makeShader(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, fileFormatUtils::Map const&, serialize::MapInputName, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, serialize::Mat*, serialize::Stage*)",
+            "flag": "method.fileFormatUtils::Material._makeShader_std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const__fileFormatUtils::Map_const__serialize::MapInputName__std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const__serialize::Mat__serialize::Stage_",
+            "rawname": "__ZN15fileFormatUtils8Material11_makeShaderERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERKNS_3MapEN9serialize12MapInputNameES9_PNSD_3MatEPNSD_5StageE",
+            "lang": "c++",
+            "addr": 4295032504
+          },
+          {
+            "name": "_makeShader(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, fileFormatUtils::Map const&, serialize::MapInputName, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, serialize::Mat*, serialize::Stage*)",
+            "flag": "method.fileFormatUtils::Material._makeShader_std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const__fileFormatUtils::Map_const__serialize::MapInputName__std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const__serialize::Mat__serialize::Stage_",
+            "rawname": "__ZN15fileFormatUtils8Material11_makeShaderERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEERKNS_3MapEN9serialize12MapInputNameES9_PNSD_3MatEPNSD_5StageE",
+            "lang": "c++",
+            "addr": 4295032504
+          }
+        ]
+      },
+      {
+        "classname": "serialize::PointCloud",
+        "addr": 0,
+        "lang": "c++",
+        "index": 8,
+        "methods": [
+          {
+            "name": "serialize(serialize::Serializer&)",
+            "flag": "method.serialize::PointCloud.serialize_serialize::Serializer_",
+            "rawname": "__ZN9serialize10PointCloud9serializeERNS_10SerializerE",
+            "lang": "c++",
+            "addr": 4295034504
+          }
+        ]
+      },
+      {
+        "classname": "serialize::Serializer",
+        "addr": 0,
+        "lang": "c++",
+        "index": 9,
+        "methods": [
+          {
+            "name": "load()",
+            "flag": "method.serialize::Serializer.load__",
+            "rawname": "__ZN9serialize10Serializer4loadEv",
+            "lang": "c++",
+            "addr": 4294989852
+          },
+          {
+            "name": "save(serialize::Prim*)",
+            "flag": "method.serialize::Serializer.save_serialize::Prim_",
+            "rawname": "__ZN9serialize10Serializer4saveEPNS_4PrimE",
+            "lang": "c++",
+            "addr": 4294991252
+          },
+          {
+            "name": "sync(char const*, serialize::MapInputName&)",
+            "flag": "method.serialize::Serializer.sync_char_const__serialize::MapInputName_",
+            "rawname": "__ZN9serialize10Serializer4syncEPKcRNS_12MapInputNameE",
+            "lang": "c++",
+            "addr": 4294992984
+          },
+          {
+            "name": "sync(char const*, serialize::Interpolation&)",
+            "flag": "method.serialize::Serializer.sync_char_const__serialize::Interpolation_",
+            "rawname": "__ZN9serialize10Serializer4syncEPKcRNS_13InterpolationE",
+            "lang": "c++",
+            "addr": 4294992896
+          },
+          {
+            "name": "sync(char const*, serialize::Vec3&)",
+            "flag": "method.serialize::Serializer.sync_char_const__serialize::Vec3_",
+            "rawname": "__ZN9serialize10Serializer4syncEPKcRNS_4Vec3E",
+            "lang": "c++",
+            "addr": 4294991836
+          },
+          {
+            "name": "sync(char const*, serialize::Vec4&)",
+            "flag": "method.serialize::Serializer.sync_char_const__serialize::Vec4_",
+            "rawname": "__ZN9serialize10Serializer4syncEPKcRNS_4Vec4E",
+            "lang": "c++",
+            "addr": 4294992304
+          },
+          {
+            "name": "sync(char const*, serialize::PrimType&)",
+            "flag": "method.serialize::Serializer.sync_char_const__serialize::PrimType_",
+            "rawname": "__ZN9serialize10Serializer4syncEPKcRNS_8PrimTypeE",
+            "lang": "c++",
+            "addr": 4294991356
+          },
+          {
+            "name": "sync(char const*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&)",
+            "flag": "method.serialize::Serializer.sync_char_const__std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____",
+            "rawname": "__ZN9serialize10Serializer4syncEPKcRNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE",
+            "lang": "c++",
+            "addr": 4294991444
+          },
+          {
+            "name": "sync(char const*, std::__1::vector<serialize::Vec2, std::__1::allocator<serialize::Vec2> >&)",
+            "flag": "method.serialize::Serializer.sync_char_const__std::__1::vector_serialize::Vec2__std::__1::allocator_serialize::Vec2____",
+            "rawname": "__ZN9serialize10Serializer4syncEPKcRNSt3__16vectorINS_4Vec2ENS3_9allocatorIS5_EEEE",
+            "lang": "c++",
+            "addr": 4294993504
+          },
+          {
+            "name": "sync(char const*, std::__1::vector<serialize::Vec3, std::__1::allocator<serialize::Vec3> >&)",
+            "flag": "method.serialize::Serializer.sync_char_const__std::__1::vector_serialize::Vec3__std::__1::allocator_serialize::Vec3____",
+            "rawname": "__ZN9serialize10Serializer4syncEPKcRNSt3__16vectorINS_4Vec3ENS3_9allocatorIS5_EEEE",
+            "lang": "c++",
+            "addr": 4294993352
+          },
+          {
+            "name": "sync(char const*, std::__1::vector<serialize::Prim*, std::__1::allocator<serialize::Prim*> >&)",
+            "flag": "method.serialize::Serializer.sync_char_const__std::__1::vector_serialize::Prim__std::__1::allocator_serialize::Prim____",
+            "rawname": "__ZN9serialize10Serializer4syncEPKcRNSt3__16vectorIPNS_4PrimENS3_9allocatorIS6_EEEE",
+            "lang": "c++",
+            "addr": 4294993644
+          },
+          {
+            "name": "sync(char const*, std::__1::vector<float, std::__1::allocator<float> >&)",
+            "flag": "method.serialize::Serializer.sync_char_const__std::__1::vector_float__std::__1::allocator_float____",
+            "rawname": "__ZN9serialize10Serializer4syncEPKcRNSt3__16vectorIfNS3_9allocatorIfEEEE",
+            "lang": "c++",
+            "addr": 4294993212
+          },
+          {
+            "name": "sync(char const*, std::__1::vector<int, std::__1::allocator<int> >&)",
+            "flag": "method.serialize::Serializer.sync_char_const__std::__1::vector_int__std::__1::allocator_int____",
+            "rawname": "__ZN9serialize10Serializer4syncEPKcRNSt3__16vectorIiNS3_9allocatorIiEEEE",
+            "lang": "c++",
+            "addr": 4294993072
+          },
+          {
+            "name": "sync(char const*, float&)",
+            "flag": "method.serialize::Serializer.sync_char_const__float_",
+            "rawname": "__ZN9serialize10Serializer4syncEPKcRf",
+            "lang": "c++",
+            "addr": 4294991564
+          },
+          {
+            "name": "sync(char const*, int&)",
+            "flag": "method.serialize::Serializer.sync_char_const__int_",
+            "rawname": "__ZN9serialize10Serializer4syncEPKcRi",
+            "lang": "c++",
+            "addr": 4294991748
+          },
+          {
+            "name": "sync(char const*, unsigned long&)",
+            "flag": "method.serialize::Serializer.sync_char_const__unsigned_long_",
+            "rawname": "__ZN9serialize10Serializer4syncEPKcRm",
+            "lang": "c++",
+            "addr": 4294991660
+          },
+          {
+            "name": "Serializer()",
+            "flag": "method.serialize::Serializer.Serializer__",
+            "rawname": "__ZN9serialize10SerializerC2Ev",
+            "lang": "c++",
+            "addr": 4294989840
+          },
+          {
+            "name": "sync(char const*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&)",
+            "flag": "method.serialize::Serializer.sync_char_const__std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____",
+            "rawname": "__ZN9serialize10Serializer4syncEPKcRNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE",
+            "lang": "c++",
+            "addr": 4294991444
+          },
+          {
+            "name": "sync(char const*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&)",
+            "flag": "method.serialize::Serializer.sync_char_const__std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____",
+            "rawname": "__ZN9serialize10Serializer4syncEPKcRNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE",
+            "lang": "c++",
+            "addr": 4294991444
+          }
+        ]
+      },
+      {
+        "classname": "serialize::Mat",
+        "addr": 0,
+        "lang": "c++",
+        "index": 10,
+        "methods": [
+          {
+            "name": "serialize(serialize::Serializer&)",
+            "flag": "method.serialize::Mat.serialize_serialize::Serializer_",
+            "rawname": "__ZN9serialize3Mat9serializeERNS_10SerializerE",
+            "lang": "c++",
+            "addr": 4295035020
+          }
+        ]
+      },
+      {
+        "classname": "serialize::Mesh",
+        "addr": 0,
+        "lang": "c++",
+        "index": 11,
+        "methods": [
+          {
+            "name": "serialize(serialize::Serializer&)",
+            "flag": "method.serialize::Mesh.serialize_serialize::Serializer_",
+            "rawname": "__ZN9serialize4Mesh9serializeERNS_10SerializerE",
+            "lang": "c++",
+            "addr": 4295034616
+          }
+        ]
+      },
+      {
+        "classname": "serialize::Prim",
+        "addr": 0,
+        "lang": "c++",
+        "index": 12,
+        "methods": [
+          {
+            "name": "release()",
+            "flag": "method.serialize::Prim.release__",
+            "rawname": "__ZN9serialize4Prim7releaseEv",
+            "lang": "c++",
+            "addr": 4295033868
+          },
+          {
+            "name": "addChild(serialize::Prim*)",
+            "flag": "method.serialize::Prim.addChild_serialize::Prim_",
+            "rawname": "__ZN9serialize4Prim8addChildEPS0_",
+            "lang": "c++",
+            "addr": 4295034148
+          },
+          {
+            "name": "serialize(serialize::Serializer&)",
+            "flag": "method.serialize::Prim.serialize_serialize::Serializer_",
+            "rawname": "__ZN9serialize4Prim9serializeERNS_10SerializerE",
+            "lang": "c++",
+            "addr": 4295034040
+          },
+          {
+            "name": "~Prim()",
+            "flag": "method.serialize::Prim._Prim__",
+            "rawname": "__ZN9serialize4PrimD2Ev",
+            "lang": "c++",
+            "addr": 4295033828
+          }
+        ]
+      },
+      {
+        "classname": "serialize::Stage",
+        "addr": 0,
+        "lang": "c++",
+        "index": 13,
+        "methods": [
+          {
+            "name": "serialize(serialize::Serializer&)",
+            "flag": "method.serialize::Stage.serialize_serialize::Serializer_",
+            "rawname": "__ZN9serialize5Stage9serializeERNS_10SerializerE",
+            "lang": "c++",
+            "addr": 4295034352
+          }
+        ]
+      },
+      {
+        "classname": "serialize::Shader",
+        "addr": 0,
+        "lang": "c++",
+        "index": 14,
+        "methods": [
+          {
+            "name": "serialize(serialize::Serializer&)",
+            "flag": "method.serialize::Shader.serialize_serialize::Serializer_",
+            "rawname": "__ZN9serialize6Shader9serializeERNS_10SerializerE",
+            "lang": "c++",
+            "addr": 4295035136
+          }
+        ]
+      },
+      {
+        "classname": "serialize::Subset",
+        "addr": 0,
+        "lang": "c++",
+        "index": 15,
+        "methods": [
+          {
+            "name": "serialize(serialize::Serializer&)",
+            "flag": "method.serialize::Subset.serialize_serialize::Serializer_",
+            "rawname": "__ZN9serialize6Subset9serializeERNS_10SerializerE",
+            "lang": "c++",
+            "addr": 4295034908
+          }
+        ]
+      },
+      {
+        "classname": "serialize::MapInput",
+        "addr": 0,
+        "lang": "c++",
+        "index": 16,
+        "methods": [
+          {
+            "name": "serialize(serialize::Serializer&)",
+            "flag": "method.serialize::MapInput.serialize_serialize::Serializer_",
+            "rawname": "__ZN9serialize8MapInput9serializeERNS_10SerializerE",
+            "lang": "c++",
+            "addr": 4295035024
+          }
+        ]
+      },
+      {
+        "classname": "std::exception",
+        "addr": 0,
+        "lang": "c++",
+        "index": 17,
+        "methods": [
+          {
+            "name": "what() const",
+            "flag": "method.std::exception.what___const",
+            "rawname": "_ZNKSt9exception4whatEv",
+            "lang": "c++",
+            "addr": 4295066680
+          },
+          {
+            "name": "~exception()",
+            "flag": "method.std::exception._exception__",
+            "rawname": "_ZNSt9exceptionD2Ev",
+            "lang": "c++",
+            "addr": 4295065920
+          }
+        ]
+      },
+      {
+        "classname": "std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >",
+        "addr": 0,
+        "lang": "c++",
+        "index": 18,
+        "methods": [
+          {
+            "name": "rfind(char, unsigned long) const",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char___.rfind_char__unsigned_long__const",
+            "rawname": "_ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5rfindEcm",
+            "lang": "c++",
+            "addr": 4295065624
+          },
+          {
+            "name": "compare(char const*) const",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char___.compare_char_const__const",
+            "rawname": "_ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7compareEPKc",
+            "lang": "c++",
+            "addr": 4295065632
+          },
+          {
+            "name": "erase(unsigned long, unsigned long)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char___.erase_unsigned_long__unsigned_long_",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5eraseEmm",
+            "lang": "c++",
+            "addr": 4295065672
+          },
+          {
+            "name": "append(char const*)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char___.append_char_const_",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKc",
+            "lang": "c++",
+            "addr": 4295065680
+          },
+          {
+            "name": "append(char const*, unsigned long)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char___.append_char_const__unsigned_long_",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKcm",
+            "lang": "c++",
+            "addr": 4295065688
+          },
+          {
+            "name": "assign(char const*)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char___.assign_char_const_",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6assignEPKc",
+            "lang": "c++",
+            "addr": 4295065696
+          },
+          {
+            "name": "insert(std::__1::__wrap_iter<char const*>, char)",
+            "flag": "std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::insert(std::__1::__wrap_iter<char const*>, char)",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertENS_11__wrap_iterIPKcEEc",
+            "lang": "c++",
+            "addr": 4295065704
+          },
+          {
+            "name": "resize(unsigned long, char)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char___.resize_unsigned_long__char_",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6resizeEmc",
+            "lang": "c++",
+            "addr": 4295065712
+          },
+          {
+            "name": "replace(unsigned long, unsigned long, char const*, unsigned long)",
+            "flag": "std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::replace(unsigned long, unsigned long, char const*, unsigned long)",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7replaceEmmPKcm",
+            "lang": "c++",
+            "addr": 4295065720
+          },
+          {
+            "name": "push_back(char)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char___.push_back_char_",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE9push_backEc",
+            "lang": "c++",
+            "addr": 4295065728
+          },
+          {
+            "name": "basic_string(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, unsigned long, unsigned long, std::__1::allocator<char> const&)",
+            "flag": "std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::basic_string(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, unsigned long, unsigned long, std::__1::allocator<char> const&)",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2ERKS5_mmRKS4_",
+            "lang": "c++",
+            "addr": 4295065736
+          },
+          {
+            "name": "operator=(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "flag": "std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::operator=(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEaSERKS5_",
+            "lang": "c++",
+            "addr": 4295065744
+          },
+          {
+            "name": "insert(std::__1::__wrap_iter<char const*>, char)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char___.insert_std::__1::__wrap_iter_char_const___char_",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertENS_11__wrap_iterIPKcEEc",
+            "lang": "c++",
+            "addr": 4295041096
+          },
+          {
+            "name": "replace(unsigned long, unsigned long, char const*, unsigned long)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char___.replace_unsigned_long__unsigned_long__char_const__unsigned_long_",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7replaceEmmPKcm",
+            "lang": "c++",
+            "addr": 4295041128
+          },
+          {
+            "name": "basic_string(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, unsigned long, unsigned long, std::__1::allocator<char> const&)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char___.basic_string_std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const__unsigned_long__unsigned_long__std::__1::allocator_char__const_",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2ERKS5_mmRKS4_",
+            "lang": "c++",
+            "addr": 4295041160
+          },
+          {
+            "name": "operator=(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char___.operator_std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const_",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEaSERKS5_",
+            "lang": "c++",
+            "addr": 4295041176
+          },
+          {
+            "name": "insert(std::__1::__wrap_iter<char const*>, char)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char___.insert_std::__1::__wrap_iter_char_const___char_",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertENS_11__wrap_iterIPKcEEc",
+            "lang": "c++",
+            "addr": 4295041096
+          },
+          {
+            "name": "insert(std::__1::__wrap_iter<char const*>, char)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char___.insert_std::__1::__wrap_iter_char_const___char_",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6insertENS_11__wrap_iterIPKcEEc",
+            "lang": "c++",
+            "addr": 4295041096
+          },
+          {
+            "name": "replace(unsigned long, unsigned long, char const*, unsigned long)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char___.replace_unsigned_long__unsigned_long__char_const__unsigned_long_",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7replaceEmmPKcm",
+            "lang": "c++",
+            "addr": 4295041128
+          },
+          {
+            "name": "replace(unsigned long, unsigned long, char const*, unsigned long)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char___.replace_unsigned_long__unsigned_long__char_const__unsigned_long_",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7replaceEmmPKcm",
+            "lang": "c++",
+            "addr": 4295041128
+          },
+          {
+            "name": "basic_string(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, unsigned long, unsigned long, std::__1::allocator<char> const&)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char___.basic_string_std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const__unsigned_long__unsigned_long__std::__1::allocator_char__const_",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2ERKS5_mmRKS4_",
+            "lang": "c++",
+            "addr": 4295041160
+          },
+          {
+            "name": "basic_string(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, unsigned long, unsigned long, std::__1::allocator<char> const&)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char___.basic_string_std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const__unsigned_long__unsigned_long__std::__1::allocator_char__const_",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2ERKS5_mmRKS4_",
+            "lang": "c++",
+            "addr": 4295041160
+          },
+          {
+            "name": "operator=(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char___.operator_std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const_",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEaSERKS5_",
+            "lang": "c++",
+            "addr": 4295041176
+          },
+          {
+            "name": "operator=(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char___.operator_std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const_",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEaSERKS5_",
+            "lang": "c++",
+            "addr": 4295041176
+          }
+        ]
+      },
+      {
+        "classname": "std::__1::locale",
+        "addr": 0,
+        "lang": "c++",
+        "index": 19,
+        "methods": [
+          {
+            "name": "use_facet(std::__1::locale::id&) const",
+            "flag": "method.std::__1::locale.use_facet_std::__1::locale::id__const",
+            "rawname": "_ZNKSt3__16locale9use_facetERNS0_2idE",
+            "lang": "c++",
+            "addr": 4295065640
+          },
+          {
+            "name": "locale()",
+            "flag": "method.std::__1::locale.locale__",
+            "rawname": "_ZNSt3__16localeC1Ev",
+            "lang": "c++",
+            "addr": 4295065864
+          },
+          {
+            "name": "~locale()",
+            "flag": "method.std::__1::locale._locale__",
+            "rawname": "_ZNSt3__16localeD1Ev",
+            "lang": "c++",
+            "addr": 4295065872
+          }
+        ]
+      },
+      {
+        "classname": "std::__1::ios_base",
+        "addr": 0,
+        "lang": "c++",
+        "index": 20,
+        "methods": [
+          {
+            "name": "getloc() const",
+            "flag": "method.std::__1::ios_base.getloc___const",
+            "rawname": "_ZNKSt3__18ios_base6getlocEv",
+            "lang": "c++",
+            "addr": 4295065648
+          },
+          {
+            "name": "init(void*)",
+            "flag": "method.std::__1::ios_base.init_void_",
+            "rawname": "_ZNSt3__18ios_base4initEPv",
+            "lang": "c++",
+            "addr": 4295065880
+          },
+          {
+            "name": "clear(unsigned int)",
+            "flag": "method.std::__1::ios_base.clear_unsigned_int_",
+            "rawname": "_ZNSt3__18ios_base5clearEj",
+            "lang": "c++",
+            "addr": 4295065888
+          }
+        ]
+      },
+      {
+        "classname": "std::logic_error",
+        "addr": 0,
+        "lang": "c++",
+        "index": 21,
+        "methods": [
+          {
+            "name": "logic_error(char const*)",
+            "flag": "method.std::logic_error.logic_error_char_const_",
+            "rawname": "_ZNSt11logic_errorC2EPKc",
+            "lang": "c++",
+            "addr": 4295065656
+          }
+        ]
+      },
+      {
+        "classname": "std::bad_array_new_length",
+        "addr": 0,
+        "lang": "c++",
+        "index": 22,
+        "methods": [
+          {
+            "name": "bad_array_new_length()",
+            "flag": "method.std::bad_array_new_length.bad_array_new_length__",
+            "rawname": "_ZNSt20bad_array_new_lengthC1Ev",
+            "lang": "c++",
+            "addr": 4295065664
+          },
+          {
+            "name": "~bad_array_new_length()",
+            "flag": "method.std::bad_array_new_length._bad_array_new_length__",
+            "rawname": "_ZNSt20bad_array_new_lengthD1Ev",
+            "lang": "c++",
+            "addr": 4295066448
+          }
+        ]
+      },
+      {
+        "classname": "std::__1::basic_filebuf<char, std::__1::char_traits<char> >",
+        "addr": 0,
+        "lang": "c++",
+        "index": 23,
+        "methods": [
+          {
+            "name": "open(char const*, unsigned int)",
+            "flag": "method.std::__1::basic_filebuf_char__std::__1::char_traits_char___.open_char_const__unsigned_int_",
+            "rawname": "_ZNSt3__113basic_filebufIcNS_11char_traitsIcEEE4openEPKcj",
+            "lang": "c++",
+            "addr": 4295065752
+          },
+          {
+            "name": "basic_filebuf()",
+            "flag": "method.std::__1::basic_filebuf_char__std::__1::char_traits_char___.basic_filebuf__",
+            "rawname": "_ZNSt3__113basic_filebufIcNS_11char_traitsIcEEEC1Ev",
+            "lang": "c++",
+            "addr": 4295065760
+          },
+          {
+            "name": "~basic_filebuf()",
+            "flag": "method.std::__1::basic_filebuf_char__std::__1::char_traits_char___._basic_filebuf__",
+            "rawname": "_ZNSt3__113basic_filebufIcNS_11char_traitsIcEEED1Ev",
+            "lang": "c++",
+            "addr": 4295065768
+          }
+        ]
+      },
+      {
+        "classname": "std::__1::basic_istream<char, std::__1::char_traits<char> >",
+        "addr": 0,
+        "lang": "c++",
+        "index": 24,
+        "methods": [
+          {
+            "name": "read(char*, long)",
+            "flag": "method.std::__1::basic_istream_char__std::__1::char_traits_char___.read_char__long_",
+            "rawname": "_ZNSt3__113basic_istreamIcNS_11char_traitsIcEEE4readEPcl",
+            "lang": "c++",
+            "addr": 4295065776
+          },
+          {
+            "name": "seekg(std::__1::fpos<__mbstate_t>)",
+            "flag": "method.std::__1::basic_istream_char__std::__1::char_traits_char___.seekg_std::__1::fpos___mbstate_t__",
+            "rawname": "_ZNSt3__113basic_istreamIcNS_11char_traitsIcEEE5seekgENS_4fposI11__mbstate_tEE",
+            "lang": "c++",
+            "addr": 4295065784
+          },
+          {
+            "name": "seekg(long long, std::__1::ios_base::seekdir)",
+            "flag": "method.std::__1::basic_istream_char__std::__1::char_traits_char___.seekg_long_long__std::__1::ios_base::seekdir_",
+            "rawname": "_ZNSt3__113basic_istreamIcNS_11char_traitsIcEEE5seekgExNS_8ios_base7seekdirE",
+            "lang": "c++",
+            "addr": 4295065792
+          },
+          {
+            "name": "tellg()",
+            "flag": "method.std::__1::basic_istream_char__std::__1::char_traits_char___.tellg__",
+            "rawname": "_ZNSt3__113basic_istreamIcNS_11char_traitsIcEEE5tellgEv",
+            "lang": "c++",
+            "addr": 4295065800
+          },
+          {
+            "name": "~basic_istream()",
+            "flag": "method.std::__1::basic_istream_char__std::__1::char_traits_char___._basic_istream__",
+            "rawname": "_ZNSt3__113basic_istreamIcNS_11char_traitsIcEEED2Ev",
+            "lang": "c++",
+            "addr": 4295065816
+          },
+          {
+            "name": "operator>>(double&)",
+            "flag": "method.std::__1::basic_istream_char__std::__1::char_traits_char___.operator___double_",
+            "rawname": "_ZNSt3__113basic_istreamIcNS_11char_traitsIcEEErsERd",
+            "lang": "c++",
+            "addr": 4295065824
+          },
+          {
+            "name": "operator>>(float&)",
+            "flag": "method.std::__1::basic_istream_char__std::__1::char_traits_char___.operator___float_",
+            "rawname": "_ZNSt3__113basic_istreamIcNS_11char_traitsIcEEErsERf",
+            "lang": "c++",
+            "addr": 4295065832
+          },
+          {
+            "name": "operator>>(int&)",
+            "flag": "method.std::__1::basic_istream_char__std::__1::char_traits_char___.operator___int_",
+            "rawname": "_ZNSt3__113basic_istreamIcNS_11char_traitsIcEEErsERi",
+            "lang": "c++",
+            "addr": 4295065840
+          },
+          {
+            "name": "operator>>(unsigned int&)",
+            "flag": "method.std::__1::basic_istream_char__std::__1::char_traits_char___.operator___unsigned_int_",
+            "rawname": "_ZNSt3__113basic_istreamIcNS_11char_traitsIcEEErsERj",
+            "lang": "c++",
+            "addr": 4295065848
+          }
+        ]
+      },
+      {
+        "classname": "std::__1::basic_istream<char, std::__1::char_traits<char> >::sentry",
+        "addr": 0,
+        "lang": "c++",
+        "index": 25,
+        "methods": [
+          {
+            "name": "sentry(std::__1::basic_istream<char, std::__1::char_traits<char> >&, bool)",
+            "flag": "std::__1::basic_istream<char, std::__1::char_traits<char> >::sentry::sentry(std::__1::basic_istream<char, std::__1::char_traits<char> >&, bool)",
+            "rawname": "_ZNSt3__113basic_istreamIcNS_11char_traitsIcEEE6sentryC1ERS3_b",
+            "lang": "c++",
+            "addr": 4295065808
+          },
+          {
+            "name": "sentry(std::__1::basic_istream<char, std::__1::char_traits<char> >&, bool)",
+            "flag": "method.std::__1::basic_istream_char__std::__1::char_traits_char___::sentry.sentry_std::__1::basic_istream_char__std::__1::char_traits_char_____bool_",
+            "rawname": "_ZNSt3__113basic_istreamIcNS_11char_traitsIcEEE6sentryC1ERS3_b",
+            "lang": "c++",
+            "addr": 4295041304
+          },
+          {
+            "name": "sentry(std::__1::basic_istream<char, std::__1::char_traits<char> >&, bool)",
+            "flag": "method.std::__1::basic_istream_char__std::__1::char_traits_char___::sentry.sentry_std::__1::basic_istream_char__std::__1::char_traits_char_____bool_",
+            "rawname": "_ZNSt3__113basic_istreamIcNS_11char_traitsIcEEE6sentryC1ERS3_b",
+            "lang": "c++",
+            "addr": 4295041304
+          },
+          {
+            "name": "sentry(std::__1::basic_istream<char, std::__1::char_traits<char> >&, bool)",
+            "flag": "method.std::__1::basic_istream_char__std::__1::char_traits_char___::sentry.sentry_std::__1::basic_istream_char__std::__1::char_traits_char_____bool_",
+            "rawname": "_ZNSt3__113basic_istreamIcNS_11char_traitsIcEEE6sentryC1ERS3_b",
+            "lang": "c++",
+            "addr": 4295041304
+          }
+        ]
+      },
+      {
+        "classname": "std::__1::basic_iostream<char, std::__1::char_traits<char> >",
+        "addr": 0,
+        "lang": "c++",
+        "index": 26,
+        "methods": [
+          {
+            "name": "~basic_iostream()",
+            "flag": "method.std::__1::basic_iostream_char__std::__1::char_traits_char___._basic_iostream__",
+            "rawname": "_ZNSt3__114basic_iostreamIcNS_11char_traitsIcEEED2Ev",
+            "lang": "c++",
+            "addr": 4295065856
+          }
+        ]
+      },
+      {
+        "classname": "std::__1::basic_ios<char, std::__1::char_traits<char> >",
+        "addr": 0,
+        "lang": "c++",
+        "index": 27,
+        "methods": [
+          {
+            "name": "~basic_ios()",
+            "flag": "method.std::__1::basic_ios_char__std::__1::char_traits_char___._basic_ios__",
+            "rawname": "_ZNSt3__19basic_iosIcNS_11char_traitsIcEEED2Ev",
+            "lang": "c++",
+            "addr": 4295065896
+          }
+        ]
+      },
+      {
+        "classname": "std::__1",
+        "addr": 0,
+        "lang": "c++",
+        "index": 28,
+        "methods": [
+          {
+            "name": "to_string(unsigned long)",
+            "flag": "method.std::__1.to_string_unsigned_long_",
+            "rawname": "_ZNSt3__19to_stringEm",
+            "lang": "c++",
+            "addr": 4295065904
+          }
+        ]
+      },
+      {
+        "classname": "std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > std::__1::operator+<char, std::__1::char_traits<char>, std::__1",
+        "addr": 0,
+        "lang": "c++",
+        "index": 29,
+        "methods": [
+          {
+            "name": "allocator<char> >(char const*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "flag": "std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > std::__1::operator+<char, std::__1::char_traits<char>, std::__1::allocator<char> >(char const*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "rawname": "_ZNSt3__1plIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EEPKS6_RKS9_",
+            "lang": "c++",
+            "addr": 4295065912
+          },
+          {
+            "name": "allocator<char> >(char const*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____std::__1::operator_char__std::__1::char_traits_char___std::__1.allocator_char____char_const__std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const_",
+            "rawname": "_ZNSt3__1plIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EEPKS6_RKS9_",
+            "lang": "c++",
+            "addr": 4295041512
+          },
+          {
+            "name": "allocator<char> >(char const*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____std::__1::operator_char__std::__1::char_traits_char___std::__1.allocator_char____char_const__std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const_",
+            "rawname": "_ZNSt3__1plIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EEPKS6_RKS9_",
+            "lang": "c++",
+            "addr": 4295041512
+          },
+          {
+            "name": "allocator<char> >(char const*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____std::__1::operator_char__std::__1::char_traits_char___std::__1.allocator_char____char_const__std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const_",
+            "rawname": "_ZNSt3__1plIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EEPKS6_RKS9_",
+            "lang": "c++",
+            "addr": 4295041512
+          }
+        ]
+      },
+      {
+        "classname": "std",
+        "addr": 0,
+        "lang": "c++",
+        "index": 30,
+        "methods": [
+          {
+            "name": "terminate()",
+            "flag": "method.std.terminate__",
+            "rawname": "_ZSt9terminatev",
+            "lang": "c++",
+            "addr": 4295065928
+          }
+        ]
+      },
+      {
+        "classname": "std::length_error",
+        "addr": 0,
+        "lang": "c++",
+        "index": 31,
+        "methods": [
+          {
+            "name": "~length_error()",
+            "flag": "method.std::length_error._length_error__",
+            "rawname": "_ZNSt12length_errorD1Ev",
+            "lang": "c++",
+            "addr": 4295066432
+          }
+        ]
+      },
+      {
+        "classname": "std::out_of_range",
+        "addr": 0,
+        "lang": "c++",
+        "index": 32,
+        "methods": [
+          {
+            "name": "~out_of_range()",
+            "flag": "method.std::out_of_range._out_of_range__",
+            "rawname": "_ZNSt12out_of_rangeD1Ev",
+            "lang": "c++",
+            "addr": 4295066440
+          }
+        ]
+      }
+    ],
+    "swift_metadata": {
+      "is_swift": false,
+      "symbols": []
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist",
+        "Versions/A/XPCServices/USDLib_FormatLoader.xpc/Contents/Info.plist",
+        "Versions/A/XPCServices/USDLib_FormatLoader.xpc/Contents/version.plist",
+        "Versions/A/XPCServices/USDLib_FormatLoader.xpc/Contents/_CodeSignature/CodeResources",
+        "Versions/A/XPCServices/USDLib_FormatLoader.xpc/Contents/MacOS/USDLib_FormatLoader"
+      ],
+      "plists": {
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "USDLib_FormatLoaderProxy",
+          "CFBundleIdentifier": "com.apple.USDLib_FormatLoaderProxy",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "DTPlatformBuild": "",
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleVersion": "23.2.1",
+          "CFBundleExecutable": "USDLib_FormatLoaderProxy",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "13.0",
+          "DTXcode": "2600",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundlePackageType": "FMWK",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "DTSDKName": "macosx26.1.internal",
+          "CFBundleShortVersionString": "1.0"
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "23.2.1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "USDLib",
+          "SourceVersion": "23002001000000",
+          "BuildVersion": "638"
+        },
+        "Versions/A/XPCServices/USDLib_FormatLoader.xpc/Contents/Info.plist": {
+          "CFBundleName": "USDLib_FormatLoader",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2020 Apple Inc. All rights reserved.",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "23.2.1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "XPCService": {
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "USDLib_FormatLoader",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.USDLib.FormatLoader",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "13.0",
+          "CFBundleDisplayName": "USDLib_FormatLoader",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/XPCServices/USDLib_FormatLoader.xpc/Contents/version.plist": {
+          "CFBundleVersion": "23.2.1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "USDLib",
+          "SourceVersion": "23002001000000",
+          "BuildVersion": "638"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
+  },
+  "usage": {
+    "layer": "usage",
+    "used_by": []
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "loaded"
+  }
+}

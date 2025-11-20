@@ -1,0 +1,3039 @@
+{
+  "framework": "LockdownMode.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/LockdownMode.framework/Versions/A/XPCServices/lockdownmoded",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 351792,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "swift",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/PrivateFrameworks/SetupAssistantFramework.framework/Versions/A/SetupAssistantFramework",
+          "/System/Library/PrivateFrameworks/SystemAdministration.framework/Versions/A/SystemAdministration",
+          "/System/Library/PrivateFrameworks/AppleAccount.framework/Versions/A/AppleAccount",
+          "/System/Library/PrivateFrameworks/LockdownMode.framework/Versions/A/LockdownMode",
+          "/System/Library/PrivateFrameworks/ApplicationFirewall.framework/Versions/A/ApplicationFirewall",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/Accounts.framework/Versions/A/Accounts",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+          "/System/Library/Frameworks/LocalAuthentication.framework/Versions/A/LocalAuthentication",
+          "/System/Library/Frameworks/SecurityFoundation.framework/Versions/A/SecurityFoundation",
+          "/System/Library/Frameworks/UserNotifications.framework/Versions/A/UserNotifications",
+          "/System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/AuthKit",
+          "/System/Library/PrivateFrameworks/ControlCenter.framework/Versions/A/ControlCenter",
+          "/System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics",
+          "/System/Library/PrivateFrameworks/FeatureFlags.framework/Versions/A/FeatureFlags",
+          "/System/Library/PrivateFrameworks/IconServices.framework/Versions/A/IconServices",
+          "/System/Library/PrivateFrameworks/PhotoLibraryServices.framework/Versions/A/PhotoLibraryServices",
+          "/System/Library/PrivateFrameworks/Sharing.framework/Versions/A/Sharing",
+          "/usr/lib/libMobileGestalt.dylib",
+          "/usr/lib/swift/libswiftAVFoundation.dylib",
+          "/usr/lib/swift/libswiftAccelerate.dylib",
+          "/usr/lib/swift/libswiftCompression.dylib",
+          "/usr/lib/swift/libswiftCore.dylib",
+          "/usr/lib/swift/libswiftCoreAudio.dylib",
+          "/usr/lib/swift/libswiftCoreFoundation.dylib",
+          "/usr/lib/swift/libswiftCoreImage.dylib",
+          "/usr/lib/swift/libswiftCoreLocation.dylib",
+          "/usr/lib/swift/libswiftCoreMIDI.dylib",
+          "/usr/lib/swift/libswiftCoreMedia.dylib",
+          "/usr/lib/swift/libswiftDispatch.dylib",
+          "/usr/lib/swift/libswiftIOKit.dylib",
+          "/usr/lib/swift/libswiftMLCompute.dylib",
+          "/usr/lib/swift/libswiftMetal.dylib",
+          "/usr/lib/swift/libswiftOSLog.dylib",
+          "/usr/lib/swift/libswiftObjectiveC.dylib",
+          "/usr/lib/swift/libswiftQuartzCore.dylib",
+          "/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib",
+          "/usr/lib/swift/libswiftXPC.dylib",
+          "/usr/lib/swift/libswift_Builtin_float.dylib",
+          "/usr/lib/swift/libswift_Concurrency.dylib",
+          "/usr/lib/swift/libswiftos.dylib",
+          "/usr/lib/swift/libswiftsimd.dylib"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "LockdownModeDaemon",
+        "addr": 215968,
+        "lang": "swift",
+        "index": 0,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.LockdownModeDaemon.0",
+            "lang": "swift",
+            "addr": 4295183320
+          },
+          {
+            "name": "1",
+            "flag": "method.LockdownModeDaemon.1",
+            "lang": "swift",
+            "addr": 4295183328
+          },
+          {
+            "name": "2",
+            "flag": "method.LockdownModeDaemon.2",
+            "lang": "swift",
+            "addr": 4295183336
+          },
+          {
+            "name": "3",
+            "flag": "method.LockdownModeDaemon.3",
+            "lang": "swift",
+            "addr": 4295183344
+          },
+          {
+            "name": "4",
+            "flag": "method.LockdownModeDaemon.4",
+            "lang": "swift",
+            "addr": 4295183352
+          }
+        ],
+        "fields": [
+          {
+            "name": "lockdownModeServer",
+            "kind": "property",
+            "addr": 4295185952
+          }
+        ]
+      },
+      {
+        "classname": "Code",
+        "addr": 216064,
+        "lang": "swift",
+        "index": 1
+      },
+      {
+        "classname": "CFString",
+        "addr": 216096,
+        "lang": "swift",
+        "index": 2
+      },
+      {
+        "classname": "FileProtectionType",
+        "addr": 216144,
+        "lang": "swift",
+        "index": 3,
+        "fields": [
+          {
+            "name": "_rawValue",
+            "kind": "property",
+            "type": "__C.NSString",
+            "addr": 4295185971
+          }
+        ]
+      },
+      {
+        "classname": "FileAttributeKey",
+        "addr": 216176,
+        "lang": "swift",
+        "index": 4,
+        "fields": [
+          {
+            "name": "_rawValue",
+            "kind": "property",
+            "type": "__C.NSString",
+            "addr": 4295185971
+          }
+        ]
+      },
+      {
+        "classname": "LAError",
+        "addr": 216256,
+        "lang": "swift",
+        "index": 5,
+        "fields": [
+          {
+            "name": "_nsError",
+            "kind": "property",
+            "type": "__C.NSError",
+            "addr": 4295185981
+          }
+        ]
+      },
+      {
+        "classname": "LockdownModePhotos",
+        "addr": 216288,
+        "lang": "swift",
+        "index": 6,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.LockdownModePhotos.0",
+            "lang": "swift",
+            "addr": 4295183660
+          },
+          {
+            "name": "1",
+            "flag": "method.LockdownModePhotos.1",
+            "lang": "swift",
+            "addr": 4295183665
+          },
+          {
+            "name": "2",
+            "flag": "method.LockdownModePhotos.2",
+            "lang": "swift",
+            "addr": 4295183889
+          },
+          {
+            "name": "3",
+            "flag": "method.LockdownModePhotos.3",
+            "lang": "swift",
+            "addr": 4295183872
+          },
+          {
+            "name": "4",
+            "flag": "method.LockdownModePhotos.4",
+            "lang": "swift",
+            "addr": 4295076279
+          }
+        ]
+      },
+      {
+        "classname": "LockdownModeSharing",
+        "addr": 216372,
+        "lang": "swift",
+        "index": 7
+      },
+      {
+        "classname": "AirDropDiscoveryController",
+        "addr": 216480,
+        "lang": "swift",
+        "index": 8,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ],
+        "fields": [
+          {
+            "name": "discoveryController",
+            "kind": "property",
+            "type": "__C.SFAirDropDiscoveryController",
+            "addr": 4295186032
+          },
+          {
+            "name": "discoverableMode",
+            "kind": "property",
+            "addr": 4295186064
+          }
+        ]
+      },
+      {
+        "classname": "DiscoverableMode",
+        "addr": 216524,
+        "lang": "swift",
+        "index": 9,
+        "fields": [
+          {
+            "name": "off",
+            "kind": "property",
+            "addr": 4295186081
+          },
+          {
+            "name": "contactsOnly",
+            "kind": "property",
+            "addr": 4295186085
+          },
+          {
+            "name": "everyone",
+            "kind": "property",
+            "addr": 4295186098
+          }
+        ]
+      },
+      {
+        "classname": "NotificationsManager",
+        "addr": 216600,
+        "lang": "swift",
+        "index": 10,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ],
+        "fields": [
+          {
+            "name": "delegate",
+            "kind": "property",
+            "addr": 4295186128
+          },
+          {
+            "name": "notificationCenter",
+            "kind": "property",
+            "type": "UNUserNotificationCenter.allocator__GenericAccessorSg",
+            "addr": 4295186144
+          },
+          {
+            "name": "queue",
+            "kind": "property",
+            "type": "__C.OS_dispatch_queue",
+            "addr": 4295186163
+          }
+        ]
+      },
+      {
+        "classname": "LockdownModeServer",
+        "addr": 216776,
+        "lang": "swift",
+        "index": 11,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ],
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.LockdownModeServer.0",
+            "lang": "swift",
+            "addr": 4295187219
+          },
+          {
+            "name": "1",
+            "flag": "method.LockdownModeServer.1",
+            "lang": "swift",
+            "addr": 4295231122
+          },
+          {
+            "name": "2",
+            "flag": "method.LockdownModeServer.2",
+            "lang": "swift",
+            "addr": 4295222748
+          },
+          {
+            "name": "3",
+            "flag": "method.LockdownModeServer.3",
+            "lang": "swift",
+            "addr": 4295192728
+          },
+          {
+            "name": "4",
+            "flag": "method.LockdownModeServer.4",
+            "lang": "swift",
+            "addr": 4295233688
+          },
+          {
+            "name": "5",
+            "flag": "method.LockdownModeServer.5",
+            "lang": "swift",
+            "addr": 4295204643
+          },
+          {
+            "name": "6",
+            "flag": "method.LockdownModeServer.6",
+            "lang": "swift",
+            "addr": 4295240849
+          },
+          {
+            "name": "7",
+            "flag": "method.LockdownModeServer.7",
+            "lang": "swift",
+            "addr": 4295199171
+          },
+          {
+            "name": "8",
+            "flag": "method.LockdownModeServer.8",
+            "lang": "swift",
+            "addr": 4295187876
+          },
+          {
+            "name": "9",
+            "flag": "method.LockdownModeServer.9",
+            "lang": "swift",
+            "addr": 4295217962
+          },
+          {
+            "name": "10",
+            "flag": "method.LockdownModeServer.10",
+            "lang": "swift",
+            "addr": 4295202979
+          },
+          {
+            "name": "11",
+            "flag": "method.LockdownModeServer.11",
+            "lang": "swift",
+            "addr": 4295236523
+          },
+          {
+            "name": "12",
+            "flag": "method.LockdownModeServer.12",
+            "lang": "swift",
+            "addr": 4295245234
+          },
+          {
+            "name": "13",
+            "flag": "method.LockdownModeServer.13",
+            "lang": "swift",
+            "addr": 4295239901
+          },
+          {
+            "name": "14",
+            "flag": "method.LockdownModeServer.14",
+            "lang": "swift",
+            "addr": 4295200063
+          }
+        ],
+        "fields": [
+          {
+            "name": "$__lazy_storage_$_notificationsManager",
+            "kind": "property",
+            "addr": 4295186272
+          },
+          {
+            "name": "$__lazy_storage_$_keyValueStore",
+            "kind": "property",
+            "type": "NSUbiquitousKeyValueStore.allocator__GenericAccessorSg",
+            "addr": 4295186320
+          },
+          {
+            "name": "listener",
+            "kind": "property",
+            "type": "__C.NSXPCListener",
+            "addr": 4295186352
+          },
+          {
+            "name": "eventsQueue",
+            "kind": "property",
+            "type": "__C.OS_dispatch_queue",
+            "addr": 4295186361
+          },
+          {
+            "name": "enablementPromptShown",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295186384
+          },
+          {
+            "name": "skipNextKVSSync",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295186406
+          },
+          {
+            "name": "_cachedEnabled",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295186422
+          },
+          {
+            "name": "$__lazy_storage_$_deviceKVSKey",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295186448
+          }
+        ]
+      },
+      {
+        "classname": "LockdownModeState",
+        "addr": 217236,
+        "lang": "swift",
+        "index": 12
+      },
+      {
+        "classname": "ServerError",
+        "addr": 217264,
+        "lang": "swift",
+        "index": 13,
+        "fields": [
+          {
+            "name": "missingEntitlement",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295186480
+          },
+          {
+            "name": "restrictionNotFound",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295186512
+          },
+          {
+            "name": "unknown",
+            "kind": "property",
+            "addr": 4295186532
+          },
+          {
+            "name": "cancelled",
+            "kind": "property",
+            "addr": 4295186540
+          },
+          {
+            "name": "accountNotAvailable",
+            "kind": "property",
+            "addr": 4295186560
+          },
+          {
+            "name": "kvsError",
+            "kind": "property",
+            "addr": 4295186580
+          }
+        ]
+      },
+      {
+        "classname": "LockdownModeACM",
+        "addr": 217320,
+        "lang": "swift",
+        "index": 14,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.LockdownModeACM.0",
+            "lang": "swift",
+            "addr": 4295315746
+          },
+          {
+            "name": "1",
+            "flag": "method.LockdownModeACM.1",
+            "lang": "swift",
+            "addr": 4295184682
+          },
+          {
+            "name": "2",
+            "flag": "method.LockdownModeACM.2",
+            "lang": "swift",
+            "addr": 4295315762
+          }
+        ]
+      },
+      {
+        "classname": "TRM",
+        "addr": 217436,
+        "lang": "swift",
+        "index": 15
+      },
+      {
+        "classname": "HIDRM",
+        "addr": 217576,
+        "lang": "swift",
+        "index": 16,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.HIDRM.0",
+            "lang": "swift",
+            "addr": 4295184930
+          },
+          {
+            "name": "1",
+            "flag": "method.HIDRM.1",
+            "lang": "swift",
+            "addr": 4295184938
+          },
+          {
+            "name": "2",
+            "flag": "method.HIDRM.2",
+            "lang": "swift",
+            "addr": 4295184946
+          },
+          {
+            "name": "3",
+            "flag": "method.HIDRM.3",
+            "lang": "swift",
+            "addr": 4295184954
+          },
+          {
+            "name": "4",
+            "flag": "method.HIDRM.4",
+            "lang": "swift",
+            "addr": 4295184962
+          },
+          {
+            "name": "5",
+            "flag": "method.HIDRM.5",
+            "lang": "swift",
+            "addr": 4295250506
+          }
+        ]
+      },
+      {
+        "classname": "TRM_HIDRM",
+        "addr": 217692,
+        "lang": "swift",
+        "index": 17,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.TRM_HIDRM.0",
+            "lang": "swift",
+            "addr": 4295240475
+          },
+          {
+            "name": "1",
+            "flag": "method.TRM_HIDRM.1",
+            "lang": "swift",
+            "addr": 4295239165
+          },
+          {
+            "name": "2",
+            "flag": "method.TRM_HIDRM.2",
+            "lang": "swift",
+            "addr": 4295191984
+          }
+        ]
+      },
+      {
+        "classname": "ACMError",
+        "addr": 217768,
+        "lang": "swift",
+        "index": 18,
+        "fields": [
+          {
+            "name": "error",
+            "kind": "property",
+            "addr": 4295186615
+          }
+        ]
+      },
+      {
+        "classname": "LockdownModeFirewall",
+        "addr": 217796,
+        "lang": "swift",
+        "index": 19,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.LockdownModeFirewall.0",
+            "lang": "swift",
+            "addr": 4295185148
+          },
+          {
+            "name": "1",
+            "flag": "method.LockdownModeFirewall.1",
+            "lang": "swift",
+            "addr": 4295185156
+          },
+          {
+            "name": "2",
+            "flag": "method.LockdownModeFirewall.2",
+            "lang": "swift",
+            "addr": 4295185164
+          },
+          {
+            "name": "3",
+            "flag": "method.LockdownModeFirewall.3",
+            "lang": "swift",
+            "addr": 4295185172
+          },
+          {
+            "name": "4",
+            "flag": "method.LockdownModeFirewall.4",
+            "lang": "swift",
+            "addr": 4295185180
+          },
+          {
+            "name": "5",
+            "flag": "method.LockdownModeFirewall.5",
+            "lang": "swift",
+            "addr": 4295183252
+          },
+          {
+            "name": "func.100025fc4",
+            "flag": "method.LockdownModeFirewall.func.100025fc4",
+            "lang": "swift",
+            "addr": 4295122884
+          },
+          {
+            "name": "7",
+            "flag": "method.LockdownModeFirewall.7",
+            "lang": "swift",
+            "addr": 4295185204
+          }
+        ]
+      },
+      {
+        "classname": "SocketFilterFirewallFeatureFlags",
+        "addr": 217888,
+        "lang": "swift",
+        "index": 20,
+        "fields": [
+          {
+            "name": "NEFilterDataProvider",
+            "kind": "property",
+            "addr": 4295186624
+          }
+        ]
+      },
+      {
+        "classname": "RestrictionsManager",
+        "addr": 217916,
+        "lang": "swift",
+        "index": 21,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.RestrictionsManager.0",
+            "lang": "swift",
+            "addr": 4295185339
+          },
+          {
+            "name": "1",
+            "flag": "method.RestrictionsManager.1",
+            "lang": "swift",
+            "addr": 4295185297
+          },
+          {
+            "name": "2",
+            "flag": "method.RestrictionsManager.2",
+            "lang": "swift",
+            "addr": 4295185503
+          },
+          {
+            "name": "3",
+            "flag": "method.RestrictionsManager.3",
+            "lang": "swift",
+            "addr": 4295185541
+          },
+          {
+            "name": "4",
+            "flag": "method.RestrictionsManager.4",
+            "lang": "swift",
+            "addr": 4295185411
+          },
+          {
+            "name": "5",
+            "flag": "method.RestrictionsManager.5",
+            "lang": "swift",
+            "addr": 4295185434
+          },
+          {
+            "name": "6",
+            "flag": "method.RestrictionsManager.6",
+            "lang": "swift",
+            "addr": 4295185354
+          },
+          {
+            "name": "7",
+            "flag": "method.RestrictionsManager.7",
+            "lang": "swift",
+            "addr": 4295185574
+          }
+        ],
+        "fields": [
+          {
+            "name": "version",
+            "kind": "property",
+            "type": "Swift.Int",
+            "addr": 4295186674
+          },
+          {
+            "name": "restrictions",
+            "kind": "property",
+            "type": "SDy\u0001\u0012\t",
+            "addr": 4295186682
+          },
+          {
+            "name": "hasExistingRestrictions",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295186704
+          }
+        ]
+      },
+      {
+        "classname": "RestrictionKey",
+        "addr": 218104,
+        "lang": "swift",
+        "index": 22,
+        "fields": [
+          {
+            "name": "firewall",
+            "kind": "property",
+            "addr": 4295186728
+          },
+          {
+            "name": "trm",
+            "kind": "property",
+            "addr": 4295186737
+          },
+          {
+            "name": "sharedAlbums",
+            "kind": "property",
+            "addr": 4295186741
+          },
+          {
+            "name": "airPlayReceiver",
+            "kind": "property",
+            "addr": 4295186754
+          },
+          {
+            "name": "airDropAutoAccept",
+            "kind": "property",
+            "addr": 4295186784
+          },
+          {
+            "name": "airDropDiscoverableMode",
+            "kind": "property",
+            "addr": 4295186816
+          }
+        ]
+      },
+      {
+        "classname": "NVRAMError",
+        "addr": 218132,
+        "lang": "swift",
+        "index": 23,
+        "fields": [
+          {
+            "name": "unknownError",
+            "kind": "property",
+            "addr": 4295186848
+          },
+          {
+            "name": "ioRegistryEntry",
+            "kind": "property",
+            "addr": 4295186861
+          },
+          {
+            "name": "failedToSetProperty",
+            "kind": "property",
+            "addr": 4295186880
+          }
+        ]
+      },
+      {
+        "classname": "AnalyticsManager",
+        "addr": 218160,
+        "lang": "swift",
+        "index": 24
+      },
+      {
+        "classname": "Restriction",
+        "addr": 218228,
+        "lang": "swift",
+        "index": 25,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.Restriction.0",
+            "lang": "swift",
+            "addr": 4295185720
+          },
+          {
+            "name": "1",
+            "flag": "method.Restriction.1",
+            "lang": "swift",
+            "addr": 4295185715
+          },
+          {
+            "name": "2",
+            "flag": "method.Restriction.2",
+            "lang": "swift",
+            "addr": 4295185802
+          },
+          {
+            "name": "3",
+            "flag": "method.Restriction.3",
+            "lang": "swift",
+            "addr": 4295185645
+          },
+          {
+            "name": "4",
+            "flag": "method.Restriction.4",
+            "lang": "swift",
+            "addr": 4295185655
+          },
+          {
+            "name": "5",
+            "flag": "method.Restriction.5",
+            "lang": "swift",
+            "addr": 4295185892
+          },
+          {
+            "name": "6",
+            "flag": "method.Restriction.6",
+            "lang": "swift",
+            "addr": 4295185842
+          },
+          {
+            "name": "7",
+            "flag": "method.Restriction.7",
+            "lang": "swift",
+            "addr": 4295185849
+          },
+          {
+            "name": "8",
+            "flag": "method.Restriction.8",
+            "lang": "swift",
+            "addr": 4295185934
+          },
+          {
+            "name": "9",
+            "flag": "method.Restriction.9",
+            "lang": "swift",
+            "addr": 4295185933
+          },
+          {
+            "name": "10",
+            "flag": "method.Restriction.10",
+            "lang": "swift",
+            "addr": 4295185772
+          },
+          {
+            "name": "11",
+            "flag": "method.Restriction.11",
+            "lang": "swift",
+            "addr": 4295185893
+          },
+          {
+            "name": "12",
+            "flag": "method.Restriction.12",
+            "lang": "swift",
+            "addr": 4295185959
+          },
+          {
+            "name": "13",
+            "flag": "method.Restriction.13",
+            "lang": "swift",
+            "addr": 4295185926
+          },
+          {
+            "name": "14",
+            "flag": "method.Restriction.14",
+            "lang": "swift",
+            "addr": 4295185874
+          },
+          {
+            "name": "15",
+            "flag": "method.Restriction.15",
+            "lang": "swift",
+            "addr": 4295185823
+          },
+          {
+            "name": "16",
+            "flag": "method.Restriction.16",
+            "lang": "swift",
+            "addr": 4295185904
+          },
+          {
+            "name": "17",
+            "flag": "method.Restriction.17",
+            "lang": "swift",
+            "addr": 4295185974
+          },
+          {
+            "name": "18",
+            "flag": "method.Restriction.18",
+            "lang": "swift",
+            "addr": 4295185907
+          },
+          {
+            "name": "19",
+            "flag": "method.Restriction.19",
+            "lang": "swift",
+            "addr": 4295185833
+          },
+          {
+            "name": "20",
+            "flag": "section.12.__TEXT.__swift5_reflstr",
+            "lang": "swift",
+            "addr": 4295185952
+          },
+          {
+            "name": "21",
+            "flag": "method.Restriction.21",
+            "lang": "swift",
+            "addr": 4295185968
+          },
+          {
+            "name": "22",
+            "flag": "method.Restriction.22",
+            "lang": "swift",
+            "addr": 4295185845
+          },
+          {
+            "name": "23",
+            "flag": "method.Restriction.23",
+            "lang": "swift",
+            "addr": 4295185990
+          },
+          {
+            "name": "24",
+            "flag": "method.Restriction.24",
+            "lang": "swift",
+            "addr": 4295185861
+          },
+          {
+            "name": "25",
+            "flag": "method.Restriction.25",
+            "lang": "swift",
+            "addr": 4295185975
+          },
+          {
+            "name": "26",
+            "flag": "method.Restriction.26",
+            "lang": "swift",
+            "addr": 4295185832
+          },
+          {
+            "name": "27",
+            "flag": "method.Restriction.27",
+            "lang": "swift",
+            "addr": 4295186010
+          },
+          {
+            "name": "28",
+            "flag": "method.Restriction.28",
+            "lang": "swift",
+            "addr": 4295185862
+          }
+        ],
+        "fields": [
+          {
+            "name": "getter",
+            "kind": "property",
+            "type": "ypyc",
+            "addr": 4295186912
+          },
+          {
+            "name": "setter",
+            "kind": "property",
+            "type": "yypc",
+            "addr": 4295186919
+          },
+          {
+            "name": "defaultValue",
+            "kind": "property",
+            "type": "ypSg",
+            "addr": 4295186926
+          },
+          {
+            "name": "innerStoredValue",
+            "kind": "property",
+            "type": "ypSg",
+            "addr": 4295186944
+          },
+          {
+            "name": "innerStoredChanged",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295186976
+          },
+          {
+            "name": "innerCurrentChanged",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295187008
+          },
+          {
+            "name": "trackChanges",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295187028
+          },
+          {
+            "name": "entitlementSuffix",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295187056
+          }
+        ]
+      },
+      {
+        "classname": "LockdownModeControlCenter",
+        "addr": 218568,
+        "lang": "swift",
+        "index": 26,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.LockdownModeControlCenter.0",
+            "lang": "swift",
+            "addr": 4295186101
+          },
+          {
+            "name": "1",
+            "flag": "method.LockdownModeControlCenter.1",
+            "lang": "swift",
+            "addr": 4295186091
+          },
+          {
+            "name": "2",
+            "flag": "method.LockdownModeControlCenter.2",
+            "lang": "swift",
+            "addr": 4295185972
+          },
+          {
+            "name": "3",
+            "flag": "method.LockdownModeControlCenter.3",
+            "lang": "swift",
+            "addr": 4295186006
+          }
+        ]
+      },
+      {
+        "classname": "TNUIManager",
+        "addr": 4295234336,
+        "lang": "objc",
+        "index": 27,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.TNUIManager.init",
+            "lang": "objc",
+            "addr": 4294975632
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.TNUIManager.dealloc",
+            "lang": "objc",
+            "addr": 4294975860
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.TNUIManager..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294976068
+          },
+          {
+            "name": "sharedInstance",
+            "flag": "method.class.TNUIManager.sharedInstance",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294975936
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_cfuNotifyToken",
+            "kind": "var",
+            "type": "i",
+            "addr": 4295234280
+          },
+          {
+            "name": "_dispatchQueue",
+            "kind": "var",
+            "type": "@\"NSObject<OS_dispatch_queue>\"",
+            "addr": 4295234284
+          },
+          {
+            "name": "_logger",
+            "kind": "var",
+            "type": "@\"NSObject<OS_os_log>\"",
+            "addr": 4295234288
+          },
+          {
+            "name": "_userDefaults",
+            "kind": "var",
+            "type": "@\"NSUserDefaults\"",
+            "addr": 4295234292
+          },
+          {
+            "name": "sharedInstance",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "lockdownmoded.LockdownModeDaemon",
+        "addr": 4295235600,
+        "lang": "objc",
+        "index": 28,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "lockdownModeServer",
+            "kind": "var",
+            "addr": 4295167400
+          }
+        ]
+      },
+      {
+        "classname": "lockdownmoded.LockdownModePhotos",
+        "addr": 4295236528,
+        "lang": "objc",
+        "index": 29,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ]
+      },
+      {
+        "classname": "lockdownmoded.LockdownModeSharing",
+        "addr": 4295236744,
+        "lang": "objc",
+        "index": 30,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ]
+      },
+      {
+        "classname": "lockdownmoded.AirDropDiscoveryController",
+        "addr": 4295236960,
+        "lang": "objc",
+        "index": 31,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "discoveryControllerSettingsDidChange:",
+            "flag": "method.lockdownmoded.AirDropDiscoveryController.discoveryControllerSettingsDidChange:",
+            "lang": "objc",
+            "addr": 4294995492
+          },
+          {
+            "name": "init",
+            "flag": "method.lockdownmoded.AirDropDiscoveryController.init",
+            "lang": "objc",
+            "addr": 4294995620
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.lockdownmoded.AirDropDiscoveryController..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294995836
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "discoveryController",
+            "kind": "var",
+            "addr": 4295236944
+          },
+          {
+            "name": "discoverableMode",
+            "kind": "var",
+            "addr": 4295236952
+          }
+        ]
+      },
+      {
+        "classname": "lockdownmoded.NotificationsManager",
+        "addr": 4295237176,
+        "lang": "objc",
+        "index": 32,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:",
+            "flag": "method.lockdownmoded.NotificationsManager.userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:",
+            "lang": "objc",
+            "addr": 4295007836
+          },
+          {
+            "name": "init",
+            "flag": "method.lockdownmoded.NotificationsManager.init",
+            "lang": "objc",
+            "addr": 4294998944
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.lockdownmoded.NotificationsManager..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295007692
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "delegate",
+            "kind": "var",
+            "addr": 4295237152
+          },
+          {
+            "name": "notificationCenter",
+            "kind": "var",
+            "addr": 4295237160
+          },
+          {
+            "name": "queue",
+            "kind": "var",
+            "addr": 4295237168
+          }
+        ]
+      },
+      {
+        "classname": "lockdownmoded.LockdownModeServer",
+        "addr": 4295237552,
+        "lang": "objc",
+        "index": 33,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.lockdownmoded.LockdownModeServer.init",
+            "lang": "objc",
+            "addr": 4295021748
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.lockdownmoded.LockdownModeServer.dealloc",
+            "lang": "objc",
+            "addr": 4295021896
+          },
+          {
+            "name": "listener:shouldAcceptNewConnection:",
+            "flag": "method.lockdownmoded.LockdownModeServer.listener:shouldAcceptNewConnection:",
+            "lang": "objc",
+            "addr": 4295048224
+          },
+          {
+            "name": "setEnabledWithEnabled:options:completion:",
+            "flag": "method.lockdownmoded.LockdownModeServer.setEnabledWithEnabled:options:completion:",
+            "lang": "objc",
+            "addr": 4295053800
+          },
+          {
+            "name": "getEnabledInAccountWithSynchronize:completion:",
+            "flag": "method.lockdownmoded.LockdownModeServer.getEnabledInAccountWithSynchronize:completion:",
+            "lang": "objc",
+            "addr": 4295055752
+          },
+          {
+            "name": "notifyRestrictionChanged:completion:",
+            "flag": "method.lockdownmoded.LockdownModeServer.notifyRestrictionChanged:completion:",
+            "lang": "objc",
+            "addr": 4295057784
+          },
+          {
+            "name": "enableIfNeededWithReboot:completion:",
+            "flag": "method.lockdownmoded.LockdownModeServer.enableIfNeededWithReboot:completion:",
+            "lang": "objc",
+            "addr": 4295059824
+          },
+          {
+            "name": "migrateIfNeededWithCompletion:",
+            "flag": "method.lockdownmoded.LockdownModeServer.migrateIfNeededWithCompletion:",
+            "lang": "objc",
+            "addr": 4295061752
+          },
+          {
+            "name": "rebootIfNeededWithCompletion:",
+            "flag": "method.lockdownmoded.LockdownModeServer.rebootIfNeededWithCompletion:",
+            "lang": "objc",
+            "addr": 4295063532
+          },
+          {
+            "name": "setManagedConfigurationStateWithEnabled:completion:",
+            "flag": "method.lockdownmoded.LockdownModeServer.setManagedConfigurationStateWithEnabled:completion:",
+            "lang": "objc",
+            "addr": 4295065648
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.lockdownmoded.LockdownModeServer..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295021992
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$__lazy_storage_$_notificationsManager",
+            "kind": "var",
+            "addr": 4295237504
+          },
+          {
+            "name": "$__lazy_storage_$_keyValueStore",
+            "kind": "var",
+            "addr": 4295237512
+          },
+          {
+            "name": "listener",
+            "kind": "var",
+            "addr": 4295237456
+          },
+          {
+            "name": "eventsQueue",
+            "kind": "var",
+            "addr": 4295237520
+          },
+          {
+            "name": "enablementPromptShown",
+            "kind": "var",
+            "addr": 4295237528
+          },
+          {
+            "name": "skipNextKVSSync",
+            "kind": "var",
+            "addr": 4295237536
+          },
+          {
+            "name": "_cachedEnabled",
+            "kind": "var",
+            "addr": 4295237480
+          },
+          {
+            "name": "$__lazy_storage_$_deviceKVSKey",
+            "kind": "var",
+            "addr": 4295237544
+          }
+        ]
+      },
+      {
+        "classname": "lockdownmoded.LockdownModeACM",
+        "addr": 4295237856,
+        "lang": "objc",
+        "index": 34,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ]
+      },
+      {
+        "classname": "lockdownmoded.LockdownModeACM._E4AC4D123C9B5B3ABED5B751DF9336CD.TRM",
+        "addr": 4295238056,
+        "lang": "objc",
+        "index": 35,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ]
+      },
+      {
+        "classname": "lockdownmoded.LockdownModeACM._E4AC4D123C9B5B3ABED5B751DF9336CD.HIDRM",
+        "addr": 4295238280,
+        "lang": "objc",
+        "index": 36,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ]
+      },
+      {
+        "classname": "lockdownmoded.LockdownModeACM._E4AC4D123C9B5B3ABED5B751DF9336CD.TRM_HIDRM",
+        "addr": 4295238480,
+        "lang": "objc",
+        "index": 37,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ]
+      },
+      {
+        "classname": "lockdownmoded.LockdownModeFirewall",
+        "addr": 4295238672,
+        "lang": "objc",
+        "index": 38,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ]
+      },
+      {
+        "classname": "lockdownmoded.RestrictionsManager",
+        "addr": 4295238904,
+        "lang": "objc",
+        "index": 39,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "version",
+            "kind": "var",
+            "addr": 4295171480
+          },
+          {
+            "name": "restrictions",
+            "kind": "var",
+            "addr": 4295171488
+          },
+          {
+            "name": "hasExistingRestrictions",
+            "kind": "var",
+            "addr": 4295171496
+          }
+        ]
+      },
+      {
+        "classname": "lockdownmoded.AnalyticsManager",
+        "addr": 4295239264,
+        "lang": "objc",
+        "index": 40,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ]
+      },
+      {
+        "classname": "lockdownmoded.Restriction",
+        "addr": 4295239448,
+        "lang": "objc",
+        "index": 41,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "getter",
+            "kind": "var",
+            "addr": 4295171912
+          },
+          {
+            "name": "setter",
+            "kind": "var",
+            "addr": 4295171920
+          },
+          {
+            "name": "defaultValue",
+            "kind": "var",
+            "addr": 4295171928
+          },
+          {
+            "name": "innerStoredValue",
+            "kind": "var",
+            "addr": 4295171936
+          },
+          {
+            "name": "innerStoredChanged",
+            "kind": "var",
+            "addr": 4295171944
+          },
+          {
+            "name": "innerCurrentChanged",
+            "kind": "var",
+            "addr": 4295171952
+          },
+          {
+            "name": "trackChanges",
+            "kind": "var",
+            "addr": 4295171960
+          },
+          {
+            "name": "entitlementSuffix",
+            "kind": "var",
+            "addr": 4295171968
+          }
+        ]
+      },
+      {
+        "classname": "lockdownmoded.LockdownModeControlCenter",
+        "addr": 4295239944,
+        "lang": "objc",
+        "index": 42,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ]
+      }
+    ],
+    "swift_metadata": {
+      "is_swift": true,
+      "symbols": [
+        {
+          "name": "imp.$s10Foundation13__DataStorageC5bytes6length4copy11deallocator6offsetACSvSg_SiSbySv_SitcSgSitcfc",
+          "demname": "Foundation.__DataStorage.bytes.allocator(...itcSgSitcfc)",
+          "flagname": "sym.imp.Foundation.__DataStorage.bytes.allocator_...itcSgSitcfc_",
+          "realname": "Foundation.__DataStorage.bytes.allocator(...itcSgSitcfc)",
+          "ordinal": 2,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162048,
+          "paddr": 538816,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation13__DataStorageC6_bytesSvSgvg",
+          "demname": "Foundation.__DataStorage._bytes.allocator__UnsafeMutableRawPointer -> ().Sgvg",
+          "flagname": "sym.imp.Foundation.__DataStorage._bytes.allocator__UnsafeMutableRawPointer______.Sgvg",
+          "realname": "Foundation.__DataStorage._bytes.allocator__UnsafeMutableRawPointer -> ().Sgvg",
+          "ordinal": 3,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162064,
+          "paddr": 538832,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation13__DataStorageC6lengthACSi_tcfc",
+          "demname": "Foundation.__DataStorage.length.allocator.: allocator, length.: allocator, A.CSi_tcfc",
+          "flagname": "sym.imp.Foundation.__DataStorage.length.allocator.:_allocator__length.:_allocator__A.CSi_tcfc",
+          "realname": "Foundation.__DataStorage.length.allocator.: allocator, length.: allocator, A.CSi_tcfc",
+          "ordinal": 4,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162080,
+          "paddr": 538848,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation13__DataStorageC7_lengthSivg",
+          "demname": "getter Foundation.__DataStorage._length.allocator__Swift.Int -> (): allocator_lengthallocatorS(...vg)",
+          "flagname": "sym.imp.getter_Foundation.__DataStorage._length.allocator__Swift.Int______:_allocator_lengthallocatorS_...vg_",
+          "realname": "getter Foundation.__DataStorage._length.allocator__Swift.Int -> (): allocator_lengthallocatorS(...vg)",
+          "ordinal": 5,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162096,
+          "paddr": 538864,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation13__DataStorageC7_offsetSivg",
+          "demname": "getter Foundation.__DataStorage._offset.allocator__Swift.Int -> (): allocator_offsetallocatorS(...vg)",
+          "flagname": "sym.imp.getter_Foundation.__DataStorage._offset.allocator__Swift.Int______:_allocator_offsetallocatorS_...vg_",
+          "realname": "getter Foundation.__DataStorage._offset.allocator__Swift.Int -> (): allocator_offsetallocatorS(...vg)",
+          "ordinal": 6,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162112,
+          "paddr": 538880,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation13__DataStorageCMa",
+          "demname": "Foundation.__DataStorage.allocator(...a)",
+          "flagname": "sym.imp.Foundation.__DataStorage.allocator_...a_",
+          "realname": "Foundation.__DataStorage.allocator(...a)",
+          "ordinal": 7,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162128,
+          "paddr": 538896,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation14LocalizedErrorPAAE10helpAnchorSSSgvg",
+          "demname": "Foundation.LocalizedError..helpAnchor(...Sgvg)",
+          "flagname": "sym.imp.Foundation.LocalizedError..helpAnchor_...Sgvg_",
+          "realname": "Foundation.LocalizedError..helpAnchor(...Sgvg)",
+          "ordinal": 8,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162144,
+          "paddr": 538912,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation14LocalizedErrorPAAE13failureReasonSSSgvg",
+          "demname": "Foundation.LocalizedError..failureReason(...Sgvg)",
+          "flagname": "sym.imp.Foundation.LocalizedError..failureReason_...Sgvg_",
+          "realname": "Foundation.LocalizedError..failureReason(...Sgvg)",
+          "ordinal": 9,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162160,
+          "paddr": 538928,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation14LocalizedErrorPAAE18recoverySuggestionSSSgvg",
+          "demname": "Foundation.LocalizedError..recoverySuggestion(...Sgvg)",
+          "flagname": "sym.imp.Foundation.LocalizedError..recoverySuggestion_...Sgvg_",
+          "realname": "Foundation.LocalizedError..recoverySuggestion(...Sgvg)",
+          "ordinal": 10,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162176,
+          "paddr": 538944,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation17NSLocalizedString_9tableName6bundle5value7commentS2S_SSSgSo8NSBundleCS2StF",
+          "demname": "Foundation.NSLocalizedString.tableName.bundle__String(...SgSo8NSBundleCS2StF)",
+          "flagname": "sym.imp.Foundation.NSLocalizedString.tableName.bundle__String_...SgSo8NSBundleCS2StF_",
+          "realname": "Foundation.NSLocalizedString.tableName.bundle__String(...SgSo8NSBundleCS2StF)",
+          "ordinal": 11,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162192,
+          "paddr": 538960,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation18_ErrorCodeProtocolPAAE2teoiySbx_s0B0_ptFZ",
+          "demname": "Foundation._ErrorCodeProtocol.(...tFZ)",
+          "flagname": "sym.imp.Foundation._ErrorCodeProtocol._...tFZ_",
+          "realname": "Foundation._ErrorCodeProtocol.(...tFZ)",
+          "ordinal": 12,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162208,
+          "paddr": 538976,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation21_BridgedStoredNSErrorPAAE012_getEmbeddedD0yXlSgyF",
+          "demname": "Foundation._BridgedStoredNSError.(...etEmbeddedD0yXlSgyF)",
+          "flagname": "sym.imp.Foundation._BridgedStoredNSError._...etEmbeddedD0yXlSgyF_",
+          "realname": "Foundation._BridgedStoredNSError.(...etEmbeddedD0yXlSgyF)",
+          "ordinal": 13,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162224,
+          "paddr": 538992,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation21_BridgedStoredNSErrorPAAE08_bridgedD0xSgSo0D0C_tcfC",
+          "demname": "Foundation._BridgedStoredNSError.bool(...cfC)",
+          "flagname": "sym.imp.Foundation._BridgedStoredNSError.bool_...cfC_",
+          "realname": "Foundation._BridgedStoredNSError.bool(...cfC)",
+          "ordinal": 14,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162240,
+          "paddr": 539008,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation21_BridgedStoredNSErrorPAAE13errorUserInfoSDySSypGvg",
+          "demname": "Foundation._BridgedStoredNSError..errorUserInfo(...ySSypGvg)",
+          "flagname": "sym.imp.Foundation._BridgedStoredNSError..errorUserInfo_...ySSypGvg_",
+          "realname": "Foundation._BridgedStoredNSError..errorUserInfo(...ySSypGvg)",
+          "ordinal": 15,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162256,
+          "paddr": 539024,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation21_BridgedStoredNSErrorPAAE2eeoiySbx_xtFZ",
+          "demname": "Foundation._BridgedStoredNSError.(...tFZ)",
+          "flagname": "sym.imp.Foundation._BridgedStoredNSError._...tFZ_",
+          "realname": "Foundation._BridgedStoredNSError.(...tFZ)",
+          "ordinal": 16,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162272,
+          "paddr": 539040,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation21_BridgedStoredNSErrorPAAE4hash4intoys6HasherVz_tF",
+          "demname": "Foundation._BridgedStoredNSError.(...F)",
+          "flagname": "sym.imp.Foundation._BridgedStoredNSError._...F_",
+          "realname": "Foundation._BridgedStoredNSError.(...F)",
+          "ordinal": 17,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162288,
+          "paddr": 539056,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation21_BridgedStoredNSErrorPAAE9errorCodeSivg",
+          "demname": "getter Foundation._BridgedStoredNSError..errorCode(...vg)",
+          "flagname": "sym.imp.getter_Foundation._BridgedStoredNSError..errorCode_...vg_",
+          "realname": "getter Foundation._BridgedStoredNSError..errorCode(...vg)",
+          "ordinal": 18,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162304,
+          "paddr": 539072,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation22_convertErrorToNSErrorySo0E0Cs0C0_pF",
+          "demname": "Foundation._convertErrorToNSError(...F)",
+          "flagname": "sym.imp.Foundation._convertErrorToNSError_...F_",
+          "realname": "Foundation._convertErrorToNSError(...F)",
+          "ordinal": 19,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162320,
+          "paddr": 539088,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation22_convertNSErrorToErrorys0E0_pSo0C0CSgF",
+          "demname": "Foundation._convertNSErrorToError(...So0C0CSgF)",
+          "flagname": "sym.imp.Foundation._convertNSErrorToError_...So0C0CSgF_",
+          "realname": "Foundation._convertNSErrorToError(...So0C0CSgF)",
+          "ordinal": 20,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162336,
+          "paddr": 539104,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation3URLV15fileURLWithPathACSSh_tcfC",
+          "demname": "Foundation.URL.fileURLWithPath(...cfC)",
+          "flagname": "sym.imp.Foundation.URL.fileURLWithPath_...cfC_",
+          "realname": "Foundation.URL.fileURLWithPath(...cfC)",
+          "ordinal": 21,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162352,
+          "paddr": 539120,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation3URLV19_bridgeToObjectiveCSo5NSURLCyF",
+          "demname": "Foundation.URL._bridgeToObjectiveC.NSURL(...F)",
+          "flagname": "sym.imp.Foundation.URL._bridgeToObjectiveC.NSURL_...F_",
+          "realname": "Foundation.URL._bridgeToObjectiveC.NSURL(...F)",
+          "ordinal": 22,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162368,
+          "paddr": 539136,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation3URLV22appendingPathComponentyACSSF",
+          "demname": "Foundation.URL.appendingPathComponent(...CSSF)",
+          "flagname": "sym.imp.Foundation.URL.appendingPathComponent_...CSSF_",
+          "realname": "Foundation.URL.appendingPathComponent(...CSSF)",
+          "ordinal": 23,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162384,
+          "paddr": 539152,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation3URLV4path14percentEncodedSSSb_tF",
+          "demname": "Foundation.URL.path.percentEncoded(...F)",
+          "flagname": "sym.imp.Foundation.URL.path.percentEncoded_...F_",
+          "realname": "Foundation.URL.path.percentEncoded(...F)",
+          "ordinal": 24,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162400,
+          "paddr": 539168,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation3URLV4pathSSvg",
+          "demname": "Foundation.URL.path(...vg)",
+          "flagname": "sym.imp.Foundation.URL.path_...vg_",
+          "realname": "Foundation.URL.path(...vg)",
+          "ordinal": 25,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162416,
+          "paddr": 539184,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation3URLV6stringACSgSSh_tcfC",
+          "demname": "Foundation.URL.string(...cfC)",
+          "flagname": "sym.imp.Foundation.URL.string_...cfC_",
+          "realname": "Foundation.URL.string(...cfC)",
+          "ordinal": 26,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162432,
+          "paddr": 539200,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation3URLVMa",
+          "demname": "Foundation.URL...VMa",
+          "flagname": "sym.imp.Foundation.URL...VMa",
+          "realname": "Foundation.URL...VMa",
+          "ordinal": 27,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162448,
+          "paddr": 539216,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4DataV10LargeSliceV21ensureUniqueReferenceyyF",
+          "demname": "Foundation.Data.LargeSlice.ensureUniqueReference(...F)",
+          "flagname": "sym.imp.Foundation.Data.LargeSlice.ensureUniqueReference_...F_",
+          "realname": "Foundation.Data.LargeSlice.ensureUniqueReference(...F)",
+          "ordinal": 28,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162464,
+          "paddr": 539232,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4DataV10contentsOf7optionsAcA3URLVh_So20NSDataReadingOptionsVtKcfC",
+          "demname": "Foundation.Data.contentsOf.options.URL.NSDataReadingOptions...VtKcfC",
+          "flagname": "sym.imp.Foundation.Data.contentsOf.options.URL.NSDataReadingOptions...VtKcfC",
+          "realname": "Foundation.Data.contentsOf.options.URL.NSDataReadingOptions...VtKcfC",
+          "ordinal": 29,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162480,
+          "paddr": 539248,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4DataV11InlineSliceV21ensureUniqueReferenceyyF",
+          "demname": "Foundation.Data.InlineSlice.ensureUniqueReference(...F)",
+          "flagname": "sym.imp.Foundation.Data.InlineSlice.ensureUniqueReference_...F_",
+          "realname": "Foundation.Data.InlineSlice.ensureUniqueReference(...F)",
+          "ordinal": 30,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162496,
+          "paddr": 539264,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4DataV19_bridgeToObjectiveCSo6NSDataCyF",
+          "demname": "Foundation.Data._bridgeToObjectiveC.NSData(...F)",
+          "flagname": "sym.imp.Foundation.Data._bridgeToObjectiveC.NSData_...F_",
+          "realname": "Foundation.Data._bridgeToObjectiveC.NSData(...F)",
+          "ordinal": 31,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162512,
+          "paddr": 539280,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4DateV21timeIntervalSince1970Sdvg",
+          "demname": "Foundation.Date.timeIntervalSince1970(...vg)",
+          "flagname": "sym.imp.Foundation.Date.timeIntervalSince1970_...vg_",
+          "realname": "Foundation.Date.timeIntervalSince1970(...vg)",
+          "ordinal": 32,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162528,
+          "paddr": 539296,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4DateVACycfC",
+          "demname": "Foundation.Date...VACycfC",
+          "flagname": "sym.imp.Foundation.Date...VACycfC",
+          "realname": "Foundation.Date...VACycfC",
+          "ordinal": 33,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162544,
+          "paddr": 539312,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4DateVMa",
+          "demname": "Foundation.Date...VMa",
+          "flagname": "sym.imp.Foundation.Date...VMa",
+          "realname": "Foundation.Date...VMa",
+          "ordinal": 34,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162560,
+          "paddr": 539328,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4UUIDV10uuidStringSSvg",
+          "demname": "Foundation.UUID.uuidString(...vg)",
+          "flagname": "sym.imp.Foundation.UUID.uuidString_...vg_",
+          "realname": "Foundation.UUID.uuidString(...vg)",
+          "ordinal": 35,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162576,
+          "paddr": 539344,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4UUIDVACycfC",
+          "demname": "Foundation.UUID...VACycfC",
+          "flagname": "sym.imp.Foundation.UUID...VACycfC",
+          "realname": "Foundation.UUID...VACycfC",
+          "ordinal": 36,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162592,
+          "paddr": 539360,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4UUIDVMa",
+          "demname": "Foundation.UUID...VMa",
+          "flagname": "sym.imp.Foundation.UUID...VMa",
+          "realname": "Foundation.UUID...VMa",
+          "ordinal": 37,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162608,
+          "paddr": 539376,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s12FeatureFlags02isA7EnabledySbAA0aB3Key_pF",
+          "demname": "FeatureFlags.is.Enabled(...F)",
+          "flagname": "sym.imp.FeatureFlags.is.Enabled_...F_",
+          "realname": "FeatureFlags.is.Enabled(...F)",
+          "ordinal": 38,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162624,
+          "paddr": 539392,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s12LockdownMode0aB3XNUC08lockdownB7EnabledSbvgZ",
+          "demname": "LockdownMode: ', XNU.lockdown.Enabled(...vgZ)",
+          "flagname": "sym.imp.LockdownMode:___XNU.lockdown.Enabled_...vgZ_",
+          "realname": "LockdownMode: ', XNU.lockdown.Enabled(...vgZ)",
+          "ordinal": 39,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162640,
+          "paddr": 539408,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s12LockdownMode0aB3XNUCMa",
+          "demname": "LockdownMode: 'XNU..metadata.accessor(...a)",
+          "flagname": "sym.imp.LockdownMode:_XNU..metadata.accessor_...a_",
+          "realname": "LockdownMode: 'XNU..metadata.accessor(...a)",
+          "ordinal": 40,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162656,
+          "paddr": 539424,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s12LockdownMode9ConstantsV11serviceNameSSvgZ",
+          "demname": "LockdownMode.Constants.serviceName(...vgZ)",
+          "flagname": "sym.imp.LockdownMode.Constants.serviceName_...vgZ_",
+          "realname": "LockdownMode.Constants.serviceName(...vgZ)",
+          "ordinal": 41,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162672,
+          "paddr": 539440,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s12LockdownMode9ConstantsV15userDefaultsKeySSvgZ",
+          "demname": "LockdownMode.Constants.userDefaultsKey(...vgZ)",
+          "flagname": "sym.imp.LockdownMode.Constants.userDefaultsKey_...vgZ_",
+          "realname": "LockdownMode.Constants.userDefaultsKey(...vgZ)",
+          "ordinal": 42,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162688,
+          "paddr": 539456,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s12LockdownMode9ConstantsV17stateOptionRebootSSvgZ",
+          "demname": "LockdownMode.Constants.stateOptionReboot(...vgZ)",
+          "flagname": "sym.imp.LockdownMode.Constants.stateOptionReboot_...vgZ_",
+          "realname": "LockdownMode.Constants.stateOptionReboot(...vgZ)",
+          "ordinal": 43,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162704,
+          "paddr": 539472,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s12LockdownMode9ConstantsV19stateOptionPasscodeSSvgZ",
+          "demname": "LockdownMode.Constants.stateOptionPasscode(...vgZ)",
+          "flagname": "sym.imp.LockdownMode.Constants.stateOptionPasscode_...vgZ_",
+          "realname": "LockdownMode.Constants.stateOptionPasscode(...vgZ)",
+          "ordinal": 44,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162720,
+          "paddr": 539488,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s12LockdownMode9ConstantsV21stateOptionAllDevicesSSvgZ",
+          "demname": "LockdownMode.Constants.stateOptionAllDevices(...vgZ)",
+          "flagname": "sym.imp.LockdownMode.Constants.stateOptionAllDevices_...vgZ_",
+          "realname": "LockdownMode.Constants.stateOptionAllDevices(...vgZ)",
+          "ordinal": 45,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162736,
+          "paddr": 539504,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s12LockdownMode9ConstantsV24stateOptionIncludePairedSSvgZ",
+          "demname": "LockdownMode.Constants.stateOptionIncludePaired(...vgZ)",
+          "flagname": "sym.imp.LockdownMode.Constants.stateOptionIncludePaired_...vgZ_",
+          "realname": "LockdownMode.Constants.stateOptionIncludePaired(...vgZ)",
+          "ordinal": 46,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162752,
+          "paddr": 539520,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s12LockdownMode9ConstantsV30stateOptionAcknowledgementOnlySSvgZ",
+          "demname": "LockdownMode.Constants.stateOptionAcknowledgementOnly(...vgZ)",
+          "flagname": "sym.imp.LockdownMode.Constants.stateOptionAcknowledgementOnly_...vgZ_",
+          "realname": "LockdownMode.Constants.stateOptionAcknowledgementOnly(...vgZ)",
+          "ordinal": 47,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162768,
+          "paddr": 539536,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s12LockdownMode9ConstantsV30stateOptionExcludeRestrictionsSSvgZ",
+          "demname": "LockdownMode.Constants.stateOptionExcludeRestrictions(...vgZ)",
+          "flagname": "sym.imp.LockdownMode.Constants.stateOptionExcludeRestrictions_...vgZ_",
+          "realname": "LockdownMode.Constants.stateOptionExcludeRestrictions(...vgZ)",
+          "ordinal": 48,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162784,
+          "paddr": 539552,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s12LockdownMode9ConstantsV32stateOptionRequireAuthenticationSSvgZ",
+          "demname": "LockdownMode.Constants.stateOptionRequireAuthentication(...vgZ)",
+          "flagname": "sym.imp.LockdownMode.Constants.stateOptionRequireAuthentication_...vgZ_",
+          "realname": "LockdownMode.Constants.stateOptionRequireAuthentication(...vgZ)",
+          "ordinal": 49,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162800,
+          "paddr": 539568,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13ControlCenter26AirPlayReceiverPreferencesC15receiverEnabledSbvg",
+          "demname": "ControlCenter.AirPlayReceiverPreferences.receiverEnabled.allocator__Bool: allocatorreceiverEnabled: allocatorSbool -> allocator",
+          "flagname": "sym.imp.ControlCenter.AirPlayReceiverPreferences.receiverEnabled.allocator__Bool:_allocatorreceiverEnabled:_allocatorSbool____allocator",
+          "realname": "ControlCenter.AirPlayReceiverPreferences.receiverEnabled.allocator__Bool: allocatorreceiverEnabled: allocatorSbool -> allocator",
+          "ordinal": 50,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162816,
+          "paddr": 539584,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13ControlCenter26AirPlayReceiverPreferencesC15receiverEnabledSbvs",
+          "demname": "ControlCenter.AirPlayReceiverPreferences.receiverEnabled.allocator__Bool: allocatorreceiverEnabled: allocatorSbool -> allocator",
+          "flagname": "sym.imp.ControlCenter.AirPlayReceiverPreferences.receiverEnabled.allocator__Bool:_allocatorreceiverEnabled:_allocatorSbool____allocator",
+          "realname": "ControlCenter.AirPlayReceiverPreferences.receiverEnabled.allocator__Bool: allocatorreceiverEnabled: allocatorSbool -> allocator",
+          "ordinal": 51,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162832,
+          "paddr": 539600,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13ControlCenter26AirPlayReceiverPreferencesC6sharedACvgZ",
+          "demname": "ControlCenter.AirPlayReceiverPreferences.shared.allocator.(...gZ)",
+          "flagname": "sym.imp.ControlCenter.AirPlayReceiverPreferences.shared.allocator._...gZ_",
+          "realname": "ControlCenter.AirPlayReceiverPreferences.shared.allocator.(...gZ)",
+          "ordinal": 52,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162848,
+          "paddr": 539616,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13ControlCenter26AirPlayReceiverPreferencesCMa",
+          "demname": "ControlCenter.AirPlayReceiverPreferences.allocator(...a)",
+          "flagname": "sym.imp.ControlCenter.AirPlayReceiverPreferences.allocator_...a_",
+          "realname": "ControlCenter.AirPlayReceiverPreferences.allocator(...a)",
+          "ordinal": 53,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162864,
+          "paddr": 539632,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s14CoreFoundation9_CFObjectPAAE2eeoiySbx_xtFZ",
+          "demname": "CoreFoundation._CFObject.(...tFZ)",
+          "flagname": "sym.imp.CoreFoundation._CFObject._...tFZ_",
+          "realname": "CoreFoundation._CFObject.(...tFZ)",
+          "ordinal": 54,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162880,
+          "paddr": 539648,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s14CoreFoundation9_CFObjectPAAE4hash4intoys6HasherVz_tF",
+          "demname": "CoreFoundation._CFObject.(...F)",
+          "flagname": "sym.imp.CoreFoundation._CFObject._...F_",
+          "realname": "CoreFoundation._CFObject.(...F)",
+          "ordinal": 55,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162896,
+          "paddr": 539664,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s14CoreFoundation9_CFObjectPAAE9hashValueSivg",
+          "demname": "getter CoreFoundation._CFObject..hashValue(...vg)",
+          "flagname": "sym.imp.getter_CoreFoundation._CFObject..hashValue_...vg_",
+          "realname": "getter CoreFoundation._CFObject..hashValue(...vg)",
+          "ordinal": 56,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162912,
+          "paddr": 539680,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s2os6LoggerV12LockdownModeE06daemonB0ACvgZ",
+          "demname": "os.Logger.LockdownMode.daemon...B0ACvgZ",
+          "flagname": "sym.imp.os.Logger.LockdownMode.daemon...B0ACvgZ",
+          "realname": "os.Logger.LockdownMode.daemon...B0ACvgZ",
+          "ordinal": 57,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162928,
+          "paddr": 539696,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s2os6LoggerV9logObjectSo03OS_a1_C0Cvg",
+          "demname": "os.Logger.logObject.OS_._...C0Cvg",
+          "flagname": "sym.imp.os.Logger.logObject.OS_._...C0Cvg",
+          "realname": "os.Logger.logObject.OS_._...C0Cvg",
+          "ordinal": 58,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162944,
+          "paddr": 539712,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s2os6LoggerVMa",
+          "demname": "os.Logger...VMa",
+          "flagname": "sym.imp.os.Logger...VMa",
+          "realname": "os.Logger...VMa",
+          "ordinal": 59,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162960,
+          "paddr": 539728,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s3XPC0A15_EVENT_KEY_NAMESPys4Int8VGvg",
+          "demname": "XPC._EVENT_KEY_NAME(...Pys4Int8VGvg)",
+          "flagname": "sym.imp.XPC._EVENT_KEY_NAME_...Pys4Int8VGvg_",
+          "realname": "XPC._EVENT_KEY_NAME(...Pys4Int8VGvg)",
+          "ordinal": 60,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162976,
+          "paddr": 539744,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Dispatch0A13TimeoutResultO2eeoiySbAC_ACtFZ",
+          "demname": "Dispatch.TimeoutResult.ee.(...FZ)",
+          "flagname": "sym.imp.Dispatch.TimeoutResult.ee._...FZ_",
+          "realname": "Dispatch.TimeoutResult.ee.(...FZ)",
+          "ordinal": 61,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295162992,
+          "paddr": 539760,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Dispatch0A13WorkItemFlagsVMa",
+          "demname": "Dispatch.WorkItemFlags...VMa",
+          "flagname": "sym.imp.Dispatch.WorkItemFlags...VMa",
+          "realname": "Dispatch.WorkItemFlags...VMa",
+          "ordinal": 62,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295163008,
+          "paddr": 539776,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Dispatch0A3QoSV11unspecifiedACvgZ",
+          "demname": "Dispatch.QoS.unspecified(...vgZ)",
+          "flagname": "sym.imp.Dispatch.QoS.unspecified_...vgZ_",
+          "realname": "Dispatch.QoS.unspecified(...vgZ)",
+          "ordinal": 63,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295163024,
+          "paddr": 539792,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Dispatch0A3QoSV13userInitiatedACvgZ",
+          "demname": "Dispatch.QoS.userInitiated(...vgZ)",
+          "flagname": "sym.imp.Dispatch.QoS.userInitiated_...vgZ_",
+          "realname": "Dispatch.QoS.userInitiated(...vgZ)",
+          "ordinal": 64,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295163040,
+          "paddr": 539808,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Dispatch0A3QoSV7utilityACvgZ",
+          "demname": "Dispatch.QoS.utility(...vgZ)",
+          "flagname": "sym.imp.Dispatch.QoS.utility_...vgZ_",
+          "realname": "Dispatch.QoS.utility(...vgZ)",
+          "ordinal": 65,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295163056,
+          "paddr": 539824,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Dispatch0A3QoSVMa",
+          "demname": "Dispatch.QoS...VMa",
+          "flagname": "sym.imp.Dispatch.QoS...VMa",
+          "realname": "Dispatch.QoS...VMa",
+          "ordinal": 66,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295163072,
+          "paddr": 539840,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Dispatch0A4TimeV3nowACyFZ",
+          "demname": "Dispatch.Time.now(...yFZ)",
+          "flagname": "sym.imp.Dispatch.Time.now_...yFZ_",
+          "realname": "Dispatch.Time.now(...yFZ)",
+          "ordinal": 67,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295163088,
+          "paddr": 539856,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Dispatch0A4TimeVMa",
+          "demname": "Dispatch.Time...VMa",
+          "flagname": "sym.imp.Dispatch.Time...VMa",
+          "realname": "Dispatch.Time...VMa",
+          "ordinal": 68,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295163104,
+          "paddr": 539872,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Dispatch1poiyAA0A4TimeVAD_SdtF",
+          "demname": "Dispatch.p(...dtF)",
+          "flagname": "sym.imp.Dispatch.p_...dtF_",
+          "realname": "Dispatch.p(...dtF)",
+          "ordinal": 69,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295163120,
+          "paddr": 539888,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSD10FoundationE19_bridgeToObjectiveCSo12NSDictionaryCyF",
+          "demname": "Foundationbool(...ridgeToObjectiveCSo12NSDictionaryCyF)",
+          "flagname": "sym.imp.Foundationbool_...ridgeToObjectiveCSo12NSDictionaryCyF_",
+          "realname": "Foundationbool(...ridgeToObjectiveCSo12NSDictionaryCyF)",
+          "ordinal": 70,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295163136,
+          "paddr": 539904,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSD10FoundationE36_unconditionallyBridgeFromObjectiveCySDyxq_GSo12NSDictionaryCSgFZ",
+          "demname": "Foundation.NSDictionary(...gFZ)",
+          "flagname": "sym.imp.Foundation.NSDictionary_...gFZ_",
+          "realname": "Foundation.NSDictionary(...gFZ)",
+          "ordinal": 71,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295163152,
+          "paddr": 539920,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSD11descriptionSSvg",
+          "demname": "description__String(...vg)",
+          "flagname": "sym.imp.description__String_...vg_",
+          "realname": "description__String(...vg)",
+          "ordinal": 72,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295163168,
+          "paddr": 539936,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSH4hash4intoys6HasherVz_tFTj",
+          "demname": "hash.into(...FTj)",
+          "flagname": "sym.imp.hash.into_...FTj_",
+          "realname": "hash.into(...FTj)",
+          "ordinal": 73,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295163184,
+          "paddr": 539952,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF",
+          "demname": "Foundationbool(...ridgeToObjectiveCSo8NSStringCyF)",
+          "flagname": "sym.imp.Foundationbool_...ridgeToObjectiveCSo8NSStringCyF_",
+          "realname": "Foundationbool(...ridgeToObjectiveCSo8NSStringCyF)",
+          "ordinal": 74,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295163200,
+          "paddr": 539968,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSS10FoundationE26_forceBridgeFromObjectiveC_6resultySo8NSStringC_SSSgztFZ",
+          "demname": "Foundation__String(...SgztFZ)",
+          "flagname": "sym.imp.Foundation__String_...SgztFZ_",
+          "realname": "Foundation__String(...SgztFZ)",
+          "ordinal": 75,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295163216,
+          "paddr": 539984,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSS10FoundationE34_conditionallyBridgeFromObjectiveC_6resultSbSo8NSStringC_SSSgztFZ",
+          "demname": "Foundation__String(...SgztFZ)",
+          "flagname": "sym.imp.Foundation__String_...SgztFZ_",
+          "realname": "Foundation__String(...SgztFZ)",
+          "ordinal": 76,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295163232,
+          "paddr": 540000,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ",
+          "demname": "Foundation(...nconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ)",
+          "flagname": "sym.imp.Foundation_...nconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ_",
+          "realname": "Foundation(...nconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ)",
+          "ordinal": 77,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295163248,
+          "paddr": 540016,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSS10FoundationE4data5using20allowLossyConversionAA4DataVSgSSAAE8EncodingV_SbtF",
+          "demname": "Foundation(...btF)",
+          "flagname": "sym.imp.Foundation_...btF_",
+          "realname": "Foundation(...btF)",
+          "ordinal": 78,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295163264,
+          "paddr": 540032,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSS10FoundationE8EncodingV4utf8ACvgZ",
+          "demname": "Foundation.Encoding.utf8(...vgZ)",
+          "flagname": "sym.imp.Foundation.Encoding.utf8_...vgZ_",
+          "realname": "Foundation.Encoding.utf8(...vgZ)",
+          "ordinal": 79,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295163280,
+          "paddr": 540048,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSS10FoundationE8EncodingVMa",
+          "demname": "Foundation.Encoding...VMa",
+          "flagname": "sym.imp.Foundation.Encoding...VMa",
+          "realname": "Foundation.Encoding...VMa",
+          "ordinal": 80,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295163296,
+          "paddr": 540064,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSS10describingSSx_tclufC",
+          "demname": "describing__String(...clufC)",
+          "flagname": "sym.imp.describing__String_...clufC_",
+          "realname": "describing__String(...clufC)",
+          "ordinal": 81,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295163312,
+          "paddr": 540080,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSS11utf8CStrings15ContiguousArrayVys4Int8VGvg",
+          "demname": "utf8CString.ContiguousArray.setter...Vys4Int8VGvg",
+          "flagname": "sym.imp.utf8CString.ContiguousArray.setter...Vys4Int8VGvg",
+          "realname": "utf8CString.ContiguousArray.setter...Vys4Int8VGvg",
+          "ordinal": 82,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295163328,
+          "paddr": 540096,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSS18_fromUTF8RepairingySS6result_Sb11repairsMadetSRys5UInt8VGFZ",
+          "demname": "_fromUTF8Repairing(...b11repairsMadetSRys5UInt8VGFZ)",
+          "flagname": "sym.imp._fromUTF8Repairing_...b11repairsMadetSRys5UInt8VGFZ_",
+          "realname": "_fromUTF8Repairing(...b11repairsMadetSRys5UInt8VGFZ)",
+          "ordinal": 83,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295163344,
+          "paddr": 540112,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSS4hash4intoys6HasherVz_tF",
+          "demname": "hash.into(...F)",
+          "flagname": "sym.imp.hash.into_...F_",
+          "realname": "hash.into(...F)",
+          "ordinal": 84,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295163360,
+          "paddr": 540128,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSS6appendyySSF",
+          "demname": "append(...ySSF)",
+          "flagname": "sym.imp.append_...ySSF_",
+          "realname": "append(...ySSF)",
+          "ordinal": 85,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295163376,
+          "paddr": 540144,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSS7cStringSSSPys4Int8VG_tcfC",
+          "demname": "cString__String(...cfC)",
+          "flagname": "sym.imp.cString__String_...cfC_",
+          "realname": "cString__String(...cfC)",
+          "ordinal": 86,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295163392,
+          "paddr": 540160,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSS8UTF8ViewV13_foreignCountSiyF",
+          "demname": "UTF8View._foreignCount(...yF)",
+          "flagname": "sym.imp.UTF8View._foreignCount_...yF_",
+          "realname": "UTF8View._foreignCount(...yF)",
+          "ordinal": 87,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295163408,
+          "paddr": 540176,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSS9hasPrefixySbSSF",
+          "demname": "hasPrefix(...SbSSF)",
+          "flagname": "sym.imp.hasPrefix_...SbSSF_",
+          "realname": "hasPrefix(...SbSSF)",
+          "ordinal": 88,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295163424,
+          "paddr": 540192,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSS9hashValueSivg",
+          "demname": "getter hashValue(...ivg)",
+          "flagname": "sym.imp.getter_hashValue_...ivg_",
+          "realname": "getter hashValue(...ivg)",
+          "ordinal": 89,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295163440,
+          "paddr": 540208,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSa10FoundationE19_bridgeToObjectiveCSo7NSArrayCyF",
+          "demname": "Foundationbool(...ridgeToObjectiveCSo7NSArrayCyF)",
+          "flagname": "sym.imp.Foundationbool_...ridgeToObjectiveCSo7NSArrayCyF_",
+          "realname": "Foundationbool(...ridgeToObjectiveCSo7NSArrayCyF)",
+          "ordinal": 90,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295163456,
+          "paddr": 540224,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSa10FoundationE36_unconditionallyBridgeFromObjectiveCySayxGSo7NSArrayCSgFZ",
+          "demname": "Foundation(...nconditionallyBridgeFromObjectiveCySayxGSo7NSArrayCSgFZ)",
+          "flagname": "sym.imp.Foundation_...nconditionallyBridgeFromObjectiveCySayxGSo7NSArrayCSgFZ_",
+          "realname": "Foundation(...nconditionallyBridgeFromObjectiveCySayxGSo7NSArrayCSgFZ)",
+          "ordinal": 91,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295163472,
+          "paddr": 540240,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSa28_allocateBufferUninitialized15minimumCapacitys06_ArrayB0VyxGSi_tFZ",
+          "demname": "_allocateBufferUninitialized.minimumCapacity._Array.setter -> (__...FZ)",
+          "flagname": "sym.imp._allocateBufferUninitialized.minimumCapacity._Array.setter_______...FZ_",
+          "realname": "_allocateBufferUninitialized.minimumCapacity._Array.setter -> (__...FZ)",
+          "ordinal": 92,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295163488,
+          "paddr": 540256,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSb10FoundationE19_bridgeToObjectiveCSo8NSNumberCyF",
+          "demname": "Foundationbool(...ridgeToObjectiveCSo8NSNumberCyF)",
+          "flagname": "sym.imp.Foundationbool_...ridgeToObjectiveCSo8NSNumberCyF_",
+          "realname": "Foundationbool(...ridgeToObjectiveCSo8NSNumberCyF)",
+          "ordinal": 93,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295163504,
+          "paddr": 540272,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sScA15unownedExecutorScevgTj",
+          "demname": "unownedExecutor(...cevgTj)",
+          "flagname": "sym.imp.unownedExecutor_...cevgTj_",
+          "realname": "unownedExecutor(...cevgTj)",
+          "ordinal": 94,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295163520,
+          "paddr": 540288,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sScP8rawValues5UInt8Vvg",
+          "demname": "rawValue.UInt8.setter...Vvg",
+          "flagname": "sym.imp.rawValue.UInt8.setter...Vvg",
+          "realname": "rawValue.UInt8.setter...Vvg",
+          "ordinal": 95,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295163536,
+          "paddr": 540304,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sScPMa",
+          "demname": "...ScPMa",
+          "flagname": "sym.imp....ScPMa",
+          "realname": "...ScPMa",
+          "ordinal": 96,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295163552,
+          "paddr": 540320,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSd11descriptionSSvg",
+          "demname": "description__String(...vg)",
+          "flagname": "sym.imp.description__String_...vg_",
+          "realname": "description__String(...vg)",
+          "ordinal": 97,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295163568,
+          "paddr": 540336,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSh10FoundationE19_bridgeToObjectiveCSo5NSSetCyF",
+          "demname": "Foundationbool(...ridgeToObjectiveCSo5NSSetCyF)",
+          "flagname": "sym.imp.Foundationbool_...ridgeToObjectiveCSo5NSSetCyF_",
+          "realname": "Foundationbool(...ridgeToObjectiveCSo5NSSetCyF)",
+          "ordinal": 98,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295163584,
+          "paddr": 540352,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSo13os_log_type_ta0A0E4infoABvgZ",
+          "demname": "os_log_type_t...a0A0E4infoABvgZ",
+          "flagname": "sym.imp.os_log_type_t...a0A0E4infoABvgZ",
+          "realname": "os_log_type_t...a0A0E4infoABvgZ",
+          "ordinal": 99,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295163600,
+          "paddr": 540368,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSo13os_log_type_ta0A0E5debugABvgZ",
+          "demname": "os_log_type_t...a0A0E5debugABvgZ",
+          "flagname": "sym.imp.os_log_type_t...a0A0E5debugABvgZ",
+          "realname": "os_log_type_t...a0A0E5debugABvgZ",
+          "ordinal": 100,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295163616,
+          "paddr": 540384,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSo13os_log_type_ta0A0E5errorABvgZ",
+          "demname": "os_log_type_t...a0A0E5errorABvgZ",
+          "flagname": "sym.imp.os_log_type_t...a0A0E5errorABvgZ",
+          "realname": "os_log_type_t...a0A0E5errorABvgZ",
+          "ordinal": 101,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295163632,
+          "paddr": 540400,
+          "is_imported": true
+        }
+      ]
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist",
+        "Versions/A/XPCServices/Localizable.loctable",
+        "Versions/A/XPCServices/lockdownmoded"
+      ],
+      "plists": {
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "LockdownMode",
+          "CFBundleIdentifier": "com.apple.LockdownMode",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "DTPlatformBuild": "25B73",
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleVersion": "1",
+          "CFBundleExecutable": "LockdownMode",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTXcode": "2600",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundlePackageType": "FMWK",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "DTSDKBuild": "25B73",
+          "CFBundleDevelopmentRegion": "en",
+          "DTSDKName": "macosx26.1.internal",
+          "CFBundleShortVersionString": "1.0"
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "LockdownMode",
+          "SourceVersion": "80000005000000",
+          "BuildVersion": "4306"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
+  },
+  "usage": {
+    "layer": "usage",
+    "used_by": [
+      {
+        "path": "/System/Library/CoreServices/powerd.bundle",
+        "binary": "/System/Library/CoreServices/powerd.bundle/powerd",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/WiFiAgent.app",
+        "binary": "/System/Library/CoreServices/WiFiAgent.app/Contents/MacOS/WiFiAgent",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/AirPlayUIAgent.app",
+        "binary": "/System/Library/CoreServices/AirPlayUIAgent.app/Contents/MacOS/AirPlayUIAgent",
+        "used_classes": []
+      }
+    ]
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "loaded"
+  }
+}

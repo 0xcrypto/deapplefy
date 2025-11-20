@@ -1,0 +1,2105 @@
+{
+  "framework": "UARPAssetManager.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/UARPAssetManager.framework/XPCServices/UARPAssetManagerServiceMobileAsset.xpc/Contents/MacOS/UARPAssetManagerServiceMobileAsset",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 167952,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "objc with blocks",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/Frameworks/CoreTelephony.framework/Versions/A/CoreTelephony",
+          "/System/Library/PrivateFrameworks/UARPAssetManager.framework/Versions/A/UARPAssetManager",
+          "/System/Library/PrivateFrameworks/SoftwareUpdateCoreSupport.framework/Versions/A/SoftwareUpdateCoreSupport",
+          "/System/Library/PrivateFrameworks/MobileAsset.framework/Versions/A/MobileAsset",
+          "/usr/lib/libMobileGestalt.dylib",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "UARPDeploymentRuleConfig",
+        "addr": 4295090232,
+        "lang": "objc",
+        "index": 0,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "goLiveDate",
+            "flag": "method.UARPDeploymentRuleConfig.goLiveDate",
+            "lang": "objc",
+            "addr": 4294971200
+          },
+          {
+            "name": "setGoLiveDate:",
+            "flag": "method.UARPDeploymentRuleConfig.setGoLiveDate:",
+            "lang": "objc",
+            "addr": 4294971212
+          },
+          {
+            "name": "countryList",
+            "flag": "method.UARPDeploymentRuleConfig.countryList",
+            "lang": "objc",
+            "addr": 4294971220
+          },
+          {
+            "name": "setCountryList:",
+            "flag": "method.UARPDeploymentRuleConfig.setCountryList:",
+            "lang": "objc",
+            "addr": 4294971232
+          },
+          {
+            "name": "rampPeriod",
+            "flag": "method.UARPDeploymentRuleConfig.rampPeriod",
+            "lang": "objc",
+            "addr": 4294971240
+          },
+          {
+            "name": "setRampPeriod:",
+            "flag": "method.UARPDeploymentRuleConfig.setRampPeriod:",
+            "lang": "objc",
+            "addr": 4294971252
+          },
+          {
+            "name": "deploymentLimit",
+            "flag": "method.UARPDeploymentRuleConfig.deploymentLimit",
+            "lang": "objc",
+            "addr": 4294971260
+          },
+          {
+            "name": "setDeploymentLimit:",
+            "flag": "method.UARPDeploymentRuleConfig.setDeploymentLimit:",
+            "lang": "objc",
+            "addr": 4294971272
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.UARPDeploymentRuleConfig..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294971280
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_goLiveDate",
+            "kind": "var",
+            "type": "@\"NSDate\"",
+            "addr": 4295090056
+          },
+          {
+            "name": "_countryList",
+            "kind": "var",
+            "type": "@\"NSArray\"",
+            "addr": 4295090060
+          },
+          {
+            "name": "_rampPeriod",
+            "kind": "var",
+            "type": "@\"NSNumber\"",
+            "addr": 4295090064
+          },
+          {
+            "name": "_deploymentLimit",
+            "kind": "var",
+            "type": "@\"NSNumber\"",
+            "addr": 4295090068
+          },
+          {
+            "name": "goLiveDate",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "countryList",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "rampPeriod",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "deploymentLimit",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "UARPAssetSubscriptionMobileAsset",
+        "addr": 4295090352,
+        "lang": "objc",
+        "index": 1,
+        "super": [
+          "UARPAssetSubscription",
+          "UARPAssetSubscription"
+        ],
+        "rawsuper": [
+          "UARPAssetSubscription",
+          "UARPAssetSubscription"
+        ],
+        "methods": [
+          {
+            "name": "initWithAppleModelNumber:hwFusing:domain:",
+            "flag": "method.UARPAssetSubscriptionMobileAsset.initWithAppleModelNumber:hwFusing:domain:",
+            "lang": "objc",
+            "addr": 4294971380
+          },
+          {
+            "name": "initWithCoder:",
+            "flag": "method.UARPAssetSubscriptionMobileAsset.initWithCoder:",
+            "lang": "objc",
+            "addr": 4294971536
+          },
+          {
+            "name": "encodeWithCoder:",
+            "flag": "method.UARPAssetSubscriptionMobileAsset.encodeWithCoder:",
+            "lang": "objc",
+            "addr": 4294971892
+          },
+          {
+            "name": "copyWithZone:",
+            "flag": "method.UARPAssetSubscriptionMobileAsset.copyWithZone:",
+            "lang": "objc",
+            "addr": 4294972136
+          },
+          {
+            "name": "appleModelNumber",
+            "flag": "method.UARPAssetSubscriptionMobileAsset.appleModelNumber",
+            "lang": "objc",
+            "addr": 4294972432
+          },
+          {
+            "name": "isEqual:",
+            "flag": "method.UARPAssetSubscriptionMobileAsset.isEqual:",
+            "lang": "objc",
+            "addr": 4294972436
+          },
+          {
+            "name": "isEqualForAnyDomain:",
+            "flag": "method.UARPAssetSubscriptionMobileAsset.isEqualForAnyDomain:",
+            "lang": "objc",
+            "addr": 4294972888
+          },
+          {
+            "name": "hash",
+            "flag": "method.UARPAssetSubscriptionMobileAsset.hash",
+            "lang": "objc",
+            "addr": 4294973340
+          },
+          {
+            "name": "description",
+            "flag": "method.UARPAssetSubscriptionMobileAsset.description",
+            "lang": "objc",
+            "addr": 4294973404
+          },
+          {
+            "name": "hwFusing",
+            "flag": "method.UARPAssetSubscriptionMobileAsset.hwFusing",
+            "lang": "objc",
+            "addr": 4294973800
+          },
+          {
+            "name": "assetURL",
+            "flag": "method.UARPAssetSubscriptionMobileAsset.assetURL",
+            "lang": "objc",
+            "addr": 4294973816
+          },
+          {
+            "name": "setAssetURL:",
+            "flag": "method.UARPAssetSubscriptionMobileAsset.setAssetURL:",
+            "lang": "objc",
+            "addr": 4294973832
+          },
+          {
+            "name": "assetAudience",
+            "flag": "method.UARPAssetSubscriptionMobileAsset.assetAudience",
+            "lang": "objc",
+            "addr": 4294973844
+          },
+          {
+            "name": "setAssetAudience:",
+            "flag": "method.UARPAssetSubscriptionMobileAsset.setAssetAudience:",
+            "lang": "objc",
+            "addr": 4294973860
+          },
+          {
+            "name": "softwareUpdateAsset",
+            "flag": "method.UARPAssetSubscriptionMobileAsset.softwareUpdateAsset",
+            "lang": "objc",
+            "addr": 4294973872
+          },
+          {
+            "name": "setSoftwareUpdateAsset:",
+            "flag": "method.UARPAssetSubscriptionMobileAsset.setSoftwareUpdateAsset:",
+            "lang": "objc",
+            "addr": 4294973892
+          },
+          {
+            "name": "internalAsset",
+            "flag": "method.UARPAssetSubscriptionMobileAsset.internalAsset",
+            "lang": "objc",
+            "addr": 4294973908
+          },
+          {
+            "name": "setInternalAsset:",
+            "flag": "method.UARPAssetSubscriptionMobileAsset.setInternalAsset:",
+            "lang": "objc",
+            "addr": 4294973928
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.UARPAssetSubscriptionMobileAsset..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294973944
+          },
+          {
+            "name": "supportsSecureCoding",
+            "flag": "method.class.UARPAssetSubscriptionMobileAsset.supportsSecureCoding",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294971372
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_softwareUpdateAsset",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295090088
+          },
+          {
+            "name": "_internalAsset",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295090084
+          },
+          {
+            "name": "_hwFusing",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295090072
+          },
+          {
+            "name": "_assetURL",
+            "kind": "var",
+            "type": "@\"NSURL\"",
+            "addr": 4295090076
+          },
+          {
+            "name": "_assetAudience",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295090080
+          },
+          {
+            "name": "appleModelNumber",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hwFusing",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "assetURL",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "assetAudience",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "softwareUpdateAsset",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "internalAsset",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "UARPAssetSubscription",
+        "addr": 4295090432,
+        "lang": "objc",
+        "index": 2,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithIdentifier:domain:",
+            "flag": "method.UARPAssetSubscription.initWithIdentifier:domain:",
+            "lang": "objc",
+            "addr": 4294974056
+          },
+          {
+            "name": "encodeWithCoder:",
+            "flag": "method.UARPAssetSubscription.encodeWithCoder:",
+            "lang": "objc",
+            "addr": 4294974236
+          },
+          {
+            "name": "initWithCoder:",
+            "flag": "method.UARPAssetSubscription.initWithCoder:",
+            "lang": "objc",
+            "addr": 4294974348
+          },
+          {
+            "name": "copyWithZone:",
+            "flag": "func.100001c64",
+            "lang": "objc",
+            "addr": 4294974564
+          },
+          {
+            "name": "isEqual:",
+            "flag": "method.UARPAssetSubscription.isEqual:",
+            "lang": "objc",
+            "addr": 4294974628
+          },
+          {
+            "name": "isEqualForAnyDomain:",
+            "flag": "method.UARPAssetSubscription.isEqualForAnyDomain:",
+            "lang": "objc",
+            "addr": 4294974872
+          },
+          {
+            "name": "hash",
+            "flag": "method.UARPAssetSubscription.hash",
+            "lang": "objc",
+            "addr": 4294975036
+          },
+          {
+            "name": "description",
+            "flag": "method.UARPAssetSubscription.description",
+            "lang": "objc",
+            "addr": 4294975100
+          },
+          {
+            "name": "identifier",
+            "flag": "method.UARPAssetSubscription.identifier",
+            "lang": "objc",
+            "addr": 4294975296
+          },
+          {
+            "name": "domain",
+            "flag": "method.UARPAssetSubscription.domain",
+            "lang": "objc",
+            "addr": 4294975308
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.UARPAssetSubscription..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294975320
+          },
+          {
+            "name": "copyWithZone:",
+            "flag": "method.UARPAssetSubscription.copyWithZone:",
+            "lang": "objc",
+            "addr": 4295033832
+          },
+          {
+            "name": "supportsSecureCoding",
+            "flag": "method.class.UARPAssetSubscription.supportsSecureCoding",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294974048
+          },
+          {
+            "name": "copyWithZone:",
+            "flag": "method.UARPAssetSubscription.copyWithZone:",
+            "lang": "objc",
+            "addr": 4295033832
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_identifier",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295090092
+          },
+          {
+            "name": "_domain",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295090096
+          },
+          {
+            "name": "identifier",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "domain",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "supportsSecureCoding",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "UARPAssetManagerServiceDelegate",
+        "addr": 4295090472,
+        "lang": "objc",
+        "index": 3,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "listener:shouldAcceptNewConnection:",
+            "flag": "method.UARPAssetManagerServiceDelegate.listener:shouldAcceptNewConnection:",
+            "lang": "objc",
+            "addr": 4294975388
+          },
+          {
+            "name": "xpcConnectionHasEntitlement:",
+            "flag": "method.UARPAssetManagerServiceDelegate.xpcConnectionHasEntitlement:",
+            "lang": "objc",
+            "addr": 4294975860
+          }
+        ],
+        "fields": [
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "UARPAssetManagerServiceMobileAsset",
+        "addr": 4295090592,
+        "lang": "objc",
+        "index": 4,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithDelegate:",
+            "flag": "func.1000022d4",
+            "lang": "objc",
+            "addr": 4294976212
+          },
+          {
+            "name": "isBusy",
+            "flag": "func.1000023e4",
+            "lang": "objc",
+            "addr": 4294976484
+          },
+          {
+            "name": "buildAssetTypeForSubscription:",
+            "flag": "method.UARPAssetManagerServiceMobileAsset.buildAssetTypeForSubscription:",
+            "lang": "objc",
+            "addr": 4294976820
+          },
+          {
+            "name": "removeSubscriptionAndKickOffNextRunnable:asyncUpdate:",
+            "flag": "method.UARPAssetManagerServiceMobileAsset.removeSubscriptionAndKickOffNextRunnable:asyncUpdate:",
+            "lang": "objc",
+            "addr": 4294977440
+          },
+          {
+            "name": "saveSubscriptionAndCheckIfRunnable:asyncUpdate:",
+            "flag": "method.UARPAssetManagerServiceMobileAsset.saveSubscriptionAndCheckIfRunnable:asyncUpdate:",
+            "lang": "objc",
+            "addr": 4294977956
+          },
+          {
+            "name": "checkForUpdate",
+            "flag": "func.100002b58",
+            "lang": "objc",
+            "addr": 4294978392
+          },
+          {
+            "name": "subscribeForAsset:",
+            "flag": "func.100002d88",
+            "lang": "objc",
+            "addr": 4294978952
+          },
+          {
+            "name": "checkCacheForSubscription:",
+            "flag": "func.10000318c",
+            "lang": "objc",
+            "addr": 4294979980
+          },
+          {
+            "name": "copyCache",
+            "flag": "func.1000033ac",
+            "lang": "objc",
+            "addr": 4294980524
+          },
+          {
+            "name": "copySubscriptions",
+            "flag": "func.1000034dc",
+            "lang": "objc",
+            "addr": 4294980828
+          },
+          {
+            "name": "clearAssetCacheForDomain:",
+            "flag": "func.10000360c",
+            "lang": "objc",
+            "addr": 4294981132
+          },
+          {
+            "name": "primeCacheForSubscription:assetVersion:filePath:",
+            "flag": "func.1000036b8",
+            "lang": "objc",
+            "addr": 4294981304
+          },
+          {
+            "name": "downloadAssetForSubscription:asyncUpdate:",
+            "flag": "method.UARPAssetManagerServiceMobileAsset.downloadAssetForSubscription:asyncUpdate:",
+            "lang": "objc",
+            "addr": 4294982212
+          },
+          {
+            "name": "overrideMobileAssetURL:forAssetType:",
+            "flag": "method.UARPAssetManagerServiceMobileAsset.overrideMobileAssetURL:forAssetType:",
+            "lang": "objc",
+            "addr": 4294982852
+          },
+          {
+            "name": "overridePallasAudience:forAssetType:",
+            "flag": "method.UARPAssetManagerServiceMobileAsset.overridePallasAudience:forAssetType:",
+            "lang": "objc",
+            "addr": 4294983004
+          },
+          {
+            "name": "getBundleForAsset:",
+            "flag": "method.UARPAssetManagerServiceMobileAsset.getBundleForAsset:",
+            "lang": "objc",
+            "addr": 4294983340
+          },
+          {
+            "name": "performQuery:assetType:asyncUpdate:",
+            "flag": "method.UARPAssetManagerServiceMobileAsset.performQuery:assetType:asyncUpdate:",
+            "lang": "objc",
+            "addr": 4294983348
+          },
+          {
+            "name": "handleFirmwareAssetQueryCompletion:forSubscription:result:asyncUpdate:",
+            "flag": "method.UARPAssetManagerServiceMobileAsset.handleFirmwareAssetQueryCompletion:forSubscription:result:asyncUpdate:",
+            "lang": "objc",
+            "addr": 4294984616
+          },
+          {
+            "name": "performDownloadForAsset:withSubscription:asyncUpdate:",
+            "flag": "method.UARPAssetManagerServiceMobileAsset.performDownloadForAsset:withSubscription:asyncUpdate:",
+            "lang": "objc",
+            "addr": 4294986008
+          },
+          {
+            "name": "handleMobileAssetDownloadCompletion:withSubscription:result:asyncUpdate:",
+            "flag": "method.UARPAssetManagerServiceMobileAsset.handleMobileAssetDownloadCompletion:withSubscription:result:asyncUpdate:",
+            "lang": "objc",
+            "addr": 4294986620
+          },
+          {
+            "name": "notifyFirmwareUpdateAvailability:cacheRecord:asyncUpdate:",
+            "flag": "method.UARPAssetManagerServiceMobileAsset.notifyFirmwareUpdateAvailability:cacheRecord:asyncUpdate:",
+            "lang": "objc",
+            "addr": 4294988108
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.UARPAssetManagerServiceMobileAsset..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294988400
+          },
+          {
+            "name": "initWithDelegate:",
+            "flag": "method.UARPAssetManagerServiceMobileAsset.initWithDelegate:",
+            "lang": "objc",
+            "addr": 4295034144
+          },
+          {
+            "name": "checkForUpdate",
+            "flag": "method.UARPAssetManagerServiceMobileAsset.checkForUpdate",
+            "lang": "objc",
+            "addr": 4295034156
+          },
+          {
+            "name": "subscribeForAsset:",
+            "flag": "method.UARPAssetManagerServiceMobileAsset.subscribeForAsset:",
+            "lang": "objc",
+            "addr": 4295034168
+          },
+          {
+            "name": "checkCacheForSubscription:",
+            "flag": "method.UARPAssetManagerServiceMobileAsset.checkCacheForSubscription:",
+            "lang": "objc",
+            "addr": 4295034180
+          },
+          {
+            "name": "copyCache",
+            "flag": "method.UARPAssetManagerServiceMobileAsset.copyCache",
+            "lang": "objc",
+            "addr": 4295034192
+          },
+          {
+            "name": "copySubscriptions",
+            "flag": "method.UARPAssetManagerServiceMobileAsset.copySubscriptions",
+            "lang": "objc",
+            "addr": 4295034204
+          },
+          {
+            "name": "clearAssetCacheForDomain:",
+            "flag": "method.UARPAssetManagerServiceMobileAsset.clearAssetCacheForDomain:",
+            "lang": "objc",
+            "addr": 4295034216
+          },
+          {
+            "name": "primeCacheForSubscription:assetVersion:filePath:",
+            "flag": "method.UARPAssetManagerServiceMobileAsset.primeCacheForSubscription:assetVersion:filePath:",
+            "lang": "objc",
+            "addr": 4295034228
+          },
+          {
+            "name": "isBusy",
+            "flag": "method.UARPAssetManagerServiceMobileAsset.isBusy",
+            "lang": "objc",
+            "addr": 4295034240
+          },
+          {
+            "name": "initWithDelegate:",
+            "flag": "method.UARPAssetManagerServiceMobileAsset.initWithDelegate:",
+            "lang": "objc",
+            "addr": 4295034144
+          },
+          {
+            "name": "checkForUpdate",
+            "flag": "method.UARPAssetManagerServiceMobileAsset.checkForUpdate",
+            "lang": "objc",
+            "addr": 4295034156
+          },
+          {
+            "name": "subscribeForAsset:",
+            "flag": "method.UARPAssetManagerServiceMobileAsset.subscribeForAsset:",
+            "lang": "objc",
+            "addr": 4295034168
+          },
+          {
+            "name": "checkCacheForSubscription:",
+            "flag": "method.UARPAssetManagerServiceMobileAsset.checkCacheForSubscription:",
+            "lang": "objc",
+            "addr": 4295034180
+          },
+          {
+            "name": "copyCache",
+            "flag": "method.UARPAssetManagerServiceMobileAsset.copyCache",
+            "lang": "objc",
+            "addr": 4295034192
+          },
+          {
+            "name": "copySubscriptions",
+            "flag": "method.UARPAssetManagerServiceMobileAsset.copySubscriptions",
+            "lang": "objc",
+            "addr": 4295034204
+          },
+          {
+            "name": "clearAssetCacheForDomain:",
+            "flag": "method.UARPAssetManagerServiceMobileAsset.clearAssetCacheForDomain:",
+            "lang": "objc",
+            "addr": 4295034216
+          },
+          {
+            "name": "primeCacheForSubscription:assetVersion:filePath:",
+            "flag": "method.UARPAssetManagerServiceMobileAsset.primeCacheForSubscription:assetVersion:filePath:",
+            "lang": "objc",
+            "addr": 4295034228
+          },
+          {
+            "name": "isBusy",
+            "flag": "method.UARPAssetManagerServiceMobileAsset.isBusy",
+            "lang": "objc",
+            "addr": 4295034240
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_log",
+            "kind": "var",
+            "type": "@\"NSObject<OS_os_log>\"",
+            "addr": 4295090100
+          },
+          {
+            "name": "_serviceQueue",
+            "kind": "var",
+            "type": "@\"NSObject<OS_dispatch_queue>\"",
+            "addr": 4295090104
+          },
+          {
+            "name": "_assetCache",
+            "kind": "var",
+            "type": "@\"UARPAssetManagerServiceAssetCache\"",
+            "addr": 4295090108
+          },
+          {
+            "name": "_outstandingAssetQueries",
+            "kind": "var",
+            "type": "Q",
+            "addr": 4295090112
+          },
+          {
+            "name": "_delegate",
+            "kind": "var",
+            "type": "@\"<UARPAsyncAssetManagerDelegate>\"",
+            "addr": 4295090116
+          },
+          {
+            "name": "_outstandingAssetSubscriptions",
+            "kind": "var",
+            "type": "@\"NSMutableSet\"",
+            "addr": 4295090120
+          },
+          {
+            "name": "_outstandingAsyncAssetSubscriptions",
+            "kind": "var",
+            "type": "@\"NSMutableSet\"",
+            "addr": 4295090124
+          }
+        ]
+      },
+      {
+        "classname": "UARPAssetManagerServiceMobileAssetCache",
+        "addr": 4295090632,
+        "lang": "objc",
+        "index": 5,
+        "super": [
+          "UARPAssetManagerServiceAssetCache",
+          "UARPAssetManagerServiceAssetCache"
+        ],
+        "rawsuper": [
+          "UARPAssetManagerServiceAssetCache",
+          "UARPAssetManagerServiceAssetCache"
+        ],
+        "methods": [
+          {
+            "name": "assetCacheRootDirectory",
+            "flag": "method.UARPAssetManagerServiceMobileAssetCache.assetCacheRootDirectory",
+            "lang": "objc",
+            "addr": 4294995588
+          },
+          {
+            "name": "assetCacheFileURLForAsset:withSubscription:",
+            "flag": "method.UARPAssetManagerServiceMobileAssetCache.assetCacheFileURLForAsset:withSubscription:",
+            "lang": "objc",
+            "addr": 4294995824
+          },
+          {
+            "name": "assetExpirationTime",
+            "flag": "method.UARPAssetManagerServiceMobileAssetCache.assetExpirationTime",
+            "lang": "objc",
+            "addr": 4294996492
+          },
+          {
+            "name": "createCacheRecordForAsset:withSubscription:withPath:",
+            "flag": "method.UARPAssetManagerServiceMobileAssetCache.createCacheRecordForAsset:withSubscription:withPath:",
+            "lang": "objc",
+            "addr": 4294996592
+          }
+        ]
+      },
+      {
+        "classname": "UARPAssetManagerServiceMobileAssetDispatcher",
+        "addr": 4295090752,
+        "lang": "objc",
+        "index": 6,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithConnection:",
+            "flag": "method.UARPAssetManagerServiceMobileAssetDispatcher.initWithConnection:",
+            "lang": "objc",
+            "addr": 4294997436
+          },
+          {
+            "name": "getIsBusyStatusWithReply:",
+            "flag": "func.10000765c",
+            "lang": "objc",
+            "addr": 4294997596
+          },
+          {
+            "name": "checkForUpdate",
+            "flag": "func.1000076c0",
+            "lang": "objc",
+            "addr": 4294997696
+          },
+          {
+            "name": "subscribeForAsset:",
+            "flag": "func.1000076c8",
+            "lang": "objc",
+            "addr": 4294997704
+          },
+          {
+            "name": "checkCacheForSubscription:withReply:",
+            "flag": "func.1000077a8",
+            "lang": "objc",
+            "addr": 4294997928
+          },
+          {
+            "name": "copyCacheWithReply:",
+            "flag": "func.1000078d0",
+            "lang": "objc",
+            "addr": 4294998224
+          },
+          {
+            "name": "copySubscriptionsWithReply:",
+            "flag": "func.100007938",
+            "lang": "objc",
+            "addr": 4294998328
+          },
+          {
+            "name": "clearAssetCacheForDomain:",
+            "flag": "func.1000079a0",
+            "lang": "objc",
+            "addr": 4294998432
+          },
+          {
+            "name": "primeCacheForSubscription:assetVersion:filePath:",
+            "flag": "func.1000079a8",
+            "lang": "objc",
+            "addr": 4294998440
+          },
+          {
+            "name": "assetAvailabilityUpdateForSubscription:cacheRecord:asyncUpdate:",
+            "flag": "method.UARPAssetManagerServiceMobileAssetDispatcher.assetAvailabilityUpdateForSubscription:cacheRecord:asyncUpdate:",
+            "lang": "objc",
+            "addr": 4294998448
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.UARPAssetManagerServiceMobileAssetDispatcher..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294998692
+          },
+          {
+            "name": "checkForUpdate",
+            "flag": "method.UARPAssetManagerServiceMobileAssetDispatcher.checkForUpdate",
+            "lang": "objc",
+            "addr": 4295034264
+          },
+          {
+            "name": "subscribeForAsset:",
+            "flag": "method.UARPAssetManagerServiceMobileAssetDispatcher.subscribeForAsset:",
+            "lang": "objc",
+            "addr": 4295034276
+          },
+          {
+            "name": "checkCacheForSubscription:withReply:",
+            "flag": "method.UARPAssetManagerServiceMobileAssetDispatcher.checkCacheForSubscription:withReply:",
+            "lang": "objc",
+            "addr": 4295034288
+          },
+          {
+            "name": "copyCacheWithReply:",
+            "flag": "method.UARPAssetManagerServiceMobileAssetDispatcher.copyCacheWithReply:",
+            "lang": "objc",
+            "addr": 4295034300
+          },
+          {
+            "name": "copySubscriptionsWithReply:",
+            "flag": "method.UARPAssetManagerServiceMobileAssetDispatcher.copySubscriptionsWithReply:",
+            "lang": "objc",
+            "addr": 4295034312
+          },
+          {
+            "name": "clearAssetCacheForDomain:",
+            "flag": "method.UARPAssetManagerServiceMobileAssetDispatcher.clearAssetCacheForDomain:",
+            "lang": "objc",
+            "addr": 4295034324
+          },
+          {
+            "name": "primeCacheForSubscription:assetVersion:filePath:",
+            "flag": "method.UARPAssetManagerServiceMobileAssetDispatcher.primeCacheForSubscription:assetVersion:filePath:",
+            "lang": "objc",
+            "addr": 4295034336
+          },
+          {
+            "name": "getIsBusyStatusWithReply:",
+            "flag": "method.UARPAssetManagerServiceMobileAssetDispatcher.getIsBusyStatusWithReply:",
+            "lang": "objc",
+            "addr": 4295034348
+          },
+          {
+            "name": "checkForUpdate",
+            "flag": "method.UARPAssetManagerServiceMobileAssetDispatcher.checkForUpdate",
+            "lang": "objc",
+            "addr": 4295034264
+          },
+          {
+            "name": "subscribeForAsset:",
+            "flag": "method.UARPAssetManagerServiceMobileAssetDispatcher.subscribeForAsset:",
+            "lang": "objc",
+            "addr": 4295034276
+          },
+          {
+            "name": "checkCacheForSubscription:withReply:",
+            "flag": "method.UARPAssetManagerServiceMobileAssetDispatcher.checkCacheForSubscription:withReply:",
+            "lang": "objc",
+            "addr": 4295034288
+          },
+          {
+            "name": "copyCacheWithReply:",
+            "flag": "method.UARPAssetManagerServiceMobileAssetDispatcher.copyCacheWithReply:",
+            "lang": "objc",
+            "addr": 4295034300
+          },
+          {
+            "name": "copySubscriptionsWithReply:",
+            "flag": "method.UARPAssetManagerServiceMobileAssetDispatcher.copySubscriptionsWithReply:",
+            "lang": "objc",
+            "addr": 4295034312
+          },
+          {
+            "name": "clearAssetCacheForDomain:",
+            "flag": "method.UARPAssetManagerServiceMobileAssetDispatcher.clearAssetCacheForDomain:",
+            "lang": "objc",
+            "addr": 4295034324
+          },
+          {
+            "name": "primeCacheForSubscription:assetVersion:filePath:",
+            "flag": "method.UARPAssetManagerServiceMobileAssetDispatcher.primeCacheForSubscription:assetVersion:filePath:",
+            "lang": "objc",
+            "addr": 4295034336
+          },
+          {
+            "name": "getIsBusyStatusWithReply:",
+            "flag": "method.UARPAssetManagerServiceMobileAssetDispatcher.getIsBusyStatusWithReply:",
+            "lang": "objc",
+            "addr": 4295034348
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_assetManager",
+            "kind": "var",
+            "type": "@\"UARPAssetManagerServiceMobileAsset\"",
+            "addr": 4295090128
+          },
+          {
+            "name": "_xpcConnection",
+            "kind": "var",
+            "type": "@\"NSXPCConnection\"",
+            "addr": 4295090132
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "UARPAssetManagerServiceAssetCacheEntry",
+        "addr": 4295090832,
+        "lang": "objc",
+        "index": 7,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithSubscription:",
+            "flag": "method.UARPAssetManagerServiceAssetCacheEntry.initWithSubscription:",
+            "lang": "objc",
+            "addr": 4294998768
+          },
+          {
+            "name": "initWithCoder:",
+            "flag": "method.UARPAssetManagerServiceAssetCacheEntry.initWithCoder:",
+            "lang": "objc",
+            "addr": 4294998940
+          },
+          {
+            "name": "encodeWithCoder:",
+            "flag": "method.UARPAssetManagerServiceAssetCacheEntry.encodeWithCoder:",
+            "lang": "objc",
+            "addr": 4294999188
+          },
+          {
+            "name": "copyWithZone:",
+            "flag": "method.UARPAssetManagerServiceAssetCacheEntry.copyWithZone:",
+            "lang": "objc",
+            "addr": 4294999320
+          },
+          {
+            "name": "isEqual:",
+            "flag": "method.UARPAssetManagerServiceAssetCacheEntry.isEqual:",
+            "lang": "objc",
+            "addr": 4294999428
+          },
+          {
+            "name": "hash",
+            "flag": "method.UARPAssetManagerServiceAssetCacheEntry.hash",
+            "lang": "objc",
+            "addr": 4294999592
+          },
+          {
+            "name": "description",
+            "flag": "method.UARPAssetManagerServiceAssetCacheEntry.description",
+            "lang": "objc",
+            "addr": 4294999656
+          },
+          {
+            "name": "subscription",
+            "flag": "method.UARPAssetManagerServiceAssetCacheEntry.subscription",
+            "lang": "objc",
+            "addr": 4294999804
+          },
+          {
+            "name": "lastSeen",
+            "flag": "method.UARPAssetManagerServiceAssetCacheEntry.lastSeen",
+            "lang": "objc",
+            "addr": 4294999816
+          },
+          {
+            "name": "setLastSeen:",
+            "flag": "method.UARPAssetManagerServiceAssetCacheEntry.setLastSeen:",
+            "lang": "objc",
+            "addr": 4294999828
+          },
+          {
+            "name": "cachedRecord",
+            "flag": "method.UARPAssetManagerServiceAssetCacheEntry.cachedRecord",
+            "lang": "objc",
+            "addr": 4294999836
+          },
+          {
+            "name": "setCachedRecord:",
+            "flag": "method.UARPAssetManagerServiceAssetCacheEntry.setCachedRecord:",
+            "lang": "objc",
+            "addr": 4294999848
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.UARPAssetManagerServiceAssetCacheEntry..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294999856
+          },
+          {
+            "name": "supportsSecureCoding",
+            "flag": "method.class.UARPAssetManagerServiceAssetCacheEntry.supportsSecureCoding",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295033776
+          },
+          {
+            "name": "supportsSecureCoding",
+            "flag": "func.100007ae8",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294998760
+          },
+          {
+            "name": "supportsSecureCoding",
+            "flag": "method.class.UARPAssetManagerServiceAssetCacheEntry.supportsSecureCoding",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295033776
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_subscription",
+            "kind": "var",
+            "type": "@\"UARPAssetSubscription\"",
+            "addr": 4295090136
+          },
+          {
+            "name": "_lastSeen",
+            "kind": "var",
+            "type": "@\"NSDate\"",
+            "addr": 4295090140
+          },
+          {
+            "name": "_cachedRecord",
+            "kind": "var",
+            "type": "@\"UARPAssetCacheRecord\"",
+            "addr": 4295090144
+          },
+          {
+            "name": "subscription",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "lastSeen",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "cachedRecord",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "supportsSecureCoding",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "UARPAssetManagerServiceAssetCache",
+        "addr": 4295090912,
+        "lang": "objc",
+        "index": 8,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.UARPAssetManagerServiceAssetCache.init",
+            "lang": "objc",
+            "addr": 4294999936
+          },
+          {
+            "name": "cacheRecordForSubscription:",
+            "flag": "method.UARPAssetManagerServiceAssetCache.cacheRecordForSubscription:",
+            "lang": "objc",
+            "addr": 4295001020
+          },
+          {
+            "name": "subscribeForAsset:",
+            "flag": "method.UARPAssetManagerServiceAssetCache.subscribeForAsset:",
+            "lang": "objc",
+            "addr": 4295001688
+          },
+          {
+            "name": "updateSubscription:forAsset:withPath:",
+            "flag": "method.UARPAssetManagerServiceAssetCache.updateSubscription:forAsset:withPath:",
+            "lang": "objc",
+            "addr": 4295002556
+          },
+          {
+            "name": "copyAllSubscriptions",
+            "flag": "method.UARPAssetManagerServiceAssetCache.copyAllSubscriptions",
+            "lang": "objc",
+            "addr": 4295003692
+          },
+          {
+            "name": "copyCache",
+            "flag": "method.UARPAssetManagerServiceAssetCache.copyCache",
+            "lang": "objc",
+            "addr": 4295004304
+          },
+          {
+            "name": "clearAssetCacheForDomain:",
+            "flag": "method.UARPAssetManagerServiceAssetCache.clearAssetCacheForDomain:",
+            "lang": "objc",
+            "addr": 4295004968
+          },
+          {
+            "name": "pruneExpiredRegistryEntries",
+            "flag": "method.UARPAssetManagerServiceAssetCache.pruneExpiredRegistryEntries",
+            "lang": "objc",
+            "addr": 4295005752
+          },
+          {
+            "name": "save",
+            "flag": "method.UARPAssetManagerServiceAssetCache.save",
+            "lang": "objc",
+            "addr": 4295008292
+          },
+          {
+            "name": "assetCacheRootDirectory",
+            "flag": "method.UARPAssetManagerServiceAssetCache.assetCacheRootDirectory",
+            "lang": "objc",
+            "addr": 4295008752
+          },
+          {
+            "name": "assetCacheFileURLForAsset:withSubscription:",
+            "flag": "method.UARPAssetManagerServiceAssetCache.assetCacheFileURLForAsset:withSubscription:",
+            "lang": "objc",
+            "addr": 4295008824
+          },
+          {
+            "name": "assetExpirationTime",
+            "flag": "method.UARPAssetManagerServiceAssetCache.assetExpirationTime",
+            "lang": "objc",
+            "addr": 4295008896
+          },
+          {
+            "name": "createCacheRecordForAsset:withSubscription:withPath:",
+            "flag": "method.UARPAssetManagerServiceAssetCache.createCacheRecordForAsset:withSubscription:withPath:",
+            "lang": "objc",
+            "addr": 4295008968
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.UARPAssetManagerServiceAssetCache..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295009260
+          },
+          {
+            "name": "encodedClasses",
+            "flag": "method.class.UARPAssetManagerServiceAssetCache.encodedClasses",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295009040
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_log",
+            "kind": "var",
+            "type": "@\"NSObject<OS_os_log>\"",
+            "addr": 4295090148
+          },
+          {
+            "name": "_cacheQueue",
+            "kind": "var",
+            "type": "@\"NSObject<OS_dispatch_queue>\"",
+            "addr": 4295090152
+          },
+          {
+            "name": "_cacheRegistry",
+            "kind": "var",
+            "type": "@\"NSMutableArray\"",
+            "addr": 4295090156
+          }
+        ]
+      },
+      {
+        "classname": "UARPAssetCacheRecord",
+        "addr": 4295090992,
+        "lang": "objc",
+        "index": 9,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithAssetVersion:assetURL:deploymentRules:",
+            "flag": "method.UARPAssetCacheRecord.initWithAssetVersion:assetURL:deploymentRules:",
+            "lang": "objc",
+            "addr": 4295009484
+          },
+          {
+            "name": "initWithCoder:",
+            "flag": "method.UARPAssetCacheRecord.initWithCoder:",
+            "lang": "objc",
+            "addr": 4295009712
+          },
+          {
+            "name": "encodeWithCoder:",
+            "flag": "method.UARPAssetCacheRecord.encodeWithCoder:",
+            "lang": "objc",
+            "addr": 4295010176
+          },
+          {
+            "name": "copyWithZone:",
+            "flag": "method.UARPAssetCacheRecord.copyWithZone:",
+            "lang": "objc",
+            "addr": 4295010308
+          },
+          {
+            "name": "isEqual:",
+            "flag": "method.UARPAssetCacheRecord.isEqual:",
+            "lang": "objc",
+            "addr": 4295010376
+          },
+          {
+            "name": "hash",
+            "flag": "method.UARPAssetCacheRecord.hash",
+            "lang": "objc",
+            "addr": 4295010676
+          },
+          {
+            "name": "description",
+            "flag": "method.UARPAssetCacheRecord.description",
+            "lang": "objc",
+            "addr": 4295010740
+          },
+          {
+            "name": "assetVersion",
+            "flag": "method.UARPAssetCacheRecord.assetVersion",
+            "lang": "objc",
+            "addr": 4295010936
+          },
+          {
+            "name": "assetURL",
+            "flag": "method.UARPAssetCacheRecord.assetURL",
+            "lang": "objc",
+            "addr": 4295010948
+          },
+          {
+            "name": "deploymentRules",
+            "flag": "method.UARPAssetCacheRecord.deploymentRules",
+            "lang": "objc",
+            "addr": 4295010960
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.UARPAssetCacheRecord..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295010972
+          },
+          {
+            "name": "copyWithZone:",
+            "flag": "method.UARPAssetSubscription.copyWithZone:",
+            "lang": "objc",
+            "addr": 4295033832
+          },
+          {
+            "name": "supportsSecureCoding",
+            "flag": "method.class.UARPAssetCacheRecord.supportsSecureCoding",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295009476
+          },
+          {
+            "name": "copyWithZone:",
+            "flag": "method.UARPAssetSubscription.copyWithZone:",
+            "lang": "objc",
+            "addr": 4295033832
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_assetVersion",
+            "kind": "var",
+            "type": "@\"UARPAssetVersionBase\"",
+            "addr": 4295090160
+          },
+          {
+            "name": "_assetURL",
+            "kind": "var",
+            "type": "@\"NSURL\"",
+            "addr": 4295090164
+          },
+          {
+            "name": "_deploymentRules",
+            "kind": "var",
+            "type": "@\"NSArray\"",
+            "addr": 4295090168
+          },
+          {
+            "name": "assetVersion",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "assetURL",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "deploymentRules",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "supportsSecureCoding",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "UARPDeploymentRule",
+        "addr": 4295091072,
+        "lang": "objc",
+        "index": 10,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithMinOSVersion:maxOSVersion:",
+            "flag": "method.UARPDeploymentRule.initWithMinOSVersion:maxOSVersion:",
+            "lang": "objc",
+            "addr": 4295012204
+          },
+          {
+            "name": "initWithConfig:",
+            "flag": "method.UARPDeploymentRule.initWithConfig:",
+            "lang": "objc",
+            "addr": 4295012384
+          },
+          {
+            "name": "initWithCoder:",
+            "flag": "method.UARPDeploymentRule.initWithCoder:",
+            "lang": "objc",
+            "addr": 4295013128
+          },
+          {
+            "name": "encodeWithCoder:",
+            "flag": "method.UARPDeploymentRule.encodeWithCoder:",
+            "lang": "objc",
+            "addr": 4295013708
+          },
+          {
+            "name": "copyWithZone:",
+            "flag": "method.UARPDeploymentRule.copyWithZone:",
+            "lang": "objc",
+            "addr": 4295013900
+          },
+          {
+            "name": "description",
+            "flag": "method.UARPDeploymentRule.description",
+            "lang": "objc",
+            "addr": 4295014092
+          },
+          {
+            "name": "setTestSerialNumber:",
+            "flag": "method.UARPDeploymentRule.setTestSerialNumber:",
+            "lang": "objc",
+            "addr": 4295014244
+          },
+          {
+            "name": "testSerialNumber",
+            "flag": "method.UARPDeploymentRule.testSerialNumber",
+            "lang": "objc",
+            "addr": 4295014312
+          },
+          {
+            "name": "setDeploymentDay:",
+            "flag": "method.UARPDeploymentRule.setDeploymentDay:",
+            "lang": "objc",
+            "addr": 4295014320
+          },
+          {
+            "name": "deploymentDay",
+            "flag": "method.UARPDeploymentRule.deploymentDay",
+            "lang": "objc",
+            "addr": 4295014332
+          },
+          {
+            "name": "setDeploymentPercent:",
+            "flag": "method.UARPDeploymentRule.setDeploymentPercent:",
+            "lang": "objc",
+            "addr": 4295014340
+          },
+          {
+            "name": "deploymentPercent",
+            "flag": "method.UARPDeploymentRule.deploymentPercent",
+            "lang": "objc",
+            "addr": 4295014352
+          },
+          {
+            "name": "isDeploymentAllowed:",
+            "flag": "method.UARPDeploymentRule.isDeploymentAllowed:",
+            "lang": "objc",
+            "addr": 4295014360
+          },
+          {
+            "name": "compareOSVersion:withVersion:",
+            "flag": "method.UARPDeploymentRule.compareOSVersion:withVersion:",
+            "lang": "objc",
+            "addr": 4295014736
+          },
+          {
+            "name": "isDeploymentAllowedPerCountryList",
+            "flag": "method.UARPDeploymentRule.isDeploymentAllowedPerCountryList",
+            "lang": "objc",
+            "addr": 4295023416
+          },
+          {
+            "name": "isDeploymentAllowedPerGoLiveDate",
+            "flag": "method.UARPDeploymentRule.isDeploymentAllowedPerGoLiveDate",
+            "lang": "objc",
+            "addr": 4295015076
+          },
+          {
+            "name": "isDeploymentAllowedPerRampPeriod",
+            "flag": "method.UARPDeploymentRule.isDeploymentAllowedPerRampPeriod",
+            "lang": "objc",
+            "addr": 4295015512
+          },
+          {
+            "name": "isDeploymentAllowedPerDeploymentLimit",
+            "flag": "method.UARPDeploymentRule.isDeploymentAllowedPerDeploymentLimit",
+            "lang": "objc",
+            "addr": 4295015860
+          },
+          {
+            "name": "calculateDeploymentDay",
+            "flag": "method.UARPDeploymentRule.calculateDeploymentDay",
+            "lang": "objc",
+            "addr": 4295016192
+          },
+          {
+            "name": "calculateDeploymentPercent",
+            "flag": "method.UARPDeploymentRule.calculateDeploymentPercent",
+            "lang": "objc",
+            "addr": 4295016496
+          },
+          {
+            "name": "createSerialNumber",
+            "flag": "method.UARPDeploymentRule.createSerialNumber",
+            "lang": "objc",
+            "addr": 4295016824
+          },
+          {
+            "name": "addDeploymentLimit:withGoLiveDate:error:",
+            "flag": "method.UARPDeploymentRule.addDeploymentLimit:withGoLiveDate:error:",
+            "lang": "objc",
+            "addr": 4295017128
+          },
+          {
+            "name": "validateDeploymentLimits:",
+            "flag": "method.UARPDeploymentRule.validateDeploymentLimits:",
+            "lang": "objc",
+            "addr": 4295017600
+          },
+          {
+            "name": "dumpWithTabDepth:dumpString:",
+            "flag": "method.UARPDeploymentRule.dumpWithTabDepth:dumpString:",
+            "lang": "objc",
+            "addr": 4295018316
+          },
+          {
+            "name": "isEqual:",
+            "flag": "method.UARPDeploymentRule.isEqual:",
+            "lang": "objc",
+            "addr": 4295018908
+          },
+          {
+            "name": "hash",
+            "flag": "method.UARPDeploymentRule.hash",
+            "lang": "objc",
+            "addr": 4295019100
+          },
+          {
+            "name": "currentISOCountryCode",
+            "flag": "method.UARPDeploymentRule.currentISOCountryCode",
+            "lang": "objc",
+            "addr": 4295019108
+          },
+          {
+            "name": "setCurrentISOCountryCode:",
+            "flag": "method.UARPDeploymentRule.setCurrentISOCountryCode:",
+            "lang": "objc",
+            "addr": 4295019120
+          },
+          {
+            "name": "goLiveDate",
+            "flag": "method.UARPDeploymentRule.goLiveDate",
+            "lang": "objc",
+            "addr": 4295019128
+          },
+          {
+            "name": "setGoLiveDate:",
+            "flag": "method.UARPDeploymentRule.setGoLiveDate:",
+            "lang": "objc",
+            "addr": 4295019140
+          },
+          {
+            "name": "countryList",
+            "flag": "method.UARPDeploymentRule.countryList",
+            "lang": "objc",
+            "addr": 4295019148
+          },
+          {
+            "name": "setCountryList:",
+            "flag": "method.UARPDeploymentRule.setCountryList:",
+            "lang": "objc",
+            "addr": 4295019160
+          },
+          {
+            "name": "rampPeriod",
+            "flag": "method.UARPDeploymentRule.rampPeriod",
+            "lang": "objc",
+            "addr": 4295019168
+          },
+          {
+            "name": "setRampPeriod:",
+            "flag": "method.UARPDeploymentRule.setRampPeriod:",
+            "lang": "objc",
+            "addr": 4295019180
+          },
+          {
+            "name": "deploymentLimit",
+            "flag": "method.UARPDeploymentRule.deploymentLimit",
+            "lang": "objc",
+            "addr": 4295019188
+          },
+          {
+            "name": "setDeploymentLimit:",
+            "flag": "method.UARPDeploymentRule.setDeploymentLimit:",
+            "lang": "objc",
+            "addr": 4295019200
+          },
+          {
+            "name": "deploymentLimits",
+            "flag": "method.UARPDeploymentRule.deploymentLimits",
+            "lang": "objc",
+            "addr": 4295019208
+          },
+          {
+            "name": "setDeploymentLimits:",
+            "flag": "method.UARPDeploymentRule.setDeploymentLimits:",
+            "lang": "objc",
+            "addr": 4295019220
+          },
+          {
+            "name": "isFullyDeployedDeploymentLimits",
+            "flag": "method.UARPDeploymentRule.isFullyDeployedDeploymentLimits",
+            "lang": "objc",
+            "addr": 4295019228
+          },
+          {
+            "name": "setIsFullyDeployedDeploymentLimits:",
+            "flag": "method.UARPDeploymentRule.setIsFullyDeployedDeploymentLimits:",
+            "lang": "objc",
+            "addr": 4295019240
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.UARPDeploymentRule..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295019248
+          },
+          {
+            "name": "copyWithZone:",
+            "flag": "method.UARPAssetSubscription.copyWithZone:",
+            "lang": "objc",
+            "addr": 4295033832
+          },
+          {
+            "name": "supportsSecureCoding",
+            "flag": "method.class.UARPDeploymentRule.supportsSecureCoding",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295012196
+          },
+          {
+            "name": "copyWithZone:",
+            "flag": "method.UARPAssetSubscription.copyWithZone:",
+            "lang": "objc",
+            "addr": 4295033832
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_log",
+            "kind": "var",
+            "type": "@\"NSObject<OS_os_log>\"",
+            "addr": 4295090172
+          },
+          {
+            "name": "_testSerialNumber",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295090176
+          },
+          {
+            "name": "_deploymentPercent",
+            "kind": "var",
+            "type": "@\"NSNumber\"",
+            "addr": 4295090180
+          },
+          {
+            "name": "_deploymentDay",
+            "kind": "var",
+            "type": "@\"NSNumber\"",
+            "addr": 4295090184
+          },
+          {
+            "name": "_serialNumber",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295090188
+          },
+          {
+            "name": "_minOSVersion",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295090192
+          },
+          {
+            "name": "_maxOSVersion",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295090196
+          },
+          {
+            "name": "_isFullyDeployedDeploymentLimits",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295090200
+          },
+          {
+            "name": "_currentISOCountryCode",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295090204
+          },
+          {
+            "name": "_goLiveDate",
+            "kind": "var",
+            "type": "@\"NSDate\"",
+            "addr": 4295090208
+          },
+          {
+            "name": "_countryList",
+            "kind": "var",
+            "type": "@\"NSArray\"",
+            "addr": 4295090212
+          },
+          {
+            "name": "_rampPeriod",
+            "kind": "var",
+            "type": "@\"NSNumber\"",
+            "addr": 4295090216
+          },
+          {
+            "name": "_deploymentLimit",
+            "kind": "var",
+            "type": "@\"NSNumber\"",
+            "addr": 4295090220
+          },
+          {
+            "name": "_deploymentLimits",
+            "kind": "var",
+            "type": "@\"NSMutableDictionary\"",
+            "addr": 4295090224
+          },
+          {
+            "name": "currentISOCountryCode",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "goLiveDate",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "countryList",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "rampPeriod",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "deploymentLimit",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "deploymentLimits",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "isFullyDeployedDeploymentLimits",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "supportsSecureCoding",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      }
+    ],
+    "swift_metadata": {
+      "is_swift": false,
+      "symbols": []
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "XPCServices/UARPAssetManagerServiceMobileAsset.xpc/Contents/Info.plist",
+        "XPCServices/UARPAssetManagerServiceMobileAsset.xpc/Contents/version.plist",
+        "XPCServices/UARPAssetManagerServiceMobileAsset.xpc/Contents/_CodeSignature/CodeResources",
+        "XPCServices/UARPAssetManagerServiceMobileAsset.xpc/Contents/MacOS/UARPAssetManagerServiceMobileAsset",
+        "XPCServices/UARPAssetManagerServiceMobileAsset.xpc/Contents/Resources/InfoPlist.loctable",
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/UARPAssetManagerUnexports.txt",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist"
+      ],
+      "plists": {
+        "XPCServices/UARPAssetManagerServiceMobileAsset.xpc/Contents/Info.plist": {
+          "CFBundleName": "UARPAssetManagerServiceMobileAsset",
+          "DTSDKName": "macosx26.1.internal",
+          "DTXcode": "2600",
+          "AssetType": "mobileasset",
+          "DTSDKBuild": "25B66x",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "UARP Asset Manager": true,
+          "XPCService": {
+            "RunLoopType": "NSRunLoop",
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "UARPAssetManagerServiceMobileAsset",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.UARPAssetManagerServiceMobileAsset",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleDisplayName": "UARPAssetManagerServiceMobileAsset",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "25B66x"
+        },
+        "XPCServices/UARPAssetManagerServiceMobileAsset.xpc/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "AppleAccessoryManager",
+          "SourceVersion": "1338040031000001",
+          "BuildVersion": "123"
+        },
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "UARPAssetManager",
+          "CFBundleIdentifier": "com.apple.UARPAssetManager",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "DTPlatformBuild": "25B66x",
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleVersion": "1",
+          "CFBundleExecutable": "UARPAssetManager",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTXcode": "2600",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundlePackageType": "FMWK",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "DTSDKBuild": "25B66x",
+          "CFBundleDevelopmentRegion": "en",
+          "DTSDKName": "macosx26.1.internal",
+          "CFBundleShortVersionString": "1.0"
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "AppleAccessoryManager",
+          "SourceVersion": "1338040031000001",
+          "BuildVersion": "123"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
+  },
+  "usage": {
+    "layer": "usage",
+    "used_by": []
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "loaded"
+  }
+}

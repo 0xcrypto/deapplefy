@@ -1,0 +1,1407 @@
+{
+  "framework": "DiagnosticExtensions.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/DiagnosticExtensions.framework/PlugIns/ToolKitDiagnosticExtension.appex/Contents/MacOS/ToolKitDiagnosticExtension",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 131776,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "swift",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/PrivateFrameworks/DiagnosticExtensions.framework/Versions/A/DiagnosticExtensions",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "/System/Library/PrivateFrameworks/ToolKit.framework/Versions/A/ToolKit",
+          "/System/Library/PrivateFrameworks/VoiceShortcutClient.framework/Versions/A/VoiceShortcutClient",
+          "/usr/lib/swift/libswiftAccelerate.dylib",
+          "/usr/lib/swift/libswiftCore.dylib",
+          "/usr/lib/swift/libswiftCoreFoundation.dylib",
+          "/usr/lib/swift/libswiftCoreImage.dylib",
+          "/usr/lib/swift/libswiftCoreLocation.dylib",
+          "/usr/lib/swift/libswiftDispatch.dylib",
+          "/usr/lib/swift/libswiftIOKit.dylib",
+          "/usr/lib/swift/libswiftIntents.dylib",
+          "/usr/lib/swift/libswiftMetal.dylib",
+          "/usr/lib/swift/libswiftOSLog.dylib",
+          "/usr/lib/swift/libswiftObjectiveC.dylib",
+          "/usr/lib/swift/libswiftQuartzCore.dylib",
+          "/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib",
+          "/usr/lib/swift/libswiftXPC.dylib",
+          "/usr/lib/swift/libswift_Builtin_float.dylib",
+          "/usr/lib/swift/libswiftos.dylib",
+          "/usr/lib/swift/libswiftsimd.dylib"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "ToolKitDiagnosticWrapper",
+        "addr": 49808,
+        "lang": "swift",
+        "index": 0,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ]
+      },
+      {
+        "classname": "ToolKitDiagnosticExtension.ToolKitDiagnosticWrapper",
+        "addr": 4295050072,
+        "lang": "objc",
+        "index": 1,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.ToolKitDiagnosticExtension.ToolKitDiagnosticWrapper.init",
+            "lang": "objc",
+            "addr": 4294972484
+          },
+          {
+            "name": "getToolKitDatabaseURL",
+            "flag": "method.ToolKitDiagnosticExtension.ToolKitDiagnosticWrapper.getToolKitDatabaseURL",
+            "lang": "objc",
+            "addr": 4294973348
+          },
+          {
+            "name": "exportIndexingLogToFileAt:",
+            "flag": "method.ToolKitDiagnosticExtension.ToolKitDiagnosticWrapper.exportIndexingLogToFileAt:",
+            "lang": "objc",
+            "addr": 4294998036
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.ToolKitDiagnosticExtension.ToolKitDiagnosticWrapper..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294999484
+          },
+          {
+            "name": "shared",
+            "flag": "method.class.ToolKitDiagnosticExtension.ToolKitDiagnosticWrapper.shared",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294972388
+          }
+        ],
+        "fields": [
+          {
+            "name": "shared",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "WFToolKitDiagnosticExtension",
+        "addr": 4295049864,
+        "lang": "objc",
+        "index": 2,
+        "super": [
+          "DEExtensionProvider"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_DEExtensionProvider"
+        ],
+        "methods": [
+          {
+            "name": "attachmentsForParameters:",
+            "flag": "method.WFToolKitDiagnosticExtension.attachmentsForParameters:",
+            "lang": "objc",
+            "addr": 4295010456
+          },
+          {
+            "name": "exportedToolKitDatabaseAttachment",
+            "flag": "method.WFToolKitDiagnosticExtension.exportedToolKitDatabaseAttachment",
+            "lang": "objc",
+            "addr": 4295009792
+          },
+          {
+            "name": "exportedToolKitIndexingLogAttachment",
+            "flag": "method.WFToolKitDiagnosticExtension.exportedToolKitIndexingLogAttachment",
+            "lang": "objc",
+            "addr": 4295008720
+          }
+        ]
+      }
+    ],
+    "swift_metadata": {
+      "is_swift": true,
+      "symbols": [
+        {
+          "name": "_$s26ToolKitDiagnosticExtension0abC7WrapperC03getaB11DatabaseURL10Foundation0H0VSgyF",
+          "demname": "ToolKitDiagnosticExtension(...bC7WrapperC03getaB11DatabaseURL10Foundation0H0VSgyF)",
+          "flagname": "sym.ToolKitDiagnosticExtension_...bC7WrapperC03getaB11DatabaseURL10Foundation0H0VSgyF_",
+          "realname": "ToolKitDiagnosticExtension(...bC7WrapperC03getaB11DatabaseURL10Foundation0H0VSgyF)",
+          "ordinal": 0,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294972520,
+          "paddr": 119912,
+          "is_imported": false
+        },
+        {
+          "name": "_$s26ToolKitDiagnosticExtension0abC7WrapperC23exportIndexingLogToFile2atSb10Foundation3URLV_tF",
+          "demname": "ToolKitDiagnosticExtension(...F)",
+          "flagname": "sym.ToolKitDiagnosticExtension_...F_",
+          "realname": "ToolKitDiagnosticExtension(...F)",
+          "ordinal": 1,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294973604,
+          "paddr": 120996,
+          "is_imported": false
+        },
+        {
+          "name": "_$s26ToolKitDiagnosticExtension0abC7WrapperC6sharedACvau",
+          "demname": "ToolKitDiagnosticExtension(...bC7WrapperC6sharedACvau)",
+          "flagname": "sym.ToolKitDiagnosticExtension_...bC7WrapperC6sharedACvau_",
+          "realname": "ToolKitDiagnosticExtension(...bC7WrapperC6sharedACvau)",
+          "ordinal": 2,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294972248,
+          "paddr": 119640,
+          "is_imported": false
+        },
+        {
+          "name": "_$s26ToolKitDiagnosticExtension0abC7WrapperC6sharedACvgZ",
+          "demname": "ToolKitDiagnosticExtension(...bC7WrapperC6sharedACvgZ)",
+          "flagname": "sym.ToolKitDiagnosticExtension_...bC7WrapperC6sharedACvgZ_",
+          "realname": "ToolKitDiagnosticExtension(...bC7WrapperC6sharedACvgZ)",
+          "ordinal": 3,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294972312,
+          "paddr": 119704,
+          "is_imported": false
+        },
+        {
+          "name": "_$s26ToolKitDiagnosticExtension0abC7WrapperC6sharedACvpZ",
+          "demname": "ToolKitDiagnosticExtension(...bC7WrapperC6sharedACvpZ)",
+          "flagname": "sym.ToolKitDiagnosticExtension_...bC7WrapperC6sharedACvpZ_",
+          "realname": "ToolKitDiagnosticExtension(...bC7WrapperC6sharedACvpZ)",
+          "ordinal": 4,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295050280,
+          "paddr": 197672,
+          "is_imported": false
+        },
+        {
+          "name": "_$s26ToolKitDiagnosticExtension0abC7WrapperC6sharedACvpZMV",
+          "demname": "ToolKitDiagnosticExtension(...bC7WrapperC6sharedACvpZMV)",
+          "flagname": "sym.ToolKitDiagnosticExtension_...bC7WrapperC6sharedACvpZMV_",
+          "realname": "ToolKitDiagnosticExtension(...bC7WrapperC6sharedACvpZMV)",
+          "ordinal": 5,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295013536,
+          "paddr": 160928,
+          "is_imported": false
+        },
+        {
+          "name": "_$s26ToolKitDiagnosticExtension0abC7WrapperCMa",
+          "demname": "ToolKitDiagnosticExtension(...bC7WrapperCMa)",
+          "flagname": "sym.ToolKitDiagnosticExtension_...bC7WrapperCMa_",
+          "realname": "ToolKitDiagnosticExtension(...bC7WrapperCMa)",
+          "ordinal": 6,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295002028,
+          "paddr": 149420,
+          "is_imported": false
+        },
+        {
+          "name": "_$s26ToolKitDiagnosticExtension0abC7WrapperCMn",
+          "demname": "ToolKitDiagnosticExtension(...bC7WrapperCMn)",
+          "flagname": "sym.ToolKitDiagnosticExtension_...bC7WrapperCMn_",
+          "realname": "ToolKitDiagnosticExtension(...bC7WrapperCMn)",
+          "ordinal": 7,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295017104,
+          "paddr": 164496,
+          "is_imported": false
+        },
+        {
+          "name": "_$s26ToolKitDiagnosticExtension0abC7WrapperCN",
+          "demname": "ToolKitDiagnosticExtension(...bC7WrapperCN)",
+          "flagname": "sym.ToolKitDiagnosticExtension_...bC7WrapperCN_",
+          "realname": "ToolKitDiagnosticExtension(...bC7WrapperCN)",
+          "ordinal": 8,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295049784,
+          "paddr": 197176,
+          "is_imported": false
+        },
+        {
+          "name": "_$s26ToolKitDiagnosticExtension0abC7WrapperCfD",
+          "demname": "ToolKitDiagnosticExtension(...bC7WrapperCfD)",
+          "flagname": "sym.ToolKitDiagnosticExtension_...bC7WrapperCfD_",
+          "realname": "ToolKitDiagnosticExtension(...bC7WrapperCfD)",
+          "ordinal": 9,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294999428,
+          "paddr": 146820,
+          "is_imported": false
+        }
+      ]
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist",
+        "PlugIns/osx-spotlight.appex/Contents/Info.plist",
+        "PlugIns/osx-spotlight.appex/Contents/version.plist",
+        "PlugIns/osx-spotlight.appex/Contents/_CodeSignature/CodeResources",
+        "PlugIns/osx-spotlight.appex/Contents/MacOS/osx-spotlight",
+        "PlugIns/osx-spotlight.appex/Contents/XPCServices/SpotlightHelper",
+        "PlugIns/AirPlayDiagnosticExtension.appex/Contents/Info.plist",
+        "PlugIns/AirPlayDiagnosticExtension.appex/Contents/version.plist",
+        "PlugIns/AirPlayDiagnosticExtension.appex/Contents/_CodeSignature/CodeResources",
+        "PlugIns/AirPlayDiagnosticExtension.appex/Contents/MacOS/AirPlayDiagnosticExtension",
+        "PlugIns/IntelligentRoutingDiagnostic.appex/Contents/Info.plist",
+        "PlugIns/IntelligentRoutingDiagnostic.appex/Contents/version.plist",
+        "PlugIns/IntelligentRoutingDiagnostic.appex/Contents/_CodeSignature/CodeResources",
+        "PlugIns/IntelligentRoutingDiagnostic.appex/Contents/MacOS/IntelligentRoutingDiagnostic",
+        "PlugIns/IntelligentRoutingDiagnostic.appex/Contents/Resources/consent.txt",
+        "PlugIns/osx-timemachine.appex/Contents/Info.plist",
+        "PlugIns/osx-timemachine.appex/Contents/version.plist",
+        "PlugIns/osx-timemachine.appex/Contents/_CodeSignature/CodeResources",
+        "PlugIns/osx-timemachine.appex/Contents/MacOS/osx-timemachine",
+        "PlugIns/osx-timemachine.appex/Contents/XPCServices/timemachinehelper",
+        "PlugIns/IMDiagnosticExtension.appex/Contents/Info.plist",
+        "PlugIns/IMDiagnosticExtension.appex/Contents/version.plist",
+        "PlugIns/IMDiagnosticExtension.appex/Contents/_CodeSignature/CodeResources",
+        "PlugIns/IMDiagnosticExtension.appex/Contents/MacOS/IMDiagnosticExtension",
+        "PlugIns/BluetoothDiagnosticExtension.appex/Contents/Info.plist",
+        "PlugIns/BluetoothDiagnosticExtension.appex/Contents/version.plist",
+        "PlugIns/BluetoothDiagnosticExtension.appex/Contents/_CodeSignature/CodeResources",
+        "PlugIns/BluetoothDiagnosticExtension.appex/Contents/MacOS/BluetoothDiagnosticExtension",
+        "PlugIns/BluetoothDiagnosticExtension.appex/Contents/Resources/InfoPlist.loctable",
+        "PlugIns/osx-SystemProfile.appex/Contents/Info.plist",
+        "PlugIns/osx-SystemProfile.appex/Contents/version.plist",
+        "PlugIns/osx-SystemProfile.appex/Contents/_CodeSignature/CodeResources",
+        "PlugIns/osx-SystemProfile.appex/Contents/MacOS/osx-SystemProfile",
+        "PlugIns/ToolKitDiagnosticExtension.appex/Contents/Info.plist",
+        "PlugIns/ToolKitDiagnosticExtension.appex/Contents/version.plist",
+        "PlugIns/ToolKitDiagnosticExtension.appex/Contents/_CodeSignature/CodeResources",
+        "PlugIns/ToolKitDiagnosticExtension.appex/Contents/MacOS/ToolKitDiagnosticExtension",
+        "PlugIns/ScreenTimeDiagnosticExtension.appex/Contents/Info.plist",
+        "PlugIns/ScreenTimeDiagnosticExtension.appex/Contents/version.plist",
+        "PlugIns/ScreenTimeDiagnosticExtension.appex/Contents/_CodeSignature/CodeResources",
+        "PlugIns/ScreenTimeDiagnosticExtension.appex/Contents/MacOS/ScreenTimeDiagnosticExtension",
+        "PlugIns/ScreenTimeDiagnosticExtension.appex/Contents/Resources/InfoPlist.loctable",
+        "PlugIns/com.apple.DiagnosticExtensions.WiFi.appex/Contents/Info.plist",
+        "PlugIns/com.apple.DiagnosticExtensions.WiFi.appex/Contents/version.plist",
+        "PlugIns/com.apple.DiagnosticExtensions.WiFi.appex/Contents/_CodeSignature/CodeResources",
+        "PlugIns/com.apple.DiagnosticExtensions.WiFi.appex/Contents/MacOS/com.apple.DiagnosticExtensions.WiFi",
+        "PlugIns/com.apple.DiagnosticExtensions.WiFi.appex/Contents/Resources/WiFiProject-readme.rtf",
+        "PlugIns/com.apple.DiagnosticExtensions.WiFi.appex/Contents/Resources/InfoPlist.loctable",
+        "PlugIns/WallpaperDiagnosticExtension.appex/Contents/Info.plist",
+        "PlugIns/WallpaperDiagnosticExtension.appex/Contents/version.plist",
+        "PlugIns/WallpaperDiagnosticExtension.appex/Contents/_CodeSignature/CodeResources",
+        "PlugIns/WallpaperDiagnosticExtension.appex/Contents/MacOS/WallpaperDiagnosticExtension",
+        "PlugIns/WallpaperDiagnosticExtension.appex/Contents/Resources/InfoPlist.loctable",
+        "PlugIns/osx-tailspin.appex/Contents/Info.plist",
+        "PlugIns/osx-tailspin.appex/Contents/version.plist",
+        "PlugIns/osx-tailspin.appex/Contents/_CodeSignature/CodeResources",
+        "PlugIns/osx-tailspin.appex/Contents/MacOS/osx-tailspin",
+        "PlugIns/PICSDiagnosticExtension.appex/Contents/Info.plist",
+        "PlugIns/PICSDiagnosticExtension.appex/Contents/version.plist",
+        "PlugIns/PICSDiagnosticExtension.appex/Contents/_CodeSignature/CodeResources",
+        "PlugIns/PICSDiagnosticExtension.appex/Contents/MacOS/PICSDiagnosticExtension",
+        "PlugIns/BluetoothHeadset.appex/Contents/Info.plist",
+        "PlugIns/BluetoothHeadset.appex/Contents/version.plist",
+        "PlugIns/BluetoothHeadset.appex/Contents/_CodeSignature/CodeResources",
+        "PlugIns/BluetoothHeadset.appex/Contents/MacOS/BluetoothHeadset",
+        "PlugIns/BluetoothHeadset.appex/Contents/Resources/InfoPlist.loctable",
+        "PlugIns/com.apple.DiagnosticExtensions.AppleBtcDiagnosis.appex/Contents/Info.plist",
+        "PlugIns/com.apple.DiagnosticExtensions.AppleBtcDiagnosis.appex/Contents/version.plist",
+        "PlugIns/com.apple.DiagnosticExtensions.AppleBtcDiagnosis.appex/Contents/_CodeSignature/CodeResources",
+        "PlugIns/com.apple.DiagnosticExtensions.AppleBtcDiagnosis.appex/Contents/MacOS/com.apple.DiagnosticExtensions.AppleBtcDiagnosis",
+        "PlugIns/HomeEnergyDiagnosticExtension.appex/Contents/Info.plist",
+        "PlugIns/HomeEnergyDiagnosticExtension.appex/Contents/version.plist",
+        "PlugIns/HomeEnergyDiagnosticExtension.appex/Contents/_CodeSignature/CodeResources",
+        "PlugIns/HomeEnergyDiagnosticExtension.appex/Contents/MacOS/HomeEnergyDiagnosticExtension",
+        "PlugIns/HomeEnergyDiagnosticExtension.appex/Contents/Resources/InfoPlist.loctable",
+        "PlugIns/osx-filevault.appex/Contents/Info.plist",
+        "PlugIns/osx-filevault.appex/Contents/version.plist",
+        "PlugIns/osx-filevault.appex/Contents/_CodeSignature/CodeResources",
+        "PlugIns/osx-filevault.appex/Contents/MacOS/osx-filevault",
+        "PlugIns/osx-filevault.appex/Contents/Resources/filevault_extradata.py",
+        "PlugIns/osx-Syslog.appex/Contents/Info.plist",
+        "PlugIns/osx-Syslog.appex/Contents/version.plist",
+        "PlugIns/osx-Syslog.appex/Contents/_CodeSignature/CodeResources",
+        "PlugIns/osx-Syslog.appex/Contents/MacOS/osx-Syslog",
+        "PlugIns/MiLoDiagnostic.appex/Contents/Info.plist",
+        "PlugIns/MiLoDiagnostic.appex/Contents/version.plist",
+        "PlugIns/MiLoDiagnostic.appex/Contents/_CodeSignature/CodeResources",
+        "PlugIns/MiLoDiagnostic.appex/Contents/MacOS/MiLoDiagnostic",
+        "PlugIns/MiLoDiagnostic.appex/Contents/Resources/consent.txt",
+        "PlugIns/ShortcutsDiagnosticExtension.appex/Contents/Info.plist",
+        "PlugIns/ShortcutsDiagnosticExtension.appex/Contents/version.plist",
+        "PlugIns/ShortcutsDiagnosticExtension.appex/Contents/_CodeSignature/CodeResources",
+        "PlugIns/ShortcutsDiagnosticExtension.appex/Contents/MacOS/ShortcutsDiagnosticExtension",
+        "PlugIns/osx-Installlog.appex/Contents/Info.plist",
+        "PlugIns/osx-Installlog.appex/Contents/version.plist",
+        "PlugIns/osx-Installlog.appex/Contents/_CodeSignature/CodeResources",
+        "PlugIns/osx-Installlog.appex/Contents/MacOS/osx-Installlog",
+        "PlugIns/com.apple.DiagnosticExtensions.sysdiagnose.appex/Contents/Info.plist",
+        "PlugIns/com.apple.DiagnosticExtensions.sysdiagnose.appex/Contents/version.plist",
+        "PlugIns/com.apple.DiagnosticExtensions.sysdiagnose.appex/Contents/_CodeSignature/CodeResources",
+        "PlugIns/com.apple.DiagnosticExtensions.sysdiagnose.appex/Contents/MacOS/com.apple.DiagnosticExtensions.sysdiagnose"
+      ],
+      "plists": {
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "DiagnosticExtensions",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "NSExtensionSDK": {
+            "com.apple.diagnosticextensions-service": {
+              "XPCService": {
+                "ServiceType": "Application",
+                "JoinExistingSession": true,
+                "RunLoopType": "NSRunLoop",
+                "_AdditionalSubServices": {
+                  "apple-extension-service": true
+                },
+                "_LaunchWatchdogTimeOut": 20
+              },
+              "NSExtension": {
+                "NSExtensionAttributes": {
+                  "NSExtensionPointName": "com.apple.diagnosticextensions-service",
+                  "NSExtensionPointVersion": "1.0"
+                },
+                "NSExtensionPointIdentifier": "com.apple.diagnosticextensions-service",
+                "NSExtensionContextHostClass": "DEExtensionHostContext",
+                "NSExtensionHostEntitlement": "com.apple.DiagnosticExtensions.extensionHost",
+                "NSExtensionContextClass": "DEExtensionContext",
+                "Subsystems": [
+                  "DiagnosticExtensions_Subsystem"
+                ]
+              },
+              "CFBundlePackageType": "XPC!"
+            }
+          },
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "FMWK",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "DiagnosticExtensions",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.DiagnosticExtensions",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleSignature": "????",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "DiagnosticExtensions",
+          "SourceVersion": "133003000000000",
+          "BuildVersion": "260"
+        },
+        "PlugIns/osx-spotlight.appex/Contents/Info.plist": {
+          "CFBundleName": "osx-spotlight",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B69",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleIconFile": "icon",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "osx-spotlight",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.diagnosticextensions.osx.spotlight",
+          "DTPlatformVersion": "26.1",
+          "CFBundleSignature": "????",
+          "CFBundleDisplayName": "Spotlight (mddiagnose) DiagnosticExtension",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "25B69",
+          "NSExtension": {
+            "NSExtensionAttributes": {
+              "DEAttachmentsName": "Spotlight Diagnostics",
+              "DEAttachmentsLoggingEnabled": true
+            },
+            "NSExtensionPointIdentifier": "com.apple.diagnosticextensions-service",
+            "NSExtensionPrincipalClass": "DEOSXSpotlightExtension"
+          }
+        },
+        "PlugIns/osx-spotlight.appex/Contents/version.plist": {
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleVersion": "1",
+          "ProjectName": "Spotlight_executables",
+          "BuildAliasOf": "Spotlight",
+          "SourceVersion": "2400014402000000",
+          "BuildVersion": "3"
+        },
+        "PlugIns/AirPlayDiagnosticExtension.appex/Contents/Info.plist": {
+          "CFBundleName": "AirPlayDiagnosticExtension",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B72",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "920.10.1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "2.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "AirPlayDiagnosticExtension",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.DiagnosticExtensions.AirPlay",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleDisplayName": "AirPlayDiagnosticExtension",
+          "CFBundleSignature": "????",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "25B72",
+          "NSExtension": {
+            "NSExtensionAttributes": {
+              "DEAttachmentsName": "AirPlay Logs",
+              "DEAttachmentsLoggingEnabled": true
+            },
+            "NSExtensionPointIdentifier": "com.apple.diagnosticextensions-service",
+            "NSExtensionPrincipalClass": "AirPlayDiagnosticExtension"
+          }
+        },
+        "PlugIns/AirPlayDiagnosticExtension.appex/Contents/version.plist": {
+          "CFBundleShortVersionString": "2.0",
+          "CFBundleVersion": "920.10.1",
+          "ProjectName": "AirPlayDiagnostics",
+          "BuildAliasOf": "AirPlay",
+          "SourceVersion": "920010001000000",
+          "BuildVersion": "201"
+        },
+        "PlugIns/IntelligentRoutingDiagnostic.appex/Contents/Info.plist": {
+          "CFBundleName": "IntelligentRoutingDiagnostic",
+          "DTSDKName": "macosx26.1.internal",
+          "DTXcode": "2600",
+          "DELocalizedConsentFilename": "consent.txt",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "IntelligentRoutingDiagnostic",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.DiagnosticExtensions.IntelligentRoutingDiagnostic",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleDisplayName": "IntelligentRoutingDiagnostic",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "",
+          "NSExtension": {
+            "NSExtensionAttributes": {
+              "DEAttachmentsName": "intelligent routing logs",
+              "DEAttachmentsAllowUserSelection": true,
+              "DEAttachmentsLoggingEnabled": true
+            },
+            "NSExtensionPointIdentifier": "com.apple.diagnosticextensions-service",
+            "NSExtensionPrincipalClass": "IntelligentRoutingDiagnosticExtension"
+          }
+        },
+        "PlugIns/IntelligentRoutingDiagnostic.appex/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "IntelligentRouting",
+          "SourceVersion": "97000001000000",
+          "BuildVersion": "4353"
+        },
+        "PlugIns/osx-timemachine.appex/Contents/Info.plist": {
+          "CFBundleName": "osx-timemachine",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleIconFile": "icon",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "osx-timemachine",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.diagnosticextensions.osx.timemachine",
+          "DTPlatformVersion": "26.1",
+          "CFBundleSignature": "????",
+          "CFBundleDisplayName": "Time Machine (tmdiagnose) DiagnosticExtension",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "",
+          "NSExtension": {
+            "NSExtensionAttributes": {
+              "DEAttachmentsName": "Time Machine Diagnostics",
+              "DEAttachmentsLoggingEnabled": true
+            },
+            "NSExtensionPointIdentifier": "com.apple.diagnosticextensions-service",
+            "NSExtensionPrincipalClass": "DETimeMachineExtension"
+          }
+        },
+        "PlugIns/osx-timemachine.appex/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "DiagnosticExtensions",
+          "SourceVersion": "133003000000000",
+          "BuildVersion": "260"
+        },
+        "PlugIns/IMDiagnosticExtension.appex/Contents/Info.plist": {
+          "CFBundleName": "IMDiagnosticExtension",
+          "DTSDKName": "macosx26.1.internal",
+          "DTXcode": "2600",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2025 Apple Inc. All rights reserved.",
+          "DTSDKBuild": "25B70",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "DELocalizedDataCollectedSummaryText": "Messages logging includes collection of an extended age of OS logs as well as statistics to help diagnose unread count and Spotlight issues.",
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "IMDiagnosticExtension",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "DELocalizedConsentText": "Collected logs may include message and chat identifiers, but will not contain message text.",
+          "CFBundleIdentifier": "com.apple.DiagnosticExtensions.IMDiagnosticExtension",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleDisplayName": "IMDiagnosticExtension",
+          "LSMinimumSystemVersion": "26.1",
+          "DELoggingPreferenceSubsystems": [
+            "com.apple.IDS",
+            "com.apple.Messages",
+            "com.apple.MessagesEvents",
+            "com.apple.Registration",
+            "com.apple.Transparency",
+            "com.apple.Transport",
+            "com.apple.apsd"
+          ],
+          "DTPlatformBuild": "25B70",
+          "NSExtension": {
+            "NSExtensionAttributes": {
+              "DEAttachmentsName": "Messages Logs",
+              "DEAttachmentsLoggingEnabled": true
+            },
+            "NSExtensionPointIdentifier": "com.apple.diagnosticextensions-service",
+            "NSExtensionPrincipalClass": "IMDiagnosticExtension"
+          }
+        },
+        "PlugIns/IMDiagnosticExtension.appex/Contents/version.plist": {
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleVersion": "1",
+          "ProjectName": "MessagesCore",
+          "BuildAliasOf": "Messages",
+          "SourceVersion": "1450200089001021",
+          "BuildVersion": "5"
+        },
+        "PlugIns/BluetoothDiagnosticExtension.appex/Contents/Info.plist": {
+          "CFBundleName": "BluetoothDiagnosticExtension",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B73",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "BluetoothDiagnosticExtension",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.DiagnosticExtensions.BluetoothDiagnosticExtension",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleDisplayName": "BluetoothDiagnosticExtension",
+          "DTPlatformBuild": "25B73",
+          "NSExtension": {
+            "NSExtensionAttributes": {
+              "DEAttachmentsName": "Bluetooth PacketLogger logs",
+              "DEAttachmentsLoggingEnabled": true
+            },
+            "NSExtensionPointIdentifier": "com.apple.diagnosticextensions-service",
+            "NSExtensionPrincipalClass": "BluetoothPacketLoggerExtension"
+          }
+        },
+        "PlugIns/BluetoothDiagnosticExtension.appex/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "MobileBluetooth",
+          "SourceVersion": "191010000000000",
+          "BuildVersion": "159"
+        },
+        "PlugIns/osx-SystemProfile.appex/Contents/Info.plist": {
+          "CFBundleName": "osx-SystemProfile",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleIconFile": "icon",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "osx-SystemProfile",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.diagnosticextensions.osx.systemprofile",
+          "DTPlatformVersion": "26.1",
+          "CFBundleSignature": "????",
+          "CFBundleDisplayName": "System Profiler DiagnosticExtension",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "",
+          "NSExtension": {
+            "NSExtensionAttributes": {
+              "DEAttachmentsName": "Apple System Profile",
+              "DEAttachmentsLoggingEnabled": true
+            },
+            "NSExtensionPointIdentifier": "com.apple.diagnosticextensions-service",
+            "NSExtensionPrincipalClass": "DESystemProfileExtension"
+          }
+        },
+        "PlugIns/osx-SystemProfile.appex/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "DiagnosticExtensions",
+          "SourceVersion": "133003000000000",
+          "BuildVersion": "260"
+        },
+        "PlugIns/ToolKitDiagnosticExtension.appex/Contents/Info.plist": {
+          "CFBundleName": "ToolKitDiagnosticExtension",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B68",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "ToolKitDiagnosticExtension",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.DiagnosticExtensions.ToolKit.shortcuts",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "25B68",
+          "NSExtension": {
+            "NSExtensionAttributes": {
+              "DEAttachmentsName": "ToolKit Logs",
+              "DEAttachmentsLoggingEnabled": true
+            },
+            "NSExtensionPointIdentifier": "com.apple.diagnosticextensions-service",
+            "NSExtensionPrincipalClass": "WFToolKitDiagnosticExtension"
+          }
+        },
+        "PlugIns/ToolKitDiagnosticExtension.appex/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "Shortcuts",
+          "SourceVersion": "4042000002002000",
+          "BuildVersion": "5"
+        },
+        "PlugIns/ScreenTimeDiagnosticExtension.appex/Contents/Info.plist": {
+          "CFBundleName": "ScreenTimeDiagnosticExtension",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B70",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "605.1.19.201",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "3.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "DELocalizedDataCollectedSummaryText": "Diagnostic information for Screen Time.",
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "ScreenTimeDiagnosticExtension",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "DELocalizedConsentText": "Collected logs may include Screen Time settings as well as app and website activity data.",
+          "CFBundleIdentifier": "com.apple.DiagnosticExtensions.ScreenTime",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleDisplayName": "ScreenTimeDiagnosticExtension",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "25B70",
+          "NSExtension": {
+            "NSExtensionAttributes": {
+              "DEAttachmentsName": "Screen Time Diagnostics",
+              "DEAttachmentsLoggingEnabled": true
+            },
+            "NSExtensionPointIdentifier": "com.apple.diagnosticextensions-service",
+            "NSExtensionPrincipalClass": "STScreenTimeDiagnosticExtension"
+          }
+        },
+        "PlugIns/ScreenTimeDiagnosticExtension.appex/Contents/version.plist": {
+          "CFBundleVersion": "605.1.19.201",
+          "CFBundleShortVersionString": "3.0",
+          "ProjectName": "ScreenTime",
+          "SourceVersion": "605001019201000",
+          "BuildVersion": "1"
+        },
+        "PlugIns/com.apple.DiagnosticExtensions.WiFi.appex/Contents/Info.plist": {
+          "CFBundleName": "com.apple.DiagnosticExtensions.WiFi",
+          "DTSDKName": "macosx26.1.internal",
+          "DTXcode": "2600",
+          "DELocalizedCustomerConsentText": "Wi-Fi Logs included in this report may contain personal information about your Wi-Fi connections, including transferred content and nearby Wi-Fi router hardware addresses. It may also contain Bluetooth logs that include sensitive data like phone call history, shared notification content, paired Bluetooth device names, and recently connected or nearby devices. If you're concerned about the included information, you can go back to review or remove it.",
+          "DTSDKBuild": "25B66",
+          "WLAN_DELocalizedCustomerConsentText": "WLAN Logs included in this report may contain personal information about your WLAN connections, including transferred content and nearby WLAN router hardware addresses. It may also contain Bluetooth logs that include sensitive data like phone call history, shared notification content, paired Bluetooth device names, and recently connected or nearby devices. If you're concerned about the included information, you can go back to review or remove it.",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "com.apple.DiagnosticExtensions.WiFi",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.DiagnosticExtensions.WiFi",
+          "DTPlatformVersion": "26.1",
+          "CFBundleSignature": "????",
+          "CFBundleDisplayName": "WiFiDiagnosticsExtension",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "",
+          "NSExtension": {
+            "NSExtensionAttributes": {
+              "DEAttachmentsName": "WiFi logs",
+              "DEAttachmentsLoggingEnabled": true
+            },
+            "NSExtensionPointIdentifier": "com.apple.diagnosticextensions-service",
+            "NSExtensionPrincipalClass": "WiFiDiagnosticsExtension"
+          }
+        },
+        "PlugIns/com.apple.DiagnosticExtensions.WiFi.appex/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "WiFiDiagnosticsExtension",
+          "SourceVersion": "550007000000000",
+          "BuildVersion": "206"
+        },
+        "PlugIns/WallpaperDiagnosticExtension.appex/Contents/Info.plist": {
+          "CFBundleName": "WallpaperDiagnosticExtension",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "245.1.9",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "WallpaperDiagnosticExtension",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.DiagnosticExtensions.WallpaperMac",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "",
+          "NSExtension": {
+            "NSExtensionAttributes": {
+              "DEAttachmentsName": "Wallpaper",
+              "DEAttachmentsLoggingEnabled": true
+            },
+            "NSExtensionPointIdentifier": "com.apple.diagnosticextensions-service",
+            "NSExtensionPrincipalClass": "WallpaperDiagnosticExtension.WallpaperDiagnosticExtension"
+          }
+        },
+        "PlugIns/WallpaperDiagnosticExtension.appex/Contents/version.plist": {
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleVersion": "245.1.9",
+          "ProjectName": "WallpaperMac_executables",
+          "BuildAliasOf": "WallpaperMac",
+          "SourceVersion": "245001009000000",
+          "BuildVersion": "328"
+        },
+        "PlugIns/osx-tailspin.appex/Contents/Info.plist": {
+          "CFBundleName": "osx-tailspin",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "osx-tailspin",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.osx-tailspin",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleDisplayName": "TailspinDiagnosticExtension",
+          "CFBundleSignature": "????",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "",
+          "NSExtension": {
+            "NSExtensionAttributes": {
+              "DEAttachmentsName": "Tailspin",
+              "DEAttachmentsLoggingEnabled": true
+            },
+            "NSExtensionPointIdentifier": "com.apple.diagnosticextensions-service",
+            "NSExtensionPrincipalClass": "TailspinDiagnosticExtension"
+          }
+        },
+        "PlugIns/osx-tailspin.appex/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "tailspin",
+          "SourceVersion": "241000000000000",
+          "BuildVersion": "2887"
+        },
+        "PlugIns/PICSDiagnosticExtension.appex/Contents/Info.plist": {
+          "DTPlatformVersion": "26.1",
+          "CFBundleIdentifier": "com.apple.DiagnosticExtensions.PICSDiagnosticExtension",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleName": "PICSDiagnosticExtension",
+          "DTPlatformBuild": "",
+          "CFBundleVersion": "1",
+          "CFBundleExecutable": "PICSDiagnosticExtension",
+          "DTXcodeBuild": "17A6264l",
+          "NSExtension": {
+            "NSExtensionAttributes": {
+              "DEAttachmentsName": "PICSDiagnosticExtension logs",
+              "DEAttachmentsLoggingEnabled": true
+            },
+            "NSExtensionPointIdentifier": "com.apple.diagnosticextensions-service",
+            "NSExtensionPrincipalClass": "PICSDiagnosticExtensionExtension"
+          },
+          "NSHumanReadableCopyright": "Copyright \u00a9 2021 Apple Inc. All rights reserved.",
+          "CFBundleDisplayName": "PICSDiagnosticExtension",
+          "DTXcode": "2600",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "DTSDKBuild": "25B66",
+          "DTSDKName": "macosx26.1.internal",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleShortVersionString": "1.0"
+        },
+        "PlugIns/PICSDiagnosticExtension.appex/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "SiriPrivateLearningAnalytics",
+          "SourceVersion": "3500015001000000",
+          "BuildVersion": "17045"
+        },
+        "PlugIns/BluetoothHeadset.appex/Contents/Info.plist": {
+          "CFBundleName": "BluetoothHeadset",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B73",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "BluetoothHeadset",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "DELocalizedConsentText": "In addition to standard Accessory logs, some logs collected may include Heart Rate related health sensitive data and sensor measurements.",
+          "CFBundleIdentifier": "com.apple.DiagnosticExtensions.BluetoothHeadset",
+          "DTPlatformVersion": "26.1",
+          "CFBundleSignature": "????",
+          "CFBundleDisplayName": "BluetoothHeadset",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "25B73",
+          "NSExtension": {
+            "NSExtensionAttributes": {
+              "DEAttachmentsName": "BluetoothHeadset logs",
+              "DEAttachmentsLoggingEnabled": true
+            },
+            "NSExtensionPointIdentifier": "com.apple.diagnosticextensions-service",
+            "NSExtensionPrincipalClass": "BluetoothHeadsetExtension"
+          }
+        },
+        "PlugIns/BluetoothHeadset.appex/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "MobileBluetooth",
+          "SourceVersion": "191010000000000",
+          "BuildVersion": "159"
+        },
+        "PlugIns/com.apple.DiagnosticExtensions.AppleBtcDiagnosis.appex/Contents/Info.plist": {
+          "CFBundleName": "com.apple.DiagnosticExtensions.AppleBtcDiagnosis",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "English",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "com.apple.DiagnosticExtensions.AppleBtcDiagnosis",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.DiagnosticExtensions.AppleBtcDiagnosis",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleDisplayName": "AppleBtcDiagnosis",
+          "DTPlatformBuild": "",
+          "NSExtension": {
+            "NSExtensionAttributes": {
+              "DEAttachmentsName": "AppleBtcDiagnosis logs",
+              "DEAttachmentsLoggingEnabled": true
+            },
+            "NSExtensionPointIdentifier": "com.apple.diagnosticextensions-service",
+            "NSExtensionPrincipalClass": "AppleBtcDiagnosisExtension"
+          }
+        },
+        "PlugIns/com.apple.DiagnosticExtensions.AppleBtcDiagnosis.appex/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "ACIWiFiDeviceUtils",
+          "SourceVersion": "38015000000000",
+          "BuildVersion": "2909"
+        },
+        "PlugIns/HomeEnergyDiagnosticExtension.appex/Contents/Info.plist": {
+          "CFBundleName": "HomeEnergyDiagnosticExtension",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleIconFile": "icon",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "HomeEnergyDiagnosticExtension",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.DiagnosticExtensions.HomeEnergyDiagnosticExtension",
+          "DTPlatformVersion": "26.1",
+          "CFBundleSignature": "????",
+          "CFBundleDisplayName": "HomeEnergyDiagnosticExtension",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "",
+          "NSExtension": {
+            "NSExtensionAttributes": {
+              "DEAttachmentsName": "HomeEnergyDiagnosticExtension",
+              "DEAttachmentsLoggingEnabled": true
+            },
+            "NSExtensionPointIdentifier": "com.apple.diagnosticextensions-service",
+            "NSExtensionPrincipalClass": "HomeEnergyDiagnosticExtension"
+          }
+        },
+        "PlugIns/HomeEnergyDiagnosticExtension.appex/Contents/version.plist": {
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleVersion": "1",
+          "ProjectName": "HomeEnergyDaemon",
+          "BuildAliasOf": "HomeEnergy",
+          "SourceVersion": "378002007000000",
+          "BuildVersion": "182"
+        },
+        "PlugIns/osx-filevault.appex/Contents/Info.plist": {
+          "CFBundleName": "osx-filevault",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleIconFile": "icon",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "osx-filevault",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.diagnosticextensions.osx.filevault",
+          "DTPlatformVersion": "26.1",
+          "CFBundleSignature": "????",
+          "CFBundleDisplayName": "FileVault DiagnosticExtension",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "",
+          "NSExtension": {
+            "NSExtensionAttributes": {
+              "DEAttachmentsName": "filevault",
+              "DEAttachmentsLoggingEnabled": true
+            },
+            "NSExtensionPointIdentifier": "com.apple.diagnosticextensions-service",
+            "NSExtensionPrincipalClass": "DEFileVaultExtension"
+          }
+        },
+        "PlugIns/osx-filevault.appex/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "DiagnosticExtensions",
+          "SourceVersion": "133003000000000",
+          "BuildVersion": "260"
+        },
+        "PlugIns/osx-Syslog.appex/Contents/Info.plist": {
+          "CFBundleName": "osx-Syslog",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleIconFile": "icon",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "osx-Syslog",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.diagnosticextensions.osx.syslog",
+          "DTPlatformVersion": "26.1",
+          "CFBundleSignature": "????",
+          "CFBundleDisplayName": "Syslogs DiagnosticExtension",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "",
+          "NSExtension": {
+            "NSExtensionAttributes": {
+              "DEAttachmentsName": "Syslogs",
+              "DEAttachmentsLoggingEnabled": true
+            },
+            "NSExtensionPointIdentifier": "com.apple.diagnosticextensions-service",
+            "NSExtensionPrincipalClass": "DESyslogExtension"
+          }
+        },
+        "PlugIns/osx-Syslog.appex/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "DiagnosticExtensions",
+          "SourceVersion": "133003000000000",
+          "BuildVersion": "260"
+        },
+        "PlugIns/MiLoDiagnostic.appex/Contents/Info.plist": {
+          "CFBundleName": "MiLoDiagnostic",
+          "DTSDKName": "macosx26.1.internal",
+          "DTXcode": "2600",
+          "DELocalizedConsentFilename": "consent.txt",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "DELocalizedDataCollectedExplanationFilename": "sensor information",
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "MiLoDiagnostic",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.DiagnosticExtensions.MiLoDiagnostic",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleDisplayName": "MiLoDiagnostic",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "",
+          "NSExtension": {
+            "NSExtensionAttributes": {
+              "DEAttachmentsName": "MiLoDiagnostic logs",
+              "DEAttachmentsAllowUserSelection": true,
+              "DEAttachmentsLoggingEnabled": true
+            },
+            "NSExtensionPointIdentifier": "com.apple.diagnosticextensions-service",
+            "CFBundleIdentifier": "com.apple.DiagnosticExtensions.MiLoDiagnostic",
+            "NSExtensionPrincipalClass": "MiLoDiagnosticExtension"
+          }
+        },
+        "PlugIns/MiLoDiagnostic.appex/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "MicroLocation",
+          "SourceVersion": "31000002000000",
+          "BuildVersion": "701"
+        },
+        "PlugIns/ShortcutsDiagnosticExtension.appex/Contents/Info.plist": {
+          "CFBundleName": "ShortcutsDiagnosticExtension",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B68",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "ShortcutsDiagnosticExtension",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.DiagnosticExtensions.shortcuts",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "25B68",
+          "NSExtension": {
+            "NSExtensionAttributes": {
+              "DEAttachmentsName": "Shortcuts Logs",
+              "DEAttachmentsLoggingEnabled": true
+            },
+            "NSExtensionPointIdentifier": "com.apple.diagnosticextensions-service",
+            "NSExtensionPrincipalClass": "ShortcutsDiagnosticExtension"
+          }
+        },
+        "PlugIns/ShortcutsDiagnosticExtension.appex/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "Shortcuts",
+          "SourceVersion": "4042000002002000",
+          "BuildVersion": "5"
+        },
+        "PlugIns/osx-Installlog.appex/Contents/Info.plist": {
+          "CFBundleName": "osx-Installlog",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleIconFile": "icon",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "osx-Installlog",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.diagnosticextensions.osx.installlog",
+          "DTPlatformVersion": "26.1",
+          "CFBundleSignature": "????",
+          "CFBundleDisplayName": "Install logs DiagnosticExtension",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "",
+          "NSExtension": {
+            "NSExtensionAttributes": {
+              "DEAttachmentsName": "installlogs",
+              "DEAttachmentsLoggingEnabled": true
+            },
+            "NSExtensionPointIdentifier": "com.apple.diagnosticextensions-service",
+            "NSExtensionPrincipalClass": "DEInstalllogExtension"
+          }
+        },
+        "PlugIns/osx-Installlog.appex/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "DiagnosticExtensions",
+          "SourceVersion": "133003000000000",
+          "BuildVersion": "260"
+        },
+        "PlugIns/com.apple.DiagnosticExtensions.sysdiagnose.appex/Contents/Info.plist": {
+          "CFBundleName": "com.apple.DiagnosticExtensions.sysdiagnose",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "com.apple.DiagnosticExtensions.sysdiagnose",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.DiagnosticExtensions.sysdiagnose",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleDisplayName": "sysdiagnose",
+          "CFBundleSignature": "????",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "",
+          "NSExtension": {
+            "NSExtensionAttributes": {
+              "DEAttachmentsName": "sysdiagnose Logs",
+              "DEAttachmentsAllowUserSelection": true,
+              "DEAttachmentsLoggingEnabled": true
+            },
+            "NSExtensionPointIdentifier": "com.apple.diagnosticextensions-service",
+            "NSExtensionPrincipalClass": "sysdiagnose_DEExtension"
+          }
+        },
+        "PlugIns/com.apple.DiagnosticExtensions.sysdiagnose.appex/Contents/version.plist": {
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleVersion": "1",
+          "ProjectName": "sysdiagnose_extra",
+          "BuildAliasOf": "sysdiagnose",
+          "SourceVersion": "1527040007000000",
+          "BuildVersion": "460"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
+  },
+  "usage": {
+    "layer": "usage",
+    "used_by": []
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "loaded"
+  }
+}

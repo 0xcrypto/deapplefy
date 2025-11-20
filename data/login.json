@@ -1,0 +1,452 @@
+{
+  "framework": "login.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/login.framework/Versions/A/XPCServices/LoginUserService.xpc/Contents/MacOS/LoginUserService",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 71552,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "objc with blocks",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "/System/Library/Frameworks/OpenDirectory.framework/Versions/A/OpenDirectory"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "ServiceDelegate",
+        "addr": 4295001320,
+        "lang": "objc",
+        "index": 0,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "listener:shouldAcceptNewConnection:",
+            "flag": "method.ServiceDelegate.listener:shouldAcceptNewConnection:",
+            "lang": "objc",
+            "addr": 4294970448
+          }
+        ],
+        "fields": [
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "LoginUserService",
+        "addr": 4295001400,
+        "lang": "objc",
+        "index": 1,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "_authenticationAuthorityForUserRecord:",
+            "flag": "method.LoginUserService._authenticationAuthorityForUserRecord:",
+            "lang": "objc",
+            "addr": 4294970716
+          },
+          {
+            "name": "_authenticationAuthorityForUserWithUID:onNode:",
+            "flag": "method.LoginUserService._authenticationAuthorityForUserWithUID:onNode:",
+            "lang": "objc",
+            "addr": 4294971052
+          },
+          {
+            "name": "_authenticationAuthority:contaians:",
+            "flag": "method.LoginUserService._authenticationAuthority:contaians:",
+            "lang": "objc",
+            "addr": 4294971232
+          },
+          {
+            "name": "_userRecordForUserWithUID:onNode:",
+            "flag": "method.LoginUserService._userRecordForUserWithUID:onNode:",
+            "lang": "objc",
+            "addr": 4294971556
+          },
+          {
+            "name": "authAuthorityContainsBasic:onNode:withReply:",
+            "flag": "func.100001420",
+            "lang": "objc",
+            "addr": 4294972448
+          },
+          {
+            "name": "userCanLoginWithAuthAuthority:onNode:withReply:",
+            "flag": "func.1000015ec",
+            "lang": "objc",
+            "addr": 4294972908
+          },
+          {
+            "name": "authAuthorityContainsDisabled:onNode:withReply:",
+            "flag": "func.100001854",
+            "lang": "objc",
+            "addr": 4294973524
+          },
+          {
+            "name": "authAuthorityContainsShadowHash:onNode:withReply:",
+            "flag": "func.100001a20",
+            "lang": "objc",
+            "addr": 4294973984
+          },
+          {
+            "name": "userHasAuthAuthority:onNode:withReply:",
+            "flag": "func.100001bec",
+            "lang": "objc",
+            "addr": 4294974444
+          },
+          {
+            "name": "authAuthorityContainsBasic:onNode:withReply:",
+            "flag": "method.LoginUserService.authAuthorityContainsBasic:onNode:withReply:",
+            "lang": "objc",
+            "addr": 4294976256
+          },
+          {
+            "name": "authAuthorityContainsDisabled:onNode:withReply:",
+            "flag": "method.LoginUserService.authAuthorityContainsDisabled:onNode:withReply:",
+            "lang": "objc",
+            "addr": 4294976268
+          },
+          {
+            "name": "authAuthorityContainsShadowHash:onNode:withReply:",
+            "flag": "method.LoginUserService.authAuthorityContainsShadowHash:onNode:withReply:",
+            "lang": "objc",
+            "addr": 4294976280
+          },
+          {
+            "name": "userCanLoginWithAuthAuthority:onNode:withReply:",
+            "flag": "method.LoginUserService.userCanLoginWithAuthAuthority:onNode:withReply:",
+            "lang": "objc",
+            "addr": 4294976292
+          },
+          {
+            "name": "userHasAuthAuthority:onNode:withReply:",
+            "flag": "method.LoginUserService.userHasAuthAuthority:onNode:withReply:",
+            "lang": "objc",
+            "addr": 4294976304
+          },
+          {
+            "name": "authAuthorityContainsBasic:onNode:withReply:",
+            "flag": "method.LoginUserService.authAuthorityContainsBasic:onNode:withReply:",
+            "lang": "objc",
+            "addr": 4294976256
+          },
+          {
+            "name": "authAuthorityContainsDisabled:onNode:withReply:",
+            "flag": "method.LoginUserService.authAuthorityContainsDisabled:onNode:withReply:",
+            "lang": "objc",
+            "addr": 4294976268
+          },
+          {
+            "name": "authAuthorityContainsShadowHash:onNode:withReply:",
+            "flag": "method.LoginUserService.authAuthorityContainsShadowHash:onNode:withReply:",
+            "lang": "objc",
+            "addr": 4294976280
+          },
+          {
+            "name": "userCanLoginWithAuthAuthority:onNode:withReply:",
+            "flag": "method.LoginUserService.userCanLoginWithAuthAuthority:onNode:withReply:",
+            "lang": "objc",
+            "addr": 4294976292
+          },
+          {
+            "name": "userHasAuthAuthority:onNode:withReply:",
+            "flag": "method.LoginUserService.userHasAuthAuthority:onNode:withReply:",
+            "lang": "objc",
+            "addr": 4294976304
+          }
+        ]
+      }
+    ],
+    "swift_metadata": {
+      "is_swift": false,
+      "symbols": []
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/InfoPlist.loctable",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist",
+        "Versions/A/Frameworks/loginsupport.framework/Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Frameworks/loginsupport.framework/Versions/A/Resources/InfoPlist.loctable",
+        "Versions/A/Frameworks/loginsupport.framework/Versions/A/Resources/Info.plist",
+        "Versions/A/Frameworks/loginsupport.framework/Versions/A/Resources/version.plist",
+        "Versions/A/XPCServices/LoginUserService.xpc/Contents/Info.plist",
+        "Versions/A/XPCServices/LoginUserService.xpc/Contents/version.plist",
+        "Versions/A/XPCServices/LoginUserService.xpc/Contents/_CodeSignature/CodeResources",
+        "Versions/A/XPCServices/LoginUserService.xpc/Contents/MacOS/LoginUserService"
+      ],
+      "plists": {
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "login",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "English",
+          "CFBundleVersion": "3.0",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "FMWK",
+          "CFBundleShortVersionString": "3.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "login",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.login",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleSignature": "????",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "3.0",
+          "CFBundleShortVersionString": "3.0",
+          "ProjectName": "LoginFramework",
+          "SourceVersion": "264001002000000",
+          "BuildVersion": "599"
+        },
+        "Versions/A/Frameworks/loginsupport.framework/Versions/A/Resources/Info.plist": {
+          "CFBundleName": "loginsupport",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2023 Apple Inc. All rights reserved.",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "English",
+          "CFBundleVersion": "264.1.2",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "FMWK",
+          "CFBundleShortVersionString": "3.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "loginsupport",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.loginsupport",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleSignature": "????",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/Frameworks/loginsupport.framework/Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "264.1.2",
+          "CFBundleShortVersionString": "3.0",
+          "ProjectName": "LoginFramework",
+          "SourceVersion": "264001002000000",
+          "BuildVersion": "599"
+        },
+        "Versions/A/XPCServices/LoginUserService.xpc/Contents/Info.plist": {
+          "CFBundleName": "LoginUserService",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2018 Apple Inc. All rights reserved.",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "XPCService": {
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "LoginUserService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.LoginUserService",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleDisplayName": "loginservice",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/XPCServices/LoginUserService.xpc/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "LoginFramework",
+          "SourceVersion": "264001002000000",
+          "BuildVersion": "599"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
+  },
+  "usage": {
+    "layer": "usage",
+    "used_by": [
+      {
+        "path": "/System/Applications/Photo Booth.app",
+        "binary": "/System/Applications/Photo Booth.app/Contents/MacOS/Photo Booth",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/ControlCenter.app",
+        "binary": "/System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/UnmountAssistantAgent.app",
+        "binary": "/System/Library/CoreServices/UnmountAssistantAgent.app/Contents/MacOS/UnmountAssistantAgent",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/TextInputMenuAgent.app",
+        "binary": "/System/Library/CoreServices/TextInputMenuAgent.app/Contents/MacOS/TextInputMenuAgent",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/NotificationCenter.app",
+        "binary": "/System/Library/CoreServices/NotificationCenter.app/Contents/MacOS/NotificationCenter",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/Captive Network Assistant.app",
+        "binary": "/System/Library/CoreServices/Captive Network Assistant.app/Contents/MacOS/Captive Network Assistant",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/NetAuthAgent.app",
+        "binary": "/System/Library/CoreServices/NetAuthAgent.app/Contents/MacOS/NetAuthAgent",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/Setup Assistant.app",
+        "binary": "/System/Library/CoreServices/Setup Assistant.app/Contents/MacOS/Setup Assistant",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/loginwindow.app",
+        "binary": "/System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/Installer Progress.app",
+        "binary": "/System/Library/CoreServices/Installer Progress.app/Contents/MacOS/Installer Progress",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/ManagedClient.app",
+        "binary": "/System/Library/CoreServices/ManagedClient.app/Contents/MacOS/ManagedClient",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/Installer.app",
+        "binary": "/System/Library/CoreServices/Installer.app/Contents/MacOS/Installer",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/CoreLocationAgent.app",
+        "binary": "/System/Library/CoreServices/CoreLocationAgent.app/Contents/MacOS/CoreLocationAgent",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/UniversalControl.app",
+        "binary": "/System/Library/CoreServices/UniversalControl.app/Contents/MacOS/UniversalControl",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/TextInputMenuCore.bundle",
+        "binary": "/System/Library/CoreServices/TextInputMenuCore.bundle/Contents/MacOS/TextInputMenuCore",
+        "used_classes": []
+      }
+    ]
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "loaded"
+  }
+}

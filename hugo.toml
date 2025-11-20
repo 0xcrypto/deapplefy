@@ -13,11 +13,11 @@ theme = 'hextra'
 [menu]
   [[menu.main]]
     name = "Documentation"
-    pageRef = "/deapplefy/docs"
+    pageRef = "/docs"
     weight = 1
   [[menu.main]]
     name = "About"
-    pageRef = "/deapplefy/docs/about"
+    pageRef = "/about"
     weight = 2
 
 [markup]

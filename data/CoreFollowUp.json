@@ -1,0 +1,1978 @@
+{
+  "framework": "CoreFollowUp.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/CoreFollowUp.framework/Versions/A/Support/followupd",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 182304,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "objc with blocks",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/PrivateFrameworks/CoreFollowUp.framework/Versions/A/CoreFollowUp",
+          "/System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/System/Library/PrivateFrameworks/CommonUtilities.framework/Versions/A/CommonUtilities",
+          "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",
+          "/usr/lib/libsqlite3.dylib",
+          "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "/System/Library/Frameworks/PreferencePanes.framework/Versions/A/PreferencePanes",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "FLStoreMigrator",
+        "addr": 4295106840,
+        "lang": "objc",
+        "index": 0,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithExecutor:",
+            "flag": "method.FLStoreMigrator.initWithExecutor:",
+            "lang": "objc",
+            "addr": 4294971456
+          },
+          {
+            "name": "migrateSchemeIfNecessary",
+            "flag": "method.FLStoreMigrator.migrateSchemeIfNecessary",
+            "lang": "objc",
+            "addr": 4294971552
+          },
+          {
+            "name": "_schemaVersion",
+            "flag": "method.FLStoreMigrator._schemaVersion",
+            "lang": "objc",
+            "addr": 4294971636
+          },
+          {
+            "name": "_migrateSchema:toSchema:",
+            "flag": "method.FLStoreMigrator._migrateSchema:toSchema:",
+            "lang": "objc",
+            "addr": 4294971988
+          },
+          {
+            "name": "_createCleanCurrentDatabase",
+            "flag": "method.FLStoreMigrator._createCleanCurrentDatabase",
+            "lang": "objc",
+            "addr": 4294972452
+          },
+          {
+            "name": "_migrateToCurrentFrom:",
+            "flag": "method.FLStoreMigrator._migrateToCurrentFrom:",
+            "lang": "objc",
+            "addr": 4294972516
+          },
+          {
+            "name": "_migrateFujitailToCurrent",
+            "flag": "method.FLStoreMigrator._migrateFujitailToCurrent",
+            "lang": "objc",
+            "addr": 4294975920
+          },
+          {
+            "name": "_createCurrentDatabaseWithTableSuffix:",
+            "flag": "method.FLStoreMigrator._createCurrentDatabaseWithTableSuffix:",
+            "lang": "objc",
+            "addr": 4294977020
+          },
+          {
+            "name": "_dropTables",
+            "flag": "method.FLStoreMigrator._dropTables",
+            "lang": "objc",
+            "addr": 4294977432
+          },
+          {
+            "name": "queryExecutor",
+            "flag": "method.FLStoreMigrator.queryExecutor",
+            "lang": "objc",
+            "addr": 4294977576
+          },
+          {
+            "name": "setQueryExecutor:",
+            "flag": "method.FLStoreMigrator.setQueryExecutor:",
+            "lang": "objc",
+            "addr": 4294977588
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.FLStoreMigrator..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294977596
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_queryExecutor",
+            "kind": "var",
+            "type": "@\"FLSQLiteExecutor\"",
+            "addr": 4295106760
+          },
+          {
+            "name": "queryExecutor",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "NotificationCenterProvider",
+        "addr": 4295106960,
+        "lang": "objc",
+        "index": 1,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.NotificationCenterProvider.init",
+            "lang": "objc",
+            "addr": 4294977608
+          },
+          {
+            "name": "start",
+            "flag": "func.1000028c8",
+            "lang": "objc",
+            "addr": 4294977736
+          },
+          {
+            "name": "shouldUpdateExistingForItem:completionHandler:",
+            "flag": "func.100002938",
+            "lang": "objc",
+            "addr": 4294977848
+          },
+          {
+            "name": "postNotificationForFollowUpItem:",
+            "flag": "func.100002d68",
+            "lang": "objc",
+            "addr": 4294978920
+          },
+          {
+            "name": "tearDownNotificationsForFollowUpItem:",
+            "flag": "func.100002dd0",
+            "lang": "objc",
+            "addr": 4294979024
+          },
+          {
+            "name": "notificationForFollowUpItem:",
+            "flag": "method.NotificationCenterProvider.notificationForFollowUpItem:",
+            "lang": "objc",
+            "addr": 4294979464
+          },
+          {
+            "name": "alertNotificationCenter",
+            "flag": "method.NotificationCenterProvider.alertNotificationCenter",
+            "lang": "objc",
+            "addr": 4294981324
+          },
+          {
+            "name": "userNotificationCenter:didActivateNotification:",
+            "flag": "method.NotificationCenterProvider.userNotificationCenter:didActivateNotification:",
+            "lang": "objc",
+            "addr": 4294981348
+          },
+          {
+            "name": "userNotificationCenter:didDismissAlert:",
+            "flag": "method.NotificationCenterProvider.userNotificationCenter:didDismissAlert:",
+            "lang": "objc",
+            "addr": 4294981532
+          },
+          {
+            "name": "delegate",
+            "flag": "func.1000038ac",
+            "lang": "objc",
+            "addr": 4294981804
+          },
+          {
+            "name": "setDelegate:",
+            "flag": "func.1000038d8",
+            "lang": "objc",
+            "addr": 4294981848
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.NotificationCenterProvider..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294981860
+          },
+          {
+            "name": "start",
+            "flag": "method.NotificationCenterProvider.start",
+            "lang": "objc",
+            "addr": 4295050808
+          },
+          {
+            "name": "postNotificationForFollowUpItem:",
+            "flag": "method.NotificationCenterProvider.postNotificationForFollowUpItem:",
+            "lang": "objc",
+            "addr": 4295050820
+          },
+          {
+            "name": "tearDownNotificationsForFollowUpItem:",
+            "flag": "method.NotificationCenterProvider.tearDownNotificationsForFollowUpItem:",
+            "lang": "objc",
+            "addr": 4295050832
+          },
+          {
+            "name": "shouldUpdateExistingForItem:completionHandler:",
+            "flag": "method.NotificationCenterProvider.shouldUpdateExistingForItem:completionHandler:",
+            "lang": "objc",
+            "addr": 4295050844
+          },
+          {
+            "name": "delegate",
+            "flag": "method.NotificationCenterProvider.delegate",
+            "lang": "objc",
+            "addr": 4295050856
+          },
+          {
+            "name": "setDelegate:",
+            "flag": "method.NotificationCenterProvider.setDelegate:",
+            "lang": "objc",
+            "addr": 4295050868
+          },
+          {
+            "name": "start",
+            "flag": "method.NotificationCenterProvider.start",
+            "lang": "objc",
+            "addr": 4295050808
+          },
+          {
+            "name": "postNotificationForFollowUpItem:",
+            "flag": "method.NotificationCenterProvider.postNotificationForFollowUpItem:",
+            "lang": "objc",
+            "addr": 4295050820
+          },
+          {
+            "name": "tearDownNotificationsForFollowUpItem:",
+            "flag": "method.NotificationCenterProvider.tearDownNotificationsForFollowUpItem:",
+            "lang": "objc",
+            "addr": 4295050832
+          },
+          {
+            "name": "shouldUpdateExistingForItem:completionHandler:",
+            "flag": "method.NotificationCenterProvider.shouldUpdateExistingForItem:completionHandler:",
+            "lang": "objc",
+            "addr": 4295050844
+          },
+          {
+            "name": "delegate",
+            "flag": "method.NotificationCenterProvider.delegate",
+            "lang": "objc",
+            "addr": 4295050856
+          },
+          {
+            "name": "setDelegate:",
+            "flag": "method.NotificationCenterProvider.setDelegate:",
+            "lang": "objc",
+            "addr": 4295050868
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "delegate",
+            "kind": "var",
+            "type": "@\"<NotificationProviderDelegate>\"",
+            "addr": 4295106764
+          },
+          {
+            "name": "delegate",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "NotificationController",
+        "addr": 4295107040,
+        "lang": "objc",
+        "index": 2,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "start",
+            "flag": "method.NotificationController.start",
+            "lang": "objc",
+            "addr": 4294982040
+          },
+          {
+            "name": "_monitorUnlockEvents",
+            "flag": "method.NotificationController._monitorUnlockEvents",
+            "lang": "objc",
+            "addr": 4294982576
+          },
+          {
+            "name": "updateRepeatingActivityState",
+            "flag": "method.NotificationController.updateRepeatingActivityState",
+            "lang": "objc",
+            "addr": 4294983252
+          },
+          {
+            "name": "_itemsWithEligibleNotifications",
+            "flag": "method.NotificationController._itemsWithEligibleNotifications",
+            "lang": "objc",
+            "addr": 4294983444
+          },
+          {
+            "name": "_timeTilNextActivityForItems:",
+            "flag": "method.NotificationController._timeTilNextActivityForItems:",
+            "lang": "objc",
+            "addr": 4294983808
+          },
+          {
+            "name": "_registerActivityForItems:",
+            "flag": "method.NotificationController._registerActivityForItems:",
+            "lang": "objc",
+            "addr": 4294985356
+          },
+          {
+            "name": "_activityCriteriaWithFrequency:",
+            "flag": "method.NotificationController._activityCriteriaWithFrequency:",
+            "lang": "objc",
+            "addr": 4294986620
+          },
+          {
+            "name": "_processPendingNotifications:",
+            "flag": "method.NotificationController._processPendingNotifications:",
+            "lang": "objc",
+            "addr": 4294986964
+          },
+          {
+            "name": "_processPendingItem:completion:",
+            "flag": "method.NotificationController._processPendingItem:completion:",
+            "lang": "objc",
+            "addr": 4294987084
+          },
+          {
+            "name": "deliverNotificationsForItem:",
+            "flag": "method.NotificationController.deliverNotificationsForItem:",
+            "lang": "objc",
+            "addr": 4294987460
+          },
+          {
+            "name": "_deliverNotificationsForItem:forceDelivery:",
+            "flag": "method.NotificationController._deliverNotificationsForItem:forceDelivery:",
+            "lang": "objc",
+            "addr": 4294987468
+          },
+          {
+            "name": "tearDownNotificationForItem:",
+            "flag": "method.NotificationController.tearDownNotificationForItem:",
+            "lang": "objc",
+            "addr": 4294988112
+          },
+          {
+            "name": "providerForFollowUpItem:",
+            "flag": "method.NotificationController.providerForFollowUpItem:",
+            "lang": "objc",
+            "addr": 4294988216
+          },
+          {
+            "name": "provider:didActivateNotification:forFollowUpItemWithIdentifier:activationSource:",
+            "flag": "func.1000051c0",
+            "lang": "objc",
+            "addr": 4294988224
+          },
+          {
+            "name": "provider:didActivateNotificationForFollowUpItemWithIdentifier:activationSource:",
+            "flag": "func.10000554c",
+            "lang": "objc",
+            "addr": 4294989132
+          },
+          {
+            "name": "_handleActivateActionFromSource:item:",
+            "flag": "method.NotificationController._handleActivateActionFromSource:item:",
+            "lang": "objc",
+            "addr": 4294989960
+          },
+          {
+            "name": "provider:didClearNotificationsForFollowUpItemsWithIdentifiers:activationSource:",
+            "flag": "func.1000059a8",
+            "lang": "objc",
+            "addr": 4294990248
+          },
+          {
+            "name": "provider:didDismissNotificationForFollowUpItemWithIdentifier:activationSource:",
+            "flag": "func.100005ba8",
+            "lang": "objc",
+            "addr": 4294990760
+          },
+          {
+            "name": "_handleNotificationAction:forItem:activationSource:",
+            "flag": "method.NotificationController._handleNotificationAction:forItem:activationSource:",
+            "lang": "objc",
+            "addr": 4294991272
+          },
+          {
+            "name": "_handleExtensionAction:forItem:",
+            "flag": "method.NotificationController._handleExtensionAction:forItem:",
+            "lang": "objc",
+            "addr": 4294992756
+          },
+          {
+            "name": "_processFollowUpItemNotificationWithExtension:activatedAction:",
+            "flag": "method.NotificationController._processFollowUpItemNotificationWithExtension:activatedAction:",
+            "lang": "objc",
+            "addr": 4294993740
+          },
+          {
+            "name": "updateNotificationDeliveryDateForItem:",
+            "flag": "method.NotificationController.updateNotificationDeliveryDateForItem:",
+            "lang": "objc",
+            "addr": 4294994648
+          },
+          {
+            "name": "didActivateHSA2LoginNotificationNotification:",
+            "flag": "method.NotificationController.didActivateHSA2LoginNotificationNotification:",
+            "lang": "objc",
+            "addr": 4294994900
+          },
+          {
+            "name": "xpcConnectionForClientWithMachServiceName:",
+            "flag": "method.NotificationController.xpcConnectionForClientWithMachServiceName:",
+            "lang": "objc",
+            "addr": 4294995228
+          },
+          {
+            "name": "notificationProvider",
+            "flag": "method.NotificationController.notificationProvider",
+            "lang": "objc",
+            "addr": 4294995388
+          },
+          {
+            "name": "setNotificationProvider:",
+            "flag": "method.NotificationController.setNotificationProvider:",
+            "lang": "objc",
+            "addr": 4294995396
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.NotificationController..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294995408
+          },
+          {
+            "name": "provider:didActivateNotification:forFollowUpItemWithIdentifier:activationSource:",
+            "flag": "method.NotificationController.provider:didActivateNotification:forFollowUpItemWithIdentifier:activationSource:",
+            "lang": "objc",
+            "addr": 4295050888
+          },
+          {
+            "name": "provider:didActivateNotificationForFollowUpItemWithIdentifier:activationSource:",
+            "flag": "method.NotificationController.provider:didActivateNotificationForFollowUpItemWithIdentifier:activationSource:",
+            "lang": "objc",
+            "addr": 4295050900
+          },
+          {
+            "name": "provider:didDismissNotificationForFollowUpItemWithIdentifier:activationSource:",
+            "flag": "method.NotificationController.provider:didDismissNotificationForFollowUpItemWithIdentifier:activationSource:",
+            "lang": "objc",
+            "addr": 4295050912
+          },
+          {
+            "name": "provider:didClearNotificationsForFollowUpItemsWithIdentifiers:activationSource:",
+            "flag": "method.NotificationController.provider:didClearNotificationsForFollowUpItemsWithIdentifiers:activationSource:",
+            "lang": "objc",
+            "addr": 4295050924
+          },
+          {
+            "name": "sharedController",
+            "flag": "method.class.NotificationController.sharedController",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294981868
+          },
+          {
+            "name": "provider:didActivateNotification:forFollowUpItemWithIdentifier:activationSource:",
+            "flag": "method.NotificationController.provider:didActivateNotification:forFollowUpItemWithIdentifier:activationSource:",
+            "lang": "objc",
+            "addr": 4295050888
+          },
+          {
+            "name": "provider:didActivateNotificationForFollowUpItemWithIdentifier:activationSource:",
+            "flag": "method.NotificationController.provider:didActivateNotificationForFollowUpItemWithIdentifier:activationSource:",
+            "lang": "objc",
+            "addr": 4295050900
+          },
+          {
+            "name": "provider:didDismissNotificationForFollowUpItemWithIdentifier:activationSource:",
+            "flag": "method.NotificationController.provider:didDismissNotificationForFollowUpItemWithIdentifier:activationSource:",
+            "lang": "objc",
+            "addr": 4295050912
+          },
+          {
+            "name": "provider:didClearNotificationsForFollowUpItemsWithIdentifiers:activationSource:",
+            "flag": "method.NotificationController.provider:didClearNotificationsForFollowUpItemsWithIdentifiers:activationSource:",
+            "lang": "objc",
+            "addr": 4295050924
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_itemStoreDecorator",
+            "kind": "var",
+            "type": "@\"FLItemStoreDecorator\"",
+            "addr": 4295106768
+          },
+          {
+            "name": "_notificationProvider",
+            "kind": "var",
+            "type": "@\"<NotificationProvider>\"",
+            "addr": 4295106772
+          },
+          {
+            "name": "notificationProvider",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "FLItemStoreDecorator",
+        "addr": 4295107120,
+        "lang": "objc",
+        "index": 3,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithClientIdentifier:",
+            "flag": "method.FLItemStoreDecorator.initWithClientIdentifier:",
+            "lang": "objc",
+            "addr": 4294995500
+          },
+          {
+            "name": "followUpItems",
+            "flag": "method.FLItemStoreDecorator.followUpItems",
+            "lang": "objc",
+            "addr": 4294995624
+          },
+          {
+            "name": "itemsMatchingPredicate:",
+            "flag": "method.FLItemStoreDecorator.itemsMatchingPredicate:",
+            "lang": "objc",
+            "addr": 4294995736
+          },
+          {
+            "name": "itemsMatchingIdentifier:",
+            "flag": "method.FLItemStoreDecorator.itemsMatchingIdentifier:",
+            "lang": "objc",
+            "addr": 4294995744
+          },
+          {
+            "name": "itemsMatchingIdentifiers:",
+            "flag": "method.FLItemStoreDecorator.itemsMatchingIdentifiers:",
+            "lang": "objc",
+            "addr": 4294995964
+          },
+          {
+            "name": "_itemsMatchingPredicate:identifiers:",
+            "flag": "method.FLItemStoreDecorator._itemsMatchingPredicate:identifiers:",
+            "lang": "objc",
+            "addr": 4294996112
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.FLItemStoreDecorator..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294996664
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_clientIdentifier",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295106776
+          }
+        ]
+      },
+      {
+        "classname": "FLSQLiteExecutor",
+        "addr": 4295107200,
+        "lang": "objc",
+        "index": 4,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithDatabasePath:",
+            "flag": "method.FLSQLiteExecutor.initWithDatabasePath:",
+            "lang": "objc",
+            "addr": 4294996676
+          },
+          {
+            "name": "database",
+            "flag": "method.FLSQLiteExecutor.database",
+            "lang": "objc",
+            "addr": 4294996780
+          },
+          {
+            "name": "databasePath",
+            "flag": "method.FLSQLiteExecutor.databasePath",
+            "lang": "objc",
+            "addr": 4294996788
+          },
+          {
+            "name": "performTransactionBlockAndWait:",
+            "flag": "method.FLSQLiteExecutor.performTransactionBlockAndWait:",
+            "lang": "objc",
+            "addr": 4294997588
+          },
+          {
+            "name": "openTransaction",
+            "flag": "method.FLSQLiteExecutor.openTransaction",
+            "lang": "objc",
+            "addr": 4294997684
+          },
+          {
+            "name": "commitTransaction",
+            "flag": "method.FLSQLiteExecutor.commitTransaction",
+            "lang": "objc",
+            "addr": 4294997696
+          },
+          {
+            "name": "rollbackTransaction",
+            "flag": "method.FLSQLiteExecutor.rollbackTransaction",
+            "lang": "objc",
+            "addr": 4294997776
+          },
+          {
+            "name": "_executeQuery:",
+            "flag": "method.FLSQLiteExecutor._executeQuery:",
+            "lang": "objc",
+            "addr": 4294997788
+          },
+          {
+            "name": "performInsertQuery:",
+            "flag": "method.FLSQLiteExecutor.performInsertQuery:",
+            "lang": "objc",
+            "addr": 4294998160
+          },
+          {
+            "name": "performQuery:",
+            "flag": "method.FLSQLiteExecutor.performQuery:",
+            "lang": "objc",
+            "addr": 4294998248
+          },
+          {
+            "name": "performQuery:rowHandler:",
+            "flag": "method.FLSQLiteExecutor.performQuery:rowHandler:",
+            "lang": "objc",
+            "addr": 4294998256
+          },
+          {
+            "name": "performQuery:error:",
+            "flag": "method.FLSQLiteExecutor.performQuery:error:",
+            "lang": "objc",
+            "addr": 4294998532
+          },
+          {
+            "name": "performInsertQuery:error:",
+            "flag": "method.FLSQLiteExecutor.performInsertQuery:error:",
+            "lang": "objc",
+            "addr": 4294998788
+          },
+          {
+            "name": "_printStatement:",
+            "flag": "method.FLSQLiteExecutor._printStatement:",
+            "lang": "objc",
+            "addr": 4294999048
+          },
+          {
+            "name": "_stepThroughRowsWithQuery:statement:",
+            "flag": "method.FLSQLiteExecutor._stepThroughRowsWithQuery:statement:",
+            "lang": "objc",
+            "addr": 4294999240
+          },
+          {
+            "name": "_prepareStatementForQuery:error:",
+            "flag": "method.FLSQLiteExecutor._prepareStatementForQuery:error:",
+            "lang": "objc",
+            "addr": 4294999412
+          },
+          {
+            "name": "_finalizeStatement:error:",
+            "flag": "method.FLSQLiteExecutor._finalizeStatement:error:",
+            "lang": "objc",
+            "addr": 4294999564
+          },
+          {
+            "name": "_handleDatabaseFailureError:",
+            "flag": "method.FLSQLiteExecutor._handleDatabaseFailureError:",
+            "lang": "objc",
+            "addr": 4294999800
+          },
+          {
+            "name": "_currentDataBaseError",
+            "flag": "method.FLSQLiteExecutor._currentDataBaseError",
+            "lang": "objc",
+            "addr": 4295000284
+          },
+          {
+            "name": "openDatabase:",
+            "flag": "method.FLSQLiteExecutor.openDatabase:",
+            "lang": "objc",
+            "addr": 4295000648
+          },
+          {
+            "name": "_unsafe_openDatabase:",
+            "flag": "method.FLSQLiteExecutor._unsafe_openDatabase:",
+            "lang": "objc",
+            "addr": 4295001260
+          },
+          {
+            "name": "_unsafe_createDataBase",
+            "flag": "method.FLSQLiteExecutor._unsafe_createDataBase",
+            "lang": "objc",
+            "addr": 4295001728
+          },
+          {
+            "name": "wipeDatabase",
+            "flag": "method.FLSQLiteExecutor.wipeDatabase",
+            "lang": "objc",
+            "addr": 4295002332
+          },
+          {
+            "name": "_unsafe_wipeDatabase",
+            "flag": "method.FLSQLiteExecutor._unsafe_wipeDatabase",
+            "lang": "objc",
+            "addr": 4295002604
+          },
+          {
+            "name": "closeDatabase",
+            "flag": "method.FLSQLiteExecutor.closeDatabase",
+            "lang": "objc",
+            "addr": 4295002908
+          },
+          {
+            "name": "_unsafe_closeDatabase",
+            "flag": "method.FLSQLiteExecutor._unsafe_closeDatabase",
+            "lang": "objc",
+            "addr": 4295003036
+          },
+          {
+            "name": "shouldAutomaticallyMigrate",
+            "flag": "method.FLSQLiteExecutor.shouldAutomaticallyMigrate",
+            "lang": "objc",
+            "addr": 4295003364
+          },
+          {
+            "name": "setShouldAutomaticallyMigrate:",
+            "flag": "method.FLSQLiteExecutor.setShouldAutomaticallyMigrate:",
+            "lang": "objc",
+            "addr": 4295003372
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.FLSQLiteExecutor..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295003380
+          },
+          {
+            "name": "performBlock:",
+            "flag": "method.class.FLSQLiteExecutor.performBlock:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294996796
+          },
+          {
+            "name": "performBlockAndWait:",
+            "flag": "method.class.FLSQLiteExecutor.performBlockAndWait:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294997140
+          },
+          {
+            "name": "_databaseQueue",
+            "flag": "method.class.FLSQLiteExecutor._databaseQueue",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294997412
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_database",
+            "kind": "var",
+            "type": "^{sqlite3=}",
+            "addr": 4295106780
+          },
+          {
+            "name": "_databasePath",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295106784
+          },
+          {
+            "name": "_transaction",
+            "kind": "var",
+            "type": "@\"NSObject<OS_os_transaction>\"",
+            "addr": 4295106788
+          },
+          {
+            "name": "_shouldAutomaticallyMigrate",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295106792
+          },
+          {
+            "name": "database",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "databasePath",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "shouldAutomaticallyMigrate",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "FLSQLiteQuery",
+        "addr": 4295107280,
+        "lang": "objc",
+        "index": 5,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "queryString",
+            "flag": "method.FLSQLiteQuery.queryString",
+            "lang": "objc",
+            "addr": 4295003544
+          },
+          {
+            "name": "setQueryString:",
+            "flag": "method.FLSQLiteQuery.setQueryString:",
+            "lang": "objc",
+            "addr": 4295003552
+          },
+          {
+            "name": "bindHandler",
+            "flag": "method.FLSQLiteQuery.bindHandler",
+            "lang": "objc",
+            "addr": 4295003560
+          },
+          {
+            "name": "setBindHandler:",
+            "flag": "method.FLSQLiteQuery.setBindHandler:",
+            "lang": "objc",
+            "addr": 4295003568
+          },
+          {
+            "name": "rowHandler",
+            "flag": "method.FLSQLiteQuery.rowHandler",
+            "lang": "objc",
+            "addr": 4295003576
+          },
+          {
+            "name": "setRowHandler:",
+            "flag": "method.FLSQLiteQuery.setRowHandler:",
+            "lang": "objc",
+            "addr": 4295003584
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.FLSQLiteQuery..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295003592
+          },
+          {
+            "name": "queryWithString:",
+            "flag": "method.class.FLSQLiteQuery.queryWithString:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295003448
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_queryString",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295106796
+          },
+          {
+            "name": "_bindHandler",
+            "kind": "var",
+            "type": "@?",
+            "addr": 4295106800
+          },
+          {
+            "name": "_rowHandler",
+            "kind": "var",
+            "type": "@?",
+            "addr": 4295106804
+          },
+          {
+            "name": "queryString",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "bindHandler",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "rowHandler",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "ItemStore",
+        "addr": 4295107360,
+        "lang": "objc",
+        "index": 6,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "allFollowUpItems",
+            "flag": "method.ItemStore.allFollowUpItems",
+            "lang": "objc",
+            "addr": 4295003924
+          },
+          {
+            "name": "insertFollowUpItem:",
+            "flag": "method.ItemStore.insertFollowUpItem:",
+            "lang": "objc",
+            "addr": 4295003932
+          },
+          {
+            "name": "_unsafe_insertFollowUpItem:",
+            "flag": "method.ItemStore._unsafe_insertFollowUpItem:",
+            "lang": "objc",
+            "addr": 4295004956
+          },
+          {
+            "name": "_unsafe_insertAction:item:",
+            "flag": "method.ItemStore._unsafe_insertAction:item:",
+            "lang": "objc",
+            "addr": 4295007032
+          },
+          {
+            "name": "_unsafe_insertNotificationForItem:",
+            "flag": "method.ItemStore._unsafe_insertNotificationForItem:",
+            "lang": "objc",
+            "addr": 4295007892
+          },
+          {
+            "name": "deleteFollowUpItem:",
+            "flag": "method.ItemStore.deleteFollowUpItem:",
+            "lang": "objc",
+            "addr": 4295009960
+          },
+          {
+            "name": "updateNotificationForFollowUpItem:",
+            "flag": "method.ItemStore.updateNotificationForFollowUpItem:",
+            "lang": "objc",
+            "addr": 4295010752
+          },
+          {
+            "name": "deleteNotificationForFollowUpItem:",
+            "flag": "method.ItemStore.deleteNotificationForFollowUpItem:",
+            "lang": "objc",
+            "addr": 4295011060
+          },
+          {
+            "name": "_unsafe_deleteActionWithID:",
+            "flag": "method.ItemStore._unsafe_deleteActionWithID:",
+            "lang": "objc",
+            "addr": 4295011840
+          },
+          {
+            "name": "safeSelectFollowUpActions",
+            "flag": "method.ItemStore.safeSelectFollowUpActions",
+            "lang": "objc",
+            "addr": 4295012132
+          },
+          {
+            "name": "safeSelectFollowUpNotifications",
+            "flag": "method.ItemStore.safeSelectFollowUpNotifications",
+            "lang": "objc",
+            "addr": 4295012744
+          },
+          {
+            "name": "safeSelectFollowUpItemsWithUniqueIdentifiers:",
+            "flag": "method.ItemStore.safeSelectFollowUpItemsWithUniqueIdentifiers:",
+            "lang": "objc",
+            "addr": 4295013324
+          },
+          {
+            "name": "_unsafeSelectFollowUpItemsWithUniqueIdentifiers:rowHandler:",
+            "flag": "method.ItemStore._unsafeSelectFollowUpItemsWithUniqueIdentifiers:rowHandler:",
+            "lang": "objc",
+            "addr": 4295014032
+          },
+          {
+            "name": "_unsafeSelectFollowUpNotificationsWithRowHandler:",
+            "flag": "method.ItemStore._unsafeSelectFollowUpNotificationsWithRowHandler:",
+            "lang": "objc",
+            "addr": 4295016376
+          },
+          {
+            "name": "_unsafeSelectNotificationForFollowUpItem:",
+            "flag": "method.ItemStore._unsafeSelectNotificationForFollowUpItem:",
+            "lang": "objc",
+            "addr": 4295017632
+          },
+          {
+            "name": "_unsafeSelectFollowUpActionsForItem:orActionID:rowHandler:",
+            "flag": "method.ItemStore._unsafeSelectFollowUpActionsForItem:orActionID:rowHandler:",
+            "lang": "objc",
+            "addr": 4295019204
+          },
+          {
+            "name": "stringFromColumn:inStatement:",
+            "flag": "method.ItemStore.stringFromColumn:inStatement:",
+            "lang": "objc",
+            "addr": 4295020220
+          },
+          {
+            "name": "urlFromColumn:inStatement:",
+            "flag": "method.ItemStore.urlFromColumn:inStatement:",
+            "lang": "objc",
+            "addr": 4295020296
+          },
+          {
+            "name": "dataFromColumn:inStatement:",
+            "flag": "method.ItemStore.dataFromColumn:inStatement:",
+            "lang": "objc",
+            "addr": 4295020408
+          },
+          {
+            "name": "dateFromColumn:inStatement:",
+            "flag": "method.ItemStore.dateFromColumn:inStatement:",
+            "lang": "objc",
+            "addr": 4295020536
+          },
+          {
+            "name": "intervalFromColumn:inStatement:",
+            "flag": "method.ItemStore.intervalFromColumn:inStatement:",
+            "lang": "objc",
+            "addr": 4295020612
+          },
+          {
+            "name": "_openDatabase",
+            "flag": "method.ItemStore._openDatabase",
+            "lang": "objc",
+            "addr": 4295020624
+          },
+          {
+            "name": "_closeDatabase",
+            "flag": "method.ItemStore._closeDatabase",
+            "lang": "objc",
+            "addr": 4295020636
+          },
+          {
+            "name": "_wipeDatabase",
+            "flag": "method.ItemStore._wipeDatabase",
+            "lang": "objc",
+            "addr": 4295020644
+          },
+          {
+            "name": "queryExecutor",
+            "flag": "method.ItemStore.queryExecutor",
+            "lang": "objc",
+            "addr": 4295020652
+          },
+          {
+            "name": "setQueryExecutor:",
+            "flag": "method.ItemStore.setQueryExecutor:",
+            "lang": "objc",
+            "addr": 4295020660
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.ItemStore..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295020672
+          },
+          {
+            "name": "sharedInstance",
+            "flag": "method.class.ItemStore.sharedInstance",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295003672
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_queryExecutor",
+            "kind": "var",
+            "type": "@\"FLSQLiteExecutor\"",
+            "addr": 4295106808
+          },
+          {
+            "name": "queryExecutor",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "ClientInterface",
+        "addr": 4295107440,
+        "lang": "objc",
+        "index": 7,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithXPCConnection:",
+            "flag": "method.ClientInterface.initWithXPCConnection:",
+            "lang": "objc",
+            "addr": 4295020712
+          },
+          {
+            "name": "countOfPendingFollowUpItemsForClientIdentifier:completion:",
+            "flag": "func.10000d1f4",
+            "lang": "objc",
+            "addr": 4295021044
+          },
+          {
+            "name": "postFollowUpItem:completion:",
+            "flag": "func.10000d284",
+            "lang": "objc",
+            "addr": 4295021188
+          },
+          {
+            "name": "pendingFollowUpItemsForClientIdentifier:completion:",
+            "flag": "func.10000d7a0",
+            "lang": "objc",
+            "addr": 4295022496
+          },
+          {
+            "name": "clearPendingFollowUpItemsForClientIdentifier:completion:",
+            "flag": "func.10000d82c",
+            "lang": "objc",
+            "addr": 4295022636
+          },
+          {
+            "name": "clearNotificationForItem:completion:",
+            "flag": "func.10000da6c",
+            "lang": "objc",
+            "addr": 4295023212
+          },
+          {
+            "name": "updateBadgesForTimer",
+            "flag": "func.10000dcdc",
+            "lang": "objc",
+            "addr": 4295023836
+          },
+          {
+            "name": "clearPendingFollowUpItemsForClientIdentifier:uniqueIdentifiers:completion:",
+            "flag": "func.10000dcec",
+            "lang": "objc",
+            "addr": 4295023852
+          },
+          {
+            "name": "itemsForClientIdentifier:",
+            "flag": "method.ClientInterface.itemsForClientIdentifier:",
+            "lang": "objc",
+            "addr": 4295024400
+          },
+          {
+            "name": "_predicateForClientIdentifier:",
+            "flag": "method.ClientInterface._predicateForClientIdentifier:",
+            "lang": "objc",
+            "addr": 4295024672
+          },
+          {
+            "name": "_callExtensionPerformUpdateForItem:shouldCallDidChangeFollowUpItems:",
+            "flag": "method.ClientInterface._callExtensionPerformUpdateForItem:shouldCallDidChangeFollowUpItems:",
+            "lang": "objc",
+            "addr": 4295024956
+          },
+          {
+            "name": "_didChangeFollowUpItems",
+            "flag": "method.ClientInterface._didChangeFollowUpItems",
+            "lang": "objc",
+            "addr": 4295026440
+          },
+          {
+            "name": "postHSA2LoginNotification:completion:",
+            "flag": "func.10000f104",
+            "lang": "objc",
+            "addr": 4295028996
+          },
+          {
+            "name": "postHSA2PasswordChangeForAppleID:completion:",
+            "flag": "func.10000f190",
+            "lang": "objc",
+            "addr": 4295029136
+          },
+          {
+            "name": "postHSA2LoginCode:withNotification:completion:",
+            "flag": "func.10000f21c",
+            "lang": "objc",
+            "addr": 4295029276
+          },
+          {
+            "name": "tearDownHSA2LoginNotificationWithPushMessageID:",
+            "flag": "func.10000f2c4",
+            "lang": "objc",
+            "addr": 4295029444
+          },
+          {
+            "name": "didActivateHSA2LoginNotificationNotification:",
+            "flag": "func.10000f32c",
+            "lang": "objc",
+            "addr": 4295029548
+          },
+          {
+            "name": "postHSA2PasswordResetNotification:completion:",
+            "flag": "func.10000f394",
+            "lang": "objc",
+            "addr": 4295029652
+          },
+          {
+            "name": "_telemetryProcessor",
+            "flag": "method.ClientInterface._telemetryProcessor",
+            "lang": "objc",
+            "addr": 4295030096
+          },
+          {
+            "name": "uniqueIdentifier",
+            "flag": "method.ClientInterface.uniqueIdentifier",
+            "lang": "objc",
+            "addr": 4295030208
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.ClientInterface..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295030216
+          },
+          {
+            "name": "postFollowUpItem:completion:",
+            "flag": "method.ClientInterface.postFollowUpItem:completion:",
+            "lang": "objc",
+            "addr": 4295050376
+          },
+          {
+            "name": "countOfPendingFollowUpItemsForClientIdentifier:completion:",
+            "flag": "method.ClientInterface.countOfPendingFollowUpItemsForClientIdentifier:completion:",
+            "lang": "objc",
+            "addr": 4295050388
+          },
+          {
+            "name": "pendingFollowUpItemsForClientIdentifier:completion:",
+            "flag": "method.ClientInterface.pendingFollowUpItemsForClientIdentifier:completion:",
+            "lang": "objc",
+            "addr": 4295050400
+          },
+          {
+            "name": "clearPendingFollowUpItemsForClientIdentifier:completion:",
+            "flag": "method.ClientInterface.clearPendingFollowUpItemsForClientIdentifier:completion:",
+            "lang": "objc",
+            "addr": 4295050412
+          },
+          {
+            "name": "clearPendingFollowUpItemsForClientIdentifier:uniqueIdentifiers:completion:",
+            "flag": "method.ClientInterface.clearPendingFollowUpItemsForClientIdentifier:uniqueIdentifiers:completion:",
+            "lang": "objc",
+            "addr": 4295050424
+          },
+          {
+            "name": "clearNotificationForItem:completion:",
+            "flag": "method.ClientInterface.clearNotificationForItem:completion:",
+            "lang": "objc",
+            "addr": 4295050436
+          },
+          {
+            "name": "updateBadgesForTimer",
+            "flag": "method.ClientInterface.updateBadgesForTimer",
+            "lang": "objc",
+            "addr": 4295050448
+          },
+          {
+            "name": "postHSA2LoginNotification:completion:",
+            "flag": "method.ClientInterface.postHSA2LoginNotification:completion:",
+            "lang": "objc",
+            "addr": 4295050460
+          },
+          {
+            "name": "postHSA2LoginCode:withNotification:completion:",
+            "flag": "method.ClientInterface.postHSA2LoginCode:withNotification:completion:",
+            "lang": "objc",
+            "addr": 4295050472
+          },
+          {
+            "name": "postHSA2PasswordChangeForAppleID:completion:",
+            "flag": "method.ClientInterface.postHSA2PasswordChangeForAppleID:completion:",
+            "lang": "objc",
+            "addr": 4295050484
+          },
+          {
+            "name": "tearDownHSA2LoginNotificationWithPushMessageID:",
+            "flag": "method.ClientInterface.tearDownHSA2LoginNotificationWithPushMessageID:",
+            "lang": "objc",
+            "addr": 4295050496
+          },
+          {
+            "name": "didActivateHSA2LoginNotificationNotification:",
+            "flag": "method.ClientInterface.didActivateHSA2LoginNotificationNotification:",
+            "lang": "objc",
+            "addr": 4295050508
+          },
+          {
+            "name": "postHSA2PasswordResetNotification:completion:",
+            "flag": "method.ClientInterface.postHSA2PasswordResetNotification:completion:",
+            "lang": "objc",
+            "addr": 4295050520
+          },
+          {
+            "name": "_badgeQueue",
+            "flag": "method.class.ClientInterface._badgeQueue",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295020868
+          },
+          {
+            "name": "updateBadgeCounts:",
+            "flag": "method.class.ClientInterface.updateBadgeCounts:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295026780
+          },
+          {
+            "name": "_updateBadgeCounts:processTelemetry:",
+            "flag": "method.class.ClientInterface._updateBadgeCounts:processTelemetry:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295026788
+          },
+          {
+            "name": "allApprovedItemsByBundle",
+            "flag": "method.class.ClientInterface.allApprovedItemsByBundle",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295027708
+          },
+          {
+            "name": "refreshBadgesWithItems:forBundleIdentifier:",
+            "flag": "method.class.ClientInterface.refreshBadgesWithItems:forBundleIdentifier:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295027996
+          },
+          {
+            "name": "updateBadgeCount:bundleID:",
+            "flag": "method.class.ClientInterface.updateBadgeCount:bundleID:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295028440
+          },
+          {
+            "name": "postFollowUpItem:completion:",
+            "flag": "method.ClientInterface.postFollowUpItem:completion:",
+            "lang": "objc",
+            "addr": 4295050376
+          },
+          {
+            "name": "countOfPendingFollowUpItemsForClientIdentifier:completion:",
+            "flag": "method.ClientInterface.countOfPendingFollowUpItemsForClientIdentifier:completion:",
+            "lang": "objc",
+            "addr": 4295050388
+          },
+          {
+            "name": "pendingFollowUpItemsForClientIdentifier:completion:",
+            "flag": "method.ClientInterface.pendingFollowUpItemsForClientIdentifier:completion:",
+            "lang": "objc",
+            "addr": 4295050400
+          },
+          {
+            "name": "clearPendingFollowUpItemsForClientIdentifier:completion:",
+            "flag": "method.ClientInterface.clearPendingFollowUpItemsForClientIdentifier:completion:",
+            "lang": "objc",
+            "addr": 4295050412
+          },
+          {
+            "name": "clearPendingFollowUpItemsForClientIdentifier:uniqueIdentifiers:completion:",
+            "flag": "method.ClientInterface.clearPendingFollowUpItemsForClientIdentifier:uniqueIdentifiers:completion:",
+            "lang": "objc",
+            "addr": 4295050424
+          },
+          {
+            "name": "clearNotificationForItem:completion:",
+            "flag": "method.ClientInterface.clearNotificationForItem:completion:",
+            "lang": "objc",
+            "addr": 4295050436
+          },
+          {
+            "name": "updateBadgesForTimer",
+            "flag": "method.ClientInterface.updateBadgesForTimer",
+            "lang": "objc",
+            "addr": 4295050448
+          },
+          {
+            "name": "postHSA2LoginNotification:completion:",
+            "flag": "method.ClientInterface.postHSA2LoginNotification:completion:",
+            "lang": "objc",
+            "addr": 4295050460
+          },
+          {
+            "name": "postHSA2LoginCode:withNotification:completion:",
+            "flag": "method.ClientInterface.postHSA2LoginCode:withNotification:completion:",
+            "lang": "objc",
+            "addr": 4295050472
+          },
+          {
+            "name": "postHSA2PasswordChangeForAppleID:completion:",
+            "flag": "method.ClientInterface.postHSA2PasswordChangeForAppleID:completion:",
+            "lang": "objc",
+            "addr": 4295050484
+          },
+          {
+            "name": "tearDownHSA2LoginNotificationWithPushMessageID:",
+            "flag": "method.ClientInterface.tearDownHSA2LoginNotificationWithPushMessageID:",
+            "lang": "objc",
+            "addr": 4295050496
+          },
+          {
+            "name": "didActivateHSA2LoginNotificationNotification:",
+            "flag": "method.ClientInterface.didActivateHSA2LoginNotificationNotification:",
+            "lang": "objc",
+            "addr": 4295050508
+          },
+          {
+            "name": "postHSA2PasswordResetNotification:completion:",
+            "flag": "method.ClientInterface.postHSA2PasswordResetNotification:completion:",
+            "lang": "objc",
+            "addr": 4295050520
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_conn",
+            "kind": "var",
+            "type": "@\"NSXPCConnection\"",
+            "addr": 4295106812
+          },
+          {
+            "name": "_transaction",
+            "kind": "var",
+            "type": "@\"NSObject<OS_os_transaction>\"",
+            "addr": 4295106816
+          },
+          {
+            "name": "_uniqueIdentifier",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295106820
+          },
+          {
+            "name": "uniqueIdentifier",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "FollowUpServer",
+        "addr": 4295107520,
+        "lang": "objc",
+        "index": 8,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.FollowUpServer.init",
+            "lang": "objc",
+            "addr": 4295030296
+          },
+          {
+            "name": "start",
+            "flag": "method.FollowUpServer.start",
+            "lang": "objc",
+            "addr": 4295030456
+          },
+          {
+            "name": "lightStart",
+            "flag": "method.FollowUpServer.lightStart",
+            "lang": "objc",
+            "addr": 4295031012
+          },
+          {
+            "name": "listener:shouldAcceptNewConnection:",
+            "flag": "method.FollowUpServer.listener:shouldAcceptNewConnection:",
+            "lang": "objc",
+            "addr": 4295031076
+          },
+          {
+            "name": "_postAnalyticsForUnentitledClient:path:",
+            "flag": "method.FollowUpServer._postAnalyticsForUnentitledClient:path:",
+            "lang": "objc",
+            "addr": 4295031608
+          },
+          {
+            "name": "_connectionHasEntitlement:",
+            "flag": "method.FollowUpServer._connectionHasEntitlement:",
+            "lang": "objc",
+            "addr": 4295031972
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.FollowUpServer.dealloc",
+            "lang": "objc",
+            "addr": 4295032432
+          },
+          {
+            "name": "_beginObservingLanguageChangeNotfication",
+            "flag": "method.FollowUpServer._beginObservingLanguageChangeNotfication",
+            "lang": "objc",
+            "addr": 4295032504
+          },
+          {
+            "name": "_stopObservingLanguageChangeNotification",
+            "flag": "method.FollowUpServer._stopObservingLanguageChangeNotification",
+            "lang": "objc",
+            "addr": 4295032708
+          },
+          {
+            "name": "listener",
+            "flag": "method.FollowUpServer.listener",
+            "lang": "objc",
+            "addr": 4295032776
+          },
+          {
+            "name": "setListener:",
+            "flag": "method.FollowUpServer.setListener:",
+            "lang": "objc",
+            "addr": 4295032784
+          },
+          {
+            "name": "unentitledClients",
+            "flag": "method.FollowUpServer.unentitledClients",
+            "lang": "objc",
+            "addr": 4295032796
+          },
+          {
+            "name": "setUnentitledClients:",
+            "flag": "method.FollowUpServer.setUnentitledClients:",
+            "lang": "objc",
+            "addr": 4295032808
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.FollowUpServer..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295032816
+          },
+          {
+            "name": "_executablePathForPID:",
+            "flag": "method.class.FollowUpServer._executablePathForPID:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295032092
+          },
+          {
+            "name": "fl_getProcNameForPID:",
+            "flag": "method.class.FollowUpServer.fl_getProcNameForPID:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295032244
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_restrictionNotificationObject",
+            "kind": "var",
+            "type": "@",
+            "addr": 4295106824
+          },
+          {
+            "name": "_transaction",
+            "kind": "var",
+            "type": "@\"NSObject<OS_os_transaction>\"",
+            "addr": 4295106828
+          },
+          {
+            "name": "_listener",
+            "kind": "var",
+            "type": "@\"NSXPCListener\"",
+            "addr": 4295106832
+          },
+          {
+            "name": "_unentitledClients",
+            "kind": "var",
+            "type": "@\"NSMutableSet\"",
+            "addr": 4295106836
+          },
+          {
+            "name": "unentitledClients",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "listener",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      }
+    ],
+    "swift_metadata": {
+      "is_swift": false,
+      "symbols": []
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/framework.sb",
+        "Versions/A/Resources/Localizable.loctable",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist",
+        "Versions/A/Support/followupd",
+        "Versions/A/Resources/FollowUpUI.app/Contents/Info.plist",
+        "Versions/A/Resources/FollowUpUI.app/Contents/PkgInfo",
+        "Versions/A/Resources/FollowUpUI.app/Contents/version.plist",
+        "Versions/A/Resources/FollowUpUI.app/Contents/_CodeSignature/CodeResources",
+        "Versions/A/Resources/FollowUpUI.app/Contents/MacOS/FollowUpUI",
+        "Versions/A/Resources/FollowUpUI.app/Contents/Resources/MainMenu.loctable",
+        "Versions/A/Resources/FollowUpUI.app/Contents/Resources/FLUIBasicNotificationWindow.loctable",
+        "Versions/A/Resources/FollowUpUI.app/Contents/Resources/FLUIHelperMapWindow.loctable",
+        "Versions/A/Resources/FollowUpUI.app/Contents/Resources/FLUIHelperCodeWindow.loctable",
+        "Versions/A/Resources/FollowUpUI.app/Contents/Resources/InfoPlist.loctable",
+        "Versions/A/Resources/FollowUpUI.app/Contents/Resources/iCloud.icns",
+        "Versions/A/Resources/FollowUpUI.app/Contents/Resources/Base.lproj/FLUIBasicNotificationWindow.nib",
+        "Versions/A/Resources/FollowUpUI.app/Contents/Resources/Base.lproj/FLUIHelperCodeWindow.nib",
+        "Versions/A/Resources/FollowUpUI.app/Contents/Resources/Base.lproj/MainMenu.nib",
+        "Versions/A/Resources/FollowUpUI.app/Contents/Resources/Base.lproj/FLUIHelperMapWindow.nib"
+      ],
+      "plists": {
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "CoreFollowUp",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2025 Apple Inc. All rights reserved.",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "281.1.5",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "FMWK",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "CoreFollowUp",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.CoreFollowUp-OSX",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "14.0",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "281.1.5",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "CoreFollowUp",
+          "SourceVersion": "281001005000000",
+          "BuildVersion": "378"
+        },
+        "Versions/A/Resources/FollowUpUI.app/Contents/Info.plist": {
+          "CFBundleName": "FollowUpUI",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2015 Apple Inc. All rights reserved.",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "281.1.5",
+          "BuildMachineOSBuild": "23A344014",
+          "NSPrincipalClass": "NSApplication",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "APPL",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "NSMainNibFile": "MainMenu",
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "FollowUpUI",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.FollowUpUI",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleDisplayName": "",
+          "CFBundleSignature": "????",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "",
+          "LSUIElement": true
+        },
+        "Versions/A/Resources/FollowUpUI.app/Contents/version.plist": {
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleVersion": "281.1.5",
+          "ProjectName": "CoreFollowUpUI",
+          "BuildAliasOf": "CoreFollowUp",
+          "SourceVersion": "281001005000000",
+          "BuildVersion": "528"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
+  },
+  "usage": {
+    "layer": "usage",
+    "used_by": [
+      {
+        "path": "/System/Applications/System Settings.app",
+        "binary": "/System/Applications/System Settings.app/Contents/MacOS/System Settings",
+        "used_classes": []
+      }
+    ]
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "loaded"
+  }
+}

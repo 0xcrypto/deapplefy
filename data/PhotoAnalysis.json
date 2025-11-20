@@ -1,0 +1,650 @@
+{
+  "framework": "PhotoAnalysis.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/PhotoAnalysis.framework/Versions/A/Support/photoanalysisd",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 125232,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": false,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "swift",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/PrivateFrameworks/CloudPhotoLibrary.framework/Versions/A/CloudPhotoLibrary",
+          "/System/Library/PrivateFrameworks/CoreDuet.framework/Versions/A/CoreDuet",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/System/Library/PrivateFrameworks/PhotoAnalysis.framework/Versions/A/PhotoAnalysis",
+          "/System/Library/PrivateFrameworks/PhotoLibraryServicesCore.framework/Versions/A/PhotoLibraryServicesCore",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "/usr/lib/swift/libswiftAVFoundation.dylib",
+          "/usr/lib/swift/libswiftAccelerate.dylib",
+          "/usr/lib/swift/libswiftCompression.dylib",
+          "/usr/lib/swift/libswiftCore.dylib",
+          "/usr/lib/swift/libswiftCoreAudio.dylib",
+          "/usr/lib/swift/libswiftCoreFoundation.dylib",
+          "/usr/lib/swift/libswiftCoreImage.dylib",
+          "/usr/lib/swift/libswiftCoreLocation.dylib",
+          "/usr/lib/swift/libswiftCoreMIDI.dylib",
+          "/usr/lib/swift/libswiftCoreMedia.dylib",
+          "/usr/lib/swift/libswiftDispatch.dylib",
+          "/usr/lib/swift/libswiftIOKit.dylib",
+          "/usr/lib/swift/libswiftIntents.dylib",
+          "/usr/lib/swift/libswiftMLCompute.dylib",
+          "/usr/lib/swift/libswiftMetal.dylib",
+          "/usr/lib/swift/libswiftNaturalLanguage.dylib",
+          "/usr/lib/swift/libswiftOSLog.dylib",
+          "/usr/lib/swift/libswiftObjectiveC.dylib",
+          "/usr/lib/swift/libswiftQuartzCore.dylib",
+          "/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib",
+          "/usr/lib/swift/libswiftVideoToolbox.dylib",
+          "/usr/lib/swift/libswiftXPC.dylib",
+          "/usr/lib/swift/libswift_Builtin_float.dylib",
+          "/usr/lib/swift/libswift_Concurrency.dylib",
+          "/usr/lib/swift/libswiftos.dylib",
+          "/usr/lib/swift/libswiftsimd.dylib"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "ExecutiveBridge",
+        "addr": 19524,
+        "lang": "swift",
+        "index": 0,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ],
+        "fields": [
+          {
+            "name": "executive",
+            "kind": "property",
+            "addr": 4294987000
+          },
+          {
+            "name": "invoker",
+            "kind": "property",
+            "type": "PHAInvoker.allocator__GenericAccessorSg",
+            "addr": 4294987010
+          }
+        ]
+      },
+      {
+        "classname": "SimulatorExecutive",
+        "addr": 19632,
+        "lang": "swift",
+        "index": 1,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ],
+        "fields": [
+          {
+            "name": "logger",
+            "kind": "property",
+            "addr": 4294987018
+          }
+        ]
+      },
+      {
+        "classname": "photoanalysisd.ExecutiveBridge",
+        "addr": 4295017792,
+        "lang": "objc",
+        "index": 2,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "targetForOriginalTarget:connection:selector:",
+            "flag": "func.100002bb4",
+            "lang": "objc",
+            "addr": 4294978484
+          },
+          {
+            "name": "dispatchOperation:toTarget:service:",
+            "flag": "func.100002d50",
+            "lang": "objc",
+            "addr": 4294978896
+          },
+          {
+            "name": "init",
+            "flag": "method.photoanalysisd.ExecutiveBridge.init",
+            "lang": "objc",
+            "addr": 4294974632
+          },
+          {
+            "name": "startup:",
+            "flag": "method.photoanalysisd.ExecutiveBridge.startup:",
+            "lang": "objc",
+            "addr": 4294974668
+          },
+          {
+            "name": "shutdown:",
+            "flag": "method.photoanalysisd.ExecutiveBridge.shutdown:",
+            "lang": "objc",
+            "addr": 4294975660
+          },
+          {
+            "name": "dumpStatusToLog:",
+            "flag": "method.photoanalysisd.ExecutiveBridge.dumpStatusToLog:",
+            "lang": "objc",
+            "addr": 4294976336
+          },
+          {
+            "name": "listener:shouldAcceptNewConnection:",
+            "flag": "method.photoanalysisd.ExecutiveBridge.listener:shouldAcceptNewConnection:",
+            "lang": "objc",
+            "addr": 4294977772
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.photoanalysisd.ExecutiveBridge..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294977948
+          },
+          {
+            "name": "targetForOriginalTarget:connection:selector:",
+            "flag": "method.photoanalysisd.ExecutiveBridge.targetForOriginalTarget:connection:selector:",
+            "lang": "objc",
+            "addr": 4294985560
+          },
+          {
+            "name": "dispatchOperation:toTarget:service:",
+            "flag": "method.photoanalysisd.ExecutiveBridge.dispatchOperation:toTarget:service:",
+            "lang": "objc",
+            "addr": 4294985572
+          },
+          {
+            "name": "targetForOriginalTarget:connection:selector:",
+            "flag": "method.photoanalysisd.ExecutiveBridge.targetForOriginalTarget:connection:selector:",
+            "lang": "objc",
+            "addr": 4294985560
+          },
+          {
+            "name": "dispatchOperation:toTarget:service:",
+            "flag": "method.photoanalysisd.ExecutiveBridge.dispatchOperation:toTarget:service:",
+            "lang": "objc",
+            "addr": 4294985572
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "executive",
+            "kind": "var",
+            "addr": 4295017760
+          },
+          {
+            "name": "invoker",
+            "kind": "var",
+            "addr": 4295017768
+          }
+        ]
+      },
+      {
+        "classname": "photoanalysisd.SimulatorExecutive",
+        "addr": 4295018144,
+        "lang": "objc",
+        "index": 3,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.photoanalysisd.SimulatorExecutive.init",
+            "lang": "objc",
+            "addr": 4294983376
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.photoanalysisd.SimulatorExecutive..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294983572
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "logger",
+            "kind": "var",
+            "addr": 4295018224
+          }
+        ]
+      }
+    ],
+    "swift_metadata": {
+      "is_swift": true,
+      "symbols": [
+        {
+          "name": "imp.$s13PhotoAnalysis14StatusProtocolPAAE04dumpC02toy2os6LoggerV_tYaF",
+          "demname": "PhotoAnalysis.StatusProtocol.(...YaF)",
+          "flagname": "sym.imp.PhotoAnalysis.StatusProtocol._...YaF_",
+          "realname": "PhotoAnalysis.StatusProtocol.(...YaF)",
+          "ordinal": 2,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294984044,
+          "paddr": 131436,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13PhotoAnalysis22LegacyDispatchProtocolP16performOperation_2onySo020PHAServiceCancelableG0C_yptFTj",
+          "demname": "PhotoAnalysis.LegacyDispatchProtocol.performOperation.on...ySo020PHAServiceCancelableG0C_yptFTj",
+          "flagname": "sym.imp.PhotoAnalysis.LegacyDispatchProtocol.performOperation.on...ySo020PHAServiceCancelableG0C_yptFTj",
+          "realname": "PhotoAnalysis.LegacyDispatchProtocol.performOperation.on...ySo020PHAServiceCancelableG0C_yptFTj",
+          "ordinal": 3,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294984060,
+          "paddr": 131452,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13PhotoAnalysis22LegacyDispatchProtocolP17targetForSelector_10connectionyXlSg10ObjectiveC0H0V_So15NSXPCConnectionCtFTj",
+          "demname": "PhotoAnalysis.LegacyDispatchProtocol.targetForSelector.connection...yXlSg10ObjectiveC0H0V_So15NSXPCConnectionCtFTj",
+          "flagname": "sym.imp.PhotoAnalysis.LegacyDispatchProtocol.targetForSelector.connection...yXlSg10ObjectiveC0H0V_So15NSXPCConnectionCtFTj",
+          "realname": "PhotoAnalysis.LegacyDispatchProtocol.targetForSelector.connection...yXlSg10ObjectiveC0H0V_So15NSXPCConnectionCtFTj",
+          "ordinal": 4,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294984076,
+          "paddr": 131468,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13PhotoAnalysis9ExecutiveC8listener_25shouldAcceptNewConnectionSbSo13NSXPCListenerC_So15NSXPCConnectionCtFTj",
+          "demname": "PhotoAnalysis.Executive.listener.allocator.shouldAcceptNewConnection...SbSo13NSXPCListenerC_So15NSXPCConnectionCtFTj",
+          "flagname": "sym.imp.PhotoAnalysis.Executive.listener.allocator.shouldAcceptNewConnection...SbSo13NSXPCListenerC_So15NSXPCConnectionCtFTj",
+          "realname": "PhotoAnalysis.Executive.listener.allocator.shouldAcceptNewConnection...SbSo13NSXPCListenerC_So15NSXPCConnectionCtFTj",
+          "ordinal": 5,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294984092,
+          "paddr": 131484,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13PhotoAnalysis9ExecutiveCACycfC",
+          "demname": "PhotoAnalysis.Executive.allocator.(...cfC)",
+          "flagname": "sym.imp.PhotoAnalysis.Executive.allocator._...cfC_",
+          "realname": "PhotoAnalysis.Executive.allocator.(...cfC)",
+          "ordinal": 6,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294984108,
+          "paddr": 131500,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13PhotoAnalysis9ExecutiveCMa",
+          "demname": "PhotoAnalysis.Executive.allocator(...a)",
+          "flagname": "sym.imp.PhotoAnalysis.Executive.allocator_...a_",
+          "realname": "PhotoAnalysis.Executive.allocator(...a)",
+          "ordinal": 7,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294984124,
+          "paddr": 131516,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s2os6LoggerV9subsystem8categoryACSS_SStcfC",
+          "demname": "os.Logger.subsystem.category__String(...tcfC)",
+          "flagname": "sym.imp.os.Logger.subsystem.category__String_...tcfC_",
+          "realname": "os.Logger.subsystem.category__String(...tcfC)",
+          "ordinal": 8,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294984140,
+          "paddr": 131532,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s2os6LoggerVMa",
+          "demname": "os.Logger...VMa",
+          "flagname": "sym.imp.os.Logger...VMa",
+          "realname": "os.Logger...VMa",
+          "ordinal": 9,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294984156,
+          "paddr": 131548,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSS11utf8CStrings15ContiguousArrayVys4Int8VGvg",
+          "demname": "utf8CString.ContiguousArray.setter...Vys4Int8VGvg",
+          "flagname": "sym.imp.utf8CString.ContiguousArray.setter...Vys4Int8VGvg",
+          "realname": "utf8CString.ContiguousArray.setter...Vys4Int8VGvg",
+          "ordinal": 10,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294984172,
+          "paddr": 131564,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sScA15unownedExecutorScevgTj",
+          "demname": "unownedExecutor(...cevgTj)",
+          "flagname": "sym.imp.unownedExecutor_...cevgTj_",
+          "realname": "unownedExecutor(...cevgTj)",
+          "ordinal": 11,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294984188,
+          "paddr": 131580,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sScP8rawValues5UInt8Vvg",
+          "demname": "rawValue.UInt8.setter...Vvg",
+          "flagname": "sym.imp.rawValue.UInt8.setter...Vvg",
+          "realname": "rawValue.UInt8.setter...Vvg",
+          "ordinal": 12,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294984204,
+          "paddr": 131596,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sScPMa",
+          "demname": "...ScPMa",
+          "flagname": "sym.imp....ScPMa",
+          "realname": "...ScPMa",
+          "ordinal": 13,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294984220,
+          "paddr": 131612,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$ss018_bridgeAnyObjectToB0yypyXlSgF",
+          "demname": "_bridgeAnyObjectTo...B0yypyXlSgF",
+          "flagname": "sym.imp._bridgeAnyObjectTo...B0yypyXlSgF",
+          "realname": "_bridgeAnyObjectTo...B0yypyXlSgF",
+          "ordinal": 14,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294984236,
+          "paddr": 131628,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$ss27_bridgeAnythingToObjectiveCyyXlxlF",
+          "demname": "_bridgeAnythingToObjectiveC(...yXlxlF)",
+          "flagname": "sym.imp._bridgeAnythingToObjectiveC_...yXlxlF_",
+          "realname": "_bridgeAnythingToObjectiveC(...yXlxlF)",
+          "ordinal": 15,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294984252,
+          "paddr": 131644,
+          "is_imported": true
+        }
+      ]
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/WhimsicalPrompts_fr_CA.json",
+        "Versions/A/Resources/llmqu_2025_07_03_es_MX_shard_1.json",
+        "Versions/A/Resources/llmqu_2025_07_03_es_ES_shard_2.json",
+        "Versions/A/Resources/llmqu_2025_07_03_es_US_shard_1.json",
+        "Versions/A/Resources/llmqu_2025_07_03_fr_CA_shard_2.json",
+        "Versions/A/Resources/llmqu_2025_07_03_vi_VN_shard_0.json",
+        "Versions/A/Resources/llmqu_2025_07_03_en_AU_shard_2.json",
+        "Versions/A/Resources/llmqu_2025_07_03_zh_HK_shard_3.json",
+        "Versions/A/Resources/llmqu_2025_07_03_nb_NO_shard_0.json",
+        "Versions/A/Resources/llmqu_2025_07_03_sv_SE_shard_1.json",
+        "Versions/A/Resources/llmqu_2025_07_03_tr_TR_shard_3.json",
+        "Versions/A/Resources/llmqu_2025_07_03_en_US_shard_0.json",
+        "Versions/A/Resources/llmqu_2025_07_03_en_US_shard_1.json",
+        "Versions/A/Resources/llmqu_2025_07_03_tr_TR_shard_2.json",
+        "Versions/A/Resources/WhimsicalPrompts_da_DK.json",
+        "Versions/A/Resources/llmqu_2025_07_03_sv_SE_shard_0.json",
+        "Versions/A/Resources/WhimsicalPrompts_fr_FR.json",
+        "Versions/A/Resources/llmqu_2025_07_03_en_AU_shard_3.json",
+        "Versions/A/Resources/llmqu_2025_07_03_zh_HK_shard_2.json",
+        "Versions/A/Resources/llmqu_2025_07_03_nb_NO_shard_1.json",
+        "Versions/A/Resources/llmqu_2025_07_03_vi_VN_shard_1.json",
+        "Versions/A/Resources/llmqu_2025_07_03_fr_CA_shard_3.json",
+        "Versions/A/Resources/WhimsicalPrompts_zh_TW.json",
+        "Versions/A/Resources/llmqu_2025_07_03_es_US_shard_0.json",
+        "Versions/A/Resources/llmqu_2025_07_03_es_ES_shard_3.json",
+        "Versions/A/Resources/WhimsicalPrompts_pt_BR.json",
+        "Versions/A/Resources/llmqu_2025_07_03_es_MX_shard_0.json",
+        "Versions/A/Resources/WhimsicalPrompts_de_DE.json",
+        "Versions/A/Resources/llmqu_2025_07_03_zh_CN_shard_2.json",
+        "Versions/A/Resources/WhimsicalPrompts_es_US.json",
+        "Versions/A/Resources/llmqu_2025_07_03_ja_JP_shard_2.json",
+        "Versions/A/Resources/llmqu_2025_07_03_zh_TW_shard_1.json",
+        "Versions/A/Resources/llmqu_2025_07_03_ko_KR_shard_3.json",
+        "Versions/A/Resources/llmqu_2025_07_03_nl_NL_shard_3.json",
+        "Versions/A/Resources/llmqu_2025_07_03_da_DK_shard_0.json",
+        "Versions/A/Resources/llmqu_2025_07_03_en_GB_shard_2.json",
+        "Versions/A/Resources/llmqu_2025_07_03_pt_PT_shard_3.json",
+        "Versions/A/Resources/llmqu_2025_07_03_it_IT_shard_3.json",
+        "Versions/A/Resources/WhimsicalPrompts_nl_NL.json",
+        "Versions/A/Resources/llmqu_2025_07_03_de_DE_shard_1.json",
+        "Versions/A/Resources/llmqu_2025_07_03_fr_FR_shard_1.json",
+        "Versions/A/Resources/llmqu_2025_07_03_pt_BR_shard_3.json",
+        "Versions/A/Resources/llmqu_2025_07_03_pt_BR_shard_2.json",
+        "Versions/A/Resources/llmqu_2025_07_03_fr_FR_shard_0.json",
+        "Versions/A/Resources/llmqu_2025_07_03_de_DE_shard_0.json",
+        "Versions/A/Resources/llmqu_2025_07_03_it_IT_shard_2.json",
+        "Versions/A/Resources/WhimsicalPrompts_en_US.json",
+        "Versions/A/Resources/llmqu_2025_07_03_pt_PT_shard_2.json",
+        "Versions/A/Resources/WhimsicalPrompts_en_GB.json",
+        "Versions/A/Resources/llmqu_2025_07_03_en_GB_shard_3.json",
+        "Versions/A/Resources/llmqu_2025_07_03_da_DK_shard_1.json",
+        "Versions/A/Resources/llmqu_2025_07_03_ko_KR_shard_2.json",
+        "Versions/A/Resources/llmqu_2025_07_03_nl_NL_shard_2.json",
+        "Versions/A/Resources/WhimsicalPrompts_vi_VN.json",
+        "Versions/A/Resources/llmqu_2025_07_03_ja_JP_shard_3.json",
+        "Versions/A/Resources/llmqu_2025_07_03_zh_TW_shard_0.json",
+        "Versions/A/Resources/CPAnalyticsConfig-photoanalysisd.json",
+        "Versions/A/Resources/ContextualPrompts.json",
+        "Versions/A/Resources/llmqu_2025_07_03_zh_CN_shard_3.json",
+        "Versions/A/Resources/WhimsicalPrompts_es_MX.json",
+        "Versions/A/Resources/llmqu_2025_07_03_da_DK_shard_2.json",
+        "Versions/A/Resources/llmqu_2025_07_03_nl_NL_shard_1.json",
+        "Versions/A/Resources/llmqu_2025_07_03_ko_KR_shard_1.json",
+        "Versions/A/Resources/llmqu_2025_07_03_zh_TW_shard_3.json",
+        "Versions/A/Resources/llmqu_2025_07_03_ja_JP_shard_0.json",
+        "Versions/A/Resources/Localizable.loctable",
+        "Versions/A/Resources/llmqu_2025_07_03_zh_CN_shard_0.json",
+        "Versions/A/Resources/WhimsicalPrompts_en_AU.json",
+        "Versions/A/Resources/llmqu_2025_07_03_pt_BR_shard_1.json",
+        "Versions/A/Resources/llmqu_2025_07_03_fr_FR_shard_3.json",
+        "Versions/A/Resources/llmqu_2025_07_03_de_DE_shard_3.json",
+        "Versions/A/Resources/llmqu_2025_07_03_it_IT_shard_1.json",
+        "Versions/A/Resources/llmqu_2025_07_03_pt_PT_shard_1.json",
+        "Versions/A/Resources/llmqu_2025_07_03_en_GB_shard_0.json",
+        "Versions/A/Resources/llmqu_2025_07_03_en_GB_shard_1.json",
+        "Versions/A/Resources/llmqu_2025_07_03_pt_PT_shard_0.json",
+        "Versions/A/Resources/llmqu_2025_07_03_it_IT_shard_0.json",
+        "Versions/A/Resources/llmqu_2025_07_03_de_DE_shard_2.json",
+        "Versions/A/Resources/llmqu_2025_07_03_fr_FR_shard_2.json",
+        "Versions/A/Resources/llmqu_2025_07_03_pt_BR_shard_0.json",
+        "Versions/A/Resources/llmqu_2025_07_03_zh_CN_shard_1.json",
+        "Versions/A/Resources/llmqu_2025_07_03_zh_TW_shard_2.json",
+        "Versions/A/Resources/llmqu_2025_07_03_ja_JP_shard_1.json",
+        "Versions/A/Resources/WhimsicalPrompts_it_IT.json",
+        "Versions/A/Resources/llmqu_2025_07_03_nl_NL_shard_0.json",
+        "Versions/A/Resources/llmqu_2025_07_03_ko_KR_shard_0.json",
+        "Versions/A/Resources/llmqu_2025_07_03_da_DK_shard_3.json",
+        "Versions/A/Resources/llmqu_2025_07_03_nb_NO_shard_2.json",
+        "Versions/A/Resources/llmqu_2025_07_03_zh_HK_shard_1.json",
+        "Versions/A/Resources/llmqu_2025_07_03_en_AU_shard_0.json",
+        "Versions/A/Resources/llmqu_2025_07_03_vi_VN_shard_2.json",
+        "Versions/A/Resources/llmqu_2025_07_03_fr_CA_shard_0.json",
+        "Versions/A/Resources/llmqu_2025_07_03_es_US_shard_3.json",
+        "Versions/A/Resources/WhimsicalPrompts_es_ES.json",
+        "Versions/A/Resources/llmqu_2025_07_03_es_ES_shard_0.json",
+        "Versions/A/Resources/llmqu_2025_07_03_es_MX_shard_3.json",
+        "Versions/A/Resources/WhimsicalPrompts_ko_KR.json",
+        "Versions/A/Resources/llmqu_2025_07_03_en_US_shard_2.json",
+        "Versions/A/Resources/WhimsicalPrompts_zh_CN.json",
+        "Versions/A/Resources/llmqu_2025_07_03_tr_TR_shard_1.json",
+        "Versions/A/Resources/WhimsicalPrompts_ja_JP.json",
+        "Versions/A/Resources/llmqu_2025_07_03_sv_SE_shard_3.json",
+        "Versions/A/Resources/llmqu_2025_07_03_sv_SE_shard_2.json",
+        "Versions/A/Resources/llmqu_2025_07_03_tr_TR_shard_0.json",
+        "Versions/A/Resources/llmqu_2025_07_03_en_US_shard_3.json",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/WhimsicalPrompts_tr_TR.json",
+        "Versions/A/Resources/WhimsicalPrompts_no_NO.json",
+        "Versions/A/Resources/llmqu_2025_07_03_es_MX_shard_2.json",
+        "Versions/A/Resources/WhimsicalPrompts_sv_SE.json",
+        "Versions/A/Resources/llmqu_2025_07_03_es_ES_shard_1.json",
+        "Versions/A/Resources/version.plist",
+        "Versions/A/Resources/llmqu_2025_07_03_es_US_shard_2.json",
+        "Versions/A/Resources/WhimsicalPrompts_pt_PT.json",
+        "Versions/A/Resources/WhimsicalPrompts_zh_HK.json",
+        "Versions/A/Resources/llmqu_2025_07_03_fr_CA_shard_1.json",
+        "Versions/A/Resources/llmqu_2025_07_03_vi_VN_shard_3.json",
+        "Versions/A/Resources/llmqu_2025_07_03_nb_NO_shard_3.json",
+        "Versions/A/Resources/llmqu_2025_07_03_zh_HK_shard_0.json",
+        "Versions/A/Resources/llmqu_2025_07_03_en_AU_shard_1.json",
+        "Versions/A/Support/photoanalysisd"
+      ],
+      "plists": {
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "PhotoAnalysis",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2015 Apple, Inc. All rights reserved.",
+          "DTSDKBuild": "25B69",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "811.0.106",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "FMWK",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "PhotoAnalysis",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.PhotoAnalysis",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleSignature": "????",
+          "DTPlatformBuild": "25B69"
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleVersion": "811.0.106",
+          "ProjectName": "Photos_Swift",
+          "BuildAliasOf": "Photos",
+          "SourceVersion": "811000106000000",
+          "BuildVersion": "3"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
+  },
+  "usage": {
+    "layer": "usage",
+    "used_by": []
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "loaded"
+  }
+}

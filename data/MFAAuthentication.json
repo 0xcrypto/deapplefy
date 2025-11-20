@@ -1,0 +1,1855 @@
+{
+  "framework": "MFAAuthentication.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/MFAAuthentication.framework/Versions/A/XPCServices/MFAANetwork.xpc/Contents/MacOS/MFAANetwork",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 1845616,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "objc with blocks",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/usr/lib/libobjc.A.dylib",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "NSXPCConnection(Entitlements)",
+        "addr": 4296639040,
+        "lang": "objc",
+        "index": 0,
+        "super": [
+          "NSXPCConnection"
+        ],
+        "rawsuper": [
+          "NSXPCConnection"
+        ],
+        "methods": [
+          {
+            "name": "hasEntitlement:",
+            "flag": "method.NSXPCConnection_Entitlements_.hasEntitlement:",
+            "lang": "objc",
+            "addr": 4294972860
+          },
+          {
+            "name": "hasCategory:forEntitlement:",
+            "flag": "method.NSXPCConnection_Entitlements_.hasCategory:forEntitlement:",
+            "lang": "objc",
+            "addr": 4294973032
+          }
+        ]
+      },
+      {
+        "classname": "NSError(MFAAError)",
+        "addr": 4296639104,
+        "lang": "objc",
+        "index": 1,
+        "super": [
+          "NSError"
+        ],
+        "rawsuper": [
+          "NSError"
+        ],
+        "methods": [
+          {
+            "name": "FPSAPS_errorDescriptionForCode:",
+            "flag": "method.class.NSError_MFAAError_.FPSAPS_errorDescriptionForCode:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295066332
+          },
+          {
+            "name": "FPSAPS_errorWithCode:",
+            "flag": "method.class.NSError_MFAAError_.FPSAPS_errorWithCode:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295066368
+          },
+          {
+            "name": "FPSAPS_errorWithCode:andDescription:",
+            "flag": "method.class.NSError_MFAAError_.FPSAPS_errorWithCode:andDescription:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295066492
+          },
+          {
+            "name": "MFAA_errorWithDomain:code:",
+            "flag": "method.class.NSError_MFAAError_.MFAA_errorWithDomain:code:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294973628
+          },
+          {
+            "name": "MFAA_errorWithDomain:code:description:",
+            "flag": "method.class.NSError_MFAAError_.MFAA_errorWithDomain:code:description:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294973776
+          },
+          {
+            "name": "MFAA_errorWithDomain:code:failureReason:",
+            "flag": "method.class.NSError_MFAAError_.MFAA_errorWithDomain:code:failureReason:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294974040
+          }
+        ]
+      },
+      {
+        "classname": "NSLocale(Additions)",
+        "addr": 4296641456,
+        "lang": "objc",
+        "index": 2,
+        "super": [
+          "NSLocale"
+        ],
+        "rawsuper": [
+          "NSLocale"
+        ],
+        "methods": [
+          {
+            "name": "languageCodeAndCountryCode",
+            "flag": "method.NSLocale_Additions_.languageCodeAndCountryCode",
+            "lang": "objc",
+            "addr": 4295054040
+          }
+        ],
+        "fields": [
+          {
+            "name": "languageCodeAndCountryCode",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "ServiceDelegate",
+        "addr": 4296644000,
+        "lang": "objc",
+        "index": 3,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "listener:shouldAcceptNewConnection:",
+            "flag": "method.ServiceDelegate.listener:shouldAcceptNewConnection:",
+            "lang": "objc",
+            "addr": 4294971144
+          }
+        ],
+        "fields": [
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "MFAANetwork",
+        "addr": 4296644160,
+        "lang": "objc",
+        "index": 4,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.MFAANetwork.init",
+            "lang": "objc",
+            "addr": 4294977604
+          },
+          {
+            "name": "_init",
+            "flag": "method.MFAANetwork._init",
+            "lang": "objc",
+            "addr": 4294977852
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.MFAANetwork.dealloc",
+            "lang": "objc",
+            "addr": 4294978584
+          },
+          {
+            "name": "forceNetworkFailure",
+            "flag": "method.MFAANetwork.forceNetworkFailure",
+            "lang": "objc",
+            "addr": 4294978852
+          },
+          {
+            "name": "forceTokenActivationFailure",
+            "flag": "method.MFAANetwork.forceTokenActivationFailure",
+            "lang": "objc",
+            "addr": 4294978952
+          },
+          {
+            "name": "forceTokenConfirmationFailure",
+            "flag": "method.MFAANetwork.forceTokenConfirmationFailure",
+            "lang": "objc",
+            "addr": 4294979052
+          },
+          {
+            "name": "spoofTokenActivation",
+            "flag": "method.MFAANetwork.spoofTokenActivation",
+            "lang": "objc",
+            "addr": 4294979152
+          },
+          {
+            "name": "spoofPPIDMetadata",
+            "flag": "method.MFAANetwork.spoofPPIDMetadata",
+            "lang": "objc",
+            "addr": 4294979252
+          },
+          {
+            "name": "disableFairPlaySAP",
+            "flag": "method.MFAANetwork.disableFairPlaySAP",
+            "lang": "objc",
+            "addr": 4294979352
+          },
+          {
+            "name": "forceFairPlaySAPFailure",
+            "flag": "method.MFAANetwork.forceFairPlaySAPFailure",
+            "lang": "objc",
+            "addr": 4294979452
+          },
+          {
+            "name": "bypassFairPlaySAPSignatureVerification",
+            "flag": "method.MFAANetwork.bypassFairPlaySAPSignatureVerification",
+            "lang": "objc",
+            "addr": 4294979552
+          },
+          {
+            "name": "pairingTokenExpirationS",
+            "flag": "method.MFAANetwork.pairingTokenExpirationS",
+            "lang": "objc",
+            "addr": 4294979652
+          },
+          {
+            "name": "certStatusCache",
+            "flag": "method.MFAANetwork.certStatusCache",
+            "lang": "objc",
+            "addr": 4294979992
+          },
+          {
+            "name": "certStatusCacheVersion",
+            "flag": "method.MFAANetwork.certStatusCacheVersion",
+            "lang": "objc",
+            "addr": 4294980092
+          },
+          {
+            "name": "pairingTable",
+            "flag": "method.MFAANetwork.pairingTable",
+            "lang": "objc",
+            "addr": 4294980252
+          },
+          {
+            "name": "pairingTableVersion",
+            "flag": "method.MFAANetwork.pairingTableVersion",
+            "lang": "objc",
+            "addr": 4294980352
+          },
+          {
+            "name": "setCertStatusCache:",
+            "flag": "method.MFAANetwork.setCertStatusCache:",
+            "lang": "objc",
+            "addr": 4294980512
+          },
+          {
+            "name": "setCertStatusCacheVersion:",
+            "flag": "method.MFAANetwork.setCertStatusCacheVersion:",
+            "lang": "objc",
+            "addr": 4294980624
+          },
+          {
+            "name": "setPairingTable:",
+            "flag": "method.MFAANetwork.setPairingTable:",
+            "lang": "objc",
+            "addr": 4294980736
+          },
+          {
+            "name": "setPairingTableVersion:",
+            "flag": "method.MFAANetwork.setPairingTableVersion:",
+            "lang": "objc",
+            "addr": 4294980848
+          },
+          {
+            "name": "_selectedFairPlaySAPServer",
+            "flag": "method.MFAANetwork._selectedFairPlaySAPServer",
+            "lang": "objc",
+            "addr": 4294980960
+          },
+          {
+            "name": "_selectedAPIServer",
+            "flag": "method.MFAANetwork._selectedAPIServer",
+            "lang": "objc",
+            "addr": 4294981492
+          },
+          {
+            "name": "_openFairPlaySAPSession",
+            "flag": "method.MFAANetwork._openFairPlaySAPSession",
+            "lang": "objc",
+            "addr": 4294982132
+          },
+          {
+            "name": "_fairPlaySignatureForDataSync:timedOut:error:",
+            "flag": "method.MFAANetwork._fairPlaySignatureForDataSync:timedOut:error:",
+            "lang": "objc",
+            "addr": 4294983236
+          },
+          {
+            "name": "_verifyFairPlaySignatureSync:forData:timedOut:error:",
+            "flag": "method.MFAANetwork._verifyFairPlaySignatureSync:forData:timedOut:error:",
+            "lang": "objc",
+            "addr": 4294984348
+          },
+          {
+            "name": "_generateTokenAuthURLRequestForEndpoint:sessionID:signature:requestUUID:",
+            "flag": "method.MFAANetwork._generateTokenAuthURLRequestForEndpoint:sessionID:signature:requestUUID:",
+            "lang": "objc",
+            "addr": 4294985120
+          },
+          {
+            "name": "_requestMetadataForToken:withUUID:requestedLocale:requestInfo:withReply:",
+            "flag": "method.MFAANetwork._requestMetadataForToken:withUUID:requestedLocale:requestInfo:withReply:",
+            "lang": "objc",
+            "addr": 4294985716
+          },
+          {
+            "name": "_requestActivationForToken:withUUID:withReply:",
+            "flag": "method.MFAANetwork._requestActivationForToken:withUUID:withReply:",
+            "lang": "objc",
+            "addr": 4294996660
+          },
+          {
+            "name": "_confirmActivationForToken:withUUID:withReply:",
+            "flag": "method.MFAANetwork._confirmActivationForToken:withUUID:withReply:",
+            "lang": "objc",
+            "addr": 4295005364
+          },
+          {
+            "name": "_requestMetadataForCertSerial:issuerSeq:ppid:requestedLocale:requestInfo:withReply:",
+            "flag": "method.MFAANetwork._requestMetadataForCertSerial:issuerSeq:ppid:requestedLocale:requestInfo:withReply:",
+            "lang": "objc",
+            "addr": 4295011456
+          },
+          {
+            "name": "_validateCertSerial:issuerSeq:ppid:withReply:",
+            "flag": "method.MFAANetwork._validateCertSerial:issuerSeq:ppid:withReply:",
+            "lang": "objc",
+            "addr": 4295020032
+          },
+          {
+            "name": "_getCachedStatusForCertSerial:issuerSeq:ppid:withReply:",
+            "flag": "method.MFAANetwork._getCachedStatusForCertSerial:issuerSeq:ppid:withReply:",
+            "lang": "objc",
+            "addr": 4295029668
+          },
+          {
+            "name": "_setCachedStatusForCertSerial:issuerSeq:ppid:certStatus:",
+            "flag": "method.MFAANetwork._setCachedStatusForCertSerial:issuerSeq:ppid:certStatus:",
+            "lang": "objc",
+            "addr": 4295032524
+          },
+          {
+            "name": "_addPairingWithToken:withReply:",
+            "flag": "method.MFAANetwork._addPairingWithToken:withReply:",
+            "lang": "objc",
+            "addr": 4295034932
+          },
+          {
+            "name": "_removePairingWithToken:withReply:",
+            "flag": "method.MFAANetwork._removePairingWithToken:withReply:",
+            "lang": "objc",
+            "addr": 4295038064
+          },
+          {
+            "name": "_verifyPairingWithToken:withReply:",
+            "flag": "method.MFAANetwork._verifyPairingWithToken:withReply:",
+            "lang": "objc",
+            "addr": 4295041128
+          },
+          {
+            "name": "session:requestCertificateWithCompletionHandler:",
+            "flag": "func.100013094",
+            "lang": "objc",
+            "addr": 4295045268
+          },
+          {
+            "name": "session:requestHandshakeWithServer:completionHandler:",
+            "flag": "func.1000137d4",
+            "lang": "objc",
+            "addr": 4295047124
+          },
+          {
+            "name": "exportedObject",
+            "flag": "method.MFAANetwork.exportedObject",
+            "lang": "objc",
+            "addr": 4295051724
+          },
+          {
+            "name": "isInternalBuild",
+            "flag": "method.MFAANetwork.isInternalBuild",
+            "lang": "objc",
+            "addr": 4295051732
+          },
+          {
+            "name": "setIsInternalBuild:",
+            "flag": "method.MFAANetwork.setIsInternalBuild:",
+            "lang": "objc",
+            "addr": 4295051740
+          },
+          {
+            "name": "userDefaults",
+            "flag": "method.MFAANetwork.userDefaults",
+            "lang": "objc",
+            "addr": 4295051748
+          },
+          {
+            "name": "setUserDefaults:",
+            "flag": "method.MFAANetwork.setUserDefaults:",
+            "lang": "objc",
+            "addr": 4295051756
+          },
+          {
+            "name": "setForceNetworkFailure:",
+            "flag": "method.MFAANetwork.setForceNetworkFailure:",
+            "lang": "objc",
+            "addr": 4295051768
+          },
+          {
+            "name": "setForceTokenActivationFailure:",
+            "flag": "method.MFAANetwork.setForceTokenActivationFailure:",
+            "lang": "objc",
+            "addr": 4295051776
+          },
+          {
+            "name": "setForceTokenConfirmationFailure:",
+            "flag": "method.MFAANetwork.setForceTokenConfirmationFailure:",
+            "lang": "objc",
+            "addr": 4295051784
+          },
+          {
+            "name": "setSpoofTokenActivation:",
+            "flag": "method.MFAANetwork.setSpoofTokenActivation:",
+            "lang": "objc",
+            "addr": 4295051792
+          },
+          {
+            "name": "setSpoofPPIDMetadata:",
+            "flag": "method.MFAANetwork.setSpoofPPIDMetadata:",
+            "lang": "objc",
+            "addr": 4295051800
+          },
+          {
+            "name": "setDisableFairPlaySAP:",
+            "flag": "method.MFAANetwork.setDisableFairPlaySAP:",
+            "lang": "objc",
+            "addr": 4295051808
+          },
+          {
+            "name": "setForceFairPlaySAPFailure:",
+            "flag": "method.MFAANetwork.setForceFairPlaySAPFailure:",
+            "lang": "objc",
+            "addr": 4295051816
+          },
+          {
+            "name": "setBypassFairPlaySAPSignatureVerification:",
+            "flag": "method.MFAANetwork.setBypassFairPlaySAPSignatureVerification:",
+            "lang": "objc",
+            "addr": 4295051824
+          },
+          {
+            "name": "setPairingTokenExpirationS:",
+            "flag": "method.MFAANetwork.setPairingTokenExpirationS:",
+            "lang": "objc",
+            "addr": 4295051832
+          },
+          {
+            "name": "userDefaultsQueue",
+            "flag": "method.MFAANetwork.userDefaultsQueue",
+            "lang": "objc",
+            "addr": 4295051840
+          },
+          {
+            "name": "setUserDefaultsQueue:",
+            "flag": "method.MFAANetwork.setUserDefaultsQueue:",
+            "lang": "objc",
+            "addr": 4295051848
+          },
+          {
+            "name": "urlSession",
+            "flag": "method.MFAANetwork.urlSession",
+            "lang": "objc",
+            "addr": 4295051860
+          },
+          {
+            "name": "setUrlSession:",
+            "flag": "method.MFAANetwork.setUrlSession:",
+            "lang": "objc",
+            "addr": 4295051868
+          },
+          {
+            "name": "fairPlaySAPSession",
+            "flag": "method.MFAANetwork.fairPlaySAPSession",
+            "lang": "objc",
+            "addr": 4295051880
+          },
+          {
+            "name": "setFairPlaySAPSession:",
+            "flag": "method.MFAANetwork.setFairPlaySAPSession:",
+            "lang": "objc",
+            "addr": 4295051888
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.MFAANetwork..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295051900
+          },
+          {
+            "name": "session:requestCertificateWithCompletionHandler:",
+            "flag": "method.MFAANetwork.session:requestCertificateWithCompletionHandler:",
+            "lang": "objc",
+            "addr": 4296116232
+          },
+          {
+            "name": "session:requestHandshakeWithServer:completionHandler:",
+            "flag": "method.MFAANetwork.session:requestHandshakeWithServer:completionHandler:",
+            "lang": "objc",
+            "addr": 4296116244
+          },
+          {
+            "name": "sharedInstance",
+            "flag": "method.class.MFAANetwork.sharedInstance",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295051500
+          },
+          {
+            "name": "session:requestCertificateWithCompletionHandler:",
+            "flag": "method.MFAANetwork.session:requestCertificateWithCompletionHandler:",
+            "lang": "objc",
+            "addr": 4296116232
+          },
+          {
+            "name": "session:requestHandshakeWithServer:completionHandler:",
+            "flag": "method.MFAANetwork.session:requestHandshakeWithServer:completionHandler:",
+            "lang": "objc",
+            "addr": 4296116244
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_isInternalBuild",
+            "kind": "var",
+            "type": "B",
+            "addr": 4296643904
+          },
+          {
+            "name": "_forceNetworkFailure",
+            "kind": "var",
+            "type": "B",
+            "addr": 4296643908
+          },
+          {
+            "name": "_forceTokenActivationFailure",
+            "kind": "var",
+            "type": "B",
+            "addr": 4296643912
+          },
+          {
+            "name": "_forceTokenConfirmationFailure",
+            "kind": "var",
+            "type": "B",
+            "addr": 4296643916
+          },
+          {
+            "name": "_spoofTokenActivation",
+            "kind": "var",
+            "type": "B",
+            "addr": 4296643920
+          },
+          {
+            "name": "_spoofPPIDMetadata",
+            "kind": "var",
+            "type": "B",
+            "addr": 4296643924
+          },
+          {
+            "name": "_disableFairPlaySAP",
+            "kind": "var",
+            "type": "B",
+            "addr": 4296643928
+          },
+          {
+            "name": "_forceFairPlaySAPFailure",
+            "kind": "var",
+            "type": "B",
+            "addr": 4296643932
+          },
+          {
+            "name": "_bypassFairPlaySAPSignatureVerification",
+            "kind": "var",
+            "type": "B",
+            "addr": 4296643936
+          },
+          {
+            "name": "_exportedObject",
+            "kind": "var",
+            "type": "@\"<MFAANetworkProtocol>\"",
+            "addr": 4296643940
+          },
+          {
+            "name": "_userDefaults",
+            "kind": "var",
+            "type": "@\"NSUserDefaults\"",
+            "addr": 4296643944
+          },
+          {
+            "name": "_pairingTokenExpirationS",
+            "kind": "var",
+            "type": "Q",
+            "addr": 4296643948
+          },
+          {
+            "name": "_userDefaultsQueue",
+            "kind": "var",
+            "type": "@\"NSObject<OS_dispatch_queue>\"",
+            "addr": 4296643952
+          },
+          {
+            "name": "_urlSession",
+            "kind": "var",
+            "type": "@\"NSURLSession\"",
+            "addr": 4296643956
+          },
+          {
+            "name": "_fairPlaySAPSession",
+            "kind": "var",
+            "type": "@\"FairPlaySAPSession\"",
+            "addr": 4296643960
+          },
+          {
+            "name": "isInternalBuild",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "userDefaults",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "forceNetworkFailure",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "forceTokenActivationFailure",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "forceTokenConfirmationFailure",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "spoofTokenActivation",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "spoofPPIDMetadata",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "disableFairPlaySAP",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "forceFairPlaySAPFailure",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "bypassFairPlaySAPSignatureVerification",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "pairingTokenExpirationS",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "certStatusCache",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "certStatusCacheVersion",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "pairingTable",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "pairingTableVersion",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "userDefaultsQueue",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "urlSession",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "fairPlaySAPSession",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "exportedObject",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "MFAANetworkExported",
+        "addr": 4296644200,
+        "lang": "objc",
+        "index": 5,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "requestMetadataForToken:withUUID:requestedLocale:requestInfo:withReply:",
+            "flag": "func.100014ae4",
+            "lang": "objc",
+            "addr": 4295052004
+          },
+          {
+            "name": "requestActivationForToken:withUUID:withReply:",
+            "flag": "func.100014bcc",
+            "lang": "objc",
+            "addr": 4295052236
+          },
+          {
+            "name": "confirmActivationForToken:withUUID:withReply:",
+            "flag": "func.100014c74",
+            "lang": "objc",
+            "addr": 4295052404
+          },
+          {
+            "name": "requestMetadataForCertSerial:issuerSeq:ppid:requestedLocale:requestInfo:withReply:",
+            "flag": "func.100014d1c",
+            "lang": "objc",
+            "addr": 4295052572
+          },
+          {
+            "name": "validateCertSerial:issuerSeq:ppid:withReply:",
+            "flag": "func.100014e28",
+            "lang": "objc",
+            "addr": 4295052840
+          },
+          {
+            "name": "getCachedStatusForCertSerial:issuerSeq:ppid:withReply:",
+            "flag": "func.100014ef4",
+            "lang": "objc",
+            "addr": 4295053044
+          },
+          {
+            "name": "addPairingWithToken:withReply:",
+            "flag": "func.100014fc0",
+            "lang": "objc",
+            "addr": 4295053248
+          },
+          {
+            "name": "removePairingWithToken:withReply:",
+            "flag": "func.10001504c",
+            "lang": "objc",
+            "addr": 4295053388
+          },
+          {
+            "name": "verifyPairingWithToken:withReply:",
+            "flag": "func.1000150d8",
+            "lang": "objc",
+            "addr": 4295053528
+          },
+          {
+            "name": "requestMetadataForToken:withUUID:requestedLocale:requestInfo:withReply:",
+            "flag": "method.MFAANetworkExported.requestMetadataForToken:withUUID:requestedLocale:requestInfo:withReply:",
+            "lang": "objc",
+            "addr": 4296116264
+          },
+          {
+            "name": "requestActivationForToken:withUUID:withReply:",
+            "flag": "method.MFAANetworkExported.requestActivationForToken:withUUID:withReply:",
+            "lang": "objc",
+            "addr": 4296116276
+          },
+          {
+            "name": "confirmActivationForToken:withUUID:withReply:",
+            "flag": "method.MFAANetworkExported.confirmActivationForToken:withUUID:withReply:",
+            "lang": "objc",
+            "addr": 4296116288
+          },
+          {
+            "name": "requestMetadataForCertSerial:issuerSeq:ppid:requestedLocale:requestInfo:withReply:",
+            "flag": "method.MFAANetworkExported.requestMetadataForCertSerial:issuerSeq:ppid:requestedLocale:requestInfo:withReply:",
+            "lang": "objc",
+            "addr": 4296116300
+          },
+          {
+            "name": "validateCertSerial:issuerSeq:ppid:withReply:",
+            "flag": "method.MFAANetworkExported.validateCertSerial:issuerSeq:ppid:withReply:",
+            "lang": "objc",
+            "addr": 4296116312
+          },
+          {
+            "name": "getCachedStatusForCertSerial:issuerSeq:ppid:withReply:",
+            "flag": "method.MFAANetworkExported.getCachedStatusForCertSerial:issuerSeq:ppid:withReply:",
+            "lang": "objc",
+            "addr": 4296116324
+          },
+          {
+            "name": "addPairingWithToken:withReply:",
+            "flag": "method.MFAANetworkExported.addPairingWithToken:withReply:",
+            "lang": "objc",
+            "addr": 4296116336
+          },
+          {
+            "name": "removePairingWithToken:withReply:",
+            "flag": "method.MFAANetworkExported.removePairingWithToken:withReply:",
+            "lang": "objc",
+            "addr": 4296116348
+          },
+          {
+            "name": "verifyPairingWithToken:withReply:",
+            "flag": "method.MFAANetworkExported.verifyPairingWithToken:withReply:",
+            "lang": "objc",
+            "addr": 4296116360
+          },
+          {
+            "name": "requestMetadataForToken:withUUID:requestedLocale:requestInfo:withReply:",
+            "flag": "method.MFAANetworkExported.requestMetadataForToken:withUUID:requestedLocale:requestInfo:withReply:",
+            "lang": "objc",
+            "addr": 4296116264
+          },
+          {
+            "name": "requestActivationForToken:withUUID:withReply:",
+            "flag": "method.MFAANetworkExported.requestActivationForToken:withUUID:withReply:",
+            "lang": "objc",
+            "addr": 4296116276
+          },
+          {
+            "name": "confirmActivationForToken:withUUID:withReply:",
+            "flag": "method.MFAANetworkExported.confirmActivationForToken:withUUID:withReply:",
+            "lang": "objc",
+            "addr": 4296116288
+          },
+          {
+            "name": "requestMetadataForCertSerial:issuerSeq:ppid:requestedLocale:requestInfo:withReply:",
+            "flag": "method.MFAANetworkExported.requestMetadataForCertSerial:issuerSeq:ppid:requestedLocale:requestInfo:withReply:",
+            "lang": "objc",
+            "addr": 4296116300
+          },
+          {
+            "name": "validateCertSerial:issuerSeq:ppid:withReply:",
+            "flag": "method.MFAANetworkExported.validateCertSerial:issuerSeq:ppid:withReply:",
+            "lang": "objc",
+            "addr": 4296116312
+          },
+          {
+            "name": "getCachedStatusForCertSerial:issuerSeq:ppid:withReply:",
+            "flag": "method.MFAANetworkExported.getCachedStatusForCertSerial:issuerSeq:ppid:withReply:",
+            "lang": "objc",
+            "addr": 4296116324
+          },
+          {
+            "name": "addPairingWithToken:withReply:",
+            "flag": "method.MFAANetworkExported.addPairingWithToken:withReply:",
+            "lang": "objc",
+            "addr": 4296116336
+          },
+          {
+            "name": "removePairingWithToken:withReply:",
+            "flag": "method.MFAANetworkExported.removePairingWithToken:withReply:",
+            "lang": "objc",
+            "addr": 4296116348
+          },
+          {
+            "name": "verifyPairingWithToken:withReply:",
+            "flag": "method.MFAANetworkExported.verifyPairingWithToken:withReply:",
+            "lang": "objc",
+            "addr": 4296116360
+          }
+        ]
+      },
+      {
+        "classname": "FairPlaySAPSession",
+        "addr": 4296644280,
+        "lang": "objc",
+        "index": 6,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithDelegate:",
+            "flag": "method.FairPlaySAPSession.initWithDelegate:",
+            "lang": "objc",
+            "addr": 4295055008
+          },
+          {
+            "name": "init",
+            "flag": "method.FairPlaySAPSession.init",
+            "lang": "objc",
+            "addr": 4295055588
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.FairPlaySAPSession.dealloc",
+            "lang": "objc",
+            "addr": 4295055836
+          },
+          {
+            "name": "openWithCompletionHandler:",
+            "flag": "method.FairPlaySAPSession.openWithCompletionHandler:",
+            "lang": "objc",
+            "addr": 4295055908
+          },
+          {
+            "name": "close",
+            "flag": "method.FairPlaySAPSession.close",
+            "lang": "objc",
+            "addr": 4295060600
+          },
+          {
+            "name": "signatureForData:completionHandler:",
+            "flag": "method.FairPlaySAPSession.signatureForData:completionHandler:",
+            "lang": "objc",
+            "addr": 4295060760
+          },
+          {
+            "name": "verifySignature:forData:completionHandler:",
+            "flag": "method.FairPlaySAPSession.verifySignature:forData:completionHandler:",
+            "lang": "objc",
+            "addr": 4295062412
+          },
+          {
+            "name": "_close",
+            "flag": "method.FairPlaySAPSession._close",
+            "lang": "objc",
+            "addr": 4295064176
+          },
+          {
+            "name": "_checkExpiration",
+            "flag": "method.FairPlaySAPSession._checkExpiration",
+            "lang": "objc",
+            "addr": 4295064388
+          },
+          {
+            "name": "description",
+            "flag": "method.FairPlaySAPSession.description",
+            "lang": "objc",
+            "addr": 4295064596
+          },
+          {
+            "name": "state",
+            "flag": "method.FairPlaySAPSession.state",
+            "lang": "objc",
+            "addr": 4295064780
+          },
+          {
+            "name": "TTL",
+            "flag": "method.FairPlaySAPSession.TTL",
+            "lang": "objc",
+            "addr": 4295065088
+          },
+          {
+            "name": "setTTL:",
+            "flag": "method.FairPlaySAPSession.setTTL:",
+            "lang": "objc",
+            "addr": 4295065436
+          },
+          {
+            "name": "setState_int:",
+            "flag": "method.FairPlaySAPSession.setState_int:",
+            "lang": "objc",
+            "addr": 4295065724
+          },
+          {
+            "name": "delegate",
+            "flag": "method.FairPlaySAPSession.delegate",
+            "lang": "objc",
+            "addr": 4295066012
+          },
+          {
+            "name": "setDelegate:",
+            "flag": "method.FairPlaySAPSession.setDelegate:",
+            "lang": "objc",
+            "addr": 4295066056
+          },
+          {
+            "name": "UUID",
+            "flag": "method.FairPlaySAPSession.UUID",
+            "lang": "objc",
+            "addr": 4295066068
+          },
+          {
+            "name": "state_int",
+            "flag": "method.FairPlaySAPSession.state_int",
+            "lang": "objc",
+            "addr": 4295066076
+          },
+          {
+            "name": "completionQueue",
+            "flag": "method.FairPlaySAPSession.completionQueue",
+            "lang": "objc",
+            "addr": 4295066084
+          },
+          {
+            "name": "setCompletionQueue:",
+            "flag": "method.FairPlaySAPSession.setCompletionQueue:",
+            "lang": "objc",
+            "addr": 4295066092
+          },
+          {
+            "name": "internalQueue",
+            "flag": "method.FairPlaySAPSession.internalQueue",
+            "lang": "objc",
+            "addr": 4295066104
+          },
+          {
+            "name": "setInternalQueue:",
+            "flag": "method.FairPlaySAPSession.setInternalQueue:",
+            "lang": "objc",
+            "addr": 4295066112
+          },
+          {
+            "name": "delegateQueue",
+            "flag": "method.FairPlaySAPSession.delegateQueue",
+            "lang": "objc",
+            "addr": 4295066124
+          },
+          {
+            "name": "setDelegateQueue:",
+            "flag": "method.FairPlaySAPSession.setDelegateQueue:",
+            "lang": "objc",
+            "addr": 4295066132
+          },
+          {
+            "name": "sessionContext",
+            "flag": "method.FairPlaySAPSession.sessionContext",
+            "lang": "objc",
+            "addr": 4295066144
+          },
+          {
+            "name": "setSessionContext:",
+            "flag": "method.FairPlaySAPSession.setSessionContext:",
+            "lang": "objc",
+            "addr": 4295066152
+          },
+          {
+            "name": "hwInfo",
+            "flag": "method.FairPlaySAPSession.hwInfo",
+            "lang": "objc",
+            "addr": 4295066160
+          },
+          {
+            "name": "setHwInfo:",
+            "flag": "method.FairPlaySAPSession.setHwInfo:",
+            "lang": "objc",
+            "addr": 4295066180
+          },
+          {
+            "name": "expiration",
+            "flag": "method.FairPlaySAPSession.expiration",
+            "lang": "objc",
+            "addr": 4295066200
+          },
+          {
+            "name": "setExpiration:",
+            "flag": "method.FairPlaySAPSession.setExpiration:",
+            "lang": "objc",
+            "addr": 4295066208
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.FairPlaySAPSession..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295066220
+          },
+          {
+            "name": "sessionWithDelegate:",
+            "flag": "method.class.FairPlaySAPSession.sessionWithDelegate:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295065920
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_delegate",
+            "kind": "var",
+            "type": "@\"<FairPlaySAPSessionDelegate>\"",
+            "addr": 4296643964
+          },
+          {
+            "name": "_UUID",
+            "kind": "var",
+            "type": "@\"NSUUID\"",
+            "addr": 4296643968
+          },
+          {
+            "name": "_state_int",
+            "kind": "var",
+            "type": "Q",
+            "addr": 4296643972
+          },
+          {
+            "name": "_completionQueue",
+            "kind": "var",
+            "type": "@\"NSObject<OS_dispatch_queue>\"",
+            "addr": 4296643976
+          },
+          {
+            "name": "_internalQueue",
+            "kind": "var",
+            "type": "@\"NSObject<OS_dispatch_queue>\"",
+            "addr": 4296643980
+          },
+          {
+            "name": "_delegateQueue",
+            "kind": "var",
+            "type": "@\"NSObject<OS_dispatch_queue>\"",
+            "addr": 4296643984
+          },
+          {
+            "name": "_sessionContext",
+            "kind": "var",
+            "type": "^{FPSAPContextOpaque_=}",
+            "addr": 4296643988
+          },
+          {
+            "name": "_expiration",
+            "kind": "var",
+            "type": "@\"NSDate\"",
+            "addr": 4296643992
+          },
+          {
+            "name": "_hwInfo",
+            "kind": "var",
+            "type": "{FairPlayHWInfo_=\"IDLength\"I\"ID\"[20C]}",
+            "addr": 4296643996
+          },
+          {
+            "name": "state_int",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "completionQueue",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "internalQueue",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "delegateQueue",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "sessionContext",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hwInfo",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "expiration",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "delegate",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "state",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "UUID",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "TTL",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      }
+    ],
+    "swift_metadata": {
+      "is_swift": true,
+      "symbols": [
+        {
+          "name": "_objc_msgSend$serviceListener",
+          "flagname": "sym._objc_msgSend_serviceListener",
+          "realname": "_objc_msgSend$serviceListener",
+          "ordinal": 935,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296113344,
+          "paddr": 3144896,
+          "is_imported": false
+        },
+        {
+          "name": "_objc_msgSend$session:requestCertificateWithCompletionHandler:",
+          "flagname": "sym._objc_msgSend_session:requestCertificateWithCompletionHandler:",
+          "realname": "_objc_msgSend$session:requestCertificateWithCompletionHandler:",
+          "ordinal": 936,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296113376,
+          "paddr": 3144928,
+          "is_imported": false
+        },
+        {
+          "name": "_objc_msgSend$session:requestHandshakeWithServer:completionHandler:",
+          "flagname": "sym._objc_msgSend_session:requestHandshakeWithServer:completionHandler:",
+          "realname": "_objc_msgSend$session:requestHandshakeWithServer:completionHandler:",
+          "ordinal": 937,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296113408,
+          "paddr": 3144960,
+          "is_imported": false
+        },
+        {
+          "name": "_objc_msgSend$sessionContext",
+          "flagname": "sym._objc_msgSend_sessionContext",
+          "realname": "_objc_msgSend$sessionContext",
+          "ordinal": 938,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296113440,
+          "paddr": 3144992,
+          "is_imported": false
+        },
+        {
+          "name": "_objc_msgSend$sessionWithConfiguration:",
+          "flagname": "sym._objc_msgSend_sessionWithConfiguration:",
+          "realname": "_objc_msgSend$sessionWithConfiguration:",
+          "ordinal": 939,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296113472,
+          "paddr": 3145024,
+          "is_imported": false
+        },
+        {
+          "name": "_objc_msgSend$sessionWithDelegate:",
+          "flagname": "sym._objc_msgSend_sessionWithDelegate:",
+          "realname": "_objc_msgSend$sessionWithDelegate:",
+          "ordinal": 940,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296113504,
+          "paddr": 3145056,
+          "is_imported": false
+        },
+        {
+          "name": "_objc_msgSend$set",
+          "flagname": "sym._objc_msgSend_set",
+          "realname": "_objc_msgSend$set",
+          "ordinal": 941,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296113536,
+          "paddr": 3145088,
+          "is_imported": false
+        },
+        {
+          "name": "_objc_msgSend$setCertStatusCache:",
+          "flagname": "sym._objc_msgSend_setCertStatusCache:",
+          "realname": "_objc_msgSend$setCertStatusCache:",
+          "ordinal": 942,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296113568,
+          "paddr": 3145120,
+          "is_imported": false
+        },
+        {
+          "name": "_objc_msgSend$setCertStatusCacheVersion:",
+          "flagname": "sym._objc_msgSend_setCertStatusCacheVersion:",
+          "realname": "_objc_msgSend$setCertStatusCacheVersion:",
+          "ordinal": 943,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296113600,
+          "paddr": 3145152,
+          "is_imported": false
+        },
+        {
+          "name": "_objc_msgSend$setDelegate:",
+          "flagname": "sym._objc_msgSend_setDelegate:",
+          "realname": "_objc_msgSend$setDelegate:",
+          "ordinal": 944,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296113632,
+          "paddr": 3145184,
+          "is_imported": false
+        },
+        {
+          "name": "_objc_msgSend$setExpiration:",
+          "flagname": "sym._objc_msgSend_setExpiration:",
+          "realname": "_objc_msgSend$setExpiration:",
+          "ordinal": 945,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296113664,
+          "paddr": 3145216,
+          "is_imported": false
+        },
+        {
+          "name": "_objc_msgSend$setExportedInterface:",
+          "flagname": "sym._objc_msgSend_setExportedInterface:",
+          "realname": "_objc_msgSend$setExportedInterface:",
+          "ordinal": 946,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296113696,
+          "paddr": 3145248,
+          "is_imported": false
+        },
+        {
+          "name": "_objc_msgSend$setExportedObject:",
+          "flagname": "sym._objc_msgSend_setExportedObject:",
+          "realname": "_objc_msgSend$setExportedObject:",
+          "ordinal": 947,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296113728,
+          "paddr": 3145280,
+          "is_imported": false
+        },
+        {
+          "name": "_objc_msgSend$setHTTPMethod:",
+          "flagname": "sym._objc_msgSend_setHTTPMethod:",
+          "realname": "_objc_msgSend$setHTTPMethod:",
+          "ordinal": 948,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296113760,
+          "paddr": 3145312,
+          "is_imported": false
+        },
+        {
+          "name": "_objc_msgSend$setObject:forKey:",
+          "flagname": "sym._objc_msgSend_setObject:forKey:",
+          "realname": "_objc_msgSend$setObject:forKey:",
+          "ordinal": 949,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296113792,
+          "paddr": 3145344,
+          "is_imported": false
+        },
+        {
+          "name": "_objc_msgSend$setObject:forKeyedSubscript:",
+          "flagname": "sym._objc_msgSend_setObject:forKeyedSubscript:",
+          "realname": "_objc_msgSend$setObject:forKeyedSubscript:",
+          "ordinal": 950,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296113824,
+          "paddr": 3145376,
+          "is_imported": false
+        },
+        {
+          "name": "_objc_msgSend$setPairingTable:",
+          "flagname": "sym._objc_msgSend_setPairingTable:",
+          "realname": "_objc_msgSend$setPairingTable:",
+          "ordinal": 951,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296113856,
+          "paddr": 3145408,
+          "is_imported": false
+        },
+        {
+          "name": "_objc_msgSend$setPairingTableVersion:",
+          "flagname": "sym._objc_msgSend_setPairingTableVersion:",
+          "realname": "_objc_msgSend$setPairingTableVersion:",
+          "ordinal": 952,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296113888,
+          "paddr": 3145440,
+          "is_imported": false
+        },
+        {
+          "name": "_objc_msgSend$setState_int:",
+          "flagname": "sym._objc_msgSend_setState_int:",
+          "realname": "_objc_msgSend$setState_int:",
+          "ordinal": 953,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296113920,
+          "paddr": 3145472,
+          "is_imported": false
+        },
+        {
+          "name": "_objc_msgSend$setTTL:",
+          "flagname": "sym._objc_msgSend_setTTL:",
+          "realname": "_objc_msgSend$setTTL:",
+          "ordinal": 954,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296113952,
+          "paddr": 3145504,
+          "is_imported": false
+        },
+        {
+          "name": "_objc_msgSend$setValue:forHTTPHeaderField:",
+          "flagname": "sym._objc_msgSend_setValue:forHTTPHeaderField:",
+          "realname": "_objc_msgSend$setValue:forHTTPHeaderField:",
+          "ordinal": 955,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296113984,
+          "paddr": 3145536,
+          "is_imported": false
+        },
+        {
+          "name": "_objc_msgSend$setWithSet:",
+          "flagname": "sym._objc_msgSend_setWithSet:",
+          "realname": "_objc_msgSend$setWithSet:",
+          "ordinal": 956,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296114016,
+          "paddr": 3145568,
+          "is_imported": false
+        },
+        {
+          "name": "_objc_msgSend$sharedInstance",
+          "flagname": "sym._objc_msgSend_sharedInstance",
+          "realname": "_objc_msgSend$sharedInstance",
+          "ordinal": 957,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296114048,
+          "paddr": 3145600,
+          "is_imported": false
+        },
+        {
+          "name": "_objc_msgSend$sharedSession",
+          "flagname": "sym._objc_msgSend_sharedSession",
+          "realname": "_objc_msgSend$sharedSession",
+          "ordinal": 958,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296114080,
+          "paddr": 3145632,
+          "is_imported": false
+        },
+        {
+          "name": "_objc_msgSend$signatureForData:completionHandler:",
+          "flagname": "sym._objc_msgSend_signatureForData:completionHandler:",
+          "realname": "_objc_msgSend$signatureForData:completionHandler:",
+          "ordinal": 959,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296114112,
+          "paddr": 3145664,
+          "is_imported": false
+        },
+        {
+          "name": "_objc_msgSend$spoofPPIDMetadata",
+          "flagname": "sym._objc_msgSend_spoofPPIDMetadata",
+          "realname": "_objc_msgSend$spoofPPIDMetadata",
+          "ordinal": 960,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296114144,
+          "paddr": 3145696,
+          "is_imported": false
+        },
+        {
+          "name": "_objc_msgSend$spoofTokenActivation",
+          "flagname": "sym._objc_msgSend_spoofTokenActivation",
+          "realname": "_objc_msgSend$spoofTokenActivation",
+          "ordinal": 961,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296114176,
+          "paddr": 3145728,
+          "is_imported": false
+        },
+        {
+          "name": "_objc_msgSend$state",
+          "flagname": "sym._objc_msgSend_state",
+          "realname": "_objc_msgSend$state",
+          "ordinal": 962,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296114208,
+          "paddr": 3145760,
+          "is_imported": false
+        },
+        {
+          "name": "_objc_msgSend$state_int",
+          "flagname": "sym._objc_msgSend_state_int",
+          "realname": "_objc_msgSend$state_int",
+          "ordinal": 963,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296114240,
+          "paddr": 3145792,
+          "is_imported": false
+        },
+        {
+          "name": "_objc_msgSend$statusCode",
+          "flagname": "sym._objc_msgSend_statusCode",
+          "realname": "_objc_msgSend$statusCode",
+          "ordinal": 964,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296114272,
+          "paddr": 3145824,
+          "is_imported": false
+        },
+        {
+          "name": "_objc_msgSend$stringByTrimmingCharactersInSet:",
+          "flagname": "sym._objc_msgSend_stringByTrimmingCharactersInSet:",
+          "realname": "_objc_msgSend$stringByTrimmingCharactersInSet:",
+          "ordinal": 965,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296114304,
+          "paddr": 3145856,
+          "is_imported": false
+        },
+        {
+          "name": "_objc_msgSend$stringForKey:",
+          "flagname": "sym._objc_msgSend_stringForKey:",
+          "realname": "_objc_msgSend$stringForKey:",
+          "ordinal": 966,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296114336,
+          "paddr": 3145888,
+          "is_imported": false
+        },
+        {
+          "name": "_objc_msgSend$stringWithFormat:",
+          "flagname": "sym._objc_msgSend_stringWithFormat:",
+          "realname": "_objc_msgSend$stringWithFormat:",
+          "ordinal": 967,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296114368,
+          "paddr": 3145920,
+          "is_imported": false
+        },
+        {
+          "name": "_objc_msgSend$stringWithString:",
+          "flagname": "sym._objc_msgSend_stringWithString:",
+          "realname": "_objc_msgSend$stringWithString:",
+          "ordinal": 968,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4296114400,
+          "paddr": 3145952,
+          "is_imported": false
+        }
+      ]
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist",
+        "Versions/A/XPCServices/MFAANetwork.xpc/Contents/Info.plist",
+        "Versions/A/XPCServices/MFAANetwork.xpc/Contents/version.plist",
+        "Versions/A/XPCServices/MFAANetwork.xpc/Contents/_CodeSignature/CodeResources",
+        "Versions/A/XPCServices/MFAANetwork.xpc/Contents/MacOS/MFAANetwork",
+        "Versions/A/XPCServices/MFAANetwork.xpc/Contents/Resources/InfoPlist.loctable"
+      ],
+      "plists": {
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "MFAAuthentication",
+          "CFBundleIdentifier": "com.apple.MFAAuthentication",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "DTPlatformBuild": "25B73",
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleVersion": "1",
+          "CFBundleExecutable": "MFAAuthentication",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTXcode": "2600",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundlePackageType": "FMWK",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "DTSDKBuild": "25B73",
+          "CFBundleDevelopmentRegion": "en",
+          "DTSDKName": "macosx26.1.internal",
+          "CFBundleShortVersionString": "1.0"
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "CoreAccessories",
+          "SourceVersion": "1139040006000000",
+          "BuildVersion": "690"
+        },
+        "Versions/A/XPCServices/MFAANetwork.xpc/Contents/Info.plist": {
+          "CFBundleName": "MFAANetwork",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B73",
+          "CFBundleDevelopmentRegion": "English",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "XPCService": {
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "MFAANetwork",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.MFAAuthentication.MFAANetwork",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleDisplayName": "MFAANetwork",
+          "DTPlatformBuild": "25B73"
+        },
+        "Versions/A/XPCServices/MFAANetwork.xpc/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "CoreAccessories",
+          "SourceVersion": "1139040006000000",
+          "BuildVersion": "690"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
+  },
+  "usage": {
+    "layer": "usage",
+    "used_by": []
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "loaded"
+  }
+}

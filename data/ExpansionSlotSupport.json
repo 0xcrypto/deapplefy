@@ -1,0 +1,305 @@
+{
+  "framework": "ExpansionSlotSupport.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/ExpansionSlotSupport.framework/Versions/A/XPCServices/ESUXPCHelper.xpc/Contents/MacOS/ESUXPCHelper",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 70832,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "objc",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/Frameworks/Security.framework/Versions/A/Security",
+          "/System/Library/PrivateFrameworks/ExpansionSlotSupport.framework/Versions/A/ExpansionSlotSupport",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "ServiceDelegate",
+        "addr": 4295001200,
+        "lang": "objc",
+        "index": 0,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "listener:shouldAcceptNewConnection:",
+            "flag": "method.ServiceDelegate.listener:shouldAcceptNewConnection:",
+            "lang": "objc",
+            "addr": 4294970296
+          }
+        ],
+        "fields": [
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "ESUXPCHelper",
+        "addr": 4295001280,
+        "lang": "objc",
+        "index": 1,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "writeSwitchData:withAuthData:reply:",
+            "flag": "func.100000d04",
+            "lang": "objc",
+            "addr": 4294970628
+          },
+          {
+            "name": "hasValidAuthorizationReference:",
+            "flag": "method.ESUXPCHelper.hasValidAuthorizationReference:",
+            "lang": "objc",
+            "addr": 4294970824
+          },
+          {
+            "name": "sandboxed",
+            "flag": "method.ESUXPCHelper.sandboxed",
+            "lang": "objc",
+            "addr": 4294971184
+          },
+          {
+            "name": "setSandboxed:",
+            "flag": "method.ESUXPCHelper.setSandboxed:",
+            "lang": "objc",
+            "addr": 4294971196
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.ESUXPCHelper..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294971204
+          },
+          {
+            "name": "writeSwitchData:withAuthData:reply:",
+            "flag": "method.ESUXPCHelper.writeSwitchData:withAuthData:reply:",
+            "lang": "objc",
+            "addr": 4294972304
+          },
+          {
+            "name": "writeSwitchData:withAuthData:reply:",
+            "flag": "method.ESUXPCHelper.writeSwitchData:withAuthData:reply:",
+            "lang": "objc",
+            "addr": 4294972304
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_authorizationRef",
+            "kind": "var",
+            "type": "^{AuthorizationOpaqueRef=}",
+            "addr": 4295001184
+          },
+          {
+            "name": "_connection",
+            "kind": "var",
+            "type": "@\"NSXPCConnection\"",
+            "addr": 4295001188
+          },
+          {
+            "name": "_sandboxed",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295001192
+          },
+          {
+            "name": "sandboxed",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      }
+    ],
+    "swift_metadata": {
+      "is_swift": false,
+      "symbols": []
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist",
+        "Versions/A/XPCServices/ESUXPCHelper.xpc/Contents/Info.plist",
+        "Versions/A/XPCServices/ESUXPCHelper.xpc/Contents/version.plist",
+        "Versions/A/XPCServices/ESUXPCHelper.xpc/Contents/_CodeSignature/CodeResources",
+        "Versions/A/XPCServices/ESUXPCHelper.xpc/Contents/MacOS/ESUXPCHelper",
+        "Versions/A/XPCServices/ESUXPCHelper.xpc/Contents/Resources/InfoPlist.loctable"
+      ],
+      "plists": {
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "ExpansionSlotSupport",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2019 Apple Inc. All rights reserved.",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "FMWK",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "ExpansionSlotSupport",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.ExpansionSlotSupport",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "ExpansionSlotAgent",
+          "SourceVersion": "87000000000000",
+          "BuildVersion": "272"
+        },
+        "Versions/A/XPCServices/ESUXPCHelper.xpc/Contents/Info.plist": {
+          "CFBundleName": "ESUXPCHelper",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2019 Apple Inc. All rights reserved.",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "XPCService": {
+            "ServiceType": "System"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "ESUXPCHelper",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.ESUXPCHelper",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleDisplayName": "ESUXPCHelper",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/XPCServices/ESUXPCHelper.xpc/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "ExpansionSlotAgent",
+          "SourceVersion": "87000000000000",
+          "BuildVersion": "272"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
+  },
+  "usage": {
+    "layer": "usage",
+    "used_by": [
+      {
+        "path": "/System/Library/CoreServices/Memory Slot Utility.app",
+        "binary": "/System/Library/CoreServices/Memory Slot Utility.app/Contents/MacOS/Memory Slot Utility",
+        "used_classes": []
+      }
+    ]
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "loaded"
+  }
+}

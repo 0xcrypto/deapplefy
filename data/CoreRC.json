@@ -1,0 +1,571 @@
+{
+  "framework": "CoreRC.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/CoreRC.framework/PlugIns/CoreRCHIDService.plugin/Contents/MacOS/CoreRCHIDService",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 0,
+          "binsz": 89168,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "",
+          "laddr": 0,
+          "lang": "objc",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": false,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/PrivateFrameworks/CoreRC.framework/Versions/A/CoreRC",
+          "/System/Library/PrivateFrameworks/CoreUtils.framework/Versions/A/CoreUtils",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "CoreRCHIDService",
+        "addr": 51424,
+        "lang": "objc",
+        "index": 0,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "cecDevice:deckControlCommandHasBeenReceived:fromDevice:",
+            "flag": "method.CoreRCHIDService.cecDevice:deckControlCommandHasBeenReceived:fromDevice:",
+            "lang": "objc",
+            "addr": 9480
+          },
+          {
+            "name": "cecDevice:deckControlPlayHasBeenReceived:fromDevice:",
+            "flag": "method.CoreRCHIDService.cecDevice:deckControlPlayHasBeenReceived:fromDevice:",
+            "lang": "objc",
+            "addr": 9624
+          },
+          {
+            "name": "device:receivedHIDEvent:fromDevice:",
+            "flag": "method.CoreRCHIDService.device:receivedHIDEvent:fromDevice:",
+            "lang": "objc",
+            "addr": 5256
+          },
+          {
+            "name": "bus:deviceHasBeenAdded:",
+            "flag": "method.CoreRCHIDService.bus:deviceHasBeenAdded:",
+            "lang": "objc",
+            "addr": 4920
+          },
+          {
+            "name": "bus:deviceHasBeenRemoved:",
+            "flag": "method.CoreRCHIDService.bus:deviceHasBeenRemoved:",
+            "lang": "objc",
+            "addr": 5088
+          },
+          {
+            "name": "manager:hasAdded:",
+            "flag": "method.CoreRCHIDService.manager:hasAdded:",
+            "lang": "objc",
+            "addr": 4504
+          },
+          {
+            "name": "manager:hasRemoved:",
+            "flag": "method.CoreRCHIDService.manager:hasRemoved:",
+            "lang": "objc",
+            "addr": 4712
+          },
+          {
+            "name": "dispatchHIDEvent:fromDevice:",
+            "flag": "method.CoreRCHIDService.dispatchHIDEvent:fromDevice:",
+            "lang": "objc",
+            "addr": 9200
+          },
+          {
+            "name": "addIRMappingWithValue:",
+            "flag": "method.CoreRCHIDService.addIRMappingWithValue:",
+            "lang": "objc",
+            "addr": 3540
+          },
+          {
+            "name": "init",
+            "flag": "method.CoreRCHIDService.init",
+            "lang": "objc",
+            "addr": 5788
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.CoreRCHIDService.dealloc",
+            "lang": "objc",
+            "addr": 6048
+          },
+          {
+            "name": "interfaceWithID:",
+            "flag": "method.CoreRCHIDService.interfaceWithID:",
+            "lang": "objc",
+            "addr": 6160
+          },
+          {
+            "name": "probeIOService:propertyTable:order:",
+            "flag": "method.CoreRCHIDService.probeIOService:propertyTable:order:",
+            "lang": "objc",
+            "addr": 6468
+          },
+          {
+            "name": "startWithIOService:propertyTable:",
+            "flag": "method.CoreRCHIDService.startWithIOService:propertyTable:",
+            "lang": "objc",
+            "addr": 6604
+          },
+          {
+            "name": "stop",
+            "flag": "method.CoreRCHIDService.stop",
+            "lang": "objc",
+            "addr": 6704
+          },
+          {
+            "name": "copyIOHIDServicePropertyForKey:",
+            "flag": "method.CoreRCHIDService.copyIOHIDServicePropertyForKey:",
+            "lang": "objc",
+            "addr": 6788
+          },
+          {
+            "name": "setIOHIDServicePropertyForKey:withValue:",
+            "flag": "method.CoreRCHIDService.setIOHIDServicePropertyForKey:withValue:",
+            "lang": "objc",
+            "addr": 7132
+          },
+          {
+            "name": "setIOHIDServiceEventCallback:target:context:",
+            "flag": "method.CoreRCHIDService.setIOHIDServiceEventCallback:target:context:",
+            "lang": "objc",
+            "addr": 7272
+          },
+          {
+            "name": "dispatchHIDEvent:options:",
+            "flag": "method.CoreRCHIDService.dispatchHIDEvent:options:",
+            "lang": "objc",
+            "addr": 7284
+          },
+          {
+            "name": "scheduleWithDispatchQueue:",
+            "flag": "method.CoreRCHIDService.scheduleWithDispatchQueue:",
+            "lang": "objc",
+            "addr": 7324
+          },
+          {
+            "name": "unscheduleFromDispatchQueue:",
+            "flag": "method.CoreRCHIDService.unscheduleFromDispatchQueue:",
+            "lang": "objc",
+            "addr": 7644
+          },
+          {
+            "name": "buses",
+            "flag": "method.CoreRCHIDService.buses",
+            "lang": "objc",
+            "addr": 8280
+          },
+          {
+            "name": "addBus:",
+            "flag": "method.CoreRCHIDService.addBus:",
+            "lang": "objc",
+            "addr": 8288
+          },
+          {
+            "name": "removeBus:",
+            "flag": "method.CoreRCHIDService.removeBus:",
+            "lang": "objc",
+            "addr": 8624
+          },
+          {
+            "name": "addDevice:",
+            "flag": "method.CoreRCHIDService.addDevice:",
+            "lang": "objc",
+            "addr": 8772
+          },
+          {
+            "name": "removeDevice:",
+            "flag": "method.CoreRCHIDService.removeDevice:",
+            "lang": "objc",
+            "addr": 8904
+          },
+          {
+            "name": "manager",
+            "flag": "method.CoreRCHIDService.manager",
+            "lang": "objc",
+            "addr": 9052
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_ioPlugInInterface",
+            "kind": "var",
+            "type": "{IUnknown=\"lpVtbl\"^{IUnknownVTbl}\"delegate\"@}",
+            "addr": 51336
+          },
+          {
+            "name": "_hidServiceInterface2",
+            "kind": "var",
+            "type": "{IUnknown=\"lpVtbl\"^{IUnknownVTbl}\"delegate\"@}",
+            "addr": 51340
+          },
+          {
+            "name": "_factoryID",
+            "kind": "var",
+            "type": "^{__CFUUID=}",
+            "addr": 51344
+          },
+          {
+            "name": "_eventCallback",
+            "kind": "var",
+            "type": "^?",
+            "addr": 51348
+          },
+          {
+            "name": "_eventTarget",
+            "kind": "var",
+            "type": "^v",
+            "addr": 51352
+          },
+          {
+            "name": "_eventContext",
+            "kind": "var",
+            "type": "^v",
+            "addr": 51356
+          },
+          {
+            "name": "_monitoredBuses",
+            "kind": "var",
+            "type": "@\"NSMutableSet\"",
+            "addr": 51360
+          },
+          {
+            "name": "_monitoredDevices",
+            "kind": "var",
+            "type": "@\"NSMutableSet\"",
+            "addr": 51364
+          },
+          {
+            "name": "_queue",
+            "kind": "var",
+            "type": "@\"NSObject<OS_dispatch_queue>\"",
+            "addr": 51368
+          },
+          {
+            "name": "_deferredSIL",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 51372
+          },
+          {
+            "name": "_manager",
+            "kind": "var",
+            "type": "@\"CoreRCManager\"",
+            "addr": 51376
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "manager",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      }
+    ],
+    "swift_metadata": {
+      "is_swift": false,
+      "symbols": []
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/InfoPlist.loctable",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist",
+        "PlugIns/InterfacePlugins/CECIOCECInterfaceListener.plugin/Contents/Info.plist",
+        "PlugIns/InterfacePlugins/CECIOCECInterfaceListener.plugin/Contents/version.plist",
+        "PlugIns/InterfacePlugins/CECIOCECInterfaceListener.plugin/Contents/_CodeSignature/CodeResources",
+        "PlugIns/InterfacePlugins/CECIOCECInterfaceListener.plugin/Contents/MacOS/CECIOCECInterfaceListener",
+        "PlugIns/InterfacePlugins/CECIOCECInterfaceListener.plugin/Contents/Resources/InfoPlist.loctable",
+        "PlugIns/CoreRCHIDService.plugin/Contents/Info.plist",
+        "PlugIns/CoreRCHIDService.plugin/Contents/version.plist",
+        "PlugIns/CoreRCHIDService.plugin/Contents/_CodeSignature/CodeResources",
+        "PlugIns/CoreRCHIDService.plugin/Contents/MacOS/CoreRCHIDService"
+      ],
+      "plists": {
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "CoreRC",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "268.40.2",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "FMWK",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "CoreRC",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.CoreRC",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleSignature": "????",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "268.40.2",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "CoreRC",
+          "SourceVersion": "268040002000000",
+          "BuildVersion": "77"
+        },
+        "PlugIns/InterfacePlugins/CECIOCECInterfaceListener.plugin/Contents/Info.plist": {
+          "CFBundleName": "CECIOCECInterfaceListener",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "English",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "NSPrincipalClass": "CECIOCECInterfaceListener",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "BNDL",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "CECIOCECInterfaceListener",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.CECIOCECInterfaceListener",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleDisplayName": "CECIOCECInterfaceListener",
+          "CFBundleSignature": "????",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": ""
+        },
+        "PlugIns/InterfacePlugins/CECIOCECInterfaceListener.plugin/Contents/version.plist": {
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleVersion": "1",
+          "ProjectName": "EmbeddedCoreCEC_user",
+          "BuildAliasOf": "EmbeddedCoreCEC",
+          "SourceVersion": "67000000000000",
+          "BuildVersion": "18042"
+        },
+        "PlugIns/CoreRCHIDService.plugin/Contents/Info.plist": {
+          "CFPlugInFactories": {
+            "3B02A2FE-06B7-45E4-B670-F5A91DB64950": "CoreRCHIDServiceFactory"
+          },
+          "CFBundleName": "CoreRCHIDService",
+          "DTSDKName": "macosx26.1.internal",
+          "DTXcode": "2600",
+          "CFPlugInTypes": {
+            "0516B563-B15B-11DA-96EB-0014519758EF": [
+              "3B02A2FE-06B7-45E4-B670-F5A91DB64950"
+            ]
+          },
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "English",
+          "CFBundleVersion": "268.40.2",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "BNDL",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "CoreRCHIDService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.CoreRCHIDService",
+          "DTPlatformVersion": "26.1",
+          "CFBundleSignature": "????",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFPlugInDynamicRegistration": "NO",
+          "DTPlatformBuild": ""
+        },
+        "PlugIns/CoreRCHIDService.plugin/Contents/version.plist": {
+          "CFBundleVersion": "268.40.2",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "CoreRC",
+          "SourceVersion": "268040002000000",
+          "BuildVersion": "77"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
+  },
+  "usage": {
+    "layer": "usage",
+    "used_by": []
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "loaded"
+  }
+}

@@ -1,0 +1,2969 @@
+{
+  "framework": "AccountsUISupport.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/AccountsUISupport.framework/Versions/A/XPCServices/AccountsUISupportService.xpc/Contents/MacOS/AccountsUISupportService",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 454944,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "swift",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "/System/Library/Frameworks/Security.framework/Versions/A/Security",
+          "/System/Library/PrivateFrameworks/AccountsUISupportShared.framework/Versions/A/AccountsUISupportShared",
+          "/System/Library/PrivateFrameworks/CollectionsInternal.framework/Versions/A/CollectionsInternal",
+          "/System/Library/PrivateFrameworks/XPCDistributed.framework/Versions/A/XPCDistributed",
+          "/usr/lib/libicucore.A.dylib",
+          "/usr/lib/swift/libswiftCore.dylib",
+          "/usr/lib/swift/libswiftCoreFoundation.dylib",
+          "/usr/lib/swift/libswiftDarwin.dylib",
+          "/usr/lib/swift/libswiftDispatch.dylib",
+          "/usr/lib/swift/libswiftDistributed.dylib",
+          "/usr/lib/swift/libswiftIOKit.dylib",
+          "/usr/lib/swift/libswiftOSLog.dylib",
+          "/usr/lib/swift/libswiftObjectiveC.dylib",
+          "/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib",
+          "/usr/lib/swift/libswiftXPC.dylib",
+          "/usr/lib/swift/libswift_Builtin_float.dylib",
+          "/usr/lib/swift/libswift_Concurrency.dylib",
+          "/usr/lib/swift/libswift_DarwinFoundation1.dylib",
+          "/usr/lib/swift/libswift_StringProcessing.dylib",
+          "/usr/lib/swift/libswiftos.dylib"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "Authenticator",
+        "addr": 303696,
+        "lang": "swift",
+        "index": 0,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.Authenticator.0",
+            "lang": "swift",
+            "addr": 4295271779
+          }
+        ],
+        "fields": [
+          {
+            "name": "method",
+            "kind": "property",
+            "addr": 4295273712
+          },
+          {
+            "name": "host",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295273719
+          },
+          {
+            "name": "credential",
+            "kind": "property",
+            "addr": 4295273724
+          }
+        ]
+      },
+      {
+        "classname": "Credential",
+        "addr": 303724,
+        "lang": "swift",
+        "index": 1,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.Authenticator.0",
+            "lang": "swift",
+            "addr": 4295271779
+          }
+        ],
+        "fields": [
+          {
+            "name": "specific",
+            "kind": "property",
+            "type": "__C.NSURLCredential",
+            "addr": 4295273790
+          },
+          {
+            "name": "proposed",
+            "kind": "property",
+            "addr": 4295273799
+          }
+        ]
+      },
+      {
+        "classname": "Method",
+        "addr": 303752,
+        "lang": "swift",
+        "index": 2,
+        "fields": [
+          {
+            "name": "httpDigest",
+            "kind": "property",
+            "addr": 4295273735
+          },
+          {
+            "name": "clientCertificate",
+            "kind": "property",
+            "addr": 4295273760
+          },
+          {
+            "name": "serverTrust",
+            "kind": "property",
+            "addr": 4295273778
+          }
+        ]
+      },
+      {
+        "classname": "SecCertificate",
+        "addr": 303792,
+        "lang": "swift",
+        "index": 3
+      },
+      {
+        "classname": "AuthChallengeDisposition",
+        "addr": 303840,
+        "lang": "swift",
+        "index": 4
+      },
+      {
+        "classname": "UErrorCode",
+        "addr": 303872,
+        "lang": "swift",
+        "index": 5,
+        "fields": [
+          {
+            "name": "rawValue",
+            "kind": "property",
+            "addr": 4295273808
+          }
+        ]
+      },
+      {
+        "classname": "CloudKitServer",
+        "addr": 303904,
+        "lang": "swift",
+        "index": 6,
+        "fields": [
+          {
+            "name": "underlying",
+            "kind": "property",
+            "addr": 4295273840
+          },
+          {
+            "name": "logger",
+            "kind": "property",
+            "addr": 4295273851
+          }
+        ]
+      },
+      {
+        "classname": "Error",
+        "addr": 303976,
+        "lang": "swift",
+        "index": 7,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.Error.0",
+            "lang": "swift",
+            "addr": 4295316124
+          }
+        ],
+        "fields": [
+          {
+            "name": "unexpectedStatusCode",
+            "kind": "property",
+            "type": "Swift.Int",
+            "addr": 4295273872
+          },
+          {
+            "name": "unknownOAuthName",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295273904
+          },
+          {
+            "name": "unableToResolveDomain",
+            "kind": "property",
+            "addr": 4295273936
+          },
+          {
+            "name": "missingServerNames",
+            "kind": "property",
+            "addr": 4295273968
+          },
+          {
+            "name": "invalidServerNames",
+            "kind": "property",
+            "addr": 4295274000
+          },
+          {
+            "name": "invalidDomain",
+            "kind": "property",
+            "addr": 4295274019
+          }
+        ]
+      },
+      {
+        "classname": "Health",
+        "addr": 304004,
+        "lang": "swift",
+        "index": 8,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.Health.0",
+            "lang": "swift",
+            "addr": 4295271319
+          },
+          {
+            "name": "1",
+            "flag": "method.Health.1",
+            "lang": "swift",
+            "addr": 4295288223
+          },
+          {
+            "name": "2",
+            "flag": "method.Health.2",
+            "lang": "swift",
+            "addr": 4295292582
+          }
+        ]
+      },
+      {
+        "classname": "CodingKeys",
+        "addr": 304040,
+        "lang": "swift",
+        "index": 9,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.Error.0",
+            "lang": "swift",
+            "addr": 4295316124
+          }
+        ]
+      },
+      {
+        "classname": "RawResolvedDomain",
+        "addr": 304068,
+        "lang": "swift",
+        "index": 10,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.RawResolvedDomain.0",
+            "lang": "swift",
+            "addr": 4295271895
+          },
+          {
+            "name": "1",
+            "flag": "method.RawResolvedDomain.1",
+            "lang": "swift",
+            "addr": 4295288287
+          },
+          {
+            "name": "2",
+            "flag": "method.RawResolvedDomain.2",
+            "lang": "swift",
+            "addr": 4295292646
+          }
+        ],
+        "fields": [
+          {
+            "name": "oauth",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295274048
+          },
+          {
+            "name": "known",
+            "kind": "property",
+            "addr": 4295274054
+          }
+        ]
+      },
+      {
+        "classname": "CodingKeys_1",
+        "addr": 304104,
+        "lang": "swift",
+        "index": 11,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.RawResolvedDomain.0",
+            "lang": "swift",
+            "addr": 4295271895
+          },
+          {
+            "name": "1",
+            "flag": "method.RawResolvedDomain.1",
+            "lang": "swift",
+            "addr": 4295288287
+          },
+          {
+            "name": "2",
+            "flag": "method.RawResolvedDomain.2",
+            "lang": "swift",
+            "addr": 4295292646
+          }
+        ],
+        "fields": [
+          {
+            "name": "oauth",
+            "kind": "property",
+            "addr": 4295274048
+          },
+          {
+            "name": "known",
+            "kind": "property",
+            "addr": 4295274054
+          }
+        ]
+      },
+      {
+        "classname": "Known",
+        "addr": 304132,
+        "lang": "swift",
+        "index": 12,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.Known.0",
+            "lang": "swift",
+            "addr": 4295272471
+          },
+          {
+            "name": "1",
+            "flag": "method.Known.1",
+            "lang": "swift",
+            "addr": 4295292447
+          }
+        ],
+        "fields": [
+          {
+            "name": "accountDescription",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295274064
+          },
+          {
+            "name": "kind",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295274083
+          },
+          {
+            "name": "incomingServer",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295274088
+          },
+          {
+            "name": "outgoingServer",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295274103
+          }
+        ]
+      },
+      {
+        "classname": "CodingKeys_2",
+        "addr": 304160,
+        "lang": "swift",
+        "index": 13,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.Error.0",
+            "lang": "swift",
+            "addr": 4295316124
+          }
+        ],
+        "fields": [
+          {
+            "name": "accountDescription",
+            "kind": "property",
+            "addr": 4295274064
+          },
+          {
+            "name": "kind",
+            "kind": "property",
+            "addr": 4295274083
+          },
+          {
+            "name": "incomingServer",
+            "kind": "property",
+            "addr": 4295274088
+          },
+          {
+            "name": "outgoingServer",
+            "kind": "property",
+            "addr": 4295274103
+          }
+        ]
+      },
+      {
+        "classname": "RawValidatedDomain",
+        "addr": 304188,
+        "lang": "swift",
+        "index": 14,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.Error.0",
+            "lang": "swift",
+            "addr": 4295316124
+          }
+        ],
+        "fields": [
+          {
+            "name": "valid",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295274127
+          }
+        ]
+      },
+      {
+        "classname": "DomainValidationResult",
+        "addr": 304216,
+        "lang": "swift",
+        "index": 15,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.DomainValidationResult.0",
+            "lang": "swift",
+            "addr": 4295271759
+          },
+          {
+            "name": "1",
+            "flag": "method.DomainValidationResult.1",
+            "lang": "swift",
+            "addr": 4295292503
+          }
+        ],
+        "fields": [
+          {
+            "name": "valid",
+            "kind": "property",
+            "addr": 4295274127
+          },
+          {
+            "name": "invalid",
+            "kind": "property",
+            "addr": 4295274133
+          }
+        ]
+      },
+      {
+        "classname": "CodingKeys_3",
+        "addr": 304252,
+        "lang": "swift",
+        "index": 16,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.Error.0",
+            "lang": "swift",
+            "addr": 4295316124
+          }
+        ],
+        "fields": [
+          {
+            "name": "valid",
+            "kind": "property",
+            "addr": 4295274127
+          }
+        ]
+      },
+      {
+        "classname": "RawWellKnownDomains",
+        "addr": 304280,
+        "lang": "swift",
+        "index": 17,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.Error.0",
+            "lang": "swift",
+            "addr": 4295316124
+          }
+        ],
+        "fields": [
+          {
+            "name": "domains",
+            "kind": "property",
+            "type": "SDySSSaySSGG",
+            "addr": 4295274141
+          }
+        ]
+      },
+      {
+        "classname": "WellKnownDomains",
+        "addr": 304308,
+        "lang": "swift",
+        "index": 18,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.WellKnownDomains.0",
+            "lang": "swift",
+            "addr": 4295271851
+          }
+        ],
+        "fields": [
+          {
+            "name": "domains",
+            "kind": "property",
+            "type": "SDy\u0002J\u00bd",
+            "addr": 4295274141
+          }
+        ]
+      },
+      {
+        "classname": "CodingKeys_4",
+        "addr": 304344,
+        "lang": "swift",
+        "index": 19,
+        "fields": [
+          {
+            "name": "domains",
+            "kind": "property",
+            "addr": 4295274141
+          }
+        ]
+      },
+      {
+        "classname": "ContentType",
+        "addr": 304372,
+        "lang": "swift",
+        "index": 20,
+        "fields": [
+          {
+            "name": "json",
+            "kind": "property",
+            "addr": 4295274160
+          },
+          {
+            "name": "text",
+            "kind": "property",
+            "addr": 4295274165
+          },
+          {
+            "name": "portableDocumentFormat",
+            "kind": "property",
+            "addr": 4295274176
+          },
+          {
+            "name": "lineDelimitedJSON",
+            "kind": "property",
+            "addr": 4295274208
+          },
+          {
+            "name": "wwwFormURLEncoded",
+            "kind": "property",
+            "addr": 4295274240
+          },
+          {
+            "name": "zipArchive",
+            "kind": "property",
+            "addr": 4295274258
+          }
+        ]
+      },
+      {
+        "classname": "DelegateHelper",
+        "addr": 304400,
+        "lang": "swift",
+        "index": 21,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ],
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.DelegateHelper.0",
+            "lang": "swift",
+            "addr": 4295314007
+          }
+        ],
+        "fields": [
+          {
+            "name": "followRedirects",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295274269
+          },
+          {
+            "name": "authenticator",
+            "kind": "property",
+            "addr": 4295274285
+          }
+        ]
+      },
+      {
+        "classname": "OnlineValidationAction",
+        "addr": 304472,
+        "lang": "swift",
+        "index": 22,
+        "fields": [
+          {
+            "name": "addSuggestions",
+            "kind": "property",
+            "addr": 4295274304
+          },
+          {
+            "name": "validateUsingWebService",
+            "kind": "property",
+            "addr": 4295274320
+          },
+          {
+            "name": "none",
+            "kind": "property",
+            "addr": 4295274344
+          }
+        ]
+      },
+      {
+        "classname": "IDNAEncoded",
+        "addr": 304524,
+        "lang": "swift",
+        "index": 23,
+        "fields": [
+          {
+            "name": "underlying",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295274457
+          }
+        ]
+      },
+      {
+        "classname": "UIDNAError",
+        "addr": 304560,
+        "lang": "swift",
+        "index": 24,
+        "fields": [
+          {
+            "name": "error",
+            "kind": "property",
+            "addr": 4295274468
+          }
+        ]
+      },
+      {
+        "classname": "Suggester",
+        "addr": 304624,
+        "lang": "swift",
+        "index": 25,
+        "fields": [
+          {
+            "name": "elements",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295274481
+          }
+        ]
+      },
+      {
+        "classname": "Suggestion",
+        "addr": 304652,
+        "lang": "swift",
+        "index": 26,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.Suggestion.0",
+            "lang": "swift",
+            "addr": 4295272479
+          },
+          {
+            "name": "1",
+            "flag": "method.Suggestion.1",
+            "lang": "swift",
+            "addr": 4295292967
+          }
+        ],
+        "fields": [
+          {
+            "name": "text",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295274490
+          },
+          {
+            "name": "kind",
+            "kind": "property",
+            "addr": 4295274495
+          }
+        ]
+      },
+      {
+        "classname": "Kind",
+        "addr": 304680,
+        "lang": "swift",
+        "index": 27,
+        "fields": [
+          {
+            "name": "fixIt",
+            "kind": "property",
+            "addr": 4295274500
+          },
+          {
+            "name": "prefix",
+            "kind": "property",
+            "addr": 4295274506
+          },
+          {
+            "name": "completion",
+            "kind": "property",
+            "addr": 4295274513
+          }
+        ]
+      },
+      {
+        "classname": "Element",
+        "addr": 304848,
+        "lang": "swift",
+        "index": 28,
+        "fields": [
+          {
+            "name": "automaton",
+            "kind": "property",
+            "addr": 4295274524
+          },
+          {
+            "name": "text",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295274490
+          }
+        ]
+      },
+      {
+        "classname": "SparseLevenshteinAutomaton",
+        "addr": 304876,
+        "lang": "swift",
+        "index": 29,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.SparseLevenshteinAutomaton.0",
+            "lang": "swift",
+            "addr": 4295272703
+          }
+        ],
+        "fields": [
+          {
+            "name": "scalars",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295274578
+          },
+          {
+            "name": "maximumEdits",
+            "kind": "property",
+            "type": "Swift.Int",
+            "addr": 4295274586
+          }
+        ]
+      },
+      {
+        "classname": "State",
+        "addr": 304904,
+        "lang": "swift",
+        "index": 30,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.State.0",
+            "lang": "swift",
+            "addr": 4295273043
+          }
+        ],
+        "fields": [
+          {
+            "name": "indices",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295274599
+          },
+          {
+            "name": "values",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295274607
+          },
+          {
+            "name": "scalars",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295274578
+          },
+          {
+            "name": "maximumEdits",
+            "kind": "property",
+            "type": "Swift.Int",
+            "addr": 4295274586
+          }
+        ]
+      },
+      {
+        "classname": "Transition",
+        "addr": 304932,
+        "lang": "swift",
+        "index": 31,
+        "fields": [
+          {
+            "name": "from",
+            "kind": "property",
+            "addr": 4295274563
+          },
+          {
+            "name": "to",
+            "kind": "property",
+            "addr": 4295274568
+          },
+          {
+            "name": "scalar",
+            "kind": "property",
+            "addr": 4295274571
+          }
+        ]
+      },
+      {
+        "classname": "DeterministicFiniteAutomaton",
+        "addr": 304960,
+        "lang": "swift",
+        "index": 32,
+        "fields": [
+          {
+            "name": "transitions",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295274534
+          },
+          {
+            "name": "isMatch",
+            "kind": "property",
+            "addr": 4295274546
+          },
+          {
+            "name": "canMatch",
+            "kind": "property",
+            "addr": 4295274554
+          }
+        ]
+      },
+      {
+        "classname": "Request",
+        "addr": 304988,
+        "lang": "swift",
+        "index": 33,
+        "super": [
+          "R"
+        ],
+        "rawsuper": [
+          "R"
+        ],
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.Request.0",
+            "lang": "swift",
+            "addr": 4295274351
+          },
+          {
+            "name": "1",
+            "flag": "method.Request.1",
+            "lang": "swift",
+            "addr": 4295293303
+          }
+        ],
+        "fields": [
+          {
+            "name": "method",
+            "kind": "property",
+            "addr": 4295274629
+          },
+          {
+            "name": "path",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295274636
+          },
+          {
+            "name": "queryItems",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295274641
+          },
+          {
+            "name": "headers",
+            "kind": "property",
+            "type": "SDy\u0001h\f",
+            "addr": 4295274652
+          },
+          {
+            "name": "cookies",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295274660
+          },
+          {
+            "name": "requestBody",
+            "kind": "property",
+            "addr": 4295274668
+          },
+          {
+            "name": "followRedirects",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295274680
+          },
+          {
+            "name": "authenticator",
+            "kind": "property",
+            "addr": 4295274696
+          }
+        ]
+      },
+      {
+        "classname": "Method_1",
+        "addr": 305016,
+        "lang": "swift",
+        "index": 34,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.Request.0",
+            "lang": "swift",
+            "addr": 4295274351
+          },
+          {
+            "name": "1",
+            "flag": "method.Request.1",
+            "lang": "swift",
+            "addr": 4295293303
+          }
+        ],
+        "fields": [
+          {
+            "name": "delete",
+            "kind": "property",
+            "addr": 4295274710
+          },
+          {
+            "name": "get",
+            "kind": "property",
+            "addr": 4295274717
+          },
+          {
+            "name": "head",
+            "kind": "property",
+            "addr": 4295274721
+          },
+          {
+            "name": "patch",
+            "kind": "property",
+            "addr": 4295274726
+          },
+          {
+            "name": "post",
+            "kind": "property",
+            "addr": 4295274732
+          },
+          {
+            "name": "put",
+            "kind": "property",
+            "addr": 4295274737
+          }
+        ]
+      },
+      {
+        "classname": "HeaderField",
+        "addr": 305044,
+        "lang": "swift",
+        "index": 35,
+        "fields": [
+          {
+            "name": "accept",
+            "kind": "property",
+            "addr": 4295274741
+          },
+          {
+            "name": "authorization",
+            "kind": "property",
+            "addr": 4295274748
+          },
+          {
+            "name": "contentLength",
+            "kind": "property",
+            "addr": 4295274762
+          },
+          {
+            "name": "contentType",
+            "kind": "property",
+            "addr": 4295274776
+          },
+          {
+            "name": "cookie",
+            "kind": "property",
+            "addr": 4295274788
+          },
+          {
+            "name": "entityTag",
+            "kind": "property",
+            "addr": 4295274795
+          },
+          {
+            "name": "location",
+            "kind": "property",
+            "addr": 4295274805
+          },
+          {
+            "name": "pragma",
+            "kind": "property",
+            "addr": 4295274814
+          },
+          {
+            "name": "range",
+            "kind": "property",
+            "addr": 4295274821
+          },
+          {
+            "name": "setCookie",
+            "kind": "property",
+            "addr": 4295274827
+          }
+        ]
+      },
+      {
+        "classname": "Resource",
+        "addr": 305072,
+        "lang": "swift",
+        "index": 36,
+        "fields": [
+          {
+            "name": "request",
+            "kind": "property",
+            "addr": 4295274848
+          },
+          {
+            "name": "parse",
+            "kind": "property",
+            "type": "NSHTTPURLResponse.allocator -> ()....\u0002\u00e9\u00b8",
+            "addr": 4295274856
+          }
+        ]
+      },
+      {
+        "classname": "ParseError",
+        "addr": 305120,
+        "lang": "swift",
+        "index": 37,
+        "fields": [
+          {
+            "name": "contentTypeIsNotJSON",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295274864
+          },
+          {
+            "name": "invalidStatusCode",
+            "kind": "property",
+            "type": "Swift.Int",
+            "addr": 4295274896
+          },
+          {
+            "name": "unableToParseDate",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295274928
+          }
+        ]
+      },
+      {
+        "classname": "Service",
+        "addr": 305148,
+        "lang": "swift",
+        "index": 38,
+        "fields": [
+          {
+            "name": "$defaultActor",
+            "kind": "property",
+            "type": "BD",
+            "addr": 4295275004
+          },
+          {
+            "name": "id",
+            "kind": "property",
+            "addr": 4295275018
+          },
+          {
+            "name": "actorSystem",
+            "kind": "property",
+            "addr": 4295275021
+          },
+          {
+            "name": "webService",
+            "kind": "property",
+            "addr": 4295275033
+          },
+          {
+            "name": "_wellKnownDomains",
+            "kind": "property",
+            "addr": 4295275056
+          }
+        ]
+      },
+      {
+        "classname": "SimpleURLSessionNetworkAPI",
+        "addr": 305252,
+        "lang": "swift",
+        "index": 39,
+        "fields": [
+          {
+            "name": "session",
+            "kind": "property",
+            "type": "__C.NSURLSession",
+            "addr": 4295275074
+          },
+          {
+            "name": "baseURL",
+            "kind": "property",
+            "addr": 4295275082
+          }
+        ]
+      },
+      {
+        "classname": "Known_1",
+        "addr": 305380,
+        "lang": "swift",
+        "index": 40,
+        "fields": [
+          {
+            "name": "accountDescription",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295275104
+          },
+          {
+            "name": "kind",
+            "kind": "property",
+            "addr": 4295275123
+          },
+          {
+            "name": "incomingServer",
+            "kind": "property",
+            "addr": 4295275128
+          },
+          {
+            "name": "outgoingServer",
+            "kind": "property",
+            "addr": 4295275143
+          }
+        ]
+      },
+      {
+        "classname": "ResolvedDomain",
+        "addr": 305420,
+        "lang": "swift",
+        "index": 41,
+        "fields": [
+          {
+            "name": "oauth",
+            "kind": "property",
+            "addr": 4295275158
+          },
+          {
+            "name": "known",
+            "kind": "property",
+            "addr": 4295275164
+          }
+        ]
+      },
+      {
+        "classname": "WellKnownDomains_1",
+        "addr": 305460,
+        "lang": "swift",
+        "index": 42,
+        "fields": [
+          {
+            "name": "domains",
+            "kind": "property",
+            "type": "SDy\u0002J\u00bd",
+            "addr": 4295275170
+          },
+          {
+            "name": "suggester",
+            "kind": "property",
+            "addr": 4295275178
+          }
+        ]
+      },
+      {
+        "classname": "CodableResult",
+        "addr": 305500,
+        "lang": "swift",
+        "index": 43,
+        "fields": [
+          {
+            "name": "success",
+            "kind": "property",
+            "type": "x",
+            "addr": 4295275188
+          },
+          {
+            "name": "failure",
+            "kind": "property",
+            "type": "q_",
+            "addr": 4295275196
+          }
+        ]
+      },
+      {
+        "classname": "CodingKeys_5",
+        "addr": 305688,
+        "lang": "swift",
+        "index": 44,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.CodingKeys_5.0",
+            "lang": "swift",
+            "addr": 4295258939
+          }
+        ],
+        "fields": [
+          {
+            "name": "success",
+            "kind": "property",
+            "addr": 4295275188
+          },
+          {
+            "name": "failure",
+            "kind": "property",
+            "addr": 4295275196
+          }
+        ]
+      },
+      {
+        "classname": "SuccessCodingKeys",
+        "addr": 305876,
+        "lang": "swift",
+        "index": 45,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.SuccessCodingKeys.0",
+            "lang": "swift",
+            "addr": 4295258987
+          }
+        ],
+        "fields": [
+          {
+            "name": "_0",
+            "kind": "property",
+            "addr": 4295275204
+          }
+        ]
+      },
+      {
+        "classname": "FailureCodingKeys",
+        "addr": 306064,
+        "lang": "swift",
+        "index": 46,
+        "fields": [
+          {
+            "name": "_0",
+            "kind": "property",
+            "addr": 4295275204
+          }
+        ]
+      },
+      {
+        "classname": "_DistributedService",
+        "addr": 306172,
+        "lang": "swift",
+        "index": 47,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method._DistributedService.0",
+            "lang": "swift",
+            "addr": 4295273537
+          }
+        ],
+        "fields": [
+          {
+            "name": "$defaultActor",
+            "kind": "property",
+            "type": "BD",
+            "addr": 4295275260
+          },
+          {
+            "name": "id",
+            "kind": "property",
+            "addr": 4295275274
+          },
+          {
+            "name": "actorSystem",
+            "kind": "property",
+            "addr": 4295275277
+          }
+        ]
+      },
+      {
+        "classname": "AccountsUISupportServiceLib.CloudKitServer",
+        "addr": 4295330144,
+        "lang": "objc",
+        "index": 48,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "logger",
+            "kind": "var",
+            "addr": 4295334072
+          },
+          {
+            "name": "underlying",
+            "kind": "var",
+            "addr": 4295249032
+          }
+        ]
+      },
+      {
+        "classname": "AccountsUISupportServiceLib.DelegateHelper",
+        "addr": 4295330928,
+        "lang": "objc",
+        "index": 49,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:",
+            "flag": "method.AccountsUISupportServiceLib.DelegateHelper.URLSession:task:willPerformHTTPRedirection:newRequest:completionHandler:",
+            "lang": "objc",
+            "addr": 4295028860
+          },
+          {
+            "name": "URLSession:task:didReceiveChallenge:completionHandler:",
+            "flag": "method.AccountsUISupportServiceLib.DelegateHelper.URLSession:task:didReceiveChallenge:completionHandler:",
+            "lang": "objc",
+            "addr": 4295030044
+          },
+          {
+            "name": "init",
+            "flag": "method.AccountsUISupportServiceLib.DelegateHelper.init",
+            "lang": "objc",
+            "addr": 4295031188
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.AccountsUISupportServiceLib.DelegateHelper..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295031292
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "followRedirects",
+            "kind": "var",
+            "addr": 4295330912
+          },
+          {
+            "name": "authenticator",
+            "kind": "var",
+            "addr": 4295330920
+          }
+        ]
+      },
+      {
+        "classname": "AccountsUISupportServiceLib.Service",
+        "addr": 4295332352,
+        "lang": "objc",
+        "index": 50,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$defaultActor",
+            "kind": "var",
+            "addr": 0
+          },
+          {
+            "name": "id",
+            "kind": "var",
+            "addr": 4295334104
+          },
+          {
+            "name": "actorSystem",
+            "kind": "var",
+            "addr": 4295334112
+          },
+          {
+            "name": "webService",
+            "kind": "var",
+            "addr": 4295334120
+          },
+          {
+            "name": "_wellKnownDomains",
+            "kind": "var",
+            "addr": 4295331992
+          }
+        ]
+      },
+      {
+        "classname": "AccountsUISupportServiceLib.SimpleURLSessionNetworkAPI",
+        "addr": 4295332664,
+        "lang": "objc",
+        "index": 51,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "baseURL",
+            "kind": "var",
+            "addr": 4295334128
+          },
+          {
+            "name": "session",
+            "kind": "var",
+            "addr": 4295258072
+          }
+        ]
+      },
+      {
+        "classname": "AccountsUISupportXPC.$DistributedService",
+        "addr": 4295333824,
+        "lang": "objc",
+        "index": 52,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$defaultActor",
+            "kind": "var",
+            "addr": 0
+          },
+          {
+            "name": "id",
+            "kind": "var",
+            "addr": 4295334136
+          },
+          {
+            "name": "actorSystem",
+            "kind": "var",
+            "addr": 4295334144
+          }
+        ]
+      }
+    ],
+    "swift_metadata": {
+      "is_swift": true,
+      "symbols": [
+        {
+          "name": "_$s10Foundation10URLRequestV27AccountsUISupportServiceLibE12setByteRangeyySNys5Int64VGF",
+          "demname": "Foundation.URLRequest.AccountsUISupportServiceLib.setByteRange.Int64...VGF",
+          "flagname": "sym.Foundation.URLRequest.AccountsUISupportServiceLib.setByteRange.Int64...VGF",
+          "realname": "Foundation.URLRequest.AccountsUISupportServiceLib.setByteRange.Int64...VGF",
+          "ordinal": 0,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295179908,
+          "paddr": 605828,
+          "is_imported": false
+        },
+        {
+          "name": "_$s10Foundation10URLRequestV27AccountsUISupportServiceLibE12setByteRangeyySnys5Int64VGF",
+          "demname": "Foundation.URLRequest.AccountsUISupportServiceLib.setByteRange.Int64...VGF",
+          "flagname": "sym.Foundation.URLRequest.AccountsUISupportServiceLib.setByteRange.Int64...VGF",
+          "realname": "Foundation.URLRequest.AccountsUISupportServiceLib.setByteRange.Int64...VGF",
+          "ordinal": 1,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295180140,
+          "paddr": 606060,
+          "is_imported": false
+        },
+        {
+          "name": "_$s10Foundation10URLRequestV27AccountsUISupportServiceLibE12setByteRangeyys07PartialI4FromVys5Int64VGF",
+          "demname": "Foundation.URLRequest.AccountsUISupportServiceLib.setByteRange.Partial.From.Int64...VGF",
+          "flagname": "sym.Foundation.URLRequest.AccountsUISupportServiceLib.setByteRange.Partial.From.Int64...VGF",
+          "realname": "Foundation.URLRequest.AccountsUISupportServiceLib.setByteRange.Partial.From.Int64...VGF",
+          "ordinal": 2,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295180376,
+          "paddr": 606296,
+          "is_imported": false
+        },
+        {
+          "name": "_$s10Foundation10URLRequestV27AccountsUISupportServiceLibE7request7baseURLAcD7RequestV_AA0I0VtcfC",
+          "demname": "Foundation.URLRequest.AccountsUISupportServiceLib.request.baseURL.Request...A0I0VtcfC",
+          "flagname": "sym.Foundation.URLRequest.AccountsUISupportServiceLib.request.baseURL.Request...A0I0VtcfC",
+          "realname": "Foundation.URLRequest.AccountsUISupportServiceLib.request.baseURL.Request...A0I0VtcfC",
+          "ordinal": 3,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295178268,
+          "paddr": 604188,
+          "is_imported": false
+        },
+        {
+          "name": "_$s10Foundation10URLRequestV27AccountsUISupportServiceLibE8addValue_8forFieldySS_AD7RequestV06HeaderJ0OtF",
+          "demname": "Foundation.URLRequest.AccountsUISupportServiceLib.addValue.forField.Request.Header...J0OtF",
+          "flagname": "sym.Foundation.URLRequest.AccountsUISupportServiceLib.addValue.forField.Request.Header...J0OtF",
+          "realname": "Foundation.URLRequest.AccountsUISupportServiceLib.addValue.forField.Request.Header...J0OtF",
+          "ordinal": 4,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295179500,
+          "paddr": 605420,
+          "is_imported": false
+        },
+        {
+          "name": "_$s10Foundation10URLRequestV27AccountsUISupportServiceLibE8setValue_3forySSSg_AD7RequestV11HeaderFieldOtF",
+          "demname": "Foundation.URLRequest.AccountsUISupportServiceLib.setValue.for.Request.HeaderField(...F)",
+          "flagname": "sym.Foundation.URLRequest.AccountsUISupportServiceLib.setValue.for.Request.HeaderField_...F_",
+          "realname": "Foundation.URLRequest.AccountsUISupportServiceLib.setValue.for.Request.HeaderField(...F)",
+          "ordinal": 5,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295179476,
+          "paddr": 605396,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC13CodableResultO3getxyq_YKF",
+          "demname": "AccountsUISupportXPC.CodableResult.get(...KF)",
+          "flagname": "sym.AccountsUISupportXPC.CodableResult.get_...KF_",
+          "realname": "AccountsUISupportXPC.CodableResult.get(...KF)",
+          "ordinal": 6,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295197148,
+          "paddr": 623068,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC13CodableResultO4fromACyxq_Gs7Decoder_p_tKcfC",
+          "demname": "AccountsUISupportXPC.CodableResult.from.(...KcfC)",
+          "flagname": "sym.AccountsUISupportXPC.CodableResult.from._...KcfC_",
+          "realname": "AccountsUISupportXPC.CodableResult.from.(...KcfC)",
+          "ordinal": 7,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295192664,
+          "paddr": 618584,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC13CodableResultO6encode2toys7Encoder_p_tKF",
+          "demname": "AccountsUISupportXPC.CodableResult.encode.to(...KF)",
+          "flagname": "sym.AccountsUISupportXPC.CodableResult.encode.to_...KF_",
+          "realname": "AccountsUISupportXPC.CodableResult.encode.to(...KF)",
+          "ordinal": 8,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295191024,
+          "paddr": 616944,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC13CodableResultOAA0aB6Shared09ErrorWithC0R_rlE13captureAndGet7closurexACyxq_GyYaKXE_tYaq_YKFZ",
+          "demname": "AccountsUISupportXPC.CodableResult.bool(...KFZ)",
+          "flagname": "sym.AccountsUISupportXPC.CodableResult.bool_...KFZ_",
+          "realname": "AccountsUISupportXPC.CodableResult.bool(...KFZ)",
+          "ordinal": 9,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295197780,
+          "paddr": 623700,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC13CodableResultOAA0aB6Shared09ErrorWithC0R_rlE13captureAndGet7closurexACyxq_GyYaKXE_tYaq_YKFZTu",
+          "demname": "AccountsUISupportXPC.CodableResult.bool(...KFZTu)",
+          "flagname": "sym.AccountsUISupportXPC.CodableResult.bool_...KFZTu_",
+          "realname": "AccountsUISupportXPC.CodableResult.bool(...KFZTu)",
+          "ordinal": 10,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295258672,
+          "paddr": 684592,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC13CodableResultOAASQRzSQR_rlE21__derived_enum_equalsySbACyxq_G_AEtFZ",
+          "demname": "AccountsUISupportXPC.CodableResult.bool....derived_enum_equalsySbACyxq_G_AEtFZ",
+          "flagname": "sym.AccountsUISupportXPC.CodableResult.bool....derived_enum_equalsySbACyxq_G_AEtFZ",
+          "realname": "AccountsUISupportXPC.CodableResult.bool....derived_enum_equalsySbACyxq_G_AEtFZ",
+          "ordinal": 11,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295194828,
+          "paddr": 620748,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC13CodableResultOAAs5NeverORs_rlE18logAndIgnoreErrors7closurexSgxyYaKXE_tYaFZ",
+          "demname": "AccountsUISupportXPC.CodableResult.bool(...YaFZ)",
+          "flagname": "sym.AccountsUISupportXPC.CodableResult.bool_...YaFZ_",
+          "realname": "AccountsUISupportXPC.CodableResult.bool(...YaFZ)",
+          "ordinal": 12,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295200436,
+          "paddr": 626356,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC13CodableResultOAAs5NeverORs_rlE18logAndIgnoreErrors7closurexSgxyYaKXE_tYaFZTu",
+          "demname": "AccountsUISupportXPC.CodableResult.bool(...YaFZTu)",
+          "flagname": "sym.AccountsUISupportXPC.CodableResult.bool_...YaFZTu_",
+          "realname": "AccountsUISupportXPC.CodableResult.bool(...YaFZTu)",
+          "ordinal": 13,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295258696,
+          "paddr": 684616,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC13CodableResultOMa",
+          "demname": "AccountsUISupportXPC.CodableResult..metadata.accessor(...a)",
+          "flagname": "sym.AccountsUISupportXPC.CodableResult..metadata.accessor_...a_",
+          "realname": "AccountsUISupportXPC.CodableResult..metadata.accessor(...a)",
+          "ordinal": 14,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295194736,
+          "paddr": 620656,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC13CodableResultOMn",
+          "demname": "AccountsUISupportXPC.CodableResult..nominal.type.descriptor(...n)",
+          "flagname": "sym.AccountsUISupportXPC.CodableResult..nominal.type.descriptor_...n_",
+          "realname": "AccountsUISupportXPC.CodableResult..nominal.type.descriptor(...n)",
+          "ordinal": 15,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295272796,
+          "paddr": 698716,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC13CodableResultOyACyxq_GxyYaYbq_YKXEYacfC",
+          "demname": "AccountsUISupportXPC.CodableResult.bool(...KXEYacfC)",
+          "flagname": "sym.AccountsUISupportXPC.CodableResult.bool_...KXEYacfC_",
+          "realname": "AccountsUISupportXPC.CodableResult.bool(...KXEYacfC)",
+          "ordinal": 16,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295195992,
+          "paddr": 621912,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC13CodableResultOyACyxq_GxyYaYbq_YKXEYacfCTu",
+          "demname": "AccountsUISupportXPC.CodableResult.bool(...KXEYacfCTu)",
+          "flagname": "sym.AccountsUISupportXPC.CodableResult.bool_...KXEYacfCTu_",
+          "realname": "AccountsUISupportXPC.CodableResult.bool(...KXEYacfCTu)",
+          "ordinal": 17,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295258664,
+          "paddr": 684584,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC13CodableResultOyxq_GSEAAMc",
+          "demname": "AccountsUISupportXPC.CodableResult.bool(...AAMc)",
+          "flagname": "sym.AccountsUISupportXPC.CodableResult.bool_...AAMc_",
+          "realname": "AccountsUISupportXPC.CodableResult.bool(...AAMc)",
+          "ordinal": 18,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295258744,
+          "paddr": 684664,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC13CodableResultOyxq_GSQAASQRzSQR_rlMc",
+          "demname": "AccountsUISupportXPC.CodableResult.bool(...lMc)",
+          "flagname": "sym.AccountsUISupportXPC.CodableResult.bool_...lMc_",
+          "realname": "AccountsUISupportXPC.CodableResult.bool(...lMc)",
+          "ordinal": 19,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295258784,
+          "paddr": 684704,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC13CodableResultOyxq_GSeAAMc",
+          "demname": "AccountsUISupportXPC.CodableResult.bool(...AAMc)",
+          "flagname": "sym.AccountsUISupportXPC.CodableResult.bool_...AAMc_",
+          "realname": "AccountsUISupportXPC.CodableResult.bool(...AAMc)",
+          "ordinal": 20,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295258704,
+          "paddr": 684624,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC18DistributedServiceMp",
+          "demname": "AccountsUISupportXPC.DistributedService(...p)",
+          "flagname": "sym.AccountsUISupportXPC.DistributedService_...p_",
+          "realname": "AccountsUISupportXPC.DistributedService(...p)",
+          "ordinal": 21,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295273548,
+          "paddr": 699468,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC18DistributedServiceP0D00D5ActorTb",
+          "demname": "AccountsUISupportXPC.DistributedService.deallocator.Actor",
+          "flagname": "sym.AccountsUISupportXPC.DistributedService.deallocator.Actor",
+          "realname": "AccountsUISupportXPC.DistributedService.deallocator.Actor",
+          "ordinal": 22,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295273584,
+          "paddr": 699504,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC18DistributedServicePAA0D001_D9ActorStubRzrlE16checkIsAvailableyyYaKF",
+          "demname": "AccountsUISupportXPC.DistributedService..ActorStub.checkIsAvailable(...YaKF)",
+          "flagname": "sym.AccountsUISupportXPC.DistributedService..ActorStub.checkIsAvailable_...YaKF_",
+          "realname": "AccountsUISupportXPC.DistributedService..ActorStub.checkIsAvailable(...YaKF)",
+          "ordinal": 23,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295205136,
+          "paddr": 631056,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC18DistributedServicePAA0D001_D9ActorStubRzrlE16checkIsAvailableyyYaKFTE",
+          "demname": "AccountsUISupportXPC.DistributedService..ActorStub.checkIsAvailable(...YaKFTE)",
+          "flagname": "sym.AccountsUISupportXPC.DistributedService..ActorStub.checkIsAvailable_...YaKFTE_",
+          "realname": "AccountsUISupportXPC.DistributedService..ActorStub.checkIsAvailable(...YaKFTE)",
+          "ordinal": 24,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295207196,
+          "paddr": 633116,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC18DistributedServicePAA0D001_D9ActorStubRzrlE16checkIsAvailableyyYaKFTETu",
+          "demname": "AccountsUISupportXPC.DistributedService..ActorStub.checkIsAvailable(...YaKFTETu)",
+          "flagname": "sym.AccountsUISupportXPC.DistributedService..ActorStub.checkIsAvailable_...YaKFTETu_",
+          "realname": "AccountsUISupportXPC.DistributedService..ActorStub.checkIsAvailable(...YaKFTETu)",
+          "ordinal": 25,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295259832,
+          "paddr": 685752,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC18DistributedServicePAA0D001_D9ActorStubRzrlE16checkIsAvailableyyYaKFTu",
+          "demname": "AccountsUISupportXPC.DistributedService..ActorStub.checkIsAvailable(...YaKFTu)",
+          "flagname": "sym.AccountsUISupportXPC.DistributedService..ActorStub.checkIsAvailable_...YaKFTu_",
+          "realname": "AccountsUISupportXPC.DistributedService..ActorStub.checkIsAvailable(...YaKFTu)",
+          "ordinal": 26,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295259824,
+          "paddr": 685744,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC18DistributedServicePAA0D001_D9ActorStubRzrlE7resolveyAA13CodableResultOy0aB6Shared15PasswordAccountO08ResolvedM0VAK5KnownV5ErrorOGAOYaF",
+          "demname": "AccountsUISupportXPC.DistributedService..ActorStub.resolve.CodableResult...y0aB6Shared15PasswordAccountO08ResolvedM0VAK5KnownV5ErrorOGAOYaF",
+          "flagname": "sym.AccountsUISupportXPC.DistributedService..ActorStub.resolve.CodableResult...y0aB6Shared15PasswordAccountO08ResolvedM0VAK5KnownV5ErrorOGAOYaF",
+          "realname": "AccountsUISupportXPC.DistributedService..ActorStub.resolve.CodableResult...y0aB6Shared15PasswordAccountO08ResolvedM0VAK5KnownV5ErrorOGAOYaF",
+          "ordinal": 27,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295220904,
+          "paddr": 646824,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC18DistributedServicePAA0D001_D9ActorStubRzrlE7resolveyAA13CodableResultOy0aB6Shared15PasswordAccountO08ResolvedM0VAK5KnownV5ErrorOGAOYaFTu",
+          "demname": "AccountsUISupportXPC.DistributedService..ActorStub.resolve.CodableResult...y0aB6Shared15PasswordAccountO08ResolvedM0VAK5KnownV5ErrorOGAOYaFTu",
+          "flagname": "sym.AccountsUISupportXPC.DistributedService..ActorStub.resolve.CodableResult...y0aB6Shared15PasswordAccountO08ResolvedM0VAK5KnownV5ErrorOGAOYaFTu",
+          "realname": "AccountsUISupportXPC.DistributedService..ActorStub.resolve.CodableResult...y0aB6Shared15PasswordAccountO08ResolvedM0VAK5KnownV5ErrorOGAOYaFTu",
+          "ordinal": 28,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295260400,
+          "paddr": 686320,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC18DistributedServicePAA0D001_D9ActorStubRzrlE7resolveyAA13CodableResultOy0aB6Shared15PasswordAccountO08ResolvedM0VAK5KnownV5ErrorOGAOYaKFTE",
+          "demname": "AccountsUISupportXPC.DistributedService..ActorStub.resolve.CodableResult...y0aB6Shared15PasswordAccountO08ResolvedM0VAK5KnownV5ErrorOGAOYaKFTE",
+          "flagname": "sym.AccountsUISupportXPC.DistributedService..ActorStub.resolve.CodableResult...y0aB6Shared15PasswordAccountO08ResolvedM0VAK5KnownV5ErrorOGAOYaKFTE",
+          "realname": "AccountsUISupportXPC.DistributedService..ActorStub.resolve.CodableResult...y0aB6Shared15PasswordAccountO08ResolvedM0VAK5KnownV5ErrorOGAOYaKFTE",
+          "ordinal": 29,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295223512,
+          "paddr": 649432,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC18DistributedServicePAA0D001_D9ActorStubRzrlE7resolveyAA13CodableResultOy0aB6Shared15PasswordAccountO08ResolvedM0VAK5KnownV5ErrorOGAOYaKFTETu",
+          "demname": "AccountsUISupportXPC.DistributedService..ActorStub.resolve.CodableResult...y0aB6Shared15PasswordAccountO08ResolvedM0VAK5KnownV5ErrorOGAOYaKFTETu",
+          "flagname": "sym.AccountsUISupportXPC.DistributedService..ActorStub.resolve.CodableResult...y0aB6Shared15PasswordAccountO08ResolvedM0VAK5KnownV5ErrorOGAOYaKFTETu",
+          "realname": "AccountsUISupportXPC.DistributedService..ActorStub.resolve.CodableResult...y0aB6Shared15PasswordAccountO08ResolvedM0VAK5KnownV5ErrorOGAOYaKFTETu",
+          "ordinal": 30,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295260408,
+          "paddr": 686328,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC18DistributedServicePAA0D001_D9ActorStubRzrlE7resolveyAA13CodableResultOy0aB6Shared15PasswordAccountO08ResolvedM0VAK7UnknownV5ErrorOGAOYaF",
+          "demname": "AccountsUISupportXPC.DistributedService..ActorStub.resolve.CodableResult...y0aB6Shared15PasswordAccountO08ResolvedM0VAK7UnknownV5ErrorOGAOYaF",
+          "flagname": "sym.AccountsUISupportXPC.DistributedService..ActorStub.resolve.CodableResult...y0aB6Shared15PasswordAccountO08ResolvedM0VAK7UnknownV5ErrorOGAOYaF",
+          "realname": "AccountsUISupportXPC.DistributedService..ActorStub.resolve.CodableResult...y0aB6Shared15PasswordAccountO08ResolvedM0VAK7UnknownV5ErrorOGAOYaF",
+          "ordinal": 31,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295213752,
+          "paddr": 639672,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC18DistributedServicePAA0D001_D9ActorStubRzrlE7resolveyAA13CodableResultOy0aB6Shared15PasswordAccountO08ResolvedM0VAK7UnknownV5ErrorOGAOYaFTu",
+          "demname": "AccountsUISupportXPC.DistributedService..ActorStub.resolve.CodableResult...y0aB6Shared15PasswordAccountO08ResolvedM0VAK7UnknownV5ErrorOGAOYaFTu",
+          "flagname": "sym.AccountsUISupportXPC.DistributedService..ActorStub.resolve.CodableResult...y0aB6Shared15PasswordAccountO08ResolvedM0VAK7UnknownV5ErrorOGAOYaFTu",
+          "realname": "AccountsUISupportXPC.DistributedService..ActorStub.resolve.CodableResult...y0aB6Shared15PasswordAccountO08ResolvedM0VAK7UnknownV5ErrorOGAOYaFTu",
+          "ordinal": 32,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295260728,
+          "paddr": 686648,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC18DistributedServicePAA0D001_D9ActorStubRzrlE7resolveyAA13CodableResultOy0aB6Shared15PasswordAccountO08ResolvedM0VAK7UnknownV5ErrorOGAOYaKFTE",
+          "demname": "AccountsUISupportXPC.DistributedService..ActorStub.resolve.CodableResult...y0aB6Shared15PasswordAccountO08ResolvedM0VAK7UnknownV5ErrorOGAOYaKFTE",
+          "flagname": "sym.AccountsUISupportXPC.DistributedService..ActorStub.resolve.CodableResult...y0aB6Shared15PasswordAccountO08ResolvedM0VAK7UnknownV5ErrorOGAOYaKFTE",
+          "realname": "AccountsUISupportXPC.DistributedService..ActorStub.resolve.CodableResult...y0aB6Shared15PasswordAccountO08ResolvedM0VAK7UnknownV5ErrorOGAOYaKFTE",
+          "ordinal": 33,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295231668,
+          "paddr": 657588,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC18DistributedServicePAA0D001_D9ActorStubRzrlE7resolveyAA13CodableResultOy0aB6Shared15PasswordAccountO08ResolvedM0VAK7UnknownV5ErrorOGAOYaKFTETu",
+          "demname": "AccountsUISupportXPC.DistributedService..ActorStub.resolve.CodableResult...y0aB6Shared15PasswordAccountO08ResolvedM0VAK7UnknownV5ErrorOGAOYaKFTETu",
+          "flagname": "sym.AccountsUISupportXPC.DistributedService..ActorStub.resolve.CodableResult...y0aB6Shared15PasswordAccountO08ResolvedM0VAK7UnknownV5ErrorOGAOYaKFTETu",
+          "realname": "AccountsUISupportXPC.DistributedService..ActorStub.resolve.CodableResult...y0aB6Shared15PasswordAccountO08ResolvedM0VAK7UnknownV5ErrorOGAOYaKFTETu",
+          "ordinal": 34,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295260736,
+          "paddr": 686656,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC18DistributedServicePAA0D001_D9ActorStubRzrlE7resolveyAA13CodableResultOy0aB6Shared22PreliminaryInformationV8NextStepOAK5ErrorOGAKYaF",
+          "demname": "AccountsUISupportXPC.DistributedService..ActorStub.resolve.CodableResult...y0aB6Shared22PreliminaryInformationV8NextStepOAK5ErrorOGAKYaF",
+          "flagname": "sym.AccountsUISupportXPC.DistributedService..ActorStub.resolve.CodableResult...y0aB6Shared22PreliminaryInformationV8NextStepOAK5ErrorOGAKYaF",
+          "realname": "AccountsUISupportXPC.DistributedService..ActorStub.resolve.CodableResult...y0aB6Shared22PreliminaryInformationV8NextStepOAK5ErrorOGAKYaF",
+          "ordinal": 35,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295213752,
+          "paddr": 639672,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC18DistributedServicePAA0D001_D9ActorStubRzrlE7resolveyAA13CodableResultOy0aB6Shared22PreliminaryInformationV8NextStepOAK5ErrorOGAKYaFTu",
+          "demname": "AccountsUISupportXPC.DistributedService..ActorStub.resolve.CodableResult...y0aB6Shared22PreliminaryInformationV8NextStepOAK5ErrorOGAKYaFTu",
+          "flagname": "sym.AccountsUISupportXPC.DistributedService..ActorStub.resolve.CodableResult...y0aB6Shared22PreliminaryInformationV8NextStepOAK5ErrorOGAKYaFTu",
+          "realname": "AccountsUISupportXPC.DistributedService..ActorStub.resolve.CodableResult...y0aB6Shared22PreliminaryInformationV8NextStepOAK5ErrorOGAKYaFTu",
+          "ordinal": 36,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295260080,
+          "paddr": 686000,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC18DistributedServicePAA0D001_D9ActorStubRzrlE7resolveyAA13CodableResultOy0aB6Shared22PreliminaryInformationV8NextStepOAK5ErrorOGAKYaKFTE",
+          "demname": "AccountsUISupportXPC.DistributedService..ActorStub.resolve.CodableResult...y0aB6Shared22PreliminaryInformationV8NextStepOAK5ErrorOGAKYaKFTE",
+          "flagname": "sym.AccountsUISupportXPC.DistributedService..ActorStub.resolve.CodableResult...y0aB6Shared22PreliminaryInformationV8NextStepOAK5ErrorOGAKYaKFTE",
+          "realname": "AccountsUISupportXPC.DistributedService..ActorStub.resolve.CodableResult...y0aB6Shared22PreliminaryInformationV8NextStepOAK5ErrorOGAKYaKFTE",
+          "ordinal": 37,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295215544,
+          "paddr": 641464,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC18DistributedServicePAA0D001_D9ActorStubRzrlE7resolveyAA13CodableResultOy0aB6Shared22PreliminaryInformationV8NextStepOAK5ErrorOGAKYaKFTETu",
+          "demname": "AccountsUISupportXPC.DistributedService..ActorStub.resolve.CodableResult...y0aB6Shared22PreliminaryInformationV8NextStepOAK5ErrorOGAKYaKFTETu",
+          "flagname": "sym.AccountsUISupportXPC.DistributedService..ActorStub.resolve.CodableResult...y0aB6Shared22PreliminaryInformationV8NextStepOAK5ErrorOGAKYaKFTETu",
+          "realname": "AccountsUISupportXPC.DistributedService..ActorStub.resolve.CodableResult...y0aB6Shared22PreliminaryInformationV8NextStepOAK5ErrorOGAKYaKFTETu",
+          "ordinal": 38,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295260088,
+          "paddr": 686008,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC18DistributedServicePAA0D001_D9ActorStubRzrlE8validatey0aB6Shared15PasswordAccountO5KnownV9ValidatedVAKYaF",
+          "demname": "AccountsUISupportXPC.DistributedService..ActorStub.validate...y0aB6Shared15PasswordAccountO5KnownV9ValidatedVAKYaF",
+          "flagname": "sym.AccountsUISupportXPC.DistributedService..ActorStub.validate...y0aB6Shared15PasswordAccountO5KnownV9ValidatedVAKYaF",
+          "realname": "AccountsUISupportXPC.DistributedService..ActorStub.validate...y0aB6Shared15PasswordAccountO5KnownV9ValidatedVAKYaF",
+          "ordinal": 39,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295217316,
+          "paddr": 643236,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC18DistributedServicePAA0D001_D9ActorStubRzrlE8validatey0aB6Shared15PasswordAccountO5KnownV9ValidatedVAKYaFTu",
+          "demname": "AccountsUISupportXPC.DistributedService..ActorStub.validate...y0aB6Shared15PasswordAccountO5KnownV9ValidatedVAKYaFTu",
+          "flagname": "sym.AccountsUISupportXPC.DistributedService..ActorStub.validate...y0aB6Shared15PasswordAccountO5KnownV9ValidatedVAKYaFTu",
+          "realname": "AccountsUISupportXPC.DistributedService..ActorStub.validate...y0aB6Shared15PasswordAccountO5KnownV9ValidatedVAKYaFTu",
+          "ordinal": 40,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295260256,
+          "paddr": 686176,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC18DistributedServicePAA0D001_D9ActorStubRzrlE8validatey0aB6Shared15PasswordAccountO5KnownV9ValidatedVAKYaKFTE",
+          "demname": "AccountsUISupportXPC.DistributedService..ActorStub.validate...y0aB6Shared15PasswordAccountO5KnownV9ValidatedVAKYaKFTE",
+          "flagname": "sym.AccountsUISupportXPC.DistributedService..ActorStub.validate...y0aB6Shared15PasswordAccountO5KnownV9ValidatedVAKYaKFTE",
+          "realname": "AccountsUISupportXPC.DistributedService..ActorStub.validate...y0aB6Shared15PasswordAccountO5KnownV9ValidatedVAKYaKFTE",
+          "ordinal": 41,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295219136,
+          "paddr": 645056,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC18DistributedServicePAA0D001_D9ActorStubRzrlE8validatey0aB6Shared15PasswordAccountO5KnownV9ValidatedVAKYaKFTETu",
+          "demname": "AccountsUISupportXPC.DistributedService..ActorStub.validate...y0aB6Shared15PasswordAccountO5KnownV9ValidatedVAKYaKFTETu",
+          "flagname": "sym.AccountsUISupportXPC.DistributedService..ActorStub.validate...y0aB6Shared15PasswordAccountO5KnownV9ValidatedVAKYaKFTETu",
+          "realname": "AccountsUISupportXPC.DistributedService..ActorStub.validate...y0aB6Shared15PasswordAccountO5KnownV9ValidatedVAKYaKFTETu",
+          "ordinal": 42,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295260264,
+          "paddr": 686184,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC18DistributedServicePAA0D001_D9ActorStubRzrlE8validatey0aB6Shared15PasswordAccountO7UnknownV9ValidatedVAKYaF",
+          "demname": "AccountsUISupportXPC.DistributedService..ActorStub.validate...y0aB6Shared15PasswordAccountO7UnknownV9ValidatedVAKYaF",
+          "flagname": "sym.AccountsUISupportXPC.DistributedService..ActorStub.validate...y0aB6Shared15PasswordAccountO7UnknownV9ValidatedVAKYaF",
+          "realname": "AccountsUISupportXPC.DistributedService..ActorStub.validate...y0aB6Shared15PasswordAccountO7UnknownV9ValidatedVAKYaF",
+          "ordinal": 43,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295209632,
+          "paddr": 635552,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC18DistributedServicePAA0D001_D9ActorStubRzrlE8validatey0aB6Shared15PasswordAccountO7UnknownV9ValidatedVAKYaFTu",
+          "demname": "AccountsUISupportXPC.DistributedService..ActorStub.validate...y0aB6Shared15PasswordAccountO7UnknownV9ValidatedVAKYaFTu",
+          "flagname": "sym.AccountsUISupportXPC.DistributedService..ActorStub.validate...y0aB6Shared15PasswordAccountO7UnknownV9ValidatedVAKYaFTu",
+          "realname": "AccountsUISupportXPC.DistributedService..ActorStub.validate...y0aB6Shared15PasswordAccountO7UnknownV9ValidatedVAKYaFTu",
+          "ordinal": 44,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295260576,
+          "paddr": 686496,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC18DistributedServicePAA0D001_D9ActorStubRzrlE8validatey0aB6Shared15PasswordAccountO7UnknownV9ValidatedVAKYaKFTE",
+          "demname": "AccountsUISupportXPC.DistributedService..ActorStub.validate...y0aB6Shared15PasswordAccountO7UnknownV9ValidatedVAKYaKFTE",
+          "flagname": "sym.AccountsUISupportXPC.DistributedService..ActorStub.validate...y0aB6Shared15PasswordAccountO7UnknownV9ValidatedVAKYaKFTE",
+          "realname": "AccountsUISupportXPC.DistributedService..ActorStub.validate...y0aB6Shared15PasswordAccountO7UnknownV9ValidatedVAKYaKFTE",
+          "ordinal": 45,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295228216,
+          "paddr": 654136,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC18DistributedServicePAA0D001_D9ActorStubRzrlE8validatey0aB6Shared15PasswordAccountO7UnknownV9ValidatedVAKYaKFTETu",
+          "demname": "AccountsUISupportXPC.DistributedService..ActorStub.validate...y0aB6Shared15PasswordAccountO7UnknownV9ValidatedVAKYaKFTETu",
+          "flagname": "sym.AccountsUISupportXPC.DistributedService..ActorStub.validate...y0aB6Shared15PasswordAccountO7UnknownV9ValidatedVAKYaKFTETu",
+          "realname": "AccountsUISupportXPC.DistributedService..ActorStub.validate...y0aB6Shared15PasswordAccountO7UnknownV9ValidatedVAKYaKFTETu",
+          "ordinal": 46,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295260584,
+          "paddr": 686504,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC18DistributedServicePAA0D001_D9ActorStubRzrlE8validatey0aB6Shared22PreliminaryInformationV9ValidatedVAIYaF",
+          "demname": "AccountsUISupportXPC.DistributedService..ActorStub.validate...y0aB6Shared22PreliminaryInformationV9ValidatedVAIYaF",
+          "flagname": "sym.AccountsUISupportXPC.DistributedService..ActorStub.validate...y0aB6Shared22PreliminaryInformationV9ValidatedVAIYaF",
+          "realname": "AccountsUISupportXPC.DistributedService..ActorStub.validate...y0aB6Shared22PreliminaryInformationV9ValidatedVAIYaF",
+          "ordinal": 47,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295209632,
+          "paddr": 635552,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC18DistributedServicePAA0D001_D9ActorStubRzrlE8validatey0aB6Shared22PreliminaryInformationV9ValidatedVAIYaFTu",
+          "demname": "AccountsUISupportXPC.DistributedService..ActorStub.validate...y0aB6Shared22PreliminaryInformationV9ValidatedVAIYaFTu",
+          "flagname": "sym.AccountsUISupportXPC.DistributedService..ActorStub.validate...y0aB6Shared22PreliminaryInformationV9ValidatedVAIYaFTu",
+          "realname": "AccountsUISupportXPC.DistributedService..ActorStub.validate...y0aB6Shared22PreliminaryInformationV9ValidatedVAIYaFTu",
+          "ordinal": 48,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295259936,
+          "paddr": 685856,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC18DistributedServicePAA0D001_D9ActorStubRzrlE8validatey0aB6Shared22PreliminaryInformationV9ValidatedVAIYaKFTE",
+          "demname": "AccountsUISupportXPC.DistributedService..ActorStub.validate...y0aB6Shared22PreliminaryInformationV9ValidatedVAIYaKFTE",
+          "flagname": "sym.AccountsUISupportXPC.DistributedService..ActorStub.validate...y0aB6Shared22PreliminaryInformationV9ValidatedVAIYaKFTE",
+          "realname": "AccountsUISupportXPC.DistributedService..ActorStub.validate...y0aB6Shared22PreliminaryInformationV9ValidatedVAIYaKFTE",
+          "ordinal": 49,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295211688,
+          "paddr": 637608,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC18DistributedServicePAA0D001_D9ActorStubRzrlE8validatey0aB6Shared22PreliminaryInformationV9ValidatedVAIYaKFTETu",
+          "demname": "AccountsUISupportXPC.DistributedService..ActorStub.validate...y0aB6Shared22PreliminaryInformationV9ValidatedVAIYaKFTETu",
+          "flagname": "sym.AccountsUISupportXPC.DistributedService..ActorStub.validate...y0aB6Shared22PreliminaryInformationV9ValidatedVAIYaKFTETu",
+          "realname": "AccountsUISupportXPC.DistributedService..ActorStub.validate...y0aB6Shared22PreliminaryInformationV9ValidatedVAIYaKFTETu",
+          "ordinal": 50,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295259944,
+          "paddr": 685864,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC18DistributedServiceTL",
+          "demname": "AccountsUISupportXPC.DistributedService(...L)",
+          "flagname": "sym.AccountsUISupportXPC.DistributedService_...L_",
+          "realname": "AccountsUISupportXPC.DistributedService(...L)",
+          "ordinal": 51,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295273576,
+          "paddr": 699496,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC19$DistributedServiceC0D001_D9ActorStubAAMc",
+          "demname": "AccountsUISupportXPC.$DistributedService.allocator.ActorStub(...Mc)",
+          "flagname": "sym.AccountsUISupportXPC._DistributedService.allocator.ActorStub_...Mc_",
+          "realname": "AccountsUISupportXPC.$DistributedService.allocator.ActorStub(...Mc)",
+          "ordinal": 52,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295261148,
+          "paddr": 687068,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC19$DistributedServiceC0D00D5ActorAAMc",
+          "demname": "AccountsUISupportXPC.$DistributedService.allocator...D00D5ActorAAMc",
+          "flagname": "sym.AccountsUISupportXPC._DistributedService.allocator...D00D5ActorAAMc",
+          "realname": "AccountsUISupportXPC.$DistributedService.allocator...D00D5ActorAAMc",
+          "ordinal": 53,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295260912,
+          "paddr": 686832,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC19$DistributedServiceC11actorSystem14XPCDistributed9XPCSystemCvg",
+          "demname": "AccountsUISupportXPC.$DistributedService.actorSystem.allocator.XPCD.XPCSystem(...g)",
+          "flagname": "sym.AccountsUISupportXPC._DistributedService.actorSystem.allocator.XPCD.XPCSystem_...g_",
+          "realname": "AccountsUISupportXPC.$DistributedService.actorSystem.allocator.XPCD.XPCSystem(...g)",
+          "ordinal": 54,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295202876,
+          "paddr": 628796,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC19$DistributedServiceC11actorSystem14XPCDistributed9XPCSystemCvpMV",
+          "demname": "AccountsUISupportXPC.$DistributedService.actorSystem.allocator.XPCD.XPCSystem(...pMV)",
+          "flagname": "sym.AccountsUISupportXPC._DistributedService.actorSystem.allocator.XPCD.XPCSystem_...pMV_",
+          "realname": "AccountsUISupportXPC.$DistributedService.actorSystem.allocator.XPCD.XPCSystem(...pMV)",
+          "ordinal": 55,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295261428,
+          "paddr": 687348,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC19$DistributedServiceC11actorSystem14XPCDistributed9XPCSystemCvpWvd",
+          "demname": "AccountsUISupportXPC.$DistributedService.actorSystem.allocator.XPCD.XPCSystem(...pWvd)",
+          "flagname": "sym.AccountsUISupportXPC._DistributedService.actorSystem.allocator.XPCD.XPCSystem_...pWvd_",
+          "realname": "AccountsUISupportXPC.$DistributedService.actorSystem.allocator.XPCD.XPCSystem(...pWvd)",
+          "ordinal": 56,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295334144,
+          "paddr": 760064,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC19$DistributedServiceC11actorSystemAC14XPCDistributed9XPCSystemC_tcfC",
+          "demname": "AccountsUISupportXPC.$DistributedService.actorSystem.allocator.(...cfC)",
+          "flagname": "sym.AccountsUISupportXPC._DistributedService.actorSystem.allocator._...cfC_",
+          "realname": "AccountsUISupportXPC.$DistributedService.actorSystem.allocator.(...cfC)",
+          "ordinal": 57,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295204008,
+          "paddr": 629928,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC19$DistributedServiceC11actorSystemAC14XPCDistributed9XPCSystemC_tcfCTq",
+          "demname": "AccountsUISupportXPC.$DistributedService.actorSystem.allocator.(...cfCTq)",
+          "flagname": "sym.AccountsUISupportXPC._DistributedService.actorSystem.allocator._...cfCTq_",
+          "realname": "AccountsUISupportXPC.$DistributedService.actorSystem.allocator.(...cfCTq)",
+          "ordinal": 58,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295273540,
+          "paddr": 699460,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC19$DistributedServiceC11actorSystemAC14XPCDistributed9XPCSystemC_tcfc",
+          "demname": "AccountsUISupportXPC.$DistributedService.actorSystem.allocator.(...cfc)",
+          "flagname": "sym.AccountsUISupportXPC._DistributedService.actorSystem.allocator._...cfc_",
+          "realname": "AccountsUISupportXPC.$DistributedService.actorSystem.allocator.(...cfc)",
+          "ordinal": 59,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295204072,
+          "paddr": 629992,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC19$DistributedServiceC15unownedExecutorScevg",
+          "demname": "AccountsUISupportXPC.$DistributedService.unownedExecutor.allocator__UnicodeScalar: allocator, unownedExecutor: allocatorS(...evg)",
+          "flagname": "sym.AccountsUISupportXPC._DistributedService.unownedExecutor.allocator__UnicodeScalar:_allocator__unownedExecutor:_allocatorS_...evg_",
+          "realname": "AccountsUISupportXPC.$DistributedService.unownedExecutor.allocator__UnicodeScalar: allocator, unownedExecutor: allocatorS(...evg)",
+          "ordinal": 60,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295204564,
+          "paddr": 630484,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC19$DistributedServiceC15unownedExecutorScevpMV",
+          "demname": "AccountsUISupportXPC.$DistributedService.unownedExecutor.allocator__UnicodeScalar: allocator, unownedExecutor: allocator, S(...evpMV)",
+          "flagname": "sym.AccountsUISupportXPC._DistributedService.unownedExecutor.allocator__UnicodeScalar:_allocator__unownedExecutor:_allocator__S_...evpMV_",
+          "realname": "AccountsUISupportXPC.$DistributedService.unownedExecutor.allocator__UnicodeScalar: allocator, unownedExecutor: allocator, S(...evpMV)",
+          "ordinal": 61,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295261428,
+          "paddr": 687348,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC19$DistributedServiceC2id14XPCDistributed9XPCSystemC7ActorIDVvg",
+          "demname": "AccountsUISupportXPC.$DistributedService.id.allocator.XPCD.XPCSystem.ActorID...Vvg",
+          "flagname": "sym.AccountsUISupportXPC._DistributedService.id.allocator.XPCD.XPCSystem.ActorID...Vvg",
+          "realname": "AccountsUISupportXPC.$DistributedService.id.allocator.XPCD.XPCSystem.ActorID...Vvg",
+          "ordinal": 62,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295202756,
+          "paddr": 628676,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC19$DistributedServiceC2id14XPCDistributed9XPCSystemC7ActorIDVvpMV",
+          "demname": "AccountsUISupportXPC.$DistributedService.id.allocator.XPCD.XPCSystem.ActorID...VvpMV",
+          "flagname": "sym.AccountsUISupportXPC._DistributedService.id.allocator.XPCD.XPCSystem.ActorID...VvpMV",
+          "realname": "AccountsUISupportXPC.$DistributedService.id.allocator.XPCD.XPCSystem.ActorID...VvpMV",
+          "ordinal": 63,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295261428,
+          "paddr": 687348,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC19$DistributedServiceC2id14XPCDistributed9XPCSystemC7ActorIDVvpWvd",
+          "demname": "AccountsUISupportXPC.$DistributedService.id.allocator.XPCD.XPCSystem.ActorID...VvpWvd",
+          "flagname": "sym.AccountsUISupportXPC._DistributedService.id.allocator.XPCD.XPCSystem.ActorID...VvpWvd",
+          "realname": "AccountsUISupportXPC.$DistributedService.id.allocator.XPCD.XPCSystem.ActorID...VvpWvd",
+          "ordinal": 64,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295334136,
+          "paddr": 760056,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC19$DistributedServiceC7resolve2id5usingAC14XPCDistributed9XPCSystemC7ActorIDV_AItKFZ",
+          "demname": "AccountsUISupportXPC.$DistributedService.resolve.allocator.(...KFZ)",
+          "flagname": "sym.AccountsUISupportXPC._DistributedService.resolve.allocator._...KFZ_",
+          "realname": "AccountsUISupportXPC.$DistributedService.resolve.allocator.(...KFZ)",
+          "ordinal": 65,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295202892,
+          "paddr": 628812,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC19$DistributedServiceC9hashValueSivg",
+          "demname": "getter AccountsUISupportXPC.$DistributedService.hashValue.allocator__Swift.Int: allocatorhashValue: allocatorS(...vg)",
+          "flagname": "sym.getter_AccountsUISupportXPC._DistributedService.hashValue.allocator__Swift.Int:_allocatorhashValue:_allocatorS_...vg_",
+          "realname": "getter AccountsUISupportXPC.$DistributedService.hashValue.allocator__Swift.Int: allocatorhashValue: allocatorS(...vg)",
+          "ordinal": 66,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295203864,
+          "paddr": 629784,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC19$DistributedServiceC9hashValueSivgTq",
+          "demname": "AccountsUISupportXPC.$DistributedService.hashValue.allocator__Swift.Int: allocator, hashValue: allocator, S(...vgTq)",
+          "flagname": "sym.AccountsUISupportXPC._DistributedService.hashValue.allocator__Swift.Int:_allocator__hashValue:_allocator__S_...vgTq_",
+          "realname": "AccountsUISupportXPC.$DistributedService.hashValue.allocator__Swift.Int: allocator, hashValue: allocator, S(...vgTq)",
+          "ordinal": 67,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295273532,
+          "paddr": 699452,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC19$DistributedServiceC9hashValueSivpMV",
+          "demname": "AccountsUISupportXPC.$DistributedService.hashValue.allocator__Swift.Int: allocator, hashValue: allocator, S(...vpMV)",
+          "flagname": "sym.AccountsUISupportXPC._DistributedService.hashValue.allocator__Swift.Int:_allocator__hashValue:_allocator__S_...vpMV_",
+          "realname": "AccountsUISupportXPC.$DistributedService.hashValue.allocator__Swift.Int: allocator, hashValue: allocator, S(...vpMV)",
+          "ordinal": 68,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295261428,
+          "paddr": 687348,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC19$DistributedServiceCAA0dE0AAMc",
+          "demname": "AccountsUISupportXPC.$DistributedService.allocator.(...dE0AAMc)",
+          "flagname": "sym.AccountsUISupportXPC._DistributedService.allocator._...dE0AAMc_",
+          "realname": "AccountsUISupportXPC.$DistributedService.allocator.(...dE0AAMc)",
+          "ordinal": 69,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295261120,
+          "paddr": 687040,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC19$DistributedServiceCAA0dE0AAWP",
+          "demname": "AccountsUISupportXPC.$DistributedService.allocator.(...dE0AAWP)",
+          "flagname": "sym.AccountsUISupportXPC._DistributedService.allocator._...dE0AAWP_",
+          "realname": "AccountsUISupportXPC.$DistributedService.allocator.(...dE0AAWP)",
+          "ordinal": 70,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295323744,
+          "paddr": 749664,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC19$DistributedServiceCMa",
+          "demname": "AccountsUISupportXPC.$DistributedService.allocator(...a)",
+          "flagname": "sym.AccountsUISupportXPC._DistributedService.allocator_...a_",
+          "realname": "AccountsUISupportXPC.$DistributedService.allocator(...a)",
+          "ordinal": 71,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295203248,
+          "paddr": 629168,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC19$DistributedServiceCMm",
+          "demname": "AccountsUISupportXPC.$DistributedService.allocator(...m)",
+          "flagname": "sym.AccountsUISupportXPC._DistributedService.allocator_...m_",
+          "realname": "AccountsUISupportXPC.$DistributedService.allocator(...m)",
+          "ordinal": 72,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295333824,
+          "paddr": 759744,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC19$DistributedServiceCMn",
+          "demname": "AccountsUISupportXPC.$DistributedService.allocator(...n)",
+          "flagname": "sym.AccountsUISupportXPC._DistributedService.allocator_...n_",
+          "realname": "AccountsUISupportXPC.$DistributedService.allocator(...n)",
+          "ordinal": 73,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295273468,
+          "paddr": 699388,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC19$DistributedServiceCN",
+          "demname": "AccountsUISupportXPC.$DistributedService.allocator",
+          "flagname": "sym.AccountsUISupportXPC._DistributedService.allocator",
+          "realname": "AccountsUISupportXPC.$DistributedService.allocator",
+          "ordinal": 74,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295333904,
+          "paddr": 759824,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC19$DistributedServiceCSEAAMc",
+          "demname": "AccountsUISupportXPC.$DistributedService.allocator: allocator, S(...AAMc)",
+          "flagname": "sym.AccountsUISupportXPC._DistributedService.allocator:_allocator__S_...AAMc_",
+          "realname": "AccountsUISupportXPC.$DistributedService.allocator: allocator, S(...AAMc)",
+          "ordinal": 75,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295261348,
+          "paddr": 687268,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC19$DistributedServiceCSHAAMc",
+          "demname": "AccountsUISupportXPC.$DistributedService.allocator: allocator, S(...AAMc)",
+          "flagname": "sym.AccountsUISupportXPC._DistributedService.allocator:_allocator__S_...AAMc_",
+          "realname": "AccountsUISupportXPC.$DistributedService.allocator: allocator, S(...AAMc)",
+          "ordinal": 76,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295261188,
+          "paddr": 687108,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC19$DistributedServiceCSQAAMc",
+          "demname": "AccountsUISupportXPC.$DistributedService.allocator__ImplicitlyUnwrappedOptional: allocator, S(...AAMc)",
+          "flagname": "sym.AccountsUISupportXPC._DistributedService.allocator__ImplicitlyUnwrappedOptional:_allocator__S_...AAMc_",
+          "realname": "AccountsUISupportXPC.$DistributedService.allocator__ImplicitlyUnwrappedOptional: allocator, S(...AAMc)",
+          "ordinal": 77,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295261308,
+          "paddr": 687228,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC19$DistributedServiceCSeAAMc",
+          "demname": "AccountsUISupportXPC.$DistributedService.allocator: allocator, S(...AAMc)",
+          "flagname": "sym.AccountsUISupportXPC._DistributedService.allocator:_allocator__S_...AAMc_",
+          "realname": "AccountsUISupportXPC.$DistributedService.allocator: allocator, S(...AAMc)",
+          "ordinal": 78,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295261388,
+          "paddr": 687308,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC19$DistributedServiceCfD",
+          "demname": "AccountsUISupportXPC.$DistributedService.allocator",
+          "flagname": "sym.AccountsUISupportXPC._DistributedService.allocator",
+          "realname": "AccountsUISupportXPC.$DistributedService.allocator",
+          "ordinal": 79,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295203548,
+          "paddr": 629468,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC19$DistributedServiceCfd",
+          "demname": "AccountsUISupportXPC.$DistributedService.allocator",
+          "flagname": "sym.AccountsUISupportXPC._DistributedService.allocator",
+          "realname": "AccountsUISupportXPC.$DistributedService.allocator",
+          "ordinal": 80,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295203324,
+          "paddr": 629244,
+          "is_imported": false
+        },
+        {
+          "name": "_$s20AccountsUISupportXPC19$DistributedServiceCs12IdentifiableAAMc",
+          "demname": "AccountsUISupportXPC.$DistributedService.allocatorIdentifiable.",
+          "flagname": "sym.AccountsUISupportXPC._DistributedService.allocatorIdentifiable.",
+          "realname": "AccountsUISupportXPC.$DistributedService.allocatorIdentifiable.",
+          "ordinal": 81,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295261252,
+          "paddr": 687172,
+          "is_imported": false
+        },
+        {
+          "name": "_$s23AccountsUISupportShared12EmailAddressV6DomainV0aB10ServiceLibE11IDNAEncodedV10underlyingSSvg",
+          "demname": "AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedV10underlyingSSvg",
+          "flagname": "sym.AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedV10underlyingSSvg",
+          "realname": "AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedV10underlyingSSvg",
+          "ordinal": 82,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295068752,
+          "paddr": 494672,
+          "is_imported": false
+        },
+        {
+          "name": "_$s23AccountsUISupportShared12EmailAddressV6DomainV0aB10ServiceLibE11IDNAEncodedV10underlyingSSvpMV",
+          "demname": "AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedV10underlyingSSvpMV",
+          "flagname": "sym.AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedV10underlyingSSvpMV",
+          "realname": "AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedV10underlyingSSvpMV",
+          "ordinal": 83,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295253160,
+          "paddr": 679080,
+          "is_imported": false
+        },
+        {
+          "name": "_$s23AccountsUISupportShared12EmailAddressV6DomainV0aB10ServiceLibE11IDNAEncodedV10validatingAHSgSS_tcfC",
+          "demname": "AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedV10validatingAHSgSS_tcfC",
+          "flagname": "sym.AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedV10validatingAHSgSS_tcfC",
+          "realname": "AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedV10validatingAHSgSS_tcfC",
+          "ordinal": 84,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295067504,
+          "paddr": 493424,
+          "is_imported": false
+        },
+        {
+          "name": "_$s23AccountsUISupportShared12EmailAddressV6DomainV0aB10ServiceLibE11IDNAEncodedV11descriptionSSvg",
+          "demname": "AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedV11descriptionSSvg",
+          "flagname": "sym.AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedV11descriptionSSvg",
+          "realname": "AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedV11descriptionSSvg",
+          "ordinal": 85,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295073796,
+          "paddr": 499716,
+          "is_imported": false
+        },
+        {
+          "name": "_$s23AccountsUISupportShared12EmailAddressV6DomainV0aB10ServiceLibE11IDNAEncodedV11descriptionSSvpMV",
+          "demname": "AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedV11descriptionSSvpMV",
+          "flagname": "sym.AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedV11descriptionSSvpMV",
+          "realname": "AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedV11descriptionSSvpMV",
+          "ordinal": 86,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295253160,
+          "paddr": 679080,
+          "is_imported": false
+        },
+        {
+          "name": "_$s23AccountsUISupportShared12EmailAddressV6DomainV0aB10ServiceLibE11IDNAEncodedV13stringLiteralAHSS_tcfC",
+          "demname": "AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedV13stringLiteralAHSS_tcfC",
+          "flagname": "sym.AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedV13stringLiteralAHSS_tcfC",
+          "realname": "AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedV13stringLiteralAHSS_tcfC",
+          "ordinal": 87,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294982992,
+          "paddr": 408912,
+          "is_imported": false
+        },
+        {
+          "name": "_$s23AccountsUISupportShared12EmailAddressV6DomainV0aB10ServiceLibE11IDNAEncodedV23__derived_struct_equalsySbAH_AHtFZ",
+          "demname": "AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedV23__derived_struct_equalsySbAH_AHtFZ",
+          "flagname": "sym.AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedV23__derived_struct_equalsySbAH_AHtFZ",
+          "realname": "AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedV23__derived_struct_equalsySbAH_AHtFZ",
+          "ordinal": 88,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295068804,
+          "paddr": 494724,
+          "is_imported": false
+        },
+        {
+          "name": "_$s23AccountsUISupportShared12EmailAddressV6DomainV0aB10ServiceLibE11IDNAEncodedV4hash4intoys6HasherVz_tF",
+          "demname": "AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedV4hash4intoys6HasherVz_tF",
+          "flagname": "sym.AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedV4hash4intoys6HasherVz_tF",
+          "realname": "AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedV4hash4intoys6HasherVz_tF",
+          "ordinal": 89,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295068836,
+          "paddr": 494756,
+          "is_imported": false
+        },
+        {
+          "name": "_$s23AccountsUISupportShared12EmailAddressV6DomainV0aB10ServiceLibE11IDNAEncodedV9hashValueSivg",
+          "demname": "getter AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedV9hashValueSivg",
+          "flagname": "sym.getter_AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedV9hashValueSivg",
+          "realname": "getter AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedV9hashValueSivg",
+          "ordinal": 90,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295068840,
+          "paddr": 494760,
+          "is_imported": false
+        },
+        {
+          "name": "_$s23AccountsUISupportShared12EmailAddressV6DomainV0aB10ServiceLibE11IDNAEncodedV9hashValueSivpMV",
+          "demname": "AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedV9hashValueSivpMV",
+          "flagname": "sym.AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedV9hashValueSivpMV",
+          "realname": "AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedV9hashValueSivpMV",
+          "ordinal": 91,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295253160,
+          "paddr": 679080,
+          "is_imported": false
+        },
+        {
+          "name": "_$s23AccountsUISupportShared12EmailAddressV6DomainV0aB10ServiceLibE11IDNAEncodedVMa",
+          "demname": "AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedVMa",
+          "flagname": "sym.AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedVMa",
+          "realname": "AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedVMa",
+          "ordinal": 92,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295069628,
+          "paddr": 495548,
+          "is_imported": false
+        },
+        {
+          "name": "_$s23AccountsUISupportShared12EmailAddressV6DomainV0aB10ServiceLibE11IDNAEncodedVMn",
+          "demname": "AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedVMn",
+          "flagname": "sym.AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedVMn",
+          "realname": "AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedVMn",
+          "ordinal": 93,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295271820,
+          "paddr": 697740,
+          "is_imported": false
+        },
+        {
+          "name": "_$s23AccountsUISupportShared12EmailAddressV6DomainV0aB10ServiceLibE11IDNAEncodedVN",
+          "demname": "AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedVN",
+          "flagname": "sym.AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedVN",
+          "realname": "AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedVN",
+          "ordinal": 94,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295320856,
+          "paddr": 746776,
+          "is_imported": false
+        },
+        {
+          "name": "_$s23AccountsUISupportShared12EmailAddressV6DomainV0aB10ServiceLibE11IDNAEncodedVSHAFMc",
+          "demname": "AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedVSHAFMc",
+          "flagname": "sym.AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedVSHAFMc",
+          "realname": "AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedVSHAFMc",
+          "ordinal": 95,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295252832,
+          "paddr": 678752,
+          "is_imported": false
+        },
+        {
+          "name": "_$s23AccountsUISupportShared12EmailAddressV6DomainV0aB10ServiceLibE11IDNAEncodedVSQAFMc",
+          "demname": "AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedVSQAFMc",
+          "flagname": "sym.AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedVSQAFMc",
+          "realname": "AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedVSQAFMc",
+          "ordinal": 96,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295252896,
+          "paddr": 678816,
+          "is_imported": false
+        },
+        {
+          "name": "_$s23AccountsUISupportShared12EmailAddressV6DomainV0aB10ServiceLibE11IDNAEncodedVs23CustomStringConvertibleAFMc",
+          "demname": "AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedVs23CustomStringConvertibleAFMc",
+          "flagname": "sym.AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedVs23CustomStringConvertibleAFMc",
+          "realname": "AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedVs23CustomStringConvertibleAFMc",
+          "ordinal": 97,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295253120,
+          "paddr": 679040,
+          "is_imported": false
+        },
+        {
+          "name": "_$s23AccountsUISupportShared12EmailAddressV6DomainV0aB10ServiceLibE11IDNAEncodedVs26ExpressibleByStringLiteralAFMc",
+          "demname": "AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedVs26ExpressibleByStringLiteralAFMc",
+          "flagname": "sym.AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedVs26ExpressibleByStringLiteralAFMc",
+          "realname": "AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedVs26ExpressibleByStringLiteralAFMc",
+          "ordinal": 98,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295252936,
+          "paddr": 678856,
+          "is_imported": false
+        },
+        {
+          "name": "_$s23AccountsUISupportShared12EmailAddressV6DomainV0aB10ServiceLibE11IDNAEncodedVs33ExpressibleByUnicodeScalarLiteralAFMc",
+          "demname": "AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedVs33ExpressibleByUnicodeScalarLiteralAFMc",
+          "flagname": "sym.AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedVs33ExpressibleByUnicodeScalarLiteralAFMc",
+          "realname": "AccountsUISupportShared.EmailAddress.Domain...V0aB10ServiceLibE11IDNAEncodedVs33ExpressibleByUnicodeScalarLiteralAFMc",
+          "ordinal": 99,
+          "bind": "GLOBAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295253064,
+          "paddr": 678984,
+          "is_imported": false
+        }
+      ]
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist",
+        "Versions/A/XPCServices/AccountsUISupportService.xpc/Contents/Info.plist",
+        "Versions/A/XPCServices/AccountsUISupportService.xpc/Contents/version.plist",
+        "Versions/A/XPCServices/AccountsUISupportService.xpc/Contents/_CodeSignature/CodeResources",
+        "Versions/A/XPCServices/AccountsUISupportService.xpc/Contents/MacOS/AccountsUISupportService",
+        "Versions/A/XPCServices/AccountsUISupportService.xpc/Contents/Resources/InfoPlist.loctable"
+      ],
+      "plists": {
+        "Versions/A/Resources/Info.plist": {
+          "DTPlatformVersion": "26.1",
+          "CFBundleIdentifier": "com.apple.email.AccountsUISupport",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "DTPlatformBuild": "25B75",
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleVersion": "3864.200.81.1.6",
+          "CFBundleExecutable": "AccountsUISupport",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTXcode": "2600",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundlePackageType": "FMWK",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "DTSDKBuild": "25B75",
+          "CFBundleDevelopmentRegion": "en",
+          "DTSDKName": "macosx26.1.internal",
+          "CFBundleName": "AccountsUISupport"
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "3864.200.81.1.6",
+          "ProjectName": "Mail_Framework",
+          "BuildAliasOf": "Mail",
+          "SourceVersion": "3864200081001006",
+          "BuildVersion": "1"
+        },
+        "Versions/A/XPCServices/AccountsUISupportService.xpc/Contents/Info.plist": {
+          "DTPlatformVersion": "26.1",
+          "CFBundleIdentifier": "com.apple.email.AccountsUISupportService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "DTPlatformBuild": "25B75",
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleVersion": "3864.200.81.1.6",
+          "CFBundleExecutable": "AccountsUISupportService",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "XPCService": {
+            "ServiceType": "Application"
+          },
+          "DTXcode": "2600",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundlePackageType": "XPC!",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "DTSDKBuild": "25B75",
+          "CFBundleDevelopmentRegion": "en",
+          "DTSDKName": "macosx26.1.internal",
+          "CFBundleName": "AccountsUISupportService"
+        },
+        "Versions/A/XPCServices/AccountsUISupportService.xpc/Contents/version.plist": {
+          "CFBundleVersion": "3864.200.81.1.6",
+          "ProjectName": "Mail_Framework",
+          "BuildAliasOf": "Mail",
+          "SourceVersion": "3864200081001006",
+          "BuildVersion": "1"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
+  },
+  "usage": {
+    "layer": "usage",
+    "used_by": []
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "loaded"
+  }
+}

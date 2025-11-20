@@ -1,0 +1,506 @@
+{
+  "framework": "PassKitUI.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/PassKitUI.framework/Versions/A/XPCServices/com.apple.PassKitUIXPCService.xpc/Contents/MacOS/com.apple.PassKitUIXPCService",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 92272,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "objc with blocks",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/Frameworks/Accounts.framework/Versions/A/Accounts",
+          "/System/Library/PrivateFrameworks/AppleAccount.framework/Versions/A/AppleAccount",
+          "/System/Library/PrivateFrameworks/PassKitCore.framework/Versions/A/PassKitCore",
+          "/System/Library/PrivateFrameworks/Bom.framework/Versions/A/Bom",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "PAXPCDispatch",
+        "addr": 4295018472,
+        "lang": "objc",
+        "index": 0,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "_uniqueTemporaryFolderWithError:",
+            "flag": "method.PAXPCDispatch._uniqueTemporaryFolderWithError:",
+            "lang": "objc",
+            "addr": 4294970892
+          },
+          {
+            "name": "_unarchivedFilesWithArchiveAtURL:error:",
+            "flag": "method.PAXPCDispatch._unarchivedFilesWithArchiveAtURL:error:",
+            "lang": "objc",
+            "addr": 4294971216
+          },
+          {
+            "name": "handleMessage:fromPeer:",
+            "flag": "method.PAXPCDispatch.handleMessage:fromPeer:",
+            "lang": "objc",
+            "addr": 4294971548
+          },
+          {
+            "name": "_handleSetPassUbiquityMessage:peer:",
+            "flag": "method.PAXPCDispatch._handleSetPassUbiquityMessage:peer:",
+            "lang": "objc",
+            "addr": 4294972316
+          },
+          {
+            "name": "_handleSetPassUbiquityMessageWithCloudKit:peer:",
+            "flag": "method.PAXPCDispatch._handleSetPassUbiquityMessageWithCloudKit:peer:",
+            "lang": "objc",
+            "addr": 4294972456
+          },
+          {
+            "name": "_handleSetPassUbiquityMessageWithUbiquity:peer:",
+            "flag": "method.PAXPCDispatch._handleSetPassUbiquityMessageWithUbiquity:peer:",
+            "lang": "objc",
+            "addr": 4294973092
+          },
+          {
+            "name": "_handlePassbookUbiquitousContainerExistsMessage:peer:",
+            "flag": "method.PAXPCDispatch._handlePassbookUbiquitousContainerExistsMessage:peer:",
+            "lang": "objc",
+            "addr": 4294973988
+          },
+          {
+            "name": "_handleUbiquitousPassHashForFilenameMessage:peer:",
+            "flag": "method.PAXPCDispatch._handleUbiquitousPassHashForFilenameMessage:peer:",
+            "lang": "objc",
+            "addr": 4294974540
+          },
+          {
+            "name": "_replyToSetUbiquityRequest:withError:",
+            "flag": "method.PAXPCDispatch._replyToSetUbiquityRequest:withError:",
+            "lang": "objc",
+            "addr": 4294975212
+          },
+          {
+            "name": "sharedInstance",
+            "flag": "method.class.PAXPCDispatch.sharedInstance",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294970760
+          }
+        ]
+      },
+      {
+        "classname": "PAUbiquityController",
+        "addr": 4295018552,
+        "lang": "objc",
+        "index": 1,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithPassAtPath:ubiquitousFilename:",
+            "flag": "method.PAUbiquityController.initWithPassAtPath:ubiquitousFilename:",
+            "lang": "objc",
+            "addr": 4294975460
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.PAUbiquityController.dealloc",
+            "lang": "objc",
+            "addr": 4294975632
+          },
+          {
+            "name": "presentedItemDidChange",
+            "flag": "method.PAUbiquityController.presentedItemDidChange",
+            "lang": "objc",
+            "addr": 4294975976
+          },
+          {
+            "name": "setUbiquitous:withCompletionBlock:",
+            "flag": "method.PAUbiquityController.setUbiquitous:withCompletionBlock:",
+            "lang": "objc",
+            "addr": 4294977508
+          },
+          {
+            "name": "presentedItemURL",
+            "flag": "func.100003120",
+            "lang": "objc",
+            "addr": 4294979872
+          },
+          {
+            "name": "presentedItemOperationQueue",
+            "flag": "func.100003168",
+            "lang": "objc",
+            "addr": 4294979944
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.PAUbiquityController..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294980032
+          },
+          {
+            "name": "presentedItemURL",
+            "flag": "method.PAUbiquityController.presentedItemURL",
+            "lang": "objc",
+            "addr": 4294983816
+          },
+          {
+            "name": "presentedItemOperationQueue",
+            "flag": "method.PAUbiquityController.presentedItemOperationQueue",
+            "lang": "objc",
+            "addr": 4294983828
+          },
+          {
+            "name": "observeUbiquitousContainer",
+            "flag": "method.class.PAUbiquityController.observeUbiquitousContainer",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294975768
+          },
+          {
+            "name": "_ubiquitousContainerURL",
+            "flag": "method.class.PAUbiquityController._ubiquitousContainerURL",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294976232
+          },
+          {
+            "name": "_ubiquitousCardsURL",
+            "flag": "method.class.PAUbiquityController._ubiquitousCardsURL",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294976432
+          },
+          {
+            "name": "_ubiquitousURLForFilename:",
+            "flag": "method.class.PAUbiquityController._ubiquitousURLForFilename:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294976528
+          },
+          {
+            "name": "passbookUbiquityContainerExists",
+            "flag": "method.class.PAUbiquityController.passbookUbiquityContainerExists",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294976688
+          },
+          {
+            "name": "ubiquitousPassHashForFilename:",
+            "flag": "method.class.PAUbiquityController.ubiquitousPassHashForFilename:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294976860
+          },
+          {
+            "name": "passFilePathForUbiquitousPassWithFilename:",
+            "flag": "method.class.PAUbiquityController.passFilePathForUbiquitousPassWithFilename:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294977084
+          },
+          {
+            "name": "downloadUbiquitousCardsFolder",
+            "flag": "method.class.PAUbiquityController.downloadUbiquitousCardsFolder",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294977388
+          },
+          {
+            "name": "presentedItemURL",
+            "flag": "method.PAUbiquityController.presentedItemURL",
+            "lang": "objc",
+            "addr": 4294983816
+          },
+          {
+            "name": "presentedItemOperationQueue",
+            "flag": "method.PAUbiquityController.presentedItemOperationQueue",
+            "lang": "objc",
+            "addr": 4294983828
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_localURL",
+            "kind": "var",
+            "type": "@\"NSURL\"",
+            "addr": 4295018416
+          },
+          {
+            "name": "_ubiquitousFilename",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295018420
+          },
+          {
+            "name": "_presentedItemOperationQueue",
+            "kind": "var",
+            "type": "@\"NSOperationQueue\"",
+            "addr": 4295018424
+          },
+          {
+            "name": "presentedItemURL",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "presentedItemOperationQueue",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "primaryPresentedItemURL",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "observedPresentedItemUbiquityAttributes",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      }
+    ],
+    "swift_metadata": {
+      "is_swift": false,
+      "symbols": []
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/ApplePayLogo.tiff",
+        "Versions/A/Resources/PKWindowController.nib",
+        "Versions/A/Resources/PKUserNotificationAuthorizationExplanationViewController.nib",
+        "Versions/A/Resources/PKPassViewController.nib",
+        "Versions/A/Resources/Localizable.loctable",
+        "Versions/A/Resources/Assets.car",
+        "Versions/A/Resources/NativeApplePay.loctable",
+        "Versions/A/Resources/BackFields.nib",
+        "Versions/A/Resources/ApplePay_card_illustration.tiff",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/PKPassViewerViewController.loctable",
+        "Versions/A/Resources/version.plist",
+        "Versions/A/XPCServices/com.apple.PassKitUIXPCService.xpc/Contents/Info.plist",
+        "Versions/A/XPCServices/com.apple.PassKitUIXPCService.xpc/Contents/version.plist",
+        "Versions/A/XPCServices/com.apple.PassKitUIXPCService.xpc/Contents/_CodeSignature/CodeResources",
+        "Versions/A/XPCServices/com.apple.PassKitUIXPCService.xpc/Contents/MacOS/com.apple.PassKitUIXPCService",
+        "Versions/A/XPCServices/com.apple.PassKitUIXPCService.xpc/Contents/Resources/InfoPlist.loctable",
+        "Versions/A/Resources/Base.lproj/PKPassViewerViewController.nib"
+      ],
+      "plists": {
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "PassKitUI",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2015 Apple Inc. All rights reserved.",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "FMWK",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "PassKitUI",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.PassKitUI",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleSignature": "????",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "WalletUIX",
+          "SourceVersion": "380000000000000",
+          "BuildVersion": "395"
+        },
+        "Versions/A/XPCServices/com.apple.PassKitUIXPCService.xpc/Contents/Info.plist": {
+          "CFBundleName": "com.apple.PassKitUIXPCService",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2012 Apple Inc. All rights reserved.",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "English",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "XPCService": {
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "com.apple.PassKitUIXPCService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.PassKitUIXPCService",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleSignature": "????",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/XPCServices/com.apple.PassKitUIXPCService.xpc/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "WalletUIX",
+          "SourceVersion": "380000000000000",
+          "BuildVersion": "395"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
+  },
+  "usage": {
+    "layer": "usage",
+    "used_by": [
+      {
+        "path": "/System/Applications/Mail.app",
+        "binary": "/System/Applications/Mail.app/Contents/MacOS/Mail",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/Pass Viewer.app",
+        "binary": "/System/Library/CoreServices/Pass Viewer.app/Contents/MacOS/Pass Viewer",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/Erase Assistant.app",
+        "binary": "/System/Library/CoreServices/Erase Assistant.app/Contents/MacOS/Erase Assistant",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/Setup Assistant.app",
+        "binary": "/System/Library/CoreServices/Setup Assistant.app/Contents/MacOS/Setup Assistant",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/PassViewer.app",
+        "binary": "/System/Library/CoreServices/PassViewer.app/Contents/MacOS/PassViewer",
+        "used_classes": []
+      }
+    ]
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "loaded"
+  }
+}

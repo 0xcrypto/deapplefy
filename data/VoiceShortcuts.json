@@ -1,0 +1,274 @@
+{
+  "framework": "VoiceShortcuts.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/VoiceShortcuts.framework/Versions/A/Support/siriactionsd",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 91680,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": false,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "swift",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/usr/appleinternal/lib/liblinkguard.dylib",
+          "/System/Library/Frameworks/CoreData.framework/Versions/A/CoreData",
+          "/System/Library/PrivateFrameworks/VoiceShortcutClient.framework/Versions/A/VoiceShortcutClient",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/System/Library/PrivateFrameworks/WorkflowKit.framework/Versions/A/WorkflowKit",
+          "/System/Library/PrivateFrameworks/VoiceShortcuts.framework/Versions/A/VoiceShortcuts",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "/usr/lib/swift/libswiftAVFoundation.dylib",
+          "/usr/lib/swift/libswiftAccelerate.dylib",
+          "/usr/lib/swift/libswiftCompression.dylib",
+          "/usr/lib/swift/libswiftCore.dylib",
+          "/usr/lib/swift/libswiftCoreAudio.dylib",
+          "/usr/lib/swift/libswiftCoreFoundation.dylib",
+          "/usr/lib/swift/libswiftCoreImage.dylib",
+          "/usr/lib/swift/libswiftCoreLocation.dylib",
+          "/usr/lib/swift/libswiftCoreMIDI.dylib",
+          "/usr/lib/swift/libswiftCoreMedia.dylib",
+          "/usr/lib/swift/libswiftDispatch.dylib",
+          "/usr/lib/swift/libswiftIOKit.dylib",
+          "/usr/lib/swift/libswiftIntents.dylib",
+          "/usr/lib/swift/libswiftMLCompute.dylib",
+          "/usr/lib/swift/libswiftMetal.dylib",
+          "/usr/lib/swift/libswiftNaturalLanguage.dylib",
+          "/usr/lib/swift/libswiftOSLog.dylib",
+          "/usr/lib/swift/libswiftObjectiveC.dylib",
+          "/usr/lib/swift/libswiftQuartzCore.dylib",
+          "/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib",
+          "/usr/lib/swift/libswiftXPC.dylib",
+          "/usr/lib/swift/libswift_Builtin_float.dylib",
+          "/usr/lib/swift/libswiftos.dylib",
+          "/usr/lib/swift/libswiftsimd.dylib"
+        ]
+      }
+    },
+    "classes": [],
+    "swift_metadata": {
+      "is_swift": true,
+      "symbols": [
+        {
+          "name": "imp.$s14VoiceShortcuts8VCDaemonC5startyyFTj",
+          "demname": "VoiceShortcuts.VCDaemon.start.allocator(...yFTj)",
+          "flagname": "sym.imp.VoiceShortcuts.VCDaemon.start.allocator_...yFTj_",
+          "realname": "VoiceShortcuts.VCDaemon.start.allocator(...yFTj)",
+          "ordinal": 2,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294972328,
+          "paddr": 86952,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s14VoiceShortcuts8VCDaemonC6daemonACvgZ",
+          "demname": "VoiceShortcuts.VCDaemon.daemon.allocator.(...gZ)",
+          "flagname": "sym.imp.VoiceShortcuts.VCDaemon.daemon.allocator._...gZ_",
+          "realname": "VoiceShortcuts.VCDaemon.daemon.allocator.(...gZ)",
+          "ordinal": 3,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294972344,
+          "paddr": 86968,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s14VoiceShortcuts8VCDaemonCMa",
+          "demname": "VoiceShortcuts.VCDaemon.allocator(...a)",
+          "flagname": "sym.imp.VoiceShortcuts.VCDaemon.allocator_...a_",
+          "realname": "VoiceShortcuts.VCDaemon.allocator(...a)",
+          "ordinal": 4,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294972360,
+          "paddr": 86984,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s19VoiceShortcutClient5WFLogVy2os6LoggerVSo0D12CategoryNameacigZ",
+          "demname": "VoiceShortcutClient.WFLog...Vy2os6LoggerVSo0D12CategoryNameacigZ",
+          "flagname": "sym.imp.VoiceShortcutClient.WFLog...Vy2os6LoggerVSo0D12CategoryNameacigZ",
+          "realname": "VoiceShortcutClient.WFLog...Vy2os6LoggerVSo0D12CategoryNameacigZ",
+          "ordinal": 5,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294972376,
+          "paddr": 87000,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s2os6LoggerV9logObjectSo03OS_a1_C0Cvg",
+          "demname": "os.Logger.logObject.OS_._...C0Cvg",
+          "flagname": "sym.imp.os.Logger.logObject.OS_._...C0Cvg",
+          "realname": "os.Logger.logObject.OS_._...C0Cvg",
+          "ordinal": 6,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294972392,
+          "paddr": 87016,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s2os6LoggerVMa",
+          "demname": "os.Logger...VMa",
+          "flagname": "sym.imp.os.Logger...VMa",
+          "realname": "os.Logger...VMa",
+          "ordinal": 7,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294972408,
+          "paddr": 87032,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ",
+          "demname": "Foundation(...nconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ)",
+          "flagname": "sym.imp.Foundation_...nconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ_",
+          "realname": "Foundation(...nconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ)",
+          "ordinal": 8,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294972424,
+          "paddr": 87048,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSS11utf8CStrings15ContiguousArrayVys4Int8VGvg",
+          "demname": "utf8CString.ContiguousArray.setter...Vys4Int8VGvg",
+          "flagname": "sym.imp.utf8CString.ContiguousArray.setter...Vys4Int8VGvg",
+          "realname": "utf8CString.ContiguousArray.setter...Vys4Int8VGvg",
+          "ordinal": 9,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294972440,
+          "paddr": 87064,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSo13os_log_type_ta0A0E5faultABvgZ",
+          "demname": "os_log_type_t...a0A0E5faultABvgZ",
+          "flagname": "sym.imp.os_log_type_t...a0A0E5faultABvgZ",
+          "realname": "os_log_type_t...a0A0E5faultABvgZ",
+          "ordinal": 10,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4294972456,
+          "paddr": 87080,
+          "is_imported": true
+        }
+      ]
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/Localizable.loctable",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist",
+        "Versions/A/Support/siriactionsd"
+      ],
+      "plists": {
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "VoiceShortcuts",
+          "CFBundleIdentifier": "com.apple.VoiceShortcuts",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "DTPlatformBuild": "25B68",
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "DTPlatformVersion": "26.1",
+          "CFBundleExecutable": "VoiceShortcuts",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTXcode": "2600",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundlePackageType": "FMWK",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "DTSDKBuild": "25B68",
+          "CFBundleDevelopmentRegion": "en",
+          "DTSDKName": "macosx26.1.internal",
+          "CFBundleShortVersionString": "1.0"
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "Shortcuts",
+          "SourceVersion": "4042000002002000",
+          "BuildVersion": "5"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
+  },
+  "usage": {
+    "layer": "usage",
+    "used_by": []
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "loaded"
+  }
+}

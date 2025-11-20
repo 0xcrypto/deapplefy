@@ -1,0 +1,1761 @@
+{
+  "framework": "ContinuousDialogManagerService.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/ContinuousDialogManagerService.framework/assistant_cdmd",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 142880,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "swift",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate",
+          "/System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/AssistantServices",
+          "/System/Library/Frameworks/Contacts.framework/Versions/A/Contacts",
+          "/System/Library/PrivateFrameworks/CoreKnowledge.framework/Versions/A/CoreKnowledge",
+          "/System/Library/PrivateFrameworks/SiriEntityMatcher.framework/Versions/A/SiriEntityMatcher",
+          "/System/Library/PrivateFrameworks/Espresso.framework/Versions/A/Espresso",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/System/Library/Frameworks/Intents.framework/Versions/A/Intents",
+          "/System/Library/PrivateFrameworks/Koa.framework/Versions/A/Koa",
+          "/System/Library/PrivateFrameworks/Marrs.framework/Versions/A/Marrs",
+          "/System/Library/PrivateFrameworks/MorphunAssets.framework/Versions/A/MorphunAssets",
+          "/System/Library/Frameworks/NaturalLanguage.framework/Versions/A/NaturalLanguage",
+          "/System/Library/PrivateFrameworks/SiriNaturalLanguageParsing.framework/Versions/A/SiriNaturalLanguageParsing",
+          "/System/Library/PrivateFrameworks/SiriNLUTypes.framework/Versions/A/SiriNLUTypes",
+          "/System/Library/PrivateFrameworks/SiriOntology.framework/Versions/A/SiriOntology",
+          "/System/Library/PrivateFrameworks/Trial.framework/Versions/A/Trial",
+          "/System/Library/PrivateFrameworks/TrialProto.framework/Versions/A/TrialProto",
+          "/System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics",
+          "/System/Library/PrivateFrameworks/FeatureStore.framework/Versions/A/FeatureStore",
+          "/System/Library/PrivateFrameworks/UnifiedAssetFramework.framework/Versions/A/UnifiedAssetFramework",
+          "/System/Library/PrivateFrameworks/VoiceShortcutClient.framework/Versions/A/VoiceShortcutClient",
+          "/usr/lib/libmarisa.dylib",
+          "/usr/lib/libmorphun.dylib",
+          "/usr/lib/libicucore.A.dylib",
+          "/usr/lib/libskit.dylib",
+          "/System/Library/PrivateFrameworks/CDMFoundation.framework/Versions/A/CDMFoundation",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "/System/Library/PrivateFrameworks/AppSupport.framework/Versions/A/AppSupport",
+          "/usr/lib/swift/libswiftAVFoundation.dylib",
+          "/usr/lib/swift/libswiftAccelerate.dylib",
+          "/usr/lib/swift/libswiftCore.dylib",
+          "/usr/lib/swift/libswiftCoreAudio.dylib",
+          "/usr/lib/swift/libswiftCoreFoundation.dylib",
+          "/usr/lib/swift/libswiftCoreImage.dylib",
+          "/usr/lib/swift/libswiftCoreLocation.dylib",
+          "/usr/lib/swift/libswiftCoreMIDI.dylib",
+          "/usr/lib/swift/libswiftCoreMedia.dylib",
+          "/usr/lib/swift/libswiftDispatch.dylib",
+          "/usr/lib/swift/libswiftIOKit.dylib",
+          "/usr/lib/swift/libswiftIntents.dylib",
+          "/usr/lib/swift/libswiftMLCompute.dylib",
+          "/usr/lib/swift/libswiftMetal.dylib",
+          "/usr/lib/swift/libswiftNaturalLanguage.dylib",
+          "/usr/lib/swift/libswiftOSLog.dylib",
+          "/usr/lib/swift/libswiftObjectiveC.dylib",
+          "/usr/lib/swift/libswiftQuartzCore.dylib",
+          "/usr/lib/swift/libswiftSpatial.dylib",
+          "/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib",
+          "/usr/lib/swift/libswiftXPC.dylib",
+          "/usr/lib/swift/libswift_Builtin_float.dylib",
+          "/usr/lib/swift/libswift_DarwinFoundation1.dylib",
+          "/usr/lib/swift/libswiftos.dylib",
+          "/usr/lib/swift/libswiftsimd.dylib"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "CDMXPCServiceDelegate",
+        "addr": 54320,
+        "lang": "swift",
+        "index": 0,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ],
+        "fields": [
+          {
+            "name": "onConnect",
+            "kind": "property",
+            "type": "NSXPCConnection.allocator__GenericAccessorSg_Sb\u0002\u0095B",
+            "addr": 4295022544
+          },
+          {
+            "name": "onInvalidate",
+            "kind": "property",
+            "type": "NSXPCConnection.allocator__GenericAccessorSgcSg",
+            "addr": 4295022554
+          },
+          {
+            "name": "onInterrupt",
+            "kind": "property",
+            "type": "NSXPCConnection.allocator__GenericAccessorSgcSg",
+            "addr": 4295022567
+          },
+          {
+            "name": "clientType",
+            "kind": "property",
+            "type": "CDMClientInterface.allocator",
+            "addr": 4295022579
+          },
+          {
+            "name": "allowAnonymousConnections",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295022592
+          }
+        ]
+      },
+      {
+        "classname": "CDMXPCActivityListener",
+        "addr": 54484,
+        "lang": "swift",
+        "index": 1,
+        "fields": [
+          {
+            "name": "condition",
+            "kind": "property",
+            "type": "__C.NSCondition",
+            "addr": 4295022618
+          },
+          {
+            "name": "group",
+            "kind": "property",
+            "type": "__C.OS_dispatch_group",
+            "addr": 4295022628
+          },
+          {
+            "name": "queue",
+            "kind": "property",
+            "type": "__C.OS_dispatch_queue",
+            "addr": 4295022634
+          },
+          {
+            "name": "serviceListener",
+            "kind": "property",
+            "addr": 4295022640
+          },
+          {
+            "name": "client",
+            "kind": "property",
+            "type": "__C.CDMFoundationClient",
+            "addr": 4295022656
+          }
+        ]
+      },
+      {
+        "classname": "CDMXPCStreamEventListener",
+        "addr": 54552,
+        "lang": "swift",
+        "index": 2,
+        "fields": [
+          {
+            "name": "condition",
+            "kind": "property",
+            "type": "__C.NSCondition",
+            "addr": 4295022663
+          },
+          {
+            "name": "group",
+            "kind": "property",
+            "type": "__C.OS_dispatch_group",
+            "addr": 4295022673
+          },
+          {
+            "name": "queue",
+            "kind": "property",
+            "type": "__C.OS_dispatch_queue",
+            "addr": 4295022679
+          },
+          {
+            "name": "serviceListener",
+            "kind": "property",
+            "addr": 4295022685
+          },
+          {
+            "name": "client",
+            "kind": "property",
+            "type": "__C.CDMFoundationClient",
+            "addr": 4295022701
+          }
+        ]
+      },
+      {
+        "classname": "CDMXPCService",
+        "addr": 54620,
+        "lang": "swift",
+        "index": 3,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ],
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.CDMXPCService.0",
+            "lang": "swift",
+            "addr": 4295076533
+          },
+          {
+            "name": "1",
+            "flag": "method.CDMXPCService.1",
+            "lang": "swift",
+            "addr": 4295058912
+          },
+          {
+            "name": "2",
+            "flag": "method.CDMXPCService.2",
+            "lang": "swift",
+            "addr": 4295044467
+          },
+          {
+            "name": "3",
+            "flag": "method.CDMXPCService.3",
+            "lang": "swift",
+            "addr": 4295041272
+          },
+          {
+            "name": "4",
+            "flag": "method.CDMXPCService.4",
+            "lang": "swift",
+            "addr": 4295065876
+          },
+          {
+            "name": "5",
+            "flag": "method.CDMXPCService.5",
+            "lang": "swift",
+            "addr": 4295025778
+          },
+          {
+            "name": "6",
+            "flag": "method.CDMXPCService.6",
+            "lang": "swift",
+            "addr": 4295074360
+          },
+          {
+            "name": "7",
+            "flag": "method.CDMXPCService.7",
+            "lang": "swift",
+            "addr": 4295066929
+          }
+        ],
+        "fields": [
+          {
+            "name": "client",
+            "kind": "property",
+            "type": "__C.CDMClientInterface",
+            "addr": 4295022720
+          },
+          {
+            "name": "sandboxExtension",
+            "kind": "property",
+            "addr": 4295022736
+          },
+          {
+            "name": "transaction",
+            "kind": "property",
+            "type": "\f\u00a9\u00f1\u00ff\u00ff_pSg",
+            "addr": 4295022753
+          },
+          {
+            "name": "setupConfig",
+            "kind": "property",
+            "type": "CDMClientSetup.allocator__GenericAccessorSg",
+            "addr": 4295022765
+          },
+          {
+            "name": "idleTimer",
+            "kind": "property",
+            "type": "\fq\u00f1\u00ff\u00ff_pSg",
+            "addr": 4295022777
+          },
+          {
+            "name": "idleTimerQueue",
+            "kind": "property",
+            "type": "__C.OS_dispatch_queue",
+            "addr": 4295022787
+          }
+        ]
+      },
+      {
+        "classname": "CDMXPCServiceError",
+        "addr": 54904,
+        "lang": "swift",
+        "index": 4,
+        "fields": [
+          {
+            "name": "CDMFoundationClientTypeDowncastFailed",
+            "kind": "property",
+            "addr": 4295022816
+          }
+        ]
+      },
+      {
+        "classname": "CDMXPCListener",
+        "addr": 54932,
+        "lang": "swift",
+        "index": 5,
+        "fields": [
+          {
+            "name": "listener",
+            "kind": "property",
+            "type": "__C.NSXPCListener",
+            "addr": 4295022854
+          },
+          {
+            "name": "delegate",
+            "kind": "property",
+            "addr": 4295022863
+          },
+          {
+            "name": "connections",
+            "kind": "property",
+            "type": "Swift.Int",
+            "addr": 4295022872
+          }
+        ]
+      },
+      {
+        "classname": "CDMXPCSandboxExtension",
+        "addr": 55032,
+        "lang": "swift",
+        "index": 6,
+        "fields": [
+          {
+            "name": "token",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295022884
+          },
+          {
+            "name": "handle",
+            "kind": "property",
+            "addr": 4295022890
+          }
+        ]
+      },
+      {
+        "classname": "SandboxExtensionError",
+        "addr": 55092,
+        "lang": "swift",
+        "index": 7,
+        "fields": [
+          {
+            "name": "sandboxError",
+            "kind": "property",
+            "addr": 4295022897
+          }
+        ]
+      },
+      {
+        "classname": "CDMSignalHandler",
+        "addr": 55120,
+        "lang": "swift",
+        "index": 8
+      },
+      {
+        "classname": "NLRouterSignposts",
+        "addr": 55148,
+        "lang": "swift",
+        "index": 9
+      },
+      {
+        "classname": "CDMDaemon",
+        "addr": 55176,
+        "lang": "swift",
+        "index": 10,
+        "fields": [
+          {
+            "name": "foundationClient",
+            "kind": "property",
+            "type": "__C.CDMFoundationClient",
+            "addr": 4295022912
+          },
+          {
+            "name": "xpcServiceListener",
+            "kind": "property",
+            "addr": 4295022944
+          },
+          {
+            "name": "xpcStreamEventListener",
+            "kind": "property",
+            "addr": 4295022976
+          },
+          {
+            "name": "xpcActivityListener",
+            "kind": "property",
+            "addr": 4295023008
+          },
+          {
+            "name": "maintenanceCondition",
+            "kind": "property",
+            "type": "__C.NSCondition",
+            "addr": 4295023040
+          },
+          {
+            "name": "maintenanceGroup",
+            "kind": "property",
+            "type": "__C.OS_dispatch_group",
+            "addr": 4295023072
+          },
+          {
+            "name": "xpcEventAndActivityQueue",
+            "kind": "property",
+            "type": "__C.OS_dispatch_queue",
+            "addr": 4295023104
+          }
+        ]
+      },
+      {
+        "classname": "assistant_cdmd.CDMXPCServiceDelegate",
+        "addr": 4295053200,
+        "lang": "objc",
+        "index": 11,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "listener:shouldAcceptNewConnection:",
+            "flag": "method.assistant_cdmd.CDMXPCServiceDelegate.listener:shouldAcceptNewConnection:",
+            "lang": "objc",
+            "addr": 4294978668
+          },
+          {
+            "name": "init",
+            "flag": "method.assistant_cdmd.CDMXPCServiceDelegate.init",
+            "lang": "objc",
+            "addr": 4294978836
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.assistant_cdmd.CDMXPCServiceDelegate..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294978904
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "onConnect",
+            "kind": "var",
+            "addr": 4295053136
+          },
+          {
+            "name": "onInvalidate",
+            "kind": "var",
+            "addr": 4295053144
+          },
+          {
+            "name": "onInterrupt",
+            "kind": "var",
+            "addr": 4295053152
+          },
+          {
+            "name": "clientType",
+            "kind": "var",
+            "addr": 4295053160
+          },
+          {
+            "name": "allowAnonymousConnections",
+            "kind": "var",
+            "addr": 4295053168
+          }
+        ]
+      },
+      {
+        "classname": "assistant_cdmd.CDMXPCActivityListener",
+        "addr": 4295053576,
+        "lang": "objc",
+        "index": 12,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "condition",
+            "kind": "var",
+            "addr": 4295013600
+          },
+          {
+            "name": "group",
+            "kind": "var",
+            "addr": 4295013608
+          },
+          {
+            "name": "queue",
+            "kind": "var",
+            "addr": 4295013616
+          },
+          {
+            "name": "serviceListener",
+            "kind": "var",
+            "addr": 4295013624
+          },
+          {
+            "name": "client",
+            "kind": "var",
+            "addr": 4295013632
+          }
+        ]
+      },
+      {
+        "classname": "assistant_cdmd.CDMXPCStreamEventListener",
+        "addr": 4295053776,
+        "lang": "objc",
+        "index": 13,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "condition",
+            "kind": "var",
+            "addr": 4295013680
+          },
+          {
+            "name": "group",
+            "kind": "var",
+            "addr": 4295013688
+          },
+          {
+            "name": "queue",
+            "kind": "var",
+            "addr": 4295013696
+          },
+          {
+            "name": "serviceListener",
+            "kind": "var",
+            "addr": 4295013704
+          },
+          {
+            "name": "client",
+            "kind": "var",
+            "addr": 4295013712
+          }
+        ]
+      },
+      {
+        "classname": "assistant_cdmd.CDMXPCService",
+        "addr": 4295054072,
+        "lang": "objc",
+        "index": 14,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "client",
+            "flag": "method.assistant_cdmd.CDMXPCService.client",
+            "lang": "objc",
+            "addr": 4294986592
+          },
+          {
+            "name": "setClient:",
+            "flag": "method.assistant_cdmd.CDMXPCService.setClient:",
+            "lang": "objc",
+            "addr": 4294986716
+          },
+          {
+            "name": "idleTimer",
+            "flag": "method.assistant_cdmd.CDMXPCService.idleTimer",
+            "lang": "objc",
+            "addr": 4294986952
+          },
+          {
+            "name": "setIdleTimer:",
+            "flag": "method.assistant_cdmd.CDMXPCService.setIdleTimer:",
+            "lang": "objc",
+            "addr": 4294987064
+          },
+          {
+            "name": "init",
+            "flag": "method.assistant_cdmd.CDMXPCService.init",
+            "lang": "objc",
+            "addr": 4294988080
+          },
+          {
+            "name": "initWithClientToUse:idleTimerQueue:",
+            "flag": "method.assistant_cdmd.CDMXPCService.initWithClientToUse:idleTimerQueue:",
+            "lang": "objc",
+            "addr": 4294988300
+          },
+          {
+            "name": "wake",
+            "flag": "func.100005658",
+            "lang": "objc",
+            "addr": 4294989400
+          },
+          {
+            "name": "sandboxToken",
+            "flag": "method.assistant_cdmd.CDMXPCService.sandboxToken",
+            "lang": "objc",
+            "addr": 4294989756
+          },
+          {
+            "name": "setupWithConfig:completionHandler:",
+            "flag": "func.10000607c",
+            "lang": "objc",
+            "addr": 4294991996
+          },
+          {
+            "name": "warmupWithCompletionHandler:",
+            "flag": "func.10000661c",
+            "lang": "objc",
+            "addr": 4294993436
+          },
+          {
+            "name": "processCDMNluRequestWithCdmNluRequest:completionHandler:",
+            "flag": "func.100006880",
+            "lang": "objc",
+            "addr": 4294994048
+          },
+          {
+            "name": "areAssetsAvailableWithLocale:completionHandler:",
+            "flag": "func.100006a2c",
+            "lang": "objc",
+            "addr": 4294994476
+          },
+          {
+            "name": "processRequestWithServiceGraphCommand:completionHandler:",
+            "flag": "func.100006d64",
+            "lang": "objc",
+            "addr": 4294995300
+          },
+          {
+            "name": "waitForDataDispatcherCompletionWithCompletionHandler:",
+            "flag": "func.1000070b0",
+            "lang": "objc",
+            "addr": 4294996144
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.assistant_cdmd.CDMXPCService.dealloc",
+            "lang": "objc",
+            "addr": 4295000376
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.assistant_cdmd.CDMXPCService..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295000416
+          },
+          {
+            "name": "wake",
+            "flag": "method.assistant_cdmd.CDMXPCService.wake",
+            "lang": "objc",
+            "addr": 4295013384
+          },
+          {
+            "name": "setupWithConfig:completionHandler:",
+            "flag": "method.assistant_cdmd.CDMXPCService.setupWithConfig:completionHandler:",
+            "lang": "objc",
+            "addr": 4295013396
+          },
+          {
+            "name": "warmupWithCompletionHandler:",
+            "flag": "method.assistant_cdmd.CDMXPCService.warmupWithCompletionHandler:",
+            "lang": "objc",
+            "addr": 4295013408
+          },
+          {
+            "name": "processCDMNluRequestWithCdmNluRequest:completionHandler:",
+            "flag": "method.assistant_cdmd.CDMXPCService.processCDMNluRequestWithCdmNluRequest:completionHandler:",
+            "lang": "objc",
+            "addr": 4295013420
+          },
+          {
+            "name": "areAssetsAvailableWithLocale:completionHandler:",
+            "flag": "method.assistant_cdmd.CDMXPCService.areAssetsAvailableWithLocale:completionHandler:",
+            "lang": "objc",
+            "addr": 4295013432
+          },
+          {
+            "name": "processRequestWithServiceGraphCommand:completionHandler:",
+            "flag": "method.assistant_cdmd.CDMXPCService.processRequestWithServiceGraphCommand:completionHandler:",
+            "lang": "objc",
+            "addr": 4295013444
+          },
+          {
+            "name": "waitForDataDispatcherCompletionWithCompletionHandler:",
+            "flag": "method.assistant_cdmd.CDMXPCService.waitForDataDispatcherCompletionWithCompletionHandler:",
+            "lang": "objc",
+            "addr": 4295013456
+          },
+          {
+            "name": "wake",
+            "flag": "method.assistant_cdmd.CDMXPCService.wake",
+            "lang": "objc",
+            "addr": 4295013384
+          },
+          {
+            "name": "setupWithConfig:completionHandler:",
+            "flag": "method.assistant_cdmd.CDMXPCService.setupWithConfig:completionHandler:",
+            "lang": "objc",
+            "addr": 4295013396
+          },
+          {
+            "name": "warmupWithCompletionHandler:",
+            "flag": "method.assistant_cdmd.CDMXPCService.warmupWithCompletionHandler:",
+            "lang": "objc",
+            "addr": 4295013408
+          },
+          {
+            "name": "processCDMNluRequestWithCdmNluRequest:completionHandler:",
+            "flag": "method.assistant_cdmd.CDMXPCService.processCDMNluRequestWithCdmNluRequest:completionHandler:",
+            "lang": "objc",
+            "addr": 4295013420
+          },
+          {
+            "name": "areAssetsAvailableWithLocale:completionHandler:",
+            "flag": "method.assistant_cdmd.CDMXPCService.areAssetsAvailableWithLocale:completionHandler:",
+            "lang": "objc",
+            "addr": 4295013432
+          },
+          {
+            "name": "processRequestWithServiceGraphCommand:completionHandler:",
+            "flag": "method.assistant_cdmd.CDMXPCService.processRequestWithServiceGraphCommand:completionHandler:",
+            "lang": "objc",
+            "addr": 4295013444
+          },
+          {
+            "name": "waitForDataDispatcherCompletionWithCompletionHandler:",
+            "flag": "method.assistant_cdmd.CDMXPCService.waitForDataDispatcherCompletionWithCompletionHandler:",
+            "lang": "objc",
+            "addr": 4295013456
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "client",
+            "kind": "var",
+            "type": "@\"CDMClientInterface\"",
+            "addr": 4295053984
+          },
+          {
+            "name": "sandboxExtension",
+            "kind": "var",
+            "addr": 4295054480
+          },
+          {
+            "name": "transaction",
+            "kind": "var",
+            "addr": 4295054488
+          },
+          {
+            "name": "setupConfig",
+            "kind": "var",
+            "addr": 4295054496
+          },
+          {
+            "name": "idleTimer",
+            "kind": "var",
+            "type": "@\"<OS_dispatch_source_timer>\"",
+            "addr": 4295053992
+          },
+          {
+            "name": "idleTimerQueue",
+            "kind": "var",
+            "addr": 4295054504
+          },
+          {
+            "name": "client",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "idleTimer",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "assistant_cdmd.CDMXPCListener",
+        "addr": 4295054520,
+        "lang": "objc",
+        "index": 15,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "listener",
+            "kind": "var",
+            "addr": 4295014080
+          },
+          {
+            "name": "delegate",
+            "kind": "var",
+            "addr": 4295014088
+          },
+          {
+            "name": "connections",
+            "kind": "var",
+            "addr": 4295014096
+          }
+        ]
+      },
+      {
+        "classname": "assistant_cdmd.CDMXPCSandboxExtension",
+        "addr": 4295054744,
+        "lang": "objc",
+        "index": 16,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "token",
+            "kind": "var",
+            "addr": 4295014192
+          },
+          {
+            "name": "handle",
+            "kind": "var",
+            "addr": 4295014200
+          }
+        ]
+      },
+      {
+        "classname": "assistant_cdmd.CDMDaemon",
+        "addr": 4295054912,
+        "lang": "objc",
+        "index": 17,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "foundationClient",
+            "kind": "var",
+            "addr": 4295014328
+          },
+          {
+            "name": "xpcServiceListener",
+            "kind": "var",
+            "addr": 4295014336
+          },
+          {
+            "name": "xpcStreamEventListener",
+            "kind": "var",
+            "addr": 4295014344
+          },
+          {
+            "name": "xpcActivityListener",
+            "kind": "var",
+            "addr": 4295014352
+          },
+          {
+            "name": "maintenanceCondition",
+            "kind": "var",
+            "addr": 4295014360
+          },
+          {
+            "name": "maintenanceGroup",
+            "kind": "var",
+            "addr": 4295014368
+          },
+          {
+            "name": "xpcEventAndActivityQueue",
+            "kind": "var",
+            "addr": 4295014376
+          }
+        ]
+      }
+    ],
+    "swift_metadata": {
+      "is_swift": true,
+      "symbols": [
+        {
+          "name": "imp.$s10Foundation22_convertErrorToNSErrorySo0E0Cs0C0_pF",
+          "demname": "Foundation._convertErrorToNSError(...F)",
+          "flagname": "sym.imp.Foundation._convertErrorToNSError_...F_",
+          "realname": "Foundation._convertErrorToNSError(...F)",
+          "ordinal": 2,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295010532,
+          "paddr": 174308,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation6LocaleV19_bridgeToObjectiveCSo8NSLocaleCyF",
+          "demname": "Foundation.Locale._bridgeToObjectiveC.NSLocale(...F)",
+          "flagname": "sym.imp.Foundation.Locale._bridgeToObjectiveC.NSLocale_...F_",
+          "realname": "Foundation.Locale._bridgeToObjectiveC.NSLocale(...F)",
+          "ordinal": 3,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295010548,
+          "paddr": 174324,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation6LocaleV36_unconditionallyBridgeFromObjectiveCyACSo8NSLocaleCSgFZ",
+          "demname": "Foundation.Locale._unconditionallyBridgeFromObjectiveC.NSLocale(...gFZ)",
+          "flagname": "sym.imp.Foundation.Locale._unconditionallyBridgeFromObjectiveC.NSLocale_...gFZ_",
+          "realname": "Foundation.Locale._unconditionallyBridgeFromObjectiveC.NSLocale(...gFZ)",
+          "ordinal": 4,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295010564,
+          "paddr": 174340,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation6LocaleVMa",
+          "demname": "Foundation.Locale...VMa",
+          "flagname": "sym.imp.Foundation.Locale...VMa",
+          "realname": "Foundation.Locale...VMa",
+          "ordinal": 5,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295010580,
+          "paddr": 174356,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13CDMFoundation13CDMNluRequestC9objcProtoACSo021SIRINLUEXTERNALCDMNluC0C_tcfc",
+          "demname": "CDMFoundation.CDMNluRequest.objcProto.allocator.: allocator, objcProto.: allocator, A.CSo021SIRINLUEXTERNALCDMNluC0C_tcfc",
+          "flagname": "sym.imp.CDMFoundation.CDMNluRequest.objcProto.allocator.:_allocator__objcProto.:_allocator__A.CSo021SIRINLUEXTERNALCDMNluC0C_tcfc",
+          "realname": "CDMFoundation.CDMNluRequest.objcProto.allocator.: allocator, objcProto.: allocator, A.CSo021SIRINLUEXTERNALCDMNluC0C_tcfc",
+          "ordinal": 6,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295010596,
+          "paddr": 174372,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13CDMFoundation13CDMNluRequestCMa",
+          "demname": "CDMFoundation.CDMNluRequest.allocator(...a)",
+          "flagname": "sym.imp.CDMFoundation.CDMNluRequest.allocator_...a_",
+          "realname": "CDMFoundation.CDMNluRequest.allocator(...a)",
+          "ordinal": 7,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295010612,
+          "paddr": 174388,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13CDMFoundation13CDMXPCDefinesC15machServiceNameSSyFZTj",
+          "demname": "CDMFoundation.CDMXPCDefines.machServiceName.allocator__Swift.String__String: allocator, machServiceName__String: allocator, S -> allocator",
+          "flagname": "sym.imp.CDMFoundation.CDMXPCDefines.machServiceName.allocator__Swift.String__String:_allocator__machServiceName__String:_allocator__S____allocator",
+          "realname": "CDMFoundation.CDMXPCDefines.machServiceName.allocator__Swift.String__String: allocator, machServiceName__String: allocator, S -> allocator",
+          "ordinal": 8,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295010628,
+          "paddr": 174404,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13CDMFoundation13CDMXPCDefinesCMa",
+          "demname": "CDMFoundation.CDMXPCDefines.allocator(...a)",
+          "flagname": "sym.imp.CDMFoundation.CDMXPCDefines.allocator_...a_",
+          "realname": "CDMFoundation.CDMXPCDefines.allocator(...a)",
+          "ordinal": 9,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295010644,
+          "paddr": 174420,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13CDMFoundation14CDMNluResponseC9objcProtoSo021SIRINLUEXTERNALCDMNluC0CSgvgTj",
+          "demname": "CDMFoundation.CDMNluResponse.objcProto.allocator: allocator, objcProto: allocator, S.SIRINLUEXTERNALCDMNlu...C0CSgvgTj",
+          "flagname": "sym.imp.CDMFoundation.CDMNluResponse.objcProto.allocator:_allocator__objcProto:_allocator__S.SIRINLUEXTERNALCDMNlu...C0CSgvgTj",
+          "realname": "CDMFoundation.CDMNluResponse.objcProto.allocator: allocator, objcProto: allocator, S.SIRINLUEXTERNALCDMNlu...C0CSgvgTj",
+          "ordinal": 10,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295010660,
+          "paddr": 174436,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s2os0A4_log_3dso0B0__ySo0a1_B7_type_ta_SVSo03OS_a1_B0Cs12StaticStringVs7CVarArg_pdtF",
+          "demname": "os._log.dso.....ySo0a1_B7_type_ta_SVSo03OS_a1_B0Cs12StaticStringVs7CVarArg_pdtF",
+          "flagname": "sym.imp.os._log.dso.....ySo0a1_B7_type_ta_SVSo03OS_a1_B0Cs12StaticStringVs7CVarArg_pdtF",
+          "realname": "os._log.dso.....ySo0a1_B7_type_ta_SVSo03OS_a1_B0Cs12StaticStringVs7CVarArg_pdtF",
+          "ordinal": 11,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295010676,
+          "paddr": 174452,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s6Darwin5errnos5Int32Vvg",
+          "demname": "Darwin.errno.Int32.setter...Vvg",
+          "flagname": "sym.imp.Darwin.errno.Int32.setter...Vvg",
+          "realname": "Darwin.errno.Int32.setter...Vvg",
+          "ordinal": 12,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295010692,
+          "paddr": 174468,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Dispatch0A12TimeIntervalOMa",
+          "demname": "Dispatch.TimeInterval..metadata.accessor(...a)",
+          "flagname": "sym.imp.Dispatch.TimeInterval..metadata.accessor_...a_",
+          "realname": "Dispatch.TimeInterval..metadata.accessor(...a)",
+          "ordinal": 13,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295010708,
+          "paddr": 174484,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Dispatch0A13WorkItemFlagsVMa",
+          "demname": "Dispatch.WorkItemFlags...VMa",
+          "flagname": "sym.imp.Dispatch.WorkItemFlags...VMa",
+          "realname": "Dispatch.WorkItemFlags...VMa",
+          "ordinal": 14,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295010724,
+          "paddr": 174500,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Dispatch0A3QoSV10backgroundACvgZ",
+          "demname": "Dispatch.QoS.background(...vgZ)",
+          "flagname": "sym.imp.Dispatch.QoS.background_...vgZ_",
+          "realname": "Dispatch.QoS.background(...vgZ)",
+          "ordinal": 15,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295010740,
+          "paddr": 174516,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Dispatch0A3QoSV11unspecifiedACvgZ",
+          "demname": "Dispatch.QoS.unspecified(...vgZ)",
+          "flagname": "sym.imp.Dispatch.QoS.unspecified_...vgZ_",
+          "realname": "Dispatch.QoS.unspecified(...vgZ)",
+          "ordinal": 16,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295010756,
+          "paddr": 174532,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Dispatch0A3QoSVMa",
+          "demname": "Dispatch.QoS...VMa",
+          "flagname": "sym.imp.Dispatch.QoS...VMa",
+          "realname": "Dispatch.QoS...VMa",
+          "ordinal": 17,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295010772,
+          "paddr": 174548,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Dispatch0A4TimeV3nowACyFZ",
+          "demname": "Dispatch.Time.now(...yFZ)",
+          "flagname": "sym.imp.Dispatch.Time.now_...yFZ_",
+          "realname": "Dispatch.Time.now(...yFZ)",
+          "ordinal": 18,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295010788,
+          "paddr": 174564,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Dispatch0A4TimeVMa",
+          "demname": "Dispatch.Time...VMa",
+          "flagname": "sym.imp.Dispatch.Time...VMa",
+          "realname": "Dispatch.Time...VMa",
+          "ordinal": 19,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295010804,
+          "paddr": 174580,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Dispatch1poiyAA0A4TimeVAD_SdtF",
+          "demname": "Dispatch.p(...dtF)",
+          "flagname": "sym.imp.Dispatch.p_...dtF_",
+          "realname": "Dispatch.p(...dtF)",
+          "ordinal": 20,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295010820,
+          "paddr": 174596,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSD10FoundationE36_unconditionallyBridgeFromObjectiveCySDyxq_GSo12NSDictionaryCSgFZ",
+          "demname": "Foundation.NSDictionary(...gFZ)",
+          "flagname": "sym.imp.Foundation.NSDictionary_...gFZ_",
+          "realname": "Foundation.NSDictionary(...gFZ)",
+          "ordinal": 21,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295010836,
+          "paddr": 174612,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF",
+          "demname": "Foundationbool(...ridgeToObjectiveCSo8NSStringCyF)",
+          "flagname": "sym.imp.Foundationbool_...ridgeToObjectiveCSo8NSStringCyF_",
+          "realname": "Foundationbool(...ridgeToObjectiveCSo8NSStringCyF)",
+          "ordinal": 22,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295010852,
+          "paddr": 174628,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ",
+          "demname": "Foundation(...nconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ)",
+          "flagname": "sym.imp.Foundation_...nconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ_",
+          "realname": "Foundation(...nconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ)",
+          "ordinal": 23,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295010868,
+          "paddr": 174644,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSS11utf8CStrings15ContiguousArrayVys4Int8VGvg",
+          "demname": "utf8CString.ContiguousArray.setter...Vys4Int8VGvg",
+          "flagname": "sym.imp.utf8CString.ContiguousArray.setter...Vys4Int8VGvg",
+          "realname": "utf8CString.ContiguousArray.setter...Vys4Int8VGvg",
+          "ordinal": 24,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295010884,
+          "paddr": 174660,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSS8UTF8ViewV13_foreignCountSiyF",
+          "demname": "UTF8View._foreignCount(...yF)",
+          "flagname": "sym.imp.UTF8View._foreignCount_...yF_",
+          "realname": "UTF8View._foreignCount(...yF)",
+          "ordinal": 25,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295010900,
+          "paddr": 174676,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSd10FoundationE34_conditionallyBridgeFromObjectiveC_6resultSbSo8NSNumberC_SdSgztFZ",
+          "demname": "Foundation(...dSgztFZ)",
+          "flagname": "sym.imp.Foundation_...dSgztFZ_",
+          "realname": "Foundation(...dSgztFZ)",
+          "ordinal": 26,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295010916,
+          "paddr": 174692,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSh10FoundationE36_unconditionallyBridgeFromObjectiveCyShyxGSo5NSSetCSgFZ",
+          "demname": "Foundation(...nconditionallyBridgeFromObjectiveCyShyxGSo5NSSetCSgFZ)",
+          "flagname": "sym.imp.Foundation_...nconditionallyBridgeFromObjectiveCyShyxGSo5NSSetCSgFZ_",
+          "realname": "Foundation(...nconditionallyBridgeFromObjectiveCyShyxGSo5NSSetCSgFZ)",
+          "ordinal": 27,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295010932,
+          "paddr": 174708,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSo13os_log_type_ta0A0E4infoABvgZ",
+          "demname": "os_log_type_t...a0A0E4infoABvgZ",
+          "flagname": "sym.imp.os_log_type_t...a0A0E4infoABvgZ",
+          "realname": "os_log_type_t...a0A0E4infoABvgZ",
+          "ordinal": 28,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295010948,
+          "paddr": 174724,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSo13os_log_type_ta0A0E5debugABvgZ",
+          "demname": "os_log_type_t...a0A0E5debugABvgZ",
+          "flagname": "sym.imp.os_log_type_t...a0A0E5debugABvgZ",
+          "realname": "os_log_type_t...a0A0E5debugABvgZ",
+          "ordinal": 29,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295010964,
+          "paddr": 174740,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSo13os_log_type_ta0A0E5errorABvgZ",
+          "demname": "os_log_type_t...a0A0E5errorABvgZ",
+          "flagname": "sym.imp.os_log_type_t...a0A0E5errorABvgZ",
+          "realname": "os_log_type_t...a0A0E5errorABvgZ",
+          "ordinal": 30,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295010980,
+          "paddr": 174756,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSo13os_log_type_ta0A0E5faultABvgZ",
+          "demname": "os_log_type_t...a0A0E5faultABvgZ",
+          "flagname": "sym.imp.os_log_type_t...a0A0E5faultABvgZ",
+          "realname": "os_log_type_t...a0A0E5faultABvgZ",
+          "ordinal": 31,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295010996,
+          "paddr": 174772,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSo17OS_dispatch_queueC8DispatchE10AttributesV10concurrentAEvgZ",
+          "demname": "OS_dispatch_queue.Dispatch.allocator.Attributes.concurrent(...vgZ)",
+          "flagname": "sym.imp.OS_dispatch_queue.Dispatch.allocator.Attributes.concurrent_...vgZ_",
+          "realname": "OS_dispatch_queue.Dispatch.allocator.Attributes.concurrent(...vgZ)",
+          "ordinal": 32,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295011012,
+          "paddr": 174788,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSo17OS_dispatch_queueC8DispatchE10AttributesVMa",
+          "demname": "OS_dispatch_queue.Dispatch.allocator.Attributes...VMa",
+          "flagname": "sym.imp.OS_dispatch_queue.Dispatch.allocator.Attributes...VMa",
+          "realname": "OS_dispatch_queue.Dispatch.allocator.Attributes...VMa",
+          "ordinal": 33,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295011028,
+          "paddr": 174804,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSo17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyOMa",
+          "demname": "OS_dispatch_queue.Dispatch.allocator.AutoreleaseFrequency(...a)",
+          "flagname": "sym.imp.OS_dispatch_queue.Dispatch.allocator.AutoreleaseFrequency_...a_",
+          "realname": "OS_dispatch_queue.Dispatch.allocator.AutoreleaseFrequency(...a)",
+          "ordinal": 34,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295011044,
+          "paddr": 174820,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSo17OS_dispatch_queueC8DispatchE4mainABvgZ",
+          "demname": "OS_dispatch_queue.Dispatch.allocator.main(...vgZ)",
+          "flagname": "sym.imp.OS_dispatch_queue.Dispatch.allocator.main_...vgZ_",
+          "realname": "OS_dispatch_queue.Dispatch.allocator.main(...vgZ)",
+          "ordinal": 35,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295011060,
+          "paddr": 174836,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSo17OS_dispatch_queueC8DispatchE5label3qos10attributes20autoreleaseFrequency6targetABSS_AC0D3QoSVAbCE10AttributesVAbCE011AutoreleaseI0OABSgtcfC",
+          "demname": "OS_dispatch_queue.Dispatch.allocator.(...D3QoSVAbCE10AttributesVAbCE011AutoreleaseI0OABSgtcfC)",
+          "flagname": "sym.imp.OS_dispatch_queue.Dispatch.allocator._...D3QoSVAbCE10AttributesVAbCE011AutoreleaseI0OABSgtcfC_",
+          "realname": "OS_dispatch_queue.Dispatch.allocator.(...D3QoSVAbCE10AttributesVAbCE011AutoreleaseI0OABSgtcfC)",
+          "ordinal": 36,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295011076,
+          "paddr": 174852,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSo18OS_dispatch_sourceC8DispatchE10TimerFlagsVMa",
+          "demname": "OS_dispatch_source.Dispatch.allocator.TimerFlags...VMa",
+          "flagname": "sym.imp.OS_dispatch_source.Dispatch.allocator.TimerFlags...VMa",
+          "realname": "OS_dispatch_source.Dispatch.allocator.TimerFlags...VMa",
+          "ordinal": 37,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295011092,
+          "paddr": 174868,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSo18OS_dispatch_sourceC8DispatchE15makeTimerSource5flags5queueSo0a1_b1_C6_timer_pAbCE0F5FlagsV_So0a1_b1_I0CSgtFZ",
+          "demname": "OS_dispatch_source.Dispatch.allocatorbool._timer....pAbCE0F5FlagsV_So0a1_b1_I0CSgtFZ",
+          "flagname": "sym.imp.OS_dispatch_source.Dispatch.allocatorbool._timer....pAbCE0F5FlagsV_So0a1_b1_I0CSgtFZ",
+          "realname": "OS_dispatch_source.Dispatch.allocatorbool._timer....pAbCE0F5FlagsV_So0a1_b1_I0CSgtFZ",
+          "ordinal": 38,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295011108,
+          "paddr": 174884,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSo18OS_dispatch_sourceC8DispatchE16makeSignalSource6signal5queueSo0a1_b1_c1_H0_ps5Int32V_So0a1_b1_I0CSgtFZ",
+          "demname": "OS_dispatch_source.Dispatch.allocatorboolbool...I0CSgtFZ",
+          "flagname": "sym.imp.OS_dispatch_source.Dispatch.allocatorboolbool...I0CSgtFZ",
+          "realname": "OS_dispatch_source.Dispatch.allocatorboolbool...I0CSgtFZ",
+          "ordinal": 39,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295011124,
+          "paddr": 174900,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSo18OS_dispatch_sourceP8DispatchE15setEventHandler3qos5flags7handleryAC0D3QoSV_AC0D13WorkItemFlagsVyyXBSgtF",
+          "demname": "OS_dispatch_source.Dispatch.(...D13WorkItemFlagsVyyXBSgtF)",
+          "flagname": "sym.imp.OS_dispatch_source.Dispatch._...D13WorkItemFlagsVyyXBSgtF_",
+          "realname": "OS_dispatch_source.Dispatch.(...D13WorkItemFlagsVyyXBSgtF)",
+          "ordinal": 40,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295011140,
+          "paddr": 174916,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSo18OS_dispatch_sourceP8DispatchE6cancelyyF",
+          "demname": "OS_dispatch_source.Dispatch.cancel(...F)",
+          "flagname": "sym.imp.OS_dispatch_source.Dispatch.cancel_...F_",
+          "realname": "OS_dispatch_source.Dispatch.cancel(...F)",
+          "ordinal": 41,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295011156,
+          "paddr": 174932,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSo18OS_dispatch_sourceP8DispatchE6resumeyyF",
+          "demname": "OS_dispatch_source.Dispatch.resume(...F)",
+          "flagname": "sym.imp.OS_dispatch_source.Dispatch.resume_...F_",
+          "realname": "OS_dispatch_source.Dispatch.resume(...F)",
+          "ordinal": 42,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295011172,
+          "paddr": 174948,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSo18OS_dispatch_sourceP8DispatchE8activateyyF",
+          "demname": "OS_dispatch_source.Dispatch.activate(...F)",
+          "flagname": "sym.imp.OS_dispatch_source.Dispatch.activate_...F_",
+          "realname": "OS_dispatch_source.Dispatch.activate(...F)",
+          "ordinal": 43,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295011188,
+          "paddr": 174964,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSo24OS_dispatch_source_timerP8DispatchE8schedule8deadline9repeating6leewayyAC0E4TimeV_AC0eJ8IntervalOAKtF",
+          "demname": "OS_dispatch_source_timer.Dispatch.(...eJ8IntervalOAKtF)",
+          "flagname": "sym.imp.OS_dispatch_source_timer.Dispatch._...eJ8IntervalOAKtF_",
+          "realname": "OS_dispatch_source_timer.Dispatch.(...eJ8IntervalOAKtF)",
+          "ordinal": 44,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295011204,
+          "paddr": 174980,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSo8NSNumberC10FoundationE14booleanLiteralABSb_tcfC",
+          "demname": "NSNumber.Foundation.allocator(...cfC)",
+          "flagname": "sym.imp.NSNumber.Foundation.allocator_...cfC_",
+          "realname": "NSNumber.Foundation.allocator(...cfC)",
+          "ordinal": 45,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295011220,
+          "paddr": 174996,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSo8NSObjectC10ObjectiveCE2eeoiySbAB_ABtFZ",
+          "demname": "NSObject.ObjectiveC.allocator.(...FZ)",
+          "flagname": "sym.imp.NSObject.ObjectiveC.allocator._...FZ_",
+          "realname": "NSObject.ObjectiveC.allocator.(...FZ)",
+          "ordinal": 46,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295011236,
+          "paddr": 175012,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSo9OS_os_logC0B0E9subsystem8categoryABSS_SStcfC",
+          "demname": "OS_os_log.allocator__String(...tcfC)",
+          "flagname": "sym.imp.OS_os_log.allocator__String_...tcfC_",
+          "realname": "OS_os_log.allocator__String(...tcfC)",
+          "ordinal": 47,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295011252,
+          "paddr": 175028,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$ss018_bridgeAnyObjectToB0yypyXlSgF",
+          "demname": "_bridgeAnyObjectTo...B0yypyXlSgF",
+          "flagname": "sym.imp._bridgeAnyObjectTo...B0yypyXlSgF",
+          "realname": "_bridgeAnyObjectTo...B0yypyXlSgF",
+          "ordinal": 48,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295011268,
+          "paddr": 175044,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$ss10SetAlgebraPyxqd__ncSTRd__7ElementQyd__ACRtzlufCTj",
+          "demname": "SetAlgebra....ncSTRd__7ElementQyd__ACRtzlufCTj",
+          "flagname": "sym.imp.SetAlgebra....ncSTRd__7ElementQyd__ACRtzlufCTj",
+          "realname": "SetAlgebra....ncSTRd__7ElementQyd__ACRtzlufCTj",
+          "ordinal": 49,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295011284,
+          "paddr": 175060,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$ss11_StringGutsV16_foreignCopyUTF84intoSiSgSrys5UInt8VG_tF",
+          "demname": "_StringGuts._foreignCopyUTF8.into.UInt8...VG_tF",
+          "flagname": "sym.imp._StringGuts._foreignCopyUTF8.into.UInt8...VG_tF",
+          "realname": "_StringGuts._foreignCopyUTF8.into.UInt8...VG_tF",
+          "ordinal": 50,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295011300,
+          "paddr": 175076,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$ss11_StringGutsV16_slowWithCStringyxxSPys4Int8VGKXEKlF",
+          "demname": "_StringGuts._slowWithCString.Int8...VGKXEKlF",
+          "flagname": "sym.imp._StringGuts._slowWithCString.Int8...VGKXEKlF",
+          "realname": "_StringGuts._slowWithCString.Int8...VGKXEKlF",
+          "ordinal": 51,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295011316,
+          "paddr": 175092,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$ss13_StringObjectV10sharedUTF8SRys5UInt8VGvg",
+          "demname": "_StringObject.sharedUTF8.UInt8...VGvg",
+          "flagname": "sym.imp._StringObject.sharedUTF8.UInt8...VGvg",
+          "realname": "_StringObject.sharedUTF8.UInt8...VGvg",
+          "ordinal": 52,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295011332,
+          "paddr": 175108,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$ss27_stringCompareWithSmolCheck__9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF",
+          "demname": "_stringCompareWithSmolCheck...._9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF",
+          "flagname": "sym.imp._stringCompareWithSmolCheck...._9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF",
+          "realname": "_stringCompareWithSmolCheck...._9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF",
+          "ordinal": 53,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295011348,
+          "paddr": 175124,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$ss5ErrorPsE19_getEmbeddedNSErroryXlSgyF",
+          "demname": "Error._getEmbeddedNSError.setter -> (__...XlSgyF)",
+          "flagname": "sym.imp.Error._getEmbeddedNSError.setter_______...XlSgyF_",
+          "realname": "Error._getEmbeddedNSError.setter -> (__...XlSgyF)",
+          "ordinal": 54,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295011364,
+          "paddr": 175140,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$ss5ErrorPsE5_codeSivg",
+          "demname": "getter Error._code.setter__Swift.Int -> (): setter, E(...odeSivg)",
+          "flagname": "sym.imp.getter_Error._code.setter__Swift.Int______:_setter__E_...odeSivg_",
+          "realname": "getter Error._code.setter__Swift.Int -> (): setter, E(...odeSivg)",
+          "ordinal": 55,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295011380,
+          "paddr": 175156,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$ss5ErrorPsE7_domainSSvg",
+          "demname": "Error._domain.setter__Swift.String -> ()__String: setter, E(...omainSSvg)",
+          "flagname": "sym.imp.Error._domain.setter__Swift.String________String:_setter__E_...omainSSvg_",
+          "realname": "Error._domain.setter__Swift.String -> ()__String: setter, E(...omainSSvg)",
+          "ordinal": 56,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295011396,
+          "paddr": 175172,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$ss5ErrorPsE9_userInfoyXlSgvg",
+          "demname": "Error._userInfo.setter -> (__...XlSgvg)",
+          "flagname": "sym.imp.Error._userInfo.setter_______...XlSgvg_",
+          "realname": "Error._userInfo.setter -> (__...XlSgvg)",
+          "ordinal": 57,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295011412,
+          "paddr": 175188,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$ss6HasherV5_seedABSi_tcfC",
+          "demname": "Hasher._seed(...cfC)",
+          "flagname": "sym.imp.Hasher._seed_...cfC_",
+          "realname": "Hasher._seed(...cfC)",
+          "ordinal": 58,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295011428,
+          "paddr": 175204,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$ss6HasherV8_combineyySuF",
+          "demname": "Hasher._combine(...SuF)",
+          "flagname": "sym.imp.Hasher._combine_...SuF_",
+          "realname": "Hasher._combine(...SuF)",
+          "ordinal": 59,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295011444,
+          "paddr": 175220,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$ss6HasherV9_finalizeSiyF",
+          "demname": "Hasher._finalize(...yF)",
+          "flagname": "sym.imp.Hasher._finalize_...yF_",
+          "realname": "Hasher._finalize(...yF)",
+          "ordinal": 60,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295011460,
+          "paddr": 175236,
+          "is_imported": true
+        }
+      ]
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "CDMClientInterface_Private.h",
+        "assistant_cdmd"
+      ],
+      "plists": {},
+      "code_resources": null
+    }
+  },
+  "usage": {
+    "layer": "usage",
+    "used_by": []
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "loaded"
+  }
+}

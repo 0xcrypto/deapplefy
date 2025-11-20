@@ -1,0 +1,2650 @@
+{
+  "framework": "AuthKitUI.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/AuthKitUI.framework/Versions/A/XPCServices/AKAuthorizationRemoteViewService.xpc/Contents/MacOS/AKAuthorizationRemoteViewService",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 165776,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "objc with blocks",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/PrivateFrameworks/SoftLinking.framework/Versions/A/SoftLinking",
+          "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",
+          "/System/Library/PrivateFrameworks/PlugInKit.framework/Versions/A/PlugInKit",
+          "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "/System/Library/Frameworks/Security.framework/Versions/A/Security",
+          "/System/Library/PrivateFrameworks/ViewBridge.framework/Versions/A/ViewBridge",
+          "/System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/AuthKit",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "AKFidoRVSServiceViewController",
+        "addr": 4295093128,
+        "lang": "objc",
+        "index": 0,
+        "super": [
+          "NSServiceViewController"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSServiceViewController"
+        ],
+        "methods": [
+          {
+            "name": "windowSizeConstraintsShouldTrackRemoteView",
+            "flag": "method.AKFidoRVSServiceViewController.windowSizeConstraintsShouldTrackRemoteView",
+            "lang": "objc",
+            "addr": 4294971312
+          },
+          {
+            "name": "remoteViewControllerInterface",
+            "flag": "method.AKFidoRVSServiceViewController.remoteViewControllerInterface",
+            "lang": "objc",
+            "addr": 4294971340
+          },
+          {
+            "name": "exportedInterface",
+            "flag": "method.AKFidoRVSServiceViewController.exportedInterface",
+            "lang": "objc",
+            "addr": 4294971400
+          },
+          {
+            "name": "registerFidoKeyWithContext:completion:",
+            "flag": "func.100001044",
+            "lang": "objc",
+            "addr": 4294971460
+          },
+          {
+            "name": "verifyFidoKeyWithContext:completion:",
+            "flag": "func.1000012c0",
+            "lang": "objc",
+            "addr": 4294972096
+          },
+          {
+            "name": "verifyFidoRecoveryWithContext:recoveryToken:completion:",
+            "flag": "func.1000014fc",
+            "lang": "objc",
+            "addr": 4294972668
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.AKFidoRVSServiceViewController..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294973272
+          },
+          {
+            "name": "registerFidoKeyWithContext:completion:",
+            "flag": "method.AKFidoRVSServiceViewController.registerFidoKeyWithContext:completion:",
+            "lang": "objc",
+            "addr": 4295035880
+          },
+          {
+            "name": "verifyFidoKeyWithContext:completion:",
+            "flag": "method.AKFidoRVSServiceViewController.verifyFidoKeyWithContext:completion:",
+            "lang": "objc",
+            "addr": 4295035892
+          },
+          {
+            "name": "verifyFidoRecoveryWithContext:recoveryToken:completion:",
+            "flag": "method.AKFidoRVSServiceViewController.verifyFidoRecoveryWithContext:recoveryToken:completion:",
+            "lang": "objc",
+            "addr": 4295035904
+          },
+          {
+            "name": "registerFidoKeyWithContext:completion:",
+            "flag": "method.AKFidoRVSServiceViewController.registerFidoKeyWithContext:completion:",
+            "lang": "objc",
+            "addr": 4295035880
+          },
+          {
+            "name": "verifyFidoKeyWithContext:completion:",
+            "flag": "method.AKFidoRVSServiceViewController.verifyFidoKeyWithContext:completion:",
+            "lang": "objc",
+            "addr": 4295035892
+          },
+          {
+            "name": "verifyFidoRecoveryWithContext:recoveryToken:completion:",
+            "flag": "method.AKFidoRVSServiceViewController.verifyFidoRecoveryWithContext:recoveryToken:completion:",
+            "lang": "objc",
+            "addr": 4295035904
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_authorizationController",
+            "kind": "var",
+            "type": "@\"AKFidoAuthorizationController\"",
+            "addr": 4295092896
+          }
+        ]
+      },
+      {
+        "classname": "AKCredentialRequestContext",
+        "addr": 4295093248,
+        "lang": "objc",
+        "index": 1,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "encodeWithCoder:",
+            "flag": "method.AKCredentialRequestContext.encodeWithCoder:",
+            "lang": "objc",
+            "addr": 4294973360
+          },
+          {
+            "name": "initWithCoder:",
+            "flag": "method.AKCredentialRequestContext.initWithCoder:",
+            "lang": "objc",
+            "addr": 4294974556
+          },
+          {
+            "name": "init",
+            "flag": "method.AKCredentialRequestContext.init",
+            "lang": "objc",
+            "addr": 4294977192
+          },
+          {
+            "name": "initWithUpgradeContext:",
+            "flag": "method.AKCredentialRequestContext.initWithUpgradeContext:",
+            "lang": "objc",
+            "addr": 4294977476
+          },
+          {
+            "name": "initWithProxiedClientContext:",
+            "flag": "method.AKCredentialRequestContext.initWithProxiedClientContext:",
+            "lang": "objc",
+            "addr": 4294977972
+          },
+          {
+            "name": "setCredentialRequests:",
+            "flag": "method.AKCredentialRequestContext.setCredentialRequests:",
+            "lang": "objc",
+            "addr": 4294978720
+          },
+          {
+            "name": "_isEligibleForUpgradeFromPassword",
+            "flag": "method.AKCredentialRequestContext._isEligibleForUpgradeFromPassword",
+            "lang": "objc",
+            "addr": 4294979192
+          },
+          {
+            "name": "_isSubscriptionLogin",
+            "flag": "method.AKCredentialRequestContext._isSubscriptionLogin",
+            "lang": "objc",
+            "addr": 4294979284
+          },
+          {
+            "name": "_proxiedClientAppName",
+            "flag": "method.AKCredentialRequestContext._proxiedClientAppName",
+            "lang": "objc",
+            "addr": 4294979352
+          },
+          {
+            "name": "_proxiedClientBundleID",
+            "flag": "method.AKCredentialRequestContext._proxiedClientBundleID",
+            "lang": "objc",
+            "addr": 4294979484
+          },
+          {
+            "name": "_proxiedClientServiceID",
+            "flag": "method.AKCredentialRequestContext._proxiedClientServiceID",
+            "lang": "objc",
+            "addr": 4294979616
+          },
+          {
+            "name": "_proxiedClientTeamID",
+            "flag": "method.AKCredentialRequestContext._proxiedClientTeamID",
+            "lang": "objc",
+            "addr": 4294979748
+          },
+          {
+            "name": "_proxiedClientAppID",
+            "flag": "method.AKCredentialRequestContext._proxiedClientAppID",
+            "lang": "objc",
+            "addr": 4294979880
+          },
+          {
+            "name": "credentialRequests",
+            "flag": "method.AKCredentialRequestContext.credentialRequests",
+            "lang": "objc",
+            "addr": 4294980012
+          },
+          {
+            "name": "_requirePassword",
+            "flag": "method.AKCredentialRequestContext._requirePassword",
+            "lang": "objc",
+            "addr": 4294980220
+          },
+          {
+            "name": "set_requirePassword:",
+            "flag": "method.AKCredentialRequestContext.set_requirePassword:",
+            "lang": "objc",
+            "addr": 4294981156
+          },
+          {
+            "name": "copyWithZone:",
+            "flag": "func.10000364c",
+            "lang": "objc",
+            "addr": 4294981196
+          },
+          {
+            "name": "description",
+            "flag": "method.AKCredentialRequestContext.description",
+            "lang": "objc",
+            "addr": 4294982696
+          },
+          {
+            "name": "_sessionID",
+            "flag": "method.AKCredentialRequestContext._sessionID",
+            "lang": "objc",
+            "addr": 4294982964
+          },
+          {
+            "name": "set_sessionID:",
+            "flag": "method.AKCredentialRequestContext.set_sessionID:",
+            "lang": "objc",
+            "addr": 4294982992
+          },
+          {
+            "name": "_shouldForceUI",
+            "flag": "method.AKCredentialRequestContext._shouldForceUI",
+            "lang": "objc",
+            "addr": 4294983052
+          },
+          {
+            "name": "set_shouldForceUI:",
+            "flag": "method.AKCredentialRequestContext.set_shouldForceUI:",
+            "lang": "objc",
+            "addr": 4294983084
+          },
+          {
+            "name": "_shouldSkipBiometrics",
+            "flag": "method.AKCredentialRequestContext._shouldSkipBiometrics",
+            "lang": "objc",
+            "addr": 4294983124
+          },
+          {
+            "name": "set_shouldSkipBiometrics:",
+            "flag": "method.AKCredentialRequestContext.set_shouldSkipBiometrics:",
+            "lang": "objc",
+            "addr": 4294983156
+          },
+          {
+            "name": "_shouldSkipAuthorizationUI",
+            "flag": "method.AKCredentialRequestContext._shouldSkipAuthorizationUI",
+            "lang": "objc",
+            "addr": 4294983196
+          },
+          {
+            "name": "set_shouldSkipAuthorizationUI:",
+            "flag": "method.AKCredentialRequestContext.set_shouldSkipAuthorizationUI:",
+            "lang": "objc",
+            "addr": 4294983228
+          },
+          {
+            "name": "_informativeText",
+            "flag": "method.AKCredentialRequestContext._informativeText",
+            "lang": "objc",
+            "addr": 4294983268
+          },
+          {
+            "name": "set_informativeText:",
+            "flag": "method.AKCredentialRequestContext.set_informativeText:",
+            "lang": "objc",
+            "addr": 4294983296
+          },
+          {
+            "name": "_iconName",
+            "flag": "method.AKCredentialRequestContext._iconName",
+            "lang": "objc",
+            "addr": 4294983356
+          },
+          {
+            "name": "set_iconName:",
+            "flag": "method.AKCredentialRequestContext.set_iconName:",
+            "lang": "objc",
+            "addr": 4294983384
+          },
+          {
+            "name": "_iconTypeID",
+            "flag": "method.AKCredentialRequestContext._iconTypeID",
+            "lang": "objc",
+            "addr": 4294983444
+          },
+          {
+            "name": "set_iconTypeID:",
+            "flag": "method.AKCredentialRequestContext.set_iconTypeID:",
+            "lang": "objc",
+            "addr": 4294983472
+          },
+          {
+            "name": "_iconData",
+            "flag": "method.AKCredentialRequestContext._iconData",
+            "lang": "objc",
+            "addr": 4294983532
+          },
+          {
+            "name": "set_iconData:",
+            "flag": "method.AKCredentialRequestContext.set_iconData:",
+            "lang": "objc",
+            "addr": 4294983560
+          },
+          {
+            "name": "_iconScale",
+            "flag": "method.AKCredentialRequestContext._iconScale",
+            "lang": "objc",
+            "addr": 4294983620
+          },
+          {
+            "name": "set_iconScale:",
+            "flag": "method.AKCredentialRequestContext.set_iconScale:",
+            "lang": "objc",
+            "addr": 4294983648
+          },
+          {
+            "name": "_iconSize",
+            "flag": "method.AKCredentialRequestContext._iconSize",
+            "lang": "objc",
+            "addr": 4294983708
+          },
+          {
+            "name": "set_iconSize:",
+            "flag": "method.AKCredentialRequestContext.set_iconSize:",
+            "lang": "objc",
+            "addr": 4294983736
+          },
+          {
+            "name": "_shouldForcePrivateEmail",
+            "flag": "method.AKCredentialRequestContext._shouldForcePrivateEmail",
+            "lang": "objc",
+            "addr": 4294983796
+          },
+          {
+            "name": "set_shouldForcePrivateEmail:",
+            "flag": "method.AKCredentialRequestContext.set_shouldForcePrivateEmail:",
+            "lang": "objc",
+            "addr": 4294983828
+          },
+          {
+            "name": "set_proxiedClientAppName:",
+            "flag": "method.AKCredentialRequestContext.set_proxiedClientAppName:",
+            "lang": "objc",
+            "addr": 4294983868
+          },
+          {
+            "name": "set_proxiedClientBundleID:",
+            "flag": "method.AKCredentialRequestContext.set_proxiedClientBundleID:",
+            "lang": "objc",
+            "addr": 4294983924
+          },
+          {
+            "name": "set_proxiedClientAppID:",
+            "flag": "method.AKCredentialRequestContext.set_proxiedClientAppID:",
+            "lang": "objc",
+            "addr": 4294983980
+          },
+          {
+            "name": "set_proxiedClientTeamID:",
+            "flag": "method.AKCredentialRequestContext.set_proxiedClientTeamID:",
+            "lang": "objc",
+            "addr": 4294984036
+          },
+          {
+            "name": "_proxiedAssociatedDomains",
+            "flag": "method.AKCredentialRequestContext._proxiedAssociatedDomains",
+            "lang": "objc",
+            "addr": 4294984092
+          },
+          {
+            "name": "set_proxiedAssociatedDomains:",
+            "flag": "method.AKCredentialRequestContext.set_proxiedAssociatedDomains:",
+            "lang": "objc",
+            "addr": 4294984120
+          },
+          {
+            "name": "_isWebLogin",
+            "flag": "method.AKCredentialRequestContext._isWebLogin",
+            "lang": "objc",
+            "addr": 4294984176
+          },
+          {
+            "name": "set_isWebLogin:",
+            "flag": "method.AKCredentialRequestContext.set_isWebLogin:",
+            "lang": "objc",
+            "addr": 4294984208
+          },
+          {
+            "name": "_isFirstPartyLogin",
+            "flag": "method.AKCredentialRequestContext._isFirstPartyLogin",
+            "lang": "objc",
+            "addr": 4294984248
+          },
+          {
+            "name": "set_isFirstPartyLogin:",
+            "flag": "method.AKCredentialRequestContext.set_isFirstPartyLogin:",
+            "lang": "objc",
+            "addr": 4294984280
+          },
+          {
+            "name": "_isRapportLogin",
+            "flag": "method.AKCredentialRequestContext._isRapportLogin",
+            "lang": "objc",
+            "addr": 4294984320
+          },
+          {
+            "name": "set_isRapportLogin:",
+            "flag": "method.AKCredentialRequestContext.set_isRapportLogin:",
+            "lang": "objc",
+            "addr": 4294984352
+          },
+          {
+            "name": "_callerBundleID",
+            "flag": "method.AKCredentialRequestContext._callerBundleID",
+            "lang": "objc",
+            "addr": 4294984392
+          },
+          {
+            "name": "set_callerBundleID:",
+            "flag": "method.AKCredentialRequestContext.set_callerBundleID:",
+            "lang": "objc",
+            "addr": 4294984420
+          },
+          {
+            "name": "_callerSceneID",
+            "flag": "method.AKCredentialRequestContext._callerSceneID",
+            "lang": "objc",
+            "addr": 4294984476
+          },
+          {
+            "name": "set_callerSceneID:",
+            "flag": "method.AKCredentialRequestContext.set_callerSceneID:",
+            "lang": "objc",
+            "addr": 4294984504
+          },
+          {
+            "name": "_proxiedDeviceName",
+            "flag": "method.AKCredentialRequestContext._proxiedDeviceName",
+            "lang": "objc",
+            "addr": 4294984560
+          },
+          {
+            "name": "set_proxiedDeviceName:",
+            "flag": "method.AKCredentialRequestContext.set_proxiedDeviceName:",
+            "lang": "objc",
+            "addr": 4294984588
+          },
+          {
+            "name": "_proxiedDeviceClass",
+            "flag": "method.AKCredentialRequestContext._proxiedDeviceClass",
+            "lang": "objc",
+            "addr": 4294984644
+          },
+          {
+            "name": "set_proxiedDeviceClass:",
+            "flag": "method.AKCredentialRequestContext.set_proxiedDeviceClass:",
+            "lang": "objc",
+            "addr": 4294984672
+          },
+          {
+            "name": "set_proxiedClientServiceID:",
+            "flag": "method.AKCredentialRequestContext.set_proxiedClientServiceID:",
+            "lang": "objc",
+            "addr": 4294984728
+          },
+          {
+            "name": "_upgradeContext",
+            "flag": "method.AKCredentialRequestContext._upgradeContext",
+            "lang": "objc",
+            "addr": 4294984784
+          },
+          {
+            "name": "_clientShouldAuthenticateExternally",
+            "flag": "method.AKCredentialRequestContext._clientShouldAuthenticateExternally",
+            "lang": "objc",
+            "addr": 4294984812
+          },
+          {
+            "name": "set_clientShouldAuthenticateExternally:",
+            "flag": "method.AKCredentialRequestContext.set_clientShouldAuthenticateExternally:",
+            "lang": "objc",
+            "addr": 4294984844
+          },
+          {
+            "name": "_authSessionTimeoutInterval",
+            "flag": "method.AKCredentialRequestContext._authSessionTimeoutInterval",
+            "lang": "objc",
+            "addr": 4294984884
+          },
+          {
+            "name": "set_authSessionTimeoutInterval:",
+            "flag": "method.AKCredentialRequestContext.set_authSessionTimeoutInterval:",
+            "lang": "objc",
+            "addr": 4294984912
+          },
+          {
+            "name": "_externalAuthToken",
+            "flag": "method.AKCredentialRequestContext._externalAuthToken",
+            "lang": "objc",
+            "addr": 4294984948
+          },
+          {
+            "name": "set_externalAuthToken:",
+            "flag": "method.AKCredentialRequestContext.set_externalAuthToken:",
+            "lang": "objc",
+            "addr": 4294984976
+          },
+          {
+            "name": "_externalLocalAuthData",
+            "flag": "method.AKCredentialRequestContext._externalLocalAuthData",
+            "lang": "objc",
+            "addr": 4294985036
+          },
+          {
+            "name": "set_externalLocalAuthData:",
+            "flag": "method.AKCredentialRequestContext.set_externalLocalAuthData:",
+            "lang": "objc",
+            "addr": 4294985064
+          },
+          {
+            "name": "_continuationRequestIdentifier",
+            "flag": "method.AKCredentialRequestContext._continuationRequestIdentifier",
+            "lang": "objc",
+            "addr": 4294985124
+          },
+          {
+            "name": "set_continuationRequestIdentifier:",
+            "flag": "method.AKCredentialRequestContext.set_continuationRequestIdentifier:",
+            "lang": "objc",
+            "addr": 4294985152
+          },
+          {
+            "name": "_shouldUseProxiedClientBundleIDForSRP",
+            "flag": "method.AKCredentialRequestContext._shouldUseProxiedClientBundleIDForSRP",
+            "lang": "objc",
+            "addr": 4294985212
+          },
+          {
+            "name": "set_shouldUseProxiedClientBundleIDForSRP:",
+            "flag": "method.AKCredentialRequestContext.set_shouldUseProxiedClientBundleIDForSRP:",
+            "lang": "objc",
+            "addr": 4294985244
+          },
+          {
+            "name": "_isItunesLogin",
+            "flag": "method.AKCredentialRequestContext._isItunesLogin",
+            "lang": "objc",
+            "addr": 4294985284
+          },
+          {
+            "name": "set_isItunesLogin:",
+            "flag": "method.AKCredentialRequestContext.set_isItunesLogin:",
+            "lang": "objc",
+            "addr": 4294985316
+          },
+          {
+            "name": "_shouldShowAdditionalCTA",
+            "flag": "method.AKCredentialRequestContext._shouldShowAdditionalCTA",
+            "lang": "objc",
+            "addr": 4294985356
+          },
+          {
+            "name": "set_shouldShowAdditionalCTA:",
+            "flag": "method.AKCredentialRequestContext.set_shouldShowAdditionalCTA:",
+            "lang": "objc",
+            "addr": 4294985388
+          },
+          {
+            "name": "requestIdentifier",
+            "flag": "method.AKCredentialRequestContext.requestIdentifier",
+            "lang": "objc",
+            "addr": 4294985428
+          },
+          {
+            "name": "requestOptions",
+            "flag": "method.AKCredentialRequestContext.requestOptions",
+            "lang": "objc",
+            "addr": 4294985456
+          },
+          {
+            "name": "setRequestOptions:",
+            "flag": "method.AKCredentialRequestContext.setRequestOptions:",
+            "lang": "objc",
+            "addr": 4294985484
+          },
+          {
+            "name": "authorizationRequest",
+            "flag": "method.AKCredentialRequestContext.authorizationRequest",
+            "lang": "objc",
+            "addr": 4294985520
+          },
+          {
+            "name": "setAuthorizationRequest:",
+            "flag": "method.AKCredentialRequestContext.setAuthorizationRequest:",
+            "lang": "objc",
+            "addr": 4294985548
+          },
+          {
+            "name": "passwordRequest",
+            "flag": "method.AKCredentialRequestContext.passwordRequest",
+            "lang": "objc",
+            "addr": 4294985604
+          },
+          {
+            "name": "setPasswordRequest:",
+            "flag": "method.AKCredentialRequestContext.setPasswordRequest:",
+            "lang": "objc",
+            "addr": 4294985632
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.AKCredentialRequestContext..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294985688
+          },
+          {
+            "name": "copyWithZone:",
+            "flag": "method.AKCredentialRequestContext.copyWithZone:",
+            "lang": "objc",
+            "addr": 4295036032
+          },
+          {
+            "name": "supportsSecureCoding",
+            "flag": "method.class.AKCredentialRequestContext.supportsSecureCoding",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294973332
+          },
+          {
+            "name": "copyWithZone:",
+            "flag": "method.AKCredentialRequestContext.copyWithZone:",
+            "lang": "objc",
+            "addr": 4295036032
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_passcodeProtected",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295092900
+          },
+          {
+            "name": "_shouldForceUI",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295092904
+          },
+          {
+            "name": "_shouldSkipBiometrics",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295092908
+          },
+          {
+            "name": "_shouldSkipAuthorizationUI",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295092912
+          },
+          {
+            "name": "_shouldForcePrivateEmail",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295092916
+          },
+          {
+            "name": "_requirePassword",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295092920
+          },
+          {
+            "name": "_isWebLogin",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295092924
+          },
+          {
+            "name": "_isFirstPartyLogin",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295092928
+          },
+          {
+            "name": "_isRapportLogin",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295092932
+          },
+          {
+            "name": "_isEligibleForUpgradeFromPassword",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295092936
+          },
+          {
+            "name": "_clientShouldAuthenticateExternally",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295092940
+          },
+          {
+            "name": "_shouldUseProxiedClientBundleIDForSRP",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295092944
+          },
+          {
+            "name": "_isItunesLogin",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295092948
+          },
+          {
+            "name": "_shouldShowAdditionalCTA",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295092952
+          },
+          {
+            "name": "_sessionID",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295092956
+          },
+          {
+            "name": "_informativeText",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295092960
+          },
+          {
+            "name": "_iconName",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295092964
+          },
+          {
+            "name": "_iconTypeID",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295092968
+          },
+          {
+            "name": "_iconData",
+            "kind": "var",
+            "type": "@\"NSData\"",
+            "addr": 4295092972
+          },
+          {
+            "name": "_iconScale",
+            "kind": "var",
+            "type": "@\"NSNumber\"",
+            "addr": 4295092976
+          },
+          {
+            "name": "_iconSize",
+            "kind": "var",
+            "type": "@\"NSValue\"",
+            "addr": 4295092980
+          },
+          {
+            "name": "_proxiedClientAppName",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295092984
+          },
+          {
+            "name": "_proxiedClientBundleID",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295092988
+          },
+          {
+            "name": "_proxiedClientAppID",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295092992
+          },
+          {
+            "name": "_proxiedClientTeamID",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295092996
+          },
+          {
+            "name": "_proxiedAssociatedDomains",
+            "kind": "var",
+            "type": "@\"NSArray\"",
+            "addr": 4295093000
+          },
+          {
+            "name": "_callerBundleID",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295093004
+          },
+          {
+            "name": "_callerSceneID",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295093008
+          },
+          {
+            "name": "_proxiedDeviceName",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295093012
+          },
+          {
+            "name": "_proxiedDeviceClass",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295093016
+          },
+          {
+            "name": "_proxiedClientServiceID",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295093020
+          },
+          {
+            "name": "_upgradeContext",
+            "kind": "var",
+            "type": "@\"AKAuthorizationUpgradeContext\"",
+            "addr": 4295093024
+          },
+          {
+            "name": "_authSessionTimeoutInterval",
+            "kind": "var",
+            "type": "d",
+            "addr": 4295093028
+          },
+          {
+            "name": "_externalAuthToken",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295093032
+          },
+          {
+            "name": "_externalLocalAuthData",
+            "kind": "var",
+            "type": "@\"NSData\"",
+            "addr": 4295093036
+          },
+          {
+            "name": "_continuationRequestIdentifier",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295093040
+          },
+          {
+            "name": "_requestIdentifier",
+            "kind": "var",
+            "type": "@\"NSUUID\"",
+            "addr": 4295093044
+          },
+          {
+            "name": "_requestOptions",
+            "kind": "var",
+            "type": "Q",
+            "addr": 4295093048
+          },
+          {
+            "name": "_authorizationRequest",
+            "kind": "var",
+            "type": "@\"AKAuthorizationRequest\"",
+            "addr": 4295093052
+          },
+          {
+            "name": "_passwordRequest",
+            "kind": "var",
+            "type": "@\"AKPasswordRequest\"",
+            "addr": 4295093056
+          },
+          {
+            "name": "_sessionID",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "_shouldForceUI",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "_shouldSkipBiometrics",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "_shouldSkipAuthorizationUI",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "_shouldForcePrivateEmail",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "_requirePassword",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "_isWebLogin",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "_isFirstPartyLogin",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "_isRapportLogin",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "_isEligibleForUpgradeFromPassword",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "_isSubscriptionLogin",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "_isItunesLogin",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "_callerBundleID",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "_callerSceneID",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "_upgradeContext",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "_proxiedClientAppName",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "_proxiedClientBundleID",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "_proxiedClientServiceID",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "_proxiedClientTeamID",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "_proxiedClientAppID",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "_proxiedAssociatedDomains",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "_proxiedDeviceName",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "_proxiedDeviceClass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "_clientShouldAuthenticateExternally",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "_shouldUseProxiedClientBundleIDForSRP",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "_iconName",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "_iconTypeID",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "_iconData",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "_iconScale",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "_iconSize",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "_informativeText",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "_authSessionTimeoutInterval",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "_externalAuthToken",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "_externalLocalAuthData",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "_continuationRequestIdentifier",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "_shouldShowAdditionalCTA",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "requestIdentifier",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "requestOptions",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "authorizationRequest",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "passwordRequest",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "credentialRequests",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "supportsSecureCoding",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "AKOwnerProxyClient",
+        "addr": 4295093368,
+        "lang": "objc",
+        "index": 2,
+        "super": [
+          "AKClient",
+          "AKClient"
+        ],
+        "rawsuper": [
+          "AKClient",
+          "AKClient"
+        ],
+        "methods": [
+          {
+            "name": "initWithCredentialRequest:",
+            "flag": "method.AKOwnerProxyClient.initWithCredentialRequest:",
+            "lang": "objc",
+            "addr": 4294987280
+          },
+          {
+            "name": "initWithCredentialRequest:connection:",
+            "flag": "method.AKOwnerProxyClient.initWithCredentialRequest:connection:",
+            "lang": "objc",
+            "addr": 4294987516
+          },
+          {
+            "name": "description",
+            "flag": "method.AKOwnerProxyClient.description",
+            "lang": "objc",
+            "addr": 4294987776
+          },
+          {
+            "name": "hasInternalAccess",
+            "flag": "method.AKOwnerProxyClient.hasInternalAccess",
+            "lang": "objc",
+            "addr": 4294987932
+          },
+          {
+            "name": "hasPrivateAccess",
+            "flag": "method.AKOwnerProxyClient.hasPrivateAccess",
+            "lang": "objc",
+            "addr": 4294987960
+          },
+          {
+            "name": "hasPrivateSignedAccess",
+            "flag": "method.AKOwnerProxyClient.hasPrivateSignedAccess",
+            "lang": "objc",
+            "addr": 4294987988
+          },
+          {
+            "name": "hasPublicAccess",
+            "flag": "method.AKOwnerProxyClient.hasPublicAccess",
+            "lang": "objc",
+            "addr": 4294988016
+          },
+          {
+            "name": "hasWriteAccess",
+            "flag": "method.AKOwnerProxyClient.hasWriteAccess",
+            "lang": "objc",
+            "addr": 4294988044
+          },
+          {
+            "name": "hasOwnerAccess",
+            "flag": "method.AKOwnerProxyClient.hasOwnerAccess",
+            "lang": "objc",
+            "addr": 4294988072
+          },
+          {
+            "name": "name",
+            "flag": "method.AKOwnerProxyClient.name",
+            "lang": "objc",
+            "addr": 4294988100
+          },
+          {
+            "name": "localizedAppName",
+            "flag": "method.AKOwnerProxyClient.localizedAppName",
+            "lang": "objc",
+            "addr": 4294988376
+          },
+          {
+            "name": "bundleID",
+            "flag": "method.AKOwnerProxyClient.bundleID",
+            "lang": "objc",
+            "addr": 4294988436
+          },
+          {
+            "name": "appID",
+            "flag": "method.AKOwnerProxyClient.appID",
+            "lang": "objc",
+            "addr": 4294988496
+          },
+          {
+            "name": "teamID",
+            "flag": "method.AKOwnerProxyClient.teamID",
+            "lang": "objc",
+            "addr": 4294988556
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.AKOwnerProxyClient..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294988616
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_credentialRequest",
+            "kind": "var",
+            "type": "@\"AKCredentialRequestContext\"",
+            "addr": 4295093060
+          }
+        ]
+      },
+      {
+        "classname": "AKClient",
+        "addr": 4295093328,
+        "lang": "objc",
+        "index": 3,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithConnection:",
+            "flag": "method.AKClient.initWithConnection:",
+            "lang": "objc",
+            "addr": 4294988764
+          },
+          {
+            "name": "initWithAuditToken:",
+            "flag": "method.AKClient.initWithAuditToken:",
+            "lang": "objc",
+            "addr": 4294988996
+          },
+          {
+            "name": "xpcConnection",
+            "flag": "method.AKClient.xpcConnection",
+            "lang": "objc",
+            "addr": 4294989260
+          },
+          {
+            "name": "hasInternalPrivateEntitlementAccess",
+            "flag": "method.AKClient.hasInternalPrivateEntitlementAccess",
+            "lang": "objc",
+            "addr": 4294989288
+          },
+          {
+            "name": "hasInternalPrivateAccess",
+            "flag": "method.AKClient.hasInternalPrivateAccess",
+            "lang": "objc",
+            "addr": 4294989380
+          },
+          {
+            "name": "hasInternalEntitledAccess",
+            "flag": "method.AKClient.hasInternalEntitledAccess",
+            "lang": "objc",
+            "addr": 4294989472
+          },
+          {
+            "name": "hasSiwaEntitlement",
+            "flag": "method.AKClient.hasSiwaEntitlement",
+            "lang": "objc",
+            "addr": 4294989564
+          },
+          {
+            "name": "hasSiwaDefaultEntitlementAccess",
+            "flag": "method.AKClient.hasSiwaDefaultEntitlementAccess",
+            "lang": "objc",
+            "addr": 4294989668
+          },
+          {
+            "name": "hasSiwaUnderageEntitlementAccess",
+            "flag": "method.AKClient.hasSiwaUnderageEntitlementAccess",
+            "lang": "objc",
+            "addr": 4294989772
+          },
+          {
+            "name": "hasSiwaAccountListAccess",
+            "flag": "method.AKClient.hasSiwaAccountListAccess",
+            "lang": "objc",
+            "addr": 4294989876
+          },
+          {
+            "name": "hasServerOnlyDeviceListAccess",
+            "flag": "method.AKClient.hasServerOnlyDeviceListAccess",
+            "lang": "objc",
+            "addr": 4294989932
+          },
+          {
+            "name": "hasCompanionKeyEnvelopeAccess",
+            "flag": "method.AKClient.hasCompanionKeyEnvelopeAccess",
+            "lang": "objc",
+            "addr": 4294989988
+          },
+          {
+            "name": "hasWriteAccess",
+            "flag": "method.AKClient.hasWriteAccess",
+            "lang": "objc",
+            "addr": 4294990044
+          },
+          {
+            "name": "hasInternalAccess",
+            "flag": "method.AKClient.hasInternalAccess",
+            "lang": "objc",
+            "addr": 4294990100
+          },
+          {
+            "name": "hasOwnerAccess",
+            "flag": "method.AKClient.hasOwnerAccess",
+            "lang": "objc",
+            "addr": 4294990216
+          },
+          {
+            "name": "hasPublicAccess",
+            "flag": "method.AKClient.hasPublicAccess",
+            "lang": "objc",
+            "addr": 4294990272
+          },
+          {
+            "name": "hasPrivateAccess",
+            "flag": "method.AKClient.hasPrivateAccess",
+            "lang": "objc",
+            "addr": 4294990328
+          },
+          {
+            "name": "hasPrivateSignedAccess",
+            "flag": "method.AKClient.hasPrivateSignedAccess",
+            "lang": "objc",
+            "addr": 4294990384
+          },
+          {
+            "name": "hasBirthdayAccess",
+            "flag": "method.AKClient.hasBirthdayAccess",
+            "lang": "objc",
+            "addr": 4294990476
+          },
+          {
+            "name": "_hasApprovedSigningIdentifier",
+            "flag": "method.AKClient._hasApprovedSigningIdentifier",
+            "lang": "objc",
+            "addr": 4294990576
+          },
+          {
+            "name": "_codeSigningIdentifier",
+            "flag": "method.AKClient._codeSigningIdentifier",
+            "lang": "objc",
+            "addr": 4294990720
+          },
+          {
+            "name": "_approvedCodeSigningIdentifiers",
+            "flag": "method.AKClient._approvedCodeSigningIdentifiers",
+            "lang": "objc",
+            "addr": 4294990972
+          },
+          {
+            "name": "_isAppleBinary",
+            "flag": "method.AKClient._isAppleBinary",
+            "lang": "objc",
+            "addr": 4294991064
+          },
+          {
+            "name": "_isOnInternalBuild",
+            "flag": "method.AKClient._isOnInternalBuild",
+            "lang": "objc",
+            "addr": 4294991308
+          },
+          {
+            "name": "_permittedProcessNamesToProxyAllowlist",
+            "flag": "method.AKClient._permittedProcessNamesToProxyAllowlist",
+            "lang": "objc",
+            "addr": 4294991368
+          },
+          {
+            "name": "isPermittedToProxy",
+            "flag": "method.AKClient.isPermittedToProxy",
+            "lang": "objc",
+            "addr": 4294991752
+          },
+          {
+            "name": "_permitedProcessNamesToProxyInitialAuthWhiteList",
+            "flag": "method.AKClient._permitedProcessNamesToProxyInitialAuthWhiteList",
+            "lang": "objc",
+            "addr": 4294991896
+          },
+          {
+            "name": "isPermittedToProxyInitialAuth",
+            "flag": "method.AKClient.isPermittedToProxyInitialAuth",
+            "lang": "objc",
+            "addr": 4294992232
+          },
+          {
+            "name": "_permittedProcessNamesForInteractiveAuthOnLimitedContext",
+            "flag": "method.AKClient._permittedProcessNamesForInteractiveAuthOnLimitedContext",
+            "lang": "objc",
+            "addr": 4294992376
+          },
+          {
+            "name": "isPermittedForInteractiveAuthOnLimitedContext",
+            "flag": "method.AKClient.isPermittedForInteractiveAuthOnLimitedContext",
+            "lang": "objc",
+            "addr": 4294992624
+          },
+          {
+            "name": "_exemptedBundleIDsFromMandatoryUISecurityUpgrade",
+            "flag": "method.AKClient._exemptedBundleIDsFromMandatoryUISecurityUpgrade",
+            "lang": "objc",
+            "addr": 4294992768
+          },
+          {
+            "name": "isExemptedFromMandatoryUISecurityUpgrade",
+            "flag": "method.AKClient.isExemptedFromMandatoryUISecurityUpgrade",
+            "lang": "objc",
+            "addr": 4294993028
+          },
+          {
+            "name": "isPermittedToProxyAuthorizationBundleIdentifier",
+            "flag": "method.AKClient.isPermittedToProxyAuthorizationBundleIdentifier",
+            "lang": "objc",
+            "addr": 4294993172
+          },
+          {
+            "name": "auditTokenData",
+            "flag": "method.AKClient.auditTokenData",
+            "lang": "objc",
+            "addr": 4294993228
+          },
+          {
+            "name": "name",
+            "flag": "method.AKClient.name",
+            "lang": "objc",
+            "addr": 4294993760
+          },
+          {
+            "name": "_unsafeName",
+            "flag": "method.AKClient._unsafeName",
+            "lang": "objc",
+            "addr": 4294994312
+          },
+          {
+            "name": "fullName",
+            "flag": "method.AKClient.fullName",
+            "lang": "objc",
+            "addr": 4294994812
+          },
+          {
+            "name": "_unsafeFullName",
+            "flag": "method.AKClient._unsafeFullName",
+            "lang": "objc",
+            "addr": 4294995080
+          },
+          {
+            "name": "localizedAppName",
+            "flag": "method.AKClient.localizedAppName",
+            "lang": "objc",
+            "addr": 4294995324
+          },
+          {
+            "name": "_bundleNonPluginKit",
+            "flag": "method.AKClient._bundleNonPluginKit",
+            "lang": "objc",
+            "addr": 4294995372
+          },
+          {
+            "name": "_bundle",
+            "flag": "method.AKClient._bundle",
+            "lang": "objc",
+            "addr": 4294995752
+          },
+          {
+            "name": "description",
+            "flag": "method.AKClient.description",
+            "lang": "objc",
+            "addr": 4294996168
+          },
+          {
+            "name": "_unsafeDescription",
+            "flag": "method.AKClient._unsafeDescription",
+            "lang": "objc",
+            "addr": 4294996436
+          },
+          {
+            "name": "proxyWithErrorHandler:",
+            "flag": "method.AKClient.proxyWithErrorHandler:",
+            "lang": "objc",
+            "addr": 4294996716
+          },
+          {
+            "name": "bundleID",
+            "flag": "method.AKClient.bundleID",
+            "lang": "objc",
+            "addr": 4294997016
+          },
+          {
+            "name": "_unsafeBundleID",
+            "flag": "method.AKClient._unsafeBundleID",
+            "lang": "objc",
+            "addr": 4294997284
+          },
+          {
+            "name": "appID",
+            "flag": "method.AKClient.appID",
+            "lang": "objc",
+            "addr": 4294998168
+          },
+          {
+            "name": "_appIDForMacOS",
+            "flag": "method.AKClient._appIDForMacOS",
+            "lang": "objc",
+            "addr": 4294998396
+          },
+          {
+            "name": "_appIDForIOS",
+            "flag": "method.AKClient._appIDForIOS",
+            "lang": "objc",
+            "addr": 4294998568
+          },
+          {
+            "name": "teamID",
+            "flag": "method.AKClient.teamID",
+            "lang": "objc",
+            "addr": 4294998740
+          },
+          {
+            "name": "_authorizationAccessLevels",
+            "flag": "method.AKClient._authorizationAccessLevels",
+            "lang": "objc",
+            "addr": 4294998912
+          },
+          {
+            "name": "authorizationRequiresRapport",
+            "flag": "method.AKClient.authorizationRequiresRapport",
+            "lang": "objc",
+            "addr": 4294999096
+          },
+          {
+            "name": "authorizationClientProvidesUI",
+            "flag": "method.AKClient.authorizationClientProvidesUI",
+            "lang": "objc",
+            "addr": 4294999124
+          },
+          {
+            "name": "_arrayValueForEntitlement:",
+            "flag": "method.AKClient._arrayValueForEntitlement:",
+            "lang": "objc",
+            "addr": 4294999152
+          },
+          {
+            "name": "_boolValueForEntitlement:",
+            "flag": "method.AKClient._boolValueForEntitlement:",
+            "lang": "objc",
+            "addr": 4294999484
+          },
+          {
+            "name": "_stringValueForEntitlement:",
+            "flag": "method.AKClient._stringValueForEntitlement:",
+            "lang": "objc",
+            "addr": 4294999808
+          },
+          {
+            "name": "authorizationAccessLevel",
+            "flag": "method.AKClient.authorizationAccessLevel",
+            "lang": "objc",
+            "addr": 4295000088
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.AKClient..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295000116
+          },
+          {
+            "name": "isAppWithBundleIDForeground:",
+            "flag": "method.class.AKClient.isAppWithBundleIDForeground:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294988676
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_connection",
+            "kind": "var",
+            "type": "@\"NSXPCConnection\"",
+            "addr": 4295093064
+          },
+          {
+            "name": "_name",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295093068
+          },
+          {
+            "name": "_fullName",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295093072
+          },
+          {
+            "name": "_description",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295093076
+          },
+          {
+            "name": "_bundleID",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295093080
+          },
+          {
+            "name": "_auditToken",
+            "kind": "var",
+            "type": "@\"BSAuditToken\"",
+            "addr": 4295093084
+          },
+          {
+            "name": "_unfairLock",
+            "kind": "var",
+            "type": "{os_unfair_lock_s=\"_os_unfair_lock_opaque\"I}",
+            "addr": 4295093088
+          },
+          {
+            "name": "_authorizationAccessLevel",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295093092
+          },
+          {
+            "name": "xpcConnection",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hasInternalAccess",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hasPrivateAccess",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hasPublicAccess",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hasWriteAccess",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hasOwnerAccess",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hasPrivateSignedAccess",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hasInternalPrivateAccess",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hasInternalEntitledAccess",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hasSiwaEntitlement",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hasSiwaDefaultEntitlementAccess",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hasSiwaUnderageEntitlementAccess",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hasSiwaAccountListAccess",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hasServerOnlyDeviceListAccess",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hasCompanionKeyEnvelopeAccess",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hasBirthdayAccess",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "name",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "fullName",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "localizedAppName",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "bundleID",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "appID",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "teamID",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "authorizationAccessLevel",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "authorizationRequiresRapport",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "isPermittedToProxy",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "isPermittedToProxyInitialAuth",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "authorizationClientProvidesUI",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "isPermittedForInteractiveAuthOnLimitedContext",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "isExemptedFromMandatoryUISecurityUpgrade",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "isPermittedToProxyAuthorizationBundleIdentifier",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "auditTokenData",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "AKAuthenticationRVSServiceViewController",
+        "addr": 4295093448,
+        "lang": "objc",
+        "index": 4,
+        "super": [
+          "NSServiceViewController"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSServiceViewController"
+        ],
+        "methods": [
+          {
+            "name": "windowSizeConstraintsShouldTrackRemoteView",
+            "flag": "method.AKAuthenticationRVSServiceViewController.windowSizeConstraintsShouldTrackRemoteView",
+            "lang": "objc",
+            "addr": 4295000272
+          },
+          {
+            "name": "remoteViewControllerInterface",
+            "flag": "method.AKAuthenticationRVSServiceViewController.remoteViewControllerInterface",
+            "lang": "objc",
+            "addr": 4295000300
+          },
+          {
+            "name": "exportedInterface",
+            "flag": "method.AKAuthenticationRVSServiceViewController.exportedInterface",
+            "lang": "objc",
+            "addr": 4295000360
+          },
+          {
+            "name": "setupWithSurrogateID:withContext:attachToWindow:completion:",
+            "flag": "func.100008164",
+            "lang": "objc",
+            "addr": 4295000420
+          },
+          {
+            "name": "startAuthentication",
+            "flag": "func.1000084b8",
+            "lang": "objc",
+            "addr": 4295001272
+          },
+          {
+            "name": "_dismissRemoteViewController",
+            "flag": "method.AKAuthenticationRVSServiceViewController._dismissRemoteViewController",
+            "lang": "objc",
+            "addr": 4295002112
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.AKAuthenticationRVSServiceViewController..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295002828
+          },
+          {
+            "name": "setupWithSurrogateID:withContext:attachToWindow:completion:",
+            "flag": "method.AKAuthenticationRVSServiceViewController.setupWithSurrogateID:withContext:attachToWindow:completion:",
+            "lang": "objc",
+            "addr": 4295035776
+          },
+          {
+            "name": "startAuthentication",
+            "flag": "method.AKAuthenticationRVSServiceViewController.startAuthentication",
+            "lang": "objc",
+            "addr": 4295035788
+          },
+          {
+            "name": "setupWithSurrogateID:withContext:attachToWindow:completion:",
+            "flag": "method.AKAuthenticationRVSServiceViewController.setupWithSurrogateID:withContext:attachToWindow:completion:",
+            "lang": "objc",
+            "addr": 4295035776
+          },
+          {
+            "name": "startAuthentication",
+            "flag": "method.AKAuthenticationRVSServiceViewController.startAuthentication",
+            "lang": "objc",
+            "addr": 4295035788
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_surrogateContext",
+            "kind": "var",
+            "type": "@\"AKAppleIDAuthenticationUISurrogateContext\"",
+            "addr": 4295093096
+          },
+          {
+            "name": "_authController",
+            "kind": "var",
+            "type": "@\"AKAppleIDAuthenticationController\"",
+            "addr": 4295093100
+          }
+        ]
+      },
+      {
+        "classname": "AKPrivateEmailRVSServiceViewController",
+        "addr": 4295093568,
+        "lang": "objc",
+        "index": 5,
+        "super": [
+          "NSServiceViewController"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSServiceViewController"
+        ],
+        "methods": [
+          {
+            "name": "setupWithRequestContext:completion:",
+            "flag": "method.AKPrivateEmailRVSServiceViewController.setupWithRequestContext:completion:",
+            "lang": "objc",
+            "addr": 4295002920
+          },
+          {
+            "name": "alertHandlerShowAlert:primaryAction:altAction:",
+            "flag": "method.AKPrivateEmailRVSServiceViewController.alertHandlerShowAlert:primaryAction:altAction:",
+            "lang": "objc",
+            "addr": 4295005636
+          },
+          {
+            "name": "_proxyClient",
+            "flag": "method.AKPrivateEmailRVSServiceViewController._proxyClient",
+            "lang": "objc",
+            "addr": 4295007300
+          },
+          {
+            "name": "windowSizeConstraintsShouldTrackRemoteView",
+            "flag": "method.AKPrivateEmailRVSServiceViewController.windowSizeConstraintsShouldTrackRemoteView",
+            "lang": "objc",
+            "addr": 4295007552
+          },
+          {
+            "name": "remoteViewControllerInterface",
+            "flag": "method.AKPrivateEmailRVSServiceViewController.remoteViewControllerInterface",
+            "lang": "objc",
+            "addr": 4295007580
+          },
+          {
+            "name": "exportedInterface",
+            "flag": "method.AKPrivateEmailRVSServiceViewController.exportedInterface",
+            "lang": "objc",
+            "addr": 4295007640
+          },
+          {
+            "name": "privateEmailViewController:didCompleteWithPrivateEmail:error:",
+            "flag": "method.AKPrivateEmailRVSServiceViewController.privateEmailViewController:didCompleteWithPrivateEmail:error:",
+            "lang": "objc",
+            "addr": 4295007700
+          },
+          {
+            "name": "_didCompleteWithError:",
+            "flag": "method.AKPrivateEmailRVSServiceViewController._didCompleteWithError:",
+            "lang": "objc",
+            "addr": 4295007872
+          },
+          {
+            "name": "callCompletionWithPrivateEmail:error:",
+            "flag": "method.AKPrivateEmailRVSServiceViewController.callCompletionWithPrivateEmail:error:",
+            "lang": "objc",
+            "addr": 4295008768
+          },
+          {
+            "name": "_contextForOriginalRequestContext:completion:",
+            "flag": "method.AKPrivateEmailRVSServiceViewController._contextForOriginalRequestContext:completion:",
+            "lang": "objc",
+            "addr": 4295010372
+          },
+          {
+            "name": "_addClientInfoToRequestContext:",
+            "flag": "method.AKPrivateEmailRVSServiceViewController._addClientInfoToRequestContext:",
+            "lang": "objc",
+            "addr": 4295010688
+          },
+          {
+            "name": "_privateEmailController",
+            "flag": "method.AKPrivateEmailRVSServiceViewController._privateEmailController",
+            "lang": "objc",
+            "addr": 4295011728
+          },
+          {
+            "name": "_executeSyncOnMainThreadIfNeeded:",
+            "flag": "method.AKPrivateEmailRVSServiceViewController._executeSyncOnMainThreadIfNeeded:",
+            "lang": "objc",
+            "addr": 4295011952
+          },
+          {
+            "name": "windowDidResize:",
+            "flag": "method.AKPrivateEmailRVSServiceViewController.windowDidResize:",
+            "lang": "objc",
+            "addr": 4295012156
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.AKPrivateEmailRVSServiceViewController.dealloc",
+            "lang": "objc",
+            "addr": 4295012356
+          },
+          {
+            "name": "privateEmailVC",
+            "flag": "method.AKPrivateEmailRVSServiceViewController.privateEmailVC",
+            "lang": "objc",
+            "addr": 4295012548
+          },
+          {
+            "name": "setPrivateEmailVC:",
+            "flag": "method.AKPrivateEmailRVSServiceViewController.setPrivateEmailVC:",
+            "lang": "objc",
+            "addr": 4295012584
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.AKPrivateEmailRVSServiceViewController..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295012648
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_proxyClient",
+            "kind": "var",
+            "type": "@\"AKClient\"",
+            "addr": 4295093104
+          },
+          {
+            "name": "_privateEmailVC",
+            "kind": "var",
+            "type": "@\"AKPrivateEmailViewController\"",
+            "addr": 4295093108
+          },
+          {
+            "name": "privateEmailVC",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "AKAuthorizationRVSServiceViewController",
+        "addr": 4295093608,
+        "lang": "objc",
+        "index": 6,
+        "super": [
+          "NSServiceViewController"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSServiceViewController"
+        ],
+        "methods": [
+          {
+            "name": "setupWithRequestContext:completion:",
+            "flag": "method.AKAuthorizationRVSServiceViewController.setupWithRequestContext:completion:",
+            "lang": "objc",
+            "addr": 4295012740
+          },
+          {
+            "name": "alertHandlerShowAlert:primaryAction:altAction:",
+            "flag": "method.AKAuthorizationRVSServiceViewController.alertHandlerShowAlert:primaryAction:altAction:",
+            "lang": "objc",
+            "addr": 4295015320
+          },
+          {
+            "name": "_proxyClient",
+            "flag": "method.AKAuthorizationRVSServiceViewController._proxyClient",
+            "lang": "objc",
+            "addr": 4295016640
+          },
+          {
+            "name": "windowSizeConstraintsShouldTrackRemoteView",
+            "flag": "method.AKAuthorizationRVSServiceViewController.windowSizeConstraintsShouldTrackRemoteView",
+            "lang": "objc",
+            "addr": 4295016892
+          },
+          {
+            "name": "remoteViewControllerInterface",
+            "flag": "method.AKAuthorizationRVSServiceViewController.remoteViewControllerInterface",
+            "lang": "objc",
+            "addr": 4295016920
+          },
+          {
+            "name": "exportedInterface",
+            "flag": "method.AKAuthorizationRVSServiceViewController.exportedInterface",
+            "lang": "objc",
+            "addr": 4295016980
+          },
+          {
+            "name": "authorizationViewController:didRequestAuthorizationWithUserProvidedInformation:completion:",
+            "flag": "method.AKAuthorizationRVSServiceViewController.authorizationViewController:didRequestAuthorizationWithUserProvidedInformation:completion:",
+            "lang": "objc",
+            "addr": 4295017040
+          },
+          {
+            "name": "authorizationViewController:didCompleteWithAuthorization:error:",
+            "flag": "method.AKAuthorizationRVSServiceViewController.authorizationViewController:didCompleteWithAuthorization:error:",
+            "lang": "objc",
+            "addr": 4295017968
+          },
+          {
+            "name": "authorizationViewController:didRequestIconForRequestContext:completion:",
+            "flag": "method.AKAuthorizationRVSServiceViewController.authorizationViewController:didRequestIconForRequestContext:completion:",
+            "lang": "objc",
+            "addr": 4295018180
+          },
+          {
+            "name": "_didCompleteWithError:",
+            "flag": "method.AKAuthorizationRVSServiceViewController._didCompleteWithError:",
+            "lang": "objc",
+            "addr": 4295018560
+          },
+          {
+            "name": "callCompletionWithAuthorization:error:",
+            "flag": "method.AKAuthorizationRVSServiceViewController.callCompletionWithAuthorization:error:",
+            "lang": "objc",
+            "addr": 4295019456
+          },
+          {
+            "name": "_presentationContextForOriginalRequestContext:completion:",
+            "flag": "method.AKAuthorizationRVSServiceViewController._presentationContextForOriginalRequestContext:completion:",
+            "lang": "objc",
+            "addr": 4295020260
+          },
+          {
+            "name": "_addClientInfoToCredentialRequestContext:",
+            "flag": "method.AKAuthorizationRVSServiceViewController._addClientInfoToCredentialRequestContext:",
+            "lang": "objc",
+            "addr": 4295020576
+          },
+          {
+            "name": "_authorizationController",
+            "flag": "method.AKAuthorizationRVSServiceViewController._authorizationController",
+            "lang": "objc",
+            "addr": 4295022820
+          },
+          {
+            "name": "_executeSyncOnMainThreadIfNeeded:",
+            "flag": "method.AKAuthorizationRVSServiceViewController._executeSyncOnMainThreadIfNeeded:",
+            "lang": "objc",
+            "addr": 4295023044
+          },
+          {
+            "name": "windowDidResize:",
+            "flag": "method.AKAuthorizationRVSServiceViewController.windowDidResize:",
+            "lang": "objc",
+            "addr": 4295023248
+          },
+          {
+            "name": "authVC",
+            "flag": "method.AKAuthorizationRVSServiceViewController.authVC",
+            "lang": "objc",
+            "addr": 4295023448
+          },
+          {
+            "name": "setAuthVC:",
+            "flag": "method.AKAuthorizationRVSServiceViewController.setAuthVC:",
+            "lang": "objc",
+            "addr": 4295023484
+          },
+          {
+            "name": "originalRequestContext",
+            "flag": "method.AKAuthorizationRVSServiceViewController.originalRequestContext",
+            "lang": "objc",
+            "addr": 4295023548
+          },
+          {
+            "name": "setOriginalRequestContext:",
+            "flag": "method.AKAuthorizationRVSServiceViewController.setOriginalRequestContext:",
+            "lang": "objc",
+            "addr": 4295023584
+          },
+          {
+            "name": "presentationContext",
+            "flag": "method.AKAuthorizationRVSServiceViewController.presentationContext",
+            "lang": "objc",
+            "addr": 4295023648
+          },
+          {
+            "name": "setPresentationContext:",
+            "flag": "method.AKAuthorizationRVSServiceViewController.setPresentationContext:",
+            "lang": "objc",
+            "addr": 4295023684
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.AKAuthorizationRVSServiceViewController..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295023748
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_proxyClient",
+            "kind": "var",
+            "type": "@\"AKClient\"",
+            "addr": 4295093112
+          },
+          {
+            "name": "_authVC",
+            "kind": "var",
+            "type": "@\"AKAuthorizationViewController\"",
+            "addr": 4295093116
+          },
+          {
+            "name": "_originalRequestContext",
+            "kind": "var",
+            "type": "@\"AKCredentialRequestContext\"",
+            "addr": 4295093120
+          },
+          {
+            "name": "_presentationContext",
+            "kind": "var",
+            "type": "@\"AKAuthorizationPresentationContext\"",
+            "addr": 4295093124
+          },
+          {
+            "name": "authVC",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "originalRequestContext",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "presentationContext",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      }
+    ],
+    "swift_metadata": {
+      "is_swift": false,
+      "symbols": []
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/AKTrustedDeviceViewItem.nib",
+        "Versions/A/Resources/AKiCDPWaitForApprovalView.nib",
+        "Versions/A/Resources/AKShortInlineSignInViewController.nib",
+        "Versions/A/Resources/AKDefaultSignInPromptViewController.nib",
+        "Versions/A/Resources/AKNoCodeReceived.nib",
+        "Versions/A/Resources/AKAppleIDAuthenticationiCloudPrefPaneSecondFactor.nib",
+        "Versions/A/Resources/AKLargeSignInPromptViewController.nib",
+        "Versions/A/Resources/AKIDPProvidedSignInViewController.nib",
+        "Versions/A/Resources/AKAppleIDAuthenticationPrefPaneLogoContainerViewController.nib",
+        "Versions/A/Resources/AKAuthWebTabView.loctable",
+        "Versions/A/Resources/AKWebViewButtonBar.loctable",
+        "Versions/A/Resources/AKModalSignInViewController_OSX.nib",
+        "Versions/A/Resources/AKPrivateEmailRVSWindowController.nib",
+        "Versions/A/Resources/AKAppleLogoBlack.pdf",
+        "Versions/A/Resources/AKAuthorizationRVSWindowController.nib",
+        "Versions/A/Resources/AKLegacyInlineSignInViewController.nib",
+        "Versions/A/Resources/AKiCDPRecoveryKeyViewController.nib",
+        "Versions/A/Resources/AKKeepUsing.nib",
+        "Versions/A/Resources/separator.tiff",
+        "Versions/A/Resources/AKTooManyAttempts.nib",
+        "Versions/A/Resources/Localizable.loctable",
+        "Versions/A/Resources/AKiCDPEnrollmentDevicePasscodeView.nib",
+        "Versions/A/Resources/Assets.car",
+        "Versions/A/Resources/AKAuthenticationPrompt.nib",
+        "Versions/A/Resources/AKiCDPDeviceValidationFlowView.nib",
+        "Versions/A/Resources/AKAuthenticationRVSWindowController.nib",
+        "Versions/A/Resources/cloud.png",
+        "Versions/A/Resources/AKInAssistantSecondFactorCodeEntry.nib",
+        "Versions/A/Resources/fido.tiff",
+        "Versions/A/Resources/AKSecondFactorCodeEntry.nib",
+        "Versions/A/Resources/iCSC_Localizable.loctable",
+        "Versions/A/Resources/AKAppleLogoWhite.pdf",
+        "Versions/A/Resources/AKiCDPEnrollmentDeviceListView.nib",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/AKInlineSignInViewController_OSX.nib",
+        "Versions/A/Resources/version.plist",
+        "Versions/A/Resources/AKAppleIDAuthenticationiCloudPrefPaneView.nib",
+        "Versions/A/XPCServices/AKAuthorizationRemoteViewService.xpc/Contents/Info.plist",
+        "Versions/A/XPCServices/AKAuthorizationRemoteViewService.xpc/Contents/version.plist",
+        "Versions/A/XPCServices/AKAuthorizationRemoteViewService.xpc/Contents/_CodeSignature/CodeResources",
+        "Versions/A/XPCServices/AKAuthorizationRemoteViewService.xpc/Contents/MacOS/AKAuthorizationRemoteViewService",
+        "Versions/A/XPCServices/AKAuthorizationRemoteViewService.xpc/Contents/Resources/AKPrivateEmailRVSServiceViewController.nib",
+        "Versions/A/XPCServices/AKAuthorizationRemoteViewService.xpc/Contents/Resources/AKAuthorizationRVSServiceViewController.nib",
+        "Versions/A/XPCServices/AKAuthorizationRemoteViewService.xpc/Contents/Resources/AKFidoRVSServiceViewController.nib",
+        "Versions/A/XPCServices/AKAuthorizationRemoteViewService.xpc/Contents/Resources/Localizable.loctable",
+        "Versions/A/XPCServices/AKAuthorizationRemoteViewService.xpc/Contents/Resources/AKAuthenticationRVSServiceViewController.nib",
+        "Versions/A/XPCServices/AKAuthorizationRemoteViewService.xpc/Contents/Resources/InfoPlist.loctable",
+        "Versions/A/Resources/Base.lproj/AKAuthWebTabView.nib",
+        "Versions/A/Resources/Base.lproj/AKWebViewButtonBar.nib",
+        "PlugIns/AKFollowUpExtension.appex/Contents/Info.plist",
+        "PlugIns/AKFollowUpExtension.appex/Contents/version.plist",
+        "PlugIns/AKFollowUpExtension.appex/Contents/_CodeSignature/CodeResources",
+        "PlugIns/AKFollowUpExtension.appex/Contents/MacOS/AKFollowUpExtension",
+        "PlugIns/AKFollowUpExtension.appex/Contents/Resources/AKFollowUpViewController.nib",
+        "PlugIns/AKAppSSOExtension_macOS.appex/Contents/Info.plist",
+        "PlugIns/AKAppSSOExtension_macOS.appex/Contents/version.plist",
+        "PlugIns/AKAppSSOExtension_macOS.appex/Contents/_CodeSignature/CodeResources",
+        "PlugIns/AKAppSSOExtension_macOS.appex/Contents/MacOS/AKAppSSOExtension_macOS",
+        "PlugIns/AKAppSSOExtension_macOS.appex/Contents/Resources/InfoPlist.loctable"
+      ],
+      "plists": {
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "AuthKitUI",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "UIUserInterfaceIdiomMac": true,
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "FMWK",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "AuthKitUI",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "UIGlobalUserInterfaceIdiomMac": true,
+          "CFBundleIdentifier": "com.apple.AuthKitUI",
+          "UIViewControllerBasedStatusBarAppearance": true,
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleSignature": "????",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleVersion": "1",
+          "ProjectName": "AuthKitUI",
+          "BuildAliasOf": "AuthKit",
+          "SourceVersion": "525127001000000",
+          "BuildVersion": "68"
+        },
+        "Versions/A/XPCServices/AKAuthorizationRemoteViewService.xpc/Contents/Info.plist": {
+          "CFBundleName": "AKAuthorizationRemoteViewService",
+          "CFBundleAllowMixedLocalizations": true,
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2019 Apple Inc. All rights reserved.",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "English",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "NSPrincipalClass": "NSViewServiceApplication",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "XPCService": {
+            "RunLoopType": "_NSApplicationMain",
+            "JoinExistingSession": true,
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "AKAuthorizationRemoteViewService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.AuthKitUI.AKAuthorizationRemoteViewService",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleDisplayName": "AKAuthorizationRemoteViewService",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/XPCServices/AKAuthorizationRemoteViewService.xpc/Contents/version.plist": {
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleVersion": "1",
+          "ProjectName": "AuthKitUI",
+          "BuildAliasOf": "AuthKit",
+          "SourceVersion": "525127001000000",
+          "BuildVersion": "68"
+        },
+        "PlugIns/AKFollowUpExtension.appex/Contents/Info.plist": {
+          "CFBundleName": "AKFollowUpExtension",
+          "CFBundleAllowMixedLocalizations": true,
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "XPCService": {},
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "AKFollowUpExtension",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.AuthKitUI.AKFollowUpServerUIExtension",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleDisplayName": "AKFollowUpServerUIExtension",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "",
+          "NSExtension": {
+            "NSExtensionAttributes": {},
+            "NSExtensionMainNibFile": "AKFollowUpViewController",
+            "NSExtensionPointIdentifier": "com.apple.followup-extension",
+            "NSExtensionPrincipalClass": "AKFollowUpViewController"
+          }
+        },
+        "PlugIns/AKFollowUpExtension.appex/Contents/version.plist": {
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleVersion": "1",
+          "ProjectName": "AuthKitUI",
+          "BuildAliasOf": "AuthKit",
+          "SourceVersion": "525127001000000",
+          "BuildVersion": "68"
+        },
+        "PlugIns/AKAppSSOExtension_macOS.appex/Contents/Info.plist": {
+          "CFBundleName": "AKAppSSOExtension_macOS",
+          "CFBundleAllowMixedLocalizations": true,
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "XPCService": {},
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "AKAppSSOExtension_macOS",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.AuthKitUI.AKAppSSOExtension",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleDisplayName": "Sign In With Apple",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "",
+          "NSExtension": {
+            "NSExtensionAttributes": {},
+            "NSExtensionPointIdentifier": "com.apple.AppSSO.idp-extension",
+            "NSExtensionPrincipalClass": "AKAppSSOExtensionViewController"
+          }
+        },
+        "PlugIns/AKAppSSOExtension_macOS.appex/Contents/version.plist": {
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleVersion": "1",
+          "ProjectName": "AuthKitUI",
+          "BuildAliasOf": "AuthKit",
+          "SourceVersion": "525127001000000",
+          "BuildVersion": "68"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
+  },
+  "usage": {
+    "layer": "usage",
+    "used_by": [
+      {
+        "path": "/System/Applications/Music.app",
+        "binary": "/System/Applications/Music.app/Contents/MacOS/Music",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Applications/FindMy.app",
+        "binary": "/System/Applications/FindMy.app/Contents/MacOS/FindMy",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Applications/Notes.app",
+        "binary": "/System/Applications/Notes.app/Contents/MacOS/Notes",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Applications/TV.app",
+        "binary": "/System/Applications/TV.app/Contents/MacOS/TV",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Applications/FaceTime.app",
+        "binary": "/System/Applications/FaceTime.app/Contents/MacOS/FaceTime",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/Setup Assistant.app",
+        "binary": "/System/Library/CoreServices/Setup Assistant.app/Contents/MacOS/Setup Assistant",
+        "used_classes": []
+      }
+    ]
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "loaded"
+  }
+}

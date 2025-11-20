@@ -1,0 +1,2197 @@
+{
+  "framework": "SiriInference.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/SiriInference.framework/Versions/A/siriinferenced",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 231264,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "swift",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/AssistantServices",
+          "/System/Library/PrivateFrameworks/CoreDuet.framework/Versions/A/CoreDuet",
+          "/System/Library/PrivateFrameworks/SiriInference.framework/Versions/A/SiriInference",
+          "/System/Library/PrivateFrameworks/SiriSignals.framework/Versions/A/SiriSignals",
+          "/System/Library/PrivateFrameworks/SiriRemembers.framework/Versions/A/SiriRemembers",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/PrivateFrameworks/AIMLExperimentationAnalytics.framework/Versions/A/AIMLExperimentationAnalytics",
+          "/System/Library/PrivateFrameworks/BiomeLibrary.framework/Versions/A/BiomeLibrary",
+          "/System/Library/PrivateFrameworks/BiomeStorage.framework/Versions/A/BiomeStorage",
+          "/System/Library/PrivateFrameworks/BiomeStreams.framework/Versions/A/BiomeStreams",
+          "/System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics",
+          "/System/Library/PrivateFrameworks/SiriIntentEvents.framework/Versions/A/SiriIntentEvents",
+          "/usr/lib/swift/libswiftAVFoundation.dylib",
+          "/usr/lib/swift/libswiftAccelerate.dylib",
+          "/usr/lib/swift/libswiftCompression.dylib",
+          "/usr/lib/swift/libswiftCore.dylib",
+          "/usr/lib/swift/libswiftCoreAudio.dylib",
+          "/usr/lib/swift/libswiftCoreFoundation.dylib",
+          "/usr/lib/swift/libswiftCoreImage.dylib",
+          "/usr/lib/swift/libswiftCoreLocation.dylib",
+          "/usr/lib/swift/libswiftCoreMIDI.dylib",
+          "/usr/lib/swift/libswiftCoreMedia.dylib",
+          "/usr/lib/swift/libswiftCoreMediaIO.dylib",
+          "/usr/lib/swift/libswiftDispatch.dylib",
+          "/usr/lib/swift/libswiftIOKit.dylib",
+          "/usr/lib/swift/libswiftIntents.dylib",
+          "/usr/lib/swift/libswiftMLCompute.dylib",
+          "/usr/lib/swift/libswiftMapKit.dylib",
+          "/usr/lib/swift/libswiftMetal.dylib",
+          "/usr/lib/swift/libswiftNaturalLanguage.dylib",
+          "/usr/lib/swift/libswiftOSLog.dylib",
+          "/usr/lib/swift/libswiftObjectiveC.dylib",
+          "/usr/lib/swift/libswiftQuartzCore.dylib",
+          "/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib",
+          "/usr/lib/swift/libswiftXPC.dylib",
+          "/usr/lib/swift/libswift_Builtin_float.dylib",
+          "/usr/lib/swift/libswift_Concurrency.dylib",
+          "/usr/lib/swift/libswift_DarwinFoundation3.dylib",
+          "/usr/lib/swift/libswiftos.dylib",
+          "/usr/lib/swift/libswiftsimd.dylib"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "AppIntentBiomeMonitor",
+        "addr": 93000,
+        "lang": "swift",
+        "index": 0,
+        "fields": [
+          {
+            "name": "bpsSink",
+            "kind": "property",
+            "type": "BPSSink.allocator(...yXlGSg)",
+            "addr": 4295061280
+          },
+          {
+            "name": "suggestionsBridge",
+            "kind": "property",
+            "addr": 4295061296
+          }
+        ]
+      },
+      {
+        "classname": "BackgroundManager",
+        "addr": 93092,
+        "lang": "swift",
+        "index": 1,
+        "fields": [
+          {
+            "name": "forTesting",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295061328
+          },
+          {
+            "name": "inner",
+            "kind": "property",
+            "addr": 4295061339
+          },
+          {
+            "name": "lock",
+            "kind": "property",
+            "type": "__C.OS_dispatch_semaphore",
+            "addr": 4295061345
+          },
+          {
+            "name": "rectifiCoreDataLocation",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295061360
+          },
+          {
+            "name": "recurringActions",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295061392
+          }
+        ]
+      },
+      {
+        "classname": "Inner",
+        "addr": 93248,
+        "lang": "swift",
+        "index": 2,
+        "fields": [
+          {
+            "name": "appIntentBiomeMonitor",
+            "kind": "property",
+            "addr": 4295061424
+          },
+          {
+            "name": "rolloutsMonitor",
+            "kind": "property",
+            "addr": 4295061446
+          }
+        ]
+      },
+      {
+        "classname": "Constants",
+        "addr": 93364,
+        "lang": "swift",
+        "index": 3
+      },
+      {
+        "classname": "ExitReason",
+        "addr": 93392,
+        "lang": "swift",
+        "index": 4,
+        "fields": [
+          {
+            "name": "success",
+            "kind": "property",
+            "addr": 4295061481
+          },
+          {
+            "name": "confstrTempDirFailure",
+            "kind": "property",
+            "addr": 4295061504
+          },
+          {
+            "name": "confstrCacheDirFailure",
+            "kind": "property",
+            "addr": 4295061536
+          },
+          {
+            "name": "setUserDirSuffixFailure",
+            "kind": "property",
+            "addr": 4295061568
+          },
+          {
+            "name": "setTempDirEmptyFailure",
+            "kind": "property",
+            "addr": 4295061600
+          },
+          {
+            "name": "confstrUnsuffixedUserDirFailure",
+            "kind": "property",
+            "addr": 4295061632
+          }
+        ]
+      },
+      {
+        "classname": "Exit",
+        "addr": 93420,
+        "lang": "swift",
+        "index": 5
+      },
+      {
+        "classname": "Signpost",
+        "addr": 93448,
+        "lang": "swift",
+        "index": 6,
+        "fields": [
+          {
+            "name": "id",
+            "kind": "property",
+            "addr": 4295061664
+          },
+          {
+            "name": "name",
+            "kind": "property",
+            "addr": 4295061667
+          },
+          {
+            "name": "log",
+            "kind": "property",
+            "type": "__C.OS_os_log",
+            "addr": 4295061672
+          }
+        ]
+      },
+      {
+        "classname": "SiriInferenceDodMLPlugin",
+        "addr": 93488,
+        "lang": "swift",
+        "index": 7,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ]
+      },
+      {
+        "classname": "SiriInferenceService",
+        "addr": 93572,
+        "lang": "swift",
+        "index": 8,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ]
+      },
+      {
+        "classname": "SiriInferenceServiceDelegate",
+        "addr": 93656,
+        "lang": "swift",
+        "index": 9,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ]
+      },
+      {
+        "classname": "SiriRemembersService",
+        "addr": 93716,
+        "lang": "swift",
+        "index": 10,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ]
+      },
+      {
+        "classname": "SiriRemembersServiceDelegate",
+        "addr": 93776,
+        "lang": "swift",
+        "index": 11,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ]
+      },
+      {
+        "classname": "SiriRolloutsMonitor",
+        "addr": 93836,
+        "lang": "swift",
+        "index": 12,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.SiriRolloutsMonitor.0",
+            "lang": "swift",
+            "addr": 4295061188
+          },
+          {
+            "name": "1",
+            "flag": "method.SiriRolloutsMonitor.1",
+            "lang": "swift",
+            "addr": 4295061196
+          },
+          {
+            "name": "func.100011ac4",
+            "flag": "method.SiriRolloutsMonitor.func.100011ac4",
+            "lang": "swift",
+            "addr": 4295039684
+          },
+          {
+            "name": "3",
+            "flag": "method.SiriRolloutsMonitor.3",
+            "lang": "swift",
+            "addr": 4295061212
+          },
+          {
+            "name": "4",
+            "flag": "method.SiriRolloutsMonitor.4",
+            "lang": "swift",
+            "addr": 4295060284
+          },
+          {
+            "name": "func.1000121e4",
+            "flag": "method.SiriRolloutsMonitor.func.1000121e4",
+            "lang": "swift",
+            "addr": 4295041508
+          },
+          {
+            "name": "6",
+            "flag": "method.SiriRolloutsMonitor.6",
+            "lang": "swift",
+            "addr": 4295059070
+          },
+          {
+            "name": "7",
+            "flag": "method.SiriRolloutsMonitor.7",
+            "lang": "swift",
+            "addr": 4295061255
+          },
+          {
+            "name": "8",
+            "flag": "method.SiriRolloutsMonitor.8",
+            "lang": "swift",
+            "addr": 4295061252
+          },
+          {
+            "name": "9",
+            "flag": "method.SiriRolloutsMonitor.9",
+            "lang": "swift",
+            "addr": 4295061270
+          }
+        ],
+        "fields": [
+          {
+            "name": "expAnalyticsManager",
+            "kind": "property",
+            "addr": 4295061680
+          }
+        ]
+      },
+      {
+        "classname": "SiriSignalsServiceDelegate",
+        "addr": 93920,
+        "lang": "swift",
+        "index": 13,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ]
+      },
+      {
+        "classname": "siriinferenced.AppIntentBiomeMonitor",
+        "addr": 4295102592,
+        "lang": "objc",
+        "index": 14,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "bpsSink",
+            "kind": "var",
+            "addr": 4295049312
+          },
+          {
+            "name": "suggestionsBridge",
+            "kind": "var",
+            "addr": 4295049320
+          }
+        ]
+      },
+      {
+        "classname": "siriinferenced.BackgroundManager",
+        "addr": 4295102840,
+        "lang": "objc",
+        "index": 15,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "forTesting",
+            "kind": "var",
+            "addr": 4295049440
+          },
+          {
+            "name": "inner",
+            "kind": "var",
+            "addr": 4295049448
+          },
+          {
+            "name": "lock",
+            "kind": "var",
+            "addr": 4295049456
+          },
+          {
+            "name": "rectifiCoreDataLocation",
+            "kind": "var",
+            "addr": 4295049464
+          },
+          {
+            "name": "recurringActions",
+            "kind": "var",
+            "addr": 4295049472
+          }
+        ]
+      },
+      {
+        "classname": "siriinferenced.BackgroundManager.Inner",
+        "addr": 4295103128,
+        "lang": "objc",
+        "index": 16,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "appIntentBiomeMonitor",
+            "kind": "var",
+            "addr": 4295049512
+          },
+          {
+            "name": "rolloutsMonitor",
+            "kind": "var",
+            "addr": 4295049520
+          }
+        ]
+      },
+      {
+        "classname": "SiriInferenceDodMLPlugin",
+        "rawclassname": "SiriInferenceDodMLPlugin_1",
+        "addr": 4295103760,
+        "lang": "objc",
+        "index": 17,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "performEvaluation:",
+            "flag": "method.SiriInferenceDodMLPlugin.performEvaluation:",
+            "lang": "objc",
+            "addr": 4295016368
+          },
+          {
+            "name": "init",
+            "flag": "method.SiriInferenceDodMLPlugin.init",
+            "lang": "objc",
+            "addr": 4295027044
+          }
+        ]
+      },
+      {
+        "classname": "siriinferenced.SiriInferenceService",
+        "addr": 4295104096,
+        "lang": "objc",
+        "index": 18,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "logCoreAnalyticsMetricWithMetricsData:",
+            "flag": "func.10000f6f0",
+            "lang": "objc",
+            "addr": 4295030512
+          },
+          {
+            "name": "waitForBackgroundJobsToFinishWithCompletionHandler:",
+            "flag": "func.10000f7b8",
+            "lang": "objc",
+            "addr": 4295030712
+          },
+          {
+            "name": "rankAppsForSearchTermWithSearchTerm:maxResults:excludeAppBundleIds:completionHandler:",
+            "flag": "func.10000ff84",
+            "lang": "objc",
+            "addr": 4295032708
+          },
+          {
+            "name": "appSelectedForSearchTermWithRankEventId:selectedAppBundleId:numberOfAppsShown:",
+            "flag": "func.100010174",
+            "lang": "objc",
+            "addr": 4295033204
+          },
+          {
+            "name": "init",
+            "flag": "method.siriinferenced.SiriInferenceService.init",
+            "lang": "objc",
+            "addr": 4295033548
+          },
+          {
+            "name": "waitForBackgroundJobsToFinishWithCompletionHandler:",
+            "flag": "method.siriinferenced.SiriInferenceService.waitForBackgroundJobsToFinishWithCompletionHandler:",
+            "lang": "objc",
+            "addr": 4295049152
+          },
+          {
+            "name": "logCoreAnalyticsMetricWithMetricsData:",
+            "flag": "method.siriinferenced.SiriInferenceService.logCoreAnalyticsMetricWithMetricsData:",
+            "lang": "objc",
+            "addr": 4295049164
+          },
+          {
+            "name": "rankAppsForSearchTermWithSearchTerm:maxResults:excludeAppBundleIds:completionHandler:",
+            "flag": "method.siriinferenced.SiriInferenceService.rankAppsForSearchTermWithSearchTerm:maxResults:excludeAppBundleIds:completionHandler:",
+            "lang": "objc",
+            "addr": 4295049176
+          },
+          {
+            "name": "appSelectedForSearchTermWithRankEventId:selectedAppBundleId:numberOfAppsShown:",
+            "flag": "method.siriinferenced.SiriInferenceService.appSelectedForSearchTermWithRankEventId:selectedAppBundleId:numberOfAppsShown:",
+            "lang": "objc",
+            "addr": 4295049188
+          },
+          {
+            "name": "waitForBackgroundJobsToFinishWithCompletionHandler:",
+            "flag": "method.siriinferenced.SiriInferenceService.waitForBackgroundJobsToFinishWithCompletionHandler:",
+            "lang": "objc",
+            "addr": 4295049152
+          },
+          {
+            "name": "logCoreAnalyticsMetricWithMetricsData:",
+            "flag": "method.siriinferenced.SiriInferenceService.logCoreAnalyticsMetricWithMetricsData:",
+            "lang": "objc",
+            "addr": 4295049164
+          },
+          {
+            "name": "rankAppsForSearchTermWithSearchTerm:maxResults:excludeAppBundleIds:completionHandler:",
+            "flag": "method.siriinferenced.SiriInferenceService.rankAppsForSearchTermWithSearchTerm:maxResults:excludeAppBundleIds:completionHandler:",
+            "lang": "objc",
+            "addr": 4295049176
+          },
+          {
+            "name": "appSelectedForSearchTermWithRankEventId:selectedAppBundleId:numberOfAppsShown:",
+            "flag": "method.siriinferenced.SiriInferenceService.appSelectedForSearchTermWithRankEventId:selectedAppBundleId:numberOfAppsShown:",
+            "lang": "objc",
+            "addr": 4295049188
+          }
+        ]
+      },
+      {
+        "classname": "siriinferenced.SiriInferenceServiceDelegate",
+        "addr": 4295104160,
+        "lang": "objc",
+        "index": 19,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "listener:shouldAcceptNewConnection:",
+            "flag": "method.siriinferenced.SiriInferenceServiceDelegate.listener:shouldAcceptNewConnection:",
+            "lang": "objc",
+            "addr": 4295036212
+          },
+          {
+            "name": "init",
+            "flag": "method.siriinferenced.SiriInferenceServiceDelegate.init",
+            "lang": "objc",
+            "addr": 4295036384
+          }
+        ]
+      },
+      {
+        "classname": "siriinferenced.SiriRemembersService",
+        "addr": 4295104296,
+        "lang": "objc",
+        "index": 20,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "donateToInteractionStoreWithDonationData:completionHandler:",
+            "flag": "func.100011430",
+            "lang": "objc",
+            "addr": 4295038000
+          },
+          {
+            "name": "init",
+            "flag": "method.siriinferenced.SiriRemembersService.init",
+            "lang": "objc",
+            "addr": 4295038188
+          },
+          {
+            "name": "donateToInteractionStoreWithDonationData:completionHandler:",
+            "flag": "method.siriinferenced.SiriRemembersService.donateToInteractionStoreWithDonationData:completionHandler:",
+            "lang": "objc",
+            "addr": 4295049208
+          },
+          {
+            "name": "donateToInteractionStoreWithDonationData:completionHandler:",
+            "flag": "method.siriinferenced.SiriRemembersService.donateToInteractionStoreWithDonationData:completionHandler:",
+            "lang": "objc",
+            "addr": 4295049208
+          }
+        ]
+      },
+      {
+        "classname": "siriinferenced.SiriRemembersServiceDelegate",
+        "addr": 4295104352,
+        "lang": "objc",
+        "index": 21,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "listener:shouldAcceptNewConnection:",
+            "flag": "method.siriinferenced.SiriRemembersServiceDelegate.listener:shouldAcceptNewConnection:",
+            "lang": "objc",
+            "addr": 4295039132
+          },
+          {
+            "name": "init",
+            "flag": "method.siriinferenced.SiriRemembersServiceDelegate.init",
+            "lang": "objc",
+            "addr": 4295039304
+          }
+        ]
+      },
+      {
+        "classname": "siriinferenced.SiriRolloutsMonitor",
+        "addr": 4295104392,
+        "lang": "objc",
+        "index": 22,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "expAnalyticsManager",
+            "kind": "var",
+            "addr": 4295050288
+          }
+        ]
+      },
+      {
+        "classname": "siriinferenced.SiriSignalsServiceDelegate",
+        "addr": 4295104576,
+        "lang": "objc",
+        "index": 23,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "listener:shouldAcceptNewConnection:",
+            "flag": "method.siriinferenced.SiriSignalsServiceDelegate.listener:shouldAcceptNewConnection:",
+            "lang": "objc",
+            "addr": 4295041248
+          },
+          {
+            "name": "init",
+            "flag": "method.siriinferenced.SiriSignalsServiceDelegate.init",
+            "lang": "objc",
+            "addr": 4295041420
+          }
+        ]
+      }
+    ],
+    "swift_metadata": {
+      "is_swift": true,
+      "symbols": [
+        {
+          "name": "imp.$s10Foundation11JSONDecoderC6decode_4fromxxm_AA4DataVtKSeRzlFTj",
+          "demname": "Foundation.JSONDecoder.decode.allocator.from...xxm_AA4DataVtKSeRzlFTj",
+          "flagname": "sym.imp.Foundation.JSONDecoder.decode.allocator.from...xxm_AA4DataVtKSeRzlFTj",
+          "realname": "Foundation.JSONDecoder.decode.allocator.from...xxm_AA4DataVtKSeRzlFTj",
+          "ordinal": 2,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295044416,
+          "paddr": 290112,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation11JSONDecoderCACycfc",
+          "demname": "Foundation.JSONDecoder.allocator.(...cfc)",
+          "flagname": "sym.imp.Foundation.JSONDecoder.allocator._...cfc_",
+          "realname": "Foundation.JSONDecoder.allocator.(...cfc)",
+          "ordinal": 3,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295044432,
+          "paddr": 290128,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation11JSONDecoderCMa",
+          "demname": "Foundation.JSONDecoder.allocator(...a)",
+          "flagname": "sym.imp.Foundation.JSONDecoder.allocator_...a_",
+          "realname": "Foundation.JSONDecoder.allocator(...a)",
+          "ordinal": 4,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295044448,
+          "paddr": 290144,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation13__DataStorageC5bytes6length4copy11deallocator6offsetACSvSg_SiSbySv_SitcSgSitcfc",
+          "demname": "Foundation.__DataStorage.bytes.allocator(...itcSgSitcfc)",
+          "flagname": "sym.imp.Foundation.__DataStorage.bytes.allocator_...itcSgSitcfc_",
+          "realname": "Foundation.__DataStorage.bytes.allocator(...itcSgSitcfc)",
+          "ordinal": 5,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295044464,
+          "paddr": 290160,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation13__DataStorageC6_bytesSvSgvg",
+          "demname": "Foundation.__DataStorage._bytes.allocator__UnsafeMutableRawPointer -> ().Sgvg",
+          "flagname": "sym.imp.Foundation.__DataStorage._bytes.allocator__UnsafeMutableRawPointer______.Sgvg",
+          "realname": "Foundation.__DataStorage._bytes.allocator__UnsafeMutableRawPointer -> ().Sgvg",
+          "ordinal": 6,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295044480,
+          "paddr": 290176,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation13__DataStorageC6lengthACSi_tcfc",
+          "demname": "Foundation.__DataStorage.length.allocator.: allocator, length.: allocator, A.CSi_tcfc",
+          "flagname": "sym.imp.Foundation.__DataStorage.length.allocator.:_allocator__length.:_allocator__A.CSi_tcfc",
+          "realname": "Foundation.__DataStorage.length.allocator.: allocator, length.: allocator, A.CSi_tcfc",
+          "ordinal": 7,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295044496,
+          "paddr": 290192,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation13__DataStorageC7_lengthSivg",
+          "demname": "getter Foundation.__DataStorage._length.allocator__Swift.Int -> (): allocator_lengthallocatorS(...vg)",
+          "flagname": "sym.imp.getter_Foundation.__DataStorage._length.allocator__Swift.Int______:_allocator_lengthallocatorS_...vg_",
+          "realname": "getter Foundation.__DataStorage._length.allocator__Swift.Int -> (): allocator_lengthallocatorS(...vg)",
+          "ordinal": 8,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295044512,
+          "paddr": 290208,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation13__DataStorageC7_offsetSivg",
+          "demname": "getter Foundation.__DataStorage._offset.allocator__Swift.Int -> (): allocator_offsetallocatorS(...vg)",
+          "flagname": "sym.imp.getter_Foundation.__DataStorage._offset.allocator__Swift.Int______:_allocator_offsetallocatorS_...vg_",
+          "realname": "getter Foundation.__DataStorage._offset.allocator__Swift.Int -> (): allocator_offsetallocatorS(...vg)",
+          "ordinal": 9,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295044528,
+          "paddr": 290224,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation13__DataStorageCMa",
+          "demname": "Foundation.__DataStorage.allocator(...a)",
+          "flagname": "sym.imp.Foundation.__DataStorage.allocator_...a_",
+          "realname": "Foundation.__DataStorage.allocator(...a)",
+          "ordinal": 10,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295044544,
+          "paddr": 290240,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation22_convertErrorToNSErrorySo0E0Cs0C0_pF",
+          "demname": "Foundation._convertErrorToNSError(...F)",
+          "flagname": "sym.imp.Foundation._convertErrorToNSError_...F_",
+          "realname": "Foundation._convertErrorToNSError(...F)",
+          "ordinal": 11,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295044560,
+          "paddr": 290256,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation22_convertNSErrorToErrorys0E0_pSo0C0CSgF",
+          "demname": "Foundation._convertNSErrorToError(...So0C0CSgF)",
+          "flagname": "sym.imp.Foundation._convertNSErrorToError_...So0C0CSgF_",
+          "realname": "Foundation._convertNSErrorToError(...So0C0CSgF)",
+          "ordinal": 12,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295044576,
+          "paddr": 290272,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation3URLV19_bridgeToObjectiveCSo5NSURLCyF",
+          "demname": "Foundation.URL._bridgeToObjectiveC.NSURL(...F)",
+          "flagname": "sym.imp.Foundation.URL._bridgeToObjectiveC.NSURL_...F_",
+          "realname": "Foundation.URL._bridgeToObjectiveC.NSURL(...F)",
+          "ordinal": 13,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295044592,
+          "paddr": 290288,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation3URLV4pathSSvg",
+          "demname": "Foundation.URL.path(...vg)",
+          "flagname": "sym.imp.Foundation.URL.path_...vg_",
+          "realname": "Foundation.URL.path(...vg)",
+          "ordinal": 14,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295044608,
+          "paddr": 290304,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation3URLVMa",
+          "demname": "Foundation.URL...VMa",
+          "flagname": "sym.imp.Foundation.URL...VMa",
+          "realname": "Foundation.URL...VMa",
+          "ordinal": 15,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295044624,
+          "paddr": 290320,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4DataV10LargeSliceV21ensureUniqueReferenceyyF",
+          "demname": "Foundation.Data.LargeSlice.ensureUniqueReference(...F)",
+          "flagname": "sym.imp.Foundation.Data.LargeSlice.ensureUniqueReference_...F_",
+          "realname": "Foundation.Data.LargeSlice.ensureUniqueReference(...F)",
+          "ordinal": 16,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295044640,
+          "paddr": 290336,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4DataV11InlineSliceV21ensureUniqueReferenceyyF",
+          "demname": "Foundation.Data.InlineSlice.ensureUniqueReference(...F)",
+          "flagname": "sym.imp.Foundation.Data.InlineSlice.ensureUniqueReference_...F_",
+          "realname": "Foundation.Data.InlineSlice.ensureUniqueReference(...F)",
+          "ordinal": 17,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295044656,
+          "paddr": 290352,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4DataV19_bridgeToObjectiveCSo6NSDataCyF",
+          "demname": "Foundation.Data._bridgeToObjectiveC.NSData(...F)",
+          "flagname": "sym.imp.Foundation.Data._bridgeToObjectiveC.NSData_...F_",
+          "realname": "Foundation.Data._bridgeToObjectiveC.NSData(...F)",
+          "ordinal": 18,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295044672,
+          "paddr": 290368,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4DataV36_unconditionallyBridgeFromObjectiveCyACSo6NSDataCSgFZ",
+          "demname": "Foundation.Data._unconditionallyBridgeFromObjectiveC.NSData(...gFZ)",
+          "flagname": "sym.imp.Foundation.Data._unconditionallyBridgeFromObjectiveC.NSData_...gFZ_",
+          "realname": "Foundation.Data._unconditionallyBridgeFromObjectiveC.NSData(...gFZ)",
+          "ordinal": 19,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295044688,
+          "paddr": 290384,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4UUIDV10uuidStringSSvg",
+          "demname": "Foundation.UUID.uuidString(...vg)",
+          "flagname": "sym.imp.Foundation.UUID.uuidString_...vg_",
+          "realname": "Foundation.UUID.uuidString(...vg)",
+          "ordinal": 20,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295044704,
+          "paddr": 290400,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4UUIDV19_bridgeToObjectiveCSo6NSUUIDCyF",
+          "demname": "Foundation.UUID._bridgeToObjectiveC.NSUUID(...F)",
+          "flagname": "sym.imp.Foundation.UUID._bridgeToObjectiveC.NSUUID_...F_",
+          "realname": "Foundation.UUID._bridgeToObjectiveC.NSUUID(...F)",
+          "ordinal": 21,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295044720,
+          "paddr": 290416,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4UUIDV36_unconditionallyBridgeFromObjectiveCyACSo6NSUUIDCSgFZ",
+          "demname": "Foundation.UUID._unconditionallyBridgeFromObjectiveC.NSUUID(...gFZ)",
+          "flagname": "sym.imp.Foundation.UUID._unconditionallyBridgeFromObjectiveC.NSUUID_...gFZ_",
+          "realname": "Foundation.UUID._unconditionallyBridgeFromObjectiveC.NSUUID(...gFZ)",
+          "ordinal": 22,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295044736,
+          "paddr": 290432,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4UUIDVMa",
+          "demname": "Foundation.UUID...VMa",
+          "flagname": "sym.imp.Foundation.UUID...VMa",
+          "realname": "Foundation.UUID...VMa",
+          "ordinal": 23,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295044752,
+          "paddr": 290448,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s11SiriSignals0aB7ServiceCMa",
+          "demname": "SiriSignals: 'Service..metadata.accessor(...a)",
+          "flagname": "sym.imp.SiriSignals:_Service..metadata.accessor_...a_",
+          "realname": "SiriSignals: 'Service..metadata.accessor(...a)",
+          "ordinal": 24,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295044768,
+          "paddr": 290464,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s11SiriSignals16SignalRepositoryC13hourlyPrewarmyyFTj",
+          "demname": "SiriSignals.SignalRepository.hourlyPrewarm.allocator(...yFTj)",
+          "flagname": "sym.imp.SiriSignals.SignalRepository.hourlyPrewarm.allocator_...yFTj_",
+          "realname": "SiriSignals.SignalRepository.hourlyPrewarm.allocator(...yFTj)",
+          "ordinal": 25,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295044784,
+          "paddr": 290480,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s11SiriSignals16SignalRepositoryC6sharedACvgZ",
+          "demname": "SiriSignals.SignalRepository.shared.allocator.(...gZ)",
+          "flagname": "sym.imp.SiriSignals.SignalRepository.shared.allocator._...gZ_",
+          "realname": "SiriSignals.SignalRepository.shared.allocator.(...gZ)",
+          "ordinal": 26,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295044800,
+          "paddr": 290496,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s11SiriSignals16SignalRepositoryC7prewarm23matchingCachingStrategy15userInteractiveyShyAA0cgH6OptionOG_SbtFTj",
+          "demname": "SiriSignals.SignalRepository.prewarm.allocator(...btFTj)",
+          "flagname": "sym.imp.SiriSignals.SignalRepository.prewarm.allocator_...btFTj_",
+          "realname": "SiriSignals.SignalRepository.prewarm.allocator(...btFTj)",
+          "ordinal": 27,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295044816,
+          "paddr": 290512,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s11SiriSignals16SignalRepositoryCMa",
+          "demname": "SiriSignals.SignalRepository.allocator(...a)",
+          "flagname": "sym.imp.SiriSignals.SignalRepository.allocator_...a_",
+          "realname": "SiriSignals.SignalRepository.allocator(...a)",
+          "ordinal": 28,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295044832,
+          "paddr": 290528,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s11SiriSignals26AppSelectionActivationFlagC20notHomePodOrIsActiveSbvgZ",
+          "demname": "SiriSignals.AppSelectionActivationFlag.notHomePodOrIsActive.allocator__Bool: allocator, notHomePodOrIsActive: allocatorSbool -> allocator",
+          "flagname": "sym.imp.SiriSignals.AppSelectionActivationFlag.notHomePodOrIsActive.allocator__Bool:_allocator__notHomePodOrIsActive:_allocatorSbool____allocator",
+          "realname": "SiriSignals.AppSelectionActivationFlag.notHomePodOrIsActive.allocator__Bool: allocator, notHomePodOrIsActive: allocatorSbool -> allocator",
+          "ordinal": 29,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295044848,
+          "paddr": 290544,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s11SiriSignals26AppSelectionActivationFlagCMa",
+          "demname": "SiriSignals.AppSelectionActivationFlag.allocator(...a)",
+          "flagname": "sym.imp.SiriSignals.AppSelectionActivationFlag.allocator_...a_",
+          "realname": "SiriSignals.AppSelectionActivationFlag.allocator(...a)",
+          "ordinal": 30,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295044864,
+          "paddr": 290560,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s11SiriSignals27SignalCachingStrategyOptionOMa",
+          "demname": "SiriSignals.SignalCachingStrategyOption..metadata.accessor(...a)",
+          "flagname": "sym.imp.SiriSignals.SignalCachingStrategyOption..metadata.accessor_...a_",
+          "realname": "SiriSignals.SignalCachingStrategyOption..metadata.accessor(...a)",
+          "ordinal": 31,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295044880,
+          "paddr": 290576,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriInference0B5ErrorC3logyyFTj",
+          "demname": "SiriInference.Error.log(...FTj)",
+          "flagname": "sym.imp.SiriInference.Error.log_...FTj_",
+          "realname": "SiriInference.Error.log(...FTj)",
+          "ordinal": 32,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295044896,
+          "paddr": 290592,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriInference0B5ErrorCMa",
+          "demname": "SiriInference.Error(...a)",
+          "flagname": "sym.imp.SiriInference.Error_...a_",
+          "realname": "SiriInference.Error(...a)",
+          "ordinal": 33,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295044912,
+          "paddr": 290608,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriInference0B5ErrorC_4file8function4lineACs0C0_p_S2SSitcfC",
+          "demname": "SiriInference.SS(...cfC)",
+          "flagname": "sym.imp.SiriInference.SS_...cfC_",
+          "realname": "SiriInference.SS(...cfC)",
+          "ordinal": 34,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295044928,
+          "paddr": 290624,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriInference0aB17SuggestionsBridgeP05startaC7ServiceyyFTj",
+          "demname": "SiriInference: ', SuggestionsBridge.start.Service(...FTj)",
+          "flagname": "sym.imp.SiriInference:___SuggestionsBridge.start.Service_...FTj_",
+          "realname": "SiriInference: ', SuggestionsBridge.start.Service(...FTj)",
+          "ordinal": 35,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295044944,
+          "paddr": 290640,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriInference0aB25SuggestionsBridgeProviderC8getAsync_8callbackyAC_yAA0abcD0_pYaYbctFZ",
+          "demname": "SiriInference: ', SuggestionsBridgeProvider.getAsync.callback...yAC_yAA0abcD0_pYaYbctFZ",
+          "flagname": "sym.imp.SiriInference:___SuggestionsBridgeProvider.getAsync.callback...yAC_yAA0abcD0_pYaYbctFZ",
+          "realname": "SiriInference: ', SuggestionsBridgeProvider.getAsync.callback...yAC_yAA0abcD0_pYaYbctFZ",
+          "ordinal": 36,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295044960,
+          "paddr": 290656,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriInference0aB25SuggestionsBridgeProviderC8instanceACvgZ",
+          "demname": "SiriInference: ', SuggestionsBridgeProvider.instance.(...gZ)",
+          "flagname": "sym.imp.SiriInference:___SuggestionsBridgeProvider.instance._...gZ_",
+          "realname": "SiriInference: ', SuggestionsBridgeProvider.instance.(...gZ)",
+          "ordinal": 37,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295044976,
+          "paddr": 290672,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriInference0aB25SuggestionsBridgeProviderCMa",
+          "demname": "SiriInference: 'SuggestionsBridgeProvider..metadata.accessor(...a)",
+          "flagname": "sym.imp.SiriInference:_SuggestionsBridgeProvider..metadata.accessor_...a_",
+          "realname": "SiriInference: 'SuggestionsBridgeProvider..metadata.accessor(...a)",
+          "ordinal": 38,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295044992,
+          "paddr": 290688,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriInference11DASActivityV10unregister6cancelySb_tF",
+          "demname": "SiriInference.DASActivity.unregister.cancel(...F)",
+          "flagname": "sym.imp.SiriInference.DASActivity.unregister.cancel_...F_",
+          "realname": "SiriInference.DASActivity.unregister.cancel(...F)",
+          "ordinal": 39,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045008,
+          "paddr": 290704,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriInference11DASActivityV17registerAndSubmityyF",
+          "demname": "SiriInference.DASActivity.registerAndSubmit(...F)",
+          "flagname": "sym.imp.SiriInference.DASActivity.registerAndSubmit_...F_",
+          "realname": "SiriInference.DASActivity.registerAndSubmit(...F)",
+          "ordinal": 40,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045024,
+          "paddr": 290720,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriInference11DASActivityV4name8interval13spaceoutRatio8priority21requiresExternalPower18terminateCondition6actionACSS_S2dSo20BGSystemTaskPriorityVS2bycyyctcfC",
+          "demname": "SiriInference.DASActivity.name.interval.spaceoutRatio.priority.requiresExternalPower.terminateCondition.action.dS.BGSystemTaskPriority.by(...yctcfC)",
+          "flagname": "sym.imp.SiriInference.DASActivity.name.interval.spaceoutRatio.priority.requiresExternalPower.terminateCondition.action.dS.BGSystemTaskPriority.by_...yctcfC_",
+          "realname": "SiriInference.DASActivity.name.interval.spaceoutRatio.priority.requiresExternalPower.terminateCondition.action.dS.BGSystemTaskPriority.by(...yctcfC)",
+          "ordinal": 41,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045040,
+          "paddr": 290736,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriInference11DASActivityVMa",
+          "demname": "SiriInference.DASActivity...VMa",
+          "flagname": "sym.imp.SiriInference.DASActivity...VMa",
+          "realname": "SiriInference.DASActivity...VMa",
+          "ordinal": 42,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045056,
+          "paddr": 290752,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriInference11XPCActivityV10unregister4nameySS_tFZ",
+          "demname": "SiriInference.XPCActivity.unregister.name(...FZ)",
+          "flagname": "sym.imp.SiriInference.XPCActivity.unregister.name_...FZ_",
+          "realname": "SiriInference.XPCActivity.unregister.name(...FZ)",
+          "ordinal": 43,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045072,
+          "paddr": 290768,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriInference11XPCActivityV14RepeatIntervalOMa",
+          "demname": "SiriInference.XPCActivity.RepeatInterval(...a)",
+          "flagname": "sym.imp.SiriInference.XPCActivity.RepeatInterval_...a_",
+          "realname": "SiriInference.XPCActivity.RepeatInterval(...a)",
+          "ordinal": 44,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045088,
+          "paddr": 290784,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriInference11XPCActivityV17registerFirstBootyyFZ",
+          "demname": "SiriInference.XPCActivity.registerFirstBoot(...FZ)",
+          "flagname": "sym.imp.SiriInference.XPCActivity.registerFirstBoot_...FZ_",
+          "realname": "SiriInference.XPCActivity.registerFirstBoot(...FZ)",
+          "ordinal": 45,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045104,
+          "paddr": 290800,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriInference11XPCActivityV34registerDailyTaskSuccessEvaluationyyFZ",
+          "demname": "SiriInference.XPCActivity.registerDailyTaskSuccessEvaluation(...FZ)",
+          "flagname": "sym.imp.SiriInference.XPCActivity.registerDailyTaskSuccessEvaluation_...FZ_",
+          "realname": "SiriInference.XPCActivity.registerDailyTaskSuccessEvaluation(...FZ)",
+          "ordinal": 46,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045120,
+          "paddr": 290816,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriInference11XPCActivityV38registerUserEngagementSignalCollectionyyFZ",
+          "demname": "SiriInference.XPCActivity.registerUserEngagementSignalCollection(...FZ)",
+          "flagname": "sym.imp.SiriInference.XPCActivity.registerUserEngagementSignalCollection_...FZ_",
+          "realname": "SiriInference.XPCActivity.registerUserEngagementSignalCollection(...FZ)",
+          "ordinal": 47,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045136,
+          "paddr": 290832,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriInference11XPCActivityV8register4name14repeatInterval17isPrivacyCritical13makeOperationySS_AC06RepeatG0OSbAA0cL0CSo13OS_xpc_object_pctFZ",
+          "demname": "SiriInference.XPCActivity.register.name.repeatInterval.isPrivacyCritical.makeOperation.Repeat...G0OSbAA0cL0CSo13OS_xpc_object_pctFZ",
+          "flagname": "sym.imp.SiriInference.XPCActivity.register.name.repeatInterval.isPrivacyCritical.makeOperation.Repeat...G0OSbAA0cL0CSo13OS_xpc_object_pctFZ",
+          "realname": "SiriInference.XPCActivity.register.name.repeatInterval.isPrivacyCritical.makeOperation.Repeat...G0OSbAA0cL0CSo13OS_xpc_object_pctFZ",
+          "ordinal": 48,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045152,
+          "paddr": 290848,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriInference13RunTimeDataDBV10defaultURLs6ResultOy10Foundation0H0Vs5Error_pGvgZ",
+          "demname": "SiriInference.RunTimeDataDB.defaultURL.Result.Foundation...n0H0Vs5Error_pGvgZ",
+          "flagname": "sym.imp.SiriInference.RunTimeDataDB.defaultURL.Result.Foundation...n0H0Vs5Error_pGvgZ",
+          "realname": "SiriInference.RunTimeDataDB.defaultURL.Result.Foundation...n0H0Vs5Error_pGvgZ",
+          "ordinal": 49,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045168,
+          "paddr": 290864,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriInference15BackgroundQueueC5pauseyyFTj",
+          "demname": "SiriInference.BackgroundQueue.pause.allocator(...yFTj)",
+          "flagname": "sym.imp.SiriInference.BackgroundQueue.pause.allocator_...yFTj_",
+          "realname": "SiriInference.BackgroundQueue.pause.allocator(...yFTj)",
+          "ordinal": 50,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045184,
+          "paddr": 290880,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriInference15BackgroundQueueC6resumeyyFTj",
+          "demname": "SiriInference.BackgroundQueue.resume.allocator(...yFTj)",
+          "flagname": "sym.imp.SiriInference.BackgroundQueue.resume.allocator_...yFTj_",
+          "realname": "SiriInference.BackgroundQueue.resume.allocator(...yFTj)",
+          "ordinal": 51,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045200,
+          "paddr": 290896,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriInference15BackgroundQueueC6sharedACvgZ",
+          "demname": "SiriInference.BackgroundQueue.shared.allocator.(...gZ)",
+          "flagname": "sym.imp.SiriInference.BackgroundQueue.shared.allocator._...gZ_",
+          "realname": "SiriInference.BackgroundQueue.shared.allocator.(...gZ)",
+          "ordinal": 52,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045216,
+          "paddr": 290912,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriInference15BackgroundQueueCMa",
+          "demname": "SiriInference.BackgroundQueue.allocator(...a)",
+          "flagname": "sym.imp.SiriInference.BackgroundQueue.allocator_...a_",
+          "realname": "SiriInference.BackgroundQueue.allocator(...a)",
+          "ordinal": 53,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045232,
+          "paddr": 290928,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriInference17HolidaysDBUpdaterC10metricNames12StaticStringVvgZ",
+          "demname": "SiriInference.HolidaysDBUpdater.metricName.allocatorStaticString(...gZ)",
+          "flagname": "sym.imp.SiriInference.HolidaysDBUpdater.metricName.allocatorStaticString_...gZ_",
+          "realname": "SiriInference.HolidaysDBUpdater.metricName.allocatorStaticString(...gZ)",
+          "ordinal": 54,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045248,
+          "paddr": 290944,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriInference17HolidaysDBUpdaterC20xpcActivityOperation8activityAA011XPCActivityG0CSo03OS_E7_object_p_tFZ",
+          "demname": "SiriInference.HolidaysDBUpdater.xpcActivityOperation.allocator(...FZ)",
+          "flagname": "sym.imp.SiriInference.HolidaysDBUpdater.xpcActivityOperation.allocator_...FZ_",
+          "realname": "SiriInference.HolidaysDBUpdater.xpcActivityOperation.allocator(...FZ)",
+          "ordinal": 55,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045264,
+          "paddr": 290960,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriInference17HolidaysDBUpdaterCMa",
+          "demname": "SiriInference.HolidaysDBUpdater.allocator(...a)",
+          "flagname": "sym.imp.SiriInference.HolidaysDBUpdater.allocator_...a_",
+          "realname": "SiriInference.HolidaysDBUpdater.allocator(...a)",
+          "ordinal": 56,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045280,
+          "paddr": 290976,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriInference17ScrubDodMLRecordsCMa",
+          "demname": "SiriInference.ScrubDodMLRecords.allocator(...a)",
+          "flagname": "sym.imp.SiriInference.ScrubDodMLRecords.allocator_...a_",
+          "realname": "SiriInference.ScrubDodMLRecords.allocator(...a)",
+          "ordinal": 57,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045296,
+          "paddr": 290992,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriInference19CoreAnalyticsMetricV12eventPayloadSDySSSo8NSObjectCGyF",
+          "demname": "SiriInference.CoreAnalyticsMetric.eventPayload.NSObject(...yF)",
+          "flagname": "sym.imp.SiriInference.CoreAnalyticsMetric.eventPayload.NSObject_...yF_",
+          "realname": "SiriInference.CoreAnalyticsMetric.eventPayload.NSObject(...yF)",
+          "ordinal": 58,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045312,
+          "paddr": 291008,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriInference19CoreAnalyticsMetricV23fullyQualifiedEventNameSSvg",
+          "demname": "SiriInference.CoreAnalyticsMetric.fullyQualifiedEventName(...vg)",
+          "flagname": "sym.imp.SiriInference.CoreAnalyticsMetric.fullyQualifiedEventName_...vg_",
+          "realname": "SiriInference.CoreAnalyticsMetric.fullyQualifiedEventName(...vg)",
+          "ordinal": 59,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045328,
+          "paddr": 291024,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriInference19CoreAnalyticsMetricVMa",
+          "demname": "SiriInference.CoreAnalyticsMetric...VMa",
+          "flagname": "sym.imp.SiriInference.CoreAnalyticsMetric...VMa",
+          "realname": "SiriInference.CoreAnalyticsMetric...VMa",
+          "ordinal": 60,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045344,
+          "paddr": 291040,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriInference20SearchTermAppsRankerC6sharedACvgZ",
+          "demname": "SiriInference.SearchTermAppsRanker.shared.allocator.(...gZ)",
+          "flagname": "sym.imp.SiriInference.SearchTermAppsRanker.shared.allocator._...gZ_",
+          "realname": "SiriInference.SearchTermAppsRanker.shared.allocator.(...gZ)",
+          "ordinal": 61,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045360,
+          "paddr": 291056,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriInference20SearchTermAppsRankerCMa",
+          "demname": "SiriInference.SearchTermAppsRanker.allocator(...a)",
+          "flagname": "sym.imp.SiriInference.SearchTermAppsRanker.allocator_...a_",
+          "realname": "SiriInference.SearchTermAppsRanker.allocator(...a)",
+          "ordinal": 62,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045376,
+          "paddr": 291072,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriInference23ScrubRuntimeDataRecordsCMa",
+          "demname": "SiriInference.ScrubRuntimeDataRecords.allocator(...a)",
+          "flagname": "sym.imp.SiriInference.ScrubRuntimeDataRecords.allocator_...a_",
+          "realname": "SiriInference.ScrubRuntimeDataRecords.allocator(...a)",
+          "ordinal": 63,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045392,
+          "paddr": 291088,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriInference24ProcessUnstitchedIntentsC10metricNames12StaticStringVvgZ",
+          "demname": "SiriInference.ProcessUnstitchedIntents.metricName.allocatorStaticString(...gZ)",
+          "flagname": "sym.imp.SiriInference.ProcessUnstitchedIntents.metricName.allocatorStaticString_...gZ_",
+          "realname": "SiriInference.ProcessUnstitchedIntents.metricName.allocatorStaticString(...gZ)",
+          "ordinal": 64,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045408,
+          "paddr": 291104,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriInference24ProcessUnstitchedIntentsC8activityACSo13OS_xpc_object_p_tcfc",
+          "demname": "SiriInference.ProcessUnstitchedIntents.activity.allocator.: allocator, activity.: allocator, A.CSo13OS_xpc_object_p_tcfc",
+          "flagname": "sym.imp.SiriInference.ProcessUnstitchedIntents.activity.allocator.:_allocator__activity.:_allocator__A.CSo13OS_xpc_object_p_tcfc",
+          "realname": "SiriInference.ProcessUnstitchedIntents.activity.allocator.: allocator, activity.: allocator, A.CSo13OS_xpc_object_p_tcfc",
+          "ordinal": 65,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045424,
+          "paddr": 291120,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriInference24ProcessUnstitchedIntentsCMa",
+          "demname": "SiriInference.ProcessUnstitchedIntents.allocator(...a)",
+          "flagname": "sym.imp.SiriInference.ProcessUnstitchedIntents.allocator_...a_",
+          "realname": "SiriInference.ProcessUnstitchedIntents.allocator(...a)",
+          "ordinal": 66,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045440,
+          "paddr": 291136,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriInference25RolloutsAnalyticsActivityC10deregister16analyticsManagery019AIMLExperimentationD0015ExperimentationD0_p_tFZ",
+          "demname": "SiriInference.RolloutsAnalyticsActivity.deregister.allocator(...FZ)",
+          "flagname": "sym.imp.SiriInference.RolloutsAnalyticsActivity.deregister.allocator_...FZ_",
+          "realname": "SiriInference.RolloutsAnalyticsActivity.deregister.allocator(...FZ)",
+          "ordinal": 67,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045456,
+          "paddr": 291152,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriInference25RolloutsAnalyticsActivityC16analyticsManagerAC019AIMLExperimentationD0015ExperimentationD0_p_tcfc",
+          "demname": "SiriInference.RolloutsAnalyticsActivity.analyticsManager.allocator.(...cfc)",
+          "flagname": "sym.imp.SiriInference.RolloutsAnalyticsActivity.analyticsManager.allocator._...cfc_",
+          "realname": "SiriInference.RolloutsAnalyticsActivity.analyticsManager.allocator.(...cfc)",
+          "ordinal": 68,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045472,
+          "paddr": 291168,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriInference25RolloutsAnalyticsActivityCMa",
+          "demname": "SiriInference.RolloutsAnalyticsActivity.allocator(...a)",
+          "flagname": "sym.imp.SiriInference.RolloutsAnalyticsActivity.allocator_...a_",
+          "realname": "SiriInference.RolloutsAnalyticsActivity.allocator(...a)",
+          "ordinal": 69,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045488,
+          "paddr": 291184,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriInference33SearchTermAppsRankerDataCollectorC014appSelectedForcD011rankEventId017selectedAppBundleN008numberOfE5Showny10Foundation4UUIDVSg_SSSiSgtFTj",
+          "demname": "SiriInference.SearchTermAppsRankerDataCollector.appSelectedFor.allocator__String(...SiSgtFTj)",
+          "flagname": "sym.imp.SiriInference.SearchTermAppsRankerDataCollector.appSelectedFor.allocator__String_...SiSgtFTj_",
+          "realname": "SiriInference.SearchTermAppsRankerDataCollector.appSelectedFor.allocator__String(...SiSgtFTj)",
+          "ordinal": 70,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045504,
+          "paddr": 291200,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriInference33SearchTermAppsRankerDataCollectorC6sharedACvgZ",
+          "demname": "SiriInference.SearchTermAppsRankerDataCollector.shared.allocator.(...gZ)",
+          "flagname": "sym.imp.SiriInference.SearchTermAppsRankerDataCollector.shared.allocator._...gZ_",
+          "realname": "SiriInference.SearchTermAppsRankerDataCollector.shared.allocator.(...gZ)",
+          "ordinal": 71,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045520,
+          "paddr": 291216,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriInference33SearchTermAppsRankerDataCollectorCMa",
+          "demname": "SiriInference.SearchTermAppsRankerDataCollector.allocator(...a)",
+          "flagname": "sym.imp.SiriInference.SearchTermAppsRankerDataCollector.allocator_...a_",
+          "realname": "SiriInference.SearchTermAppsRankerDataCollector.allocator(...a)",
+          "ordinal": 72,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045536,
+          "paddr": 291232,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriRemembers0A31SuggestionsBiomeEventBackFillerV8registeryyFZ",
+          "demname": "SiriRemembers.SuggestionsBiomeEventBackFiller.register(...FZ)",
+          "flagname": "sym.imp.SiriRemembers.SuggestionsBiomeEventBackFiller.register_...FZ_",
+          "realname": "SiriRemembers.SuggestionsBiomeEventBackFiller.register(...FZ)",
+          "ordinal": 73,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045552,
+          "paddr": 291248,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriRemembers0aB20BiomeEventBackfillerV10unregisteryyFZ",
+          "demname": "SiriRemembers: ', BiomeEventBackfiller.unregister(...FZ)",
+          "flagname": "sym.imp.SiriRemembers:___BiomeEventBackfiller.unregister_...FZ_",
+          "realname": "SiriRemembers: ', BiomeEventBackfiller.unregister(...FZ)",
+          "ordinal": 74,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045568,
+          "paddr": 291264,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriRemembers0aB20BiomeEventBackfillerV8registeryyFZ",
+          "demname": "SiriRemembers: ', BiomeEventBackfiller.register(...FZ)",
+          "flagname": "sym.imp.SiriRemembers:___BiomeEventBackfiller.register_...FZ_",
+          "realname": "SiriRemembers: ', BiomeEventBackfiller.register(...FZ)",
+          "ordinal": 75,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045584,
+          "paddr": 291280,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriRemembers0aB30DonationFromAppIntentsListenerC4stopyyFZ",
+          "demname": "SiriRemembers: ', DonationFromAppIntentsListener.stop(...yFZ)",
+          "flagname": "sym.imp.SiriRemembers:___DonationFromAppIntentsListener.stop_...yFZ_",
+          "realname": "SiriRemembers: ', DonationFromAppIntentsListener.stop(...yFZ)",
+          "ordinal": 76,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045600,
+          "paddr": 291296,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriRemembers0aB30DonationFromAppIntentsListenerC5startyyFZ",
+          "demname": "SiriRemembers: ', DonationFromAppIntentsListener.start(...yFZ)",
+          "flagname": "sym.imp.SiriRemembers:___DonationFromAppIntentsListener.start_...yFZ_",
+          "realname": "SiriRemembers: ', DonationFromAppIntentsListener.start(...yFZ)",
+          "ordinal": 77,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045616,
+          "paddr": 291312,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriRemembers0aB30DonationFromAppIntentsListenerCMa",
+          "demname": "SiriRemembers: 'DonationFromAppIntentsListener..metadata.accessor(...a)",
+          "flagname": "sym.imp.SiriRemembers:_DonationFromAppIntentsListener..metadata.accessor_...a_",
+          "realname": "SiriRemembers: 'DonationFromAppIntentsListener..metadata.accessor(...a)",
+          "ordinal": 78,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045632,
+          "paddr": 291328,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriRemembers11UserDonatorOMa",
+          "demname": "SiriRemembers.UserDonator..metadata.accessor(...a)",
+          "flagname": "sym.imp.SiriRemembers.UserDonator..metadata.accessor_...a_",
+          "realname": "SiriRemembers.UserDonator..metadata.accessor(...a)",
+          "ordinal": 79,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045648,
+          "paddr": 291344,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriRemembers16InteractionStoreV11viewService4userAcA11UserDonatorO_tKFZ",
+          "demname": "SiriRemembers.InteractionStore.viewService.user.UserDonator(...tKFZ)",
+          "flagname": "sym.imp.SiriRemembers.InteractionStore.viewService.user.UserDonator_...tKFZ_",
+          "realname": "SiriRemembers.InteractionStore.viewService.user.UserDonator(...tKFZ)",
+          "ordinal": 80,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045664,
+          "paddr": 291360,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriRemembers16InteractionStoreV6deleteyyKFZ",
+          "demname": "SiriRemembers.InteractionStore.delete(...KFZ)",
+          "flagname": "sym.imp.SiriRemembers.InteractionStore.delete_...KFZ_",
+          "realname": "SiriRemembers.InteractionStore.delete(...KFZ)",
+          "ordinal": 81,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045680,
+          "paddr": 291376,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriRemembers16InteractionStoreVMa",
+          "demname": "SiriRemembers.InteractionStore...VMa",
+          "flagname": "sym.imp.SiriRemembers.InteractionStore...VMa",
+          "realname": "SiriRemembers.InteractionStore...VMa",
+          "ordinal": 82,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045696,
+          "paddr": 291392,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriRemembers17ActivityHeartbeatC8instanceACvgZ",
+          "demname": "SiriRemembers.ActivityHeartbeat.instance.allocator.(...gZ)",
+          "flagname": "sym.imp.SiriRemembers.ActivityHeartbeat.instance.allocator._...gZ_",
+          "realname": "SiriRemembers.ActivityHeartbeat.instance.allocator.(...gZ)",
+          "ordinal": 83,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045712,
+          "paddr": 291408,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriRemembers17ActivityHeartbeatC9keepAliveyyFTj",
+          "demname": "SiriRemembers.ActivityHeartbeat.keepAlive.allocator(...yFTj)",
+          "flagname": "sym.imp.SiriRemembers.ActivityHeartbeat.keepAlive.allocator_...yFTj_",
+          "realname": "SiriRemembers.ActivityHeartbeat.keepAlive.allocator(...yFTj)",
+          "ordinal": 84,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045728,
+          "paddr": 291424,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriRemembers17ActivityHeartbeatCMa",
+          "demname": "SiriRemembers.ActivityHeartbeat.allocator(...a)",
+          "flagname": "sym.imp.SiriRemembers.ActivityHeartbeat.allocator_...a_",
+          "realname": "SiriRemembers.ActivityHeartbeat.allocator(...a)",
+          "ordinal": 85,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045744,
+          "paddr": 291440,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriRemembers18AppIntentProcessorC5eventACSo12BMStoreEventCySo05BMAppD0CG_tcfc",
+          "demname": "SiriRemembers.AppIntentProcessor.event.allocator.: allocator, event.: allocator, A.CSo12BMStoreEventCySo05BMAppD0CG_tcfc",
+          "flagname": "sym.imp.SiriRemembers.AppIntentProcessor.event.allocator.:_allocator__event.:_allocator__A.CSo12BMStoreEventCySo05BMAppD0CG_tcfc",
+          "realname": "SiriRemembers.AppIntentProcessor.event.allocator.: allocator, event.: allocator, A.CSo12BMStoreEventCySo05BMAppD0CG_tcfc",
+          "ordinal": 86,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045760,
+          "paddr": 291456,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriRemembers18AppIntentProcessorCMa",
+          "demname": "SiriRemembers.AppIntentProcessor.allocator(...a)",
+          "flagname": "sym.imp.SiriRemembers.AppIntentProcessor.allocator_...a_",
+          "realname": "SiriRemembers.AppIntentProcessor.allocator(...a)",
+          "ordinal": 87,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045776,
+          "paddr": 291472,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriRemembers21ScrubInteractionStoreV8registeryyFZ",
+          "demname": "SiriRemembers.ScrubInteractionStore.register(...FZ)",
+          "flagname": "sym.imp.SiriRemembers.ScrubInteractionStore.register_...FZ_",
+          "realname": "SiriRemembers.ScrubInteractionStore.register(...FZ)",
+          "ordinal": 88,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045792,
+          "paddr": 291488,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriRemembers8DonationV08donateToaB4ViewyyAA16InteractionStoreVKF",
+          "demname": "SiriRemembers.Donation.donateTo.View.InteractionStore...VKF",
+          "flagname": "sym.imp.SiriRemembers.Donation.donateTo.View.InteractionStore...VKF",
+          "realname": "SiriRemembers.Donation.donateTo.View.InteractionStore...VKF",
+          "ordinal": 89,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045808,
+          "paddr": 291504,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriRemembers8DonationV11userDonatorAA04UserE0Ovg",
+          "demname": "SiriRemembers.Donation.userDonator.User...E0Ovg",
+          "flagname": "sym.imp.SiriRemembers.Donation.userDonator.User...E0Ovg",
+          "realname": "SiriRemembers.Donation.userDonator.User...E0Ovg",
+          "ordinal": 90,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045824,
+          "paddr": 291520,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s13SiriRemembers8DonationVMa",
+          "demname": "SiriRemembers.Donation...VMa",
+          "flagname": "sym.imp.SiriRemembers.Donation...VMa",
+          "realname": "SiriRemembers.Donation...VMa",
+          "ordinal": 91,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045840,
+          "paddr": 291536,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s16SiriIntentEvents12CustomSignalV10signalTypeAA0deG0Ovg",
+          "demname": "SiriIntentEvents.CustomSignal.signalType...A0deG0Ovg",
+          "flagname": "sym.imp.SiriIntentEvents.CustomSignal.signalType...A0deG0Ovg",
+          "realname": "SiriIntentEvents.CustomSignal.signalType...A0deG0Ovg",
+          "ordinal": 92,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045856,
+          "paddr": 291552,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s16SiriIntentEvents12CustomSignalV4item10Foundation4DataVvg",
+          "demname": "SiriIntentEvents.CustomSignal.item.Foundation.Data...Vvg",
+          "flagname": "sym.imp.SiriIntentEvents.CustomSignal.item.Foundation.Data...Vvg",
+          "realname": "SiriIntentEvents.CustomSignal.item.Foundation.Data...Vvg",
+          "ordinal": 93,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045872,
+          "paddr": 291568,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s16SiriIntentEvents12CustomSignalVMa",
+          "demname": "SiriIntentEvents.CustomSignal...VMa",
+          "flagname": "sym.imp.SiriIntentEvents.CustomSignal...VMa",
+          "realname": "SiriIntentEvents.CustomSignal...VMa",
+          "ordinal": 94,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045888,
+          "paddr": 291584,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s16SiriIntentEvents16CustomSignalTypeOMa",
+          "demname": "SiriIntentEvents.CustomSignalType..metadata.accessor(...a)",
+          "flagname": "sym.imp.SiriIntentEvents.CustomSignalType..metadata.accessor_...a_",
+          "realname": "SiriIntentEvents.CustomSignalType..metadata.accessor(...a)",
+          "ordinal": 95,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045904,
+          "paddr": 291600,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s28AIMLExperimentationAnalytics015ExperimentationB7ManagerCMa",
+          "demname": "AIMLExperimentationAnalytics.Experimentation.Manager(...a)",
+          "flagname": "sym.imp.AIMLExperimentationAnalytics.Experimentation.Manager_...a_",
+          "realname": "AIMLExperimentationAnalytics.Experimentation.Manager(...a)",
+          "ordinal": 96,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045920,
+          "paddr": 291616,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s2os0A9_signpost_3dso3log4name0B2ID__ySo0a1_B7_type_ta_SVSo03OS_a1_D0Cs12StaticStringVAA010OSSignpostF0VALs7CVarArg_pdtF",
+          "demname": "os._signpost.dso.log....ySo0a1_B7_type_ta_SVSo03OS_a1_D0Cs12StaticStringVAA010OSSignpostF0VALs7CVarArg_pdtF",
+          "flagname": "sym.imp.os._signpost.dso.log....ySo0a1_B7_type_ta_SVSo03OS_a1_D0Cs12StaticStringVAA010OSSignpostF0VALs7CVarArg_pdtF",
+          "realname": "os._signpost.dso.log....ySo0a1_B7_type_ta_SVSo03OS_a1_D0Cs12StaticStringVAA010OSSignpostF0VALs7CVarArg_pdtF",
+          "ordinal": 97,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045936,
+          "paddr": 291632,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s2os0A9_signpost_3dso3log4name0B2IDySo0a1_B7_type_ta_SVSo03OS_a1_D0Cs12StaticStringVAA010OSSignpostF0VtF",
+          "demname": "os._signpost.dso.log...D0Cs12StaticStringVAA010OSSignpostF0VtF",
+          "flagname": "sym.imp.os._signpost.dso.log...D0Cs12StaticStringVAA010OSSignpostF0VtF",
+          "realname": "os._signpost.dso.log...D0Cs12StaticStringVAA010OSSignpostF0VtF",
+          "ordinal": 98,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045952,
+          "paddr": 291648,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s2os12OSSignpostIDV3logACSo03OS_a1_D0C_tcfC",
+          "demname": "os.OSSignpostID.log.OS_._...D0C_tcfC",
+          "flagname": "sym.imp.os.OSSignpostID.log.OS_._...D0C_tcfC",
+          "realname": "os.OSSignpostID.log.OS_._...D0C_tcfC",
+          "ordinal": 99,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045968,
+          "paddr": 291664,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s2os12OSSignpostIDVMa",
+          "demname": "os.OSSignpostID...VMa",
+          "flagname": "sym.imp.os.OSSignpostID...VMa",
+          "realname": "os.OSSignpostID...VMa",
+          "ordinal": 100,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295045984,
+          "paddr": 291680,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s2os6LoggerV9logObjectSo03OS_a1_C0Cvg",
+          "demname": "os.Logger.logObject.OS_._...C0Cvg",
+          "flagname": "sym.imp.os.Logger.logObject.OS_._...C0Cvg",
+          "realname": "os.Logger.logObject.OS_._...C0Cvg",
+          "ordinal": 101,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295046000,
+          "paddr": 291696,
+          "is_imported": true
+        }
+      ]
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Versions/A/siriinferenced",
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/default_factors_1328.pb",
+        "Versions/A/Resources/default_factors_1631.pb",
+        "Versions/A/Resources/default_factors_1710.pb",
+        "Versions/A/Resources/default_factors_1329.pb",
+        "Versions/A/Resources/default_factors_1326.pb",
+        "Versions/A/Resources/default_factors_1327.pb",
+        "Versions/A/Resources/personRelationship.sqlite3",
+        "Versions/A/Resources/default_factors_351.pb",
+        "Versions/A/Resources/default_factors_1320.pb",
+        "Versions/A/Resources/holidays.sqlite3",
+        "Versions/A/Resources/hypocorisms.sqlite3",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist",
+        "Versions/A/Resources/PervasiveEntityResolution.mlmodelc/model.espresso.shape",
+        "Versions/A/Resources/PervasiveEntityResolution.mlmodelc/model.espresso.net",
+        "Versions/A/Resources/PervasiveEntityResolution.mlmodelc/metadata.json",
+        "Versions/A/Resources/PervasiveEntityResolution.mlmodelc/model.espresso.weights",
+        "Versions/A/Resources/PervasiveEntityResolution.mlmodelc/coremldata.bin",
+        "Versions/A/Resources/PhoneAppPredictor.mlmodelc/model.espresso.shape",
+        "Versions/A/Resources/PhoneAppPredictor.mlmodelc/model.espresso.net",
+        "Versions/A/Resources/PhoneAppPredictor.mlmodelc/metadata.json",
+        "Versions/A/Resources/PhoneAppPredictor.mlmodelc/model.espresso.weights",
+        "Versions/A/Resources/PhoneAppPredictor.mlmodelc/coremldata.bin",
+        "Versions/A/Resources/PhoneAppPredictorPeopleCentric.mlmodelc/model.espresso.shape",
+        "Versions/A/Resources/PhoneAppPredictorPeopleCentric.mlmodelc/model.espresso.net",
+        "Versions/A/Resources/PhoneAppPredictorPeopleCentric.mlmodelc/metadata.json",
+        "Versions/A/Resources/PhoneAppPredictorPeopleCentric.mlmodelc/model.espresso.weights",
+        "Versions/A/Resources/PhoneAppPredictorPeopleCentric.mlmodelc/coremldata.bin",
+        "Versions/A/Resources/MessageAppPredictorPeopleCentric.mlmodelc/model.espresso.shape",
+        "Versions/A/Resources/MessageAppPredictorPeopleCentric.mlmodelc/model.espresso.net",
+        "Versions/A/Resources/MessageAppPredictorPeopleCentric.mlmodelc/metadata.json",
+        "Versions/A/Resources/MessageAppPredictorPeopleCentric.mlmodelc/model.espresso.weights",
+        "Versions/A/Resources/MessageAppPredictorPeopleCentric.mlmodelc/coremldata.bin",
+        "Versions/A/Resources/ContactInference.v1.6.4.ios.grain.mlmodelc/model.espresso.shape",
+        "Versions/A/Resources/ContactInference.v1.6.4.ios.grain.mlmodelc/model.espresso.net",
+        "Versions/A/Resources/ContactInference.v1.6.4.ios.grain.mlmodelc/metadata.json",
+        "Versions/A/Resources/ContactInference.v1.6.4.ios.grain.mlmodelc/model.espresso.weights",
+        "Versions/A/Resources/ContactInference.v1.6.4.ios.grain.mlmodelc/coremldata.bin",
+        "Versions/A/Resources/ContactInference.v3.24.0.enlife.mlmodelc/model.espresso.shape",
+        "Versions/A/Resources/ContactInference.v3.24.0.enlife.mlmodelc/model.espresso.net",
+        "Versions/A/Resources/ContactInference.v3.24.0.enlife.mlmodelc/metadata.json",
+        "Versions/A/Resources/ContactInference.v3.24.0.enlife.mlmodelc/model.espresso.weights",
+        "Versions/A/Resources/ContactInference.v3.24.0.enlife.mlmodelc/coremldata.bin",
+        "Versions/A/Resources/ContactInference.v3.24.0.enlife.mlmodelc/model/coremldata.bin",
+        "Versions/A/Resources/ContactInference.v3.24.0.enlife.mlmodelc/neural_network_optionals/coremldata.bin",
+        "Versions/A/Resources/ContactInference.v3.24.0.enlife.mlmodelc/analytics/coremldata.bin",
+        "Versions/A/Resources/ContactInference.v1.6.4.ios.grain.mlmodelc/model/coremldata.bin",
+        "Versions/A/Resources/ContactInference.v1.6.4.ios.grain.mlmodelc/neural_network_optionals/coremldata.bin",
+        "Versions/A/Resources/ContactInference.v1.6.4.ios.grain.mlmodelc/analytics/coremldata.bin",
+        "Versions/A/Resources/MessageAppPredictorPeopleCentric.mlmodelc/model/coremldata.bin",
+        "Versions/A/Resources/MessageAppPredictorPeopleCentric.mlmodelc/neural_network_optionals/coremldata.bin",
+        "Versions/A/Resources/MessageAppPredictorPeopleCentric.mlmodelc/analytics/coremldata.bin",
+        "Versions/A/Resources/PhoneAppPredictorPeopleCentric.mlmodelc/model/coremldata.bin",
+        "Versions/A/Resources/PhoneAppPredictorPeopleCentric.mlmodelc/neural_network_optionals/coremldata.bin",
+        "Versions/A/Resources/PhoneAppPredictorPeopleCentric.mlmodelc/analytics/coremldata.bin",
+        "Versions/A/Resources/PhoneAppPredictor.mlmodelc/model/coremldata.bin",
+        "Versions/A/Resources/PhoneAppPredictor.mlmodelc/neural_network_optionals/coremldata.bin",
+        "Versions/A/Resources/PhoneAppPredictor.mlmodelc/analytics/coremldata.bin",
+        "Versions/A/Resources/PervasiveEntityResolution.mlmodelc/model/coremldata.bin",
+        "Versions/A/Resources/PervasiveEntityResolution.mlmodelc/neural_network_optionals/coremldata.bin",
+        "Versions/A/Resources/PervasiveEntityResolution.mlmodelc/analytics/coremldata.bin",
+        "Versions/A/Resources/assets_1328/compiledModel/model.espresso.shape",
+        "Versions/A/Resources/assets_1328/compiledModel/model.espresso.net",
+        "Versions/A/Resources/assets_1328/compiledModel/metadata.json",
+        "Versions/A/Resources/assets_1328/compiledModel/model.espresso.weights",
+        "Versions/A/Resources/assets_1328/compiledModel/coremldata.bin",
+        "Versions/A/Resources/assets_1328/compiledModel/model/coremldata.bin",
+        "Versions/A/Resources/assets_1328/compiledModel/neural_network_optionals/coremldata.bin",
+        "Versions/A/Resources/assets_1328/compiledModel/analytics/coremldata.bin"
+      ],
+      "plists": {
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "SiriInference",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2019-2023 Apple. All rights reserved.",
+          "LSBundleContainsCoreMLmlmodelc": true,
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "FMWK",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "SiriInference",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.siri.SiriInference",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "SiriInference",
+          "SourceVersion": "3505008001000000",
+          "BuildVersion": "660"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
+  },
+  "usage": {
+    "layer": "usage",
+    "used_by": []
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "loaded"
+  }
+}

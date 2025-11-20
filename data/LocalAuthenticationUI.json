@@ -1,0 +1,1984 @@
+{
+  "framework": "LocalAuthenticationUI.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/LocalAuthenticationUI.framework/Versions/A/XPCServices/LocalAuthenticationRemoteService.xpc/Contents/MacOS/LocalAuthenticationRemoteService",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 145264,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "objc with blocks",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/Frameworks/LocalAuthentication.framework/Versions/A/LocalAuthentication",
+          "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "/System/Library/PrivateFrameworks/ViewBridge.framework/Versions/A/ViewBridge",
+          "/System/Library/PrivateFrameworks/SoftLinking.framework/Versions/A/SoftLinking",
+          "/System/Library/PrivateFrameworks/IconServices.framework/Versions/A/IconServices",
+          "/System/Library/Frameworks/LocalAuthentication.framework/Support/SharedUtils.framework/Versions/A/SharedUtils",
+          "/System/Library/PrivateFrameworks/LocalAuthenticationCoreUI.framework/Versions/A/LocalAuthenticationCoreUI",
+          "/System/Library/PrivateFrameworks/LocalAuthenticationCore.framework/Versions/A/LocalAuthenticationCore",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "AuthorizationViewModel",
+        "addr": 4295074200,
+        "lang": "objc",
+        "index": 0,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithConfig:completion:",
+            "flag": "method.AuthorizationViewModel.initWithConfig:completion:",
+            "lang": "objc",
+            "addr": 4294971632
+          },
+          {
+            "name": "title",
+            "flag": "method.AuthorizationViewModel.title",
+            "lang": "objc",
+            "addr": 4294971808
+          },
+          {
+            "name": "text",
+            "flag": "method.AuthorizationViewModel.text",
+            "lang": "objc",
+            "addr": 4294971816
+          },
+          {
+            "name": "image",
+            "flag": "method.AuthorizationViewModel.image",
+            "lang": "objc",
+            "addr": 4294971824
+          },
+          {
+            "name": "cancelButtonTitle",
+            "flag": "method.AuthorizationViewModel.cancelButtonTitle",
+            "lang": "objc",
+            "addr": 4294971832
+          },
+          {
+            "name": "prompt",
+            "flag": "method.AuthorizationViewModel.prompt",
+            "lang": "objc",
+            "addr": 4294971964
+          },
+          {
+            "name": "fieldPlaceholder",
+            "flag": "method.AuthorizationViewModel.fieldPlaceholder",
+            "lang": "objc",
+            "addr": 4294972476
+          },
+          {
+            "name": "state",
+            "flag": "method.AuthorizationViewModel.state",
+            "lang": "objc",
+            "addr": 4294972608
+          },
+          {
+            "name": "setState:",
+            "flag": "method.AuthorizationViewModel.setState:",
+            "lang": "objc",
+            "addr": 4294972616
+          },
+          {
+            "name": "start",
+            "flag": "method.AuthorizationViewModel.start",
+            "lang": "objc",
+            "addr": 4294972704
+          },
+          {
+            "name": "cancel",
+            "flag": "method.AuthorizationViewModel.cancel",
+            "lang": "objc",
+            "addr": 4294972860
+          },
+          {
+            "name": "terminateWithError:",
+            "flag": "method.AuthorizationViewModel.terminateWithError:",
+            "lang": "objc",
+            "addr": 4294972952
+          },
+          {
+            "name": "submitPassword:completion:",
+            "flag": "method.AuthorizationViewModel.submitPassword:completion:",
+            "lang": "objc",
+            "addr": 4294973180
+          },
+          {
+            "name": "fallback",
+            "flag": "method.AuthorizationViewModel.fallback",
+            "lang": "objc",
+            "addr": 4294973412
+          },
+          {
+            "name": "context",
+            "flag": "method.AuthorizationViewModel.context",
+            "lang": "objc",
+            "addr": 4294973500
+          },
+          {
+            "name": "_allowsBiometricOrCompanionAuthentication",
+            "flag": "method.AuthorizationViewModel._allowsBiometricOrCompanionAuthentication",
+            "lang": "objc",
+            "addr": 4294973504
+          },
+          {
+            "name": "_allowsPasswordAuthentication",
+            "flag": "method.AuthorizationViewModel._allowsPasswordAuthentication",
+            "lang": "objc",
+            "addr": 4294973660
+          },
+          {
+            "name": "_allowsCompanionAuthentication",
+            "flag": "method.AuthorizationViewModel._allowsCompanionAuthentication",
+            "lang": "objc",
+            "addr": 4294973748
+          },
+          {
+            "name": "_canAuthenticate",
+            "flag": "method.AuthorizationViewModel._canAuthenticate",
+            "lang": "objc",
+            "addr": 4294973836
+          },
+          {
+            "name": "_checkCanAuthenticate:",
+            "flag": "method.AuthorizationViewModel._checkCanAuthenticate:",
+            "lang": "objc",
+            "addr": 4294973844
+          },
+          {
+            "name": "_canUseBiometricOrCompanionAuthentication",
+            "flag": "method.AuthorizationViewModel._canUseBiometricOrCompanionAuthentication",
+            "lang": "objc",
+            "addr": 4294974604
+          },
+          {
+            "name": "_canUseBiometricAuthentication",
+            "flag": "method.AuthorizationViewModel._canUseBiometricAuthentication",
+            "lang": "objc",
+            "addr": 4294974676
+          },
+          {
+            "name": "_canUseCompanionAuthentication",
+            "flag": "method.AuthorizationViewModel._canUseCompanionAuthentication",
+            "lang": "objc",
+            "addr": 4294974748
+          },
+          {
+            "name": "_canUsePasswordAuthentication",
+            "flag": "method.AuthorizationViewModel._canUsePasswordAuthentication",
+            "lang": "objc",
+            "addr": 4294974820
+          },
+          {
+            "name": "_performPasswordAuthentication:completion:",
+            "flag": "method.AuthorizationViewModel._performPasswordAuthentication:completion:",
+            "lang": "objc",
+            "addr": 4294974892
+          },
+          {
+            "name": "_startBiometricAuthentication",
+            "flag": "method.AuthorizationViewModel._startBiometricAuthentication",
+            "lang": "objc",
+            "addr": 4294975812
+          },
+          {
+            "name": "_performBiometricAuthenticationWithCompletion:",
+            "flag": "method.AuthorizationViewModel._performBiometricAuthenticationWithCompletion:",
+            "lang": "objc",
+            "addr": 4294976372
+          },
+          {
+            "name": "_context",
+            "flag": "method.AuthorizationViewModel._context",
+            "lang": "objc",
+            "addr": 4294977152
+          },
+          {
+            "name": "_policy",
+            "flag": "method.AuthorizationViewModel._policy",
+            "lang": "objc",
+            "addr": 4294977160
+          },
+          {
+            "name": "_finishWithError:",
+            "flag": "method.AuthorizationViewModel._finishWithError:",
+            "lang": "objc",
+            "addr": 4294977196
+          },
+          {
+            "name": "delegate",
+            "flag": "method.AuthorizationViewModel.delegate",
+            "lang": "objc",
+            "addr": 4294977712
+          },
+          {
+            "name": "setDelegate:",
+            "flag": "method.AuthorizationViewModel.setDelegate:",
+            "lang": "objc",
+            "addr": 4294977756
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.AuthorizationViewModel..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294977768
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_completion",
+            "kind": "var",
+            "type": "@?",
+            "addr": 4295074024
+          },
+          {
+            "name": "_state",
+            "kind": "var",
+            "type": "q",
+            "addr": 4295074028
+          },
+          {
+            "name": "_config",
+            "kind": "var",
+            "type": "@\"<AuthorizationViewModelConfig>\"",
+            "addr": 4295074032
+          },
+          {
+            "name": "_delegate",
+            "kind": "var",
+            "type": "@\"<AuthorizationViewModelDelegate>\"",
+            "addr": 4295074036
+          },
+          {
+            "name": "state",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "title",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "text",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "cancelButtonTitle",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "prompt",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "fieldPlaceholder",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "image",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "context",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "delegate",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "AuthenticationGlyph",
+        "addr": 4295074240,
+        "lang": "objc",
+        "index": 1,
+        "super": [
+          "NSView"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSView"
+        ],
+        "methods": [
+          {
+            "name": "initWithContext:",
+            "flag": "method.AuthenticationGlyph.initWithContext:",
+            "lang": "objc",
+            "addr": 4294978208
+          }
+        ]
+      },
+      {
+        "classname": "AuthorizationRemoteViewController",
+        "addr": 4295074400,
+        "lang": "objc",
+        "index": 2,
+        "super": [
+          "NSServiceViewController"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSServiceViewController"
+        ],
+        "methods": [
+          {
+            "name": "loadView",
+            "flag": "method.AuthorizationRemoteViewController.loadView",
+            "lang": "objc",
+            "addr": 4294979012
+          },
+          {
+            "name": "remoteViewControllerInterface",
+            "flag": "method.AuthorizationRemoteViewController.remoteViewControllerInterface",
+            "lang": "objc",
+            "addr": 4294979092
+          },
+          {
+            "name": "exportedInterface",
+            "flag": "method.AuthorizationRemoteViewController.exportedInterface",
+            "lang": "objc",
+            "addr": 4294979112
+          },
+          {
+            "name": "invalidate",
+            "flag": "method.AuthorizationRemoteViewController.invalidate",
+            "lang": "objc",
+            "addr": 4294979132
+          },
+          {
+            "name": "startWithConfiguration:reply:",
+            "flag": "func.100002e88",
+            "lang": "objc",
+            "addr": 4294979208
+          },
+          {
+            "name": "stopWithReply:",
+            "flag": "func.10000324c",
+            "lang": "objc",
+            "addr": 4294980172
+          },
+          {
+            "name": "_cancel",
+            "flag": "method.AuthorizationRemoteViewController._cancel",
+            "lang": "objc",
+            "addr": 4294980264
+          },
+          {
+            "name": "_finishWithError:",
+            "flag": "method.AuthorizationRemoteViewController._finishWithError:",
+            "lang": "objc",
+            "addr": 4294980336
+          },
+          {
+            "name": "_presentContentVC:",
+            "flag": "method.AuthorizationRemoteViewController._presentContentVC:",
+            "lang": "objc",
+            "addr": 4294981180
+          },
+          {
+            "name": "_dismissContentVC",
+            "flag": "method.AuthorizationRemoteViewController._dismissContentVC",
+            "lang": "objc",
+            "addr": 4294981276
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.AuthorizationRemoteViewController..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294981416
+          },
+          {
+            "name": "startWithConfiguration:reply:",
+            "flag": "method.AuthorizationRemoteViewController.startWithConfiguration:reply:",
+            "lang": "objc",
+            "addr": 4295023568
+          },
+          {
+            "name": "stopWithReply:",
+            "flag": "method.AuthorizationRemoteViewController.stopWithReply:",
+            "lang": "objc",
+            "addr": 4295023580
+          },
+          {
+            "name": "startWithConfiguration:reply:",
+            "flag": "method.AuthorizationRemoteViewController.startWithConfiguration:reply:",
+            "lang": "objc",
+            "addr": 4295023568
+          },
+          {
+            "name": "stopWithReply:",
+            "flag": "method.AuthorizationRemoteViewController.stopWithReply:",
+            "lang": "objc",
+            "addr": 4295023580
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_contentVC",
+            "kind": "var",
+            "type": "@\"AuthorizationViewController\"",
+            "addr": 4295074040
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "LACUIAuthenticatorServiceConfigurationAdapter",
+        "addr": 4295074440,
+        "lang": "objc",
+        "index": 3,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWitConfiguration:auditToken:",
+            "flag": "method.LACUIAuthenticatorServiceConfigurationAdapter.initWitConfiguration:auditToken:",
+            "lang": "objc",
+            "addr": 4294981432
+          },
+          {
+            "name": "title",
+            "flag": "func.10000380c",
+            "lang": "objc",
+            "addr": 4294981644
+          },
+          {
+            "name": "image",
+            "flag": "func.100003814",
+            "lang": "objc",
+            "addr": 4294981652
+          },
+          {
+            "name": "text",
+            "flag": "func.1000039c8",
+            "lang": "objc",
+            "addr": 4294982088
+          },
+          {
+            "name": "context",
+            "flag": "func.1000039d0",
+            "lang": "objc",
+            "addr": 4294982096
+          },
+          {
+            "name": "authenticationMethods",
+            "flag": "func.1000039d8",
+            "lang": "objc",
+            "addr": 4294982104
+          },
+          {
+            "name": "auditToken",
+            "flag": "func.100003a48",
+            "lang": "objc",
+            "addr": 4294982216
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.LACUIAuthenticatorServiceConfigurationAdapter..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294982232
+          },
+          {
+            "name": "title",
+            "flag": "method.LACUIAuthenticatorServiceConfigurationAdapter.title",
+            "lang": "objc",
+            "addr": 4295023432
+          },
+          {
+            "name": "image",
+            "flag": "method.LACUIAuthenticatorServiceConfigurationAdapter.image",
+            "lang": "objc",
+            "addr": 4295023444
+          },
+          {
+            "name": "text",
+            "flag": "method.LACUIAuthenticatorServiceConfigurationAdapter.text",
+            "lang": "objc",
+            "addr": 4295023456
+          },
+          {
+            "name": "authenticationMethods",
+            "flag": "method.LACUIAuthenticatorServiceConfigurationAdapter.authenticationMethods",
+            "lang": "objc",
+            "addr": 4295023468
+          },
+          {
+            "name": "context",
+            "flag": "method.LACUIAuthenticatorServiceConfigurationAdapter.context",
+            "lang": "objc",
+            "addr": 4295023480
+          },
+          {
+            "name": "auditToken",
+            "flag": "method.LACUIAuthenticatorServiceConfigurationAdapter.auditToken",
+            "lang": "objc",
+            "addr": 4295023492
+          },
+          {
+            "name": "title",
+            "flag": "method.LACUIAuthenticatorServiceConfigurationAdapter.title",
+            "lang": "objc",
+            "addr": 4295023432
+          },
+          {
+            "name": "image",
+            "flag": "method.LACUIAuthenticatorServiceConfigurationAdapter.image",
+            "lang": "objc",
+            "addr": 4295023444
+          },
+          {
+            "name": "text",
+            "flag": "method.LACUIAuthenticatorServiceConfigurationAdapter.text",
+            "lang": "objc",
+            "addr": 4295023456
+          },
+          {
+            "name": "authenticationMethods",
+            "flag": "method.LACUIAuthenticatorServiceConfigurationAdapter.authenticationMethods",
+            "lang": "objc",
+            "addr": 4295023468
+          },
+          {
+            "name": "context",
+            "flag": "method.LACUIAuthenticatorServiceConfigurationAdapter.context",
+            "lang": "objc",
+            "addr": 4295023480
+          },
+          {
+            "name": "auditToken",
+            "flag": "method.LACUIAuthenticatorServiceConfigurationAdapter.auditToken",
+            "lang": "objc",
+            "addr": 4295023492
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_authenticationMethods",
+            "kind": "var",
+            "type": "@\"NSArray\"",
+            "addr": 4295074044
+          },
+          {
+            "name": "_config",
+            "kind": "var",
+            "type": "@\"LACUIAuthenticatorServiceConfiguration\"",
+            "addr": 4295074048
+          },
+          {
+            "name": "_auditToken",
+            "kind": "var",
+            "type": "{?=\"val\"[8I]}",
+            "addr": 4295074052
+          },
+          {
+            "name": "_context",
+            "kind": "var",
+            "type": "@\"LAContext\"",
+            "addr": 4295074056
+          },
+          {
+            "name": "title",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "image",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "text",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "authenticationMethods",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "context",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "auditToken",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "UserPasswordFieldServiceViewController",
+        "addr": 4295074520,
+        "lang": "objc",
+        "index": 4,
+        "super": [
+          "NSServiceViewController"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSServiceViewController"
+        ],
+        "methods": [
+          {
+            "name": "loadView",
+            "flag": "method.UserPasswordFieldServiceViewController.loadView",
+            "lang": "objc",
+            "addr": 4294982384
+          },
+          {
+            "name": "viewWillAppear",
+            "flag": "method.UserPasswordFieldServiceViewController.viewWillAppear",
+            "lang": "objc",
+            "addr": 4294982660
+          },
+          {
+            "name": "awakeFromRemoteView",
+            "flag": "method.UserPasswordFieldServiceViewController.awakeFromRemoteView",
+            "lang": "objc",
+            "addr": 4294982760
+          },
+          {
+            "name": "remoteViewControllerInterface",
+            "flag": "method.UserPasswordFieldServiceViewController.remoteViewControllerInterface",
+            "lang": "objc",
+            "addr": 4294982844
+          },
+          {
+            "name": "exportedInterface",
+            "flag": "method.UserPasswordFieldServiceViewController.exportedInterface",
+            "lang": "objc",
+            "addr": 4294982864
+          },
+          {
+            "name": "invalidate",
+            "flag": "method.UserPasswordFieldServiceViewController.invalidate",
+            "lang": "objc",
+            "addr": 4294982884
+          },
+          {
+            "name": "_setup",
+            "flag": "method.UserPasswordFieldServiceViewController._setup",
+            "lang": "objc",
+            "addr": 4294983092
+          },
+          {
+            "name": "submitPasswordAction:",
+            "flag": "method.UserPasswordFieldServiceViewController.submitPasswordAction:",
+            "lang": "objc",
+            "addr": 4294985552
+          },
+          {
+            "name": "_getUserIdAdministratorsOnly:",
+            "flag": "method.UserPasswordFieldServiceViewController._getUserIdAdministratorsOnly:",
+            "lang": "objc",
+            "addr": 4294986144
+          },
+          {
+            "name": "_processSubmitPassword",
+            "flag": "method.UserPasswordFieldServiceViewController._processSubmitPassword",
+            "lang": "objc",
+            "addr": 4294988964
+          },
+          {
+            "name": "_verifyPassword:externalizedContext:userID:",
+            "flag": "method.UserPasswordFieldServiceViewController._verifyPassword:externalizedContext:userID:",
+            "lang": "objc",
+            "addr": 4294990328
+          },
+          {
+            "name": "_checkAccountBackoffOrBlockedForUserID:",
+            "flag": "method.UserPasswordFieldServiceViewController._checkAccountBackoffOrBlockedForUserID:",
+            "lang": "objc",
+            "addr": 4294994152
+          },
+          {
+            "name": "_makePasswordExtractableFromContext:password:userID:reply:",
+            "flag": "method.UserPasswordFieldServiceViewController._makePasswordExtractableFromContext:password:userID:reply:",
+            "lang": "objc",
+            "addr": 4294994472
+          },
+          {
+            "name": "_correctPasswordNotificationForContext:userId:reply:",
+            "flag": "method.UserPasswordFieldServiceViewController._correctPasswordNotificationForContext:userId:reply:",
+            "lang": "objc",
+            "addr": 4294994828
+          },
+          {
+            "name": "submitPassword",
+            "flag": "func.10000706c",
+            "lang": "objc",
+            "addr": 4294996076
+          },
+          {
+            "name": "focusPasswordField",
+            "flag": "func.100007190",
+            "lang": "objc",
+            "addr": 4294996368
+          },
+          {
+            "name": "clearPasswordField",
+            "flag": "func.1000072e0",
+            "lang": "objc",
+            "addr": 4294996704
+          },
+          {
+            "name": "orderOut",
+            "flag": "func.100007410",
+            "lang": "objc",
+            "addr": 4294997008
+          },
+          {
+            "name": "setAuthenticator:",
+            "flag": "func.100007504",
+            "lang": "objc",
+            "addr": 4294997252
+          },
+          {
+            "name": "setExtractablePassword:",
+            "flag": "func.100007514",
+            "lang": "objc",
+            "addr": 4294997268
+          },
+          {
+            "name": "setCanAuthenticateAsAnyAdmin:",
+            "flag": "func.100007524",
+            "lang": "objc",
+            "addr": 4294997284
+          },
+          {
+            "name": "setPINAuthentication:",
+            "flag": "func.100007534",
+            "lang": "objc",
+            "addr": 4294997300
+          },
+          {
+            "name": "setSkipCredentialsVerification:",
+            "flag": "func.100007544",
+            "lang": "objc",
+            "addr": 4294997316
+          },
+          {
+            "name": "setPasswordFieldEnabled:",
+            "flag": "func.100007554",
+            "lang": "objc",
+            "addr": 4294997332
+          },
+          {
+            "name": "setTextAlingmentForBackoffLabel:",
+            "flag": "func.100007690",
+            "lang": "objc",
+            "addr": 4294997648
+          },
+          {
+            "name": "showBackoffInterval:accountBlocked:",
+            "flag": "func.1000077cc",
+            "lang": "objc",
+            "addr": 4294997964
+          },
+          {
+            "name": "setPamService:",
+            "flag": "func.100007954",
+            "lang": "objc",
+            "addr": 4294998356
+          },
+          {
+            "name": "setPamToken:",
+            "flag": "func.100007968",
+            "lang": "objc",
+            "addr": 4294998376
+          },
+          {
+            "name": "setPamUsername:",
+            "flag": "func.10000797c",
+            "lang": "objc",
+            "addr": 4294998396
+          },
+          {
+            "name": "setUsername:",
+            "flag": "func.100007990",
+            "lang": "objc",
+            "addr": 4294998416
+          },
+          {
+            "name": "setFieldStyle:",
+            "flag": "func.1000079ec",
+            "lang": "objc",
+            "addr": 4294998508
+          },
+          {
+            "name": "setPlaceholderString:",
+            "flag": "func.100007c54",
+            "lang": "objc",
+            "addr": 4294999124
+          },
+          {
+            "name": "setAttributedPlaceholderString:",
+            "flag": "func.100007da0",
+            "lang": "objc",
+            "addr": 4294999456
+          },
+          {
+            "name": "setTabNavigationDisabled:",
+            "flag": "func.100007eec",
+            "lang": "objc",
+            "addr": 4294999788
+          },
+          {
+            "name": "cancelAuthentication",
+            "flag": "method.UserPasswordFieldServiceViewController.cancelAuthentication",
+            "lang": "objc",
+            "addr": 4295000104
+          },
+          {
+            "name": "passwordDidChange",
+            "flag": "method.UserPasswordFieldServiceViewController.passwordDidChange",
+            "lang": "objc",
+            "addr": 4295000236
+          },
+          {
+            "name": "_showAccountBlocked",
+            "flag": "method.UserPasswordFieldServiceViewController._showAccountBlocked",
+            "lang": "objc",
+            "addr": 4295000416
+          },
+          {
+            "name": "_showBackoffLabelWithInterval:",
+            "flag": "method.UserPasswordFieldServiceViewController._showBackoffLabelWithInterval:",
+            "lang": "objc",
+            "addr": 4295001088
+          },
+          {
+            "name": "_hideBackoffLabel",
+            "flag": "method.UserPasswordFieldServiceViewController._hideBackoffLabel",
+            "lang": "objc",
+            "addr": 4295001776
+          },
+          {
+            "name": "_stringWithBackoffMessageForInterval:",
+            "flag": "method.UserPasswordFieldServiceViewController._stringWithBackoffMessageForInterval:",
+            "lang": "objc",
+            "addr": 4295002364
+          },
+          {
+            "name": "_scheduleBackoffTimer",
+            "flag": "method.UserPasswordFieldServiceViewController._scheduleBackoffTimer",
+            "lang": "objc",
+            "addr": 4295002700
+          },
+          {
+            "name": "_clearBackoffTimer",
+            "flag": "method.UserPasswordFieldServiceViewController._clearBackoffTimer",
+            "lang": "objc",
+            "addr": 4295003128
+          },
+          {
+            "name": "_updateAccessibilityTitle",
+            "flag": "method.UserPasswordFieldServiceViewController._updateAccessibilityTitle",
+            "lang": "objc",
+            "addr": 4295003200
+          },
+          {
+            "name": "analytics",
+            "flag": "method.UserPasswordFieldServiceViewController.analytics",
+            "lang": "objc",
+            "addr": 4295003680
+          },
+          {
+            "name": "username",
+            "flag": "method.UserPasswordFieldServiceViewController.username",
+            "lang": "objc",
+            "addr": 4295003800
+          },
+          {
+            "name": "passwordIsExtractable",
+            "flag": "method.UserPasswordFieldServiceViewController.passwordIsExtractable",
+            "lang": "objc",
+            "addr": 4295003816
+          },
+          {
+            "name": "setPasswordIsExtractable:",
+            "flag": "method.UserPasswordFieldServiceViewController.setPasswordIsExtractable:",
+            "lang": "objc",
+            "addr": 4295003832
+          },
+          {
+            "name": "context",
+            "flag": "method.UserPasswordFieldServiceViewController.context",
+            "lang": "objc",
+            "addr": 4295003848
+          },
+          {
+            "name": "setContext:",
+            "flag": "method.UserPasswordFieldServiceViewController.setContext:",
+            "lang": "objc",
+            "addr": 4295003864
+          },
+          {
+            "name": "authenticator",
+            "flag": "method.UserPasswordFieldServiceViewController.authenticator",
+            "lang": "objc",
+            "addr": 4295003884
+          },
+          {
+            "name": "canAuthenticateAsAnyAdmin",
+            "flag": "method.UserPasswordFieldServiceViewController.canAuthenticateAsAnyAdmin",
+            "lang": "objc",
+            "addr": 4295003900
+          },
+          {
+            "name": "pinAuthentication",
+            "flag": "method.UserPasswordFieldServiceViewController.pinAuthentication",
+            "lang": "objc",
+            "addr": 4295003916
+          },
+          {
+            "name": "setPinAuthentication:",
+            "flag": "method.UserPasswordFieldServiceViewController.setPinAuthentication:",
+            "lang": "objc",
+            "addr": 4295003932
+          },
+          {
+            "name": "skipCredentialsVerification",
+            "flag": "method.UserPasswordFieldServiceViewController.skipCredentialsVerification",
+            "lang": "objc",
+            "addr": 4295003948
+          },
+          {
+            "name": "pamUserName",
+            "flag": "method.UserPasswordFieldServiceViewController.pamUserName",
+            "lang": "objc",
+            "addr": 4295003964
+          },
+          {
+            "name": "pamService",
+            "flag": "method.UserPasswordFieldServiceViewController.pamService",
+            "lang": "objc",
+            "addr": 4295003980
+          },
+          {
+            "name": "pamToken",
+            "flag": "method.UserPasswordFieldServiceViewController.pamToken",
+            "lang": "objc",
+            "addr": 4295003996
+          },
+          {
+            "name": "shouldAutosubmit",
+            "flag": "method.UserPasswordFieldServiceViewController.shouldAutosubmit",
+            "lang": "objc",
+            "addr": 4295004012
+          },
+          {
+            "name": "setShouldAutosubmit:",
+            "flag": "func.100008f7c",
+            "lang": "objc",
+            "addr": 4295004028
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.UserPasswordFieldServiceViewController..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295004044
+          },
+          {
+            "name": "submitPassword",
+            "flag": "method.UserPasswordFieldServiceViewController.submitPassword",
+            "lang": "objc",
+            "addr": 4295023632
+          },
+          {
+            "name": "focusPasswordField",
+            "flag": "method.UserPasswordFieldServiceViewController.focusPasswordField",
+            "lang": "objc",
+            "addr": 4295023644
+          },
+          {
+            "name": "setUsername:",
+            "flag": "method.UserPasswordFieldServiceViewController.setUsername:",
+            "lang": "objc",
+            "addr": 4295023656
+          },
+          {
+            "name": "clearPasswordField",
+            "flag": "method.UserPasswordFieldServiceViewController.clearPasswordField",
+            "lang": "objc",
+            "addr": 4295023668
+          },
+          {
+            "name": "setExtractablePassword:",
+            "flag": "method.UserPasswordFieldServiceViewController.setExtractablePassword:",
+            "lang": "objc",
+            "addr": 4295023680
+          },
+          {
+            "name": "setAuthenticator:",
+            "flag": "method.UserPasswordFieldServiceViewController.setAuthenticator:",
+            "lang": "objc",
+            "addr": 4295023692
+          },
+          {
+            "name": "setCanAuthenticateAsAnyAdmin:",
+            "flag": "method.UserPasswordFieldServiceViewController.setCanAuthenticateAsAnyAdmin:",
+            "lang": "objc",
+            "addr": 4295023704
+          },
+          {
+            "name": "setPINAuthentication:",
+            "flag": "method.UserPasswordFieldServiceViewController.setPINAuthentication:",
+            "lang": "objc",
+            "addr": 4295023716
+          },
+          {
+            "name": "setPamUsername:",
+            "flag": "method.UserPasswordFieldServiceViewController.setPamUsername:",
+            "lang": "objc",
+            "addr": 4295023728
+          },
+          {
+            "name": "setPamService:",
+            "flag": "method.UserPasswordFieldServiceViewController.setPamService:",
+            "lang": "objc",
+            "addr": 4295023740
+          },
+          {
+            "name": "setPamToken:",
+            "flag": "method.UserPasswordFieldServiceViewController.setPamToken:",
+            "lang": "objc",
+            "addr": 4295023752
+          },
+          {
+            "name": "orderOut",
+            "flag": "method.UserPasswordFieldServiceViewController.orderOut",
+            "lang": "objc",
+            "addr": 4295023764
+          },
+          {
+            "name": "setShouldAutosubmit:",
+            "flag": "method.UserPasswordFieldServiceViewController.setShouldAutosubmit:",
+            "lang": "objc",
+            "addr": 4295023776
+          },
+          {
+            "name": "setSkipCredentialsVerification:",
+            "flag": "method.UserPasswordFieldServiceViewController.setSkipCredentialsVerification:",
+            "lang": "objc",
+            "addr": 4295023788
+          },
+          {
+            "name": "setPasswordFieldEnabled:",
+            "flag": "method.UserPasswordFieldServiceViewController.setPasswordFieldEnabled:",
+            "lang": "objc",
+            "addr": 4295023800
+          },
+          {
+            "name": "setTextAlingmentForBackoffLabel:",
+            "flag": "method.UserPasswordFieldServiceViewController.setTextAlingmentForBackoffLabel:",
+            "lang": "objc",
+            "addr": 4295023812
+          },
+          {
+            "name": "showBackoffInterval:accountBlocked:",
+            "flag": "method.UserPasswordFieldServiceViewController.showBackoffInterval:accountBlocked:",
+            "lang": "objc",
+            "addr": 4295023824
+          },
+          {
+            "name": "setFieldStyle:",
+            "flag": "method.UserPasswordFieldServiceViewController.setFieldStyle:",
+            "lang": "objc",
+            "addr": 4295023836
+          },
+          {
+            "name": "setPlaceholderString:",
+            "flag": "method.UserPasswordFieldServiceViewController.setPlaceholderString:",
+            "lang": "objc",
+            "addr": 4295023848
+          },
+          {
+            "name": "setAttributedPlaceholderString:",
+            "flag": "method.UserPasswordFieldServiceViewController.setAttributedPlaceholderString:",
+            "lang": "objc",
+            "addr": 4295023860
+          },
+          {
+            "name": "setTabNavigationDisabled:",
+            "flag": "method.UserPasswordFieldServiceViewController.setTabNavigationDisabled:",
+            "lang": "objc",
+            "addr": 4295023872
+          },
+          {
+            "name": "submitPassword",
+            "flag": "method.UserPasswordFieldServiceViewController.submitPassword",
+            "lang": "objc",
+            "addr": 4295023632
+          },
+          {
+            "name": "focusPasswordField",
+            "flag": "method.UserPasswordFieldServiceViewController.focusPasswordField",
+            "lang": "objc",
+            "addr": 4295023644
+          },
+          {
+            "name": "setUsername:",
+            "flag": "method.UserPasswordFieldServiceViewController.setUsername:",
+            "lang": "objc",
+            "addr": 4295023656
+          },
+          {
+            "name": "clearPasswordField",
+            "flag": "method.UserPasswordFieldServiceViewController.clearPasswordField",
+            "lang": "objc",
+            "addr": 4295023668
+          },
+          {
+            "name": "setExtractablePassword:",
+            "flag": "method.UserPasswordFieldServiceViewController.setExtractablePassword:",
+            "lang": "objc",
+            "addr": 4295023680
+          },
+          {
+            "name": "setAuthenticator:",
+            "flag": "method.UserPasswordFieldServiceViewController.setAuthenticator:",
+            "lang": "objc",
+            "addr": 4295023692
+          },
+          {
+            "name": "setCanAuthenticateAsAnyAdmin:",
+            "flag": "method.UserPasswordFieldServiceViewController.setCanAuthenticateAsAnyAdmin:",
+            "lang": "objc",
+            "addr": 4295023704
+          },
+          {
+            "name": "setPINAuthentication:",
+            "flag": "method.UserPasswordFieldServiceViewController.setPINAuthentication:",
+            "lang": "objc",
+            "addr": 4295023716
+          },
+          {
+            "name": "setPamUsername:",
+            "flag": "method.UserPasswordFieldServiceViewController.setPamUsername:",
+            "lang": "objc",
+            "addr": 4295023728
+          },
+          {
+            "name": "setPamService:",
+            "flag": "method.UserPasswordFieldServiceViewController.setPamService:",
+            "lang": "objc",
+            "addr": 4295023740
+          },
+          {
+            "name": "setPamToken:",
+            "flag": "method.UserPasswordFieldServiceViewController.setPamToken:",
+            "lang": "objc",
+            "addr": 4295023752
+          },
+          {
+            "name": "orderOut",
+            "flag": "method.UserPasswordFieldServiceViewController.orderOut",
+            "lang": "objc",
+            "addr": 4295023764
+          },
+          {
+            "name": "setShouldAutosubmit:",
+            "flag": "method.UserPasswordFieldServiceViewController.setShouldAutosubmit:",
+            "lang": "objc",
+            "addr": 4295023776
+          },
+          {
+            "name": "setSkipCredentialsVerification:",
+            "flag": "method.UserPasswordFieldServiceViewController.setSkipCredentialsVerification:",
+            "lang": "objc",
+            "addr": 4295023788
+          },
+          {
+            "name": "setPasswordFieldEnabled:",
+            "flag": "method.UserPasswordFieldServiceViewController.setPasswordFieldEnabled:",
+            "lang": "objc",
+            "addr": 4295023800
+          },
+          {
+            "name": "setTextAlingmentForBackoffLabel:",
+            "flag": "method.UserPasswordFieldServiceViewController.setTextAlingmentForBackoffLabel:",
+            "lang": "objc",
+            "addr": 4295023812
+          },
+          {
+            "name": "showBackoffInterval:accountBlocked:",
+            "flag": "method.UserPasswordFieldServiceViewController.showBackoffInterval:accountBlocked:",
+            "lang": "objc",
+            "addr": 4295023824
+          },
+          {
+            "name": "setFieldStyle:",
+            "flag": "method.UserPasswordFieldServiceViewController.setFieldStyle:",
+            "lang": "objc",
+            "addr": 4295023836
+          },
+          {
+            "name": "setPlaceholderString:",
+            "flag": "method.UserPasswordFieldServiceViewController.setPlaceholderString:",
+            "lang": "objc",
+            "addr": 4295023848
+          },
+          {
+            "name": "setAttributedPlaceholderString:",
+            "flag": "method.UserPasswordFieldServiceViewController.setAttributedPlaceholderString:",
+            "lang": "objc",
+            "addr": 4295023860
+          },
+          {
+            "name": "setTabNavigationDisabled:",
+            "flag": "method.UserPasswordFieldServiceViewController.setTabNavigationDisabled:",
+            "lang": "objc",
+            "addr": 4295023872
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_container",
+            "kind": "var",
+            "type": "@\"NSView\"",
+            "addr": 4295074064
+          },
+          {
+            "name": "_passwordField",
+            "kind": "var",
+            "type": "@\"LACUIPasswordField\"",
+            "addr": 4295074060
+          },
+          {
+            "name": "_backoffLabel",
+            "kind": "var",
+            "type": "@\"NSTextField\"",
+            "addr": 4295074076
+          },
+          {
+            "name": "_leadingConstraint",
+            "kind": "var",
+            "type": "@\"NSLayoutConstraint\"",
+            "addr": 4295074068
+          },
+          {
+            "name": "_trailingConstraint",
+            "kind": "var",
+            "type": "@\"NSLayoutConstraint\"",
+            "addr": 4295074072
+          },
+          {
+            "name": "_updateBackoffTimer",
+            "kind": "var",
+            "type": "@\"NSTimer\"",
+            "addr": 4295074128
+          },
+          {
+            "name": "_backoffRemainingTime",
+            "kind": "var",
+            "type": "d",
+            "addr": 4295074120
+          },
+          {
+            "name": "_analytics",
+            "kind": "var",
+            "type": "@\"LACAnalyticsSessionClient\"",
+            "addr": 4295074132
+          },
+          {
+            "name": "_passwordIsExtractable",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295074116
+          },
+          {
+            "name": "_canAuthenticateAsAnyAdmin",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295074108
+          },
+          {
+            "name": "_pinAuthentication",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295074124
+          },
+          {
+            "name": "_skipCredentialsVerification",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295074104
+          },
+          {
+            "name": "_shouldAutosubmit",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295074084
+          },
+          {
+            "name": "_username",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295074100
+          },
+          {
+            "name": "_context",
+            "kind": "var",
+            "type": "@\"LAContext\"",
+            "addr": 4295074112
+          },
+          {
+            "name": "_authenticator",
+            "kind": "var",
+            "type": "q",
+            "addr": 4295074080
+          },
+          {
+            "name": "_pamUserName",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295074092
+          },
+          {
+            "name": "_pamService",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295074088
+          },
+          {
+            "name": "_pamToken",
+            "kind": "var",
+            "type": "@\"NSData\"",
+            "addr": 4295074096
+          },
+          {
+            "name": "username",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "passwordIsExtractable",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "context",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "authenticator",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "canAuthenticateAsAnyAdmin",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "pinAuthentication",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "skipCredentialsVerification",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "pamUserName",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "pamService",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "pamToken",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "shouldAutosubmit",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "analytics",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "AuthorizationViewController",
+        "addr": 4295074760,
+        "lang": "objc",
+        "index": 5,
+        "super": [
+          "NSViewController"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSViewController"
+        ],
+        "methods": [
+          {
+            "name": "initWithViewModel:",
+            "flag": "method.AuthorizationViewController.initWithViewModel:",
+            "lang": "objc",
+            "addr": 4295004440
+          },
+          {
+            "name": "loadView",
+            "flag": "method.AuthorizationViewController.loadView",
+            "lang": "objc",
+            "addr": 4295004584
+          },
+          {
+            "name": "viewDidLoad",
+            "flag": "method.AuthorizationViewController.viewDidLoad",
+            "lang": "objc",
+            "addr": 4295004664
+          },
+          {
+            "name": "viewWillDisappear",
+            "flag": "method.AuthorizationViewController.viewWillDisappear",
+            "lang": "objc",
+            "addr": 4295004764
+          },
+          {
+            "name": "cancel",
+            "flag": "method.AuthorizationViewController.cancel",
+            "lang": "objc",
+            "addr": 4295004852
+          },
+          {
+            "name": "authorizationViewModelStateDidChange",
+            "flag": "method.AuthorizationViewController.authorizationViewModelStateDidChange",
+            "lang": "objc",
+            "addr": 4295004868
+          },
+          {
+            "name": "_setupView",
+            "flag": "method.AuthorizationViewController._setupView",
+            "lang": "objc",
+            "addr": 4295004872
+          },
+          {
+            "name": "_updateView",
+            "flag": "method.AuthorizationViewController._updateView",
+            "lang": "objc",
+            "addr": 4295007488
+          },
+          {
+            "name": "_bottomStackClean",
+            "flag": "method.AuthorizationViewController._bottomStackClean",
+            "lang": "objc",
+            "addr": 4295007760
+          },
+          {
+            "name": "_bottomStackAddPromptWithMessage:",
+            "flag": "method.AuthorizationViewController._bottomStackAddPromptWithMessage:",
+            "lang": "objc",
+            "addr": 4295008016
+          },
+          {
+            "name": "_bottomStackShowAuthenticationGlyph",
+            "flag": "method.AuthorizationViewController._bottomStackShowAuthenticationGlyph",
+            "lang": "objc",
+            "addr": 4295008312
+          },
+          {
+            "name": "_bottomStackAddPasswordFieldHidden:",
+            "flag": "method.AuthorizationViewController._bottomStackAddPasswordFieldHidden:",
+            "lang": "objc",
+            "addr": 4295008660
+          },
+          {
+            "name": "_passwordFieldSubmit",
+            "flag": "method.AuthorizationViewController._passwordFieldSubmit",
+            "lang": "objc",
+            "addr": 4295009192
+          },
+          {
+            "name": "_windowDisableResize",
+            "flag": "method.AuthorizationViewController._windowDisableResize",
+            "lang": "objc",
+            "addr": 4295009632
+          },
+          {
+            "name": "_windowShake",
+            "flag": "method.AuthorizationViewController._windowShake",
+            "lang": "objc",
+            "addr": 4295009736
+          },
+          {
+            "name": "_handleCancelButtonAction:",
+            "flag": "method.AuthorizationViewController._handleCancelButtonAction:",
+            "lang": "objc",
+            "addr": 4295010032
+          },
+          {
+            "name": "_handleFallbackButtonAction:",
+            "flag": "method.AuthorizationViewController._handleFallbackButtonAction:",
+            "lang": "objc",
+            "addr": 4295010048
+          },
+          {
+            "name": "controlTextDidEndEditing:",
+            "flag": "method.AuthorizationViewController.controlTextDidEndEditing:",
+            "lang": "objc",
+            "addr": 4295010064
+          },
+          {
+            "name": "controlTextDidChange:",
+            "flag": "method.AuthorizationViewController.controlTextDidChange:",
+            "lang": "objc",
+            "addr": 4295010260
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.AuthorizationViewController..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295010464
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_viewModel",
+            "kind": "var",
+            "type": "@\"AuthorizationViewModel\"",
+            "addr": 4295074136
+          },
+          {
+            "name": "_container",
+            "kind": "var",
+            "type": "@\"NSView\"",
+            "addr": 4295074144
+          },
+          {
+            "name": "_mainStack",
+            "kind": "var",
+            "type": "@\"NSStackView\"",
+            "addr": 4295074148
+          },
+          {
+            "name": "_bottomStack",
+            "kind": "var",
+            "type": "@\"NSStackView\"",
+            "addr": 4295074152
+          },
+          {
+            "name": "_passwordField",
+            "kind": "var",
+            "type": "@\"NSSecureTextField\"",
+            "addr": 4295074140
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "_AuthorizationViewSeparator",
+        "addr": 4295074800,
+        "lang": "objc",
+        "index": 6,
+        "super": [
+          "NSBox"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSBox"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method._AuthorizationViewSeparator.init",
+            "lang": "objc",
+            "addr": 4295010608
+          }
+        ]
+      },
+      {
+        "classname": "_AuthorizationViewPasswordField",
+        "addr": 4295074840,
+        "lang": "objc",
+        "index": 7,
+        "super": [
+          "NSSecureTextField"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSSecureTextField"
+        ],
+        "methods": [
+          {
+            "name": "initWithPlaceholder:",
+            "flag": "method._AuthorizationViewPasswordField.initWithPlaceholder:",
+            "lang": "objc",
+            "addr": 4295010696
+          }
+        ]
+      },
+      {
+        "classname": "_AuthorizationViewLabel",
+        "addr": 4295074880,
+        "lang": "objc",
+        "index": 8,
+        "super": [
+          "NSTextField"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSTextField"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method._AuthorizationViewLabel.init",
+            "lang": "objc",
+            "addr": 4295011196
+          }
+        ]
+      },
+      {
+        "classname": "_AuthorizatonViewButton",
+        "addr": 4295074920,
+        "lang": "objc",
+        "index": 9,
+        "super": [
+          "NSButton"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSButton"
+        ],
+        "methods": [
+          {
+            "name": "intrinsicContentSize",
+            "flag": "method._AuthorizatonViewButton.intrinsicContentSize",
+            "lang": "objc",
+            "addr": 4295011532
+          },
+          {
+            "name": "sendAction:to:",
+            "flag": "method._AuthorizatonViewButton.sendAction:to:",
+            "lang": "objc",
+            "addr": 4295011596
+          },
+          {
+            "name": "buttonWithTitle:target:action:",
+            "flag": "method.class._AuthorizatonViewButton.buttonWithTitle:target:action:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4295011416
+          }
+        ]
+      }
+    ],
+    "swift_metadata": {
+      "is_swift": false,
+      "symbols": []
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/checkmark.caml",
+        "Versions/A/Resources/Localizable.loctable",
+        "Versions/A/Resources/Assets.car",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist",
+        "Versions/A/XPCServices/LocalAuthenticationRemoteService.xpc/Contents/Info.plist",
+        "Versions/A/XPCServices/LocalAuthenticationRemoteService.xpc/Contents/version.plist",
+        "Versions/A/XPCServices/LocalAuthenticationRemoteService.xpc/Contents/_CodeSignature/CodeResources",
+        "Versions/A/XPCServices/LocalAuthenticationRemoteService.xpc/Contents/MacOS/LocalAuthenticationRemoteService",
+        "Versions/A/XPCServices/LocalAuthenticationRemoteService.xpc/Contents/Resources/Localizable.loctable",
+        "Versions/A/XPCServices/LocalAuthenticationRemoteService.xpc/Contents/Resources/InfoPlist.loctable"
+      ],
+      "plists": {
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "LocalAuthenticationUI",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2016 Apple Inc. All rights reserved.",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "2005.40.35",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "FMWK",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "LocalAuthenticationUI",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.LocalAuthenticationUI",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleSignature": "????",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleVersion": "2005.40.35",
+          "ProjectName": "LocalAuthenticationUI_Swift",
+          "BuildAliasOf": "LocalAuthentication",
+          "SourceVersion": "2005040035000000",
+          "BuildVersion": "232"
+        },
+        "Versions/A/XPCServices/LocalAuthenticationRemoteService.xpc/Contents/Info.plist": {
+          "CFBundleName": "LocalAuthenticationRemoteService",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2016 Apple Inc. All rights reserved.",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "NSPrincipalClass": "NSViewServiceApplication",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "XPCService": {
+            "RunLoopType": "_NSApplicationMain",
+            "JoinExistingSession": true
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "LocalAuthenticationRemoteService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.LocalAuthenticationRemoteService",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleDisplayName": "LocalAuthenticationRemoteService",
+          "CFBundleSignature": "????",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "",
+          "ViewService": {
+            "WantsMasquerade": false
+          }
+        },
+        "Versions/A/XPCServices/LocalAuthenticationRemoteService.xpc/Contents/version.plist": {
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleVersion": "1",
+          "ProjectName": "LocalAuthenticationUI_Swift",
+          "BuildAliasOf": "LocalAuthentication",
+          "SourceVersion": "2005040035000000",
+          "BuildVersion": "232"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
+  },
+  "usage": {
+    "layer": "usage",
+    "used_by": [
+      {
+        "path": "/System/Applications/Notes.app",
+        "binary": "/System/Applications/Notes.app/Contents/MacOS/Notes",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/Erase Assistant.app",
+        "binary": "/System/Library/CoreServices/Erase Assistant.app/Contents/MacOS/Erase Assistant",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/Setup Assistant.app",
+        "binary": "/System/Library/CoreServices/Setup Assistant.app/Contents/MacOS/Setup Assistant",
+        "used_classes": []
+      }
+    ]
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "loaded"
+  }
+}

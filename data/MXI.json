@@ -1,0 +1,152 @@
+{
+  "framework": "MXI.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/MXI.framework/Versions/A/Resources/mxi_archive.metallib",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "unknown",
+          "baddr": 0,
+          "binsz": 2044672,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": false,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "",
+          "laddr": 0,
+          "lang": "c",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "Unknown cputype",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": false,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": true,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": []
+      }
+    },
+    "classes": [],
+    "swift_metadata": {
+      "is_swift": false,
+      "symbols": []
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/default.metallib",
+        "Versions/A/Resources/mxi_unlit_shadergraph.usda",
+        "Versions/A/Resources/mxi_archive.metallib",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist"
+      ],
+      "plists": {
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "MXI",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundleDocumentTypes": [
+            {
+              "CFBundleTypeName": "MXI Custom Bundle",
+              "CFBundleTypeExtensions": [
+                "mxibundle"
+              ],
+              "CFBundleTypeRole": "Viewer",
+              "LSItemContentTypes": [
+                "com.apple.mxi.mxibundle"
+              ],
+              "LSTypeIsPackage": true,
+              "LSHandlerRank": "Default"
+            }
+          ],
+          "CFBundlePackageType": "FMWK",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleExecutable": "MXI",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.mxi",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "UTExportedTypeDeclarations": [
+            {
+              "UTTypeIdentifier": "com.apple.mxi.mxibundle",
+              "UTTypeDescription": "MXI Custom Bundle",
+              "UTTypeConformsTo": [
+                "com.apple.package"
+              ],
+              "UTTypeTagSpecification": {
+                "public.filename-extension": [
+                  "mxibundle"
+                ]
+              }
+            }
+          ],
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "MXI",
+          "SourceVersion": "29040001000000",
+          "BuildVersion": "542"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
+  },
+  "usage": {
+    "layer": "usage",
+    "used_by": []
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "load_failed"
+  }
+}

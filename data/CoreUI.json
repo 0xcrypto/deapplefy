@@ -1,0 +1,368 @@
+{
+  "framework": "CoreUI.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/CoreUI.framework/Versions/A/Resources/DesignLibrary-macOS.bundle/Contents/MacOS/DesignLibrary-macOS",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 0,
+          "binsz": 35120,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": false,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "",
+          "laddr": 0,
+          "lang": "c",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": false,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": false,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/usr/lib/libSystem.B.dylib"
+        ]
+      }
+    },
+    "classes": [],
+    "swift_metadata": {
+      "is_swift": false,
+      "symbols": []
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/default.metallib",
+        "Versions/A/Resources/DuplicateImageNames.plist",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist",
+        "Versions/A/Resources/DesignLibrary-macOS.bundle/Contents/Info.plist",
+        "Versions/A/Resources/DesignLibrary-macOS.bundle/Contents/version.plist",
+        "Versions/A/Resources/DesignLibrary-macOS.bundle/Contents/_CodeSignature/CodeResources",
+        "Versions/A/Resources/DesignLibrary-macOS.bundle/Contents/MacOS/DesignLibrary-macOS",
+        "Versions/A/Resources/DesignLibrary-macOS.bundle/Contents/Resources/macTouchBarRepositories/DarkStandard.car",
+        "Versions/A/Resources/DesignLibrary-macOS.bundle/Contents/Resources/macOSRepositories/DarkVibrantStandard.car",
+        "Versions/A/Resources/DesignLibrary-macOS.bundle/Contents/Resources/macOSRepositories/DarkFauxVibrantStandard.car",
+        "Versions/A/Resources/DesignLibrary-macOS.bundle/Contents/Resources/macOSRepositories/LightStandard.car",
+        "Versions/A/Resources/DesignLibrary-macOS.bundle/Contents/Resources/macOSRepositories/DarkVibrantIncreasedContrast.car",
+        "Versions/A/Resources/DesignLibrary-macOS.bundle/Contents/Resources/macOSRepositories/LightVibrantIncreasedContrast.car",
+        "Versions/A/Resources/DesignLibrary-macOS.bundle/Contents/Resources/macOSRepositories/LightIncreasedContrast.car",
+        "Versions/A/Resources/DesignLibrary-macOS.bundle/Contents/Resources/macOSRepositories/LightFauxVibrantStandard.car",
+        "Versions/A/Resources/DesignLibrary-macOS.bundle/Contents/Resources/macOSRepositories/DarkStandard.car",
+        "Versions/A/Resources/DesignLibrary-macOS.bundle/Contents/Resources/macOSRepositories/LightVibrantStandard.car",
+        "Versions/A/Resources/DesignLibrary-macOS.bundle/Contents/Resources/macOSRepositories/DarkIncreasedContrast.car"
+      ],
+      "plists": {
+        "Versions/A/Resources/DuplicateImageNames.plist": {
+          "FunctionRowCurrentLocation": "TouchBarCurrentLocation",
+          "FunctionBarCheck": "TouchBarCheck",
+          "InvalidData": "InvalidDataFreestanding",
+          "FunctionBarPrint": "TouchBarPrint",
+          "FunctionBarMessage": "TouchBarNewMessage",
+          "FunctionBarMore": "TouchBarMore",
+          "FunctionBarTextLeftAlign": "TouchBarTextLeftAlign",
+          "FunctionBarTextCenterAlign": "TouchBarTextCenterAlign",
+          "FunctionBarGoBack": "TouchBarGoBack",
+          "FunctionRowTextEmojiPicker": "TouchBarTextEmojiPicker",
+          "RightFacingTriangle": "GoRight",
+          "FunctionBarGoUp": "TouchBarGoUp",
+          "TheaterStart": "IChatTheater",
+          "FunctionBarCircleAdd": "TouchBarCircleAdd",
+          "FunctionBarSkipAhead": "TouchBarSkipAhead",
+          "ToolbarPrintItemImage": "ToolbarPrint",
+          "TouchBarControlStripVolumeDown": "TouchBarVolumeDown",
+          "FunctionBarTrash": "TouchBarDelete",
+          "FunctionRowBack": "TouchBarGoBack",
+          "FunctionBarSkipBack": "TouchBarSkipBack",
+          "RevealFreestanding": "TransferShow",
+          "FunctionRowAddContact": "TouchBarUserAdd",
+          "FunctionBarGoForward": "TouchBarGoForward",
+          "StatusUnknown": "StatusNone",
+          "IconSortAscending": "AscendingSortIndicator",
+          "FunctionRowTextUnderline": "TouchBarTextUnderline",
+          "StopProgressFreestanding": "Cancel",
+          "TouchBarControlStripVolumeUp": "TouchBarVolumeUp",
+          "FunctionRowTextRightAlign": "TouchBarTextRightAlign",
+          "FollowLinkFreestanding": "CircleArrowRight",
+          "FunctionBarClose": "TouchBarClose",
+          "FunctionBarQuickTypeArrow": "TouchBarQuickTypeArrow",
+          "FunctionRowColorPicker": "TouchBarColorPickerWheel",
+          "ToolbarShowColorsItemImage": "ToolbarShowColors",
+          "FunctionRowTextItalic": "TouchBarTextItalic",
+          "TouchBarSearchMagGlass": "TouchBarSearch",
+          "FunctionBarPlayPause": "TouchBarPlayPause",
+          "FunctionRowCall": "TouchBarCommunicationAudio",
+          "FunctionBarAddContact": "TouchBarUserAdd",
+          "StatusUnknownFlat": "StatusNoneFlat",
+          "TouchBarAudioOutputVolumeMed": "TouchBarAudioOutputVolumeMedium",
+          "ToolbarShowFontsItemImage": "ToolbarShowFonts",
+          "ViewList": "ListView",
+          "MoveSplitterUp": "StatusOffline",
+          "FunctionBarEndCall": "TouchBarEndCall",
+          "FunctionBarTextItalic": "TouchBarTextItalic",
+          "FunctionBarGoDown": "TouchBarGoDown",
+          "Bookmarks": "Bookmark",
+          "ItemMixedSelection": "MenuMixedState",
+          "FunctionRowTextPicturePicker": "TouchBarTextPicturePicker",
+          "LightContentWindowCloseButtonPressed": "CloseButton",
+          "ToolbarSpaceItemPaletteRep": "ToolbarSpace",
+          "NavEjectButton.small.normalSelected": "NavEjectButton.normal",
+          "TouchBarGetInfoOutline": "TouchBarGetInfo",
+          "ViewIcons": "IconView",
+          "VideoCameraSmall": "VideoCamera",
+          "FunctionBarMute": "TouchBarAudioInputMute",
+          "NavEjectButton.normalSelected": "NavEjectButton.normal",
+          "FunctionRowTextCenterAlign": "TouchBarTextCenterAlign",
+          "FunctionBarTextJustifiedAlign": "TouchBarTextJustifiedAlign",
+          "FunctionRowMessage": "TouchBarNewMessage",
+          "FunctionBarHome": "TouchBarHome",
+          "FunctionBarVideoCall": "TouchBarCommunicationVideo",
+          "FullScreenEnter": "EnterFullScreen",
+          "StatusUnavailable": "StatusAway",
+          "TouchBarFavoriteOff": "TouchBarLoveOff",
+          "MenuItemSelection": "MenuOnState",
+          "IconSortDescending": "DescendingSortIndicator",
+          "LeftFacingTriangle": "GoLeft",
+          "LightContentWindowCloseButton": "CloseButton",
+          "NavEjectButton.small.pressed": "NavEjectButton.normal",
+          "FunctionBarSearch": "TouchBarSearch",
+          "TouchBarTransferDownload": "TouchBarDownload",
+          "FunctionRowTextLeftAlign": "TouchBarTextLeftAlign",
+          "NavEjectButton.pressed": "NavEjectButton.normal",
+          "FunctionBarFastForward": "TouchBarFastForward",
+          "FunctionBarTextBold": "TouchBarTextBold",
+          "ViewColumns": "ColumnView",
+          "FunctionBarQuickTypeIcon": "TouchBarQuickTypeIcon",
+          "FunctionBarRecordStart": "TouchBarRecordStart",
+          "FunctionBarOutlineInfo": "TouchBarOutlineInfo",
+          "MoveSplitterLeft": "StatusOffline",
+          "FunctionBarTextUnderline": "TouchBarTextUnderline",
+          "StopProgress": "Stop",
+          "image.MenuSubmenu": "MenuSubmenu",
+          "FunctionRowEndCall": "TouchBarEndCall",
+          "FunctionRowMore": "TouchBarMore",
+          "PresentationStart": "Slideshow",
+          "VideoCameraDisabledSmall": "CameraDisabled",
+          "FunctionBarCompose": "TouchBarCompose",
+          "FunctionRowForward": "TouchBarGoForward",
+          "StatusPartiallyAvailable": "StatusIdle",
+          "FunctionBarSend": "TouchBarSend",
+          "FunctionBarWork": "TouchBarWork",
+          "QuickLookStart": "QuickLook",
+          "NavEjectButton.small.rollover": "NavEjectButton.rollover",
+          "MoveSplitterRight": "StatusOffline",
+          "FunctionBarNewFolder": "TouchBarNewFolder",
+          "FunctionRowShare": "TouchBarShare",
+          "FunctionRowTextJustifiedAlign": "TouchBarTextJustifiedAlign",
+          "Link": "CircleArrowRight",
+          "TouchBarColorPickerWheel": "TouchBarColorPickerFill",
+          "ToolbarClipIndicator": "ToolbarMore",
+          "FunctionBarTextList": "TouchBarTextList",
+          "ToolbarFlexibleSpaceItemPaletteRep": "ToolbarFlexibleSpace",
+          "FunctionBarColorPicker": "TouchBarColorPickerWheel",
+          "FunctionBarGetInfoOutline": "TouchBarGetInfo",
+          "FunctionBarPlay": "TouchBarPlay",
+          "FullScreenExit": "ExitFullScreen",
+          "FunctionBarGrid": "TouchBarGrid",
+          "FunctionBarRewind": "TouchBarRewind",
+          "FunctionBarCall": "TouchBarCommunicationAudio",
+          "SmartBadge": "Action",
+          "MoveSplitterDown": "StatusOffline",
+          "FunctionRowCheck": "TouchBarCheck",
+          "StatusUnavailableFlat": "StatusAwayFlat",
+          "FunctionBarCurrentLocation": "TouchBarCurrentLocation",
+          "ViewCoverFlow": "FlowView",
+          "FunctionBarTextPicturePicker": "TouchBarTextPicturePicker",
+          "FunctionRowTextBold": "TouchBarTextBold",
+          "FunctionRowMute": "TouchBarAudioInputMute",
+          "FunctionBarTextEmojiPicker": "TouchBarTextEmojiPicker",
+          "TouchBarCircleAdd": "TouchBarAddDetail",
+          "FunctionRowAdd": "TouchBarAdd",
+          "FunctionRowHome": "TouchBarHome",
+          "TouchBarTrash": "TouchBarDelete",
+          "TouchBarFavoriteOn": "TouchBarLoveOn",
+          "FunctionRowVideoCall": "TouchBarCommunicationVideo",
+          "ToolbarCustomizeToolbarItemImage": "ToolbarCustomize",
+          "FunctionBarAdd": "TouchBarAdd",
+          "FunctionRowClose": "TouchBarClose",
+          "FunctionBarTextRightAlign": "TouchBarTextRightAlign",
+          "FunctionBarMail": "TouchBarMail",
+          "FunctionBarShare": "TouchBarShare",
+          "FunctionBarTextStrikethrough": "TouchBarTextStrikethrough",
+          "MenuCheckmark": "MenuOnState",
+          "FunctionRowOutlineInfo": "TouchBarOutlineInfo",
+          "FunctionRowTextList": "TouchBarTextList",
+          "FunctionBarPause": "TouchBarPause",
+          "TouchBarLinkSafari": "TouchBarOpenInBrowser",
+          "FunctionBarRecordStop": "TouchBarRecordStop",
+          "NavEjectButton.small.normal": "NavEjectButton.normal",
+          "Reload": "Refresh",
+          "StatusPartiallyAvailableFlat": "StatusIdleFlat",
+          "FunctionRowSend": "TouchBarSend",
+          "FunctionRowWork": "TouchBarWork"
+        },
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "CoreUI",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B67",
+          "CFBundleDevelopmentRegion": "English",
+          "CFBundleVersion": "971.6",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "FMWK",
+          "CFBundleShortVersionString": "2.1",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "CoreUI",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.coreui",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleSignature": "????",
+          "DTPlatformBuild": "25B67"
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "971.6",
+          "CFBundleShortVersionString": "2.1",
+          "ProjectName": "CoreUI",
+          "SourceVersion": "971006000000000",
+          "BuildVersion": "39"
+        },
+        "Versions/A/Resources/DesignLibrary-macOS.bundle/Contents/Info.plist": {
+          "CFBundleName": "DesignLibrary-macOS",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2021 Apple Inc. All rights reserved.",
+          "DTSDKBuild": "25B67",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "971.6",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "BNDL",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "DesignLibrary-macOS",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.coreui.DesignLibrary-macOS",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleSignature": "????",
+          "DTPlatformBuild": "25B67"
+        },
+        "Versions/A/Resources/DesignLibrary-macOS.bundle/Contents/version.plist": {
+          "CFBundleVersion": "971.6",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "CoreUI",
+          "SourceVersion": "971006000000000",
+          "BuildVersion": "39"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
+  },
+  "usage": {
+    "layer": "usage",
+    "used_by": [
+      {
+        "path": "/System/Applications/Music.app",
+        "binary": "/System/Applications/Music.app/Contents/MacOS/Music",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Applications/System Settings.app",
+        "binary": "/System/Applications/System Settings.app/Contents/MacOS/System Settings",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Applications/Calendar.app",
+        "binary": "/System/Applications/Calendar.app/Contents/MacOS/Calendar",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/Dock.app",
+        "binary": "/System/Library/CoreServices/Dock.app/Contents/MacOS/Dock",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/SystemAppearance.bundle",
+        "binary": "/System/Library/CoreServices/SystemAppearance.bundle/Contents/MacOS/SystemAppearance",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/SystemUIServer.app",
+        "binary": "/System/Library/CoreServices/SystemUIServer.app/Contents/MacOS/SystemUIServer",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/WindowManager.app",
+        "binary": "/System/Library/CoreServices/WindowManager.app/Contents/MacOS/WindowManager",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/Finder.app",
+        "binary": "/System/Library/CoreServices/Finder.app/Contents/MacOS/Finder",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/UniversalControl.app",
+        "binary": "/System/Library/CoreServices/UniversalControl.app/Contents/MacOS/UniversalControl",
+        "used_classes": []
+      }
+    ]
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "loaded"
+  }
+}

@@ -1,0 +1,1939 @@
+{
+  "framework": "VideoProcessing.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/VideoProcessing.framework/Versions/A/PlugIns/Codecs/VCPRealtimeEncoder.bundle/Contents/MacOS/VCPRealtimeEncoder",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 0,
+          "binsz": 1907488,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "",
+          "laddr": 0,
+          "lang": "objc with blocks",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": false,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/PrivateFrameworks/IOSurfaceAccelerator.framework/Versions/A/IOSurfaceAccelerator",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics",
+          "/System/Library/PrivateFrameworks/CMCapture.framework/Versions/A/CMCapture",
+          "/System/Library/PrivateFrameworks/AppleCVA.framework/Versions/A/AppleCVA",
+          "/System/Library/PrivateFrameworks/Espresso.framework/Versions/A/Espresso",
+          "/System/Library/PrivateFrameworks/MediaAnalysis.framework/Versions/A/MediaAnalysis",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "/System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia",
+          "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+          "/System/Library/Frameworks/MetalPerformanceShaders.framework/Versions/A/MetalPerformanceShaders",
+          "/System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo",
+          "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+          "/System/Library/Frameworks/IOSurface.framework/Versions/A/IOSurface",
+          "/System/Library/Frameworks/VideoToolbox.framework/Versions/A/VideoToolbox",
+          "/usr/lib/libc++.1.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/usr/lib/libobjc.A.dylib"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "CommonMetal",
+        "addr": 1790896,
+        "lang": "objc",
+        "index": 0,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initOffsets:",
+            "flag": "method.CommonMetal.initOffsets:",
+            "lang": "objc",
+            "addr": 18104
+          },
+          {
+            "name": "compileFunction:constantValues:",
+            "flag": "method.CommonMetal.compileFunction:constantValues:",
+            "lang": "objc",
+            "addr": 17536
+          },
+          {
+            "name": "compileFunction:",
+            "flag": "method.CommonMetal.compileFunction:",
+            "lang": "objc",
+            "addr": 17484
+          },
+          {
+            "name": "getPaddedInterchangeTiledWidth:plane:",
+            "flag": "method.CommonMetal.getPaddedInterchangeTiledWidth:plane:",
+            "lang": "objc",
+            "addr": 17412
+          },
+          {
+            "name": "getPaddedInterchangeTiledHeight:plane:",
+            "flag": "method.CommonMetal.getPaddedInterchangeTiledHeight:plane:",
+            "lang": "objc",
+            "addr": 17340
+          },
+          {
+            "name": "getPaddedInterchangeTiledWidthFromIOSurface:plane:",
+            "flag": "method.CommonMetal.getPaddedInterchangeTiledWidthFromIOSurface:plane:",
+            "lang": "objc",
+            "addr": 17264
+          },
+          {
+            "name": "getPaddedInterchangeTiledHeightFromIOSurface:plane:",
+            "flag": "method.CommonMetal.getPaddedInterchangeTiledHeightFromIOSurface:plane:",
+            "lang": "objc",
+            "addr": 17188
+          },
+          {
+            "name": "unormTexture:forPlane:usingTextureCache:withAttributes:width:height:",
+            "flag": "method.CommonMetal.unormTexture:forPlane:usingTextureCache:withAttributes:width:height:",
+            "lang": "objc",
+            "addr": 16656
+          },
+          {
+            "name": "unormTexture:forPlane:usingTextureCache:withAttributes:",
+            "flag": "method.CommonMetal.unormTexture:forPlane:usingTextureCache:withAttributes:",
+            "lang": "objc",
+            "addr": 16600
+          },
+          {
+            "name": "uintTexture:forPlane:usingTextureCache:withAttributes:width:height:",
+            "flag": "method.CommonMetal.uintTexture:forPlane:usingTextureCache:withAttributes:width:height:",
+            "lang": "objc",
+            "addr": 16180
+          },
+          {
+            "name": "uintTexture:forPlane:usingTextureCache:withAttributes:",
+            "flag": "method.CommonMetal.uintTexture:forPlane:usingTextureCache:withAttributes:",
+            "lang": "objc",
+            "addr": 16124
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.CommonMetal..cxx_destruct",
+            "lang": "objc",
+            "addr": 16044
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_device",
+            "kind": "var",
+            "type": "@\"<MTLDevice>\"",
+            "addr": 1790484
+          },
+          {
+            "name": "_commandQueue",
+            "kind": "var",
+            "type": "@\"<MTLCommandQueue>\"",
+            "addr": 1790492
+          },
+          {
+            "name": "_library",
+            "kind": "var",
+            "type": "@\"<MTLLibrary>\"",
+            "addr": 1790496
+          },
+          {
+            "name": "_offsetsConfigured",
+            "kind": "var",
+            "type": "B",
+            "addr": 1790440
+          },
+          {
+            "name": "_horizontalOffsetLuma",
+            "kind": "var",
+            "type": "I",
+            "addr": 1790468
+          },
+          {
+            "name": "_horizontalOffsetChroma",
+            "kind": "var",
+            "type": "I",
+            "addr": 1790476
+          },
+          {
+            "name": "_verticalOffsetLuma",
+            "kind": "var",
+            "type": "I",
+            "addr": 1790472
+          },
+          {
+            "name": "_verticalOffsetChroma",
+            "kind": "var",
+            "type": "I",
+            "addr": 1790480
+          }
+        ]
+      },
+      {
+        "classname": "TilingBlitMetal",
+        "addr": 1790816,
+        "lang": "objc",
+        "index": 1,
+        "super": [
+          "CommonMetal",
+          "CommonMetal"
+        ],
+        "rawsuper": [
+          "CommonMetal",
+          "CommonMetal"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.TilingBlitMetal.init",
+            "lang": "objc",
+            "addr": 22500
+          },
+          {
+            "name": "initWithDevice:codecType:",
+            "flag": "method.TilingBlitMetal.initWithDevice:codecType:",
+            "lang": "objc",
+            "addr": 21112
+          },
+          {
+            "name": "compileFunction:",
+            "flag": "method.TilingBlitMetal.compileFunction:",
+            "lang": "objc",
+            "addr": 20868
+          },
+          {
+            "name": "detileTiledFrame:intoLinearFrame:codecType:useOffsets:",
+            "flag": "method.TilingBlitMetal.detileTiledFrame:intoLinearFrame:codecType:useOffsets:",
+            "lang": "objc",
+            "addr": 19020
+          },
+          {
+            "name": "tileLinearFrame:intoTiledFrame:codecType:useOffsets:",
+            "flag": "method.TilingBlitMetal.tileLinearFrame:intoTiledFrame:codecType:useOffsets:",
+            "lang": "objc",
+            "addr": 18660
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.TilingBlitMetal..cxx_destruct",
+            "lang": "objc",
+            "addr": 18380
+          },
+          {
+            "name": ".cxx_construct",
+            "flag": "method.TilingBlitMetal..cxx_construct",
+            "lang": "objc",
+            "addr": 18328
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_detileLumaPipeline",
+            "kind": "var",
+            "type": "@\"<MTLComputePipelineState>\"",
+            "addr": 1790424
+          },
+          {
+            "name": "_detileChromaPipeline",
+            "kind": "var",
+            "type": "@\"<MTLComputePipelineState>\"",
+            "addr": 1790428
+          },
+          {
+            "name": "_tileLumaPipeline",
+            "kind": "var",
+            "type": "@\"<MTLComputePipelineState>\"",
+            "addr": 1790432
+          },
+          {
+            "name": "_tileChromaPipeline",
+            "kind": "var",
+            "type": "@\"<MTLComputePipelineState>\"",
+            "addr": 1790436
+          },
+          {
+            "name": "_textureCacheSrcLuma",
+            "kind": "var",
+            "type": "{CF<__CVMetalTextureCache *>=\"value_\"^{__CVMetalTextureCache}}",
+            "addr": 1790452
+          },
+          {
+            "name": "_textureCacheSrcChroma",
+            "kind": "var",
+            "type": "{CF<__CVMetalTextureCache *>=\"value_\"^{__CVMetalTextureCache}}",
+            "addr": 1790456
+          },
+          {
+            "name": "_textureCacheDstLuma",
+            "kind": "var",
+            "type": "{CF<__CVMetalTextureCache *>=\"value_\"^{__CVMetalTextureCache}}",
+            "addr": 1790460
+          },
+          {
+            "name": "_textureCacheDstChroma",
+            "kind": "var",
+            "type": "{CF<__CVMetalTextureCache *>=\"value_\"^{__CVMetalTextureCache}}",
+            "addr": 1790464
+          },
+          {
+            "name": "_readAttributes",
+            "kind": "var",
+            "type": "@\"NSDictionary\"",
+            "addr": 1790444
+          },
+          {
+            "name": "_writeAttributes",
+            "kind": "var",
+            "type": "@\"NSDictionary\"",
+            "addr": 1790448
+          }
+        ]
+      },
+      {
+        "classname": "ScaleMetal",
+        "addr": 1790936,
+        "lang": "objc",
+        "index": 2,
+        "super": [
+          "CommonMetal",
+          "CommonMetal"
+        ],
+        "rawsuper": [
+          "CommonMetal",
+          "CommonMetal"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.ScaleMetal.init",
+            "lang": "objc",
+            "addr": 28672
+          },
+          {
+            "name": "initWithDevice:",
+            "flag": "method.ScaleMetal.initWithDevice:",
+            "lang": "objc",
+            "addr": 27492
+          },
+          {
+            "name": "scaleFrame:dstFrame:srcRegion:dstRegion:scaleMethod:",
+            "flag": "method.ScaleMetal.scaleFrame:dstFrame:srcRegion:dstRegion:scaleMethod:",
+            "lang": "objc",
+            "addr": 26612
+          },
+          {
+            "name": "CompileBilinearScaler:withOffsetSupport:",
+            "flag": "method.ScaleMetal.CompileBilinearScaler:withOffsetSupport:",
+            "lang": "objc",
+            "addr": 26244
+          },
+          {
+            "name": "scaleFrameBilinear:dstFrame:srcRegion:dstRegion:",
+            "flag": "method.ScaleMetal.scaleFrameBilinear:dstFrame:srcRegion:dstRegion:",
+            "lang": "objc",
+            "addr": 25092
+          },
+          {
+            "name": "scaleFrameBilinear_WithOffsetSupport:dstFrame:srcRegion:dstRegion:lumaOffsets:chromaOffsets:",
+            "flag": "method.ScaleMetal.scaleFrameBilinear_WithOffsetSupport:dstFrame:srcRegion:dstRegion:lumaOffsets:chromaOffsets:",
+            "lang": "objc",
+            "addr": 22960
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.ScaleMetal..cxx_destruct",
+            "lang": "objc",
+            "addr": 22784
+          },
+          {
+            "name": ".cxx_construct",
+            "flag": "method.ScaleMetal..cxx_construct",
+            "lang": "objc",
+            "addr": 22756
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_bilinearKernel",
+            "kind": "var",
+            "type": "@\"MPSImageBilinearScale\"",
+            "addr": 1790516
+          },
+          {
+            "name": "_lanczosKernel",
+            "kind": "var",
+            "type": "@\"MPSImageLanczosScale\"",
+            "addr": 1790520
+          },
+          {
+            "name": "_bilinearScale",
+            "kind": "var",
+            "type": "@\"<MTLComputePipelineState>\"",
+            "addr": 1790488
+          },
+          {
+            "name": "_supportsNonuniformThreadgroups",
+            "kind": "var",
+            "type": "B",
+            "addr": 1790524
+          },
+          {
+            "name": "_textureCacheLuma",
+            "kind": "var",
+            "type": "{CF<__CVMetalTextureCache *>=\"value_\"^{__CVMetalTextureCache}}",
+            "addr": 1790508
+          },
+          {
+            "name": "_textureCacheChroma",
+            "kind": "var",
+            "type": "{CF<__CVMetalTextureCache *>=\"value_\"^{__CVMetalTextureCache}}",
+            "addr": 1790512
+          },
+          {
+            "name": "_readAttributes",
+            "kind": "var",
+            "type": "@\"NSDictionary\"",
+            "addr": 1790500
+          },
+          {
+            "name": "_writeAttributes",
+            "kind": "var",
+            "type": "@\"NSDictionary\"",
+            "addr": 1790504
+          }
+        ]
+      },
+      {
+        "classname": "FrameChecksumMetal",
+        "addr": 1791056,
+        "lang": "objc",
+        "index": 3,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.FrameChecksumMetal.init",
+            "lang": "objc",
+            "addr": 34320
+          },
+          {
+            "name": "initOffsets:",
+            "flag": "method.FrameChecksumMetal.initOffsets:",
+            "lang": "objc",
+            "addr": 34216
+          },
+          {
+            "name": "initWithDevice:codecType:",
+            "flag": "method.FrameChecksumMetal.initWithDevice:codecType:",
+            "lang": "objc",
+            "addr": 32960
+          },
+          {
+            "name": "compileFunction:constantValues:",
+            "flag": "method.FrameChecksumMetal.compileFunction:constantValues:",
+            "lang": "objc",
+            "addr": 32392
+          },
+          {
+            "name": "compileFunction:",
+            "flag": "method.FrameChecksumMetal.compileFunction:",
+            "lang": "objc",
+            "addr": 32088
+          },
+          {
+            "name": "unormTexture:forPlane:withAttributes:width:height:",
+            "flag": "method.FrameChecksumMetal.unormTexture:forPlane:withAttributes:width:height:",
+            "lang": "objc",
+            "addr": 31540
+          },
+          {
+            "name": "uintTexture:forPlane:withAttributes:width:height:",
+            "flag": "method.FrameChecksumMetal.uintTexture:forPlane:withAttributes:width:height:",
+            "lang": "objc",
+            "addr": 31176
+          },
+          {
+            "name": "calculateChecksumOneFrame:checksum:codecType:useOffsets:",
+            "flag": "method.FrameChecksumMetal.calculateChecksumOneFrame:checksum:codecType:useOffsets:",
+            "lang": "objc",
+            "addr": 29504
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.FrameChecksumMetal..cxx_destruct",
+            "lang": "objc",
+            "addr": 29360
+          },
+          {
+            "name": ".cxx_construct",
+            "flag": "method.FrameChecksumMetal..cxx_construct",
+            "lang": "objc",
+            "addr": 29352
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_device",
+            "kind": "var",
+            "type": "@\"<MTLDevice>\"",
+            "addr": 1790528
+          },
+          {
+            "name": "_commandQueue",
+            "kind": "var",
+            "type": "@\"<MTLCommandQueue>\"",
+            "addr": 1790532
+          },
+          {
+            "name": "_library",
+            "kind": "var",
+            "type": "@\"<MTLLibrary>\"",
+            "addr": 1790536
+          },
+          {
+            "name": "_calcChecksumTexture",
+            "kind": "var",
+            "type": "@\"<MTLComputePipelineState>\"",
+            "addr": 1790540
+          },
+          {
+            "name": "_offsetsConfigured",
+            "kind": "var",
+            "type": "B",
+            "addr": 1790544
+          },
+          {
+            "name": "_horizontalOffsetLuma",
+            "kind": "var",
+            "type": "I",
+            "addr": 1790548
+          },
+          {
+            "name": "_horizontalOffsetChroma",
+            "kind": "var",
+            "type": "I",
+            "addr": 1790552
+          },
+          {
+            "name": "_verticalOffsetLuma",
+            "kind": "var",
+            "type": "I",
+            "addr": 1790556
+          },
+          {
+            "name": "_verticalOffsetChroma",
+            "kind": "var",
+            "type": "I",
+            "addr": 1790560
+          },
+          {
+            "name": "_startRow",
+            "kind": "var",
+            "type": "I",
+            "addr": 1790564
+          },
+          {
+            "name": "_verticalStepsLuma",
+            "kind": "var",
+            "type": "I",
+            "addr": 1790568
+          },
+          {
+            "name": "_verticalStepsChroma",
+            "kind": "var",
+            "type": "I",
+            "addr": 1790572
+          },
+          {
+            "name": "_textureCacheLuma",
+            "kind": "var",
+            "type": "{CF<__CVMetalTextureCache *>=\"value_\"^{__CVMetalTextureCache}}",
+            "addr": 1790576
+          },
+          {
+            "name": "_textureCacheChroma",
+            "kind": "var",
+            "type": "{CF<__CVMetalTextureCache *>=\"value_\"^{__CVMetalTextureCache}}",
+            "addr": 1790580
+          },
+          {
+            "name": "_checksum",
+            "kind": "var",
+            "type": "[2@\"<MTLBuffer>\"]",
+            "addr": 1790584
+          },
+          {
+            "name": "_readAttributes",
+            "kind": "var",
+            "type": "@\"NSDictionary\"",
+            "addr": 1790588
+          },
+          {
+            "name": "_deviceGeneration",
+            "kind": "var",
+            "type": "i",
+            "addr": 1790592
+          },
+          {
+            "name": "_H13P_H17P_UnormWorkaroundRequired",
+            "kind": "var",
+            "type": "B",
+            "addr": 1790596
+          }
+        ]
+      },
+      {
+        "classname": "DeblockMetalLRP",
+        "addr": 1791136,
+        "lang": "objc",
+        "index": 4,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.DeblockMetalLRP.init",
+            "lang": "objc",
+            "addr": 42144
+          },
+          {
+            "name": "initPixelBufferPool:",
+            "flag": "method.DeblockMetalLRP.initPixelBufferPool:",
+            "lang": "objc",
+            "addr": 40368
+          },
+          {
+            "name": "initWithDevice:",
+            "flag": "method.DeblockMetalLRP.initWithDevice:",
+            "lang": "objc",
+            "addr": 39128
+          },
+          {
+            "name": "compileFunction:constantValues:",
+            "flag": "method.DeblockMetalLRP.compileFunction:constantValues:",
+            "lang": "objc",
+            "addr": 38560
+          },
+          {
+            "name": "compileDeblockFilters",
+            "flag": "method.DeblockMetalLRP.compileDeblockFilters",
+            "lang": "objc",
+            "addr": 38212
+          },
+          {
+            "name": "deblockFrame:withQP:preserveOffset:needDecompress:",
+            "flag": "method.DeblockMetalLRP.deblockFrame:withQP:preserveOffset:needDecompress:",
+            "lang": "objc",
+            "addr": 36404
+          },
+          {
+            "name": "validateDeblock:withQP:preserveOffset:",
+            "flag": "method.DeblockMetalLRP.validateDeblock:withQP:preserveOffset:",
+            "lang": "objc",
+            "addr": 34772
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.DeblockMetalLRP..cxx_destruct",
+            "lang": "objc",
+            "addr": 34580
+          },
+          {
+            "name": ".cxx_construct",
+            "flag": "method.DeblockMetalLRP..cxx_construct",
+            "lang": "objc",
+            "addr": 34568
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_device",
+            "kind": "var",
+            "type": "@\"<MTLDevice>\"",
+            "addr": 1790600
+          },
+          {
+            "name": "_commandQueue",
+            "kind": "var",
+            "type": "@\"<MTLCommandQueue>\"",
+            "addr": 1790604
+          },
+          {
+            "name": "_library",
+            "kind": "var",
+            "type": "@\"<MTLLibrary>\"",
+            "addr": 1790608
+          },
+          {
+            "name": "_inloopDeblockV",
+            "kind": "var",
+            "type": "@\"<MTLComputePipelineState>\"",
+            "addr": 1790612
+          },
+          {
+            "name": "_inloopDeblockH",
+            "kind": "var",
+            "type": "@\"<MTLComputePipelineState>\"",
+            "addr": 1790616
+          },
+          {
+            "name": "_horizontalOffset",
+            "kind": "var",
+            "type": "I",
+            "addr": 1790620
+          },
+          {
+            "name": "_verticalOffset",
+            "kind": "var",
+            "type": "I",
+            "addr": 1790624
+          },
+          {
+            "name": "_gpuHasCompressedRMWSupport",
+            "kind": "var",
+            "type": "B",
+            "addr": 1790628
+          },
+          {
+            "name": "_bufPool",
+            "kind": "var",
+            "type": "{CF<__CVPixelBufferPool *>=\"value_\"^{__CVPixelBufferPool}}",
+            "addr": 1790632
+          },
+          {
+            "name": "_textureCacheChromaIn",
+            "kind": "var",
+            "type": "{CF<__CVMetalTextureCache *>=\"value_\"^{__CVMetalTextureCache}}",
+            "addr": 1790636
+          },
+          {
+            "name": "_textureCacheChromaOutV",
+            "kind": "var",
+            "type": "{CF<__CVMetalTextureCache *>=\"value_\"^{__CVMetalTextureCache}}",
+            "addr": 1790640
+          },
+          {
+            "name": "_readWriteAttributes",
+            "kind": "var",
+            "type": "@\"NSDictionary\"",
+            "addr": 1790644
+          }
+        ]
+      },
+      {
+        "classname": "BufferFillMetal",
+        "addr": 1791216,
+        "lang": "objc",
+        "index": 5,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.BufferFillMetal.init",
+            "lang": "objc",
+            "addr": 47784
+          },
+          {
+            "name": "initWithDevice:",
+            "flag": "method.BufferFillMetal.initWithDevice:",
+            "lang": "objc",
+            "addr": 46604
+          },
+          {
+            "name": "compileFunction:constantValues:",
+            "flag": "method.BufferFillMetal.compileFunction:constantValues:",
+            "lang": "objc",
+            "addr": 46036
+          },
+          {
+            "name": "compileFunction:",
+            "flag": "method.BufferFillMetal.compileFunction:",
+            "lang": "objc",
+            "addr": 45984
+          },
+          {
+            "name": "unormTexture:forPlane:withAttributes:width:height:",
+            "flag": "method.BufferFillMetal.unormTexture:forPlane:withAttributes:width:height:",
+            "lang": "objc",
+            "addr": 45436
+          },
+          {
+            "name": "CompileBufferFill",
+            "flag": "method.BufferFillMetal.CompileBufferFill",
+            "lang": "objc",
+            "addr": 44976
+          },
+          {
+            "name": "FillBoundaryOrExtendEdges:padSize:fillValues:",
+            "flag": "method.BufferFillMetal.FillBoundaryOrExtendEdges:padSize:fillValues:",
+            "lang": "objc",
+            "addr": 43580
+          },
+          {
+            "name": "FillBoundary:padSize:fillValues:",
+            "flag": "method.BufferFillMetal.FillBoundary:padSize:fillValues:",
+            "lang": "objc",
+            "addr": 43544
+          },
+          {
+            "name": "ExtendEdges:padSize:",
+            "flag": "method.BufferFillMetal.ExtendEdges:padSize:",
+            "lang": "objc",
+            "addr": 43452
+          },
+          {
+            "name": "PreFill:values:clearFullAllocation:",
+            "flag": "method.BufferFillMetal.PreFill:values:clearFullAllocation:",
+            "lang": "objc",
+            "addr": 42588
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.BufferFillMetal..cxx_destruct",
+            "lang": "objc",
+            "addr": 42396
+          },
+          {
+            "name": ".cxx_construct",
+            "flag": "method.BufferFillMetal..cxx_construct",
+            "lang": "objc",
+            "addr": 42388
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_device",
+            "kind": "var",
+            "type": "@\"<MTLDevice>\"",
+            "addr": 1790648
+          },
+          {
+            "name": "_commandQueue",
+            "kind": "var",
+            "type": "@\"<MTLCommandQueue>\"",
+            "addr": 1790652
+          },
+          {
+            "name": "_library",
+            "kind": "var",
+            "type": "@\"<MTLLibrary>\"",
+            "addr": 1790656
+          },
+          {
+            "name": "_fillBoundaryLeftRightLuma",
+            "kind": "var",
+            "type": "@\"<MTLComputePipelineState>\"",
+            "addr": 1790660
+          },
+          {
+            "name": "_fillBoundaryLeftRightChroma",
+            "kind": "var",
+            "type": "@\"<MTLComputePipelineState>\"",
+            "addr": 1790664
+          },
+          {
+            "name": "_fillBoundaryTopBottomCornersLuma",
+            "kind": "var",
+            "type": "@\"<MTLComputePipelineState>\"",
+            "addr": 1790668
+          },
+          {
+            "name": "_fillBoundaryTopBottomCornersChroma",
+            "kind": "var",
+            "type": "@\"<MTLComputePipelineState>\"",
+            "addr": 1790672
+          },
+          {
+            "name": "_preFillLuma",
+            "kind": "var",
+            "type": "@\"<MTLComputePipelineState>\"",
+            "addr": 1790676
+          },
+          {
+            "name": "_preFillChroma",
+            "kind": "var",
+            "type": "@\"<MTLComputePipelineState>\"",
+            "addr": 1790680
+          },
+          {
+            "name": "_supportsNonuniformThreadgroups",
+            "kind": "var",
+            "type": "B",
+            "addr": 1790684
+          },
+          {
+            "name": "_textureCacheLuma",
+            "kind": "var",
+            "type": "{CF<__CVMetalTextureCache *>=\"value_\"^{__CVMetalTextureCache}}",
+            "addr": 1790688
+          },
+          {
+            "name": "_textureCacheChroma",
+            "kind": "var",
+            "type": "{CF<__CVMetalTextureCache *>=\"value_\"^{__CVMetalTextureCache}}",
+            "addr": 1790692
+          },
+          {
+            "name": "_readWriteAttributes",
+            "kind": "var",
+            "type": "@\"NSDictionary\"",
+            "addr": 1790696
+          },
+          {
+            "name": "_writeAttributes",
+            "kind": "var",
+            "type": "@\"NSDictionary\"",
+            "addr": 1790700
+          }
+        ]
+      },
+      {
+        "classname": "SpatialAnalysisMetal",
+        "addr": 1791296,
+        "lang": "objc",
+        "index": 6,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.SpatialAnalysisMetal.init",
+            "lang": "objc",
+            "addr": 56516
+          },
+          {
+            "name": "initWithDevice:",
+            "flag": "method.SpatialAnalysisMetal.initWithDevice:",
+            "lang": "objc",
+            "addr": 55004
+          },
+          {
+            "name": "compileFunction:constantValues:",
+            "flag": "method.SpatialAnalysisMetal.compileFunction:constantValues:",
+            "lang": "objc",
+            "addr": 54436
+          },
+          {
+            "name": "compileFunction:",
+            "flag": "method.SpatialAnalysisMetal.compileFunction:",
+            "lang": "objc",
+            "addr": 54384
+          },
+          {
+            "name": "unormTexture:forPlane:withAttributes:",
+            "flag": "method.SpatialAnalysisMetal.unormTexture:forPlane:withAttributes:",
+            "lang": "objc",
+            "addr": 53844
+          },
+          {
+            "name": "rgbaUintTextureForLuma:withAttributes:",
+            "flag": "method.SpatialAnalysisMetal.rgbaUintTextureForLuma:withAttributes:",
+            "lang": "objc",
+            "addr": 53544
+          },
+          {
+            "name": "CompileSpatialAnalysis:",
+            "flag": "method.SpatialAnalysisMetal.CompileSpatialAnalysis:",
+            "lang": "objc",
+            "addr": 53156
+          },
+          {
+            "name": "SpatialSumSadVar:sumBlockArray:sadBlockArray:sumUnitArray:sumSquareUnitArray:sumTotal:sadTotal:variance:forRegion:blockStride:unitStride:method:log2UnitSize:calcVar:",
+            "flag": "method.SpatialAnalysisMetal.SpatialSumSadVar:sumBlockArray:sadBlockArray:sumUnitArray:sumSquareUnitArray:sumTotal:sadTotal:variance:forRegion:blockStride:unitStride:method:log2UnitSize:calcVar:",
+            "lang": "objc",
+            "addr": 49492
+          },
+          {
+            "name": "SpatialDistance:prevFrame:distBlockArray:forRegion:blockStride:log2UnitSize:startLine:lineStep:method:",
+            "flag": "method.SpatialAnalysisMetal.SpatialDistance:prevFrame:distBlockArray:forRegion:blockStride:log2UnitSize:startLine:lineStep:method:",
+            "lang": "objc",
+            "addr": 48396
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.SpatialAnalysisMetal..cxx_destruct",
+            "lang": "objc",
+            "addr": 48176
+          },
+          {
+            "name": ".cxx_construct",
+            "flag": "method.SpatialAnalysisMetal..cxx_construct",
+            "lang": "objc",
+            "addr": 48136
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_device",
+            "kind": "var",
+            "type": "@\"<MTLDevice>\"",
+            "addr": 1790704
+          },
+          {
+            "name": "_commandQueue",
+            "kind": "var",
+            "type": "@\"<MTLCommandQueue>\"",
+            "addr": 1790708
+          },
+          {
+            "name": "_library",
+            "kind": "var",
+            "type": "@\"<MTLLibrary>\"",
+            "addr": 1790712
+          },
+          {
+            "name": "_spatialAnalysisSumSad",
+            "kind": "var",
+            "type": "@\"<MTLComputePipelineState>\"",
+            "addr": 1790716
+          },
+          {
+            "name": "_spatialAnalysisVariance",
+            "kind": "var",
+            "type": "@\"<MTLComputePipelineState>\"",
+            "addr": 1790720
+          },
+          {
+            "name": "_spatialAnalysisDistance",
+            "kind": "var",
+            "type": "@\"<MTLComputePipelineState>\"",
+            "addr": 1790724
+          },
+          {
+            "name": "_supportsSIMDPermute",
+            "kind": "var",
+            "type": "B",
+            "addr": 1790728
+          },
+          {
+            "name": "_supportsQuadPermute",
+            "kind": "var",
+            "type": "B",
+            "addr": 1790732
+          },
+          {
+            "name": "_sumBufferPool",
+            "kind": "var",
+            "type": "{MetalBufferPool=\"pool_\"@\"NSMutableArray\"\"device_\"@\"<MTLDevice>\"\"allocSize_\"Q\"storageMode_\"Q}",
+            "addr": 1790736
+          },
+          {
+            "name": "_sadBufferPool",
+            "kind": "var",
+            "type": "{MetalBufferPool=\"pool_\"@\"NSMutableArray\"\"device_\"@\"<MTLDevice>\"\"allocSize_\"Q\"storageMode_\"Q}",
+            "addr": 1790740
+          },
+          {
+            "name": "_sumVarBufferPool",
+            "kind": "var",
+            "type": "{MetalBufferPool=\"pool_\"@\"NSMutableArray\"\"device_\"@\"<MTLDevice>\"\"allocSize_\"Q\"storageMode_\"Q}",
+            "addr": 1790744
+          },
+          {
+            "name": "_textureCacheLuma",
+            "kind": "var",
+            "type": "{CF<__CVMetalTextureCache *>=\"value_\"^{__CVMetalTextureCache}}",
+            "addr": 1790748
+          },
+          {
+            "name": "_textureCacheChroma",
+            "kind": "var",
+            "type": "{CF<__CVMetalTextureCache *>=\"value_\"^{__CVMetalTextureCache}}",
+            "addr": 1790752
+          },
+          {
+            "name": "_textureCacheRGBALuma",
+            "kind": "var",
+            "type": "{CF<__CVMetalTextureCache *>=\"value_\"^{__CVMetalTextureCache}}",
+            "addr": 1790756
+          },
+          {
+            "name": "_textureCacheRGBAChroma",
+            "kind": "var",
+            "type": "{CF<__CVMetalTextureCache *>=\"value_\"^{__CVMetalTextureCache}}",
+            "addr": 1790760
+          },
+          {
+            "name": "_readAttributes",
+            "kind": "var",
+            "type": "@\"NSDictionary\"",
+            "addr": 1790764
+          },
+          {
+            "name": "_writeAttributes",
+            "kind": "var",
+            "type": "@\"NSDictionary\"",
+            "addr": 1790768
+          }
+        ]
+      },
+      {
+        "classname": "std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >",
+        "addr": 0,
+        "lang": "c++",
+        "index": 7,
+        "methods": [
+          {
+            "name": "compare(char const*) const",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char___.compare_char_const__const",
+            "rawname": "_ZNKSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE7compareEPKc",
+            "lang": "c++",
+            "addr": 1754648
+          },
+          {
+            "name": "erase(unsigned long, unsigned long)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char___.erase_unsigned_long__unsigned_long_",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5eraseEmm",
+            "lang": "c++",
+            "addr": 1754704
+          },
+          {
+            "name": "append(char const*)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char___.append_char_const_",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKc",
+            "lang": "c++",
+            "addr": 1754712
+          },
+          {
+            "name": "append(char const*, unsigned long)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char___.append_char_const__unsigned_long_",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKcm",
+            "lang": "c++",
+            "addr": 1754720
+          },
+          {
+            "name": "push_back(char)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char___.push_back_char_",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE9push_backEc",
+            "lang": "c++",
+            "addr": 1754728
+          },
+          {
+            "name": "basic_string(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, unsigned long, unsigned long, std::__1::allocator<char> const&)",
+            "flag": "std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >::basic_string(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, unsigned long, unsigned long, std::__1::allocator<char> const&)",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2ERKS5_mmRKS4_",
+            "lang": "c++",
+            "addr": 1754736
+          },
+          {
+            "name": "basic_string(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, unsigned long, unsigned long, std::__1::allocator<char> const&)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char___.basic_string_std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const__unsigned_long__unsigned_long__std::__1::allocator_char__const_",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2ERKS5_mmRKS4_",
+            "lang": "c++",
+            "addr": 1562872
+          },
+          {
+            "name": "basic_string(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, unsigned long, unsigned long, std::__1::allocator<char> const&)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char___.basic_string_std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const__unsigned_long__unsigned_long__std::__1::allocator_char__const_",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2ERKS5_mmRKS4_",
+            "lang": "c++",
+            "addr": 1562872
+          },
+          {
+            "name": "basic_string(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, unsigned long, unsigned long, std::__1::allocator<char> const&)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char___.basic_string_std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const__unsigned_long__unsigned_long__std::__1::allocator_char__const_",
+            "rawname": "_ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2ERKS5_mmRKS4_",
+            "lang": "c++",
+            "addr": 1562872
+          }
+        ]
+      },
+      {
+        "classname": "std::logic_error",
+        "addr": 0,
+        "lang": "c++",
+        "index": 8,
+        "methods": [
+          {
+            "name": "logic_error(char const*)",
+            "flag": "method.std::logic_error.logic_error_char_const_",
+            "rawname": "_ZNSt11logic_errorC2EPKc",
+            "lang": "c++",
+            "addr": 1754656
+          },
+          {
+            "name": "logic_error(std::logic_error const&)",
+            "flag": "method.std::logic_error.logic_error_std::logic_error_const_",
+            "rawname": "_ZNSt11logic_errorC2ERKS_",
+            "lang": "c++",
+            "addr": 1754664
+          }
+        ]
+      },
+      {
+        "classname": "std::exception_ptr",
+        "addr": 0,
+        "lang": "c++",
+        "index": 9,
+        "methods": [
+          {
+            "name": "exception_ptr(std::exception_ptr const&)",
+            "flag": "method.std::exception_ptr.exception_ptr_std::exception_ptr_const_",
+            "rawname": "_ZNSt13exception_ptrC1ERKS_",
+            "lang": "c++",
+            "addr": 1754672
+          },
+          {
+            "name": "~exception_ptr()",
+            "flag": "method.std::exception_ptr._exception_ptr__",
+            "rawname": "_ZNSt13exception_ptrD1Ev",
+            "lang": "c++",
+            "addr": 1754680
+          }
+        ]
+      },
+      {
+        "classname": "std::bad_array_new_length",
+        "addr": 0,
+        "lang": "c++",
+        "index": 10,
+        "methods": [
+          {
+            "name": "bad_array_new_length()",
+            "flag": "method.std::bad_array_new_length.bad_array_new_length__",
+            "rawname": "_ZNSt20bad_array_new_lengthC1Ev",
+            "lang": "c++",
+            "addr": 1754688
+          },
+          {
+            "name": "~bad_array_new_length()",
+            "flag": "method.std::bad_array_new_length._bad_array_new_length__",
+            "rawname": "_ZNSt20bad_array_new_lengthD1Ev",
+            "lang": "c++",
+            "addr": 1758680
+          }
+        ]
+      },
+      {
+        "classname": "std::__1",
+        "addr": 0,
+        "lang": "c++",
+        "index": 11,
+        "methods": [
+          {
+            "name": "__call_once(unsigned long volatile&, void*, void (*)(void*))",
+            "flag": "method.std::__1.__call_once_unsigned_long_volatile__void__void____void__",
+            "rawname": "_ZNSt3__111__call_onceERVmPvPFvS2_E",
+            "lang": "c++",
+            "addr": 1754696
+          },
+          {
+            "name": "future_category()",
+            "flag": "method.std::__1.future_category__",
+            "rawname": "_ZNSt3__115future_categoryEv",
+            "lang": "c++",
+            "addr": 1754768
+          },
+          {
+            "name": "to_string(int)",
+            "flag": "method.std::__1.to_string_int_",
+            "rawname": "_ZNSt3__19to_stringEi",
+            "lang": "c++",
+            "addr": 1754872
+          }
+        ]
+      },
+      {
+        "classname": "std::__1::future_error",
+        "addr": 0,
+        "lang": "c++",
+        "index": 12,
+        "methods": [
+          {
+            "name": "future_error(std::__1::error_code)",
+            "flag": "method.std::__1::future_error.future_error_std::__1::error_code_",
+            "rawname": "_ZNSt3__112future_errorC1ENS_10error_codeE",
+            "lang": "c++",
+            "addr": 1754744
+          },
+          {
+            "name": "~future_error()",
+            "flag": "method.std::__1::future_error._future_error__",
+            "rawname": "_ZNSt3__112future_errorD1Ev",
+            "lang": "c++",
+            "addr": 1754752
+          }
+        ]
+      },
+      {
+        "classname": "std::__1::__shared_count",
+        "addr": 0,
+        "lang": "c++",
+        "index": 13,
+        "methods": [
+          {
+            "name": "~__shared_count()",
+            "flag": "method.std::__1::__shared_count.___shared_count__",
+            "rawname": "_ZNSt3__114__shared_countD2Ev",
+            "lang": "c++",
+            "addr": 1754760
+          }
+        ]
+      },
+      {
+        "classname": "std::__1::__assoc_sub_state",
+        "addr": 0,
+        "lang": "c++",
+        "index": 14,
+        "methods": [
+          {
+            "name": "__sub_wait(std::__1::unique_lock<std::__1::mutex>&)",
+            "flag": "method.std::__1::__assoc_sub_state.__sub_wait_std::__1::unique_lock_std::__1::mutex__",
+            "rawname": "_ZNSt3__117__assoc_sub_state10__sub_waitERNS_11unique_lockINS_5mutexEEE",
+            "lang": "c++",
+            "addr": 1754776
+          },
+          {
+            "name": "set_exception(std::exception_ptr)",
+            "flag": "method.std::__1::__assoc_sub_state.set_exception_std::exception_ptr_",
+            "rawname": "_ZNSt3__117__assoc_sub_state13set_exceptionESt13exception_ptr",
+            "lang": "c++",
+            "addr": 1754784
+          },
+          {
+            "name": "__execute()",
+            "flag": "method.std::__1::__assoc_sub_state.__execute__",
+            "rawname": "_ZNSt3__117__assoc_sub_state9__executeEv",
+            "lang": "c++",
+            "addr": 1767528
+          }
+        ]
+      },
+      {
+        "classname": "std::__1::condition_variable",
+        "addr": 0,
+        "lang": "c++",
+        "index": 15,
+        "methods": [
+          {
+            "name": "notify_all()",
+            "flag": "method.std::__1::condition_variable.notify_all__",
+            "rawname": "_ZNSt3__118condition_variable10notify_allEv",
+            "lang": "c++",
+            "addr": 1754792
+          },
+          {
+            "name": "wait(std::__1::unique_lock<std::__1::mutex>&)",
+            "flag": "method.std::__1::condition_variable.wait_std::__1::unique_lock_std::__1::mutex__",
+            "rawname": "_ZNSt3__118condition_variable4waitERNS_11unique_lockINS_5mutexEEE",
+            "lang": "c++",
+            "addr": 1754800
+          },
+          {
+            "name": "~condition_variable()",
+            "flag": "method.std::__1::condition_variable._condition_variable__",
+            "rawname": "_ZNSt3__118condition_variableD1Ev",
+            "lang": "c++",
+            "addr": 1754808
+          }
+        ]
+      },
+      {
+        "classname": "std::__1::__shared_weak_count",
+        "addr": 0,
+        "lang": "c++",
+        "index": 16,
+        "methods": [
+          {
+            "name": "__release_weak()",
+            "flag": "method.std::__1::__shared_weak_count.__release_weak__",
+            "rawname": "_ZNSt3__119__shared_weak_count14__release_weakEv",
+            "lang": "c++",
+            "addr": 1754816
+          },
+          {
+            "name": "lock()",
+            "flag": "method.std::__1::__shared_weak_count.lock__",
+            "rawname": "_ZNSt3__119__shared_weak_count4lockEv",
+            "lang": "c++",
+            "addr": 1754824
+          },
+          {
+            "name": "~__shared_weak_count()",
+            "flag": "method.std::__1::__shared_weak_count.___shared_weak_count__",
+            "rawname": "_ZNSt3__119__shared_weak_countD2Ev",
+            "lang": "c++",
+            "addr": 1754832
+          },
+          {
+            "name": "__get_deleter(std::type_info const&) const",
+            "flag": "method.std::__1::__shared_weak_count.__get_deleter_std::type_info_const__const",
+            "rawname": "_ZNKSt3__119__shared_weak_count13__get_deleterERKSt9type_info",
+            "lang": "c++",
+            "addr": 1762600
+          }
+        ]
+      },
+      {
+        "classname": "std::__1::mutex",
+        "addr": 0,
+        "lang": "c++",
+        "index": 17,
+        "methods": [
+          {
+            "name": "lock()",
+            "flag": "method.std::__1::mutex.lock__",
+            "rawname": "_ZNSt3__15mutex4lockEv",
+            "lang": "c++",
+            "addr": 1754840
+          },
+          {
+            "name": "unlock()",
+            "flag": "method.std::__1::mutex.unlock__",
+            "rawname": "_ZNSt3__15mutex6unlockEv",
+            "lang": "c++",
+            "addr": 1754848
+          },
+          {
+            "name": "~mutex()",
+            "flag": "method.std::__1::mutex._mutex__",
+            "rawname": "_ZNSt3__15mutexD1Ev",
+            "lang": "c++",
+            "addr": 1754856
+          }
+        ]
+      },
+      {
+        "classname": "void std::__1::__sort<std::__1",
+        "addr": 0,
+        "lang": "c++",
+        "index": 18,
+        "methods": [
+          {
+            "name": "__less<int, int>&, int*>(int*, int*, std::__1::__less<int, int>&)",
+            "flag": "method.void_std::__1::__sort_std::__1.__less_int__int___int__int__int__std::__1::__less_int__int__",
+            "rawname": "_ZNSt3__16__sortIRNS_6__lessIiiEEPiEEvT0_S5_T_",
+            "lang": "c++",
+            "addr": 1754864
+          }
+        ]
+      },
+      {
+        "classname": "std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > std::__1::operator+<char, std::__1::char_traits<char>, std::__1",
+        "addr": 0,
+        "lang": "c++",
+        "index": 19,
+        "methods": [
+          {
+            "name": "allocator<char> >(char const*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "flag": "std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > std::__1::operator+<char, std::__1::char_traits<char>, std::__1::allocator<char> >(char const*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "rawname": "_ZNSt3__1plIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EEPKS6_RKS9_",
+            "lang": "c++",
+            "addr": 1754880
+          },
+          {
+            "name": "allocator<char> >(char const*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____std::__1::operator_char__std::__1::char_traits_char___std::__1.allocator_char____char_const__std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const_",
+            "rawname": "_ZNSt3__1plIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EEPKS6_RKS9_",
+            "lang": "c++",
+            "addr": 1563160
+          },
+          {
+            "name": "allocator<char> >(char const*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____std::__1::operator_char__std::__1::char_traits_char___std::__1.allocator_char____char_const__std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const_",
+            "rawname": "_ZNSt3__1plIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EEPKS6_RKS9_",
+            "lang": "c++",
+            "addr": 1563160
+          },
+          {
+            "name": "allocator<char> >(char const*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)",
+            "flag": "method.std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____std::__1::operator_char__std::__1::char_traits_char___std::__1.allocator_char____char_const__std::__1::basic_string_char__std::__1::char_traits_char___std::__1::allocator_char____const_",
+            "rawname": "_ZNSt3__1plIcNS_11char_traitsIcEENS_9allocatorIcEEEENS_12basic_stringIT_T0_T1_EEPKS6_RKS9_",
+            "lang": "c++",
+            "addr": 1563160
+          }
+        ]
+      },
+      {
+        "classname": "std",
+        "addr": 0,
+        "lang": "c++",
+        "index": 20,
+        "methods": [
+          {
+            "name": "current_exception()",
+            "flag": "method.std.current_exception__",
+            "rawname": "_ZSt17current_exceptionv",
+            "lang": "c++",
+            "addr": 1754888
+          },
+          {
+            "name": "rethrow_exception(std::exception_ptr)",
+            "flag": "method.std.rethrow_exception_std::exception_ptr_",
+            "rawname": "_ZSt17rethrow_exceptionSt13exception_ptr",
+            "lang": "c++",
+            "addr": 1754896
+          },
+          {
+            "name": "terminate()",
+            "flag": "method.std.terminate__",
+            "rawname": "_ZSt9terminatev",
+            "lang": "c++",
+            "addr": 1754904
+          }
+        ]
+      },
+      {
+        "classname": "std::length_error",
+        "addr": 0,
+        "lang": "c++",
+        "index": 21,
+        "methods": [
+          {
+            "name": "~length_error()",
+            "flag": "method.std::length_error._length_error__",
+            "rawname": "_ZNSt12length_errorD1Ev",
+            "lang": "c++",
+            "addr": 1758672
+          }
+        ]
+      },
+      {
+        "classname": "std::__1::bad_function_call",
+        "addr": 0,
+        "lang": "c++",
+        "index": 22,
+        "methods": [
+          {
+            "name": "~bad_function_call()",
+            "flag": "method.std::__1::bad_function_call._bad_function_call__",
+            "rawname": "_ZNSt3__117bad_function_callD1Ev",
+            "lang": "c++",
+            "addr": 1758696
+          }
+        ]
+      }
+    ],
+    "swift_metadata": {
+      "is_swift": false,
+      "symbols": []
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/repcain-vit-b12_1920p.espresso.net",
+        "Versions/A/Resources/cnn_frame_enhancer_96p.espresso.weights",
+        "Versions/A/Resources/cnn_frame_enhancer_624p.espresso.net",
+        "Versions/A/Resources/cnn_frame_enhancer_720p.espresso.shape",
+        "Versions/A/Resources/repcain-vit-b12.espresso.shape",
+        "Versions/A/Resources/repcain-vit-b12_384x384p.espresso.shape",
+        "Versions/A/Resources/repcain-vit-b12_480x480p.espresso.shape",
+        "Versions/A/Resources/cnn_frame_enhancer_192p.H13.espresso.hwx",
+        "Versions/A/Resources/repcain-vit-b12_720p.espresso.shape",
+        "Versions/A/Resources/cnn_frame_enhancer_544p.H13.espresso.precompilation_info",
+        "Versions/A/Resources/cnn_frame_enhancer_192p.H14.espresso.hwx",
+        "Versions/A/Resources/cnn_frame_enhancer_720p.H16.espresso.precompilation_info",
+        "Versions/A/Resources/cnn_frame_enhancer_720p.H13.espresso.hwx",
+        "Versions/A/Resources/cnn_frame_enhancer_96p.H16.espresso.hwx",
+        "Versions/A/Resources/cnn_frame_enhancer_720p.H14.espresso.hwx",
+        "Versions/A/Resources/cnn_frame_enhancer_320p.H15.espresso.hwx",
+        "Versions/A/Resources/repcain-vit-b12_1920p.espresso.shape",
+        "Versions/A/Resources/cnn_frame_enhancer_96p.H14.espresso.precompilation_info",
+        "Versions/A/Resources/cnn_frame_enhancer_720p.H15.espresso.precompilation_info",
+        "Versions/A/Resources/cnn_frame_enhancer_312p.espresso.shape",
+        "Versions/A/Resources/cnn_frame_enhancer_320p.H14.espresso.precompilation_info",
+        "Versions/A/Resources/cnn_frame_enhancer_480p.H13.espresso.precompilation_info",
+        "Versions/A/Resources/default.metallib",
+        "Versions/A/Resources/cnn_frame_enhancer_192p.H13.espresso.precompilation_info",
+        "Versions/A/Resources/cnn_frame_enhancer_720p.H15.espresso.hwx",
+        "Versions/A/Resources/cnn_frame_enhancer_480p.espresso.shape",
+        "Versions/A/Resources/cnn_frame_enhancer_320p.H13.espresso.hwx",
+        "Versions/A/Resources/cnn_frame_enhancer_320p.H14.espresso.hwx",
+        "Versions/A/Resources/ml_jfs_unet_res_c.espresso.weights",
+        "Versions/A/Resources/repcain-vit-b12_1080p.espresso.net",
+        "Versions/A/Resources/cnn_frame_enhancer_320p.espresso.shape",
+        "Versions/A/Resources/cnn_frame_enhancer_192p.H15.espresso.hwx",
+        "Versions/A/Resources/cnn_frame_enhancer_480p_nocvpbb.espresso.weights",
+        "Versions/A/Resources/cnn_frame_enhancer_96p.espresso.net",
+        "Versions/A/Resources/cnn_frame_enhancer_480p.H15.espresso.precompilation_info",
+        "Versions/A/Resources/repcain-vit-b12_3840p.espresso.shape",
+        "Versions/A/Resources/cnn_frame_enhancer_544p.H13.espresso.hwx",
+        "Versions/A/Resources/cnn_frame_enhancer_544p.H14.espresso.hwx",
+        "Versions/A/Resources/cnn_frame_enhancer_720p.H13.espresso.precompilation_info",
+        "Versions/A/Resources/cnn_frame_enhancer_544p.H16.espresso.precompilation_info",
+        "Versions/A/Resources/cnn_frame_enhancer_270p.H14.espresso.precompilation_info",
+        "Versions/A/Resources/cnn_frame_enhancer_540p.H15.espresso.hwx",
+        "Versions/A/Resources/cnn_frame_enhancer_270p.H15.espresso.hwx",
+        "Versions/A/Resources/cnn_frame_enhancer_192p.H15.espresso.precompilation_info",
+        "Versions/A/Resources/cnn_frame_enhancer_540p.H14.espresso.precompilation_info",
+        "Versions/A/Resources/cnn_frame_enhancer_544p.H15.espresso.hwx",
+        "Versions/A/Resources/cnn_frame_enhancer_480p.espresso.weights",
+        "Versions/A/Resources/cnn_frame_enhancer_312p.espresso.net",
+        "Versions/A/Resources/cnn_frame_enhancer_720p.espresso.net",
+        "Versions/A/Resources/cnn_frame_enhancer_192p.H16.espresso.precompilation_info",
+        "Versions/A/Resources/cnn_frame_enhancer_270p.espresso.shape",
+        "Versions/A/Resources/cnn_frame_enhancer_270p.H13.espresso.hwx",
+        "Versions/A/Resources/cnn_frame_enhancer_270p.H14.espresso.hwx",
+        "Versions/A/Resources/cnn_frame_enhancer_480p.H16.espresso.precompilation_info",
+        "Versions/A/Resources/cnn_frame_enhancer_540p.H14.espresso.hwx",
+        "Versions/A/Resources/cnn_frame_enhancer_544p.H15.espresso.precompilation_info",
+        "Versions/A/Resources/cnn_frame_enhancer_540p.H13.espresso.hwx",
+        "Versions/A/Resources/cnn_frame_enhancer_544p.espresso.shape",
+        "Versions/A/Resources/cnn_frame_enhancer_480p.H16.espresso.hwx",
+        "Versions/A/Resources/repcain-vit-b12_384x384p.espresso.net",
+        "Versions/A/Resources/cnn_frame_enhancer_540p.espresso.net",
+        "Versions/A/Resources/repcain-vit-b12_720p.espresso.net",
+        "Versions/A/Resources/cnn_frame_enhancer_540p.H16.espresso.precompilation_info",
+        "Versions/A/Resources/cnn_frame_enhancer_270p.H16.espresso.precompilation_info",
+        "Versions/A/Resources/cnn_frame_enhancer_270p.espresso.weights",
+        "Versions/A/Resources/cnn_frame_enhancer_544p.espresso.net",
+        "Versions/A/Resources/ml_jfs_unet_res_c_240x240p.espresso.net",
+        "Versions/A/Resources/cnn_frame_enhancer_270p.H16.espresso.hwx",
+        "Versions/A/Resources/cnn_frame_enhancer_544p.H14.espresso.precompilation_info",
+        "Versions/A/Resources/cnn_frame_enhancer_480p.H14.espresso.hwx",
+        "Versions/A/Resources/cnn_frame_enhancer_480p.H13.espresso.hwx",
+        "Versions/A/Resources/cnn_frame_enhancer_540p.H16.espresso.hwx",
+        "Versions/A/Resources/cnn_frame_enhancer_96p.H13.espresso.precompilation_info",
+        "Versions/A/Resources/cnn_frame_enhancer_192p.espresso.net",
+        "Versions/A/Resources/cnn_frame_enhancer_320p.H13.espresso.precompilation_info",
+        "Versions/A/Resources/cnn_frame_enhancer_192p.espresso.shape",
+        "Versions/A/Resources/cnn_frame_enhancer_480p.H14.espresso.precompilation_info",
+        "Versions/A/Resources/repcain-vit-b12_2160p.espresso.net",
+        "Versions/A/Resources/cnn_frame_enhancer_544p.H16.espresso.hwx",
+        "Versions/A/Resources/cnn_frame_enhancer_540p.H15.espresso.precompilation_info",
+        "Versions/A/Resources/cnn_frame_enhancer_192p.H14.espresso.precompilation_info",
+        "Versions/A/Resources/cnn_frame_enhancer_480p.espresso.net",
+        "Versions/A/Resources/repcain-vit-b12_1080p.espresso.shape",
+        "Versions/A/Resources/cnn_frame_enhancer_480p.H15.espresso.hwx",
+        "Versions/A/Resources/repcain-vit-b12_480x480p.espresso.net",
+        "Versions/A/Resources/ml_jfs_unet_res_c_240x240p.espresso.shape",
+        "Versions/A/Resources/ml_jfs_unet_res_c_192x192p.espresso.shape",
+        "Versions/A/Resources/cnn_frame_enhancer_624p.espresso.shape",
+        "Versions/A/Resources/cnn_frame_enhancer_270p.H15.espresso.precompilation_info",
+        "Versions/A/Resources/ProcessAccelerate.metallib",
+        "Versions/A/Resources/repcain-vit-b12.espresso.weights",
+        "Versions/A/Resources/repcain-vit-b12.espresso.net",
+        "Versions/A/Resources/repcain-vit-b12_2160p.espresso.shape",
+        "Versions/A/Resources/cnn_frame_enhancer_320p.H15.espresso.precompilation_info",
+        "Versions/A/Resources/ml_jfs_unet_res_c_192x192p.espresso.net",
+        "Versions/A/Resources/cnn_frame_enhancer_720p.H14.espresso.precompilation_info",
+        "Versions/A/Resources/cnn_frame_enhancer_96p.H15.espresso.precompilation_info",
+        "Versions/A/Resources/cnn_frame_enhancer_320p.espresso.weights",
+        "Versions/A/Resources/cnn_frame_enhancer_320p.H16.espresso.hwx",
+        "Versions/A/Resources/cnn_frame_enhancer_270p.H13.espresso.precompilation_info",
+        "Versions/A/Resources/repcain-vit-b12_3840p.espresso.net",
+        "Versions/A/Resources/cnn_frame_enhancer_96p.H15.espresso.hwx",
+        "Versions/A/Resources/cnn_frame_enhancer_540p.H13.espresso.precompilation_info",
+        "Versions/A/Resources/cnn_frame_enhancer_720p.espresso.weights",
+        "Versions/A/Resources/cnn_frame_enhancer_540p.espresso.shape",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/cnn_frame_enhancer_192p.H16.espresso.hwx",
+        "Versions/A/Resources/cnn_frame_enhancer_96p.espresso.shape",
+        "Versions/A/Resources/repcain-vit-b12_1280p.espresso.net",
+        "Versions/A/Resources/repcain-vit-b12_1280p.espresso.shape",
+        "Versions/A/Resources/cnn_frame_enhancer_270p.espresso.net",
+        "Versions/A/Resources/cnn_frame_enhancer_320p.espresso.net",
+        "Versions/A/Resources/version.plist",
+        "Versions/A/Resources/cnn_frame_enhancer_96p.H16.espresso.precompilation_info",
+        "Versions/A/Resources/cnn_frame_enhancer_96p.H14.espresso.hwx",
+        "Versions/A/Resources/cnn_frame_enhancer_720p.H16.espresso.hwx",
+        "Versions/A/Resources/cnn_frame_enhancer_96p.H13.espresso.hwx",
+        "Versions/A/Resources/cnn_frame_enhancer_320p.H16.espresso.precompilation_info",
+        "Versions/A/PlugIns/Codecs/VCPRealtimeEncoder.bundle/Contents/Info.plist",
+        "Versions/A/PlugIns/Codecs/VCPRealtimeEncoder.bundle/Contents/version.plist",
+        "Versions/A/PlugIns/Codecs/VCPRealtimeEncoder.bundle/Contents/_CodeSignature/CodeResources",
+        "Versions/A/PlugIns/Codecs/VCPRealtimeEncoder.bundle/Contents/MacOS/VCPRealtimeEncoder",
+        "Versions/A/PlugIns/Codecs/VCPRealtimeEncoder.bundle/Contents/Resources/ProcessAccelerate.metallib"
+      ],
+      "plists": {
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "VideoProcessing",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B67",
+          "CFBundleDevelopmentRegion": "English",
+          "CFBundleVersion": "1335.5.1.5.1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "FMWK",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "VideoProcessing",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.VideoProcessing",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleSignature": "????",
+          "DTPlatformBuild": "25B67"
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "1335.5.1.5.1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "VideoProcessing",
+          "SourceVersion": "1335005001005001",
+          "BuildVersion": "8"
+        },
+        "Versions/A/PlugIns/Codecs/VCPRealtimeEncoder.bundle/Contents/Info.plist": {
+          "CFBundleName": "VCPRealtimeEncoder",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2019 Apple Inc. All rights reserved.",
+          "DTSDKBuild": "25B67",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "BNDL",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "VCPRealtimeEncoder",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.VCPRealtimeEncoder",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "25B67",
+          "CMClassImplementations": [
+            {
+              "CMClassImplementationName": "VCP Realtime H.264 Encoder (SW)",
+              "CMFactoryFunction": "H264VideoEncoder_CreateInstance",
+              "CMManufacturer": "Apple",
+              "CMMatchingInfo": {
+                "VTCodecType": "ftvc",
+                "VTRating": -1
+              },
+              "CMClassImplementationID": "com.apple.videotoolbox.videoencoder.ftvc.sw",
+              "VTCodecName": "H.264",
+              "CMExecutableArchitectures": [
+                "x86_64",
+                "arm64"
+              ],
+              "VTEncoderName": "Realtime H.264 (SW)",
+              "CMCopyright": "Copyright (c) 2012 Apple Inc. All rights reserved.",
+              "CMClassID": "com.apple.videotoolbox.videoencoder",
+              "CMClassImplementationVersion": 1
+            },
+            {
+              "CMClassImplementationName": "VCP Realtime H.264 Encoder",
+              "CMFactoryFunction": "PassthroughEncoder_CreateInstance",
+              "CMManufacturer": "Apple",
+              "CMMatchingInfo": {
+                "VTCodecType": "avc1",
+                "VTRating": -1
+              },
+              "CMClassImplementationID": "com.apple.videotoolbox.videoencoder.h264.rtvc",
+              "VTCodecName": "H.264",
+              "CMExecutableArchitectures": [
+                "x86_64",
+                "arm64"
+              ],
+              "VTEncoderName": "Realtime H.264 (RTVC)",
+              "CMCopyright": "Copyright (c) 2012 Apple Inc. All rights reserved.",
+              "CMClassID": "com.apple.videotoolbox.videoencoder",
+              "CMClassImplementationVersion": 1
+            },
+            {
+              "CMClassImplementationName": "VCP Realtime HEVC Encoder",
+              "CMFactoryFunction": "PassthroughEncoder_CreateInstance",
+              "CMManufacturer": "Apple",
+              "CMMatchingInfo": {
+                "VTCodecType": "hvc1",
+                "VTRating": -1
+              },
+              "CMClassImplementationID": "com.apple.videotoolbox.videoencoder.hevc.rtvc",
+              "VTCodecName": "HEVC",
+              "CMExecutableArchitectures": [
+                "x86_64",
+                "arm64"
+              ],
+              "VTEncoderName": "Realtime HEVC (RTVC)",
+              "CMCopyright": "Copyright (c) 2012 Apple Inc. All rights reserved.",
+              "CMClassID": "com.apple.videotoolbox.videoencoder",
+              "CMClassImplementationVersion": 1
+            },
+            {
+              "CMClassImplementationName": "VCP Realtime H.264 Encoder(SW)",
+              "CMFactoryFunction": "H264VideoEncoder_CreateInstance",
+              "CMManufacturer": "Apple",
+              "CMMatchingInfo": {
+                "VTCodecType": "avc1",
+                "VTRating": -10
+              },
+              "CMClassImplementationID": "com.apple.videotoolbox.videoencoder.h264.rtvc.sw",
+              "VTCodecName": "H.264",
+              "CMExecutableArchitectures": [
+                "x86_64",
+                "arm64"
+              ],
+              "VTEncoderName": "Realtime H.264 (RTVC SW)",
+              "CMCopyright": "Copyright (c) 2012 Apple Inc. All rights reserved.",
+              "CMClassID": "com.apple.videotoolbox.videoencoder",
+              "CMClassImplementationVersion": 1
+            },
+            {
+              "CMClassImplementationName": "VCP Realtime H.264 Encoder (AVE)",
+              "CMFactoryFunction": "PassthroughEncoder_CreateInstance",
+              "CMManufacturer": "Apple",
+              "CMMatchingInfo": {
+                "VTCodecType": "ftvc",
+                "VTRating": 0
+              },
+              "CMClassImplementationID": "com.apple.videotoolbox.videoencoder.ftvc.ave",
+              "VTCodecName": "H.264",
+              "CMExecutableArchitectures": [
+                "arm64"
+              ],
+              "VTEncoderName": "Realtime H.264 (AVE)",
+              "CMCopyright": "Copyright (c) 2012 Apple Inc. All rights reserved.",
+              "CMClassID": "com.apple.videotoolbox.videoencoder",
+              "CMClassImplementationVersion": 1
+            },
+            {
+              "CMClassImplementationName": "VCP Realtime HEVC Encoder (AVE)",
+              "CMFactoryFunction": "PassthroughEncoder_CreateInstance",
+              "CMManufacturer": "Apple",
+              "CMMatchingInfo": {
+                "VTCodecType": "ftvh",
+                "VTRating": 0
+              },
+              "CMClassImplementationID": "com.apple.videotoolbox.videoencoder.ftvh.ave",
+              "VTCodecName": "HEVC",
+              "CMExecutableArchitectures": [
+                "arm64"
+              ],
+              "VTEncoderName": "Realtime HEVC (AVE)",
+              "CMCopyright": "Copyright (c) 2012 Apple Inc. All rights reserved.",
+              "CMClassID": "com.apple.videotoolbox.videoencoder",
+              "CMClassImplementationVersion": 1
+            }
+          ]
+        },
+        "Versions/A/PlugIns/Codecs/VCPRealtimeEncoder.bundle/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "VideoProcessing",
+          "SourceVersion": "1335005001005001",
+          "BuildVersion": "8"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
+  },
+  "usage": {
+    "layer": "usage",
+    "used_by": []
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "loaded"
+  }
+}

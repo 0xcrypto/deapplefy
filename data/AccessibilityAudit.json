@@ -1,0 +1,835 @@
+{
+  "framework": "AccessibilityAudit.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/AccessibilityAudit.framework/Versions/A/Resources/AccessibilityAuditCategories.bundle/Contents/MacOS/AccessibilityAuditCategories",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 0,
+          "binsz": 111680,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "",
+          "laddr": 0,
+          "lang": "objc with blocks",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": false,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices",
+          "/System/Library/PrivateFrameworks/AccessibilitySupport.framework/Versions/A/AccessibilitySupport",
+          "/System/Library/PrivateFrameworks/AccessibilityAudit.framework/Versions/A/AccessibilityAudit",
+          "/System/Library/Frameworks/CoreImage.framework/Versions/A/CoreImage",
+          "/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "AXAuditOSXCriteriaManager",
+        "addr": 68064,
+        "lang": "objc",
+        "index": 0,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "ignoreLabelAuditSet",
+            "flag": "method.AXAuditOSXCriteriaManager.ignoreLabelAuditSet",
+            "lang": "objc",
+            "addr": 3916
+          },
+          {
+            "name": "ignoreAuditClasses",
+            "flag": "method.AXAuditOSXCriteriaManager.ignoreAuditClasses",
+            "lang": "objc",
+            "addr": 4060
+          },
+          {
+            "name": "descriptionAttributesForIdentifier:",
+            "flag": "method.AXAuditOSXCriteriaManager.descriptionAttributesForIdentifier:",
+            "lang": "objc",
+            "addr": 4204
+          },
+          {
+            "name": "numberOfRequiredDescriptionAttributesForIdentifier:",
+            "flag": "method.AXAuditOSXCriteriaManager.numberOfRequiredDescriptionAttributesForIdentifier:",
+            "lang": "objc",
+            "addr": 4220
+          },
+          {
+            "name": "allowPassThruToChildrenForIdentifier:",
+            "flag": "method.AXAuditOSXCriteriaManager.allowPassThruToChildrenForIdentifier:",
+            "lang": "objc",
+            "addr": 4324
+          },
+          {
+            "name": "_elementDescriptionCriteriaDictionary",
+            "flag": "method.AXAuditOSXCriteriaManager._elementDescriptionCriteriaDictionary",
+            "lang": "objc",
+            "addr": 4428
+          },
+          {
+            "name": "_attributeCriteriaForKey:identifier:",
+            "flag": "method.AXAuditOSXCriteriaManager._attributeCriteriaForKey:identifier:",
+            "lang": "objc",
+            "addr": 4764
+          },
+          {
+            "name": "_systemAccessibilityCriteriaDictionary",
+            "flag": "method.AXAuditOSXCriteriaManager._systemAccessibilityCriteriaDictionary",
+            "lang": "objc",
+            "addr": 5064
+          },
+          {
+            "name": "_actionCriteriaDictionary",
+            "flag": "method.AXAuditOSXCriteriaManager._actionCriteriaDictionary",
+            "lang": "objc",
+            "addr": 5384
+          },
+          {
+            "name": "requiredActionsForIdentifier:",
+            "flag": "method.AXAuditOSXCriteriaManager.requiredActionsForIdentifier:",
+            "lang": "objc",
+            "addr": 6144
+          },
+          {
+            "name": "sharedManager",
+            "flag": "method.class.AXAuditOSXCriteriaManager.sharedManager",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 3696
+          }
+        ]
+      },
+      {
+        "classname": "AXAuditOSXEntity",
+        "addr": 68184,
+        "lang": "objc",
+        "index": 1,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.AXAuditOSXEntity.init",
+            "lang": "objc",
+            "addr": 6272
+          },
+          {
+            "name": "initWithUIElement:",
+            "flag": "method.AXAuditOSXEntity.initWithUIElement:",
+            "lang": "objc",
+            "addr": 6340
+          },
+          {
+            "name": "shouldAudit",
+            "flag": "method.AXAuditOSXEntity.shouldAudit",
+            "lang": "objc",
+            "addr": 6540
+          },
+          {
+            "name": "shouldRunTextDetection",
+            "flag": "method.AXAuditOSXEntity.shouldRunTextDetection",
+            "lang": "objc",
+            "addr": 6792
+          },
+          {
+            "name": "runLabelAudit",
+            "flag": "method.AXAuditOSXEntity.runLabelAudit",
+            "lang": "objc",
+            "addr": 6900
+          },
+          {
+            "name": "_shouldPerformDescriptionAudit",
+            "flag": "method.AXAuditOSXEntity._shouldPerformDescriptionAudit",
+            "lang": "objc",
+            "addr": 7008
+          },
+          {
+            "name": "_verifyForSufficientDescription",
+            "flag": "method.AXAuditOSXEntity._verifyForSufficientDescription",
+            "lang": "objc",
+            "addr": 7544
+          },
+          {
+            "name": "_hasHumanUnreadableDescription",
+            "flag": "method.AXAuditOSXEntity._hasHumanUnreadableDescription",
+            "lang": "objc",
+            "addr": 7996
+          },
+          {
+            "name": "_hasLabelDuplicateRoleDescription",
+            "flag": "method.AXAuditOSXEntity._hasLabelDuplicateRoleDescription",
+            "lang": "objc",
+            "addr": 8176
+          },
+          {
+            "name": "_descriptionDictionarySeenElements:",
+            "flag": "method.AXAuditOSXEntity._descriptionDictionarySeenElements:",
+            "lang": "objc",
+            "addr": 8448
+          },
+          {
+            "name": "_allowNilValue",
+            "flag": "method.AXAuditOSXEntity._allowNilValue",
+            "lang": "objc",
+            "addr": 9220
+          },
+          {
+            "name": "_descriptionSummaryIncludesContent:seenElements:",
+            "flag": "method.AXAuditOSXEntity._descriptionSummaryIncludesContent:seenElements:",
+            "lang": "objc",
+            "addr": 9320
+          },
+          {
+            "name": "_numberOfRequiredDescriptionAttributes",
+            "flag": "method.AXAuditOSXEntity._numberOfRequiredDescriptionAttributes",
+            "lang": "objc",
+            "addr": 9832
+          },
+          {
+            "name": "runActionAudit",
+            "flag": "method.AXAuditOSXEntity.runActionAudit",
+            "lang": "objc",
+            "addr": 10172
+          },
+          {
+            "name": "runUnknownRoleAudit",
+            "flag": "method.AXAuditOSXEntity.runUnknownRoleAudit",
+            "lang": "objc",
+            "addr": 10548
+          },
+          {
+            "name": "runContrastAudit",
+            "flag": "method.AXAuditOSXEntity.runContrastAudit",
+            "lang": "objc",
+            "addr": 10976
+          },
+          {
+            "name": "description",
+            "flag": "method.AXAuditOSXEntity.description",
+            "lang": "objc",
+            "addr": 11396
+          },
+          {
+            "name": "uiElement",
+            "flag": "method.AXAuditOSXEntity.uiElement",
+            "lang": "objc",
+            "addr": 11572
+          },
+          {
+            "name": "setUiElement:",
+            "flag": "method.AXAuditOSXEntity.setUiElement:",
+            "lang": "objc",
+            "addr": 11580
+          },
+          {
+            "name": "_role",
+            "flag": "method.AXAuditOSXEntity._role",
+            "lang": "objc",
+            "addr": 11592
+          },
+          {
+            "name": "set_role:",
+            "flag": "method.AXAuditOSXEntity.set_role:",
+            "lang": "objc",
+            "addr": 11600
+          },
+          {
+            "name": "_subrole",
+            "flag": "method.AXAuditOSXEntity._subrole",
+            "lang": "objc",
+            "addr": 11608
+          },
+          {
+            "name": "set_subrole:",
+            "flag": "method.AXAuditOSXEntity.set_subrole:",
+            "lang": "objc",
+            "addr": 11616
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.AXAuditOSXEntity..cxx_destruct",
+            "lang": "objc",
+            "addr": 11624
+          },
+          {
+            "name": "runContrastAuditWithInput:",
+            "flag": "method.class.AXAuditOSXEntity.runContrastAuditWithInput:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 10632
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_uiElement",
+            "kind": "var",
+            "type": "@\"AXFUIElement\"",
+            "addr": 68040
+          },
+          {
+            "name": "__role",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 68044
+          },
+          {
+            "name": "__subrole",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 68048
+          },
+          {
+            "name": "_role",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "_subrole",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "uiElement",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "AXAuditPluginOSX",
+        "addr": 68264,
+        "lang": "objc",
+        "index": 2,
+        "super": [
+          "AXAuditPlugin"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_AXAuditPlugin"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.AXAuditPluginOSX.init",
+            "lang": "objc",
+            "addr": 11704
+          },
+          {
+            "name": "_registerAuditElementTransportInfo",
+            "flag": "method.AXAuditPluginOSX._registerAuditElementTransportInfo",
+            "lang": "objc",
+            "addr": 11836
+          },
+          {
+            "name": "_registerRangeTransportInfo",
+            "flag": "method.AXAuditPluginOSX._registerRangeTransportInfo",
+            "lang": "objc",
+            "addr": 12280
+          },
+          {
+            "name": "_registerSizeTransportInfo",
+            "flag": "method.AXAuditPluginOSX._registerSizeTransportInfo",
+            "lang": "objc",
+            "addr": 12804
+          },
+          {
+            "name": "_registerPointTransportInfo",
+            "flag": "method.AXAuditPluginOSX._registerPointTransportInfo",
+            "lang": "objc",
+            "addr": 13216
+          },
+          {
+            "name": "_registerRectTransportInfo",
+            "flag": "method.AXAuditPluginOSX._registerRectTransportInfo",
+            "lang": "objc",
+            "addr": 13628
+          },
+          {
+            "name": "_registerTextMarkerTransportInfo",
+            "flag": "method.AXAuditPluginOSX._registerTextMarkerTransportInfo",
+            "lang": "objc",
+            "addr": 14052
+          },
+          {
+            "name": "_registerTextMarkerRangeTransportInfo",
+            "flag": "method.AXAuditPluginOSX._registerTextMarkerRangeTransportInfo",
+            "lang": "objc",
+            "addr": 14516
+          },
+          {
+            "name": "screenshotInfoForTransportWithFrame:",
+            "flag": "method.AXAuditPluginOSX.screenshotInfoForTransportWithFrame:",
+            "lang": "objc",
+            "addr": 15188
+          }
+        ]
+      },
+      {
+        "classname": "AXAuditCategoryGeneral",
+        "addr": 68344,
+        "lang": "objc",
+        "index": 3,
+        "super": [
+          "AXAuditCategory"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_AXAuditCategory"
+        ],
+        "methods": [
+          {
+            "name": "supportAuditGroup:",
+            "flag": "method.AXAuditCategoryGeneral.supportAuditGroup:",
+            "lang": "objc",
+            "addr": 15440
+          },
+          {
+            "name": "allSupportedAuditTypes",
+            "flag": "method.AXAuditCategoryGeneral.allSupportedAuditTypes",
+            "lang": "objc",
+            "addr": 15448
+          },
+          {
+            "name": "caseSelectorsForAuditing",
+            "flag": "method.AXAuditCategoryGeneral.caseSelectorsForAuditing",
+            "lang": "objc",
+            "addr": 15768
+          },
+          {
+            "name": "auditTargetApplication",
+            "flag": "method.AXAuditCategoryGeneral.auditTargetApplication",
+            "lang": "objc",
+            "addr": 16000
+          },
+          {
+            "name": "caseStartedForSelectorName:",
+            "flag": "method.AXAuditCategoryGeneral.caseStartedForSelectorName:",
+            "lang": "objc",
+            "addr": 16636
+          },
+          {
+            "name": "caseEndedForSelectorName:result:",
+            "flag": "method.AXAuditCategoryGeneral.caseEndedForSelectorName:result:",
+            "lang": "objc",
+            "addr": 16860
+          },
+          {
+            "name": "targetApplication",
+            "flag": "method.AXAuditCategoryGeneral.targetApplication",
+            "lang": "objc",
+            "addr": 16960
+          },
+          {
+            "name": "_runAuditForDescendantsOfAppController:",
+            "flag": "method.AXAuditCategoryGeneral._runAuditForDescendantsOfAppController:",
+            "lang": "objc",
+            "addr": 17476
+          },
+          {
+            "name": "_runAuditForEntity:",
+            "flag": "method.AXAuditCategoryGeneral._runAuditForEntity:",
+            "lang": "objc",
+            "addr": 17876
+          },
+          {
+            "name": "_runAuditForVisibleDescendantsOfUIElement:",
+            "flag": "method.AXAuditCategoryGeneral._runAuditForVisibleDescendantsOfUIElement:",
+            "lang": "objc",
+            "addr": 19180
+          },
+          {
+            "name": "_childrenUIElementsToAuditForUIElement:",
+            "flag": "method.AXAuditCategoryGeneral._childrenUIElementsToAuditForUIElement:",
+            "lang": "objc",
+            "addr": 19520
+          },
+          {
+            "name": "_runLabelAuditForEntity:",
+            "flag": "method.AXAuditCategoryGeneral._runLabelAuditForEntity:",
+            "lang": "objc",
+            "addr": 20048
+          },
+          {
+            "name": "_runActionAuditForEntity:",
+            "flag": "method.AXAuditCategoryGeneral._runActionAuditForEntity:",
+            "lang": "objc",
+            "addr": 20448
+          },
+          {
+            "name": "_runContrastAuditForEntity:",
+            "flag": "method.AXAuditCategoryGeneral._runContrastAuditForEntity:",
+            "lang": "objc",
+            "addr": 20928
+          },
+          {
+            "name": "_isFailureContrastIssueType:",
+            "flag": "method.AXAuditCategoryGeneral._isFailureContrastIssueType:",
+            "lang": "objc",
+            "addr": 21844
+          },
+          {
+            "name": "_verifyIdentityAuditForEntity:",
+            "flag": "method.AXAuditCategoryGeneral._verifyIdentityAuditForEntity:",
+            "lang": "objc",
+            "addr": 21872
+          },
+          {
+            "name": "_shouldRunThruDetectionForAuditIssue:",
+            "flag": "method.AXAuditCategoryGeneral._shouldRunThruDetectionForAuditIssue:",
+            "lang": "objc",
+            "addr": 22272
+          },
+          {
+            "name": "_runDetectionForAuditIssue:",
+            "flag": "method.AXAuditCategoryGeneral._runDetectionForAuditIssue:",
+            "lang": "objc",
+            "addr": 22380
+          },
+          {
+            "name": "_runDetectionForEntity:",
+            "flag": "method.AXAuditCategoryGeneral._runDetectionForEntity:",
+            "lang": "objc",
+            "addr": 22528
+          },
+          {
+            "name": "_runDetectionForAuditElement:inRect:flip:",
+            "flag": "method.AXAuditCategoryGeneral._runDetectionForAuditElement:inRect:flip:",
+            "lang": "objc",
+            "addr": 22752
+          },
+          {
+            "name": "_contrastIssueForContrastInput:",
+            "flag": "method.AXAuditCategoryGeneral._contrastIssueForContrastInput:",
+            "lang": "objc",
+            "addr": 23872
+          },
+          {
+            "name": "_issueTypeForDetectionType:",
+            "flag": "method.AXAuditCategoryGeneral._issueTypeForDetectionType:",
+            "lang": "objc",
+            "addr": 24400
+          },
+          {
+            "name": "_selectorNamesForActions:",
+            "flag": "method.AXAuditCategoryGeneral._selectorNamesForActions:",
+            "lang": "objc",
+            "addr": 24420
+          },
+          {
+            "name": "_shouldIncludeIssue:",
+            "flag": "method.AXAuditCategoryGeneral._shouldIncludeIssue:",
+            "lang": "objc",
+            "addr": 24812
+          },
+          {
+            "name": "_issuesFound",
+            "flag": "method.AXAuditCategoryGeneral._issuesFound",
+            "lang": "objc",
+            "addr": 25456
+          },
+          {
+            "name": "set_issuesFound:",
+            "flag": "method.AXAuditCategoryGeneral.set_issuesFound:",
+            "lang": "objc",
+            "addr": 25472
+          },
+          {
+            "name": "_currentAuditingTopLevelElementOrigin",
+            "flag": "method.AXAuditCategoryGeneral._currentAuditingTopLevelElementOrigin",
+            "lang": "objc",
+            "addr": 25492
+          },
+          {
+            "name": "set_currentAuditingTopLevelElementOrigin:",
+            "flag": "method.AXAuditCategoryGeneral.set_currentAuditingTopLevelElementOrigin:",
+            "lang": "objc",
+            "addr": 25512
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.AXAuditCategoryGeneral..cxx_destruct",
+            "lang": "objc",
+            "addr": 25532
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "__issuesFound",
+            "kind": "var",
+            "type": "@\"NSMutableSet\"",
+            "addr": 68052
+          },
+          {
+            "name": "__currentAuditingTopLevelElementOrigin",
+            "kind": "var",
+            "type": "{CGPoint=\"x\"d\"y\"d}",
+            "addr": 68056
+          },
+          {
+            "name": "_issuesFound",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "_currentAuditingTopLevelElementOrigin",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      }
+    ],
+    "swift_metadata": {
+      "is_swift": false,
+      "symbols": []
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/LocalizableOSX.strings",
+        "Versions/A/Resources/AuditIssues.strings",
+        "Versions/A/Resources/AuditReport.html",
+        "Versions/A/Resources/Localizable.strings",
+        "Versions/A/Resources/LocalizableIOS.strings",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist",
+        "Versions/A/Resources/AccessibilityAuditCategories.bundle/Contents/Info.plist",
+        "Versions/A/Resources/AccessibilityAuditCategories.bundle/Contents/version.plist",
+        "Versions/A/Resources/AccessibilityAuditCategories.bundle/Contents/_CodeSignature/CodeResources",
+        "Versions/A/Resources/AccessibilityAuditCategories.bundle/Contents/MacOS/AccessibilityAuditCategories",
+        "Versions/A/Resources/AccessibilityAuditCategories.bundle/Contents/Resources/ElementAccessibilityCriteria.plist",
+        "Versions/A/Resources/AccessibilityAuditCategories.bundle/Contents/Resources/Localizable.strings"
+      ],
+      "plists": {
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "AccessibilityAudit",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2014-2024 Apple Inc. All rights reserved.",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "187.3",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "FMWK",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "AccessibilityAudit",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.accessibility.AccessibilityAudit",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleSignature": "????",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "187.3",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "AccessibilityAuditSupport",
+          "SourceVersion": "187003000000000",
+          "BuildVersion": "2130"
+        },
+        "Versions/A/Resources/AccessibilityAuditCategories.bundle/Contents/Info.plist": {
+          "CFBundleName": "AccessibilityAuditCategories",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2014-2024 Apple Inc. All rights reserved.",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "187.3",
+          "BuildMachineOSBuild": "23A344014",
+          "NSPrincipalClass": "AXAuditPluginOSX",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "BNDL",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "AccessibilityAuditCategories",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.accessibility.AccessibilityAuditTestsBundle",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleSignature": "????",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/Resources/AccessibilityAuditCategories.bundle/Contents/version.plist": {
+          "CFBundleVersion": "187.3",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "AccessibilityAuditSupport",
+          "SourceVersion": "187003000000000",
+          "BuildVersion": "2130"
+        },
+        "Versions/A/Resources/AccessibilityAuditCategories.bundle/Contents/Resources/ElementAccessibilityCriteria.plist": {
+          "IgnoreAuditClass": [
+            "PDFScrollView",
+            "IBStoryboardCanvasBackgroundOverlayView",
+            "IBStoryboardSceneCanvasFrame"
+          ],
+          "AttributeCriteria": {
+            "AXCell": {
+              "AllowPassThruToChildren": true,
+              "DescriptionAttributes": [
+                "accessibilityLabel",
+                "accessibilityTitleUIElement"
+              ]
+            },
+            "AXTextField": {
+              "ActionsRequired": []
+            },
+            "AXTextArea": {
+              "NumOfDescriptionAttributesRequired": 0
+            },
+            "AXRow": {
+              "AllowPassThruToChildren": true,
+              "DescriptionAttributes": [
+                "accessibilityLabel",
+                "accessibilityTitleUIElement"
+              ]
+            },
+            "AXTextField:AXSecureTextField": {
+              "ActionsRequired": []
+            },
+            "Default": {
+              "NumOfDescriptionAttributesRequired": 1,
+              "DescriptionAttributes": [
+                "accessibilityLabel",
+                "accessibilityPlaceholderValue",
+                "accessibilityTitle",
+                "accessibilityTitleUIElement",
+                "accessibilityValue",
+                "accessibilityValueDescription"
+              ],
+              "AllowPassThruToChildren": false
+            },
+            "AXCheckBox": {
+              "NumOfDescriptionAttributesRequired": 2
+            },
+            "AXTextField:AXSearchField": {
+              "ActionsRequired": []
+            },
+            "AXPopUpButton": {
+              "NumOfDescriptionAttributesRequired": 2
+            }
+          },
+          "IgnoreLabelAudit": [
+            "AXWebArea",
+            "AXToolbar",
+            "AXTextField:AXTextAttachment",
+            "AXTextField:AXSearchField",
+            "AXTextArea",
+            "AXTabGroup",
+            "AXSplitGroup",
+            "AXSplitter",
+            "AXSheet",
+            "AXScrollBar",
+            "AXScrollArea",
+            "AXRadioGroup",
+            "AXMenuItem",
+            "AXMenuBar",
+            "AXMenu",
+            "AXList:AXSectionList",
+            "AXImage:AXTextAttachment",
+            "AXGroup",
+            "AXColumn",
+            "AXButton:AXFullScreenButton",
+            "AXButton:AXMinimizeButton",
+            "AXButton:AXCloseButton"
+          ]
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
+  },
+  "usage": {
+    "layer": "usage",
+    "used_by": []
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "loaded"
+  }
+}

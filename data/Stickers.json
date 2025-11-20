@@ -1,0 +1,2693 @@
+{
+  "framework": "Stickers.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/Stickers.framework/Support/stickersd",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 207968,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "swift",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/PrivateFrameworks/SpotlightReceiver.framework/Versions/A/SpotlightReceiver",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "/System/Library/PrivateFrameworks/ContactsFoundation.framework/Versions/A/ContactsFoundation",
+          "/System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics",
+          "/System/Library/PrivateFrameworks/CoreEmoji.framework/Versions/A/CoreEmoji",
+          "/System/Library/PrivateFrameworks/EmojiFoundation.framework/Versions/A/EmojiFoundation",
+          "/System/Library/PrivateFrameworks/Stickers.framework/Support/RecencyService.framework/Versions/A/RecencyService",
+          "/System/Library/PrivateFrameworks/Stickers.framework/Support/ServiceShared.framework/Versions/A/ServiceShared",
+          "/System/Library/PrivateFrameworks/Stickers.framework/Versions/A/Stickers",
+          "/usr/lib/swift/libswiftAccelerate.dylib",
+          "/usr/lib/swift/libswiftCore.dylib",
+          "/usr/lib/swift/libswiftCoreFoundation.dylib",
+          "/usr/lib/swift/libswiftDispatch.dylib",
+          "/usr/lib/swift/libswiftIOKit.dylib",
+          "/usr/lib/swift/libswiftMetal.dylib",
+          "/usr/lib/swift/libswiftOSLog.dylib",
+          "/usr/lib/swift/libswiftObjectiveC.dylib",
+          "/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib",
+          "/usr/lib/swift/libswiftXPC.dylib",
+          "/usr/lib/swift/libswift_Builtin_float.dylib",
+          "/usr/lib/swift/libswift_Concurrency.dylib",
+          "/usr/lib/swift/libswiftos.dylib",
+          "/usr/lib/swift/libswiftsimd.dylib"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "Delegate",
+        "addr": 100984,
+        "lang": "swift",
+        "index": 0,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ]
+      },
+      {
+        "classname": "Worker",
+        "addr": 101052,
+        "lang": "swift",
+        "index": 1,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ],
+        "fields": [
+          {
+            "name": "$__lazy_storage_$_launchStateManager",
+            "kind": "property",
+            "addr": 4295069872
+          }
+        ]
+      },
+      {
+        "classname": "LaunchStateManagerServiceError",
+        "addr": 101164,
+        "lang": "swift",
+        "index": 2,
+        "fields": [
+          {
+            "name": "invalidSection",
+            "kind": "property",
+            "addr": 4295069909
+          }
+        ]
+      },
+      {
+        "classname": "StickersLaunchStateManagerService",
+        "addr": 101192,
+        "lang": "swift",
+        "index": 3,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.StickersLaunchStateManagerService.0",
+            "lang": "swift",
+            "addr": 4295069247
+          }
+        ],
+        "fields": [
+          {
+            "name": "listener",
+            "kind": "property",
+            "type": "__C.NSXPCListener",
+            "addr": 4295069924
+          },
+          {
+            "name": "listenerDelegate",
+            "kind": "property",
+            "type": "\f}\u00d8\u00ff\u00ff_p",
+            "addr": 4295069936
+          }
+        ]
+      },
+      {
+        "classname": "Delegate_1",
+        "addr": 101220,
+        "lang": "swift",
+        "index": 4,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ]
+      },
+      {
+        "classname": "Worker_1",
+        "addr": 101288,
+        "lang": "swift",
+        "index": 5,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ],
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.Worker_1.0",
+            "lang": "swift",
+            "addr": 4295069758
+          }
+        ],
+        "fields": [
+          {
+            "name": "store",
+            "kind": "property",
+            "addr": 4295069968
+          }
+        ]
+      },
+      {
+        "classname": "StickersAPIService",
+        "addr": 101420,
+        "lang": "swift",
+        "index": 6,
+        "fields": [
+          {
+            "name": "listener",
+            "kind": "property",
+            "type": "__C.NSXPCListener",
+            "addr": 4295069974
+          },
+          {
+            "name": "listenerDelegate",
+            "kind": "property",
+            "type": "\f}\u00d8\u00ff\u00ff_p",
+            "addr": 4295069984
+          }
+        ]
+      },
+      {
+        "classname": "StickersDaemon",
+        "addr": 101448,
+        "lang": "swift",
+        "index": 7,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ],
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.StickersDaemon.0",
+            "lang": "swift",
+            "addr": 4295068812
+          },
+          {
+            "name": "1",
+            "flag": "method.StickersDaemon.1",
+            "lang": "swift",
+            "addr": 4295068820
+          },
+          {
+            "name": "2",
+            "flag": "method.StickersDaemon.2",
+            "lang": "swift",
+            "addr": 4295068828
+          },
+          {
+            "name": "3",
+            "flag": "method.StickersDaemon.3",
+            "lang": "swift",
+            "addr": 4295068836
+          },
+          {
+            "name": "func.10000669c",
+            "flag": "method.StickersDaemon.func.10000669c",
+            "lang": "swift",
+            "addr": 4294993564
+          },
+          {
+            "name": "func.100006760",
+            "flag": "method.StickersDaemon.func.100006760",
+            "lang": "swift",
+            "addr": 4294993760
+          },
+          {
+            "name": "func.100006994",
+            "flag": "method.StickersDaemon.func.100006994",
+            "lang": "swift",
+            "addr": 4294994324
+          },
+          {
+            "name": "func.100006d7c",
+            "flag": "method.StickersDaemon.func.100006d7c",
+            "lang": "swift",
+            "addr": 4294995324
+          },
+          {
+            "name": "func.100007124",
+            "flag": "method.StickersDaemon.func.100007124",
+            "lang": "swift",
+            "addr": 4294996260
+          },
+          {
+            "name": "func.100007328",
+            "flag": "method.StickersDaemon.func.100007328",
+            "lang": "swift",
+            "addr": 4294996776
+          },
+          {
+            "name": "func.100007ef0",
+            "flag": "method.StickersDaemon.func.100007ef0",
+            "lang": "swift",
+            "addr": 4294999792
+          },
+          {
+            "name": "11",
+            "flag": "method.StickersDaemon.11",
+            "lang": "swift",
+            "addr": 4295068900
+          },
+          {
+            "name": "12",
+            "flag": "method.StickersDaemon.12",
+            "lang": "swift",
+            "addr": 4295068908
+          },
+          {
+            "name": "13",
+            "flag": "method.StickersDaemon.13",
+            "lang": "swift",
+            "addr": 4295068916
+          },
+          {
+            "name": "14",
+            "flag": "method.StickersDaemon.14",
+            "lang": "swift",
+            "addr": 4295068924
+          },
+          {
+            "name": "15",
+            "flag": "method.StickersDaemon.15",
+            "lang": "swift",
+            "addr": 4295068448
+          },
+          {
+            "name": "func.100008b58",
+            "flag": "method.StickersDaemon.func.100008b58",
+            "lang": "swift",
+            "addr": 4295002968
+          },
+          {
+            "name": "17",
+            "flag": "method.StickersDaemon.17",
+            "lang": "swift",
+            "addr": 4295068949
+          },
+          {
+            "name": "18",
+            "flag": "method.StickersDaemon.18",
+            "lang": "swift",
+            "addr": 4295069036
+          },
+          {
+            "name": "19",
+            "flag": "method.StickersDaemon.19",
+            "lang": "swift",
+            "addr": 4295058112
+          },
+          {
+            "name": "20",
+            "flag": "method.StickersDaemon.20",
+            "lang": "swift",
+            "addr": 4295069588
+          },
+          {
+            "name": "21",
+            "flag": "method.StickersDaemon.21",
+            "lang": "swift",
+            "addr": 4295068983
+          },
+          {
+            "name": "22",
+            "flag": "method.StickersDaemon.22",
+            "lang": "swift",
+            "addr": 4295068988
+          },
+          {
+            "name": "23",
+            "flag": "method.StickersDaemon.23",
+            "lang": "swift",
+            "addr": 4295069006
+          },
+          {
+            "name": "24",
+            "flag": "method.StickersDaemon.15",
+            "lang": "swift",
+            "addr": 4295068448
+          },
+          {
+            "name": "func.10000c4ac",
+            "flag": "method.StickersDaemon.func.10000c4ac",
+            "lang": "swift",
+            "addr": 4295017644
+          },
+          {
+            "name": "26",
+            "flag": "method.StickersDaemon.26",
+            "lang": "swift",
+            "addr": 4295069020
+          },
+          {
+            "name": "27",
+            "flag": "method.StickersDaemon.27",
+            "lang": "swift",
+            "addr": 4295069043
+          },
+          {
+            "name": "28",
+            "flag": "method.StickersDaemon.28",
+            "lang": "swift",
+            "addr": 4295069039
+          },
+          {
+            "name": "29",
+            "flag": "method.StickersDaemon.29",
+            "lang": "swift",
+            "addr": 4295103400
+          },
+          {
+            "name": "func.10000c4f8",
+            "flag": "method.StickersDaemon.func.10000c4f8",
+            "lang": "swift",
+            "addr": 4295017720
+          },
+          {
+            "name": "31",
+            "flag": "method.StickersDaemon.31",
+            "lang": "swift",
+            "addr": 4295069062
+          },
+          {
+            "name": "32",
+            "flag": "method.StickersDaemon.32",
+            "lang": "swift",
+            "addr": 4295069068
+          },
+          {
+            "name": "func.10000c100",
+            "flag": "method.StickersDaemon.func.10000c100",
+            "lang": "swift",
+            "addr": 4295016704
+          },
+          {
+            "name": "34",
+            "flag": "method.StickersDaemon.15",
+            "lang": "swift",
+            "addr": 4295068448
+          },
+          {
+            "name": "func.10000c778",
+            "flag": "method.StickersDaemon.func.10000c778",
+            "lang": "swift",
+            "addr": 4295018360
+          },
+          {
+            "name": "36",
+            "flag": "method.StickersDaemon.36",
+            "lang": "swift",
+            "addr": 4295069101
+          }
+        ],
+        "fields": [
+          {
+            "name": "logger",
+            "kind": "property",
+            "addr": 4295070001
+          },
+          {
+            "name": "services",
+            "kind": "property",
+            "type": "Array",
+            "addr": 4295070008
+          }
+        ]
+      },
+      {
+        "classname": "RecencyMigrator_V3",
+        "addr": 101632,
+        "lang": "swift",
+        "index": 8,
+        "fields": [
+          {
+            "name": "version",
+            "kind": "property",
+            "type": "Swift.Double",
+            "addr": 4295070017
+          }
+        ]
+      },
+      {
+        "classname": "StickersAnalyticsProcessor",
+        "addr": 101660,
+        "lang": "swift",
+        "index": 9,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ]
+      },
+      {
+        "classname": "StickersAnalyticsService",
+        "addr": 101704,
+        "lang": "swift",
+        "index": 10,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.StickersAnalyticsService.0",
+            "lang": "swift",
+            "addr": 4295069069
+          }
+        ],
+        "fields": [
+          {
+            "name": "machServiceName",
+            "kind": "property",
+            "type": "Swift.String",
+            "addr": 4295070025
+          },
+          {
+            "name": "logger",
+            "kind": "property",
+            "addr": 4295070041
+          },
+          {
+            "name": "store",
+            "kind": "property",
+            "addr": 4295070048
+          }
+        ]
+      },
+      {
+        "classname": "RecencyMigrator_V1",
+        "addr": 101784,
+        "lang": "swift",
+        "index": 11,
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.RecencyMigrator_V1.0",
+            "lang": "swift",
+            "addr": 4295069787
+          }
+        ],
+        "fields": [
+          {
+            "name": "version",
+            "kind": "property",
+            "type": "Swift.Double",
+            "addr": 4295070054
+          }
+        ]
+      },
+      {
+        "classname": "Provider",
+        "addr": 101812,
+        "lang": "swift",
+        "index": 12,
+        "super": [
+          "__C.NSObject"
+        ],
+        "rawsuper": [
+          "So8NSObjectC"
+        ],
+        "methods": [
+          {
+            "name": "0",
+            "flag": "method.Provider.0",
+            "lang": "swift",
+            "addr": 4295069175
+          },
+          {
+            "name": "1",
+            "flag": "method.Provider.1",
+            "lang": "swift",
+            "addr": 4295069176
+          },
+          {
+            "name": "2",
+            "flag": "method.Provider.2",
+            "lang": "swift",
+            "addr": 4295069184
+          },
+          {
+            "name": "3",
+            "flag": "method.Provider.3",
+            "lang": "swift",
+            "addr": 4295069192
+          },
+          {
+            "name": "func.10000ef0c",
+            "flag": "method.Provider.func.10000ef0c",
+            "lang": "swift",
+            "addr": 4295028492
+          },
+          {
+            "name": "5",
+            "flag": "method.Provider.5",
+            "lang": "swift",
+            "addr": 4295069208
+          },
+          {
+            "name": "6",
+            "flag": "method.Provider.6",
+            "lang": "swift",
+            "addr": 4295058592
+          },
+          {
+            "name": "7",
+            "flag": "method.Provider.7",
+            "lang": "swift",
+            "addr": 4295058600
+          },
+          {
+            "name": "8",
+            "flag": "method.StickersDaemon.15",
+            "lang": "swift",
+            "addr": 4295068448
+          },
+          {
+            "name": "func.100013ae4",
+            "flag": "method.Provider.func.100013ae4",
+            "lang": "swift",
+            "addr": 4295047908
+          },
+          {
+            "name": "10",
+            "flag": "method.Provider.10",
+            "lang": "swift",
+            "addr": 4295069248
+          }
+        ],
+        "fields": [
+          {
+            "name": "logger",
+            "kind": "property",
+            "addr": 4295070064
+          },
+          {
+            "name": "store",
+            "kind": "property",
+            "addr": 4295070071
+          }
+        ]
+      },
+      {
+        "classname": "SpotlightDaemonClientError",
+        "addr": 101932,
+        "lang": "swift",
+        "index": 13,
+        "fields": [
+          {
+            "name": "notImplemented",
+            "kind": "property",
+            "addr": 4295070086
+          },
+          {
+            "name": "unsupported",
+            "kind": "property",
+            "addr": 4295070101
+          },
+          {
+            "name": "invalidIdentifier",
+            "kind": "property",
+            "addr": 4295070128
+          },
+          {
+            "name": "notFound",
+            "kind": "property",
+            "addr": 4295070146
+          },
+          {
+            "name": "notAvailable",
+            "kind": "property",
+            "addr": 4295070155
+          }
+        ]
+      },
+      {
+        "classname": "StickerIndexingClient",
+        "addr": 101960,
+        "lang": "swift",
+        "index": 14,
+        "fields": [
+          {
+            "name": "logger",
+            "kind": "property",
+            "addr": 4295070064
+          },
+          {
+            "name": "provider",
+            "kind": "property",
+            "addr": 4295070077
+          }
+        ]
+      },
+      {
+        "classname": "RecencyMigrator_V2",
+        "addr": 102000,
+        "lang": "swift",
+        "index": 15,
+        "fields": [
+          {
+            "name": "version",
+            "kind": "property",
+            "type": "Swift.Double",
+            "addr": 4295070168
+          }
+        ]
+      },
+      {
+        "classname": "STKDaemonHelper",
+        "addr": 4295100664,
+        "lang": "objc",
+        "index": 16,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "isRunningInBuddy",
+            "flag": "method.class.STKDaemonHelper.isRunningInBuddy",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294973160
+          }
+        ]
+      },
+      {
+        "classname": "stickersd.StickersLaunchStateManagerService.Delegate",
+        "addr": 4295102560,
+        "lang": "objc",
+        "index": 17,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "listener:shouldAcceptNewConnection:",
+            "flag": "method.stickersd.StickersLaunchStateManagerService.Delegate.listener:shouldAcceptNewConnection:",
+            "lang": "objc",
+            "addr": 4294974452
+          },
+          {
+            "name": "init",
+            "flag": "method.stickersd.StickersLaunchStateManagerService.Delegate.init",
+            "lang": "objc",
+            "addr": 4294975732
+          }
+        ]
+      },
+      {
+        "classname": "stickersd.StickersLaunchStateManagerService.Delegate.Worker",
+        "addr": 4295102704,
+        "lang": "objc",
+        "index": 18,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "updateCurrentConfigurationWithSection:identifier:withReply:",
+            "flag": "func.100001d60",
+            "lang": "objc",
+            "addr": 4294974816
+          },
+          {
+            "name": "launchConfigurationWithReply:",
+            "flag": "func.100001e34",
+            "lang": "objc",
+            "addr": 4294975028
+          },
+          {
+            "name": "upperCaseString:withReply:",
+            "flag": "func.100001fe8",
+            "lang": "objc",
+            "addr": 4294975464
+          },
+          {
+            "name": "init",
+            "flag": "method.stickersd.StickersLaunchStateManagerService.Delegate.Worker.init",
+            "lang": "objc",
+            "addr": 4294975616
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.stickersd.StickersLaunchStateManagerService.Delegate.Worker..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294975716
+          },
+          {
+            "name": "updateCurrentConfigurationWithSection:identifier:withReply:",
+            "flag": "method.stickersd.StickersLaunchStateManagerService.Delegate.Worker.updateCurrentConfigurationWithSection:identifier:withReply:",
+            "lang": "objc",
+            "addr": 4295057008
+          },
+          {
+            "name": "launchConfigurationWithReply:",
+            "flag": "method.stickersd.StickersLaunchStateManagerService.Delegate.Worker.launchConfigurationWithReply:",
+            "lang": "objc",
+            "addr": 4295057020
+          },
+          {
+            "name": "upperCaseString:withReply:",
+            "flag": "method.stickersd.StickersLaunchStateManagerService.Delegate.Worker.upperCaseString:withReply:",
+            "lang": "objc",
+            "addr": 4295057032
+          },
+          {
+            "name": "updateCurrentConfigurationWithSection:identifier:withReply:",
+            "flag": "method.stickersd.StickersLaunchStateManagerService.Delegate.Worker.updateCurrentConfigurationWithSection:identifier:withReply:",
+            "lang": "objc",
+            "addr": 4295057008
+          },
+          {
+            "name": "launchConfigurationWithReply:",
+            "flag": "method.stickersd.StickersLaunchStateManagerService.Delegate.Worker.launchConfigurationWithReply:",
+            "lang": "objc",
+            "addr": 4295057020
+          },
+          {
+            "name": "upperCaseString:withReply:",
+            "flag": "method.stickersd.StickersLaunchStateManagerService.Delegate.Worker.upperCaseString:withReply:",
+            "lang": "objc",
+            "addr": 4295057032
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "$__lazy_storage_$_launchStateManager",
+            "kind": "var",
+            "addr": 4295102696
+          }
+        ]
+      },
+      {
+        "classname": "stickersd.StickersAPIService.Delegate",
+        "addr": 4295102864,
+        "lang": "objc",
+        "index": 19,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "listener:shouldAcceptNewConnection:",
+            "flag": "method.stickersd.StickersAPIService.Delegate.listener:shouldAcceptNewConnection:",
+            "lang": "objc",
+            "addr": 4294980648
+          },
+          {
+            "name": "init",
+            "flag": "method.stickersd.StickersAPIService.Delegate.init",
+            "lang": "objc",
+            "addr": 4294980768
+          }
+        ]
+      },
+      {
+        "classname": "stickersd.StickersAPIService.Worker",
+        "addr": 4295102912,
+        "lang": "objc",
+        "index": 20,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.stickersd.StickersAPIService.Worker.init",
+            "lang": "objc",
+            "addr": 4294981048
+          },
+          {
+            "name": "upperCaseString:withReply:",
+            "flag": "func.100003640",
+            "lang": "objc",
+            "addr": 4294981184
+          },
+          {
+            "name": "countFor:withReply:",
+            "flag": "func.100003cac",
+            "lang": "objc",
+            "addr": 4294982828
+          },
+          {
+            "name": "fetch:withReply:",
+            "flag": "func.1000045d0",
+            "lang": "objc",
+            "addr": 4294985168
+          },
+          {
+            "name": "addSticker:withReply:",
+            "flag": "func.100004bc0",
+            "lang": "objc",
+            "addr": 4294986688
+          },
+          {
+            "name": "removeStickersWithIdentifiers:withReply:",
+            "flag": "func.100004e58",
+            "lang": "objc",
+            "addr": 4294987352
+          },
+          {
+            "name": "updateSticker:withReply:",
+            "flag": "func.100004f44",
+            "lang": "objc",
+            "addr": 4294987588
+          },
+          {
+            "name": "touchStickerSpotlightItem:withReply:",
+            "flag": "func.100005438",
+            "lang": "objc",
+            "addr": 4294988856
+          },
+          {
+            "name": "reindexAllStickers",
+            "flag": "func.100005774",
+            "lang": "objc",
+            "addr": 4294989684
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.stickersd.StickersAPIService.Worker..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294989824
+          },
+          {
+            "name": "upperCaseString:withReply:",
+            "flag": "method.stickersd.StickersAPIService.Worker.upperCaseString:withReply:",
+            "lang": "objc",
+            "addr": 4295056904
+          },
+          {
+            "name": "countFor:withReply:",
+            "flag": "method.stickersd.StickersAPIService.Worker.countFor:withReply:",
+            "lang": "objc",
+            "addr": 4295056916
+          },
+          {
+            "name": "fetch:withReply:",
+            "flag": "method.stickersd.StickersAPIService.Worker.fetch:withReply:",
+            "lang": "objc",
+            "addr": 4295056928
+          },
+          {
+            "name": "addSticker:withReply:",
+            "flag": "method.stickersd.StickersAPIService.Worker.addSticker:withReply:",
+            "lang": "objc",
+            "addr": 4295056940
+          },
+          {
+            "name": "removeStickersWithIdentifiers:withReply:",
+            "flag": "method.stickersd.StickersAPIService.Worker.removeStickersWithIdentifiers:withReply:",
+            "lang": "objc",
+            "addr": 4295056952
+          },
+          {
+            "name": "updateSticker:withReply:",
+            "flag": "method.stickersd.StickersAPIService.Worker.updateSticker:withReply:",
+            "lang": "objc",
+            "addr": 4295056964
+          },
+          {
+            "name": "touchStickerSpotlightItem:withReply:",
+            "flag": "method.stickersd.StickersAPIService.Worker.touchStickerSpotlightItem:withReply:",
+            "lang": "objc",
+            "addr": 4295056976
+          },
+          {
+            "name": "reindexAllStickers",
+            "flag": "method.stickersd.StickersAPIService.Worker.reindexAllStickers",
+            "lang": "objc",
+            "addr": 4295056988
+          },
+          {
+            "name": "upperCaseString:withReply:",
+            "flag": "method.stickersd.StickersAPIService.Worker.upperCaseString:withReply:",
+            "lang": "objc",
+            "addr": 4295056904
+          },
+          {
+            "name": "countFor:withReply:",
+            "flag": "method.stickersd.StickersAPIService.Worker.countFor:withReply:",
+            "lang": "objc",
+            "addr": 4295056916
+          },
+          {
+            "name": "fetch:withReply:",
+            "flag": "method.stickersd.StickersAPIService.Worker.fetch:withReply:",
+            "lang": "objc",
+            "addr": 4295056928
+          },
+          {
+            "name": "addSticker:withReply:",
+            "flag": "method.stickersd.StickersAPIService.Worker.addSticker:withReply:",
+            "lang": "objc",
+            "addr": 4295056940
+          },
+          {
+            "name": "removeStickersWithIdentifiers:withReply:",
+            "flag": "method.stickersd.StickersAPIService.Worker.removeStickersWithIdentifiers:withReply:",
+            "lang": "objc",
+            "addr": 4295056952
+          },
+          {
+            "name": "updateSticker:withReply:",
+            "flag": "method.stickersd.StickersAPIService.Worker.updateSticker:withReply:",
+            "lang": "objc",
+            "addr": 4295056964
+          },
+          {
+            "name": "touchStickerSpotlightItem:withReply:",
+            "flag": "method.stickersd.StickersAPIService.Worker.touchStickerSpotlightItem:withReply:",
+            "lang": "objc",
+            "addr": 4295056976
+          },
+          {
+            "name": "reindexAllStickers",
+            "flag": "method.stickersd.StickersAPIService.Worker.reindexAllStickers",
+            "lang": "objc",
+            "addr": 4295056988
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "store",
+            "kind": "var",
+            "addr": 4295102904
+          }
+        ]
+      },
+      {
+        "classname": "stickersd.StickersDaemon",
+        "addr": 4295103072,
+        "lang": "objc",
+        "index": 21,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "runOn:",
+            "flag": "method.stickersd.StickersDaemon.runOn:",
+            "lang": "objc",
+            "addr": 4294993456
+          },
+          {
+            "name": "init",
+            "flag": "method.stickersd.StickersDaemon.init",
+            "lang": "objc",
+            "addr": 4295000112
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.stickersd.StickersDaemon..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295000316
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "logger",
+            "kind": "var",
+            "addr": 4295103056
+          },
+          {
+            "name": "services",
+            "kind": "var",
+            "addr": 4295103064
+          }
+        ]
+      },
+      {
+        "classname": "stickersd.StickersAnalyticsProcessor",
+        "addr": 4295103280,
+        "lang": "objc",
+        "index": 22,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.stickersd.StickersAnalyticsProcessor.init",
+            "lang": "objc",
+            "addr": 4295013996
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.stickersd.StickersAnalyticsProcessor..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295014112
+          }
+        ]
+      },
+      {
+        "classname": "stickersd.StickersAnalyticsService",
+        "addr": 4295103360,
+        "lang": "objc",
+        "index": 23,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "logger",
+            "kind": "var",
+            "addr": 4295104272
+          },
+          {
+            "name": "store",
+            "kind": "var",
+            "addr": 4295104280
+          },
+          {
+            "name": "machServiceName",
+            "kind": "var",
+            "addr": 4295058176
+          }
+        ]
+      },
+      {
+        "classname": "stickersd.StickerIndexingClient.Provider",
+        "addr": 4295103680,
+        "lang": "objc",
+        "index": 24,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "provideDataForBundleID:protectionClass:itemIdentifier:typeIdentifier:options:completionHandler:",
+            "flag": "method.stickersd.StickerIndexingClient.Provider.provideDataForBundleID:protectionClass:itemIdentifier:typeIdentifier:options:completionHandler:",
+            "lang": "objc",
+            "addr": 4295028440
+          },
+          {
+            "name": "provideFileURLForBundleID:protectionClass:itemIdentifier:typeIdentifier:options:completionHandler:",
+            "flag": "method.stickersd.StickerIndexingClient.Provider.provideFileURLForBundleID:protectionClass:itemIdentifier:typeIdentifier:options:completionHandler:",
+            "lang": "objc",
+            "addr": 4295031328
+          },
+          {
+            "name": "reindexAllItemsForBundleID:protectionClass:acknowledgementHandler:",
+            "flag": "func.10000fd94",
+            "lang": "objc",
+            "addr": 4295032212
+          },
+          {
+            "name": "reindexItemsWithIdentifiers:bundleID:protectionClass:acknowledgementHandler:",
+            "flag": "method.stickersd.StickerIndexingClient.Provider.reindexItemsWithIdentifiers:bundleID:protectionClass:acknowledgementHandler:",
+            "lang": "objc",
+            "addr": 4295034664
+          },
+          {
+            "name": "init",
+            "flag": "method.stickersd.StickerIndexingClient.Provider.init",
+            "lang": "objc",
+            "addr": 4295035812
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.stickersd.StickerIndexingClient.Provider..cxx_destruct",
+            "lang": "objc",
+            "addr": 4295035916
+          },
+          {
+            "name": "reindexAllItemsForBundleID:protectionClass:acknowledgementHandler:",
+            "flag": "method.stickersd.StickerIndexingClient.Provider.reindexAllItemsForBundleID:protectionClass:acknowledgementHandler:",
+            "lang": "objc",
+            "addr": 4295056880
+          },
+          {
+            "name": "reindexAllItemsForBundleID:protectionClass:acknowledgementHandler:",
+            "flag": "method.stickersd.StickerIndexingClient.Provider.reindexAllItemsForBundleID:protectionClass:acknowledgementHandler:",
+            "lang": "objc",
+            "addr": 4295056880
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "logger",
+            "kind": "var",
+            "addr": 4295104296
+          },
+          {
+            "name": "store",
+            "kind": "var",
+            "addr": 4295104304
+          }
+        ]
+      }
+    ],
+    "swift_metadata": {
+      "is_swift": true,
+      "symbols": [
+        {
+          "name": "imp.$s10Foundation14LocalizedErrorPAAE10helpAnchorSSSgvg",
+          "demname": "Foundation.LocalizedError..helpAnchor(...Sgvg)",
+          "flagname": "sym.imp.Foundation.LocalizedError..helpAnchor_...Sgvg_",
+          "realname": "Foundation.LocalizedError..helpAnchor(...Sgvg)",
+          "ordinal": 2,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295052424,
+          "paddr": 281736,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation14LocalizedErrorPAAE13failureReasonSSSgvg",
+          "demname": "Foundation.LocalizedError..failureReason(...Sgvg)",
+          "flagname": "sym.imp.Foundation.LocalizedError..failureReason_...Sgvg_",
+          "realname": "Foundation.LocalizedError..failureReason(...Sgvg)",
+          "ordinal": 3,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295052440,
+          "paddr": 281752,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation14LocalizedErrorPAAE18recoverySuggestionSSSgvg",
+          "demname": "Foundation.LocalizedError..recoverySuggestion(...Sgvg)",
+          "flagname": "sym.imp.Foundation.LocalizedError..recoverySuggestion_...Sgvg_",
+          "realname": "Foundation.LocalizedError..recoverySuggestion(...Sgvg)",
+          "ordinal": 4,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295052456,
+          "paddr": 281768,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation22_convertErrorToNSErrorySo0E0Cs0C0_pF",
+          "demname": "Foundation._convertErrorToNSError(...F)",
+          "flagname": "sym.imp.Foundation._convertErrorToNSError_...F_",
+          "realname": "Foundation._convertErrorToNSError(...F)",
+          "ordinal": 5,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295052472,
+          "paddr": 281784,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation3URLV19_bridgeToObjectiveCSo5NSURLCyF",
+          "demname": "Foundation.URL._bridgeToObjectiveC.NSURL(...F)",
+          "flagname": "sym.imp.Foundation.URL._bridgeToObjectiveC.NSURL_...F_",
+          "realname": "Foundation.URL._bridgeToObjectiveC.NSURL(...F)",
+          "ordinal": 6,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295052488,
+          "paddr": 281800,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation3URLV6schemeSSSgvg",
+          "demname": "Foundation.URL.scheme(...Sgvg)",
+          "flagname": "sym.imp.Foundation.URL.scheme_...Sgvg_",
+          "realname": "Foundation.URL.scheme(...Sgvg)",
+          "ordinal": 7,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295052504,
+          "paddr": 281816,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation3URLV6stringACSgSSh_tcfC",
+          "demname": "Foundation.URL.string(...cfC)",
+          "flagname": "sym.imp.Foundation.URL.string_...cfC_",
+          "realname": "Foundation.URL.string(...cfC)",
+          "ordinal": 8,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295052520,
+          "paddr": 281832,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation3URLVMa",
+          "demname": "Foundation.URL...VMa",
+          "flagname": "sym.imp.Foundation.URL...VMa",
+          "realname": "Foundation.URL...VMa",
+          "ordinal": 9,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295052536,
+          "paddr": 281848,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4DataV19_bridgeToObjectiveCSo6NSDataCyF",
+          "demname": "Foundation.Data._bridgeToObjectiveC.NSData(...F)",
+          "flagname": "sym.imp.Foundation.Data._bridgeToObjectiveC.NSData_...F_",
+          "realname": "Foundation.Data._bridgeToObjectiveC.NSData(...F)",
+          "ordinal": 10,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295052552,
+          "paddr": 281864,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4DataV36_unconditionallyBridgeFromObjectiveCyACSo6NSDataCSgFZ",
+          "demname": "Foundation.Data._unconditionallyBridgeFromObjectiveC.NSData(...gFZ)",
+          "flagname": "sym.imp.Foundation.Data._unconditionallyBridgeFromObjectiveC.NSData_...gFZ_",
+          "realname": "Foundation.Data._unconditionallyBridgeFromObjectiveC.NSData(...gFZ)",
+          "ordinal": 11,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295052568,
+          "paddr": 281880,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4DateV3nowACvgZ",
+          "demname": "Foundation.Date.now(...vgZ)",
+          "flagname": "sym.imp.Foundation.Date.now_...vgZ_",
+          "realname": "Foundation.Date.now(...vgZ)",
+          "ordinal": 12,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295052584,
+          "paddr": 281896,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4DateVMa",
+          "demname": "Foundation.Date...VMa",
+          "flagname": "sym.imp.Foundation.Date...VMa",
+          "realname": "Foundation.Date...VMa",
+          "ordinal": 13,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295052600,
+          "paddr": 281912,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4UUIDV10uuidStringACSgSSh_tcfC",
+          "demname": "Foundation.UUID.uuidString(...cfC)",
+          "flagname": "sym.imp.Foundation.UUID.uuidString_...cfC_",
+          "realname": "Foundation.UUID.uuidString(...cfC)",
+          "ordinal": 14,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295052616,
+          "paddr": 281928,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4UUIDV19_bridgeToObjectiveCSo6NSUUIDCyF",
+          "demname": "Foundation.UUID._bridgeToObjectiveC.NSUUID(...F)",
+          "flagname": "sym.imp.Foundation.UUID._bridgeToObjectiveC.NSUUID_...F_",
+          "realname": "Foundation.UUID._bridgeToObjectiveC.NSUUID(...F)",
+          "ordinal": 15,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295052632,
+          "paddr": 281944,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s10Foundation4UUIDVMa",
+          "demname": "Foundation.UUID...VMa",
+          "flagname": "sym.imp.Foundation.UUID...VMa",
+          "realname": "Foundation.UUID...VMa",
+          "ordinal": 16,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295052648,
+          "paddr": 281960,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s14RecencyService010ImageGlyphA13ModelMigratorPxycfCTj",
+          "demname": "RecencyService.ImageGlyph.ModelMigrator(...xycfCTj)",
+          "flagname": "sym.imp.RecencyService.ImageGlyph.ModelMigrator_...xycfCTj_",
+          "realname": "RecencyService.ImageGlyph.ModelMigrator(...xycfCTj)",
+          "ordinal": 17,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295052664,
+          "paddr": 281976,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s14RecencyService010ImageGlyphA5ModelC0cD22ExternalRepresentationOMa",
+          "demname": "RecencyService.ImageGlyph.Model.(...D22ExternalRepresentationOMa)",
+          "flagname": "sym.imp.RecencyService.ImageGlyph.Model._...D22ExternalRepresentationOMa_",
+          "realname": "RecencyService.ImageGlyph.Model.(...D22ExternalRepresentationOMa)",
+          "ordinal": 18,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295052680,
+          "paddr": 281992,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s14RecencyService010ImageGlyphA5ModelC0cD4TypeOMa",
+          "demname": "RecencyService.ImageGlyph.Model.(...D4TypeOMa)",
+          "flagname": "sym.imp.RecencyService.ImageGlyph.Model._...D4TypeOMa_",
+          "realname": "RecencyService.ImageGlyph.Model.(...D4TypeOMa)",
+          "ordinal": 19,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295052696,
+          "paddr": 282008,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s14RecencyService010ImageGlyphA5ModelC12recentlyUsed6ofType5limitSayAC0cD22ExternalRepresentationOGAC0cdI0OSg_SitF",
+          "demname": "RecencyService.ImageGlyph.Model.recentlyUsed.ofType(...itF)",
+          "flagname": "sym.imp.RecencyService.ImageGlyph.Model.recentlyUsed.ofType_...itF_",
+          "realname": "RecencyService.ImageGlyph.Model.recentlyUsed.ofType(...itF)",
+          "ordinal": 20,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295052712,
+          "paddr": 282024,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s14RecencyService010ImageGlyphA5ModelC16recordEngagement3for_SdAC0cD22ExternalRepresentationO_10Foundation4DateVtF",
+          "demname": "RecencyService.ImageGlyph.Model.recordEngagement.for: Swift.Double, A....10Foundation4DateVtF",
+          "flagname": "sym.imp.RecencyService.ImageGlyph.Model.recordEngagement.for:_Swift.Double__A....10Foundation4DateVtF",
+          "realname": "RecencyService.ImageGlyph.Model.recordEngagement.for: Swift.Double, A....10Foundation4DateVtF",
+          "ordinal": 21,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295052728,
+          "paddr": 282040,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s14RecencyService010ImageGlyphA5ModelC23removeEngagementHistory3foryAC0cD22ExternalRepresentationO_tF",
+          "demname": "RecencyService.ImageGlyph.Model.removeEngagementHistory.for(...F)",
+          "flagname": "sym.imp.RecencyService.ImageGlyph.Model.removeEngagementHistory.for_...F_",
+          "realname": "RecencyService.ImageGlyph.Model.removeEngagementHistory.for(...F)",
+          "ordinal": 22,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295052744,
+          "paddr": 282056,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s14RecencyService010ImageGlyphA5ModelC3set9frequency3forySd_AC0cD22ExternalRepresentationOtF",
+          "demname": "RecencyService.ImageGlyph.Model.set.frequency.(...cD22ExternalRepresentationOtF)",
+          "flagname": "sym.imp.RecencyService.ImageGlyph.Model.set.frequency._...cD22ExternalRepresentationOtF_",
+          "realname": "RecencyService.ImageGlyph.Model.set.frequency.(...cD22ExternalRepresentationOtF)",
+          "ordinal": 23,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295052760,
+          "paddr": 282072,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s14RecencyService010ImageGlyphA5ModelCMa",
+          "demname": "RecencyService.ImageGlyph.Model..metadata.accessor(...a)",
+          "flagname": "sym.imp.RecencyService.ImageGlyph.Model..metadata.accessor_...a_",
+          "realname": "RecencyService.ImageGlyph.Model..metadata.accessor(...a)",
+          "ordinal": 24,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295052776,
+          "paddr": 282088,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s14RecencyService0aB8ListenerC12loadFromDiskyyYaF",
+          "demname": "RecencyService: ', Listener.loadFromDisk(...yYaF)",
+          "flagname": "sym.imp.RecencyService:___Listener.loadFromDisk_...yYaF_",
+          "realname": "RecencyService: ', Listener.loadFromDisk(...yYaF)",
+          "ordinal": 25,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295052792,
+          "paddr": 282104,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s14RecencyService0aB8ListenerC16performMigration4with5forceyAA010ImageGlyphA13ModelMigrator_p_SbtYaF",
+          "demname": "RecencyService: ', Listener.performMigration.with(...btYaF)",
+          "flagname": "sym.imp.RecencyService:___Listener.performMigration.with_...btYaF_",
+          "realname": "RecencyService: ', Listener.performMigration.with(...btYaF)",
+          "ordinal": 26,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295052808,
+          "paddr": 282120,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s14RecencyService0aB8ListenerC5startSbyYaF",
+          "demname": "RecencyService: ', Listener.start: ', C(...startSbyYaF)",
+          "flagname": "sym.imp.RecencyService:___Listener.start:___C_...startSbyYaF_",
+          "realname": "RecencyService: ', Listener.start: ', C(...startSbyYaF)",
+          "ordinal": 27,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295052824,
+          "paddr": 282136,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s14RecencyService0aB8ListenerCACycfC",
+          "demname": "RecencyService: ', Listener.bool: ', C.(...cfC)",
+          "flagname": "sym.imp.RecencyService:___Listener.bool:___C._...cfC_",
+          "realname": "RecencyService: ', Listener.bool: ', C.(...cfC)",
+          "ordinal": 28,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295052840,
+          "paddr": 282152,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s14RecencyService0aB8ListenerCMa",
+          "demname": "RecencyService: 'Listener..metadata.accessor(...a)",
+          "flagname": "sym.imp.RecencyService:_Listener..metadata.accessor_...a_",
+          "realname": "RecencyService: 'Listener..metadata.accessor(...a)",
+          "ordinal": 29,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295052856,
+          "paddr": 282168,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s2os6LoggerV9logObjectSo03OS_a1_C0Cvg",
+          "demname": "os.Logger.logObject.OS_._...C0Cvg",
+          "flagname": "sym.imp.os.Logger.logObject.OS_._...C0Cvg",
+          "realname": "os.Logger.logObject.OS_._...C0Cvg",
+          "ordinal": 30,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295052872,
+          "paddr": 282184,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s2os6LoggerV9subsystem8categoryACSS_SStcfC",
+          "demname": "os.Logger.subsystem.category__String(...tcfC)",
+          "flagname": "sym.imp.os.Logger.subsystem.category__String_...tcfC_",
+          "realname": "os.Logger.subsystem.category__String(...tcfC)",
+          "ordinal": 31,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295052888,
+          "paddr": 282200,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s2os6LoggerVMa",
+          "demname": "os.Logger...VMa",
+          "flagname": "sym.imp.os.Logger...VMa",
+          "realname": "os.Logger...VMa",
+          "ordinal": 32,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295052904,
+          "paddr": 282216,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers06RemoteA3APIV12xpcInterfaceSo14NSXPCInterfaceCvgZ",
+          "demname": "Stickers.Remote.API.xpcInterface.NSXPCInterface(...gZ)",
+          "flagname": "sym.imp.Stickers.Remote.API.xpcInterface.NSXPCInterface_...gZ_",
+          "realname": "Stickers.Remote.API.xpcInterface.NSXPCInterface(...gZ)",
+          "ordinal": 33,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295052920,
+          "paddr": 282232,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers12StickerStoreC06removeA011identifiersySay10Foundation4UUIDVG_tKFTj",
+          "demname": "Stickers.StickerStore.remove.allocator.identifiers(...KFTj)",
+          "flagname": "sym.imp.Stickers.StickerStore.remove.allocator.identifiers_...KFTj_",
+          "realname": "Stickers.StickerStore.remove.allocator.identifiers(...KFTj)",
+          "ordinal": 34,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295052936,
+          "paddr": 282248,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers12StickerStoreC11persistenceA2C15PersistenceTypeO_tcfc",
+          "demname": "Stickers.StickerStore.persistence.allocator.C1.Persi(...cfc)",
+          "flagname": "sym.imp.Stickers.StickerStore.persistence.allocator.C1.Persi_...cfc_",
+          "realname": "Stickers.StickerStore.persistence.allocator.C1.Persi(...cfc)",
+          "ordinal": 35,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295052952,
+          "paddr": 282264,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers12StickerStoreC14createAPIStoreACyFZ",
+          "demname": "Stickers.StickerStore.createAPIStore.allocator.(...FZ)",
+          "flagname": "sym.imp.Stickers.StickerStore.createAPIStore.allocator._...FZ_",
+          "realname": "Stickers.StickerStore.createAPIStore.allocator.(...FZ)",
+          "ordinal": 36,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295052968,
+          "paddr": 282280,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers12StickerStoreC15PersistenceTypeOMa",
+          "demname": "Stickers.StickerStore.PersistenceType.allocator..metadata.accessor(...a)",
+          "flagname": "sym.imp.Stickers.StickerStore.PersistenceType.allocator..metadata.accessor_...a_",
+          "realname": "Stickers.StickerStore.PersistenceType.allocator..metadata.accessor(...a)",
+          "ordinal": 37,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295052984,
+          "paddr": 282296,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers12StickerStoreC8stickers11identifiers23representationSpecifierST_pAA0B0C7ElementSTRts_XPST_p10Foundation4UUIDVAJRS_XP_AH12FetchRequestV014RepresentationG0OtKFTj",
+          "demname": "Stickers.StickerStore.stickers.allocator..Fe.Representation...G0OtKFTj",
+          "flagname": "sym.imp.Stickers.StickerStore.stickers.allocator..Fe.Representation...G0OtKFTj",
+          "realname": "Stickers.StickerStore.stickers.allocator..Fe.Representation...G0OtKFTj",
+          "ordinal": 38,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053000,
+          "paddr": 282312,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers12StickerStoreC8stickersyAA0B8SequenceVAA0B0C12FetchRequestVKFTj",
+          "demname": "Stickers.StickerStore.stickers.allocator(...AA0B8SequenceVAA0B0C12FetchRequestVKFTj)",
+          "flagname": "sym.imp.Stickers.StickerStore.stickers.allocator_...AA0B8SequenceVAA0B0C12FetchRequestVKFTj_",
+          "realname": "Stickers.StickerStore.stickers.allocator(...AA0B8SequenceVAA0B0C12FetchRequestVKFTj)",
+          "ordinal": 39,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053016,
+          "paddr": 282328,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers12StickerStoreCMa",
+          "demname": "Stickers.StickerStore.allocator(...a)",
+          "flagname": "sym.imp.Stickers.StickerStore.allocator_...a_",
+          "realname": "Stickers.StickerStore.allocator(...a)",
+          "ordinal": 40,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053032,
+          "paddr": 282344,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers15StickerSequenceVMa",
+          "demname": "Stickers.StickerSequence...VMa",
+          "flagname": "sym.imp.Stickers.StickerSequence...VMa",
+          "realname": "Stickers.StickerSequence...VMa",
+          "ordinal": 41,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053048,
+          "paddr": 282360,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers16StickerReindexerV07reindexA04withySay10Foundation4UUIDVG_tF",
+          "demname": "Stickers.StickerReindexer.reindex.with.Foundation.UUID...VG_tF",
+          "flagname": "sym.imp.Stickers.StickerReindexer.reindex.with.Foundation.UUID...VG_tF",
+          "realname": "Stickers.StickerReindexer.reindex.with.Foundation.UUID...VG_tF",
+          "ordinal": 42,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053064,
+          "paddr": 282376,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers16StickerReindexerV28dataForManagedRepresentation3uri10Foundation4DataVSgAF3URLV_tF",
+          "demname": "Stickers.StickerReindexer.dataForManagedRepresentation.uri.Foundation.Data.URL...V_tF",
+          "flagname": "sym.imp.Stickers.StickerReindexer.dataForManagedRepresentation.uri.Foundation.Data.URL...V_tF",
+          "realname": "Stickers.StickerReindexer.dataForManagedRepresentation.uri.Foundation.Data.URL...V_tF",
+          "ordinal": 43,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053080,
+          "paddr": 282392,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers16StickerReindexerV6sharedACvMZ",
+          "demname": "Stickers.StickerReindexer.shared(...vMZ)",
+          "flagname": "sym.imp.Stickers.StickerReindexer.shared_...vMZ_",
+          "realname": "Stickers.StickerReindexer.shared(...vMZ)",
+          "ordinal": 44,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053096,
+          "paddr": 282408,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers18LaunchStateManagerC19launchConfigurationAA0bF0CvgTj",
+          "demname": "Stickers.LaunchStateManager.launchConfiguration.allocator.(...bF0CvgTj)",
+          "flagname": "sym.imp.Stickers.LaunchStateManager.launchConfiguration.allocator._...bF0CvgTj_",
+          "realname": "Stickers.LaunchStateManager.launchConfiguration.allocator.(...bF0CvgTj)",
+          "ordinal": 45,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053112,
+          "paddr": 282424,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers18LaunchStateManagerC19updateConfiguration4withyAA0bF0C_tKFTj",
+          "demname": "Stickers.LaunchStateManager.updateConfiguration.allocator(...KFTj)",
+          "flagname": "sym.imp.Stickers.LaunchStateManager.updateConfiguration.allocator_...KFTj_",
+          "realname": "Stickers.LaunchStateManager.updateConfiguration.allocator(...KFTj)",
+          "ordinal": 46,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053128,
+          "paddr": 282440,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers18LaunchStateManagerCMa",
+          "demname": "Stickers.LaunchStateManager.allocator(...a)",
+          "flagname": "sym.imp.Stickers.LaunchStateManager.allocator_...a_",
+          "realname": "Stickers.LaunchStateManager.allocator(...a)",
+          "ordinal": 47,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053144,
+          "paddr": 282456,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers18StickerSectionTypeO8rawValueACSgSS_tcfC",
+          "demname": "Stickers.StickerSectionType.rawValue.SgSS_tcfC",
+          "flagname": "sym.imp.Stickers.StickerSectionType.rawValue.SgSS_tcfC",
+          "realname": "Stickers.StickerSectionType.rawValue.SgSS_tcfC",
+          "ordinal": 48,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053160,
+          "paddr": 282472,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers18StickerSectionTypeO8rawValueSSvg",
+          "demname": "Stickers.StickerSectionType.rawValue__String(...vg)",
+          "flagname": "sym.imp.Stickers.StickerSectionType.rawValue__String_...vg_",
+          "realname": "Stickers.StickerSectionType.rawValue__String(...vg)",
+          "ordinal": 49,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053176,
+          "paddr": 282488,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers18StickerSectionTypeOMa",
+          "demname": "Stickers.StickerSectionType..metadata.accessor(...a)",
+          "flagname": "sym.imp.Stickers.StickerSectionType..metadata.accessor_...a_",
+          "realname": "Stickers.StickerSectionType..metadata.accessor(...a)",
+          "ordinal": 50,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053192,
+          "paddr": 282504,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers18XPCDataMapperErrorOMa",
+          "demname": "Stickers.XPCDataMapperError..metadata.accessor(...a)",
+          "flagname": "sym.imp.Stickers.XPCDataMapperError..metadata.accessor_...a_",
+          "realname": "Stickers.XPCDataMapperError..metadata.accessor(...a)",
+          "ordinal": 51,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053208,
+          "paddr": 282520,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers19LaunchConfigurationC10identifierSSSgvg",
+          "demname": "Stickers.LaunchConfiguration.identifier.allocator__Swift.String__String: allocator, identifier__String: allocator, S__String -> GenericAccessor",
+          "flagname": "sym.imp.Stickers.LaunchConfiguration.identifier.allocator__Swift.String__String:_allocator__identifier__String:_allocator__S__String____GenericAccessor",
+          "realname": "Stickers.LaunchConfiguration.identifier.allocator__Swift.String__String: allocator, identifier__String: allocator, S__String -> GenericAccessor",
+          "ordinal": 52,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053224,
+          "paddr": 282536,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers19LaunchConfigurationC11sectionType10identifierAcA014StickerSectionE0O_SSSgtcfc",
+          "demname": "Stickers.LaunchConfiguration.sectionType.allocator__String(...Sgtcfc)",
+          "flagname": "sym.imp.Stickers.LaunchConfiguration.sectionType.allocator__String_...Sgtcfc_",
+          "realname": "Stickers.LaunchConfiguration.sectionType.allocator__String(...Sgtcfc)",
+          "ordinal": 53,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053240,
+          "paddr": 282552,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers19LaunchConfigurationC11sectionTypeAA014StickerSectionE0Ovg",
+          "demname": "Stickers.LaunchConfiguration.sectionType.allocator..StickerSection...E0Ovg",
+          "flagname": "sym.imp.Stickers.LaunchConfiguration.sectionType.allocator..StickerSection...E0Ovg",
+          "realname": "Stickers.LaunchConfiguration.sectionType.allocator..StickerSection...E0Ovg",
+          "ordinal": 54,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053256,
+          "paddr": 282568,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers19LaunchConfigurationCMa",
+          "demname": "Stickers.LaunchConfiguration.allocator(...a)",
+          "flagname": "sym.imp.Stickers.LaunchConfiguration.allocator_...a_",
+          "realname": "Stickers.LaunchConfiguration.allocator(...a)",
+          "ordinal": 55,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053272,
+          "paddr": 282584,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers20StickerStoreProtocolP010reindexAllA0yyKFTj",
+          "demname": "Stickers.StickerStoreProtocol.reindexAll.(...yKFTj)",
+          "flagname": "sym.imp.Stickers.StickerStoreProtocol.reindexAll._...yKFTj_",
+          "realname": "Stickers.StickerStoreProtocol.reindexAll.(...yKFTj)",
+          "ordinal": 56,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053288,
+          "paddr": 282600,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers20StickerStoreProtocolP5count3forSiAA0B0C12FetchRequestV_tKFTj",
+          "demname": "Stickers.StickerStoreProtocol.count.for(...KFTj)",
+          "flagname": "sym.imp.Stickers.StickerStoreProtocol.count.for_...KFTj_",
+          "realname": "Stickers.StickerStoreProtocol.count.for(...KFTj)",
+          "ordinal": 57,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053304,
+          "paddr": 282616,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers20StickerStoreProtocolP8stickersyAA0B8SequenceVAA0B0C12FetchRequestVKFTj",
+          "demname": "Stickers.StickerStoreProtocol.stickers(...AA0B8SequenceVAA0B0C12FetchRequestVKFTj)",
+          "flagname": "sym.imp.Stickers.StickerStoreProtocol.stickers_...AA0B8SequenceVAA0B0C12FetchRequestVKFTj_",
+          "realname": "Stickers.StickerStoreProtocol.stickers(...AA0B8SequenceVAA0B0C12FetchRequestVKFTj)",
+          "ordinal": 58,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053320,
+          "paddr": 282632,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers21LaunchStateManagerAPIV12xpcInterfaceSo14NSXPCInterfaceCvgZ",
+          "demname": "Stickers.LaunchStateManagerAPI.xpcInterface.NSXPCInterface(...gZ)",
+          "flagname": "sym.imp.Stickers.LaunchStateManagerAPI.xpcInterface.NSXPCInterface_...gZ_",
+          "realname": "Stickers.LaunchStateManagerAPI.xpcInterface.NSXPCInterface(...gZ)",
+          "ordinal": 59,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053336,
+          "paddr": 282648,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers23StickerSequenceIteratorVMa",
+          "demname": "Stickers.StickerSequenceIterator...VMa",
+          "flagname": "sym.imp.Stickers.StickerSequenceIterator...VMa",
+          "realname": "Stickers.StickerSequenceIterator...VMa",
+          "ordinal": 60,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053352,
+          "paddr": 282664,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers28StickerStoreProtocolInternalP018_internal_only_addB0yAA0B0CAFKFTj",
+          "demname": "Stickers.StickerStoreProtocolInternal._internal_only_add...B0yAA0B0CAFKFTj",
+          "flagname": "sym.imp.Stickers.StickerStoreProtocolInternal._internal_only_add...B0yAA0B0CAFKFTj",
+          "realname": "Stickers.StickerStoreProtocolInternal._internal_only_add...B0yAA0B0CAFKFTj",
+          "ordinal": 61,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053368,
+          "paddr": 282680,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers28StickerStoreProtocolInternalP021_internal_only_removeA011identifiersySay10Foundation4UUIDVG_tKFTj",
+          "demname": "Stickers.StickerStoreProtocolInternal._internal_only_remove.identifiers(...KFTj)",
+          "flagname": "sym.imp.Stickers.StickerStoreProtocolInternal._internal_only_remove.identifiers_...KFTj_",
+          "realname": "Stickers.StickerStoreProtocolInternal._internal_only_remove.identifiers(...KFTj)",
+          "ordinal": 62,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053384,
+          "paddr": 282696,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers7StickerC0B4TypeOMa",
+          "demname": "Stickers.Sticker.allocator.Type(...a)",
+          "flagname": "sym.imp.Stickers.Sticker.allocator.Type_...a_",
+          "realname": "Stickers.Sticker.allocator.Type(...a)",
+          "ordinal": 63,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053400,
+          "paddr": 282712,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers7StickerC10identifier10Foundation4UUIDVvg",
+          "demname": "Stickers.Sticker.identifier.allocator...10Foundation4UUIDVvg",
+          "flagname": "sym.imp.Stickers.Sticker.identifier.allocator...10Foundation4UUIDVvg",
+          "realname": "Stickers.Sticker.identifier.allocator...10Foundation4UUIDVvg",
+          "ordinal": 64,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053416,
+          "paddr": 282728,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers7StickerC11externalURISSSgvgTj",
+          "demname": "Stickers.Sticker.externalURI.allocator__Swift.String__String: allocator, externalURI__String: allocator, S__String -> GenericAccessor",
+          "flagname": "sym.imp.Stickers.Sticker.externalURI.allocator__Swift.String__String:_allocator__externalURI__String:_allocator__S__String____GenericAccessor",
+          "realname": "Stickers.Sticker.externalURI.allocator__Swift.String__String: allocator, externalURI__String: allocator, S__String -> GenericAccessor",
+          "ordinal": 65,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053432,
+          "paddr": 282744,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers7StickerC12FetchRequestV15representationsAE23RepresentationSpecifierOvs",
+          "demname": "Stickers.Sticker.FetchRequest.allocator.representations.RepresentationSpecifier(...s)",
+          "flagname": "sym.imp.Stickers.Sticker.FetchRequest.allocator.representations.RepresentationSpecifier_...s_",
+          "realname": "Stickers.Sticker.FetchRequest.allocator.representations.RepresentationSpecifier(...s)",
+          "ordinal": 66,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053448,
+          "paddr": 282760,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers7StickerC12FetchRequestV23RepresentationSpecifierOMa",
+          "demname": "Stickers.Sticker.FetchRequest.allocator.RepresentationSpecifier(...a)",
+          "flagname": "sym.imp.Stickers.Sticker.FetchRequest.allocator.RepresentationSpecifier_...a_",
+          "realname": "Stickers.Sticker.FetchRequest.allocator.RepresentationSpecifier(...a)",
+          "ordinal": 67,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053464,
+          "paddr": 282776,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers7StickerC12FetchRequestV4type9predicate15representations15sortDescriptors6offset5limit9batchSizeAeC0B4TypeOSg_So11NSPredicateCSgAE23RepresentationSpecifierOSay10Foundation14SortDescriptorVyACGGSgS2iSgA_tcfC",
+          "demname": "Stickers.Sticker.FetchRequest.allocator.type.predicate.representations.sortDescriptors.offset.limit.batchSize...C0B4TypeOSg_So11NSPredicateCSgAE23RepresentationSpecifierOSay10Foundation14SortDescriptorVyACGGSgS2iSgA_tcfC",
+          "flagname": "sym.imp.Stickers.Sticker.FetchRequest.allocator.type.predicate.representations.sortDescriptors.offset.limit.batchSize...C0B4TypeOSg_So11NSPredicateCSgAE23RepresentationSpecifierOSay10Foundation14SortDescriptorVyACGGSgS2iSgA_tcfC",
+          "realname": "Stickers.Sticker.FetchRequest.allocator.type.predicate.representations.sortDescriptors.offset.limit.batchSize...C0B4TypeOSg_So11NSPredicateCSgAE23RepresentationSpecifierOSay10Foundation14SortDescriptorVyACGGSgS2iSgA_tcfC",
+          "ordinal": 68,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053480,
+          "paddr": 282792,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers7StickerC12FetchRequestV5limitSiSgvs",
+          "demname": "Stickers.Sticker.FetchRequest.allocator.limit(...Sgvs)",
+          "flagname": "sym.imp.Stickers.Sticker.FetchRequest.allocator.limit_...Sgvs_",
+          "realname": "Stickers.Sticker.FetchRequest.allocator.limit(...Sgvs)",
+          "ordinal": 69,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053496,
+          "paddr": 282808,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers7StickerC12FetchRequestVMa",
+          "demname": "Stickers.Sticker.FetchRequest.allocator...VMa",
+          "flagname": "sym.imp.Stickers.Sticker.FetchRequest.allocator...VMa",
+          "realname": "Stickers.Sticker.FetchRequest.allocator...VMa",
+          "ordinal": 70,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053512,
+          "paddr": 282824,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers7StickerC14RepresentationC4RoleV15animatedVariantSSvgZ",
+          "demname": "Stickers.Sticker.Representation.allocator.Role.animatedVariant(...vgZ)",
+          "flagname": "sym.imp.Stickers.Sticker.Representation.allocator.Role.animatedVariant_...vgZ_",
+          "realname": "Stickers.Sticker.Representation.allocator.Role.animatedVariant(...vgZ)",
+          "ordinal": 71,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053528,
+          "paddr": 282840,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers7StickerC14RepresentationC4data10Foundation4DataVvgTj",
+          "demname": "Stickers.Sticker.Representation.allocator.data.Foundation(...DataVvgTj)",
+          "flagname": "sym.imp.Stickers.Sticker.Representation.allocator.data.Foundation_...DataVvgTj_",
+          "realname": "Stickers.Sticker.Representation.allocator.data.Foundation(...DataVvgTj)",
+          "ordinal": 72,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053544,
+          "paddr": 282856,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers7StickerC14RepresentationC4roleSSvgTj",
+          "demname": "Stickers.Sticker.Representation.allocator.role__String: allocator, Representation.role__String: allocator, C(...roleSSvgTj)",
+          "flagname": "sym.imp.Stickers.Sticker.Representation.allocator.role__String:_allocator__Representation.role__String:_allocator__C_...roleSSvgTj_",
+          "realname": "Stickers.Sticker.Representation.allocator.role__String: allocator, Representation.role__String: allocator, C(...roleSSvgTj)",
+          "ordinal": 73,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053560,
+          "paddr": 282872,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers7StickerC15representationsSayAC14RepresentationCGvgTj",
+          "demname": "Stickers.Sticker.representations.allocator__Array: allocator, representations: allocator, S(...yAC14RepresentationCGvgTj)",
+          "flagname": "sym.imp.Stickers.Sticker.representations.allocator__Array:_allocator__representations:_allocator__S_...yAC14RepresentationCGvgTj_",
+          "realname": "Stickers.Sticker.representations.allocator__Array: allocator, representations: allocator, S(...yAC14RepresentationCGvgTj)",
+          "ordinal": 74,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053576,
+          "paddr": 282888,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers7StickerC23preferredRepresentationAC0D0CSgvgTj",
+          "demname": "Stickers.Sticker.preferredRepresentation.allocator.(...D0CSgvgTj)",
+          "flagname": "sym.imp.Stickers.Sticker.preferredRepresentation.allocator._...D0CSgvgTj_",
+          "realname": "Stickers.Sticker.preferredRepresentation.allocator.(...D0CSgvgTj)",
+          "ordinal": 75,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053592,
+          "paddr": 282904,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers7StickerC4typeAC0B4TypeOvg",
+          "demname": "Stickers.Sticker.type.allocator.(...B4TypeOvg)",
+          "flagname": "sym.imp.Stickers.Sticker.type.allocator._...B4TypeOvg_",
+          "realname": "Stickers.Sticker.type.allocator.(...B4TypeOvg)",
+          "ordinal": 76,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053608,
+          "paddr": 282920,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers7StickerC6effectAC6EffectOvgTj",
+          "demname": "Stickers.Sticker.effect.allocator.(...EffectOvgTj)",
+          "flagname": "sym.imp.Stickers.Sticker.effect.allocator._...EffectOvgTj_",
+          "realname": "Stickers.Sticker.effect.allocator.(...EffectOvgTj)",
+          "ordinal": 77,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053624,
+          "paddr": 282936,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers7StickerC7URITypeOMa",
+          "demname": "Stickers.Sticker.URIType.allocator..metadata.accessor(...a)",
+          "flagname": "sym.imp.Stickers.Sticker.URIType.allocator..metadata.accessor_...a_",
+          "realname": "Stickers.Sticker.URIType.allocator..metadata.accessor(...a)",
+          "ordinal": 78,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053640,
+          "paddr": 282952,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers7StickerC8classify3uriAC7URITypeOSS_tFZTj",
+          "demname": "Stickers.Sticker.classify.allocator(...FZTj)",
+          "flagname": "sym.imp.Stickers.Sticker.classify.allocator_...FZTj_",
+          "realname": "Stickers.Sticker.classify.allocator(...FZTj)",
+          "ordinal": 79,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053656,
+          "paddr": 282968,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers7StickerCMa",
+          "demname": "Stickers.Sticker.allocator(...a)",
+          "flagname": "sym.imp.Stickers.Sticker.allocator_...a_",
+          "realname": "Stickers.Sticker.allocator(...a)",
+          "ordinal": 80,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053672,
+          "paddr": 282984,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers8XPCCoderV6decodeyx10Foundation4DataVKSeRzlF",
+          "demname": "Stickers.XPCCoder.decode.Foundation.Data...VKSeRzlF",
+          "flagname": "sym.imp.Stickers.XPCCoder.decode.Foundation.Data...VKSeRzlF",
+          "realname": "Stickers.XPCCoder.decode.Foundation.Data...VKSeRzlF",
+          "ordinal": 81,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053688,
+          "paddr": 283000,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers8XPCCoderV6encodey10Foundation4DataVxKSERzlF",
+          "demname": "Stickers.XPCCoder.encode.Foundation.Data...VxKSERzlF",
+          "flagname": "sym.imp.Stickers.XPCCoder.encode.Foundation.Data...VxKSERzlF",
+          "realname": "Stickers.XPCCoder.encode.Foundation.Data...VxKSERzlF",
+          "ordinal": 82,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053704,
+          "paddr": 283016,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers8XPCCoderVACycfC",
+          "demname": "Stickers.XPCCoder...VACycfC",
+          "flagname": "sym.imp.Stickers.XPCCoder...VACycfC",
+          "realname": "Stickers.XPCCoder...VACycfC",
+          "ordinal": 83,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053720,
+          "paddr": 283032,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$s8Stickers8XPCCoderVMa",
+          "demname": "Stickers.XPCCoder...VMa",
+          "flagname": "sym.imp.Stickers.XPCCoder...VMa",
+          "realname": "Stickers.XPCCoder...VMa",
+          "ordinal": 84,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053736,
+          "paddr": 283048,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSD10FoundationE19_bridgeToObjectiveCSo12NSDictionaryCyF",
+          "demname": "Foundationbool(...ridgeToObjectiveCSo12NSDictionaryCyF)",
+          "flagname": "sym.imp.Foundationbool_...ridgeToObjectiveCSo12NSDictionaryCyF_",
+          "realname": "Foundationbool(...ridgeToObjectiveCSo12NSDictionaryCyF)",
+          "ordinal": 85,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053752,
+          "paddr": 283064,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSD10FoundationE36_unconditionallyBridgeFromObjectiveCySDyxq_GSo12NSDictionaryCSgFZ",
+          "demname": "Foundation.NSDictionary(...gFZ)",
+          "flagname": "sym.imp.Foundation.NSDictionary_...gFZ_",
+          "realname": "Foundation.NSDictionary(...gFZ)",
+          "ordinal": 86,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053768,
+          "paddr": 283080,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF",
+          "demname": "Foundationbool(...ridgeToObjectiveCSo8NSStringCyF)",
+          "flagname": "sym.imp.Foundationbool_...ridgeToObjectiveCSo8NSStringCyF_",
+          "realname": "Foundationbool(...ridgeToObjectiveCSo8NSStringCyF)",
+          "ordinal": 87,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053784,
+          "paddr": 283096,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ",
+          "demname": "Foundation(...nconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ)",
+          "flagname": "sym.imp.Foundation_...nconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ_",
+          "realname": "Foundation(...nconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ)",
+          "ordinal": 88,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053800,
+          "paddr": 283112,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSS10uppercasedSSyF",
+          "demname": "uppercased__String(...yF)",
+          "flagname": "sym.imp.uppercased__String_...yF_",
+          "realname": "uppercased__String(...yF)",
+          "ordinal": 89,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053816,
+          "paddr": 283128,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSS11utf8CStrings15ContiguousArrayVys4Int8VGvg",
+          "demname": "utf8CString.ContiguousArray.setter...Vys4Int8VGvg",
+          "flagname": "sym.imp.utf8CString.ContiguousArray.setter...Vys4Int8VGvg",
+          "realname": "utf8CString.ContiguousArray.setter...Vys4Int8VGvg",
+          "ordinal": 90,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053832,
+          "paddr": 283144,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSS4hash4intoys6HasherVz_tF",
+          "demname": "hash.into(...F)",
+          "flagname": "sym.imp.hash.into_...F_",
+          "realname": "hash.into(...F)",
+          "ordinal": 91,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053848,
+          "paddr": 283160,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSS8UTF8ViewV13_foreignCountSiyF",
+          "demname": "UTF8View._foreignCount(...yF)",
+          "flagname": "sym.imp.UTF8View._foreignCount_...yF_",
+          "realname": "UTF8View._foreignCount(...yF)",
+          "ordinal": 92,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053864,
+          "paddr": 283176,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sST12makeIterator0B0QzyFTj",
+          "demname": "makeIterator...B0QzyFTj",
+          "flagname": "sym.imp.makeIterator...B0QzyFTj",
+          "realname": "makeIterator...B0QzyFTj",
+          "ordinal": 93,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053880,
+          "paddr": 283192,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sST19underestimatedCountSivgTj",
+          "demname": "underestimatedCount(...ivgTj)",
+          "flagname": "sym.imp.underestimatedCount_...ivgTj_",
+          "realname": "underestimatedCount(...ivgTj)",
+          "ordinal": 94,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053896,
+          "paddr": 283208,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sST22_copyToContiguousArrays0cD0Vy7ElementQzGyFTj",
+          "demname": "_copyToContiguousArray.setter(...D0Vy7ElementQzGyFTj)",
+          "flagname": "sym.imp._copyToContiguousArray.setter_...D0Vy7ElementQzGyFTj_",
+          "realname": "_copyToContiguousArray.setter(...D0Vy7ElementQzGyFTj)",
+          "ordinal": 95,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053912,
+          "paddr": 283224,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSTsE8reversedSay7ElementQzGyF",
+          "demname": "reversed(...ay7ElementQzGyF)",
+          "flagname": "sym.imp.reversed_...ay7ElementQzGyF_",
+          "realname": "reversed(...ay7ElementQzGyF)",
+          "ordinal": 96,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053928,
+          "paddr": 283240,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSY8rawValue03RawB0QzvgTj",
+          "demname": "rawValue.Raw...B0QzvgTj",
+          "flagname": "sym.imp.rawValue.Raw...B0QzvgTj",
+          "realname": "rawValue.Raw...B0QzvgTj",
+          "ordinal": 97,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053944,
+          "paddr": 283256,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSa10FoundationE36_unconditionallyBridgeFromObjectiveCySayxGSo7NSArrayCSgFZ",
+          "demname": "Foundation(...nconditionallyBridgeFromObjectiveCySayxGSo7NSArrayCSgFZ)",
+          "flagname": "sym.imp.Foundation_...nconditionallyBridgeFromObjectiveCySayxGSo7NSArrayCSgFZ_",
+          "realname": "Foundation(...nconditionallyBridgeFromObjectiveCySayxGSo7NSArrayCSgFZ)",
+          "ordinal": 98,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053960,
+          "paddr": 283272,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSa11descriptionSSvg",
+          "demname": "description__String(...vg)",
+          "flagname": "sym.imp.description__String_...vg_",
+          "realname": "description__String(...vg)",
+          "ordinal": 99,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053976,
+          "paddr": 283288,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sSaySayxGqd__c7ElementQyd__RszSTRd__lufC",
+          "demname": "Element....RszSTRd__lufC",
+          "flagname": "sym.imp.Element....RszSTRd__lufC",
+          "realname": "Element....RszSTRd__lufC",
+          "ordinal": 100,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295053992,
+          "paddr": 283304,
+          "is_imported": true
+        },
+        {
+          "name": "imp.$sScA15unownedExecutorScevgTj",
+          "demname": "unownedExecutor(...cevgTj)",
+          "flagname": "sym.imp.unownedExecutor_...cevgTj_",
+          "realname": "unownedExecutor(...cevgTj)",
+          "ordinal": 101,
+          "bind": "LOCAL",
+          "size": 0,
+          "type": "FUNC",
+          "vaddr": 4295054008,
+          "paddr": 283320,
+          "is_imported": true
+        }
+      ]
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Support/stickersd",
+        "Support/RecencyService.framework/Versions/A/_CodeSignature/CodeResources",
+        "Support/RecencyService.framework/Versions/A/Resources/Info.plist",
+        "Support/RecencyService.framework/Versions/A/Resources/version.plist",
+        "Support/ServiceShared.framework/Versions/A/_CodeSignature/CodeResources",
+        "Support/ServiceShared.framework/Versions/A/Resources/Info.plist",
+        "Support/ServiceShared.framework/Versions/A/Resources/version.plist",
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist",
+        "Versions/A/Resources/Stickers.momd/VersionInfo.plist",
+        "Versions/A/Resources/Stickers.momd/Stickers-24E1.mom",
+        "Versions/A/Resources/Stickers.momd/Stickers-23A9.mom",
+        "Versions/A/Resources/Stickers.momd/Stickers-23A8.mom",
+        "Versions/A/Resources/Stickers.momd/Stickers-25A1.omo",
+        "Versions/A/Resources/Stickers.momd/Stickers-23A6.mom",
+        "Versions/A/Resources/Stickers.momd/Stickers-25A1.mom",
+        "Versions/A/Resources/Stickers.momd/Stickers-23A7.mom",
+        "Versions/A/Resources/Stickers.momd/Stickers-23A5.mom",
+        "Versions/A/Resources/Stickers.momd/Stickers-23A4.mom",
+        "Versions/A/Resources/Stickers.momd/Stickers-23A1.mom",
+        "Versions/A/Resources/Stickers.momd/Stickers-23A3.mom",
+        "Versions/A/Resources/Stickers.momd/Stickers-23A2.mom",
+        "Versions/A/Resources/Stickers.momd/Stickers-24A2.mom",
+        "Versions/A/Resources/Stickers.momd/Stickers-24A1.mom"
+      ],
+      "plists": {
+        "Support/RecencyService.framework/Versions/A/Resources/Info.plist": {
+          "CFBundleName": "RecencyService",
+          "CFBundleIdentifier": "com.apple.i18n.RecencyService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "DTPlatformBuild": "25B66x",
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleVersion": "1",
+          "CFBundleExecutable": "RecencyService",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTXcode": "2600",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundlePackageType": "FMWK",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "DTSDKBuild": "25B66x",
+          "CFBundleDevelopmentRegion": "en",
+          "DTSDKName": "macosx26.1.internal",
+          "CFBundleShortVersionString": "1.0"
+        },
+        "Support/RecencyService.framework/Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "Stickers",
+          "SourceVersion": "62001500000000",
+          "BuildVersion": "8"
+        },
+        "Support/ServiceShared.framework/Versions/A/Resources/Info.plist": {
+          "CFBundleName": "ServiceShared",
+          "CFBundleIdentifier": "com.apple.i18n.ServiceShared",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "DTPlatformBuild": "25B66x",
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleVersion": "1",
+          "CFBundleExecutable": "ServiceShared",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTXcode": "2600",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundlePackageType": "FMWK",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "DTSDKBuild": "25B66x",
+          "CFBundleDevelopmentRegion": "en",
+          "DTSDKName": "macosx26.1.internal",
+          "CFBundleShortVersionString": "1.0"
+        },
+        "Support/ServiceShared.framework/Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "Stickers",
+          "SourceVersion": "62001500000000",
+          "BuildVersion": "8"
+        },
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "Stickers",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2023 Apple Inc. All rights reserved.",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66x",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "FMWK",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "Stickers",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.stickers",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "25B66x"
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "Stickers",
+          "SourceVersion": "62001500000000",
+          "BuildVersion": "8"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
+  },
+  "usage": {
+    "layer": "usage",
+    "used_by": []
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "loaded"
+  }
+}

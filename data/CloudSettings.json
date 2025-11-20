@@ -1,0 +1,2548 @@
+{
+  "framework": "CloudSettings.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/CloudSettings.framework/Versions/A/XPCServices/com.apple.cloudsettings.sound.xpc/Contents/MacOS/com.apple.cloudsettings.sound",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 131744,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "objc with blocks",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation",
+          "/System/Library/PrivateFrameworks/CloudSettings.framework/Versions/A/CloudSettings",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/AVRouting.framework/Versions/A/AVRouting",
+          "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+          "/System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox",
+          "/System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "AppleSound_SoundFileMgr",
+        "addr": 4295056568,
+        "lang": "objc",
+        "index": 0,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.AppleSound_SoundFileMgr.init",
+            "lang": "objc",
+            "addr": 4294971448
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.AppleSound_SoundFileMgr.dealloc",
+            "lang": "objc",
+            "addr": 4294971584
+          },
+          {
+            "name": "findSoundFiles",
+            "flag": "method.AppleSound_SoundFileMgr.findSoundFiles",
+            "lang": "objc",
+            "addr": 4294971668
+          },
+          {
+            "name": "addSoundFilesFromDirectory:asType:",
+            "flag": "method.AppleSound_SoundFileMgr.addSoundFilesFromDirectory:asType:",
+            "lang": "objc",
+            "addr": 4294971760
+          },
+          {
+            "name": "sort",
+            "flag": "method.AppleSound_SoundFileMgr.sort",
+            "lang": "objc",
+            "addr": 4294972256
+          },
+          {
+            "name": "sortByType",
+            "flag": "method.AppleSound_SoundFileMgr.sortByType",
+            "lang": "objc",
+            "addr": 4294972296
+          },
+          {
+            "name": "sortByName",
+            "flag": "method.AppleSound_SoundFileMgr.sortByName",
+            "lang": "objc",
+            "addr": 4294972304
+          },
+          {
+            "name": "soundFiles",
+            "flag": "method.AppleSound_SoundFileMgr.soundFiles",
+            "lang": "objc",
+            "addr": 4294972316
+          },
+          {
+            "name": "soundFileAtIndex:",
+            "flag": "method.AppleSound_SoundFileMgr.soundFileAtIndex:",
+            "lang": "objc",
+            "addr": 4294972324
+          },
+          {
+            "name": "count",
+            "flag": "method.AppleSound_SoundFileMgr.count",
+            "lang": "objc",
+            "addr": 4294972332
+          },
+          {
+            "name": "indexOfSoundFile:",
+            "flag": "method.AppleSound_SoundFileMgr.indexOfSoundFile:",
+            "lang": "objc",
+            "addr": 4294972340
+          },
+          {
+            "name": "soundFileFromPath:",
+            "flag": "method.AppleSound_SoundFileMgr.soundFileFromPath:",
+            "lang": "objc",
+            "addr": 4294972612
+          },
+          {
+            "name": "soundFileWithName:type:",
+            "flag": "method.AppleSound_SoundFileMgr.soundFileWithName:type:",
+            "lang": "objc",
+            "addr": 4294972800
+          },
+          {
+            "name": "sharedSoundFileManager",
+            "flag": "method.class.AppleSound_SoundFileMgr.sharedSoundFileManager",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294971352
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_soundFiles",
+            "kind": "var",
+            "type": "@\"NSMutableArray\"",
+            "addr": 4295056312
+          },
+          {
+            "name": "_fileManager",
+            "kind": "var",
+            "type": "@\"NSFileManager\"",
+            "addr": 4295056316
+          },
+          {
+            "name": "_sortByName",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295056320
+          },
+          {
+            "name": "soundFiles",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "sharedSoundFileManager",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "AppleSound_SoundFile",
+        "addr": 4295056648,
+        "lang": "objc",
+        "index": 1,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithName:type:extension:path:",
+            "flag": "method.AppleSound_SoundFile.initWithName:type:extension:path:",
+            "lang": "objc",
+            "addr": 4294973828
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.AppleSound_SoundFile.dealloc",
+            "lang": "objc",
+            "addr": 4294973988
+          },
+          {
+            "name": "displayName",
+            "flag": "method.AppleSound_SoundFile.displayName",
+            "lang": "objc",
+            "addr": 4294974088
+          },
+          {
+            "name": "pathWithoutExtension",
+            "flag": "method.AppleSound_SoundFile.pathWithoutExtension",
+            "lang": "objc",
+            "addr": 4294974220
+          },
+          {
+            "name": "rank",
+            "flag": "method.AppleSound_SoundFile.rank",
+            "lang": "objc",
+            "addr": 4294974228
+          },
+          {
+            "name": "compareName:",
+            "flag": "method.AppleSound_SoundFile.compareName:",
+            "lang": "objc",
+            "addr": 4294974264
+          },
+          {
+            "name": "compareType:",
+            "flag": "method.AppleSound_SoundFile.compareType:",
+            "lang": "objc",
+            "addr": 4294974336
+          },
+          {
+            "name": "compareNameThenType:",
+            "flag": "method.AppleSound_SoundFile.compareNameThenType:",
+            "lang": "objc",
+            "addr": 4294974400
+          },
+          {
+            "name": "compareTypeThenName:",
+            "flag": "method.AppleSound_SoundFile.compareTypeThenName:",
+            "lang": "objc",
+            "addr": 4294974480
+          },
+          {
+            "name": "fileName",
+            "flag": "method.AppleSound_SoundFile.fileName",
+            "lang": "objc",
+            "addr": 4294974560
+          },
+          {
+            "name": "path",
+            "flag": "method.AppleSound_SoundFile.path",
+            "lang": "objc",
+            "addr": 4294974568
+          },
+          {
+            "name": "type",
+            "flag": "method.AppleSound_SoundFile.type",
+            "lang": "objc",
+            "addr": 4294974576
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_type",
+            "kind": "var",
+            "type": "i",
+            "addr": 4295056324
+          },
+          {
+            "name": "_fileName",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295056328
+          },
+          {
+            "name": "_extension",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295056332
+          },
+          {
+            "name": "_displayName",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295056336
+          },
+          {
+            "name": "_path",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295056340
+          },
+          {
+            "name": "fileName",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "displayName",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "path",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "type",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "AppleSound_AudioDevice",
+        "addr": 4295056768,
+        "lang": "objc",
+        "index": 2,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initForSection:ofAudioDevice:",
+            "flag": "method.AppleSound_AudioDevice.initForSection:ofAudioDevice:",
+            "lang": "objc",
+            "addr": 4294974684
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.AppleSound_AudioDevice.dealloc",
+            "lang": "objc",
+            "addr": 4294974960
+          },
+          {
+            "name": "setNeedsUpdate",
+            "flag": "method.AppleSound_AudioDevice.setNeedsUpdate",
+            "lang": "objc",
+            "addr": 4294975060
+          },
+          {
+            "name": "audioDeviceID",
+            "flag": "method.AppleSound_AudioDevice.audioDeviceID",
+            "lang": "objc",
+            "addr": 4294975072
+          },
+          {
+            "name": "isInputDevice",
+            "flag": "method.AppleSound_AudioDevice.isInputDevice",
+            "lang": "objc",
+            "addr": 4294975080
+          },
+          {
+            "name": "description",
+            "flag": "method.AppleSound_AudioDevice.description",
+            "lang": "objc",
+            "addr": 4294975088
+          },
+          {
+            "name": "isActive",
+            "flag": "method.AppleSound_AudioDevice.isActive",
+            "lang": "objc",
+            "addr": 4294975352
+          },
+          {
+            "name": "supportsInput",
+            "flag": "method.AppleSound_AudioDevice.supportsInput",
+            "lang": "objc",
+            "addr": 4294975516
+          },
+          {
+            "name": "supportsOutput",
+            "flag": "method.AppleSound_AudioDevice.supportsOutput",
+            "lang": "objc",
+            "addr": 4294975524
+          },
+          {
+            "name": "supportsLevel",
+            "flag": "method.AppleSound_AudioDevice.supportsLevel",
+            "lang": "objc",
+            "addr": 4294975540
+          },
+          {
+            "name": "supportsMute",
+            "flag": "method.AppleSound_AudioDevice.supportsMute",
+            "lang": "objc",
+            "addr": 4294975596
+          },
+          {
+            "name": "supportsBalance",
+            "flag": "method.AppleSound_AudioDevice.supportsBalance",
+            "lang": "objc",
+            "addr": 4294975660
+          },
+          {
+            "name": "identifier",
+            "flag": "method.AppleSound_AudioDevice.identifier",
+            "lang": "objc",
+            "addr": 4294975716
+          },
+          {
+            "name": "uid",
+            "flag": "method.AppleSound_AudioDevice.uid",
+            "lang": "objc",
+            "addr": 4294975784
+          },
+          {
+            "name": "name",
+            "flag": "method.AppleSound_AudioDevice.name",
+            "lang": "objc",
+            "addr": 4294975920
+          },
+          {
+            "name": "reloadName",
+            "flag": "method.AppleSound_AudioDevice.reloadName",
+            "lang": "objc",
+            "addr": 4294975980
+          },
+          {
+            "name": "manufacturer",
+            "flag": "method.AppleSound_AudioDevice.manufacturer",
+            "lang": "objc",
+            "addr": 4294975984
+          },
+          {
+            "name": "canBeDefault",
+            "flag": "method.AppleSound_AudioDevice.canBeDefault",
+            "lang": "objc",
+            "addr": 4294976052
+          },
+          {
+            "name": "canBeAlertDevice",
+            "flag": "method.AppleSound_AudioDevice.canBeAlertDevice",
+            "lang": "objc",
+            "addr": 4294976124
+          },
+          {
+            "name": "isBuiltInAudio",
+            "flag": "method.AppleSound_AudioDevice.isBuiltInAudio",
+            "lang": "objc",
+            "addr": 4294976224
+          },
+          {
+            "name": "audioSourceName:",
+            "flag": "method.AppleSound_AudioDevice.audioSourceName:",
+            "lang": "objc",
+            "addr": 4294976232
+          },
+          {
+            "name": "audioSourceKind:",
+            "flag": "method.AppleSound_AudioDevice.audioSourceKind:",
+            "lang": "objc",
+            "addr": 4294976600
+          },
+          {
+            "name": "audioSourceType:",
+            "flag": "method.AppleSound_AudioDevice.audioSourceType:",
+            "lang": "objc",
+            "addr": 4294976844
+          },
+          {
+            "name": "audioSources",
+            "flag": "method.AppleSound_AudioDevice.audioSources",
+            "lang": "objc",
+            "addr": 4294976972
+          },
+          {
+            "name": "currentAudioSource",
+            "flag": "method.AppleSound_AudioDevice.currentAudioSource",
+            "lang": "objc",
+            "addr": 4294977444
+          },
+          {
+            "name": "currentAudioSourceID",
+            "flag": "method.AppleSound_AudioDevice.currentAudioSourceID",
+            "lang": "objc",
+            "addr": 4294977652
+          },
+          {
+            "name": "audioSourceID",
+            "flag": "method.AppleSound_AudioDevice.audioSourceID",
+            "lang": "objc",
+            "addr": 4294977656
+          },
+          {
+            "name": "setAudioSourceID:",
+            "flag": "method.AppleSound_AudioDevice.setAudioSourceID:",
+            "lang": "objc",
+            "addr": 4294977716
+          },
+          {
+            "name": "updateLevels",
+            "flag": "method.AppleSound_AudioDevice.updateLevels",
+            "lang": "objc",
+            "addr": 4294977840
+          },
+          {
+            "name": "level",
+            "flag": "method.AppleSound_AudioDevice.level",
+            "lang": "objc",
+            "addr": 4294978248
+          },
+          {
+            "name": "setLevel:",
+            "flag": "method.AppleSound_AudioDevice.setLevel:",
+            "lang": "objc",
+            "addr": 4294978324
+          },
+          {
+            "name": "balance",
+            "flag": "method.AppleSound_AudioDevice.balance",
+            "lang": "objc",
+            "addr": 4294978524
+          },
+          {
+            "name": "setBalance:",
+            "flag": "method.AppleSound_AudioDevice.setBalance:",
+            "lang": "objc",
+            "addr": 4294978600
+          },
+          {
+            "name": "isMuted",
+            "flag": "method.AppleSound_AudioDevice.isMuted",
+            "lang": "objc",
+            "addr": 4294978748
+          },
+          {
+            "name": "setMute:",
+            "flag": "method.AppleSound_AudioDevice.setMute:",
+            "lang": "objc",
+            "addr": 4294978872
+          },
+          {
+            "name": "hasJack",
+            "flag": "method.AppleSound_AudioDevice.hasJack",
+            "lang": "objc",
+            "addr": 4294979008
+          },
+          {
+            "name": "isJackInUse",
+            "flag": "method.AppleSound_AudioDevice.isJackInUse",
+            "lang": "objc",
+            "addr": 4294979032
+          },
+          {
+            "name": "hasLineMuteDisable",
+            "flag": "method.AppleSound_AudioDevice.hasLineMuteDisable",
+            "lang": "objc",
+            "addr": 4294979100
+          },
+          {
+            "name": "isLineMuteDisabled",
+            "flag": "method.AppleSound_AudioDevice.isLineMuteDisabled",
+            "lang": "objc",
+            "addr": 4294979124
+          },
+          {
+            "name": "setLineMuteDisabled:",
+            "flag": "method.AppleSound_AudioDevice.setLineMuteDisabled:",
+            "lang": "objc",
+            "addr": 4294979196
+          },
+          {
+            "name": "hasSource:",
+            "flag": "method.AppleSound_AudioDevice.hasSource:",
+            "lang": "objc",
+            "addr": 4294979300
+          },
+          {
+            "name": "hasDigitalSource",
+            "flag": "method.AppleSound_AudioDevice.hasDigitalSource",
+            "lang": "objc",
+            "addr": 4294979520
+          },
+          {
+            "name": "hasLineSource",
+            "flag": "method.AppleSound_AudioDevice.hasLineSource",
+            "lang": "objc",
+            "addr": 4294979532
+          },
+          {
+            "name": "isAirplayDevice",
+            "flag": "method.AppleSound_AudioDevice.isAirplayDevice",
+            "lang": "objc",
+            "addr": 4294979544
+          },
+          {
+            "name": "isBluetoothDevice",
+            "flag": "method.AppleSound_AudioDevice.isBluetoothDevice",
+            "lang": "objc",
+            "addr": 4294979620
+          },
+          {
+            "name": "isContinuityCapture",
+            "flag": "method.AppleSound_AudioDevice.isContinuityCapture",
+            "lang": "objc",
+            "addr": 4294979696
+          },
+          {
+            "name": "printLevelAndBalanceToLog",
+            "flag": "method.AppleSound_AudioDevice.printLevelAndBalanceToLog",
+            "lang": "objc",
+            "addr": 4294979704
+          },
+          {
+            "name": "setProperty:forChannel:dataSize:dataPtr:",
+            "flag": "method.AppleSound_AudioDevice.setProperty:forChannel:dataSize:dataPtr:",
+            "lang": "objc",
+            "addr": 4294980148
+          },
+          {
+            "name": "getProperty:forChannel:dataSize:dataPtr:",
+            "flag": "method.AppleSound_AudioDevice.getProperty:forChannel:dataSize:dataPtr:",
+            "lang": "objc",
+            "addr": 4294980316
+          },
+          {
+            "name": "hasProperty:forChannel:dataSize:writable:",
+            "flag": "method.AppleSound_AudioDevice.hasProperty:forChannel:dataSize:writable:",
+            "lang": "objc",
+            "addr": 4294980492
+          },
+          {
+            "name": "getStringProperty:forChannel:",
+            "flag": "method.AppleSound_AudioDevice.getStringProperty:forChannel:",
+            "lang": "objc",
+            "addr": 4294980700
+          },
+          {
+            "name": "copyProperty:forChannel:dataSize:dataPtr:",
+            "flag": "method.AppleSound_AudioDevice.copyProperty:forChannel:dataSize:dataPtr:",
+            "lang": "objc",
+            "addr": 4294980900
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_audioDeviceID",
+            "kind": "var",
+            "type": "I",
+            "addr": 4295056344
+          },
+          {
+            "name": "_identifier",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295056348
+          },
+          {
+            "name": "_uid",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295056352
+          },
+          {
+            "name": "_manufacturer",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295056356
+          },
+          {
+            "name": "_prevSourceName",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295056360
+          },
+          {
+            "name": "_updateLock",
+            "kind": "var",
+            "type": "{os_unfair_lock_s=\"_os_unfair_lock_opaque\"I}",
+            "addr": 4295056364
+          },
+          {
+            "name": "_updateNeeded",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295056368
+          },
+          {
+            "name": "_level",
+            "kind": "var",
+            "type": "f",
+            "addr": 4295056372
+          },
+          {
+            "name": "_balance",
+            "kind": "var",
+            "type": "f",
+            "addr": 4295056376
+          },
+          {
+            "name": "_hwLevel",
+            "kind": "var",
+            "type": "f",
+            "addr": 4295056380
+          },
+          {
+            "name": "_hwBalance",
+            "kind": "var",
+            "type": "f",
+            "addr": 4295056384
+          },
+          {
+            "name": "_isInput",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295056388
+          },
+          {
+            "name": "_isBuiltInAudio",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295056392
+          },
+          {
+            "name": "_isDisplayPort",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295056396
+          },
+          {
+            "name": "_isHDMI",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295056400
+          },
+          {
+            "name": "_isAirPlay",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295056404
+          },
+          {
+            "name": "_isBluetooth",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295056408
+          },
+          {
+            "name": "_isContinuityCapture",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295056412
+          },
+          {
+            "name": "_isActive",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295056416
+          },
+          {
+            "name": "_hasLevel",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295056420
+          },
+          {
+            "name": "_hasBalance",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295056424
+          },
+          {
+            "name": "_balanceProperty",
+            "kind": "var",
+            "type": "I",
+            "addr": 4295056428
+          },
+          {
+            "name": "_muteChannels",
+            "kind": "var",
+            "type": "i",
+            "addr": 4295056432
+          },
+          {
+            "name": "audioDeviceID",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "isInputDevice",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "identifier",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "uid",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "name",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "manufacturer",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "isActive",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "supportsInput",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "supportsOutput",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "supportsLevel",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "supportsBalance",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "supportsMute",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "canBeAlertDevice",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "canBeDefault",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "isBuiltInAudio",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "level",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "balance",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "mute",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hasJack",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "isJackInUse",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hasLineMuteDisable",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "lineMuteDisabled",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "audioSources",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "currentAudioSource",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "audioSourceID",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hasDigitalSource",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hasLineSource",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "isAirplayDevice",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "isBluetoothDevice",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "isContinuityCapture",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "AppleSound_OutputDevice",
+        "addr": 4295056848,
+        "lang": "objc",
+        "index": 3,
+        "super": [
+          "AppleSound_AudioDevice",
+          "AppleSound_AudioDevice"
+        ],
+        "rawsuper": [
+          "AppleSound_AudioDevice",
+          "AppleSound_AudioDevice"
+        ],
+        "methods": [
+          {
+            "name": "initWithAudioDevice:",
+            "flag": "method.AppleSound_OutputDevice.initWithAudioDevice:",
+            "lang": "objc",
+            "addr": 4294981132
+          },
+          {
+            "name": "setLevel:",
+            "flag": "method.AppleSound_OutputDevice.setLevel:",
+            "lang": "objc",
+            "addr": 4294981196
+          },
+          {
+            "name": "level",
+            "flag": "method.AppleSound_OutputDevice.level",
+            "lang": "objc",
+            "addr": 4294981304
+          }
+        ]
+      },
+      {
+        "classname": "AppleSound_InputDevice",
+        "addr": 4295056928,
+        "lang": "objc",
+        "index": 4,
+        "super": [
+          "AppleSound_AudioDevice",
+          "AppleSound_AudioDevice"
+        ],
+        "rawsuper": [
+          "AppleSound_AudioDevice",
+          "AppleSound_AudioDevice"
+        ],
+        "methods": [
+          {
+            "name": "initWithAudioDevice:",
+            "flag": "method.AppleSound_InputDevice.initWithAudioDevice:",
+            "lang": "objc",
+            "addr": 4294981420
+          },
+          {
+            "name": "setLevel:",
+            "flag": "method.AppleSound_InputDevice.setLevel:",
+            "lang": "objc",
+            "addr": 4294981484
+          },
+          {
+            "name": "hasNoiseReduction",
+            "flag": "method.AppleSound_InputDevice.hasNoiseReduction",
+            "lang": "objc",
+            "addr": 4294981624
+          },
+          {
+            "name": "isNoiseReductionEnabled",
+            "flag": "method.AppleSound_InputDevice.isNoiseReductionEnabled",
+            "lang": "objc",
+            "addr": 4294981648
+          },
+          {
+            "name": "setNoiseReductionEnabled:",
+            "flag": "method.AppleSound_InputDevice.setNoiseReductionEnabled:",
+            "lang": "objc",
+            "addr": 4294981716
+          }
+        ],
+        "fields": [
+          {
+            "name": "hasNoiseReduction",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "noiseReductionEnabled",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "AppleSound_AudioSource",
+        "addr": 4295056968,
+        "lang": "objc",
+        "index": 5,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithSourceID:forDevice:sourceKind:sourceName:sourceType:",
+            "flag": "method.AppleSound_AudioSource.initWithSourceID:forDevice:sourceKind:sourceName:sourceType:",
+            "lang": "objc",
+            "addr": 4294981772
+          },
+          {
+            "name": "initAsSeparator",
+            "flag": "method.AppleSound_AudioSource.initAsSeparator",
+            "lang": "objc",
+            "addr": 4294981928
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.AppleSound_AudioSource.dealloc",
+            "lang": "objc",
+            "addr": 4294982016
+          },
+          {
+            "name": "identifier",
+            "flag": "method.AppleSound_AudioSource.identifier",
+            "lang": "objc",
+            "addr": 4294982116
+          },
+          {
+            "name": "sourceID",
+            "flag": "method.AppleSound_AudioSource.sourceID",
+            "lang": "objc",
+            "addr": 4294982228
+          },
+          {
+            "name": "kind",
+            "flag": "method.AppleSound_AudioSource.kind",
+            "lang": "objc",
+            "addr": 4294982236
+          },
+          {
+            "name": "isAirplay",
+            "flag": "method.AppleSound_AudioSource.isAirplay",
+            "lang": "objc",
+            "addr": 4294982244
+          },
+          {
+            "name": "isBluetooth",
+            "flag": "method.AppleSound_AudioSource.isBluetooth",
+            "lang": "objc",
+            "addr": 4294982268
+          },
+          {
+            "name": "isHDMI",
+            "flag": "method.AppleSound_AudioSource.isHDMI",
+            "lang": "objc",
+            "addr": 4294982292
+          },
+          {
+            "name": "isBuiltIn",
+            "flag": "method.AppleSound_AudioSource.isBuiltIn",
+            "lang": "objc",
+            "addr": 4294982316
+          },
+          {
+            "name": "isContinuityCapture",
+            "flag": "method.AppleSound_AudioSource.isContinuityCapture",
+            "lang": "objc",
+            "addr": 4294982324
+          },
+          {
+            "name": "isSeparator",
+            "flag": "method.AppleSound_AudioSource.isSeparator",
+            "lang": "objc",
+            "addr": 4294982332
+          },
+          {
+            "name": "name",
+            "flag": "method.AppleSound_AudioSource.name",
+            "lang": "objc",
+            "addr": 4294982356
+          },
+          {
+            "name": "device",
+            "flag": "method.AppleSound_AudioSource.device",
+            "lang": "objc",
+            "addr": 4294982380
+          },
+          {
+            "name": "sourceType",
+            "flag": "method.AppleSound_AudioSource.sourceType",
+            "lang": "objc",
+            "addr": 4294982388
+          },
+          {
+            "name": "description",
+            "flag": "method.AppleSound_AudioSource.description",
+            "lang": "objc",
+            "addr": 4294982396
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_device",
+            "kind": "var",
+            "type": "@\"AppleSound_AudioDevice\"",
+            "addr": 4295056436
+          },
+          {
+            "name": "_sourceID",
+            "kind": "var",
+            "type": "I",
+            "addr": 4295056440
+          },
+          {
+            "name": "_kind",
+            "kind": "var",
+            "type": "I",
+            "addr": 4295056444
+          },
+          {
+            "name": "_name",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295056448
+          },
+          {
+            "name": "_sourceType",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295056452
+          },
+          {
+            "name": "_identifier",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295056456
+          },
+          {
+            "name": "device",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "sourceID",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "identifier",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "kind",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "name",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "sourceType",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "isBuiltIn",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "isAirplay",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "isBluetooth",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "isHDMI",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "isContinuityCapture",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "isSeparator",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "NSAudioAirPlaySource",
+        "addr": 4295057048,
+        "lang": "objc",
+        "index": 6,
+        "super": [
+          "AppleSound_AudioSource",
+          "AppleSound_AudioSource"
+        ],
+        "rawsuper": [
+          "AppleSound_AudioSource",
+          "AppleSound_AudioSource"
+        ],
+        "methods": [
+          {
+            "name": "initWithAirPlayDevice:",
+            "flag": "method.NSAudioAirPlaySource.initWithAirPlayDevice:",
+            "lang": "objc",
+            "addr": 4294982492
+          },
+          {
+            "name": "airplayDevice",
+            "flag": "method.NSAudioAirPlaySource.airplayDevice",
+            "lang": "objc",
+            "addr": 4294982864
+          },
+          {
+            "name": "identifier",
+            "flag": "method.NSAudioAirPlaySource.identifier",
+            "lang": "objc",
+            "addr": 4294982880
+          },
+          {
+            "name": "name",
+            "flag": "method.NSAudioAirPlaySource.name",
+            "lang": "objc",
+            "addr": 4294982896
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.NSAudioAirPlaySource.dealloc",
+            "lang": "objc",
+            "addr": 4294982928
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_airplayDevice",
+            "kind": "var",
+            "type": "@\"AVOutputDevice\"",
+            "addr": 4295056460
+          },
+          {
+            "name": "airplayDevice",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "NSAudioBluetoothSource",
+        "addr": 4295057128,
+        "lang": "objc",
+        "index": 7,
+        "super": [
+          "AppleSound_AudioSource",
+          "AppleSound_AudioSource"
+        ],
+        "rawsuper": [
+          "AppleSound_AudioSource",
+          "AppleSound_AudioSource"
+        ],
+        "methods": [
+          {
+            "name": "initWithBluetoothDevice:",
+            "flag": "method.NSAudioBluetoothSource.initWithBluetoothDevice:",
+            "lang": "objc",
+            "addr": 4294983012
+          },
+          {
+            "name": "bluetoothDevice",
+            "flag": "method.NSAudioBluetoothSource.bluetoothDevice",
+            "lang": "objc",
+            "addr": 4294983356
+          },
+          {
+            "name": "identifier",
+            "flag": "method.NSAudioBluetoothSource.identifier",
+            "lang": "objc",
+            "addr": 4294983372
+          },
+          {
+            "name": "name",
+            "flag": "method.NSAudioBluetoothSource.name",
+            "lang": "objc",
+            "addr": 4294983388
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.NSAudioBluetoothSource.dealloc",
+            "lang": "objc",
+            "addr": 4294983420
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_bluetoothDevice",
+            "kind": "var",
+            "type": "@\"AVOutputDevice\"",
+            "addr": 4295056464
+          },
+          {
+            "name": "bluetoothDevice",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "AppleSound_AudioDeviceMgr",
+        "addr": 4295057208,
+        "lang": "objc",
+        "index": 8,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "init",
+            "flag": "method.AppleSound_AudioDeviceMgr.init",
+            "lang": "objc",
+            "addr": 4294983560
+          },
+          {
+            "name": "stopWatchingHardware",
+            "flag": "method.AppleSound_AudioDeviceMgr.stopWatchingHardware",
+            "lang": "objc",
+            "addr": 4294984964
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.AppleSound_AudioDeviceMgr.dealloc",
+            "lang": "objc",
+            "addr": 4294985176
+          },
+          {
+            "name": "monitorDevice:",
+            "flag": "method.AppleSound_AudioDeviceMgr.monitorDevice:",
+            "lang": "objc",
+            "addr": 4294985272
+          },
+          {
+            "name": "unmonitorDevice:",
+            "flag": "method.AppleSound_AudioDeviceMgr.unmonitorDevice:",
+            "lang": "objc",
+            "addr": 4294985676
+          },
+          {
+            "name": "unmonitorAllDevices",
+            "flag": "method.AppleSound_AudioDeviceMgr.unmonitorAllDevices",
+            "lang": "objc",
+            "addr": 4294986080
+          },
+          {
+            "name": "rescanAudioDevices",
+            "flag": "method.AppleSound_AudioDeviceMgr.rescanAudioDevices",
+            "lang": "objc",
+            "addr": 4294986468
+          },
+          {
+            "name": "postNotificationName:",
+            "flag": "method.AppleSound_AudioDeviceMgr.postNotificationName:",
+            "lang": "objc",
+            "addr": 4294987448
+          },
+          {
+            "name": "serviceChangeMask:",
+            "flag": "method.AppleSound_AudioDeviceMgr.serviceChangeMask:",
+            "lang": "objc",
+            "addr": 4294987520
+          },
+          {
+            "name": "notifyServiceChange",
+            "flag": "method.AppleSound_AudioDeviceMgr.notifyServiceChange",
+            "lang": "objc",
+            "addr": 4294987896
+          },
+          {
+            "name": "setChangeMask:",
+            "flag": "method.AppleSound_AudioDeviceMgr.setChangeMask:",
+            "lang": "objc",
+            "addr": 4294987996
+          },
+          {
+            "name": "outputDevices",
+            "flag": "method.AppleSound_AudioDeviceMgr.outputDevices",
+            "lang": "objc",
+            "addr": 4294988164
+          },
+          {
+            "name": "inputDevices",
+            "flag": "method.AppleSound_AudioDeviceMgr.inputDevices",
+            "lang": "objc",
+            "addr": 4294988172
+          },
+          {
+            "name": "alertDevices",
+            "flag": "method.AppleSound_AudioDeviceMgr.alertDevices",
+            "lang": "objc",
+            "addr": 4294988180
+          },
+          {
+            "name": "outputDeviceWithDeviceID:",
+            "flag": "method.AppleSound_AudioDeviceMgr.outputDeviceWithDeviceID:",
+            "lang": "objc",
+            "addr": 4294988188
+          },
+          {
+            "name": "inputDeviceWithDeviceID:",
+            "flag": "method.AppleSound_AudioDeviceMgr.inputDeviceWithDeviceID:",
+            "lang": "objc",
+            "addr": 4294988448
+          },
+          {
+            "name": "setDevice:forCategory:",
+            "flag": "method.AppleSound_AudioDeviceMgr.setDevice:forCategory:",
+            "lang": "objc",
+            "addr": 4294988708
+          },
+          {
+            "name": "deviceForCategory:",
+            "flag": "method.AppleSound_AudioDeviceMgr.deviceForCategory:",
+            "lang": "objc",
+            "addr": 4294989276
+          },
+          {
+            "name": "readVolumeLimit",
+            "flag": "method.AppleSound_AudioDeviceMgr.readVolumeLimit",
+            "lang": "objc",
+            "addr": 4294989684
+          },
+          {
+            "name": "sourcesForDeviceList:includeAirplay:",
+            "flag": "method.AppleSound_AudioDeviceMgr.sourcesForDeviceList:includeAirplay:",
+            "lang": "objc",
+            "addr": 4294989848
+          },
+          {
+            "name": "outputSources",
+            "flag": "method.AppleSound_AudioDeviceMgr.outputSources",
+            "lang": "objc",
+            "addr": 4294991624
+          },
+          {
+            "name": "inputSources",
+            "flag": "method.AppleSound_AudioDeviceMgr.inputSources",
+            "lang": "objc",
+            "addr": 4294991636
+          },
+          {
+            "name": "defaultInputDevice",
+            "flag": "method.AppleSound_AudioDeviceMgr.defaultInputDevice",
+            "lang": "objc",
+            "addr": 4294991648
+          },
+          {
+            "name": "defaultOutputDevice",
+            "flag": "method.AppleSound_AudioDeviceMgr.defaultOutputDevice",
+            "lang": "objc",
+            "addr": 4294991660
+          },
+          {
+            "name": "alertsOutputDevice",
+            "flag": "method.AppleSound_AudioDeviceMgr.alertsOutputDevice",
+            "lang": "objc",
+            "addr": 4294991672
+          },
+          {
+            "name": "setDefaultInputDevice:",
+            "flag": "method.AppleSound_AudioDeviceMgr.setDefaultInputDevice:",
+            "lang": "objc",
+            "addr": 4294991684
+          },
+          {
+            "name": "setDefaultOutputDevice:",
+            "flag": "method.AppleSound_AudioDeviceMgr.setDefaultOutputDevice:",
+            "lang": "objc",
+            "addr": 4294991776
+          },
+          {
+            "name": "setAlertsOutputDevice:",
+            "flag": "method.AppleSound_AudioDeviceMgr.setAlertsOutputDevice:",
+            "lang": "objc",
+            "addr": 4294991868
+          },
+          {
+            "name": "hasRetaskableAudioPort",
+            "flag": "method.AppleSound_AudioDeviceMgr.hasRetaskableAudioPort",
+            "lang": "objc",
+            "addr": 4294991960
+          },
+          {
+            "name": "setRetaskableAudioPortMode:",
+            "flag": "method.AppleSound_AudioDeviceMgr.setRetaskableAudioPortMode:",
+            "lang": "objc",
+            "addr": 4294991976
+          },
+          {
+            "name": "retaskableAudioPortMode",
+            "flag": "method.AppleSound_AudioDeviceMgr.retaskableAudioPortMode",
+            "lang": "objc",
+            "addr": 4294992076
+          },
+          {
+            "name": "retaskableAudioPortSourceName",
+            "flag": "method.AppleSound_AudioDeviceMgr.retaskableAudioPortSourceName",
+            "lang": "objc",
+            "addr": 4294992236
+          },
+          {
+            "name": "sharedAudioDeviceManager",
+            "flag": "method.class.AppleSound_AudioDeviceMgr.sharedAudioDeviceManager",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294983504
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_outputDevices",
+            "kind": "var",
+            "type": "@\"NSMutableArray\"",
+            "addr": 4295056468
+          },
+          {
+            "name": "_inputDevices",
+            "kind": "var",
+            "type": "@\"NSMutableArray\"",
+            "addr": 4295056472
+          },
+          {
+            "name": "_alertDevices",
+            "kind": "var",
+            "type": "@\"NSMutableArray\"",
+            "addr": 4295056476
+          },
+          {
+            "name": "_changeLock",
+            "kind": "var",
+            "type": "@\"NSLock\"",
+            "addr": 4295056480
+          },
+          {
+            "name": "_changeMask",
+            "kind": "var",
+            "type": "q",
+            "addr": 4295056484
+          },
+          {
+            "name": "_retaskableDeviceID",
+            "kind": "var",
+            "type": "I",
+            "addr": 4295056488
+          },
+          {
+            "name": "_queue",
+            "kind": "var",
+            "type": "@\"NSObject<OS_dispatch_queue>\"",
+            "addr": 4295056492
+          },
+          {
+            "name": "_propertyListener",
+            "kind": "var",
+            "type": "@?",
+            "addr": 4295056496
+          },
+          {
+            "name": "_hardwareListener",
+            "kind": "var",
+            "type": "@?",
+            "addr": 4295056500
+          },
+          {
+            "name": "_sortByName",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295056504
+          },
+          {
+            "name": "outputDevices",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "inputDevices",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "alertDevices",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "defaultOutputDevice",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "defaultInputDevice",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "alertsOutputDevice",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "inputSources",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "outputSources",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "sharedAudioDeviceManager",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "AppleSound_SoundSettings",
+        "addr": 4295057288,
+        "lang": "objc",
+        "index": 9,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "dealloc",
+            "flag": "method.AppleSound_SoundSettings.dealloc",
+            "lang": "objc",
+            "addr": 4294992764
+          },
+          {
+            "name": "reload",
+            "flag": "method.AppleSound_SoundSettings.reload",
+            "lang": "objc",
+            "addr": 4294992876
+          },
+          {
+            "name": "load",
+            "flag": "method.AppleSound_SoundSettings.load",
+            "lang": "objc",
+            "addr": 4294993456
+          },
+          {
+            "name": "deviceManager",
+            "flag": "method.AppleSound_SoundSettings.deviceManager",
+            "lang": "objc",
+            "addr": 4294993464
+          },
+          {
+            "name": "alertSoundVolume",
+            "flag": "method.AppleSound_SoundSettings.alertSoundVolume",
+            "lang": "objc",
+            "addr": 4294993660
+          },
+          {
+            "name": "setAlertSoundVolume:",
+            "flag": "method.AppleSound_SoundSettings.setAlertSoundVolume:",
+            "lang": "objc",
+            "addr": 4294993772
+          },
+          {
+            "name": "alertSoundPath",
+            "flag": "method.AppleSound_SoundSettings.alertSoundPath",
+            "lang": "objc",
+            "addr": 4294993960
+          },
+          {
+            "name": "setAlertSoundPath:",
+            "flag": "method.AppleSound_SoundSettings.setAlertSoundPath:",
+            "lang": "objc",
+            "addr": 4294994144
+          },
+          {
+            "name": "alertSoundFile",
+            "flag": "method.AppleSound_SoundSettings.alertSoundFile",
+            "lang": "objc",
+            "addr": 4294994392
+          },
+          {
+            "name": "setAlertSoundFile:",
+            "flag": "method.AppleSound_SoundSettings.setAlertSoundFile:",
+            "lang": "objc",
+            "addr": 4294994472
+          },
+          {
+            "name": "beepFile",
+            "flag": "method.AppleSound_SoundSettings.beepFile",
+            "lang": "objc",
+            "addr": 4294994536
+          },
+          {
+            "name": "activateSettingsForCurrentUser",
+            "flag": "method.AppleSound_SoundSettings.activateSettingsForCurrentUser",
+            "lang": "objc",
+            "addr": 4294994540
+          },
+          {
+            "name": "postNotify",
+            "flag": "method.AppleSound_SoundSettings.postNotify",
+            "lang": "objc",
+            "addr": 4294994544
+          },
+          {
+            "name": "playVolumeKeyFeedback",
+            "flag": "method.AppleSound_SoundSettings.playVolumeKeyFeedback",
+            "lang": "objc",
+            "addr": 4294994612
+          },
+          {
+            "name": "setPlayVolumeKeyFeedback:",
+            "flag": "method.AppleSound_SoundSettings.setPlayVolumeKeyFeedback:",
+            "lang": "objc",
+            "addr": 4294994832
+          },
+          {
+            "name": "playUIEffects",
+            "flag": "method.AppleSound_SoundSettings.playUIEffects",
+            "lang": "objc",
+            "addr": 4294995104
+          },
+          {
+            "name": "setPlayUIEffects:",
+            "flag": "method.AppleSound_SoundSettings.setPlayUIEffects:",
+            "lang": "objc",
+            "addr": 4294995188
+          },
+          {
+            "name": "alertsUseOutputDevice",
+            "flag": "method.AppleSound_SoundSettings.alertsUseOutputDevice",
+            "lang": "objc",
+            "addr": 4294995268
+          },
+          {
+            "name": "setAlertsUseOutputDevice:",
+            "flag": "method.AppleSound_SoundSettings.setAlertsUseOutputDevice:",
+            "lang": "objc",
+            "addr": 4294995308
+          },
+          {
+            "name": "mute",
+            "flag": "method.AppleSound_SoundSettings.mute",
+            "lang": "objc",
+            "addr": 4294995464
+          },
+          {
+            "name": "setMute:",
+            "flag": "method.AppleSound_SoundSettings.setMute:",
+            "lang": "objc",
+            "addr": 4294995524
+          },
+          {
+            "name": "mainVolume",
+            "flag": "method.AppleSound_SoundSettings.mainVolume",
+            "lang": "objc",
+            "addr": 4294995656
+          },
+          {
+            "name": "setMainVolume:",
+            "flag": "method.AppleSound_SoundSettings.setMainVolume:",
+            "lang": "objc",
+            "addr": 4294995716
+          },
+          {
+            "name": "canChangeVolume",
+            "flag": "method.AppleSound_SoundSettings.canChangeVolume",
+            "lang": "objc",
+            "addr": 4294995924
+          },
+          {
+            "name": "deviceChanged:",
+            "flag": "method.AppleSound_SoundSettings.deviceChanged:",
+            "lang": "objc",
+            "addr": 4294995980
+          },
+          {
+            "name": "volumeChanged:",
+            "flag": "method.AppleSound_SoundSettings.volumeChanged:",
+            "lang": "objc",
+            "addr": 4294995984
+          },
+          {
+            "name": "beepVolume",
+            "flag": "method.AppleSound_SoundSettings.beepVolume",
+            "lang": "objc",
+            "addr": 4294995988
+          },
+          {
+            "name": "setBeepVolume:",
+            "flag": "method.AppleSound_SoundSettings.setBeepVolume:",
+            "lang": "objc",
+            "addr": 4294995992
+          },
+          {
+            "name": "bootChimeMuted",
+            "flag": "method.AppleSound_SoundSettings.bootChimeMuted",
+            "lang": "objc",
+            "addr": 4294995996
+          },
+          {
+            "name": "setBootChimeMuted:",
+            "flag": "method.AppleSound_SoundSettings.setBootChimeMuted:",
+            "lang": "objc",
+            "addr": 4294996748
+          },
+          {
+            "name": "beepAtSystemVolume:",
+            "flag": "method.AppleSound_SoundSettings.beepAtSystemVolume:",
+            "lang": "objc",
+            "addr": 4294997132
+          },
+          {
+            "name": "sound:didFinishPlaying:",
+            "flag": "method.AppleSound_SoundSettings.sound:didFinishPlaying:",
+            "lang": "objc",
+            "addr": 4294997252
+          },
+          {
+            "name": "beepAtAlertVolume:",
+            "flag": "method.AppleSound_SoundSettings.beepAtAlertVolume:",
+            "lang": "objc",
+            "addr": 4294997268
+          },
+          {
+            "name": "cancelBeepAtSystemVolume",
+            "flag": "method.AppleSound_SoundSettings.cancelBeepAtSystemVolume",
+            "lang": "objc",
+            "addr": 4294997320
+          },
+          {
+            "name": "playBeepAtSystemVolume",
+            "flag": "method.AppleSound_SoundSettings.playBeepAtSystemVolume",
+            "lang": "objc",
+            "addr": 4294997364
+          },
+          {
+            "name": "playBeepAtAlertVolume",
+            "flag": "method.AppleSound_SoundSettings.playBeepAtAlertVolume",
+            "lang": "objc",
+            "addr": 4294997484
+          },
+          {
+            "name": "activateSource:",
+            "flag": "method.AppleSound_SoundSettings.activateSource:",
+            "lang": "objc",
+            "addr": 4294997584
+          },
+          {
+            "name": "sharedSoundSettings",
+            "flag": "method.class.AppleSound_SoundSettings.sharedSoundSettings",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294992708
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_alertsUseOutputDevice",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295056508
+          },
+          {
+            "name": "_loaded",
+            "kind": "var",
+            "type": "B",
+            "addr": 4295056512
+          },
+          {
+            "name": "_audioDeviceManager",
+            "kind": "var",
+            "type": "@\"AppleSound_AudioDeviceMgr\"",
+            "addr": 4295056516
+          },
+          {
+            "name": "_currentSound",
+            "kind": "var",
+            "type": "@\"NSData\"",
+            "addr": 4295056520
+          },
+          {
+            "name": "alertSoundPath",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "alertSoundFile",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "alertSoundVolume",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "alertsUseOutputDevice",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "playUIEffects",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "playVolumeKeyFeedback",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "deviceManager",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "mainVolume",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "canChangeVolume",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "mute",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "beepFile",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "beepVolume",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "bootChimeMuted",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "sharedSoundSettings",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "SoundSettingsMediator",
+        "addr": 4295057328,
+        "lang": "objc",
+        "index": 10,
+        "super": [
+          "CloudSettingsDispatchingMediator"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_CloudSettingsDispatchingMediator"
+        ],
+        "methods": [
+          {
+            "name": "registerKeys",
+            "flag": "method.SoundSettingsMediator.registerKeys",
+            "lang": "objc",
+            "addr": 4294998524
+          },
+          {
+            "name": "playUISoundEffects",
+            "flag": "method.SoundSettingsMediator.playUISoundEffects",
+            "lang": "objc",
+            "addr": 4294998660
+          },
+          {
+            "name": "setPlayUISoundEffects:",
+            "flag": "method.SoundSettingsMediator.setPlayUISoundEffects:",
+            "lang": "objc",
+            "addr": 4294998776
+          },
+          {
+            "name": "playVolumeChangedFeedback",
+            "flag": "method.SoundSettingsMediator.playVolumeChangedFeedback",
+            "lang": "objc",
+            "addr": 4294998868
+          },
+          {
+            "name": "setPlayVolumeChangedFeedback:",
+            "flag": "method.SoundSettingsMediator.setPlayVolumeChangedFeedback:",
+            "lang": "objc",
+            "addr": 4294998984
+          },
+          {
+            "name": "alertSound",
+            "flag": "method.SoundSettingsMediator.alertSound",
+            "lang": "objc",
+            "addr": 4294999076
+          },
+          {
+            "name": "setAlertSound:",
+            "flag": "method.SoundSettingsMediator.setAlertSound:",
+            "lang": "objc",
+            "addr": 4294999204
+          }
+        ]
+      }
+    ],
+    "swift_metadata": {
+      "is_swift": false,
+      "symbols": []
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist",
+        "Versions/A/XPCServices/MouseCloudSettingsXPCService.xpc/Contents/Info.plist",
+        "Versions/A/XPCServices/MouseCloudSettingsXPCService.xpc/Contents/version.plist",
+        "Versions/A/XPCServices/MouseCloudSettingsXPCService.xpc/Contents/_CodeSignature/CodeResources",
+        "Versions/A/XPCServices/MouseCloudSettingsXPCService.xpc/Contents/MacOS/MouseCloudSettingsXPCService",
+        "Versions/A/XPCServices/MouseCloudSettingsXPCService.xpc/Contents/Resources/InfoPlist.loctable",
+        "Versions/A/XPCServices/com.apple.cloudsettings.displays.xpc/Contents/Info.plist",
+        "Versions/A/XPCServices/com.apple.cloudsettings.displays.xpc/Contents/version.plist",
+        "Versions/A/XPCServices/com.apple.cloudsettings.displays.xpc/Contents/_CodeSignature/CodeResources",
+        "Versions/A/XPCServices/com.apple.cloudsettings.displays.xpc/Contents/MacOS/com.apple.cloudsettings.displays",
+        "Versions/A/XPCServices/com.apple.cloudsettings.displays.xpc/Contents/Resources/InfoPlist.loctable",
+        "Versions/A/XPCServices/com.apple.cloudsettings.gamecontroller.xpc/Contents/Info.plist",
+        "Versions/A/XPCServices/com.apple.cloudsettings.gamecontroller.xpc/Contents/version.plist",
+        "Versions/A/XPCServices/com.apple.cloudsettings.gamecontroller.xpc/Contents/_CodeSignature/CodeResources",
+        "Versions/A/XPCServices/com.apple.cloudsettings.gamecontroller.xpc/Contents/MacOS/com.apple.cloudsettings.gamecontroller",
+        "Versions/A/XPCServices/com.apple.cloudsettings.gamecontroller.xpc/Contents/Resources/InfoPlist.loctable",
+        "Versions/A/XPCServices/TrackpadCloudSettingsXPCService.xpc/Contents/Info.plist",
+        "Versions/A/XPCServices/TrackpadCloudSettingsXPCService.xpc/Contents/version.plist",
+        "Versions/A/XPCServices/TrackpadCloudSettingsXPCService.xpc/Contents/_CodeSignature/CodeResources",
+        "Versions/A/XPCServices/TrackpadCloudSettingsXPCService.xpc/Contents/_CodeSignature/CodeDirectory",
+        "Versions/A/XPCServices/TrackpadCloudSettingsXPCService.xpc/Contents/_CodeSignature/CodeSignature",
+        "Versions/A/XPCServices/TrackpadCloudSettingsXPCService.xpc/Contents/_CodeSignature/CodeRequirements",
+        "Versions/A/XPCServices/com.apple.cloudsettings.international.xpc/Contents/Info.plist",
+        "Versions/A/XPCServices/com.apple.cloudsettings.international.xpc/Contents/version.plist",
+        "Versions/A/XPCServices/com.apple.cloudsettings.international.xpc/Contents/_CodeSignature/CodeResources",
+        "Versions/A/XPCServices/com.apple.cloudsettings.international.xpc/Contents/MacOS/com.apple.cloudsettings.international",
+        "Versions/A/XPCServices/com.apple.cloudsettings.international.xpc/Contents/Resources/CloudSettings-entitlements.plist",
+        "Versions/A/XPCServices/com.apple.cloudsettings.international.xpc/Contents/Resources/InfoPlist.loctable",
+        "Versions/A/XPCServices/com.apple.cloudsettings.keyboard.xpc/Contents/Info.plist",
+        "Versions/A/XPCServices/com.apple.cloudsettings.keyboard.xpc/Contents/version.plist",
+        "Versions/A/XPCServices/com.apple.cloudsettings.keyboard.xpc/Contents/_CodeSignature/CodeResources",
+        "Versions/A/XPCServices/com.apple.cloudsettings.keyboard.xpc/Contents/MacOS/com.apple.cloudsettings.keyboard",
+        "Versions/A/XPCServices/com.apple.cloudsettings.keyboard.xpc/Contents/Resources/InfoPlist.loctable",
+        "Versions/A/XPCServices/com.apple.cloudsettings.appearance.xpc/Contents/Info.plist",
+        "Versions/A/XPCServices/com.apple.cloudsettings.appearance.xpc/Contents/version.plist",
+        "Versions/A/XPCServices/com.apple.cloudsettings.appearance.xpc/Contents/_CodeSignature/CodeResources",
+        "Versions/A/XPCServices/com.apple.cloudsettings.appearance.xpc/Contents/MacOS/com.apple.cloudsettings.appearance",
+        "Versions/A/XPCServices/com.apple.cloudsettings.appearance.xpc/Contents/Resources/InfoPlist.loctable",
+        "Versions/A/XPCServices/com.apple.cloudsettings.sound.xpc/Contents/Info.plist",
+        "Versions/A/XPCServices/com.apple.cloudsettings.sound.xpc/Contents/version.plist",
+        "Versions/A/XPCServices/com.apple.cloudsettings.sound.xpc/Contents/_CodeSignature/CodeResources",
+        "Versions/A/XPCServices/com.apple.cloudsettings.sound.xpc/Contents/MacOS/com.apple.cloudsettings.sound",
+        "Versions/A/XPCServices/com.apple.cloudsettings.sound.xpc/Contents/Resources/InfoPlist.loctable"
+      ],
+      "plists": {
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "CloudSettings",
+          "CFBundleIdentifier": "com.apple.CloudSettings",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "DTPlatformBuild": "",
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleVersion": "1",
+          "CFBundleExecutable": "CloudSettings",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTXcode": "2600",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundlePackageType": "FMWK",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "DTSDKName": "macosx26.1.internal",
+          "CFBundleShortVersionString": "1.0"
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "CloudSettings",
+          "SourceVersion": "115000000000000",
+          "BuildVersion": "11340"
+        },
+        "Versions/A/XPCServices/MouseCloudSettingsXPCService.xpc/Contents/Info.plist": {
+          "CFBundleName": "MouseCloudSettingsXPCService",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "XPCService": {
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "MouseCloudSettingsXPCService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.cloudsettings.mouse",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleDisplayName": "MouseCloudSettingsXPCService",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/XPCServices/MouseCloudSettingsXPCService.xpc/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "KeyboardPref",
+          "SourceVersion": "677000000000000",
+          "BuildVersion": "582"
+        },
+        "Versions/A/XPCServices/com.apple.cloudsettings.displays.xpc/Contents/Info.plist": {
+          "CFBundleName": "com.apple.cloudsettings.displays",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2022 Apple Inc. All rights reserved.",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "XPCService": {
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "com.apple.cloudsettings.displays",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.cloudsettings.displays",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleDisplayName": "com.apple.cloudsettings.displays",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/XPCServices/com.apple.cloudsettings.displays.xpc/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "DisplaysPref",
+          "SourceVersion": "104000007000000",
+          "BuildVersion": "62"
+        },
+        "Versions/A/XPCServices/com.apple.cloudsettings.gamecontroller.xpc/Contents/Info.plist": {
+          "CFBundleName": "com.apple.cloudsettings.gamecontroller",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2022 Apple Inc. All rights reserved.",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "XPCService": {
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "com.apple.cloudsettings.gamecontroller",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.cloudsettings.gamecontroller",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleDisplayName": "com.apple.cloudsettings.gamecontroller",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/XPCServices/com.apple.cloudsettings.gamecontroller.xpc/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "CoreController",
+          "SourceVersion": "13001008000000",
+          "BuildVersion": "362"
+        },
+        "Versions/A/XPCServices/TrackpadCloudSettingsXPCService.xpc/Contents/Info.plist": {
+          "CFBundleName": "TrackpadCloudSettingsXPCService",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "XPCService": {
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "TrackpadCloudSettingsXPCService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.cloudsettings.trackpad",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleDisplayName": "TrackpadCloudSettingsXPCService",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/XPCServices/TrackpadCloudSettingsXPCService.xpc/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "KeyboardPref",
+          "SourceVersion": "677000000000000",
+          "BuildVersion": "582"
+        },
+        "Versions/A/XPCServices/com.apple.cloudsettings.international.xpc/Contents/Info.plist": {
+          "CFBundleName": "com.apple.cloudsettings.international",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2022 Apple Inc. All rights reserved.",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "282",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "XPCService": {
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "com.apple.cloudsettings.international",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.cloudsettings.international",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleDisplayName": "com.apple.cloudsettings.international",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/XPCServices/com.apple.cloudsettings.international.xpc/Contents/version.plist": {
+          "CFBundleVersion": "282",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "InternationalSettings",
+          "SourceVersion": "282000000000000",
+          "BuildVersion": "3312"
+        },
+        "Versions/A/XPCServices/com.apple.cloudsettings.international.xpc/Contents/Resources/CloudSettings-entitlements.plist": {
+          "com.apple.developer.ubiquity-kvstore-identifier": "com.apple.cloudsettings.international"
+        },
+        "Versions/A/XPCServices/com.apple.cloudsettings.keyboard.xpc/Contents/Info.plist": {
+          "CFBundleName": "com.apple.cloudsettings.keyboard",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "123",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "XPCService": {
+            "JoinExistingSession": true,
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "com.apple.cloudsettings.keyboard",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.cloudsettings.keyboard",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleDisplayName": "com.apple.cloudsettings.keyboard",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/XPCServices/com.apple.cloudsettings.keyboard.xpc/Contents/version.plist": {
+          "CFBundleVersion": "123",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "KeyboardSettings",
+          "SourceVersion": "123000000000000",
+          "BuildVersion": "2821"
+        },
+        "Versions/A/XPCServices/com.apple.cloudsettings.appearance.xpc/Contents/Info.plist": {
+          "CFBundleName": "com.apple.cloudsettings.appearance",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2021 Apple Inc. All rights reserved.",
+          "DTSDKBuild": "25B73",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "XPCService": {
+            "RunLoopType": "NSRunLoop",
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "com.apple.cloudsettings.appearance",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.cloudsettings.appearance",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleDisplayName": "com.apple.cloudsettings.appearance",
+          "DTPlatformBuild": "25B73"
+        },
+        "Versions/A/XPCServices/com.apple.cloudsettings.appearance.xpc/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "AppearancePref",
+          "SourceVersion": "265003202000000",
+          "BuildVersion": "1"
+        },
+        "Versions/A/XPCServices/com.apple.cloudsettings.sound.xpc/Contents/Info.plist": {
+          "CFBundleName": "com.apple.cloudsettings.sound",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "XPCService": {
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "com.apple.cloudsettings.sound",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.cloudsettings.sound",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleDisplayName": "com.apple.cloudsettings.sound",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/XPCServices/com.apple.cloudsettings.sound.xpc/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "SoundPref",
+          "SourceVersion": "190000000000000",
+          "BuildVersion": "145"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
+  },
+  "usage": {
+    "layer": "usage",
+    "used_by": []
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "loaded"
+  }
+}

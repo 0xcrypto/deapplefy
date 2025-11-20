@@ -1,0 +1,3007 @@
+{
+  "framework": "FedStats.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/FedStats.framework/PlugIns/FedStatsMLRPlugin.appex/Contents/MacOS/FedStatsMLRPlugin",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 98736,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "objc",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/PrivateFrameworks/FedStatsPluginCore.framework/Versions/A/FedStatsPluginCore",
+          "/System/Library/PrivateFrameworks/MLRuntime.framework/Versions/A/MLRuntime",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "/System/Library/PrivateFrameworks/DifferentialPrivacy.framework/Versions/A/DifferentialPrivacy",
+          "/System/Library/PrivateFrameworks/Trial.framework/Versions/A/Trial"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "FedStatsPluginTrialClient",
+        "addr": 4295018664,
+        "lang": "objc",
+        "index": 0,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithTask:error:",
+            "flag": "method.FedStatsPluginTrialClient.initWithTask:error:",
+            "lang": "objc",
+            "addr": 4294970992
+          },
+          {
+            "name": "recipeDictionary",
+            "flag": "method.FedStatsPluginTrialClient.recipeDictionary",
+            "lang": "objc",
+            "addr": 4294972484
+          },
+          {
+            "name": "loadRecipeWithError:",
+            "flag": "method.FedStatsPluginTrialClient.loadRecipeWithError:",
+            "lang": "objc",
+            "addr": 4294972556
+          },
+          {
+            "name": "updateMetadataWithDPParameters:",
+            "flag": "method.FedStatsPluginTrialClient.updateMetadataWithDPParameters:",
+            "lang": "objc",
+            "addr": 4294972972
+          },
+          {
+            "name": "downloadFactor:error:",
+            "flag": "method.FedStatsPluginTrialClient.downloadFactor:error:",
+            "lang": "objc",
+            "addr": 4294973360
+          },
+          {
+            "name": "removeFactor:",
+            "flag": "method.FedStatsPluginTrialClient.removeFactor:",
+            "lang": "objc",
+            "addr": 4294975712
+          },
+          {
+            "name": "recipeIdentifiers",
+            "flag": "func.100002324",
+            "lang": "objc",
+            "addr": 4294976292
+          },
+          {
+            "name": "assetURLForRecipe:forKey:error:",
+            "flag": "func.1000023c4",
+            "lang": "objc",
+            "addr": 4294976452
+          },
+          {
+            "name": "recipeDictionaryForRecipe:error:",
+            "flag": "func.1000025a0",
+            "lang": "objc",
+            "addr": 4294976928
+          },
+          {
+            "name": "treatmentIdentifierForRecipe:",
+            "flag": "func.100002604",
+            "lang": "objc",
+            "addr": 4294977028
+          },
+          {
+            "name": "experimentIdentifierForRecipe:",
+            "flag": "func.100002698",
+            "lang": "objc",
+            "addr": 4294977176
+          },
+          {
+            "name": "deploymentIdentifierForRecipe:",
+            "flag": "func.10000272c",
+            "lang": "objc",
+            "addr": 4294977324
+          },
+          {
+            "name": "namespaceIdentifierForRecipe:",
+            "flag": "func.1000027c0",
+            "lang": "objc",
+            "addr": 4294977472
+          },
+          {
+            "name": "fetchAssets:error:",
+            "flag": "func.100002854",
+            "lang": "objc",
+            "addr": 4294977620
+          },
+          {
+            "name": "removeAssets",
+            "flag": "func.100002a38",
+            "lang": "objc",
+            "addr": 4294978104
+          },
+          {
+            "name": "recipeURL",
+            "flag": "method.FedStatsPluginTrialClient.recipeURL",
+            "lang": "objc",
+            "addr": 4294978908
+          },
+          {
+            "name": "setRecipeURL:",
+            "flag": "method.FedStatsPluginTrialClient.setRecipeURL:",
+            "lang": "objc",
+            "addr": 4294978916
+          },
+          {
+            "name": "namespaceIdentifier",
+            "flag": "method.FedStatsPluginTrialClient.namespaceIdentifier",
+            "lang": "objc",
+            "addr": 4294978928
+          },
+          {
+            "name": "setNamespaceIdentifier:",
+            "flag": "method.FedStatsPluginTrialClient.setNamespaceIdentifier:",
+            "lang": "objc",
+            "addr": 4294978936
+          },
+          {
+            "name": "trialClient",
+            "flag": "method.FedStatsPluginTrialClient.trialClient",
+            "lang": "objc",
+            "addr": 4294978948
+          },
+          {
+            "name": "setTrialClient:",
+            "flag": "method.FedStatsPluginTrialClient.setTrialClient:",
+            "lang": "objc",
+            "addr": 4294978956
+          },
+          {
+            "name": "experimentIdentifier",
+            "flag": "method.FedStatsPluginTrialClient.experimentIdentifier",
+            "lang": "objc",
+            "addr": 4294978968
+          },
+          {
+            "name": "setExperimentIdentifier:",
+            "flag": "method.FedStatsPluginTrialClient.setExperimentIdentifier:",
+            "lang": "objc",
+            "addr": 4294978976
+          },
+          {
+            "name": "deploymentIdentifier",
+            "flag": "method.FedStatsPluginTrialClient.deploymentIdentifier",
+            "lang": "objc",
+            "addr": 4294978988
+          },
+          {
+            "name": "setDeploymentIdentifier:",
+            "flag": "method.FedStatsPluginTrialClient.setDeploymentIdentifier:",
+            "lang": "objc",
+            "addr": 4294978996
+          },
+          {
+            "name": "treatmentIdentifier",
+            "flag": "method.FedStatsPluginTrialClient.treatmentIdentifier",
+            "lang": "objc",
+            "addr": 4294979008
+          },
+          {
+            "name": "setTreatmentIdentifier:",
+            "flag": "method.FedStatsPluginTrialClient.setTreatmentIdentifier:",
+            "lang": "objc",
+            "addr": 4294979016
+          },
+          {
+            "name": "setRecipeDictionary:",
+            "flag": "method.FedStatsPluginTrialClient.setRecipeDictionary:",
+            "lang": "objc",
+            "addr": 4294979028
+          },
+          {
+            "name": "assetURLs",
+            "flag": "method.FedStatsPluginTrialClient.assetURLs",
+            "lang": "objc",
+            "addr": 4294979040
+          },
+          {
+            "name": "setAssetURLs:",
+            "flag": "method.FedStatsPluginTrialClient.setAssetURLs:",
+            "lang": "objc",
+            "addr": 4294979048
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.FedStatsPluginTrialClient..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294979060
+          },
+          {
+            "name": "recipeIdentifiers",
+            "flag": "method.FedStatsPluginTrialClient.recipeIdentifiers",
+            "lang": "objc",
+            "addr": 4294986456
+          },
+          {
+            "name": "recipeDictionaryForRecipe:error:",
+            "flag": "method.FedStatsPluginTrialClient.recipeDictionaryForRecipe:error:",
+            "lang": "objc",
+            "addr": 4294986468
+          },
+          {
+            "name": "fetchAssets:error:",
+            "flag": "method.FedStatsPluginTrialClient.fetchAssets:error:",
+            "lang": "objc",
+            "addr": 4294986480
+          },
+          {
+            "name": "assetURLForRecipe:forKey:error:",
+            "flag": "method.FedStatsPluginTrialClient.assetURLForRecipe:forKey:error:",
+            "lang": "objc",
+            "addr": 4294986492
+          },
+          {
+            "name": "removeAssets",
+            "flag": "method.FedStatsPluginTrialClient.removeAssets",
+            "lang": "objc",
+            "addr": 4294986504
+          },
+          {
+            "name": "namespaceIdentifierForRecipe:",
+            "flag": "method.FedStatsPluginTrialClient.namespaceIdentifierForRecipe:",
+            "lang": "objc",
+            "addr": 4294986516
+          },
+          {
+            "name": "experimentIdentifierForRecipe:",
+            "flag": "method.FedStatsPluginTrialClient.experimentIdentifierForRecipe:",
+            "lang": "objc",
+            "addr": 4294986528
+          },
+          {
+            "name": "treatmentIdentifierForRecipe:",
+            "flag": "method.FedStatsPluginTrialClient.treatmentIdentifierForRecipe:",
+            "lang": "objc",
+            "addr": 4294986540
+          },
+          {
+            "name": "deploymentIdentifierForRecipe:",
+            "flag": "method.FedStatsPluginTrialClient.deploymentIdentifierForRecipe:",
+            "lang": "objc",
+            "addr": 4294986552
+          },
+          {
+            "name": "recipeIdentifiers",
+            "flag": "method.FedStatsPluginTrialClient.recipeIdentifiers",
+            "lang": "objc",
+            "addr": 4294986456
+          },
+          {
+            "name": "recipeDictionaryForRecipe:error:",
+            "flag": "method.FedStatsPluginTrialClient.recipeDictionaryForRecipe:error:",
+            "lang": "objc",
+            "addr": 4294986468
+          },
+          {
+            "name": "fetchAssets:error:",
+            "flag": "method.FedStatsPluginTrialClient.fetchAssets:error:",
+            "lang": "objc",
+            "addr": 4294986480
+          },
+          {
+            "name": "assetURLForRecipe:forKey:error:",
+            "flag": "method.FedStatsPluginTrialClient.assetURLForRecipe:forKey:error:",
+            "lang": "objc",
+            "addr": 4294986492
+          },
+          {
+            "name": "removeAssets",
+            "flag": "method.FedStatsPluginTrialClient.removeAssets",
+            "lang": "objc",
+            "addr": 4294986504
+          },
+          {
+            "name": "namespaceIdentifierForRecipe:",
+            "flag": "method.FedStatsPluginTrialClient.namespaceIdentifierForRecipe:",
+            "lang": "objc",
+            "addr": 4294986516
+          },
+          {
+            "name": "experimentIdentifierForRecipe:",
+            "flag": "method.FedStatsPluginTrialClient.experimentIdentifierForRecipe:",
+            "lang": "objc",
+            "addr": 4294986528
+          },
+          {
+            "name": "treatmentIdentifierForRecipe:",
+            "flag": "method.FedStatsPluginTrialClient.treatmentIdentifierForRecipe:",
+            "lang": "objc",
+            "addr": 4294986540
+          },
+          {
+            "name": "deploymentIdentifierForRecipe:",
+            "flag": "method.FedStatsPluginTrialClient.deploymentIdentifierForRecipe:",
+            "lang": "objc",
+            "addr": 4294986552
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_recipeURL",
+            "kind": "var",
+            "type": "@\"NSURL\"",
+            "addr": 4295018592
+          },
+          {
+            "name": "_namespaceIdentifier",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295018596
+          },
+          {
+            "name": "_trialClient",
+            "kind": "var",
+            "type": "@\"TRIClient\"",
+            "addr": 4295018600
+          },
+          {
+            "name": "_experimentIdentifier",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295018604
+          },
+          {
+            "name": "_deploymentIdentifier",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295018608
+          },
+          {
+            "name": "_treatmentIdentifier",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 4295018612
+          },
+          {
+            "name": "_recipeDictionary",
+            "kind": "var",
+            "type": "@\"NSDictionary\"",
+            "addr": 4295018616
+          },
+          {
+            "name": "_assetURLs",
+            "kind": "var",
+            "type": "@\"NSMutableDictionary\"",
+            "addr": 4295018620
+          },
+          {
+            "name": "assetURLs",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "recipeURL",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "namespaceIdentifier",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "trialClient",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "experimentIdentifier",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "deploymentIdentifier",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "treatmentIdentifier",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "recipeDictionary",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "FedStatsMLRPlugin",
+        "addr": 4295018704,
+        "lang": "objc",
+        "index": 1,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "performTask:outError:",
+            "flag": "method.FedStatsMLRPlugin.performTask:outError:",
+            "lang": "objc",
+            "addr": 4294979264
+          },
+          {
+            "name": "performTrialTask:outError:",
+            "flag": "method.FedStatsMLRPlugin.performTrialTask:outError:",
+            "lang": "objc",
+            "addr": 4294979968
+          },
+          {
+            "name": "stop",
+            "flag": "func.100003530",
+            "lang": "objc",
+            "addr": 4294980912
+          },
+          {
+            "name": "stop",
+            "flag": "method.FedStatsMLRPlugin.stop",
+            "lang": "objc",
+            "addr": 4294986576
+          },
+          {
+            "name": "performWithTrialClient:outError:",
+            "flag": "method.class.FedStatsMLRPlugin.performWithTrialClient:outError:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 4294980252
+          },
+          {
+            "name": "stop",
+            "flag": "method.FedStatsMLRPlugin.stop",
+            "lang": "objc",
+            "addr": 4294986576
+          }
+        ],
+        "fields": [
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      }
+    ],
+    "swift_metadata": {
+      "is_swift": false,
+      "symbols": []
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist",
+        "PlugIns/FedStatsMLRPluginNonDnU.appex/Contents/Info.plist",
+        "PlugIns/FedStatsMLRPluginNonDnU.appex/Contents/version.plist",
+        "PlugIns/FedStatsMLRPluginNonDnU.appex/Contents/_CodeSignature/CodeResources",
+        "PlugIns/FedStatsMLRPluginNonDnU.appex/Contents/MacOS/FedStatsMLRPluginNonDnU",
+        "PlugIns/FedStatsMLRPluginNonDnU.appex/Contents/Resources/FedStatsPluginSQLQueryBlockList.plist",
+        "PlugIns/FedStatsMLRPluginNonDnU.appex/Contents/Resources/FedStatsPluginClientAssociations.plist",
+        "PlugIns/FedStatsMLRPluginNonDnU.appex/Contents/Resources/FedStatsPluginSQLQueryAllowList.plist",
+        "PlugIns/FedStatsMLRPluginNonDnU.appex/Contents/Resources/FedStatsCohortAllowList.plist",
+        "PlugIns/FedStatsMLRPluginNonDnU.appex/Contents/Resources/FedStatsPluginAllowedNamespaces.plist",
+        "PlugIns/FedStatsMLRPluginNonDnU.appex/Contents/Resources/FedStatsCohortValueBlockList.plist",
+        "PlugIns/FedStatsMLRPluginNonDnU.appex/Contents/Resources/FedStatsCohortValueAllowList.plist",
+        "PlugIns/FedStatsMLRPluginClassB.appex/Contents/Info.plist",
+        "PlugIns/FedStatsMLRPluginClassB.appex/Contents/version.plist",
+        "PlugIns/FedStatsMLRPluginClassB.appex/Contents/_CodeSignature/CodeResources",
+        "PlugIns/FedStatsMLRPluginClassB.appex/Contents/MacOS/FedStatsMLRPluginClassB",
+        "PlugIns/FedStatsMLRPluginClassB.appex/Contents/Resources/FedStatsPluginSQLQueryBlockList.plist",
+        "PlugIns/FedStatsMLRPluginClassB.appex/Contents/Resources/FedStatsPluginClientAssociations.plist",
+        "PlugIns/FedStatsMLRPluginClassB.appex/Contents/Resources/FedStatsPluginSQLQueryAllowList.plist",
+        "PlugIns/FedStatsMLRPluginClassB.appex/Contents/Resources/FedStatsCohortAllowList.plist",
+        "PlugIns/FedStatsMLRPluginClassB.appex/Contents/Resources/FedStatsPluginAllowedNamespaces.plist",
+        "PlugIns/FedStatsMLRPluginClassB.appex/Contents/Resources/FedStatsCohortValueBlockList.plist",
+        "PlugIns/FedStatsMLRPluginClassB.appex/Contents/Resources/FedStatsCohortValueAllowList.plist",
+        "PlugIns/FedStatsMLRPlugin.appex/Contents/Info.plist",
+        "PlugIns/FedStatsMLRPlugin.appex/Contents/version.plist",
+        "PlugIns/FedStatsMLRPlugin.appex/Contents/_CodeSignature/CodeResources",
+        "PlugIns/FedStatsMLRPlugin.appex/Contents/MacOS/FedStatsMLRPlugin",
+        "PlugIns/FedStatsMLRPlugin.appex/Contents/Resources/FedStatsPluginSQLQueryBlockList.plist",
+        "PlugIns/FedStatsMLRPlugin.appex/Contents/Resources/FedStatsPluginClientAssociations.plist",
+        "PlugIns/FedStatsMLRPlugin.appex/Contents/Resources/FedStatsPluginSQLQueryAllowList.plist",
+        "PlugIns/FedStatsMLRPlugin.appex/Contents/Resources/FedStatsCohortAllowList.plist",
+        "PlugIns/FedStatsMLRPlugin.appex/Contents/Resources/FedStatsPluginAllowedNamespaces.plist",
+        "PlugIns/FedStatsMLRPlugin.appex/Contents/Resources/FedStatsCohortValueBlockList.plist",
+        "PlugIns/FedStatsMLRPlugin.appex/Contents/Resources/FedStatsCohortValueAllowList.plist"
+      ],
+      "plists": {
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "FedStats",
+          "CFBundleIdentifier": "com.apple.aiml.mlpt.PriML.FedStats",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "DTPlatformBuild": "",
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleVersion": "1",
+          "CFBundleExecutable": "FedStats",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTXcode": "2600",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundlePackageType": "FMWK",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "DTSDKName": "macosx26.1.internal",
+          "CFBundleShortVersionString": "1.0"
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "FedStats",
+          "SourceVersion": "60000000000000",
+          "BuildVersion": "86"
+        },
+        "PlugIns/FedStatsMLRPluginNonDnU.appex/Contents/Info.plist": {
+          "CFBundleName": "FedStatsMLRPluginNonDnU",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "MLRuntimeTaskPrincipalClass": "FedStatsMLRPlugin",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "FedStatsMLRPluginNonDnU",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.aiml.mlpt.PriML.FedStats.PluginNonDnU",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleDisplayName": "FedStatsPlugin",
+          "DTPlatformBuild": "",
+          "NSExtension": {
+            "NSExtensionPointIdentifier": "com.apple.mlruntime.extension-point-high",
+            "NSExtensionPrincipalClass": "MLRExtensionPrincipalClass"
+          }
+        },
+        "PlugIns/FedStatsMLRPluginNonDnU.appex/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "FedStats",
+          "SourceVersion": "60000000000000",
+          "BuildVersion": "86"
+        },
+        "PlugIns/FedStatsMLRPluginNonDnU.appex/Contents/Resources/FedStatsPluginSQLQueryBlockList.plist": {
+          "FED_STATS_BIOME_PERSONALIZED_SETUP": [
+            "^.* (?i)WHERE(?-i) .*$"
+          ],
+          "FED_STATS_BIOME_SAFARI": [],
+          "FED_STATS_BIOME_EMOJIS": [
+            "^.* (?i)WHERE(?-i) .*$"
+          ],
+          "FED_STATS_BIOME_BLUETOOTH": [
+            "^.* (?i)WHERE(?-i) .*$"
+          ],
+          "FED_STATS_BIOME_CELLULAR": [
+            "^.* (?i)WHERE(?-i) .*$"
+          ],
+          "FED_STATS_BIOME_SIRI_HEALTH": [
+            "^.* (?i)WHERE(?-i) .*$"
+          ],
+          "FED_STATS_BIOME_REMINDERS": [],
+          "FED_STATS_BIOME_PFL_INSIGHTS": [
+            "^.* (?i)WHERE(?-i) .*$"
+          ],
+          "FED_STATS_BIOME_SIRI_PPL_APP_SELECTION": [],
+          "FED_STATS_BIOME_CORE_MOTION": [],
+          "FED_STATS_BIOME_HEALTH": [
+            "^.* (?i)WHERE(?-i) .*$"
+          ],
+          "FED_STATS_BIOME_MEAD": [
+            "^.* (?i)WHERE(?-i) .*$"
+          ],
+          "FED_STATS_BIOME_SIRI_EDUCATION": [
+            "^.* (?i)WHERE(?-i) .*$"
+          ],
+          "FED_STATS_BIOME_COMM_SAFETY": [],
+          "FED_STATS_BIOME_STORYTELLING": [],
+          "FED_STATS_BIOME_MEDIATECH": [],
+          "FED_STATS_BIOME_APPLAUNCH": [],
+          "FED_STATS_BIOME_SAFARI_ANALYTICS": [
+            "^.* (?i)WHERE(?-i) .*$"
+          ],
+          "FED_STATS_BIOME_KEYBOARD_ADDRESS": [],
+          "FED_STATS_BIOME_APPLECARD": [
+            "^.* (?i)WHERE(?-i) .*$"
+          ]
+        },
+        "PlugIns/FedStatsMLRPluginNonDnU.appex/Contents/Resources/FedStatsPluginClientAssociations.plist": {
+          "FED_STATS_BIOME_SIRI_ASR": [
+            "com.apple.insights.siri.asr"
+          ],
+          "FED_STATS_BIOME_AUTONAMING": [
+            "com.apple.insights.auto-naming.model-accuracy"
+          ],
+          "FED_STATS_BIOME_VISINT_SCENE_LABELS": [
+            "com.apple.insights.visual-intelligence.scene-label"
+          ],
+          "FED_STATS_BIOME_PHOTOS_SEARCH": [
+            "com.apple.insights.photos.search-l2-ranker"
+          ],
+          "FED_STATS_BIOME_WIRELESS": [
+            "com.apple.insights.emergency-voice-calls"
+          ],
+          "FED_STATS_BIOME_AI_SAFETY_THIRD": [
+            "com.apple.insights.content-safety.analysisA",
+            "aggregated.com.apple.insights.content-safety.analysisA"
+          ],
+          "FED_STATS_BIOME_SIRI_HEALTH": [
+            "com.apple.insights.siri.health-data-types"
+          ],
+          "FED_STATS_BIOME_BLUETOOTH": [
+            "com.apple.insights.bluetooth-sessions"
+          ],
+          "FED_STATS_BIOME_KEYBOARD": [
+            "com.apple.insights.keyboard",
+            "com.apple.insights.keyboard.WordUnigram",
+            "com.apple.insights.keyboard.Emoji",
+            "com.apple.insights.keyboard.UnknownToken"
+          ],
+          "FED_STATS_BIOME_FLEXIBLE_HISTOGRAMS": [
+            "com.apple.insights.app-duration"
+          ],
+          "FED_STATS_BIOME_PFL_INSIGHTS": [
+            "com.apple.insights.siri-music-apps-selection"
+          ],
+          "FED_STATS_BIOME_WRITING_TOOLS": [
+            "com.apple.insights.writing-tools"
+          ],
+          "FED_STATS_BIOME_AI_SAFETY_BLOCKING": [
+            "com.apple.insights.content-safety-data"
+          ],
+          "FED_STATS_BIOME_SIRI_EDUCATION": [
+            "com.apple.insights.siri.smart-suppression"
+          ],
+          "FED_STATS_BIOME_EMOJIS": [
+            "com.apple.insights.emojis.Search"
+          ],
+          "FED_STATS_BIOME_CORE_MOTION": [
+            "com.apple.insights.moments-stats"
+          ],
+          "FED_STATS_BIOME_APPLAUNCH": [
+            "com.apple.insights.app-launch",
+            "com.apple.insights.apple-one-stats"
+          ],
+          "FED_STATS_BIOME_CELLULAR": [
+            "com.apple.insights.wireless.connectivity-context"
+          ],
+          "FED_STATS_BIOME_MEDIATECH": [
+            "com.apple.insights.media-apis",
+            "com.apple.insights.media-analysis-vsp"
+          ],
+          "FED_STATS_BIOME_AD_ATTRIBUTION_KIT": [
+            "com.apple.insights.ad-attribution-kit"
+          ],
+          "FED_STATS_BIOME_SIRI_PPL_APP_SELECTION": [
+            "com.apple.insights.siri-ppl-app-selection"
+          ],
+          "FED_STATS_BIOME_PHOTOS": [
+            "com.apple.insights.photos.memory-creation",
+            "com.apple.insights.photos.search"
+          ],
+          "FED_STATS_BIOME_SIRI_SEARCH": [
+            "com.apple.insights.safari.unknown-domains-with-private-relay",
+            "com.apple.insights.safari.unknown-domains-without-private-relay",
+            "com.apple.insights.safari.partial-url-with-private-relay",
+            "com.apple.insights.safari.partial-url-without-private-relay"
+          ],
+          "FED_STATS_BIOME_APPLECARD": [
+            "com.apple.insights.apple-card-analytics",
+            "com.apple.insights.apple-cash"
+          ],
+          "FED_STATS_BIOME_HOLD_ASSIST": [
+            "com.apple.insights.hold-assist"
+          ],
+          "FED_STATS_BIOME_SAFARI_ANALYTICS": [
+            "com.apple.insights.safari.analytics"
+          ],
+          "FED_STATS_BIOME_HEALTH": [
+            "com.apple.insights.health.medications"
+          ],
+          "FED_STATS_BIOME_REMINDERS": [
+            "com.apple.insights.grocery-reminder"
+          ],
+          "FED_STATS_BIOME_CAMERA": [
+            "com.apple.insights.camera-auto-focus",
+            "com.apple.insights.camera-styles"
+          ],
+          "FED_STATS_BIOME_SAFARI_ENGAGEMENT_METRICS": [
+            "com.apple.insights.safari.highlights"
+          ],
+          "FED_STATS_BIOME_GENMOJI": [
+            "com.apple.insights.genmoji",
+            "v1.com.apple.insights.genmoji",
+            "com.apple.insights.image-playground",
+            "com.apple.insights.magic-paper"
+          ],
+          "FED_STATS_BIOME_MEAD": [
+            "com.apple.insights.wallet-fairness"
+          ],
+          "FED_STATS_BIOME_MAIL": [
+            "com.apple.insights.mail-domains"
+          ],
+          "FED_STATS_BIOME_MEGADOME": [
+            "com.apple.insights.entity-relevance"
+          ],
+          "FED_STATS_BIOME_MAIL_TAGS": [
+            "com.apple.insights.summarization.email-tags"
+          ],
+          "FED_STATS_BIOME_SAFARI": [
+            "com.apple.insights.safari.navigations-without-private-relay",
+            "com.apple.insights.safari.navigations-with-private-relay",
+            "com.apple.insights.safari.autoplay-without-private-relay",
+            "com.apple.insights.safari.autoplay-with-private-relay",
+            "com.apple.insights.safari.webpageperformance-without-private-relay",
+            "com.apple.insights.safari.webpageperformance-with-private-relay",
+            "com.apple.insights.safari.pop-ups",
+            "com.apple.insights.safari.urls-without-private-relay",
+            "com.apple.insights.safari.memory-footprint-with-private-relay",
+            "com.apple.insights.safari.memory-footprint-without-private-relay",
+            "com.apple.insights.safari.domains-blocking-quit"
+          ],
+          "FED_STATS_BIOME_COMM_SAFETY": [
+            "com.apple.insights.communication-safety-ui-interaction",
+            "com.apple.insights.communication-safety-media-analysis",
+            "com.apple.insights.communication-safety-resource-interaction"
+          ],
+          "FED_STATS_BIOME_STORYTELLING": [
+            "com.apple.insights.compressed-iconic-scenes",
+            "com.apple.insights.iconic-scenes",
+            "com.apple.insights.photos-analytics"
+          ],
+          "FED_STATS_BIOME_AI_SAFETY_FIRST": [
+            "com.apple.insights.internal-collection.analysisA",
+            "aggregated.com.apple.insights.internal-collection"
+          ],
+          "FED_STATS_BIOME_NETWORKING": [
+            "com.apple.insights.networking.UnknownIPPrefix",
+            "com.apple.insights.networking.IPPrefix"
+          ],
+          "FED_STATS_BIOME_PERSONALIZED_SETUP": [
+            "com.apple.insights.systemsettings.personalized-setup"
+          ],
+          "FED_STATS_BIOME_KEYBOARD_ADDRESS": [
+            "com.apple.insights.keyboard.address-books"
+          ],
+          "FED_STATS_BIOME_AI_SAFETY_SHORTCUTS": [
+            "com.apple.insights.content-safety-shortcuts"
+          ],
+          "FED_STATS_BIOME_SYSTEM_SETTINGS": [
+            "com.apple.insights.systemsettings.SearchTerm",
+            "com.apple.insights.systemsettings.ClickResult"
+          ],
+          "FED_STATS_BIOME_MEDIA_ANALYSIS": [
+            "com.apple.insights.photos-video-assets-stats"
+          ],
+          "FED_STATS_BIOME_MAC_AUTHENTICATION": [
+            "com.apple.insights.mac-os-authentication"
+          ],
+          "FED_STATS_BIOME_MESSAGE_SPAM_DETECTION": [
+            "com.apple.insights.message-spam-detection"
+          ]
+        },
+        "PlugIns/FedStatsMLRPluginNonDnU.appex/Contents/Resources/FedStatsPluginSQLQueryAllowList.plist": {
+          "FED_STATS_BIOME_SIRI_ASR": [
+            "^.*Siri.ASR.RequestMetricsRecord.*$"
+          ],
+          "FED_STATS_BIOME_AUTONAMING": [
+            "^.*Autonaming.Messages.AccuracyFedStats.*$"
+          ],
+          "FED_STATS_BIOME_VISINT_SCENE_LABELS": [
+            "^.*VisualIntelligenceCamera.DetectedLabels.*$"
+          ],
+          "FED_STATS_BIOME_PHOTOS_SEARCH": [
+            "^.*AeroML.Insights.PhotosSearchInsights.*$",
+            "^.*AeroML.LabeledData.PhotosSearchLabeledData.*$",
+            "^.*AeroML.DataCorrelations.PhotosSearchDataCorrelations.*$"
+          ],
+          "FED_STATS_BIOME_WIRELESS": [
+            "^.*CommCenter.Call.EmergencyVoiceCall.*$",
+            "^.*Location.Emergency.SessionStart.*$"
+          ],
+          "FED_STATS_BIOME_AI_SAFETY_THIRD": [
+            "^.*RegionalSafetyAnalysis\\.GuardrailResult.*$",
+            "^.*RegionalSafetyAnalysis\\.Disablement.*$",
+            "^.*RegionalSafetyAnalysis\\.KeywordID.*$",
+            "^.*RegionalSafetyAnalysis\\.Eligibility.*$"
+          ],
+          "FED_STATS_BIOME_SIRI_HEALTH": [
+            "^.*Siri.Health.Federated.*$"
+          ],
+          "FED_STATS_BIOME_BLUETOOTH": [
+            "^.*BluetoothTest.*$",
+            "^.*Device.Wireless.BluetoothGATTSession.*$"
+          ],
+          "FED_STATS_BIOME_KEYBOARD": [
+            "^.*Keyboard.TokenFrequency.*$"
+          ],
+          "FED_STATS_BIOME_PFL_INSIGHTS": [
+            "^.*Siri.AppSelection.Music.*$"
+          ],
+          "FED_STATS_BIOME_WRITING_TOOLS": [
+            "^.*GenerativeExperiences.WritingToolsFeatures.ComposeAndAdjust.*$"
+          ],
+          "FED_STATS_BIOME_AI_SAFETY_BLOCKING": [
+            "^.*AppleIntelligence.Reporting.SafetyGuardrails.*$",
+            "^.*AppleIntelligence.Reporting.SafetyOverrides.*$"
+          ],
+          "FED_STATS_BIOME_SIRI_EDUCATION": [
+            "^.*Siri.AssistantSuggestionFeatures.*$"
+          ],
+          "FED_STATS_BIOME_EMOJIS": [
+            "^.*Emoji.Engagement.*$"
+          ],
+          "FED_STATS_BIOME_CORE_MOTION": [
+            "^.*Moments.Stats.EventData.*$",
+            "^.*Moments.Events.Engagement.*$"
+          ],
+          "FED_STATS_BIOME_APPLAUNCH": [
+            "^.*App.InFocus.*$"
+          ],
+          "FED_STATS_BIOME_CELLULAR": [
+            "^.*Device.Wireless.ConnectivityContext.*$"
+          ],
+          "FED_STATS_BIOME_MEDIATECH": [
+            "^.*Media.StreamingStats.*$",
+            "^.*MediaAnalysis.VisualSearch.Processing.*$",
+            "^.*MediaAnalysis.PEC.Processing.*$"
+          ],
+          "FED_STATS_BIOME_AD_ATTRIBUTION_KIT": [
+            "^.*AdAttributionKit.AggregatedReporting.Conversion.*$",
+            "^.*AdAttributionKit.AggregatedReporting.Purchase.*$",
+            "^.*AdAttributionKit.AggregatedReporting.SystemReportedPurchase.*$",
+            "^.*AdAttributionKit.AggregatedReporting.DeveloperReportedPurchase.*$"
+          ],
+          "FED_STATS_BIOME_SIRI_PPL_APP_SELECTION": [
+            "^.*Siri.PostSiriEngagement.*$",
+            "^.*Media.NowPlaying.*$"
+          ],
+          "FED_STATS_BIOME_PHOTOS": [
+            "^.*Photos.MemoryCreation.*$",
+            "^.*Photos.Curation.*$",
+            "^.*Photos.Delete.*$",
+            "^.*Photos.Search.*$",
+            "^.*Photos.Memories.Viewed.*$",
+            "^.*Photos.Memories.Shared.*$",
+            "^.*Photos.Memories.Curation.*$",
+            "^.*AeroML.RawEvent.PhotosSearchSession.*$",
+            "^.*AeroML.Insights.PhotosSearchInsights.*$"
+          ],
+          "FED_STATS_BIOME_SIRI_SEARCH": [
+            "^.*Safari.Navigations.*$"
+          ],
+          "FED_STATS_BIOME_APPLECARD": [
+            "^.*WalletPaymentsCommerce.FinancialInsights.Search.*$",
+            "^.*WalletPaymentsCommerce.FinancialInsights.PaymentRingSuggestions.*$",
+            "^.*WalletPaymentsCommerce.FinancialInsights.RecurringSendSuggestions.*$"
+          ],
+          "FED_STATS_BIOME_HOLD_ASSIST": [
+            "^.*CommApps.CallIntelligence.HoldAssistFedStats.*$"
+          ],
+          "FED_STATS_BIOME_SAFARI_ANALYTICS": [
+            "^.*Safari.PageLoad.*$"
+          ],
+          "FED_STATS_BIOME_HEALTH": [
+            "^.*Health.Medications.AddedMed.*$"
+          ],
+          "FED_STATS_BIOME_REMINDERS": [
+            "^.*Reminders.Grocery.MiscategorizedGroceryItem.*$"
+          ],
+          "FED_STATS_BIOME_CAMERA": [
+            "^.*CameraCapture.AutoFocusROI.*$",
+            "^.*Photos.Style.*$"
+          ],
+          "FED_STATS_BIOME_SAFARI_ENGAGEMENT_METRICS": [
+            "^.*Safari.Browsing.Assistant.*$"
+          ],
+          "FED_STATS_BIOME_GENMOJI": [
+            "^.*GenerativeExperiences.GeneratedImageFeatures.UserInteraction.*$",
+            "^.*GenerativeExperiences.PromptTags.*usecaseId = 'genmoji'.*$",
+            "^.*GenerativeExperiences.GeneratedImageFeatures.FailureReason.*$"
+          ],
+          "FED_STATS_BIOME_MEAD": [
+            "^.*UserProofing.*$",
+            "^.*WalletPaymentsCommerce.UserProofing.Result.*$"
+          ],
+          "FED_STATS_BIOME_MAIL": [
+            "^.*Mail.Recategorization.*$"
+          ],
+          "FED_STATS_BIOME_MEGADOME": [
+            "^.*Device.Wireless.Bluetooth.*$",
+            "^.*Audio.Route.*$",
+            "^.*App.InFocus.*$",
+            "^.*Location.PointOfInterest.Category.*$",
+            "^.*Location.Semantic.*$",
+            "^.*Media.NowPlaying.*$"
+          ],
+          "FED_STATS_BIOME_MAIL_TAGS": [
+            "^.*GenerativeExperiences.PromptTags.*usecaseId = 'email'.*$"
+          ],
+          "FED_STATS_BIOME_SAFARI": [
+            "^SELECT ((visited|signal|countryCode), )*domain FROM 'Safari.AutoPlay' WHERE privacyProxy = 0$",
+            "^SELECT ((visited|signal|countryCode), )*domain FROM 'Safari.AutoPlay' WHERE privacyProxy = 1$",
+            "^SELECT ((visited|platform|userAgent|countryCode|error), )*domain FROM 'Safari.Navigations' WHERE privacyProxy = 0( AND error (!)?= 0)?$",
+            "^SELECT ((visited|platform|userAgent|countryCode|error), )*domain FROM 'Safari.Navigations' WHERE privacyProxy = 1( AND error (!)?= 0)?$",
+            "^SELECT ((visited|platform|performanceEvent), )*domain FROM 'Safari.WebPagePerformance' WHERE privacyProxy = 0$",
+            "^SELECT ((visited|platform|performanceEvent), )*domain FROM 'Safari.WebPagePerformance' WHERE privacyProxy = 1$",
+            "^SELECT strip_url\\(url\\) AS url FROM 'Safari.Navigations' WHERE( eventTimestamp > [0-9]+ AND)?( countryCode = '.*' AND)?( error (!)?= 0 AND)? privacyProxy = 0$",
+            "^SELECT extract_host\\(url\\) AS host FROM 'Safari.Navigations' WHERE( eventTimestamp > [0-9]+ AND)?( countryCode = '.*' AND)?( error (!)?= 0 AND)? privacyProxy = 0$",
+            "^.*Safari.WindowProxy.*$",
+            "^SELECT ((pageCount|footprint|lifetime|inForeground|canSuspend|countryCode), )*domain FROM 'Safari.MemoryFootprint' WHERE privacyProxy = 0$",
+            "^SELECT ((pageCount|footprint|lifetime|inForeground|canSuspend|countryCode), )*domain FROM 'Safari.MemoryFootprint' WHERE privacyProxy = 1$",
+            "^.*'Safari.WebsitesBlockingQuit'( WHERE blockingReason = [0-9])?$"
+          ],
+          "FED_STATS_BIOME_COMM_SAFETY": [
+            "^.*SensitiveContentAnalysis.MediaAnalysis.*$",
+            "^.*SensitiveContentAnalysis.ContentInteractionFlow.*$",
+            "^.*SensitiveContentAnalysis.ResourcesInteraction.*$"
+          ],
+          "FED_STATS_BIOME_STORYTELLING": [
+            "^.*Photos.UserAnalytics.*$"
+          ],
+          "FED_STATS_BIOME_AI_SAFETY_FIRST": [
+            "^.*RegionalSafetyAnalysis\\.GuardrailResult.*$",
+            "^.*GenerativeExperiences\\.GuardrailResult.*$",
+            "^.*RegionalSafetyAnalysis\\.Disablement.*$",
+            "^.*RegionalSafetyAnalysis\\.KeywordID.*$",
+            "^.*RegionalSafetyAnalysis\\.Eligibility.*$",
+            "^.*RegionalSafetyAnalysis\\.LiteViolationData.*$"
+          ],
+          "FED_STATS_BIOME_NETWORKING": [
+            "^.*Device.Networking.EdgeSelection.*$"
+          ],
+          "FED_STATS_BIOME_PERSONALIZED_SETUP": [
+            "^.*SystemSettings.AppearanceSetup.*$",
+            "^.*SystemSettings.ChildMultitaskingSetup.*$",
+            "^.*AppleID.ChildSetup.*$",
+            "^.*SpringBoard.GestureEducation.PillLaunch.*$",
+            "^.*SystemSettings.GestureEducation.PillOutcome.*$",
+            "^.*SystemSettings.GestureEducation.Multitasking.*$"
+          ],
+          "FED_STATS_BIOME_KEYBOARD_ADDRESS": [
+            "^.*Keyboard.TokenFrequency.*$"
+          ],
+          "FED_STATS_BIOME_AI_SAFETY_SHORTCUTS": [
+            "^.*Shortcuts.UseModel.Safety.*$"
+          ],
+          "FED_STATS_BIOME_SYSTEM_SETTINGS": [
+            "^.*SystemSettings.SearchTerms.*$"
+          ],
+          "FED_STATS_BIOME_MEDIA_ANALYSIS": [
+            "^.*MediaAnalysis.VideoAnalysis.PerAsset.*$",
+            "^.*MediaAnalysis.VideoAnalysis.PerLibrary.*$"
+          ],
+          "FED_STATS_BIOME_MAC_AUTHENTICATION": [
+            "^.*LocalAuthentication.UI.Dialogs.*$"
+          ],
+          "FED_STATS_BIOME_MESSAGE_SPAM_DETECTION": [
+            "^.*TrustKit.Decisioning.TKModelMessages.*$"
+          ]
+        },
+        "PlugIns/FedStatsMLRPluginNonDnU.appex/Contents/Resources/FedStatsCohortAllowList.plist": {
+          "FED_STATS_BIOME_AUTONAMING": [
+            "locale",
+            "modelVersion"
+          ],
+          "FED_STATS_BIOME_VISINT_SCENE_LABELS": [
+            "type",
+            "taxonomy"
+          ],
+          "FED_STATS_BIOME_PHOTOS_SEARCH": [
+            "locale"
+          ],
+          "FED_STATS_BIOME_WIRELESS": [
+            "protocol",
+            "MCC",
+            "MNC",
+            "matchedEmNumSource",
+            "sip380Procedure",
+            "sip380RedirectedURN"
+          ],
+          "FED_STATS_BIOME_AI_SAFETY_THIRD": [
+            "eventCount",
+            "assetVersion",
+            "safetyDataVersion"
+          ],
+          "FED_STATS_BIOME_SIRI_HEALTH": [
+            "action",
+            "locale"
+          ],
+          "FED_STATS_BIOME_BLUETOOTH": [
+            "locale",
+            "bundleID",
+            "sessionType",
+            "sessionState",
+            "supportsBackgrounding",
+            "supportsStateRestoration"
+          ],
+          "FED_STATS_BIOME_KEYBOARD": [
+            "lang"
+          ],
+          "FED_STATS_BIOME_FLEXIBLE_HISTOGRAMS": [
+            "locale"
+          ],
+          "FED_STATS_BIOME_PFL_INSIGHTS": [
+            "locale"
+          ],
+          "FED_STATS_BIOME_WRITING_TOOLS": [
+            "userInterfaceLanguage",
+            "userSetRegionFormat",
+            "result",
+            "feature"
+          ],
+          "FED_STATS_BIOME_AI_SAFETY_BLOCKING": [
+            "useCaseIdentifier",
+            "assetVersion",
+            "instanceType",
+            "systemLocale"
+          ],
+          "FED_STATS_BIOME_SIRI_EDUCATION": [
+            "locale"
+          ],
+          "FED_STATS_BIOME_EMOJIS": [
+            "localeIdentifier",
+            "finalSearchQueryDBName"
+          ],
+          "FED_STATS_BIOME_CORE_MOTION": [
+            "locale",
+            "suggestionType"
+          ],
+          "FED_STATS_BIOME_APPLAUNCH": [
+            "locale",
+            "isNativeArchitecture",
+            "type",
+            "dyldPlatform"
+          ],
+          "FED_STATS_BIOME_CELLULAR": [
+            "geohash1",
+            "geohash2",
+            "geohash3",
+            "geohash4"
+          ],
+          "FED_STATS_BIOME_MEDIATECH": [
+            "locale",
+            "eventName",
+            "measure",
+            "extra"
+          ],
+          "FED_STATS_BIOME_AD_ATTRIBUTION_KIT": [
+            "advertisedItemID",
+            "conversionType",
+            "adNetworkID",
+            "publisherItemID",
+            "marketplaceID",
+            "storefrontID",
+            "sourceDomain",
+            "inAppPurchaseType",
+            "currencyCode",
+            "inAppPurchaseSubscriptionISO8601Duration",
+            "offerType",
+            "adInteractionType",
+            "countryCode"
+          ],
+          "FED_STATS_BIOME_SIRI_PPL_APP_SELECTION": [
+            "locale",
+            "numOfMediaApps"
+          ],
+          "FED_STATS_BIOME_PHOTOS": [
+            "region",
+            "language",
+            "memoryPromptSuggestionSource",
+            "locale",
+            "memoryGenerated",
+            "memoryWatched",
+            "memoryShared"
+          ],
+          "FED_STATS_BIOME_SIRI_SEARCH": [
+            "locale"
+          ],
+          "FED_STATS_BIOME_APPLECARD": [
+            "locale"
+          ],
+          "FED_STATS_BIOME_HOLD_ASSIST": [
+            "remotePhoneNumberCountryCode"
+          ],
+          "FED_STATS_BIOME_SAFARI_ANALYTICS": [
+            "platform",
+            "userAgent",
+            "countryCode",
+            "locale"
+          ],
+          "FED_STATS_BIOME_HEALTH": [
+            "locale"
+          ],
+          "FED_STATS_BIOME_REMINDERS": [
+            "locale"
+          ],
+          "FED_STATS_BIOME_CAMERA": [
+            "focusRegionType",
+            "styleSelectionType",
+            "userLibraryAgeInDays",
+            "locale",
+            "deviceType",
+            "portType"
+          ],
+          "FED_STATS_BIOME_SAFARI_ENGAGEMENT_METRICS": [
+            "cardShownOrEngaged",
+            "bitsOfURL"
+          ],
+          "FED_STATS_BIOME_GENMOJI": [
+            "tokenLength",
+            "usage",
+            "userInterfaceLanguage",
+            "userSetRegionFormat",
+            "result",
+            "feature",
+            "usecaseId",
+            "modelName",
+            "modelVersion",
+            "userSetDeviceRegion"
+          ],
+          "FED_STATS_BIOME_MEAD": [
+            "locale",
+            "issuer",
+            "deviceType",
+            "alGestureAssessment",
+            "alAssessment",
+            "plGestureAssessment",
+            "plAssessment",
+            "alFacVersion",
+            "alFacePoseVersion",
+            "alPadtoolVersion",
+            "alPrdVersion",
+            "plFacePoseVersion",
+            "plPadtoolVersion",
+            "plPrdVersion",
+            "shadowLabel",
+            "smFacVersion",
+            "smFacePoseVersion",
+            "smPrdVersion",
+            "smPadtoolVersion",
+            "smLivenessAssessment",
+            "smGestureAssessment",
+            "smLivenessType",
+            "fmAssessment",
+            "fmModelVersion",
+            "fmDetectorModelVersion",
+            "fmSMAssessment",
+            "fmSMModelVersion",
+            "fmSMDetectorModelVersion",
+            "didStepUp",
+            "identityType"
+          ],
+          "FED_STATS_BIOME_MAIL": [
+            "category",
+            "previous",
+            "scope",
+            "language"
+          ],
+          "FED_STATS_BIOME_MEGADOME": [
+            "locale",
+            "dayOfWeek",
+            "hourOfDay"
+          ],
+          "FED_STATS_BIOME_MAIL_TAGS": [
+            "usecaseId",
+            "modelName",
+            "modelVersion",
+            "userSetDeviceRegion"
+          ],
+          "FED_STATS_BIOME_SAFARI": [
+            "countryCode",
+            "platform",
+            "userAgent",
+            "error",
+            "performanceEvent",
+            "signal",
+            "property",
+            "accessedPropertyDirectly",
+            "footprint",
+            "pageCount",
+            "blockingReason"
+          ],
+          "FED_STATS_BIOME_COMM_SAFETY": [
+            "contentType",
+            "ageGroup",
+            "eventDirection",
+            "clientBundleID",
+            "origin",
+            "region"
+          ],
+          "FED_STATS_BIOME_STORYTELLING": [
+            "locale"
+          ],
+          "FED_STATS_BIOME_AI_SAFETY_FIRST": [
+            "cohort1",
+            "cohort2",
+            "cohort3",
+            "cohort4",
+            "eventCount"
+          ],
+          "FED_STATS_BIOME_NETWORKING": [
+            "geohash",
+            "country",
+            "timeZone",
+            "interfaceType",
+            "radioType",
+            "radioBand",
+            "addressFamily"
+          ],
+          "FED_STATS_BIOME_PERSONALIZED_SETUP": [
+            "locale"
+          ],
+          "FED_STATS_BIOME_KEYBOARD_ADDRESS": [
+            "locale",
+            "lang"
+          ],
+          "FED_STATS_BIOME_AI_SAFETY_SHORTCUTS": [
+            "modelIdentifier",
+            "modelVersion",
+            "instanceType",
+            "systemLocale"
+          ],
+          "FED_STATS_BIOME_SYSTEM_SETTINGS": [
+            "locale"
+          ],
+          "FED_STATS_BIOME_MEDIA_ANALYSIS": [
+            "userSetDeviceRegion",
+            "shootingMode",
+            "shootingCategory",
+            "locale"
+          ],
+          "FED_STATS_BIOME_MAC_AUTHENTICATION": [
+            "mechanisms",
+            "actions",
+            "failingAction",
+            "successfulMechanism",
+            "failedMechanisms"
+          ],
+          "FED_STATS_BIOME_INTERSTELLAR": [
+            "locale"
+          ],
+          "FED_STATS_BIOME_MESSAGE_SPAM_DETECTION": [
+            "uafVersion",
+            "recordZone",
+            "nemesisErrors",
+            "filteringNemesisErrors",
+            "eventLocale"
+          ]
+        },
+        "PlugIns/FedStatsMLRPluginNonDnU.appex/Contents/Resources/FedStatsPluginAllowedNamespaces.plist": {
+          "allowed-namespaces": [
+            "FED_STATS_BIOME_STORYTELLING",
+            "FED_STATS_BIOME_INTERSTELLAR",
+            "FED_STATS_BIOME_FLEXIBLE_HISTOGRAMS",
+            "FED_STATS_BIOME_MEAD",
+            "FED_STATS_BIOME_WIRELESS",
+            "FED_STATS_BIOME_BLUETOOTH",
+            "FED_STATS_BIOME_MEDIATECH",
+            "FED_STATS_BIOME_KEYBOARD",
+            "FED_STATS_BIOME_APPLECARD",
+            "FED_STATS_BIOME_CORE_MOTION",
+            "FED_STATS_BIOME_MEGADOME",
+            "FED_STATS_BIOME_NETWORKING",
+            "FED_STATS_BIOME_SAFARI",
+            "FED_STATS_BIOME_SYSTEM_SETTINGS",
+            "FED_STATS_BIOME_APPLAUNCH",
+            "FED_STATS_BIOME_EMOJIS",
+            "FED_STATS_BIOME_PFL_INSIGHTS",
+            "FED_STATS_BIOME_COMM_SAFETY",
+            "FED_STATS_BIOME_SIRI_PPL_APP_SELECTION",
+            "FED_STATS_BIOME_SAFARI_ANALYTICS",
+            "FED_STATS_BIOME_SIRI_HEALTH",
+            "FED_STATS_BIOME_PERSONALIZED_SETUP",
+            "FED_STATS_BIOME_SIRI_EDUCATION",
+            "FED_STATS_BIOME_REMINDERS",
+            "FED_STATS_BIOME_KEYBOARD_ADDRESS",
+            "FED_STATS_BIOME_SIRI_SEARCH",
+            "FED_STATS_BIOME_MAIL",
+            "FED_STATS_BIOME_PHOTOS",
+            "FED_STATS_BIOME_CAMERA",
+            "FED_STATS_BIOME_PHOTOS_SEARCH",
+            "FED_STATS_BIOME_SAFARI_ENGAGEMENT_METRICS",
+            "FED_STATS_BIOME_MAC_AUTHENTICATION",
+            "FED_STATS_BIOME_MAIL_TAGS"
+          ]
+        },
+        "PlugIns/FedStatsMLRPluginNonDnU.appex/Contents/Resources/FedStatsCohortValueBlockList.plist": {},
+        "PlugIns/FedStatsMLRPluginNonDnU.appex/Contents/Resources/FedStatsCohortValueAllowList.plist": {},
+        "PlugIns/FedStatsMLRPluginClassB.appex/Contents/Info.plist": {
+          "CFBundleName": "FedStatsMLRPluginClassB",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "MLRuntimeTaskPrincipalClass": "FedStatsMLRPlugin",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "FedStatsMLRPluginClassB",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.aiml.mlpt.PriML.FedStats.PluginClassB",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleDisplayName": "FedStatsPlugin",
+          "DTPlatformBuild": "",
+          "NSExtension": {
+            "NSExtensionPointIdentifier": "com.apple.mlruntime.extension-point-restricted",
+            "NSExtensionPrincipalClass": "MLRExtensionPrincipalClass"
+          }
+        },
+        "PlugIns/FedStatsMLRPluginClassB.appex/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "FedStats",
+          "SourceVersion": "60000000000000",
+          "BuildVersion": "86"
+        },
+        "PlugIns/FedStatsMLRPluginClassB.appex/Contents/Resources/FedStatsPluginSQLQueryBlockList.plist": {
+          "FED_STATS_BIOME_PERSONALIZED_SETUP": [
+            "^.* (?i)WHERE(?-i) .*$"
+          ],
+          "FED_STATS_BIOME_SAFARI": [],
+          "FED_STATS_BIOME_EMOJIS": [
+            "^.* (?i)WHERE(?-i) .*$"
+          ],
+          "FED_STATS_BIOME_BLUETOOTH": [
+            "^.* (?i)WHERE(?-i) .*$"
+          ],
+          "FED_STATS_BIOME_CELLULAR": [
+            "^.* (?i)WHERE(?-i) .*$"
+          ],
+          "FED_STATS_BIOME_SIRI_HEALTH": [
+            "^.* (?i)WHERE(?-i) .*$"
+          ],
+          "FED_STATS_BIOME_REMINDERS": [],
+          "FED_STATS_BIOME_PFL_INSIGHTS": [
+            "^.* (?i)WHERE(?-i) .*$"
+          ],
+          "FED_STATS_BIOME_SIRI_PPL_APP_SELECTION": [],
+          "FED_STATS_BIOME_CORE_MOTION": [],
+          "FED_STATS_BIOME_HEALTH": [
+            "^.* (?i)WHERE(?-i) .*$"
+          ],
+          "FED_STATS_BIOME_MEAD": [
+            "^.* (?i)WHERE(?-i) .*$"
+          ],
+          "FED_STATS_BIOME_SIRI_EDUCATION": [
+            "^.* (?i)WHERE(?-i) .*$"
+          ],
+          "FED_STATS_BIOME_COMM_SAFETY": [],
+          "FED_STATS_BIOME_STORYTELLING": [],
+          "FED_STATS_BIOME_MEDIATECH": [],
+          "FED_STATS_BIOME_APPLAUNCH": [],
+          "FED_STATS_BIOME_SAFARI_ANALYTICS": [
+            "^.* (?i)WHERE(?-i) .*$"
+          ],
+          "FED_STATS_BIOME_KEYBOARD_ADDRESS": [],
+          "FED_STATS_BIOME_APPLECARD": [
+            "^.* (?i)WHERE(?-i) .*$"
+          ]
+        },
+        "PlugIns/FedStatsMLRPluginClassB.appex/Contents/Resources/FedStatsPluginClientAssociations.plist": {
+          "FED_STATS_BIOME_SIRI_ASR": [
+            "com.apple.insights.siri.asr"
+          ],
+          "FED_STATS_BIOME_AUTONAMING": [
+            "com.apple.insights.auto-naming.model-accuracy"
+          ],
+          "FED_STATS_BIOME_VISINT_SCENE_LABELS": [
+            "com.apple.insights.visual-intelligence.scene-label"
+          ],
+          "FED_STATS_BIOME_PHOTOS_SEARCH": [
+            "com.apple.insights.photos.search-l2-ranker"
+          ],
+          "FED_STATS_BIOME_WIRELESS": [
+            "com.apple.insights.emergency-voice-calls"
+          ],
+          "FED_STATS_BIOME_AI_SAFETY_THIRD": [
+            "com.apple.insights.content-safety.analysisA",
+            "aggregated.com.apple.insights.content-safety.analysisA"
+          ],
+          "FED_STATS_BIOME_SIRI_HEALTH": [
+            "com.apple.insights.siri.health-data-types"
+          ],
+          "FED_STATS_BIOME_BLUETOOTH": [
+            "com.apple.insights.bluetooth-sessions"
+          ],
+          "FED_STATS_BIOME_KEYBOARD": [
+            "com.apple.insights.keyboard",
+            "com.apple.insights.keyboard.WordUnigram",
+            "com.apple.insights.keyboard.Emoji",
+            "com.apple.insights.keyboard.UnknownToken"
+          ],
+          "FED_STATS_BIOME_FLEXIBLE_HISTOGRAMS": [
+            "com.apple.insights.app-duration"
+          ],
+          "FED_STATS_BIOME_PFL_INSIGHTS": [
+            "com.apple.insights.siri-music-apps-selection"
+          ],
+          "FED_STATS_BIOME_WRITING_TOOLS": [
+            "com.apple.insights.writing-tools"
+          ],
+          "FED_STATS_BIOME_AI_SAFETY_BLOCKING": [
+            "com.apple.insights.content-safety-data"
+          ],
+          "FED_STATS_BIOME_SIRI_EDUCATION": [
+            "com.apple.insights.siri.smart-suppression"
+          ],
+          "FED_STATS_BIOME_EMOJIS": [
+            "com.apple.insights.emojis.Search"
+          ],
+          "FED_STATS_BIOME_CORE_MOTION": [
+            "com.apple.insights.moments-stats"
+          ],
+          "FED_STATS_BIOME_APPLAUNCH": [
+            "com.apple.insights.app-launch",
+            "com.apple.insights.apple-one-stats"
+          ],
+          "FED_STATS_BIOME_CELLULAR": [
+            "com.apple.insights.wireless.connectivity-context"
+          ],
+          "FED_STATS_BIOME_MEDIATECH": [
+            "com.apple.insights.media-apis",
+            "com.apple.insights.media-analysis-vsp"
+          ],
+          "FED_STATS_BIOME_AD_ATTRIBUTION_KIT": [
+            "com.apple.insights.ad-attribution-kit"
+          ],
+          "FED_STATS_BIOME_SIRI_PPL_APP_SELECTION": [
+            "com.apple.insights.siri-ppl-app-selection"
+          ],
+          "FED_STATS_BIOME_PHOTOS": [
+            "com.apple.insights.photos.memory-creation",
+            "com.apple.insights.photos.search"
+          ],
+          "FED_STATS_BIOME_SIRI_SEARCH": [
+            "com.apple.insights.safari.unknown-domains-with-private-relay",
+            "com.apple.insights.safari.unknown-domains-without-private-relay",
+            "com.apple.insights.safari.partial-url-with-private-relay",
+            "com.apple.insights.safari.partial-url-without-private-relay"
+          ],
+          "FED_STATS_BIOME_APPLECARD": [
+            "com.apple.insights.apple-card-analytics",
+            "com.apple.insights.apple-cash"
+          ],
+          "FED_STATS_BIOME_HOLD_ASSIST": [
+            "com.apple.insights.hold-assist"
+          ],
+          "FED_STATS_BIOME_SAFARI_ANALYTICS": [
+            "com.apple.insights.safari.analytics"
+          ],
+          "FED_STATS_BIOME_HEALTH": [
+            "com.apple.insights.health.medications"
+          ],
+          "FED_STATS_BIOME_REMINDERS": [
+            "com.apple.insights.grocery-reminder"
+          ],
+          "FED_STATS_BIOME_CAMERA": [
+            "com.apple.insights.camera-auto-focus",
+            "com.apple.insights.camera-styles"
+          ],
+          "FED_STATS_BIOME_SAFARI_ENGAGEMENT_METRICS": [
+            "com.apple.insights.safari.highlights"
+          ],
+          "FED_STATS_BIOME_GENMOJI": [
+            "com.apple.insights.genmoji",
+            "v1.com.apple.insights.genmoji",
+            "com.apple.insights.image-playground",
+            "com.apple.insights.magic-paper"
+          ],
+          "FED_STATS_BIOME_MEAD": [
+            "com.apple.insights.wallet-fairness"
+          ],
+          "FED_STATS_BIOME_MAIL": [
+            "com.apple.insights.mail-domains"
+          ],
+          "FED_STATS_BIOME_MEGADOME": [
+            "com.apple.insights.entity-relevance"
+          ],
+          "FED_STATS_BIOME_MAIL_TAGS": [
+            "com.apple.insights.summarization.email-tags"
+          ],
+          "FED_STATS_BIOME_SAFARI": [
+            "com.apple.insights.safari.navigations-without-private-relay",
+            "com.apple.insights.safari.navigations-with-private-relay",
+            "com.apple.insights.safari.autoplay-without-private-relay",
+            "com.apple.insights.safari.autoplay-with-private-relay",
+            "com.apple.insights.safari.webpageperformance-without-private-relay",
+            "com.apple.insights.safari.webpageperformance-with-private-relay",
+            "com.apple.insights.safari.pop-ups",
+            "com.apple.insights.safari.urls-without-private-relay",
+            "com.apple.insights.safari.memory-footprint-with-private-relay",
+            "com.apple.insights.safari.memory-footprint-without-private-relay",
+            "com.apple.insights.safari.domains-blocking-quit"
+          ],
+          "FED_STATS_BIOME_COMM_SAFETY": [
+            "com.apple.insights.communication-safety-ui-interaction",
+            "com.apple.insights.communication-safety-media-analysis",
+            "com.apple.insights.communication-safety-resource-interaction"
+          ],
+          "FED_STATS_BIOME_STORYTELLING": [
+            "com.apple.insights.compressed-iconic-scenes",
+            "com.apple.insights.iconic-scenes",
+            "com.apple.insights.photos-analytics"
+          ],
+          "FED_STATS_BIOME_AI_SAFETY_FIRST": [
+            "com.apple.insights.internal-collection.analysisA",
+            "aggregated.com.apple.insights.internal-collection"
+          ],
+          "FED_STATS_BIOME_NETWORKING": [
+            "com.apple.insights.networking.UnknownIPPrefix",
+            "com.apple.insights.networking.IPPrefix"
+          ],
+          "FED_STATS_BIOME_PERSONALIZED_SETUP": [
+            "com.apple.insights.systemsettings.personalized-setup"
+          ],
+          "FED_STATS_BIOME_KEYBOARD_ADDRESS": [
+            "com.apple.insights.keyboard.address-books"
+          ],
+          "FED_STATS_BIOME_AI_SAFETY_SHORTCUTS": [
+            "com.apple.insights.content-safety-shortcuts"
+          ],
+          "FED_STATS_BIOME_SYSTEM_SETTINGS": [
+            "com.apple.insights.systemsettings.SearchTerm",
+            "com.apple.insights.systemsettings.ClickResult"
+          ],
+          "FED_STATS_BIOME_MEDIA_ANALYSIS": [
+            "com.apple.insights.photos-video-assets-stats"
+          ],
+          "FED_STATS_BIOME_MAC_AUTHENTICATION": [
+            "com.apple.insights.mac-os-authentication"
+          ],
+          "FED_STATS_BIOME_MESSAGE_SPAM_DETECTION": [
+            "com.apple.insights.message-spam-detection"
+          ]
+        },
+        "PlugIns/FedStatsMLRPluginClassB.appex/Contents/Resources/FedStatsPluginSQLQueryAllowList.plist": {
+          "FED_STATS_BIOME_SIRI_ASR": [
+            "^.*Siri.ASR.RequestMetricsRecord.*$"
+          ],
+          "FED_STATS_BIOME_AUTONAMING": [
+            "^.*Autonaming.Messages.AccuracyFedStats.*$"
+          ],
+          "FED_STATS_BIOME_VISINT_SCENE_LABELS": [
+            "^.*VisualIntelligenceCamera.DetectedLabels.*$"
+          ],
+          "FED_STATS_BIOME_PHOTOS_SEARCH": [
+            "^.*AeroML.Insights.PhotosSearchInsights.*$",
+            "^.*AeroML.LabeledData.PhotosSearchLabeledData.*$",
+            "^.*AeroML.DataCorrelations.PhotosSearchDataCorrelations.*$"
+          ],
+          "FED_STATS_BIOME_WIRELESS": [
+            "^.*CommCenter.Call.EmergencyVoiceCall.*$",
+            "^.*Location.Emergency.SessionStart.*$"
+          ],
+          "FED_STATS_BIOME_AI_SAFETY_THIRD": [
+            "^.*RegionalSafetyAnalysis\\.GuardrailResult.*$",
+            "^.*RegionalSafetyAnalysis\\.Disablement.*$",
+            "^.*RegionalSafetyAnalysis\\.KeywordID.*$",
+            "^.*RegionalSafetyAnalysis\\.Eligibility.*$"
+          ],
+          "FED_STATS_BIOME_SIRI_HEALTH": [
+            "^.*Siri.Health.Federated.*$"
+          ],
+          "FED_STATS_BIOME_BLUETOOTH": [
+            "^.*BluetoothTest.*$",
+            "^.*Device.Wireless.BluetoothGATTSession.*$"
+          ],
+          "FED_STATS_BIOME_KEYBOARD": [
+            "^.*Keyboard.TokenFrequency.*$"
+          ],
+          "FED_STATS_BIOME_PFL_INSIGHTS": [
+            "^.*Siri.AppSelection.Music.*$"
+          ],
+          "FED_STATS_BIOME_WRITING_TOOLS": [
+            "^.*GenerativeExperiences.WritingToolsFeatures.ComposeAndAdjust.*$"
+          ],
+          "FED_STATS_BIOME_AI_SAFETY_BLOCKING": [
+            "^.*AppleIntelligence.Reporting.SafetyGuardrails.*$",
+            "^.*AppleIntelligence.Reporting.SafetyOverrides.*$"
+          ],
+          "FED_STATS_BIOME_SIRI_EDUCATION": [
+            "^.*Siri.AssistantSuggestionFeatures.*$"
+          ],
+          "FED_STATS_BIOME_EMOJIS": [
+            "^.*Emoji.Engagement.*$"
+          ],
+          "FED_STATS_BIOME_CORE_MOTION": [
+            "^.*Moments.Stats.EventData.*$",
+            "^.*Moments.Events.Engagement.*$"
+          ],
+          "FED_STATS_BIOME_APPLAUNCH": [
+            "^.*App.InFocus.*$"
+          ],
+          "FED_STATS_BIOME_CELLULAR": [
+            "^.*Device.Wireless.ConnectivityContext.*$"
+          ],
+          "FED_STATS_BIOME_MEDIATECH": [
+            "^.*Media.StreamingStats.*$",
+            "^.*MediaAnalysis.VisualSearch.Processing.*$",
+            "^.*MediaAnalysis.PEC.Processing.*$"
+          ],
+          "FED_STATS_BIOME_AD_ATTRIBUTION_KIT": [
+            "^.*AdAttributionKit.AggregatedReporting.Conversion.*$",
+            "^.*AdAttributionKit.AggregatedReporting.Purchase.*$",
+            "^.*AdAttributionKit.AggregatedReporting.SystemReportedPurchase.*$",
+            "^.*AdAttributionKit.AggregatedReporting.DeveloperReportedPurchase.*$"
+          ],
+          "FED_STATS_BIOME_SIRI_PPL_APP_SELECTION": [
+            "^.*Siri.PostSiriEngagement.*$",
+            "^.*Media.NowPlaying.*$"
+          ],
+          "FED_STATS_BIOME_PHOTOS": [
+            "^.*Photos.MemoryCreation.*$",
+            "^.*Photos.Curation.*$",
+            "^.*Photos.Delete.*$",
+            "^.*Photos.Search.*$",
+            "^.*Photos.Memories.Viewed.*$",
+            "^.*Photos.Memories.Shared.*$",
+            "^.*Photos.Memories.Curation.*$",
+            "^.*AeroML.RawEvent.PhotosSearchSession.*$",
+            "^.*AeroML.Insights.PhotosSearchInsights.*$"
+          ],
+          "FED_STATS_BIOME_SIRI_SEARCH": [
+            "^.*Safari.Navigations.*$"
+          ],
+          "FED_STATS_BIOME_APPLECARD": [
+            "^.*WalletPaymentsCommerce.FinancialInsights.Search.*$",
+            "^.*WalletPaymentsCommerce.FinancialInsights.PaymentRingSuggestions.*$",
+            "^.*WalletPaymentsCommerce.FinancialInsights.RecurringSendSuggestions.*$"
+          ],
+          "FED_STATS_BIOME_HOLD_ASSIST": [
+            "^.*CommApps.CallIntelligence.HoldAssistFedStats.*$"
+          ],
+          "FED_STATS_BIOME_SAFARI_ANALYTICS": [
+            "^.*Safari.PageLoad.*$"
+          ],
+          "FED_STATS_BIOME_HEALTH": [
+            "^.*Health.Medications.AddedMed.*$"
+          ],
+          "FED_STATS_BIOME_REMINDERS": [
+            "^.*Reminders.Grocery.MiscategorizedGroceryItem.*$"
+          ],
+          "FED_STATS_BIOME_CAMERA": [
+            "^.*CameraCapture.AutoFocusROI.*$",
+            "^.*Photos.Style.*$"
+          ],
+          "FED_STATS_BIOME_SAFARI_ENGAGEMENT_METRICS": [
+            "^.*Safari.Browsing.Assistant.*$"
+          ],
+          "FED_STATS_BIOME_GENMOJI": [
+            "^.*GenerativeExperiences.GeneratedImageFeatures.UserInteraction.*$",
+            "^.*GenerativeExperiences.PromptTags.*usecaseId = 'genmoji'.*$",
+            "^.*GenerativeExperiences.GeneratedImageFeatures.FailureReason.*$"
+          ],
+          "FED_STATS_BIOME_MEAD": [
+            "^.*UserProofing.*$",
+            "^.*WalletPaymentsCommerce.UserProofing.Result.*$"
+          ],
+          "FED_STATS_BIOME_MAIL": [
+            "^.*Mail.Recategorization.*$"
+          ],
+          "FED_STATS_BIOME_MEGADOME": [
+            "^.*Device.Wireless.Bluetooth.*$",
+            "^.*Audio.Route.*$",
+            "^.*App.InFocus.*$",
+            "^.*Location.PointOfInterest.Category.*$",
+            "^.*Location.Semantic.*$",
+            "^.*Media.NowPlaying.*$"
+          ],
+          "FED_STATS_BIOME_MAIL_TAGS": [
+            "^.*GenerativeExperiences.PromptTags.*usecaseId = 'email'.*$"
+          ],
+          "FED_STATS_BIOME_SAFARI": [
+            "^SELECT ((visited|signal|countryCode), )*domain FROM 'Safari.AutoPlay' WHERE privacyProxy = 0$",
+            "^SELECT ((visited|signal|countryCode), )*domain FROM 'Safari.AutoPlay' WHERE privacyProxy = 1$",
+            "^SELECT ((visited|platform|userAgent|countryCode|error), )*domain FROM 'Safari.Navigations' WHERE privacyProxy = 0( AND error (!)?= 0)?$",
+            "^SELECT ((visited|platform|userAgent|countryCode|error), )*domain FROM 'Safari.Navigations' WHERE privacyProxy = 1( AND error (!)?= 0)?$",
+            "^SELECT ((visited|platform|performanceEvent), )*domain FROM 'Safari.WebPagePerformance' WHERE privacyProxy = 0$",
+            "^SELECT ((visited|platform|performanceEvent), )*domain FROM 'Safari.WebPagePerformance' WHERE privacyProxy = 1$",
+            "^SELECT strip_url\\(url\\) AS url FROM 'Safari.Navigations' WHERE( eventTimestamp > [0-9]+ AND)?( countryCode = '.*' AND)?( error (!)?= 0 AND)? privacyProxy = 0$",
+            "^SELECT extract_host\\(url\\) AS host FROM 'Safari.Navigations' WHERE( eventTimestamp > [0-9]+ AND)?( countryCode = '.*' AND)?( error (!)?= 0 AND)? privacyProxy = 0$",
+            "^.*Safari.WindowProxy.*$",
+            "^SELECT ((pageCount|footprint|lifetime|inForeground|canSuspend|countryCode), )*domain FROM 'Safari.MemoryFootprint' WHERE privacyProxy = 0$",
+            "^SELECT ((pageCount|footprint|lifetime|inForeground|canSuspend|countryCode), )*domain FROM 'Safari.MemoryFootprint' WHERE privacyProxy = 1$",
+            "^.*'Safari.WebsitesBlockingQuit'( WHERE blockingReason = [0-9])?$"
+          ],
+          "FED_STATS_BIOME_COMM_SAFETY": [
+            "^.*SensitiveContentAnalysis.MediaAnalysis.*$",
+            "^.*SensitiveContentAnalysis.ContentInteractionFlow.*$",
+            "^.*SensitiveContentAnalysis.ResourcesInteraction.*$"
+          ],
+          "FED_STATS_BIOME_STORYTELLING": [
+            "^.*Photos.UserAnalytics.*$"
+          ],
+          "FED_STATS_BIOME_AI_SAFETY_FIRST": [
+            "^.*RegionalSafetyAnalysis\\.GuardrailResult.*$",
+            "^.*GenerativeExperiences\\.GuardrailResult.*$",
+            "^.*RegionalSafetyAnalysis\\.Disablement.*$",
+            "^.*RegionalSafetyAnalysis\\.KeywordID.*$",
+            "^.*RegionalSafetyAnalysis\\.Eligibility.*$",
+            "^.*RegionalSafetyAnalysis\\.LiteViolationData.*$"
+          ],
+          "FED_STATS_BIOME_NETWORKING": [
+            "^.*Device.Networking.EdgeSelection.*$"
+          ],
+          "FED_STATS_BIOME_PERSONALIZED_SETUP": [
+            "^.*SystemSettings.AppearanceSetup.*$",
+            "^.*SystemSettings.ChildMultitaskingSetup.*$",
+            "^.*AppleID.ChildSetup.*$",
+            "^.*SpringBoard.GestureEducation.PillLaunch.*$",
+            "^.*SystemSettings.GestureEducation.PillOutcome.*$",
+            "^.*SystemSettings.GestureEducation.Multitasking.*$"
+          ],
+          "FED_STATS_BIOME_KEYBOARD_ADDRESS": [
+            "^.*Keyboard.TokenFrequency.*$"
+          ],
+          "FED_STATS_BIOME_AI_SAFETY_SHORTCUTS": [
+            "^.*Shortcuts.UseModel.Safety.*$"
+          ],
+          "FED_STATS_BIOME_SYSTEM_SETTINGS": [
+            "^.*SystemSettings.SearchTerms.*$"
+          ],
+          "FED_STATS_BIOME_MEDIA_ANALYSIS": [
+            "^.*MediaAnalysis.VideoAnalysis.PerAsset.*$",
+            "^.*MediaAnalysis.VideoAnalysis.PerLibrary.*$"
+          ],
+          "FED_STATS_BIOME_MAC_AUTHENTICATION": [
+            "^.*LocalAuthentication.UI.Dialogs.*$"
+          ],
+          "FED_STATS_BIOME_MESSAGE_SPAM_DETECTION": [
+            "^.*TrustKit.Decisioning.TKModelMessages.*$"
+          ]
+        },
+        "PlugIns/FedStatsMLRPluginClassB.appex/Contents/Resources/FedStatsCohortAllowList.plist": {
+          "FED_STATS_BIOME_AUTONAMING": [
+            "locale",
+            "modelVersion"
+          ],
+          "FED_STATS_BIOME_VISINT_SCENE_LABELS": [
+            "type",
+            "taxonomy"
+          ],
+          "FED_STATS_BIOME_PHOTOS_SEARCH": [
+            "locale"
+          ],
+          "FED_STATS_BIOME_WIRELESS": [
+            "protocol",
+            "MCC",
+            "MNC",
+            "matchedEmNumSource",
+            "sip380Procedure",
+            "sip380RedirectedURN"
+          ],
+          "FED_STATS_BIOME_AI_SAFETY_THIRD": [
+            "eventCount",
+            "assetVersion",
+            "safetyDataVersion"
+          ],
+          "FED_STATS_BIOME_SIRI_HEALTH": [
+            "action",
+            "locale"
+          ],
+          "FED_STATS_BIOME_BLUETOOTH": [
+            "locale",
+            "bundleID",
+            "sessionType",
+            "sessionState",
+            "supportsBackgrounding",
+            "supportsStateRestoration"
+          ],
+          "FED_STATS_BIOME_KEYBOARD": [
+            "lang"
+          ],
+          "FED_STATS_BIOME_FLEXIBLE_HISTOGRAMS": [
+            "locale"
+          ],
+          "FED_STATS_BIOME_PFL_INSIGHTS": [
+            "locale"
+          ],
+          "FED_STATS_BIOME_WRITING_TOOLS": [
+            "userInterfaceLanguage",
+            "userSetRegionFormat",
+            "result",
+            "feature"
+          ],
+          "FED_STATS_BIOME_AI_SAFETY_BLOCKING": [
+            "useCaseIdentifier",
+            "assetVersion",
+            "instanceType",
+            "systemLocale"
+          ],
+          "FED_STATS_BIOME_SIRI_EDUCATION": [
+            "locale"
+          ],
+          "FED_STATS_BIOME_EMOJIS": [
+            "localeIdentifier",
+            "finalSearchQueryDBName"
+          ],
+          "FED_STATS_BIOME_CORE_MOTION": [
+            "locale",
+            "suggestionType"
+          ],
+          "FED_STATS_BIOME_APPLAUNCH": [
+            "locale",
+            "isNativeArchitecture",
+            "type",
+            "dyldPlatform"
+          ],
+          "FED_STATS_BIOME_CELLULAR": [
+            "geohash1",
+            "geohash2",
+            "geohash3",
+            "geohash4"
+          ],
+          "FED_STATS_BIOME_MEDIATECH": [
+            "locale",
+            "eventName",
+            "measure",
+            "extra"
+          ],
+          "FED_STATS_BIOME_AD_ATTRIBUTION_KIT": [
+            "advertisedItemID",
+            "conversionType",
+            "adNetworkID",
+            "publisherItemID",
+            "marketplaceID",
+            "storefrontID",
+            "sourceDomain",
+            "inAppPurchaseType",
+            "currencyCode",
+            "inAppPurchaseSubscriptionISO8601Duration",
+            "offerType",
+            "adInteractionType",
+            "countryCode"
+          ],
+          "FED_STATS_BIOME_SIRI_PPL_APP_SELECTION": [
+            "locale",
+            "numOfMediaApps"
+          ],
+          "FED_STATS_BIOME_PHOTOS": [
+            "region",
+            "language",
+            "memoryPromptSuggestionSource",
+            "locale",
+            "memoryGenerated",
+            "memoryWatched",
+            "memoryShared"
+          ],
+          "FED_STATS_BIOME_SIRI_SEARCH": [
+            "locale"
+          ],
+          "FED_STATS_BIOME_APPLECARD": [
+            "locale"
+          ],
+          "FED_STATS_BIOME_HOLD_ASSIST": [
+            "remotePhoneNumberCountryCode"
+          ],
+          "FED_STATS_BIOME_SAFARI_ANALYTICS": [
+            "platform",
+            "userAgent",
+            "countryCode",
+            "locale"
+          ],
+          "FED_STATS_BIOME_HEALTH": [
+            "locale"
+          ],
+          "FED_STATS_BIOME_REMINDERS": [
+            "locale"
+          ],
+          "FED_STATS_BIOME_CAMERA": [
+            "focusRegionType",
+            "styleSelectionType",
+            "userLibraryAgeInDays",
+            "locale",
+            "deviceType",
+            "portType"
+          ],
+          "FED_STATS_BIOME_SAFARI_ENGAGEMENT_METRICS": [
+            "cardShownOrEngaged",
+            "bitsOfURL"
+          ],
+          "FED_STATS_BIOME_GENMOJI": [
+            "tokenLength",
+            "usage",
+            "userInterfaceLanguage",
+            "userSetRegionFormat",
+            "result",
+            "feature",
+            "usecaseId",
+            "modelName",
+            "modelVersion",
+            "userSetDeviceRegion"
+          ],
+          "FED_STATS_BIOME_MEAD": [
+            "locale",
+            "issuer",
+            "deviceType",
+            "alGestureAssessment",
+            "alAssessment",
+            "plGestureAssessment",
+            "plAssessment",
+            "alFacVersion",
+            "alFacePoseVersion",
+            "alPadtoolVersion",
+            "alPrdVersion",
+            "plFacePoseVersion",
+            "plPadtoolVersion",
+            "plPrdVersion",
+            "shadowLabel",
+            "smFacVersion",
+            "smFacePoseVersion",
+            "smPrdVersion",
+            "smPadtoolVersion",
+            "smLivenessAssessment",
+            "smGestureAssessment",
+            "smLivenessType",
+            "fmAssessment",
+            "fmModelVersion",
+            "fmDetectorModelVersion",
+            "fmSMAssessment",
+            "fmSMModelVersion",
+            "fmSMDetectorModelVersion",
+            "didStepUp",
+            "identityType"
+          ],
+          "FED_STATS_BIOME_MAIL": [
+            "category",
+            "previous",
+            "scope",
+            "language"
+          ],
+          "FED_STATS_BIOME_MEGADOME": [
+            "locale",
+            "dayOfWeek",
+            "hourOfDay"
+          ],
+          "FED_STATS_BIOME_MAIL_TAGS": [
+            "usecaseId",
+            "modelName",
+            "modelVersion",
+            "userSetDeviceRegion"
+          ],
+          "FED_STATS_BIOME_SAFARI": [
+            "countryCode",
+            "platform",
+            "userAgent",
+            "error",
+            "performanceEvent",
+            "signal",
+            "property",
+            "accessedPropertyDirectly",
+            "footprint",
+            "pageCount",
+            "blockingReason"
+          ],
+          "FED_STATS_BIOME_COMM_SAFETY": [
+            "contentType",
+            "ageGroup",
+            "eventDirection",
+            "clientBundleID",
+            "origin",
+            "region"
+          ],
+          "FED_STATS_BIOME_STORYTELLING": [
+            "locale"
+          ],
+          "FED_STATS_BIOME_AI_SAFETY_FIRST": [
+            "cohort1",
+            "cohort2",
+            "cohort3",
+            "cohort4",
+            "eventCount"
+          ],
+          "FED_STATS_BIOME_NETWORKING": [
+            "geohash",
+            "country",
+            "timeZone",
+            "interfaceType",
+            "radioType",
+            "radioBand",
+            "addressFamily"
+          ],
+          "FED_STATS_BIOME_PERSONALIZED_SETUP": [
+            "locale"
+          ],
+          "FED_STATS_BIOME_KEYBOARD_ADDRESS": [
+            "locale",
+            "lang"
+          ],
+          "FED_STATS_BIOME_AI_SAFETY_SHORTCUTS": [
+            "modelIdentifier",
+            "modelVersion",
+            "instanceType",
+            "systemLocale"
+          ],
+          "FED_STATS_BIOME_SYSTEM_SETTINGS": [
+            "locale"
+          ],
+          "FED_STATS_BIOME_MEDIA_ANALYSIS": [
+            "userSetDeviceRegion",
+            "shootingMode",
+            "shootingCategory",
+            "locale"
+          ],
+          "FED_STATS_BIOME_MAC_AUTHENTICATION": [
+            "mechanisms",
+            "actions",
+            "failingAction",
+            "successfulMechanism",
+            "failedMechanisms"
+          ],
+          "FED_STATS_BIOME_INTERSTELLAR": [
+            "locale"
+          ],
+          "FED_STATS_BIOME_MESSAGE_SPAM_DETECTION": [
+            "uafVersion",
+            "recordZone",
+            "nemesisErrors",
+            "filteringNemesisErrors",
+            "eventLocale"
+          ]
+        },
+        "PlugIns/FedStatsMLRPluginClassB.appex/Contents/Resources/FedStatsPluginAllowedNamespaces.plist": {
+          "allowed-namespaces": [
+            "FED_STATS_BIOME_STORYTELLING",
+            "FED_STATS_BIOME_INTERSTELLAR",
+            "FED_STATS_BIOME_FLEXIBLE_HISTOGRAMS",
+            "FED_STATS_BIOME_MEAD",
+            "FED_STATS_BIOME_WIRELESS",
+            "FED_STATS_BIOME_BLUETOOTH",
+            "FED_STATS_BIOME_MEDIATECH",
+            "FED_STATS_BIOME_KEYBOARD",
+            "FED_STATS_BIOME_APPLECARD",
+            "FED_STATS_BIOME_CORE_MOTION",
+            "FED_STATS_BIOME_MEGADOME",
+            "FED_STATS_BIOME_NETWORKING",
+            "FED_STATS_BIOME_SAFARI",
+            "FED_STATS_BIOME_SYSTEM_SETTINGS",
+            "FED_STATS_BIOME_APPLAUNCH",
+            "FED_STATS_BIOME_EMOJIS",
+            "FED_STATS_BIOME_PFL_INSIGHTS",
+            "FED_STATS_BIOME_COMM_SAFETY",
+            "FED_STATS_BIOME_SIRI_PPL_APP_SELECTION",
+            "FED_STATS_BIOME_SAFARI_ANALYTICS",
+            "FED_STATS_BIOME_SIRI_HEALTH",
+            "FED_STATS_BIOME_PERSONALIZED_SETUP",
+            "FED_STATS_BIOME_SIRI_EDUCATION",
+            "FED_STATS_BIOME_REMINDERS",
+            "FED_STATS_BIOME_KEYBOARD_ADDRESS",
+            "FED_STATS_BIOME_SIRI_SEARCH",
+            "FED_STATS_BIOME_MAIL",
+            "FED_STATS_BIOME_PHOTOS",
+            "FED_STATS_BIOME_CAMERA",
+            "FED_STATS_BIOME_PHOTOS_SEARCH",
+            "FED_STATS_BIOME_SAFARI_ENGAGEMENT_METRICS",
+            "FED_STATS_BIOME_MAC_AUTHENTICATION",
+            "FED_STATS_BIOME_MAIL_TAGS"
+          ]
+        },
+        "PlugIns/FedStatsMLRPluginClassB.appex/Contents/Resources/FedStatsCohortValueBlockList.plist": {},
+        "PlugIns/FedStatsMLRPluginClassB.appex/Contents/Resources/FedStatsCohortValueAllowList.plist": {},
+        "PlugIns/FedStatsMLRPlugin.appex/Contents/Info.plist": {
+          "CFBundleName": "FedStatsMLRPlugin",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "MLRuntimeTaskPrincipalClass": "FedStatsMLRPlugin",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "FedStatsMLRPlugin",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.aiml.mlpt.PriML.FedStats.Plugin",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleDisplayName": "FedStatsPlugin",
+          "DTPlatformBuild": "",
+          "NSExtension": {
+            "NSExtensionPointIdentifier": "com.apple.mlruntime.extension-point-high",
+            "NSExtensionPrincipalClass": "MLRExtensionPrincipalClass"
+          }
+        },
+        "PlugIns/FedStatsMLRPlugin.appex/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "FedStats",
+          "SourceVersion": "60000000000000",
+          "BuildVersion": "86"
+        },
+        "PlugIns/FedStatsMLRPlugin.appex/Contents/Resources/FedStatsPluginSQLQueryBlockList.plist": {
+          "FED_STATS_BIOME_PERSONALIZED_SETUP": [
+            "^.* (?i)WHERE(?-i) .*$"
+          ],
+          "FED_STATS_BIOME_SAFARI": [],
+          "FED_STATS_BIOME_EMOJIS": [
+            "^.* (?i)WHERE(?-i) .*$"
+          ],
+          "FED_STATS_BIOME_BLUETOOTH": [
+            "^.* (?i)WHERE(?-i) .*$"
+          ],
+          "FED_STATS_BIOME_CELLULAR": [
+            "^.* (?i)WHERE(?-i) .*$"
+          ],
+          "FED_STATS_BIOME_SIRI_HEALTH": [
+            "^.* (?i)WHERE(?-i) .*$"
+          ],
+          "FED_STATS_BIOME_REMINDERS": [],
+          "FED_STATS_BIOME_PFL_INSIGHTS": [
+            "^.* (?i)WHERE(?-i) .*$"
+          ],
+          "FED_STATS_BIOME_SIRI_PPL_APP_SELECTION": [],
+          "FED_STATS_BIOME_CORE_MOTION": [],
+          "FED_STATS_BIOME_HEALTH": [
+            "^.* (?i)WHERE(?-i) .*$"
+          ],
+          "FED_STATS_BIOME_MEAD": [
+            "^.* (?i)WHERE(?-i) .*$"
+          ],
+          "FED_STATS_BIOME_SIRI_EDUCATION": [
+            "^.* (?i)WHERE(?-i) .*$"
+          ],
+          "FED_STATS_BIOME_COMM_SAFETY": [],
+          "FED_STATS_BIOME_STORYTELLING": [],
+          "FED_STATS_BIOME_MEDIATECH": [],
+          "FED_STATS_BIOME_APPLAUNCH": [],
+          "FED_STATS_BIOME_SAFARI_ANALYTICS": [
+            "^.* (?i)WHERE(?-i) .*$"
+          ],
+          "FED_STATS_BIOME_KEYBOARD_ADDRESS": [],
+          "FED_STATS_BIOME_APPLECARD": [
+            "^.* (?i)WHERE(?-i) .*$"
+          ]
+        },
+        "PlugIns/FedStatsMLRPlugin.appex/Contents/Resources/FedStatsPluginClientAssociations.plist": {
+          "FED_STATS_BIOME_SIRI_ASR": [
+            "com.apple.insights.siri.asr"
+          ],
+          "FED_STATS_BIOME_AUTONAMING": [
+            "com.apple.insights.auto-naming.model-accuracy"
+          ],
+          "FED_STATS_BIOME_VISINT_SCENE_LABELS": [
+            "com.apple.insights.visual-intelligence.scene-label"
+          ],
+          "FED_STATS_BIOME_PHOTOS_SEARCH": [
+            "com.apple.insights.photos.search-l2-ranker"
+          ],
+          "FED_STATS_BIOME_WIRELESS": [
+            "com.apple.insights.emergency-voice-calls"
+          ],
+          "FED_STATS_BIOME_AI_SAFETY_THIRD": [
+            "com.apple.insights.content-safety.analysisA",
+            "aggregated.com.apple.insights.content-safety.analysisA"
+          ],
+          "FED_STATS_BIOME_SIRI_HEALTH": [
+            "com.apple.insights.siri.health-data-types"
+          ],
+          "FED_STATS_BIOME_BLUETOOTH": [
+            "com.apple.insights.bluetooth-sessions"
+          ],
+          "FED_STATS_BIOME_KEYBOARD": [
+            "com.apple.insights.keyboard",
+            "com.apple.insights.keyboard.WordUnigram",
+            "com.apple.insights.keyboard.Emoji",
+            "com.apple.insights.keyboard.UnknownToken"
+          ],
+          "FED_STATS_BIOME_FLEXIBLE_HISTOGRAMS": [
+            "com.apple.insights.app-duration"
+          ],
+          "FED_STATS_BIOME_PFL_INSIGHTS": [
+            "com.apple.insights.siri-music-apps-selection"
+          ],
+          "FED_STATS_BIOME_WRITING_TOOLS": [
+            "com.apple.insights.writing-tools"
+          ],
+          "FED_STATS_BIOME_AI_SAFETY_BLOCKING": [
+            "com.apple.insights.content-safety-data"
+          ],
+          "FED_STATS_BIOME_SIRI_EDUCATION": [
+            "com.apple.insights.siri.smart-suppression"
+          ],
+          "FED_STATS_BIOME_EMOJIS": [
+            "com.apple.insights.emojis.Search"
+          ],
+          "FED_STATS_BIOME_CORE_MOTION": [
+            "com.apple.insights.moments-stats"
+          ],
+          "FED_STATS_BIOME_APPLAUNCH": [
+            "com.apple.insights.app-launch",
+            "com.apple.insights.apple-one-stats"
+          ],
+          "FED_STATS_BIOME_CELLULAR": [
+            "com.apple.insights.wireless.connectivity-context"
+          ],
+          "FED_STATS_BIOME_MEDIATECH": [
+            "com.apple.insights.media-apis",
+            "com.apple.insights.media-analysis-vsp"
+          ],
+          "FED_STATS_BIOME_AD_ATTRIBUTION_KIT": [
+            "com.apple.insights.ad-attribution-kit"
+          ],
+          "FED_STATS_BIOME_SIRI_PPL_APP_SELECTION": [
+            "com.apple.insights.siri-ppl-app-selection"
+          ],
+          "FED_STATS_BIOME_PHOTOS": [
+            "com.apple.insights.photos.memory-creation",
+            "com.apple.insights.photos.search"
+          ],
+          "FED_STATS_BIOME_SIRI_SEARCH": [
+            "com.apple.insights.safari.unknown-domains-with-private-relay",
+            "com.apple.insights.safari.unknown-domains-without-private-relay",
+            "com.apple.insights.safari.partial-url-with-private-relay",
+            "com.apple.insights.safari.partial-url-without-private-relay"
+          ],
+          "FED_STATS_BIOME_APPLECARD": [
+            "com.apple.insights.apple-card-analytics",
+            "com.apple.insights.apple-cash"
+          ],
+          "FED_STATS_BIOME_HOLD_ASSIST": [
+            "com.apple.insights.hold-assist"
+          ],
+          "FED_STATS_BIOME_SAFARI_ANALYTICS": [
+            "com.apple.insights.safari.analytics"
+          ],
+          "FED_STATS_BIOME_HEALTH": [
+            "com.apple.insights.health.medications"
+          ],
+          "FED_STATS_BIOME_REMINDERS": [
+            "com.apple.insights.grocery-reminder"
+          ],
+          "FED_STATS_BIOME_CAMERA": [
+            "com.apple.insights.camera-auto-focus",
+            "com.apple.insights.camera-styles"
+          ],
+          "FED_STATS_BIOME_SAFARI_ENGAGEMENT_METRICS": [
+            "com.apple.insights.safari.highlights"
+          ],
+          "FED_STATS_BIOME_GENMOJI": [
+            "com.apple.insights.genmoji",
+            "v1.com.apple.insights.genmoji",
+            "com.apple.insights.image-playground",
+            "com.apple.insights.magic-paper"
+          ],
+          "FED_STATS_BIOME_MEAD": [
+            "com.apple.insights.wallet-fairness"
+          ],
+          "FED_STATS_BIOME_MAIL": [
+            "com.apple.insights.mail-domains"
+          ],
+          "FED_STATS_BIOME_MEGADOME": [
+            "com.apple.insights.entity-relevance"
+          ],
+          "FED_STATS_BIOME_MAIL_TAGS": [
+            "com.apple.insights.summarization.email-tags"
+          ],
+          "FED_STATS_BIOME_SAFARI": [
+            "com.apple.insights.safari.navigations-without-private-relay",
+            "com.apple.insights.safari.navigations-with-private-relay",
+            "com.apple.insights.safari.autoplay-without-private-relay",
+            "com.apple.insights.safari.autoplay-with-private-relay",
+            "com.apple.insights.safari.webpageperformance-without-private-relay",
+            "com.apple.insights.safari.webpageperformance-with-private-relay",
+            "com.apple.insights.safari.pop-ups",
+            "com.apple.insights.safari.urls-without-private-relay",
+            "com.apple.insights.safari.memory-footprint-with-private-relay",
+            "com.apple.insights.safari.memory-footprint-without-private-relay",
+            "com.apple.insights.safari.domains-blocking-quit"
+          ],
+          "FED_STATS_BIOME_COMM_SAFETY": [
+            "com.apple.insights.communication-safety-ui-interaction",
+            "com.apple.insights.communication-safety-media-analysis",
+            "com.apple.insights.communication-safety-resource-interaction"
+          ],
+          "FED_STATS_BIOME_STORYTELLING": [
+            "com.apple.insights.compressed-iconic-scenes",
+            "com.apple.insights.iconic-scenes",
+            "com.apple.insights.photos-analytics"
+          ],
+          "FED_STATS_BIOME_AI_SAFETY_FIRST": [
+            "com.apple.insights.internal-collection.analysisA",
+            "aggregated.com.apple.insights.internal-collection"
+          ],
+          "FED_STATS_BIOME_NETWORKING": [
+            "com.apple.insights.networking.UnknownIPPrefix",
+            "com.apple.insights.networking.IPPrefix"
+          ],
+          "FED_STATS_BIOME_PERSONALIZED_SETUP": [
+            "com.apple.insights.systemsettings.personalized-setup"
+          ],
+          "FED_STATS_BIOME_KEYBOARD_ADDRESS": [
+            "com.apple.insights.keyboard.address-books"
+          ],
+          "FED_STATS_BIOME_AI_SAFETY_SHORTCUTS": [
+            "com.apple.insights.content-safety-shortcuts"
+          ],
+          "FED_STATS_BIOME_SYSTEM_SETTINGS": [
+            "com.apple.insights.systemsettings.SearchTerm",
+            "com.apple.insights.systemsettings.ClickResult"
+          ],
+          "FED_STATS_BIOME_MEDIA_ANALYSIS": [
+            "com.apple.insights.photos-video-assets-stats"
+          ],
+          "FED_STATS_BIOME_MAC_AUTHENTICATION": [
+            "com.apple.insights.mac-os-authentication"
+          ],
+          "FED_STATS_BIOME_MESSAGE_SPAM_DETECTION": [
+            "com.apple.insights.message-spam-detection"
+          ]
+        },
+        "PlugIns/FedStatsMLRPlugin.appex/Contents/Resources/FedStatsPluginSQLQueryAllowList.plist": {
+          "FED_STATS_BIOME_SIRI_ASR": [
+            "^.*Siri.ASR.RequestMetricsRecord.*$"
+          ],
+          "FED_STATS_BIOME_AUTONAMING": [
+            "^.*Autonaming.Messages.AccuracyFedStats.*$"
+          ],
+          "FED_STATS_BIOME_VISINT_SCENE_LABELS": [
+            "^.*VisualIntelligenceCamera.DetectedLabels.*$"
+          ],
+          "FED_STATS_BIOME_PHOTOS_SEARCH": [
+            "^.*AeroML.Insights.PhotosSearchInsights.*$",
+            "^.*AeroML.LabeledData.PhotosSearchLabeledData.*$",
+            "^.*AeroML.DataCorrelations.PhotosSearchDataCorrelations.*$"
+          ],
+          "FED_STATS_BIOME_WIRELESS": [
+            "^.*CommCenter.Call.EmergencyVoiceCall.*$",
+            "^.*Location.Emergency.SessionStart.*$"
+          ],
+          "FED_STATS_BIOME_AI_SAFETY_THIRD": [
+            "^.*RegionalSafetyAnalysis\\.GuardrailResult.*$",
+            "^.*RegionalSafetyAnalysis\\.Disablement.*$",
+            "^.*RegionalSafetyAnalysis\\.KeywordID.*$",
+            "^.*RegionalSafetyAnalysis\\.Eligibility.*$"
+          ],
+          "FED_STATS_BIOME_SIRI_HEALTH": [
+            "^.*Siri.Health.Federated.*$"
+          ],
+          "FED_STATS_BIOME_BLUETOOTH": [
+            "^.*BluetoothTest.*$",
+            "^.*Device.Wireless.BluetoothGATTSession.*$"
+          ],
+          "FED_STATS_BIOME_KEYBOARD": [
+            "^.*Keyboard.TokenFrequency.*$"
+          ],
+          "FED_STATS_BIOME_PFL_INSIGHTS": [
+            "^.*Siri.AppSelection.Music.*$"
+          ],
+          "FED_STATS_BIOME_WRITING_TOOLS": [
+            "^.*GenerativeExperiences.WritingToolsFeatures.ComposeAndAdjust.*$"
+          ],
+          "FED_STATS_BIOME_AI_SAFETY_BLOCKING": [
+            "^.*AppleIntelligence.Reporting.SafetyGuardrails.*$",
+            "^.*AppleIntelligence.Reporting.SafetyOverrides.*$"
+          ],
+          "FED_STATS_BIOME_SIRI_EDUCATION": [
+            "^.*Siri.AssistantSuggestionFeatures.*$"
+          ],
+          "FED_STATS_BIOME_EMOJIS": [
+            "^.*Emoji.Engagement.*$"
+          ],
+          "FED_STATS_BIOME_CORE_MOTION": [
+            "^.*Moments.Stats.EventData.*$",
+            "^.*Moments.Events.Engagement.*$"
+          ],
+          "FED_STATS_BIOME_APPLAUNCH": [
+            "^.*App.InFocus.*$"
+          ],
+          "FED_STATS_BIOME_CELLULAR": [
+            "^.*Device.Wireless.ConnectivityContext.*$"
+          ],
+          "FED_STATS_BIOME_MEDIATECH": [
+            "^.*Media.StreamingStats.*$",
+            "^.*MediaAnalysis.VisualSearch.Processing.*$",
+            "^.*MediaAnalysis.PEC.Processing.*$"
+          ],
+          "FED_STATS_BIOME_AD_ATTRIBUTION_KIT": [
+            "^.*AdAttributionKit.AggregatedReporting.Conversion.*$",
+            "^.*AdAttributionKit.AggregatedReporting.Purchase.*$",
+            "^.*AdAttributionKit.AggregatedReporting.SystemReportedPurchase.*$",
+            "^.*AdAttributionKit.AggregatedReporting.DeveloperReportedPurchase.*$"
+          ],
+          "FED_STATS_BIOME_SIRI_PPL_APP_SELECTION": [
+            "^.*Siri.PostSiriEngagement.*$",
+            "^.*Media.NowPlaying.*$"
+          ],
+          "FED_STATS_BIOME_PHOTOS": [
+            "^.*Photos.MemoryCreation.*$",
+            "^.*Photos.Curation.*$",
+            "^.*Photos.Delete.*$",
+            "^.*Photos.Search.*$",
+            "^.*Photos.Memories.Viewed.*$",
+            "^.*Photos.Memories.Shared.*$",
+            "^.*Photos.Memories.Curation.*$",
+            "^.*AeroML.RawEvent.PhotosSearchSession.*$",
+            "^.*AeroML.Insights.PhotosSearchInsights.*$"
+          ],
+          "FED_STATS_BIOME_SIRI_SEARCH": [
+            "^.*Safari.Navigations.*$"
+          ],
+          "FED_STATS_BIOME_APPLECARD": [
+            "^.*WalletPaymentsCommerce.FinancialInsights.Search.*$",
+            "^.*WalletPaymentsCommerce.FinancialInsights.PaymentRingSuggestions.*$",
+            "^.*WalletPaymentsCommerce.FinancialInsights.RecurringSendSuggestions.*$"
+          ],
+          "FED_STATS_BIOME_HOLD_ASSIST": [
+            "^.*CommApps.CallIntelligence.HoldAssistFedStats.*$"
+          ],
+          "FED_STATS_BIOME_SAFARI_ANALYTICS": [
+            "^.*Safari.PageLoad.*$"
+          ],
+          "FED_STATS_BIOME_HEALTH": [
+            "^.*Health.Medications.AddedMed.*$"
+          ],
+          "FED_STATS_BIOME_REMINDERS": [
+            "^.*Reminders.Grocery.MiscategorizedGroceryItem.*$"
+          ],
+          "FED_STATS_BIOME_CAMERA": [
+            "^.*CameraCapture.AutoFocusROI.*$",
+            "^.*Photos.Style.*$"
+          ],
+          "FED_STATS_BIOME_SAFARI_ENGAGEMENT_METRICS": [
+            "^.*Safari.Browsing.Assistant.*$"
+          ],
+          "FED_STATS_BIOME_GENMOJI": [
+            "^.*GenerativeExperiences.GeneratedImageFeatures.UserInteraction.*$",
+            "^.*GenerativeExperiences.PromptTags.*usecaseId = 'genmoji'.*$",
+            "^.*GenerativeExperiences.GeneratedImageFeatures.FailureReason.*$"
+          ],
+          "FED_STATS_BIOME_MEAD": [
+            "^.*UserProofing.*$",
+            "^.*WalletPaymentsCommerce.UserProofing.Result.*$"
+          ],
+          "FED_STATS_BIOME_MAIL": [
+            "^.*Mail.Recategorization.*$"
+          ],
+          "FED_STATS_BIOME_MEGADOME": [
+            "^.*Device.Wireless.Bluetooth.*$",
+            "^.*Audio.Route.*$",
+            "^.*App.InFocus.*$",
+            "^.*Location.PointOfInterest.Category.*$",
+            "^.*Location.Semantic.*$",
+            "^.*Media.NowPlaying.*$"
+          ],
+          "FED_STATS_BIOME_MAIL_TAGS": [
+            "^.*GenerativeExperiences.PromptTags.*usecaseId = 'email'.*$"
+          ],
+          "FED_STATS_BIOME_SAFARI": [
+            "^SELECT ((visited|signal|countryCode), )*domain FROM 'Safari.AutoPlay' WHERE privacyProxy = 0$",
+            "^SELECT ((visited|signal|countryCode), )*domain FROM 'Safari.AutoPlay' WHERE privacyProxy = 1$",
+            "^SELECT ((visited|platform|userAgent|countryCode|error), )*domain FROM 'Safari.Navigations' WHERE privacyProxy = 0( AND error (!)?= 0)?$",
+            "^SELECT ((visited|platform|userAgent|countryCode|error), )*domain FROM 'Safari.Navigations' WHERE privacyProxy = 1( AND error (!)?= 0)?$",
+            "^SELECT ((visited|platform|performanceEvent), )*domain FROM 'Safari.WebPagePerformance' WHERE privacyProxy = 0$",
+            "^SELECT ((visited|platform|performanceEvent), )*domain FROM 'Safari.WebPagePerformance' WHERE privacyProxy = 1$",
+            "^SELECT strip_url\\(url\\) AS url FROM 'Safari.Navigations' WHERE( eventTimestamp > [0-9]+ AND)?( countryCode = '.*' AND)?( error (!)?= 0 AND)? privacyProxy = 0$",
+            "^SELECT extract_host\\(url\\) AS host FROM 'Safari.Navigations' WHERE( eventTimestamp > [0-9]+ AND)?( countryCode = '.*' AND)?( error (!)?= 0 AND)? privacyProxy = 0$",
+            "^.*Safari.WindowProxy.*$",
+            "^SELECT ((pageCount|footprint|lifetime|inForeground|canSuspend|countryCode), )*domain FROM 'Safari.MemoryFootprint' WHERE privacyProxy = 0$",
+            "^SELECT ((pageCount|footprint|lifetime|inForeground|canSuspend|countryCode), )*domain FROM 'Safari.MemoryFootprint' WHERE privacyProxy = 1$",
+            "^.*'Safari.WebsitesBlockingQuit'( WHERE blockingReason = [0-9])?$"
+          ],
+          "FED_STATS_BIOME_COMM_SAFETY": [
+            "^.*SensitiveContentAnalysis.MediaAnalysis.*$",
+            "^.*SensitiveContentAnalysis.ContentInteractionFlow.*$",
+            "^.*SensitiveContentAnalysis.ResourcesInteraction.*$"
+          ],
+          "FED_STATS_BIOME_STORYTELLING": [
+            "^.*Photos.UserAnalytics.*$"
+          ],
+          "FED_STATS_BIOME_AI_SAFETY_FIRST": [
+            "^.*RegionalSafetyAnalysis\\.GuardrailResult.*$",
+            "^.*GenerativeExperiences\\.GuardrailResult.*$",
+            "^.*RegionalSafetyAnalysis\\.Disablement.*$",
+            "^.*RegionalSafetyAnalysis\\.KeywordID.*$",
+            "^.*RegionalSafetyAnalysis\\.Eligibility.*$",
+            "^.*RegionalSafetyAnalysis\\.LiteViolationData.*$"
+          ],
+          "FED_STATS_BIOME_NETWORKING": [
+            "^.*Device.Networking.EdgeSelection.*$"
+          ],
+          "FED_STATS_BIOME_PERSONALIZED_SETUP": [
+            "^.*SystemSettings.AppearanceSetup.*$",
+            "^.*SystemSettings.ChildMultitaskingSetup.*$",
+            "^.*AppleID.ChildSetup.*$",
+            "^.*SpringBoard.GestureEducation.PillLaunch.*$",
+            "^.*SystemSettings.GestureEducation.PillOutcome.*$",
+            "^.*SystemSettings.GestureEducation.Multitasking.*$"
+          ],
+          "FED_STATS_BIOME_KEYBOARD_ADDRESS": [
+            "^.*Keyboard.TokenFrequency.*$"
+          ],
+          "FED_STATS_BIOME_AI_SAFETY_SHORTCUTS": [
+            "^.*Shortcuts.UseModel.Safety.*$"
+          ],
+          "FED_STATS_BIOME_SYSTEM_SETTINGS": [
+            "^.*SystemSettings.SearchTerms.*$"
+          ],
+          "FED_STATS_BIOME_MEDIA_ANALYSIS": [
+            "^.*MediaAnalysis.VideoAnalysis.PerAsset.*$",
+            "^.*MediaAnalysis.VideoAnalysis.PerLibrary.*$"
+          ],
+          "FED_STATS_BIOME_MAC_AUTHENTICATION": [
+            "^.*LocalAuthentication.UI.Dialogs.*$"
+          ],
+          "FED_STATS_BIOME_MESSAGE_SPAM_DETECTION": [
+            "^.*TrustKit.Decisioning.TKModelMessages.*$"
+          ]
+        },
+        "PlugIns/FedStatsMLRPlugin.appex/Contents/Resources/FedStatsCohortAllowList.plist": {
+          "FED_STATS_BIOME_AUTONAMING": [
+            "locale",
+            "modelVersion"
+          ],
+          "FED_STATS_BIOME_VISINT_SCENE_LABELS": [
+            "type",
+            "taxonomy"
+          ],
+          "FED_STATS_BIOME_PHOTOS_SEARCH": [
+            "locale"
+          ],
+          "FED_STATS_BIOME_WIRELESS": [
+            "protocol",
+            "MCC",
+            "MNC",
+            "matchedEmNumSource",
+            "sip380Procedure",
+            "sip380RedirectedURN"
+          ],
+          "FED_STATS_BIOME_AI_SAFETY_THIRD": [
+            "eventCount",
+            "assetVersion",
+            "safetyDataVersion"
+          ],
+          "FED_STATS_BIOME_SIRI_HEALTH": [
+            "action",
+            "locale"
+          ],
+          "FED_STATS_BIOME_BLUETOOTH": [
+            "locale",
+            "bundleID",
+            "sessionType",
+            "sessionState",
+            "supportsBackgrounding",
+            "supportsStateRestoration"
+          ],
+          "FED_STATS_BIOME_KEYBOARD": [
+            "lang"
+          ],
+          "FED_STATS_BIOME_FLEXIBLE_HISTOGRAMS": [
+            "locale"
+          ],
+          "FED_STATS_BIOME_PFL_INSIGHTS": [
+            "locale"
+          ],
+          "FED_STATS_BIOME_WRITING_TOOLS": [
+            "userInterfaceLanguage",
+            "userSetRegionFormat",
+            "result",
+            "feature"
+          ],
+          "FED_STATS_BIOME_AI_SAFETY_BLOCKING": [
+            "useCaseIdentifier",
+            "assetVersion",
+            "instanceType",
+            "systemLocale"
+          ],
+          "FED_STATS_BIOME_SIRI_EDUCATION": [
+            "locale"
+          ],
+          "FED_STATS_BIOME_EMOJIS": [
+            "localeIdentifier",
+            "finalSearchQueryDBName"
+          ],
+          "FED_STATS_BIOME_CORE_MOTION": [
+            "locale",
+            "suggestionType"
+          ],
+          "FED_STATS_BIOME_APPLAUNCH": [
+            "locale",
+            "isNativeArchitecture",
+            "type",
+            "dyldPlatform"
+          ],
+          "FED_STATS_BIOME_CELLULAR": [
+            "geohash1",
+            "geohash2",
+            "geohash3",
+            "geohash4"
+          ],
+          "FED_STATS_BIOME_MEDIATECH": [
+            "locale",
+            "eventName",
+            "measure",
+            "extra"
+          ],
+          "FED_STATS_BIOME_AD_ATTRIBUTION_KIT": [
+            "advertisedItemID",
+            "conversionType",
+            "adNetworkID",
+            "publisherItemID",
+            "marketplaceID",
+            "storefrontID",
+            "sourceDomain",
+            "inAppPurchaseType",
+            "currencyCode",
+            "inAppPurchaseSubscriptionISO8601Duration",
+            "offerType",
+            "adInteractionType",
+            "countryCode"
+          ],
+          "FED_STATS_BIOME_SIRI_PPL_APP_SELECTION": [
+            "locale",
+            "numOfMediaApps"
+          ],
+          "FED_STATS_BIOME_PHOTOS": [
+            "region",
+            "language",
+            "memoryPromptSuggestionSource",
+            "locale",
+            "memoryGenerated",
+            "memoryWatched",
+            "memoryShared"
+          ],
+          "FED_STATS_BIOME_SIRI_SEARCH": [
+            "locale"
+          ],
+          "FED_STATS_BIOME_APPLECARD": [
+            "locale"
+          ],
+          "FED_STATS_BIOME_HOLD_ASSIST": [
+            "remotePhoneNumberCountryCode"
+          ],
+          "FED_STATS_BIOME_SAFARI_ANALYTICS": [
+            "platform",
+            "userAgent",
+            "countryCode",
+            "locale"
+          ],
+          "FED_STATS_BIOME_HEALTH": [
+            "locale"
+          ],
+          "FED_STATS_BIOME_REMINDERS": [
+            "locale"
+          ],
+          "FED_STATS_BIOME_CAMERA": [
+            "focusRegionType",
+            "styleSelectionType",
+            "userLibraryAgeInDays",
+            "locale",
+            "deviceType",
+            "portType"
+          ],
+          "FED_STATS_BIOME_SAFARI_ENGAGEMENT_METRICS": [
+            "cardShownOrEngaged",
+            "bitsOfURL"
+          ],
+          "FED_STATS_BIOME_GENMOJI": [
+            "tokenLength",
+            "usage",
+            "userInterfaceLanguage",
+            "userSetRegionFormat",
+            "result",
+            "feature",
+            "usecaseId",
+            "modelName",
+            "modelVersion",
+            "userSetDeviceRegion"
+          ],
+          "FED_STATS_BIOME_MEAD": [
+            "locale",
+            "issuer",
+            "deviceType",
+            "alGestureAssessment",
+            "alAssessment",
+            "plGestureAssessment",
+            "plAssessment",
+            "alFacVersion",
+            "alFacePoseVersion",
+            "alPadtoolVersion",
+            "alPrdVersion",
+            "plFacePoseVersion",
+            "plPadtoolVersion",
+            "plPrdVersion",
+            "shadowLabel",
+            "smFacVersion",
+            "smFacePoseVersion",
+            "smPrdVersion",
+            "smPadtoolVersion",
+            "smLivenessAssessment",
+            "smGestureAssessment",
+            "smLivenessType",
+            "fmAssessment",
+            "fmModelVersion",
+            "fmDetectorModelVersion",
+            "fmSMAssessment",
+            "fmSMModelVersion",
+            "fmSMDetectorModelVersion",
+            "didStepUp",
+            "identityType"
+          ],
+          "FED_STATS_BIOME_MAIL": [
+            "category",
+            "previous",
+            "scope",
+            "language"
+          ],
+          "FED_STATS_BIOME_MEGADOME": [
+            "locale",
+            "dayOfWeek",
+            "hourOfDay"
+          ],
+          "FED_STATS_BIOME_MAIL_TAGS": [
+            "usecaseId",
+            "modelName",
+            "modelVersion",
+            "userSetDeviceRegion"
+          ],
+          "FED_STATS_BIOME_SAFARI": [
+            "countryCode",
+            "platform",
+            "userAgent",
+            "error",
+            "performanceEvent",
+            "signal",
+            "property",
+            "accessedPropertyDirectly",
+            "footprint",
+            "pageCount",
+            "blockingReason"
+          ],
+          "FED_STATS_BIOME_COMM_SAFETY": [
+            "contentType",
+            "ageGroup",
+            "eventDirection",
+            "clientBundleID",
+            "origin",
+            "region"
+          ],
+          "FED_STATS_BIOME_STORYTELLING": [
+            "locale"
+          ],
+          "FED_STATS_BIOME_AI_SAFETY_FIRST": [
+            "cohort1",
+            "cohort2",
+            "cohort3",
+            "cohort4",
+            "eventCount"
+          ],
+          "FED_STATS_BIOME_NETWORKING": [
+            "geohash",
+            "country",
+            "timeZone",
+            "interfaceType",
+            "radioType",
+            "radioBand",
+            "addressFamily"
+          ],
+          "FED_STATS_BIOME_PERSONALIZED_SETUP": [
+            "locale"
+          ],
+          "FED_STATS_BIOME_KEYBOARD_ADDRESS": [
+            "locale",
+            "lang"
+          ],
+          "FED_STATS_BIOME_AI_SAFETY_SHORTCUTS": [
+            "modelIdentifier",
+            "modelVersion",
+            "instanceType",
+            "systemLocale"
+          ],
+          "FED_STATS_BIOME_SYSTEM_SETTINGS": [
+            "locale"
+          ],
+          "FED_STATS_BIOME_MEDIA_ANALYSIS": [
+            "userSetDeviceRegion",
+            "shootingMode",
+            "shootingCategory",
+            "locale"
+          ],
+          "FED_STATS_BIOME_MAC_AUTHENTICATION": [
+            "mechanisms",
+            "actions",
+            "failingAction",
+            "successfulMechanism",
+            "failedMechanisms"
+          ],
+          "FED_STATS_BIOME_INTERSTELLAR": [
+            "locale"
+          ],
+          "FED_STATS_BIOME_MESSAGE_SPAM_DETECTION": [
+            "uafVersion",
+            "recordZone",
+            "nemesisErrors",
+            "filteringNemesisErrors",
+            "eventLocale"
+          ]
+        },
+        "PlugIns/FedStatsMLRPlugin.appex/Contents/Resources/FedStatsPluginAllowedNamespaces.plist": {
+          "allowed-namespaces": [
+            "FED_STATS_BIOME_STORYTELLING",
+            "FED_STATS_BIOME_INTERSTELLAR",
+            "FED_STATS_BIOME_FLEXIBLE_HISTOGRAMS",
+            "FED_STATS_BIOME_MEAD",
+            "FED_STATS_BIOME_WIRELESS",
+            "FED_STATS_BIOME_BLUETOOTH",
+            "FED_STATS_BIOME_MEDIATECH",
+            "FED_STATS_BIOME_KEYBOARD",
+            "FED_STATS_BIOME_APPLECARD",
+            "FED_STATS_BIOME_CORE_MOTION",
+            "FED_STATS_BIOME_MEGADOME",
+            "FED_STATS_BIOME_NETWORKING",
+            "FED_STATS_BIOME_SAFARI",
+            "FED_STATS_BIOME_SYSTEM_SETTINGS",
+            "FED_STATS_BIOME_APPLAUNCH",
+            "FED_STATS_BIOME_EMOJIS",
+            "FED_STATS_BIOME_PFL_INSIGHTS",
+            "FED_STATS_BIOME_COMM_SAFETY",
+            "FED_STATS_BIOME_SIRI_PPL_APP_SELECTION",
+            "FED_STATS_BIOME_SAFARI_ANALYTICS",
+            "FED_STATS_BIOME_SIRI_HEALTH",
+            "FED_STATS_BIOME_PERSONALIZED_SETUP",
+            "FED_STATS_BIOME_SIRI_EDUCATION",
+            "FED_STATS_BIOME_REMINDERS",
+            "FED_STATS_BIOME_KEYBOARD_ADDRESS",
+            "FED_STATS_BIOME_SIRI_SEARCH",
+            "FED_STATS_BIOME_MAIL",
+            "FED_STATS_BIOME_PHOTOS",
+            "FED_STATS_BIOME_CAMERA",
+            "FED_STATS_BIOME_PHOTOS_SEARCH",
+            "FED_STATS_BIOME_SAFARI_ENGAGEMENT_METRICS",
+            "FED_STATS_BIOME_MAC_AUTHENTICATION",
+            "FED_STATS_BIOME_MAIL_TAGS"
+          ]
+        },
+        "PlugIns/FedStatsMLRPlugin.appex/Contents/Resources/FedStatsCohortValueBlockList.plist": {},
+        "PlugIns/FedStatsMLRPlugin.appex/Contents/Resources/FedStatsCohortValueAllowList.plist": {}
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
+  },
+  "usage": {
+    "layer": "usage",
+    "used_by": []
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "loaded"
+  }
+}

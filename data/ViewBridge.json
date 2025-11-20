@@ -1,0 +1,201 @@
+{
+  "framework": "ViewBridge.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/ViewBridge.framework/Versions/A/XPCServices/ViewBridgeAuxiliary.xpc/Contents/MacOS/ViewBridgeAuxiliary",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 52704,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "c",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/usr/lib/libSystem.B.dylib"
+        ]
+      }
+    },
+    "classes": [],
+    "swift_metadata": {
+      "is_swift": false,
+      "symbols": []
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/Localizable.loctable",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist",
+        "Versions/A/XPCServices/ViewBridgeAuxiliary.xpc/Contents/Info.plist",
+        "Versions/A/XPCServices/ViewBridgeAuxiliary.xpc/Contents/version.plist",
+        "Versions/A/XPCServices/ViewBridgeAuxiliary.xpc/Contents/_CodeSignature/CodeResources",
+        "Versions/A/XPCServices/ViewBridgeAuxiliary.xpc/Contents/MacOS/ViewBridgeAuxiliary"
+      ],
+      "plists": {
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "ViewBridge",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2025 Apple Inc. All rights reserved.",
+          "DTSDKBuild": "25B66x",
+          "CFBundleDevelopmentRegion": "English",
+          "CFBundleVersion": "831",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "FMWK",
+          "CFBundleShortVersionString": "831",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "ViewBridge",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.ViewBridge",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleSignature": "????",
+          "DTPlatformBuild": "25B66x"
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "831",
+          "CFBundleShortVersionString": "831",
+          "ProjectName": "ViewBridge",
+          "SourceVersion": "831000000000000",
+          "BuildVersion": "9"
+        },
+        "Versions/A/XPCServices/ViewBridgeAuxiliary.xpc/Contents/Info.plist": {
+          "DTPlatformVersion": "26.1",
+          "CFBundleIdentifier": "com.apple.ViewBridgeAuxiliary",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "DTPlatformBuild": "25B66x",
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleExecutable": "ViewBridgeAuxiliary",
+          "XPCService": {
+            "RunLoopType": "NSRunLoop",
+            "ServiceType": "User"
+          },
+          "DTXcode": "2600",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundlePackageType": "XPC!",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "DTSDKBuild": "25B66x",
+          "DTSDKName": "macosx26.1.internal",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleName": "ViewBridgeAuxiliary"
+        },
+        "Versions/A/XPCServices/ViewBridgeAuxiliary.xpc/Contents/version.plist": {
+          "ProjectName": "ViewBridge",
+          "BuildVersion": "9",
+          "SourceVersion": "831000000000000"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
+  },
+  "usage": {
+    "layer": "usage",
+    "used_by": [
+      {
+        "path": "/System/Applications/Music.app",
+        "binary": "/System/Applications/Music.app/Contents/MacOS/Music",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Applications/System Settings.app",
+        "binary": "/System/Applications/System Settings.app/Contents/MacOS/System Settings",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Applications/TV.app",
+        "binary": "/System/Applications/TV.app/Contents/MacOS/TV",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Applications/Photos.app",
+        "binary": "/System/Applications/Photos.app/Contents/MacOS/Photos",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Applications/Automator.app",
+        "binary": "/System/Applications/Automator.app/Contents/MacOS/Automator",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/Siri.app",
+        "binary": "/System/Library/CoreServices/Siri.app/Contents/MacOS/Siri",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/Finder.app",
+        "binary": "/System/Library/CoreServices/Finder.app/Contents/MacOS/Finder",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/NotificationCenter.app",
+        "binary": "/System/Library/CoreServices/NotificationCenter.app/Contents/MacOS/NotificationCenter",
+        "used_classes": []
+      }
+    ]
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "loaded"
+  }
+}

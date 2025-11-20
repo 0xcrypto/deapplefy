@@ -1,0 +1,3790 @@
+{
+  "framework": "DataAccess.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/DataAccess.framework/Frameworks/DACalDAV.framework/DADaemonCalDAV.bundle/Contents/MacOS/DADaemonCalDAV",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 0,
+          "binsz": 272656,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "",
+          "laddr": 0,
+          "lang": "objc with blocks",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": false,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/AppleInternal/Library/Frameworks/CalendarDiagnostics.framework/Versions/A/CalendarDiagnostics",
+          "/System/Library/PrivateFrameworks/CalendarFoundation.framework/Versions/A/CalendarFoundation",
+          "/System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/AuthKit",
+          "/System/Library/PrivateFrameworks/iCalendar.framework/Versions/A/iCalendar",
+          "/System/Library/PrivateFrameworks/DataAccess.framework/Frameworks/DACoreDAVGlue.framework/Versions/A/DACoreDAVGlue",
+          "/System/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork",
+          "/System/Library/Frameworks/EventKit.framework/Versions/A/EventKit",
+          "/System/Library/PrivateFrameworks/CalendarDatabase.framework/Versions/A/CalendarDatabase",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+          "/System/Library/PrivateFrameworks/DataAccess.framework/Versions/A/DataAccess",
+          "/System/Library/PrivateFrameworks/DataAccessExpress.framework/Versions/A/DataAccessExpress",
+          "/System/Library/PrivateFrameworks/DataAccess.framework/Frameworks/DADaemonSupport.framework/Versions/A/DADaemonSupport",
+          "/System/Library/PrivateFrameworks/DataAccess.framework/Frameworks/DACalDAV.framework/Versions/A/DACalDAV",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/System/Library/PrivateFrameworks/CoreDAV.framework/Versions/A/CoreDAV",
+          "/System/Library/Frameworks/Accounts.framework/Versions/A/Accounts",
+          "/System/Library/PrivateFrameworks/CalDAV.framework/Versions/A/CalDAV",
+          "/System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "MobileCalDAVAccount(CompatibilityShims)",
+        "addr": 197144,
+        "lang": "objc",
+        "index": 0,
+        "super": [
+          "MobileCalDAVAccount"
+        ],
+        "rawsuper": [
+          "MobileCalDAVAccount"
+        ],
+        "methods": [
+          {
+            "name": "backingAccountInfo",
+            "flag": "func.00012274",
+            "lang": "objc",
+            "addr": 74356
+          },
+          {
+            "name": "backingAccountInfo",
+            "flag": "func.00005fb4",
+            "lang": "objc",
+            "addr": 24500
+          },
+          {
+            "name": "backingAccountInfo",
+            "flag": "method.MobileCalDAVAccount_CompatibilityShims_.backingAccountInfo",
+            "lang": "objc",
+            "addr": 14792
+          }
+        ],
+        "fields": [
+          {
+            "name": "backingAccountInfo",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "backingAccountInfo",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "backingAccountInfo",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "CalDAVAgent",
+        "addr": 213912,
+        "lang": "objc",
+        "index": 1,
+        "super": [
+          "DAAgent"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_DAAgent"
+        ],
+        "methods": [
+          {
+            "name": "initWithAccount:",
+            "flag": "method.CalDAVAgent.initWithAccount:",
+            "lang": "objc",
+            "addr": 4936
+          },
+          {
+            "name": "_validateAndSync",
+            "flag": "method.CalDAVAgent._validateAndSync",
+            "lang": "objc",
+            "addr": 5120
+          },
+          {
+            "name": "reallyRefresh",
+            "flag": "method.CalDAVAgent.reallyRefresh",
+            "lang": "objc",
+            "addr": 5868
+          },
+          {
+            "name": "_setupNotifications",
+            "flag": "method.CalDAVAgent._setupNotifications",
+            "lang": "objc",
+            "addr": 6384
+          },
+          {
+            "name": "account:isValid:validationError:",
+            "flag": "method.CalDAVAgent.account:isValid:validationError:",
+            "lang": "objc",
+            "addr": 7392
+          },
+          {
+            "name": "startMonitoring",
+            "flag": "method.CalDAVAgent.startMonitoring",
+            "lang": "objc",
+            "addr": 9048
+          },
+          {
+            "name": "_probeIfNeededAndThenRefresh",
+            "flag": "method.CalDAVAgent._probeIfNeededAndThenRefresh",
+            "lang": "objc",
+            "addr": 9868
+          },
+          {
+            "name": "requestAgentStopMonitoringWithCompletionBlock:",
+            "flag": "method.CalDAVAgent.requestAgentStopMonitoringWithCompletionBlock:",
+            "lang": "objc",
+            "addr": 10376
+          },
+          {
+            "name": "refreshWillBegin",
+            "flag": "method.CalDAVAgent.refreshWillBegin",
+            "lang": "objc",
+            "addr": 11048
+          },
+          {
+            "name": "refreshDidCompleteWithError:",
+            "flag": "method.CalDAVAgent.refreshDidCompleteWithError:",
+            "lang": "objc",
+            "addr": 11140
+          },
+          {
+            "name": "refreshFolderListRequireChangedFolders:isUserRequested:",
+            "flag": "method.CalDAVAgent.refreshFolderListRequireChangedFolders:isUserRequested:",
+            "lang": "objc",
+            "addr": 11976
+          },
+          {
+            "name": "syncFolderIDs:forDataclasses:isUserRequested:",
+            "flag": "method.CalDAVAgent.syncFolderIDs:forDataclasses:isUserRequested:",
+            "lang": "objc",
+            "addr": 12308
+          },
+          {
+            "name": "preferredDaysToSyncDidChange",
+            "flag": "func.000031c4",
+            "lang": "objc",
+            "addr": 12740
+          },
+          {
+            "name": "isDisabledDelegateAccount",
+            "flag": "method.CalDAVAgent.isDisabledDelegateAccount",
+            "lang": "objc",
+            "addr": 13264
+          },
+          {
+            "name": "preferredDaysToSyncDidChange",
+            "flag": "method.CalDAVAgent.preferredDaysToSyncDidChange",
+            "lang": "objc",
+            "addr": 124232
+          },
+          {
+            "name": "preferredDaysToSyncDidChange",
+            "flag": "method.CalDAVAgent.preferredDaysToSyncDidChange",
+            "lang": "objc",
+            "addr": 124232
+          }
+        ],
+        "fields": [
+          {
+            "name": "account",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "MobileCalDAViCloudDaemonAccount",
+        "addr": 213952,
+        "lang": "objc",
+        "index": 2,
+        "super": [
+          "MobileCalDAVDaemonAccount",
+          "MobileCalDAVDaemonAccount"
+        ],
+        "rawsuper": [
+          "MobileCalDAVDaemonAccount",
+          "MobileCalDAVDaemonAccount"
+        ],
+        "methods": [
+          {
+            "name": "noteHomeSetOnDifferentHost:",
+            "flag": "method.MobileCalDAViCloudDaemonAccount.noteHomeSetOnDifferentHost:",
+            "lang": "objc",
+            "addr": 14800
+          },
+          {
+            "name": "shouldHandleHTTPCookiesForURL:",
+            "flag": "method.MobileCalDAViCloudDaemonAccount.shouldHandleHTTPCookiesForURL:",
+            "lang": "objc",
+            "addr": 14900
+          },
+          {
+            "name": "shouldSendClientInfoHeaderForURL:",
+            "flag": "method.MobileCalDAViCloudDaemonAccount.shouldSendClientInfoHeaderForURL:",
+            "lang": "objc",
+            "addr": 14908
+          },
+          {
+            "name": "shouldUseCalendarHomeSyncReport",
+            "flag": "method.MobileCalDAViCloudDaemonAccount.shouldUseCalendarHomeSyncReport",
+            "lang": "objc",
+            "addr": 14916
+          },
+          {
+            "name": "supportsReminders",
+            "flag": "method.MobileCalDAViCloudDaemonAccount.supportsReminders",
+            "lang": "objc",
+            "addr": 14924
+          }
+        ]
+      },
+      {
+        "classname": "MobileCalDAVGrantedDelegatesListRequest",
+        "addr": 214072,
+        "lang": "objc",
+        "index": 3,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithConsumer:account:",
+            "flag": "method.MobileCalDAVGrantedDelegatesListRequest.initWithConsumer:account:",
+            "lang": "objc",
+            "addr": 16396
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.MobileCalDAVGrantedDelegatesListRequest.dealloc",
+            "lang": "objc",
+            "addr": 16636
+          },
+          {
+            "name": "performRequest",
+            "flag": "method.MobileCalDAVGrantedDelegatesListRequest.performRequest",
+            "lang": "objc",
+            "addr": 16736
+          },
+          {
+            "name": "cancel",
+            "flag": "method.MobileCalDAVGrantedDelegatesListRequest.cancel",
+            "lang": "objc",
+            "addr": 18200
+          },
+          {
+            "name": "_finishedWithResults:error:",
+            "flag": "method.MobileCalDAVGrantedDelegatesListRequest._finishedWithResults:error:",
+            "lang": "objc",
+            "addr": 18320
+          },
+          {
+            "name": "requestID",
+            "flag": "method.MobileCalDAVGrantedDelegatesListRequest.requestID",
+            "lang": "objc",
+            "addr": 18972
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.MobileCalDAVGrantedDelegatesListRequest..cxx_destruct",
+            "lang": "objc",
+            "addr": 18980
+          },
+          {
+            "name": "_grantedDelegateFromCalDAVDetails:allowWrite:",
+            "flag": "method.class.MobileCalDAVGrantedDelegatesListRequest._grantedDelegateFromCalDAVDetails:allowWrite:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 18624
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_consumer",
+            "kind": "var",
+            "type": "@\"<DAEventsGrantedDelegatesListResponseConsumer>\"",
+            "addr": 213464
+          },
+          {
+            "name": "_account",
+            "kind": "var",
+            "type": "@\"MobileCalDAVDADaemonAccount\"",
+            "addr": 213468
+          },
+          {
+            "name": "_taskManager",
+            "kind": "var",
+            "type": "@\"DACoreDAVTaskManager\"",
+            "addr": 213472
+          },
+          {
+            "name": "_taskGroup",
+            "kind": "var",
+            "type": "@\"CalDAVGetGrantedDelegatesTaskGroup\"",
+            "addr": 213476
+          },
+          {
+            "name": "_waitingForGatekeeper",
+            "kind": "var",
+            "type": "B",
+            "addr": 213480
+          },
+          {
+            "name": "_holdingGatekeeperLock",
+            "kind": "var",
+            "type": "B",
+            "addr": 213484
+          },
+          {
+            "name": "_finished",
+            "kind": "var",
+            "type": "B",
+            "addr": 213488
+          },
+          {
+            "name": "_requestID",
+            "kind": "var",
+            "type": "@",
+            "addr": 213492
+          },
+          {
+            "name": "requestID",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "MobileCalDAViCloudDADaemonAccount",
+        "addr": 214152,
+        "lang": "objc",
+        "index": 4,
+        "super": [
+          "MobileCalDAVDADaemonAccount",
+          "MobileCalDAVDADaemonAccount"
+        ],
+        "rawsuper": [
+          "MobileCalDAVDADaemonAccount",
+          "MobileCalDAVDADaemonAccount"
+        ],
+        "methods": [
+          {
+            "name": "initWithBackingAccountInfo:",
+            "flag": "method.MobileCalDAViCloudDADaemonAccount.initWithBackingAccountInfo:",
+            "lang": "objc",
+            "addr": 19084
+          },
+          {
+            "name": "setHost:",
+            "flag": "method.MobileCalDAViCloudDADaemonAccount.setHost:",
+            "lang": "objc",
+            "addr": 19224
+          },
+          {
+            "name": "host",
+            "flag": "method.MobileCalDAViCloudDADaemonAccount.host",
+            "lang": "objc",
+            "addr": 19324
+          },
+          {
+            "name": "setUseSSL:",
+            "flag": "method.MobileCalDAViCloudDADaemonAccount.setUseSSL:",
+            "lang": "objc",
+            "addr": 19412
+          },
+          {
+            "name": "useSSL",
+            "flag": "method.MobileCalDAViCloudDADaemonAccount.useSSL",
+            "lang": "objc",
+            "addr": 19428
+          },
+          {
+            "name": "setPort:",
+            "flag": "method.MobileCalDAViCloudDADaemonAccount.setPort:",
+            "lang": "objc",
+            "addr": 19472
+          },
+          {
+            "name": "port",
+            "flag": "method.MobileCalDAViCloudDADaemonAccount.port",
+            "lang": "objc",
+            "addr": 19488
+          },
+          {
+            "name": "principalURL",
+            "flag": "method.MobileCalDAViCloudDADaemonAccount.principalURL",
+            "lang": "objc",
+            "addr": 19528
+          },
+          {
+            "name": "noteHomeSetOnDifferentHost:",
+            "flag": "method.MobileCalDAViCloudDADaemonAccount.noteHomeSetOnDifferentHost:",
+            "lang": "objc",
+            "addr": 19660
+          },
+          {
+            "name": "additionalHeaderValues",
+            "flag": "method.MobileCalDAViCloudDADaemonAccount.additionalHeaderValues",
+            "lang": "objc",
+            "addr": 20672
+          },
+          {
+            "name": "getAppleIDSession",
+            "flag": "method.MobileCalDAViCloudDADaemonAccount.getAppleIDSession",
+            "lang": "objc",
+            "addr": 21036
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.MobileCalDAViCloudDADaemonAccount..cxx_destruct",
+            "lang": "objc",
+            "addr": 21180
+          },
+          {
+            "name": "mobileCalDAVAccountClass",
+            "flag": "method.class.MobileCalDAViCloudDADaemonAccount.mobileCalDAVAccountClass",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 19212
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_host",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 213496
+          },
+          {
+            "name": "_useSSL",
+            "kind": "var",
+            "type": "i",
+            "addr": 213500
+          },
+          {
+            "name": "_port",
+            "kind": "var",
+            "type": "q",
+            "addr": 213504
+          }
+        ]
+      },
+      {
+        "classname": "MobileCalDAVDADaemonAccount",
+        "addr": 214232,
+        "lang": "objc",
+        "index": 5,
+        "super": [
+          "MobileCalDAVDAAccount"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_MobileCalDAVDAAccount"
+        ],
+        "methods": [
+          {
+            "name": "updateGrantedDelegatePermission:consumer:",
+            "flag": "method.MobileCalDAVDADaemonAccount.updateGrantedDelegatePermission:consumer:",
+            "lang": "objc",
+            "addr": 98500
+          },
+          {
+            "name": "cancelUpdateGrantedDelegatePermissionRequestWithID:",
+            "flag": "method.MobileCalDAVDADaemonAccount.cancelUpdateGrantedDelegatePermissionRequestWithID:",
+            "lang": "objc",
+            "addr": 98824
+          },
+          {
+            "name": "cancelAllUpdateGrantedDelegatePermissionRequests",
+            "flag": "method.MobileCalDAVDADaemonAccount.cancelAllUpdateGrantedDelegatePermissionRequests",
+            "lang": "objc",
+            "addr": 99268
+          },
+          {
+            "name": "updateGrantedDelegatePermissionRequestIsGoingAway:",
+            "flag": "method.MobileCalDAVDADaemonAccount.updateGrantedDelegatePermissionRequestIsGoingAway:",
+            "lang": "objc",
+            "addr": 99636
+          },
+          {
+            "name": "respondToShareRequestForCalendar:withResponse:consumer:",
+            "flag": "method.MobileCalDAVDADaemonAccount.respondToShareRequestForCalendar:withResponse:consumer:",
+            "lang": "objc",
+            "addr": 73056
+          },
+          {
+            "name": "reportShareRequestAsJunkForCalendar:consumer:",
+            "flag": "method.MobileCalDAVDADaemonAccount.reportShareRequestAsJunkForCalendar:consumer:",
+            "lang": "objc",
+            "addr": 73364
+          },
+          {
+            "name": "cancelShareResponseInstance:error:",
+            "flag": "method.MobileCalDAVDADaemonAccount.cancelShareResponseInstance:error:",
+            "lang": "objc",
+            "addr": 73664
+          },
+          {
+            "name": "cancelAllSharingRequests",
+            "flag": "method.MobileCalDAVDADaemonAccount.cancelAllSharingRequests",
+            "lang": "objc",
+            "addr": 73860
+          },
+          {
+            "name": "performGroupExpansionForPrincipalPath:consumer:",
+            "flag": "method.MobileCalDAVDADaemonAccount.performGroupExpansionForPrincipalPath:consumer:",
+            "lang": "objc",
+            "addr": 59508
+          },
+          {
+            "name": "cancelAllGroupExpansions",
+            "flag": "method.MobileCalDAVDADaemonAccount.cancelAllGroupExpansions",
+            "lang": "objc",
+            "addr": 59756
+          },
+          {
+            "name": "fetchOfficeHoursWithConsumer:error:",
+            "flag": "method.MobileCalDAVDADaemonAccount.fetchOfficeHoursWithConsumer:error:",
+            "lang": "objc",
+            "addr": 55404
+          },
+          {
+            "name": "setOfficeHours:withConsumer:error:",
+            "flag": "method.MobileCalDAVDADaemonAccount.setOfficeHours:withConsumer:error:",
+            "lang": "objc",
+            "addr": 55424
+          },
+          {
+            "name": "_startOfficeHoursRequestWithConsumer:error:startRequestBlock:",
+            "flag": "method.MobileCalDAVDADaemonAccount._startOfficeHoursRequestWithConsumer:error:startRequestBlock:",
+            "lang": "objc",
+            "addr": 55648
+          },
+          {
+            "name": "cancelOfficeHoursRequestWithID:",
+            "flag": "method.MobileCalDAVDADaemonAccount.cancelOfficeHoursRequestWithID:",
+            "lang": "objc",
+            "addr": 55904
+          },
+          {
+            "name": "officeHoursRequestWithIDFinished:",
+            "flag": "method.MobileCalDAVDADaemonAccount.officeHoursRequestWithIDFinished:",
+            "lang": "objc",
+            "addr": 56052
+          },
+          {
+            "name": "performCalendarDirectorySearchForTerms:recordTypes:resultLimit:consumer:",
+            "flag": "method.MobileCalDAVDADaemonAccount.performCalendarDirectorySearchForTerms:recordTypes:resultLimit:consumer:",
+            "lang": "objc",
+            "addr": 53996
+          },
+          {
+            "name": "cancelCalendarDirectorySearchWithID:",
+            "flag": "method.MobileCalDAVDADaemonAccount.cancelCalendarDirectorySearchWithID:",
+            "lang": "objc",
+            "addr": 54316
+          },
+          {
+            "name": "cancelAllCalendarDirectorySearches",
+            "flag": "method.MobileCalDAVDADaemonAccount.cancelAllCalendarDirectorySearches",
+            "lang": "objc",
+            "addr": 54516
+          },
+          {
+            "name": "calendarDirectorySearchIsGoingAway:",
+            "flag": "method.MobileCalDAVDADaemonAccount.calendarDirectorySearchIsGoingAway:",
+            "lang": "objc",
+            "addr": 54884
+          },
+          {
+            "name": "requestCalendarAvailabilityForStartDate:endDate:ignoredEventID:addresses:consumer:",
+            "flag": "method.MobileCalDAVDADaemonAccount.requestCalendarAvailabilityForStartDate:endDate:ignoredEventID:addresses:consumer:",
+            "lang": "objc",
+            "addr": 14932
+          },
+          {
+            "name": "cancelCalendarAvailabilityRequestWithID:",
+            "flag": "method.MobileCalDAVDADaemonAccount.cancelCalendarAvailabilityRequestWithID:",
+            "lang": "objc",
+            "addr": 15308
+          },
+          {
+            "name": "cancelAllCalendarAvailabilityRequests",
+            "flag": "method.MobileCalDAVDADaemonAccount.cancelAllCalendarAvailabilityRequests",
+            "lang": "objc",
+            "addr": 15508
+          },
+          {
+            "name": "calendarAvailabilityRequestIsGoingAway:",
+            "flag": "method.MobileCalDAVDADaemonAccount.calendarAvailabilityRequestIsGoingAway:",
+            "lang": "objc",
+            "addr": 15876
+          },
+          {
+            "name": "requestGrantedDelegatesListWithConsumer:",
+            "flag": "method.MobileCalDAVDADaemonAccount.requestGrantedDelegatesListWithConsumer:",
+            "lang": "objc",
+            "addr": 13636
+          },
+          {
+            "name": "cancelGrantedDelegatesListRequestWithID:",
+            "flag": "method.MobileCalDAVDADaemonAccount.cancelGrantedDelegatesListRequestWithID:",
+            "lang": "objc",
+            "addr": 13884
+          },
+          {
+            "name": "cancelAllGrantedDelegatesListRequests",
+            "flag": "method.MobileCalDAVDADaemonAccount.cancelAllGrantedDelegatesListRequests",
+            "lang": "objc",
+            "addr": 14084
+          },
+          {
+            "name": "grantedDelegatesListRequestIsGoingAway:",
+            "flag": "method.MobileCalDAVDADaemonAccount.grantedDelegatesListRequestIsGoingAway:",
+            "lang": "objc",
+            "addr": 14452
+          },
+          {
+            "name": "initWithBackingAccountInfo:",
+            "flag": "method.MobileCalDAVDADaemonAccount.initWithBackingAccountInfo:",
+            "lang": "objc",
+            "addr": 21200
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.MobileCalDAVDADaemonAccount.dealloc",
+            "lang": "objc",
+            "addr": 21512
+          },
+          {
+            "name": "childAccountsWithAccountTypeIdentifier:",
+            "flag": "method.MobileCalDAVDADaemonAccount.childAccountsWithAccountTypeIdentifier:",
+            "lang": "objc",
+            "addr": 21828
+          },
+          {
+            "name": "childAccountWithIdentifier:",
+            "flag": "method.MobileCalDAVDADaemonAccount.childAccountWithIdentifier:",
+            "lang": "objc",
+            "addr": 21956
+          },
+          {
+            "name": "createChildAccountWithAccountTypeIdentifier:",
+            "flag": "method.MobileCalDAVDADaemonAccount.createChildAccountWithAccountTypeIdentifier:",
+            "lang": "objc",
+            "addr": 22312
+          },
+          {
+            "name": "removeAccount:",
+            "flag": "method.MobileCalDAVDADaemonAccount.removeAccount:",
+            "lang": "objc",
+            "addr": 22632
+          },
+          {
+            "name": "stateString",
+            "flag": "method.MobileCalDAVDADaemonAccount.stateString",
+            "lang": "objc",
+            "addr": 23216
+          },
+          {
+            "name": "isDisabled",
+            "flag": "method.MobileCalDAVDADaemonAccount.isDisabled",
+            "lang": "objc",
+            "addr": 23448
+          },
+          {
+            "name": "beginDownloadingAttachmentWithUUID:consumer:",
+            "flag": "method.MobileCalDAVDADaemonAccount.beginDownloadingAttachmentWithUUID:consumer:",
+            "lang": "objc",
+            "addr": 23792
+          },
+          {
+            "name": "cancelDownloadingInstance:error:",
+            "flag": "method.MobileCalDAVDADaemonAccount.cancelDownloadingInstance:error:",
+            "lang": "objc",
+            "addr": 23948
+          },
+          {
+            "name": "calendarAvailabilityRequests",
+            "flag": "method.MobileCalDAVDADaemonAccount.calendarAvailabilityRequests",
+            "lang": "objc",
+            "addr": 24084
+          },
+          {
+            "name": "setCalendarAvailabilityRequests:",
+            "flag": "method.MobileCalDAVDADaemonAccount.setCalendarAvailabilityRequests:",
+            "lang": "objc",
+            "addr": 24100
+          },
+          {
+            "name": "directorySearches",
+            "flag": "method.MobileCalDAVDADaemonAccount.directorySearches",
+            "lang": "objc",
+            "addr": 24120
+          },
+          {
+            "name": "setDirectorySearches:",
+            "flag": "method.MobileCalDAVDADaemonAccount.setDirectorySearches:",
+            "lang": "objc",
+            "addr": 24136
+          },
+          {
+            "name": "groupExpansions",
+            "flag": "method.MobileCalDAVDADaemonAccount.groupExpansions",
+            "lang": "objc",
+            "addr": 24156
+          },
+          {
+            "name": "setGroupExpansions:",
+            "flag": "method.MobileCalDAVDADaemonAccount.setGroupExpansions:",
+            "lang": "objc",
+            "addr": 24172
+          },
+          {
+            "name": "shareResponses",
+            "flag": "method.MobileCalDAVDADaemonAccount.shareResponses",
+            "lang": "objc",
+            "addr": 24192
+          },
+          {
+            "name": "setShareResponses:",
+            "flag": "method.MobileCalDAVDADaemonAccount.setShareResponses:",
+            "lang": "objc",
+            "addr": 24208
+          },
+          {
+            "name": "grantedDelegatesListRequests",
+            "flag": "method.MobileCalDAVDADaemonAccount.grantedDelegatesListRequests",
+            "lang": "objc",
+            "addr": 24228
+          },
+          {
+            "name": "setGrantedDelegatesListRequests:",
+            "flag": "method.MobileCalDAVDADaemonAccount.setGrantedDelegatesListRequests:",
+            "lang": "objc",
+            "addr": 24244
+          },
+          {
+            "name": "updateGrantedDelegatePermissionRequests",
+            "flag": "method.MobileCalDAVDADaemonAccount.updateGrantedDelegatePermissionRequests",
+            "lang": "objc",
+            "addr": 24264
+          },
+          {
+            "name": "setUpdateGrantedDelegatePermissionRequests:",
+            "flag": "method.MobileCalDAVDADaemonAccount.setUpdateGrantedDelegatePermissionRequests:",
+            "lang": "objc",
+            "addr": 24280
+          },
+          {
+            "name": "officeHoursRequests",
+            "flag": "method.MobileCalDAVDADaemonAccount.officeHoursRequests",
+            "lang": "objc",
+            "addr": 24300
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.MobileCalDAVDADaemonAccount..cxx_destruct",
+            "lang": "objc",
+            "addr": 24316
+          },
+          {
+            "name": "mobileCalDAVAccountClass",
+            "flag": "method.class.MobileCalDAVDADaemonAccount.mobileCalDAVAccountClass",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 21816
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_calendarAvailabilityRequests",
+            "kind": "var",
+            "type": "@\"NSMutableDictionary\"",
+            "addr": 213512
+          },
+          {
+            "name": "_directorySearches",
+            "kind": "var",
+            "type": "@\"NSMutableDictionary\"",
+            "addr": 213516
+          },
+          {
+            "name": "_groupExpansions",
+            "kind": "var",
+            "type": "@\"NSMutableSet\"",
+            "addr": 213520
+          },
+          {
+            "name": "_shareResponses",
+            "kind": "var",
+            "type": "@\"NSMutableDictionary\"",
+            "addr": 213508
+          },
+          {
+            "name": "_grantedDelegatesListRequests",
+            "kind": "var",
+            "type": "@\"NSMutableDictionary\"",
+            "addr": 213524
+          },
+          {
+            "name": "_updateGrantedDelegatePermissionRequests",
+            "kind": "var",
+            "type": "@\"NSMutableArray\"",
+            "addr": 213528
+          },
+          {
+            "name": "_officeHoursRequests",
+            "kind": "var",
+            "type": "@\"NSMutableDictionary\"",
+            "addr": 213532
+          },
+          {
+            "name": "groupExpansions",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "officeHoursRequests",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "shareResponses",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "directorySearches",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "updateGrantedDelegatePermissionRequests",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "grantedDelegatesListRequests",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "calendarAvailabilityRequests",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "mobileCalDAVAccount",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "CalDAVGetToFileWithProgressTask",
+        "addr": 214312,
+        "lang": "objc",
+        "index": 6,
+        "super": [
+          "CoreDAVGetToFileTask"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_CoreDAVGetToFileTask"
+        ],
+        "methods": [
+          {
+            "name": "URLSession:dataTask:didReceiveData:",
+            "flag": "method.CalDAVGetToFileWithProgressTask.URLSession:dataTask:didReceiveData:",
+            "lang": "objc",
+            "addr": 24508
+          },
+          {
+            "name": "additionalHeaderValues",
+            "flag": "method.CalDAVGetToFileWithProgressTask.additionalHeaderValues",
+            "lang": "objc",
+            "addr": 24732
+          },
+          {
+            "name": "downloader",
+            "flag": "method.CalDAVGetToFileWithProgressTask.downloader",
+            "lang": "objc",
+            "addr": 24956
+          },
+          {
+            "name": "setDownloader:",
+            "flag": "method.CalDAVGetToFileWithProgressTask.setDownloader:",
+            "lang": "objc",
+            "addr": 25008
+          },
+          {
+            "name": "previousETag",
+            "flag": "method.CalDAVGetToFileWithProgressTask.previousETag",
+            "lang": "objc",
+            "addr": 25028
+          },
+          {
+            "name": "setPreviousETag:",
+            "flag": "method.CalDAVGetToFileWithProgressTask.setPreviousETag:",
+            "lang": "objc",
+            "addr": 25044
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.CalDAVGetToFileWithProgressTask..cxx_destruct",
+            "lang": "objc",
+            "addr": 25064
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_downloader",
+            "kind": "var",
+            "type": "@\"MobileCalDAVAttachmentDownloader\"",
+            "addr": 213536
+          },
+          {
+            "name": "_previousETag",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 213540
+          },
+          {
+            "name": "downloader",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "previousETag",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "MobileCalDAVAttachmentDownloader",
+        "addr": 214432,
+        "lang": "objc",
+        "index": 7,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithAttachmentUUID:forAccount:",
+            "flag": "method.MobileCalDAVAttachmentDownloader.initWithAttachmentUUID:forAccount:",
+            "lang": "objc",
+            "addr": 25264
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.MobileCalDAVAttachmentDownloader.dealloc",
+            "lang": "objc",
+            "addr": 25640
+          },
+          {
+            "name": "waiterID",
+            "flag": "func.00006480",
+            "lang": "objc",
+            "addr": 25728
+          },
+          {
+            "name": "addConsumer:",
+            "flag": "method.MobileCalDAVAttachmentDownloader.addConsumer:",
+            "lang": "objc",
+            "addr": 25736
+          },
+          {
+            "name": "removeConsumer:",
+            "flag": "method.MobileCalDAVAttachmentDownloader.removeConsumer:",
+            "lang": "objc",
+            "addr": 25872
+          },
+          {
+            "name": "_reallySaveAttachmentDataToDatabase",
+            "flag": "method.MobileCalDAVAttachmentDownloader._reallySaveAttachmentDataToDatabase",
+            "lang": "objc",
+            "addr": 26048
+          },
+          {
+            "name": "_saveAttachmentDataToDatabase",
+            "flag": "method.MobileCalDAVAttachmentDownloader._saveAttachmentDataToDatabase",
+            "lang": "objc",
+            "addr": 27640
+          },
+          {
+            "name": "task:didFinishWithError:",
+            "flag": "method.MobileCalDAVAttachmentDownloader.task:didFinishWithError:",
+            "lang": "objc",
+            "addr": 28556
+          },
+          {
+            "name": "beginDownload",
+            "flag": "method.MobileCalDAVAttachmentDownloader.beginDownload",
+            "lang": "objc",
+            "addr": 29684
+          },
+          {
+            "name": "_reallyBeginDownload",
+            "flag": "method.MobileCalDAVAttachmentDownloader._reallyBeginDownload",
+            "lang": "objc",
+            "addr": 30108
+          },
+          {
+            "name": "cancelDownload",
+            "flag": "method.MobileCalDAVAttachmentDownloader.cancelDownload",
+            "lang": "objc",
+            "addr": 32592
+          },
+          {
+            "name": "_didShowProgressDownloadedByteCount:",
+            "flag": "method.MobileCalDAVAttachmentDownloader._didShowProgressDownloadedByteCount:",
+            "lang": "objc",
+            "addr": 32680
+          },
+          {
+            "name": "_didFinishDownloadingWithError:",
+            "flag": "method.MobileCalDAVAttachmentDownloader._didFinishDownloadingWithError:",
+            "lang": "objc",
+            "addr": 33136
+          },
+          {
+            "name": "attachmentUUID",
+            "flag": "method.MobileCalDAVAttachmentDownloader.attachmentUUID",
+            "lang": "objc",
+            "addr": 34008
+          },
+          {
+            "name": "consumers",
+            "flag": "method.MobileCalDAVAttachmentDownloader.consumers",
+            "lang": "objc",
+            "addr": 34016
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.MobileCalDAVAttachmentDownloader..cxx_destruct",
+            "lang": "objc",
+            "addr": 34024
+          },
+          {
+            "name": "waiterID",
+            "flag": "method.MobileCalDAVAttachmentDownloader.waiterID",
+            "lang": "objc",
+            "addr": 124208
+          },
+          {
+            "name": "progressQueue",
+            "flag": "method.class.MobileCalDAVAttachmentDownloader.progressQueue",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 25144
+          },
+          {
+            "name": "waiterID",
+            "flag": "method.MobileCalDAVAttachmentDownloader.waiterID",
+            "lang": "objc",
+            "addr": 124208
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_waiterID",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 213544
+          },
+          {
+            "name": "_account",
+            "kind": "var",
+            "type": "@\"MobileCalDAVDaemonAccount\"",
+            "addr": 213548
+          },
+          {
+            "name": "_consumers",
+            "kind": "var",
+            "type": "@\"NSHashTable\"",
+            "addr": 213552
+          },
+          {
+            "name": "_attachmentUUID",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 213556
+          },
+          {
+            "name": "_attachmentURL",
+            "kind": "var",
+            "type": "@\"NSURL\"",
+            "addr": 213560
+          },
+          {
+            "name": "_attachmentSize",
+            "kind": "var",
+            "type": "q",
+            "addr": 213564
+          },
+          {
+            "name": "_attachmentType",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 213568
+          },
+          {
+            "name": "_localFilename",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 213572
+          },
+          {
+            "name": "_etag",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 213576
+          },
+          {
+            "name": "_taskManager",
+            "kind": "var",
+            "type": "@\"DACoreDAVTaskManager\"",
+            "addr": 213580
+          },
+          {
+            "name": "_placeholderAccountInfoProvider",
+            "kind": "var",
+            "type": "@\"MobileCalDAVGenericAccountInfoProvider\"",
+            "addr": 213584
+          },
+          {
+            "name": "_waitingForGatekeeper",
+            "kind": "var",
+            "type": "B",
+            "addr": 213588
+          },
+          {
+            "name": "_holdingGatekeeperLock",
+            "kind": "var",
+            "type": "B",
+            "addr": 213592
+          },
+          {
+            "name": "attachmentUUID",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "consumers",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "MobileCalDAVDownloadContext",
+        "addr": 214512,
+        "lang": "objc",
+        "index": 8,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithAttachmentUUID:consumer:",
+            "flag": "method.MobileCalDAVDownloadContext.initWithAttachmentUUID:consumer:",
+            "lang": "objc",
+            "addr": 34312
+          },
+          {
+            "name": "consumer",
+            "flag": "method.MobileCalDAVDownloadContext.consumer",
+            "lang": "objc",
+            "addr": 34472
+          },
+          {
+            "name": "setConsumer:",
+            "flag": "method.MobileCalDAVDownloadContext.setConsumer:",
+            "lang": "objc",
+            "addr": 34516
+          },
+          {
+            "name": "attachmentUUID",
+            "flag": "method.MobileCalDAVDownloadContext.attachmentUUID",
+            "lang": "objc",
+            "addr": 34528
+          },
+          {
+            "name": "setAttachmentUUID:",
+            "flag": "method.MobileCalDAVDownloadContext.setAttachmentUUID:",
+            "lang": "objc",
+            "addr": 34536
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.MobileCalDAVDownloadContext..cxx_destruct",
+            "lang": "objc",
+            "addr": 34548
+          },
+          {
+            "name": "contextWithAttachmentUUID:consumer:",
+            "flag": "method.class.MobileCalDAVDownloadContext.contextWithAttachmentUUID:consumer:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 34184
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_consumer",
+            "kind": "var",
+            "type": "@\"<DAEventsAttachmentDownloadConsumer>\"",
+            "addr": 213596
+          },
+          {
+            "name": "_attachmentUUID",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 213600
+          },
+          {
+            "name": "consumer",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "attachmentUUID",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "MobileCalDAVGenericAccountInfoProvider",
+        "addr": 214552,
+        "lang": "objc",
+        "index": 9,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "accountID",
+            "flag": "func.00008f74",
+            "lang": "objc",
+            "addr": 36724
+          },
+          {
+            "name": "handleCertificateError:",
+            "flag": "func.00008f7c",
+            "lang": "objc",
+            "addr": 36732
+          },
+          {
+            "name": "host",
+            "flag": "func.00008f84",
+            "lang": "objc",
+            "addr": 36740
+          },
+          {
+            "name": "identityPersist",
+            "flag": "func.00008f8c",
+            "lang": "objc",
+            "addr": 36748
+          },
+          {
+            "name": "password",
+            "flag": "func.00008f94",
+            "lang": "objc",
+            "addr": 36756
+          },
+          {
+            "name": "port",
+            "flag": "func.00008f9c",
+            "lang": "objc",
+            "addr": 36764
+          },
+          {
+            "name": "principalURL",
+            "flag": "func.00008fa4",
+            "lang": "objc",
+            "addr": 36772
+          },
+          {
+            "name": "promptUserForNewCoreDAVPasswordWithCompletionBlock:",
+            "flag": "func.00008fac",
+            "lang": "objc",
+            "addr": 36780
+          },
+          {
+            "name": "scheme",
+            "flag": "func.00008fbc",
+            "lang": "objc",
+            "addr": 36796
+          },
+          {
+            "name": "serverComplianceClasses",
+            "flag": "func.00008fc4",
+            "lang": "objc",
+            "addr": 36804
+          },
+          {
+            "name": "serverRoot",
+            "flag": "func.00008fcc",
+            "lang": "objc",
+            "addr": 36812
+          },
+          {
+            "name": "shouldFailAllTasks",
+            "flag": "func.00008fd4",
+            "lang": "objc",
+            "addr": 36820
+          },
+          {
+            "name": "user",
+            "flag": "func.00008fdc",
+            "lang": "objc",
+            "addr": 36828
+          },
+          {
+            "name": "userAgentHeader",
+            "flag": "func.00008fe4",
+            "lang": "objc",
+            "addr": 36836
+          },
+          {
+            "name": "handleTrustChallenge:completionHandler:",
+            "flag": "method.MobileCalDAVGenericAccountInfoProvider.handleTrustChallenge:completionHandler:",
+            "lang": "objc",
+            "addr": 36840
+          },
+          {
+            "name": "scheme",
+            "flag": "method.MobileCalDAVGenericAccountInfoProvider.scheme",
+            "lang": "objc",
+            "addr": 124008
+          },
+          {
+            "name": "host",
+            "flag": "method.MobileCalDAVGenericAccountInfoProvider.host",
+            "lang": "objc",
+            "addr": 124020
+          },
+          {
+            "name": "port",
+            "flag": "method.MobileCalDAVGenericAccountInfoProvider.port",
+            "lang": "objc",
+            "addr": 124032
+          },
+          {
+            "name": "serverRoot",
+            "flag": "method.MobileCalDAVGenericAccountInfoProvider.serverRoot",
+            "lang": "objc",
+            "addr": 124044
+          },
+          {
+            "name": "user",
+            "flag": "method.MobileCalDAVGenericAccountInfoProvider.user",
+            "lang": "objc",
+            "addr": 124056
+          },
+          {
+            "name": "password",
+            "flag": "method.MobileCalDAVGenericAccountInfoProvider.password",
+            "lang": "objc",
+            "addr": 124068
+          },
+          {
+            "name": "identityPersist",
+            "flag": "method.MobileCalDAVGenericAccountInfoProvider.identityPersist",
+            "lang": "objc",
+            "addr": 124080
+          },
+          {
+            "name": "principalURL",
+            "flag": "method.MobileCalDAVGenericAccountInfoProvider.principalURL",
+            "lang": "objc",
+            "addr": 124092
+          },
+          {
+            "name": "accountID",
+            "flag": "method.MobileCalDAVGenericAccountInfoProvider.accountID",
+            "lang": "objc",
+            "addr": 124104
+          },
+          {
+            "name": "serverComplianceClasses",
+            "flag": "method.MobileCalDAVGenericAccountInfoProvider.serverComplianceClasses",
+            "lang": "objc",
+            "addr": 124116
+          },
+          {
+            "name": "userAgentHeader",
+            "flag": "method.MobileCalDAVGenericAccountInfoProvider.userAgentHeader",
+            "lang": "objc",
+            "addr": 124128
+          },
+          {
+            "name": "promptUserForNewCoreDAVPasswordWithCompletionBlock:",
+            "flag": "method.MobileCalDAVGenericAccountInfoProvider.promptUserForNewCoreDAVPasswordWithCompletionBlock:",
+            "lang": "objc",
+            "addr": 124140
+          },
+          {
+            "name": "handleCertificateError:",
+            "flag": "method.MobileCalDAVGenericAccountInfoProvider.handleCertificateError:",
+            "lang": "objc",
+            "addr": 124152
+          },
+          {
+            "name": "shouldFailAllTasks",
+            "flag": "method.MobileCalDAVGenericAccountInfoProvider.shouldFailAllTasks",
+            "lang": "objc",
+            "addr": 124164
+          },
+          {
+            "name": "scheme",
+            "flag": "method.MobileCalDAVGenericAccountInfoProvider.scheme",
+            "lang": "objc",
+            "addr": 124008
+          },
+          {
+            "name": "host",
+            "flag": "method.MobileCalDAVGenericAccountInfoProvider.host",
+            "lang": "objc",
+            "addr": 124020
+          },
+          {
+            "name": "port",
+            "flag": "method.MobileCalDAVGenericAccountInfoProvider.port",
+            "lang": "objc",
+            "addr": 124032
+          },
+          {
+            "name": "serverRoot",
+            "flag": "method.MobileCalDAVGenericAccountInfoProvider.serverRoot",
+            "lang": "objc",
+            "addr": 124044
+          },
+          {
+            "name": "user",
+            "flag": "method.MobileCalDAVGenericAccountInfoProvider.user",
+            "lang": "objc",
+            "addr": 124056
+          },
+          {
+            "name": "password",
+            "flag": "method.MobileCalDAVGenericAccountInfoProvider.password",
+            "lang": "objc",
+            "addr": 124068
+          },
+          {
+            "name": "identityPersist",
+            "flag": "method.MobileCalDAVGenericAccountInfoProvider.identityPersist",
+            "lang": "objc",
+            "addr": 124080
+          },
+          {
+            "name": "principalURL",
+            "flag": "method.MobileCalDAVGenericAccountInfoProvider.principalURL",
+            "lang": "objc",
+            "addr": 124092
+          },
+          {
+            "name": "accountID",
+            "flag": "method.MobileCalDAVGenericAccountInfoProvider.accountID",
+            "lang": "objc",
+            "addr": 124104
+          },
+          {
+            "name": "serverComplianceClasses",
+            "flag": "method.MobileCalDAVGenericAccountInfoProvider.serverComplianceClasses",
+            "lang": "objc",
+            "addr": 124116
+          },
+          {
+            "name": "userAgentHeader",
+            "flag": "method.MobileCalDAVGenericAccountInfoProvider.userAgentHeader",
+            "lang": "objc",
+            "addr": 124128
+          },
+          {
+            "name": "promptUserForNewCoreDAVPasswordWithCompletionBlock:",
+            "flag": "method.MobileCalDAVGenericAccountInfoProvider.promptUserForNewCoreDAVPasswordWithCompletionBlock:",
+            "lang": "objc",
+            "addr": 124140
+          },
+          {
+            "name": "handleCertificateError:",
+            "flag": "method.MobileCalDAVGenericAccountInfoProvider.handleCertificateError:",
+            "lang": "objc",
+            "addr": 124152
+          },
+          {
+            "name": "shouldFailAllTasks",
+            "flag": "method.MobileCalDAVGenericAccountInfoProvider.shouldFailAllTasks",
+            "lang": "objc",
+            "addr": 124164
+          }
+        ],
+        "fields": [
+          {
+            "name": "contextDictionary",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "MobileCalDAVCalendarAvailabilityRequest",
+        "addr": 214632,
+        "lang": "objc",
+        "index": 10,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithStartDate:endDate:ignoredEventID:addresses:consumer:account:",
+            "flag": "method.MobileCalDAVCalendarAvailabilityRequest.initWithStartDate:endDate:ignoredEventID:addresses:consumer:account:",
+            "lang": "objc",
+            "addr": 36912
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.MobileCalDAVCalendarAvailabilityRequest.dealloc",
+            "lang": "objc",
+            "addr": 37312
+          },
+          {
+            "name": "description",
+            "flag": "method.MobileCalDAVCalendarAvailabilityRequest.description",
+            "lang": "objc",
+            "addr": 37412
+          },
+          {
+            "name": "requestID",
+            "flag": "method.MobileCalDAVCalendarAvailabilityRequest.requestID",
+            "lang": "objc",
+            "addr": 37576
+          },
+          {
+            "name": "performRequest",
+            "flag": "method.MobileCalDAVCalendarAvailabilityRequest.performRequest",
+            "lang": "objc",
+            "addr": 37584
+          },
+          {
+            "name": "cancel",
+            "flag": "method.MobileCalDAVCalendarAvailabilityRequest.cancel",
+            "lang": "objc",
+            "addr": 37872
+          },
+          {
+            "name": "waiterID",
+            "flag": "method.MobileCalDAVCalendarAvailabilityRequest.waiterID",
+            "lang": "objc",
+            "addr": 37988
+          },
+          {
+            "name": "_reallyPerformRequest",
+            "flag": "method.MobileCalDAVCalendarAvailabilityRequest._reallyPerformRequest",
+            "lang": "objc",
+            "addr": 41708
+          },
+          {
+            "name": "_finishWithError:",
+            "flag": "method.MobileCalDAVCalendarAvailabilityRequest._finishWithError:",
+            "lang": "objc",
+            "addr": 43068
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.MobileCalDAVCalendarAvailabilityRequest..cxx_destruct",
+            "lang": "objc",
+            "addr": 43352
+          },
+          {
+            "name": "waiterID",
+            "flag": "method.MobileCalDAVAttachmentDownloader.waiterID",
+            "lang": "objc",
+            "addr": 124208
+          },
+          {
+            "name": "_parseResponse:withAddresses:",
+            "flag": "method.class.MobileCalDAVCalendarAvailabilityRequest._parseResponse:withAddresses:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 37992
+          },
+          {
+            "name": "_availabilitySpansForFreeBusyComponent:usingCalendar:",
+            "flag": "method.class.MobileCalDAVCalendarAvailabilityRequest._availabilitySpansForFreeBusyComponent:usingCalendar:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 39428
+          },
+          {
+            "name": "_availabilitySpansForFreeBusyProperties:usingCalendar:",
+            "flag": "method.class.MobileCalDAVCalendarAvailabilityRequest._availabilitySpansForFreeBusyProperties:usingCalendar:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 40536
+          },
+          {
+            "name": "waiterID",
+            "flag": "method.MobileCalDAVAttachmentDownloader.waiterID",
+            "lang": "objc",
+            "addr": 124208
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_startDate",
+            "kind": "var",
+            "type": "@\"NSDate\"",
+            "addr": 213604
+          },
+          {
+            "name": "_endDate",
+            "kind": "var",
+            "type": "@\"NSDate\"",
+            "addr": 213608
+          },
+          {
+            "name": "_ignoredEventID",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 213612
+          },
+          {
+            "name": "_addresses",
+            "kind": "var",
+            "type": "@\"NSArray\"",
+            "addr": 213616
+          },
+          {
+            "name": "_consumer",
+            "kind": "var",
+            "type": "@\"<DAEventsCalendarAvailabilityResponseConsumer>\"",
+            "addr": 213620
+          },
+          {
+            "name": "_account",
+            "kind": "var",
+            "type": "@\"MobileCalDAVDADaemonAccount\"",
+            "addr": 213624
+          },
+          {
+            "name": "_freeBusyLookupID",
+            "kind": "var",
+            "type": "@",
+            "addr": 213628
+          },
+          {
+            "name": "_taskManager",
+            "kind": "var",
+            "type": "@\"DACoreDAVTaskManager\"",
+            "addr": 213632
+          },
+          {
+            "name": "_finished",
+            "kind": "var",
+            "type": "B",
+            "addr": 213636
+          },
+          {
+            "name": "requestID",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "MobileCalDAVDirectorySearch",
+        "addr": 214712,
+        "lang": "objc",
+        "index": 11,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithTerms:recordTypes:resultLimit:consumer:account:",
+            "flag": "method.MobileCalDAVDirectorySearch.initWithTerms:recordTypes:resultLimit:consumer:account:",
+            "lang": "objc",
+            "addr": 43488
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.MobileCalDAVDirectorySearch.dealloc",
+            "lang": "objc",
+            "addr": 43824
+          },
+          {
+            "name": "description",
+            "flag": "method.MobileCalDAVDirectorySearch.description",
+            "lang": "objc",
+            "addr": 43924
+          },
+          {
+            "name": "searchID",
+            "flag": "method.MobileCalDAVDirectorySearch.searchID",
+            "lang": "objc",
+            "addr": 44080
+          },
+          {
+            "name": "performSearch",
+            "flag": "method.MobileCalDAVDirectorySearch.performSearch",
+            "lang": "objc",
+            "addr": 44088
+          },
+          {
+            "name": "cancel",
+            "flag": "method.MobileCalDAVDirectorySearch.cancel",
+            "lang": "objc",
+            "addr": 44108
+          },
+          {
+            "name": "_reallyPerformSearch",
+            "flag": "method.MobileCalDAVDirectorySearch._reallyPerformSearch",
+            "lang": "objc",
+            "addr": 44224
+          },
+          {
+            "name": "setNewStyleSearchTypeFromRecordTypes",
+            "flag": "method.MobileCalDAVDirectorySearch.setNewStyleSearchTypeFromRecordTypes",
+            "lang": "objc",
+            "addr": 44552
+          },
+          {
+            "name": "_filterTermsForOldStyleSearch",
+            "flag": "method.MobileCalDAVDirectorySearch._filterTermsForOldStyleSearch",
+            "lang": "objc",
+            "addr": 44856
+          },
+          {
+            "name": "_performOldStyleSearch",
+            "flag": "method.MobileCalDAVDirectorySearch._performOldStyleSearch",
+            "lang": "objc",
+            "addr": 45520
+          },
+          {
+            "name": "_performNewStyleSearch",
+            "flag": "method.MobileCalDAVDirectorySearch._performNewStyleSearch",
+            "lang": "objc",
+            "addr": 46960
+          },
+          {
+            "name": "_handleResponseForTask:",
+            "flag": "method.MobileCalDAVDirectorySearch._handleResponseForTask:",
+            "lang": "objc",
+            "addr": 47840
+          },
+          {
+            "name": "_parseResponse:",
+            "flag": "method.MobileCalDAVDirectorySearch._parseResponse:",
+            "lang": "objc",
+            "addr": 48220
+          },
+          {
+            "name": "_finishWithError:",
+            "flag": "method.MobileCalDAVDirectorySearch._finishWithError:",
+            "lang": "objc",
+            "addr": 51684
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.MobileCalDAVDirectorySearch..cxx_destruct",
+            "lang": "objc",
+            "addr": 51972
+          },
+          {
+            "name": "_convertRecordTypesToSearchTypes:",
+            "flag": "method.class.MobileCalDAVDirectorySearch._convertRecordTypesToSearchTypes:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 46500
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_terms",
+            "kind": "var",
+            "type": "@\"NSSet\"",
+            "addr": 213640
+          },
+          {
+            "name": "_recordTypes",
+            "kind": "var",
+            "type": "@\"NSSet\"",
+            "addr": 213644
+          },
+          {
+            "name": "_resultLimit",
+            "kind": "var",
+            "type": "Q",
+            "addr": 213648
+          },
+          {
+            "name": "_exceededResultLimit",
+            "kind": "var",
+            "type": "B",
+            "addr": 213652
+          },
+          {
+            "name": "_consumer",
+            "kind": "var",
+            "type": "@\"<DAEventsCalendarDirectorySearchResponseConsumer>\"",
+            "addr": 213656
+          },
+          {
+            "name": "_account",
+            "kind": "var",
+            "type": "@\"MobileCalDAVDADaemonAccount\"",
+            "addr": 213660
+          },
+          {
+            "name": "_searchID",
+            "kind": "var",
+            "type": "@",
+            "addr": 213664
+          },
+          {
+            "name": "_taskManager",
+            "kind": "var",
+            "type": "@\"DACoreDAVTaskManager\"",
+            "addr": 213668
+          },
+          {
+            "name": "_finished",
+            "kind": "var",
+            "type": "B",
+            "addr": 213672
+          },
+          {
+            "name": "_searchType",
+            "kind": "var",
+            "type": "q",
+            "addr": 213676
+          },
+          {
+            "name": "searchID",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "MobileCalDAVUpdateGrantedDelegatePermissionRequest",
+        "addr": 214792,
+        "lang": "objc",
+        "index": 12,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithGrantedDelegate:consumer:account:",
+            "flag": "method.MobileCalDAVUpdateGrantedDelegatePermissionRequest.initWithGrantedDelegate:consumer:account:",
+            "lang": "objc",
+            "addr": 52084
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.MobileCalDAVUpdateGrantedDelegatePermissionRequest.dealloc",
+            "lang": "objc",
+            "addr": 52368
+          },
+          {
+            "name": "performRequest",
+            "flag": "method.MobileCalDAVUpdateGrantedDelegatePermissionRequest.performRequest",
+            "lang": "objc",
+            "addr": 52468
+          },
+          {
+            "name": "cancel",
+            "flag": "method.MobileCalDAVUpdateGrantedDelegatePermissionRequest.cancel",
+            "lang": "objc",
+            "addr": 53488
+          },
+          {
+            "name": "_finishedWithError:",
+            "flag": "method.MobileCalDAVUpdateGrantedDelegatePermissionRequest._finishedWithError:",
+            "lang": "objc",
+            "addr": 53604
+          },
+          {
+            "name": "requestID",
+            "flag": "method.MobileCalDAVUpdateGrantedDelegatePermissionRequest.requestID",
+            "lang": "objc",
+            "addr": 53872
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.MobileCalDAVUpdateGrantedDelegatePermissionRequest..cxx_destruct",
+            "lang": "objc",
+            "addr": 53880
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_grantedDelegate",
+            "kind": "var",
+            "type": "@\"DAEGrantedDelegate\"",
+            "addr": 213680
+          },
+          {
+            "name": "_consumer",
+            "kind": "var",
+            "type": "@\"<DAEventsUpdateGrantedDelegatePermissionResponseConsumer>\"",
+            "addr": 213684
+          },
+          {
+            "name": "_account",
+            "kind": "var",
+            "type": "@\"MobileCalDAVDADaemonAccount\"",
+            "addr": 213688
+          },
+          {
+            "name": "_taskManager",
+            "kind": "var",
+            "type": "@\"DACoreDAVTaskManager\"",
+            "addr": 213692
+          },
+          {
+            "name": "_taskGroup",
+            "kind": "var",
+            "type": "@\"CalDAVUpdateGrantedDelegatesTaskGroup\"",
+            "addr": 213696
+          },
+          {
+            "name": "_waitingForGatekeeper",
+            "kind": "var",
+            "type": "B",
+            "addr": 213700
+          },
+          {
+            "name": "_holdingGatekeeperLock",
+            "kind": "var",
+            "type": "B",
+            "addr": 213704
+          },
+          {
+            "name": "_finished",
+            "kind": "var",
+            "type": "B",
+            "addr": 213708
+          },
+          {
+            "name": "_requestID",
+            "kind": "var",
+            "type": "@",
+            "addr": 213712
+          },
+          {
+            "name": "requestID",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "DACalDAVOfficeHoursRequest",
+        "addr": 214872,
+        "lang": "objc",
+        "index": 13,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithAccount:consumer:",
+            "flag": "method.DACalDAVOfficeHoursRequest.initWithAccount:consumer:",
+            "lang": "objc",
+            "addr": 56152
+          },
+          {
+            "name": "_doRequestWithTaskGroupCreationBlock:taskGroupCompletionBlock:",
+            "flag": "method.DACalDAVOfficeHoursRequest._doRequestWithTaskGroupCreationBlock:taskGroupCompletionBlock:",
+            "lang": "objc",
+            "addr": 56416
+          },
+          {
+            "name": "startFetchOfficeHoursRequest",
+            "flag": "method.DACalDAVOfficeHoursRequest.startFetchOfficeHoursRequest",
+            "lang": "objc",
+            "addr": 57388
+          },
+          {
+            "name": "startSetOfficeHoursRequest:",
+            "flag": "method.DACalDAVOfficeHoursRequest.startSetOfficeHoursRequest:",
+            "lang": "objc",
+            "addr": 58232
+          },
+          {
+            "name": "cancel",
+            "flag": "method.DACalDAVOfficeHoursRequest.cancel",
+            "lang": "objc",
+            "addr": 58692
+          },
+          {
+            "name": "_finishWithError:",
+            "flag": "method.DACalDAVOfficeHoursRequest._finishWithError:",
+            "lang": "objc",
+            "addr": 58852
+          },
+          {
+            "name": "requestID",
+            "flag": "method.DACalDAVOfficeHoursRequest.requestID",
+            "lang": "objc",
+            "addr": 59296
+          },
+          {
+            "name": "consumer",
+            "flag": "method.DACalDAVOfficeHoursRequest.consumer",
+            "lang": "objc",
+            "addr": 59304
+          },
+          {
+            "name": "account",
+            "flag": "method.DACalDAVOfficeHoursRequest.account",
+            "lang": "objc",
+            "addr": 59348
+          },
+          {
+            "name": "taskManager",
+            "flag": "method.DACalDAVOfficeHoursRequest.taskManager",
+            "lang": "objc",
+            "addr": 59392
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.DACalDAVOfficeHoursRequest..cxx_destruct",
+            "lang": "objc",
+            "addr": 59400
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_finished",
+            "kind": "var",
+            "type": "B",
+            "addr": 213716
+          },
+          {
+            "name": "_taskGroup",
+            "kind": "var",
+            "type": "@\"CoreDAVTaskGroup\"",
+            "addr": 213720
+          },
+          {
+            "name": "_fetchedOfficeHours",
+            "kind": "var",
+            "type": "@\"NSArray\"",
+            "addr": 213724
+          },
+          {
+            "name": "_requestID",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 213728
+          },
+          {
+            "name": "_consumer",
+            "kind": "var",
+            "type": "@\"<DAEventsOfficeHoursRequestResponseConsumer>\"",
+            "addr": 213732
+          },
+          {
+            "name": "_account",
+            "kind": "var",
+            "type": "@\"MobileCalDAVDADaemonAccount\"",
+            "addr": 213736
+          },
+          {
+            "name": "_taskManager",
+            "kind": "var",
+            "type": "@\"DACoreDAVTaskManager\"",
+            "addr": 213740
+          },
+          {
+            "name": "requestID",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "consumer",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "account",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "taskManager",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "MobileCalDAVGroupExpansion",
+        "addr": 214952,
+        "lang": "objc",
+        "index": 14,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithPrincipalPath:consumer:account:",
+            "flag": "method.MobileCalDAVGroupExpansion.initWithPrincipalPath:consumer:account:",
+            "lang": "objc",
+            "addr": 60124
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.MobileCalDAVGroupExpansion.dealloc",
+            "lang": "objc",
+            "addr": 60364
+          },
+          {
+            "name": "perform",
+            "flag": "method.MobileCalDAVGroupExpansion.perform",
+            "lang": "objc",
+            "addr": 60464
+          },
+          {
+            "name": "cancel",
+            "flag": "method.MobileCalDAVGroupExpansion.cancel",
+            "lang": "objc",
+            "addr": 60756
+          },
+          {
+            "name": "expandCDGroup:",
+            "flag": "method.MobileCalDAVGroupExpansion.expandCDGroup:",
+            "lang": "objc",
+            "addr": 60872
+          },
+          {
+            "name": "_handleResponseForSearchTask:",
+            "flag": "method.MobileCalDAVGroupExpansion._handleResponseForSearchTask:",
+            "lang": "objc",
+            "addr": 62844
+          },
+          {
+            "name": "resultFromCalDAVPrincipalResult:",
+            "flag": "method.MobileCalDAVGroupExpansion.resultFromCalDAVPrincipalResult:",
+            "lang": "objc",
+            "addr": 63540
+          },
+          {
+            "name": "_handleResponseForTask:",
+            "flag": "method.MobileCalDAVGroupExpansion._handleResponseForTask:",
+            "lang": "objc",
+            "addr": 63836
+          },
+          {
+            "name": "_finishWithError:",
+            "flag": "method.MobileCalDAVGroupExpansion._finishWithError:",
+            "lang": "objc",
+            "addr": 64764
+          },
+          {
+            "name": "searchID",
+            "flag": "method.MobileCalDAVGroupExpansion.searchID",
+            "lang": "objc",
+            "addr": 65040
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.MobileCalDAVGroupExpansion..cxx_destruct",
+            "lang": "objc",
+            "addr": 65048
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_principalPath",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 213744
+          },
+          {
+            "name": "_consumer",
+            "kind": "var",
+            "type": "@\"<DAEventsGroupExpansionResponseConsumer>\"",
+            "addr": 213748
+          },
+          {
+            "name": "_account",
+            "kind": "var",
+            "type": "@\"MobileCalDAVDADaemonAccount\"",
+            "addr": 213752
+          },
+          {
+            "name": "_taskManager",
+            "kind": "var",
+            "type": "@\"DACoreDAVTaskManager\"",
+            "addr": 213756
+          },
+          {
+            "name": "_results",
+            "kind": "var",
+            "type": "@\"NSMutableDictionary\"",
+            "addr": 213760
+          },
+          {
+            "name": "_finished",
+            "kind": "var",
+            "type": "B",
+            "addr": 213764
+          },
+          {
+            "name": "_searchID",
+            "kind": "var",
+            "type": "@",
+            "addr": 213768
+          },
+          {
+            "name": "searchID",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "MobileCalDAVSharingResponse",
+        "addr": 215032,
+        "lang": "objc",
+        "index": 15,
+        "super": [
+          "NSObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_NSObject"
+        ],
+        "methods": [
+          {
+            "name": "initWithCalendarID:consumer:account:",
+            "flag": "method.MobileCalDAVSharingResponse.initWithCalendarID:consumer:account:",
+            "lang": "objc",
+            "addr": 65320
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.MobileCalDAVSharingResponse.dealloc",
+            "lang": "objc",
+            "addr": 65596
+          },
+          {
+            "name": "waiterID",
+            "flag": "method.MobileCalDAVSharingResponse.waiterID",
+            "lang": "objc",
+            "addr": 65704
+          },
+          {
+            "name": "calendarRefreshForPrincipal:completedWithNewCTags:newSyncTokens:calendarHomeSyncToken:updatedCalendars:error:",
+            "flag": "method.MobileCalDAVSharingResponse.calendarRefreshForPrincipal:completedWithNewCTags:newSyncTokens:calendarHomeSyncToken:updatedCalendars:error:",
+            "lang": "objc",
+            "addr": 65712
+          },
+          {
+            "name": "_deleteSharingInvitationWithUID:",
+            "flag": "method.MobileCalDAVSharingResponse._deleteSharingInvitationWithUID:",
+            "lang": "objc",
+            "addr": 65956
+          },
+          {
+            "name": "_reallyRespondToSharingRequestWithCreateReplyGroupBlock:",
+            "flag": "method.MobileCalDAVSharingResponse._reallyRespondToSharingRequestWithCreateReplyGroupBlock:",
+            "lang": "objc",
+            "addr": 67800
+          },
+          {
+            "name": "_doSharingRequestResponseWithCreateReplyGroupBlock:",
+            "flag": "method.MobileCalDAVSharingResponse._doSharingRequestResponseWithCreateReplyGroupBlock:",
+            "lang": "objc",
+            "addr": 69048
+          },
+          {
+            "name": "respondToSharingRequestWithResponse:",
+            "flag": "method.MobileCalDAVSharingResponse.respondToSharingRequestWithResponse:",
+            "lang": "objc",
+            "addr": 69932
+          },
+          {
+            "name": "_createReplyGroupForShareInviteResponse:toCalendar:",
+            "flag": "method.MobileCalDAVSharingResponse._createReplyGroupForShareInviteResponse:toCalendar:",
+            "lang": "objc",
+            "addr": 70056
+          },
+          {
+            "name": "reportAsJunk",
+            "flag": "method.MobileCalDAVSharingResponse.reportAsJunk",
+            "lang": "objc",
+            "addr": 71016
+          },
+          {
+            "name": "_createReplyGroupForReportingCalendarAsJunk:",
+            "flag": "method.MobileCalDAVSharingResponse._createReplyGroupForReportingCalendarAsJunk:",
+            "lang": "objc",
+            "addr": 71136
+          },
+          {
+            "name": "finishWithError:",
+            "flag": "method.MobileCalDAVSharingResponse.finishWithError:",
+            "lang": "objc",
+            "addr": 71816
+          },
+          {
+            "name": "_shareResponseIsGoingAway",
+            "flag": "method.MobileCalDAVSharingResponse._shareResponseIsGoingAway",
+            "lang": "objc",
+            "addr": 72252
+          },
+          {
+            "name": "cancel",
+            "flag": "method.MobileCalDAVSharingResponse.cancel",
+            "lang": "objc",
+            "addr": 72664
+          },
+          {
+            "name": "responseID",
+            "flag": "method.MobileCalDAVSharingResponse.responseID",
+            "lang": "objc",
+            "addr": 72832
+          },
+          {
+            "name": "consumer",
+            "flag": "method.MobileCalDAVSharingResponse.consumer",
+            "lang": "objc",
+            "addr": 72840
+          },
+          {
+            "name": "setConsumer:",
+            "flag": "method.MobileCalDAVSharingResponse.setConsumer:",
+            "lang": "objc",
+            "addr": 72884
+          },
+          {
+            "name": "calendarID",
+            "flag": "method.MobileCalDAVSharingResponse.calendarID",
+            "lang": "objc",
+            "addr": 72896
+          },
+          {
+            "name": "setCalendarID:",
+            "flag": "method.MobileCalDAVSharingResponse.setCalendarID:",
+            "lang": "objc",
+            "addr": 72904
+          },
+          {
+            "name": "taskManager",
+            "flag": "method.MobileCalDAVSharingResponse.taskManager",
+            "lang": "objc",
+            "addr": 72916
+          },
+          {
+            "name": "currentOperation",
+            "flag": "method.MobileCalDAVSharingResponse.currentOperation",
+            "lang": "objc",
+            "addr": 72924
+          },
+          {
+            "name": "setCurrentOperation:",
+            "flag": "method.MobileCalDAVSharingResponse.setCurrentOperation:",
+            "lang": "objc",
+            "addr": 72932
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.MobileCalDAVSharingResponse..cxx_destruct",
+            "lang": "objc",
+            "addr": 72944
+          },
+          {
+            "name": "waiterID",
+            "flag": "method.MobileCalDAVAttachmentDownloader.waiterID",
+            "lang": "objc",
+            "addr": 124208
+          },
+          {
+            "name": "responseWithCalendarID:consumer:account:",
+            "flag": "method.class.MobileCalDAVSharingResponse.responseWithCalendarID:consumer:account:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 65160
+          },
+          {
+            "name": "waiterID",
+            "flag": "method.MobileCalDAVAttachmentDownloader.waiterID",
+            "lang": "objc",
+            "addr": 124208
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_responseID",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 213772
+          },
+          {
+            "name": "_consumer",
+            "kind": "var",
+            "type": "@\"<DAEventsCalendarSharingResponseConsumer>\"",
+            "addr": 213776
+          },
+          {
+            "name": "_calendarID",
+            "kind": "var",
+            "type": "@\"NSString\"",
+            "addr": 213780
+          },
+          {
+            "name": "_account",
+            "kind": "var",
+            "type": "@\"MobileCalDAVDADaemonAccount\"",
+            "addr": 213784
+          },
+          {
+            "name": "_waitingForGatekeeper",
+            "kind": "var",
+            "type": "B",
+            "addr": 213788
+          },
+          {
+            "name": "_holdingGatekeeperLock",
+            "kind": "var",
+            "type": "B",
+            "addr": 213792
+          },
+          {
+            "name": "_finished",
+            "kind": "var",
+            "type": "B",
+            "addr": 213796
+          },
+          {
+            "name": "_taskManager",
+            "kind": "var",
+            "type": "@\"DACoreDAVTaskManager\"",
+            "addr": 213800
+          },
+          {
+            "name": "_currentOperation",
+            "kind": "var",
+            "type": "@\"CoreDAVTaskGroup\"",
+            "addr": 213804
+          },
+          {
+            "name": "responseID",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "consumer",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "calendarID",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "currentOperation",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "taskManager",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      },
+      {
+        "classname": "MobileCalDAVDaemonAccount",
+        "addr": 215112,
+        "lang": "objc",
+        "index": 16,
+        "super": [
+          "MobileCalDAVAccount"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_MobileCalDAVAccount"
+        ],
+        "methods": [
+          {
+            "name": "beginDownloadingAttachmentWithUUID:consumer:",
+            "flag": "method.MobileCalDAVDaemonAccount.beginDownloadingAttachmentWithUUID:consumer:",
+            "lang": "objc",
+            "addr": 34612
+          },
+          {
+            "name": "cancelDownloadingInstance:error:",
+            "flag": "method.MobileCalDAVDaemonAccount.cancelDownloadingInstance:error:",
+            "lang": "objc",
+            "addr": 35200
+          },
+          {
+            "name": "_attachmentDownloadDidFinish:",
+            "flag": "method.MobileCalDAVDaemonAccount._attachmentDownloadDidFinish:",
+            "lang": "objc",
+            "addr": 35792
+          },
+          {
+            "name": "cancelAllAttachmentDownloads",
+            "flag": "method.MobileCalDAVDaemonAccount.cancelAllAttachmentDownloads",
+            "lang": "objc",
+            "addr": 35992
+          },
+          {
+            "name": "initWithBackingAccount:",
+            "flag": "method.MobileCalDAVDaemonAccount.initWithBackingAccount:",
+            "lang": "objc",
+            "addr": 74364
+          },
+          {
+            "name": "_cancelOptionsTimer",
+            "flag": "method.MobileCalDAVDaemonAccount._cancelOptionsTimer",
+            "lang": "objc",
+            "addr": 74720
+          },
+          {
+            "name": "dealloc",
+            "flag": "method.MobileCalDAVDaemonAccount.dealloc",
+            "lang": "objc",
+            "addr": 74804
+          },
+          {
+            "name": "APSTopicHasValidPrefix:",
+            "flag": "method.MobileCalDAVDaemonAccount.APSTopicHasValidPrefix:",
+            "lang": "objc",
+            "addr": 75044
+          },
+          {
+            "name": "cancelRefreshWithCompletion:",
+            "flag": "method.MobileCalDAVDaemonAccount.cancelRefreshWithCompletion:",
+            "lang": "objc",
+            "addr": 75160
+          },
+          {
+            "name": "_updateWatchedCollections",
+            "flag": "method.MobileCalDAVDaemonAccount._updateWatchedCollections",
+            "lang": "objc",
+            "addr": 75864
+          },
+          {
+            "name": "refreshActor:didCompleteWithError:",
+            "flag": "method.MobileCalDAVDaemonAccount.refreshActor:didCompleteWithError:",
+            "lang": "objc",
+            "addr": 76500
+          },
+          {
+            "name": "_isEnabled",
+            "flag": "method.MobileCalDAVDaemonAccount._isEnabled",
+            "lang": "objc",
+            "addr": 80024
+          },
+          {
+            "name": "_persistAccountSyncDiagnostics:withContext:completionTime:willAttemptToRetry:hitInternalRefreshTimeout:error:",
+            "flag": "method.MobileCalDAVDaemonAccount._persistAccountSyncDiagnostics:withContext:completionTime:willAttemptToRetry:hitInternalRefreshTimeout:error:",
+            "lang": "objc",
+            "addr": 80244
+          },
+          {
+            "name": "waiterID",
+            "flag": "method.MobileCalDAVDaemonAccount.waiterID",
+            "lang": "objc",
+            "addr": 81816
+          },
+          {
+            "name": "_reallyPerformSearchQuery:",
+            "flag": "method.MobileCalDAVDaemonAccount._reallyPerformSearchQuery:",
+            "lang": "objc",
+            "addr": 81820
+          },
+          {
+            "name": "_hasChangesInStore:forChangesCall:",
+            "flag": "method.MobileCalDAVDaemonAccount._hasChangesInStore:forChangesCall:",
+            "lang": "objc",
+            "addr": 82208
+          },
+          {
+            "name": "_shouldRefreshInResponseToDBChange",
+            "flag": "method.MobileCalDAVDaemonAccount._shouldRefreshInResponseToDBChange",
+            "lang": "objc",
+            "addr": 82488
+          },
+          {
+            "name": "_continueRefresh",
+            "flag": "method.MobileCalDAVDaemonAccount._continueRefresh",
+            "lang": "objc",
+            "addr": 84852
+          },
+          {
+            "name": "_refresh",
+            "flag": "method.MobileCalDAVDaemonAccount._refresh",
+            "lang": "objc",
+            "addr": 86500
+          },
+          {
+            "name": "_serverProbeTimedOut",
+            "flag": "method.MobileCalDAVDaemonAccount._serverProbeTimedOut",
+            "lang": "objc",
+            "addr": 89164
+          },
+          {
+            "name": "account:isValid:validationError:",
+            "flag": "func.00015e50",
+            "lang": "objc",
+            "addr": 89680
+          },
+          {
+            "name": "discoverInitialPropertiesWithConsumer:",
+            "flag": "method.MobileCalDAVDaemonAccount.discoverInitialPropertiesWithConsumer:",
+            "lang": "objc",
+            "addr": 89972
+          },
+          {
+            "name": "discoveryTask:gotAccountInfo:error:",
+            "flag": "method.MobileCalDAVDaemonAccount.discoveryTask:gotAccountInfo:error:",
+            "lang": "objc",
+            "addr": 91132
+          },
+          {
+            "name": "_probeAndSync",
+            "flag": "method.MobileCalDAVDaemonAccount._probeAndSync",
+            "lang": "objc",
+            "addr": 91380
+          },
+          {
+            "name": "refreshCollections:withReason:",
+            "flag": "method.MobileCalDAVDaemonAccount.refreshCollections:withReason:",
+            "lang": "objc",
+            "addr": 94972
+          },
+          {
+            "name": "watchedCollections",
+            "flag": "method.MobileCalDAVDaemonAccount.watchedCollections",
+            "lang": "objc",
+            "addr": 95792
+          },
+          {
+            "name": "serverTokenRegistrationURL",
+            "flag": "method.MobileCalDAVDaemonAccount.serverTokenRegistrationURL",
+            "lang": "objc",
+            "addr": 95808
+          },
+          {
+            "name": "fetchInterval",
+            "flag": "method.MobileCalDAVDaemonAccount.fetchInterval",
+            "lang": "objc",
+            "addr": 96096
+          },
+          {
+            "name": "setSafeToRefresh:",
+            "flag": "method.MobileCalDAVDaemonAccount.setSafeToRefresh:",
+            "lang": "objc",
+            "addr": 96144
+          },
+          {
+            "name": "monitorFoldersWithIDs:",
+            "flag": "method.MobileCalDAVDaemonAccount.monitorFoldersWithIDs:",
+            "lang": "objc",
+            "addr": 96804
+          },
+          {
+            "name": "getDAAccount",
+            "flag": "method.MobileCalDAVDaemonAccount.getDAAccount",
+            "lang": "objc",
+            "addr": 97416
+          },
+          {
+            "name": "_foundDuplicateCalendars:",
+            "flag": "method.MobileCalDAVDaemonAccount._foundDuplicateCalendars:",
+            "lang": "objc",
+            "addr": 97420
+          },
+          {
+            "name": "promptUserForNewCoreDAVPasswordWithCompletionBlock:",
+            "flag": "method.MobileCalDAVDaemonAccount.promptUserForNewCoreDAVPasswordWithCompletionBlock:",
+            "lang": "objc",
+            "addr": 97424
+          },
+          {
+            "name": "trustHandler",
+            "flag": "method.MobileCalDAVDaemonAccount.trustHandler",
+            "lang": "objc",
+            "addr": 97524
+          },
+          {
+            "name": "onBehalfOfBundleIdentifier",
+            "flag": "method.MobileCalDAVDaemonAccount.onBehalfOfBundleIdentifier",
+            "lang": "objc",
+            "addr": 97644
+          },
+          {
+            "name": "saveXpcActivity:",
+            "flag": "method.MobileCalDAVDaemonAccount.saveXpcActivity:",
+            "lang": "objc",
+            "addr": 97764
+          },
+          {
+            "name": "scheduleIdentifier",
+            "flag": "method.MobileCalDAVDaemonAccount.scheduleIdentifier",
+            "lang": "objc",
+            "addr": 97896
+          },
+          {
+            "name": "consumer",
+            "flag": "method.MobileCalDAVDaemonAccount.consumer",
+            "lang": "objc",
+            "addr": 98016
+          },
+          {
+            "name": "setConsumer:",
+            "flag": "method.MobileCalDAVDaemonAccount.setConsumer:",
+            "lang": "objc",
+            "addr": 98068
+          },
+          {
+            "name": "safeToRefresh",
+            "flag": "method.MobileCalDAVDaemonAccount.safeToRefresh",
+            "lang": "objc",
+            "addr": 98088
+          },
+          {
+            "name": "fullRefresh",
+            "flag": "method.MobileCalDAVDaemonAccount.fullRefresh",
+            "lang": "objc",
+            "addr": 98104
+          },
+          {
+            "name": "setFullRefresh:",
+            "flag": "method.MobileCalDAVDaemonAccount.setFullRefresh:",
+            "lang": "objc",
+            "addr": 98120
+          },
+          {
+            "name": "forcedRefresh",
+            "flag": "method.MobileCalDAVDaemonAccount.forcedRefresh",
+            "lang": "objc",
+            "addr": 98136
+          },
+          {
+            "name": "setForcedRefresh:",
+            "flag": "method.MobileCalDAVDaemonAccount.setForcedRefresh:",
+            "lang": "objc",
+            "addr": 98152
+          },
+          {
+            "name": "refreshReason",
+            "flag": "method.MobileCalDAVDaemonAccount.refreshReason",
+            "lang": "objc",
+            "addr": 98168
+          },
+          {
+            "name": "setRefreshReason:",
+            "flag": "method.MobileCalDAVDaemonAccount.setRefreshReason:",
+            "lang": "objc",
+            "addr": 98184
+          },
+          {
+            "name": "optionsProbe",
+            "flag": "method.MobileCalDAVDaemonAccount.optionsProbe",
+            "lang": "objc",
+            "addr": 98200
+          },
+          {
+            "name": "setOptionsProbe:",
+            "flag": "method.MobileCalDAVDaemonAccount.setOptionsProbe:",
+            "lang": "objc",
+            "addr": 98216
+          },
+          {
+            "name": "optionsTimeoutTimer",
+            "flag": "method.MobileCalDAVDaemonAccount.optionsTimeoutTimer",
+            "lang": "objc",
+            "addr": 98236
+          },
+          {
+            "name": "setOptionsTimeoutTimer:",
+            "flag": "method.MobileCalDAVDaemonAccount.setOptionsTimeoutTimer:",
+            "lang": "objc",
+            "addr": 98252
+          },
+          {
+            "name": "shouldRegisterWithRefreshManager",
+            "flag": "method.MobileCalDAVDaemonAccount.shouldRegisterWithRefreshManager",
+            "lang": "objc",
+            "addr": 98272
+          },
+          {
+            "name": "setShouldRegisterWithRefreshManager:",
+            "flag": "method.MobileCalDAVDaemonAccount.setShouldRegisterWithRefreshManager:",
+            "lang": "objc",
+            "addr": 98288
+          },
+          {
+            "name": "attachmentDownloadsByAttachmentUUID",
+            "flag": "method.MobileCalDAVDaemonAccount.attachmentDownloadsByAttachmentUUID",
+            "lang": "objc",
+            "addr": 98304
+          },
+          {
+            "name": "setAttachmentDownloadsByAttachmentUUID:",
+            "flag": "method.MobileCalDAVDaemonAccount.setAttachmentDownloadsByAttachmentUUID:",
+            "lang": "objc",
+            "addr": 98320
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.MobileCalDAVDaemonAccount..cxx_destruct",
+            "lang": "objc",
+            "addr": 98340
+          },
+          {
+            "name": "account:isValid:validationError:",
+            "flag": "method.MobileCalDAVDaemonAccount.account:isValid:validationError:",
+            "lang": "objc",
+            "addr": 124352
+          },
+          {
+            "name": "extractDARefreshReasonFromContext:",
+            "flag": "method.class.MobileCalDAVDaemonAccount.extractDARefreshReasonFromContext:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 97284
+          },
+          {
+            "name": "convertToMobileCalDAVRefreshReason:",
+            "flag": "method.class.MobileCalDAVDaemonAccount.convertToMobileCalDAVRefreshReason:",
+            "flags": [
+              "class"
+            ],
+            "lang": "objc",
+            "addr": 97388
+          },
+          {
+            "name": "account:isValid:validationError:",
+            "flag": "method.MobileCalDAVDaemonAccount.account:isValid:validationError:",
+            "lang": "objc",
+            "addr": 124352
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_consumer",
+            "kind": "var",
+            "type": "@\"CalDAVAgent\"",
+            "addr": 213836
+          },
+          {
+            "name": "_validityCheckConsumer",
+            "kind": "var",
+            "type": "@\"<DAValidityCheckConsumer>\"",
+            "addr": 213852
+          },
+          {
+            "name": "_shouldRegisterWithRefreshManager",
+            "kind": "var",
+            "type": "B",
+            "addr": 213808
+          },
+          {
+            "name": "_safeToRefresh",
+            "kind": "var",
+            "type": "B",
+            "addr": 213832
+          },
+          {
+            "name": "_waitingForGatekeeper",
+            "kind": "var",
+            "type": "B",
+            "addr": 213848
+          },
+          {
+            "name": "_holdingGatekeeperLock",
+            "kind": "var",
+            "type": "B",
+            "addr": 213840
+          },
+          {
+            "name": "_waitingForDiscoveryGatekeeper",
+            "kind": "var",
+            "type": "B",
+            "addr": 213856
+          },
+          {
+            "name": "_holdingDiscoveryGatekeeperLock",
+            "kind": "var",
+            "type": "B",
+            "addr": 213860
+          },
+          {
+            "name": "_forcedRefresh",
+            "kind": "var",
+            "type": "B",
+            "addr": 213816
+          },
+          {
+            "name": "_fullRefresh",
+            "kind": "var",
+            "type": "B",
+            "addr": 213812
+          },
+          {
+            "name": "_refreshReason",
+            "kind": "var",
+            "type": "i",
+            "addr": 213820
+          },
+          {
+            "name": "_lastRetryTimeout",
+            "kind": "var",
+            "type": "d",
+            "addr": 213844
+          },
+          {
+            "name": "_attachmentDownloadsByAttachmentUUID",
+            "kind": "var",
+            "type": "@\"NSMutableDictionary\"",
+            "addr": 213824
+          },
+          {
+            "name": "_optionsProbe",
+            "kind": "var",
+            "type": "@\"CoreDAVOptionsTask\"",
+            "addr": 213864
+          },
+          {
+            "name": "_optionsTimeoutTimer",
+            "kind": "var",
+            "type": "@\"NSTimer\"",
+            "addr": 213868
+          },
+          {
+            "name": "_watchedCollections",
+            "kind": "var",
+            "type": "@\"NSMutableSet\"",
+            "addr": 213828
+          },
+          {
+            "name": "attachmentDownloadsByAttachmentUUID",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "consumer",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "safeToRefresh",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "fullRefresh",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "forcedRefresh",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "shouldRegisterWithRefreshManager",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "refreshReason",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "optionsProbe",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "optionsTimeoutTimer",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "watchedCollections",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "scheduleIdentifier",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "onBehalfOfBundleIdentifier",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "trustHandler",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "fetchInterval",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "pushDisabled",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "waiterID",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      }
+    ],
+    "swift_metadata": {
+      "is_swift": false,
+      "symbols": []
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Support/dataaccessd",
+        "Frameworks/AccountInfo.plist",
+        "Frameworks/DAPubCal.framework/DADaemonPubCal.bundle/Contents/Info.plist",
+        "Frameworks/DAPubCal.framework/DADaemonPubCal.bundle/Contents/version.plist",
+        "Frameworks/DAPubCal.framework/DADaemonPubCal.bundle/Contents/_CodeSignature/CodeResources",
+        "Frameworks/DAPubCal.framework/DADaemonPubCal.bundle/Contents/MacOS/DADaemonPubCal",
+        "Frameworks/DAPubCal.framework/Versions/A/_CodeSignature/CodeResources",
+        "Frameworks/DAPubCal.framework/Versions/A/Resources/Localizable.loctable",
+        "Frameworks/DAPubCal.framework/Versions/A/Resources/Info.plist",
+        "Frameworks/DAPubCal.framework/Versions/A/Resources/version.plist",
+        "Frameworks/DASubCal.framework/Versions/A/_CodeSignature/CodeResources",
+        "Frameworks/DASubCal.framework/Versions/A/Resources/Info.plist",
+        "Frameworks/DASubCal.framework/Versions/A/Resources/version.plist",
+        "Frameworks/DASubCal.framework/DADaemonSubCal.bundle/Contents/Info.plist",
+        "Frameworks/DASubCal.framework/DADaemonSubCal.bundle/Contents/version.plist",
+        "Frameworks/DASubCal.framework/DADaemonSubCal.bundle/Contents/_CodeSignature/CodeResources",
+        "Frameworks/DASubCal.framework/DADaemonSubCal.bundle/Contents/MacOS/DADaemonSubCal",
+        "Frameworks/DADaemonSupport.framework/Versions/A/_CodeSignature/CodeResources",
+        "Frameworks/DADaemonSupport.framework/Versions/A/Resources/Info.plist",
+        "Frameworks/DADaemonSupport.framework/Versions/A/Resources/version.plist",
+        "Frameworks/DACalDAV.framework/DADaemonCalDAV.bundle/Contents/Info.plist",
+        "Frameworks/DACalDAV.framework/DADaemonCalDAV.bundle/Contents/version.plist",
+        "Frameworks/DACalDAV.framework/DADaemonCalDAV.bundle/Contents/_CodeSignature/CodeResources",
+        "Frameworks/DACalDAV.framework/DADaemonCalDAV.bundle/Contents/MacOS/DADaemonCalDAV",
+        "Frameworks/DACalDAV.framework/Versions/A/_CodeSignature/CodeResources",
+        "Frameworks/DACalDAV.framework/Versions/A/Resources/Info.plist",
+        "Frameworks/DACalDAV.framework/Versions/A/Resources/version.plist",
+        "Frameworks/DACoreDAVGlue.framework/Versions/A/_CodeSignature/CodeResources",
+        "Frameworks/DACoreDAVGlue.framework/Versions/A/Resources/Info.plist",
+        "Frameworks/DACoreDAVGlue.framework/Versions/A/Resources/version.plist",
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/DataAccess.loctable",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist"
+      ],
+      "plists": {
+        "Frameworks/AccountInfo.plist": {
+          "DAAccountInfo": [
+            {
+              "ACAccountType": "com.apple.account.CalDAV",
+              "DAAgentClass": "CalDAVAgent",
+              "DAAgentClassBundle": "DADaemonCalDAV",
+              "DAAccountClass": "MobileCalDAVDAAccount",
+              "DAFrameworkName": "DACalDAV.framework",
+              "DADaemonAccountClass": "MobileCalDAVDADaemonAccount"
+            },
+            {
+              "DAFrameworkName": "DACalDAV.framework",
+              "ACAccountType": "com.apple.account.CalDAV",
+              "DAAccountClass": "MobileCalDAVDAAccount",
+              "ACTopLevelAccountType": "com.apple.account.AppleAccount",
+              "DAAgentClass": "CalDAVAgent",
+              "DAAgentClassBundle": "DADaemonCalDAV",
+              "DADaemonAccountClass": "MobileCalDAViCloudDADaemonAccount"
+            },
+            {
+              "ACAccountType": "com.apple.account.PublishedCalendar",
+              "DAAgentClass": "PubCalAgent",
+              "DAAgentClassBundle": "DADaemonPubCal",
+              "DAAccountClass": "PubCalAccount",
+              "DAFrameworkName": "DAPubCal.framework",
+              "DADaemonAccountClass": "PubCalDaemonAccount"
+            },
+            {
+              "ACAccountType": "com.apple.account.SubscribedCalendar",
+              "DAAgentClass": "SubCalAgent",
+              "DAAgentClassBundle": "DADaemonSubCal",
+              "DAAccountClass": "SubCalAccount",
+              "DAFrameworkName": "DASubCal.framework",
+              "DADaemonAccountClass": "SubCalDaemonAccount"
+            },
+            {
+              "ACAccountType": "com.apple.account.HolidayCalendar",
+              "DAAgentClass": "SubCalAgent",
+              "DAAgentClassBundle": "DADaemonSubCal",
+              "DAAccountClass": "SubCalAccount",
+              "DAFrameworkName": "DASubCal.framework",
+              "DADaemonAccountClass": "HolidayCalDaemonAccount"
+            }
+          ]
+        },
+        "Frameworks/DAPubCal.framework/DADaemonPubCal.bundle/Contents/Info.plist": {
+          "CFBundleName": "DADaemonPubCal",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "English",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "BNDL",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "DADaemonPubCal",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.DADaemonPubCal",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleSignature": "????",
+          "DTPlatformBuild": ""
+        },
+        "Frameworks/DAPubCal.framework/DADaemonPubCal.bundle/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "DataAccess",
+          "SourceVersion": "2691001003000000",
+          "BuildVersion": "1882"
+        },
+        "Frameworks/DAPubCal.framework/Versions/A/Resources/Info.plist": {
+          "CFBundleName": "DAPubCal",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "English",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DAAccountInfo": [
+            {
+              "ACAccountType": "com.apple.account.PublishedCalendar",
+              "DAAgentClassBundle": "DADaemonPubCal",
+              "DAAccountClass": "PubCalAccount",
+              "DAAgentClass": "PubCalAgent",
+              "DADaemonAccountClass": "PubCalDaemonAccount"
+            }
+          ],
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "BNDL",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "DAPubCal",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.DAPubCal",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleSignature": "????",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": ""
+        },
+        "Frameworks/DAPubCal.framework/Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "DataAccess",
+          "SourceVersion": "2691001003000000",
+          "BuildVersion": "1882"
+        },
+        "Frameworks/DASubCal.framework/Versions/A/Resources/Info.plist": {
+          "CFBundleName": "DASubCal",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "English",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DAAccountInfo": [
+            {
+              "ACAccountType": "com.apple.account.SubscribedCalendar",
+              "DAAgentClassBundle": "DADaemonSubCal",
+              "DAAccountClass": "SubCalAccount",
+              "DAAgentClass": "SubCalAgent",
+              "DADaemonAccountClass": "SubCalDaemonAccount"
+            },
+            {
+              "ACAccountType": "com.apple.account.HolidayCalendar",
+              "DAAgentClassBundle": "DADaemonSubCal",
+              "DAAccountClass": "SubCalAccount",
+              "DAAgentClass": "SubCalAgent",
+              "DADaemonAccountClass": "HolidayCalDaemonAccount"
+            }
+          ],
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "BNDL",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "DASubCal",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.DASubCal",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleSignature": "????",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": ""
+        },
+        "Frameworks/DASubCal.framework/Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "DataAccess",
+          "SourceVersion": "2691001003000000",
+          "BuildVersion": "1882"
+        },
+        "Frameworks/DASubCal.framework/DADaemonSubCal.bundle/Contents/Info.plist": {
+          "CFBundleName": "DADaemonSubCal",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "English",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "BNDL",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "DADaemonSubCal",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.DADaemonSubCal",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleSignature": "????",
+          "DTPlatformBuild": ""
+        },
+        "Frameworks/DASubCal.framework/DADaemonSubCal.bundle/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "DataAccess",
+          "SourceVersion": "2691001003000000",
+          "BuildVersion": "1882"
+        },
+        "Frameworks/DADaemonSupport.framework/Versions/A/Resources/Info.plist": {
+          "CFBundleName": "DADaemonSupport",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "English",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "FMWK",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "DADaemonSupport",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.DADaemonSupport",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleSignature": "????",
+          "DTPlatformBuild": ""
+        },
+        "Frameworks/DADaemonSupport.framework/Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "DataAccess",
+          "SourceVersion": "2691001003000000",
+          "BuildVersion": "1882"
+        },
+        "Frameworks/DACalDAV.framework/DADaemonCalDAV.bundle/Contents/Info.plist": {
+          "CFBundleName": "DADaemonCalDAV",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "English",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "BNDL",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "DADaemonCalDAV",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.DADaemonCalDAV",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleSignature": "????",
+          "DTPlatformBuild": ""
+        },
+        "Frameworks/DACalDAV.framework/DADaemonCalDAV.bundle/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "DataAccess",
+          "SourceVersion": "2691001003000000",
+          "BuildVersion": "1882"
+        },
+        "Frameworks/DACalDAV.framework/Versions/A/Resources/Info.plist": {
+          "CFBundleName": "DACalDAV",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "English",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DAAccountInfo": [
+            {
+              "ACAccountType": "com.apple.account.CalDAV",
+              "DAAgentClassBundle": "DADaemonCalDAV",
+              "DAAccountClass": "MobileCalDAVDAAccount",
+              "DAAgentClass": "CalDAVAgent",
+              "DADaemonAccountClass": "MobileCalDAVDADaemonAccount"
+            },
+            {
+              "ACAccountType": "com.apple.account.CalDAV",
+              "DAAgentClassBundle": "DADaemonCalDAV",
+              "DAAccountClass": "MobileCalDAVDAAccount",
+              "ACTopLevelAccountType": "com.apple.account.AppleAccount",
+              "DAAgentClass": "CalDAVAgent",
+              "DADaemonAccountClass": "MobileCalDAViCloudDADaemonAccount"
+            }
+          ],
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "BNDL",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "DACalDAV",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.DACalDAV",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleSignature": "????",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": ""
+        },
+        "Frameworks/DACalDAV.framework/Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "DataAccess",
+          "SourceVersion": "2691001003000000",
+          "BuildVersion": "1882"
+        },
+        "Frameworks/DACoreDAVGlue.framework/Versions/A/Resources/Info.plist": {
+          "CFBundleName": "DACoreDAVGlue",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "English",
+          "CFBundleVersion": "1.0",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "FMWK",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "DACoreDAVGlue",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.dataaccess.coredavglue",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleSignature": "????",
+          "DTPlatformBuild": ""
+        },
+        "Frameworks/DACoreDAVGlue.framework/Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "1.0",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "DataAccess",
+          "SourceVersion": "2691001003000000",
+          "BuildVersion": "1882"
+        },
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "DataAccess",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "English",
+          "CFBundleVersion": "1.0",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "FMWK",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "DataAccess",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.dataaccess.framework",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleSignature": "????",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "1.0",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "DataAccess",
+          "SourceVersion": "2691001003000000",
+          "BuildVersion": "1882"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
+  },
+  "usage": {
+    "layer": "usage",
+    "used_by": [
+      {
+        "path": "/System/Applications/Calendar.app",
+        "binary": "/System/Applications/Calendar.app/Contents/MacOS/Calendar",
+        "used_classes": []
+      }
+    ]
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "loaded"
+  }
+}

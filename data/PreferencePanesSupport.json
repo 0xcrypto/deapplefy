@@ -1,0 +1,534 @@
+{
+  "framework": "PreferencePanesSupport.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/PreferencePanesSupport.framework/PlugIns/AdvertisingExtension.appex/Contents/MacOS/AdvertisingExtension",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 75680,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "objc with blocks",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/PrivateFrameworks/TransparencyDetailsViewMac.framework/Versions/A/TransparencyDetailsViewMac",
+          "/System/Library/PrivateFrameworks/LimitAdTracking.framework/Versions/A/LimitAdTracking",
+          "/System/Library/PrivateFrameworks/PreferencePanesSupport.framework/Versions/A/PreferencePanesSupport",
+          "/System/Library/PrivateFrameworks/OnBoardingKit.framework/Versions/A/OnBoardingKit",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "AdvertisingExtension",
+        "addr": 4295001336,
+        "lang": "objc",
+        "index": 0,
+        "super": [
+          "PPSecPrivacyExtension"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_PPSecPrivacyExtension"
+        ]
+      },
+      {
+        "classname": "AdvertisingViewController",
+        "addr": 4295001456,
+        "lang": "objc",
+        "index": 1,
+        "super": [
+          "PPSecPrivacyViewController"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$_PPSecPrivacyViewController"
+        ],
+        "methods": [
+          {
+            "name": "viewDidLoad",
+            "flag": "method.AdvertisingViewController.viewDidLoad",
+            "lang": "objc",
+            "addr": 4294970720
+          },
+          {
+            "name": "updateView",
+            "flag": "method.AdvertisingViewController.updateView",
+            "lang": "objc",
+            "addr": 4294971036
+          },
+          {
+            "name": "personalizedAds:",
+            "flag": "method.AdvertisingViewController.personalizedAds:",
+            "lang": "objc",
+            "addr": 4294971264
+          },
+          {
+            "name": "aboutAdvertisingAndPrivacy:",
+            "flag": "method.AdvertisingViewController.aboutAdvertisingAndPrivacy:",
+            "lang": "objc",
+            "addr": 4294971436
+          },
+          {
+            "name": "viewADInformation:",
+            "flag": "method.AdvertisingViewController.viewADInformation:",
+            "lang": "objc",
+            "addr": 4294971696
+          },
+          {
+            "name": "adUserTransparencySheetDidDismiss:",
+            "flag": "method.AdvertisingViewController.adUserTransparencySheetDidDismiss:",
+            "lang": "objc",
+            "addr": 4294971908
+          },
+          {
+            "name": "aboutAdvertisingAndPrivacy",
+            "flag": "method.AdvertisingViewController.aboutAdvertisingAndPrivacy",
+            "lang": "objc",
+            "addr": 4294971932
+          },
+          {
+            "name": "setAboutAdvertisingAndPrivacy:",
+            "flag": "method.AdvertisingViewController.setAboutAdvertisingAndPrivacy:",
+            "lang": "objc",
+            "addr": 4294971984
+          },
+          {
+            "name": "personalizedAds",
+            "flag": "method.AdvertisingViewController.personalizedAds",
+            "lang": "objc",
+            "addr": 4294972004
+          },
+          {
+            "name": "setPersonalizedAds:",
+            "flag": "method.AdvertisingViewController.setPersonalizedAds:",
+            "lang": "objc",
+            "addr": 4294972056
+          },
+          {
+            "name": "tracking",
+            "flag": "method.AdvertisingViewController.tracking",
+            "lang": "objc",
+            "addr": 4294972076
+          },
+          {
+            "name": "setTracking:",
+            "flag": "method.AdvertisingViewController.setTracking:",
+            "lang": "objc",
+            "addr": 4294972092
+          },
+          {
+            "name": ".cxx_destruct",
+            "flag": "method.AdvertisingViewController..cxx_destruct",
+            "lang": "objc",
+            "addr": 4294972104
+          }
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "_transparencySheet",
+            "kind": "var",
+            "type": "@\"ADUserTransparencySheet\"",
+            "addr": 4295001320
+          },
+          {
+            "name": "_aboutAdvertisingAndPrivacy",
+            "kind": "var",
+            "type": "@\"NSButton\"",
+            "addr": 4295001324
+          },
+          {
+            "name": "_personalizedAds",
+            "kind": "var",
+            "type": "@\"NSButton\"",
+            "addr": 4295001328
+          },
+          {
+            "name": "_tracking",
+            "kind": "var",
+            "type": "@\"ADTrackingTransparency\"",
+            "addr": 4295001332
+          },
+          {
+            "name": "aboutAdvertisingAndPrivacy",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "personalizedAds",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "tracking",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "hash",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "superclass",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "description",
+            "kind": "property",
+            "addr": 0
+          },
+          {
+            "name": "debugDescription",
+            "kind": "property",
+            "addr": 0
+          }
+        ]
+      }
+    ],
+    "swift_metadata": {
+      "is_swift": false,
+      "symbols": []
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/PPSpecifierTableViewController.loctable",
+        "Versions/A/Resources/Localizable.loctable",
+        "Versions/A/Resources/NGestureRow.loctable",
+        "Versions/A/Resources/Assets.car",
+        "Versions/A/Resources/InfoPlist.loctable",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist",
+        "Versions/A/XPCServices/WallpaperHelper.xpc/Contents/Info.plist",
+        "Versions/A/XPCServices/WallpaperHelper.xpc/Contents/version.plist",
+        "Versions/A/XPCServices/WallpaperHelper.xpc/Contents/_CodeSignature/CodeResources",
+        "Versions/A/XPCServices/WallpaperHelper.xpc/Contents/MacOS/WallpaperHelper",
+        "Versions/A/XPCServices/WallpaperHelper.xpc/Contents/Resources/InfoPlist.loctable",
+        "Versions/A/Resources/Base.lproj/NGestureRow.nib",
+        "Versions/A/Resources/Base.lproj/PPSpecifierTableViewController.nib",
+        "PlugIns/AdvertisingExtension.appex/Contents/Info.plist",
+        "PlugIns/AdvertisingExtension.appex/Contents/version.plist",
+        "PlugIns/AdvertisingExtension.appex/Contents/_CodeSignature/CodeResources",
+        "PlugIns/AdvertisingExtension.appex/Contents/MacOS/AdvertisingExtension",
+        "PlugIns/AdvertisingExtension.appex/Contents/Resources/AdvertisingViewController.loctable",
+        "PlugIns/AdvertisingExtension.appex/Contents/Resources/icon.icns",
+        "PlugIns/AdvertisingExtension.appex/Contents/Resources/Localizable.loctable",
+        "PlugIns/AdvertisingExtension.appex/Contents/Resources/Assets.car",
+        "PlugIns/AdvertisingExtension.appex/Contents/Resources/InfoPlist.loctable",
+        "PlugIns/AdvertisingExtension.appex/Contents/Resources/de.lproj/Advertising.searchTerms",
+        "PlugIns/AdvertisingExtension.appex/Contents/Resources/he.lproj/Advertising.searchTerms",
+        "PlugIns/AdvertisingExtension.appex/Contents/Resources/en_AU.lproj/Advertising.searchTerms",
+        "PlugIns/AdvertisingExtension.appex/Contents/Resources/ar.lproj/Advertising.searchTerms",
+        "PlugIns/AdvertisingExtension.appex/Contents/Resources/el.lproj/Advertising.searchTerms",
+        "PlugIns/AdvertisingExtension.appex/Contents/Resources/ja.lproj/Advertising.searchTerms",
+        "PlugIns/AdvertisingExtension.appex/Contents/Resources/en.lproj/Advertising.searchTerms",
+        "PlugIns/AdvertisingExtension.appex/Contents/Resources/uk.lproj/Advertising.searchTerms",
+        "PlugIns/AdvertisingExtension.appex/Contents/Resources/es_419.lproj/Advertising.searchTerms",
+        "PlugIns/AdvertisingExtension.appex/Contents/Resources/zh_CN.lproj/Advertising.searchTerms",
+        "PlugIns/AdvertisingExtension.appex/Contents/Resources/es.lproj/Advertising.searchTerms",
+        "PlugIns/AdvertisingExtension.appex/Contents/Resources/sl.lproj/Advertising.searchTerms",
+        "PlugIns/AdvertisingExtension.appex/Contents/Resources/pt_BR.lproj/Advertising.searchTerms",
+        "PlugIns/AdvertisingExtension.appex/Contents/Resources/da.lproj/Advertising.searchTerms",
+        "PlugIns/AdvertisingExtension.appex/Contents/Resources/it.lproj/Advertising.searchTerms",
+        "PlugIns/AdvertisingExtension.appex/Contents/Resources/sk.lproj/Advertising.searchTerms",
+        "PlugIns/AdvertisingExtension.appex/Contents/Resources/pt_PT.lproj/Advertising.searchTerms",
+        "PlugIns/AdvertisingExtension.appex/Contents/Resources/ms.lproj/Advertising.searchTerms",
+        "PlugIns/AdvertisingExtension.appex/Contents/Resources/sv.lproj/Advertising.searchTerms",
+        "PlugIns/AdvertisingExtension.appex/Contents/Resources/cs.lproj/Advertising.searchTerms",
+        "PlugIns/AdvertisingExtension.appex/Contents/Resources/ko.lproj/Advertising.searchTerms",
+        "PlugIns/AdvertisingExtension.appex/Contents/Resources/Base.lproj/AdvertisingViewController.nib",
+        "PlugIns/AdvertisingExtension.appex/Contents/Resources/no.lproj/Advertising.searchTerms",
+        "PlugIns/AdvertisingExtension.appex/Contents/Resources/hu.lproj/Advertising.searchTerms",
+        "PlugIns/AdvertisingExtension.appex/Contents/Resources/zh_HK.lproj/Advertising.searchTerms",
+        "PlugIns/AdvertisingExtension.appex/Contents/Resources/tr.lproj/Advertising.searchTerms",
+        "PlugIns/AdvertisingExtension.appex/Contents/Resources/pl.lproj/Advertising.searchTerms",
+        "PlugIns/AdvertisingExtension.appex/Contents/Resources/zh_TW.lproj/Advertising.searchTerms",
+        "PlugIns/AdvertisingExtension.appex/Contents/Resources/en_GB.lproj/Advertising.searchTerms",
+        "PlugIns/AdvertisingExtension.appex/Contents/Resources/vi.lproj/Advertising.searchTerms",
+        "PlugIns/AdvertisingExtension.appex/Contents/Resources/ru.lproj/Advertising.searchTerms",
+        "PlugIns/AdvertisingExtension.appex/Contents/Resources/fr_CA.lproj/Advertising.searchTerms",
+        "PlugIns/AdvertisingExtension.appex/Contents/Resources/fr.lproj/Advertising.searchTerms",
+        "PlugIns/AdvertisingExtension.appex/Contents/Resources/fi.lproj/Advertising.searchTerms",
+        "PlugIns/AdvertisingExtension.appex/Contents/Resources/id.lproj/Advertising.searchTerms",
+        "PlugIns/AdvertisingExtension.appex/Contents/Resources/nl.lproj/Advertising.searchTerms",
+        "PlugIns/AdvertisingExtension.appex/Contents/Resources/th.lproj/Advertising.searchTerms",
+        "PlugIns/AdvertisingExtension.appex/Contents/Resources/ro.lproj/Advertising.searchTerms",
+        "PlugIns/AdvertisingExtension.appex/Contents/Resources/hr.lproj/Advertising.searchTerms",
+        "PlugIns/AdvertisingExtension.appex/Contents/Resources/hi.lproj/Advertising.searchTerms",
+        "PlugIns/AdvertisingExtension.appex/Contents/Resources/ca.lproj/Advertising.searchTerms"
+      ],
+      "plists": {
+        "Versions/A/Resources/Info.plist": {
+          "DTXcode": "2600",
+          "NSExtensionSDK": {
+            "com.apple.preference.appleid.details": {
+              "NSExtension": {
+                "NSExtensionAttributes": {
+                  "NSExtensionPointName": "com.apple.preference.appleid.details",
+                  "NSExtensionPointVersion": "1.0"
+                },
+                "Subsystems": [
+                  "NSSharingService_Subsystem",
+                  "NSViewService_PKSubsystem"
+                ],
+                "NSExtensionContextHostClass": "PPSpecifierHostExtensionContext",
+                "NSExtensionHostEntitlement": "com.apple.developer.extension-host.systemprefsapp.appleid",
+                "NSExtensionContextClass": "PPSpecifierExtensionContext",
+                "NSExtensionProtocol": "PPSpecifierExtension"
+              },
+              "XPCService": {
+                "ServiceType": "Application",
+                "JoinExistingSession": true,
+                "RunLoopType": "_NSApplicationMain",
+                "_AdditionalSubServices": {
+                  "apple-extension-service": true,
+                  "viewbridge": true
+                }
+              }
+            },
+            "com.apple.preference.security.privacy": {
+              "NSExtension": {
+                "NSExtensionAttributes": {
+                  "NSExtensionPointName": "com.apple.preference.security.privacy",
+                  "NSExtensionPointVersion": "1.0"
+                },
+                "Subsystems": [
+                  "NSSharingService_Subsystem",
+                  "NSViewService_PKSubsystem"
+                ],
+                "NSExtensionContextHostClass": "PPSecPrivacyHostExtensionContext",
+                "NSExtensionHostEntitlement": "com.apple.developer.extension-host.systemprefsapp.privacy",
+                "NSExtensionContextClass": "PPSecPrivacyExtensionContext",
+                "NSExtensionProtocol": "PPSecPrivacyExtension"
+              },
+              "XPCService": {
+                "ServiceType": "Application",
+                "JoinExistingSession": true,
+                "RunLoopType": "_NSApplicationMain",
+                "_AdditionalSubServices": {
+                  "apple-extension-service": true,
+                  "viewbridge": true
+                }
+              }
+            },
+            "com.apple.preference.sharing.service": {
+              "NSExtension": {
+                "NSExtensionAttributes": {
+                  "NSExtensionPointName": "com.apple.preference.sharing.service",
+                  "NSExtensionPointVersion": "1.0"
+                },
+                "Subsystems": [
+                  "NSSharingService_Subsystem",
+                  "NSViewService_PKSubsystem"
+                ],
+                "NSExtensionContextHostClass": "PPSharingServiceHostExtensionContext",
+                "NSExtensionHostEntitlement": "com.apple.developer.extension-host.systemprefsapp.sharing",
+                "NSExtensionContextClass": "PPSharingServiceExtensionContext",
+                "NSExtensionProtocol": "PPSecPrivacyExtension"
+              },
+              "XPCService": {
+                "ServiceType": "Application",
+                "JoinExistingSession": true,
+                "RunLoopType": "_NSApplicationMain",
+                "_AdditionalSubServices": {
+                  "apple-extension-service": true,
+                  "viewbridge": true
+                }
+              }
+            }
+          },
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "English",
+          "CFBundleVersion": "13.0",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "FMWK",
+          "CFBundleShortVersionString": "13.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "PreferencePanesSupport",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.frameworks.preferencepanessupport",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleSignature": "????",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "13.0",
+          "CFBundleShortVersionString": "13.0",
+          "ProjectName": "PreferencePanesSupport",
+          "SourceVersion": "191000000000000",
+          "BuildVersion": "2616"
+        },
+        "Versions/A/XPCServices/WallpaperHelper.xpc/Contents/Info.plist": {
+          "CFBundleName": "WallpaperHelper",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "XPCService": {
+            "ServiceType": "Application"
+          },
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "WallpaperHelper",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.preferencepanessupport.WallpaperHelper",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleDisplayName": "WallpaperHelper",
+          "DTPlatformBuild": ""
+        },
+        "Versions/A/XPCServices/WallpaperHelper.xpc/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "PreferencePanesSupport",
+          "SourceVersion": "191000000000000",
+          "BuildVersion": "2616"
+        },
+        "PlugIns/AdvertisingExtension.appex/Contents/Info.plist": {
+          "PPSecPrivacyViewControllerClass": "AdvertisingViewController",
+          "CFBundleName": "AdvertisingExtension",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2018 Apple Inc. All rights reserved.",
+          "PPSecPrivacyPlacementIndex": 10000,
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "English",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "PPSecPrivacyElementKeyName": "Privacy_Advertising",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "XPC!",
+          "CFBundleIconFile": "icon",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleShortVersionString": "1.0",
+          "PPSecPrivacySearchTermsFileName": "Advertising",
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "AdvertisingExtension",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.preferencepane.security.AdvertisingExtension",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleDisplayName": "AdvertisingExtension",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "",
+          "NSExtension": {
+            "NSExtensionPointIdentifier": "com.apple.preference.security.privacy",
+            "NSExtensionPointVersion": "1.0",
+            "NSExtensionPrincipalClass": "AdvertisingExtension"
+          }
+        },
+        "PlugIns/AdvertisingExtension.appex/Contents/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "SearchAdsFramework",
+          "SourceVersion": "637001013000000",
+          "BuildVersion": "94"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
+  },
+  "usage": {
+    "layer": "usage",
+    "used_by": [
+      {
+        "path": "/System/Applications/System Settings.app",
+        "binary": "/System/Applications/System Settings.app/Contents/MacOS/System Settings",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/ControlCenter.app",
+        "binary": "/System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/Setup Assistant.app",
+        "binary": "/System/Library/CoreServices/Setup Assistant.app/Contents/MacOS/Setup Assistant",
+        "used_classes": []
+      }
+    ]
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "loaded"
+  }
+}

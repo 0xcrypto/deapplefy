@@ -1,0 +1,384 @@
+{
+  "framework": "PromotedContentJetSupport.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/PromotedContentJetSupport.framework/Versions/A/XPCServices/PromotedContentJetService.xpc/Contents/MacOS/PromotedContentJetService",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 4294967296,
+          "binsz": 139360,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": true,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "/usr/lib/dyld",
+          "laddr": 0,
+          "lang": "swift",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": true,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": true,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/System/Library/PrivateFrameworks/PromotedContentJetSupport.framework/Versions/A/PromotedContentJetSupport",
+          "/System/Library/PrivateFrameworks/PromotedContentJetClient.framework/Versions/A/PromotedContentJetClient",
+          "/System/Library/PrivateFrameworks/APFoundation.framework/Versions/A/APFoundation",
+          "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+          "/usr/lib/libobjc.A.dylib",
+          "/usr/lib/libSystem.B.dylib",
+          "/System/Library/PrivateFrameworks/AppleMediaServices.framework/Versions/A/AppleMediaServices",
+          "/usr/lib/swift/libswiftAccelerate.dylib",
+          "/usr/lib/swift/libswiftCompression.dylib",
+          "/usr/lib/swift/libswiftCore.dylib",
+          "/usr/lib/swift/libswiftCoreFoundation.dylib",
+          "/usr/lib/swift/libswiftCoreLocation.dylib",
+          "/usr/lib/swift/libswiftDispatch.dylib",
+          "/usr/lib/swift/libswiftIOKit.dylib",
+          "/usr/lib/swift/libswiftMetal.dylib",
+          "/usr/lib/swift/libswiftOSLog.dylib",
+          "/usr/lib/swift/libswiftObjectiveC.dylib",
+          "/usr/lib/swift/libswiftQuartzCore.dylib",
+          "/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib",
+          "/usr/lib/swift/libswiftXPC.dylib",
+          "/usr/lib/swift/libswift_Builtin_float.dylib",
+          "/usr/lib/swift/libswift_Concurrency.dylib",
+          "/usr/lib/swift/libswiftos.dylib",
+          "/usr/lib/swift/libswiftsimd.dylib"
+        ]
+      }
+    },
+    "classes": [
+      {
+        "classname": "BuildMonitor",
+        "addr": 55816,
+        "lang": "swift",
+        "index": 0,
+        "fields": [
+          {
+            "name": "shouldScheduleCacheTask",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295023536
+          }
+        ]
+      },
+      {
+        "classname": "JetServiceState",
+        "addr": 55876,
+        "lang": "swift",
+        "index": 1,
+        "fields": [
+          {
+            "name": "watchdog",
+            "kind": "property",
+            "addr": 4295023560
+          },
+          {
+            "name": "settingsChangeNotification",
+            "kind": "property",
+            "type": "\fE\u00f1\u00ff\u00ff_pSg",
+            "addr": 4295023584
+          },
+          {
+            "name": "intentDispatcher",
+            "kind": "property",
+            "addr": 4295023616
+          },
+          {
+            "name": "buildMonitor",
+            "kind": "property",
+            "addr": 4295023633
+          }
+        ]
+      },
+      {
+        "classname": "JetServiceProcessor",
+        "addr": 56132,
+        "lang": "swift",
+        "index": 2,
+        "fields": [
+          {
+            "name": "intentDispatcher",
+            "kind": "property",
+            "addr": 4295023648
+          },
+          {
+            "name": "signpostProvider",
+            "kind": "property",
+            "addr": 4295023680
+          },
+          {
+            "name": "wasRunning",
+            "kind": "property",
+            "type": "Bool",
+            "addr": 4295023697
+          },
+          {
+            "name": "delegate",
+            "kind": "property",
+            "addr": 4295023708
+          },
+          {
+            "name": "telemetryRecorder",
+            "kind": "property",
+            "addr": 4295023728
+          }
+        ]
+      },
+      {
+        "classname": "Error",
+        "addr": 56200,
+        "lang": "swift",
+        "index": 3,
+        "fields": [
+          {
+            "name": "invalidAMSBagData",
+            "kind": "property",
+            "addr": 4295023760
+          }
+        ]
+      },
+      {
+        "classname": "PromotedContentJetService.BuildMonitor",
+        "addr": 4295050616,
+        "lang": "objc",
+        "index": 4,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "shouldScheduleCacheTask",
+            "kind": "var",
+            "addr": 4295018944
+          }
+        ]
+      },
+      {
+        "classname": "PromotedContentJetService.JetServiceState",
+        "addr": 4295050776,
+        "lang": "objc",
+        "index": 5,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "watchdog",
+            "kind": "var",
+            "addr": 4295019000
+          },
+          {
+            "name": "settingsChangeNotification",
+            "kind": "var",
+            "addr": 4295019008
+          },
+          {
+            "name": "intentDispatcher",
+            "kind": "var",
+            "addr": 4295019016
+          },
+          {
+            "name": "buildMonitor",
+            "kind": "var",
+            "addr": 4295019024
+          }
+        ]
+      },
+      {
+        "classname": "PromotedContentJetService.JetServiceProcessor",
+        "addr": 4295051176,
+        "lang": "objc",
+        "index": 6,
+        "super": [
+          "Swift._SwiftObject"
+        ],
+        "rawsuper": [
+          "_OBJC_CLASS_$__TtCs12_SwiftObject"
+        ],
+        "fields": [
+          {
+            "name": "isa",
+            "kind": "var",
+            "type": "struct objc_class *",
+            "addr": 0
+          },
+          {
+            "name": "intentDispatcher",
+            "kind": "var",
+            "addr": 4295019328
+          },
+          {
+            "name": "signpostProvider",
+            "kind": "var",
+            "addr": 4295019336
+          },
+          {
+            "name": "wasRunning",
+            "kind": "var",
+            "addr": 4295019344
+          },
+          {
+            "name": "delegate",
+            "kind": "var",
+            "addr": 4295019352
+          },
+          {
+            "name": "telemetryRecorder",
+            "kind": "var",
+            "addr": 4295019360
+          }
+        ]
+      }
+    ],
+    "swift_metadata": {
+      "is_swift": false,
+      "symbols": []
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist",
+        "Versions/A/XPCServices/PromotedContentJetService.xpc/Contents/Info.plist",
+        "Versions/A/XPCServices/PromotedContentJetService.xpc/Contents/version.plist",
+        "Versions/A/XPCServices/PromotedContentJetService.xpc/Contents/_CodeSignature/CodeResources",
+        "Versions/A/XPCServices/PromotedContentJetService.xpc/Contents/MacOS/PromotedContentJetService",
+        "Versions/A/XPCServices/PromotedContentJetService.xpc/Contents/Resources/promotedcontent.jetpack"
+      ],
+      "plists": {
+        "Versions/A/Resources/Info.plist": {
+          "CFBundleName": "PromotedContentJetSupport",
+          "CFBundleIdentifier": "com.apple.ap.PromotedContentJetSupport",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "DTPlatformBuild": "",
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleVersion": "1",
+          "CFBundleExecutable": "PromotedContentJetSupport",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTXcode": "2600",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundlePackageType": "FMWK",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "DTSDKBuild": "25B66",
+          "CFBundleDevelopmentRegion": "en",
+          "DTSDKName": "macosx26.1.internal",
+          "CFBundleShortVersionString": "1.0"
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleVersion": "1",
+          "CFBundleShortVersionString": "1.0",
+          "ProjectName": "PromotedContent",
+          "SourceVersion": "556001013000000",
+          "BuildVersion": "47"
+        },
+        "Versions/A/XPCServices/PromotedContentJetService.xpc/Contents/Info.plist": {
+          "DTPlatformVersion": "26.1",
+          "CFBundleIdentifier": "com.apple.ap.PromotedContentJetService",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "DTPlatformBuild": "",
+          "DTXcodeBuild": "17A6264l",
+          "XPCService": {
+            "ServiceType": "Application",
+            "_AdditionalProperties": {
+              "RunningBoard": {
+                "Managed": false,
+                "Reported": false
+              }
+            }
+          },
+          "DTXcode": "2600",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundlePackageType": "XPC!",
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "DTSDKBuild": "25B66",
+          "DTSDKName": "macosx26.1.internal",
+          "LSMinimumSystemVersion": "26.1"
+        },
+        "Versions/A/XPCServices/PromotedContentJetService.xpc/Contents/version.plist": {
+          "ProjectName": "PromotedContent",
+          "BuildVersion": "47",
+          "SourceVersion": "556001013000000"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
+  },
+  "usage": {
+    "layer": "usage",
+    "used_by": []
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "loaded"
+  }
+}

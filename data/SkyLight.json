@@ -1,0 +1,360 @@
+{
+  "framework": "SkyLight.framework",
+  "binary_path": "/System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/Resources/CursorAsset_base",
+  "static": {
+    "layer": "static",
+    "binary_info": {
+      "info": {
+        "info": {
+          "arch": "arm",
+          "baddr": 0,
+          "binsz": 8505856,
+          "bintype": "mach0",
+          "bits": 64,
+          "canary": false,
+          "injprot": false,
+          "class": "MACH064",
+          "compiled": "",
+          "compiler": "clang",
+          "crypto": false,
+          "dbg_file": "",
+          "endian": "little",
+          "havecode": true,
+          "guid": "",
+          "intrp": "",
+          "laddr": 0,
+          "lang": "c",
+          "linenum": false,
+          "lsyms": false,
+          "machine": "arm64e",
+          "nx": false,
+          "os": "macos",
+          "cc": "",
+          "pic": false,
+          "relocs": false,
+          "rpath": "",
+          "sanitize": false,
+          "static": false,
+          "stripped": false,
+          "subsys": "darwin",
+          "va": true,
+          "checksums": {}
+        }
+      },
+      "libraries": {
+        "libs": [
+          "/usr/lib/libSystem.B.dylib"
+        ]
+      }
+    },
+    "classes": [],
+    "swift_metadata": {
+      "is_swift": false,
+      "symbols": []
+    },
+    "protocols": [],
+    "structure": {
+      "files": [
+        "Versions/A/_CodeSignature/CodeResources",
+        "Versions/A/Resources/WSInfo",
+        "Versions/A/Resources/CursorAsset_base",
+        "Versions/A/Resources/Configuration.plist",
+        "Versions/A/Resources/SkyLightShaders.air64.metallib",
+        "Versions/A/Resources/WindowServer",
+        "Versions/A/Resources/CursorAsset",
+        "Versions/A/Resources/Info.plist",
+        "Versions/A/Resources/version.plist",
+        "Versions/A/Resources/AquaAppearanceHelper.app/Contents/Info.plist",
+        "Versions/A/Resources/AquaAppearanceHelper.app/Contents/PkgInfo",
+        "Versions/A/Resources/AquaAppearanceHelper.app/Contents/version.plist",
+        "Versions/A/Resources/AquaAppearanceHelper.app/Contents/_CodeSignature/CodeResources",
+        "Versions/A/Resources/AquaAppearanceHelper.app/Contents/MacOS/AquaAppearanceHelper"
+      ],
+      "plists": {
+        "Versions/A/Resources/Configuration.plist": {
+          "Colors": {
+            "Black": {
+              "blue": 0,
+              "green": 0,
+              "red": 0
+            },
+            "LightGray": {
+              "blue": 0.7491,
+              "green": 0.7491,
+              "red": 0.7491
+            },
+            "MediumGray": {
+              "blue": 0.29803922,
+              "green": 0.29803922,
+              "red": 0.30588235
+            }
+          },
+          "DisplayResolutionConfiguration": {},
+          "AllowDisplayModesNotMarkedSafeSubstitutions": true,
+          "ForceSessionDrawsVirtualFramebuffer": false,
+          "Palettes": {
+            "Install": {
+              "Desktop": "MediumGray",
+              "Startup": "LightGray",
+              "Fade": "Black"
+            },
+            "FullScreenApp": {
+              "Desktop": "Black",
+              "Fade": "Black"
+            },
+            "Standard": {
+              "Desktop": "Black",
+              "Startup": "Black",
+              "Fade": "Black"
+            }
+          },
+          "SessionUsesVirtualFramebuffer": true,
+          "SpinControlService": "com.apple.spinreporterd"
+        },
+        "Versions/A/Resources/Info.plist": {
+          "DTPlatformVersion": "26.1",
+          "CFBundleIdentifier": "com.apple.SkyLight",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleName": "SkyLight",
+          "DTPlatformBuild": "25B69",
+          "DTXcodeBuild": "17A6264l",
+          "CFBundleExecutable": "SkyLight",
+          "DTXcode": "2600",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "BuildMachineOSBuild": "23A344014",
+          "DTPlatformName": "macosx",
+          "DTSDKBuild": "25B69",
+          "DTSDKName": "macosx26.1.internal",
+          "LSMinimumSystemVersion": "26.1",
+          "CFBundleShortVersionString": "1.600.0"
+        },
+        "Versions/A/Resources/version.plist": {
+          "CFBundleShortVersionString": "1.600.0",
+          "ProjectName": "SkyLight",
+          "SourceVersion": "918021000000000",
+          "BuildVersion": "3"
+        },
+        "Versions/A/Resources/AquaAppearanceHelper.app/Contents/Info.plist": {
+          "CFBundleName": "AquaAppearanceHelper",
+          "DTXcode": "2600",
+          "DTSDKName": "macosx26.1.internal",
+          "NSHumanReadableCopyright": "Copyright \u00a9 2019 com.apple.SkyLight. All rights reserved.",
+          "DTSDKBuild": "25B69",
+          "CFBundleDevelopmentRegion": "en",
+          "CFBundleVersion": "1",
+          "BuildMachineOSBuild": "23A344014",
+          "NSPrincipalClass": "NSApplication",
+          "DTPlatformName": "macosx",
+          "CFBundlePackageType": "APPL",
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleSupportedPlatforms": [
+            "MacOSX"
+          ],
+          "CFBundleInfoDictionaryVersion": "6.0",
+          "CFBundleExecutable": "AquaAppearanceHelper",
+          "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+          "CFBundleIdentifier": "com.apple.AquaAppearanceHelper",
+          "DTPlatformVersion": "26.1",
+          "DTXcodeBuild": "17A6264l",
+          "LSMinimumSystemVersion": "26.1",
+          "DTPlatformBuild": "25B69",
+          "LSUIElement": true
+        },
+        "Versions/A/Resources/AquaAppearanceHelper.app/Contents/version.plist": {
+          "CFBundleShortVersionString": "1.0",
+          "CFBundleVersion": "1",
+          "ProjectName": "SkyLight_Tools",
+          "BuildAliasOf": "SkyLight",
+          "SourceVersion": "918021000000000",
+          "BuildVersion": "3"
+        }
+      },
+      "code_resources": {
+        "rules": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          }
+        },
+        "rules2": {
+          "^.*": {
+            "omit": true,
+            "weight": 20
+          },
+          "^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/": {
+            "nested": true,
+            "weight": 0
+          }
+        },
+        "files": {},
+        "files2": {}
+      }
+    }
+  },
+  "usage": {
+    "layer": "usage",
+    "used_by": [
+      {
+        "path": "/System/Applications/Music.app",
+        "binary": "/System/Applications/Music.app/Contents/MacOS/Music",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Applications/System Settings.app",
+        "binary": "/System/Applications/System Settings.app/Contents/MacOS/System Settings",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Applications/TV.app",
+        "binary": "/System/Applications/TV.app/Contents/MacOS/TV",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/Dock.app",
+        "binary": "/System/Library/CoreServices/Dock.app/Contents/MacOS/Dock",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/ControlCenter.app",
+        "binary": "/System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/Siri.app",
+        "binary": "/System/Library/CoreServices/Siri.app/Contents/MacOS/Siri",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/Pro Display Calibrator.app",
+        "binary": "/System/Library/CoreServices/Pro Display Calibrator.app/Contents/MacOS/Pro Display Calibrator",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/WidgetKit Simulator.app",
+        "binary": "/System/Library/CoreServices/WidgetKit Simulator.app/Contents/MacOS/WidgetKit Simulator",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/KeyboardSetupAssistant.app",
+        "binary": "/System/Library/CoreServices/KeyboardSetupAssistant.app/Contents/MacOS/KeyboardSetupAssistant",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/PIPAgent.app",
+        "binary": "/System/Library/CoreServices/PIPAgent.app/Contents/MacOS/PIPAgent",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/TextInputMenuAgent.app",
+        "binary": "/System/Library/CoreServices/TextInputMenuAgent.app/Contents/MacOS/TextInputMenuAgent",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/SystemUIServer.app",
+        "binary": "/System/Library/CoreServices/SystemUIServer.app/Contents/MacOS/SystemUIServer",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/WindowManager.app",
+        "binary": "/System/Library/CoreServices/WindowManager.app/Contents/MacOS/WindowManager",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/Finder.app",
+        "binary": "/System/Library/CoreServices/Finder.app/Contents/MacOS/Finder",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/Language Chooser.app",
+        "binary": "/System/Library/CoreServices/Language Chooser.app/Contents/MacOS/Language Chooser",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/NotificationCenter.app",
+        "binary": "/System/Library/CoreServices/NotificationCenter.app/Contents/MacOS/NotificationCenter",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/ControlStrip.app",
+        "binary": "/System/Library/CoreServices/ControlStrip.app/Contents/MacOS/ControlStrip",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/Setup Assistant.app",
+        "binary": "/System/Library/CoreServices/Setup Assistant.app/Contents/MacOS/Setup Assistant",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/powerd.bundle",
+        "binary": "/System/Library/CoreServices/powerd.bundle/powerd",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/loginwindow.app",
+        "binary": "/System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/Installer Progress.app",
+        "binary": "/System/Library/CoreServices/Installer Progress.app/Contents/MacOS/Installer Progress",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/screencaptureui.app",
+        "binary": "/System/Library/CoreServices/screencaptureui.app/Contents/MacOS/screencaptureui",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/GameOverlayUI.app",
+        "binary": "/System/Library/CoreServices/GameOverlayUI.app/Contents/MacOS/GameOverlayUI",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/SpacesTouchBarAgent.app",
+        "binary": "/System/Library/CoreServices/SpacesTouchBarAgent.app/Contents/MacOS/SpacesTouchBarAgent",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/PowerChime.app",
+        "binary": "/System/Library/CoreServices/PowerChime.app/Contents/MacOS/PowerChime",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/WindowManagerShowDesktopEducation.app",
+        "binary": "/System/Library/CoreServices/WindowManagerShowDesktopEducation.app/Contents/MacOS/WindowManagerShowDesktopEducation",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/UniversalControl.app",
+        "binary": "/System/Library/CoreServices/UniversalControl.app/Contents/MacOS/UniversalControl",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/UserNotificationCenter.app",
+        "binary": "/System/Library/CoreServices/UserNotificationCenter.app/Contents/MacOS/UserNotificationCenter",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/WallpaperAgent.app",
+        "binary": "/System/Library/CoreServices/WallpaperAgent.app/Contents/MacOS/WallpaperAgent",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/rcd.app",
+        "binary": "/System/Library/CoreServices/rcd.app/Contents/MacOS/rcd",
+        "used_classes": []
+      },
+      {
+        "path": "/System/Library/CoreServices/TextInputMenuCore.bundle",
+        "binary": "/System/Library/CoreServices/TextInputMenuCore.bundle/Contents/MacOS/TextInputMenuCore",
+        "used_classes": []
+      }
+    ]
+  },
+  "runtime": {
+    "method": "ctypes",
+    "status": "loaded"
+  }
+}
